@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T21:30:02Z",
+        "uri": "http://web.archive.org/web/20190208213002/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+      },
+      {
+        "datetime": "2019-02-08T23:11:32Z",
+        "uri": "http://web.archive.org/web/20190208231132/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+      },
+      {
+        "datetime": "2019-02-09T11:32:33Z",
+        "uri": "http://web.archive.org/web/20190209113233/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+      },
+      {
+        "datetime": "2019-02-10T01:34:32Z",
+        "uri": "http://web.archive.org/web/20190210013432/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T21:30:02Z",
+      "uri": "http://web.archive.org/web/20190208213002/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:34:32Z",
+      "uri": "http://web.archive.org/web/20190210013432/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/entertainment/2019/02/08/jim-carrey-paints-oil-rig-ejaculating-on-shirtless-donald-trump/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T23:25:13Z",
+        "uri": "http://web.archive.org/web/20190207232513/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+      },
+      {
+        "datetime": "2019-02-08T00:15:02Z",
+        "uri": "http://web.archive.org/web/20190208001502/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+      },
+      {
+        "datetime": "2019-02-08T02:54:50Z",
+        "uri": "http://web.archive.org/web/20190208025450/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+      },
+      {
+        "datetime": "2019-02-10T00:17:15Z",
+        "uri": "http://web.archive.org/web/20190210001715/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T23:25:13Z",
+      "uri": "http://web.archive.org/web/20190207232513/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:17:15Z",
+      "uri": "http://web.archive.org/web/20190210001715/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbsnews.com/news/us-economy-is-less-hot-than-president-trump-claimed-in-his-state-of-the-union-address/"
+}

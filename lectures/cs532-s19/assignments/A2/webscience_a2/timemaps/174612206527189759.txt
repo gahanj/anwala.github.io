@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T01:47:27Z",
+        "uri": "http://web.archive.org/web/20190208014727/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T02:35:14Z",
+        "uri": "http://web.archive.org/web/20190209023514/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T06:55:20Z",
+        "uri": "http://web.archive.org/web/20190209065520/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T02:24:13Z",
+        "uri": "http://web.archive.org/web/20190210022413/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T06:49:43Z",
+        "uri": "http://web.archive.org/web/20190210064943/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T01:47:27Z",
+      "uri": "http://web.archive.org/web/20190208014727/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:49:43Z",
+      "uri": "http://web.archive.org/web/20190210064943/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://edition.cnn.com/videos/us/2019/02/08/ivanka-trump-vacuuming-art-moos-pkg-ebof-vpx.cnn"
+}

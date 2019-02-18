@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:27:10Z",
+        "uri": "http://web.archive.org/web/20190210112710/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:27:10Z",
+      "uri": "http://web.archive.org/web/20190210112710/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:27:10Z",
+      "uri": "http://web.archive.org/web/20190210112710/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town"
+}

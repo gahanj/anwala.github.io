@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T15:00:45Z",
+        "uri": "http://web.archive.org/web/20190210150045/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T15:00:45Z",
+      "uri": "http://web.archive.org/web/20190210150045/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally"
+    },
+    "last": {
+      "datetime": "2019-02-10T15:00:45Z",
+      "uri": "http://web.archive.org/web/20190210150045/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally"
+}

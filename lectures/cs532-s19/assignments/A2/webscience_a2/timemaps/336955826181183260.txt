@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:29:46Z",
+        "uri": "http://web.archive.org/web/20190209232946/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+      },
+      {
+        "datetime": "2019-02-10T02:41:38Z",
+        "uri": "http://web.archive.org/web/20190210024138/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+      },
+      {
+        "datetime": "2019-02-10T02:41:38Z",
+        "uri": "http://web.archive.org/web/20190210024138/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+      },
+      {
+        "datetime": "2019-02-10T09:02:38Z",
+        "uri": "http://web.archive.org/web/20190210090238/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:29:46Z",
+      "uri": "http://web.archive.org/web/20190209232946/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:02:38Z",
+      "uri": "http://web.archive.org/web/20190210090238/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vanityfair.com/style/2019/02/trump-does-his-own-makeup"
+}

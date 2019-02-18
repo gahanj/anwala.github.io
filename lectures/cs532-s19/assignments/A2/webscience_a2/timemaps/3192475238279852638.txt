@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-26T10:07:25Z",
+        "uri": "http://web.archive.org/web/20190126100725/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/"
+      },
+      {
+        "datetime": "2019-02-03T23:35:07Z",
+        "uri": "http://web.archive.org/web/20190203233507/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-26T10:07:25Z",
+      "uri": "http://web.archive.org/web/20190126100725/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-03T23:35:07Z",
+      "uri": "http://web.archive.org/web/20190203233507/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tmz.com/2019/01/25/chuck-schumer-nancy-pelosi-president-trump-government-shutdown/"
+}

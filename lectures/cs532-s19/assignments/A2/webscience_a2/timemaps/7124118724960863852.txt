@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T03:36:24Z",
+        "uri": "http://web.archive.org/web/20190209033624/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-09T04:54:25Z",
+        "uri": "http://web.archive.org/web/20190209045425/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-09T05:34:56Z",
+        "uri": "http://archive.md/20190209053456/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-09T05:39:43Z",
+        "uri": "http://web.archive.org/web/20190209053943/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-09T06:10:54Z",
+        "uri": "http://web.archive.org/web/20190209061054/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-10T02:13:28Z",
+        "uri": "http://web.archive.org/web/20190210021328/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-10T02:57:28Z",
+        "uri": "http://web.archive.org/web/20190210025728/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-10T05:18:54Z",
+        "uri": "http://web.archive.org/web/20190210051854/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      },
+      {
+        "datetime": "2019-02-10T06:42:08Z",
+        "uri": "http://web.archive.org/web/20190210064208/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T03:36:24Z",
+      "uri": "http://web.archive.org/web/20190209033624/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:42:08Z",
+      "uri": "http://web.archive.org/web/20190210064208/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.wsj.com/articles/the-french-philosopher-who-loves-america-11549668746"
+}

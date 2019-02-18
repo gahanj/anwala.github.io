@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T03:42:30Z",
+        "uri": "http://web.archive.org/web/20190209034230/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T03:42:30Z",
+      "uri": "http://web.archive.org/web/20190209034230/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/"
+    },
+    "last": {
+      "datetime": "2019-02-09T03:42:30Z",
+      "uri": "http://web.archive.org/web/20190209034230/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/khashoggi-bezos-trump-saudi/15844/"
+}

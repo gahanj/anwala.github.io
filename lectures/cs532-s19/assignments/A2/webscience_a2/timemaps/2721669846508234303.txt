@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T17:48:04Z",
+        "uri": "http://archive.md/20190208174804/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress"
+      },
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T17:48:04Z",
+      "uri": "http://archive.md/20190208174804/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:06:18Z",
+      "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/blogs/blog-briefing-room/news/429149-mccabe-rosenstein-wrote-comey-memo-under-duress"
+}

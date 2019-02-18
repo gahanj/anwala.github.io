@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-07-20T16:34:46Z",
+        "uri": "http://web.archive.org/web/20160720163446/http://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/"
+      },
+      {
+        "datetime": "2016-07-21T21:30:50Z",
+        "uri": "http://web.archive.org/web/20160721213050/http://spectator.org:80/10-reasons-why-i-will-never-vote-for-donald-trump/"
+      },
+      {
+        "datetime": "2016-07-22T13:43:24Z",
+        "uri": "http://web.archive.org/web/20160722134324/http://spectator.org:80/10-reasons-why-i-will-never-vote-for-donald-trump/"
+      },
+      {
+        "datetime": "2016-07-22T13:43:24Z",
+        "uri": "http://web.archive.org/web/20160722134324/http://spectator.org:80/10-reasons-why-i-will-never-vote-for-donald-trump"
+      },
+      {
+        "datetime": "2016-07-29T08:56:28Z",
+        "uri": "http://web.archive.org/web/20160729085628/http://spectator.org:80/10-reasons-why-i-will-never-vote-for-donald-trump/?"
+      }
+    ],
+    "first": {
+      "datetime": "2016-07-20T16:34:46Z",
+      "uri": "http://web.archive.org/web/20160720163446/http://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/"
+    },
+    "last": {
+      "datetime": "2016-07-29T08:56:28Z",
+      "uri": "http://web.archive.org/web/20160729085628/http://spectator.org:80/10-reasons-why-i-will-never-vote-for-donald-trump/?"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://spectator.org/10-reasons-why-i-will-never-vote-for-donald-trump/"
+}

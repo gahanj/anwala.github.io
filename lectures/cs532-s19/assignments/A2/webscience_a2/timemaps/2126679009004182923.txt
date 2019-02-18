@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T17:01:38Z",
+        "uri": "http://archive.md/20190207170138/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+      },
+      {
+        "datetime": "2019-02-08T21:58:16Z",
+        "uri": "http://web.archive.org/web/20190208215816/http://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+      },
+      {
+        "datetime": "2019-02-08T21:58:17Z",
+        "uri": "http://web.archive.org/web/20190208215817/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+      },
+      {
+        "datetime": "2019-02-09T21:23:05Z",
+        "uri": "http://web.archive.org/web/20190209212305/http://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+      },
+      {
+        "datetime": "2019-02-09T21:23:06Z",
+        "uri": "http://web.archive.org/web/20190209212306/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T17:01:38Z",
+      "uri": "http://archive.md/20190207170138/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+    },
+    "last": {
+      "datetime": "2019-02-09T21:23:06Z",
+      "uri": "http://web.archive.org/web/20190209212306/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/opinions/2019/02/07/trump-slump-may-be-permanent/"
+}

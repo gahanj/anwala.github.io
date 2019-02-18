@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-03-16T01:35:18Z",
+        "uri": "http://wayback.archive-it.org/all/20170316013518/http://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-03-16T01:35:18Z",
+      "uri": "http://wayback.archive-it.org/all/20170316013518/http://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/"
+    },
+    "last": {
+      "datetime": "2017-03-16T01:35:18Z",
+      "uri": "http://wayback.archive-it.org/all/20170316013518/http://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tennessean.com/story/news/politics/2017/03/15/trump-arrives-hermitage-historic-visit-andrew-jacksons-home/99164802/"
+}

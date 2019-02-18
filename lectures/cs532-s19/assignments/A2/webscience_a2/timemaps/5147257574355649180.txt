@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-11T18:16:50Z",
+        "uri": "http://web.archive.org/web/20180811181650/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+      },
+      {
+        "datetime": "2018-08-19T22:01:25Z",
+        "uri": "http://web.archive.org/web/20180819220125/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+      },
+      {
+        "datetime": "2018-09-29T03:50:43Z",
+        "uri": "http://web.archive.org/web/20180929035043/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-11T18:16:50Z",
+      "uri": "http://web.archive.org/web/20180811181650/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+    },
+    "last": {
+      "datetime": "2018-09-29T03:50:43Z",
+      "uri": "http://web.archive.org/web/20180929035043/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.upi.com/Trump-OKs-stiffer-tariffs-on-Turkish-metals-as-lira-plummets/9901533901580/"
+}

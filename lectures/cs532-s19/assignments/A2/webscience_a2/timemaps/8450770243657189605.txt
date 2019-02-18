@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T07:05:10Z",
+        "uri": "http://web.archive.org/web/20190208070510/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment"
+      },
+      {
+        "datetime": "2019-02-08T20:20:05Z",
+        "uri": "http://archive.md/20190208202005/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T07:05:10Z",
+      "uri": "http://web.archive.org/web/20190208070510/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment"
+    },
+    "last": {
+      "datetime": "2019-02-08T20:20:05Z",
+      "uri": "http://archive.md/20190208202005/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.zerohedge.com/news/2019-02-07/trump-sign-order-banning-chinese-telecom-equipment"
+}

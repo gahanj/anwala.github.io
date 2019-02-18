@@ -1,0 +1,358 @@
+{
+  "original_uri": "https://www.axsomreport.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.axsomreport.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-07-16T02:25:55Z",
+        "uri": "http://web.archive.org/web/20170716022555/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-07-20T02:16:28Z",
+        "uri": "http://web.archive.org/web/20170720021628/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-07-20T02:16:28Z",
+        "uri": "http://web.archive.org/web/20170720021628/http://axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-08-15T22:23:34Z",
+        "uri": "http://web.archive.org/web/20170815222334/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-08-29T18:28:43Z",
+        "uri": "http://web.archive.org/web/20170829182843/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2017-08-29T20:35:35Z",
+        "uri": "http://web.archive.org/web/20170829203535/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2017-09-04T04:43:31Z",
+        "uri": "http://web.archive.org/web/20170904044331/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2017-09-16T04:10:29Z",
+        "uri": "http://web.archive.org/web/20170916041029/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-09-30T21:34:09Z",
+        "uri": "http://web.archive.org/web/20170930213409/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2017-10-17T07:52:20Z",
+        "uri": "http://web.archive.org/web/20171017075220/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-11-09T02:33:49Z",
+        "uri": "http://web.archive.org/web/20171109023349/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2017-11-17T12:34:23Z",
+        "uri": "http://wayback.archive-it.org/all/20171117123423/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2017-11-17T12:34:23Z",
+        "uri": "http://web.archive.org/web/20171117123423/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2017-11-17T12:43:52Z",
+        "uri": "http://web.archive.org/web/20171117124352/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2017-12-19T05:29:35Z",
+        "uri": "http://web.archive.org/web/20171219052935/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2018-01-08T10:42:14Z",
+        "uri": "http://wayback.archive-it.org/all/20180108104214/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-01-08T10:42:14Z",
+        "uri": "http://web.archive.org/web/20180108104214/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-01-25T09:51:59Z",
+        "uri": "http://web.archive.org/web/20180125095159/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-01-25T10:22:33Z",
+        "uri": "http://web.archive.org/web/20180125102233/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-03-14T10:55:08Z",
+        "uri": "http://web.archive.org/web/20180314105508/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-03-19T09:55:49Z",
+        "uri": "http://web.archive.org/web/20180319095549/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-03-24T20:32:38Z",
+        "uri": "http://web.archive.org/web/20180324203238/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2018-03-26T12:37:32Z",
+        "uri": "http://web.archive.org/web/20180326123732/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-03-27T02:51:17Z",
+        "uri": "http://web.archive.org/web/20180327025117/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2018-03-27T02:51:17Z",
+        "uri": "http://web.archive.org/web/20180327025117/http://axsomreport.com:80/"
+      },
+      {
+        "datetime": "2018-03-30T13:57:31Z",
+        "uri": "http://web.archive.org/web/20180330135731/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-02T12:30:17Z",
+        "uri": "http://web.archive.org/web/20180402123017/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-05T17:35:24Z",
+        "uri": "http://web.archive.org/web/20180405173524/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-09T12:24:23Z",
+        "uri": "http://web.archive.org/web/20180409122423/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-11T03:28:37Z",
+        "uri": "http://web.archive.org/web/20180411032837/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-16T12:53:55Z",
+        "uri": "http://web.archive.org/web/20180416125355/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-17T11:19:09Z",
+        "uri": "http://web.archive.org/web/20180417111909/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-23T12:43:08Z",
+        "uri": "http://web.archive.org/web/20180423124308/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-04-30T14:55:07Z",
+        "uri": "http://web.archive.org/web/20180430145507/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-05-07T11:17:58Z",
+        "uri": "http://web.archive.org/web/20180507111758/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-05-14T17:38:50Z",
+        "uri": "http://web.archive.org/web/20180514173850/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-05-22T01:29:18Z",
+        "uri": "http://web.archive.org/web/20180522012918/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-05-28T07:03:55Z",
+        "uri": "http://web.archive.org/web/20180528070355/http://www.axsomreport.com:80/"
+      },
+      {
+        "datetime": "2018-05-28T19:06:11Z",
+        "uri": "http://web.archive.org/web/20180528190611/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-06-04T15:08:19Z",
+        "uri": "http://web.archive.org/web/20180604150819/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-06-14T17:04:05Z",
+        "uri": "http://web.archive.org/web/20180614170405/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-06-18T09:38:48Z",
+        "uri": "http://web.archive.org/web/20180618093848/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-06-24T00:23:11Z",
+        "uri": "http://web.archive.org/web/20180624002311/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-06-25T10:16:00Z",
+        "uri": "http://web.archive.org/web/20180625101600/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-07-02T11:46:56Z",
+        "uri": "http://web.archive.org/web/20180702114656/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-07-09T12:15:01Z",
+        "uri": "http://web.archive.org/web/20180709121501/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-07-20T17:30:21Z",
+        "uri": "http://web.archive.org/web/20180720173021/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-07-23T09:57:19Z",
+        "uri": "http://web.archive.org/web/20180723095719/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-07-30T12:37:02Z",
+        "uri": "http://web.archive.org/web/20180730123702/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-08-06T12:01:01Z",
+        "uri": "http://web.archive.org/web/20180806120101/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-08-06T12:08:51Z",
+        "uri": "http://web.archive.org/web/20180806120851/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-08-13T12:17:00Z",
+        "uri": "http://web.archive.org/web/20180813121700/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-08-20T14:02:20Z",
+        "uri": "http://web.archive.org/web/20180820140220/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-08-22T06:53:26Z",
+        "uri": "http://web.archive.org/web/20180822065326/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-08-27T12:33:13Z",
+        "uri": "http://web.archive.org/web/20180827123313/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-09-03T13:04:03Z",
+        "uri": "http://web.archive.org/web/20180903130403/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-09-10T12:18:38Z",
+        "uri": "http://web.archive.org/web/20180910121838/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-09-17T10:29:38Z",
+        "uri": "http://web.archive.org/web/20180917102938/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-09-25T05:30:38Z",
+        "uri": "http://web.archive.org/web/20180925053038/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-10-02T09:43:43Z",
+        "uri": "http://web.archive.org/web/20181002094343/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-10-08T10:44:09Z",
+        "uri": "http://web.archive.org/web/20181008104409/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-10-15T11:07:34Z",
+        "uri": "http://web.archive.org/web/20181015110734/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-10-22T10:29:35Z",
+        "uri": "http://web.archive.org/web/20181022102935/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-10-29T11:11:22Z",
+        "uri": "http://web.archive.org/web/20181029111122/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-11-05T16:01:13Z",
+        "uri": "http://web.archive.org/web/20181105160113/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-11-12T12:41:40Z",
+        "uri": "http://web.archive.org/web/20181112124140/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-11-19T08:26:04Z",
+        "uri": "http://web.archive.org/web/20181119082604/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-11-26T10:27:26Z",
+        "uri": "http://web.archive.org/web/20181126102726/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-03T11:02:38Z",
+        "uri": "http://web.archive.org/web/20181203110238/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-10T11:31:59Z",
+        "uri": "http://web.archive.org/web/20181210113159/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-14T11:44:24Z",
+        "uri": "http://web.archive.org/web/20181214114424/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-17T08:11:02Z",
+        "uri": "http://web.archive.org/web/20181217081102/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-25T18:55:33Z",
+        "uri": "http://web.archive.org/web/20181225185533/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-26T19:30:49Z",
+        "uri": "http://web.archive.org/web/20181226193049/http://axsomreport.com/"
+      },
+      {
+        "datetime": "2018-12-31T09:41:19Z",
+        "uri": "http://web.archive.org/web/20181231094119/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-05T04:56:52Z",
+        "uri": "http://web.archive.org/web/20190105045652/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-07T08:42:52Z",
+        "uri": "http://web.archive.org/web/20190107084252/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-14T10:42:32Z",
+        "uri": "http://web.archive.org/web/20190114104232/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-21T22:32:56Z",
+        "uri": "http://web.archive.org/web/20190121223256/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-22T13:59:43Z",
+        "uri": "http://web.archive.org/web/20190122135943/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-28T10:23:42Z",
+        "uri": "http://web.archive.org/web/20190128102342/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-01-29T15:08:19Z",
+        "uri": "http://web.archive.org/web/20190129150819/https://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-02-01T23:30:01Z",
+        "uri": "http://web.archive.org/web/20190201233001/http://www.axsomreport.com/"
+      },
+      {
+        "datetime": "2019-02-04T08:45:22Z",
+        "uri": "http://web.archive.org/web/20190204084522/http://www.axsomreport.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-07-16T02:25:55Z",
+      "uri": "http://web.archive.org/web/20170716022555/http://www.axsomreport.com:80/"
+    },
+    "last": {
+      "datetime": "2019-02-04T08:45:22Z",
+      "uri": "http://web.archive.org/web/20190204084522/http://www.axsomreport.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.axsomreport.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.axsomreport.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.axsomreport.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.axsomreport.com/"
+}

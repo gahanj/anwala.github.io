@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T13:47:40Z",
+        "uri": "http://web.archive.org/web/20190210134740/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article"
+      },
+      {
+        "datetime": "2019-02-10T13:47:47Z",
+        "uri": "http://web.archive.org/web/20190210134747/http://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T13:47:40Z",
+      "uri": "http://web.archive.org/web/20190210134740/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:47:47Z",
+      "uri": "http://web.archive.org/web/20190210134747/http://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.wonderwall.com/celebrity/kanye-west-sued-parents-4-year-old-he-sampled-life-pablo-3018374.article"
+}

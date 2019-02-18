@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T03:53:08Z",
+        "uri": "http://web.archive.org/web/20190209035308/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T03:53:08Z",
+      "uri": "http://web.archive.org/web/20190209035308/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained"
+    },
+    "last": {
+      "datetime": "2019-02-09T03:53:08Z",
+      "uri": "http://web.archive.org/web/20190209035308/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vox.com/2019/2/8/18216849/trump-presidential-physical-exam-explained"
+}

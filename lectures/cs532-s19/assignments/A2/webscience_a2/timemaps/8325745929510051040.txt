@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T08:09:24Z",
+        "uri": "http://web.archive.org/web/20190206080924/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/"
+      },
+      {
+        "datetime": "2019-02-07T14:21:51Z",
+        "uri": "http://web.archive.org/web/20190207142151/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T08:09:24Z",
+      "uri": "http://web.archive.org/web/20190206080924/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:21:51Z",
+      "uri": "http://web.archive.org/web/20190207142151/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://immigrationimpact.com/2019/02/05/immigration-state-of-union-stronger-trump/"
+}

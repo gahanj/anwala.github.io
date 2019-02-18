@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:41:20Z",
+        "uri": "http://web.archive.org/web/20190210094120/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:41:20Z",
+      "uri": "http://web.archive.org/web/20190210094120/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:41:20Z",
+      "uri": "http://web.archive.org/web/20190210094120/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.sabah.com.tr/dunya/2019/02/10/trumptan-senatoya-kasikci-resti"
+}

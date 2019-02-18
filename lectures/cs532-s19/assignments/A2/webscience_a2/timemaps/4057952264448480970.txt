@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:48:17Z",
+        "uri": "http://web.archive.org/web/20190210144817/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:48:17Z",
+      "uri": "http://web.archive.org/web/20190210144817/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:48:17Z",
+      "uri": "http://web.archive.org/web/20190210144817/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://conceptnewscentral.com/index.php/2019/02/10/last-is-territory-under-siege/"
+}

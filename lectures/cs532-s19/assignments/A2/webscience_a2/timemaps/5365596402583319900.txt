@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-08-28T23:28:14Z",
+        "uri": "http://web.archive.org/web/20170828232814/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2017-08-28T23:59:28Z",
+        "uri": "http://wayback.archive-it.org/all/20170828235928/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2017-08-28T23:59:28Z",
+        "uri": "http://web.archive.org/web/20170828235928/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2017-09-03T07:13:23Z",
+        "uri": "http://wayback.archive-it.org/all/20170903071323/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2017-09-03T07:13:23Z",
+        "uri": "http://web.archive.org/web/20170903071323/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2017-10-20T07:33:18Z",
+        "uri": "http://web.archive.org/web/20171020073318/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2018-01-18T12:25:57Z",
+        "uri": "http://web.archive.org/web/20180118122557/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2018-02-02T09:20:12Z",
+        "uri": "http://web.archive.org/web/20180202092012/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2018-05-04T03:00:50Z",
+        "uri": "http://web.archive.org/web/20180504030050/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      },
+      {
+        "datetime": "2018-06-12T23:28:10Z",
+        "uri": "http://web.archive.org/web/20180612232810/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+      }
+    ],
+    "first": {
+      "datetime": "2017-08-28T23:28:14Z",
+      "uri": "http://web.archive.org/web/20170828232814/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+    },
+    "last": {
+      "datetime": "2018-06-12T23:28:10Z",
+      "uri": "http://web.archive.org/web/20180612232810/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vanityfair.com/news/2017/08/trump-tower-moscow-russia-presidential-campaign"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:39:01Z",
+        "uri": "http://web.archive.org/web/20190209233901/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:13:37Z",
+        "uri": "http://web.archive.org/web/20190210001337/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+      },
+      {
+        "datetime": "2019-02-10T03:34:52Z",
+        "uri": "http://web.archive.org/web/20190210033452/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+      },
+      {
+        "datetime": "2019-02-10T07:59:20Z",
+        "uri": "http://web.archive.org/web/20190210075920/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:39:01Z",
+      "uri": "http://web.archive.org/web/20190209233901/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:59:20Z",
+      "uri": "http://web.archive.org/web/20190210075920/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://edition.cnn.com/2019/02/09/politics/tax-code-early-returns-data/index.html"
+}

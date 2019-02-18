@@ -1,0 +1,118 @@
+{
+  "original_uri": "http://oklahomareport.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://oklahomareport.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2004-03-22T19:23:07Z",
+        "uri": "http://web.archive.org/web/20040322192307/http://www.oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-03-23T22:57:04Z",
+        "uri": "http://web.archive.org/web/20040323225704/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-06-07T01:02:06Z",
+        "uri": "http://web.archive.org/web/20040607010206/http://www.oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-07-29T16:17:22Z",
+        "uri": "http://web.archive.org/web/20040729161722/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-09-24T07:41:17Z",
+        "uri": "http://web.archive.org/web/20040924074117/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-10-14T06:00:44Z",
+        "uri": "http://web.archive.org/web/20041014060044/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-11-29T11:21:48Z",
+        "uri": "http://web.archive.org/web/20041129112148/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2004-12-02T04:35:36Z",
+        "uri": "http://web.archive.org/web/20041202043536/http://www.oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2005-01-23T07:22:02Z",
+        "uri": "http://web.archive.org/web/20050123072202/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2005-02-08T09:40:50Z",
+        "uri": "http://web.archive.org/web/20050208094050/http://www.oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2011-02-01T15:33:56Z",
+        "uri": "http://web.archive.org/web/20110201153356/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2014-01-08T09:46:21Z",
+        "uri": "http://web.archive.org/web/20140108094621/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2014-05-18T10:54:19Z",
+        "uri": "http://web.archive.org/web/20140518105419/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2014-12-18T03:22:26Z",
+        "uri": "http://web.archive.org/web/20141218032226/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2015-08-01T20:57:24Z",
+        "uri": "http://web.archive.org/web/20150801205724/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2016-01-10T23:43:44Z",
+        "uri": "http://web.archive.org/web/20160110234344/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2016-03-05T11:33:47Z",
+        "uri": "http://web.archive.org/web/20160305113347/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2016-10-13T02:55:38Z",
+        "uri": "http://web.archive.org/web/20161013025538/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2018-01-07T02:20:46Z",
+        "uri": "http://web.archive.org/web/20180107022046/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2018-03-17T21:14:00Z",
+        "uri": "http://web.archive.org/web/20180317211400/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2018-06-28T20:03:08Z",
+        "uri": "http://web.archive.org/web/20180628200308/http://oklahomareport.com:80/"
+      },
+      {
+        "datetime": "2018-07-21T11:37:57Z",
+        "uri": "http://web.archive.org/web/20180721113757/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2018-08-06T07:48:07Z",
+        "uri": "http://web.archive.org/web/20180806074807/http://oklahomareport.com/"
+      },
+      {
+        "datetime": "2018-08-20T14:02:24Z",
+        "uri": "http://web.archive.org/web/20180820140224/http://oklahomareport.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2004-03-22T19:23:07Z",
+      "uri": "http://web.archive.org/web/20040322192307/http://www.oklahomareport.com:80/"
+    },
+    "last": {
+      "datetime": "2018-08-20T14:02:24Z",
+      "uri": "http://web.archive.org/web/20180820140224/http://oklahomareport.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://oklahomareport.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://oklahomareport.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://oklahomareport.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://oklahomareport.com/"
+}

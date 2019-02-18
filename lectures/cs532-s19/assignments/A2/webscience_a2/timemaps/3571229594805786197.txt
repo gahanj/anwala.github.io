@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:03:34Z",
+        "uri": "http://web.archive.org/web/20190210010334/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:03:34Z",
+      "uri": "http://web.archive.org/web/20190210010334/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:03:34Z",
+      "uri": "http://web.archive.org/web/20190210010334/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://de.sputniknews.com/politik/20190209323899346-trump-laesst-sich-untersuchen/"
+}

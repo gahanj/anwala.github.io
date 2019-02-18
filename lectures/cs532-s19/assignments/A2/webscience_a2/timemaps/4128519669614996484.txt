@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-07T15:27:00Z",
+        "uri": "http://web.archive.org/web/20181107152700/http://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+      },
+      {
+        "datetime": "2018-11-08T19:19:08Z",
+        "uri": "http://web.archive.org/web/20181108191908/http://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+      },
+      {
+        "datetime": "2018-11-16T11:08:31Z",
+        "uri": "http://web.archive.org/web/20181116110831/http://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-07T15:27:00Z",
+      "uri": "http://web.archive.org/web/20181107152700/http://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+    },
+    "last": {
+      "datetime": "2018-11-16T11:08:31Z",
+      "uri": "http://web.archive.org/web/20181116110831/http://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://insider.foxnews.com/2018/11/06/lindsey-graham-republicans-had-good-night-senate"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://news.yahoo.com/trump-beto-face-off-monday-170923637.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:09:45Z",
+        "uri": "http://web.archive.org/web/20190209200945/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+      },
+      {
+        "datetime": "2019-02-10T00:51:44Z",
+        "uri": "http://web.archive.org/web/20190210005144/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+      },
+      {
+        "datetime": "2019-02-10T14:06:54Z",
+        "uri": "http://web.archive.org/web/20190210140654/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:09:45Z",
+      "uri": "http://web.archive.org/web/20190209200945/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:06:54Z",
+      "uri": "http://web.archive.org/web/20190210140654/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/trump-beto-face-off-monday-170923637.html"
+}

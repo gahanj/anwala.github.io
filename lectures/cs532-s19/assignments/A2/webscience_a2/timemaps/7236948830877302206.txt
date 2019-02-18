@@ -1,0 +1,686 @@
+{
+  "original_uri": "https://magaoneradio.net/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://magaoneradio.net/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-08-17T04:47:29Z",
+        "uri": "http://web.archive.org/web/20170817044729/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-17T04:47:30Z",
+        "uri": "http://web.archive.org/web/20170817044730/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-17T04:47:31Z",
+        "uri": "http://web.archive.org/web/20170817044731/https://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-17T04:47:32Z",
+        "uri": "http://web.archive.org/web/20170817044732/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-17T06:16:30Z",
+        "uri": "http://web.archive.org/web/20170817061630/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-17T06:16:31Z",
+        "uri": "http://web.archive.org/web/20170817061631/https://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-17T06:16:31Z",
+        "uri": "http://web.archive.org/web/20170817061631/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-08-31T10:58:13Z",
+        "uri": "http://web.archive.org/web/20170831105813/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-09-01T09:33:56Z",
+        "uri": "http://web.archive.org/web/20170901093356/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-09-02T23:25:10Z",
+        "uri": "http://web.archive.org/web/20170902232510/https://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-09-11T09:09:03Z",
+        "uri": "http://web.archive.org/web/20170911090903/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-09-14T02:04:12Z",
+        "uri": "http://web.archive.org/web/20170914020412/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-10-16T16:05:23Z",
+        "uri": "http://web.archive.org/web/20171016160523/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2017-11-16T15:45:20Z",
+        "uri": "http://web.archive.org/web/20171116154520/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2017-11-16T15:45:20Z",
+        "uri": "http://web.archive.org/web/20171116154520/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2017-11-17T03:07:30Z",
+        "uri": "http://wayback.archive-it.org/all/20171117030730/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T03:07:30Z",
+        "uri": "http://web.archive.org/web/20171117030730/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T03:07:39Z",
+        "uri": "http://wayback.archive-it.org/all/20171117030739/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T03:07:39Z",
+        "uri": "http://web.archive.org/web/20171117030739/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T12:36:09Z",
+        "uri": "http://wayback.archive-it.org/all/20171117123609/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T12:36:09Z",
+        "uri": "http://web.archive.org/web/20171117123609/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T12:36:16Z",
+        "uri": "http://wayback.archive-it.org/all/20171117123616/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-17T12:36:16Z",
+        "uri": "http://web.archive.org/web/20171117123616/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-20T00:24:57Z",
+        "uri": "http://web.archive.org/web/20171120002457/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-22T12:45:47Z",
+        "uri": "http://wayback.archive-it.org/all/20171122124547/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-22T12:45:47Z",
+        "uri": "http://web.archive.org/web/20171122124547/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-22T12:45:50Z",
+        "uri": "http://wayback.archive-it.org/all/20171122124550/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-22T12:45:50Z",
+        "uri": "http://web.archive.org/web/20171122124550/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T20:15:56Z",
+        "uri": "http://wayback.archive-it.org/all/20171123201556/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T20:15:56Z",
+        "uri": "http://web.archive.org/web/20171123201556/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T20:15:59Z",
+        "uri": "http://wayback.archive-it.org/all/20171123201559/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T20:15:59Z",
+        "uri": "http://web.archive.org/web/20171123201559/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T21:52:12Z",
+        "uri": "http://wayback.archive-it.org/all/20171123215212/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T21:52:12Z",
+        "uri": "http://web.archive.org/web/20171123215212/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T21:52:16Z",
+        "uri": "http://wayback.archive-it.org/all/20171123215216/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-23T21:52:16Z",
+        "uri": "http://web.archive.org/web/20171123215216/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-25T07:19:22Z",
+        "uri": "http://web.archive.org/web/20171125071922/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2017-11-27T01:24:07Z",
+        "uri": "http://wayback.archive-it.org/all/20171127012407/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-27T01:24:07Z",
+        "uri": "http://web.archive.org/web/20171127012407/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T08:03:13Z",
+        "uri": "http://wayback.archive-it.org/all/20171130080313/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T08:03:13Z",
+        "uri": "http://web.archive.org/web/20171130080313/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T08:03:21Z",
+        "uri": "http://wayback.archive-it.org/all/20171130080321/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T08:03:21Z",
+        "uri": "http://web.archive.org/web/20171130080321/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T10:05:10Z",
+        "uri": "http://wayback.archive-it.org/all/20171130100510/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T10:05:10Z",
+        "uri": "http://web.archive.org/web/20171130100510/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T10:05:18Z",
+        "uri": "http://wayback.archive-it.org/all/20171130100518/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-11-30T10:05:18Z",
+        "uri": "http://web.archive.org/web/20171130100518/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-12-08T16:04:15Z",
+        "uri": "http://wayback.archive-it.org/all/20171208160415/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-12-08T16:04:15Z",
+        "uri": "http://web.archive.org/web/20171208160415/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-12-18T15:58:42Z",
+        "uri": "http://web.archive.org/web/20171218155842/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2017-12-18T15:58:42Z",
+        "uri": "http://web.archive.org/web/20171218155842/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2017-12-19T02:54:31Z",
+        "uri": "http://web.archive.org/web/20171219025431/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-12-19T02:54:32Z",
+        "uri": "http://web.archive.org/web/20171219025432/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-12-25T14:30:35Z",
+        "uri": "http://wayback.archive-it.org/all/20171225143035/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2017-12-25T14:30:35Z",
+        "uri": "http://web.archive.org/web/20171225143035/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-07T17:13:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180107171303/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-07T17:13:03Z",
+        "uri": "http://web.archive.org/web/20180107171303/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-07T17:13:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180107171308/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-07T17:13:08Z",
+        "uri": "http://web.archive.org/web/20180107171308/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-16T15:07:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180116150743/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-16T15:07:43Z",
+        "uri": "http://web.archive.org/web/20180116150743/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-20T14:30:13Z",
+        "uri": "http://web.archive.org/web/20180120143013/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-20T14:30:14Z",
+        "uri": "http://web.archive.org/web/20180120143014/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-21T09:01:59Z",
+        "uri": "http://web.archive.org/web/20180121090159/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-22T02:06:21Z",
+        "uri": "http://web.archive.org/web/20180122020621/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T20:43:08Z",
+        "uri": "http://web.archive.org/web/20180124204308/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-01-24T21:50:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180124215044/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T21:50:44Z",
+        "uri": "http://web.archive.org/web/20180124215044/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T22:05:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180124220522/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T22:05:22Z",
+        "uri": "http://web.archive.org/web/20180124220522/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T23:07:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180124230711/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T23:07:11Z",
+        "uri": "http://web.archive.org/web/20180124230711/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T23:21:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180124232141/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-24T23:21:41Z",
+        "uri": "http://web.archive.org/web/20180124232141/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:24:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180125002410/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:24:10Z",
+        "uri": "http://web.archive.org/web/20180125002410/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:31:59Z",
+        "uri": "http://wayback.archive-it.org/all/20180125003159/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:31:59Z",
+        "uri": "http://web.archive.org/web/20180125003159/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:45:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180125004539/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:45:39Z",
+        "uri": "http://web.archive.org/web/20180125004539/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:52:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180125005234/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T00:52:34Z",
+        "uri": "http://web.archive.org/web/20180125005234/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T01:02:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180125010205/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T01:02:05Z",
+        "uri": "http://web.archive.org/web/20180125010205/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T01:21:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180125012118/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T01:21:18Z",
+        "uri": "http://web.archive.org/web/20180125012118/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T01:59:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180125015920/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T01:59:20Z",
+        "uri": "http://web.archive.org/web/20180125015920/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T02:39:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180125023924/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T02:39:24Z",
+        "uri": "http://web.archive.org/web/20180125023924/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:16:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180125031621/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:16:21Z",
+        "uri": "http://web.archive.org/web/20180125031621/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:16:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180125031627/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:16:27Z",
+        "uri": "http://web.archive.org/web/20180125031627/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:33:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180125033344/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:33:44Z",
+        "uri": "http://web.archive.org/web/20180125033344/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:48:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180125034839/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T03:48:39Z",
+        "uri": "http://web.archive.org/web/20180125034839/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T05:31:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180125053132/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T05:31:32Z",
+        "uri": "http://web.archive.org/web/20180125053132/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T05:34:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180125053432/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T05:34:32Z",
+        "uri": "http://web.archive.org/web/20180125053432/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T05:52:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180125055218/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T05:52:18Z",
+        "uri": "http://web.archive.org/web/20180125055218/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T06:08:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180125060842/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T06:08:42Z",
+        "uri": "http://web.archive.org/web/20180125060842/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T07:13:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180125071315/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T07:13:15Z",
+        "uri": "http://web.archive.org/web/20180125071315/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T07:15:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180125071518/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T07:15:18Z",
+        "uri": "http://web.archive.org/web/20180125071518/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T10:02:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180125100203/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T10:02:03Z",
+        "uri": "http://web.archive.org/web/20180125100203/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T10:58:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180125105822/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T10:58:22Z",
+        "uri": "http://web.archive.org/web/20180125105822/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T11:37:06Z",
+        "uri": "http://web.archive.org/web/20180125113706/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-01-25T19:18:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180125191832/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T19:18:32Z",
+        "uri": "http://web.archive.org/web/20180125191832/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-25T23:25:53Z",
+        "uri": "http://web.archive.org/web/20180125232553/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-01-25T23:25:53Z",
+        "uri": "http://web.archive.org/web/20180125232553/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-01-27T00:47:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180127004729/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T00:47:29Z",
+        "uri": "http://web.archive.org/web/20180127004729/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T07:48:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180127074848/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T07:48:48Z",
+        "uri": "http://web.archive.org/web/20180127074848/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T07:49:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180127074901/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T07:49:01Z",
+        "uri": "http://web.archive.org/web/20180127074901/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T07:49:19Z",
+        "uri": "http://wayback.archive-it.org/all/20180127074919/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-01-27T07:49:19Z",
+        "uri": "http://web.archive.org/web/20180127074919/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-03T10:13:31Z",
+        "uri": "http://web.archive.org/web/20180203101331/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-03T14:35:19Z",
+        "uri": "http://web.archive.org/web/20180203143519/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-22T05:42:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180222054204/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-22T05:42:04Z",
+        "uri": "http://web.archive.org/web/20180222054204/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-22T05:42:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180222054207/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-22T05:42:07Z",
+        "uri": "http://web.archive.org/web/20180222054207/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-24T22:32:49Z",
+        "uri": "http://web.archive.org/web/20180224223249/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-02-26T12:26:00Z",
+        "uri": "http://web.archive.org/web/20180226122600/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-02-26T12:28:19Z",
+        "uri": "http://web.archive.org/web/20180226122819/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-03-30T02:44:24Z",
+        "uri": "http://web.archive.org/web/20180330024424/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-03-30T02:44:24Z",
+        "uri": "http://web.archive.org/web/20180330024424/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-03-31T13:43:15Z",
+        "uri": "http://web.archive.org/web/20180331134315/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-04-01T02:23:21Z",
+        "uri": "http://web.archive.org/web/20180401022321/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-04-09T18:31:29Z",
+        "uri": "http://web.archive.org/web/20180409183129/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-04-11T02:59:36Z",
+        "uri": "http://web.archive.org/web/20180411025936/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-04-11T02:59:37Z",
+        "uri": "http://web.archive.org/web/20180411025937/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-04-12T23:16:54Z",
+        "uri": "http://web.archive.org/web/20180412231654/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-04-30T06:56:18Z",
+        "uri": "http://web.archive.org/web/20180430065618/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-04-30T06:56:18Z",
+        "uri": "http://web.archive.org/web/20180430065618/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-05-02T10:21:18Z",
+        "uri": "http://web.archive.org/web/20180502102118/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-05-02T10:21:19Z",
+        "uri": "http://web.archive.org/web/20180502102119/http://www.magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-05-23T15:12:22Z",
+        "uri": "http://web.archive.org/web/20180523151222/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-06-02T06:49:01Z",
+        "uri": "http://web.archive.org/web/20180602064901/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-06-02T07:26:06Z",
+        "uri": "http://web.archive.org/web/20180602072606/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-06-03T20:53:17Z",
+        "uri": "http://web.archive.org/web/20180603205317/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-06-03T21:36:06Z",
+        "uri": "http://web.archive.org/web/20180603213606/http://www.magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-07-07T01:44:59Z",
+        "uri": "http://web.archive.org/web/20180707014459/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-07-07T23:53:55Z",
+        "uri": "http://web.archive.org/web/20180707235355/http://magaoneradio.net:80/"
+      },
+      {
+        "datetime": "2018-10-19T17:01:19Z",
+        "uri": "http://web.archive.org/web/20181019170119/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-11-06T22:47:03Z",
+        "uri": "http://web.archive.org/web/20181106224703/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-11-08T03:40:07Z",
+        "uri": "http://web.archive.org/web/20181108034007/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2018-12-28T21:56:35Z",
+        "uri": "http://web.archive.org/web/20181228215635/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-01T11:35:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190101113543/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-01T11:35:43Z",
+        "uri": "http://web.archive.org/web/20190101113543/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-01T11:37:36Z",
+        "uri": "http://wayback.archive-it.org/all/20190101113736/https://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-01T11:37:36Z",
+        "uri": "http://web.archive.org/web/20190101113736/https://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-07T03:56:28Z",
+        "uri": "http://web.archive.org/web/20190107035628/http://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-07T03:56:30Z",
+        "uri": "http://web.archive.org/web/20190107035630/https://magaoneradio.net/"
+      },
+      {
+        "datetime": "2019-01-11T21:04:38Z",
+        "uri": "http://web.archive.org/web/20190111210438/https://magaoneradio.net/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-08-17T04:47:29Z",
+      "uri": "http://web.archive.org/web/20170817044729/http://magaoneradio.net/"
+    },
+    "last": {
+      "datetime": "2019-01-11T21:04:38Z",
+      "uri": "http://web.archive.org/web/20190111210438/https://magaoneradio.net/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://magaoneradio.net/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://magaoneradio.net/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://magaoneradio.net/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://magaoneradio.net/"
+}

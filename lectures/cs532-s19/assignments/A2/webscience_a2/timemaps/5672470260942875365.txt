@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T05:22:43Z",
+        "uri": "http://web.archive.org/web/20190210052243/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin"
+      },
+      {
+        "datetime": "2019-02-10T06:14:47Z",
+        "uri": "http://web.archive.org/web/20190210061447/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T05:22:43Z",
+      "uri": "http://web.archive.org/web/20190210052243/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:14:47Z",
+      "uri": "http://web.archive.org/web/20190210061447/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.express.co.uk/news/world/1085015/world-war-3-Russia-US-missile-eastern-europe-inf-treaty-trump-vladimir-Putin"
+}

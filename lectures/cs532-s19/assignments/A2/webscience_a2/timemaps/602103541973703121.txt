@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T04:11:28Z",
+        "uri": "http://web.archive.org/web/20190206041128/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-06T10:27:57Z",
+        "uri": "http://web.archive.org/web/20190206102757/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-06T10:37:56Z",
+        "uri": "http://web.archive.org/web/20190206103756/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-06T15:47:02Z",
+        "uri": "http://web.archive.org/web/20190206154702/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-08T11:20:14Z",
+        "uri": "http://web.archive.org/web/20190208112014/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-08T21:52:08Z",
+        "uri": "http://web.archive.org/web/20190208215208/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-09T01:54:53Z",
+        "uri": "http://web.archive.org/web/20190209015453/http://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-09T14:23:42Z",
+        "uri": "http://web.archive.org/web/20190209142342/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-09T22:02:32Z",
+        "uri": "http://web.archive.org/web/20190209220232/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      },
+      {
+        "datetime": "2019-02-10T02:44:24Z",
+        "uri": "http://web.archive.org/web/20190210024424/http://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T04:11:28Z",
+      "uri": "http://web.archive.org/web/20190206041128/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:44:24Z",
+      "uri": "http://web.archive.org/web/20190210024424/http://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://abcnews.go.com/Politics/state-union-fact-check-president-donald-trump-claiming/story?id=60862695"
+}

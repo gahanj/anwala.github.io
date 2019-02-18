@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T00:51:11Z",
+        "uri": "http://web.archive.org/web/20190208005111/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+      },
+      {
+        "datetime": "2019-02-08T19:25:04Z",
+        "uri": "http://web.archive.org/web/20190208192504/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+      },
+      {
+        "datetime": "2019-02-08T21:15:45Z",
+        "uri": "http://web.archive.org/web/20190208211545/http://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+      },
+      {
+        "datetime": "2019-02-09T19:42:19Z",
+        "uri": "http://web.archive.org/web/20190209194219/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+      },
+      {
+        "datetime": "2019-02-09T21:50:06Z",
+        "uri": "http://web.archive.org/web/20190209215006/http://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T00:51:11Z",
+      "uri": "http://web.archive.org/web/20190208005111/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+    },
+    "last": {
+      "datetime": "2019-02-09T21:50:06Z",
+      "uri": "http://web.archive.org/web/20190209215006/http://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://abcnews.go.com/Politics/government-official-warned-family-separations/story?id=60910531"
+}

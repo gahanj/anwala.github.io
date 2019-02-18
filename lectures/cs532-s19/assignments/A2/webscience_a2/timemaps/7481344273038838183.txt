@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:40:58Z",
+        "uri": "http://web.archive.org/web/20190208184058/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:40:58Z",
+      "uri": "http://web.archive.org/web/20190208184058/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-08T18:40:58Z",
+      "uri": "http://web.archive.org/web/20190208184058/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thenation.com/article/caravan-white-supremacist-campaign-trump/"
+}

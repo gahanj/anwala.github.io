@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:06:17Z",
+        "uri": "http://web.archive.org/web/20190209210617/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+      },
+      {
+        "datetime": "2019-02-09T23:23:35Z",
+        "uri": "http://web.archive.org/web/20190209232335/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+      },
+      {
+        "datetime": "2019-02-10T11:08:21Z",
+        "uri": "http://web.archive.org/web/20190210110821/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:06:17Z",
+      "uri": "http://web.archive.org/web/20190209210617/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:08:21Z",
+      "uri": "http://web.archive.org/web/20190210110821/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/entertainment/2019/02/09/julia-louis-dreyfus-tears-into-pretend-president-trump/"
+}

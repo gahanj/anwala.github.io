@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:23:27Z",
+        "uri": "http://archive.md/20190210012327/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+      },
+      {
+        "datetime": "2019-02-10T06:15:08Z",
+        "uri": "http://web.archive.org/web/20190210061508/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+      },
+      {
+        "datetime": "2019-02-10T11:04:02Z",
+        "uri": "http://web.archive.org/web/20190210110402/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:23:27Z",
+      "uri": "http://archive.md/20190210012327/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:04:02Z",
+      "uri": "http://web.archive.org/web/20190210110402/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/09/pelosi-insists-va-blackface-metoo-scandals-wont-hurt-national-democratic-brand/"
+}

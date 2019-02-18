@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T15:18:18Z",
+        "uri": "http://archive.md/20190209151818/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+      },
+      {
+        "datetime": "2019-02-10T03:01:38Z",
+        "uri": "http://web.archive.org/web/20190210030138/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+      },
+      {
+        "datetime": "2019-02-10T09:27:54Z",
+        "uri": "http://web.archive.org/web/20190210092754/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+      },
+      {
+        "datetime": "2019-02-10T09:27:54Z",
+        "uri": "http://web.archive.org/web/20190210092754/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T15:18:18Z",
+      "uri": "http://archive.md/20190209151818/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:27:54Z",
+      "uri": "http://web.archive.org/web/20190210092754/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.hannity.com/media-room/collusion-collapse-president-trump-reacts-to-senate-intel-chairs-no-collusion-comments/"
+}

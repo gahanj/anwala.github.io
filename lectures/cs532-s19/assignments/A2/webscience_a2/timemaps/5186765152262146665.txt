@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://threadreaderapp.com/thread/1075466126031650816.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://threadreaderapp.com/thread/1075466126031650816.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-20T01:49:32Z",
+        "uri": "http://archive.md/20181220014932/https://threadreaderapp.com/thread/1075466126031650816.html"
+      },
+      {
+        "datetime": "2018-12-20T05:25:37Z",
+        "uri": "http://archive.md/20181220052537/https://threadreaderapp.com/thread/1075466126031650816.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-20T01:49:32Z",
+      "uri": "http://archive.md/20181220014932/https://threadreaderapp.com/thread/1075466126031650816.html"
+    },
+    "last": {
+      "datetime": "2018-12-20T05:25:37Z",
+      "uri": "http://archive.md/20181220052537/https://threadreaderapp.com/thread/1075466126031650816.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://threadreaderapp.com/thread/1075466126031650816.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://threadreaderapp.com/thread/1075466126031650816.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://threadreaderapp.com/thread/1075466126031650816.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://threadreaderapp.com/thread/1075466126031650816.html"
+}

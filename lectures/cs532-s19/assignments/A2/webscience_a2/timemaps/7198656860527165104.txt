@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T07:51:43Z",
+        "uri": "http://web.archive.org/web/20190210075143/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q"
+      },
+      {
+        "datetime": "2019-02-10T12:58:37Z",
+        "uri": "http://web.archive.org/web/20190210125837/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T07:51:43Z",
+      "uri": "http://web.archive.org/web/20190210075143/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q"
+    },
+    "last": {
+      "datetime": "2019-02-10T12:58:37Z",
+      "uri": "http://web.archive.org/web/20190210125837/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.reuters.com/article/us-usa-southkorea-troops/south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand-idUSKCN1PZ03Q"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:06:03Z",
+        "uri": "http://web.archive.org/web/20190209200603/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+      },
+      {
+        "datetime": "2019-02-09T20:11:37Z",
+        "uri": "http://web.archive.org/web/20190209201137/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+      },
+      {
+        "datetime": "2019-02-10T00:08:33Z",
+        "uri": "http://web.archive.org/web/20190210000833/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:06:03Z",
+      "uri": "http://web.archive.org/web/20190209200603/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:08:33Z",
+      "uri": "http://web.archive.org/web/20190210000833/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.salon.com/2019/02/09/welcome-to-the-era-of-constitutional-beanball-how-republican-dirty-tricks-got-even-dirtier/"
+}

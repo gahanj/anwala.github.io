@@ -1,0 +1,362 @@
+{
+  "original_uri": "https://www.youtube.com/watch?v=Dp5-Gk2jOjk",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=Dp5-Gk2jOjk",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-07-05T19:37:00Z",
+        "uri": "http://web.archive.org/web/20170705193700/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&gl=US&hl=en"
+      },
+      {
+        "datetime": "2017-07-07T00:42:30Z",
+        "uri": "http://wayback.archive-it.org/all/20170707004230/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T00:42:30Z",
+        "uri": "http://web.archive.org/web/20170707004230/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T00:44:20Z",
+        "uri": "http://wayback.archive-it.org/all/20170707004420/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T00:44:20Z",
+        "uri": "http://web.archive.org/web/20170707004420/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T00:44:23Z",
+        "uri": "http://web.archive.org/web/20170707004423/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&feature=applinks"
+      },
+      {
+        "datetime": "2017-07-07T00:44:32Z",
+        "uri": "http://web.archive.org/web/20170707004432/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&app=desktop"
+      },
+      {
+        "datetime": "2017-07-07T11:04:58Z",
+        "uri": "http://wayback.archive-it.org/all/20170707110458/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T11:04:58Z",
+        "uri": "http://web.archive.org/web/20170707110458/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T11:07:11Z",
+        "uri": "http://wayback.archive-it.org/all/20170707110711/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T11:07:11Z",
+        "uri": "http://web.archive.org/web/20170707110711/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-07T11:07:14Z",
+        "uri": "http://web.archive.org/web/20170707110714/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&feature=applinks"
+      },
+      {
+        "datetime": "2017-07-07T11:07:28Z",
+        "uri": "http://web.archive.org/web/20170707110728/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&app=desktop"
+      },
+      {
+        "datetime": "2017-07-08T01:31:30Z",
+        "uri": "http://wayback.archive-it.org/all/20170708013130/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T01:31:30Z",
+        "uri": "http://web.archive.org/web/20170708013130/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T01:35:16Z",
+        "uri": "http://wayback.archive-it.org/all/20170708013516/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T01:35:16Z",
+        "uri": "http://web.archive.org/web/20170708013516/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T01:35:21Z",
+        "uri": "http://web.archive.org/web/20170708013521/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&feature=applinks"
+      },
+      {
+        "datetime": "2017-07-08T01:35:39Z",
+        "uri": "http://web.archive.org/web/20170708013539/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&app=desktop"
+      },
+      {
+        "datetime": "2017-07-08T07:58:51Z",
+        "uri": "http://web.archive.org/web/20170708075851/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T07:58:53Z",
+        "uri": "http://web.archive.org/web/20170708075853/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T08:06:51Z",
+        "uri": "http://web.archive.org/web/20170708080651/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T09:08:34Z",
+        "uri": "http://web.archive.org/web/20170708090834/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T11:00:08Z",
+        "uri": "http://wayback.archive-it.org/all/20170708110008/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T11:00:08Z",
+        "uri": "http://web.archive.org/web/20170708110008/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T11:03:22Z",
+        "uri": "http://wayback.archive-it.org/all/20170708110322/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T11:03:22Z",
+        "uri": "http://web.archive.org/web/20170708110322/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T13:14:56Z",
+        "uri": "http://web.archive.org/web/20170708131456/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T13:14:57Z",
+        "uri": "http://web.archive.org/web/20170708131457/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T15:13:38Z",
+        "uri": "http://wayback.archive-it.org/all/20170708151338/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T15:13:38Z",
+        "uri": "http://web.archive.org/web/20170708151338/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T23:47:22Z",
+        "uri": "http://web.archive.org/web/20170708234722/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-08T23:49:25Z",
+        "uri": "http://web.archive.org/web/20170708234925/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T00:48:59Z",
+        "uri": "http://wayback.archive-it.org/all/20170709004859/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T00:48:59Z",
+        "uri": "http://web.archive.org/web/20170709004859/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T00:50:35Z",
+        "uri": "http://wayback.archive-it.org/all/20170709005035/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T00:50:35Z",
+        "uri": "http://web.archive.org/web/20170709005035/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T10:47:18Z",
+        "uri": "http://wayback.archive-it.org/all/20170709104718/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T10:47:18Z",
+        "uri": "http://web.archive.org/web/20170709104718/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T10:49:06Z",
+        "uri": "http://wayback.archive-it.org/all/20170709104906/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-09T10:49:06Z",
+        "uri": "http://web.archive.org/web/20170709104906/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T00:26:26Z",
+        "uri": "http://wayback.archive-it.org/all/20170710002626/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T00:26:26Z",
+        "uri": "http://web.archive.org/web/20170710002626/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T00:28:05Z",
+        "uri": "http://wayback.archive-it.org/all/20170710002805/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T00:28:05Z",
+        "uri": "http://web.archive.org/web/20170710002805/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T10:43:00Z",
+        "uri": "http://wayback.archive-it.org/all/20170710104300/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T10:43:00Z",
+        "uri": "http://web.archive.org/web/20170710104300/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T10:45:17Z",
+        "uri": "http://wayback.archive-it.org/all/20170710104517/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-10T10:45:17Z",
+        "uri": "http://web.archive.org/web/20170710104517/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T01:12:30Z",
+        "uri": "http://wayback.archive-it.org/all/20170711011230/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T01:12:30Z",
+        "uri": "http://web.archive.org/web/20170711011230/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T01:17:53Z",
+        "uri": "http://wayback.archive-it.org/all/20170711011753/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T01:17:53Z",
+        "uri": "http://web.archive.org/web/20170711011753/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T04:59:49Z",
+        "uri": "http://web.archive.org/web/20170711045949/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T04:59:50Z",
+        "uri": "http://web.archive.org/web/20170711045950/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T11:00:03Z",
+        "uri": "http://wayback.archive-it.org/all/20170711110003/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T11:00:03Z",
+        "uri": "http://web.archive.org/web/20170711110003/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T11:04:44Z",
+        "uri": "http://wayback.archive-it.org/all/20170711110444/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-11T11:04:44Z",
+        "uri": "http://web.archive.org/web/20170711110444/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-15T10:36:43Z",
+        "uri": "http://web.archive.org/web/20170715103643/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-07-18T14:34:23Z",
+        "uri": "http://archive.md/20170718143423/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-08-27T05:39:18Z",
+        "uri": "http://web.archive.org/web/20170827053918/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-09-16T14:42:07Z",
+        "uri": "http://web.archive.org/web/20170916144207/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-09-24T18:12:54Z",
+        "uri": "http://wayback.archive-it.org/all/20170924181254/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-09-24T18:12:54Z",
+        "uri": "http://web.archive.org/web/20170924181254/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-09-24T18:48:09Z",
+        "uri": "http://wayback.archive-it.org/all/20170924184809/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-09-24T18:48:09Z",
+        "uri": "http://web.archive.org/web/20170924184809/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-11-22T22:40:52Z",
+        "uri": "http://web.archive.org/web/20171122224052/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2017-12-07T00:07:47Z",
+        "uri": "http://web.archive.org/web/20171207000747/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-01-18T23:09:06Z",
+        "uri": "http://web.archive.org/web/20180118230906/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-03-01T08:54:58Z",
+        "uri": "http://web.archive.org/web/20180301085458/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-03-30T01:22:21Z",
+        "uri": "http://web.archive.org/web/20180330012221/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-04-19T17:55:13Z",
+        "uri": "http://web.archive.org/web/20180419175513/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-04-20T01:02:23Z",
+        "uri": "http://web.archive.org/web/20180420010223/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-05-18T12:53:08Z",
+        "uri": "http://web.archive.org/web/20180518125308/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-06-15T14:53:29Z",
+        "uri": "http://web.archive.org/web/20180615145329/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-11-01T10:46:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181101104643/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-11-01T10:46:43Z",
+        "uri": "http://web.archive.org/web/20181101104643/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-11-01T12:38:01Z",
+        "uri": "http://web.archive.org/web/20181101123801/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-11-08T11:36:56Z",
+        "uri": "http://web.archive.org/web/20181108113656/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-12-07T08:17:26Z",
+        "uri": "http://web.archive.org/web/20181207081726/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-12-09T16:11:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181209161136/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2018-12-09T16:11:36Z",
+        "uri": "http://web.archive.org/web/20181209161136/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2019-02-04T14:34:21Z",
+        "uri": "http://wayback.archive-it.org/all/20190204143421/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      },
+      {
+        "datetime": "2019-02-04T14:34:21Z",
+        "uri": "http://web.archive.org/web/20190204143421/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+      }
+    ],
+    "first": {
+      "datetime": "2017-07-05T19:37:00Z",
+      "uri": "http://web.archive.org/web/20170705193700/https://www.youtube.com/watch?v=Dp5-Gk2jOjk&gl=US&hl=en"
+    },
+    "last": {
+      "datetime": "2019-02-04T14:34:21Z",
+      "uri": "http://web.archive.org/web/20190204143421/http://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.youtube.com/watch?v=Dp5-Gk2jOjk",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=Dp5-Gk2jOjk",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.youtube.com/watch?v=Dp5-Gk2jOjk"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T10:25:09Z",
+        "uri": "http://web.archive.org/web/20190208102509/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T10:25:09Z",
+      "uri": "http://web.archive.org/web/20190208102509/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/"
+    },
+    "last": {
+      "datetime": "2019-02-08T10:25:09Z",
+      "uri": "http://web.archive.org/web/20190208102509/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtontimes.com/news/2019/feb/7/adam-schiff-hires-national-security-council-ex-sta/"
+}

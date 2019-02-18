@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-22T13:22:38Z",
+        "uri": "http://web.archive.org/web/20190122132238/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      },
+      {
+        "datetime": "2019-01-22T13:34:38Z",
+        "uri": "http://web.archive.org/web/20190122133438/http://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      },
+      {
+        "datetime": "2019-01-22T20:15:21Z",
+        "uri": "http://web.archive.org/web/20190122201521/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      },
+      {
+        "datetime": "2019-01-23T22:10:46Z",
+        "uri": "http://web.archive.org/web/20190123221046/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      },
+      {
+        "datetime": "2019-01-26T04:53:47Z",
+        "uri": "http://web.archive.org/web/20190126045347/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      },
+      {
+        "datetime": "2019-02-03T17:34:36Z",
+        "uri": "http://web.archive.org/web/20190203173436/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      },
+      {
+        "datetime": "2019-02-06T21:28:25Z",
+        "uri": "http://web.archive.org/web/20190206212825/http://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-22T13:22:38Z",
+      "uri": "http://web.archive.org/web/20190122132238/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+    },
+    "last": {
+      "datetime": "2019-02-06T21:28:25Z",
+      "uri": "http://web.archive.org/web/20190206212825/http://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.businessinsider.com/donald-trump-airline-shuttle-transportation-pan-am-eastern-new-york-2019-1"
+}

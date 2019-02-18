@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-02-16T13:13:37Z",
+        "uri": "http://web.archive.org/web/20170216131337/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      },
+      {
+        "datetime": "2017-10-21T14:30:35Z",
+        "uri": "http://web.archive.org/web/20171021143035/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      },
+      {
+        "datetime": "2018-01-10T02:32:34Z",
+        "uri": "http://web.archive.org/web/20180110023234/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      },
+      {
+        "datetime": "2018-01-10T12:54:08Z",
+        "uri": "http://web.archive.org/web/20180110125408/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      },
+      {
+        "datetime": "2018-01-11T12:30:35Z",
+        "uri": "http://web.archive.org/web/20180111123035/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      },
+      {
+        "datetime": "2018-01-17T19:13:14Z",
+        "uri": "http://web.archive.org/web/20180117191314/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      },
+      {
+        "datetime": "2018-02-06T10:20:39Z",
+        "uri": "http://web.archive.org/web/20180206102039/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+      }
+    ],
+    "first": {
+      "datetime": "2017-02-16T13:13:37Z",
+      "uri": "http://web.archive.org/web/20170216131337/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+    },
+    "last": {
+      "datetime": "2018-02-06T10:20:39Z",
+      "uri": "http://web.archive.org/web/20180206102039/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/documents/Physical_Exam_March_2016.pdf"
+}

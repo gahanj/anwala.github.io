@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:22:19Z",
+        "uri": "http://web.archive.org/web/20190209232219/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+      },
+      {
+        "datetime": "2019-02-10T01:06:53Z",
+        "uri": "http://web.archive.org/web/20190210010653/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+      },
+      {
+        "datetime": "2019-02-10T01:18:24Z",
+        "uri": "http://web.archive.org/web/20190210011824/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+      },
+      {
+        "datetime": "2019-02-10T05:02:45Z",
+        "uri": "http://web.archive.org/web/20190210050245/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:22:19Z",
+      "uri": "http://web.archive.org/web/20190209232219/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:02:45Z",
+      "uri": "http://web.archive.org/web/20190210050245/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.forbes.com/sites/brucelee/2019/02/09/president-trumps-annual-physical-exam-what-was-interesting-about-the-statement/"
+}

@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T20:00:19Z",
+        "uri": "http://web.archive.org/web/20190207200019/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      },
+      {
+        "datetime": "2019-02-07T20:52:59Z",
+        "uri": "http://web.archive.org/web/20190207205259/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      },
+      {
+        "datetime": "2019-02-07T20:52:59Z",
+        "uri": "http://web.archive.org/web/20190207205259/http://foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      },
+      {
+        "datetime": "2019-02-09T02:31:55Z",
+        "uri": "http://web.archive.org/web/20190209023155/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      },
+      {
+        "datetime": "2019-02-09T02:31:55Z",
+        "uri": "http://web.archive.org/web/20190209023155/http://foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      },
+      {
+        "datetime": "2019-02-10T03:11:10Z",
+        "uri": "http://web.archive.org/web/20190210031110/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      },
+      {
+        "datetime": "2019-02-10T03:11:10Z",
+        "uri": "http://web.archive.org/web/20190210031110/http://foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T20:00:19Z",
+      "uri": "http://web.archive.org/web/20190207200019/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:11:10Z",
+      "uri": "http://web.archive.org/web/20190210031110/http://foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.foxnews.com/opinion/trump-wants-to-unite-us-but-it-will-take-more-than-reading-kind-words-off-a-teleprompter-we-need-action"
+}

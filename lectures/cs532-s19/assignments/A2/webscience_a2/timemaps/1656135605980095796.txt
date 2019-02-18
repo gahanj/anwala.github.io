@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-28T11:16:19Z",
+        "uri": "http://web.archive.org/web/20180628111619/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-07-08T11:09:33Z",
+        "uri": "http://web.archive.org/web/20180708110933/http://prospect.org:80/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-08-07T22:05:40Z",
+        "uri": "http://archive.md/20180807220540/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-08-18T07:35:57Z",
+        "uri": "http://web.archive.org/web/20180818073557/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-09-01T05:21:12Z",
+        "uri": "http://web.archive.org/web/20180901052112/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-09-20T12:18:00Z",
+        "uri": "http://web.archive.org/web/20180920121800/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-10-25T19:15:42Z",
+        "uri": "https://perma-archives.org/warc/20181025191542/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-10-25T19:15:42Z",
+        "uri": "https://perma-archives.org/warc/20181025191542/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-10-25T19:15:42Z",
+        "uri": "https://perma-archives.org/warc/20181025191542/https://www.prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-10-25T19:15:42Z",
+        "uri": "http://web.archive.org/web/20181025191542/https://www.prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-10-25T19:15:42Z",
+        "uri": "http://web.archive.org/web/20181025191542/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      },
+      {
+        "datetime": "2018-10-25T19:15:42Z",
+        "uri": "http://web.archive.org/web/20181025191542/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-28T11:16:19Z",
+      "uri": "http://web.archive.org/web/20180628111619/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+    },
+    "last": {
+      "datetime": "2018-10-25T19:15:42Z",
+      "uri": "http://web.archive.org/web/20181025191542/http://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://prospect.org/article/two-biggest-lies-donald-trumps-tax-plan"
+}

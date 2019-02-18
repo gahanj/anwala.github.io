@@ -1,0 +1,202 @@
+{
+  "original_uri": "https://buchanan.org/blog/an-establishment-unhinged-124406",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/an-establishment-unhinged-124406",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-12-11T05:19:09Z",
+        "uri": "http://web.archive.org/web/20151211051909/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2015-12-14T16:25:00Z",
+        "uri": "http://web.archive.org/web/20151214162500/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2015-12-14T19:02:52Z",
+        "uri": "http://web.archive.org/web/20151214190252/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2015-12-16T08:46:38Z",
+        "uri": "http://web.archive.org/web/20151216084638/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2015-12-23T01:34:45Z",
+        "uri": "http://web.archive.org/web/20151223013445/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-01-03T02:02:22Z",
+        "uri": "http://web.archive.org/web/20160103020222/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-01-14T15:30:31Z",
+        "uri": "http://web.archive.org/web/20160114153031/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-01-15T04:59:34Z",
+        "uri": "http://web.archive.org/web/20160115045934/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-01-23T11:09:41Z",
+        "uri": "http://web.archive.org/web/20160123110941/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-01-24T10:03:12Z",
+        "uri": "http://web.archive.org/web/20160124100312/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-01-28T23:07:05Z",
+        "uri": "http://web.archive.org/web/20160128230705/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-02-23T11:44:06Z",
+        "uri": "http://web.archive.org/web/20160223114406/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-03-05T01:14:03Z",
+        "uri": "http://web.archive.org/web/20160305011403/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-03-11T07:51:05Z",
+        "uri": "http://web.archive.org/web/20160311075105/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-03-25T13:11:47Z",
+        "uri": "http://web.archive.org/web/20160325131147/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-04-04T16:40:07Z",
+        "uri": "http://web.archive.org/web/20160404164007/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-04-12T17:15:07Z",
+        "uri": "http://web.archive.org/web/20160412171507/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-04-26T01:31:37Z",
+        "uri": "http://web.archive.org/web/20160426013137/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-05-14T18:53:16Z",
+        "uri": "http://web.archive.org/web/20160514185316/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-05-31T16:21:29Z",
+        "uri": "http://web.archive.org/web/20160531162129/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-06-17T10:44:15Z",
+        "uri": "http://web.archive.org/web/20160617104415/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-07-02T10:48:23Z",
+        "uri": "http://web.archive.org/web/20160702104823/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-07-19T17:50:11Z",
+        "uri": "http://web.archive.org/web/20160719175011/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-07-22T07:07:32Z",
+        "uri": "http://web.archive.org/web/20160722070732/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-08-03T15:01:48Z",
+        "uri": "http://web.archive.org/web/20160803150148/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-08-20T07:44:22Z",
+        "uri": "http://web.archive.org/web/20160820074422/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-09-12T20:42:26Z",
+        "uri": "http://web.archive.org/web/20160912204226/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-09-30T23:51:03Z",
+        "uri": "http://web.archive.org/web/20160930235103/http://buchanan.org:80/blog/an-establishment-unhinged-124406?"
+      },
+      {
+        "datetime": "2016-11-28T00:06:41Z",
+        "uri": "http://web.archive.org/web/20161128000641/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2016-12-05T05:24:13Z",
+        "uri": "http://web.archive.org/web/20161205052413/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-01-07T09:24:19Z",
+        "uri": "http://web.archive.org/web/20170107092419/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-02-05T11:34:38Z",
+        "uri": "http://web.archive.org/web/20170205113438/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-02-16T22:35:12Z",
+        "uri": "http://web.archive.org/web/20170216223512/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-02-22T15:06:30Z",
+        "uri": "http://web.archive.org/web/20170222150630/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-04-09T04:49:27Z",
+        "uri": "http://web.archive.org/web/20170409044927/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-04-19T04:29:45Z",
+        "uri": "http://web.archive.org/web/20170419042945/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-05-12T04:15:51Z",
+        "uri": "http://web.archive.org/web/20170512041551/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-05-17T07:04:20Z",
+        "uri": "http://web.archive.org/web/20170517070420/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-06-13T11:25:56Z",
+        "uri": "http://web.archive.org/web/20170613112556/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-07-12T03:02:56Z",
+        "uri": "http://web.archive.org/web/20170712030256/http://buchanan.org:80/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-09-19T21:33:52Z",
+        "uri": "http://web.archive.org/web/20170919213352/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-10-26T13:04:22Z",
+        "uri": "http://web.archive.org/web/20171026130422/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-11-10T11:49:07Z",
+        "uri": "http://web.archive.org/web/20171110114907/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2017-11-10T12:35:54Z",
+        "uri": "http://web.archive.org/web/20171110123554/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      },
+      {
+        "datetime": "2018-03-24T19:23:26Z",
+        "uri": "http://web.archive.org/web/20180324192326/http://buchanan.org/blog/an-establishment-unhinged-124406"
+      }
+    ],
+    "first": {
+      "datetime": "2015-12-11T05:19:09Z",
+      "uri": "http://web.archive.org/web/20151211051909/http://buchanan.org/blog/an-establishment-unhinged-124406"
+    },
+    "last": {
+      "datetime": "2018-03-24T19:23:26Z",
+      "uri": "http://web.archive.org/web/20180324192326/http://buchanan.org/blog/an-establishment-unhinged-124406"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://buchanan.org/blog/an-establishment-unhinged-124406",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/an-establishment-unhinged-124406",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://buchanan.org/blog/an-establishment-unhinged-124406"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://buchanan.org/blog/an-establishment-unhinged-124406"
+}

@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-01T18:41:36Z",
+        "uri": "http://web.archive.org/web/20180301184136/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one"
+      },
+      {
+        "datetime": "2018-03-02T02:58:39Z",
+        "uri": "http://web.archive.org/web/20180302025839/http://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+      },
+      {
+        "datetime": "2018-03-03T02:34:58Z",
+        "uri": "http://archive.md/20180303023458/http://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+      },
+      {
+        "datetime": "2018-03-03T09:11:35Z",
+        "uri": "http://web.archive.org/web/20180303091135/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+      },
+      {
+        "datetime": "2018-03-12T06:19:49Z",
+        "uri": "http://web.archive.org/web/20180312061949/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one"
+      },
+      {
+        "datetime": "2018-03-24T09:25:36Z",
+        "uri": "http://web.archive.org/web/20180324092536/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one"
+      },
+      {
+        "datetime": "2018-04-05T17:37:27Z",
+        "uri": "http://web.archive.org/web/20180405173727/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one"
+      },
+      {
+        "datetime": "2018-05-03T13:52:35Z",
+        "uri": "http://web.archive.org/web/20180503135235/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+      },
+      {
+        "datetime": "2018-09-26T11:45:01Z",
+        "uri": "http://web.archive.org/web/20180926114501/http://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one"
+      },
+      {
+        "datetime": "2018-09-26T12:21:53Z",
+        "uri": "http://web.archive.org/web/20180926122153/https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+      },
+      {
+        "datetime": "2019-01-14T19:32:32Z",
+        "uri": "http://web.archive.org/web/20190114193232/http://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-01T18:41:36Z",
+      "uri": "http://web.archive.org/web/20180301184136/http://dailycaller.com:80/2018/02/27/trump-saves-1-4-billion-air-force-one"
+    },
+    "last": {
+      "datetime": "2019-01-14T19:32:32Z",
+      "uri": "http://web.archive.org/web/20190114193232/http://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2018/02/27/trump-saves-1-4-billion-air-force-one/"
+}

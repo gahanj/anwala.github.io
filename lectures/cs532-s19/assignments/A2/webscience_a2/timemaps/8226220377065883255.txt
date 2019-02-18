@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T06:21:46Z",
+        "uri": "http://web.archive.org/web/20190210062146/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/"
+      },
+      {
+        "datetime": "2019-02-10T09:21:00Z",
+        "uri": "http://web.archive.org/web/20190210092100/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T06:21:46Z",
+      "uri": "http://web.archive.org/web/20190210062146/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:21:00Z",
+      "uri": "http://web.archive.org/web/20190210092100/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://nypost.com/2019/02/09/the-democrats-disastrous-week-highlights-trumps-sanity/"
+}

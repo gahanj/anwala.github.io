@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:37:00Z",
+        "uri": "http://web.archive.org/web/20190210013700/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:37:00Z",
+      "uri": "http://web.archive.org/web/20190210013700/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:37:00Z",
+      "uri": "http://web.archive.org/web/20190210013700/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.wnycstudios.org/story/new-evidence-emerges-possible-wrongdoing-trump-inaugural-committee"
+}

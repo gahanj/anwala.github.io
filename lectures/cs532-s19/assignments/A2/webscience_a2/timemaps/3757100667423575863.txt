@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:39:30Z",
+        "uri": "http://web.archive.org/web/20190210003930/http://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+      },
+      {
+        "datetime": "2019-02-10T00:39:50Z",
+        "uri": "http://web.archive.org/web/20190210003950/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+      },
+      {
+        "datetime": "2019-02-10T01:01:55Z",
+        "uri": "http://web.archive.org/web/20190210010155/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+      },
+      {
+        "datetime": "2019-02-10T02:53:28Z",
+        "uri": "http://web.archive.org/web/20190210025328/http://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:39:30Z",
+      "uri": "http://web.archive.org/web/20190210003930/http://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:53:28Z",
+      "uri": "http://web.archive.org/web/20190210025328/http://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://abc6onyourside.com/news/nation-world/hotel-that-launched-trump-to-manhattan-fame-to-be-torn-down-02-09-2019"
+}

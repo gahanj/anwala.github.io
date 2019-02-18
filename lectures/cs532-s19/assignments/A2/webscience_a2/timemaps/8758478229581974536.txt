@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T08:31:07Z",
+        "uri": "http://web.archive.org/web/20190207083107/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/"
+      },
+      {
+        "datetime": "2019-02-09T06:34:38Z",
+        "uri": "http://web.archive.org/web/20190209063438/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T08:31:07Z",
+      "uri": "http://web.archive.org/web/20190207083107/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/"
+    },
+    "last": {
+      "datetime": "2019-02-09T06:34:38Z",
+      "uri": "http://web.archive.org/web/20190209063438/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/outlook/2019/02/06/trump-cant-eliminate-hiv-without-protecting-obamacare/"
+}

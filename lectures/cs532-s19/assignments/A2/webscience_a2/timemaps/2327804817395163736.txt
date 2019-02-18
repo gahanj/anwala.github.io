@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T13:47:20Z",
+        "uri": "http://web.archive.org/web/20190207134720/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+      },
+      {
+        "datetime": "2019-02-08T05:49:47Z",
+        "uri": "http://web.archive.org/web/20190208054947/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+      },
+      {
+        "datetime": "2019-02-09T11:54:51Z",
+        "uri": "http://web.archive.org/web/20190209115451/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+      },
+      {
+        "datetime": "2019-02-10T12:54:33Z",
+        "uri": "http://web.archive.org/web/20190210125433/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T13:47:20Z",
+      "uri": "http://web.archive.org/web/20190207134720/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+    },
+    "last": {
+      "datetime": "2019-02-10T12:54:33Z",
+      "uri": "http://web.archive.org/web/20190210125433/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.npr.org/2019/02/07/692259075/negotiators-try-to-find-a-border-deal-that-trump-will-accept"
+}

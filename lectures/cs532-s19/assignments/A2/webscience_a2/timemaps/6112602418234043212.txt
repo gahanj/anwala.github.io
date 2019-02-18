@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T17:43:13Z",
+        "uri": "http://web.archive.org/web/20190209174313/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:20:55Z",
+        "uri": "http://web.archive.org/web/20190209182055/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+      },
+      {
+        "datetime": "2019-02-09T19:32:27Z",
+        "uri": "http://web.archive.org/web/20190209193227/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:10:05Z",
+        "uri": "http://web.archive.org/web/20190210001005/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:22:35Z",
+        "uri": "http://web.archive.org/web/20190210002235/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+      },
+      {
+        "datetime": "2019-02-10T07:48:00Z",
+        "uri": "http://web.archive.org/web/20190210074800/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T17:43:13Z",
+      "uri": "http://web.archive.org/web/20190209174313/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:48:00Z",
+      "uri": "http://web.archive.org/web/20190210074800/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/09/opinions/trump-khashoggi-bezos-dubious-characters-ghitis/index.html"
+}

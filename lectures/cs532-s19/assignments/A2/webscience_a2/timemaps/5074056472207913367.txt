@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T12:39:20Z",
+        "uri": "http://archive.md/20190208123920/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-08T14:56:09Z",
+        "uri": "http://web.archive.org/web/20190208145609/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-08T18:54:44Z",
+        "uri": "http://web.archive.org/web/20190208185444/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-08T21:39:36Z",
+        "uri": "http://web.archive.org/web/20190208213936/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-08T23:29:21Z",
+        "uri": "http://web.archive.org/web/20190208232921/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-09T23:25:03Z",
+        "uri": "http://web.archive.org/web/20190209232503/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-10T00:49:06Z",
+        "uri": "http://web.archive.org/web/20190210004906/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-10T05:29:33Z",
+        "uri": "http://web.archive.org/web/20190210052933/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      },
+      {
+        "datetime": "2019-02-10T10:25:37Z",
+        "uri": "http://web.archive.org/web/20190210102537/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T12:39:20Z",
+      "uri": "http://archive.md/20190208123920/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:25:37Z",
+      "uri": "http://web.archive.org/web/20190210102537/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/08/opinion/sunday/trump-impeachment-resignation-republicans.html"
+}

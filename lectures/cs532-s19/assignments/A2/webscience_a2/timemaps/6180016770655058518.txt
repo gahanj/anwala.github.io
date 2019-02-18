@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-11T20:41:07Z",
+        "uri": "http://archive.md/20190111204107/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/"
+      },
+      {
+        "datetime": "2019-02-02T23:11:25Z",
+        "uri": "http://web.archive.org/web/20190202231125/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-11T20:41:07Z",
+      "uri": "http://archive.md/20190111204107/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/"
+    },
+    "last": {
+      "datetime": "2019-02-02T23:11:25Z",
+      "uri": "http://web.archive.org/web/20190202231125/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/01/11/ted-cruz-pelosi-schumer-response-hostage-video-interview/"
+}

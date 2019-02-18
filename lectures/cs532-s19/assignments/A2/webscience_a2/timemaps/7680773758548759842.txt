@@ -1,0 +1,78 @@
+{
+  "original_uri": "http://www.giftwellness.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.giftwellness.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2011-01-28T19:41:53Z",
+        "uri": "http://web.archive.org/web/20110128194153/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2016-03-11T06:40:40Z",
+        "uri": "http://web.archive.org/web/20160311064040/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2016-10-01T15:51:01Z",
+        "uri": "http://web.archive.org/web/20161001155101/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2016-12-17T06:53:41Z",
+        "uri": "http://web.archive.org/web/20161217065341/http://giftwellness.com:80/"
+      },
+      {
+        "datetime": "2017-06-07T11:15:32Z",
+        "uri": "http://web.archive.org/web/20170607111532/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2017-08-23T05:31:19Z",
+        "uri": "http://web.archive.org/web/20170823053119/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2017-08-31T08:22:52Z",
+        "uri": "http://web.archive.org/web/20170831082252/http://www.giftwellness.com/"
+      },
+      {
+        "datetime": "2018-01-04T21:39:08Z",
+        "uri": "http://web.archive.org/web/20180104213908/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2018-03-12T07:27:28Z",
+        "uri": "http://web.archive.org/web/20180312072728/http://www.giftwellness.com/"
+      },
+      {
+        "datetime": "2018-03-14T04:53:29Z",
+        "uri": "http://web.archive.org/web/20180314045329/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2018-08-04T19:33:28Z",
+        "uri": "http://web.archive.org/web/20180804193328/http://giftwellness.com/"
+      },
+      {
+        "datetime": "2018-08-12T01:26:20Z",
+        "uri": "http://web.archive.org/web/20180812012620/http://www.giftwellness.com/"
+      },
+      {
+        "datetime": "2018-08-12T01:26:21Z",
+        "uri": "http://web.archive.org/web/20180812012621/http://www.giftwellness.com/"
+      },
+      {
+        "datetime": "2018-08-13T00:56:51Z",
+        "uri": "http://web.archive.org/web/20180813005651/http://www.giftwellness.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2011-01-28T19:41:53Z",
+      "uri": "http://web.archive.org/web/20110128194153/http://giftwellness.com/"
+    },
+    "last": {
+      "datetime": "2018-08-13T00:56:51Z",
+      "uri": "http://web.archive.org/web/20180813005651/http://www.giftwellness.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.giftwellness.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.giftwellness.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.giftwellness.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.giftwellness.com/"
+}

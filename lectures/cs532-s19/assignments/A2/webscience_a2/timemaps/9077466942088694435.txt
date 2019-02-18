@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T03:01:03Z",
+        "uri": "http://web.archive.org/web/20190210030103/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally"
+      },
+      {
+        "datetime": "2019-02-10T06:18:05Z",
+        "uri": "http://web.archive.org/web/20190210061805/http://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T03:01:03Z",
+      "uri": "http://web.archive.org/web/20190210030103/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:18:05Z",
+      "uri": "http://web.archive.org/web/20190210061805/http://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cbs4local.com/news/local/governor-abbott-confirms-he-will-attend-mondays-trump-rally"
+}

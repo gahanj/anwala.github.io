@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.hs.fi/sunnuntai/art-2000005995077.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.hs.fi/sunnuntai/art-2000005995077.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T06:13:16Z",
+        "uri": "http://web.archive.org/web/20190210061316/https://www.hs.fi/sunnuntai/art-2000005995077.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T06:13:16Z",
+      "uri": "http://web.archive.org/web/20190210061316/https://www.hs.fi/sunnuntai/art-2000005995077.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:13:16Z",
+      "uri": "http://web.archive.org/web/20190210061316/https://www.hs.fi/sunnuntai/art-2000005995077.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.hs.fi/sunnuntai/art-2000005995077.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.hs.fi/sunnuntai/art-2000005995077.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.hs.fi/sunnuntai/art-2000005995077.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.hs.fi/sunnuntai/art-2000005995077.html"
+}

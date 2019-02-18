@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:13:36Z",
+        "uri": "http://web.archive.org/web/20190208231336/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+      },
+      {
+        "datetime": "2019-02-09T03:54:21Z",
+        "uri": "http://web.archive.org/web/20190209035421/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+      },
+      {
+        "datetime": "2019-02-09T23:44:56Z",
+        "uri": "http://web.archive.org/web/20190209234456/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+      },
+      {
+        "datetime": "2019-02-10T00:21:39Z",
+        "uri": "http://web.archive.org/web/20190210002139/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:13:36Z",
+      "uri": "http://web.archive.org/web/20190208231336/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:21:39Z",
+      "uri": "http://web.archive.org/web/20190210002139/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cnnespanol.cnn.com/2019/02/08/donald-trump-no-ha-seguido-las-ordenes-del-medico-de-comer-saludable-y-ejercitarse/"
+}

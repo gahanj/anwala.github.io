@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:22:57Z",
+        "uri": "http://web.archive.org/web/20190210112257/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:22:57Z",
+      "uri": "http://web.archive.org/web/20190210112257/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:22:57Z",
+      "uri": "http://web.archive.org/web/20190210112257/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.express.co.uk/news/world/1084698/EU-news-freedom-of-movement-Italy-Belgium-migration-France-EU-elections-populism"
+}

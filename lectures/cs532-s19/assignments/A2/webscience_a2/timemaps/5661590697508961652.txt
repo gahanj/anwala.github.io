@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T02:32:37Z",
+        "uri": "http://web.archive.org/web/20190209023237/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T02:32:37Z",
+      "uri": "http://web.archive.org/web/20190209023237/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/"
+    },
+    "last": {
+      "datetime": "2019-02-09T02:32:37Z",
+      "uri": "http://web.archive.org/web/20190209023237/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/have-this-tweet-back-trump-could/15829/"
+}

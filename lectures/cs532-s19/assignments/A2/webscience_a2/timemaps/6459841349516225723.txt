@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-08T10:20:40Z",
+        "uri": "http://web.archive.org/web/20190108102040/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-08T10:20:40Z",
+      "uri": "http://web.archive.org/web/20190108102040/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108"
+    },
+    "last": {
+      "datetime": "2019-01-08T10:20:40Z",
+      "uri": "http://web.archive.org/web/20190108102040/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.news24.com/World/News/us-withdrawal-from-syria-to-be-done-in-prudent-way-trump-20190108"
+}

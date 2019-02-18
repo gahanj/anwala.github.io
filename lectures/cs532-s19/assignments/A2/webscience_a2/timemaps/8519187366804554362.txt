@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T16:52:05Z",
+        "uri": "http://web.archive.org/web/20190208165205/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+      },
+      {
+        "datetime": "2019-02-08T16:52:05Z",
+        "uri": "http://web.archive.org/web/20190208165205/http://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+      },
+      {
+        "datetime": "2019-02-08T17:30:01Z",
+        "uri": "http://web.archive.org/web/20190208173001/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+      },
+      {
+        "datetime": "2019-02-08T17:30:01Z",
+        "uri": "http://web.archive.org/web/20190208173001/http://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T16:52:05Z",
+      "uri": "http://web.archive.org/web/20190208165205/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+    },
+    "last": {
+      "datetime": "2019-02-08T17:30:01Z",
+      "uri": "http://web.archive.org/web/20190208173001/http://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.esquire.com/uk/latest-news/a26248726/donald-trumps-wall-could-be-shut-down-by-some-butterflies/"
+}

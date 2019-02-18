@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.tagesschau.de/ausland/trump-kim-173.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tagesschau.de/ausland/trump-kim-173.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:23:33Z",
+        "uri": "http://web.archive.org/web/20190209082333/https://www.tagesschau.de/ausland/trump-kim-173.html"
+      },
+      {
+        "datetime": "2019-02-10T00:11:44Z",
+        "uri": "http://web.archive.org/web/20190210001144/https://www.tagesschau.de/ausland/trump-kim-173.html"
+      },
+      {
+        "datetime": "2019-02-10T00:11:46Z",
+        "uri": "http://archive.md/20190210001146/https://www.tagesschau.de/ausland/trump-kim-173.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:23:33Z",
+      "uri": "http://web.archive.org/web/20190209082333/https://www.tagesschau.de/ausland/trump-kim-173.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:11:46Z",
+      "uri": "http://archive.md/20190210001146/https://www.tagesschau.de/ausland/trump-kim-173.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tagesschau.de/ausland/trump-kim-173.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tagesschau.de/ausland/trump-kim-173.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tagesschau.de/ausland/trump-kim-173.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tagesschau.de/ausland/trump-kim-173.html"
+}

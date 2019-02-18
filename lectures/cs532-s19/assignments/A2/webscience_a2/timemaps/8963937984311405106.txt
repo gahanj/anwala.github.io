@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T10:48:30Z",
+        "uri": "http://web.archive.org/web/20190209104830/http://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T12:52:04Z",
+        "uri": "http://web.archive.org/web/20190209125204/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T20:44:40Z",
+        "uri": "http://web.archive.org/web/20190209204440/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T21:31:06Z",
+        "uri": "http://archive.md/20190209213106/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T00:53:54Z",
+        "uri": "http://web.archive.org/web/20190210005354/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T02:07:23Z",
+        "uri": "http://web.archive.org/web/20190210020723/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T10:48:30Z",
+      "uri": "http://web.archive.org/web/20190209104830/http://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:07:23Z",
+      "uri": "http://web.archive.org/web/20190210020723/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.latimes.com/politics/la-na-pol-trump-health-20190208-story.html"
+}

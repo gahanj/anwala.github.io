@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.tempi.it/trump-contro-laborto-tardivo/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tempi.it/trump-contro-laborto-tardivo/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T09:51:30Z",
+        "uri": "http://web.archive.org/web/20190209095130/https://www.tempi.it/trump-contro-laborto-tardivo/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T09:51:30Z",
+      "uri": "http://web.archive.org/web/20190209095130/https://www.tempi.it/trump-contro-laborto-tardivo/"
+    },
+    "last": {
+      "datetime": "2019-02-09T09:51:30Z",
+      "uri": "http://web.archive.org/web/20190209095130/https://www.tempi.it/trump-contro-laborto-tardivo/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tempi.it/trump-contro-laborto-tardivo/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tempi.it/trump-contro-laborto-tardivo/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tempi.it/trump-contro-laborto-tardivo/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tempi.it/trump-contro-laborto-tardivo/"
+}

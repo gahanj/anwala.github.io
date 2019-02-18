@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:45:11Z",
+        "uri": "http://web.archive.org/web/20190209214511/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T21:48:01Z",
+        "uri": "http://web.archive.org/web/20190209214801/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T02:38:47Z",
+        "uri": "http://web.archive.org/web/20190210023847/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T16:04:24Z",
+        "uri": "http://web.archive.org/web/20190210160424/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:45:11Z",
+      "uri": "http://web.archive.org/web/20190209214511/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:04:24Z",
+      "uri": "http://web.archive.org/web/20190210160424/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/videos/politics/2019/02/09/julian-castro-trump-nightmare-opponent-2020-sot-van-jones-show-vpx.cnn"
+}

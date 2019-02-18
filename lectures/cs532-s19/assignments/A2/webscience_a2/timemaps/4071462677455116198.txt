@@ -1,0 +1,738 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-11-12T05:09:01Z",
+        "uri": "http://web.archive.org/web/20161112050901/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-13T05:57:04Z",
+        "uri": "http://web.archive.org/web/20161113055704/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-13T17:28:52Z",
+        "uri": "http://web.archive.org/web/20161113172852/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-14T07:20:42Z",
+        "uri": "http://web.archive.org/web/20161114072042/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-14T18:01:07Z",
+        "uri": "http://web.archive.org/web/20161114180107/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-14T18:01:12Z",
+        "uri": "http://web.archive.org/web/20161114180112/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985/?"
+      },
+      {
+        "datetime": "2016-11-15T09:29:40Z",
+        "uri": "http://web.archive.org/web/20161115092940/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-15T09:35:23Z",
+        "uri": "http://web.archive.org/web/20161115093523/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-15T09:35:23Z",
+        "uri": "http://web.archive.org/web/20161115093523/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2016-11-16T05:30:31Z",
+        "uri": "http://web.archive.org/web/20161116053031/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985/?"
+      },
+      {
+        "datetime": "2016-11-18T21:32:17Z",
+        "uri": "http://web.archive.org/web/20161118213217/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2016-11-18T21:32:17Z",
+        "uri": "http://web.archive.org/web/20161118213217/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2017-01-20T00:14:41Z",
+        "uri": "http://web.archive.org/web/20170120001441/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-21T00:36:41Z",
+        "uri": "http://web.archive.org/web/20170121003641/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-22T02:30:54Z",
+        "uri": "http://web.archive.org/web/20170122023054/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-23T06:12:54Z",
+        "uri": "http://web.archive.org/web/20170123061254/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-25T09:57:32Z",
+        "uri": "http://web.archive.org/web/20170125095732/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-26T09:28:36Z",
+        "uri": "http://web.archive.org/web/20170126092836/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-27T09:34:11Z",
+        "uri": "http://web.archive.org/web/20170127093411/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-28T09:57:09Z",
+        "uri": "http://web.archive.org/web/20170128095709/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-29T10:41:03Z",
+        "uri": "http://web.archive.org/web/20170129104103/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-30T10:58:10Z",
+        "uri": "http://web.archive.org/web/20170130105810/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-01-31T12:31:12Z",
+        "uri": "http://web.archive.org/web/20170131123112/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-02-02T12:03:40Z",
+        "uri": "http://web.archive.org/web/20170202120340/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-02-04T13:17:11Z",
+        "uri": "http://web.archive.org/web/20170204131711/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-02T16:43:46Z",
+        "uri": "http://web.archive.org/web/20170302164346/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-03T16:47:20Z",
+        "uri": "http://web.archive.org/web/20170303164720/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-04T18:09:07Z",
+        "uri": "http://web.archive.org/web/20170304180907/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-05T18:58:34Z",
+        "uri": "http://web.archive.org/web/20170305185834/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-06T17:18:55Z",
+        "uri": "http://web.archive.org/web/20170306171855/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-07T18:15:40Z",
+        "uri": "http://web.archive.org/web/20170307181540/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-08T19:44:39Z",
+        "uri": "http://web.archive.org/web/20170308194439/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-09T19:54:54Z",
+        "uri": "http://web.archive.org/web/20170309195454/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-10T20:03:55Z",
+        "uri": "http://web.archive.org/web/20170310200355/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-11T20:05:49Z",
+        "uri": "http://web.archive.org/web/20170311200549/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-12T20:57:40Z",
+        "uri": "http://web.archive.org/web/20170312205740/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-13T21:06:35Z",
+        "uri": "http://web.archive.org/web/20170313210635/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-14T21:51:03Z",
+        "uri": "http://web.archive.org/web/20170314215103/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-15T23:42:35Z",
+        "uri": "http://web.archive.org/web/20170315234235/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-16T22:17:24Z",
+        "uri": "http://web.archive.org/web/20170316221724/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-18T00:12:36Z",
+        "uri": "http://web.archive.org/web/20170318001236/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-19T00:27:24Z",
+        "uri": "http://web.archive.org/web/20170319002724/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-28T00:10:48Z",
+        "uri": "http://web.archive.org/web/20170328001048/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-29T01:06:46Z",
+        "uri": "http://web.archive.org/web/20170329010646/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-30T01:52:54Z",
+        "uri": "http://web.archive.org/web/20170330015254/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-03-31T01:24:24Z",
+        "uri": "http://web.archive.org/web/20170331012424/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-01T02:36:16Z",
+        "uri": "http://web.archive.org/web/20170401023616/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-02T04:16:32Z",
+        "uri": "http://web.archive.org/web/20170402041632/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-03T03:31:56Z",
+        "uri": "http://web.archive.org/web/20170403033156/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-04T02:46:39Z",
+        "uri": "http://web.archive.org/web/20170404024639/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-05T04:38:00Z",
+        "uri": "http://wayback.archive-it.org/all/20170405043800/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-05T04:38:00Z",
+        "uri": "http://web.archive.org/web/20170405043800/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-06T05:18:50Z",
+        "uri": "http://web.archive.org/web/20170406051850/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-07T05:25:29Z",
+        "uri": "http://web.archive.org/web/20170407052529/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-08T07:17:55Z",
+        "uri": "http://web.archive.org/web/20170408071755/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-10T06:19:43Z",
+        "uri": "http://web.archive.org/web/20170410061943/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-11T08:22:00Z",
+        "uri": "http://web.archive.org/web/20170411082200/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-12T08:39:25Z",
+        "uri": "http://web.archive.org/web/20170412083925/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-13T09:28:22Z",
+        "uri": "http://web.archive.org/web/20170413092822/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-14T12:32:59Z",
+        "uri": "http://web.archive.org/web/20170414123259/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-15T11:56:01Z",
+        "uri": "http://web.archive.org/web/20170415115601/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-16T12:11:37Z",
+        "uri": "http://web.archive.org/web/20170416121137/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-17T12:21:10Z",
+        "uri": "http://web.archive.org/web/20170417122110/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-18T15:00:28Z",
+        "uri": "http://web.archive.org/web/20170418150028/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-19T18:00:37Z",
+        "uri": "http://web.archive.org/web/20170419180037/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-20T16:57:10Z",
+        "uri": "http://web.archive.org/web/20170420165710/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-22T02:00:00Z",
+        "uri": "http://web.archive.org/web/20170422020000/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-23T05:18:53Z",
+        "uri": "http://web.archive.org/web/20170423051853/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-24T05:46:10Z",
+        "uri": "http://web.archive.org/web/20170424054610/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-25T07:55:28Z",
+        "uri": "http://web.archive.org/web/20170425075528/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-26T07:41:57Z",
+        "uri": "http://web.archive.org/web/20170426074157/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-27T09:47:24Z",
+        "uri": "http://web.archive.org/web/20170427094724/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-28T08:48:05Z",
+        "uri": "http://web.archive.org/web/20170428084805/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-29T15:17:25Z",
+        "uri": "http://web.archive.org/web/20170429151725/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-04-30T13:52:53Z",
+        "uri": "http://web.archive.org/web/20170430135253/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-01T11:00:35Z",
+        "uri": "http://web.archive.org/web/20170501110035/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-02T12:38:04Z",
+        "uri": "http://web.archive.org/web/20170502123804/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-03T12:15:57Z",
+        "uri": "http://web.archive.org/web/20170503121557/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-04T10:54:56Z",
+        "uri": "http://web.archive.org/web/20170504105456/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-05T11:48:31Z",
+        "uri": "http://web.archive.org/web/20170505114831/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-06T12:54:54Z",
+        "uri": "http://web.archive.org/web/20170506125454/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-07T13:17:39Z",
+        "uri": "http://web.archive.org/web/20170507131739/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-08T13:24:39Z",
+        "uri": "http://web.archive.org/web/20170508132439/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-09T13:20:52Z",
+        "uri": "http://web.archive.org/web/20170509132052/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-10T15:55:21Z",
+        "uri": "http://web.archive.org/web/20170510155521/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-11T16:51:23Z",
+        "uri": "http://web.archive.org/web/20170511165123/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-12T17:46:06Z",
+        "uri": "http://web.archive.org/web/20170512174606/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-13T18:43:15Z",
+        "uri": "http://web.archive.org/web/20170513184315/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-14T16:43:15Z",
+        "uri": "http://web.archive.org/web/20170514164315/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-15T18:58:38Z",
+        "uri": "http://web.archive.org/web/20170515185838/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-16T19:15:41Z",
+        "uri": "http://web.archive.org/web/20170516191541/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-17T19:43:11Z",
+        "uri": "http://web.archive.org/web/20170517194311/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-18T18:23:49Z",
+        "uri": "http://web.archive.org/web/20170518182349/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-19T22:28:58Z",
+        "uri": "http://web.archive.org/web/20170519222858/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-20T21:30:11Z",
+        "uri": "http://web.archive.org/web/20170520213011/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-21T21:28:46Z",
+        "uri": "http://web.archive.org/web/20170521212846/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-23T01:17:52Z",
+        "uri": "http://web.archive.org/web/20170523011752/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-23T21:14:00Z",
+        "uri": "http://web.archive.org/web/20170523211400/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-24T21:53:50Z",
+        "uri": "http://web.archive.org/web/20170524215350/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-25T23:00:36Z",
+        "uri": "http://web.archive.org/web/20170525230036/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-27T02:39:49Z",
+        "uri": "http://web.archive.org/web/20170527023949/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-28T00:44:33Z",
+        "uri": "http://web.archive.org/web/20170528004433/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-29T01:27:43Z",
+        "uri": "http://web.archive.org/web/20170529012743/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-30T01:40:10Z",
+        "uri": "http://web.archive.org/web/20170530014010/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-05-31T02:49:57Z",
+        "uri": "http://web.archive.org/web/20170531024957/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-01T02:06:08Z",
+        "uri": "http://web.archive.org/web/20170601020608/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-02T05:52:45Z",
+        "uri": "http://web.archive.org/web/20170602055245/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-03T06:33:38Z",
+        "uri": "http://web.archive.org/web/20170603063338/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-04T06:49:24Z",
+        "uri": "http://web.archive.org/web/20170604064924/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-05T08:59:13Z",
+        "uri": "http://web.archive.org/web/20170605085913/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-06T09:16:14Z",
+        "uri": "http://web.archive.org/web/20170606091614/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-07T09:41:07Z",
+        "uri": "http://web.archive.org/web/20170607094107/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-08T10:35:51Z",
+        "uri": "http://web.archive.org/web/20170608103551/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-09T13:21:39Z",
+        "uri": "http://web.archive.org/web/20170609132139/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-10T12:59:17Z",
+        "uri": "http://web.archive.org/web/20170610125917/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-11T12:19:00Z",
+        "uri": "http://web.archive.org/web/20170611121900/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-12T14:39:49Z",
+        "uri": "http://web.archive.org/web/20170612143949/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-13T15:42:12Z",
+        "uri": "http://web.archive.org/web/20170613154212/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-14T15:27:20Z",
+        "uri": "http://web.archive.org/web/20170614152720/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-15T16:07:57Z",
+        "uri": "http://web.archive.org/web/20170615160757/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-16T16:36:46Z",
+        "uri": "http://web.archive.org/web/20170616163646/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-17T19:40:53Z",
+        "uri": "http://web.archive.org/web/20170617194053/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-18T16:14:21Z",
+        "uri": "http://web.archive.org/web/20170618161421/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-19T17:22:09Z",
+        "uri": "http://web.archive.org/web/20170619172209/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-20T17:25:59Z",
+        "uri": "http://web.archive.org/web/20170620172559/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-21T21:36:53Z",
+        "uri": "http://web.archive.org/web/20170621213653/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-23T21:55:17Z",
+        "uri": "http://web.archive.org/web/20170623215517/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-25T00:03:09Z",
+        "uri": "http://web.archive.org/web/20170625000309/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-25T23:46:05Z",
+        "uri": "http://web.archive.org/web/20170625234605/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-26T22:45:35Z",
+        "uri": "http://web.archive.org/web/20170626224535/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-06-28T00:47:43Z",
+        "uri": "http://web.archive.org/web/20170628004743/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-07-16T12:22:29Z",
+        "uri": "http://web.archive.org/web/20170716122229/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-08-01T09:36:31Z",
+        "uri": "http://web.archive.org/web/20170801093631/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-08-08T23:18:30Z",
+        "uri": "http://web.archive.org/web/20170808231830/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-08-12T09:46:32Z",
+        "uri": "http://web.archive.org/web/20170812094632/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-08-12T09:46:32Z",
+        "uri": "http://web.archive.org/web/20170812094632/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2017-08-29T12:28:48Z",
+        "uri": "http://web.archive.org/web/20170829122848/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-08-29T12:28:49Z",
+        "uri": "http://web.archive.org/web/20170829122849/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-09-12T15:48:35Z",
+        "uri": "http://web.archive.org/web/20170912154835/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2017-09-15T09:53:54Z",
+        "uri": "http://web.archive.org/web/20170915095354/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-09-15T09:53:55Z",
+        "uri": "http://web.archive.org/web/20170915095355/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-10-14T21:06:12Z",
+        "uri": "http://web.archive.org/web/20171014210612/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2017-11-02T11:01:16Z",
+        "uri": "http://web.archive.org/web/20171102110116/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-02T11:01:17Z",
+        "uri": "http://web.archive.org/web/20171102110117/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-14T12:33:12Z",
+        "uri": "http://web.archive.org/web/20171114123312/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-14T12:33:13Z",
+        "uri": "http://web.archive.org/web/20171114123313/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-15T06:48:07Z",
+        "uri": "http://web.archive.org/web/20171115064807/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2017-11-15T23:53:56Z",
+        "uri": "http://web.archive.org/web/20171115235356/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-15T23:53:57Z",
+        "uri": "http://web.archive.org/web/20171115235357/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-16T21:07:50Z",
+        "uri": "http://web.archive.org/web/20171116210750/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-11-16T21:07:51Z",
+        "uri": "http://web.archive.org/web/20171116210751/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-12-16T19:55:12Z",
+        "uri": "http://web.archive.org/web/20171216195512/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2017-12-31T11:05:37Z",
+        "uri": "http://web.archive.org/web/20171231110537/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2017-12-31T11:05:38Z",
+        "uri": "http://web.archive.org/web/20171231110538/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-01-01T11:12:40Z",
+        "uri": "http://web.archive.org/web/20180101111240/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-01-01T11:12:41Z",
+        "uri": "http://web.archive.org/web/20180101111241/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-01-24T01:20:10Z",
+        "uri": "http://web.archive.org/web/20180124012010/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2018-02-08T11:25:30Z",
+        "uri": "http://web.archive.org/web/20180208112530/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-02-08T11:25:31Z",
+        "uri": "http://web.archive.org/web/20180208112531/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-02-25T12:43:07Z",
+        "uri": "http://web.archive.org/web/20180225124307/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2018-03-28T07:49:17Z",
+        "uri": "http://web.archive.org/web/20180328074917/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-28T07:49:20Z",
+        "uri": "http://web.archive.org/web/20180328074920/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-29T22:15:39Z",
+        "uri": "http://web.archive.org/web/20180329221539/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-29T22:15:40Z",
+        "uri": "http://web.archive.org/web/20180329221540/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-30T00:06:33Z",
+        "uri": "http://web.archive.org/web/20180330000633/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2018-03-30T10:56:10Z",
+        "uri": "http://web.archive.org/web/20180330105610/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-30T10:56:11Z",
+        "uri": "http://web.archive.org/web/20180330105611/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-31T10:28:56Z",
+        "uri": "http://web.archive.org/web/20180331102856/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-03-31T10:28:57Z",
+        "uri": "http://web.archive.org/web/20180331102857/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-04-01T09:07:50Z",
+        "uri": "http://web.archive.org/web/20180401090750/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-04-01T09:07:51Z",
+        "uri": "http://web.archive.org/web/20180401090751/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-04-02T09:01:30Z",
+        "uri": "http://web.archive.org/web/20180402090130/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-04-02T09:01:31Z",
+        "uri": "http://web.archive.org/web/20180402090131/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-05-02T09:43:52Z",
+        "uri": "http://web.archive.org/web/20180502094352/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2018-06-09T08:29:03Z",
+        "uri": "http://web.archive.org/web/20180609082903/http://www.cbsnews.com:80/news/watch-donald-trump-on-60-minutes-back-in-1985"
+      },
+      {
+        "datetime": "2018-07-28T22:51:39Z",
+        "uri": "http://web.archive.org/web/20180728225139/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-07-28T22:51:40Z",
+        "uri": "http://web.archive.org/web/20180728225140/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-11-08T17:01:30Z",
+        "uri": "http://web.archive.org/web/20181108170130/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      },
+      {
+        "datetime": "2018-11-08T17:01:31Z",
+        "uri": "http://web.archive.org/web/20181108170131/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-11-12T05:09:01Z",
+      "uri": "http://web.archive.org/web/20161112050901/http://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+    },
+    "last": {
+      "datetime": "2018-11-08T17:01:31Z",
+      "uri": "http://web.archive.org/web/20181108170131/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbsnews.com/news/watch-donald-trump-on-60-minutes-back-in-1985/"
+}

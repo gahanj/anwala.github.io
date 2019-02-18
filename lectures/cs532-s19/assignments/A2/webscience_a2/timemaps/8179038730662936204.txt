@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T19:17:44Z",
+        "uri": "http://archive.md/20190207191744/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+      },
+      {
+        "datetime": "2019-02-07T19:25:21Z",
+        "uri": "http://web.archive.org/web/20190207192521/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+      },
+      {
+        "datetime": "2019-02-08T00:35:11Z",
+        "uri": "http://web.archive.org/web/20190208003511/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T19:17:44Z",
+      "uri": "http://archive.md/20190207191744/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-08T00:35:11Z",
+      "uri": "http://web.archive.org/web/20190208003511/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/02/07/richard-burr-no-evidence-collusion-trump/"
+}

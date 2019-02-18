@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T09:59:56Z",
+        "uri": "http://web.archive.org/web/20190207095956/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T09:59:56Z",
+      "uri": "http://web.archive.org/web/20190207095956/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-07T09:59:56Z",
+      "uri": "http://web.archive.org/web/20190207095956/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://es.panampost.com/vanessa-araujo/2019/02/06/eeuu-desempleo-trump/"
+}

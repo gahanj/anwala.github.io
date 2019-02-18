@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T13:13:51Z",
+        "uri": "http://web.archive.org/web/20190210131351/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T13:13:51Z",
+      "uri": "http://web.archive.org/web/20190210131351/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:13:51Z",
+      "uri": "http://web.archive.org/web/20190210131351/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://abcnews.go.com/US/snl-asks-question-donald-trump-black/story?id=60969021"
+}

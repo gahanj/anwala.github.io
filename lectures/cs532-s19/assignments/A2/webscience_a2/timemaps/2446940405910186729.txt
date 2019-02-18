@@ -1,0 +1,2550 @@
+{
+  "original_uri": "https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-19T16:58:08Z",
+        "uri": "http://archive.md/20180519165808/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T17:00:48Z",
+        "uri": "http://web.archive.org/web/20180519170048/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T17:24:51Z",
+        "uri": "http://web.archive.org/web/20180519172451/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T17:40:19Z",
+        "uri": "http://web.archive.org/web/20180519174019/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T17:58:35Z",
+        "uri": "http://web.archive.org/web/20180519175835/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T18:23:37Z",
+        "uri": "http://web.archive.org/web/20180519182337/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T18:34:38Z",
+        "uri": "http://web.archive.org/web/20180519183438/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T18:49:33Z",
+        "uri": "http://web.archive.org/web/20180519184933/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T19:11:11Z",
+        "uri": "http://web.archive.org/web/20180519191111/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T19:48:04Z",
+        "uri": "http://web.archive.org/web/20180519194804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T20:24:15Z",
+        "uri": "http://web.archive.org/web/20180519202415/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T20:45:05Z",
+        "uri": "http://web.archive.org/web/20180519204505/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T21:00:26Z",
+        "uri": "http://web.archive.org/web/20180519210026/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T21:21:06Z",
+        "uri": "http://web.archive.org/web/20180519212106/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T21:35:58Z",
+        "uri": "http://web.archive.org/web/20180519213558/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T22:19:19Z",
+        "uri": "http://web.archive.org/web/20180519221919/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T23:03:35Z",
+        "uri": "http://web.archive.org/web/20180519230335/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T23:40:43Z",
+        "uri": "http://web.archive.org/web/20180519234043/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-19T23:41:39Z",
+        "uri": "http://web.archive.org/web/20180519234139/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T00:01:17Z",
+        "uri": "http://archive.md/20180520000117/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T00:20:24Z",
+        "uri": "http://web.archive.org/web/20180520002024/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T00:23:10Z",
+        "uri": "http://archive.md/20180520002310/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T00:56:21Z",
+        "uri": "http://web.archive.org/web/20180520005621/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T01:28:36Z",
+        "uri": "http://archive.md/20180520012836/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T01:32:07Z",
+        "uri": "http://web.archive.org/web/20180520013207/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T01:56:51Z",
+        "uri": "http://web.archive.org/web/20180520015651/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T02:32:49Z",
+        "uri": "http://web.archive.org/web/20180520023249/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T02:51:58Z",
+        "uri": "http://web.archive.org/web/20180520025158/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T03:08:41Z",
+        "uri": "http://web.archive.org/web/20180520030841/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T03:47:58Z",
+        "uri": "http://web.archive.org/web/20180520034758/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T04:10:31Z",
+        "uri": "http://web.archive.org/web/20180520041031/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T04:27:15Z",
+        "uri": "http://web.archive.org/web/20180520042715/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T05:10:21Z",
+        "uri": "http://web.archive.org/web/20180520051021/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T05:46:30Z",
+        "uri": "http://web.archive.org/web/20180520054630/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:05:30Z",
+        "uri": "http://web.archive.org/web/20180520060530/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:23:35Z",
+        "uri": "http://web.archive.org/web/20180520062335/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:27:48Z",
+        "uri": "http://web.archive.org/web/20180520062748/http://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:47:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180520064710/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:47:10Z",
+        "uri": "http://web.archive.org/web/20180520064710/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:50:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180520065011/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:50:11Z",
+        "uri": "http://web.archive.org/web/20180520065011/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T06:59:32Z",
+        "uri": "http://web.archive.org/web/20180520065932/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T07:35:48Z",
+        "uri": "http://web.archive.org/web/20180520073548/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T08:13:34Z",
+        "uri": "http://web.archive.org/web/20180520081334/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T08:41:12Z",
+        "uri": "http://archive.md/20180520084112/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T08:49:41Z",
+        "uri": "http://web.archive.org/web/20180520084941/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T09:26:09Z",
+        "uri": "http://web.archive.org/web/20180520092609/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T10:06:59Z",
+        "uri": "http://web.archive.org/web/20180520100659/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T10:53:59Z",
+        "uri": "http://web.archive.org/web/20180520105359/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T11:35:36Z",
+        "uri": "http://web.archive.org/web/20180520113536/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T12:13:52Z",
+        "uri": "http://web.archive.org/web/20180520121352/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T12:50:50Z",
+        "uri": "http://web.archive.org/web/20180520125050/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T13:27:40Z",
+        "uri": "http://web.archive.org/web/20180520132740/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T14:05:00Z",
+        "uri": "http://web.archive.org/web/20180520140500/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T16:01:53Z",
+        "uri": "http://web.archive.org/web/20180520160153/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T16:42:50Z",
+        "uri": "http://web.archive.org/web/20180520164250/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T17:10:16Z",
+        "uri": "http://web.archive.org/web/20180520171016/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T21:19:46Z",
+        "uri": "http://web.archive.org/web/20180520211946/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T22:46:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180520224648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T22:46:48Z",
+        "uri": "http://web.archive.org/web/20180520224648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-20T22:50:16Z",
+        "uri": "http://web.archive.org/web/20180520225016/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T04:19:21Z",
+        "uri": "http://web.archive.org/web/20180521041921/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T04:19:40Z",
+        "uri": "http://archive.md/20180521041940/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T06:58:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180521065802/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T06:58:02Z",
+        "uri": "http://web.archive.org/web/20180521065802/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T10:28:47Z",
+        "uri": "http://web.archive.org/web/20180521102847/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T16:29:02Z",
+        "uri": "http://web.archive.org/web/20180521162902/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T17:34:54Z",
+        "uri": "http://web.archive.org/web/20180521173454/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T18:58:23Z",
+        "uri": "http://wayback.archive-it.org/all/20180521185823/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T18:58:23Z",
+        "uri": "http://web.archive.org/web/20180521185823/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T19:26:52Z",
+        "uri": "http://web.archive.org/web/20180521192652/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T20:23:49Z",
+        "uri": "http://web.archive.org/web/20180521202349/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-21T22:37:11Z",
+        "uri": "http://web.archive.org/web/20180521223711/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T02:05:23Z",
+        "uri": "http://web.archive.org/web/20180522020523/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T04:34:19Z",
+        "uri": "http://web.archive.org/web/20180522043419/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T06:58:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180522065802/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T06:58:02Z",
+        "uri": "http://web.archive.org/web/20180522065802/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T18:58:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180522185811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T18:58:11Z",
+        "uri": "http://web.archive.org/web/20180522185811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-22T21:15:30Z",
+        "uri": "http://web.archive.org/web/20180522211530/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T03:30:31Z",
+        "uri": "http://web.archive.org/web/20180523033031/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T06:56:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180523065651/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T06:56:51Z",
+        "uri": "http://web.archive.org/web/20180523065651/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T10:54:27Z",
+        "uri": "http://web.archive.org/web/20180523105427/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T11:54:37Z",
+        "uri": "http://web.archive.org/web/20180523115437/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T19:00:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180523190008/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-23T19:00:08Z",
+        "uri": "http://web.archive.org/web/20180523190008/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-24T03:51:03Z",
+        "uri": "http://web.archive.org/web/20180524035103/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-24T06:56:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180524065658/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-24T06:56:58Z",
+        "uri": "http://web.archive.org/web/20180524065658/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-24T10:56:14Z",
+        "uri": "http://web.archive.org/web/20180524105614/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-24T18:58:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180524185825/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-24T18:58:25Z",
+        "uri": "http://web.archive.org/web/20180524185825/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-25T12:52:43Z",
+        "uri": "http://web.archive.org/web/20180525125243/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-26T12:08:16Z",
+        "uri": "http://web.archive.org/web/20180526120816/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-27T00:19:42Z",
+        "uri": "http://web.archive.org/web/20180527001942/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-27T06:42:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180527064204/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-27T06:42:04Z",
+        "uri": "http://web.archive.org/web/20180527064204/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-27T14:17:30Z",
+        "uri": "http://web.archive.org/web/20180527141730/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-28T04:52:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180528045228/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-28T04:52:28Z",
+        "uri": "http://web.archive.org/web/20180528045228/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-30T02:08:49Z",
+        "uri": "http://wayback.archive-it.org/all/20180530020849/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-30T02:08:49Z",
+        "uri": "http://web.archive.org/web/20180530020849/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-30T07:37:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180530073715/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-30T07:37:15Z",
+        "uri": "http://web.archive.org/web/20180530073715/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-30T13:50:41Z",
+        "uri": "http://web.archive.org/web/20180530135041/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-30T22:31:31Z",
+        "uri": "http://web.archive.org/web/20180530223131/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-31T06:32:33Z",
+        "uri": "http://web.archive.org/web/20180531063233/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-05-31T14:16:32Z",
+        "uri": "http://web.archive.org/web/20180531141632/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-01T02:31:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180601023115/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-01T02:31:15Z",
+        "uri": "http://web.archive.org/web/20180601023115/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-01T06:28:24Z",
+        "uri": "http://web.archive.org/web/20180601062824/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-01T09:01:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180601090131/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-01T09:01:31Z",
+        "uri": "http://web.archive.org/web/20180601090131/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-02T07:33:30Z",
+        "uri": "http://web.archive.org/web/20180602073330/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-02T18:36:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180602183646/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-02T18:36:46Z",
+        "uri": "http://web.archive.org/web/20180602183646/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-03T08:15:56Z",
+        "uri": "http://web.archive.org/web/20180603081556/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-03T08:39:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180603083906/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-03T08:39:06Z",
+        "uri": "http://web.archive.org/web/20180603083906/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-04T08:18:01Z",
+        "uri": "http://web.archive.org/web/20180604081801/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-06T15:18:22Z",
+        "uri": "http://web.archive.org/web/20180606151822/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-08T11:26:35Z",
+        "uri": "http://web.archive.org/web/20180608112635/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-08T21:30:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180608213043/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-08T21:30:43Z",
+        "uri": "http://web.archive.org/web/20180608213043/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-09T09:24:01Z",
+        "uri": "http://web.archive.org/web/20180609092401/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-10T10:29:29Z",
+        "uri": "http://web.archive.org/web/20180610102929/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-11T11:30:04Z",
+        "uri": "http://web.archive.org/web/20180611113004/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-12T11:26:59Z",
+        "uri": "http://web.archive.org/web/20180612112659/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-12T22:21:15Z",
+        "uri": "http://web.archive.org/web/20180612222115/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-13T12:08:46Z",
+        "uri": "http://web.archive.org/web/20180613120846/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-13T20:48:13Z",
+        "uri": "http://web.archive.org/web/20180613204813/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-14T16:26:04Z",
+        "uri": "http://web.archive.org/web/20180614162604/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-14T18:33:18Z",
+        "uri": "http://web.archive.org/web/20180614183318/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-14T21:56:33Z",
+        "uri": "http://web.archive.org/web/20180614215633/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-15T16:43:10Z",
+        "uri": "http://web.archive.org/web/20180615164310/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-26T07:58:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180626075811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-06-26T07:58:11Z",
+        "uri": "http://web.archive.org/web/20180626075811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-05T20:32:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180705203230/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-05T20:32:30Z",
+        "uri": "http://web.archive.org/web/20180705203230/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-07T20:31:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180707203157/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-07T20:31:57Z",
+        "uri": "http://web.archive.org/web/20180707203157/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-08T20:24:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180708202428/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-08T20:24:28Z",
+        "uri": "http://web.archive.org/web/20180708202428/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-09T18:02:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180709180247/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-09T18:02:47Z",
+        "uri": "http://web.archive.org/web/20180709180247/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-09T20:27:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180709202718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-09T20:27:18Z",
+        "uri": "http://web.archive.org/web/20180709202718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-10T20:36:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180710203648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-10T20:36:48Z",
+        "uri": "http://web.archive.org/web/20180710203648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-11T20:56:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180711205654/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-11T20:56:54Z",
+        "uri": "http://web.archive.org/web/20180711205654/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-12T20:26:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180712202648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-12T20:26:48Z",
+        "uri": "http://web.archive.org/web/20180712202648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-13T20:17:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180713201704/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-13T20:17:04Z",
+        "uri": "http://web.archive.org/web/20180713201704/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-14T20:16:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180714201616/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-14T20:16:16Z",
+        "uri": "http://web.archive.org/web/20180714201616/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-15T20:13:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180715201352/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-15T20:13:52Z",
+        "uri": "http://web.archive.org/web/20180715201352/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-16T20:19:09Z",
+        "uri": "http://wayback.archive-it.org/all/20180716201909/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-16T20:19:09Z",
+        "uri": "http://web.archive.org/web/20180716201909/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-17T20:49:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180717204928/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-17T20:49:28Z",
+        "uri": "http://web.archive.org/web/20180717204928/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-18T20:18:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180718201836/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-18T20:18:36Z",
+        "uri": "http://web.archive.org/web/20180718201836/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-19T20:24:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180719202406/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-19T20:24:06Z",
+        "uri": "http://web.archive.org/web/20180719202406/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-20T20:21:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180720202102/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-20T20:21:02Z",
+        "uri": "http://web.archive.org/web/20180720202102/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-21T20:22:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180721202239/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-21T20:22:39Z",
+        "uri": "http://web.archive.org/web/20180721202239/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-22T20:19:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180722201948/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-22T20:19:48Z",
+        "uri": "http://web.archive.org/web/20180722201948/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-23T20:28:14Z",
+        "uri": "http://wayback.archive-it.org/all/20180723202814/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-23T20:28:14Z",
+        "uri": "http://web.archive.org/web/20180723202814/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-24T20:22:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180724202218/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-24T20:22:18Z",
+        "uri": "http://web.archive.org/web/20180724202218/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-25T20:32:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180725203201/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-25T20:32:01Z",
+        "uri": "http://web.archive.org/web/20180725203201/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-26T20:32:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180726203221/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-26T20:32:21Z",
+        "uri": "http://web.archive.org/web/20180726203221/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-27T20:27:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180727202707/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-27T20:27:07Z",
+        "uri": "http://web.archive.org/web/20180727202707/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-28T20:24:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180728202425/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-28T20:24:25Z",
+        "uri": "http://web.archive.org/web/20180728202425/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-29T20:24:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180729202455/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-29T20:24:55Z",
+        "uri": "http://web.archive.org/web/20180729202455/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-30T20:27:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180730202754/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-30T20:27:54Z",
+        "uri": "http://web.archive.org/web/20180730202754/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-31T20:41:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180731204102/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-31T20:41:02Z",
+        "uri": "http://web.archive.org/web/20180731204102/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-07-31T22:07:18Z",
+        "uri": "http://web.archive.org/web/20180731220718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-01T21:19:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180801211925/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-01T21:19:25Z",
+        "uri": "http://web.archive.org/web/20180801211925/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-02T21:16:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180802211653/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-02T21:16:53Z",
+        "uri": "http://web.archive.org/web/20180802211653/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-03T20:30:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180803203012/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-03T20:30:12Z",
+        "uri": "http://web.archive.org/web/20180803203012/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-04T20:29:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180804202905/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-04T20:29:05Z",
+        "uri": "http://web.archive.org/web/20180804202905/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-05T12:04:14Z",
+        "uri": "http://web.archive.org/web/20180805120414/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-05T18:55:26Z",
+        "uri": "http://web.archive.org/web/20180805185526/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-05T20:22:23Z",
+        "uri": "http://wayback.archive-it.org/all/20180805202223/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-05T20:22:23Z",
+        "uri": "http://web.archive.org/web/20180805202223/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-06T20:40:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180806204046/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-06T20:40:46Z",
+        "uri": "http://web.archive.org/web/20180806204046/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-07T10:06:09Z",
+        "uri": "http://web.archive.org/web/20180807100609/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-07T15:13:25Z",
+        "uri": "http://web.archive.org/web/20180807151325/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-07T15:25:59Z",
+        "uri": "http://web.archive.org/web/20180807152559/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-07T20:36:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180807203620/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-07T20:36:20Z",
+        "uri": "http://web.archive.org/web/20180807203620/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-08T11:27:38Z",
+        "uri": "http://web.archive.org/web/20180808112738/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-08T20:36:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180808203655/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-08T20:36:55Z",
+        "uri": "http://web.archive.org/web/20180808203655/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-09T20:39:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180809203951/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-09T20:39:51Z",
+        "uri": "http://web.archive.org/web/20180809203951/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-10T21:01:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180810210147/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-10T21:01:47Z",
+        "uri": "http://web.archive.org/web/20180810210147/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-11T20:35:19Z",
+        "uri": "http://wayback.archive-it.org/all/20180811203519/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-11T20:35:19Z",
+        "uri": "http://web.archive.org/web/20180811203519/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-12T09:35:59Z",
+        "uri": "http://web.archive.org/web/20180812093559/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-12T20:31:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180812203134/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-12T20:31:34Z",
+        "uri": "http://web.archive.org/web/20180812203134/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-13T15:41:26Z",
+        "uri": "http://web.archive.org/web/20180813154126/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-13T20:43:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180813204346/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-13T20:43:46Z",
+        "uri": "http://web.archive.org/web/20180813204346/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-14T19:30:01Z",
+        "uri": "http://web.archive.org/web/20180814193001/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-14T20:38:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180814203854/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-14T20:38:54Z",
+        "uri": "http://web.archive.org/web/20180814203854/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-15T20:45:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180815204551/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-15T20:45:51Z",
+        "uri": "http://web.archive.org/web/20180815204551/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-16T07:01:11Z",
+        "uri": "http://web.archive.org/web/20180816070111/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-16T20:50:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180816205034/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-16T20:50:34Z",
+        "uri": "http://web.archive.org/web/20180816205034/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-17T00:17:08Z",
+        "uri": "http://web.archive.org/web/20180817001708/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-17T20:35:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180817203553/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-17T20:35:53Z",
+        "uri": "http://web.archive.org/web/20180817203553/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-18T20:39:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180818203902/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-18T20:39:02Z",
+        "uri": "http://web.archive.org/web/20180818203902/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-19T08:46:52Z",
+        "uri": "http://web.archive.org/web/20180819084652/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-19T15:24:35Z",
+        "uri": "http://web.archive.org/web/20180819152435/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-19T20:26:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180819202613/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-19T20:26:13Z",
+        "uri": "http://web.archive.org/web/20180819202613/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-20T20:41:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180820204137/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-20T20:41:37Z",
+        "uri": "http://web.archive.org/web/20180820204137/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-21T20:37:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180821203705/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-21T20:37:05Z",
+        "uri": "http://web.archive.org/web/20180821203705/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-22T20:46:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180822204606/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-22T20:46:06Z",
+        "uri": "http://web.archive.org/web/20180822204606/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-23T20:36:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180823203643/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-23T20:36:43Z",
+        "uri": "http://web.archive.org/web/20180823203643/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-24T20:49:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180824204902/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-24T20:49:02Z",
+        "uri": "http://web.archive.org/web/20180824204902/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-25T06:35:42Z",
+        "uri": "http://web.archive.org/web/20180825063542/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-25T20:44:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180825204403/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-25T20:44:03Z",
+        "uri": "http://web.archive.org/web/20180825204403/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-26T20:34:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180826203417/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-26T20:34:17Z",
+        "uri": "http://web.archive.org/web/20180826203417/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-27T20:42:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180827204217/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-27T20:42:17Z",
+        "uri": "http://web.archive.org/web/20180827204217/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-28T05:56:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180828055612/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-28T05:56:12Z",
+        "uri": "http://web.archive.org/web/20180828055612/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-28T20:58:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180828205811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-28T20:58:11Z",
+        "uri": "http://web.archive.org/web/20180828205811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-29T20:33:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180829203305/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-29T20:33:05Z",
+        "uri": "http://web.archive.org/web/20180829203305/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-30T20:30:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180830203024/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-30T20:30:24Z",
+        "uri": "http://web.archive.org/web/20180830203024/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-31T20:25:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180831202535/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-08-31T20:25:35Z",
+        "uri": "http://web.archive.org/web/20180831202535/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-01T20:22:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180901202255/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-01T20:22:55Z",
+        "uri": "http://web.archive.org/web/20180901202255/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-02T20:13:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180902201340/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-02T20:13:40Z",
+        "uri": "http://web.archive.org/web/20180902201340/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-03T20:19:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180903201934/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-03T20:19:34Z",
+        "uri": "http://web.archive.org/web/20180903201934/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-04T20:31:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180904203157/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-04T20:31:57Z",
+        "uri": "http://web.archive.org/web/20180904203157/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-05T20:20:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180905202052/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-05T20:20:52Z",
+        "uri": "http://web.archive.org/web/20180905202052/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-06T20:28:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180906202830/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-06T20:28:30Z",
+        "uri": "http://web.archive.org/web/20180906202830/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-07T20:26:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180907202637/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-07T20:26:37Z",
+        "uri": "http://web.archive.org/web/20180907202637/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-08T20:28:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180908202808/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-08T20:28:08Z",
+        "uri": "http://web.archive.org/web/20180908202808/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-09T20:09:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180909200937/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-09T20:09:37Z",
+        "uri": "http://web.archive.org/web/20180909200937/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-10T20:23:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180910202316/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-10T20:23:16Z",
+        "uri": "http://web.archive.org/web/20180910202316/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-11T20:12:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180911201201/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-11T20:12:01Z",
+        "uri": "http://web.archive.org/web/20180911201201/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-12T20:51:26Z",
+        "uri": "http://wayback.archive-it.org/all/20180912205126/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-12T20:51:26Z",
+        "uri": "http://web.archive.org/web/20180912205126/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-13T10:41:47Z",
+        "uri": "http://web.archive.org/web/20180913104147/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-13T13:52:12Z",
+        "uri": "http://web.archive.org/web/20180913135212/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-13T20:28:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180913202821/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-13T20:28:21Z",
+        "uri": "http://web.archive.org/web/20180913202821/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-14T20:40:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180914204035/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-14T20:40:35Z",
+        "uri": "http://web.archive.org/web/20180914204035/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-15T20:17:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180915201758/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-15T20:17:58Z",
+        "uri": "http://web.archive.org/web/20180915201758/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-16T20:19:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180916201916/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-16T20:19:16Z",
+        "uri": "http://web.archive.org/web/20180916201916/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-17T20:26:19Z",
+        "uri": "http://wayback.archive-it.org/all/20180917202619/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-17T20:26:19Z",
+        "uri": "http://web.archive.org/web/20180917202619/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-18T20:34:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180918203444/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-18T20:34:44Z",
+        "uri": "http://web.archive.org/web/20180918203444/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-19T20:25:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180919202555/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-19T20:25:55Z",
+        "uri": "http://web.archive.org/web/20180919202555/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-20T20:47:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180920204716/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-20T20:47:16Z",
+        "uri": "http://web.archive.org/web/20180920204716/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-21T20:56:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180921205600/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-21T20:56:00Z",
+        "uri": "http://web.archive.org/web/20180921205600/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-22T20:51:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180922205134/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-22T20:51:34Z",
+        "uri": "http://web.archive.org/web/20180922205134/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-23T20:37:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180923203706/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-23T20:37:06Z",
+        "uri": "http://web.archive.org/web/20180923203706/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-24T20:54:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180924205417/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-24T20:54:17Z",
+        "uri": "http://web.archive.org/web/20180924205417/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-25T21:39:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180925213937/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-25T21:39:37Z",
+        "uri": "http://web.archive.org/web/20180925213937/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-26T21:19:26Z",
+        "uri": "http://wayback.archive-it.org/all/20180926211926/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-26T21:19:26Z",
+        "uri": "http://web.archive.org/web/20180926211926/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-27T20:46:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180927204639/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-27T20:46:39Z",
+        "uri": "http://web.archive.org/web/20180927204639/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-28T20:44:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180928204432/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-28T20:44:32Z",
+        "uri": "http://web.archive.org/web/20180928204432/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-29T20:30:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180929203034/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-29T20:30:34Z",
+        "uri": "http://web.archive.org/web/20180929203034/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-30T20:26:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180930202608/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-09-30T20:26:08Z",
+        "uri": "http://web.archive.org/web/20180930202608/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-01T21:21:11Z",
+        "uri": "http://wayback.archive-it.org/all/20181001212111/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-01T21:21:11Z",
+        "uri": "http://web.archive.org/web/20181001212111/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-02T21:30:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181002213058/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-02T21:30:58Z",
+        "uri": "http://web.archive.org/web/20181002213058/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-03T22:08:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181003220804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-03T22:08:04Z",
+        "uri": "http://web.archive.org/web/20181003220804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-04T20:57:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181004205700/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-04T20:57:00Z",
+        "uri": "http://web.archive.org/web/20181004205700/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-05T21:16:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181005211624/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-05T21:16:24Z",
+        "uri": "http://web.archive.org/web/20181005211624/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-06T20:45:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181006204539/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-06T20:45:39Z",
+        "uri": "http://web.archive.org/web/20181006204539/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-07T20:57:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181007205731/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-07T20:57:31Z",
+        "uri": "http://web.archive.org/web/20181007205731/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-08T22:26:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181008222601/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-08T22:26:01Z",
+        "uri": "http://web.archive.org/web/20181008222601/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-09T01:07:54Z",
+        "uri": "http://web.archive.org/web/20181009010754/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-09T21:22:14Z",
+        "uri": "http://web.archive.org/web/20181009212214/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-09T22:13:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181009221354/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-09T22:13:54Z",
+        "uri": "http://web.archive.org/web/20181009221354/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-10T13:04:11Z",
+        "uri": "http://web.archive.org/web/20181010130411/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-10T21:32:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181010213251/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-10T21:32:51Z",
+        "uri": "http://web.archive.org/web/20181010213251/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-11T22:32:09Z",
+        "uri": "http://wayback.archive-it.org/all/20181011223209/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-11T22:32:09Z",
+        "uri": "http://web.archive.org/web/20181011223209/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-13T00:37:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181013003752/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-13T00:37:52Z",
+        "uri": "http://web.archive.org/web/20181013003752/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-13T21:47:02Z",
+        "uri": "http://wayback.archive-it.org/all/20181013214702/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-13T21:47:02Z",
+        "uri": "http://web.archive.org/web/20181013214702/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-14T21:43:32Z",
+        "uri": "http://wayback.archive-it.org/all/20181014214332/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-14T21:43:32Z",
+        "uri": "http://web.archive.org/web/20181014214332/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-15T21:28:11Z",
+        "uri": "http://wayback.archive-it.org/all/20181015212811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-15T21:28:11Z",
+        "uri": "http://web.archive.org/web/20181015212811/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-16T22:07:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181016220746/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-16T22:07:46Z",
+        "uri": "http://web.archive.org/web/20181016220746/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-17T21:28:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181017212843/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-17T21:28:43Z",
+        "uri": "http://web.archive.org/web/20181017212843/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-19T00:16:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181019001651/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-19T00:16:51Z",
+        "uri": "http://web.archive.org/web/20181019001651/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-19T11:01:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181019110114/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-19T11:01:14Z",
+        "uri": "http://web.archive.org/web/20181019110114/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-19T21:31:02Z",
+        "uri": "http://wayback.archive-it.org/all/20181019213102/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-19T21:31:02Z",
+        "uri": "http://web.archive.org/web/20181019213102/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-20T03:38:39Z",
+        "uri": "http://web.archive.org/web/20181020033839/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-20T11:23:40Z",
+        "uri": "http://web.archive.org/web/20181020112340/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-20T20:24:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181020202410/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-20T20:24:10Z",
+        "uri": "http://web.archive.org/web/20181020202410/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-21T20:31:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181021203108/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-21T20:31:08Z",
+        "uri": "http://web.archive.org/web/20181021203108/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-22T20:16:59Z",
+        "uri": "http://wayback.archive-it.org/all/20181022201659/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-22T20:16:59Z",
+        "uri": "http://web.archive.org/web/20181022201659/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-23T06:30:55Z",
+        "uri": "http://web.archive.org/web/20181023063055/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-24T00:22:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181024002229/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-24T00:22:29Z",
+        "uri": "http://web.archive.org/web/20181024002229/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-24T20:30:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181024203012/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-24T20:30:12Z",
+        "uri": "http://web.archive.org/web/20181024203012/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-25T20:35:15Z",
+        "uri": "http://wayback.archive-it.org/all/20181025203515/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-25T20:35:15Z",
+        "uri": "http://web.archive.org/web/20181025203515/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-26T20:36:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181026203648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-26T20:36:48Z",
+        "uri": "http://web.archive.org/web/20181026203648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-27T20:34:13Z",
+        "uri": "http://wayback.archive-it.org/all/20181027203413/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-27T20:34:13Z",
+        "uri": "http://web.archive.org/web/20181027203413/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-28T06:16:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181028061648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-28T06:16:48Z",
+        "uri": "http://web.archive.org/web/20181028061648/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-28T08:33:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181028083356/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-28T08:33:56Z",
+        "uri": "http://web.archive.org/web/20181028083356/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-28T20:40:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181028204039/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-28T20:40:39Z",
+        "uri": "http://web.archive.org/web/20181028204039/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-29T20:41:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181029204126/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-29T20:41:26Z",
+        "uri": "http://web.archive.org/web/20181029204126/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-30T20:41:33Z",
+        "uri": "http://wayback.archive-it.org/all/20181030204133/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-30T20:41:33Z",
+        "uri": "http://web.archive.org/web/20181030204133/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-31T20:58:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181031205825/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-10-31T20:58:25Z",
+        "uri": "http://web.archive.org/web/20181031205825/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-01T20:34:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181101203405/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-01T20:34:05Z",
+        "uri": "http://web.archive.org/web/20181101203405/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-02T22:05:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181102220514/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-02T22:05:14Z",
+        "uri": "http://web.archive.org/web/20181102220514/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-03T20:37:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181103203739/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-03T20:37:39Z",
+        "uri": "http://web.archive.org/web/20181103203739/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-04T22:54:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181104225434/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-04T22:54:34Z",
+        "uri": "http://web.archive.org/web/20181104225434/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-06T00:01:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181106000117/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-06T00:01:17Z",
+        "uri": "http://web.archive.org/web/20181106000117/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-06T20:43:28Z",
+        "uri": "http://wayback.archive-it.org/all/20181106204328/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-06T20:43:28Z",
+        "uri": "http://web.archive.org/web/20181106204328/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-07T11:40:32Z",
+        "uri": "http://web.archive.org/web/20181107114032/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-07T20:35:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181107203547/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-07T20:35:47Z",
+        "uri": "http://web.archive.org/web/20181107203547/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-08T21:07:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181108210718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-08T21:07:18Z",
+        "uri": "http://web.archive.org/web/20181108210718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-10T20:35:07Z",
+        "uri": "http://wayback.archive-it.org/all/20181110203507/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-10T20:35:07Z",
+        "uri": "http://web.archive.org/web/20181110203507/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-12T02:31:45Z",
+        "uri": "http://web.archive.org/web/20181112023145/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-12T08:18:18Z",
+        "uri": "http://web.archive.org/web/20181112081818/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-13T03:18:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181113031818/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-13T03:18:18Z",
+        "uri": "http://web.archive.org/web/20181113031818/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-13T20:42:15Z",
+        "uri": "http://wayback.archive-it.org/all/20181113204215/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-13T20:42:15Z",
+        "uri": "http://web.archive.org/web/20181113204215/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-14T20:38:40Z",
+        "uri": "http://wayback.archive-it.org/all/20181114203840/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-14T20:38:40Z",
+        "uri": "http://web.archive.org/web/20181114203840/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-15T20:33:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181115203300/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-15T20:33:00Z",
+        "uri": "http://web.archive.org/web/20181115203300/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-16T20:26:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181116202636/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-16T20:26:36Z",
+        "uri": "http://web.archive.org/web/20181116202636/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-16T20:43:21Z",
+        "uri": "http://web.archive.org/web/20181116204321/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-17T20:38:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181117203848/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-17T20:38:48Z",
+        "uri": "http://web.archive.org/web/20181117203848/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-18T08:52:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181118085254/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-18T08:52:54Z",
+        "uri": "http://web.archive.org/web/20181118085254/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-18T20:23:53Z",
+        "uri": "http://wayback.archive-it.org/all/20181118202353/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-18T20:23:53Z",
+        "uri": "http://web.archive.org/web/20181118202353/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-19T20:31:41Z",
+        "uri": "http://wayback.archive-it.org/all/20181119203141/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-19T20:31:41Z",
+        "uri": "http://web.archive.org/web/20181119203141/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-20T04:46:42Z",
+        "uri": "http://web.archive.org/web/20181120044642/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-20T20:43:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181120204327/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-20T20:43:27Z",
+        "uri": "http://web.archive.org/web/20181120204327/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-21T21:08:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181121210821/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-21T21:08:21Z",
+        "uri": "http://web.archive.org/web/20181121210821/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-22T07:15:15Z",
+        "uri": "http://wayback.archive-it.org/all/20181122071515/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-22T07:15:15Z",
+        "uri": "http://web.archive.org/web/20181122071515/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-22T20:22:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181122202249/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-22T20:22:49Z",
+        "uri": "http://web.archive.org/web/20181122202249/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-24T06:54:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181124065446/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-24T06:54:46Z",
+        "uri": "http://web.archive.org/web/20181124065446/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-24T21:26:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181124212605/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-24T21:26:05Z",
+        "uri": "http://web.archive.org/web/20181124212605/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-24T21:37:28Z",
+        "uri": "http://wayback.archive-it.org/all/20181124213728/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-24T21:37:28Z",
+        "uri": "http://web.archive.org/web/20181124213728/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-26T05:16:59Z",
+        "uri": "http://web.archive.org/web/20181126051659/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-26T20:33:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181126203345/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-26T20:33:45Z",
+        "uri": "http://web.archive.org/web/20181126203345/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-27T04:13:07Z",
+        "uri": "http://wayback.archive-it.org/all/20181127041307/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-27T04:13:07Z",
+        "uri": "http://web.archive.org/web/20181127041307/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-27T11:59:06Z",
+        "uri": "http://web.archive.org/web/20181127115906/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-27T15:09:36Z",
+        "uri": "http://web.archive.org/web/20181127150936/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-28T00:21:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181128002154/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-28T00:21:54Z",
+        "uri": "http://web.archive.org/web/20181128002154/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-28T21:00:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181128210031/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-28T21:00:31Z",
+        "uri": "http://web.archive.org/web/20181128210031/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-29T20:23:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181129202342/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-29T20:23:42Z",
+        "uri": "http://web.archive.org/web/20181129202342/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-30T18:46:08Z",
+        "uri": "http://web.archive.org/web/20181130184608/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-30T20:22:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181130202258/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-11-30T20:22:58Z",
+        "uri": "http://web.archive.org/web/20181130202258/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-01T13:16:25Z",
+        "uri": "http://web.archive.org/web/20181201131625/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-01T20:33:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181201203334/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-01T20:33:34Z",
+        "uri": "http://web.archive.org/web/20181201203334/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-02T20:23:20Z",
+        "uri": "http://wayback.archive-it.org/all/20181202202320/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-02T20:23:20Z",
+        "uri": "http://web.archive.org/web/20181202202320/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-03T20:26:20Z",
+        "uri": "http://wayback.archive-it.org/all/20181203202620/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-03T20:26:20Z",
+        "uri": "http://web.archive.org/web/20181203202620/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-05T20:36:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181205203612/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-05T20:36:12Z",
+        "uri": "http://web.archive.org/web/20181205203612/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-06T13:05:20Z",
+        "uri": "http://web.archive.org/web/20181206130520/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-06T20:39:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181206203901/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-06T20:39:01Z",
+        "uri": "http://web.archive.org/web/20181206203901/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-07T14:37:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181207143729/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-07T14:37:29Z",
+        "uri": "http://web.archive.org/web/20181207143729/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-07T22:25:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181207222521/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-07T22:25:21Z",
+        "uri": "http://web.archive.org/web/20181207222521/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-08T20:33:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181208203354/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-08T20:33:54Z",
+        "uri": "http://web.archive.org/web/20181208203354/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-08T23:45:25Z",
+        "uri": "http://web.archive.org/web/20181208234525/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-09T11:27:16Z",
+        "uri": "http://web.archive.org/web/20181209112716/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-09T20:20:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181209202057/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-09T20:20:57Z",
+        "uri": "http://web.archive.org/web/20181209202057/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-10T12:51:54Z",
+        "uri": "http://web.archive.org/web/20181210125154/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-10T20:37:09Z",
+        "uri": "http://wayback.archive-it.org/all/20181210203709/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-10T20:37:09Z",
+        "uri": "http://web.archive.org/web/20181210203709/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-11T20:24:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181211202429/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-11T20:24:29Z",
+        "uri": "http://web.archive.org/web/20181211202429/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-12T00:59:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181212005946/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-12T00:59:46Z",
+        "uri": "http://web.archive.org/web/20181212005946/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-12T20:46:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181212204617/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-12T20:46:17Z",
+        "uri": "http://web.archive.org/web/20181212204617/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-13T13:32:24Z",
+        "uri": "http://web.archive.org/web/20181213133224/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-13T20:33:20Z",
+        "uri": "http://wayback.archive-it.org/all/20181213203320/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-13T20:33:20Z",
+        "uri": "http://web.archive.org/web/20181213203320/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T07:05:03Z",
+        "uri": "http://web.archive.org/web/20181214070503/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T12:13:23Z",
+        "uri": "http://web.archive.org/web/20181214121323/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T13:16:54Z",
+        "uri": "http://web.archive.org/web/20181214131654/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T15:24:02Z",
+        "uri": "http://web.archive.org/web/20181214152402/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T20:23:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181214202306/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T20:23:06Z",
+        "uri": "http://web.archive.org/web/20181214202306/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T21:13:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181214211300/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-14T21:13:00Z",
+        "uri": "http://web.archive.org/web/20181214211300/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-15T09:20:57Z",
+        "uri": "http://web.archive.org/web/20181215092057/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-15T20:43:50Z",
+        "uri": "http://wayback.archive-it.org/all/20181215204350/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-15T20:43:50Z",
+        "uri": "http://web.archive.org/web/20181215204350/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-15T21:00:50Z",
+        "uri": "http://wayback.archive-it.org/all/20181215210050/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-15T21:00:50Z",
+        "uri": "http://web.archive.org/web/20181215210050/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-16T06:42:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181216064224/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-16T06:42:24Z",
+        "uri": "http://web.archive.org/web/20181216064224/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-16T20:13:19Z",
+        "uri": "http://wayback.archive-it.org/all/20181216201319/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-16T20:13:19Z",
+        "uri": "http://web.archive.org/web/20181216201319/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-16T20:23:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181216202346/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-16T20:23:46Z",
+        "uri": "http://web.archive.org/web/20181216202346/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-17T20:40:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181217204005/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-17T20:40:05Z",
+        "uri": "http://web.archive.org/web/20181217204005/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-18T02:10:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181218021051/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-18T02:10:51Z",
+        "uri": "http://web.archive.org/web/20181218021051/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-18T21:31:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181218213142/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-18T21:31:42Z",
+        "uri": "http://web.archive.org/web/20181218213142/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-19T05:52:22Z",
+        "uri": "http://wayback.archive-it.org/all/20181219055222/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-19T05:52:22Z",
+        "uri": "http://web.archive.org/web/20181219055222/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-19T20:33:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181219203339/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-19T20:33:39Z",
+        "uri": "http://web.archive.org/web/20181219203339/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-20T01:49:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181220014954/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-20T01:49:54Z",
+        "uri": "http://web.archive.org/web/20181220014954/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-20T20:34:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181220203439/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-20T20:34:39Z",
+        "uri": "http://web.archive.org/web/20181220203439/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-21T00:20:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181221002036/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-21T00:20:36Z",
+        "uri": "http://web.archive.org/web/20181221002036/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-21T20:24:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181221202412/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-21T20:24:12Z",
+        "uri": "http://web.archive.org/web/20181221202412/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-22T01:39:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181222013945/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-22T01:39:45Z",
+        "uri": "http://web.archive.org/web/20181222013945/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-22T20:26:37Z",
+        "uri": "http://wayback.archive-it.org/all/20181222202637/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-22T20:26:37Z",
+        "uri": "http://web.archive.org/web/20181222202637/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-23T00:45:50Z",
+        "uri": "http://wayback.archive-it.org/all/20181223004550/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-23T00:45:50Z",
+        "uri": "http://web.archive.org/web/20181223004550/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-23T20:37:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181223203718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-23T20:37:18Z",
+        "uri": "http://web.archive.org/web/20181223203718/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-24T20:39:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181224203916/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-24T20:39:16Z",
+        "uri": "http://web.archive.org/web/20181224203916/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-25T20:22:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181225202224/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-25T20:22:24Z",
+        "uri": "http://web.archive.org/web/20181225202224/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-26T20:27:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181226202717/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-26T20:27:17Z",
+        "uri": "http://web.archive.org/web/20181226202717/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-27T20:28:28Z",
+        "uri": "http://wayback.archive-it.org/all/20181227202828/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-27T20:28:28Z",
+        "uri": "http://web.archive.org/web/20181227202828/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-28T07:11:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181228071118/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-28T07:11:18Z",
+        "uri": "http://web.archive.org/web/20181228071118/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-28T21:18:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181228211804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-28T21:18:04Z",
+        "uri": "http://web.archive.org/web/20181228211804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-29T20:32:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181229203246/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-29T20:32:46Z",
+        "uri": "http://web.archive.org/web/20181229203246/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-30T00:09:24Z",
+        "uri": "http://web.archive.org/web/20181230000924/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-30T20:34:23Z",
+        "uri": "http://wayback.archive-it.org/all/20181230203423/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-30T20:34:23Z",
+        "uri": "http://web.archive.org/web/20181230203423/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-31T02:58:17Z",
+        "uri": "http://web.archive.org/web/20181231025817/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-31T20:49:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181231204921/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2018-12-31T20:49:21Z",
+        "uri": "http://web.archive.org/web/20181231204921/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-01T20:51:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190101205135/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-01T20:51:35Z",
+        "uri": "http://web.archive.org/web/20190101205135/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-02T20:58:38Z",
+        "uri": "http://wayback.archive-it.org/all/20190102205838/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-02T20:58:38Z",
+        "uri": "http://web.archive.org/web/20190102205838/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-04T02:45:59Z",
+        "uri": "http://wayback.archive-it.org/all/20190104024559/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-04T02:45:59Z",
+        "uri": "http://web.archive.org/web/20190104024559/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-04T20:36:07Z",
+        "uri": "http://wayback.archive-it.org/all/20190104203607/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-04T20:36:07Z",
+        "uri": "http://web.archive.org/web/20190104203607/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-05T20:34:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190105203454/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-05T20:34:54Z",
+        "uri": "http://web.archive.org/web/20190105203454/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-06T20:29:11Z",
+        "uri": "http://wayback.archive-it.org/all/20190106202911/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-06T20:29:11Z",
+        "uri": "http://web.archive.org/web/20190106202911/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-07T20:35:36Z",
+        "uri": "http://wayback.archive-it.org/all/20190107203536/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-07T20:35:36Z",
+        "uri": "http://web.archive.org/web/20190107203536/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-08T20:12:44Z",
+        "uri": "http://web.archive.org/web/20190108201244/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-08T20:30:31Z",
+        "uri": "http://wayback.archive-it.org/all/20190108203031/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-08T20:30:31Z",
+        "uri": "http://web.archive.org/web/20190108203031/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-09T21:15:28Z",
+        "uri": "http://wayback.archive-it.org/all/20190109211528/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-09T21:15:28Z",
+        "uri": "http://web.archive.org/web/20190109211528/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-10T20:31:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190110203134/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-10T20:31:34Z",
+        "uri": "http://web.archive.org/web/20190110203134/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-11T20:40:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190111204054/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-11T20:40:54Z",
+        "uri": "http://web.archive.org/web/20190111204054/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-12T20:28:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190112202802/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-12T20:28:02Z",
+        "uri": "http://web.archive.org/web/20190112202802/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-13T20:22:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190113202248/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-13T20:22:48Z",
+        "uri": "http://web.archive.org/web/20190113202248/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-14T00:07:23Z",
+        "uri": "http://web.archive.org/web/20190114000723/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-14T20:38:20Z",
+        "uri": "http://wayback.archive-it.org/all/20190114203820/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-14T20:38:20Z",
+        "uri": "http://web.archive.org/web/20190114203820/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-15T21:16:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190115211619/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-15T21:16:19Z",
+        "uri": "http://web.archive.org/web/20190115211619/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-16T21:14:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190116211451/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-16T21:14:51Z",
+        "uri": "http://web.archive.org/web/20190116211451/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-17T20:28:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190117202804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-17T20:28:04Z",
+        "uri": "http://web.archive.org/web/20190117202804/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-18T16:37:09Z",
+        "uri": "http://web.archive.org/web/20190118163709/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-18T16:47:33Z",
+        "uri": "http://web.archive.org/web/20190118164733/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-18T20:42:03Z",
+        "uri": "http://wayback.archive-it.org/all/20190118204203/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-18T20:42:03Z",
+        "uri": "http://web.archive.org/web/20190118204203/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-19T20:37:58Z",
+        "uri": "http://wayback.archive-it.org/all/20190119203758/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-19T20:37:58Z",
+        "uri": "http://web.archive.org/web/20190119203758/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-20T20:27:49Z",
+        "uri": "http://wayback.archive-it.org/all/20190120202749/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-20T20:27:49Z",
+        "uri": "http://web.archive.org/web/20190120202749/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-21T20:44:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190121204402/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-21T20:44:02Z",
+        "uri": "http://web.archive.org/web/20190121204402/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-22T21:06:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190122210646/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-22T21:06:46Z",
+        "uri": "http://web.archive.org/web/20190122210646/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-23T20:36:57Z",
+        "uri": "http://wayback.archive-it.org/all/20190123203657/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-01-23T20:36:57Z",
+        "uri": "http://web.archive.org/web/20190123203657/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-02-01T18:07:37Z",
+        "uri": "http://web.archive.org/web/20190201180737/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-02-06T03:45:20Z",
+        "uri": "http://web.archive.org/web/20190206034520/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-02-08T18:06:44Z",
+        "uri": "http://web.archive.org/web/20190208180644/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-02-09T01:14:47Z",
+        "uri": "http://web.archive.org/web/20190209011447/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      },
+      {
+        "datetime": "2019-02-09T13:46:08Z",
+        "uri": "http://web.archive.org/web/20190209134608/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-19T16:58:08Z",
+      "uri": "http://archive.md/20180519165808/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T13:46:08Z",
+      "uri": "http://web.archive.org/web/20190209134608/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2018/05/19/us/politics/trump-jr-saudi-uae-nader-prince-zamel.html"
+}

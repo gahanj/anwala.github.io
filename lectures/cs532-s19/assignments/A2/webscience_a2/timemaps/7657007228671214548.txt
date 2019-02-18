@@ -1,0 +1,834 @@
+{
+  "original_uri": "http://original-political-cartoon.com",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://original-political-cartoon.com",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2012-09-02T23:56:04Z",
+        "uri": "http://web.archive.org/web/20120902235604/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2012-11-03T05:41:32Z",
+        "uri": "http://web.archive.org/web/20121103054132/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2013-01-13T01:52:11Z",
+        "uri": "http://web.archive.org/web/20130113015211/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2013-04-15T20:04:40Z",
+        "uri": "http://web.archive.org/web/20130415200440/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2013-06-15T00:00:03Z",
+        "uri": "http://web.archive.org/web/20130615000003/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2013-07-07T02:08:25Z",
+        "uri": "http://web.archive.org/web/20130707020825/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2013-08-11T23:15:52Z",
+        "uri": "http://web.archive.org/web/20130811231552/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2013-09-22T13:04:43Z",
+        "uri": "http://web.archive.org/web/20130922130443/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-01-05T05:18:42Z",
+        "uri": "http://web.archive.org/web/20140105051842/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-02-01T13:57:34Z",
+        "uri": "http://web.archive.org/web/20140201135734/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-02-11T11:46:55Z",
+        "uri": "http://web.archive.org/web/20140211114655/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-07-20T00:18:26Z",
+        "uri": "http://wayback.archive-it.org/all/20140720001826/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-07-20T00:18:26Z",
+        "uri": "http://web.archive.org/web/20140720001826/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-08-15T01:09:25Z",
+        "uri": "http://web.archive.org/web/20140815010925/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-10-25T02:06:49Z",
+        "uri": "http://wayback.archive-it.org/all/20141025020649/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-10-25T02:06:49Z",
+        "uri": "http://web.archive.org/web/20141025020649/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-10-28T22:01:43Z",
+        "uri": "http://web.archive.org/web/20141028220143/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2014-12-17T23:19:37Z",
+        "uri": "http://web.archive.org/web/20141217231937/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-12-21T06:00:02Z",
+        "uri": "http://web.archive.org/web/20141221060002/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-12-24T17:26:10Z",
+        "uri": "http://web.archive.org/web/20141224172610/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2014-12-28T04:52:41Z",
+        "uri": "http://web.archive.org/web/20141228045241/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2015-02-24T01:23:49Z",
+        "uri": "http://web.archive.org/web/20150224012349/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2015-05-11T15:04:28Z",
+        "uri": "http://web.archive.org/web/20150511150428/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2015-05-21T11:09:49Z",
+        "uri": "http://web.archive.org/web/20150521110949/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2015-07-21T09:40:53Z",
+        "uri": "http://web.archive.org/web/20150721094053/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2015-10-16T12:55:50Z",
+        "uri": "http://web.archive.org/web/20151016125550/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2015-10-27T15:46:24Z",
+        "uri": "http://web.archive.org/web/20151027154624/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2015-11-16T06:28:32Z",
+        "uri": "http://web.archive.org/web/20151116062832/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2015-12-29T22:46:42Z",
+        "uri": "http://web.archive.org/web/20151229224642/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-01-11T11:26:46Z",
+        "uri": "http://web.archive.org/web/20160111112646/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-01-11T18:52:45Z",
+        "uri": "http://web.archive.org/web/20160111185245/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-02-11T01:25:18Z",
+        "uri": "http://web.archive.org/web/20160211012518/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-03-03T05:01:06Z",
+        "uri": "http://web.archive.org/web/20160303050106/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-03-06T13:23:31Z",
+        "uri": "http://web.archive.org/web/20160306132331/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-03-23T14:45:31Z",
+        "uri": "http://web.archive.org/web/20160323144531/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-03-24T18:37:49Z",
+        "uri": "http://web.archive.org/web/20160324183749/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-04-05T20:25:19Z",
+        "uri": "http://web.archive.org/web/20160405202519/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-04-13T17:23:07Z",
+        "uri": "http://web.archive.org/web/20160413172307/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-05-07T02:57:26Z",
+        "uri": "http://web.archive.org/web/20160507025726/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-06-08T08:19:22Z",
+        "uri": "http://web.archive.org/web/20160608081922/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-06-23T22:12:15Z",
+        "uri": "http://web.archive.org/web/20160623221215/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-07-09T10:19:32Z",
+        "uri": "http://web.archive.org/web/20160709101932/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-07-30T02:41:48Z",
+        "uri": "http://web.archive.org/web/20160730024148/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-08-09T18:41:05Z",
+        "uri": "http://web.archive.org/web/20160809184105/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-08-26T21:04:42Z",
+        "uri": "http://web.archive.org/web/20160826210442/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-09-11T22:38:04Z",
+        "uri": "http://web.archive.org/web/20160911223804/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-10-03T11:51:13Z",
+        "uri": "http://web.archive.org/web/20161003115113/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-10-13T11:25:33Z",
+        "uri": "http://web.archive.org/web/20161013112533/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-10-15T21:30:58Z",
+        "uri": "http://web.archive.org/web/20161015213058/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-11-15T22:10:45Z",
+        "uri": "http://web.archive.org/web/20161115221045/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-11-25T04:27:13Z",
+        "uri": "http://web.archive.org/web/20161125042713/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2016-11-27T09:21:32Z",
+        "uri": "http://web.archive.org/web/20161127092132/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2016-12-02T12:40:54Z",
+        "uri": "http://web.archive.org/web/20161202124054/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-04-19T03:44:24Z",
+        "uri": "http://web.archive.org/web/20170419034424/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-06-06T14:46:40Z",
+        "uri": "http://web.archive.org/web/20170606144640/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-06-07T09:37:27Z",
+        "uri": "http://web.archive.org/web/20170607093727/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-06-14T20:04:27Z",
+        "uri": "http://web.archive.org/web/20170614200427/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-06-27T06:16:42Z",
+        "uri": "http://web.archive.org/web/20170627061642/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-07-19T02:33:50Z",
+        "uri": "http://web.archive.org/web/20170719023350/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-07-26T22:53:31Z",
+        "uri": "http://web.archive.org/web/20170726225331/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-07-26T22:53:32Z",
+        "uri": "http://web.archive.org/web/20170726225332/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-07-26T22:53:34Z",
+        "uri": "http://web.archive.org/web/20170726225334/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-03T06:36:15Z",
+        "uri": "http://web.archive.org/web/20170803063615/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-08-03T17:56:24Z",
+        "uri": "http://web.archive.org/web/20170803175624/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-03T17:56:53Z",
+        "uri": "http://web.archive.org/web/20170803175653/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-06T03:56:44Z",
+        "uri": "http://web.archive.org/web/20170806035644/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-07T18:49:11Z",
+        "uri": "http://web.archive.org/web/20170807184911/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-12T15:31:40Z",
+        "uri": "http://web.archive.org/web/20170812153140/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-18T17:30:54Z",
+        "uri": "http://web.archive.org/web/20170818173054/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-18T17:31:21Z",
+        "uri": "http://web.archive.org/web/20170818173121/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-23T01:45:32Z",
+        "uri": "http://web.archive.org/web/20170823014532/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-24T05:15:10Z",
+        "uri": "http://web.archive.org/web/20170824051510/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-24T05:15:10Z",
+        "uri": "http://web.archive.org/web/20170824051510/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-08-25T11:51:47Z",
+        "uri": "http://web.archive.org/web/20170825115147/http://original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-08-29T20:38:33Z",
+        "uri": "http://web.archive.org/web/20170829203833/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-09-01T10:55:22Z",
+        "uri": "http://web.archive.org/web/20170901105522/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-09-01T12:18:43Z",
+        "uri": "http://web.archive.org/web/20170901121843/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-09-03T12:04:31Z",
+        "uri": "http://web.archive.org/web/20170903120431/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-09-04T05:00:49Z",
+        "uri": "http://web.archive.org/web/20170904050049/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-09-10T00:43:03Z",
+        "uri": "http://web.archive.org/web/20170910004303/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-09-11T13:43:32Z",
+        "uri": "http://web.archive.org/web/20170911134332/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-09-27T00:33:47Z",
+        "uri": "http://web.archive.org/web/20170927003347/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-10-01T14:49:50Z",
+        "uri": "http://web.archive.org/web/20171001144950/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-10-01T16:07:22Z",
+        "uri": "http://web.archive.org/web/20171001160722/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-10-01T16:07:34Z",
+        "uri": "http://web.archive.org/web/20171001160734/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-10-04T21:23:24Z",
+        "uri": "http://web.archive.org/web/20171004212324/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-10-06T04:22:33Z",
+        "uri": "http://web.archive.org/web/20171006042233/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-10-14T20:28:09Z",
+        "uri": "http://web.archive.org/web/20171014202809/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-10-16T16:38:33Z",
+        "uri": "http://web.archive.org/web/20171016163833/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-11-05T04:54:15Z",
+        "uri": "http://web.archive.org/web/20171105045415/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-11-05T05:16:52Z",
+        "uri": "http://web.archive.org/web/20171105051652/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-11-08T17:00:05Z",
+        "uri": "http://web.archive.org/web/20171108170005/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-11-09T01:25:50Z",
+        "uri": "http://web.archive.org/web/20171109012550/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2017-11-19T03:04:39Z",
+        "uri": "http://web.archive.org/web/20171119030439/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-12-03T05:57:35Z",
+        "uri": "http://web.archive.org/web/20171203055735/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2017-12-25T06:22:07Z",
+        "uri": "http://web.archive.org/web/20171225062207/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-01-01T07:56:01Z",
+        "uri": "http://web.archive.org/web/20180101075601/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-01-01T11:02:47Z",
+        "uri": "http://web.archive.org/web/20180101110247/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-01-29T17:08:52Z",
+        "uri": "http://web.archive.org/web/20180129170852/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-02-01T16:42:14Z",
+        "uri": "http://web.archive.org/web/20180201164214/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-02-03T11:22:35Z",
+        "uri": "http://web.archive.org/web/20180203112235/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-02-09T21:15:35Z",
+        "uri": "http://web.archive.org/web/20180209211535/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-02-13T02:01:04Z",
+        "uri": "http://web.archive.org/web/20180213020104/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-05T14:03:59Z",
+        "uri": "http://web.archive.org/web/20180305140359/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-10T16:44:40Z",
+        "uri": "http://web.archive.org/web/20180310164440/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-12T12:18:19Z",
+        "uri": "http://web.archive.org/web/20180312121819/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-18T09:18:07Z",
+        "uri": "http://web.archive.org/web/20180318091807/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-19T12:56:28Z",
+        "uri": "http://web.archive.org/web/20180319125628/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-19T16:46:49Z",
+        "uri": "http://web.archive.org/web/20180319164649/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-21T16:11:27Z",
+        "uri": "http://web.archive.org/web/20180321161127/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-03-25T20:07:54Z",
+        "uri": "http://web.archive.org/web/20180325200754/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-03-26T20:38:16Z",
+        "uri": "http://web.archive.org/web/20180326203816/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-02T20:06:43Z",
+        "uri": "http://web.archive.org/web/20180402200643/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-09T19:47:14Z",
+        "uri": "http://web.archive.org/web/20180409194714/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-16T20:15:20Z",
+        "uri": "http://web.archive.org/web/20180416201520/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-21T03:09:24Z",
+        "uri": "http://web.archive.org/web/20180421030924/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-21T16:29:17Z",
+        "uri": "http://web.archive.org/web/20180421162917/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-23T21:34:19Z",
+        "uri": "http://web.archive.org/web/20180423213419/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-23T22:59:17Z",
+        "uri": "http://web.archive.org/web/20180423225917/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-04-30T17:15:45Z",
+        "uri": "http://web.archive.org/web/20180430171545/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-04-30T23:01:26Z",
+        "uri": "http://web.archive.org/web/20180430230126/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-01T20:29:05Z",
+        "uri": "http://web.archive.org/web/20180501202905/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-02T12:33:48Z",
+        "uri": "http://web.archive.org/web/20180502123348/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-06T01:26:03Z",
+        "uri": "http://web.archive.org/web/20180506012603/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-07T18:22:19Z",
+        "uri": "http://web.archive.org/web/20180507182219/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-14T07:20:37Z",
+        "uri": "http://web.archive.org/web/20180514072037/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-15T01:45:28Z",
+        "uri": "http://web.archive.org/web/20180515014528/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-19T10:26:39Z",
+        "uri": "http://web.archive.org/web/20180519102639/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-22T11:18:16Z",
+        "uri": "http://web.archive.org/web/20180522111816/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-05-29T03:52:41Z",
+        "uri": "http://web.archive.org/web/20180529035241/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-02T07:07:53Z",
+        "uri": "http://web.archive.org/web/20180602070753/http://www.original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-06-04T22:15:25Z",
+        "uri": "http://web.archive.org/web/20180604221525/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-07T23:15:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180607231503/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-07T23:15:03Z",
+        "uri": "http://web.archive.org/web/20180607231503/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-11T15:00:14Z",
+        "uri": "http://web.archive.org/web/20180611150014/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-12T11:40:12Z",
+        "uri": "http://web.archive.org/web/20180612114012/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-12T11:40:38Z",
+        "uri": "http://web.archive.org/web/20180612114038/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-14T06:44:30Z",
+        "uri": "http://web.archive.org/web/20180614064430/http://original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-06-14T19:16:21Z",
+        "uri": "http://web.archive.org/web/20180614191621/http://original-political-cartoon.com"
+      },
+      {
+        "datetime": "2018-06-15T07:21:05Z",
+        "uri": "http://web.archive.org/web/20180615072105/http://original-political-cartoon.com:80/"
+      },
+      {
+        "datetime": "2018-06-15T11:46:15Z",
+        "uri": "http://web.archive.org/web/20180615114615/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-15T11:46:18Z",
+        "uri": "http://web.archive.org/web/20180615114618/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-18T17:09:33Z",
+        "uri": "http://web.archive.org/web/20180618170933/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-20T12:48:49Z",
+        "uri": "http://web.archive.org/web/20180620124849/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-24T22:00:44Z",
+        "uri": "http://web.archive.org/web/20180624220044/http://www.original-political-cartoon.com"
+      },
+      {
+        "datetime": "2018-06-25T17:07:13Z",
+        "uri": "http://web.archive.org/web/20180625170713/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-28T13:05:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180628130536/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-28T13:05:36Z",
+        "uri": "http://web.archive.org/web/20180628130536/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-28T13:08:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180628130835/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-28T13:08:35Z",
+        "uri": "http://web.archive.org/web/20180628130835/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-06-30T16:16:22Z",
+        "uri": "http://web.archive.org/web/20180630161622/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-02T19:16:47Z",
+        "uri": "http://web.archive.org/web/20180702191647/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-03T08:16:30Z",
+        "uri": "http://web.archive.org/web/20180703081630/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-03T08:16:30Z",
+        "uri": "http://web.archive.org/web/20180703081630/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-03T08:16:30Z",
+        "uri": "http://web.archive.org/web/20180703081630/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-03T08:18:30Z",
+        "uri": "http://web.archive.org/web/20180703081830/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-03T08:18:31Z",
+        "uri": "http://web.archive.org/web/20180703081831/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-03T08:18:31Z",
+        "uri": "http://web.archive.org/web/20180703081831/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-09T19:46:58Z",
+        "uri": "http://web.archive.org/web/20180709194658/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-10T15:29:45Z",
+        "uri": "http://web.archive.org/web/20180710152945/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-11T07:34:14Z",
+        "uri": "http://web.archive.org/web/20180711073414/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-21T00:27:45Z",
+        "uri": "http://web.archive.org/web/20180721002745/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-23T16:26:56Z",
+        "uri": "http://web.archive.org/web/20180723162656/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-07-30T19:52:04Z",
+        "uri": "http://web.archive.org/web/20180730195204/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-08-03T08:29:23Z",
+        "uri": "http://web.archive.org/web/20180803082923/http://original-political-cartoon.com"
+      },
+      {
+        "datetime": "2018-08-04T15:40:54Z",
+        "uri": "http://web.archive.org/web/20180804154054/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-08-07T00:21:37Z",
+        "uri": "http://web.archive.org/web/20180807002137/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-08-13T19:22:30Z",
+        "uri": "http://web.archive.org/web/20180813192230/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-08-20T21:21:23Z",
+        "uri": "http://web.archive.org/web/20180820212123/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-08-27T20:04:25Z",
+        "uri": "http://web.archive.org/web/20180827200425/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-09-03T20:44:46Z",
+        "uri": "http://web.archive.org/web/20180903204446/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-09-10T19:44:05Z",
+        "uri": "http://web.archive.org/web/20180910194405/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-09-15T19:26:44Z",
+        "uri": "http://web.archive.org/web/20180915192644/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-09-17T17:32:33Z",
+        "uri": "http://web.archive.org/web/20180917173233/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-09-21T00:30:20Z",
+        "uri": "http://web.archive.org/web/20180921003020/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-09-25T12:32:19Z",
+        "uri": "http://web.archive.org/web/20180925123219/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-10-02T17:05:19Z",
+        "uri": "http://web.archive.org/web/20181002170519/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-10-08T17:51:53Z",
+        "uri": "http://web.archive.org/web/20181008175153/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-10-15T18:08:18Z",
+        "uri": "http://web.archive.org/web/20181015180818/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-10-19T13:48:16Z",
+        "uri": "http://web.archive.org/web/20181019134816/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-10-22T17:33:41Z",
+        "uri": "http://web.archive.org/web/20181022173341/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-10-29T18:15:02Z",
+        "uri": "http://web.archive.org/web/20181029181502/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-11-05T23:33:07Z",
+        "uri": "http://web.archive.org/web/20181105233307/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-11-06T13:30:58Z",
+        "uri": "http://web.archive.org/web/20181106133058/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-11-12T19:49:34Z",
+        "uri": "http://web.archive.org/web/20181112194934/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-11-19T14:54:15Z",
+        "uri": "http://web.archive.org/web/20181119145415/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-11-26T17:20:52Z",
+        "uri": "http://web.archive.org/web/20181126172052/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-03T17:48:21Z",
+        "uri": "http://web.archive.org/web/20181203174821/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-10T18:20:49Z",
+        "uri": "http://web.archive.org/web/20181210182049/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-14T18:36:27Z",
+        "uri": "http://web.archive.org/web/20181214183627/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-17T14:27:55Z",
+        "uri": "http://web.archive.org/web/20181217142755/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-24T07:51:07Z",
+        "uri": "http://web.archive.org/web/20181224075107/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-26T01:27:09Z",
+        "uri": "http://web.archive.org/web/20181226012709/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2018-12-31T16:19:18Z",
+        "uri": "http://web.archive.org/web/20181231161918/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-01-05T05:19:31Z",
+        "uri": "http://web.archive.org/web/20190105051931/http://original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-01-05T11:13:30Z",
+        "uri": "http://web.archive.org/web/20190105111330/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-01-07T14:54:36Z",
+        "uri": "http://web.archive.org/web/20190107145436/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-01-14T17:40:53Z",
+        "uri": "http://web.archive.org/web/20190114174053/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-01-22T21:17:54Z",
+        "uri": "http://web.archive.org/web/20190122211754/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-01-28T17:38:45Z",
+        "uri": "http://web.archive.org/web/20190128173845/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-02-02T06:23:49Z",
+        "uri": "http://web.archive.org/web/20190202062349/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-02-04T15:05:13Z",
+        "uri": "http://web.archive.org/web/20190204150513/http://www.original-political-cartoon.com/"
+      },
+      {
+        "datetime": "2019-02-08T12:57:55Z",
+        "uri": "http://web.archive.org/web/20190208125755/http://original-political-cartoon.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2012-09-02T23:56:04Z",
+      "uri": "http://web.archive.org/web/20120902235604/http://www.original-political-cartoon.com:80/"
+    },
+    "last": {
+      "datetime": "2019-02-08T12:57:55Z",
+      "uri": "http://web.archive.org/web/20190208125755/http://original-political-cartoon.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://original-political-cartoon.com",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://original-political-cartoon.com",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://original-political-cartoon.com"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://original-political-cartoon.com"
+}

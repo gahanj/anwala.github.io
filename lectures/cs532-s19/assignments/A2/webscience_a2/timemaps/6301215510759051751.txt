@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-16T10:49:39Z",
+        "uri": "http://web.archive.org/web/20181116104939/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-16T10:49:39Z",
+      "uri": "http://web.archive.org/web/20181116104939/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb"
+    },
+    "last": {
+      "datetime": "2018-11-16T10:49:39Z",
+      "uri": "http://web.archive.org/web/20181116104939/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theatlantic.com/ideas/archive/2018/05/trumps-washington/560105/?utm_source=twb"
+}

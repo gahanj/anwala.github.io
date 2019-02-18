@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:48:13Z",
+        "uri": "http://web.archive.org/web/20190209014813/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+      },
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+      },
+      {
+        "datetime": "2019-02-10T01:30:31Z",
+        "uri": "http://web.archive.org/web/20190210013031/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:48:13Z",
+      "uri": "http://web.archive.org/web/20190209014813/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:30:31Z",
+      "uri": "http://web.archive.org/web/20190210013031/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/campaign/429232-orourke-to-headline-counter-trump-rally-at-border"
+}

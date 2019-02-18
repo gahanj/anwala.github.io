@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.youtube.com/watch?v=MCRaG0Q2QhE",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=MCRaG0Q2QhE",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-05T07:16:01Z",
+        "uri": "http://web.archive.org/web/20181205071601/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-05T18:36:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181205183608/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-05T18:36:08Z",
+        "uri": "http://web.archive.org/web/20181205183608/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-06T17:35:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181206173555/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-06T17:35:55Z",
+        "uri": "http://web.archive.org/web/20181206173555/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-07T07:29:40Z",
+        "uri": "http://wayback.archive-it.org/all/20181207072940/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-07T07:29:40Z",
+        "uri": "http://web.archive.org/web/20181207072940/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+      },
+      {
+        "datetime": "2018-12-08T08:35:53Z",
+        "uri": "http://web.archive.org/web/20181208083553/https://www.youtube.com/watch?v=MCRaG0Q2QhE&gl=US&hl=en"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-05T07:16:01Z",
+      "uri": "http://web.archive.org/web/20181205071601/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+    },
+    "last": {
+      "datetime": "2018-12-08T08:35:53Z",
+      "uri": "http://web.archive.org/web/20181208083553/https://www.youtube.com/watch?v=MCRaG0Q2QhE&gl=US&hl=en"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.youtube.com/watch?v=MCRaG0Q2QhE",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=MCRaG0Q2QhE",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.youtube.com/watch?v=MCRaG0Q2QhE"
+}

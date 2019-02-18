@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:58:56Z",
+        "uri": "http://web.archive.org/web/20190210005856/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html"
+      },
+      {
+        "datetime": "2019-02-10T05:03:31Z",
+        "uri": "http://web.archive.org/web/20190210050331/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:58:56Z",
+      "uri": "http://web.archive.org/web/20190210005856/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:03:31Z",
+      "uri": "http://web.archive.org/web/20190210050331/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.axios.com/israel-saudi-arabia-relations-trump-peace-plan-a1a906b6-0c01-4f9b-b833-74f850181297.html"
+}

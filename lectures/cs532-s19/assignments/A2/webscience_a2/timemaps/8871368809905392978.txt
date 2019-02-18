@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-14T15:40:23Z",
+        "uri": "http://archive.md/20190114154023/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677"
+      },
+      {
+        "datetime": "2019-02-02T21:48:52Z",
+        "uri": "http://web.archive.org/web/20190202214852/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-14T15:40:23Z",
+      "uri": "http://archive.md/20190114154023/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677"
+    },
+    "last": {
+      "datetime": "2019-02-02T21:48:52Z",
+      "uri": "http://web.archive.org/web/20190202214852/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://buchanan.org/blog/memo-to-trump-declare-an-emergency-135677"
+}

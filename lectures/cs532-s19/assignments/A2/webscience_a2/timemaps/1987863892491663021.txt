@@ -1,0 +1,74 @@
+{
+  "original_uri": "http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2011-05-04T15:39:58Z",
+        "uri": "http://web.archive.org/web/20110504153958/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2011-05-05T02:57:00Z",
+        "uri": "http://web.archive.org/web/20110505025700/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2011-05-05T02:57:05Z",
+        "uri": "http://web.archive.org/web/20110505025705/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html?"
+      },
+      {
+        "datetime": "2011-06-15T22:15:02Z",
+        "uri": "http://web.archive.org/web/20110615221502/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html?"
+      },
+      {
+        "datetime": "2011-08-28T11:29:46Z",
+        "uri": "http://web.archive.org/web/20110828112946/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html?"
+      },
+      {
+        "datetime": "2011-08-29T12:39:34Z",
+        "uri": "http://web.archive.org/web/20110829123934/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2015-03-04T03:50:21Z",
+        "uri": "http://web.archive.org/web/20150304035021/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2015-11-05T07:47:35Z",
+        "uri": "http://web.archive.org/web/20151105074735/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2016-09-16T00:07:47Z",
+        "uri": "http://web.archive.org/web/20160916000747/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2017-04-01T07:33:53Z",
+        "uri": "http://web.archive.org/web/20170401073353/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2018-01-03T22:12:56Z",
+        "uri": "http://web.archive.org/web/20180103221256/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2018-03-07T03:11:10Z",
+        "uri": "http://web.archive.org/web/20180307031110/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      },
+      {
+        "datetime": "2018-08-05T22:29:53Z",
+        "uri": "http://web.archive.org/web/20180805222953/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2011-05-04T15:39:58Z",
+      "uri": "http://web.archive.org/web/20110504153958/http://www.cnn.com:80/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+    },
+    "last": {
+      "datetime": "2018-08-05T22:29:53Z",
+      "uri": "http://web.archive.org/web/20180805222953/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.cnn.com/2011/POLITICS/05/01/trump.racism.allegations/index.html"
+}

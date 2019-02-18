@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:42:59Z",
+        "uri": "http://web.archive.org/web/20190208234259/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-09T04:05:59Z",
+        "uri": "http://web.archive.org/web/20190209040559/http://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-09T11:50:45Z",
+        "uri": "http://web.archive.org/web/20190209115045/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-09T13:14:57Z",
+        "uri": "http://web.archive.org/web/20190209131457/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-09T13:16:45Z",
+        "uri": "http://archive.md/20190209131645/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-10T00:12:24Z",
+        "uri": "http://web.archive.org/web/20190210001224/http://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-10T12:12:59Z",
+        "uri": "http://web.archive.org/web/20190210121259/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      },
+      {
+        "datetime": "2019-02-10T15:08:21Z",
+        "uri": "http://web.archive.org/web/20190210150821/http://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:42:59Z",
+      "uri": "http://web.archive.org/web/20190208234259/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+    },
+    "last": {
+      "datetime": "2019-02-10T15:08:21Z",
+      "uri": "http://web.archive.org/web/20190210150821/http://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/world/2019/02/08/what-happens-when-you-criticize-royal-family-thailand/"
+}

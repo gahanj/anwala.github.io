@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T06:12:27Z",
+        "uri": "http://web.archive.org/web/20190205061227/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T06:12:27Z",
+      "uri": "http://web.archive.org/web/20190205061227/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/"
+    },
+    "last": {
+      "datetime": "2019-02-05T06:12:27Z",
+      "uri": "http://web.archive.org/web/20190205061227/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.sourcepolitics.com/gallup-the-obamas-are-americas-most-admired-man-and-woman/"
+}

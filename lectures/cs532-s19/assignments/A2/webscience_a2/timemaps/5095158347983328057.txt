@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-08-23T04:36:56Z",
+        "uri": "http://web.archive.org/web/20170823043656/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      },
+      {
+        "datetime": "2017-11-23T11:32:01Z",
+        "uri": "http://wayback.archive-it.org/all/20171123113201/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      },
+      {
+        "datetime": "2017-11-23T11:32:01Z",
+        "uri": "http://web.archive.org/web/20171123113201/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      },
+      {
+        "datetime": "2018-01-05T18:25:40Z",
+        "uri": "http://web.archive.org/web/20180105182540/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      },
+      {
+        "datetime": "2018-01-05T20:15:22Z",
+        "uri": "http://web.archive.org/web/20180105201522/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      },
+      {
+        "datetime": "2018-02-18T02:10:50Z",
+        "uri": "http://web.archive.org/web/20180218021050/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      },
+      {
+        "datetime": "2019-02-07T15:09:31Z",
+        "uri": "http://web.archive.org/web/20190207150931/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+      }
+    ],
+    "first": {
+      "datetime": "2017-08-23T04:36:56Z",
+      "uri": "http://web.archive.org/web/20170823043656/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+    },
+    "last": {
+      "datetime": "2019-02-07T15:09:31Z",
+      "uri": "http://web.archive.org/web/20190207150931/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/graphics/politics/trump-claims-database/?tid=ss_tw"
+}

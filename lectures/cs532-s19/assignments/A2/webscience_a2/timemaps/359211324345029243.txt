@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-14T23:58:52Z",
+        "uri": "http://web.archive.org/web/20180814235852/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-15T00:40:07Z",
+        "uri": "http://web.archive.org/web/20180815004007/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-15T15:08:06Z",
+        "uri": "http://web.archive.org/web/20180815150806/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-15T16:57:11Z",
+        "uri": "http://web.archive.org/web/20180815165711/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-15T23:52:38Z",
+        "uri": "http://web.archive.org/web/20180815235238/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-17T00:27:27Z",
+        "uri": "http://web.archive.org/web/20180817002727/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-18T02:09:57Z",
+        "uri": "http://web.archive.org/web/20180818020957/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-08-18T20:58:56Z",
+        "uri": "http://web.archive.org/web/20180818205856/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-09-21T02:01:38Z",
+        "uri": "http://web.archive.org/web/20180921020138/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-09-22T01:13:05Z",
+        "uri": "http://web.archive.org/web/20180922011305/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-09-22T22:56:01Z",
+        "uri": "http://web.archive.org/web/20180922225601/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-09-25T05:13:16Z",
+        "uri": "http://web.archive.org/web/20180925051316/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-09-28T07:24:11Z",
+        "uri": "http://web.archive.org/web/20180928072411/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-10-21T00:56:40Z",
+        "uri": "http://web.archive.org/web/20181021005640/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2018-10-21T02:13:52Z",
+        "uri": "http://web.archive.org/web/20181021021352/http://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      },
+      {
+        "datetime": "2019-01-20T15:55:42Z",
+        "uri": "http://web.archive.org/web/20190120155542/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-14T23:58:52Z",
+      "uri": "http://web.archive.org/web/20180814235852/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+    },
+    "last": {
+      "datetime": "2019-01-20T15:55:42Z",
+      "uri": "http://web.archive.org/web/20190120155542/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2018/08/14/us/politics/fact-check-trump-jobs-black-americans.html"
+}

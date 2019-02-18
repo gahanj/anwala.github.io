@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T03:27:17Z",
+        "uri": "http://web.archive.org/web/20190207032717/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-07T17:33:50Z",
+        "uri": "http://web.archive.org/web/20190207173350/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-07T17:41:41Z",
+        "uri": "http://web.archive.org/web/20190207174141/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-08T00:04:16Z",
+        "uri": "http://web.archive.org/web/20190208000416/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-08T13:27:45Z",
+        "uri": "http://web.archive.org/web/20190208132745/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-08T21:04:05Z",
+        "uri": "http://web.archive.org/web/20190208210405/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-10T01:35:23Z",
+        "uri": "http://web.archive.org/web/20190210013523/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      },
+      {
+        "datetime": "2019-02-10T19:06:06Z",
+        "uri": "http://archive.md/20190210190606/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T03:27:17Z",
+      "uri": "http://web.archive.org/web/20190207032717/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T19:06:06Z",
+      "uri": "http://archive.md/20190210190606/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/06/health/safe-injection-opioids-overdose.html"
+}

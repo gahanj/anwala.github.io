@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-01T22:12:58Z",
+        "uri": "http://web.archive.org/web/20190201221258/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-01T22:43:18Z",
+        "uri": "http://web.archive.org/web/20190201224318/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T03:43:12Z",
+        "uri": "http://web.archive.org/web/20190202034312/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T12:44:39Z",
+        "uri": "http://web.archive.org/web/20190202124439/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T13:46:51Z",
+        "uri": "http://web.archive.org/web/20190202134651/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T15:09:02Z",
+        "uri": "http://web.archive.org/web/20190202150902/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T15:50:16Z",
+        "uri": "http://web.archive.org/web/20190202155016/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T19:00:24Z",
+        "uri": "http://web.archive.org/web/20190202190024/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T21:09:16Z",
+        "uri": "http://wayback.archive-it.org/all/20190202210916/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-02T21:09:16Z",
+        "uri": "http://web.archive.org/web/20190202210916/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-03T02:07:40Z",
+        "uri": "http://wayback.archive-it.org/all/20190203020740/http://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-03T02:07:40Z",
+        "uri": "http://web.archive.org/web/20190203020740/http://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-03T07:37:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190203073744/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-03T07:37:44Z",
+        "uri": "http://web.archive.org/web/20190203073744/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-03T15:32:54Z",
+        "uri": "http://web.archive.org/web/20190203153254/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      },
+      {
+        "datetime": "2019-02-04T04:29:13Z",
+        "uri": "http://web.archive.org/web/20190204042913/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-01T22:12:58Z",
+      "uri": "http://web.archive.org/web/20190201221258/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-04T04:29:13Z",
+      "uri": "http://web.archive.org/web/20190204042913/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/01/us/sanders-trump-god/index.html"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+      },
+      {
+        "datetime": "2019-02-09T23:21:02Z",
+        "uri": "http://web.archive.org/web/20190209232102/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+      },
+      {
+        "datetime": "2019-02-10T01:43:54Z",
+        "uri": "http://web.archive.org/web/20190210014354/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:06:18Z",
+      "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:43:54Z",
+      "uri": "http://web.archive.org/web/20190210014354/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/house/429266-schiff-questions-if-north-korea-tried-to-flatter-trump"
+}

@@ -1,0 +1,134 @@
+{
+  "original_uri": "http://Trump.es",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://Trump.es",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2010-03-29T07:37:30Z",
+        "uri": "http://web.archive.org/web/20100329073730/http://trump.es/"
+      },
+      {
+        "datetime": "2010-03-29T07:37:30Z",
+        "uri": "http://web.archive.org/web/20100329073730/http://trump.es/"
+      },
+      {
+        "datetime": "2010-06-18T12:07:08Z",
+        "uri": "http://web.archive.org/web/20100618120708/http://trump.es/"
+      },
+      {
+        "datetime": "2010-06-18T12:07:08Z",
+        "uri": "http://web.archive.org/web/20100618120708/http://trump.es/"
+      },
+      {
+        "datetime": "2010-07-01T08:11:14Z",
+        "uri": "http://web.archive.org/web/20100701081114/http://trump.es/"
+      },
+      {
+        "datetime": "2010-07-01T08:11:14Z",
+        "uri": "http://web.archive.org/web/20100701081114/http://trump.es/"
+      },
+      {
+        "datetime": "2010-07-01T08:11:27Z",
+        "uri": "http://web.archive.org/web/20100701081127/http://trump.es/"
+      },
+      {
+        "datetime": "2010-07-01T08:11:27Z",
+        "uri": "http://web.archive.org/web/20100701081127/http://trump.es/"
+      },
+      {
+        "datetime": "2010-07-01T08:11:40Z",
+        "uri": "http://web.archive.org/web/20100701081140/http://trump.es/"
+      },
+      {
+        "datetime": "2010-07-01T08:11:40Z",
+        "uri": "http://web.archive.org/web/20100701081140/http://trump.es/"
+      },
+      {
+        "datetime": "2010-09-18T07:51:18Z",
+        "uri": "http://web.archive.org/web/20100918075118/http://trump.es/"
+      },
+      {
+        "datetime": "2011-07-18T19:18:46Z",
+        "uri": "http://web.archive.org/web/20110718191846/http://trump.es/"
+      },
+      {
+        "datetime": "2011-07-20T07:35:28Z",
+        "uri": "http://web.archive.org/web/20110720073528/http://www.trump.es/"
+      },
+      {
+        "datetime": "2011-07-23T06:55:36Z",
+        "uri": "http://web.archive.org/web/20110723065536/http://trump.es/"
+      },
+      {
+        "datetime": "2011-07-23T21:37:39Z",
+        "uri": "http://web.archive.org/web/20110723213739/http://www.trump.es/"
+      },
+      {
+        "datetime": "2011-09-02T07:50:28Z",
+        "uri": "http://web.archive.org/web/20110902075028/http://trump.es/"
+      },
+      {
+        "datetime": "2011-09-02T09:34:20Z",
+        "uri": "http://web.archive.org/web/20110902093420/http://www.trump.es/"
+      },
+      {
+        "datetime": "2012-06-20T17:43:08Z",
+        "uri": "http://web.archive.org/web/20120620174308/http://trump.es/"
+      },
+      {
+        "datetime": "2012-06-27T03:11:47Z",
+        "uri": "http://web.archive.org/web/20120627031147/http://trump.es/"
+      },
+      {
+        "datetime": "2014-12-18T09:54:16Z",
+        "uri": "http://web.archive.org/web/20141218095416/http://trump.es/"
+      },
+      {
+        "datetime": "2016-01-12T08:03:56Z",
+        "uri": "http://web.archive.org/web/20160112080356/http://trump.es/"
+      },
+      {
+        "datetime": "2016-03-09T09:18:15Z",
+        "uri": "http://web.archive.org/web/20160309091815/http://trump.es/"
+      },
+      {
+        "datetime": "2016-10-09T15:06:50Z",
+        "uri": "http://web.archive.org/web/20161009150650/http://trump.es/"
+      },
+      {
+        "datetime": "2017-06-10T07:38:47Z",
+        "uri": "http://web.archive.org/web/20170610073847/http://trump.es/"
+      },
+      {
+        "datetime": "2017-09-21T18:11:07Z",
+        "uri": "http://web.archive.org/web/20170921181107/http://trump.es/"
+      },
+      {
+        "datetime": "2018-03-14T06:27:24Z",
+        "uri": "http://web.archive.org/web/20180314062724/http://trump.es/"
+      },
+      {
+        "datetime": "2018-08-08T15:48:25Z",
+        "uri": "http://web.archive.org/web/20180808154825/http://trump.es/"
+      },
+      {
+        "datetime": "2018-11-06T13:11:49Z",
+        "uri": "http://web.archive.org/web/20181106131149/http://trump.es/"
+      }
+    ],
+    "first": {
+      "datetime": "2010-03-29T07:37:30Z",
+      "uri": "http://web.archive.org/web/20100329073730/http://trump.es/"
+    },
+    "last": {
+      "datetime": "2018-11-06T13:11:49Z",
+      "uri": "http://web.archive.org/web/20181106131149/http://trump.es/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://Trump.es",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://Trump.es",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://Trump.es"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://Trump.es"
+}

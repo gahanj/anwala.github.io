@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-07T00:21:33Z",
+        "uri": "http://archive.md/20180607002133/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-07T01:22:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180607012211/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-07T01:22:11Z",
+        "uri": "http://web.archive.org/web/20180607012211/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-07T03:00:43Z",
+        "uri": "http://web.archive.org/web/20180607030043/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-08T01:22:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180608012231/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-08T01:22:31Z",
+        "uri": "http://web.archive.org/web/20180608012231/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-12T14:01:45Z",
+        "uri": "http://web.archive.org/web/20180612140145/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      },
+      {
+        "datetime": "2018-06-14T02:12:52Z",
+        "uri": "http://web.archive.org/web/20180614021252/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-07T00:21:33Z",
+      "uri": "http://archive.md/20180607002133/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+    },
+    "last": {
+      "datetime": "2018-06-14T02:12:52Z",
+      "uri": "http://web.archive.org/web/20180614021252/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/magazine/story/2018/06/06/trump-is-not-destroying-himself-218659"
+}

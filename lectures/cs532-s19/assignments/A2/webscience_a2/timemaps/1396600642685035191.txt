@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-14T15:39:18Z",
+        "uri": "http://web.archive.org/web/20181214153918/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+      },
+      {
+        "datetime": "2018-12-16T06:47:23Z",
+        "uri": "http://archive.md/20181216064723/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+      },
+      {
+        "datetime": "2018-12-16T07:34:31Z",
+        "uri": "http://web.archive.org/web/20181216073431/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+      },
+      {
+        "datetime": "2018-12-16T07:34:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181216073431/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-14T15:39:18Z",
+      "uri": "http://web.archive.org/web/20181214153918/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+    },
+    "last": {
+      "datetime": "2018-12-16T07:34:31Z",
+      "uri": "http://wayback.archive-it.org/all/20181216073431/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2018/12/14/trump-cohen-hush-payments-election-abc-1063499"
+}

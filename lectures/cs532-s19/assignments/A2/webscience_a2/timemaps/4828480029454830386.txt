@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:41:26Z",
+        "uri": "http://web.archive.org/web/20190209084126/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+      },
+      {
+        "datetime": "2019-02-09T09:43:42Z",
+        "uri": "http://web.archive.org/web/20190209094342/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+      },
+      {
+        "datetime": "2019-02-09T14:21:55Z",
+        "uri": "http://web.archive.org/web/20190209142155/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+      },
+      {
+        "datetime": "2019-02-09T14:22:08Z",
+        "uri": "http://archive.md/20190209142208/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:41:26Z",
+      "uri": "http://web.archive.org/web/20190209084126/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T14:22:08Z",
+      "uri": "http://archive.md/20190209142208/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://nymag.com/intelligencer/2019/02/as-another-shutdown-looms-flight-attendants-plan-protests.html"
+}

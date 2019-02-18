@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T03:53:05Z",
+        "uri": "http://web.archive.org/web/20190208035305/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T03:53:05Z",
+      "uri": "http://web.archive.org/web/20190208035305/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html"
+    },
+    "last": {
+      "datetime": "2019-02-08T03:53:05Z",
+      "uri": "http://web.archive.org/web/20190208035305/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://nymag.com/intelligencer/2019/02/mulvaney-trump-not-mentioning-debt-nobody-cares.html"
+}

@@ -1,0 +1,606 @@
+{
+  "original_uri": "https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-28T15:38:41Z",
+        "uri": "http://web.archive.org/web/20171128153841/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-11-28T19:09:41Z",
+        "uri": "http://web.archive.org/web/20171128190941/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-11-29T19:54:53Z",
+        "uri": "http://web.archive.org/web/20171129195453/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-11-30T22:02:16Z",
+        "uri": "http://web.archive.org/web/20171130220216/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades?"
+      },
+      {
+        "datetime": "2017-11-30T22:57:32Z",
+        "uri": "http://web.archive.org/web/20171130225732/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-01T05:08:59Z",
+        "uri": "http://web.archive.org/web/20171201050859/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-02T17:32:27Z",
+        "uri": "http://web.archive.org/web/20171202173227/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-03T14:47:59Z",
+        "uri": "http://web.archive.org/web/20171203144759/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-03T18:09:59Z",
+        "uri": "http://web.archive.org/web/20171203180959/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-06T21:04:37Z",
+        "uri": "http://web.archive.org/web/20171206210437/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-30T21:27:07Z",
+        "uri": "http://web.archive.org/web/20171230212707/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2017-12-31T18:40:07Z",
+        "uri": "http://web.archive.org/web/20171231184007/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades?"
+      },
+      {
+        "datetime": "2017-12-31T19:06:27Z",
+        "uri": "http://web.archive.org/web/20171231190627/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-01-21T06:10:26Z",
+        "uri": "http://web.archive.org/web/20180121061026/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-01-31T15:41:28Z",
+        "uri": "http://web.archive.org/web/20180131154128/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-01-31T16:07:57Z",
+        "uri": "http://web.archive.org/web/20180131160757/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades?"
+      },
+      {
+        "datetime": "2018-02-15T08:15:24Z",
+        "uri": "http://web.archive.org/web/20180215081524/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-02-15T12:54:14Z",
+        "uri": "http://web.archive.org/web/20180215125414/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-02-17T08:20:22Z",
+        "uri": "http://web.archive.org/web/20180217082022/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-02-21T05:36:03Z",
+        "uri": "http://web.archive.org/web/20180221053603/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-01T20:31:41Z",
+        "uri": "http://web.archive.org/web/20180301203141/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-03T03:16:54Z",
+        "uri": "http://web.archive.org/web/20180303031654/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-03T03:35:26Z",
+        "uri": "http://web.archive.org/web/20180303033526/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades?"
+      },
+      {
+        "datetime": "2018-03-08T04:17:39Z",
+        "uri": "http://web.archive.org/web/20180308041739/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-13T16:18:43Z",
+        "uri": "http://web.archive.org/web/20180313161843/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-15T20:46:21Z",
+        "uri": "http://web.archive.org/web/20180315204621/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-19T02:48:16Z",
+        "uri": "http://web.archive.org/web/20180319024816/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-20T12:11:18Z",
+        "uri": "http://web.archive.org/web/20180320121118/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-21T22:30:29Z",
+        "uri": "http://web.archive.org/web/20180321223029/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-24T19:35:22Z",
+        "uri": "http://web.archive.org/web/20180324193522/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-25T23:33:39Z",
+        "uri": "http://web.archive.org/web/20180325233339/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-27T00:27:43Z",
+        "uri": "http://web.archive.org/web/20180327002743/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-27T19:16:33Z",
+        "uri": "http://web.archive.org/web/20180327191633/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-03-30T04:38:51Z",
+        "uri": "http://web.archive.org/web/20180330043851/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-02T00:56:55Z",
+        "uri": "http://web.archive.org/web/20180402005655/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-03T16:49:16Z",
+        "uri": "http://web.archive.org/web/20180403164916/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-04T04:32:03Z",
+        "uri": "http://web.archive.org/web/20180404043203/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-04T19:40:55Z",
+        "uri": "http://web.archive.org/web/20180404194055/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-04T19:41:00Z",
+        "uri": "http://web.archive.org/web/20180404194100/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades?"
+      },
+      {
+        "datetime": "2018-04-09T02:04:52Z",
+        "uri": "http://web.archive.org/web/20180409020452/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-12T11:29:58Z",
+        "uri": "http://web.archive.org/web/20180412112958/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-16T03:41:06Z",
+        "uri": "http://web.archive.org/web/20180416034106/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-17T17:30:53Z",
+        "uri": "http://web.archive.org/web/20180417173053/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-23T02:59:07Z",
+        "uri": "http://web.archive.org/web/20180423025907/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-24T18:17:04Z",
+        "uri": "http://web.archive.org/web/20180424181704/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-04-30T05:09:15Z",
+        "uri": "http://web.archive.org/web/20180430050915/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-01T20:57:57Z",
+        "uri": "http://web.archive.org/web/20180501205757/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-07T09:00:31Z",
+        "uri": "http://web.archive.org/web/20180507090031/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-08T15:03:50Z",
+        "uri": "http://web.archive.org/web/20180508150350/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-14T02:20:20Z",
+        "uri": "http://web.archive.org/web/20180514022020/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-16T01:16:40Z",
+        "uri": "http://web.archive.org/web/20180516011640/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-23T00:42:56Z",
+        "uri": "http://web.archive.org/web/20180523004256/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-23T13:46:13Z",
+        "uri": "http://web.archive.org/web/20180523134613/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-28T01:21:29Z",
+        "uri": "http://web.archive.org/web/20180528012129/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-05-30T05:24:45Z",
+        "uri": "http://web.archive.org/web/20180530052445/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-04T03:32:22Z",
+        "uri": "http://web.archive.org/web/20180604033222/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-05T18:36:52Z",
+        "uri": "http://web.archive.org/web/20180605183652/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-06T20:24:28Z",
+        "uri": "http://web.archive.org/web/20180606202428/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-16T19:32:34Z",
+        "uri": "http://web.archive.org/web/20180616193234/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-18T04:12:31Z",
+        "uri": "http://web.archive.org/web/20180618041231/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-19T13:32:04Z",
+        "uri": "http://web.archive.org/web/20180619133204/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-26T12:49:40Z",
+        "uri": "http://web.archive.org/web/20180626124940/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-06-27T03:28:19Z",
+        "uri": "http://web.archive.org/web/20180627032819/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-02T01:55:00Z",
+        "uri": "http://web.archive.org/web/20180702015500/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-03T15:23:01Z",
+        "uri": "http://web.archive.org/web/20180703152301/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-07T02:19:42Z",
+        "uri": "http://web.archive.org/web/20180707021942/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades?"
+      },
+      {
+        "datetime": "2018-07-07T19:50:31Z",
+        "uri": "http://web.archive.org/web/20180707195031/http://theweek.com:80/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-15T22:29:37Z",
+        "uri": "http://web.archive.org/web/20180715222937/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-21T19:39:48Z",
+        "uri": "http://web.archive.org/web/20180721193948/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-23T01:36:23Z",
+        "uri": "http://web.archive.org/web/20180723013623/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-24T10:53:40Z",
+        "uri": "http://web.archive.org/web/20180724105340/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-26T12:56:08Z",
+        "uri": "http://web.archive.org/web/20180726125608/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-30T02:58:06Z",
+        "uri": "http://web.archive.org/web/20180730025806/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-07-31T15:30:19Z",
+        "uri": "http://web.archive.org/web/20180731153019/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-06T04:40:14Z",
+        "uri": "http://web.archive.org/web/20180806044014/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-07T15:06:03Z",
+        "uri": "http://web.archive.org/web/20180807150603/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-13T01:13:21Z",
+        "uri": "http://web.archive.org/web/20180813011321/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-14T15:20:34Z",
+        "uri": "http://web.archive.org/web/20180814152034/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-21T17:57:55Z",
+        "uri": "http://web.archive.org/web/20180821175755/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-27T14:15:24Z",
+        "uri": "http://web.archive.org/web/20180827141524/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-08-28T16:09:47Z",
+        "uri": "http://web.archive.org/web/20180828160947/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-09-04T17:04:20Z",
+        "uri": "http://web.archive.org/web/20180904170420/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-09-11T15:11:15Z",
+        "uri": "http://web.archive.org/web/20180911151115/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-09-18T12:44:28Z",
+        "uri": "http://web.archive.org/web/20180918124428/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-09-26T09:28:49Z",
+        "uri": "http://web.archive.org/web/20180926092849/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-09-30T22:07:39Z",
+        "uri": "http://web.archive.org/web/20180930220739/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-03T12:51:48Z",
+        "uri": "http://web.archive.org/web/20181003125148/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-09T13:12:43Z",
+        "uri": "http://web.archive.org/web/20181009131243/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-11T21:53:51Z",
+        "uri": "http://web.archive.org/web/20181011215351/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-14T21:47:10Z",
+        "uri": "http://web.archive.org/web/20181014214710/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-15T05:41:23Z",
+        "uri": "http://web.archive.org/web/20181015054123/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-16T13:47:23Z",
+        "uri": "http://web.archive.org/web/20181016134723/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-17T02:09:29Z",
+        "uri": "http://web.archive.org/web/20181017020929/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-22T00:22:05Z",
+        "uri": "http://web.archive.org/web/20181022002205/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-23T13:19:18Z",
+        "uri": "http://web.archive.org/web/20181023131918/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-29T03:14:34Z",
+        "uri": "http://web.archive.org/web/20181029031434/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-10-30T13:53:05Z",
+        "uri": "http://web.archive.org/web/20181030135305/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-05T02:33:09Z",
+        "uri": "http://web.archive.org/web/20181105023309/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-06T23:40:45Z",
+        "uri": "http://web.archive.org/web/20181106234045/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-12T01:50:53Z",
+        "uri": "http://web.archive.org/web/20181112015053/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-15T12:23:12Z",
+        "uri": "http://web.archive.org/web/20181115122312/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-19T03:24:08Z",
+        "uri": "http://web.archive.org/web/20181119032408/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-19T03:24:09Z",
+        "uri": "http://web.archive.org/web/20181119032409/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-20T09:59:24Z",
+        "uri": "http://web.archive.org/web/20181120095924/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-21T01:43:37Z",
+        "uri": "http://web.archive.org/web/20181121014337/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-25T21:19:09Z",
+        "uri": "http://web.archive.org/web/20181125211909/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-25T21:19:10Z",
+        "uri": "http://web.archive.org/web/20181125211910/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-27T13:20:10Z",
+        "uri": "http://web.archive.org/web/20181127132010/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-11-28T18:20:34Z",
+        "uri": "http://web.archive.org/web/20181128182034/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-02T22:44:58Z",
+        "uri": "http://web.archive.org/web/20181202224458/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-04T13:24:17Z",
+        "uri": "http://web.archive.org/web/20181204132417/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-10T22:46:10Z",
+        "uri": "http://web.archive.org/web/20181210224610/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-11T14:06:06Z",
+        "uri": "http://web.archive.org/web/20181211140606/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-13T19:58:26Z",
+        "uri": "http://web.archive.org/web/20181213195826/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-14T18:53:44Z",
+        "uri": "http://web.archive.org/web/20181214185344/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-15T13:44:05Z",
+        "uri": "http://web.archive.org/web/20181215134405/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-18T02:21:29Z",
+        "uri": "http://web.archive.org/web/20181218022129/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-18T08:51:26Z",
+        "uri": "http://web.archive.org/web/20181218085126/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-23T22:32:50Z",
+        "uri": "http://web.archive.org/web/20181223223250/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-26T20:57:36Z",
+        "uri": "http://web.archive.org/web/20181226205736/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2018-12-30T22:25:30Z",
+        "uri": "http://web.archive.org/web/20181230222530/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-01T03:30:19Z",
+        "uri": "http://web.archive.org/web/20190101033019/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-01T03:30:20Z",
+        "uri": "http://web.archive.org/web/20190101033020/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-01T11:24:08Z",
+        "uri": "http://web.archive.org/web/20190101112408/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-02T05:42:18Z",
+        "uri": "http://web.archive.org/web/20190102054218/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-02T05:42:19Z",
+        "uri": "http://web.archive.org/web/20190102054219/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-04T14:29:46Z",
+        "uri": "http://web.archive.org/web/20190104142946/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-04T14:29:47Z",
+        "uri": "http://web.archive.org/web/20190104142947/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-05T10:58:06Z",
+        "uri": "http://web.archive.org/web/20190105105806/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-05T10:58:07Z",
+        "uri": "http://web.archive.org/web/20190105105807/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-06T00:06:04Z",
+        "uri": "http://web.archive.org/web/20190106000604/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-06T00:06:04Z",
+        "uri": "http://web.archive.org/web/20190106000604/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-07T00:47:48Z",
+        "uri": "http://web.archive.org/web/20190107004748/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-07T00:47:49Z",
+        "uri": "http://web.archive.org/web/20190107004749/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-07T01:09:47Z",
+        "uri": "http://web.archive.org/web/20190107010947/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-08T08:56:33Z",
+        "uri": "http://web.archive.org/web/20190108085633/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-14T05:20:46Z",
+        "uri": "http://web.archive.org/web/20190114052046/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-15T13:23:40Z",
+        "uri": "http://web.archive.org/web/20190115132340/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-20T22:43:19Z",
+        "uri": "http://web.archive.org/web/20190120224319/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-23T17:54:01Z",
+        "uri": "http://web.archive.org/web/20190123175401/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-27T22:14:01Z",
+        "uri": "http://web.archive.org/web/20190127221401/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-01-29T13:59:33Z",
+        "uri": "http://web.archive.org/web/20190129135933/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-02-03T22:31:25Z",
+        "uri": "http://web.archive.org/web/20190203223125/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-02-04T13:03:59Z",
+        "uri": "http://web.archive.org/web/20190204130359/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-02-04T13:04:00Z",
+        "uri": "http://web.archive.org/web/20190204130400/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      },
+      {
+        "datetime": "2019-02-05T09:58:40Z",
+        "uri": "http://web.archive.org/web/20190205095840/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-28T15:38:41Z",
+      "uri": "http://web.archive.org/web/20171128153841/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+    },
+    "last": {
+      "datetime": "2019-02-05T09:58:40Z",
+      "uri": "http://web.archive.org/web/20190205095840/http://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://theweek.com/speedreads/739921/trump-incorrectly-claimed-swedish-decades"
+}

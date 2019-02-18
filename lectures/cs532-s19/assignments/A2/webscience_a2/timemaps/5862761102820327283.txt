@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T04:03:13Z",
+        "uri": "http://web.archive.org/web/20190209040313/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T04:03:13Z",
+      "uri": "http://web.archive.org/web/20190209040313/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T04:03:13Z",
+      "uri": "http://web.archive.org/web/20190209040313/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/app-news-section/videos-of-the-week-mobile-february-8/index.html"
+}

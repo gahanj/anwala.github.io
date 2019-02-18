@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T05:55:27Z",
+        "uri": "http://web.archive.org/web/20190208055527/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+      },
+      {
+        "datetime": "2019-02-09T08:05:28Z",
+        "uri": "http://web.archive.org/web/20190209080528/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+      },
+      {
+        "datetime": "2019-02-10T07:39:16Z",
+        "uri": "http://web.archive.org/web/20190210073916/https://nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+      },
+      {
+        "datetime": "2019-02-10T07:39:19Z",
+        "uri": "http://web.archive.org/web/20190210073919/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T05:55:27Z",
+      "uri": "http://web.archive.org/web/20190208055527/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:39:19Z",
+      "uri": "http://web.archive.org/web/20190210073919/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=12201999"
+}

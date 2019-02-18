@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T02:54:24Z",
+        "uri": "http://web.archive.org/web/20190210025424/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      },
+      {
+        "datetime": "2019-02-10T03:42:12Z",
+        "uri": "http://web.archive.org/web/20190210034212/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      },
+      {
+        "datetime": "2019-02-10T03:42:12Z",
+        "uri": "http://web.archive.org/web/20190210034212/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      },
+      {
+        "datetime": "2019-02-10T04:21:07Z",
+        "uri": "http://web.archive.org/web/20190210042107/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      },
+      {
+        "datetime": "2019-02-10T04:21:07Z",
+        "uri": "http://web.archive.org/web/20190210042107/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      },
+      {
+        "datetime": "2019-02-10T05:01:12Z",
+        "uri": "http://web.archive.org/web/20190210050112/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      },
+      {
+        "datetime": "2019-02-10T05:01:12Z",
+        "uri": "http://web.archive.org/web/20190210050112/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T02:54:24Z",
+      "uri": "http://web.archive.org/web/20190210025424/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:01:12Z",
+      "uri": "http://web.archive.org/web/20190210050112/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.inquisitr.com/5288551/donald-trump-russia-ambassador-mcfaul-putin/"
+}

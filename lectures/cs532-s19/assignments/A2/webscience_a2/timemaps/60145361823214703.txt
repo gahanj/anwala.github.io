@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.sankei.com/premium/news/171114/prm1711140007-n1.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.sankei.com/premium/news/171114/prm1711140007-n1.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-14T05:05:18Z",
+        "uri": "http://web.archive.org/web/20171114050518/http://www.sankei.com/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2017-11-14T05:10:06Z",
+        "uri": "http://web.archive.org/web/20171114051006/http://www.sankei.com/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2017-11-17T09:55:06Z",
+        "uri": "http://web.archive.org/web/20171117095506/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2017-12-18T11:56:56Z",
+        "uri": "http://web.archive.org/web/20171218115656/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2018-01-18T07:58:55Z",
+        "uri": "http://web.archive.org/web/20180118075855/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2018-02-18T22:34:23Z",
+        "uri": "http://web.archive.org/web/20180218223423/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2018-03-21T21:07:37Z",
+        "uri": "http://web.archive.org/web/20180321210737/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2018-04-21T12:33:41Z",
+        "uri": "http://web.archive.org/web/20180421123341/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2018-04-26T06:23:34Z",
+        "uri": "http://archive.md/20180426062334/https://www.sankei.com/premium/news/171114/prm1711140007-n1.html"
+      },
+      {
+        "datetime": "2018-06-22T16:13:17Z",
+        "uri": "http://web.archive.org/web/20180622161317/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-14T05:05:18Z",
+      "uri": "http://web.archive.org/web/20171114050518/http://www.sankei.com/premium/news/171114/prm1711140007-n1.html"
+    },
+    "last": {
+      "datetime": "2018-06-22T16:13:17Z",
+      "uri": "http://web.archive.org/web/20180622161317/http://www.sankei.com:80/premium/news/171114/prm1711140007-n1.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.sankei.com/premium/news/171114/prm1711140007-n1.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.sankei.com/premium/news/171114/prm1711140007-n1.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.sankei.com/premium/news/171114/prm1711140007-n1.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.sankei.com/premium/news/171114/prm1711140007-n1.html"
+}

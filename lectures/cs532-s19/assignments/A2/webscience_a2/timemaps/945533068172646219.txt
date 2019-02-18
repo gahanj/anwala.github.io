@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:24:59Z",
+        "uri": "http://web.archive.org/web/20190209082459/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-09T19:16:53Z",
+        "uri": "http://web.archive.org/web/20190209191653/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-09T23:25:12Z",
+        "uri": "http://web.archive.org/web/20190209232512/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-10T00:54:56Z",
+        "uri": "http://web.archive.org/web/20190210005456/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-10T01:29:07Z",
+        "uri": "http://web.archive.org/web/20190210012907/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-10T05:04:20Z",
+        "uri": "http://web.archive.org/web/20190210050420/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:24:59Z",
+      "uri": "http://web.archive.org/web/20190209082459/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:04:20Z",
+      "uri": "http://web.archive.org/web/20190210050420/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/08/opinion/trump-el-paso-immigration-border-wall.html"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://therevelator.org/trump-border-wall-butterflies-bees/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://therevelator.org/trump-border-wall-butterflies-bees/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T06:48:32Z",
+        "uri": "http://web.archive.org/web/20190130064832/https://therevelator.org/trump-border-wall-butterflies-bees/"
+      },
+      {
+        "datetime": "2019-02-04T19:46:03Z",
+        "uri": "http://web.archive.org/web/20190204194603/https://therevelator.org/trump-border-wall-butterflies-bees/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T06:48:32Z",
+      "uri": "http://web.archive.org/web/20190130064832/https://therevelator.org/trump-border-wall-butterflies-bees/"
+    },
+    "last": {
+      "datetime": "2019-02-04T19:46:03Z",
+      "uri": "http://web.archive.org/web/20190204194603/https://therevelator.org/trump-border-wall-butterflies-bees/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://therevelator.org/trump-border-wall-butterflies-bees/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://therevelator.org/trump-border-wall-butterflies-bees/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://therevelator.org/trump-border-wall-butterflies-bees/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://therevelator.org/trump-border-wall-butterflies-bees/"
+}

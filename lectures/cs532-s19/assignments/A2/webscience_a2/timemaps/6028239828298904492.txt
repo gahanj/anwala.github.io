@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://shareblue.com/trump-team-stolen-children-held-hostage/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-team-stolen-children-held-hostage/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T04:56:56Z",
+        "uri": "http://web.archive.org/web/20190205045656/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+      },
+      {
+        "datetime": "2019-02-05T14:23:03Z",
+        "uri": "http://web.archive.org/web/20190205142303/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+      },
+      {
+        "datetime": "2019-02-06T14:28:41Z",
+        "uri": "http://web.archive.org/web/20190206142841/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T04:56:56Z",
+      "uri": "http://web.archive.org/web/20190205045656/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+    },
+    "last": {
+      "datetime": "2019-02-06T14:28:41Z",
+      "uri": "http://web.archive.org/web/20190206142841/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/trump-team-stolen-children-held-hostage/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-team-stolen-children-held-hostage/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/trump-team-stolen-children-held-hostage/"
+}

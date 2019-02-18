@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:16:26Z",
+        "uri": "http://web.archive.org/web/20190208181626/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+      },
+      {
+        "datetime": "2019-02-08T22:44:13Z",
+        "uri": "http://web.archive.org/web/20190208224413/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+      },
+      {
+        "datetime": "2019-02-10T00:02:15Z",
+        "uri": "http://web.archive.org/web/20190210000215/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:16:26Z",
+      "uri": "http://web.archive.org/web/20190208181626/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:02:15Z",
+      "uri": "http://web.archive.org/web/20190210000215/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/government-shutdown-set-averted-border-125051362.html"
+}

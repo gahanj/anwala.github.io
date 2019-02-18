@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T17:54:10Z",
+        "uri": "http://archive.md/20190206175410/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      },
+      {
+        "datetime": "2019-02-06T23:34:41Z",
+        "uri": "http://web.archive.org/web/20190206233441/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      },
+      {
+        "datetime": "2019-02-07T02:26:57Z",
+        "uri": "http://web.archive.org/web/20190207022657/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      },
+      {
+        "datetime": "2019-02-07T23:49:49Z",
+        "uri": "http://web.archive.org/web/20190207234949/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      },
+      {
+        "datetime": "2019-02-09T00:20:56Z",
+        "uri": "http://web.archive.org/web/20190209002056/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      },
+      {
+        "datetime": "2019-02-09T12:39:26Z",
+        "uri": "http://web.archive.org/web/20190209123926/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      },
+      {
+        "datetime": "2019-02-10T00:41:12Z",
+        "uri": "http://web.archive.org/web/20190210004112/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T17:54:10Z",
+      "uri": "http://archive.md/20190206175410/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:41:12Z",
+      "uri": "http://web.archive.org/web/20190210004112/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/06/farm-crisis-trump-trade-policies-1147987"
+}

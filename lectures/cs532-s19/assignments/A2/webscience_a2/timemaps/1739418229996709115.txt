@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-12T18:44:45Z",
+        "uri": "http://web.archive.org/web/20180612184445/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-13T00:50:54Z",
+        "uri": "http://web.archive.org/web/20180613005054/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-13T01:14:30Z",
+        "uri": "http://web.archive.org/web/20180613011430/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-13T03:16:48Z",
+        "uri": "http://web.archive.org/web/20180613031648/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-13T03:16:52Z",
+        "uri": "http://archive.md/20180613031652/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-13T19:03:34Z",
+        "uri": "http://web.archive.org/web/20180613190334/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-15T11:49:50Z",
+        "uri": "http://web.archive.org/web/20180615114950/http://thehill.com:80/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-06-24T16:57:17Z",
+        "uri": "http://web.archive.org/web/20180624165717/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      },
+      {
+        "datetime": "2018-07-01T01:15:11Z",
+        "uri": "http://web.archive.org/web/20180701011511/http://thehill.com:80/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-12T18:44:45Z",
+      "uri": "http://web.archive.org/web/20180612184445/http://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+    },
+    "last": {
+      "datetime": "2018-07-01T01:15:11Z",
+      "uri": "http://web.archive.org/web/20180701011511/http://thehill.com:80/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/administration/391780-canadian-parliament-condemns-trump-attacks-on-trudeau"
+}

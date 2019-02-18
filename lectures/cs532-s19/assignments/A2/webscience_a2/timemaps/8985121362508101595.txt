@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T22:01:23Z",
+        "uri": "http://web.archive.org/web/20190207220123/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T22:01:23Z",
+      "uri": "http://web.archive.org/web/20190207220123/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece"
+    },
+    "last": {
+      "datetime": "2019-02-07T22:01:23Z",
+      "uri": "http://web.archive.org/web/20190207220123/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thehindu.com/opinion/editorial/still-partisan/article26207126.ece"
+}

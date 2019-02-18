@@ -1,0 +1,398 @@
+{
+  "original_uri": "https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-11-16T16:14:21Z",
+        "uri": "http://web.archive.org/web/20161116161421/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-16T17:17:57Z",
+        "uri": "http://archive.md/20161116171757/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-16T18:45:57Z",
+        "uri": "http://web.archive.org/web/20161116184557/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-16T19:27:58Z",
+        "uri": "http://archive.md/20161116192758/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-16T23:41:04Z",
+        "uri": "http://web.archive.org/web/20161116234104/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-17T07:08:07Z",
+        "uri": "http://archive.md/20161117070807/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-17T16:32:35Z",
+        "uri": "http://web.archive.org/web/20161117163235/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-18T21:41:37Z",
+        "uri": "http://web.archive.org/web/20161118214137/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-18T21:41:37Z",
+        "uri": "http://web.archive.org/web/20161118214137/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump"
+      },
+      {
+        "datetime": "2016-11-19T22:03:13Z",
+        "uri": "http://web.archive.org/web/20161119220313/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2016-11-28T16:15:52Z",
+        "uri": "http://web.archive.org/web/20161128161552/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-01-05T21:32:14Z",
+        "uri": "http://web.archive.org/web/20170105213214/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-01-13T08:32:22Z",
+        "uri": "http://web.archive.org/web/20170113083222/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-02-18T20:15:39Z",
+        "uri": "http://web.archive.org/web/20170218201539/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-02-21T06:51:39Z",
+        "uri": "http://web.archive.org/web/20170221065139/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-02-26T02:46:25Z",
+        "uri": "http://web.archive.org/web/20170226024625/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-03-10T12:01:25Z",
+        "uri": "http://web.archive.org/web/20170310120125/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-05-18T07:29:33Z",
+        "uri": "http://web.archive.org/web/20170518072933/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-05-19T09:41:14Z",
+        "uri": "http://web.archive.org/web/20170519094114/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-06-08T05:40:18Z",
+        "uri": "http://web.archive.org/web/20170608054018/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-06-15T08:23:16Z",
+        "uri": "http://web.archive.org/web/20170615082316/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-07-03T16:17:33Z",
+        "uri": "http://web.archive.org/web/20170703161733/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-07-23T09:40:39Z",
+        "uri": "http://web.archive.org/web/20170723094039/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-07-24T18:10:32Z",
+        "uri": "http://web.archive.org/web/20170724181032/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-08-10T10:05:22Z",
+        "uri": "http://web.archive.org/web/20170810100522/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-08-18T13:05:14Z",
+        "uri": "http://web.archive.org/web/20170818130514/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-08-18T13:05:14Z",
+        "uri": "http://web.archive.org/web/20170818130514/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump"
+      },
+      {
+        "datetime": "2017-09-19T07:02:22Z",
+        "uri": "http://web.archive.org/web/20170919070222/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-09-19T07:02:22Z",
+        "uri": "http://web.archive.org/web/20170919070222/http://nypost.com:80/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump"
+      },
+      {
+        "datetime": "2017-10-07T07:49:13Z",
+        "uri": "http://web.archive.org/web/20171007074913/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-10-21T19:00:47Z",
+        "uri": "http://wayback.archive-it.org/all/20171021190047/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-10-21T19:00:47Z",
+        "uri": "http://web.archive.org/web/20171021190047/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-11-29T15:23:52Z",
+        "uri": "http://web.archive.org/web/20171129152352/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-11-29T15:23:53Z",
+        "uri": "http://web.archive.org/web/20171129152353/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-12-13T01:55:03Z",
+        "uri": "http://web.archive.org/web/20171213015503/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2017-12-13T01:55:04Z",
+        "uri": "http://web.archive.org/web/20171213015504/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-02-03T11:37:40Z",
+        "uri": "http://web.archive.org/web/20180203113740/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-02-19T22:06:00Z",
+        "uri": "http://web.archive.org/web/20180219220600/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-03-04T06:40:48Z",
+        "uri": "http://web.archive.org/web/20180304064048/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-03-04T06:40:50Z",
+        "uri": "http://web.archive.org/web/20180304064050/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-03-15T16:20:01Z",
+        "uri": "http://web.archive.org/web/20180315162001/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-03-15T16:20:03Z",
+        "uri": "http://web.archive.org/web/20180315162003/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-06-25T22:37:26Z",
+        "uri": "http://archive.md/20180625223726/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-08T23:14:53Z",
+        "uri": "http://web.archive.org/web/20180708231453/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-09T23:19:59Z",
+        "uri": "http://web.archive.org/web/20180709231959/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-10T23:48:49Z",
+        "uri": "http://web.archive.org/web/20180710234849/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-11T23:57:38Z",
+        "uri": "http://web.archive.org/web/20180711235738/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-12T23:21:52Z",
+        "uri": "http://web.archive.org/web/20180712232152/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-13T23:41:21Z",
+        "uri": "http://web.archive.org/web/20180713234121/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-15T04:24:24Z",
+        "uri": "http://web.archive.org/web/20180715042424/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-16T04:11:19Z",
+        "uri": "http://web.archive.org/web/20180716041119/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-17T04:25:42Z",
+        "uri": "http://web.archive.org/web/20180717042542/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-18T14:25:31Z",
+        "uri": "http://web.archive.org/web/20180718142531/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-19T13:27:45Z",
+        "uri": "http://web.archive.org/web/20180719132745/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-20T13:10:17Z",
+        "uri": "http://web.archive.org/web/20180720131017/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-21T10:59:27Z",
+        "uri": "http://web.archive.org/web/20180721105927/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-22T10:33:51Z",
+        "uri": "http://web.archive.org/web/20180722103351/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-23T09:22:07Z",
+        "uri": "http://web.archive.org/web/20180723092207/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-24T10:06:44Z",
+        "uri": "http://web.archive.org/web/20180724100644/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-25T13:21:37Z",
+        "uri": "http://web.archive.org/web/20180725132137/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-26T19:15:13Z",
+        "uri": "http://web.archive.org/web/20180726191513/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-29T02:20:00Z",
+        "uri": "http://web.archive.org/web/20180729022000/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-07-31T18:05:59Z",
+        "uri": "http://web.archive.org/web/20180731180559/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-03T10:18:31Z",
+        "uri": "http://web.archive.org/web/20180803101831/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-04T14:21:22Z",
+        "uri": "http://web.archive.org/web/20180804142122/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-05T01:51:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180805015136/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-05T01:51:36Z",
+        "uri": "http://web.archive.org/web/20180805015136/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-05T05:31:30Z",
+        "uri": "http://web.archive.org/web/20180805053130/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-07T16:27:32Z",
+        "uri": "http://web.archive.org/web/20180807162732/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-11T16:13:52Z",
+        "uri": "http://web.archive.org/web/20180811161352/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-12T06:47:01Z",
+        "uri": "http://web.archive.org/web/20180812064701/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-13T15:58:18Z",
+        "uri": "http://web.archive.org/web/20180813155818/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-08-15T15:07:04Z",
+        "uri": "http://web.archive.org/web/20180815150704/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-09-09T16:35:46Z",
+        "uri": "http://web.archive.org/web/20180909163546/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-09-16T03:37:16Z",
+        "uri": "http://web.archive.org/web/20180916033716/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-01T11:28:50Z",
+        "uri": "http://web.archive.org/web/20181001112850/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-10T03:39:36Z",
+        "uri": "http://web.archive.org/web/20181010033936/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-13T07:36:44Z",
+        "uri": "http://web.archive.org/web/20181013073644/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-14T03:08:19Z",
+        "uri": "http://web.archive.org/web/20181014030819/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-14T05:04:04Z",
+        "uri": "http://web.archive.org/web/20181014050404/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-18T04:20:19Z",
+        "uri": "http://web.archive.org/web/20181018042019/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-20T21:49:58Z",
+        "uri": "http://web.archive.org/web/20181020214958/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-10-27T20:33:28Z",
+        "uri": "http://web.archive.org/web/20181027203328/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-11-03T07:14:07Z",
+        "uri": "http://web.archive.org/web/20181103071407/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-11-03T10:50:01Z",
+        "uri": "http://web.archive.org/web/20181103105001/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-11-04T06:25:59Z",
+        "uri": "http://web.archive.org/web/20181104062559/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-11-24T16:28:57Z",
+        "uri": "http://web.archive.org/web/20181124162857/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-12-02T01:40:38Z",
+        "uri": "http://web.archive.org/web/20181202014038/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-12-09T05:13:45Z",
+        "uri": "http://web.archive.org/web/20181209051345/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-12-21T20:37:59Z",
+        "uri": "http://web.archive.org/web/20181221203759/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2018-12-22T22:11:09Z",
+        "uri": "http://web.archive.org/web/20181222221109/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2019-01-05T05:27:26Z",
+        "uri": "http://web.archive.org/web/20190105052726/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2019-01-12T13:53:56Z",
+        "uri": "http://web.archive.org/web/20190112135356/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      },
+      {
+        "datetime": "2019-02-09T17:28:35Z",
+        "uri": "http://web.archive.org/web/20190209172835/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-11-16T16:14:21Z",
+      "uri": "http://web.archive.org/web/20161116161421/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-09T17:28:35Z",
+      "uri": "http://web.archive.org/web/20190209172835/http://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://nypost.com/2016/11/16/man-gunned-down-outside-bar-after-he-joked-about-voting-for-trump/"
+}

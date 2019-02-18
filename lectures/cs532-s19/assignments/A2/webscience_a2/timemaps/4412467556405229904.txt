@@ -1,0 +1,114 @@
+{
+  "original_uri": "https://cityofinvestment.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cityofinvestment.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-08T20:25:00Z",
+        "uri": "http://web.archive.org/web/20171108202500/http://cityofinvestment.com"
+      },
+      {
+        "datetime": "2017-11-08T20:25:02Z",
+        "uri": "http://web.archive.org/web/20171108202502/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2017-11-08T21:04:45Z",
+        "uri": "http://web.archive.org/web/20171108210445/http://www.cityofinvestment.com/"
+      },
+      {
+        "datetime": "2017-11-08T22:34:15Z",
+        "uri": "http://web.archive.org/web/20171108223415/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2017-11-08T23:31:04Z",
+        "uri": "http://web.archive.org/web/20171108233104/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2017-11-27T07:52:23Z",
+        "uri": "http://web.archive.org/web/20171127075223/http://cityofinvestment.com"
+      },
+      {
+        "datetime": "2017-11-27T07:52:26Z",
+        "uri": "http://web.archive.org/web/20171127075226/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-01-21T11:26:47Z",
+        "uri": "http://web.archive.org/web/20180121112647/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-03-01T02:00:34Z",
+        "uri": "http://web.archive.org/web/20180301020034/http://www.cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-03-01T05:02:06Z",
+        "uri": "http://web.archive.org/web/20180301050206/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-03-17T05:54:13Z",
+        "uri": "http://web.archive.org/web/20180317055413/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-03-17T15:30:55Z",
+        "uri": "http://web.archive.org/web/20180317153055/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-03-18T05:15:45Z",
+        "uri": "http://web.archive.org/web/20180318051545/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-05-26T08:00:38Z",
+        "uri": "http://web.archive.org/web/20180526080038/http://cityofinvestment.com"
+      },
+      {
+        "datetime": "2018-05-26T08:00:41Z",
+        "uri": "http://web.archive.org/web/20180526080041/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-07-07T07:01:39Z",
+        "uri": "http://web.archive.org/web/20180707070139/http://cityofinvestment.com"
+      },
+      {
+        "datetime": "2018-07-07T07:02:00Z",
+        "uri": "http://web.archive.org/web/20180707070200/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-07-15T11:00:45Z",
+        "uri": "http://web.archive.org/web/20180715110045/http://cityofinvestment.com"
+      },
+      {
+        "datetime": "2018-07-15T11:00:48Z",
+        "uri": "http://web.archive.org/web/20180715110048/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-08-08T23:43:50Z",
+        "uri": "http://web.archive.org/web/20180808234350/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-08-30T22:42:28Z",
+        "uri": "http://web.archive.org/web/20180830224228/https://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-12-14T07:25:48Z",
+        "uri": "http://web.archive.org/web/20181214072548/http://cityofinvestment.com/"
+      },
+      {
+        "datetime": "2018-12-14T07:25:49Z",
+        "uri": "http://web.archive.org/web/20181214072549/https://cityofinvestment.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-08T20:25:00Z",
+      "uri": "http://web.archive.org/web/20171108202500/http://cityofinvestment.com"
+    },
+    "last": {
+      "datetime": "2018-12-14T07:25:49Z",
+      "uri": "http://web.archive.org/web/20181214072549/https://cityofinvestment.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cityofinvestment.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cityofinvestment.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cityofinvestment.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cityofinvestment.com/"
+}

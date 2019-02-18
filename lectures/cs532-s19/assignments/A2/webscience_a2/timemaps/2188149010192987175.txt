@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T20:17:57Z",
+        "uri": "http://web.archive.org/web/20190208201757/http://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-08T23:31:55Z",
+        "uri": "http://web.archive.org/web/20190208233155/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T00:49:52Z",
+        "uri": "http://web.archive.org/web/20190209004952/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T01:30:50Z",
+        "uri": "http://web.archive.org/web/20190209013050/http://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T01:57:22Z",
+        "uri": "http://web.archive.org/web/20190210015722/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T01:59:24Z",
+        "uri": "http://web.archive.org/web/20190210015924/http://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T20:17:57Z",
+      "uri": "http://web.archive.org/web/20190208201757/http://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:59:24Z",
+      "uri": "http://web.archive.org/web/20190210015924/http://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.chicagotribune.com/news/nationworld/ct-undocumented-immigrants-trump-20190208-story.html"
+}

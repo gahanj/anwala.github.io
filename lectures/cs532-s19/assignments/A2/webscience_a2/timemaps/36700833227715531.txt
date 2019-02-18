@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:40:31Z",
+        "uri": "http://web.archive.org/web/20190210094031/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:40:31Z",
+      "uri": "http://web.archive.org/web/20190210094031/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:40:31Z",
+      "uri": "http://web.archive.org/web/20190210094031/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.news-journal.com/news/state/as-trump-prepares-for-el-paso-rally-claims-about-violent/article_4d8c2bb6-2caf-11e9-be29-87b6d9ae602d.html"
+}

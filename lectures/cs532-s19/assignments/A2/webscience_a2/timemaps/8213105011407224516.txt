@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.artofobjectivity.com/2018/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.artofobjectivity.com/2018/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-21T08:58:20Z",
+        "uri": "http://web.archive.org/web/20180321085820/http://www.artofobjectivity.com:80/2018/"
+      },
+      {
+        "datetime": "2018-08-20T10:00:39Z",
+        "uri": "http://web.archive.org/web/20180820100039/http://www.artofobjectivity.com/2018/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-21T08:58:20Z",
+      "uri": "http://web.archive.org/web/20180321085820/http://www.artofobjectivity.com:80/2018/"
+    },
+    "last": {
+      "datetime": "2018-08-20T10:00:39Z",
+      "uri": "http://web.archive.org/web/20180820100039/http://www.artofobjectivity.com/2018/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.artofobjectivity.com/2018/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.artofobjectivity.com/2018/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.artofobjectivity.com/2018/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.artofobjectivity.com/2018/"
+}

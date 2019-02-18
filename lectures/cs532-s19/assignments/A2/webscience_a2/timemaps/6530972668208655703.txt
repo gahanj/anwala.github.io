@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-02-10T02:44:58Z",
+        "uri": "http://web.archive.org/web/20170210024458/http://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+      },
+      {
+        "datetime": "2017-02-11T17:50:32Z",
+        "uri": "http://web.archive.org/web/20170211175032/http://edition.cnn.com:80/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion"
+      },
+      {
+        "datetime": "2017-03-22T08:09:47Z",
+        "uri": "http://web.archive.org/web/20170322080947/http://edition.cnn.com:80/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+      },
+      {
+        "datetime": "2017-05-18T11:55:45Z",
+        "uri": "http://web.archive.org/web/20170518115545/http://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-02-10T02:44:58Z",
+      "uri": "http://web.archive.org/web/20170210024458/http://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+    },
+    "last": {
+      "datetime": "2017-05-18T11:55:45Z",
+      "uri": "http://web.archive.org/web/20170518115545/http://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://edition.cnn.com/2017/02/08/opinions/trump-yemen-raid-geopolitics-vinjamuri-opinion/"
+}

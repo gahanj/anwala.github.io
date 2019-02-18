@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.snopes.com/fact-check/ilhan-omar-isis/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.snopes.com/fact-check/ilhan-omar-isis/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T17:58:25Z",
+        "uri": "http://archive.md/20190130175825/https://www.snopes.com/fact-check/ilhan-omar-isis/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T17:58:25Z",
+      "uri": "http://archive.md/20190130175825/https://www.snopes.com/fact-check/ilhan-omar-isis/"
+    },
+    "last": {
+      "datetime": "2019-01-30T17:58:25Z",
+      "uri": "http://archive.md/20190130175825/https://www.snopes.com/fact-check/ilhan-omar-isis/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.snopes.com/fact-check/ilhan-omar-isis/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.snopes.com/fact-check/ilhan-omar-isis/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.snopes.com/fact-check/ilhan-omar-isis/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.snopes.com/fact-check/ilhan-omar-isis/"
+}

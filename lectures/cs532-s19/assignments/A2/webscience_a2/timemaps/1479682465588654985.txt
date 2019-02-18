@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-07-29T18:15:34Z",
+        "uri": "http://archive.md/20180729181534/http://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+      },
+      {
+        "datetime": "2018-07-29T21:21:06Z",
+        "uri": "http://web.archive.org/web/20180729212106/http://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+      },
+      {
+        "datetime": "2018-07-30T11:09:07Z",
+        "uri": "http://web.archive.org/web/20180730110907/http://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+      },
+      {
+        "datetime": "2018-07-30T11:41:47Z",
+        "uri": "http://web.archive.org/web/20180730114147/http://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+      },
+      {
+        "datetime": "2018-12-15T21:21:49Z",
+        "uri": "http://web.archive.org/web/20181215212149/http://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+      },
+      {
+        "datetime": "2018-12-25T15:58:19Z",
+        "uri": "http://web.archive.org/web/20181225155819/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-07-29T18:15:34Z",
+      "uri": "http://archive.md/20180729181534/http://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+    },
+    "last": {
+      "datetime": "2018-12-25T15:58:19Z",
+      "uri": "http://web.archive.org/web/20181225155819/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2018/07/29/trump-derangement-syndrome-therapy/"
+}

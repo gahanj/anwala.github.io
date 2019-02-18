@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T15:14:49Z",
+        "uri": "http://web.archive.org/web/20190207151449/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+      },
+      {
+        "datetime": "2019-02-07T18:18:03Z",
+        "uri": "http://web.archive.org/web/20190207181803/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+      },
+      {
+        "datetime": "2019-02-08T01:30:50Z",
+        "uri": "http://web.archive.org/web/20190208013050/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+      },
+      {
+        "datetime": "2019-02-09T07:03:20Z",
+        "uri": "http://web.archive.org/web/20190209070320/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+      },
+      {
+        "datetime": "2019-02-10T07:39:53Z",
+        "uri": "http://web.archive.org/web/20190210073953/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T15:14:49Z",
+      "uri": "http://web.archive.org/web/20190207151449/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:39:53Z",
+      "uri": "http://web.archive.org/web/20190210073953/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.reuters.com/article/us-usa-trump-russia/senate-panel-chief-sees-no-trump-russia-collusion-so-far-report-idUSKCN1PW1NM"
+}

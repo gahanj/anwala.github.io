@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T13:07:25Z",
+        "uri": "http://web.archive.org/web/20190210130725/http://timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+      },
+      {
+        "datetime": "2019-02-10T13:17:02Z",
+        "uri": "http://web.archive.org/web/20190210131702/https://timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+      },
+      {
+        "datetime": "2019-02-10T13:17:07Z",
+        "uri": "http://web.archive.org/web/20190210131707/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+      },
+      {
+        "datetime": "2019-02-10T16:53:49Z",
+        "uri": "http://web.archive.org/web/20190210165349/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T13:07:25Z",
+      "uri": "http://web.archive.org/web/20190210130725/http://timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:53:49Z",
+      "uri": "http://web.archive.org/web/20190210165349/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.timeslive.co.za/news/world/2019-02-10-south-korea-signs-deal-to-pay-more-for-us-troops-after-trump-demand/"
+}

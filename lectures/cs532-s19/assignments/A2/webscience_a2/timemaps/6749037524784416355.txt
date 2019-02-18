@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-29T20:07:16Z",
+        "uri": "http://web.archive.org/web/20190129200716/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T20:07:44Z",
+        "uri": "http://archive.md/20190129200744/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T20:13:40Z",
+        "uri": "http://archive.md/20190129201340/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T20:18:02Z",
+        "uri": "http://web.archive.org/web/20190129201802/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T20:20:01Z",
+        "uri": "http://archive.md/20190129202001/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T20:27:07Z",
+        "uri": "http://archive.md/20190129202707/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T20:28:26Z",
+        "uri": "http://web.archive.org/web/20190129202826/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-29T23:56:42Z",
+        "uri": "http://web.archive.org/web/20190129235642/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-01-30T16:55:27Z",
+        "uri": "http://web.archive.org/web/20190130165527/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-02-03T18:41:46Z",
+        "uri": "http://web.archive.org/web/20190203184146/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      },
+      {
+        "datetime": "2019-02-05T05:28:33Z",
+        "uri": "http://web.archive.org/web/20190205052833/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-29T20:07:16Z",
+      "uri": "http://web.archive.org/web/20190129200716/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+    },
+    "last": {
+      "datetime": "2019-02-05T05:28:33Z",
+      "uri": "http://web.archive.org/web/20190205052833/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/administration/427502-poll-voters-trust-pelosi-more-than-trump"
+}

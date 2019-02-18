@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T03:28:48Z",
+        "uri": "http://web.archive.org/web/20190207032848/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/"
+      },
+      {
+        "datetime": "2019-02-07T13:21:38Z",
+        "uri": "http://web.archive.org/web/20190207132138/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T03:28:48Z",
+      "uri": "http://web.archive.org/web/20190207032848/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/"
+    },
+    "last": {
+      "datetime": "2019-02-07T13:21:38Z",
+      "uri": "http://web.archive.org/web/20190207132138/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cosmopolitan.com/politics/a26197279/trump-state-of-the-union-abortion-lies/"
+}

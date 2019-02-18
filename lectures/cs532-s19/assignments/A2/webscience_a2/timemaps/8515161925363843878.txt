@@ -1,0 +1,114 @@
+{
+  "original_uri": "https://buchanan.org/blog/the-donald-lives-125811",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/the-donald-lives-125811",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-10-12T00:55:10Z",
+        "uri": "http://web.archive.org/web/20161012005510/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-10-15T05:45:12Z",
+        "uri": "http://web.archive.org/web/20161015054512/http://buchanan.org:80/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-10-17T06:17:26Z",
+        "uri": "http://web.archive.org/web/20161017061726/http://buchanan.org:80/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-10-23T15:59:03Z",
+        "uri": "http://web.archive.org/web/20161023155903/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-10-25T10:03:00Z",
+        "uri": "http://web.archive.org/web/20161025100300/http://buchanan.org:80/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-11-06T06:29:14Z",
+        "uri": "http://web.archive.org/web/20161106062914/http://buchanan.org:80/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-11-22T00:28:03Z",
+        "uri": "http://web.archive.org/web/20161122002803/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2016-12-16T23:20:12Z",
+        "uri": "http://web.archive.org/web/20161216232012/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-01-23T02:42:44Z",
+        "uri": "http://web.archive.org/web/20170123024244/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-02-05T11:36:03Z",
+        "uri": "http://web.archive.org/web/20170205113603/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-02-16T21:36:18Z",
+        "uri": "http://web.archive.org/web/20170216213618/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-03-07T11:39:08Z",
+        "uri": "http://web.archive.org/web/20170307113908/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-03-07T22:59:33Z",
+        "uri": "http://web.archive.org/web/20170307225933/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-05-18T11:20:23Z",
+        "uri": "http://web.archive.org/web/20170518112023/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-07-14T12:26:13Z",
+        "uri": "http://web.archive.org/web/20170714122613/http://buchanan.org:80/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-08-20T03:56:58Z",
+        "uri": "http://web.archive.org/web/20170820035658/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-09-09T06:30:16Z",
+        "uri": "http://web.archive.org/web/20170909063016/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-09-15T19:19:24Z",
+        "uri": "http://web.archive.org/web/20170915191924/http://buchanan.org:80/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-11-10T12:03:06Z",
+        "uri": "http://web.archive.org/web/20171110120306/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2017-11-10T12:58:39Z",
+        "uri": "http://web.archive.org/web/20171110125839/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2018-01-30T20:27:30Z",
+        "uri": "http://web.archive.org/web/20180130202730/http://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2018-12-15T05:24:24Z",
+        "uri": "http://web.archive.org/web/20181215052424/https://buchanan.org/blog/the-donald-lives-125811"
+      },
+      {
+        "datetime": "2018-12-15T05:24:24Z",
+        "uri": "http://web.archive.org/web/20181215052424/http://buchanan.org/blog/the-donald-lives-125811"
+      }
+    ],
+    "first": {
+      "datetime": "2016-10-12T00:55:10Z",
+      "uri": "http://web.archive.org/web/20161012005510/http://buchanan.org/blog/the-donald-lives-125811"
+    },
+    "last": {
+      "datetime": "2018-12-15T05:24:24Z",
+      "uri": "http://web.archive.org/web/20181215052424/http://buchanan.org/blog/the-donald-lives-125811"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://buchanan.org/blog/the-donald-lives-125811",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/the-donald-lives-125811",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://buchanan.org/blog/the-donald-lives-125811"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://buchanan.org/blog/the-donald-lives-125811"
+}

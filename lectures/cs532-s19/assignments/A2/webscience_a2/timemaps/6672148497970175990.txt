@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T02:00:30Z",
+        "uri": "http://web.archive.org/web/20190210020030/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+      },
+      {
+        "datetime": "2019-02-10T05:36:58Z",
+        "uri": "http://web.archive.org/web/20190210053658/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+      },
+      {
+        "datetime": "2019-02-10T08:00:27Z",
+        "uri": "http://web.archive.org/web/20190210080027/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+      },
+      {
+        "datetime": "2019-02-10T17:54:10Z",
+        "uri": "http://archive.md/20190210175410/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T02:00:30Z",
+      "uri": "http://web.archive.org/web/20190210020030/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:54:10Z",
+      "uri": "http://archive.md/20190210175410/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.androidpolice.com/2019/02/09/president-trump-expected-to-sign-executive-order-banning-chinese-network-equipment/"
+}

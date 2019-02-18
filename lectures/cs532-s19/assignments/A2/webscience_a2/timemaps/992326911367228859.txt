@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-24T23:29:30Z",
+        "uri": "http://web.archive.org/web/20180524232930/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+      },
+      {
+        "datetime": "2018-05-27T07:36:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180527073625/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+      },
+      {
+        "datetime": "2018-05-27T07:36:25Z",
+        "uri": "http://web.archive.org/web/20180527073625/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-24T23:29:30Z",
+      "uri": "http://web.archive.org/web/20180524232930/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+    },
+    "last": {
+      "datetime": "2018-05-27T07:36:25Z",
+      "uri": "http://web.archive.org/web/20180527073625/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/gop-humiliated-campaign-get-trump-nobel-crashes-burns/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-05T20:16:53Z",
+        "uri": "http://web.archive.org/web/20181105201653/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/"
+      },
+      {
+        "datetime": "2018-11-05T20:17:33Z",
+        "uri": "http://web.archive.org/web/20181105201733/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-05T20:16:53Z",
+      "uri": "http://web.archive.org/web/20181105201653/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/"
+    },
+    "last": {
+      "datetime": "2018-11-05T20:17:33Z",
+      "uri": "http://web.archive.org/web/20181105201733/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2018/01/30/poll-75-approve-trumps-state-union-address/"
+}

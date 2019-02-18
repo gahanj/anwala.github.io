@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T08:04:40Z",
+        "uri": "http://web.archive.org/web/20190210080440/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it"
+      },
+      {
+        "datetime": "2019-02-10T15:03:27Z",
+        "uri": "http://web.archive.org/web/20190210150327/http://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T08:04:40Z",
+      "uri": "http://web.archive.org/web/20190210080440/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it"
+    },
+    "last": {
+      "datetime": "2019-02-10T15:03:27Z",
+      "uri": "http://web.archive.org/web/20190210150327/http://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailykos.com/stories/2019/2/9/1833583/-The-conference-committee-is-getting-close-to-a-deal-on-the-border-and-Trump-is-going-to-take-it"
+}

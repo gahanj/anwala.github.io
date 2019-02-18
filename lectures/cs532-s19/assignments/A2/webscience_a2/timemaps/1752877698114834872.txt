@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T00:57:36Z",
+        "uri": "http://web.archive.org/web/20190207005736/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T01:27:30Z",
+        "uri": "http://web.archive.org/web/20190207012730/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T09:07:44Z",
+        "uri": "http://web.archive.org/web/20190207090744/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T13:23:28Z",
+        "uri": "http://web.archive.org/web/20190207132328/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T17:11:21Z",
+        "uri": "http://web.archive.org/web/20190207171121/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T18:15:58Z",
+        "uri": "http://web.archive.org/web/20190207181558/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T21:06:46Z",
+        "uri": "http://web.archive.org/web/20190207210646/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-07T22:53:28Z",
+        "uri": "http://web.archive.org/web/20190207225328/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-08T02:53:56Z",
+        "uri": "http://web.archive.org/web/20190208025356/http://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      },
+      {
+        "datetime": "2019-02-08T06:52:43Z",
+        "uri": "http://web.archive.org/web/20190208065243/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T00:57:36Z",
+      "uri": "http://web.archive.org/web/20190207005736/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-08T06:52:43Z",
+      "uri": "http://web.archive.org/web/20190208065243/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/06/politics/donald-trump-investigation-adam-schiff-jerry-nadler/index.html"
+}

@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-06-05T02:32:09Z",
+        "uri": "http://archive.md/20170605023209/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      },
+      {
+        "datetime": "2017-06-05T05:24:14Z",
+        "uri": "http://web.archive.org/web/20170605052414/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      },
+      {
+        "datetime": "2017-06-15T20:06:18Z",
+        "uri": "http://web.archive.org/web/20170615200618/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      },
+      {
+        "datetime": "2017-09-04T17:15:30Z",
+        "uri": "http://web.archive.org/web/20170904171530/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      },
+      {
+        "datetime": "2018-02-23T00:04:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180223000440/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      },
+      {
+        "datetime": "2018-02-23T00:04:40Z",
+        "uri": "http://web.archive.org/web/20180223000440/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      },
+      {
+        "datetime": "2018-11-16T19:56:46Z",
+        "uri": "http://web.archive.org/web/20181116195646/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+      }
+    ],
+    "first": {
+      "datetime": "2017-06-05T02:32:09Z",
+      "uri": "http://archive.md/20170605023209/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+    },
+    "last": {
+      "datetime": "2018-11-16T19:56:46Z",
+      "uri": "http://web.archive.org/web/20181116195646/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2017/06/04/business/vnesheconombank-veb-bank-russia-trump-kushner.html?_r=0"
+}

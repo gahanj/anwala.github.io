@@ -1,0 +1,522 @@
+{
+  "original_uri": "https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-12-27T14:54:30Z",
+        "uri": "http://archive.md/20161227145430/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-28T07:10:11Z",
+        "uri": "http://web.archive.org/web/20161228071011/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-28T13:47:55Z",
+        "uri": "http://web.archive.org/web/20161228134755/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-28T15:25:21Z",
+        "uri": "http://web.archive.org/web/20161228152521/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-29T07:20:31Z",
+        "uri": "http://web.archive.org/web/20161229072031/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-29T16:36:54Z",
+        "uri": "http://web.archive.org/web/20161229163654/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-29T19:21:25Z",
+        "uri": "http://web.archive.org/web/20161229192125/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-30T07:34:28Z",
+        "uri": "http://web.archive.org/web/20161230073428/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-30T17:40:47Z",
+        "uri": "http://web.archive.org/web/20161230174047/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-31T09:59:18Z",
+        "uri": "http://web.archive.org/web/20161231095918/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2016-12-31T15:00:53Z",
+        "uri": "http://web.archive.org/web/20161231150053/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html?"
+      },
+      {
+        "datetime": "2017-01-01T07:46:53Z",
+        "uri": "http://web.archive.org/web/20170101074653/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-01T10:27:00Z",
+        "uri": "http://web.archive.org/web/20170101102700/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-02T10:16:16Z",
+        "uri": "http://web.archive.org/web/20170102101616/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-03T11:27:45Z",
+        "uri": "http://web.archive.org/web/20170103112745/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-04T12:38:16Z",
+        "uri": "http://web.archive.org/web/20170104123816/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-05T12:18:10Z",
+        "uri": "http://web.archive.org/web/20170105121810/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-06T18:11:58Z",
+        "uri": "http://web.archive.org/web/20170106181158/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-07T20:42:27Z",
+        "uri": "http://web.archive.org/web/20170107204227/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-08T23:54:35Z",
+        "uri": "http://web.archive.org/web/20170108235435/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-10T01:19:35Z",
+        "uri": "http://web.archive.org/web/20170110011935/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-11T00:30:15Z",
+        "uri": "http://web.archive.org/web/20170111003015/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-12T09:40:05Z",
+        "uri": "http://web.archive.org/web/20170112094005/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-14T10:04:47Z",
+        "uri": "http://web.archive.org/web/20170114100447/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-15T11:01:13Z",
+        "uri": "http://web.archive.org/web/20170115110113/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-23T09:01:08Z",
+        "uri": "http://web.archive.org/web/20170123090108/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-24T12:19:26Z",
+        "uri": "http://web.archive.org/web/20170124121926/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-27T00:05:51Z",
+        "uri": "http://web.archive.org/web/20170127000551/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-28T19:02:36Z",
+        "uri": "http://web.archive.org/web/20170128190236/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-01-30T19:48:22Z",
+        "uri": "http://web.archive.org/web/20170130194822/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-01T12:21:45Z",
+        "uri": "http://web.archive.org/web/20170201122145/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-01T18:51:35Z",
+        "uri": "http://web.archive.org/web/20170201185135/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-02T04:16:26Z",
+        "uri": "http://web.archive.org/web/20170202041626/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-03T20:02:37Z",
+        "uri": "http://web.archive.org/web/20170203200237/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-04T20:00:59Z",
+        "uri": "http://web.archive.org/web/20170204200059/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-05T23:45:39Z",
+        "uri": "http://web.archive.org/web/20170205234539/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-02-28T06:48:38Z",
+        "uri": "http://web.archive.org/web/20170228064838/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-03-01T07:21:24Z",
+        "uri": "http://web.archive.org/web/20170301072124/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-03-02T08:10:20Z",
+        "uri": "http://web.archive.org/web/20170302081020/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-03T06:27:32Z",
+        "uri": "http://web.archive.org/web/20170503062732/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-03T19:33:35Z",
+        "uri": "http://web.archive.org/web/20170503193335/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-04T19:55:39Z",
+        "uri": "http://web.archive.org/web/20170504195539/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-06T09:52:02Z",
+        "uri": "http://web.archive.org/web/20170506095202/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-07T17:42:23Z",
+        "uri": "http://web.archive.org/web/20170507174223/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-15T00:53:23Z",
+        "uri": "http://web.archive.org/web/20170515005323/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-19T20:49:09Z",
+        "uri": "http://web.archive.org/web/20170519204909/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-22T12:56:02Z",
+        "uri": "http://web.archive.org/web/20170522125602/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-23T05:14:44Z",
+        "uri": "http://web.archive.org/web/20170523051444/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-24T16:07:38Z",
+        "uri": "http://web.archive.org/web/20170524160738/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-05-25T08:50:40Z",
+        "uri": "http://web.archive.org/web/20170525085040/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-06-24T05:27:59Z",
+        "uri": "http://web.archive.org/web/20170624052759/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-05T12:41:52Z",
+        "uri": "http://web.archive.org/web/20170705124152/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-14T11:08:10Z",
+        "uri": "http://web.archive.org/web/20170714110810/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-15T18:25:51Z",
+        "uri": "http://web.archive.org/web/20170715182551/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-17T04:11:29Z",
+        "uri": "http://web.archive.org/web/20170717041129/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-18T05:53:08Z",
+        "uri": "http://web.archive.org/web/20170718055308/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-19T09:54:16Z",
+        "uri": "http://web.archive.org/web/20170719095416/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-20T10:39:35Z",
+        "uri": "http://web.archive.org/web/20170720103935/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-23T18:18:28Z",
+        "uri": "http://web.archive.org/web/20170723181828/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-07-29T02:42:38Z",
+        "uri": "http://web.archive.org/web/20170729024238/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-03T03:24:39Z",
+        "uri": "http://web.archive.org/web/20170803032439/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-12T09:23:15Z",
+        "uri": "http://web.archive.org/web/20170812092315/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-13T05:59:45Z",
+        "uri": "http://web.archive.org/web/20170813055945/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-13T10:24:34Z",
+        "uri": "http://web.archive.org/web/20170813102434/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-14T08:50:24Z",
+        "uri": "http://web.archive.org/web/20170814085024/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-14T09:18:03Z",
+        "uri": "http://web.archive.org/web/20170814091803/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-08-14T17:04:40Z",
+        "uri": "http://web.archive.org/web/20170814170440/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-09-08T16:01:37Z",
+        "uri": "http://web.archive.org/web/20170908160137/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-09-14T18:01:12Z",
+        "uri": "http://web.archive.org/web/20170914180112/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-09T04:55:32Z",
+        "uri": "http://web.archive.org/web/20171009045532/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-10T01:18:32Z",
+        "uri": "http://wayback.archive-it.org/all/20171010011832/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-10T01:18:32Z",
+        "uri": "http://web.archive.org/web/20171010011832/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-10T07:18:47Z",
+        "uri": "http://web.archive.org/web/20171010071847/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-11T14:40:11Z",
+        "uri": "http://web.archive.org/web/20171011144011/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-14T07:26:38Z",
+        "uri": "http://wayback.archive-it.org/all/20171014072638/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-14T07:26:38Z",
+        "uri": "http://web.archive.org/web/20171014072638/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-16T14:55:54Z",
+        "uri": "http://web.archive.org/web/20171016145554/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-18T15:00:06Z",
+        "uri": "http://web.archive.org/web/20171018150006/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-10-18T15:00:08Z",
+        "uri": "http://web.archive.org/web/20171018150008/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-11-16T19:09:33Z",
+        "uri": "http://web.archive.org/web/20171116190933/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-11-18T18:02:08Z",
+        "uri": "http://web.archive.org/web/20171118180208/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-11-19T18:03:58Z",
+        "uri": "http://web.archive.org/web/20171119180358/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-12-18T08:52:41Z",
+        "uri": "http://web.archive.org/web/20171218085241/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-12-19T10:29:30Z",
+        "uri": "http://web.archive.org/web/20171219102930/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2017-12-19T22:08:32Z",
+        "uri": "http://web.archive.org/web/20171219220832/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-01-09T13:20:59Z",
+        "uri": "http://web.archive.org/web/20180109132059/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-01-10T09:20:08Z",
+        "uri": "http://web.archive.org/web/20180110092008/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-01-13T17:54:09Z",
+        "uri": "http://archive.md/20180113175409/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-01-21T11:36:16Z",
+        "uri": "http://web.archive.org/web/20180121113616/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-02T06:01:42Z",
+        "uri": "http://web.archive.org/web/20180202060142/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-03T06:22:35Z",
+        "uri": "http://web.archive.org/web/20180203062235/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-04T18:48:31Z",
+        "uri": "http://web.archive.org/web/20180204184831/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-05T17:36:13Z",
+        "uri": "http://web.archive.org/web/20180205173613/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-06T21:07:42Z",
+        "uri": "http://web.archive.org/web/20180206210742/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-08T20:19:18Z",
+        "uri": "http://web.archive.org/web/20180208201918/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-09T08:18:38Z",
+        "uri": "http://web.archive.org/web/20180209081838/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-10T11:12:38Z",
+        "uri": "http://web.archive.org/web/20180210111238/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-11T13:45:43Z",
+        "uri": "http://web.archive.org/web/20180211134543/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-12T12:09:59Z",
+        "uri": "http://web.archive.org/web/20180212120959/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-15T17:16:57Z",
+        "uri": "http://web.archive.org/web/20180215171657/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-16T20:47:58Z",
+        "uri": "http://web.archive.org/web/20180216204758/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-17T20:39:40Z",
+        "uri": "http://web.archive.org/web/20180217203940/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-18T21:20:47Z",
+        "uri": "http://web.archive.org/web/20180218212047/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-19T23:53:28Z",
+        "uri": "http://web.archive.org/web/20180219235328/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-24T10:02:08Z",
+        "uri": "http://web.archive.org/web/20180224100208/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-24T11:20:29Z",
+        "uri": "http://web.archive.org/web/20180224112029/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-25T10:19:08Z",
+        "uri": "http://web.archive.org/web/20180225101908/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-26T11:19:17Z",
+        "uri": "http://web.archive.org/web/20180226111917/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-27T13:35:14Z",
+        "uri": "http://web.archive.org/web/20180227133514/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-02-28T14:12:49Z",
+        "uri": "http://web.archive.org/web/20180228141249/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-03-29T14:33:21Z",
+        "uri": "http://web.archive.org/web/20180329143321/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-04-11T15:29:00Z",
+        "uri": "http://web.archive.org/web/20180411152900/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-05-15T18:38:09Z",
+        "uri": "http://web.archive.org/web/20180515183809/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-06-04T02:50:22Z",
+        "uri": "http://web.archive.org/web/20180604025022/http://www.latimes.com:80/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-06-11T03:05:28Z",
+        "uri": "http://web.archive.org/web/20180611030528/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-06-13T23:08:54Z",
+        "uri": "http://web.archive.org/web/20180613230854/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-07-03T05:06:05Z",
+        "uri": "http://web.archive.org/web/20180703050605/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-07-05T23:53:13Z",
+        "uri": "http://archive.md/20180705235313/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-08-07T09:12:54Z",
+        "uri": "http://web.archive.org/web/20180807091254/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-11-22T19:49:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181122194952/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-11-22T19:49:52Z",
+        "uri": "http://web.archive.org/web/20181122194952/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-11-24T06:43:07Z",
+        "uri": "http://wayback.archive-it.org/all/20181124064307/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2018-11-24T06:43:07Z",
+        "uri": "http://web.archive.org/web/20181124064307/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2019-02-05T04:20:27Z",
+        "uri": "http://web.archive.org/web/20190205042027/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      },
+      {
+        "datetime": "2019-02-05T04:20:28Z",
+        "uri": "http://web.archive.org/web/20190205042028/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2016-12-27T14:54:30Z",
+      "uri": "http://archive.md/20161227145430/http://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-05T04:20:28Z",
+      "uri": "http://web.archive.org/web/20190205042028/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.latimes.com/opinion/op-ed/la-oe-raimondo-trump-derangement-syndrome-20161226-story.html"
+}

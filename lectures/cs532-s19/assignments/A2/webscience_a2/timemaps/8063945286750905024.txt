@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T16:37:16Z",
+        "uri": "http://web.archive.org/web/20190206163716/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+      },
+      {
+        "datetime": "2019-02-06T17:05:05Z",
+        "uri": "http://web.archive.org/web/20190206170505/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+      },
+      {
+        "datetime": "2019-02-07T03:03:38Z",
+        "uri": "http://web.archive.org/web/20190207030338/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+      },
+      {
+        "datetime": "2019-02-08T03:57:41Z",
+        "uri": "http://web.archive.org/web/20190208035741/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+      },
+      {
+        "datetime": "2019-02-09T01:37:33Z",
+        "uri": "http://web.archive.org/web/20190209013733/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+      },
+      {
+        "datetime": "2019-02-10T02:04:31Z",
+        "uri": "http://web.archive.org/web/20190210020431/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T16:37:16Z",
+      "uri": "http://web.archive.org/web/20190206163716/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:04:31Z",
+      "uri": "http://web.archive.org/web/20190210020431/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.sfgate.com/realestate/article/President-Trump-s-Childhood-Home-Can-Be-13593955.php"
+}

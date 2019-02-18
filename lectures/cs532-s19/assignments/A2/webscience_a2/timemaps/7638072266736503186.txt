@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-06T02:45:38Z",
+        "uri": "http://web.archive.org/web/20180306024538/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/"
+      },
+      {
+        "datetime": "2018-11-06T12:24:34Z",
+        "uri": "http://web.archive.org/web/20181106122434/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-06T02:45:38Z",
+      "uri": "http://web.archive.org/web/20180306024538/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/"
+    },
+    "last": {
+      "datetime": "2018-11-06T12:24:34Z",
+      "uri": "http://web.archive.org/web/20181106122434/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://tacticalinvestor.com/1-in-6-millennials-have-100k-in-savings/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.afpbb.com/articles/-/3210052",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.afpbb.com/articles/-/3210052",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T14:15:42Z",
+        "uri": "http://web.archive.org/web/20190207141542/http://www.afpbb.com/articles/-/3210052"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T14:15:42Z",
+      "uri": "http://web.archive.org/web/20190207141542/http://www.afpbb.com/articles/-/3210052"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:15:42Z",
+      "uri": "http://web.archive.org/web/20190207141542/http://www.afpbb.com/articles/-/3210052"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.afpbb.com/articles/-/3210052",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.afpbb.com/articles/-/3210052",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.afpbb.com/articles/-/3210052"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.afpbb.com/articles/-/3210052"
+}

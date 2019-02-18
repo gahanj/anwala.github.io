@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T04:42:40Z",
+        "uri": "http://archive.md/20190130044240/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+      },
+      {
+        "datetime": "2019-01-30T18:13:33Z",
+        "uri": "http://web.archive.org/web/20190130181333/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+      },
+      {
+        "datetime": "2019-02-03T12:22:55Z",
+        "uri": "http://web.archive.org/web/20190203122255/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+      },
+      {
+        "datetime": "2019-02-06T16:13:48Z",
+        "uri": "http://web.archive.org/web/20190206161348/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T04:42:40Z",
+      "uri": "http://archive.md/20190130044240/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+    },
+    "last": {
+      "datetime": "2019-02-06T16:13:48Z",
+      "uri": "http://web.archive.org/web/20190206161348/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/01/29/epa-chemical-decision-republicans-1129824"
+}

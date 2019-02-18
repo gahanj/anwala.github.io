@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-06T00:10:35Z",
+        "uri": "http://web.archive.org/web/20180306001035/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/"
+      },
+      {
+        "datetime": "2018-11-06T11:37:33Z",
+        "uri": "http://web.archive.org/web/20181106113733/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-06T00:10:35Z",
+      "uri": "http://web.archive.org/web/20180306001035/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/"
+    },
+    "last": {
+      "datetime": "2018-11-06T11:37:33Z",
+      "uri": "http://web.archive.org/web/20181106113733/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://tacticalinvestor.com/trump-at-davos-america-first-amid-swiss-protests/"
+}

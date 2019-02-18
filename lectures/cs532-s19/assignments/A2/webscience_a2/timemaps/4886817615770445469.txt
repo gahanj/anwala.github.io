@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-07T20:26:07Z",
+        "uri": "http://web.archive.org/web/20190107202607/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+      },
+      {
+        "datetime": "2019-01-07T21:26:55Z",
+        "uri": "http://web.archive.org/web/20190107212655/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+      },
+      {
+        "datetime": "2019-01-07T22:30:47Z",
+        "uri": "http://web.archive.org/web/20190107223047/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+      },
+      {
+        "datetime": "2019-01-08T01:32:08Z",
+        "uri": "http://web.archive.org/web/20190108013208/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+      },
+      {
+        "datetime": "2019-01-08T15:50:18Z",
+        "uri": "http://web.archive.org/web/20190108155018/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+      },
+      {
+        "datetime": "2019-02-03T10:48:49Z",
+        "uri": "http://web.archive.org/web/20190203104849/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-07T20:26:07Z",
+      "uri": "http://web.archive.org/web/20190107202607/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+    },
+    "last": {
+      "datetime": "2019-02-03T10:48:49Z",
+      "uri": "http://web.archive.org/web/20190203104849/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://sputniknews.com/military/201901071071284363-trump-kim-negotiating-location-next-summit/"
+}

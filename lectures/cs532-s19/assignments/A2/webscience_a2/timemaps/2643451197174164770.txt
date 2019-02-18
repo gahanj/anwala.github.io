@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T15:08:38Z",
+        "uri": "http://archive.md/20190208150838/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says"
+      },
+      {
+        "datetime": "2019-02-08T18:36:33Z",
+        "uri": "http://web.archive.org/web/20190208183633/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T15:08:38Z",
+      "uri": "http://archive.md/20190208150838/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says"
+    },
+    "last": {
+      "datetime": "2019-02-08T18:36:33Z",
+      "uri": "http://web.archive.org/web/20190208183633/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.zerohedge.com/news/2019-02-08/death-america-really-means-death-trump-ayatollah-says"
+}

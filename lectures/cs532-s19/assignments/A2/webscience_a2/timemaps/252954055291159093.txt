@@ -1,0 +1,42 @@
+{
+  "original_uri": "http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:50:49Z",
+        "uri": "http://web.archive.org/web/20190209145049/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+      },
+      {
+        "datetime": "2019-02-09T17:35:25Z",
+        "uri": "http://web.archive.org/web/20190209173525/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+      },
+      {
+        "datetime": "2019-02-09T18:00:54Z",
+        "uri": "http://web.archive.org/web/20190209180054/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+      },
+      {
+        "datetime": "2019-02-09T18:30:11Z",
+        "uri": "http://web.archive.org/web/20190209183011/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+      },
+      {
+        "datetime": "2019-02-10T04:10:11Z",
+        "uri": "http://web.archive.org/web/20190210041011/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:50:49Z",
+      "uri": "http://web.archive.org/web/20190209145049/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:10:11Z",
+      "uri": "http://web.archive.org/web/20190210041011/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.spiegel.de/politik/ausland/israel-benjamin-netanyahu-setzt-im-wahlkampf-auf-donald-trump-a-1251709.html"
+}

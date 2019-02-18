@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-29T19:25:15Z",
+        "uri": "http://web.archive.org/web/20190129192515/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-01-29T19:53:48Z",
+        "uri": "http://web.archive.org/web/20190129195348/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-01-30T00:13:06Z",
+        "uri": "http://archive.md/20190130001306/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-01-30T08:30:11Z",
+        "uri": "http://web.archive.org/web/20190130083011/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-01-30T15:35:51Z",
+        "uri": "http://web.archive.org/web/20190130153551/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-01-30T17:59:53Z",
+        "uri": "http://archive.md/20190130175953/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-01-31T15:50:47Z",
+        "uri": "http://web.archive.org/web/20190131155047/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-02-01T01:36:57Z",
+        "uri": "http://web.archive.org/web/20190201013657/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      },
+      {
+        "datetime": "2019-02-04T13:56:06Z",
+        "uri": "http://web.archive.org/web/20190204135606/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-29T19:25:15Z",
+      "uri": "http://web.archive.org/web/20190129192515/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+    },
+    "last": {
+      "datetime": "2019-02-04T13:56:06Z",
+      "uri": "http://web.archive.org/web/20190204135606/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/01/29/us/politics/afghanistan-trump-soviet-union.html"
+}

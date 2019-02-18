@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:42:23Z",
+        "uri": "http://web.archive.org/web/20190209234223/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:42:23Z",
+      "uri": "http://web.archive.org/web/20190209234223/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:42:23Z",
+      "uri": "http://web.archive.org/web/20190209234223/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nationalreview.com/2019/02/donald-trump-comeback-congress-north-korea-china/"
+}

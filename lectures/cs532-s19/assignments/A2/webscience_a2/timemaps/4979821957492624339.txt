@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:36:34Z",
+        "uri": "http://web.archive.org/web/20190209213634/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:36:34Z",
+      "uri": "http://web.archive.org/web/20190209213634/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/"
+    },
+    "last": {
+      "datetime": "2019-02-09T21:36:34Z",
+      "uri": "http://web.archive.org/web/20190209213634/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnnchile.com/mundo/donald-trump-dieta_20190209/"
+}

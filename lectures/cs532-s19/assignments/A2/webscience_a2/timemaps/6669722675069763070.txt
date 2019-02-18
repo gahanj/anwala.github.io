@@ -1,0 +1,78 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-us-canada-47185724",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/world-us-canada-47185724",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T19:49:25Z",
+        "uri": "http://web.archive.org/web/20190209194925/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-09T20:17:21Z",
+        "uri": "http://web.archive.org/web/20190209201721/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-09T20:23:32Z",
+        "uri": "http://web.archive.org/web/20190209202332/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-09T21:22:14Z",
+        "uri": "http://web.archive.org/web/20190209212214/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T00:11:19Z",
+        "uri": "http://web.archive.org/web/20190210001119/http://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T00:11:21Z",
+        "uri": "http://web.archive.org/web/20190210001121/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T00:32:02Z",
+        "uri": "http://web.archive.org/web/20190210003202/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T00:32:02Z",
+        "uri": "http://web.archive.org/web/20190210003202/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T07:02:18Z",
+        "uri": "http://web.archive.org/web/20190210070218/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T07:02:20Z",
+        "uri": "http://web.archive.org/web/20190210070220/http://bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T07:02:27Z",
+        "uri": "http://web.archive.org/web/20190210070227/http://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T18:16:12Z",
+        "uri": "http://web.archive.org/web/20190210181612/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T20:47:39Z",
+        "uri": "http://web.archive.org/web/20190210204739/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      },
+      {
+        "datetime": "2019-02-10T23:32:07Z",
+        "uri": "http://web.archive.org/web/20190210233207/https://www.bbc.co.uk/news/world-us-canada-47185724"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T19:49:25Z",
+      "uri": "http://web.archive.org/web/20190209194925/https://www.bbc.co.uk/news/world-us-canada-47185724"
+    },
+    "last": {
+      "datetime": "2019-02-10T23:32:07Z",
+      "uri": "http://web.archive.org/web/20190210233207/https://www.bbc.co.uk/news/world-us-canada-47185724"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.co.uk/news/world-us-canada-47185724",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/world-us-canada-47185724",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.co.uk/news/world-us-canada-47185724"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.co.uk/news/world-us-canada-47185724"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-29T01:35:50Z",
+        "uri": "http://web.archive.org/web/20181229013550/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/"
+      },
+      {
+        "datetime": "2019-02-04T07:14:26Z",
+        "uri": "http://web.archive.org/web/20190204071426/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-29T01:35:50Z",
+      "uri": "http://web.archive.org/web/20181229013550/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/"
+    },
+    "last": {
+      "datetime": "2019-02-04T07:14:26Z",
+      "uri": "http://web.archive.org/web/20190204071426/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ais-cpa.com/tax-fraud-by-the-numbers-the-trump-timeline/"
+}

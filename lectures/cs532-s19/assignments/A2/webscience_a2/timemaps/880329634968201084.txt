@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T13:10:24Z",
+        "uri": "http://web.archive.org/web/20190207131024/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+      },
+      {
+        "datetime": "2019-02-07T16:55:42Z",
+        "uri": "http://web.archive.org/web/20190207165542/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+      },
+      {
+        "datetime": "2019-02-09T22:42:33Z",
+        "uri": "http://web.archive.org/web/20190209224233/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T13:10:24Z",
+      "uri": "http://web.archive.org/web/20190207131024/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T22:42:33Z",
+      "uri": "http://web.archive.org/web/20190209224233/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.elnuevoherald.com/opinion-es/opin-col-blogs/andres-oppenheimer-es/article225603525.html"
+}

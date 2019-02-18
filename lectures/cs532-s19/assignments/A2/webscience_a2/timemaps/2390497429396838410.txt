@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T10:22:31Z",
+        "uri": "http://web.archive.org/web/20190210102231/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+      },
+      {
+        "datetime": "2019-02-10T10:49:54Z",
+        "uri": "http://web.archive.org/web/20190210104954/https://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+      },
+      {
+        "datetime": "2019-02-10T11:31:49Z",
+        "uri": "http://web.archive.org/web/20190210113149/https://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+      },
+      {
+        "datetime": "2019-02-10T13:06:28Z",
+        "uri": "http://web.archive.org/web/20190210130628/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T10:22:31Z",
+      "uri": "http://web.archive.org/web/20190210102231/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:06:28Z",
+      "uri": "http://web.archive.org/web/20190210130628/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.msn.com/en-us/news/politics/border-towns-safer-than-any-city-trump-has-lived-in-says-texas-congressman/ar-BBTooc8"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:38:01Z",
+        "uri": "http://web.archive.org/web/20190209083801/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:38:01Z",
+      "uri": "http://web.archive.org/web/20190209083801/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T08:38:01Z",
+      "uri": "http://web.archive.org/web/20190209083801/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.jforum.fr/donald-trump-president-quel-bilan-2-ans-apres.html"
+}

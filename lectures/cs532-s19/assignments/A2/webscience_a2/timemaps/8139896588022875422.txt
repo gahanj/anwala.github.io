@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-09-18T03:40:12Z",
+        "uri": "http://web.archive.org/web/20180918034012/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+      },
+      {
+        "datetime": "2018-09-18T05:47:44Z",
+        "uri": "http://web.archive.org/web/20180918054744/http://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+      },
+      {
+        "datetime": "2018-09-18T11:19:00Z",
+        "uri": "http://web.archive.org/web/20180918111900/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+      },
+      {
+        "datetime": "2018-09-18T12:08:15Z",
+        "uri": "http://web.archive.org/web/20180918120815/http://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-09-18T03:40:12Z",
+      "uri": "http://web.archive.org/web/20180918034012/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+    },
+    "last": {
+      "datetime": "2018-09-18T12:08:15Z",
+      "uri": "http://web.archive.org/web/20180918120815/http://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://globalnews.ca/news/4459740/hillary-clinton-donald-trump-us-democracy-in-crisis/"
+}

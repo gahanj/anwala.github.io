@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T19:08:21Z",
+        "uri": "http://web.archive.org/web/20190209190821/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+      },
+      {
+        "datetime": "2019-02-09T19:58:53Z",
+        "uri": "http://web.archive.org/web/20190209195853/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+      },
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+      },
+      {
+        "datetime": "2019-02-10T05:02:59Z",
+        "uri": "http://web.archive.org/web/20190210050259/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T19:08:21Z",
+      "uri": "http://web.archive.org/web/20190209190821/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:02:59Z",
+      "uri": "http://web.archive.org/web/20190210050259/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/administration/429255-trump-rips-vicious-dems-after-fiery-acting-ag-hearing"
+}

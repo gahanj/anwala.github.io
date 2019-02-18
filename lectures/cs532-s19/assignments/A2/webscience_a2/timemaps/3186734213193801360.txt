@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T06:56:17Z",
+        "uri": "http://web.archive.org/web/20190210065617/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T06:56:17Z",
+      "uri": "http://web.archive.org/web/20190210065617/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:56:17Z",
+      "uri": "http://web.archive.org/web/20190210065617/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/videos/politics/2019/02/08/alexandria-ocasio-cortez-house-oversight-bad-guy-sot-vpx.cnn/video/playlists/this-week-in-politics/"
+}

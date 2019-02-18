@@ -1,0 +1,62 @@
+{
+  "original_uri": "http://CharmofFavor.com",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://CharmofFavor.com",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-08T16:18:52Z",
+        "uri": "http://web.archive.org/web/20171108161852/http://www.charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2017-11-29T18:24:58Z",
+        "uri": "http://web.archive.org/web/20171129182458/http://charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2017-12-31T05:53:35Z",
+        "uri": "http://web.archive.org/web/20171231055335/http://charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2018-01-09T07:08:23Z",
+        "uri": "http://web.archive.org/web/20180109070823/http://www.charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2018-01-31T23:00:22Z",
+        "uri": "http://web.archive.org/web/20180131230022/http://charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2018-03-08T15:47:20Z",
+        "uri": "http://web.archive.org/web/20180308154720/http://charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2018-06-18T02:26:23Z",
+        "uri": "http://web.archive.org/web/20180618022623/http://charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2018-06-30T07:03:36Z",
+        "uri": "http://web.archive.org/web/20180630070336/http://www.charmoffavor.com:80/"
+      },
+      {
+        "datetime": "2018-08-07T21:20:05Z",
+        "uri": "http://web.archive.org/web/20180807212005/http://charmoffavor.com/"
+      },
+      {
+        "datetime": "2018-11-07T19:47:07Z",
+        "uri": "http://web.archive.org/web/20181107194707/http://charmoffavor.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-08T16:18:52Z",
+      "uri": "http://web.archive.org/web/20171108161852/http://www.charmoffavor.com:80/"
+    },
+    "last": {
+      "datetime": "2018-11-07T19:47:07Z",
+      "uri": "http://web.archive.org/web/20181107194707/http://charmoffavor.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://CharmofFavor.com",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://CharmofFavor.com",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://CharmofFavor.com"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://CharmofFavor.com"
+}

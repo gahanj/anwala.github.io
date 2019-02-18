@@ -1,0 +1,98 @@
+{
+  "original_uri": "https://trumpfeels.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://trumpfeels.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-02-01T22:21:01Z",
+        "uri": "http://web.archive.org/web/20180201222101/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-02-02T12:26:18Z",
+        "uri": "http://web.archive.org/web/20180202122618/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-02-02T20:44:21Z",
+        "uri": "http://web.archive.org/web/20180202204421/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-02-03T00:15:04Z",
+        "uri": "http://web.archive.org/web/20180203001504/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-03-07T04:25:19Z",
+        "uri": "http://web.archive.org/web/20180307042519/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-08-04T20:15:51Z",
+        "uri": "http://web.archive.org/web/20180804201551/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-08-08T08:08:05Z",
+        "uri": "http://web.archive.org/web/20180808080805/http://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-08-27T19:48:15Z",
+        "uri": "http://web.archive.org/web/20180827194815/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-06T11:36:37Z",
+        "uri": "http://web.archive.org/web/20181106113637/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-06T11:37:29Z",
+        "uri": "http://web.archive.org/web/20181106113729/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-06T12:26:07Z",
+        "uri": "http://web.archive.org/web/20181106122607/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-06T13:36:59Z",
+        "uri": "http://web.archive.org/web/20181106133659/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-14T18:29:08Z",
+        "uri": "http://web.archive.org/web/20181114182908/http://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-16T05:39:52Z",
+        "uri": "http://web.archive.org/web/20181116053952/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-16T05:46:49Z",
+        "uri": "http://web.archive.org/web/20181116054649/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-16T06:26:52Z",
+        "uri": "http://web.archive.org/web/20181116062652/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-16T06:47:54Z",
+        "uri": "http://web.archive.org/web/20181116064754/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-11-16T06:49:14Z",
+        "uri": "http://web.archive.org/web/20181116064914/https://trumpfeels.com/"
+      },
+      {
+        "datetime": "2018-12-04T03:59:47Z",
+        "uri": "http://web.archive.org/web/20181204035947/https://trumpfeels.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-02-01T22:21:01Z",
+      "uri": "http://web.archive.org/web/20180201222101/https://trumpfeels.com/"
+    },
+    "last": {
+      "datetime": "2018-12-04T03:59:47Z",
+      "uri": "http://web.archive.org/web/20181204035947/https://trumpfeels.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://trumpfeels.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://trumpfeels.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://trumpfeels.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://trumpfeels.com/"
+}

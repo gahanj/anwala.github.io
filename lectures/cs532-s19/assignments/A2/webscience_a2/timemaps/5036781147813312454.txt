@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T06:46:59Z",
+        "uri": "http://web.archive.org/web/20190205064659/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+      },
+      {
+        "datetime": "2019-02-05T22:47:57Z",
+        "uri": "http://web.archive.org/web/20190205224757/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+      },
+      {
+        "datetime": "2019-02-06T14:40:11Z",
+        "uri": "http://web.archive.org/web/20190206144011/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T06:46:59Z",
+      "uri": "http://web.archive.org/web/20190205064659/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+    },
+    "last": {
+      "datetime": "2019-02-06T14:40:11Z",
+      "uri": "http://web.archive.org/web/20190206144011/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://consortiumnews.com/2019/02/04/the-conflicted-boeing-executive-running-trumps-pentagon/"
+}

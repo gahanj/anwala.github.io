@@ -1,0 +1,98 @@
+{
+  "original_uri": "https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-24T18:24:40Z",
+        "uri": "http://web.archive.org/web/20180824182440/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-24T18:37:19Z",
+        "uri": "http://web.archive.org/web/20180824183719/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-24T19:40:03Z",
+        "uri": "http://web.archive.org/web/20180824194003/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html?"
+      },
+      {
+        "datetime": "2018-08-24T20:44:22Z",
+        "uri": "http://web.archive.org/web/20180824204422/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-25T01:24:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180825012413/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-25T01:24:13Z",
+        "uri": "http://web.archive.org/web/20180825012413/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-25T04:16:32Z",
+        "uri": "http://web.archive.org/web/20180825041632/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-25T12:55:58Z",
+        "uri": "http://web.archive.org/web/20180825125558/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-26T16:11:34Z",
+        "uri": "http://web.archive.org/web/20180826161134/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-27T12:46:40Z",
+        "uri": "http://web.archive.org/web/20180827124640/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-27T15:12:04Z",
+        "uri": "http://web.archive.org/web/20180827151204/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-28T16:49:05Z",
+        "uri": "http://web.archive.org/web/20180828164905/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-29T17:31:16Z",
+        "uri": "http://web.archive.org/web/20180829173116/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-08-30T19:34:45Z",
+        "uri": "http://web.archive.org/web/20180830193445/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-09-01T00:20:37Z",
+        "uri": "http://web.archive.org/web/20180901002037/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-09-20T19:46:17Z",
+        "uri": "http://web.archive.org/web/20180920194617/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-09-21T21:18:58Z",
+        "uri": "http://web.archive.org/web/20180921211858/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-09-22T22:01:09Z",
+        "uri": "http://web.archive.org/web/20180922220109/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      },
+      {
+        "datetime": "2018-09-23T23:14:53Z",
+        "uri": "http://web.archive.org/web/20180923231453/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-24T18:24:40Z",
+      "uri": "http://web.archive.org/web/20180824182440/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+    },
+    "last": {
+      "datetime": "2018-09-23T23:14:53Z",
+      "uri": "http://web.archive.org/web/20180923231453/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/interactive/2018/08/24/opinion/trump-gotti-quiz.html"
+}

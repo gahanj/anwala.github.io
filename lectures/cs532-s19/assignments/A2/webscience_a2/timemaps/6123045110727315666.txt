@@ -1,0 +1,1074 @@
+{
+  "original_uri": "https://mobile.yahoo.com/news",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://mobile.yahoo.com/news",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2001-03-02T12:39:30Z",
+        "uri": "http://web.archive.org/web/20010302123930/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2001-04-18T20:42:52Z",
+        "uri": "http://web.archive.org/web/20010418204252/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2001-07-01T12:25:48Z",
+        "uri": "http://web.archive.org/web/20010701122548/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2001-07-07T00:34:13Z",
+        "uri": "http://web.archive.org/web/20010707003413/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2002-01-29T10:50:47Z",
+        "uri": "http://web.archive.org/web/20020129105047/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2002-06-12T16:15:56Z",
+        "uri": "http://web.archive.org/web/20020612161556/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2002-08-23T01:21:37Z",
+        "uri": "http://web.archive.org/web/20020823012137/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2002-10-08T10:05:03Z",
+        "uri": "http://web.archive.org/web/20021008100503/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2002-10-28T23:56:50Z",
+        "uri": "http://web.archive.org/web/20021028235650/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2002-12-17T19:37:52Z",
+        "uri": "http://web.archive.org/web/20021217193752/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2002-12-21T05:25:44Z",
+        "uri": "http://web.archive.org/web/20021221052544/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2003-02-07T00:37:31Z",
+        "uri": "http://web.archive.org/web/20030207003731/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2003-02-18T23:03:24Z",
+        "uri": "http://web.archive.org/web/20030218230324/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2003-04-10T14:35:13Z",
+        "uri": "http://web.archive.org/web/20030410143513/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2003-04-13T00:13:08Z",
+        "uri": "http://web.archive.org/web/20030413001308/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2003-06-06T20:47:38Z",
+        "uri": "http://web.archive.org/web/20030606204738/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2003-08-20T10:55:51Z",
+        "uri": "http://web.archive.org/web/20030820105551/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2003-08-20T11:05:08Z",
+        "uri": "http://web.archive.org/web/20030820110508/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2003-10-03T05:39:50Z",
+        "uri": "http://web.archive.org/web/20031003053950/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2003-10-03T05:42:10Z",
+        "uri": "http://web.archive.org/web/20031003054210/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2004-01-03T09:24:49Z",
+        "uri": "http://web.archive.org/web/20040103092449/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2004-02-07T05:25:34Z",
+        "uri": "http://web.archive.org/web/20040207052534/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2004-02-14T13:43:55Z",
+        "uri": "http://web.archive.org/web/20040214134355/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2004-06-06T08:25:46Z",
+        "uri": "http://web.archive.org/web/20040606082546/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2004-06-07T13:45:41Z",
+        "uri": "http://web.archive.org/web/20040607134541/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2004-08-04T19:30:19Z",
+        "uri": "http://web.archive.org/web/20040804193019/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2004-08-18T09:56:04Z",
+        "uri": "http://web.archive.org/web/20040818095604/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2004-10-09T19:30:53Z",
+        "uri": "http://web.archive.org/web/20041009193053/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2004-10-10T12:36:55Z",
+        "uri": "http://web.archive.org/web/20041010123655/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2004-12-09T01:21:30Z",
+        "uri": "http://web.archive.org/web/20041209012130/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2005-02-05T01:32:41Z",
+        "uri": "http://web.archive.org/web/20050205013241/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2005-02-07T09:54:00Z",
+        "uri": "http://web.archive.org/web/20050207095400/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2005-03-11T08:46:37Z",
+        "uri": "http://web.archive.org/web/20050311084637/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2005-04-08T02:14:39Z",
+        "uri": "http://web.archive.org/web/20050408021439/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2005-11-22T16:14:46Z",
+        "uri": "http://web.archive.org/web/20051122161446/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2005-12-05T15:52:12Z",
+        "uri": "http://web.archive.org/web/20051205155212/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2005-12-18T10:08:56Z",
+        "uri": "http://web.archive.org/web/20051218100856/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-01-10T16:54:11Z",
+        "uri": "http://web.archive.org/web/20060110165411/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-02-03T04:24:32Z",
+        "uri": "http://web.archive.org/web/20060203042432/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-03-08T00:47:02Z",
+        "uri": "http://web.archive.org/web/20060308004702/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2006-05-02T07:56:00Z",
+        "uri": "http://web.archive.org/web/20060502075600/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-05-11T16:44:07Z",
+        "uri": "http://web.archive.org/web/20060511164407/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2006-06-15T22:55:18Z",
+        "uri": "http://web.archive.org/web/20060615225518/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-07-20T20:17:04Z",
+        "uri": "http://web.archive.org/web/20060720201704/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2006-07-22T04:26:56Z",
+        "uri": "http://web.archive.org/web/20060722042656/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-08-09T21:54:10Z",
+        "uri": "http://web.archive.org/web/20060809215410/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-09-06T22:00:10Z",
+        "uri": "http://web.archive.org/web/20060906220010/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-11-03T18:30:13Z",
+        "uri": "http://web.archive.org/web/20061103183013/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-11-10T12:28:15Z",
+        "uri": "http://web.archive.org/web/20061110122815/http://mobile.yahoo.com/news/"
+      },
+      {
+        "datetime": "2006-12-09T13:32:57Z",
+        "uri": "http://web.archive.org/web/20061209133257/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2006-12-12T03:05:11Z",
+        "uri": "http://web.archive.org/web/20061212030511/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-08T05:32:17Z",
+        "uri": "http://web.archive.org/web/20070208053217/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-08T16:38:48Z",
+        "uri": "http://web.archive.org/web/20070208163848/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-10T00:40:50Z",
+        "uri": "http://web.archive.org/web/20070210004050/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-12T00:18:27Z",
+        "uri": "http://web.archive.org/web/20070212001827/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-16T14:54:15Z",
+        "uri": "http://web.archive.org/web/20070216145415/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-18T11:52:24Z",
+        "uri": "http://web.archive.org/web/20070218115224/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-22T10:05:17Z",
+        "uri": "http://web.archive.org/web/20070222100517/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-24T15:27:50Z",
+        "uri": "http://web.archive.org/web/20070224152750/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-26T17:30:11Z",
+        "uri": "http://web.archive.org/web/20070226173011/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-02-27T12:55:52Z",
+        "uri": "http://web.archive.org/web/20070227125552/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-02T08:45:37Z",
+        "uri": "http://web.archive.org/web/20070302084537/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-06T10:08:07Z",
+        "uri": "http://web.archive.org/web/20070306100807/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-08T13:32:05Z",
+        "uri": "http://web.archive.org/web/20070308133205/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-12T00:25:37Z",
+        "uri": "http://web.archive.org/web/20070312002537/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-13T23:17:32Z",
+        "uri": "http://web.archive.org/web/20070313231732/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-19T19:50:46Z",
+        "uri": "http://web.archive.org/web/20070319195046/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-03-23T13:18:30Z",
+        "uri": "http://web.archive.org/web/20070323131830/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-01T15:26:24Z",
+        "uri": "http://web.archive.org/web/20070401152624/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-03T06:37:33Z",
+        "uri": "http://web.archive.org/web/20070403063733/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-14T08:06:37Z",
+        "uri": "http://web.archive.org/web/20070414080637/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-04-19T03:53:07Z",
+        "uri": "http://web.archive.org/web/20070419035307/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-23T11:02:08Z",
+        "uri": "http://web.archive.org/web/20070423110208/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-23T13:20:14Z",
+        "uri": "http://web.archive.org/web/20070423132014/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-27T09:10:26Z",
+        "uri": "http://web.archive.org/web/20070427091026/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-04-28T10:00:53Z",
+        "uri": "http://web.archive.org/web/20070428100053/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-02T23:40:38Z",
+        "uri": "http://web.archive.org/web/20070502234038/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-04T11:45:12Z",
+        "uri": "http://web.archive.org/web/20070504114512/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-05T11:46:06Z",
+        "uri": "http://web.archive.org/web/20070505114606/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-10T11:26:52Z",
+        "uri": "http://web.archive.org/web/20070510112652/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-12T21:00:14Z",
+        "uri": "http://web.archive.org/web/20070512210014/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-13T11:30:22Z",
+        "uri": "http://web.archive.org/web/20070513113022/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-15T12:04:16Z",
+        "uri": "http://web.archive.org/web/20070515120416/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-18T08:37:25Z",
+        "uri": "http://web.archive.org/web/20070518083725/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-05-19T11:07:51Z",
+        "uri": "http://web.archive.org/web/20070519110751/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-23T09:04:36Z",
+        "uri": "http://web.archive.org/web/20070523090436/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-26T13:11:59Z",
+        "uri": "http://web.archive.org/web/20070526131159/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-28T15:47:08Z",
+        "uri": "http://web.archive.org/web/20070528154708/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-05-31T01:34:16Z",
+        "uri": "http://web.archive.org/web/20070531013416/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-05T06:16:12Z",
+        "uri": "http://web.archive.org/web/20070605061612/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-06T13:02:25Z",
+        "uri": "http://web.archive.org/web/20070606130225/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-08T16:36:15Z",
+        "uri": "http://web.archive.org/web/20070608163615/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-06-12T13:31:20Z",
+        "uri": "http://web.archive.org/web/20070612133120/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-14T01:37:58Z",
+        "uri": "http://web.archive.org/web/20070614013758/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-15T13:46:07Z",
+        "uri": "http://web.archive.org/web/20070615134607/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-18T04:04:39Z",
+        "uri": "http://web.archive.org/web/20070618040439/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-19T07:55:44Z",
+        "uri": "http://web.archive.org/web/20070619075544/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-21T02:54:29Z",
+        "uri": "http://web.archive.org/web/20070621025429/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2007-06-21T14:06:56Z",
+        "uri": "http://web.archive.org/web/20070621140656/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-25T06:54:41Z",
+        "uri": "http://web.archive.org/web/20070625065441/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-26T14:46:06Z",
+        "uri": "http://web.archive.org/web/20070626144606/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-29T02:27:45Z",
+        "uri": "http://web.archive.org/web/20070629022745/http://mobile.yahoo.com:80/news?"
+      },
+      {
+        "datetime": "2007-06-29T02:36:08Z",
+        "uri": "http://web.archive.org/web/20070629023608/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-06-30T18:53:54Z",
+        "uri": "http://web.archive.org/web/20070630185354/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-07-01T23:55:22Z",
+        "uri": "http://web.archive.org/web/20070701235522/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-07-01T23:58:32Z",
+        "uri": "http://web.archive.org/web/20070701235832/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-07-03T10:56:07Z",
+        "uri": "http://web.archive.org/web/20070703105607/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-07-07T21:19:39Z",
+        "uri": "http://web.archive.org/web/20070707211939/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-07-08T15:38:40Z",
+        "uri": "http://web.archive.org/web/20070708153840/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-07-17T00:13:19Z",
+        "uri": "http://web.archive.org/web/20070717001319/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-08-09T20:00:28Z",
+        "uri": "http://web.archive.org/web/20070809200028/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-08-13T23:29:54Z",
+        "uri": "http://web.archive.org/web/20070813232954/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-08-14T04:02:44Z",
+        "uri": "http://web.archive.org/web/20070814040244/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-09-29T13:18:04Z",
+        "uri": "http://web.archive.org/web/20070929131804/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-01T13:57:54Z",
+        "uri": "http://web.archive.org/web/20071001135754/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-02T07:22:29Z",
+        "uri": "http://web.archive.org/web/20071002072229/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-02T17:18:27Z",
+        "uri": "http://web.archive.org/web/20071002171827/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-05T00:47:30Z",
+        "uri": "http://web.archive.org/web/20071005004730/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-05T17:41:17Z",
+        "uri": "http://web.archive.org/web/20071005174117/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-06T17:20:44Z",
+        "uri": "http://web.archive.org/web/20071006172044/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-06T22:27:08Z",
+        "uri": "http://web.archive.org/web/20071006222708/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-07T23:19:22Z",
+        "uri": "http://web.archive.org/web/20071007231922/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-08T02:28:54Z",
+        "uri": "http://web.archive.org/web/20071008022854/http://mobile.yahoo.com:80/news/"
+      },
+      {
+        "datetime": "2007-10-08T02:29:51Z",
+        "uri": "http://web.archive.org/web/20071008022951/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-09T02:44:50Z",
+        "uri": "http://web.archive.org/web/20071009024450/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-09T08:59:46Z",
+        "uri": "http://web.archive.org/web/20071009085946/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-10T10:51:34Z",
+        "uri": "http://web.archive.org/web/20071010105134/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-13T18:42:01Z",
+        "uri": "http://web.archive.org/web/20071013184201/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-15T19:49:45Z",
+        "uri": "http://web.archive.org/web/20071015194945/http://mobile.yahoo.com:80/news?"
+      },
+      {
+        "datetime": "2007-10-16T17:28:33Z",
+        "uri": "http://web.archive.org/web/20071016172833/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-10-30T19:56:49Z",
+        "uri": "http://web.archive.org/web/20071030195649/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-12-18T11:47:39Z",
+        "uri": "http://web.archive.org/web/20071218114739/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-12-23T16:48:13Z",
+        "uri": "http://web.archive.org/web/20071223164813/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2007-12-26T19:16:45Z",
+        "uri": "http://web.archive.org/web/20071226191645/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-03T00:15:23Z",
+        "uri": "http://web.archive.org/web/20080103001523/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-13T05:13:32Z",
+        "uri": "http://web.archive.org/web/20080113051332/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-15T19:04:58Z",
+        "uri": "http://web.archive.org/web/20080115190458/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-17T22:19:12Z",
+        "uri": "http://web.archive.org/web/20080117221912/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-22T02:24:16Z",
+        "uri": "http://web.archive.org/web/20080122022416/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-23T11:38:12Z",
+        "uri": "http://web.archive.org/web/20080123113812/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-01-31T10:24:31Z",
+        "uri": "http://web.archive.org/web/20080131102431/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-02T08:45:47Z",
+        "uri": "http://web.archive.org/web/20080202084547/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-05T23:58:03Z",
+        "uri": "http://web.archive.org/web/20080205235803/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-08T17:55:41Z",
+        "uri": "http://web.archive.org/web/20080208175541/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-10T00:23:29Z",
+        "uri": "http://web.archive.org/web/20080210002329/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-16T14:56:45Z",
+        "uri": "http://web.archive.org/web/20080216145645/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-20T00:03:23Z",
+        "uri": "http://web.archive.org/web/20080220000323/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-02-22T00:15:40Z",
+        "uri": "http://web.archive.org/web/20080222001540/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-03-02T22:40:38Z",
+        "uri": "http://web.archive.org/web/20080302224038/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-03-06T00:08:07Z",
+        "uri": "http://web.archive.org/web/20080306000807/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-03-12T06:32:20Z",
+        "uri": "http://web.archive.org/web/20080312063220/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-03-16T09:21:15Z",
+        "uri": "http://web.archive.org/web/20080316092115/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-03-18T12:33:54Z",
+        "uri": "http://web.archive.org/web/20080318123354/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-03-22T03:08:54Z",
+        "uri": "http://web.archive.org/web/20080322030854/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-02T07:02:56Z",
+        "uri": "http://web.archive.org/web/20080402070256/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-05T18:53:25Z",
+        "uri": "http://web.archive.org/web/20080405185325/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-07T20:56:57Z",
+        "uri": "http://web.archive.org/web/20080407205657/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-11T04:17:24Z",
+        "uri": "http://web.archive.org/web/20080411041724/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-12T11:31:51Z",
+        "uri": "http://web.archive.org/web/20080412113151/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-23T03:37:04Z",
+        "uri": "http://web.archive.org/web/20080423033704/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-04-25T18:25:50Z",
+        "uri": "http://web.archive.org/web/20080425182550/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-01T00:30:53Z",
+        "uri": "http://web.archive.org/web/20080501003053/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-02T01:54:09Z",
+        "uri": "http://web.archive.org/web/20080502015409/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-03T23:07:53Z",
+        "uri": "http://web.archive.org/web/20080503230753/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-06T05:13:20Z",
+        "uri": "http://web.archive.org/web/20080506051320/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-07T20:46:27Z",
+        "uri": "http://web.archive.org/web/20080507204627/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-09T01:01:25Z",
+        "uri": "http://web.archive.org/web/20080509010125/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-11T13:41:01Z",
+        "uri": "http://web.archive.org/web/20080511134101/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-14T02:47:03Z",
+        "uri": "http://web.archive.org/web/20080514024703/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-14T21:45:47Z",
+        "uri": "http://web.archive.org/web/20080514214547/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2008-05-19T23:36:54Z",
+        "uri": "http://web.archive.org/web/20080519233654/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-23T23:55:25Z",
+        "uri": "http://web.archive.org/web/20080523235525/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-05-27T04:18:34Z",
+        "uri": "http://web.archive.org/web/20080527041834/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-06-05T19:33:18Z",
+        "uri": "http://web.archive.org/web/20080605193318/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-06-16T01:45:53Z",
+        "uri": "http://web.archive.org/web/20080616014553/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-06-22T23:51:08Z",
+        "uri": "http://web.archive.org/web/20080622235108/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-08-28T08:44:49Z",
+        "uri": "http://web.archive.org/web/20080828084449/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2008-11-01T19:50:57Z",
+        "uri": "http://web.archive.org/web/20081101195057/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-11-01T19:50:57Z",
+        "uri": "http://web.archive.org/web/20081101195057/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-12-07T05:21:35Z",
+        "uri": "http://web.archive.org/web/20081207052135/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-12-16T15:59:36Z",
+        "uri": "http://web.archive.org/web/20081216155936/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2008-12-25T01:27:03Z",
+        "uri": "http://web.archive.org/web/20081225012703/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2009-01-01T13:07:11Z",
+        "uri": "http://web.archive.org/web/20090101130711/http://mobile.yahoo.com:80/news?"
+      },
+      {
+        "datetime": "2009-01-11T02:26:28Z",
+        "uri": "http://web.archive.org/web/20090111022628/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2009-01-14T08:24:04Z",
+        "uri": "http://web.archive.org/web/20090114082404/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2009-03-28T15:56:00Z",
+        "uri": "http://web.archive.org/web/20090328155600/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2009-10-29T23:36:19Z",
+        "uri": "http://web.archive.org/web/20091029233619/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2009-12-23T04:04:13Z",
+        "uri": "https://arquivo.pt/wayback/20091223040413/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2009-12-31T15:39:08Z",
+        "uri": "http://web.archive.org/web/20091231153908/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2009-12-31T15:39:08Z",
+        "uri": "http://web.archive.org/web/20091231153908/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2010-03-02T23:21:31Z",
+        "uri": "http://web.archive.org/web/20100302232131/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2010-09-04T12:30:10Z",
+        "uri": "http://web.archive.org/web/20100904123010/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-01-25T17:04:13Z",
+        "uri": "http://wayback.archive-it.org/all/20110125170413/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2011-01-25T17:04:13Z",
+        "uri": "http://web.archive.org/web/20110125170413/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2011-02-09T00:22:12Z",
+        "uri": "http://web.archive.org/web/20110209002212/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-05-13T17:46:21Z",
+        "uri": "http://web.archive.org/web/20110513174621/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-07-21T06:15:00Z",
+        "uri": "http://web.archive.org/web/20110721061500/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-07-22T13:09:51Z",
+        "uri": "http://web.archive.org/web/20110722130951/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-08-10T19:47:34Z",
+        "uri": "http://web.archive.org/web/20110810194734/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2011-09-02T05:06:42Z",
+        "uri": "http://web.archive.org/web/20110902050642/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-09-29T03:41:39Z",
+        "uri": "http://web.archive.org/web/20110929034139/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2011-10-01T04:25:49Z",
+        "uri": "http://web.archive.org/web/20111001042549/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2011-10-06T08:09:53Z",
+        "uri": "http://web.archive.org/web/20111006080953/http://mobile.yahoo.com:80/news?"
+      },
+      {
+        "datetime": "2011-10-11T18:09:51Z",
+        "uri": "http://web.archive.org/web/20111011180951/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-04-15T15:14:57Z",
+        "uri": "http://web.archive.org/web/20120415151457/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-05-12T02:10:10Z",
+        "uri": "http://web.archive.org/web/20120512021010/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-07-22T08:09:05Z",
+        "uri": "http://web.archive.org/web/20120722080905/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-09-20T17:03:45Z",
+        "uri": "http://web.archive.org/web/20120920170345/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-09-21T14:49:45Z",
+        "uri": "http://web.archive.org/web/20120921144945/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-09-23T13:38:05Z",
+        "uri": "http://web.archive.org/web/20120923133805/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2012-10-10T14:12:23Z",
+        "uri": "http://web.archive.org/web/20121010141223/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2013-01-12T21:23:26Z",
+        "uri": "http://web.archive.org/web/20130112212326/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2013-01-22T17:48:11Z",
+        "uri": "http://web.archive.org/web/20130122174811/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2013-02-01T10:05:51Z",
+        "uri": "http://web.archive.org/web/20130201100551/http://mobile.yahoo.com:80/news?"
+      },
+      {
+        "datetime": "2013-05-01T14:40:36Z",
+        "uri": "http://web.archive.org/web/20130501144036/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2013-05-20T06:22:15Z",
+        "uri": "http://web.archive.org/web/20130520062215/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2013-06-22T03:58:26Z",
+        "uri": "http://web.archive.org/web/20130622035826/http://mobile.yahoo.com:80/news"
+      },
+      {
+        "datetime": "2013-09-03T20:40:42Z",
+        "uri": "http://web.archive.org/web/20130903204042/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2014-01-11T02:08:52Z",
+        "uri": "http://web.archive.org/web/20140111020852/http://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2014-08-15T23:44:47Z",
+        "uri": "http://web.archive.org/web/20140815234447/http://mobile.yahoo.com/News"
+      },
+      {
+        "datetime": "2014-08-15T23:44:49Z",
+        "uri": "http://web.archive.org/web/20140815234449/https://mobile.yahoo.com/News"
+      },
+      {
+        "datetime": "2014-10-10T10:43:39Z",
+        "uri": "http://web.archive.org/web/20141010104339/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2016-07-08T18:55:04Z",
+        "uri": "http://web.archive.org/web/20160708185504/http://mobile.yahoo.com/news/"
+      },
+      {
+        "datetime": "2016-09-13T23:16:23Z",
+        "uri": "http://web.archive.org/web/20160913231623/https://mobile.yahoo.com/news/"
+      },
+      {
+        "datetime": "2019-01-03T23:24:25Z",
+        "uri": "http://web.archive.org/web/20190103232425/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-05T00:58:14Z",
+        "uri": "http://web.archive.org/web/20190105005814/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-05T08:42:07Z",
+        "uri": "http://wayback.archive-it.org/all/20190105084207/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-05T08:42:07Z",
+        "uri": "http://web.archive.org/web/20190105084207/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-07T20:06:26Z",
+        "uri": "http://web.archive.org/web/20190107200626/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-08T19:33:52Z",
+        "uri": "http://web.archive.org/web/20190108193352/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-09T21:18:01Z",
+        "uri": "http://web.archive.org/web/20190109211801/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-11T02:53:24Z",
+        "uri": "http://web.archive.org/web/20190111025324/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-12T00:14:37Z",
+        "uri": "http://web.archive.org/web/20190112001437/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-13T00:56:16Z",
+        "uri": "http://web.archive.org/web/20190113005616/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-14T01:17:20Z",
+        "uri": "http://web.archive.org/web/20190114011720/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-15T02:30:31Z",
+        "uri": "http://web.archive.org/web/20190115023031/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-16T03:26:21Z",
+        "uri": "http://web.archive.org/web/20190116032621/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-17T04:06:40Z",
+        "uri": "http://web.archive.org/web/20190117040640/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-18T05:03:00Z",
+        "uri": "http://web.archive.org/web/20190118050300/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-19T06:20:26Z",
+        "uri": "http://web.archive.org/web/20190119062026/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-20T06:29:56Z",
+        "uri": "http://web.archive.org/web/20190120062956/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-21T07:23:51Z",
+        "uri": "http://web.archive.org/web/20190121072351/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-22T08:35:13Z",
+        "uri": "http://web.archive.org/web/20190122083513/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-23T09:31:24Z",
+        "uri": "http://web.archive.org/web/20190123093124/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-24T10:37:35Z",
+        "uri": "http://web.archive.org/web/20190124103735/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-25T11:00:14Z",
+        "uri": "http://web.archive.org/web/20190125110014/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-26T12:15:02Z",
+        "uri": "http://web.archive.org/web/20190126121502/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-27T12:50:49Z",
+        "uri": "http://web.archive.org/web/20190127125049/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-28T13:59:23Z",
+        "uri": "http://web.archive.org/web/20190128135923/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-29T14:07:20Z",
+        "uri": "http://web.archive.org/web/20190129140720/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-30T17:33:26Z",
+        "uri": "http://web.archive.org/web/20190130173326/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-01-31T17:51:54Z",
+        "uri": "http://web.archive.org/web/20190131175154/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-01T18:52:03Z",
+        "uri": "http://web.archive.org/web/20190201185203/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-02T19:31:55Z",
+        "uri": "http://web.archive.org/web/20190202193155/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-03T20:25:47Z",
+        "uri": "http://web.archive.org/web/20190203202547/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-04T21:13:24Z",
+        "uri": "http://web.archive.org/web/20190204211324/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-04T21:39:58Z",
+        "uri": "http://web.archive.org/web/20190204213958/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-05T21:37:53Z",
+        "uri": "http://web.archive.org/web/20190205213753/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-06T22:32:23Z",
+        "uri": "http://web.archive.org/web/20190206223223/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-07T12:35:09Z",
+        "uri": "http://web.archive.org/web/20190207123509/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-07T23:57:14Z",
+        "uri": "http://web.archive.org/web/20190207235714/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-08T23:29:55Z",
+        "uri": "http://web.archive.org/web/20190208232955/https://mobile.yahoo.com/news"
+      },
+      {
+        "datetime": "2019-02-10T00:02:35Z",
+        "uri": "http://web.archive.org/web/20190210000235/https://mobile.yahoo.com/news"
+      }
+    ],
+    "first": {
+      "datetime": "2001-03-02T12:39:30Z",
+      "uri": "http://web.archive.org/web/20010302123930/http://mobile.yahoo.com:80/news"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:02:35Z",
+      "uri": "http://web.archive.org/web/20190210000235/https://mobile.yahoo.com/news"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://mobile.yahoo.com/news",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://mobile.yahoo.com/news",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://mobile.yahoo.com/news"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://mobile.yahoo.com/news"
+}

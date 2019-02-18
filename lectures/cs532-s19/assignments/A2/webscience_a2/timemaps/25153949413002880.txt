@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T23:10:22Z",
+        "uri": "http://wayback.archive-it.org/all/20190206231022/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+      },
+      {
+        "datetime": "2019-02-06T23:10:22Z",
+        "uri": "http://web.archive.org/web/20190206231022/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+      },
+      {
+        "datetime": "2019-02-07T23:13:19Z",
+        "uri": "http://web.archive.org/web/20190207231319/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+      },
+      {
+        "datetime": "2019-02-08T23:10:52Z",
+        "uri": "http://web.archive.org/web/20190208231052/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+      },
+      {
+        "datetime": "2019-02-09T23:19:41Z",
+        "uri": "http://web.archive.org/web/20190209231941/https://donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T23:10:22Z",
+      "uri": "http://wayback.archive-it.org/all/20190206231022/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:19:41Z",
+      "uri": "http://web.archive.org/web/20190209231941/https://donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.donaldjtrump.com/rallies/feb-elpaso-tx-2019"
+}

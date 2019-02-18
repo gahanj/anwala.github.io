@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cbc.ca/amp/1.5012144",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbc.ca/amp/1.5012144",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T15:38:05Z",
+        "uri": "http://web.archive.org/web/20190209153805/https://www.cbc.ca/amp/1.5012144"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T15:38:05Z",
+      "uri": "http://web.archive.org/web/20190209153805/https://www.cbc.ca/amp/1.5012144"
+    },
+    "last": {
+      "datetime": "2019-02-09T15:38:05Z",
+      "uri": "http://web.archive.org/web/20190209153805/https://www.cbc.ca/amp/1.5012144"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbc.ca/amp/1.5012144",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbc.ca/amp/1.5012144",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbc.ca/amp/1.5012144"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbc.ca/amp/1.5012144"
+}

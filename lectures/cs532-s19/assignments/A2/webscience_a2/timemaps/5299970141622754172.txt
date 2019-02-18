@@ -1,0 +1,250 @@
+{
+  "original_uri": "https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-27T14:12:16Z",
+        "uri": "http://web.archive.org/web/20190127141216/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T15:23:05Z",
+        "uri": "http://web.archive.org/web/20190127152305/http://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T17:50:36Z",
+        "uri": "http://web.archive.org/web/20190127175036/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T17:55:04Z",
+        "uri": "http://archive.md/20190127175504/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T18:10:41Z",
+        "uri": "http://web.archive.org/web/20190127181041/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T18:47:12Z",
+        "uri": "http://web.archive.org/web/20190127184712/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T18:58:40Z",
+        "uri": "http://web.archive.org/web/20190127185840/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T18:59:10Z",
+        "uri": "http://web.archive.org/web/20190127185910/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T19:09:21Z",
+        "uri": "http://web.archive.org/web/20190127190921/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T19:19:51Z",
+        "uri": "http://web.archive.org/web/20190127191951/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T19:30:34Z",
+        "uri": "http://web.archive.org/web/20190127193034/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T23:07:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190127230733/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-27T23:07:33Z",
+        "uri": "http://web.archive.org/web/20190127230733/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T01:20:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190128012033/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T01:20:33Z",
+        "uri": "http://web.archive.org/web/20190128012033/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T04:05:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190128040546/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T04:05:46Z",
+        "uri": "http://web.archive.org/web/20190128040546/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T06:02:17Z",
+        "uri": "http://web.archive.org/web/20190128060217/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T11:02:49Z",
+        "uri": "http://web.archive.org/web/20190128110249/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T18:36:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190128183654/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T18:36:54Z",
+        "uri": "http://web.archive.org/web/20190128183654/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T20:12:32Z",
+        "uri": "http://web.archive.org/web/20190128201232/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T20:31:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190128203148/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-28T20:31:48Z",
+        "uri": "http://web.archive.org/web/20190128203148/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-29T07:54:51Z",
+        "uri": "http://web.archive.org/web/20190129075451/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-29T20:35:16Z",
+        "uri": "http://web.archive.org/web/20190129203516/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-30T01:22:19Z",
+        "uri": "http://web.archive.org/web/20190130012219/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-30T09:14:05Z",
+        "uri": "http://web.archive.org/web/20190130091405/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-30T20:59:35Z",
+        "uri": "http://web.archive.org/web/20190130205935/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-31T10:35:46Z",
+        "uri": "http://web.archive.org/web/20190131103546/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-01-31T21:44:42Z",
+        "uri": "http://web.archive.org/web/20190131214442/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-01T11:36:38Z",
+        "uri": "http://web.archive.org/web/20190201113638/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-01T22:20:02Z",
+        "uri": "http://web.archive.org/web/20190201222002/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-02T13:01:33Z",
+        "uri": "http://web.archive.org/web/20190202130133/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-02T22:44:21Z",
+        "uri": "http://web.archive.org/web/20190202224421/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-03T11:09:17Z",
+        "uri": "http://web.archive.org/web/20190203110917/http://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-03T13:40:26Z",
+        "uri": "http://web.archive.org/web/20190203134026/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-03T23:27:20Z",
+        "uri": "http://web.archive.org/web/20190203232720/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-04T02:29:18Z",
+        "uri": "http://web.archive.org/web/20190204022918/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-04T02:47:27Z",
+        "uri": "http://web.archive.org/web/20190204024727/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-04T15:00:31Z",
+        "uri": "http://web.archive.org/web/20190204150031/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-04T23:30:31Z",
+        "uri": "http://web.archive.org/web/20190204233031/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-05T05:39:36Z",
+        "uri": "http://web.archive.org/web/20190205053936/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-05T11:13:48Z",
+        "uri": "http://web.archive.org/web/20190205111348/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-05T15:55:08Z",
+        "uri": "http://web.archive.org/web/20190205155508/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-06T00:08:11Z",
+        "uri": "http://web.archive.org/web/20190206000811/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-06T06:38:07Z",
+        "uri": "http://web.archive.org/web/20190206063807/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-06T16:19:10Z",
+        "uri": "http://web.archive.org/web/20190206161910/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-07T00:48:11Z",
+        "uri": "http://web.archive.org/web/20190207004811/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-07T05:29:59Z",
+        "uri": "http://web.archive.org/web/20190207052959/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-07T18:14:57Z",
+        "uri": "http://web.archive.org/web/20190207181457/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-08T01:08:36Z",
+        "uri": "http://web.archive.org/web/20190208010836/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-08T11:54:09Z",
+        "uri": "http://web.archive.org/web/20190208115409/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-08T21:42:15Z",
+        "uri": "http://web.archive.org/web/20190208214215/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-09T01:25:34Z",
+        "uri": "http://web.archive.org/web/20190209012534/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-10T00:50:24Z",
+        "uri": "http://web.archive.org/web/20190210005024/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      },
+      {
+        "datetime": "2019-02-10T02:05:14Z",
+        "uri": "http://web.archive.org/web/20190210020514/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-27T14:12:16Z",
+      "uri": "http://web.archive.org/web/20190127141216/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:05:14Z",
+      "uri": "http://web.archive.org/web/20190210020514/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.latimes.com/politics/la-na-pol-border-patrol-hiring-20190126-story.html"
+}

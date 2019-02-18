@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.rt.com/news/450670-us-crusade-oil-venezuela/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.rt.com/news/450670-us-crusade-oil-venezuela/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T09:12:36Z",
+        "uri": "http://web.archive.org/web/20190205091236/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-05T10:33:59Z",
+        "uri": "http://web.archive.org/web/20190205103359/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-05T12:16:59Z",
+        "uri": "http://web.archive.org/web/20190205121659/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-05T15:16:33Z",
+        "uri": "http://web.archive.org/web/20190205151633/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-05T17:44:10Z",
+        "uri": "http://archive.md/20190205174410/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-05T18:39:46Z",
+        "uri": "http://web.archive.org/web/20190205183946/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-06T15:05:43Z",
+        "uri": "http://web.archive.org/web/20190206150543/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      },
+      {
+        "datetime": "2019-02-09T06:31:12Z",
+        "uri": "http://web.archive.org/web/20190209063112/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T09:12:36Z",
+      "uri": "http://web.archive.org/web/20190205091236/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+    },
+    "last": {
+      "datetime": "2019-02-09T06:31:12Z",
+      "uri": "http://web.archive.org/web/20190209063112/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.rt.com/news/450670-us-crusade-oil-venezuela/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.rt.com/news/450670-us-crusade-oil-venezuela/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.rt.com/news/450670-us-crusade-oil-venezuela/"
+}

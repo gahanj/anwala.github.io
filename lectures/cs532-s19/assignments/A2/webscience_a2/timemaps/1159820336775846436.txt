@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-25T23:06:47Z",
+        "uri": "http://web.archive.org/web/20180825230647/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/"
+      },
+      {
+        "datetime": "2018-09-08T12:55:57Z",
+        "uri": "http://web.archive.org/web/20180908125557/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-25T23:06:47Z",
+      "uri": "http://web.archive.org/web/20180825230647/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/"
+    },
+    "last": {
+      "datetime": "2018-09-08T12:55:57Z",
+      "uri": "http://web.archive.org/web/20180908125557/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tedcruz.org/press-releases/rep-beto-orourkes-reckless-call-to-impeach-pres-trump/"
+}

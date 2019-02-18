@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://kitakini.news/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://kitakini.news/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T14:32:11Z",
+        "uri": "http://web.archive.org/web/20190130143211/https://kitakini.news"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T14:32:11Z",
+      "uri": "http://web.archive.org/web/20190130143211/https://kitakini.news"
+    },
+    "last": {
+      "datetime": "2019-01-30T14:32:11Z",
+      "uri": "http://web.archive.org/web/20190130143211/https://kitakini.news"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://kitakini.news/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://kitakini.news/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://kitakini.news/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://kitakini.news/"
+}

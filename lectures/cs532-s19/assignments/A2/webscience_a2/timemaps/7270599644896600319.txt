@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T12:20:05Z",
+        "uri": "http://archive.md/20190210122005/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+      },
+      {
+        "datetime": "2019-02-10T16:46:19Z",
+        "uri": "http://web.archive.org/web/20190210164619/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+      },
+      {
+        "datetime": "2019-02-10T19:51:52Z",
+        "uri": "http://web.archive.org/web/20190210195152/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T12:20:05Z",
+      "uri": "http://archive.md/20190210122005/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+    },
+    "last": {
+      "datetime": "2019-02-10T19:51:52Z",
+      "uri": "http://web.archive.org/web/20190210195152/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/magazine/story/2019/02/10/northam-divorce-blackface-political-taboos-224937"
+}

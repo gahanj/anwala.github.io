@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T17:49:48Z",
+        "uri": "http://web.archive.org/web/20190206174948/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+      },
+      {
+        "datetime": "2019-02-07T18:31:07Z",
+        "uri": "http://web.archive.org/web/20190207183107/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+      },
+      {
+        "datetime": "2019-02-08T13:08:52Z",
+        "uri": "http://web.archive.org/web/20190208130852/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+      },
+      {
+        "datetime": "2019-02-08T19:34:53Z",
+        "uri": "http://web.archive.org/web/20190208193453/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+      },
+      {
+        "datetime": "2019-02-09T19:56:28Z",
+        "uri": "http://web.archive.org/web/20190209195628/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+      },
+      {
+        "datetime": "2019-02-10T07:43:40Z",
+        "uri": "http://web.archive.org/web/20190210074340/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T17:49:48Z",
+      "uri": "http://web.archive.org/web/20190206174948/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:43:40Z",
+      "uri": "http://web.archive.org/web/20190210074340/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/es/2019/02/06/trump-guaido-venezuela/"
+}

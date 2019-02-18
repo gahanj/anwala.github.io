@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-13T18:24:22Z",
+        "uri": "http://web.archive.org/web/20171113182422/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+      },
+      {
+        "datetime": "2017-11-13T21:13:53Z",
+        "uri": "http://web.archive.org/web/20171113211353/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+      },
+      {
+        "datetime": "2017-11-14T08:35:51Z",
+        "uri": "http://web.archive.org/web/20171114083551/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-13T18:24:22Z",
+      "uri": "http://web.archive.org/web/20171113182422/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+    },
+    "last": {
+      "datetime": "2017-11-14T08:35:51Z",
+      "uri": "http://web.archive.org/web/20171114083551/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.yahoo.com/news/donald-trump-destroying-america-three-123204605.html"
+}

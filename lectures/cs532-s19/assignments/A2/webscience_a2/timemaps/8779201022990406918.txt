@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T13:17:22Z",
+        "uri": "http://web.archive.org/web/20190207131722/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T13:17:22Z",
+      "uri": "http://web.archive.org/web/20190207131722/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-07T13:17:22Z",
+      "uri": "http://web.archive.org/web/20190207131722/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://joeforamerica.com/2019/02/patriots-owner-kraft-trump/"
+}

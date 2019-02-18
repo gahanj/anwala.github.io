@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T00:31:22Z",
+        "uri": "http://web.archive.org/web/20190208003122/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T00:31:22Z",
+      "uri": "http://web.archive.org/web/20190208003122/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra"
+    },
+    "last": {
+      "datetime": "2019-02-08T00:31:22Z",
+      "uri": "http://web.archive.org/web/20190208003122/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://talkingpointsmemo.com/news/dems-launch-probe-possible-collaboration-trump-nra"
+}

@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:41:32Z",
+        "uri": "http://web.archive.org/web/20190208184132/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-08T20:06:13Z",
+        "uri": "http://archive.md/20190208200613/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-08T21:46:46Z",
+        "uri": "http://web.archive.org/web/20190208214646/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-09T01:34:52Z",
+        "uri": "http://web.archive.org/web/20190209013452/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-09T12:46:23Z",
+        "uri": "http://web.archive.org/web/20190209124623/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-10T01:44:54Z",
+        "uri": "http://web.archive.org/web/20190210014454/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-10T05:24:45Z",
+        "uri": "http://web.archive.org/web/20190210052445/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      },
+      {
+        "datetime": "2019-02-10T13:04:24Z",
+        "uri": "http://web.archive.org/web/20190210130424/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:41:32Z",
+      "uri": "http://web.archive.org/web/20190208184132/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:04:24Z",
+      "uri": "http://web.archive.org/web/20190210130424/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/08/world/middleeast/iran-trump-death-to-america.html"
+}

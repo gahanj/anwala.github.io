@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:32:39Z",
+        "uri": "http://web.archive.org/web/20190210093239/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/"
+      },
+      {
+        "datetime": "2019-02-10T09:32:39Z",
+        "uri": "http://web.archive.org/web/20190210093239/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:32:39Z",
+      "uri": "http://web.archive.org/web/20190210093239/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:32:39Z",
+      "uri": "http://web.archive.org/web/20190210093239/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/mike-pence-end-deep-off/15874/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T21:28:33Z",
+        "uri": "http://web.archive.org/web/20190208212833/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+      },
+      {
+        "datetime": "2019-02-09T03:38:39Z",
+        "uri": "http://web.archive.org/web/20190209033839/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+      },
+      {
+        "datetime": "2019-02-09T11:30:44Z",
+        "uri": "http://web.archive.org/web/20190209113044/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+      },
+      {
+        "datetime": "2019-02-10T00:14:31Z",
+        "uri": "http://web.archive.org/web/20190210001431/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T21:28:33Z",
+      "uri": "http://web.archive.org/web/20190208212833/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:14:31Z",
+      "uri": "http://web.archive.org/web/20190210001431/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/clips/2019/02/08/ivanka-trump-zero-concern-mueller-investigation-findings/"
+}

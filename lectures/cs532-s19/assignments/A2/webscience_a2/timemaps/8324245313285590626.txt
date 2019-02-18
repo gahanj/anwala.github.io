@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T16:59:09Z",
+        "uri": "http://web.archive.org/web/20190209165909/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T16:59:09Z",
+      "uri": "http://web.archive.org/web/20190209165909/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/"
+    },
+    "last": {
+      "datetime": "2019-02-09T16:59:09Z",
+      "uri": "http://web.archive.org/web/20190209165909/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.libertyheadlines.com/energy-flips-switch-light-bulb-ban/"
+}

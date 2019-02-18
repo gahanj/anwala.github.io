@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-28T17:59:01Z",
+        "uri": "http://web.archive.org/web/20190128175901/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+      },
+      {
+        "datetime": "2019-01-30T12:09:35Z",
+        "uri": "http://web.archive.org/web/20190130120935/http://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+      },
+      {
+        "datetime": "2019-01-30T12:10:10Z",
+        "uri": "http://web.archive.org/web/20190130121010/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+      },
+      {
+        "datetime": "2019-02-04T08:33:27Z",
+        "uri": "http://web.archive.org/web/20190204083327/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-28T17:59:01Z",
+      "uri": "http://web.archive.org/web/20190128175901/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+    },
+    "last": {
+      "datetime": "2019-02-04T08:33:27Z",
+      "uri": "http://web.archive.org/web/20190204083327/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbsnews.com/news/trumps-rollbacks-of-fossil-fuel-regulations-may-carry-steep-costs/"
+}

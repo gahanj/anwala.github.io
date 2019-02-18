@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-12-14T09:40:49Z",
+        "uri": "http://web.archive.org/web/20171214094049/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      },
+      {
+        "datetime": "2017-12-14T11:04:38Z",
+        "uri": "http://web.archive.org/web/20171214110438/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      },
+      {
+        "datetime": "2017-12-14T22:13:24Z",
+        "uri": "http://web.archive.org/web/20171214221324/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      },
+      {
+        "datetime": "2017-12-15T08:44:49Z",
+        "uri": "http://web.archive.org/web/20171215084449/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      },
+      {
+        "datetime": "2017-12-22T05:47:13Z",
+        "uri": "http://web.archive.org/web/20171222054713/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      },
+      {
+        "datetime": "2018-01-21T22:06:00Z",
+        "uri": "http://web.archive.org/web/20180121220600/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      },
+      {
+        "datetime": "2018-03-13T16:23:47Z",
+        "uri": "http://web.archive.org/web/20180313162347/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-12-14T09:40:49Z",
+      "uri": "http://web.archive.org/web/20171214094049/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+    },
+    "last": {
+      "datetime": "2018-03-13T16:23:47Z",
+      "uri": "http://web.archive.org/web/20180313162347/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.yahoo.com/news/trump-clout-further-eroded-election-200805703.html"
+}

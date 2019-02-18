@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T03:30:51Z",
+        "uri": "http://web.archive.org/web/20190207033051/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      },
+      {
+        "datetime": "2019-02-07T17:38:27Z",
+        "uri": "http://web.archive.org/web/20190207173827/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      },
+      {
+        "datetime": "2019-02-09T01:54:19Z",
+        "uri": "http://web.archive.org/web/20190209015419/http://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      },
+      {
+        "datetime": "2019-02-09T09:58:43Z",
+        "uri": "http://web.archive.org/web/20190209095843/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      },
+      {
+        "datetime": "2019-02-09T20:04:57Z",
+        "uri": "http://web.archive.org/web/20190209200457/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      },
+      {
+        "datetime": "2019-02-10T02:43:51Z",
+        "uri": "http://web.archive.org/web/20190210024351/http://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      },
+      {
+        "datetime": "2019-02-10T13:12:26Z",
+        "uri": "http://web.archive.org/web/20190210131226/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T03:30:51Z",
+      "uri": "http://web.archive.org/web/20190207033051/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:12:26Z",
+      "uri": "http://web.archive.org/web/20190210131226/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://abcnews.go.com/Politics/report-offers-details-secret-services-efforts-protect-president/story?id=60897385"
+}

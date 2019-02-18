@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:19:58Z",
+        "uri": "http://web.archive.org/web/20190210111958/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+      },
+      {
+        "datetime": "2019-02-10T12:42:35Z",
+        "uri": "http://web.archive.org/web/20190210124235/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+      },
+      {
+        "datetime": "2019-02-10T19:58:35Z",
+        "uri": "http://archive.md/20190210195835/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+      },
+      {
+        "datetime": "2019-02-10T20:09:25Z",
+        "uri": "http://web.archive.org/web/20190210200925/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:19:58Z",
+      "uri": "http://web.archive.org/web/20190210111958/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T20:09:25Z",
+      "uri": "http://web.archive.org/web/20190210200925/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.indiatimes.com/technology/news/mexican-scientist-develops-100-cure-against-hpv-which-leads-to-cervical-cancer-361867.html"
+}

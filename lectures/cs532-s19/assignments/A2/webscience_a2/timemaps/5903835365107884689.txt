@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T02:45:23Z",
+        "uri": "http://web.archive.org/web/20190208024523/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+      },
+      {
+        "datetime": "2019-02-08T03:55:51Z",
+        "uri": "http://web.archive.org/web/20190208035551/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+      },
+      {
+        "datetime": "2019-02-08T10:26:03Z",
+        "uri": "http://web.archive.org/web/20190208102603/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+      },
+      {
+        "datetime": "2019-02-09T21:00:50Z",
+        "uri": "http://web.archive.org/web/20190209210050/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T02:45:23Z",
+      "uri": "http://web.archive.org/web/20190208024523/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+    },
+    "last": {
+      "datetime": "2019-02-09T21:00:50Z",
+      "uri": "http://web.archive.org/web/20190209210050/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.usatoday.com/story/news/world/2019/02/07/trump-taps-fox-news-reporter-lead-u-s-anti-propaganda-initiative-gabrielle/2802461002/"
+}

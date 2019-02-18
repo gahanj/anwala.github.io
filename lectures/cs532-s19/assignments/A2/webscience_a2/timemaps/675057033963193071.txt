@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:57:51Z",
+        "uri": "http://web.archive.org/web/20190210005751/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+      },
+      {
+        "datetime": "2019-02-10T02:28:22Z",
+        "uri": "http://web.archive.org/web/20190210022822/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+      },
+      {
+        "datetime": "2019-02-10T05:01:23Z",
+        "uri": "http://web.archive.org/web/20190210050123/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:57:51Z",
+      "uri": "http://web.archive.org/web/20190210005751/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:01:23Z",
+      "uri": "http://web.archive.org/web/20190210050123/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/texas-scott-dunn-alexandria-ocasio-cortez-bimbo_us_5c5f5867e4b0910c63f106d0"
+}

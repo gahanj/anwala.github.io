@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T21:31:49Z",
+        "uri": "http://web.archive.org/web/20190205213149/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-05T23:58:18Z",
+        "uri": "http://web.archive.org/web/20190205235818/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-07T00:48:43Z",
+        "uri": "http://web.archive.org/web/20190207004843/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-08T01:47:27Z",
+        "uri": "http://web.archive.org/web/20190208014727/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-08T05:14:49Z",
+        "uri": "http://web.archive.org/web/20190208051449/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-08T10:47:53Z",
+        "uri": "http://web.archive.org/web/20190208104753/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-09T02:12:14Z",
+        "uri": "http://web.archive.org/web/20190209021214/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      },
+      {
+        "datetime": "2019-02-10T02:37:07Z",
+        "uri": "http://web.archive.org/web/20190210023707/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T21:31:49Z",
+      "uri": "http://web.archive.org/web/20190205213149/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:37:07Z",
+      "uri": "http://web.archive.org/web/20190210023707/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.reuters.com/article/us-france-carnival/giant-trump-putin-caricatures-to-parade-at-nice-carnival-idUSKCN1PU1XJ"
+}

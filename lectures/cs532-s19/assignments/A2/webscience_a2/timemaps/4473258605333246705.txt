@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:42:08Z",
+        "uri": "http://web.archive.org/web/20190209084208/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case"
+      },
+      {
+        "datetime": "2019-02-09T16:33:02Z",
+        "uri": "http://web.archive.org/web/20190209163302/http://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:42:08Z",
+      "uri": "http://web.archive.org/web/20190209084208/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case"
+    },
+    "last": {
+      "datetime": "2019-02-09T16:33:02Z",
+      "uri": "http://web.archive.org/web/20190209163302/http://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailykos.com/stories/2019/2/8/1833290/-Federal-prosecutors-to-review-whether-the-National-Enquirer-violated-agreement-in-Trump-related-case"
+}

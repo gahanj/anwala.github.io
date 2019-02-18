@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-18T11:30:09Z",
+        "uri": "http://web.archive.org/web/20180818113009/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+      },
+      {
+        "datetime": "2018-12-07T15:52:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181207155258/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+      },
+      {
+        "datetime": "2018-12-07T15:52:58Z",
+        "uri": "http://web.archive.org/web/20181207155258/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-18T11:30:09Z",
+      "uri": "http://web.archive.org/web/20180818113009/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+    },
+    "last": {
+      "datetime": "2018-12-07T15:52:58Z",
+      "uri": "http://web.archive.org/web/20181207155258/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.rollingstone.com/politics/politics-features/glenn-beck-is-taking-on-trump-but-at-what-cost-117750/"
+}

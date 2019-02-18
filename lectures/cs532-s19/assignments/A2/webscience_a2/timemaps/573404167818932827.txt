@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T12:51:13Z",
+        "uri": "http://web.archive.org/web/20190209125113/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+      },
+      {
+        "datetime": "2019-02-09T14:49:27Z",
+        "uri": "http://web.archive.org/web/20190209144927/http://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+      },
+      {
+        "datetime": "2019-02-09T20:33:11Z",
+        "uri": "http://web.archive.org/web/20190209203311/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+      },
+      {
+        "datetime": "2019-02-10T08:02:36Z",
+        "uri": "http://web.archive.org/web/20190210080236/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T12:51:13Z",
+      "uri": "http://web.archive.org/web/20190209125113/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+    },
+    "last": {
+      "datetime": "2019-02-10T08:02:36Z",
+      "uri": "http://web.archive.org/web/20190210080236/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://foreignpolicy.com/2019/02/09/hezbollah-is-in-venezuela-to-stay/"
+}

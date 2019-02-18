@@ -1,0 +1,566 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-01-25T20:37:01Z",
+        "uri": "http://archive.md/20170125203701/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-01-26T04:04:16Z",
+        "uri": "http://web.archive.org/web/20170126040416/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-01-26T18:35:41Z",
+        "uri": "http://web.archive.org/web/20170126183541/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-01-26T23:39:20Z",
+        "uri": "http://web.archive.org/web/20170126233920/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-01-27T13:56:10Z",
+        "uri": "http://web.archive.org/web/20170127135610/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-01-28T15:46:28Z",
+        "uri": "http://web.archive.org/web/20170128154628/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-01-31T17:46:40Z",
+        "uri": "http://web.archive.org/web/20170131174640/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-03T23:46:41Z",
+        "uri": "http://web.archive.org/web/20170203234641/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-07T12:58:52Z",
+        "uri": "http://web.archive.org/web/20170207125852/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-07T19:58:24Z",
+        "uri": "http://web.archive.org/web/20170207195824/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-11T07:21:20Z",
+        "uri": "http://web.archive.org/web/20170211072120/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-16T02:16:39Z",
+        "uri": "http://web.archive.org/web/20170216021639/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-16T09:53:53Z",
+        "uri": "http://web.archive.org/web/20170216095353/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-17T02:57:01Z",
+        "uri": "http://web.archive.org/web/20170217025701/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-19T22:23:57Z",
+        "uri": "http://web.archive.org/web/20170219222357/http://www.thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-20T01:19:48Z",
+        "uri": "http://web.archive.org/web/20170220011948/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-02-26T08:49:42Z",
+        "uri": "http://web.archive.org/web/20170226084942/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-03-06T16:05:01Z",
+        "uri": "http://web.archive.org/web/20170306160501/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-04-09T09:28:51Z",
+        "uri": "http://web.archive.org/web/20170409092851/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-04-20T08:55:23Z",
+        "uri": "http://web.archive.org/web/20170420085523/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-04-29T15:43:32Z",
+        "uri": "http://web.archive.org/web/20170429154332/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-04T02:38:44Z",
+        "uri": "http://web.archive.org/web/20170504023844/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-07T00:27:11Z",
+        "uri": "http://web.archive.org/web/20170507002711/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-11T19:05:56Z",
+        "uri": "http://web.archive.org/web/20170511190556/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-12T20:02:53Z",
+        "uri": "http://web.archive.org/web/20170512200253/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-14T21:24:18Z",
+        "uri": "http://web.archive.org/web/20170514212418/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-15T21:26:03Z",
+        "uri": "http://web.archive.org/web/20170515212603/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-16T21:29:40Z",
+        "uri": "http://web.archive.org/web/20170516212940/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-17T21:33:29Z",
+        "uri": "http://web.archive.org/web/20170517213329/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-18T09:45:04Z",
+        "uri": "http://web.archive.org/web/20170518094504/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-18T21:36:36Z",
+        "uri": "http://web.archive.org/web/20170518213636/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-18T23:37:46Z",
+        "uri": "http://web.archive.org/web/20170518233746/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-23T19:38:54Z",
+        "uri": "http://web.archive.org/web/20170523193854/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-27T15:32:28Z",
+        "uri": "http://web.archive.org/web/20170527153228/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-05-29T11:41:19Z",
+        "uri": "http://web.archive.org/web/20170529114119/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-01T04:15:01Z",
+        "uri": "http://web.archive.org/web/20170601041501/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-01T10:38:16Z",
+        "uri": "http://web.archive.org/web/20170601103816/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-08T15:29:44Z",
+        "uri": "http://web.archive.org/web/20170608152944/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-09T19:00:21Z",
+        "uri": "http://web.archive.org/web/20170609190021/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-10T15:16:17Z",
+        "uri": "http://web.archive.org/web/20170610151617/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-10T15:19:05Z",
+        "uri": "http://web.archive.org/web/20170610151905/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-23T14:16:04Z",
+        "uri": "http://web.archive.org/web/20170623141604/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-06-26T08:16:10Z",
+        "uri": "http://web.archive.org/web/20170626081610/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-07-09T04:39:15Z",
+        "uri": "http://web.archive.org/web/20170709043915/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-07-15T09:35:35Z",
+        "uri": "http://web.archive.org/web/20170715093535/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-07-20T08:05:55Z",
+        "uri": "http://web.archive.org/web/20170720080555/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-08-04T21:18:15Z",
+        "uri": "http://wayback.archive-it.org/all/20170804211815/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-08-04T21:18:15Z",
+        "uri": "http://web.archive.org/web/20170804211815/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-08-08T23:16:24Z",
+        "uri": "http://web.archive.org/web/20170808231624/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-01T16:13:21Z",
+        "uri": "http://web.archive.org/web/20170901161321/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-02T23:09:13Z",
+        "uri": "http://web.archive.org/web/20170902230913/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-04T04:40:51Z",
+        "uri": "http://web.archive.org/web/20170904044051/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-04T06:29:07Z",
+        "uri": "http://web.archive.org/web/20170904062907/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-10T11:22:37Z",
+        "uri": "http://web.archive.org/web/20170910112237/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-13T13:20:41Z",
+        "uri": "http://web.archive.org/web/20170913132041/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-15T00:53:58Z",
+        "uri": "http://web.archive.org/web/20170915005358/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-16T14:06:33Z",
+        "uri": "http://web.archive.org/web/20170916140633/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-09-20T22:54:48Z",
+        "uri": "http://web.archive.org/web/20170920225448/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-10-11T23:44:28Z",
+        "uri": "http://web.archive.org/web/20171011234428/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-10-16T22:10:25Z",
+        "uri": "http://web.archive.org/web/20171016221025/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-10-16T22:10:27Z",
+        "uri": "http://web.archive.org/web/20171016221027/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-10-28T17:15:03Z",
+        "uri": "https://perma-archives.org/warc/20171028171503/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-10-28T17:15:03Z",
+        "uri": "http://web.archive.org/web/20171028171503/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-11-12T10:04:28Z",
+        "uri": "http://web.archive.org/web/20171112100428/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-11-17T08:24:26Z",
+        "uri": "http://web.archive.org/web/20171117082426/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-11-19T01:22:08Z",
+        "uri": "http://web.archive.org/web/20171119012208/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-11-23T19:12:03Z",
+        "uri": "http://web.archive.org/web/20171123191203/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-11-25T08:49:51Z",
+        "uri": "http://web.archive.org/web/20171125084951/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-01T06:20:14Z",
+        "uri": "http://web.archive.org/web/20171201062014/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-01T06:20:18Z",
+        "uri": "http://web.archive.org/web/20171201062018/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office?"
+      },
+      {
+        "datetime": "2017-12-07T05:14:27Z",
+        "uri": "http://web.archive.org/web/20171207051427/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-14T07:20:08Z",
+        "uri": "http://web.archive.org/web/20171214072008/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-22T14:36:49Z",
+        "uri": "http://web.archive.org/web/20171222143649/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-24T00:41:11Z",
+        "uri": "http://web.archive.org/web/20171224004111/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-26T14:03:39Z",
+        "uri": "http://web.archive.org/web/20171226140339/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-28T12:10:54Z",
+        "uri": "http://web.archive.org/web/20171228121054/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2017-12-31T08:36:05Z",
+        "uri": "http://web.archive.org/web/20171231083605/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-01-01T12:39:56Z",
+        "uri": "http://web.archive.org/web/20180101123956/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-01-03T12:49:14Z",
+        "uri": "http://web.archive.org/web/20180103124914/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-01-03T19:54:46Z",
+        "uri": "http://web.archive.org/web/20180103195446/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office?"
+      },
+      {
+        "datetime": "2018-01-14T04:42:46Z",
+        "uri": "http://web.archive.org/web/20180114044246/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-02T18:59:31Z",
+        "uri": "http://web.archive.org/web/20180202185931/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-04T23:18:13Z",
+        "uri": "http://web.archive.org/web/20180204231813/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office?"
+      },
+      {
+        "datetime": "2018-02-11T19:47:51Z",
+        "uri": "http://web.archive.org/web/20180211194751/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-12T21:15:54Z",
+        "uri": "http://web.archive.org/web/20180212211554/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-12T21:39:37Z",
+        "uri": "http://web.archive.org/web/20180212213937/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-13T08:37:03Z",
+        "uri": "http://web.archive.org/web/20180213083703/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-13T21:25:20Z",
+        "uri": "http://web.archive.org/web/20180213212520/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-13T22:14:24Z",
+        "uri": "http://web.archive.org/web/20180213221424/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-15T11:13:41Z",
+        "uri": "http://web.archive.org/web/20180215111341/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-15T12:12:18Z",
+        "uri": "http://web.archive.org/web/20180215121218/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-16T16:23:55Z",
+        "uri": "http://web.archive.org/web/20180216162355/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-16T21:20:26Z",
+        "uri": "http://web.archive.org/web/20180216212026/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-17T13:54:02Z",
+        "uri": "http://web.archive.org/web/20180217135402/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-17T15:31:32Z",
+        "uri": "http://web.archive.org/web/20180217153132/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-18T14:08:05Z",
+        "uri": "http://web.archive.org/web/20180218140805/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-18T15:49:40Z",
+        "uri": "http://web.archive.org/web/20180218154940/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-19T23:55:43Z",
+        "uri": "http://web.archive.org/web/20180219235543/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-20T00:11:38Z",
+        "uri": "http://web.archive.org/web/20180220001138/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-20T20:57:47Z",
+        "uri": "http://web.archive.org/web/20180220205747/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-20T22:03:41Z",
+        "uri": "http://web.archive.org/web/20180220220341/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-22T01:28:30Z",
+        "uri": "http://web.archive.org/web/20180222012830/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-22T01:38:34Z",
+        "uri": "http://web.archive.org/web/20180222013834/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-23T04:36:18Z",
+        "uri": "http://web.archive.org/web/20180223043618/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-02-25T22:18:56Z",
+        "uri": "http://web.archive.org/web/20180225221856/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-03-08T12:02:17Z",
+        "uri": "http://web.archive.org/web/20180308120217/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office?"
+      },
+      {
+        "datetime": "2018-03-08T21:07:03Z",
+        "uri": "http://web.archive.org/web/20180308210703/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-03-27T17:56:11Z",
+        "uri": "http://web.archive.org/web/20180327175611/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-03-28T13:53:56Z",
+        "uri": "http://web.archive.org/web/20180328135356/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-04-05T22:08:31Z",
+        "uri": "http://web.archive.org/web/20180405220831/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-04-16T14:29:43Z",
+        "uri": "http://web.archive.org/web/20180416142943/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office?"
+      },
+      {
+        "datetime": "2018-04-29T10:02:36Z",
+        "uri": "http://web.archive.org/web/20180429100236/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-05-24T07:48:23Z",
+        "uri": "http://web.archive.org/web/20180524074823/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-05-25T09:18:00Z",
+        "uri": "http://web.archive.org/web/20180525091800/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-05-31T10:37:36Z",
+        "uri": "http://web.archive.org/web/20180531103736/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-06-13T20:02:47Z",
+        "uri": "http://web.archive.org/web/20180613200247/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-07-02T09:16:09Z",
+        "uri": "http://web.archive.org/web/20180702091609/http://thehill.com:80/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-07-24T08:10:31Z",
+        "uri": "http://web.archive.org/web/20180724081031/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-07-28T19:22:03Z",
+        "uri": "http://web.archive.org/web/20180728192203/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-08-04T22:32:59Z",
+        "uri": "http://web.archive.org/web/20180804223259/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-08-11T23:17:33Z",
+        "uri": "http://web.archive.org/web/20180811231733/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-08-25T05:09:46Z",
+        "uri": "http://web.archive.org/web/20180825050946/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-09-15T20:53:09Z",
+        "uri": "http://web.archive.org/web/20180915205309/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-10-13T20:07:39Z",
+        "uri": "http://web.archive.org/web/20181013200739/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-10-20T20:35:38Z",
+        "uri": "http://web.archive.org/web/20181020203538/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-10-27T17:50:17Z",
+        "uri": "http://web.archive.org/web/20181027175017/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-11-24T15:45:06Z",
+        "uri": "http://web.archive.org/web/20181124154506/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-12-01T20:27:06Z",
+        "uri": "http://web.archive.org/web/20181201202706/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-12-08T22:28:22Z",
+        "uri": "http://web.archive.org/web/20181208222822/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-12-13T22:05:43Z",
+        "uri": "http://web.archive.org/web/20181213220543/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-12-13T22:05:45Z",
+        "uri": "http://web.archive.org/web/20181213220545/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2018-12-22T14:55:30Z",
+        "uri": "http://web.archive.org/web/20181222145530/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2019-01-02T03:26:49Z",
+        "uri": "http://web.archive.org/web/20190102032649/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2019-01-02T03:26:50Z",
+        "uri": "http://web.archive.org/web/20190102032650/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2019-01-12T13:22:57Z",
+        "uri": "http://web.archive.org/web/20190112132257/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      },
+      {
+        "datetime": "2019-02-09T16:53:15Z",
+        "uri": "http://web.archive.org/web/20190209165315/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+      }
+    ],
+    "first": {
+      "datetime": "2017-01-25T20:37:01Z",
+      "uri": "http://archive.md/20170125203701/http://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+    },
+    "last": {
+      "datetime": "2019-02-09T16:53:15Z",
+      "uri": "http://web.archive.org/web/20190209165315/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/administration/316115-trump-hangs-portrait-of-andrew-jackson-in-oval-office"
+}

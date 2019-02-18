@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-15T17:19:09Z",
+        "uri": "http://web.archive.org/web/20180315171909/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+      },
+      {
+        "datetime": "2018-03-15T18:38:41Z",
+        "uri": "http://web.archive.org/web/20180315183841/http://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+      },
+      {
+        "datetime": "2018-03-16T00:37:21Z",
+        "uri": "http://web.archive.org/web/20180316003721/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+      },
+      {
+        "datetime": "2018-03-19T14:46:12Z",
+        "uri": "http://web.archive.org/web/20180319144612/http://talkingpointsmemo.com:80/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-15T17:19:09Z",
+      "uri": "http://web.archive.org/web/20180315171909/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+    },
+    "last": {
+      "datetime": "2018-03-19T14:46:12Z",
+      "uri": "http://web.archive.org/web/20180319144612/http://talkingpointsmemo.com:80/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://talkingpointsmemo.com/livewire/trump-admits-lying-canada-trudeau-trade-deficit"
+}

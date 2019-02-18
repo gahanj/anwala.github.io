@@ -1,0 +1,82 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T19:12:43Z",
+        "uri": "http://web.archive.org/web/20190207191243/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-07T21:05:55Z",
+        "uri": "http://archive.md/20190207210555/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-07T21:07:34Z",
+        "uri": "http://web.archive.org/web/20190207210734/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-08T02:54:14Z",
+        "uri": "http://web.archive.org/web/20190208025414/http://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-08T05:49:54Z",
+        "uri": "http://web.archive.org/web/20190208054954/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-08T17:52:03Z",
+        "uri": "http://web.archive.org/web/20190208175203/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-08T21:38:12Z",
+        "uri": "http://web.archive.org/web/20190208213812/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-09T01:52:36Z",
+        "uri": "http://web.archive.org/web/20190209015236/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-09T04:53:46Z",
+        "uri": "http://web.archive.org/web/20190209045346/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-09T07:48:24Z",
+        "uri": "http://web.archive.org/web/20190209074824/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:28:10Z",
+        "uri": "http://web.archive.org/web/20190209182810/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-09T21:28:30Z",
+        "uri": "http://web.archive.org/web/20190209212830/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:10:32Z",
+        "uri": "http://web.archive.org/web/20190210001032/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:27:41Z",
+        "uri": "http://web.archive.org/web/20190210002741/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      },
+      {
+        "datetime": "2019-02-10T07:47:57Z",
+        "uri": "http://web.archive.org/web/20190210074757/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T19:12:43Z",
+      "uri": "http://web.archive.org/web/20190207191243/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:47:57Z",
+      "uri": "http://web.archive.org/web/20190210074757/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/07/politics/russian-fish-sticks/index.html"
+}

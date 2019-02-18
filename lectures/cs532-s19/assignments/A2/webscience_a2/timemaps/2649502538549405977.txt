@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T06:19:41Z",
+        "uri": "http://web.archive.org/web/20190208061941/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+      },
+      {
+        "datetime": "2019-02-08T06:19:41Z",
+        "uri": "http://web.archive.org/web/20190208061941/http://scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+      },
+      {
+        "datetime": "2019-02-09T19:49:18Z",
+        "uri": "http://web.archive.org/web/20190209194918/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+      },
+      {
+        "datetime": "2019-02-09T19:49:19Z",
+        "uri": "http://web.archive.org/web/20190209194919/http://scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T06:19:41Z",
+      "uri": "http://web.archive.org/web/20190208061941/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+    },
+    "last": {
+      "datetime": "2019-02-09T19:49:19Z",
+      "uri": "http://web.archive.org/web/20190209194919/http://scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.scmp.com/comment/insight-opinion/united-states/article/2185183/donald-trumps-pick-head-world-bank-means-us"
+}

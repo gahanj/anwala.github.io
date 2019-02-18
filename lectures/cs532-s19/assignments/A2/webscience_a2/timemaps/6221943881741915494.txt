@@ -1,0 +1,446 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-02T16:04:08Z",
+        "uri": "http://web.archive.org/web/20190202160408/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T16:05:41Z",
+        "uri": "http://archive.md/20190202160541/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T16:49:14Z",
+        "uri": "http://web.archive.org/web/20190202164914/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T17:19:04Z",
+        "uri": "http://web.archive.org/web/20190202171904/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T17:29:10Z",
+        "uri": "http://web.archive.org/web/20190202172910/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T17:39:17Z",
+        "uri": "http://web.archive.org/web/20190202173917/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T17:49:24Z",
+        "uri": "http://web.archive.org/web/20190202174924/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T18:05:15Z",
+        "uri": "http://web.archive.org/web/20190202180515/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T18:38:50Z",
+        "uri": "http://web.archive.org/web/20190202183850/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T18:43:29Z",
+        "uri": "http://web.archive.org/web/20190202184329/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T19:21:58Z",
+        "uri": "http://web.archive.org/web/20190202192158/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T19:43:22Z",
+        "uri": "http://web.archive.org/web/20190202194322/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T19:56:40Z",
+        "uri": "http://web.archive.org/web/20190202195640/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:34:51Z",
+        "uri": "http://web.archive.org/web/20190202203451/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:41:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190202204135/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:41:35Z",
+        "uri": "http://web.archive.org/web/20190202204135/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:46:05Z",
+        "uri": "http://wayback.archive-it.org/all/20190202204605/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:46:05Z",
+        "uri": "http://web.archive.org/web/20190202204605/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:59:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190202205951/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T20:59:51Z",
+        "uri": "http://web.archive.org/web/20190202205951/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T21:13:27Z",
+        "uri": "http://web.archive.org/web/20190202211327/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T21:21:00Z",
+        "uri": "http://web.archive.org/web/20190202212100/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T21:37:04Z",
+        "uri": "http://web.archive.org/web/20190202213704/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T21:38:38Z",
+        "uri": "http://web.archive.org/web/20190202213838/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T21:43:14Z",
+        "uri": "http://web.archive.org/web/20190202214314/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T21:51:46Z",
+        "uri": "http://web.archive.org/web/20190202215146/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T22:29:52Z",
+        "uri": "http://web.archive.org/web/20190202222952/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T23:08:21Z",
+        "uri": "http://web.archive.org/web/20190202230821/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T23:46:35Z",
+        "uri": "http://web.archive.org/web/20190202234635/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-02T23:46:38Z",
+        "uri": "http://web.archive.org/web/20190202234638/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T00:24:45Z",
+        "uri": "http://web.archive.org/web/20190203002445/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T01:02:31Z",
+        "uri": "http://web.archive.org/web/20190203010231/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T01:29:21Z",
+        "uri": "http://wayback.archive-it.org/all/20190203012921/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T01:29:21Z",
+        "uri": "http://web.archive.org/web/20190203012921/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T01:40:19Z",
+        "uri": "http://web.archive.org/web/20190203014019/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T02:18:09Z",
+        "uri": "http://web.archive.org/web/20190203021809/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T02:56:04Z",
+        "uri": "http://web.archive.org/web/20190203025604/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T03:33:49Z",
+        "uri": "http://web.archive.org/web/20190203033349/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T04:11:19Z",
+        "uri": "http://web.archive.org/web/20190203041119/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T04:48:47Z",
+        "uri": "http://web.archive.org/web/20190203044847/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T05:22:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190203052225/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T05:22:25Z",
+        "uri": "http://web.archive.org/web/20190203052225/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T05:26:23Z",
+        "uri": "http://web.archive.org/web/20190203052623/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T06:04:18Z",
+        "uri": "http://web.archive.org/web/20190203060418/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T06:42:05Z",
+        "uri": "http://web.archive.org/web/20190203064205/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T07:19:39Z",
+        "uri": "http://web.archive.org/web/20190203071939/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T07:57:59Z",
+        "uri": "http://web.archive.org/web/20190203075759/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T08:36:28Z",
+        "uri": "http://web.archive.org/web/20190203083628/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T09:14:34Z",
+        "uri": "http://web.archive.org/web/20190203091434/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T09:29:09Z",
+        "uri": "http://web.archive.org/web/20190203092909/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T09:52:20Z",
+        "uri": "http://web.archive.org/web/20190203095220/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T10:29:53Z",
+        "uri": "http://web.archive.org/web/20190203102953/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T11:07:57Z",
+        "uri": "http://web.archive.org/web/20190203110757/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T11:46:07Z",
+        "uri": "http://web.archive.org/web/20190203114607/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T12:24:20Z",
+        "uri": "http://web.archive.org/web/20190203122420/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T12:53:09Z",
+        "uri": "http://web.archive.org/web/20190203125309/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T13:02:47Z",
+        "uri": "http://web.archive.org/web/20190203130247/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T13:41:09Z",
+        "uri": "http://web.archive.org/web/20190203134109/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T13:43:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190203134325/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T13:43:25Z",
+        "uri": "http://web.archive.org/web/20190203134325/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T15:29:30Z",
+        "uri": "http://web.archive.org/web/20190203152930/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T15:34:30Z",
+        "uri": "http://web.archive.org/web/20190203153430/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T16:07:14Z",
+        "uri": "http://web.archive.org/web/20190203160714/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T19:48:13Z",
+        "uri": "http://web.archive.org/web/20190203194813/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T20:54:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190203205423/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T20:54:23Z",
+        "uri": "http://web.archive.org/web/20190203205423/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T21:11:26Z",
+        "uri": "http://wayback.archive-it.org/all/20190203211126/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-03T21:11:26Z",
+        "uri": "http://web.archive.org/web/20190203211126/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T01:59:30Z",
+        "uri": "http://web.archive.org/web/20190204015930/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T08:18:29Z",
+        "uri": "http://wayback.archive-it.org/all/20190204081829/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T08:18:29Z",
+        "uri": "http://web.archive.org/web/20190204081829/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T14:17:09Z",
+        "uri": "http://web.archive.org/web/20190204141709/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T15:45:59Z",
+        "uri": "http://web.archive.org/web/20190204154559/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T16:28:06Z",
+        "uri": "http://web.archive.org/web/20190204162806/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T19:06:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190204190646/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T19:06:46Z",
+        "uri": "http://web.archive.org/web/20190204190646/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T20:41:31Z",
+        "uri": "http://web.archive.org/web/20190204204131/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T21:27:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190204212704/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-04T21:27:04Z",
+        "uri": "http://web.archive.org/web/20190204212704/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T03:16:07Z",
+        "uri": "http://web.archive.org/web/20190205031607/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T04:44:34Z",
+        "uri": "http://web.archive.org/web/20190205044434/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T04:46:05Z",
+        "uri": "http://web.archive.org/web/20190205044605/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T08:32:58Z",
+        "uri": "http://web.archive.org/web/20190205083258/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T09:04:14Z",
+        "uri": "http://wayback.archive-it.org/all/20190205090414/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T09:04:14Z",
+        "uri": "http://web.archive.org/web/20190205090414/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T12:15:52Z",
+        "uri": "http://web.archive.org/web/20190205121552/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T19:54:29Z",
+        "uri": "http://wayback.archive-it.org/all/20190205195429/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T19:54:29Z",
+        "uri": "http://web.archive.org/web/20190205195429/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T20:26:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190205202653/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-05T20:26:53Z",
+        "uri": "http://web.archive.org/web/20190205202653/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T01:46:53Z",
+        "uri": "http://web.archive.org/web/20190206014653/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T02:12:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190206021204/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T02:12:04Z",
+        "uri": "http://web.archive.org/web/20190206021204/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T07:01:29Z",
+        "uri": "http://wayback.archive-it.org/all/20190206070129/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T07:01:29Z",
+        "uri": "http://web.archive.org/web/20190206070129/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T18:53:55Z",
+        "uri": "http://wayback.archive-it.org/all/20190206185355/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T18:53:55Z",
+        "uri": "http://web.archive.org/web/20190206185355/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T20:07:20Z",
+        "uri": "http://wayback.archive-it.org/all/20190206200720/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-06T20:07:20Z",
+        "uri": "http://web.archive.org/web/20190206200720/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-07T03:00:21Z",
+        "uri": "http://web.archive.org/web/20190207030021/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-07T19:10:17Z",
+        "uri": "http://wayback.archive-it.org/all/20190207191017/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-07T19:10:17Z",
+        "uri": "http://web.archive.org/web/20190207191017/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-07T20:20:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190207202044/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-07T20:20:44Z",
+        "uri": "http://web.archive.org/web/20190207202044/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-08T20:05:20Z",
+        "uri": "http://web.archive.org/web/20190208200520/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      },
+      {
+        "datetime": "2019-02-09T20:07:10Z",
+        "uri": "http://web.archive.org/web/20190209200710/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-02T16:04:08Z",
+      "uri": "http://web.archive.org/web/20190202160408/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:07:10Z",
+      "uri": "http://web.archive.org/web/20190209200710/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html"
+}

@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T19:08:21Z",
+        "uri": "http://web.archive.org/web/20190209190821/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      },
+      {
+        "datetime": "2019-02-09T21:32:41Z",
+        "uri": "http://web.archive.org/web/20190209213241/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      },
+      {
+        "datetime": "2019-02-10T00:09:33Z",
+        "uri": "http://web.archive.org/web/20190210000933/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      },
+      {
+        "datetime": "2019-02-10T00:51:41Z",
+        "uri": "http://web.archive.org/web/20190210005141/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      },
+      {
+        "datetime": "2019-02-10T01:29:15Z",
+        "uri": "http://web.archive.org/web/20190210012915/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      },
+      {
+        "datetime": "2019-02-10T01:43:40Z",
+        "uri": "http://web.archive.org/web/20190210014340/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      },
+      {
+        "datetime": "2019-02-10T05:02:38Z",
+        "uri": "http://web.archive.org/web/20190210050238/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T19:08:21Z",
+      "uri": "http://web.archive.org/web/20190209190821/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:02:38Z",
+      "uri": "http://web.archive.org/web/20190210050238/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.usatoday.com/story/news/nation/2019/02/09/trump-beto-face-off-el-paso-dueling-rallies-near-border/2822324002/"
+}

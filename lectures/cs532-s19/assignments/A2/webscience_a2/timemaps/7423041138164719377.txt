@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T12:23:41Z",
+        "uri": "http://web.archive.org/web/20190205122341/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-05T13:06:52Z",
+        "uri": "http://web.archive.org/web/20190205130652/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-05T15:08:54Z",
+        "uri": "http://web.archive.org/web/20190205150854/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-06T00:09:24Z",
+        "uri": "http://web.archive.org/web/20190206000924/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-06T04:14:41Z",
+        "uri": "http://web.archive.org/web/20190206041441/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-06T14:28:46Z",
+        "uri": "http://web.archive.org/web/20190206142846/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-07T04:38:44Z",
+        "uri": "http://web.archive.org/web/20190207043844/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-08T06:35:23Z",
+        "uri": "http://web.archive.org/web/20190208063523/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-09T07:35:57Z",
+        "uri": "http://web.archive.org/web/20190209073557/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      },
+      {
+        "datetime": "2019-02-10T08:24:40Z",
+        "uri": "http://web.archive.org/web/20190210082440/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T12:23:41Z",
+      "uri": "http://web.archive.org/web/20190205122341/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+    },
+    "last": {
+      "datetime": "2019-02-10T08:24:40Z",
+      "uri": "http://web.archive.org/web/20190210082440/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.npr.org/2019/02/05/691522377/trump-inaugural-committee-hit-with-subpoena"
+}

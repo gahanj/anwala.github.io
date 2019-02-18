@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T15:37:04Z",
+        "uri": "http://archive.md/20190210153704/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow"
+      },
+      {
+        "datetime": "2019-02-10T15:37:55Z",
+        "uri": "http://archive.md/20190210153755/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T15:37:04Z",
+      "uri": "http://archive.md/20190210153704/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow"
+    },
+    "last": {
+      "datetime": "2019-02-10T15:37:55Z",
+      "uri": "http://archive.md/20190210153755/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailywire.com/news/43276/cnns-jake-tapper-thought-buzzfeed-publishing-trump-ashe-schow"
+}

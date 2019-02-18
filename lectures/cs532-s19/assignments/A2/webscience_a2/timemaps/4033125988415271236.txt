@@ -1,0 +1,366 @@
+{
+  "original_uri": "http://fortune.com/2017/02/19/donald-trump-andrew-jackson/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-02-20T03:33:11Z",
+        "uri": "http://wayback.archive-it.org/all/20170220033311/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-20T03:33:11Z",
+        "uri": "http://web.archive.org/web/20170220033311/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-20T08:44:14Z",
+        "uri": "http://web.archive.org/web/20170220084414/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-21T11:33:13Z",
+        "uri": "http://wayback.archive-it.org/all/20170221113313/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-21T11:33:13Z",
+        "uri": "http://web.archive.org/web/20170221113313/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-22T06:28:04Z",
+        "uri": "http://web.archive.org/web/20170222062804/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-22T06:28:04Z",
+        "uri": "http://web.archive.org/web/20170222062804/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson"
+      },
+      {
+        "datetime": "2017-02-22T07:02:24Z",
+        "uri": "http://web.archive.org/web/20170222070224/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-02-23T00:23:38Z",
+        "uri": "http://web.archive.org/web/20170223002338/http://fortune.com/2017/02/19/donald-trump-andrew-jackson"
+      },
+      {
+        "datetime": "2017-02-23T16:16:27Z",
+        "uri": "http://web.archive.org/web/20170223161627/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-21T08:54:34Z",
+        "uri": "http://wayback.archive-it.org/all/20170421085434/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-21T08:54:34Z",
+        "uri": "http://web.archive.org/web/20170421085434/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-22T05:26:51Z",
+        "uri": "http://wayback.archive-it.org/all/20170422052651/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-22T05:26:51Z",
+        "uri": "http://web.archive.org/web/20170422052651/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-26T01:13:30Z",
+        "uri": "http://wayback.archive-it.org/all/20170426011330/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-26T01:13:30Z",
+        "uri": "http://web.archive.org/web/20170426011330/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-26T02:22:37Z",
+        "uri": "http://wayback.archive-it.org/all/20170426022237/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-26T02:22:37Z",
+        "uri": "http://web.archive.org/web/20170426022237/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-04-27T18:54:27Z",
+        "uri": "http://web.archive.org/web/20170427185427/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-04T03:57:53Z",
+        "uri": "http://web.archive.org/web/20170504035753/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-05T01:33:26Z",
+        "uri": "http://web.archive.org/web/20170505013326/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-06T01:00:07Z",
+        "uri": "http://web.archive.org/web/20170506010007/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-07T00:51:15Z",
+        "uri": "http://web.archive.org/web/20170507005115/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-08T02:17:08Z",
+        "uri": "http://web.archive.org/web/20170508021708/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-09T01:05:35Z",
+        "uri": "http://web.archive.org/web/20170509010535/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-10T01:16:48Z",
+        "uri": "http://web.archive.org/web/20170510011648/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-11T03:15:48Z",
+        "uri": "http://web.archive.org/web/20170511031548/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-12T03:56:03Z",
+        "uri": "http://web.archive.org/web/20170512035603/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-13T05:47:39Z",
+        "uri": "http://web.archive.org/web/20170513054739/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-14T01:31:19Z",
+        "uri": "http://web.archive.org/web/20170514013119/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-14T22:35:08Z",
+        "uri": "http://wayback.archive-it.org/all/20170514223508/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-14T22:35:08Z",
+        "uri": "http://web.archive.org/web/20170514223508/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-15T04:53:02Z",
+        "uri": "http://web.archive.org/web/20170515045302/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-16T01:57:03Z",
+        "uri": "http://web.archive.org/web/20170516015703/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-17T01:35:55Z",
+        "uri": "http://web.archive.org/web/20170517013555/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-17T22:53:54Z",
+        "uri": "http://web.archive.org/web/20170517225354/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-19T00:51:30Z",
+        "uri": "http://web.archive.org/web/20170519005130/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-20T01:01:27Z",
+        "uri": "http://web.archive.org/web/20170520010127/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-21T06:47:05Z",
+        "uri": "http://web.archive.org/web/20170521064705/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-22T05:27:34Z",
+        "uri": "http://web.archive.org/web/20170522052734/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-23T01:26:49Z",
+        "uri": "http://web.archive.org/web/20170523012649/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-24T01:05:54Z",
+        "uri": "http://web.archive.org/web/20170524010554/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-25T02:12:27Z",
+        "uri": "http://web.archive.org/web/20170525021227/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-25T04:40:07Z",
+        "uri": "http://web.archive.org/web/20170525044007/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-25T14:20:00Z",
+        "uri": "http://wayback.archive-it.org/all/20170525142000/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-25T14:20:00Z",
+        "uri": "http://web.archive.org/web/20170525142000/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-26T03:41:04Z",
+        "uri": "http://web.archive.org/web/20170526034104/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-27T01:45:36Z",
+        "uri": "http://web.archive.org/web/20170527014536/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-28T03:16:41Z",
+        "uri": "http://web.archive.org/web/20170528031641/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-29T02:07:53Z",
+        "uri": "http://web.archive.org/web/20170529020753/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-30T02:55:29Z",
+        "uri": "http://web.archive.org/web/20170530025529/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-05-31T06:22:20Z",
+        "uri": "http://web.archive.org/web/20170531062220/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-01T01:49:22Z",
+        "uri": "http://web.archive.org/web/20170601014922/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-02T01:58:57Z",
+        "uri": "http://web.archive.org/web/20170602015857/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-03T01:08:27Z",
+        "uri": "http://web.archive.org/web/20170603010827/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-04T01:23:15Z",
+        "uri": "http://web.archive.org/web/20170604012315/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-05T03:31:19Z",
+        "uri": "http://web.archive.org/web/20170605033119/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-06T01:44:46Z",
+        "uri": "http://wayback.archive-it.org/all/20170606014446/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-06T01:44:46Z",
+        "uri": "http://web.archive.org/web/20170606014446/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-06T03:47:24Z",
+        "uri": "http://web.archive.org/web/20170606034724/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-06T22:51:21Z",
+        "uri": "http://web.archive.org/web/20170606225121/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-07T23:20:16Z",
+        "uri": "http://web.archive.org/web/20170607232016/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-08T23:02:51Z",
+        "uri": "http://web.archive.org/web/20170608230251/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-09T23:03:20Z",
+        "uri": "http://web.archive.org/web/20170609230320/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-10T23:12:15Z",
+        "uri": "http://web.archive.org/web/20170610231215/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-11T23:18:38Z",
+        "uri": "http://web.archive.org/web/20170611231838/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-12T23:38:25Z",
+        "uri": "http://web.archive.org/web/20170612233825/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-13T02:01:33Z",
+        "uri": "http://wayback.archive-it.org/all/20170613020133/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-13T02:01:33Z",
+        "uri": "http://web.archive.org/web/20170613020133/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-14T00:14:08Z",
+        "uri": "http://web.archive.org/web/20170614001408/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-15T00:43:24Z",
+        "uri": "http://web.archive.org/web/20170615004324/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-16T00:49:47Z",
+        "uri": "http://web.archive.org/web/20170616004947/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-17T00:56:31Z",
+        "uri": "http://web.archive.org/web/20170617005631/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-18T01:03:58Z",
+        "uri": "http://web.archive.org/web/20170618010358/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-19T01:09:08Z",
+        "uri": "http://web.archive.org/web/20170619010908/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-20T01:51:49Z",
+        "uri": "http://web.archive.org/web/20170620015149/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-21T05:27:00Z",
+        "uri": "http://web.archive.org/web/20170621052700/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-22T13:45:00Z",
+        "uri": "http://web.archive.org/web/20170622134500/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-23T09:31:34Z",
+        "uri": "http://web.archive.org/web/20170623093134/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-06-24T09:36:50Z",
+        "uri": "http://web.archive.org/web/20170624093650/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-08-19T21:41:49Z",
+        "uri": "http://wayback.archive-it.org/all/20170819214149/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-08-19T21:41:49Z",
+        "uri": "http://web.archive.org/web/20170819214149/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-08-23T05:47:35Z",
+        "uri": "http://web.archive.org/web/20170823054735/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2017-08-23T05:47:35Z",
+        "uri": "http://web.archive.org/web/20170823054735/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson"
+      },
+      {
+        "datetime": "2018-07-02T07:44:33Z",
+        "uri": "http://web.archive.org/web/20180702074433/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson/"
+      },
+      {
+        "datetime": "2018-07-02T07:44:33Z",
+        "uri": "http://web.archive.org/web/20180702074433/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson"
+      }
+    ],
+    "first": {
+      "datetime": "2017-02-20T03:33:11Z",
+      "uri": "http://wayback.archive-it.org/all/20170220033311/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+    },
+    "last": {
+      "datetime": "2018-07-02T07:44:33Z",
+      "uri": "http://web.archive.org/web/20180702074433/http://fortune.com:80/2017/02/19/donald-trump-andrew-jackson"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://fortune.com/2017/02/19/donald-trump-andrew-jackson/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.lessentiel.lu/fr/news/monde/story/30325284",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.lessentiel.lu/fr/news/monde/story/30325284",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:17:20Z",
+        "uri": "http://web.archive.org/web/20190209231720/http://www.lessentiel.lu/fr/news/monde/story/30325284"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:17:20Z",
+      "uri": "http://web.archive.org/web/20190209231720/http://www.lessentiel.lu/fr/news/monde/story/30325284"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:17:20Z",
+      "uri": "http://web.archive.org/web/20190209231720/http://www.lessentiel.lu/fr/news/monde/story/30325284"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.lessentiel.lu/fr/news/monde/story/30325284",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.lessentiel.lu/fr/news/monde/story/30325284",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.lessentiel.lu/fr/news/monde/story/30325284"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.lessentiel.lu/fr/news/monde/story/30325284"
+}

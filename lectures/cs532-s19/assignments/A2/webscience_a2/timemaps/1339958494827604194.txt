@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:41:20Z",
+        "uri": "http://web.archive.org/web/20190210114120/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:41:20Z",
+      "uri": "http://web.archive.org/web/20190210114120/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:41:20Z",
+      "uri": "http://web.archive.org/web/20190210114120/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.elpais.com.uy/mundo/maduro-sobrevivir-crisis-social-creo.html"
+}

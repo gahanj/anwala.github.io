@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://blogs.timesofisrael.com/parashat-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://blogs.timesofisrael.com/parashat-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-02-14T08:31:46Z",
+        "uri": "http://web.archive.org/web/20160214083146/http://blogs.timesofisrael.com/parashat-trump/"
+      },
+      {
+        "datetime": "2016-02-15T05:57:25Z",
+        "uri": "http://web.archive.org/web/20160215055725/http://blogs.timesofisrael.com:80/parashat-trump/"
+      },
+      {
+        "datetime": "2016-04-16T10:17:17Z",
+        "uri": "http://web.archive.org/web/20160416101717/http://blogs.timesofisrael.com:80/parashat-trump/"
+      },
+      {
+        "datetime": "2016-08-29T21:03:05Z",
+        "uri": "http://archive.md/20160829210305/http://blogs.timesofisrael.com/parashat-trump/"
+      },
+      {
+        "datetime": "2018-03-22T16:10:15Z",
+        "uri": "http://web.archive.org/web/20180322161015/http://blogs.timesofisrael.com:80/parashat-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-02-14T08:31:46Z",
+      "uri": "http://web.archive.org/web/20160214083146/http://blogs.timesofisrael.com/parashat-trump/"
+    },
+    "last": {
+      "datetime": "2018-03-22T16:10:15Z",
+      "uri": "http://web.archive.org/web/20180322161015/http://blogs.timesofisrael.com:80/parashat-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://blogs.timesofisrael.com/parashat-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://blogs.timesofisrael.com/parashat-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://blogs.timesofisrael.com/parashat-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://blogs.timesofisrael.com/parashat-trump/"
+}

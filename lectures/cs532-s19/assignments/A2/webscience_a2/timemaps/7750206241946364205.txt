@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T00:35:34Z",
+        "uri": "http://web.archive.org/web/20190207003534/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+      },
+      {
+        "datetime": "2019-02-07T05:49:41Z",
+        "uri": "http://web.archive.org/web/20190207054941/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+      },
+      {
+        "datetime": "2019-02-07T17:13:18Z",
+        "uri": "http://web.archive.org/web/20190207171318/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+      },
+      {
+        "datetime": "2019-02-07T18:18:10Z",
+        "uri": "http://web.archive.org/web/20190207181810/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+      },
+      {
+        "datetime": "2019-02-07T23:21:40Z",
+        "uri": "http://web.archive.org/web/20190207232140/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+      },
+      {
+        "datetime": "2019-02-10T13:28:34Z",
+        "uri": "http://web.archive.org/web/20190210132834/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T00:35:34Z",
+      "uri": "http://web.archive.org/web/20190207003534/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:28:34Z",
+      "uri": "http://web.archive.org/web/20190210132834/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/06/politics/trump-isis-conference-remarks/index.html"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:44:21Z",
+        "uri": "http://web.archive.org/web/20190210014421/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html"
+      },
+      {
+        "datetime": "2019-02-10T07:51:49Z",
+        "uri": "http://web.archive.org/web/20190210075149/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:44:21Z",
+      "uri": "http://web.archive.org/web/20190210014421/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:51:49Z",
+      "uri": "http://web.archive.org/web/20190210075149/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailymail.co.uk/news/article-6686829/Trump-Mick-Mulvaney-launch-hunt-mole-leaked-Presidents-private-schedule.html"
+}

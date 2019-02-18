@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T00:13:01Z",
+        "uri": "http://web.archive.org/web/20190209001301/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+      },
+      {
+        "datetime": "2019-02-09T09:40:47Z",
+        "uri": "http://web.archive.org/web/20190209094047/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+      },
+      {
+        "datetime": "2019-02-09T10:17:28Z",
+        "uri": "http://web.archive.org/web/20190209101728/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+      },
+      {
+        "datetime": "2019-02-09T20:12:08Z",
+        "uri": "http://web.archive.org/web/20190209201208/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+      },
+      {
+        "datetime": "2019-02-10T00:45:35Z",
+        "uri": "http://web.archive.org/web/20190210004535/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T00:13:01Z",
+      "uri": "http://web.archive.org/web/20190209001301/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:45:35Z",
+      "uri": "http://web.archive.org/web/20190210004535/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/open-ahh-trump-getting-annual-medical-exam-064054998--politics.html"
+}

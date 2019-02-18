@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:34:32Z",
+        "uri": "http://web.archive.org/web/20190210093432/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T10:52:45Z",
+        "uri": "http://web.archive.org/web/20190210105245/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T16:35:37Z",
+        "uri": "http://archive.md/20190210163537/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T20:37:52Z",
+        "uri": "http://web.archive.org/web/20190210203752/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:34:32Z",
+      "uri": "http://web.archive.org/web/20190210093432/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+    },
+    "last": {
+      "datetime": "2019-02-10T20:37:52Z",
+      "uri": "http://web.archive.org/web/20190210203752/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/09/donald-trump-mocks-democrats-embrace-of-green-new-deal-brilliant/"
+}

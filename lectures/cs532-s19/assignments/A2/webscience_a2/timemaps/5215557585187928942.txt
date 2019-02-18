@@ -1,0 +1,254 @@
+{
+  "original_uri": "http://www.behindthecrown.com",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.behindthecrown.com",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2004-04-11T11:07:35Z",
+        "uri": "http://web.archive.org/web/20040411110735/http://behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2004-05-26T10:17:45Z",
+        "uri": "http://web.archive.org/web/20040526101745/http://behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2004-07-29T00:17:45Z",
+        "uri": "http://web.archive.org/web/20040729001745/http://behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2009-05-10T09:20:41Z",
+        "uri": "http://web.archive.org/web/20090510092041/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2009-07-20T01:56:05Z",
+        "uri": "http://web.archive.org/web/20090720015605/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2009-08-15T08:37:11Z",
+        "uri": "http://web.archive.org/web/20090815083711/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2009-09-18T15:28:33Z",
+        "uri": "http://web.archive.org/web/20090918152833/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2010-11-20T05:10:01Z",
+        "uri": "http://web.archive.org/web/20101120051001/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2010-12-22T17:41:42Z",
+        "uri": "http://web.archive.org/web/20101222174142/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2011-02-02T11:20:12Z",
+        "uri": "http://web.archive.org/web/20110202112012/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2011-06-05T02:25:05Z",
+        "uri": "http://web.archive.org/web/20110605022505/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2011-07-05T23:59:30Z",
+        "uri": "http://web.archive.org/web/20110705235930/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2011-07-07T22:21:28Z",
+        "uri": "http://web.archive.org/web/20110707222128/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2011-08-08T02:40:34Z",
+        "uri": "http://web.archive.org/web/20110808024034/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2011-11-14T19:08:01Z",
+        "uri": "http://web.archive.org/web/20111114190801/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2011-11-15T22:59:27Z",
+        "uri": "http://web.archive.org/web/20111115225927/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2011-12-16T17:36:30Z",
+        "uri": "http://web.archive.org/web/20111216173630/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2012-09-01T06:05:38Z",
+        "uri": "http://web.archive.org/web/20120901060538/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2012-10-18T07:37:57Z",
+        "uri": "http://web.archive.org/web/20121018073757/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2013-03-07T19:52:33Z",
+        "uri": "http://web.archive.org/web/20130307195233/http://behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2013-05-21T06:40:11Z",
+        "uri": "http://web.archive.org/web/20130521064011/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2014-01-12T09:01:58Z",
+        "uri": "http://web.archive.org/web/20140112090158/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2014-05-17T02:27:03Z",
+        "uri": "http://web.archive.org/web/20140517022703/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2014-07-19T07:44:55Z",
+        "uri": "http://web.archive.org/web/20140719074455/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2014-08-02T10:10:18Z",
+        "uri": "http://web.archive.org/web/20140802101018/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2014-12-16T23:16:19Z",
+        "uri": "http://web.archive.org/web/20141216231619/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2015-03-08T12:09:27Z",
+        "uri": "http://web.archive.org/web/20150308120927/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2015-08-01T02:56:08Z",
+        "uri": "http://web.archive.org/web/20150801025608/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2015-09-16T02:07:02Z",
+        "uri": "http://web.archive.org/web/20150916020702/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2015-10-25T19:51:57Z",
+        "uri": "http://web.archive.org/web/20151025195157/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2015-11-27T11:50:32Z",
+        "uri": "http://web.archive.org/web/20151127115032/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2016-01-09T14:59:30Z",
+        "uri": "http://web.archive.org/web/20160109145930/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2016-02-10T12:55:49Z",
+        "uri": "http://web.archive.org/web/20160210125549/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2016-03-08T01:40:04Z",
+        "uri": "http://web.archive.org/web/20160308014004/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2016-03-08T01:48:52Z",
+        "uri": "http://web.archive.org/web/20160308014852/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2016-08-11T08:53:36Z",
+        "uri": "http://web.archive.org/web/20160811085336/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2016-10-02T07:47:48Z",
+        "uri": "http://web.archive.org/web/20161002074748/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2016-12-19T03:17:49Z",
+        "uri": "http://web.archive.org/web/20161219031749/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2017-04-27T10:27:38Z",
+        "uri": "http://web.archive.org/web/20170427102738/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-05-17T06:02:45Z",
+        "uri": "http://web.archive.org/web/20170517060245/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2017-05-30T00:26:57Z",
+        "uri": "http://web.archive.org/web/20170530002657/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-06-30T02:12:57Z",
+        "uri": "http://web.archive.org/web/20170630021257/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-07-31T05:28:14Z",
+        "uri": "http://web.archive.org/web/20170731052814/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-09-02T21:34:46Z",
+        "uri": "http://web.archive.org/web/20170902213446/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-09-13T13:53:28Z",
+        "uri": "http://web.archive.org/web/20170913135328/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2017-09-27T18:21:44Z",
+        "uri": "http://web.archive.org/web/20170927182144/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2017-10-04T10:15:39Z",
+        "uri": "http://web.archive.org/web/20171004101539/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-10-05T10:53:37Z",
+        "uri": "http://web.archive.org/web/20171005105337/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-11-06T13:53:01Z",
+        "uri": "http://web.archive.org/web/20171106135301/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-11-07T16:04:14Z",
+        "uri": "http://web.archive.org/web/20171107160414/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-12-11T22:17:22Z",
+        "uri": "http://web.archive.org/web/20171211221722/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2017-12-12T23:56:04Z",
+        "uri": "http://web.archive.org/web/20171212235604/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2018-01-18T22:35:25Z",
+        "uri": "http://web.archive.org/web/20180118223525/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2018-01-23T13:08:52Z",
+        "uri": "http://web.archive.org/web/20180123130852/http://www.behindthecrown.com/"
+      },
+      {
+        "datetime": "2018-03-24T11:16:57Z",
+        "uri": "http://web.archive.org/web/20180324111657/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2018-07-07T16:34:05Z",
+        "uri": "http://web.archive.org/web/20180707163405/http://www.behindthecrown.com:80/"
+      },
+      {
+        "datetime": "2018-08-06T00:31:02Z",
+        "uri": "http://web.archive.org/web/20180806003102/http://behindthecrown.com/"
+      },
+      {
+        "datetime": "2018-11-02T05:16:19Z",
+        "uri": "http://web.archive.org/web/20181102051619/http://behindthecrown.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2004-04-11T11:07:35Z",
+      "uri": "http://web.archive.org/web/20040411110735/http://behindthecrown.com:80/"
+    },
+    "last": {
+      "datetime": "2018-11-02T05:16:19Z",
+      "uri": "http://web.archive.org/web/20181102051619/http://behindthecrown.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.behindthecrown.com",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.behindthecrown.com",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.behindthecrown.com"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.behindthecrown.com"
+}

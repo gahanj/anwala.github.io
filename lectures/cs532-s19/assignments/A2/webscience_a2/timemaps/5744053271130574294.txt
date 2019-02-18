@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T04:01:58Z",
+        "uri": "http://web.archive.org/web/20190206040158/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+      },
+      {
+        "datetime": "2019-02-06T15:06:50Z",
+        "uri": "http://web.archive.org/web/20190206150650/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+      },
+      {
+        "datetime": "2019-02-07T12:44:46Z",
+        "uri": "http://archive.md/20190207124446/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T04:01:58Z",
+      "uri": "http://web.archive.org/web/20190206040158/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+    },
+    "last": {
+      "datetime": "2019-02-07T12:44:46Z",
+      "uri": "http://archive.md/20190207124446/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/interactive/2019/02/05/us/politics/state-of-union-live-chat.html?smtyp=cur&smid=tw-nytimes"
+}

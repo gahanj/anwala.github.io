@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T20:10:02Z",
+        "uri": "http://web.archive.org/web/20190206201002/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T20:10:02Z",
+      "uri": "http://web.archive.org/web/20190206201002/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records"
+    },
+    "last": {
+      "datetime": "2019-02-06T20:10:02Z",
+      "uri": "http://web.archive.org/web/20190206201002/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vanityfair.com/news/2019/02/trump-scottish-golf-clubs-subpoena-financial-records"
+}

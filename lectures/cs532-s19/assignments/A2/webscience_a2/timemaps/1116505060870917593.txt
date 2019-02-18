@@ -1,0 +1,114 @@
+{
+  "original_uri": "https://buchanan.org/blog/it-aint-over-till-its-over-125549",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/it-aint-over-till-its-over-125549",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-08-19T16:57:55Z",
+        "uri": "http://archive.md/20160819165755/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-08-22T04:01:31Z",
+        "uri": "http://web.archive.org/web/20160822040131/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549?"
+      },
+      {
+        "datetime": "2016-08-23T01:00:23Z",
+        "uri": "http://web.archive.org/web/20160823010023/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-09-10T00:32:29Z",
+        "uri": "http://web.archive.org/web/20160910003229/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-09-22T11:22:26Z",
+        "uri": "http://web.archive.org/web/20160922112226/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549?"
+      },
+      {
+        "datetime": "2016-09-23T18:48:47Z",
+        "uri": "http://web.archive.org/web/20160923184847/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549?"
+      },
+      {
+        "datetime": "2016-09-24T07:50:57Z",
+        "uri": "http://web.archive.org/web/20160924075057/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-10-12T20:13:42Z",
+        "uri": "http://web.archive.org/web/20161012201342/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-10-14T03:17:14Z",
+        "uri": "http://web.archive.org/web/20161014031714/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-10-25T08:43:10Z",
+        "uri": "http://web.archive.org/web/20161025084310/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549?"
+      },
+      {
+        "datetime": "2016-11-13T17:11:11Z",
+        "uri": "http://web.archive.org/web/20161113171111/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-11-14T22:22:43Z",
+        "uri": "http://web.archive.org/web/20161114222243/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-11-28T00:44:10Z",
+        "uri": "http://web.archive.org/web/20161128004410/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2016-12-06T15:00:49Z",
+        "uri": "http://web.archive.org/web/20161206150049/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-02-05T20:39:16Z",
+        "uri": "http://web.archive.org/web/20170205203916/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-02-17T06:04:29Z",
+        "uri": "http://web.archive.org/web/20170217060429/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-03-07T11:48:21Z",
+        "uri": "http://web.archive.org/web/20170307114821/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-05-12T04:20:38Z",
+        "uri": "http://web.archive.org/web/20170512042038/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-07-12T03:52:06Z",
+        "uri": "http://web.archive.org/web/20170712035206/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-09-12T08:13:42Z",
+        "uri": "http://web.archive.org/web/20170912081342/http://buchanan.org:80/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-09-19T21:31:59Z",
+        "uri": "http://web.archive.org/web/20170919213159/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-11-10T11:48:26Z",
+        "uri": "http://web.archive.org/web/20171110114826/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      },
+      {
+        "datetime": "2017-11-10T12:34:46Z",
+        "uri": "http://web.archive.org/web/20171110123446/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+      }
+    ],
+    "first": {
+      "datetime": "2016-08-19T16:57:55Z",
+      "uri": "http://archive.md/20160819165755/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+    },
+    "last": {
+      "datetime": "2017-11-10T12:34:46Z",
+      "uri": "http://web.archive.org/web/20171110123446/http://buchanan.org/blog/it-aint-over-till-its-over-125549"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://buchanan.org/blog/it-aint-over-till-its-over-125549",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/it-aint-over-till-its-over-125549",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://buchanan.org/blog/it-aint-over-till-its-over-125549"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://buchanan.org/blog/it-aint-over-till-its-over-125549"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.instagram.com/trump.by.alicegroup/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.instagram.com/trump.by.alicegroup/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-21T18:43:08Z",
+        "uri": "http://web.archive.org/web/20180321184308/http://www.instagram.com:80/trump.by.alicegroup/"
+      },
+      {
+        "datetime": "2018-03-23T00:00:42Z",
+        "uri": "http://web.archive.org/web/20180323000042/http://www.instagram.com:80/trump.by.alicegroup/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-21T18:43:08Z",
+      "uri": "http://web.archive.org/web/20180321184308/http://www.instagram.com:80/trump.by.alicegroup/"
+    },
+    "last": {
+      "datetime": "2018-03-23T00:00:42Z",
+      "uri": "http://web.archive.org/web/20180323000042/http://www.instagram.com:80/trump.by.alicegroup/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.instagram.com/trump.by.alicegroup/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.instagram.com/trump.by.alicegroup/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.instagram.com/trump.by.alicegroup/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.instagram.com/trump.by.alicegroup/"
+}

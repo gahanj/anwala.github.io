@@ -1,0 +1,1350 @@
+{
+  "original_uri": "https://www.investopedia.com/updates/donald-trump-companies/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.investopedia.com/updates/donald-trump-companies/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-08-26T13:55:03Z",
+        "uri": "http://web.archive.org/web/20160826135503/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-08-27T08:27:05Z",
+        "uri": "http://web.archive.org/web/20160827082705/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-08-27T08:27:05Z",
+        "uri": "http://web.archive.org/web/20160827082705/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-08-29T23:07:05Z",
+        "uri": "http://web.archive.org/web/20160829230705/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-08-29T23:07:05Z",
+        "uri": "http://web.archive.org/web/20160829230705/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-08-29T23:13:29Z",
+        "uri": "http://web.archive.org/web/20160829231329/http://www.investopedia.com:80/updates/donald-trump-companies/?"
+      },
+      {
+        "datetime": "2016-09-01T03:42:34Z",
+        "uri": "http://web.archive.org/web/20160901034234/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-09-11T13:35:22Z",
+        "uri": "http://web.archive.org/web/20160911133522/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-09-11T13:35:22Z",
+        "uri": "http://web.archive.org/web/20160911133522/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-09-12T19:12:19Z",
+        "uri": "http://web.archive.org/web/20160912191219/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-09-12T19:12:19Z",
+        "uri": "http://web.archive.org/web/20160912191219/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-09-27T23:58:58Z",
+        "uri": "http://web.archive.org/web/20160927235858/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-09-27T23:58:58Z",
+        "uri": "http://web.archive.org/web/20160927235858/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-09-30T23:23:50Z",
+        "uri": "http://web.archive.org/web/20160930232350/http://www.investopedia.com:80/updates/donald-trump-companies/?"
+      },
+      {
+        "datetime": "2016-10-07T02:06:19Z",
+        "uri": "http://web.archive.org/web/20161007020619/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-10-07T02:06:19Z",
+        "uri": "http://web.archive.org/web/20161007020619/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-10-10T09:06:50Z",
+        "uri": "http://web.archive.org/web/20161010090650/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-10-13T09:35:43Z",
+        "uri": "http://web.archive.org/web/20161013093543/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-10-13T09:35:43Z",
+        "uri": "http://web.archive.org/web/20161013093543/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-10-16T16:50:24Z",
+        "uri": "http://web.archive.org/web/20161016165024/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-10-17T17:36:08Z",
+        "uri": "http://web.archive.org/web/20161017173608/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-10-24T08:11:38Z",
+        "uri": "http://web.archive.org/web/20161024081138/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-10-24T08:11:38Z",
+        "uri": "http://web.archive.org/web/20161024081138/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-10-31T22:27:46Z",
+        "uri": "http://web.archive.org/web/20161031222746/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-01T09:52:13Z",
+        "uri": "http://web.archive.org/web/20161101095213/http://www.investopedia.com:80/updates/donald-trump-companies/?"
+      },
+      {
+        "datetime": "2016-11-02T07:55:16Z",
+        "uri": "http://web.archive.org/web/20161102075516/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-02T07:55:16Z",
+        "uri": "http://web.archive.org/web/20161102075516/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-11-07T23:30:27Z",
+        "uri": "http://web.archive.org/web/20161107233027/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-08T23:34:04Z",
+        "uri": "http://web.archive.org/web/20161108233404/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-10T00:19:15Z",
+        "uri": "http://web.archive.org/web/20161110001915/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-11T00:42:00Z",
+        "uri": "http://web.archive.org/web/20161111004200/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-12T01:25:50Z",
+        "uri": "http://web.archive.org/web/20161112012550/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-13T02:15:11Z",
+        "uri": "http://web.archive.org/web/20161113021511/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-14T01:59:10Z",
+        "uri": "http://web.archive.org/web/20161114015910/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-15T03:23:53Z",
+        "uri": "http://web.archive.org/web/20161115032353/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-15T09:42:33Z",
+        "uri": "http://web.archive.org/web/20161115094233/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-15T09:42:33Z",
+        "uri": "http://web.archive.org/web/20161115094233/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-11-18T21:19:20Z",
+        "uri": "http://web.archive.org/web/20161118211920/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-18T21:19:20Z",
+        "uri": "http://web.archive.org/web/20161118211920/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2016-11-19T03:20:04Z",
+        "uri": "http://web.archive.org/web/20161119032004/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-19T08:24:05Z",
+        "uri": "http://web.archive.org/web/20161119082405/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-19T21:56:57Z",
+        "uri": "http://web.archive.org/web/20161119215657/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-20T04:27:23Z",
+        "uri": "http://web.archive.org/web/20161120042723/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-21T05:39:36Z",
+        "uri": "http://web.archive.org/web/20161121053936/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-22T06:13:24Z",
+        "uri": "http://web.archive.org/web/20161122061324/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-23T06:25:41Z",
+        "uri": "http://web.archive.org/web/20161123062541/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-24T07:08:02Z",
+        "uri": "http://web.archive.org/web/20161124070802/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-25T07:48:52Z",
+        "uri": "http://web.archive.org/web/20161125074852/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-26T08:24:09Z",
+        "uri": "http://web.archive.org/web/20161126082409/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-27T08:42:30Z",
+        "uri": "http://web.archive.org/web/20161127084230/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-28T09:13:08Z",
+        "uri": "http://web.archive.org/web/20161128091308/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-29T09:21:59Z",
+        "uri": "http://web.archive.org/web/20161129092159/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-11-30T10:07:13Z",
+        "uri": "http://web.archive.org/web/20161130100713/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-02T12:42:55Z",
+        "uri": "http://web.archive.org/web/20161202124255/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-06T14:50:11Z",
+        "uri": "http://web.archive.org/web/20161206145011/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-07T15:27:34Z",
+        "uri": "http://web.archive.org/web/20161207152734/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-12T17:25:49Z",
+        "uri": "http://web.archive.org/web/20161212172549/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-13T15:03:15Z",
+        "uri": "http://web.archive.org/web/20161213150315/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-19T18:35:34Z",
+        "uri": "http://web.archive.org/web/20161219183534/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-22T04:58:06Z",
+        "uri": "http://web.archive.org/web/20161222045806/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-23T07:36:55Z",
+        "uri": "http://web.archive.org/web/20161223073655/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-24T08:51:05Z",
+        "uri": "http://web.archive.org/web/20161224085105/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-25T09:19:17Z",
+        "uri": "http://web.archive.org/web/20161225091917/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-26T10:04:20Z",
+        "uri": "http://web.archive.org/web/20161226100420/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2016-12-27T11:07:12Z",
+        "uri": "http://web.archive.org/web/20161227110712/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-03T13:47:43Z",
+        "uri": "http://web.archive.org/web/20170103134743/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-06T18:24:18Z",
+        "uri": "http://web.archive.org/web/20170106182418/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-09T18:22:03Z",
+        "uri": "http://web.archive.org/web/20170109182203/http://www.investopedia.com:80/updates/donald-trump-companies/?"
+      },
+      {
+        "datetime": "2017-01-11T20:39:41Z",
+        "uri": "http://web.archive.org/web/20170111203941/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-11T20:41:16Z",
+        "uri": "http://web.archive.org/web/20170111204116/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-12T18:26:06Z",
+        "uri": "http://web.archive.org/web/20170112182606/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-12T21:01:25Z",
+        "uri": "http://web.archive.org/web/20170112210125/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-12T21:51:30Z",
+        "uri": "http://web.archive.org/web/20170112215130/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-13T21:42:27Z",
+        "uri": "http://web.archive.org/web/20170113214227/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-13T21:42:28Z",
+        "uri": "http://web.archive.org/web/20170113214228/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-14T22:15:14Z",
+        "uri": "http://web.archive.org/web/20170114221514/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-14T22:15:15Z",
+        "uri": "http://web.archive.org/web/20170114221515/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-15T23:00:29Z",
+        "uri": "http://web.archive.org/web/20170115230029/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-15T23:00:30Z",
+        "uri": "http://web.archive.org/web/20170115230030/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-16T23:41:57Z",
+        "uri": "http://web.archive.org/web/20170116234157/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-16T23:41:59Z",
+        "uri": "http://web.archive.org/web/20170116234159/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-17T23:28:49Z",
+        "uri": "http://web.archive.org/web/20170117232849/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-18T00:01:25Z",
+        "uri": "http://web.archive.org/web/20170118000125/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-19T00:41:17Z",
+        "uri": "http://web.archive.org/web/20170119004117/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-19T00:41:18Z",
+        "uri": "http://web.archive.org/web/20170119004118/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-20T01:31:21Z",
+        "uri": "http://web.archive.org/web/20170120013121/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-20T01:31:23Z",
+        "uri": "http://web.archive.org/web/20170120013123/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-21T01:41:09Z",
+        "uri": "http://web.archive.org/web/20170121014109/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-21T02:38:10Z",
+        "uri": "http://web.archive.org/web/20170121023810/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-22T02:29:32Z",
+        "uri": "http://web.archive.org/web/20170122022932/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-22T02:29:33Z",
+        "uri": "http://web.archive.org/web/20170122022933/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-23T02:53:24Z",
+        "uri": "http://web.archive.org/web/20170123025324/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-23T02:53:25Z",
+        "uri": "http://web.archive.org/web/20170123025325/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-24T07:44:08Z",
+        "uri": "http://web.archive.org/web/20170124074408/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-24T08:08:01Z",
+        "uri": "http://web.archive.org/web/20170124080801/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-25T08:50:20Z",
+        "uri": "http://web.archive.org/web/20170125085020/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-25T08:50:22Z",
+        "uri": "http://web.archive.org/web/20170125085022/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-26T09:18:59Z",
+        "uri": "http://web.archive.org/web/20170126091859/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-26T09:19:00Z",
+        "uri": "http://web.archive.org/web/20170126091900/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-27T09:58:49Z",
+        "uri": "http://web.archive.org/web/20170127095849/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-27T09:58:50Z",
+        "uri": "http://web.archive.org/web/20170127095850/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-28T10:14:00Z",
+        "uri": "http://web.archive.org/web/20170128101400/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-28T10:14:01Z",
+        "uri": "http://web.archive.org/web/20170128101401/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-29T10:30:51Z",
+        "uri": "http://web.archive.org/web/20170129103051/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-29T10:30:52Z",
+        "uri": "http://web.archive.org/web/20170129103052/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-01-30T11:10:42Z",
+        "uri": "http://web.archive.org/web/20170130111042/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-01-30T11:10:43Z",
+        "uri": "http://web.archive.org/web/20170130111043/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-02-05T20:20:41Z",
+        "uri": "http://web.archive.org/web/20170205202041/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-02-09T00:54:25Z",
+        "uri": "http://web.archive.org/web/20170209005425/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-02-18T06:42:58Z",
+        "uri": "http://web.archive.org/web/20170218064258/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-02-21T09:18:04Z",
+        "uri": "http://web.archive.org/web/20170221091804/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-02-24T14:57:43Z",
+        "uri": "http://web.archive.org/web/20170224145743/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-03-09T21:20:04Z",
+        "uri": "http://wayback.archive-it.org/all/20170309212004/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-03-09T21:20:04Z",
+        "uri": "http://web.archive.org/web/20170309212004/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-05-07T02:35:59Z",
+        "uri": "http://web.archive.org/web/20170507023559/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-05-14T02:21:37Z",
+        "uri": "http://web.archive.org/web/20170514022137/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-05-14T02:21:37Z",
+        "uri": "http://web.archive.org/web/20170514022137/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-05-31T10:57:11Z",
+        "uri": "http://web.archive.org/web/20170531105711/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-05-31T10:57:11Z",
+        "uri": "http://web.archive.org/web/20170531105711/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-06-04T12:41:11Z",
+        "uri": "http://web.archive.org/web/20170604124111/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-06-17T11:56:55Z",
+        "uri": "http://web.archive.org/web/20170617115655/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-06-17T11:56:55Z",
+        "uri": "http://web.archive.org/web/20170617115655/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-07-03T04:40:54Z",
+        "uri": "http://web.archive.org/web/20170703044054/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-07-03T04:40:56Z",
+        "uri": "http://web.archive.org/web/20170703044056/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-07-05T20:42:28Z",
+        "uri": "http://web.archive.org/web/20170705204228/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-07-05T20:42:28Z",
+        "uri": "http://web.archive.org/web/20170705204228/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-07-06T12:30:32Z",
+        "uri": "http://web.archive.org/web/20170706123032/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-07-25T12:38:46Z",
+        "uri": "http://web.archive.org/web/20170725123846/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-07-25T12:38:46Z",
+        "uri": "http://web.archive.org/web/20170725123846/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-08-04T10:18:00Z",
+        "uri": "http://web.archive.org/web/20170804101800/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-08-16T18:06:12Z",
+        "uri": "http://web.archive.org/web/20170816180612/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-08-16T18:06:12Z",
+        "uri": "http://web.archive.org/web/20170816180612/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-09-02T09:25:25Z",
+        "uri": "http://web.archive.org/web/20170902092525/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-09-02T09:25:25Z",
+        "uri": "http://web.archive.org/web/20170902092525/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-09-16T22:59:57Z",
+        "uri": "http://web.archive.org/web/20170916225957/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-09-16T22:59:57Z",
+        "uri": "http://web.archive.org/web/20170916225957/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-10-04T14:21:37Z",
+        "uri": "http://web.archive.org/web/20171004142137/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-10-05T05:00:22Z",
+        "uri": "http://web.archive.org/web/20171005050022/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-10-05T05:00:22Z",
+        "uri": "http://web.archive.org/web/20171005050022/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-10-19T03:11:06Z",
+        "uri": "http://wayback.archive-it.org/all/20171019031106/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-10-19T03:11:06Z",
+        "uri": "http://web.archive.org/web/20171019031106/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-10-28T12:37:41Z",
+        "uri": "http://web.archive.org/web/20171028123741/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-10-28T12:37:41Z",
+        "uri": "http://web.archive.org/web/20171028123741/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-11-13T01:40:09Z",
+        "uri": "http://web.archive.org/web/20171113014009/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-11-21T02:46:33Z",
+        "uri": "http://web.archive.org/web/20171121024633/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-11-24T02:45:04Z",
+        "uri": "http://web.archive.org/web/20171124024504/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-11-24T12:21:52Z",
+        "uri": "http://web.archive.org/web/20171124122152/http://www.investopedia.com:80/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-04T15:26:55Z",
+        "uri": "http://web.archive.org/web/20171204152655/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-16T20:41:06Z",
+        "uri": "http://web.archive.org/web/20171216204106/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-16T20:41:10Z",
+        "uri": "http://web.archive.org/web/20171216204110/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-16T20:41:14Z",
+        "uri": "http://web.archive.org/web/20171216204114/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-18T22:12:18Z",
+        "uri": "http://web.archive.org/web/20171218221218/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-18T22:12:22Z",
+        "uri": "http://web.archive.org/web/20171218221222/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-18T22:12:26Z",
+        "uri": "http://web.archive.org/web/20171218221226/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-22T22:22:48Z",
+        "uri": "http://web.archive.org/web/20171222222248/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-22T22:22:53Z",
+        "uri": "http://web.archive.org/web/20171222222253/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-22T22:22:59Z",
+        "uri": "http://web.archive.org/web/20171222222259/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-22T22:23:03Z",
+        "uri": "http://web.archive.org/web/20171222222303/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-22T22:23:09Z",
+        "uri": "http://web.archive.org/web/20171222222309/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-22T22:23:14Z",
+        "uri": "http://web.archive.org/web/20171222222314/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-22T22:23:19Z",
+        "uri": "http://web.archive.org/web/20171222222319/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-22T22:23:26Z",
+        "uri": "http://web.archive.org/web/20171222222326/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:21Z",
+        "uri": "http://web.archive.org/web/20171228223921/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-28T22:39:25Z",
+        "uri": "http://web.archive.org/web/20171228223925/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:29Z",
+        "uri": "http://web.archive.org/web/20171228223929/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2017-12-28T22:39:32Z",
+        "uri": "http://web.archive.org/web/20171228223932/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:37Z",
+        "uri": "http://web.archive.org/web/20171228223937/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:43Z",
+        "uri": "http://web.archive.org/web/20171228223943/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:47Z",
+        "uri": "http://web.archive.org/web/20171228223947/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:52Z",
+        "uri": "http://web.archive.org/web/20171228223952/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:39:56Z",
+        "uri": "http://web.archive.org/web/20171228223956/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-28T22:40:01Z",
+        "uri": "http://web.archive.org/web/20171228224001/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-29T05:55:55Z",
+        "uri": "http://wayback.archive-it.org/all/20171229055555/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-29T05:55:55Z",
+        "uri": "http://web.archive.org/web/20171229055555/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-29T05:55:59Z",
+        "uri": "http://wayback.archive-it.org/all/20171229055559/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2017-12-29T05:55:59Z",
+        "uri": "http://web.archive.org/web/20171229055559/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:13:46Z",
+        "uri": "http://web.archive.org/web/20180102151346/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-02T15:13:50Z",
+        "uri": "http://web.archive.org/web/20180102151350/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:13:54Z",
+        "uri": "http://web.archive.org/web/20180102151354/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-02T15:13:58Z",
+        "uri": "http://web.archive.org/web/20180102151358/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:02Z",
+        "uri": "http://web.archive.org/web/20180102151402/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:07Z",
+        "uri": "http://web.archive.org/web/20180102151407/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:11Z",
+        "uri": "http://web.archive.org/web/20180102151411/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:16Z",
+        "uri": "http://web.archive.org/web/20180102151416/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:21Z",
+        "uri": "http://web.archive.org/web/20180102151421/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:26Z",
+        "uri": "http://web.archive.org/web/20180102151426/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:30Z",
+        "uri": "http://web.archive.org/web/20180102151430/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-02T15:14:34Z",
+        "uri": "http://web.archive.org/web/20180102151434/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:13Z",
+        "uri": "http://web.archive.org/web/20180111154413/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-11T15:44:17Z",
+        "uri": "http://web.archive.org/web/20180111154417/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:21Z",
+        "uri": "http://web.archive.org/web/20180111154421/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-11T15:44:25Z",
+        "uri": "http://web.archive.org/web/20180111154425/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:30Z",
+        "uri": "http://web.archive.org/web/20180111154430/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:34Z",
+        "uri": "http://web.archive.org/web/20180111154434/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:39Z",
+        "uri": "http://web.archive.org/web/20180111154439/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:43Z",
+        "uri": "http://web.archive.org/web/20180111154443/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:47Z",
+        "uri": "http://web.archive.org/web/20180111154447/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:53Z",
+        "uri": "http://web.archive.org/web/20180111154453/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:44:58Z",
+        "uri": "http://web.archive.org/web/20180111154458/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:45:02Z",
+        "uri": "http://web.archive.org/web/20180111154502/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:45:07Z",
+        "uri": "http://web.archive.org/web/20180111154507/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-11T15:45:11Z",
+        "uri": "http://web.archive.org/web/20180111154511/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:47:53Z",
+        "uri": "http://web.archive.org/web/20180117034753/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-17T03:47:57Z",
+        "uri": "http://web.archive.org/web/20180117034757/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:04Z",
+        "uri": "http://web.archive.org/web/20180117034804/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-17T03:48:08Z",
+        "uri": "http://web.archive.org/web/20180117034808/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:16Z",
+        "uri": "http://web.archive.org/web/20180117034816/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:22Z",
+        "uri": "http://web.archive.org/web/20180117034822/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:29Z",
+        "uri": "http://web.archive.org/web/20180117034829/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:36Z",
+        "uri": "http://web.archive.org/web/20180117034836/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:43Z",
+        "uri": "http://web.archive.org/web/20180117034843/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:49Z",
+        "uri": "http://web.archive.org/web/20180117034849/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:48:55Z",
+        "uri": "http://web.archive.org/web/20180117034855/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:49:02Z",
+        "uri": "http://web.archive.org/web/20180117034902/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:49:10Z",
+        "uri": "http://web.archive.org/web/20180117034910/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:49:17Z",
+        "uri": "http://web.archive.org/web/20180117034917/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:49:23Z",
+        "uri": "http://web.archive.org/web/20180117034923/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-17T03:49:29Z",
+        "uri": "http://web.archive.org/web/20180117034929/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-20T16:30:17Z",
+        "uri": "http://web.archive.org/web/20180120163017/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-20T16:30:21Z",
+        "uri": "http://web.archive.org/web/20180120163021/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-20T16:30:25Z",
+        "uri": "http://web.archive.org/web/20180120163025/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-25T00:52:17Z",
+        "uri": "http://web.archive.org/web/20180125005217/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-25T00:52:20Z",
+        "uri": "http://web.archive.org/web/20180125005220/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-25T00:52:25Z",
+        "uri": "http://web.archive.org/web/20180125005225/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-25T00:52:31Z",
+        "uri": "http://web.archive.org/web/20180125005231/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-28T10:44:50Z",
+        "uri": "http://web.archive.org/web/20180128104450/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-28T10:44:55Z",
+        "uri": "http://web.archive.org/web/20180128104455/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-28T10:45:01Z",
+        "uri": "http://web.archive.org/web/20180128104501/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-28T10:45:07Z",
+        "uri": "http://web.archive.org/web/20180128104507/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-28T10:45:13Z",
+        "uri": "http://web.archive.org/web/20180128104513/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-31T01:49:51Z",
+        "uri": "http://web.archive.org/web/20180131014951/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-01-31T01:49:55Z",
+        "uri": "http://web.archive.org/web/20180131014955/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-31T01:50:00Z",
+        "uri": "http://web.archive.org/web/20180131015000/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-31T01:50:06Z",
+        "uri": "http://web.archive.org/web/20180131015006/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-31T01:50:12Z",
+        "uri": "http://web.archive.org/web/20180131015012/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-01-31T01:50:19Z",
+        "uri": "http://web.archive.org/web/20180131015019/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-03T16:25:37Z",
+        "uri": "http://web.archive.org/web/20180203162537/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-02-03T16:25:47Z",
+        "uri": "http://web.archive.org/web/20180203162547/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-03T16:25:58Z",
+        "uri": "http://web.archive.org/web/20180203162558/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-03T16:26:11Z",
+        "uri": "http://web.archive.org/web/20180203162611/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-03T16:26:24Z",
+        "uri": "http://web.archive.org/web/20180203162624/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-03T16:26:34Z",
+        "uri": "http://web.archive.org/web/20180203162634/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-03T16:26:45Z",
+        "uri": "http://web.archive.org/web/20180203162645/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-04T05:38:51Z",
+        "uri": "http://web.archive.org/web/20180204053851/http://www.investopedia.com:80/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:24:42Z",
+        "uri": "http://web.archive.org/web/20180207102442/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-02-07T10:24:47Z",
+        "uri": "http://web.archive.org/web/20180207102447/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:24:55Z",
+        "uri": "http://web.archive.org/web/20180207102455/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:25:02Z",
+        "uri": "http://web.archive.org/web/20180207102502/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:25:12Z",
+        "uri": "http://web.archive.org/web/20180207102512/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:25:20Z",
+        "uri": "http://web.archive.org/web/20180207102520/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:25:30Z",
+        "uri": "http://web.archive.org/web/20180207102530/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-07T10:25:41Z",
+        "uri": "http://web.archive.org/web/20180207102541/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-02-12T07:54:53Z",
+        "uri": "http://web.archive.org/web/20180212075453/http://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-02-12T07:54:54Z",
+        "uri": "http://web.archive.org/web/20180212075454/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-02-12T07:54:55Z",
+        "uri": "http://web.archive.org/web/20180212075455/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:23:57Z",
+        "uri": "http://web.archive.org/web/20180306202357/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-03-06T20:24:03Z",
+        "uri": "http://web.archive.org/web/20180306202403/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:09Z",
+        "uri": "http://web.archive.org/web/20180306202409/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:16Z",
+        "uri": "http://web.archive.org/web/20180306202416/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:21Z",
+        "uri": "http://web.archive.org/web/20180306202421/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:27Z",
+        "uri": "http://web.archive.org/web/20180306202427/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:32Z",
+        "uri": "http://web.archive.org/web/20180306202432/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:37Z",
+        "uri": "http://web.archive.org/web/20180306202437/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-06T20:24:42Z",
+        "uri": "http://web.archive.org/web/20180306202442/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:13:24Z",
+        "uri": "http://web.archive.org/web/20180322011324/https://www.investopedia.com/updates/donald-trump-companies"
+      },
+      {
+        "datetime": "2018-03-22T01:13:29Z",
+        "uri": "http://web.archive.org/web/20180322011329/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:13:38Z",
+        "uri": "http://web.archive.org/web/20180322011338/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:13:47Z",
+        "uri": "http://web.archive.org/web/20180322011347/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:14:04Z",
+        "uri": "http://web.archive.org/web/20180322011404/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:14:13Z",
+        "uri": "http://web.archive.org/web/20180322011413/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:14:21Z",
+        "uri": "http://web.archive.org/web/20180322011421/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:14:28Z",
+        "uri": "http://web.archive.org/web/20180322011428/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:14:38Z",
+        "uri": "http://web.archive.org/web/20180322011438/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-22T01:14:56Z",
+        "uri": "http://web.archive.org/web/20180322011456/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-03-28T03:56:29Z",
+        "uri": "http://web.archive.org/web/20180328035629/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-04-01T18:18:44Z",
+        "uri": "http://web.archive.org/web/20180401181844/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-04-04T01:04:00Z",
+        "uri": "http://web.archive.org/web/20180404010400/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-04-12T20:18:33Z",
+        "uri": "http://web.archive.org/web/20180412201833/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-04-18T02:07:36Z",
+        "uri": "http://web.archive.org/web/20180418020736/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-04-25T02:22:10Z",
+        "uri": "http://web.archive.org/web/20180425022210/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-05-02T05:06:22Z",
+        "uri": "http://web.archive.org/web/20180502050622/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-05-08T23:09:36Z",
+        "uri": "http://web.archive.org/web/20180508230936/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-05-16T10:08:48Z",
+        "uri": "http://web.archive.org/web/20180516100848/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-05-24T00:01:52Z",
+        "uri": "http://web.archive.org/web/20180524000152/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-05-30T15:00:17Z",
+        "uri": "http://web.archive.org/web/20180530150017/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-06-06T03:17:20Z",
+        "uri": "http://web.archive.org/web/20180606031720/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-06-19T22:09:28Z",
+        "uri": "http://web.archive.org/web/20180619220928/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-06-26T20:37:15Z",
+        "uri": "http://web.archive.org/web/20180626203715/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-06-28T23:21:51Z",
+        "uri": "http://archive.md/20180628232151/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-03T23:27:25Z",
+        "uri": "http://web.archive.org/web/20180703232725/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-04T16:50:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180704165010/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-04T16:50:10Z",
+        "uri": "http://web.archive.org/web/20180704165010/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-04T16:50:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180704165011/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-04T16:50:11Z",
+        "uri": "http://web.archive.org/web/20180704165011/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-20T08:45:41Z",
+        "uri": "http://web.archive.org/web/20180720084541/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-20T08:45:49Z",
+        "uri": "http://web.archive.org/web/20180720084549/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-24T17:56:52Z",
+        "uri": "http://web.archive.org/web/20180724175652/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-07-31T23:13:12Z",
+        "uri": "http://web.archive.org/web/20180731231312/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-08-07T22:43:31Z",
+        "uri": "http://web.archive.org/web/20180807224331/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-08-14T23:06:09Z",
+        "uri": "http://web.archive.org/web/20180814230609/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-08-22T01:31:10Z",
+        "uri": "http://web.archive.org/web/20180822013110/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-08-28T23:53:48Z",
+        "uri": "http://web.archive.org/web/20180828235348/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-09-03T06:16:30Z",
+        "uri": "http://web.archive.org/web/20180903061630/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-09-05T00:57:52Z",
+        "uri": "http://web.archive.org/web/20180905005752/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-09-11T22:40:38Z",
+        "uri": "http://web.archive.org/web/20180911224038/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-09-18T20:11:18Z",
+        "uri": "http://web.archive.org/web/20180918201118/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-09-26T17:36:01Z",
+        "uri": "http://web.archive.org/web/20180926173601/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-03T20:48:37Z",
+        "uri": "http://web.archive.org/web/20181003204837/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-09T20:53:20Z",
+        "uri": "http://web.archive.org/web/20181009205320/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-16T21:16:34Z",
+        "uri": "http://web.archive.org/web/20181016211634/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-23T16:07:14Z",
+        "uri": "http://web.archive.org/web/20181023160714/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-23T16:07:15Z",
+        "uri": "http://web.archive.org/web/20181023160715/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-23T21:09:59Z",
+        "uri": "http://web.archive.org/web/20181023210959/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-10-30T21:46:41Z",
+        "uri": "http://web.archive.org/web/20181030214641/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-11-07T07:31:26Z",
+        "uri": "http://web.archive.org/web/20181107073126/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-11-15T20:26:42Z",
+        "uri": "http://web.archive.org/web/20181115202642/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-11-20T17:23:31Z",
+        "uri": "http://web.archive.org/web/20181120172331/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-11-24T05:18:20Z",
+        "uri": "http://web.archive.org/web/20181124051820/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-11-27T21:15:25Z",
+        "uri": "http://web.archive.org/web/20181127211525/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-12-04T21:21:04Z",
+        "uri": "http://web.archive.org/web/20181204212104/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-12-14T16:10:44Z",
+        "uri": "http://web.archive.org/web/20181214161044/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-12-18T18:32:47Z",
+        "uri": "http://web.archive.org/web/20181218183247/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-12-23T01:56:55Z",
+        "uri": "http://web.archive.org/web/20181223015655/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2018-12-28T12:14:31Z",
+        "uri": "http://web.archive.org/web/20181228121431/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-01-04T09:13:07Z",
+        "uri": "http://web.archive.org/web/20190104091307/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-01-09T17:43:40Z",
+        "uri": "http://web.archive.org/web/20190109174340/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-01-12T09:56:04Z",
+        "uri": "http://web.archive.org/web/20190112095604/http://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-01-12T09:56:05Z",
+        "uri": "http://web.archive.org/web/20190112095605/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-01-18T02:31:43Z",
+        "uri": "http://web.archive.org/web/20190118023143/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-01-26T22:55:27Z",
+        "uri": "http://web.archive.org/web/20190126225527/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-02-02T00:03:03Z",
+        "uri": "http://web.archive.org/web/20190202000303/https://www.investopedia.com/updates/donald-trump-companies/"
+      },
+      {
+        "datetime": "2019-02-06T18:40:15Z",
+        "uri": "http://web.archive.org/web/20190206184015/https://www.investopedia.com/updates/donald-trump-companies/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-08-26T13:55:03Z",
+      "uri": "http://web.archive.org/web/20160826135503/http://www.investopedia.com/updates/donald-trump-companies/"
+    },
+    "last": {
+      "datetime": "2019-02-06T18:40:15Z",
+      "uri": "http://web.archive.org/web/20190206184015/https://www.investopedia.com/updates/donald-trump-companies/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.investopedia.com/updates/donald-trump-companies/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.investopedia.com/updates/donald-trump-companies/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.investopedia.com/updates/donald-trump-companies/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.investopedia.com/updates/donald-trump-companies/"
+}

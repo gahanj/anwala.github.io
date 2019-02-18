@@ -1,0 +1,2110 @@
+{
+  "original_uri": "http://viendongdaily.com",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://viendongdaily.com",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2006-04-10T17:28:09Z",
+        "uri": "http://web.archive.org/web/20060410172809/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-04-12T19:45:41Z",
+        "uri": "http://web.archive.org/web/20060412194541/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-04-18T06:29:20Z",
+        "uri": "http://web.archive.org/web/20060418062920/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-04-23T02:45:19Z",
+        "uri": "http://web.archive.org/web/20060423024519/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-04-23T02:46:49Z",
+        "uri": "http://web.archive.org/web/20060423024649/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-04-23T02:46:59Z",
+        "uri": "http://web.archive.org/web/20060423024659/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-04-28T01:05:27Z",
+        "uri": "http://web.archive.org/web/20060428010527/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-07-03T16:03:23Z",
+        "uri": "http://web.archive.org/web/20060703160323/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-07-16T10:08:16Z",
+        "uri": "http://web.archive.org/web/20060716100816/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-07-17T07:24:53Z",
+        "uri": "http://web.archive.org/web/20060717072453/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-09-02T02:56:36Z",
+        "uri": "http://web.archive.org/web/20060902025636/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-10-22T14:52:33Z",
+        "uri": "http://web.archive.org/web/20061022145233/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-10-22T18:01:55Z",
+        "uri": "http://web.archive.org/web/20061022180155/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-11-07T05:20:01Z",
+        "uri": "http://web.archive.org/web/20061107052001/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-11-15T23:53:18Z",
+        "uri": "http://web.archive.org/web/20061115235318/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-11-26T21:49:51Z",
+        "uri": "http://web.archive.org/web/20061126214951/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-12-05T22:59:05Z",
+        "uri": "http://web.archive.org/web/20061205225905/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-12-10T14:04:52Z",
+        "uri": "http://web.archive.org/web/20061210140452/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-12-15T11:00:23Z",
+        "uri": "http://web.archive.org/web/20061215110023/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-12-21T09:25:34Z",
+        "uri": "http://web.archive.org/web/20061221092534/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2006-12-30T08:25:44Z",
+        "uri": "http://web.archive.org/web/20061230082544/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-01-04T03:09:57Z",
+        "uri": "http://web.archive.org/web/20070104030957/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-01-08T18:40:25Z",
+        "uri": "http://web.archive.org/web/20070108184025/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-01-12T06:50:05Z",
+        "uri": "http://web.archive.org/web/20070112065005/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-01-13T14:25:35Z",
+        "uri": "http://web.archive.org/web/20070113142535/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-01-18T09:51:53Z",
+        "uri": "http://web.archive.org/web/20070118095153/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-01-23T18:39:02Z",
+        "uri": "http://web.archive.org/web/20070123183902/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-02-02T02:48:12Z",
+        "uri": "http://web.archive.org/web/20070202024812/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-02-05T12:22:21Z",
+        "uri": "http://web.archive.org/web/20070205122221/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-02-10T02:48:46Z",
+        "uri": "http://web.archive.org/web/20070210024846/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-02-17T17:59:31Z",
+        "uri": "http://web.archive.org/web/20070217175931/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-02-25T16:52:02Z",
+        "uri": "http://web.archive.org/web/20070225165202/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-03-06T01:38:40Z",
+        "uri": "http://web.archive.org/web/20070306013840/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-03-14T03:58:53Z",
+        "uri": "http://web.archive.org/web/20070314035853/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-03-23T02:20:28Z",
+        "uri": "http://web.archive.org/web/20070323022028/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-04-06T17:34:47Z",
+        "uri": "http://web.archive.org/web/20070406173447/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-04-30T22:57:12Z",
+        "uri": "http://web.archive.org/web/20070430225712/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-05-03T16:27:08Z",
+        "uri": "http://web.archive.org/web/20070503162708/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-05-12T23:53:08Z",
+        "uri": "http://web.archive.org/web/20070512235308/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-05-22T16:54:59Z",
+        "uri": "http://web.archive.org/web/20070522165459/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-06-12T22:47:49Z",
+        "uri": "http://web.archive.org/web/20070612224749/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-06-26T15:14:30Z",
+        "uri": "http://web.archive.org/web/20070626151430/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-07-08T16:05:39Z",
+        "uri": "http://web.archive.org/web/20070708160539/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-08-27T17:01:28Z",
+        "uri": "http://web.archive.org/web/20070827170128/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-09T08:45:05Z",
+        "uri": "http://web.archive.org/web/20071009084505/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-10T11:28:04Z",
+        "uri": "http://web.archive.org/web/20071010112804/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-11T19:52:15Z",
+        "uri": "http://web.archive.org/web/20071011195215/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-14T23:49:49Z",
+        "uri": "http://web.archive.org/web/20071014234949/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-17T23:49:09Z",
+        "uri": "http://web.archive.org/web/20071017234909/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-20T23:30:29Z",
+        "uri": "http://web.archive.org/web/20071020233029/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-23T21:35:34Z",
+        "uri": "http://web.archive.org/web/20071023213534/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-27T04:12:51Z",
+        "uri": "http://web.archive.org/web/20071027041251/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-10-30T00:19:48Z",
+        "uri": "http://web.archive.org/web/20071030001948/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-11-01T21:06:04Z",
+        "uri": "http://web.archive.org/web/20071101210604/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-11-04T12:57:39Z",
+        "uri": "http://web.archive.org/web/20071104125739/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-11-07T05:52:51Z",
+        "uri": "http://web.archive.org/web/20071107055251/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2007-11-10T01:40:09Z",
+        "uri": "http://web.archive.org/web/20071110014009/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-05-15T20:26:11Z",
+        "uri": "http://web.archive.org/web/20080515202611/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2008-09-25T07:58:52Z",
+        "uri": "http://web.archive.org/web/20080925075852/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-01T19:06:20Z",
+        "uri": "http://web.archive.org/web/20081201190620/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-05T05:34:42Z",
+        "uri": "http://web.archive.org/web/20081205053442/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-07T19:48:10Z",
+        "uri": "http://web.archive.org/web/20081207194810/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-10T07:06:36Z",
+        "uri": "http://web.archive.org/web/20081210070636/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-16T01:19:53Z",
+        "uri": "http://web.archive.org/web/20081216011953/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-16T20:57:10Z",
+        "uri": "http://web.archive.org/web/20081216205710/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-21T15:37:19Z",
+        "uri": "http://web.archive.org/web/20081221153719/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-25T14:34:19Z",
+        "uri": "http://web.archive.org/web/20081225143419/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2008-12-29T11:19:35Z",
+        "uri": "http://web.archive.org/web/20081229111935/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-01-02T06:02:18Z",
+        "uri": "http://web.archive.org/web/20090102060218/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-01-06T03:32:14Z",
+        "uri": "http://web.archive.org/web/20090106033214/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-01-15T21:14:03Z",
+        "uri": "http://web.archive.org/web/20090115211403/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-01-20T14:15:32Z",
+        "uri": "http://web.archive.org/web/20090120141532/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-02-04T21:24:58Z",
+        "uri": "http://web.archive.org/web/20090204212458/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-02-08T23:27:46Z",
+        "uri": "http://web.archive.org/web/20090208232746/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-02-13T05:49:53Z",
+        "uri": "http://web.archive.org/web/20090213054953/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-02-18T16:18:30Z",
+        "uri": "http://web.archive.org/web/20090218161830/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-02-24T12:59:35Z",
+        "uri": "http://web.archive.org/web/20090224125935/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-02-28T15:31:43Z",
+        "uri": "http://web.archive.org/web/20090228153143/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-03-05T09:56:54Z",
+        "uri": "http://web.archive.org/web/20090305095654/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-03-16T09:22:45Z",
+        "uri": "http://web.archive.org/web/20090316092245/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-04-01T00:56:24Z",
+        "uri": "http://web.archive.org/web/20090401005624/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-04-16T19:58:08Z",
+        "uri": "http://web.archive.org/web/20090416195808/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2009-04-23T20:43:57Z",
+        "uri": "http://web.archive.org/web/20090423204357/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2010-01-14T02:43:05Z",
+        "uri": "http://web.archive.org/web/20100114024305/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2010-02-08T07:53:11Z",
+        "uri": "http://web.archive.org/web/20100208075311/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2010-12-06T06:30:00Z",
+        "uri": "http://web.archive.org/web/20101206063000/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-03-14T18:03:31Z",
+        "uri": "http://web.archive.org/web/20110314180331/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-04-21T21:06:14Z",
+        "uri": "http://web.archive.org/web/20110421210614/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-05-11T07:34:31Z",
+        "uri": "http://web.archive.org/web/20110511073431/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-06-15T23:59:39Z",
+        "uri": "http://web.archive.org/web/20110615235939/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-06-25T11:03:40Z",
+        "uri": "http://web.archive.org/web/20110625110340/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-07-17T20:21:52Z",
+        "uri": "http://web.archive.org/web/20110717202152/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-08-06T01:36:54Z",
+        "uri": "http://web.archive.org/web/20110806013654/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-08-17T06:36:27Z",
+        "uri": "http://web.archive.org/web/20110817063627/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-08-27T16:30:10Z",
+        "uri": "http://web.archive.org/web/20110827163010/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-09-02T08:40:35Z",
+        "uri": "http://web.archive.org/web/20110902084035/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-09-11T06:13:34Z",
+        "uri": "http://web.archive.org/web/20110911061334/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-09-21T01:42:11Z",
+        "uri": "http://wayback.archive-it.org/all/20110921014211/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-09-21T01:42:11Z",
+        "uri": "http://web.archive.org/web/20110921014211/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-09-23T17:50:06Z",
+        "uri": "http://web.archive.org/web/20110923175006/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-09-28T01:48:47Z",
+        "uri": "http://wayback.archive-it.org/all/20110928014847/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-09-28T01:48:47Z",
+        "uri": "http://web.archive.org/web/20110928014847/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-03T14:22:48Z",
+        "uri": "http://web.archive.org/web/20111003142248/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-05T01:23:04Z",
+        "uri": "http://wayback.archive-it.org/all/20111005012304/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-05T01:23:04Z",
+        "uri": "http://web.archive.org/web/20111005012304/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-05T14:41:09Z",
+        "uri": "http://web.archive.org/web/20111005144109/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-10-07T09:57:44Z",
+        "uri": "http://web.archive.org/web/20111007095744/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-07T22:01:43Z",
+        "uri": "http://web.archive.org/web/20111007220143/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-17T10:30:29Z",
+        "uri": "http://web.archive.org/web/20111017103029/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-10-19T01:44:52Z",
+        "uri": "http://wayback.archive-it.org/all/20111019014452/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-19T01:44:52Z",
+        "uri": "http://web.archive.org/web/20111019014452/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-26T01:18:23Z",
+        "uri": "http://wayback.archive-it.org/all/20111026011823/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-26T01:18:23Z",
+        "uri": "http://web.archive.org/web/20111026011823/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-27T19:27:38Z",
+        "uri": "http://web.archive.org/web/20111027192738/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-10-29T13:38:37Z",
+        "uri": "http://web.archive.org/web/20111029133837/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-11-02T02:22:22Z",
+        "uri": "http://wayback.archive-it.org/all/20111102022222/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-02T02:22:22Z",
+        "uri": "http://web.archive.org/web/20111102022222/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-07T02:50:19Z",
+        "uri": "http://web.archive.org/web/20111107025019/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-11-09T01:29:12Z",
+        "uri": "http://wayback.archive-it.org/all/20111109012912/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-09T01:29:12Z",
+        "uri": "http://web.archive.org/web/20111109012912/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-13T07:58:11Z",
+        "uri": "http://web.archive.org/web/20111113075811/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-11-16T02:01:10Z",
+        "uri": "http://wayback.archive-it.org/all/20111116020110/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-16T02:01:10Z",
+        "uri": "http://web.archive.org/web/20111116020110/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-20T07:02:38Z",
+        "uri": "http://web.archive.org/web/20111120070238/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-11-23T01:49:34Z",
+        "uri": "http://wayback.archive-it.org/all/20111123014934/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-23T01:49:34Z",
+        "uri": "http://web.archive.org/web/20111123014934/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-26T21:16:34Z",
+        "uri": "http://web.archive.org/web/20111126211634/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-11-30T01:43:22Z",
+        "uri": "http://wayback.archive-it.org/all/20111130014322/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-11-30T01:43:22Z",
+        "uri": "http://web.archive.org/web/20111130014322/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-04T16:04:19Z",
+        "uri": "http://web.archive.org/web/20111204160419/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-12-07T03:45:18Z",
+        "uri": "http://wayback.archive-it.org/all/20111207034518/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-07T03:45:18Z",
+        "uri": "http://web.archive.org/web/20111207034518/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-13T07:17:46Z",
+        "uri": "http://web.archive.org/web/20111213071746/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-12-14T01:39:26Z",
+        "uri": "http://wayback.archive-it.org/all/20111214013926/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-14T01:39:26Z",
+        "uri": "http://web.archive.org/web/20111214013926/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-21T02:35:21Z",
+        "uri": "http://wayback.archive-it.org/all/20111221023521/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-21T02:35:21Z",
+        "uri": "http://web.archive.org/web/20111221023521/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-22T16:24:58Z",
+        "uri": "http://web.archive.org/web/20111222162458/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2011-12-28T02:48:28Z",
+        "uri": "http://wayback.archive-it.org/all/20111228024828/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2011-12-28T02:48:28Z",
+        "uri": "http://web.archive.org/web/20111228024828/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-03T10:42:55Z",
+        "uri": "http://web.archive.org/web/20120103104255/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-04T02:19:15Z",
+        "uri": "http://wayback.archive-it.org/all/20120104021915/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-04T02:19:15Z",
+        "uri": "http://web.archive.org/web/20120104021915/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-04T06:53:14Z",
+        "uri": "http://web.archive.org/web/20120104065314/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-01-11T02:00:03Z",
+        "uri": "http://wayback.archive-it.org/all/20120111020003/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-11T02:00:03Z",
+        "uri": "http://web.archive.org/web/20120111020003/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-12T12:35:20Z",
+        "uri": "http://web.archive.org/web/20120112123520/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-13T09:43:10Z",
+        "uri": "http://web.archive.org/web/20120113094310/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-18T01:32:27Z",
+        "uri": "http://wayback.archive-it.org/all/20120118013227/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-18T01:32:27Z",
+        "uri": "http://web.archive.org/web/20120118013227/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-25T02:02:19Z",
+        "uri": "http://wayback.archive-it.org/all/20120125020219/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-01-25T02:02:19Z",
+        "uri": "http://web.archive.org/web/20120125020219/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-01T04:51:52Z",
+        "uri": "http://wayback.archive-it.org/all/20120201045152/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-01T04:51:52Z",
+        "uri": "http://web.archive.org/web/20120201045152/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-08T01:30:11Z",
+        "uri": "http://wayback.archive-it.org/all/20120208013011/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-08T01:30:11Z",
+        "uri": "http://web.archive.org/web/20120208013011/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-11T07:40:20Z",
+        "uri": "http://web.archive.org/web/20120211074020/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-14T19:09:41Z",
+        "uri": "http://web.archive.org/web/20120214190941/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-02-15T04:18:12Z",
+        "uri": "http://wayback.archive-it.org/all/20120215041812/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-15T04:18:12Z",
+        "uri": "http://web.archive.org/web/20120215041812/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-22T01:39:34Z",
+        "uri": "http://wayback.archive-it.org/all/20120222013934/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-22T01:39:34Z",
+        "uri": "http://web.archive.org/web/20120222013934/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-24T02:42:06Z",
+        "uri": "http://web.archive.org/web/20120224024206/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-02-29T02:15:17Z",
+        "uri": "http://wayback.archive-it.org/all/20120229021517/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-02-29T02:15:17Z",
+        "uri": "http://web.archive.org/web/20120229021517/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-04T21:04:12Z",
+        "uri": "http://web.archive.org/web/20120304210412/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-03-07T08:20:20Z",
+        "uri": "http://wayback.archive-it.org/all/20120307082020/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-07T08:20:20Z",
+        "uri": "http://web.archive.org/web/20120307082020/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-14T01:47:11Z",
+        "uri": "http://wayback.archive-it.org/all/20120314014711/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-14T01:47:11Z",
+        "uri": "http://web.archive.org/web/20120314014711/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-17T15:56:16Z",
+        "uri": "http://web.archive.org/web/20120317155616/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-03-18T17:37:54Z",
+        "uri": "http://web.archive.org/web/20120318173754/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-03-21T01:30:14Z",
+        "uri": "http://wayback.archive-it.org/all/20120321013014/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-21T01:30:14Z",
+        "uri": "http://web.archive.org/web/20120321013014/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-28T02:03:52Z",
+        "uri": "http://wayback.archive-it.org/all/20120328020352/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-28T02:03:52Z",
+        "uri": "http://web.archive.org/web/20120328020352/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-03-28T12:10:05Z",
+        "uri": "http://web.archive.org/web/20120328121005/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-04-04T02:42:17Z",
+        "uri": "http://wayback.archive-it.org/all/20120404024217/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-04T02:42:17Z",
+        "uri": "http://web.archive.org/web/20120404024217/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-08T21:58:23Z",
+        "uri": "http://web.archive.org/web/20120408215823/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-04-11T02:50:58Z",
+        "uri": "http://wayback.archive-it.org/all/20120411025058/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-11T02:50:58Z",
+        "uri": "http://web.archive.org/web/20120411025058/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-18T01:46:40Z",
+        "uri": "http://wayback.archive-it.org/all/20120418014640/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-18T01:46:40Z",
+        "uri": "http://web.archive.org/web/20120418014640/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-18T01:46:40Z",
+        "uri": "http://web.archive.org/web/20120418014640/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-20T12:07:39Z",
+        "uri": "http://web.archive.org/web/20120420120739/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-04-25T03:25:56Z",
+        "uri": "http://wayback.archive-it.org/all/20120425032556/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-04-25T03:25:56Z",
+        "uri": "http://web.archive.org/web/20120425032556/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-02T01:41:37Z",
+        "uri": "http://wayback.archive-it.org/all/20120502014137/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-02T01:41:37Z",
+        "uri": "http://web.archive.org/web/20120502014137/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-03T12:00:21Z",
+        "uri": "http://web.archive.org/web/20120503120021/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-05-09T01:48:22Z",
+        "uri": "http://wayback.archive-it.org/all/20120509014822/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-09T01:48:22Z",
+        "uri": "http://web.archive.org/web/20120509014822/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-16T02:18:51Z",
+        "uri": "http://wayback.archive-it.org/all/20120516021851/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-16T02:18:51Z",
+        "uri": "http://web.archive.org/web/20120516021851/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-17T01:14:31Z",
+        "uri": "http://web.archive.org/web/20120517011431/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-05-23T03:20:02Z",
+        "uri": "http://wayback.archive-it.org/all/20120523032002/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-23T03:20:02Z",
+        "uri": "http://web.archive.org/web/20120523032002/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-30T02:41:35Z",
+        "uri": "http://wayback.archive-it.org/all/20120530024135/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-05-30T02:41:35Z",
+        "uri": "http://web.archive.org/web/20120530024135/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-06T02:43:26Z",
+        "uri": "http://wayback.archive-it.org/all/20120606024326/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-06T02:43:26Z",
+        "uri": "http://web.archive.org/web/20120606024326/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-13T03:10:25Z",
+        "uri": "http://wayback.archive-it.org/all/20120613031025/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-13T03:10:25Z",
+        "uri": "http://web.archive.org/web/20120613031025/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-14T19:41:12Z",
+        "uri": "http://web.archive.org/web/20120614194112/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-06-20T02:25:20Z",
+        "uri": "http://wayback.archive-it.org/all/20120620022520/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-20T02:25:20Z",
+        "uri": "http://web.archive.org/web/20120620022520/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-24T15:21:59Z",
+        "uri": "http://web.archive.org/web/20120624152159/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-06-25T15:48:23Z",
+        "uri": "http://web.archive.org/web/20120625154823/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-06-27T02:42:23Z",
+        "uri": "http://wayback.archive-it.org/all/20120627024223/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-06-27T02:42:23Z",
+        "uri": "http://web.archive.org/web/20120627024223/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-04T03:12:55Z",
+        "uri": "http://wayback.archive-it.org/all/20120704031255/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-04T03:12:55Z",
+        "uri": "http://web.archive.org/web/20120704031255/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-04T15:43:33Z",
+        "uri": "http://web.archive.org/web/20120704154333/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-07-11T02:31:57Z",
+        "uri": "http://wayback.archive-it.org/all/20120711023157/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-11T02:31:57Z",
+        "uri": "http://web.archive.org/web/20120711023157/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-18T02:51:35Z",
+        "uri": "http://wayback.archive-it.org/all/20120718025135/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-18T02:51:35Z",
+        "uri": "http://web.archive.org/web/20120718025135/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-25T03:06:07Z",
+        "uri": "http://wayback.archive-it.org/all/20120725030607/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-25T03:06:07Z",
+        "uri": "http://web.archive.org/web/20120725030607/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-07-31T04:02:00Z",
+        "uri": "http://web.archive.org/web/20120731040200/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-08-01T03:13:04Z",
+        "uri": "http://wayback.archive-it.org/all/20120801031304/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-01T03:13:04Z",
+        "uri": "http://web.archive.org/web/20120801031304/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-07T15:55:54Z",
+        "uri": "http://web.archive.org/web/20120807155554/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-08-08T03:26:35Z",
+        "uri": "http://wayback.archive-it.org/all/20120808032635/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-08T03:26:35Z",
+        "uri": "http://web.archive.org/web/20120808032635/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-14T11:53:10Z",
+        "uri": "http://web.archive.org/web/20120814115310/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-08-15T06:32:34Z",
+        "uri": "http://wayback.archive-it.org/all/20120815063234/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-15T06:32:34Z",
+        "uri": "http://web.archive.org/web/20120815063234/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-22T08:22:43Z",
+        "uri": "http://web.archive.org/web/20120822082243/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-08-22T09:23:26Z",
+        "uri": "http://wayback.archive-it.org/all/20120822092326/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-22T09:23:26Z",
+        "uri": "http://web.archive.org/web/20120822092326/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-25T00:45:22Z",
+        "uri": "http://web.archive.org/web/20120825004522/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-08-29T04:02:59Z",
+        "uri": "http://wayback.archive-it.org/all/20120829040259/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-29T04:02:59Z",
+        "uri": "http://web.archive.org/web/20120829040259/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-08-29T13:25:38Z",
+        "uri": "http://web.archive.org/web/20120829132538/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-09-05T03:12:20Z",
+        "uri": "http://wayback.archive-it.org/all/20120905031220/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-05T03:12:20Z",
+        "uri": "http://web.archive.org/web/20120905031220/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-06T07:53:05Z",
+        "uri": "http://web.archive.org/web/20120906075305/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-09-12T03:28:14Z",
+        "uri": "http://wayback.archive-it.org/all/20120912032814/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-12T03:28:14Z",
+        "uri": "http://web.archive.org/web/20120912032814/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-14T15:13:51Z",
+        "uri": "http://web.archive.org/web/20120914151351/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-09-19T01:37:04Z",
+        "uri": "http://web.archive.org/web/20120919013704/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-19T01:38:10Z",
+        "uri": "http://web.archive.org/web/20120919013810/http://www.viendongdaily.com//"
+      },
+      {
+        "datetime": "2012-09-19T04:08:49Z",
+        "uri": "http://wayback.archive-it.org/all/20120919040849/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-19T04:08:49Z",
+        "uri": "http://web.archive.org/web/20120919040849/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-22T11:01:36Z",
+        "uri": "http://web.archive.org/web/20120922110136/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-09-26T03:32:02Z",
+        "uri": "http://wayback.archive-it.org/all/20120926033202/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-09-26T03:32:02Z",
+        "uri": "http://web.archive.org/web/20120926033202/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-03T04:57:52Z",
+        "uri": "http://wayback.archive-it.org/all/20121003045752/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-03T04:57:52Z",
+        "uri": "http://web.archive.org/web/20121003045752/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-05T23:46:03Z",
+        "uri": "http://wayback.archive-it.org/all/20121005234603/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-05T23:46:03Z",
+        "uri": "http://web.archive.org/web/20121005234603/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-06T00:17:33Z",
+        "uri": "http://wayback.archive-it.org/all/20121006001733/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-06T00:17:33Z",
+        "uri": "http://web.archive.org/web/20121006001733/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2012-10-22T14:43:09Z",
+        "uri": "http://web.archive.org/web/20121022144309/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-10-24T23:28:14Z",
+        "uri": "http://web.archive.org/web/20121024232814/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-10-29T11:00:14Z",
+        "uri": "http://web.archive.org/web/20121029110014/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-11-05T14:52:09Z",
+        "uri": "http://web.archive.org/web/20121105145209/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-11-14T05:57:17Z",
+        "uri": "http://web.archive.org/web/20121114055717/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-11-23T08:38:11Z",
+        "uri": "http://web.archive.org/web/20121123083811/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-12-21T11:33:46Z",
+        "uri": "http://web.archive.org/web/20121221113346/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-12-24T17:16:11Z",
+        "uri": "http://web.archive.org/web/20121224171611/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2012-12-27T21:44:39Z",
+        "uri": "http://web.archive.org/web/20121227214439/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-01-02T19:24:23Z",
+        "uri": "http://web.archive.org/web/20130102192423/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-01-10T04:12:51Z",
+        "uri": "http://web.archive.org/web/20130110041251/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-01-16T08:48:04Z",
+        "uri": "http://web.archive.org/web/20130116084804/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-01-27T10:21:44Z",
+        "uri": "http://web.archive.org/web/20130127102144/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-02-24T05:31:51Z",
+        "uri": "http://web.archive.org/web/20130224053151/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-03-08T07:25:48Z",
+        "uri": "http://web.archive.org/web/20130308072548/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-05-08T05:04:28Z",
+        "uri": "http://archive.md/20130508050428/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2013-05-09T12:58:52Z",
+        "uri": "http://web.archive.org/web/20130509125852/http://viendongdaily.com"
+      },
+      {
+        "datetime": "2013-05-12T16:35:01Z",
+        "uri": "http://web.archive.org/web/20130512163501/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2013-05-14T10:08:05Z",
+        "uri": "http://web.archive.org/web/20130514100805/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2013-05-18T01:07:50Z",
+        "uri": "http://web.archive.org/web/20130518010750/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-05-23T03:21:39Z",
+        "uri": "http://web.archive.org/web/20130523032139/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-05-28T12:02:34Z",
+        "uri": "http://web.archive.org/web/20130528120234/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-06-06T09:37:21Z",
+        "uri": "http://web.archive.org/web/20130606093721/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-06-09T20:42:18Z",
+        "uri": "http://web.archive.org/web/20130609204218/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-06-18T19:01:02Z",
+        "uri": "http://web.archive.org/web/20130618190102/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2013-07-09T16:35:02Z",
+        "uri": "http://web.archive.org/web/20130709163502/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-07-11T13:28:25Z",
+        "uri": "http://web.archive.org/web/20130711132825/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-07-19T00:28:35Z",
+        "uri": "http://web.archive.org/web/20130719002835/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-07-24T09:27:19Z",
+        "uri": "http://web.archive.org/web/20130724092719/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-07-26T16:10:59Z",
+        "uri": "http://web.archive.org/web/20130726161059/http://viendongdaily.com"
+      },
+      {
+        "datetime": "2013-08-28T15:28:07Z",
+        "uri": "http://web.archive.org/web/20130828152807/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-09-06T20:41:42Z",
+        "uri": "http://web.archive.org/web/20130906204142/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-09-10T22:09:36Z",
+        "uri": "http://web.archive.org/web/20130910220936/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-09-17T15:58:15Z",
+        "uri": "http://web.archive.org/web/20130917155815/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-09-26T15:13:10Z",
+        "uri": "http://web.archive.org/web/20130926151310/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2013-11-06T00:56:11Z",
+        "uri": "http://web.archive.org/web/20131106005611/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2013-12-30T09:03:03Z",
+        "uri": "http://web.archive.org/web/20131230090303/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2014-01-08T23:06:06Z",
+        "uri": "http://web.archive.org/web/20140108230606/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2014-02-08T05:48:41Z",
+        "uri": "http://web.archive.org/web/20140208054841/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2014-02-11T01:03:47Z",
+        "uri": "http://web.archive.org/web/20140211010347/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2014-02-27T01:45:32Z",
+        "uri": "http://web.archive.org/web/20140227014532/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2014-02-28T05:25:58Z",
+        "uri": "http://web.archive.org/web/20140228052558/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2014-05-31T10:13:33Z",
+        "uri": "http://web.archive.org/web/20140531101333/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2014-06-25T10:18:00Z",
+        "uri": "http://web.archive.org/web/20140625101800/http://viendongdaily.com/"
+      },
+      {
+        "datetime": "2014-10-20T19:38:31Z",
+        "uri": "http://web.archive.org/web/20141020193831/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2014-10-28T02:01:30Z",
+        "uri": "http://web.archive.org/web/20141028020130/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-01-06T01:32:36Z",
+        "uri": "http://web.archive.org/web/20150106013236/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-02-05T23:14:12Z",
+        "uri": "http://web.archive.org/web/20150205231412/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-02-07T00:50:41Z",
+        "uri": "http://web.archive.org/web/20150207005041/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-02-15T08:21:47Z",
+        "uri": "http://web.archive.org/web/20150215082147/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-02-22T17:36:10Z",
+        "uri": "http://web.archive.org/web/20150222173610/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-03-01T06:07:40Z",
+        "uri": "http://web.archive.org/web/20150301060740/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-03-07T09:25:39Z",
+        "uri": "http://web.archive.org/web/20150307092539/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-03-16T09:49:17Z",
+        "uri": "http://web.archive.org/web/20150316094917/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-03-25T07:11:11Z",
+        "uri": "http://web.archive.org/web/20150325071111/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-04-01T04:59:35Z",
+        "uri": "http://web.archive.org/web/20150401045935/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-05-02T20:25:06Z",
+        "uri": "http://web.archive.org/web/20150502202506/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-05-09T12:15:16Z",
+        "uri": "http://web.archive.org/web/20150509121516/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-08-18T03:48:20Z",
+        "uri": "http://web.archive.org/web/20150818034820/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-08-23T01:03:58Z",
+        "uri": "http://web.archive.org/web/20150823010358/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-08-28T06:08:10Z",
+        "uri": "http://web.archive.org/web/20150828060810/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-09-01T16:36:05Z",
+        "uri": "http://web.archive.org/web/20150901163605/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-09-06T16:50:04Z",
+        "uri": "http://web.archive.org/web/20150906165004/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-09-12T06:25:05Z",
+        "uri": "http://web.archive.org/web/20150912062505/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-09-17T04:56:14Z",
+        "uri": "http://web.archive.org/web/20150917045614/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-09-23T05:00:19Z",
+        "uri": "http://web.archive.org/web/20150923050019/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-09-30T00:12:08Z",
+        "uri": "http://web.archive.org/web/20150930001208/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-10-05T23:27:47Z",
+        "uri": "http://web.archive.org/web/20151005232747/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-10-16T09:18:13Z",
+        "uri": "http://web.archive.org/web/20151016091813/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-10-21T10:48:24Z",
+        "uri": "http://web.archive.org/web/20151021104824/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-10-26T05:31:33Z",
+        "uri": "http://web.archive.org/web/20151026053133/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-10-31T10:11:17Z",
+        "uri": "http://web.archive.org/web/20151031101117/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-11-04T17:50:57Z",
+        "uri": "http://web.archive.org/web/20151104175057/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-11-09T12:01:12Z",
+        "uri": "http://web.archive.org/web/20151109120112/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-11-13T16:42:52Z",
+        "uri": "http://web.archive.org/web/20151113164252/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-11-18T05:50:36Z",
+        "uri": "http://web.archive.org/web/20151118055036/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-11-22T14:32:46Z",
+        "uri": "http://web.archive.org/web/20151122143246/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-11-27T10:21:26Z",
+        "uri": "http://web.archive.org/web/20151127102126/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-12-02T02:10:49Z",
+        "uri": "http://web.archive.org/web/20151202021049/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-12-06T17:09:21Z",
+        "uri": "http://web.archive.org/web/20151206170921/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-12-12T03:08:08Z",
+        "uri": "http://web.archive.org/web/20151212030808/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-12-19T21:18:25Z",
+        "uri": "http://web.archive.org/web/20151219211825/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-12-25T00:31:55Z",
+        "uri": "http://web.archive.org/web/20151225003155/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2015-12-29T21:05:32Z",
+        "uri": "http://web.archive.org/web/20151229210532/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-01-03T15:34:12Z",
+        "uri": "http://web.archive.org/web/20160103153412/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-01-17T01:07:38Z",
+        "uri": "http://web.archive.org/web/20160117010738/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-02-22T18:26:56Z",
+        "uri": "http://web.archive.org/web/20160222182656/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-01T05:28:26Z",
+        "uri": "http://web.archive.org/web/20160301052826/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-05T21:30:40Z",
+        "uri": "http://web.archive.org/web/20160305213040/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-10T07:12:28Z",
+        "uri": "http://web.archive.org/web/20160310071228/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-14T21:50:26Z",
+        "uri": "http://web.archive.org/web/20160314215026/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-19T03:14:58Z",
+        "uri": "http://web.archive.org/web/20160319031458/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-23T21:35:29Z",
+        "uri": "http://web.archive.org/web/20160323213529/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-03-29T13:58:05Z",
+        "uri": "http://web.archive.org/web/20160329135805/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-04-04T14:01:04Z",
+        "uri": "http://web.archive.org/web/20160404140104/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-04-08T20:37:42Z",
+        "uri": "http://web.archive.org/web/20160408203742/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-04-14T15:39:30Z",
+        "uri": "http://web.archive.org/web/20160414153930/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-04-19T15:04:02Z",
+        "uri": "http://web.archive.org/web/20160419150402/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-04-24T12:26:21Z",
+        "uri": "http://web.archive.org/web/20160424122621/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-04-29T05:02:40Z",
+        "uri": "http://web.archive.org/web/20160429050240/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-03T07:35:53Z",
+        "uri": "http://web.archive.org/web/20160503073553/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-08T01:49:25Z",
+        "uri": "http://web.archive.org/web/20160508014925/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-12T12:48:15Z",
+        "uri": "http://web.archive.org/web/20160512124815/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-17T01:36:21Z",
+        "uri": "http://web.archive.org/web/20160517013621/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-22T05:54:34Z",
+        "uri": "http://web.archive.org/web/20160522055434/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-26T21:13:08Z",
+        "uri": "http://web.archive.org/web/20160526211308/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-05-31T06:50:46Z",
+        "uri": "http://web.archive.org/web/20160531065046/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-06-04T19:45:52Z",
+        "uri": "http://web.archive.org/web/20160604194552/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-06-08T23:48:00Z",
+        "uri": "http://web.archive.org/web/20160608234800/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-06-13T08:29:19Z",
+        "uri": "http://web.archive.org/web/20160613082919/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-06-19T01:49:37Z",
+        "uri": "http://web.archive.org/web/20160619014937/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-06-23T13:18:01Z",
+        "uri": "http://web.archive.org/web/20160623131801/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-06-27T19:35:07Z",
+        "uri": "http://web.archive.org/web/20160627193507/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-02T06:02:01Z",
+        "uri": "http://web.archive.org/web/20160702060201/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-06T21:42:00Z",
+        "uri": "http://web.archive.org/web/20160706214200/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-11T03:51:54Z",
+        "uri": "http://web.archive.org/web/20160711035154/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-15T19:08:45Z",
+        "uri": "http://web.archive.org/web/20160715190845/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-20T13:51:58Z",
+        "uri": "http://web.archive.org/web/20160720135158/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-25T09:56:25Z",
+        "uri": "http://web.archive.org/web/20160725095625/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-07-30T05:58:43Z",
+        "uri": "http://web.archive.org/web/20160730055843/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-08-05T06:42:43Z",
+        "uri": "http://web.archive.org/web/20160805064243/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-08-09T20:35:16Z",
+        "uri": "http://web.archive.org/web/20160809203516/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-08-14T12:55:56Z",
+        "uri": "http://web.archive.org/web/20160814125556/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-08-19T03:49:54Z",
+        "uri": "http://web.archive.org/web/20160819034954/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-08-24T04:46:28Z",
+        "uri": "http://web.archive.org/web/20160824044628/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-09-02T05:06:24Z",
+        "uri": "http://web.archive.org/web/20160902050624/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-09-07T05:19:20Z",
+        "uri": "http://web.archive.org/web/20160907051920/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-09-12T04:57:00Z",
+        "uri": "http://web.archive.org/web/20160912045700/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-09-16T19:37:35Z",
+        "uri": "http://web.archive.org/web/20160916193735/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-09-22T01:29:08Z",
+        "uri": "http://web.archive.org/web/20160922012908/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-09-27T07:45:28Z",
+        "uri": "http://web.archive.org/web/20160927074528/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-02T12:39:23Z",
+        "uri": "http://web.archive.org/web/20161002123923/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-07T11:37:24Z",
+        "uri": "http://web.archive.org/web/20161007113724/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-12T13:27:15Z",
+        "uri": "http://web.archive.org/web/20161012132715/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-17T17:06:42Z",
+        "uri": "http://web.archive.org/web/20161017170642/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-19T02:24:02Z",
+        "uri": "http://web.archive.org/web/20161019022402/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-24T08:28:45Z",
+        "uri": "http://web.archive.org/web/20161024082845/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-25T18:33:21Z",
+        "uri": "http://web.archive.org/web/20161025183321/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-10-31T00:58:35Z",
+        "uri": "http://web.archive.org/web/20161031005835/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-11-01T11:51:19Z",
+        "uri": "http://web.archive.org/web/20161101115119/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-11-07T04:39:19Z",
+        "uri": "http://web.archive.org/web/20161107043919/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-11-13T09:25:11Z",
+        "uri": "http://web.archive.org/web/20161113092511/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-11-18T21:58:29Z",
+        "uri": "http://web.archive.org/web/20161118215829/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2016-11-19T03:04:22Z",
+        "uri": "http://web.archive.org/web/20161119030422/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-04-30T06:58:48Z",
+        "uri": "http://web.archive.org/web/20170430065848/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-04-30T07:01:00Z",
+        "uri": "http://web.archive.org/web/20170430070100/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-05-13T06:52:17Z",
+        "uri": "http://web.archive.org/web/20170513065217/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-05-19T12:26:03Z",
+        "uri": "http://web.archive.org/web/20170519122603/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-05-21T21:57:01Z",
+        "uri": "http://web.archive.org/web/20170521215701/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-05-26T02:58:01Z",
+        "uri": "http://web.archive.org/web/20170526025801/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-05-30T04:00:47Z",
+        "uri": "http://web.archive.org/web/20170530040047/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-07T13:15:32Z",
+        "uri": "http://web.archive.org/web/20170607131532/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-09T01:49:50Z",
+        "uri": "http://web.archive.org/web/20170609014950/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-09T01:49:56Z",
+        "uri": "http://web.archive.org/web/20170609014956/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-16T19:04:52Z",
+        "uri": "http://web.archive.org/web/20170616190452/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-20T15:26:12Z",
+        "uri": "http://web.archive.org/web/20170620152612/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-23T20:20:42Z",
+        "uri": "http://web.archive.org/web/20170623202042/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-06-29T17:14:03Z",
+        "uri": "http://web.archive.org/web/20170629171403/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-01T07:21:22Z",
+        "uri": "http://web.archive.org/web/20170701072122/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-06T09:59:08Z",
+        "uri": "http://web.archive.org/web/20170706095908/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-08T23:26:28Z",
+        "uri": "http://web.archive.org/web/20170708232628/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-11T08:29:00Z",
+        "uri": "http://web.archive.org/web/20170711082900/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-15T22:49:47Z",
+        "uri": "http://web.archive.org/web/20170715224947/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-20T06:11:07Z",
+        "uri": "http://web.archive.org/web/20170720061107/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-22T14:51:30Z",
+        "uri": "http://web.archive.org/web/20170722145130/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-26T14:09:21Z",
+        "uri": "http://web.archive.org/web/20170726140921/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-07-31T23:32:14Z",
+        "uri": "http://web.archive.org/web/20170731233214/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-02T08:53:09Z",
+        "uri": "http://web.archive.org/web/20170802085309/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-04T01:03:15Z",
+        "uri": "http://web.archive.org/web/20170804010315/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-07T08:37:41Z",
+        "uri": "http://web.archive.org/web/20170807083741/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-16T12:43:11Z",
+        "uri": "http://web.archive.org/web/20170816124311/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-17T16:49:14Z",
+        "uri": "http://web.archive.org/web/20170817164914/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-22T21:01:49Z",
+        "uri": "http://web.archive.org/web/20170822210149/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-08-29T17:55:07Z",
+        "uri": "http://web.archive.org/web/20170829175507/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-03T19:11:13Z",
+        "uri": "http://web.archive.org/web/20170903191113/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-05T07:43:39Z",
+        "uri": "http://web.archive.org/web/20170905074339/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-05T18:00:36Z",
+        "uri": "http://web.archive.org/web/20170905180036/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-08T06:52:38Z",
+        "uri": "http://web.archive.org/web/20170908065238/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-12T07:23:59Z",
+        "uri": "http://web.archive.org/web/20170912072359/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-18T01:34:34Z",
+        "uri": "http://web.archive.org/web/20170918013434/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-23T21:00:43Z",
+        "uri": "http://web.archive.org/web/20170923210043/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-23T21:01:13Z",
+        "uri": "http://web.archive.org/web/20170923210113/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-09-30T09:06:04Z",
+        "uri": "http://web.archive.org/web/20170930090604/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-04T10:24:46Z",
+        "uri": "http://web.archive.org/web/20171004102446/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-05T16:55:17Z",
+        "uri": "http://web.archive.org/web/20171005165517/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-07T07:12:38Z",
+        "uri": "http://web.archive.org/web/20171007071238/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-12T18:10:38Z",
+        "uri": "http://web.archive.org/web/20171012181038/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-14T05:57:08Z",
+        "uri": "http://web.archive.org/web/20171014055708/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-20T18:36:42Z",
+        "uri": "http://web.archive.org/web/20171020183642/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-21T11:57:23Z",
+        "uri": "http://web.archive.org/web/20171021115723/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-26T16:22:16Z",
+        "uri": "http://web.archive.org/web/20171026162216/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-10-30T15:59:17Z",
+        "uri": "http://web.archive.org/web/20171030155917/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-01T00:40:14Z",
+        "uri": "http://web.archive.org/web/20171101004014/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-07T07:16:39Z",
+        "uri": "http://web.archive.org/web/20171107071639/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-08T19:06:49Z",
+        "uri": "http://web.archive.org/web/20171108190649/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-12T16:14:53Z",
+        "uri": "http://web.archive.org/web/20171112161453/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-18T19:20:28Z",
+        "uri": "http://web.archive.org/web/20171118192028/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-19T00:33:50Z",
+        "uri": "http://web.archive.org/web/20171119003350/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-11-22T17:58:53Z",
+        "uri": "http://web.archive.org/web/20171122175853/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2017-11-22T18:52:29Z",
+        "uri": "http://web.archive.org/web/20171122185229/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2017-11-24T12:39:33Z",
+        "uri": "http://web.archive.org/web/20171124123933/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-02T17:55:12Z",
+        "uri": "http://web.archive.org/web/20171202175512/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-02T19:14:35Z",
+        "uri": "http://web.archive.org/web/20171202191435/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-09T07:22:42Z",
+        "uri": "http://web.archive.org/web/20171209072242/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-09T21:12:15Z",
+        "uri": "http://web.archive.org/web/20171209211215/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-15T05:33:20Z",
+        "uri": "http://web.archive.org/web/20171215053320/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-17T01:23:58Z",
+        "uri": "http://web.archive.org/web/20171217012358/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-22T10:40:36Z",
+        "uri": "http://web.archive.org/web/20171222104036/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-27T12:00:36Z",
+        "uri": "http://web.archive.org/web/20171227120036/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-30T12:52:50Z",
+        "uri": "http://web.archive.org/web/20171230125250/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2017-12-30T12:53:07Z",
+        "uri": "http://web.archive.org/web/20171230125307/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-06T07:16:21Z",
+        "uri": "http://web.archive.org/web/20180106071621/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-09T01:34:27Z",
+        "uri": "http://web.archive.org/web/20180109013427/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-12T16:24:52Z",
+        "uri": "http://web.archive.org/web/20180112162452/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-17T03:03:22Z",
+        "uri": "http://web.archive.org/web/20180117030322/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-17T19:30:04Z",
+        "uri": "http://web.archive.org/web/20180117193004/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-22T09:01:40Z",
+        "uri": "http://web.archive.org/web/20180122090140/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-24T15:06:13Z",
+        "uri": "http://web.archive.org/web/20180124150613/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-01-26T19:09:53Z",
+        "uri": "http://web.archive.org/web/20180126190953/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-01T07:32:48Z",
+        "uri": "http://web.archive.org/web/20180201073248/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-02T18:23:05Z",
+        "uri": "http://web.archive.org/web/20180202182305/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-06T03:15:24Z",
+        "uri": "http://web.archive.org/web/20180206031524/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-09T16:57:46Z",
+        "uri": "http://web.archive.org/web/20180209165746/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-10T14:20:36Z",
+        "uri": "http://web.archive.org/web/20180210142036/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-15T01:32:27Z",
+        "uri": "http://web.archive.org/web/20180215013227/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-16T13:41:21Z",
+        "uri": "http://web.archive.org/web/20180216134121/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-20T11:10:36Z",
+        "uri": "http://web.archive.org/web/20180220111036/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-24T02:04:56Z",
+        "uri": "http://web.archive.org/web/20180224020456/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-02-24T20:07:04Z",
+        "uri": "http://web.archive.org/web/20180224200704/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-01T15:58:14Z",
+        "uri": "http://web.archive.org/web/20180301155814/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-02T04:03:52Z",
+        "uri": "http://web.archive.org/web/20180302040352/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-02T23:47:24Z",
+        "uri": "http://web.archive.org/web/20180302234724/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-10T00:32:00Z",
+        "uri": "http://web.archive.org/web/20180310003200/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-10T00:34:45Z",
+        "uri": "http://web.archive.org/web/20180310003445/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-15T03:46:03Z",
+        "uri": "http://web.archive.org/web/20180315034603/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-18T02:51:56Z",
+        "uri": "http://web.archive.org/web/20180318025156/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-20T20:03:49Z",
+        "uri": "http://web.archive.org/web/20180320200349/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-26T06:28:17Z",
+        "uri": "http://web.archive.org/web/20180326062817/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-26T06:43:16Z",
+        "uri": "http://web.archive.org/web/20180326064316/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-03-31T10:27:12Z",
+        "uri": "http://web.archive.org/web/20180331102712/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-14T04:04:34Z",
+        "uri": "http://web.archive.org/web/20180414040434/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-14T04:39:18Z",
+        "uri": "http://web.archive.org/web/20180414043918/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-18T17:55:27Z",
+        "uri": "http://web.archive.org/web/20180418175527/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-24T09:01:54Z",
+        "uri": "http://web.archive.org/web/20180424090154/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-24T09:19:27Z",
+        "uri": "http://web.archive.org/web/20180424091927/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-25T21:55:43Z",
+        "uri": "http://web.archive.org/web/20180425215543/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-25T21:58:02Z",
+        "uri": "http://web.archive.org/web/20180425215802/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-04-30T15:11:37Z",
+        "uri": "http://web.archive.org/web/20180430151137/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-05-03T13:35:15Z",
+        "uri": "http://web.archive.org/web/20180503133515/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-05-04T15:03:36Z",
+        "uri": "http://web.archive.org/web/20180504150336/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-05-22T23:28:52Z",
+        "uri": "http://web.archive.org/web/20180522232852/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-05-23T13:11:10Z",
+        "uri": "http://web.archive.org/web/20180523131110/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-05-27T09:18:03Z",
+        "uri": "http://web.archive.org/web/20180527091803/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-01T10:46:31Z",
+        "uri": "http://web.archive.org/web/20180601104631/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-06T23:12:15Z",
+        "uri": "http://web.archive.org/web/20180606231215/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-06T23:12:35Z",
+        "uri": "http://web.archive.org/web/20180606231235/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-12T02:01:12Z",
+        "uri": "http://web.archive.org/web/20180612020112/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-18T18:09:43Z",
+        "uri": "http://web.archive.org/web/20180618180943/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-25T14:11:51Z",
+        "uri": "http://web.archive.org/web/20180625141151/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-06-28T21:49:24Z",
+        "uri": "http://web.archive.org/web/20180628214924/http://www.viendongdaily.com"
+      },
+      {
+        "datetime": "2018-06-29T14:59:01Z",
+        "uri": "http://web.archive.org/web/20180629145901/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2018-06-29T15:59:00Z",
+        "uri": "http://web.archive.org/web/20180629155900/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2018-06-29T16:59:01Z",
+        "uri": "http://web.archive.org/web/20180629165901/http://www.viendongdaily.com/"
+      },
+      {
+        "datetime": "2018-06-30T05:38:09Z",
+        "uri": "http://web.archive.org/web/20180630053809/http://viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-07-01T21:38:12Z",
+        "uri": "http://web.archive.org/web/20180701213812/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2018-07-08T21:50:34Z",
+        "uri": "http://web.archive.org/web/20180708215034/http://www.viendongdaily.com:80/"
+      },
+      {
+        "datetime": "2019-01-17T12:44:52Z",
+        "uri": "http://web.archive.org/web/20190117124452/http://www.viendongdaily.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2006-04-10T17:28:09Z",
+      "uri": "http://web.archive.org/web/20060410172809/http://www.viendongdaily.com:80/"
+    },
+    "last": {
+      "datetime": "2019-01-17T12:44:52Z",
+      "uri": "http://web.archive.org/web/20190117124452/http://www.viendongdaily.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://viendongdaily.com",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://viendongdaily.com",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://viendongdaily.com"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://viendongdaily.com"
+}

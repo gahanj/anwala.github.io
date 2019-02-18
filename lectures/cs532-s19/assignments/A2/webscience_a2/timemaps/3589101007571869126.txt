@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T22:18:56Z",
+        "uri": "http://web.archive.org/web/20190207221856/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T22:18:56Z",
+      "uri": "http://web.archive.org/web/20190207221856/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors"
+    },
+    "last": {
+      "datetime": "2019-02-07T22:18:56Z",
+      "uri": "http://web.archive.org/web/20190207221856/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/policy/healthcare/428964-fda-says-nearly-1400-walgreens-stores-have-sold-tobacco-products-to-minors"
+}

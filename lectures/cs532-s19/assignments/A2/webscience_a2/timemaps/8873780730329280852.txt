@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.brito.id/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.brito.id/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-28T08:58:48Z",
+        "uri": "http://web.archive.org/web/20180628085848/http://brito.id:80/"
+      },
+      {
+        "datetime": "2018-09-09T15:54:17Z",
+        "uri": "http://web.archive.org/web/20180909155417/http://brito.id"
+      },
+      {
+        "datetime": "2018-09-09T15:54:18Z",
+        "uri": "http://web.archive.org/web/20180909155418/https://www.brito.id/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-28T08:58:48Z",
+      "uri": "http://web.archive.org/web/20180628085848/http://brito.id:80/"
+    },
+    "last": {
+      "datetime": "2018-09-09T15:54:18Z",
+      "uri": "http://web.archive.org/web/20180909155418/https://www.brito.id/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.brito.id/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.brito.id/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.brito.id/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.brito.id/"
+}

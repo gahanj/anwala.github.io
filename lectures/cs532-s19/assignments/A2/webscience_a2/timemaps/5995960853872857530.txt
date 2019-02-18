@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T14:10:45Z",
+        "uri": "http://web.archive.org/web/20190207141045/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T14:10:45Z",
+      "uri": "http://web.archive.org/web/20190207141045/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:10:45Z",
+      "uri": "http://web.archive.org/web/20190207141045/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thepoliticalinsider.com/ocasio-cortez-trump-sotu/"
+}

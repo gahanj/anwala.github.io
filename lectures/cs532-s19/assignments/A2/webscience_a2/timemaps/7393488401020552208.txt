@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-08T07:33:02Z",
+        "uri": "http://web.archive.org/web/20181108073302/http://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+      },
+      {
+        "datetime": "2018-11-08T16:42:23Z",
+        "uri": "http://web.archive.org/web/20181108164223/http://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+      },
+      {
+        "datetime": "2018-11-14T00:09:43Z",
+        "uri": "http://web.archive.org/web/20181114000943/http://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+      },
+      {
+        "datetime": "2018-11-16T10:59:06Z",
+        "uri": "http://web.archive.org/web/20181116105906/http://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-08T07:33:02Z",
+      "uri": "http://web.archive.org/web/20181108073302/http://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+    },
+    "last": {
+      "datetime": "2018-11-16T10:59:06Z",
+      "uri": "http://web.archive.org/web/20181116105906/http://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://insider.foxnews.com/2018/11/07/tucker-carlson-democrats-2018-election-message-all-about-trump-tax-returns"
+}

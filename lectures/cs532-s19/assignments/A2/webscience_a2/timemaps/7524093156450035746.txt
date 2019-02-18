@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-24T15:24:25Z",
+        "uri": "http://web.archive.org/web/20181224152425/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-24T15:24:25Z",
+      "uri": "http://web.archive.org/web/20181224152425/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be"
+    },
+    "last": {
+      "datetime": "2018-12-24T15:24:25Z",
+      "uri": "http://web.archive.org/web/20181224152425/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.youtube.com/watch?v=mzcNTtgDlg8&feature=youtu.be"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:56:36Z",
+        "uri": "http://web.archive.org/web/20190209205636/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+      },
+      {
+        "datetime": "2019-02-09T20:56:42Z",
+        "uri": "http://archive.md/20190209205642/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+      },
+      {
+        "datetime": "2019-02-09T23:26:50Z",
+        "uri": "http://web.archive.org/web/20190209232650/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+      },
+      {
+        "datetime": "2019-02-10T00:47:23Z",
+        "uri": "http://web.archive.org/web/20190210004723/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+      },
+      {
+        "datetime": "2019-02-10T06:11:10Z",
+        "uri": "http://web.archive.org/web/20190210061110/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:56:36Z",
+      "uri": "http://web.archive.org/web/20190209205636/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:11:10Z",
+      "uri": "http://web.archive.org/web/20190210061110/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/09/opinion/sunday/trump-technology-overload.html"
+}

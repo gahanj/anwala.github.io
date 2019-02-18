@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T21:47:54Z",
+        "uri": "http://web.archive.org/web/20190208214754/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union"
+      },
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T21:47:54Z",
+      "uri": "http://web.archive.org/web/20190208214754/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:06:18Z",
+      "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/hilltv/what-americas-thinking/429148-president-trumps-approval-rating-rises-after-state-of-the-union"
+}

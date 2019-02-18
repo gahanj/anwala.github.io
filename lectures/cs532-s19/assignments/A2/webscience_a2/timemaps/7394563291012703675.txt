@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/london-never-donald-trump/15804/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T02:49:51Z",
+        "uri": "http://web.archive.org/web/20190210024951/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/"
+      },
+      {
+        "datetime": "2019-02-10T02:49:51Z",
+        "uri": "http://web.archive.org/web/20190210024951/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T02:49:51Z",
+      "uri": "http://web.archive.org/web/20190210024951/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:49:51Z",
+      "uri": "http://web.archive.org/web/20190210024951/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/london-never-donald-trump/15804/"
+}

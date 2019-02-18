@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.newscorpse.com/ncWP/?p=40515",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.newscorpse.com/ncWP/?p=40515",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:12:50Z",
+        "uri": "http://web.archive.org/web/20190210001250/https://www.newscorpse.com/ncWP/?p=40515"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:12:50Z",
+      "uri": "http://web.archive.org/web/20190210001250/https://www.newscorpse.com/ncWP/?p=40515"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:12:50Z",
+      "uri": "http://web.archive.org/web/20190210001250/https://www.newscorpse.com/ncWP/?p=40515"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.newscorpse.com/ncWP/?p=40515",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.newscorpse.com/ncWP/?p=40515",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.newscorpse.com/ncWP/?p=40515"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.newscorpse.com/ncWP/?p=40515"
+}

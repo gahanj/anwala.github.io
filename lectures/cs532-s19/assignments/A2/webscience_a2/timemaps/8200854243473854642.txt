@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:42:47Z",
+        "uri": "http://web.archive.org/web/20190209084247/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold"
+      },
+      {
+        "datetime": "2019-02-09T14:49:03Z",
+        "uri": "http://web.archive.org/web/20190209144903/http://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:42:47Z",
+      "uri": "http://web.archive.org/web/20190209084247/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold"
+    },
+    "last": {
+      "datetime": "2019-02-09T14:49:03Z",
+      "uri": "http://web.archive.org/web/20190209144903/http://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailykos.com/stories/2019/2/8/1833271/-Despite-talk-of-national-emergencies-or-a-second-shutdown-Trump-is-likely-to-fold"
+}

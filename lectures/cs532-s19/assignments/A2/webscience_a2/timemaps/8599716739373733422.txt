@@ -1,0 +1,2818 @@
+{
+  "original_uri": "https://trumpgolfcount.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://trumpgolfcount.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-03-07T04:59:31Z",
+        "uri": "http://web.archive.org/web/20170307045931/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-03-18T03:47:35Z",
+        "uri": "http://web.archive.org/web/20170318034735/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-03-26T03:30:50Z",
+        "uri": "http://web.archive.org/web/20170326033050/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-03-28T14:34:12Z",
+        "uri": "http://web.archive.org/web/20170328143412/http://trumpgolfcount.com"
+      },
+      {
+        "datetime": "2017-04-15T09:54:36Z",
+        "uri": "http://web.archive.org/web/20170415095436/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-04-16T00:12:29Z",
+        "uri": "http://web.archive.org/web/20170416001229/http://www.trumpgolfcount.com"
+      },
+      {
+        "datetime": "2017-04-27T01:48:13Z",
+        "uri": "http://web.archive.org/web/20170427014813/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-04-29T12:08:55Z",
+        "uri": "http://web.archive.org/web/20170429120855/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-05-10T09:32:36Z",
+        "uri": "http://web.archive.org/web/20170510093236/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-05-23T16:06:34Z",
+        "uri": "http://web.archive.org/web/20170523160634/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-06-01T18:24:45Z",
+        "uri": "http://web.archive.org/web/20170601182445/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-06-03T21:27:47Z",
+        "uri": "http://web.archive.org/web/20170603212747/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-06-07T06:00:30Z",
+        "uri": "http://web.archive.org/web/20170607060030/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-06-14T19:30:00Z",
+        "uri": "http://web.archive.org/web/20170614193000/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-06-18T11:09:47Z",
+        "uri": "http://web.archive.org/web/20170618110947/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-06-19T12:26:51Z",
+        "uri": "http://web.archive.org/web/20170619122651/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-06-19T22:32:01Z",
+        "uri": "http://web.archive.org/web/20170619223201/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-06-20T23:47:44Z",
+        "uri": "http://web.archive.org/web/20170620234744/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-06-22T03:32:55Z",
+        "uri": "http://web.archive.org/web/20170622033255/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-06-22T17:01:42Z",
+        "uri": "http://web.archive.org/web/20170622170142/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-07-05T08:22:12Z",
+        "uri": "http://web.archive.org/web/20170705082212/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-07-07T18:56:19Z",
+        "uri": "http://web.archive.org/web/20170707185619/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-07-17T03:02:22Z",
+        "uri": "http://web.archive.org/web/20170717030222/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-07-18T04:14:24Z",
+        "uri": "http://wayback.archive-it.org/all/20170718041424/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-07-18T04:14:24Z",
+        "uri": "http://web.archive.org/web/20170718041424/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-07-21T13:07:11Z",
+        "uri": "http://web.archive.org/web/20170721130711/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-07-22T09:56:39Z",
+        "uri": "http://web.archive.org/web/20170722095639/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-07-24T15:50:49Z",
+        "uri": "http://web.archive.org/web/20170724155049/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-07-30T00:38:52Z",
+        "uri": "http://web.archive.org/web/20170730003852/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-07-31T14:42:26Z",
+        "uri": "http://web.archive.org/web/20170731144226/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-05T06:13:01Z",
+        "uri": "http://web.archive.org/web/20170805061301/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-05T19:55:37Z",
+        "uri": "http://web.archive.org/web/20170805195537/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-05T20:21:28Z",
+        "uri": "http://web.archive.org/web/20170805202128/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-05T23:13:14Z",
+        "uri": "http://web.archive.org/web/20170805231314/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-06T04:49:23Z",
+        "uri": "http://web.archive.org/web/20170806044923/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-06T11:01:16Z",
+        "uri": "http://web.archive.org/web/20170806110116/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-08T05:03:03Z",
+        "uri": "http://web.archive.org/web/20170808050303/http://trumpgolfcount.com"
+      },
+      {
+        "datetime": "2017-08-09T20:55:00Z",
+        "uri": "http://archive.md/20170809205500/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-10T22:57:00Z",
+        "uri": "http://web.archive.org/web/20170810225700/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-13T08:48:55Z",
+        "uri": "http://web.archive.org/web/20170813084855/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-14T09:07:57Z",
+        "uri": "http://web.archive.org/web/20170814090757/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-17T00:37:35Z",
+        "uri": "http://web.archive.org/web/20170817003735/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-17T17:38:10Z",
+        "uri": "http://web.archive.org/web/20170817173810/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-19T17:50:22Z",
+        "uri": "http://web.archive.org/web/20170819175022/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-19T18:16:51Z",
+        "uri": "http://web.archive.org/web/20170819181651/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-19T18:16:52Z",
+        "uri": "http://web.archive.org/web/20170819181652/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-19T22:26:24Z",
+        "uri": "http://wayback.archive-it.org/all/20170819222624/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-19T22:26:24Z",
+        "uri": "http://web.archive.org/web/20170819222624/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-19T22:26:27Z",
+        "uri": "http://wayback.archive-it.org/all/20170819222627/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-19T22:26:27Z",
+        "uri": "http://web.archive.org/web/20170819222627/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-21T11:02:16Z",
+        "uri": "http://web.archive.org/web/20170821110216/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-22T05:18:48Z",
+        "uri": "http://web.archive.org/web/20170822051848/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-24T03:40:22Z",
+        "uri": "http://web.archive.org/web/20170824034022/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-24T04:00:06Z",
+        "uri": "http://web.archive.org/web/20170824040006/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-24T05:00:29Z",
+        "uri": "http://web.archive.org/web/20170824050029/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-29T13:00:06Z",
+        "uri": "http://web.archive.org/web/20170829130006/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-08-30T00:58:16Z",
+        "uri": "http://wayback.archive-it.org/all/20170830005816/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-30T00:58:16Z",
+        "uri": "http://web.archive.org/web/20170830005816/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-30T00:58:23Z",
+        "uri": "http://wayback.archive-it.org/all/20170830005823/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-30T00:58:23Z",
+        "uri": "http://web.archive.org/web/20170830005823/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-08-31T09:55:36Z",
+        "uri": "http://web.archive.org/web/20170831095536/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-01T06:46:39Z",
+        "uri": "http://web.archive.org/web/20170901064639/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-04T00:10:26Z",
+        "uri": "http://web.archive.org/web/20170904001026/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-04T23:30:48Z",
+        "uri": "http://web.archive.org/web/20170904233048/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-09-05T02:56:37Z",
+        "uri": "http://web.archive.org/web/20170905025637/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-05T15:47:45Z",
+        "uri": "http://web.archive.org/web/20170905154745/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-09-11T04:12:57Z",
+        "uri": "http://web.archive.org/web/20170911041257/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-12T08:47:47Z",
+        "uri": "http://web.archive.org/web/20170912084747/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-09-19T22:32:15Z",
+        "uri": "http://wayback.archive-it.org/all/20170919223215/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-19T22:32:15Z",
+        "uri": "http://web.archive.org/web/20170919223215/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-19T22:32:17Z",
+        "uri": "http://wayback.archive-it.org/all/20170919223217/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-19T22:32:17Z",
+        "uri": "http://web.archive.org/web/20170919223217/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-09-22T03:11:58Z",
+        "uri": "http://web.archive.org/web/20170922031158/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-01T07:10:05Z",
+        "uri": "http://web.archive.org/web/20171001071005/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-01T07:20:24Z",
+        "uri": "http://web.archive.org/web/20171001072024/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-01T07:32:16Z",
+        "uri": "http://web.archive.org/web/20171001073216/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-01T07:51:44Z",
+        "uri": "http://web.archive.org/web/20171001075144/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-03T06:14:56Z",
+        "uri": "http://web.archive.org/web/20171003061456/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-05T16:29:00Z",
+        "uri": "http://web.archive.org/web/20171005162900/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-08T15:56:06Z",
+        "uri": "http://web.archive.org/web/20171008155606/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-09T00:51:00Z",
+        "uri": "http://web.archive.org/web/20171009005100/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-09T21:48:16Z",
+        "uri": "http://web.archive.org/web/20171009214816/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-09T22:17:03Z",
+        "uri": "http://web.archive.org/web/20171009221703/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-11T15:14:41Z",
+        "uri": "http://web.archive.org/web/20171011151441/http://trumpgolfcount.com"
+      },
+      {
+        "datetime": "2017-10-13T07:35:34Z",
+        "uri": "http://web.archive.org/web/20171013073534/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-15T18:27:03Z",
+        "uri": "http://web.archive.org/web/20171015182703/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-16T11:00:53Z",
+        "uri": "http://web.archive.org/web/20171016110053/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-16T18:59:58Z",
+        "uri": "http://web.archive.org/web/20171016185958/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2017-10-17T00:32:56Z",
+        "uri": "http://web.archive.org/web/20171017003256/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-19T18:05:42Z",
+        "uri": "http://web.archive.org/web/20171019180542/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-19T21:03:18Z",
+        "uri": "http://wayback.archive-it.org/all/20171019210318/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-19T21:03:18Z",
+        "uri": "http://web.archive.org/web/20171019210318/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-19T21:03:21Z",
+        "uri": "http://wayback.archive-it.org/all/20171019210321/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-19T21:03:21Z",
+        "uri": "http://web.archive.org/web/20171019210321/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-22T08:16:26Z",
+        "uri": "http://wayback.archive-it.org/all/20171022081626/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-22T08:16:26Z",
+        "uri": "http://web.archive.org/web/20171022081626/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-24T15:11:11Z",
+        "uri": "http://web.archive.org/web/20171024151111/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-10-28T18:28:53Z",
+        "uri": "http://web.archive.org/web/20171028182853/http://trumpgolfcount.com"
+      },
+      {
+        "datetime": "2017-10-29T00:39:01Z",
+        "uri": "http://web.archive.org/web/20171029003901/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-10-29T04:36:30Z",
+        "uri": "http://web.archive.org/web/20171029043630/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-02T07:41:10Z",
+        "uri": "http://web.archive.org/web/20171102074110/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-02T08:24:02Z",
+        "uri": "http://web.archive.org/web/20171102082402/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-04T03:17:10Z",
+        "uri": "http://web.archive.org/web/20171104031710/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-06T21:10:56Z",
+        "uri": "http://web.archive.org/web/20171106211056/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-09T09:33:49Z",
+        "uri": "http://web.archive.org/web/20171109093349/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-12T07:31:52Z",
+        "uri": "http://web.archive.org/web/20171112073152/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-12T09:23:07Z",
+        "uri": "http://web.archive.org/web/20171112092307/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-17T01:31:45Z",
+        "uri": "http://web.archive.org/web/20171117013145/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-17T01:47:37Z",
+        "uri": "http://web.archive.org/web/20171117014737/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2017-11-17T21:59:52Z",
+        "uri": "http://wayback.archive-it.org/all/20171117215952/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-17T21:59:52Z",
+        "uri": "http://web.archive.org/web/20171117215952/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-17T21:59:57Z",
+        "uri": "http://wayback.archive-it.org/all/20171117215957/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-17T21:59:57Z",
+        "uri": "http://web.archive.org/web/20171117215957/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-20T04:59:49Z",
+        "uri": "http://web.archive.org/web/20171120045949/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-22T03:56:33Z",
+        "uri": "http://web.archive.org/web/20171122035633/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-24T02:58:43Z",
+        "uri": "http://wayback.archive-it.org/all/20171124025843/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-24T02:58:43Z",
+        "uri": "http://web.archive.org/web/20171124025843/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-24T02:58:46Z",
+        "uri": "http://wayback.archive-it.org/all/20171124025846/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-24T02:58:46Z",
+        "uri": "http://web.archive.org/web/20171124025846/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-24T08:47:52Z",
+        "uri": "http://web.archive.org/web/20171124084752/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-11-27T08:05:35Z",
+        "uri": "http://web.archive.org/web/20171127080535/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-11-29T15:22:17Z",
+        "uri": "http://web.archive.org/web/20171129152217/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-01T23:49:51Z",
+        "uri": "http://wayback.archive-it.org/all/20171201234951/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-01T23:49:51Z",
+        "uri": "http://web.archive.org/web/20171201234951/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-02T10:29:16Z",
+        "uri": "http://web.archive.org/web/20171202102916/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-07T01:20:32Z",
+        "uri": "http://web.archive.org/web/20171207012032/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-07T15:33:41Z",
+        "uri": "http://web.archive.org/web/20171207153341/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-08T14:30:25Z",
+        "uri": "http://wayback.archive-it.org/all/20171208143025/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-08T14:30:25Z",
+        "uri": "http://web.archive.org/web/20171208143025/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-08T14:30:38Z",
+        "uri": "http://wayback.archive-it.org/all/20171208143038/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-08T14:30:38Z",
+        "uri": "http://web.archive.org/web/20171208143038/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-12T06:39:23Z",
+        "uri": "http://web.archive.org/web/20171212063923/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-17T00:23:30Z",
+        "uri": "http://web.archive.org/web/20171217002330/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-17T21:47:53Z",
+        "uri": "http://web.archive.org/web/20171217214753/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2017-12-18T03:18:30Z",
+        "uri": "http://web.archive.org/web/20171218031830/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-18T03:18:42Z",
+        "uri": "http://web.archive.org/web/20171218031842/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-18T06:38:20Z",
+        "uri": "http://web.archive.org/web/20171218063820/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-18T09:40:04Z",
+        "uri": "http://web.archive.org/web/20171218094004/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-21T16:31:44Z",
+        "uri": "http://web.archive.org/web/20171221163144/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-22T22:14:14Z",
+        "uri": "http://web.archive.org/web/20171222221414/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-23T01:01:38Z",
+        "uri": "http://web.archive.org/web/20171223010138/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-25T04:50:35Z",
+        "uri": "http://web.archive.org/web/20171225045035/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-25T11:15:04Z",
+        "uri": "http://web.archive.org/web/20171225111504/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-26T12:56:00Z",
+        "uri": "http://web.archive.org/web/20171226125600/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-27T19:28:18Z",
+        "uri": "http://web.archive.org/web/20171227192818/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-28T09:01:54Z",
+        "uri": "http://web.archive.org/web/20171228090154/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2017-12-28T09:10:22Z",
+        "uri": "http://web.archive.org/web/20171228091022/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-29T07:00:50Z",
+        "uri": "http://wayback.archive-it.org/all/20171229070050/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-29T07:00:50Z",
+        "uri": "http://web.archive.org/web/20171229070050/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-29T07:00:52Z",
+        "uri": "http://wayback.archive-it.org/all/20171229070052/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-29T07:00:52Z",
+        "uri": "http://web.archive.org/web/20171229070052/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-29T22:29:02Z",
+        "uri": "http://web.archive.org/web/20171229222902/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-30T01:35:18Z",
+        "uri": "http://wayback.archive-it.org/all/20171230013518/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-30T01:35:18Z",
+        "uri": "http://web.archive.org/web/20171230013518/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-30T01:35:27Z",
+        "uri": "http://wayback.archive-it.org/all/20171230013527/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-30T01:35:27Z",
+        "uri": "http://web.archive.org/web/20171230013527/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-30T03:59:13Z",
+        "uri": "http://web.archive.org/web/20171230035913/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2017-12-31T21:14:02Z",
+        "uri": "http://web.archive.org/web/20171231211402/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-02T15:36:24Z",
+        "uri": "http://web.archive.org/web/20180102153624/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-03T06:06:58Z",
+        "uri": "http://web.archive.org/web/20180103060658/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-04T00:36:01Z",
+        "uri": "http://web.archive.org/web/20180104003601/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-04T20:14:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180104201400/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-04T20:14:00Z",
+        "uri": "http://web.archive.org/web/20180104201400/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-07T11:17:38Z",
+        "uri": "http://wayback.archive-it.org/all/20180107111738/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-07T11:17:38Z",
+        "uri": "http://web.archive.org/web/20180107111738/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-07T11:18:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180107111821/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-07T11:18:21Z",
+        "uri": "http://web.archive.org/web/20180107111821/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-08T04:07:25Z",
+        "uri": "http://web.archive.org/web/20180108040725/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-12T00:50:29Z",
+        "uri": "http://web.archive.org/web/20180112005029/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-16T01:20:19Z",
+        "uri": "http://web.archive.org/web/20180116012019/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-16T05:49:36Z",
+        "uri": "http://web.archive.org/web/20180116054936/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-16T05:49:36Z",
+        "uri": "http://web.archive.org/web/20180116054936/http://http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-18T04:18:32Z",
+        "uri": "http://web.archive.org/web/20180118041832/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2018-01-18T05:15:04Z",
+        "uri": "http://web.archive.org/web/20180118051504/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-20T18:02:08Z",
+        "uri": "http://web.archive.org/web/20180120180208/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-21T01:56:13Z",
+        "uri": "http://web.archive.org/web/20180121015613/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-21T04:59:17Z",
+        "uri": "http://web.archive.org/web/20180121045917/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-21T04:59:21Z",
+        "uri": "http://web.archive.org/web/20180121045921/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-23T19:06:06Z",
+        "uri": "http://web.archive.org/web/20180123190606/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T08:41:44Z",
+        "uri": "http://web.archive.org/web/20180124084144/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T13:58:18Z",
+        "uri": "http://web.archive.org/web/20180124135818/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-24T20:26:32Z",
+        "uri": "http://web.archive.org/web/20180124202632/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T21:49:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180124214946/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T21:49:46Z",
+        "uri": "http://web.archive.org/web/20180124214946/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T22:00:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180124220029/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T22:00:29Z",
+        "uri": "http://web.archive.org/web/20180124220029/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T23:13:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180124231300/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T23:13:00Z",
+        "uri": "http://web.archive.org/web/20180124231300/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T23:14:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180124231432/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-24T23:14:32Z",
+        "uri": "http://web.archive.org/web/20180124231432/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T00:27:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180125002729/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T00:27:29Z",
+        "uri": "http://web.archive.org/web/20180125002729/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T00:27:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180125002745/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T00:27:45Z",
+        "uri": "http://web.archive.org/web/20180125002745/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T01:17:38Z",
+        "uri": "http://wayback.archive-it.org/all/20180125011738/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T01:17:38Z",
+        "uri": "http://web.archive.org/web/20180125011738/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T01:25:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180125012527/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T01:25:27Z",
+        "uri": "http://web.archive.org/web/20180125012527/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T02:22:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180125022211/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T02:22:11Z",
+        "uri": "http://web.archive.org/web/20180125022211/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T02:33:08Z",
+        "uri": "http://web.archive.org/web/20180125023308/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-25T08:14:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180125081410/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T08:14:10Z",
+        "uri": "http://web.archive.org/web/20180125081410/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T15:02:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180125150201/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T15:02:01Z",
+        "uri": "http://web.archive.org/web/20180125150201/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T17:20:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180125172034/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T17:20:34Z",
+        "uri": "http://web.archive.org/web/20180125172034/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-25T22:03:00Z",
+        "uri": "http://web.archive.org/web/20180125220300/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-26T22:38:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180126223839/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-26T22:38:39Z",
+        "uri": "http://web.archive.org/web/20180126223839/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-29T04:17:56Z",
+        "uri": "http://web.archive.org/web/20180129041756/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-31T07:39:23Z",
+        "uri": "http://web.archive.org/web/20180131073923/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-01-31T17:02:31Z",
+        "uri": "http://web.archive.org/web/20180131170231/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-31T18:33:23Z",
+        "uri": "http://web.archive.org/web/20180131183323/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-31T20:36:52Z",
+        "uri": "http://web.archive.org/web/20180131203652/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-31T22:31:02Z",
+        "uri": "http://web.archive.org/web/20180131223102/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-01-31T23:46:10Z",
+        "uri": "http://web.archive.org/web/20180131234610/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-01T00:36:56Z",
+        "uri": "http://web.archive.org/web/20180201003656/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-01T05:13:05Z",
+        "uri": "http://web.archive.org/web/20180201051305/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-02T03:17:14Z",
+        "uri": "http://web.archive.org/web/20180202031714/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-02T07:48:50Z",
+        "uri": "http://web.archive.org/web/20180202074850/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-03T08:06:47Z",
+        "uri": "http://web.archive.org/web/20180203080647/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-04T19:18:39Z",
+        "uri": "http://web.archive.org/web/20180204191839/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-05T18:04:17Z",
+        "uri": "http://web.archive.org/web/20180205180417/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-06T05:48:51Z",
+        "uri": "http://web.archive.org/web/20180206054851/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-06T13:56:18Z",
+        "uri": "http://web.archive.org/web/20180206135618/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-06T21:35:16Z",
+        "uri": "http://web.archive.org/web/20180206213516/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-07T09:15:34Z",
+        "uri": "http://web.archive.org/web/20180207091534/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-08T01:55:03Z",
+        "uri": "http://web.archive.org/web/20180208015503/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-08T10:12:44Z",
+        "uri": "http://web.archive.org/web/20180208101244/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-09T03:31:20Z",
+        "uri": "http://web.archive.org/web/20180209033120/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-10T07:01:43Z",
+        "uri": "http://web.archive.org/web/20180210070143/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-10T09:29:56Z",
+        "uri": "http://web.archive.org/web/20180210092956/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-11T10:07:44Z",
+        "uri": "http://web.archive.org/web/20180211100744/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-12T07:43:09Z",
+        "uri": "http://web.archive.org/web/20180212074309/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-13T09:33:55Z",
+        "uri": "http://web.archive.org/web/20180213093355/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-13T16:57:34Z",
+        "uri": "http://web.archive.org/web/20180213165734/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-13T22:34:57Z",
+        "uri": "http://web.archive.org/web/20180213223457/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-14T13:21:58Z",
+        "uri": "http://web.archive.org/web/20180214132158/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-15T12:31:16Z",
+        "uri": "http://web.archive.org/web/20180215123116/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-16T16:07:23Z",
+        "uri": "http://web.archive.org/web/20180216160723/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-17T09:32:47Z",
+        "uri": "http://web.archive.org/web/20180217093247/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-17T09:46:57Z",
+        "uri": "http://web.archive.org/web/20180217094657/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-17T15:43:47Z",
+        "uri": "http://web.archive.org/web/20180217154347/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-17T20:35:50Z",
+        "uri": "http://web.archive.org/web/20180217203550/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2018-02-18T16:36:26Z",
+        "uri": "http://web.archive.org/web/20180218163626/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-19T18:10:22Z",
+        "uri": "http://web.archive.org/web/20180219181022/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-20T11:28:32Z",
+        "uri": "http://web.archive.org/web/20180220112832/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-20T21:23:28Z",
+        "uri": "http://web.archive.org/web/20180220212328/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-22T03:19:41Z",
+        "uri": "http://web.archive.org/web/20180222031941/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-23T05:12:26Z",
+        "uri": "http://web.archive.org/web/20180223051226/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-23T19:28:01Z",
+        "uri": "http://web.archive.org/web/20180223192801/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-24T06:39:08Z",
+        "uri": "http://web.archive.org/web/20180224063908/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-24T11:48:39Z",
+        "uri": "http://web.archive.org/web/20180224114839/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-24T11:48:41Z",
+        "uri": "http://web.archive.org/web/20180224114841/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-24T11:48:41Z",
+        "uri": "http://web.archive.org/web/20180224114841/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-24T19:48:28Z",
+        "uri": "http://web.archive.org/web/20180224194828/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-25T05:55:32Z",
+        "uri": "http://web.archive.org/web/20180225055532/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-26T06:27:14Z",
+        "uri": "http://web.archive.org/web/20180226062714/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-27T08:11:43Z",
+        "uri": "http://web.archive.org/web/20180227081143/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-27T10:34:55Z",
+        "uri": "http://web.archive.org/web/20180227103455/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-02-27T16:50:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180227165004/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-27T16:50:04Z",
+        "uri": "http://web.archive.org/web/20180227165004/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-27T16:50:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180227165006/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-27T16:50:06Z",
+        "uri": "http://web.archive.org/web/20180227165006/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-02-28T08:50:01Z",
+        "uri": "http://web.archive.org/web/20180228085001/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-01T06:22:15Z",
+        "uri": "http://web.archive.org/web/20180301062215/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-01T13:42:06Z",
+        "uri": "http://web.archive.org/web/20180301134206/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-02T07:49:06Z",
+        "uri": "http://web.archive.org/web/20180302074906/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-02T12:06:42Z",
+        "uri": "http://web.archive.org/web/20180302120642/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-02T13:12:49Z",
+        "uri": "http://web.archive.org/web/20180302131249/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-03T10:46:15Z",
+        "uri": "http://web.archive.org/web/20180303104615/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-04T13:56:11Z",
+        "uri": "http://web.archive.org/web/20180304135611/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-05T15:50:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180305155011/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-05T15:50:11Z",
+        "uri": "http://web.archive.org/web/20180305155011/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-05T18:04:36Z",
+        "uri": "http://web.archive.org/web/20180305180436/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-05T20:10:42Z",
+        "uri": "http://web.archive.org/web/20180305201042/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-05T21:52:56Z",
+        "uri": "http://web.archive.org/web/20180305215256/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-07T05:29:32Z",
+        "uri": "http://web.archive.org/web/20180307052932/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-08T08:30:02Z",
+        "uri": "http://web.archive.org/web/20180308083002/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-09T05:20:42Z",
+        "uri": "http://web.archive.org/web/20180309052042/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-09T10:00:45Z",
+        "uri": "http://web.archive.org/web/20180309100045/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-10T12:06:33Z",
+        "uri": "http://web.archive.org/web/20180310120633/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-11T12:31:07Z",
+        "uri": "http://web.archive.org/web/20180311123107/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-11T13:52:34Z",
+        "uri": "http://web.archive.org/web/20180311135234/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-12T10:53:21Z",
+        "uri": "http://web.archive.org/web/20180312105321/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-12T21:55:06Z",
+        "uri": "http://web.archive.org/web/20180312215506/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-13T11:08:31Z",
+        "uri": "http://web.archive.org/web/20180313110831/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-14T08:52:01Z",
+        "uri": "http://web.archive.org/web/20180314085201/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-15T10:00:00Z",
+        "uri": "http://web.archive.org/web/20180315100000/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-16T09:39:13Z",
+        "uri": "http://web.archive.org/web/20180316093913/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-17T09:59:54Z",
+        "uri": "http://web.archive.org/web/20180317095954/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-18T06:09:50Z",
+        "uri": "http://web.archive.org/web/20180318060950/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-18T09:51:52Z",
+        "uri": "http://web.archive.org/web/20180318095152/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-19T09:47:06Z",
+        "uri": "http://web.archive.org/web/20180319094706/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-20T05:57:14Z",
+        "uri": "http://web.archive.org/web/20180320055714/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-20T09:19:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180320091929/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-20T09:19:29Z",
+        "uri": "http://web.archive.org/web/20180320091929/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-20T11:16:09Z",
+        "uri": "http://web.archive.org/web/20180320111609/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-21T08:14:43Z",
+        "uri": "http://web.archive.org/web/20180321081443/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2018-03-21T10:59:32Z",
+        "uri": "http://web.archive.org/web/20180321105932/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-22T03:51:15Z",
+        "uri": "http://web.archive.org/web/20180322035115/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-22T11:03:10Z",
+        "uri": "http://web.archive.org/web/20180322110310/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-23T12:44:02Z",
+        "uri": "http://web.archive.org/web/20180323124402/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-24T19:16:14Z",
+        "uri": "http://web.archive.org/web/20180324191614/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-25T17:07:24Z",
+        "uri": "http://web.archive.org/web/20180325170724/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-26T19:33:19Z",
+        "uri": "http://web.archive.org/web/20180326193319/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-26T20:02:07Z",
+        "uri": "http://web.archive.org/web/20180326200207/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-03-27T13:03:20Z",
+        "uri": "http://web.archive.org/web/20180327130320/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-27T19:54:35Z",
+        "uri": "http://web.archive.org/web/20180327195435/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-28T21:31:57Z",
+        "uri": "http://web.archive.org/web/20180328213157/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-29T23:28:58Z",
+        "uri": "http://web.archive.org/web/20180329232858/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-30T23:15:17Z",
+        "uri": "http://web.archive.org/web/20180330231517/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-03-31T22:23:45Z",
+        "uri": "http://web.archive.org/web/20180331222345/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-01T19:03:50Z",
+        "uri": "http://web.archive.org/web/20180401190350/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-04-01T22:42:30Z",
+        "uri": "http://web.archive.org/web/20180401224230/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-02T05:39:31Z",
+        "uri": "http://web.archive.org/web/20180402053931/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-04-02T22:02:48Z",
+        "uri": "http://web.archive.org/web/20180402220248/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-03T23:51:51Z",
+        "uri": "http://web.archive.org/web/20180403235151/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-05T08:09:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180405080942/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-05T08:09:42Z",
+        "uri": "http://web.archive.org/web/20180405080942/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-05T08:09:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180405080945/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-05T08:09:45Z",
+        "uri": "http://web.archive.org/web/20180405080945/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-05T16:11:02Z",
+        "uri": "http://web.archive.org/web/20180405161102/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-06T08:07:19Z",
+        "uri": "http://wayback.archive-it.org/all/20180406080719/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-06T08:07:19Z",
+        "uri": "http://web.archive.org/web/20180406080719/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-06T08:07:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180406080722/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-06T08:07:22Z",
+        "uri": "http://web.archive.org/web/20180406080722/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-06T13:26:23Z",
+        "uri": "http://web.archive.org/web/20180406132623/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-07T06:59:38Z",
+        "uri": "http://web.archive.org/web/20180407065938/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-04-07T08:38:25Z",
+        "uri": "http://web.archive.org/web/20180407083825/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-08T08:42:23Z",
+        "uri": "http://web.archive.org/web/20180408084223/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-09T07:28:52Z",
+        "uri": "http://web.archive.org/web/20180409072852/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-10T11:47:54Z",
+        "uri": "http://web.archive.org/web/20180410114754/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-11T08:12:26Z",
+        "uri": "http://web.archive.org/web/20180411081226/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-12T10:06:00Z",
+        "uri": "http://web.archive.org/web/20180412100600/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-12T13:39:03Z",
+        "uri": "http://web.archive.org/web/20180412133903/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-04-13T12:41:33Z",
+        "uri": "http://web.archive.org/web/20180413124133/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-13T23:56:19Z",
+        "uri": "http://web.archive.org/web/20180413235619/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-14T12:20:14Z",
+        "uri": "http://web.archive.org/web/20180414122014/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-14T12:55:38Z",
+        "uri": "http://web.archive.org/web/20180414125538/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-15T11:38:34Z",
+        "uri": "http://web.archive.org/web/20180415113834/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-16T13:23:22Z",
+        "uri": "http://web.archive.org/web/20180416132322/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-17T14:59:21Z",
+        "uri": "http://web.archive.org/web/20180417145921/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-18T07:08:27Z",
+        "uri": "http://web.archive.org/web/20180418070827/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-04-18T16:06:44Z",
+        "uri": "http://web.archive.org/web/20180418160644/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-19T13:56:23Z",
+        "uri": "http://web.archive.org/web/20180419135623/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-20T14:24:17Z",
+        "uri": "http://web.archive.org/web/20180420142417/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-21T03:29:27Z",
+        "uri": "http://web.archive.org/web/20180421032927/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2018-04-21T16:36:47Z",
+        "uri": "http://web.archive.org/web/20180421163647/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-22T16:52:58Z",
+        "uri": "http://web.archive.org/web/20180422165258/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-23T17:44:55Z",
+        "uri": "http://web.archive.org/web/20180423174455/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-24T00:38:07Z",
+        "uri": "http://web.archive.org/web/20180424003807/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-24T15:39:44Z",
+        "uri": "http://web.archive.org/web/20180424153944/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-25T06:58:21Z",
+        "uri": "http://web.archive.org/web/20180425065821/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-25T09:12:54Z",
+        "uri": "http://web.archive.org/web/20180425091254/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-04-25T19:21:49Z",
+        "uri": "http://web.archive.org/web/20180425192149/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-26T16:20:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180426162021/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-26T16:20:21Z",
+        "uri": "http://web.archive.org/web/20180426162021/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-26T16:21:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180426162110/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-26T16:21:10Z",
+        "uri": "http://web.archive.org/web/20180426162110/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-26T20:46:33Z",
+        "uri": "http://web.archive.org/web/20180426204633/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-27T19:09:36Z",
+        "uri": "http://web.archive.org/web/20180427190936/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-28T03:08:22Z",
+        "uri": "http://web.archive.org/web/20180428030822/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-28T20:12:04Z",
+        "uri": "http://web.archive.org/web/20180428201204/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-29T23:53:08Z",
+        "uri": "http://web.archive.org/web/20180429235308/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-04-30T20:32:52Z",
+        "uri": "http://web.archive.org/web/20180430203252/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-01T07:08:59Z",
+        "uri": "http://web.archive.org/web/20180501070859/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-05-01T23:23:57Z",
+        "uri": "http://web.archive.org/web/20180501232357/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-02T23:43:37Z",
+        "uri": "http://web.archive.org/web/20180502234337/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-03T06:45:02Z",
+        "uri": "http://web.archive.org/web/20180503064502/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-05-04T02:51:59Z",
+        "uri": "http://web.archive.org/web/20180504025159/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-05T00:40:31Z",
+        "uri": "http://web.archive.org/web/20180505004031/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-06T00:42:58Z",
+        "uri": "http://web.archive.org/web/20180506004258/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-07T00:57:12Z",
+        "uri": "http://web.archive.org/web/20180507005712/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-08T02:34:39Z",
+        "uri": "http://web.archive.org/web/20180508023439/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-09T05:52:55Z",
+        "uri": "http://web.archive.org/web/20180509055255/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-10T03:13:55Z",
+        "uri": "http://web.archive.org/web/20180510031355/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-11T05:57:42Z",
+        "uri": "http://web.archive.org/web/20180511055742/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-12T06:15:44Z",
+        "uri": "http://web.archive.org/web/20180512061544/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-13T04:49:14Z",
+        "uri": "http://web.archive.org/web/20180513044914/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-14T05:10:46Z",
+        "uri": "http://web.archive.org/web/20180514051046/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-15T03:49:51Z",
+        "uri": "http://web.archive.org/web/20180515034951/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-16T05:54:09Z",
+        "uri": "http://web.archive.org/web/20180516055409/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-17T06:26:12Z",
+        "uri": "http://web.archive.org/web/20180517062612/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-18T10:11:54Z",
+        "uri": "http://web.archive.org/web/20180518101154/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-19T08:14:28Z",
+        "uri": "http://web.archive.org/web/20180519081428/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-20T05:39:41Z",
+        "uri": "http://web.archive.org/web/20180520053941/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-20T06:29:18Z",
+        "uri": "http://web.archive.org/web/20180520062918/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-05-21T11:01:48Z",
+        "uri": "http://web.archive.org/web/20180521110148/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-21T22:27:06Z",
+        "uri": "http://web.archive.org/web/20180521222706/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2018-05-22T08:47:20Z",
+        "uri": "http://web.archive.org/web/20180522084720/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-23T12:21:10Z",
+        "uri": "http://web.archive.org/web/20180523122110/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-24T14:37:56Z",
+        "uri": "http://web.archive.org/web/20180524143756/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-25T12:03:00Z",
+        "uri": "http://web.archive.org/web/20180525120300/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-26T12:35:07Z",
+        "uri": "http://web.archive.org/web/20180526123507/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-27T12:18:50Z",
+        "uri": "http://web.archive.org/web/20180527121850/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-27T19:04:03Z",
+        "uri": "http://web.archive.org/web/20180527190403/http://trumpgolfcount.com"
+      },
+      {
+        "datetime": "2018-05-28T13:37:04Z",
+        "uri": "http://web.archive.org/web/20180528133704/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-29T12:08:40Z",
+        "uri": "http://web.archive.org/web/20180529120840/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-30T15:21:16Z",
+        "uri": "http://web.archive.org/web/20180530152116/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-05-31T15:32:53Z",
+        "uri": "http://web.archive.org/web/20180531153253/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-01T15:04:26Z",
+        "uri": "http://web.archive.org/web/20180601150426/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-02T05:04:23Z",
+        "uri": "http://web.archive.org/web/20180602050423/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-06-02T16:10:46Z",
+        "uri": "http://web.archive.org/web/20180602161046/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-02T23:56:59Z",
+        "uri": "http://web.archive.org/web/20180602235659/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-06-03T16:49:33Z",
+        "uri": "http://web.archive.org/web/20180603164933/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-04T16:06:51Z",
+        "uri": "http://web.archive.org/web/20180604160651/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-04T16:06:53Z",
+        "uri": "http://web.archive.org/web/20180604160653/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-05T15:09:15Z",
+        "uri": "http://web.archive.org/web/20180605150915/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-05T15:09:17Z",
+        "uri": "http://web.archive.org/web/20180605150917/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-07T12:18:21Z",
+        "uri": "http://web.archive.org/web/20180607121821/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-07T12:18:23Z",
+        "uri": "http://web.archive.org/web/20180607121823/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-08T03:06:29Z",
+        "uri": "http://web.archive.org/web/20180608030629/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-08T03:06:31Z",
+        "uri": "http://web.archive.org/web/20180608030631/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-08T10:52:41Z",
+        "uri": "http://web.archive.org/web/20180608105241/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-06-08T23:51:43Z",
+        "uri": "http://web.archive.org/web/20180608235143/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-08T23:51:45Z",
+        "uri": "http://web.archive.org/web/20180608235145/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-10T00:28:57Z",
+        "uri": "http://web.archive.org/web/20180610002857/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-10T00:28:59Z",
+        "uri": "http://web.archive.org/web/20180610002859/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-10T22:52:21Z",
+        "uri": "http://web.archive.org/web/20180610225221/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-10T22:52:23Z",
+        "uri": "http://web.archive.org/web/20180610225223/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-11T23:01:05Z",
+        "uri": "http://web.archive.org/web/20180611230105/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-11T23:01:07Z",
+        "uri": "http://web.archive.org/web/20180611230107/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-12T11:34:26Z",
+        "uri": "http://web.archive.org/web/20180612113426/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-12T11:34:27Z",
+        "uri": "http://web.archive.org/web/20180612113427/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-13T04:01:29Z",
+        "uri": "http://web.archive.org/web/20180613040129/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-13T04:01:31Z",
+        "uri": "http://web.archive.org/web/20180613040131/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-13T08:50:03Z",
+        "uri": "http://web.archive.org/web/20180613085003/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-13T08:50:05Z",
+        "uri": "http://web.archive.org/web/20180613085005/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-13T23:15:48Z",
+        "uri": "http://web.archive.org/web/20180613231548/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-13T23:15:50Z",
+        "uri": "http://web.archive.org/web/20180613231550/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-14T17:10:55Z",
+        "uri": "http://web.archive.org/web/20180614171055/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-06-15T04:18:51Z",
+        "uri": "http://web.archive.org/web/20180615041851/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-15T04:18:53Z",
+        "uri": "http://web.archive.org/web/20180615041853/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-16T02:07:42Z",
+        "uri": "http://web.archive.org/web/20180616020742/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-16T02:07:44Z",
+        "uri": "http://web.archive.org/web/20180616020744/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-17T01:29:13Z",
+        "uri": "http://web.archive.org/web/20180617012913/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-17T01:29:15Z",
+        "uri": "http://web.archive.org/web/20180617012915/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-18T02:03:10Z",
+        "uri": "http://web.archive.org/web/20180618020310/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-18T02:03:12Z",
+        "uri": "http://web.archive.org/web/20180618020312/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-19T05:18:42Z",
+        "uri": "http://web.archive.org/web/20180619051842/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-19T05:18:44Z",
+        "uri": "http://web.archive.org/web/20180619051844/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-20T01:25:07Z",
+        "uri": "http://web.archive.org/web/20180620012507/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-20T01:25:08Z",
+        "uri": "http://web.archive.org/web/20180620012508/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-22T04:28:01Z",
+        "uri": "http://web.archive.org/web/20180622042801/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-06-22T05:47:18Z",
+        "uri": "http://web.archive.org/web/20180622054718/http://www.trumpgolfcount.com:80/?"
+      },
+      {
+        "datetime": "2018-06-22T18:04:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180622180405/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-22T18:04:05Z",
+        "uri": "http://web.archive.org/web/20180622180405/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-06-30T18:16:02Z",
+        "uri": "http://web.archive.org/web/20180630181602/http://trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-07-01T19:31:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180701193124/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-01T19:31:24Z",
+        "uri": "http://web.archive.org/web/20180701193124/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-01T19:31:26Z",
+        "uri": "http://wayback.archive-it.org/all/20180701193126/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-01T19:31:26Z",
+        "uri": "http://web.archive.org/web/20180701193126/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-02T19:27:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180702192708/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-02T19:27:08Z",
+        "uri": "http://web.archive.org/web/20180702192708/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-02T19:27:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180702192710/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-02T19:27:10Z",
+        "uri": "http://web.archive.org/web/20180702192710/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-03T18:13:40Z",
+        "uri": "http://web.archive.org/web/20180703181340/http://www.trumpgolfcount.com:80/"
+      },
+      {
+        "datetime": "2018-07-03T19:32:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180703193236/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-03T19:32:36Z",
+        "uri": "http://web.archive.org/web/20180703193236/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-03T19:32:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180703193239/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-03T19:32:39Z",
+        "uri": "http://web.archive.org/web/20180703193239/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-10T06:03:08Z",
+        "uri": "http://web.archive.org/web/20180710060308/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-11T22:11:31Z",
+        "uri": "http://web.archive.org/web/20180711221131/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-18T16:39:42Z",
+        "uri": "http://web.archive.org/web/20180718163942/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-18T16:39:44Z",
+        "uri": "http://web.archive.org/web/20180718163944/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-23T01:15:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180723011546/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-23T01:15:46Z",
+        "uri": "http://web.archive.org/web/20180723011546/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-23T01:15:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180723011548/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-23T01:15:48Z",
+        "uri": "http://web.archive.org/web/20180723011548/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-26T22:07:19Z",
+        "uri": "http://web.archive.org/web/20180726220719/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-26T22:07:21Z",
+        "uri": "http://web.archive.org/web/20180726220721/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-27T21:11:46Z",
+        "uri": "http://web.archive.org/web/20180727211146/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-27T21:11:49Z",
+        "uri": "http://web.archive.org/web/20180727211149/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-28T18:38:03Z",
+        "uri": "http://web.archive.org/web/20180728183803/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-28T18:38:05Z",
+        "uri": "http://web.archive.org/web/20180728183805/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-29T08:45:24Z",
+        "uri": "http://web.archive.org/web/20180729084524/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-29T18:08:57Z",
+        "uri": "http://web.archive.org/web/20180729180857/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-29T18:08:59Z",
+        "uri": "http://web.archive.org/web/20180729180859/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-30T18:49:41Z",
+        "uri": "http://web.archive.org/web/20180730184941/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-30T18:49:43Z",
+        "uri": "http://web.archive.org/web/20180730184943/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-31T22:47:24Z",
+        "uri": "http://web.archive.org/web/20180731224724/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-07-31T22:47:26Z",
+        "uri": "http://web.archive.org/web/20180731224726/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-02T01:11:21Z",
+        "uri": "http://web.archive.org/web/20180802011121/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-02T01:11:23Z",
+        "uri": "http://web.archive.org/web/20180802011123/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-02T11:35:30Z",
+        "uri": "http://web.archive.org/web/20180802113530/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-02T11:35:33Z",
+        "uri": "http://web.archive.org/web/20180802113533/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-02T23:02:02Z",
+        "uri": "http://web.archive.org/web/20180802230202/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-02T23:02:04Z",
+        "uri": "http://web.archive.org/web/20180802230204/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-04T02:53:34Z",
+        "uri": "http://web.archive.org/web/20180804025334/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-04T02:53:36Z",
+        "uri": "http://web.archive.org/web/20180804025336/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-04T12:51:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180804125146/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-04T12:51:46Z",
+        "uri": "http://web.archive.org/web/20180804125146/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-04T12:51:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180804125147/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-04T12:51:47Z",
+        "uri": "http://web.archive.org/web/20180804125147/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-05T01:05:04Z",
+        "uri": "http://web.archive.org/web/20180805010504/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-05T01:05:06Z",
+        "uri": "http://web.archive.org/web/20180805010506/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-05T08:31:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180805083125/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-05T08:31:25Z",
+        "uri": "http://web.archive.org/web/20180805083125/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-05T08:31:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180805083128/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-05T08:31:28Z",
+        "uri": "http://web.archive.org/web/20180805083128/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:20:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180806012006/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:20:06Z",
+        "uri": "http://web.archive.org/web/20180806012006/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:20:14Z",
+        "uri": "http://wayback.archive-it.org/all/20180806012014/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:20:14Z",
+        "uri": "http://wayback.archive-it.org/all/20180806012014/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:20:14Z",
+        "uri": "http://web.archive.org/web/20180806012014/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:20:14Z",
+        "uri": "http://web.archive.org/web/20180806012014/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T01:43:58Z",
+        "uri": "http://web.archive.org/web/20180806014358/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T02:05:22Z",
+        "uri": "http://web.archive.org/web/20180806020522/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T02:05:24Z",
+        "uri": "http://web.archive.org/web/20180806020524/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T11:03:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180806110308/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T11:03:08Z",
+        "uri": "http://web.archive.org/web/20180806110308/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T11:03:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180806110311/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-06T11:03:11Z",
+        "uri": "http://web.archive.org/web/20180806110311/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-07T00:34:57Z",
+        "uri": "http://web.archive.org/web/20180807003457/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-07T00:35:00Z",
+        "uri": "http://web.archive.org/web/20180807003500/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-08T00:36:42Z",
+        "uri": "http://web.archive.org/web/20180808003642/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-08T00:36:45Z",
+        "uri": "http://web.archive.org/web/20180808003645/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-08T23:28:13Z",
+        "uri": "http://web.archive.org/web/20180808232813/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-08T23:28:15Z",
+        "uri": "http://web.archive.org/web/20180808232815/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-09T02:41:36Z",
+        "uri": "http://web.archive.org/web/20180809024136/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-09T21:53:06Z",
+        "uri": "http://web.archive.org/web/20180809215306/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-09T21:53:07Z",
+        "uri": "http://web.archive.org/web/20180809215307/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-10T02:54:02Z",
+        "uri": "http://web.archive.org/web/20180810025402/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-10T02:54:04Z",
+        "uri": "http://web.archive.org/web/20180810025404/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-10T17:41:04Z",
+        "uri": "http://web.archive.org/web/20180810174104/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-10T17:41:05Z",
+        "uri": "http://web.archive.org/web/20180810174105/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-11T01:40:14Z",
+        "uri": "http://web.archive.org/web/20180811014014/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-11T01:40:16Z",
+        "uri": "http://web.archive.org/web/20180811014016/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-12T01:37:35Z",
+        "uri": "http://web.archive.org/web/20180812013735/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-12T01:37:37Z",
+        "uri": "http://web.archive.org/web/20180812013737/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-13T06:16:46Z",
+        "uri": "http://web.archive.org/web/20180813061646/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-13T06:16:48Z",
+        "uri": "http://web.archive.org/web/20180813061648/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-14T05:00:39Z",
+        "uri": "http://web.archive.org/web/20180814050039/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-14T05:00:41Z",
+        "uri": "http://web.archive.org/web/20180814050041/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-17T11:43:46Z",
+        "uri": "http://web.archive.org/web/20180817114346/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-17T11:43:48Z",
+        "uri": "http://web.archive.org/web/20180817114348/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-18T11:40:27Z",
+        "uri": "http://web.archive.org/web/20180818114027/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-18T11:40:29Z",
+        "uri": "http://web.archive.org/web/20180818114029/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-19T10:00:03Z",
+        "uri": "http://web.archive.org/web/20180819100003/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-19T10:00:10Z",
+        "uri": "http://web.archive.org/web/20180819100010/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-20T09:45:02Z",
+        "uri": "http://web.archive.org/web/20180820094502/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-20T09:45:04Z",
+        "uri": "http://web.archive.org/web/20180820094504/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-21T07:38:40Z",
+        "uri": "http://web.archive.org/web/20180821073840/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-21T07:38:43Z",
+        "uri": "http://web.archive.org/web/20180821073843/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-22T04:29:47Z",
+        "uri": "http://web.archive.org/web/20180822042947/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-22T12:15:41Z",
+        "uri": "http://web.archive.org/web/20180822121541/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-22T12:15:43Z",
+        "uri": "http://web.archive.org/web/20180822121543/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-22T13:49:34Z",
+        "uri": "http://web.archive.org/web/20180822134934/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-22T13:49:37Z",
+        "uri": "http://web.archive.org/web/20180822134937/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-23T12:56:27Z",
+        "uri": "http://web.archive.org/web/20180823125627/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-23T12:56:29Z",
+        "uri": "http://web.archive.org/web/20180823125629/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-24T14:11:11Z",
+        "uri": "http://web.archive.org/web/20180824141111/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-24T14:11:13Z",
+        "uri": "http://web.archive.org/web/20180824141113/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-25T12:42:54Z",
+        "uri": "http://web.archive.org/web/20180825124254/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-25T12:42:56Z",
+        "uri": "http://web.archive.org/web/20180825124256/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-26T11:09:58Z",
+        "uri": "http://web.archive.org/web/20180826110958/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-26T11:10:00Z",
+        "uri": "http://web.archive.org/web/20180826111000/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-27T13:25:06Z",
+        "uri": "http://web.archive.org/web/20180827132506/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-27T13:25:09Z",
+        "uri": "http://web.archive.org/web/20180827132509/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-28T14:37:18Z",
+        "uri": "http://web.archive.org/web/20180828143718/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-28T14:37:20Z",
+        "uri": "http://web.archive.org/web/20180828143720/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-29T15:03:19Z",
+        "uri": "http://web.archive.org/web/20180829150319/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-29T15:03:21Z",
+        "uri": "http://web.archive.org/web/20180829150321/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-30T14:26:32Z",
+        "uri": "http://web.archive.org/web/20180830142632/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-30T14:26:34Z",
+        "uri": "http://web.archive.org/web/20180830142634/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-31T19:32:15Z",
+        "uri": "http://web.archive.org/web/20180831193215/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-08-31T19:32:17Z",
+        "uri": "http://web.archive.org/web/20180831193217/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-01T19:15:15Z",
+        "uri": "http://web.archive.org/web/20180901191515/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-01T19:15:17Z",
+        "uri": "http://web.archive.org/web/20180901191517/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-01T23:24:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180901232407/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-01T23:24:07Z",
+        "uri": "http://web.archive.org/web/20180901232407/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-01T23:24:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180901232408/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-01T23:24:08Z",
+        "uri": "http://web.archive.org/web/20180901232408/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-02T16:53:07Z",
+        "uri": "http://web.archive.org/web/20180902165307/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-02T16:53:09Z",
+        "uri": "http://web.archive.org/web/20180902165309/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-03T21:47:04Z",
+        "uri": "http://web.archive.org/web/20180903214704/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-03T21:47:06Z",
+        "uri": "http://web.archive.org/web/20180903214706/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-04T22:10:37Z",
+        "uri": "http://web.archive.org/web/20180904221037/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-04T22:10:39Z",
+        "uri": "http://web.archive.org/web/20180904221039/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-05T20:49:43Z",
+        "uri": "http://web.archive.org/web/20180905204943/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-05T20:49:45Z",
+        "uri": "http://web.archive.org/web/20180905204945/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-07T00:17:38Z",
+        "uri": "http://web.archive.org/web/20180907001738/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-07T00:17:40Z",
+        "uri": "http://web.archive.org/web/20180907001740/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-08T23:17:34Z",
+        "uri": "http://web.archive.org/web/20180908231734/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-08T23:17:36Z",
+        "uri": "http://web.archive.org/web/20180908231736/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-09T23:28:31Z",
+        "uri": "http://web.archive.org/web/20180909232831/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-09T23:28:33Z",
+        "uri": "http://web.archive.org/web/20180909232833/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-11T05:14:54Z",
+        "uri": "http://web.archive.org/web/20180911051454/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-11T05:14:56Z",
+        "uri": "http://web.archive.org/web/20180911051456/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-12T01:46:48Z",
+        "uri": "http://web.archive.org/web/20180912014648/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-12T01:46:50Z",
+        "uri": "http://web.archive.org/web/20180912014650/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-12T14:14:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180912141439/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-12T14:14:39Z",
+        "uri": "http://web.archive.org/web/20180912141439/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-13T03:39:15Z",
+        "uri": "http://web.archive.org/web/20180913033915/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-13T03:39:17Z",
+        "uri": "http://web.archive.org/web/20180913033917/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-14T02:16:01Z",
+        "uri": "http://web.archive.org/web/20180914021601/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-14T02:16:02Z",
+        "uri": "http://web.archive.org/web/20180914021602/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-15T03:41:40Z",
+        "uri": "http://web.archive.org/web/20180915034140/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-15T03:41:42Z",
+        "uri": "http://web.archive.org/web/20180915034142/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-16T06:31:03Z",
+        "uri": "http://web.archive.org/web/20180916063103/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-16T06:31:05Z",
+        "uri": "http://web.archive.org/web/20180916063105/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-17T07:44:54Z",
+        "uri": "http://web.archive.org/web/20180917074454/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-17T07:44:55Z",
+        "uri": "http://web.archive.org/web/20180917074455/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-18T05:39:43Z",
+        "uri": "http://web.archive.org/web/20180918053943/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-18T05:39:46Z",
+        "uri": "http://web.archive.org/web/20180918053946/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-19T01:51:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180919015154/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-19T01:51:54Z",
+        "uri": "http://web.archive.org/web/20180919015154/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-19T10:21:38Z",
+        "uri": "http://web.archive.org/web/20180919102138/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-19T10:21:40Z",
+        "uri": "http://web.archive.org/web/20180919102140/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-20T10:04:30Z",
+        "uri": "http://web.archive.org/web/20180920100430/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-20T10:04:32Z",
+        "uri": "http://web.archive.org/web/20180920100432/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-20T10:51:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180920105107/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-20T10:51:07Z",
+        "uri": "http://web.archive.org/web/20180920105107/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-21T05:43:31Z",
+        "uri": "http://web.archive.org/web/20180921054331/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-21T05:43:33Z",
+        "uri": "http://web.archive.org/web/20180921054333/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-22T05:16:42Z",
+        "uri": "http://web.archive.org/web/20180922051642/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-22T05:16:44Z",
+        "uri": "http://web.archive.org/web/20180922051644/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-22T15:16:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180922151621/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-22T15:16:21Z",
+        "uri": "http://web.archive.org/web/20180922151621/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-23T13:28:53Z",
+        "uri": "http://web.archive.org/web/20180923132853/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-23T13:28:55Z",
+        "uri": "http://web.archive.org/web/20180923132855/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-24T06:27:11Z",
+        "uri": "http://web.archive.org/web/20180924062711/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-24T06:27:13Z",
+        "uri": "http://web.archive.org/web/20180924062713/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-24T18:45:42Z",
+        "uri": "http://web.archive.org/web/20180924184542/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-24T19:41:26Z",
+        "uri": "http://web.archive.org/web/20180924194126/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-25T11:41:05Z",
+        "uri": "http://web.archive.org/web/20180925114105/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-25T11:41:07Z",
+        "uri": "http://web.archive.org/web/20180925114107/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-26T09:23:54Z",
+        "uri": "http://web.archive.org/web/20180926092354/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-26T09:23:56Z",
+        "uri": "http://web.archive.org/web/20180926092356/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-26T13:26:05Z",
+        "uri": "http://web.archive.org/web/20180926132605/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-28T12:08:30Z",
+        "uri": "http://web.archive.org/web/20180928120830/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-28T12:08:32Z",
+        "uri": "http://web.archive.org/web/20180928120832/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-30T13:53:36Z",
+        "uri": "http://web.archive.org/web/20180930135336/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-09-30T13:53:38Z",
+        "uri": "http://web.archive.org/web/20180930135338/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-12T17:06:36Z",
+        "uri": "http://web.archive.org/web/20181012170636/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-12T17:06:37Z",
+        "uri": "http://web.archive.org/web/20181012170637/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-14T15:18:32Z",
+        "uri": "http://web.archive.org/web/20181014151832/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-14T15:18:34Z",
+        "uri": "http://web.archive.org/web/20181014151834/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-24T02:35:58Z",
+        "uri": "http://web.archive.org/web/20181024023558/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-24T02:35:59Z",
+        "uri": "http://web.archive.org/web/20181024023559/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-25T20:38:46Z",
+        "uri": "http://web.archive.org/web/20181025203846/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-25T20:38:48Z",
+        "uri": "http://web.archive.org/web/20181025203848/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-10-26T00:59:55Z",
+        "uri": "http://web.archive.org/web/20181026005955/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-10T00:10:07Z",
+        "uri": "http://web.archive.org/web/20181110001007/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-14T00:58:04Z",
+        "uri": "http://archive.md/20181114005804/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-14T03:37:31Z",
+        "uri": "http://web.archive.org/web/20181114033731/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-17T13:04:16Z",
+        "uri": "http://web.archive.org/web/20181117130416/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-17T21:55:57Z",
+        "uri": "http://web.archive.org/web/20181117215557/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-17T21:55:58Z",
+        "uri": "http://web.archive.org/web/20181117215558/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-18T21:12:51Z",
+        "uri": "http://web.archive.org/web/20181118211251/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-18T21:12:52Z",
+        "uri": "http://web.archive.org/web/20181118211252/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-19T22:32:23Z",
+        "uri": "http://web.archive.org/web/20181119223223/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-11-19T22:32:24Z",
+        "uri": "http://web.archive.org/web/20181119223224/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-01T08:21:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181201082106/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-01T08:21:06Z",
+        "uri": "http://web.archive.org/web/20181201082106/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-05T01:05:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181205010552/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-05T01:05:52Z",
+        "uri": "http://web.archive.org/web/20181205010552/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-07T06:23:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181207062301/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-07T06:23:01Z",
+        "uri": "http://web.archive.org/web/20181207062301/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-07T20:57:06Z",
+        "uri": "http://web.archive.org/web/20181207205706/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-07T20:57:07Z",
+        "uri": "http://web.archive.org/web/20181207205707/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-18T11:39:09Z",
+        "uri": "http://web.archive.org/web/20181218113909/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-20T22:27:15Z",
+        "uri": "http://web.archive.org/web/20181220222715/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-21T12:36:19Z",
+        "uri": "http://wayback.archive-it.org/all/20181221123619/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-21T12:36:19Z",
+        "uri": "http://web.archive.org/web/20181221123619/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-22T13:41:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181222134112/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-22T13:41:12Z",
+        "uri": "http://web.archive.org/web/20181222134112/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-24T19:31:08Z",
+        "uri": "http://web.archive.org/web/20181224193108/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-26T21:05:34Z",
+        "uri": "http://web.archive.org/web/20181226210534/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-27T05:07:34Z",
+        "uri": "http://web.archive.org/web/20181227050734/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-28T06:07:27Z",
+        "uri": "http://web.archive.org/web/20181228060727/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-29T06:12:32Z",
+        "uri": "http://web.archive.org/web/20181229061232/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-30T03:13:37Z",
+        "uri": "http://web.archive.org/web/20181230031337/http://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-30T03:13:39Z",
+        "uri": "http://web.archive.org/web/20181230031339/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-31T18:16:59Z",
+        "uri": "http://web.archive.org/web/20181231181659/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-31T18:27:16Z",
+        "uri": "http://web.archive.org/web/20181231182716/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-31T18:38:11Z",
+        "uri": "http://web.archive.org/web/20181231183811/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2018-12-31T18:48:41Z",
+        "uri": "http://web.archive.org/web/20181231184841/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-07T02:39:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190107023951/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-07T02:39:51Z",
+        "uri": "http://web.archive.org/web/20190107023951/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-09T18:40:57Z",
+        "uri": "http://web.archive.org/web/20190109184057/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-13T00:03:32Z",
+        "uri": "http://web.archive.org/web/20190113000332/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-13T00:03:33Z",
+        "uri": "http://web.archive.org/web/20190113000333/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-14T00:40:15Z",
+        "uri": "http://web.archive.org/web/20190114004015/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-14T00:40:16Z",
+        "uri": "http://web.archive.org/web/20190114004016/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-17T04:54:05Z",
+        "uri": "http://web.archive.org/web/20190117045405/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-24T02:11:52Z",
+        "uri": "http://web.archive.org/web/20190124021152/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-24T02:11:57Z",
+        "uri": "http://web.archive.org/web/20190124021157/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-31T02:28:00Z",
+        "uri": "http://web.archive.org/web/20190131022800/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-01-31T02:28:01Z",
+        "uri": "http://web.archive.org/web/20190131022801/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-01T15:27:49Z",
+        "uri": "http://archive.md/20190201152749/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-04T06:39:32Z",
+        "uri": "http://web.archive.org/web/20190204063932/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-04T06:39:40Z",
+        "uri": "http://web.archive.org/web/20190204063940/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-05T14:55:36Z",
+        "uri": "http://web.archive.org/web/20190205145536/https://www.trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-06T05:02:04Z",
+        "uri": "http://web.archive.org/web/20190206050204/http://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-06T05:02:06Z",
+        "uri": "http://web.archive.org/web/20190206050206/https://trumpgolfcount.com/"
+      },
+      {
+        "datetime": "2019-02-07T03:48:07Z",
+        "uri": "http://web.archive.org/web/20190207034807/https://trumpgolfcount.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-03-07T04:59:31Z",
+      "uri": "http://web.archive.org/web/20170307045931/http://www.trumpgolfcount.com/"
+    },
+    "last": {
+      "datetime": "2019-02-07T03:48:07Z",
+      "uri": "http://web.archive.org/web/20190207034807/https://trumpgolfcount.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://trumpgolfcount.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://trumpgolfcount.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://trumpgolfcount.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://trumpgolfcount.com/"
+}

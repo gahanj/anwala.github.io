@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-02T15:46:26Z",
+        "uri": "http://web.archive.org/web/20180802154626/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2018-09-13T19:17:50Z",
+        "uri": "http://web.archive.org/web/20180913191750/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2018-09-21T12:15:45Z",
+        "uri": "http://web.archive.org/web/20180921121545/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2018-12-08T18:59:19Z",
+        "uri": "http://web.archive.org/web/20181208185919/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2018-12-29T19:28:38Z",
+        "uri": "http://web.archive.org/web/20181229192838/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2019-01-23T08:32:59Z",
+        "uri": "http://wayback.archive-it.org/all/20190123083259/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2019-01-23T08:32:59Z",
+        "uri": "http://web.archive.org/web/20190123083259/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2019-01-24T01:44:51Z",
+        "uri": "http://web.archive.org/web/20190124014451/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      },
+      {
+        "datetime": "2019-02-09T02:39:49Z",
+        "uri": "http://web.archive.org/web/20190209023949/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-02T15:46:26Z",
+      "uri": "http://web.archive.org/web/20180802154626/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+    },
+    "last": {
+      "datetime": "2019-02-09T02:39:49Z",
+      "uri": "http://web.archive.org/web/20190209023949/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://votesmart.org/candidate/campaign-finance/180416/alexandria-ocasio-cortez"
+}

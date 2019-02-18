@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-23T10:24:19Z",
+        "uri": "http://web.archive.org/web/20190123102419/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump"
+      },
+      {
+        "datetime": "2019-01-24T00:06:51Z",
+        "uri": "http://web.archive.org/web/20190124000651/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-23T10:24:19Z",
+      "uri": "http://web.archive.org/web/20190123102419/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump"
+    },
+    "last": {
+      "datetime": "2019-01-24T00:06:51Z",
+      "uri": "http://web.archive.org/web/20190124000651/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/hilltv/rising/426424-former-obama-energy-advisor-warns-epa-is-being-hallowed-out-under-trump"
+}

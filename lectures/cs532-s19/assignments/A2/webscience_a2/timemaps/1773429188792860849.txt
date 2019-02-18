@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T10:34:41Z",
+        "uri": "http://web.archive.org/web/20190206103441/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+      },
+      {
+        "datetime": "2019-02-06T20:59:08Z",
+        "uri": "http://web.archive.org/web/20190206205908/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+      },
+      {
+        "datetime": "2019-02-07T23:42:02Z",
+        "uri": "http://web.archive.org/web/20190207234202/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+      },
+      {
+        "datetime": "2019-02-10T01:40:35Z",
+        "uri": "http://web.archive.org/web/20190210014035/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T10:34:41Z",
+      "uri": "http://web.archive.org/web/20190206103441/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:40:35Z",
+      "uri": "http://web.archive.org/web/20190210014035/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thetimes.co.uk/article/the-times-view-on-amnesty-in-crisis-5mfknsjcj"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-30T22:06:24Z",
+        "uri": "http://web.archive.org/web/20181230220624/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+      },
+      {
+        "datetime": "2018-12-31T11:37:12Z",
+        "uri": "http://web.archive.org/web/20181231113712/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+      },
+      {
+        "datetime": "2019-01-01T05:51:16Z",
+        "uri": "http://web.archive.org/web/20190101055116/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-30T22:06:24Z",
+      "uri": "http://web.archive.org/web/20181230220624/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+    },
+    "last": {
+      "datetime": "2019-01-01T05:51:16Z",
+      "uri": "http://web.archive.org/web/20190101055116/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/senior-u-senator-says-ask-trump-rethink-syria-174609337.html"
+}

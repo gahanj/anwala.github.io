@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:44:12Z",
+        "uri": "http://web.archive.org/web/20190208184412/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-08T20:17:28Z",
+        "uri": "http://web.archive.org/web/20190208201728/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-08T20:30:40Z",
+        "uri": "http://archive.md/20190208203040/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-08T21:18:44Z",
+        "uri": "http://web.archive.org/web/20190208211844/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-08T23:28:27Z",
+        "uri": "http://web.archive.org/web/20190208232827/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-09T18:53:35Z",
+        "uri": "http://web.archive.org/web/20190209185335/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-09T20:06:51Z",
+        "uri": "http://web.archive.org/web/20190209200651/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-09T21:40:19Z",
+        "uri": "http://web.archive.org/web/20190209214019/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-10T00:11:15Z",
+        "uri": "http://web.archive.org/web/20190210001115/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-10T01:30:32Z",
+        "uri": "http://web.archive.org/web/20190210013032/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-10T05:04:24Z",
+        "uri": "http://web.archive.org/web/20190210050424/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:44:12Z",
+      "uri": "http://web.archive.org/web/20190208184412/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:04:24Z",
+      "uri": "http://web.archive.org/web/20190210050424/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/08/us/politics/government-shutdown-deal.html"
+}

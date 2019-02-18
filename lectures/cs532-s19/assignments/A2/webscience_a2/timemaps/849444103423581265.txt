@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T06:03:14Z",
+        "uri": "http://web.archive.org/web/20190210060314/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T06:03:14Z",
+      "uri": "http://web.archive.org/web/20190210060314/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:03:14Z",
+      "uri": "http://web.archive.org/web/20190210060314/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/09/us/politics/jim-risch-foreign-relations-committee.html?partner=rss&emc=rss"
+}

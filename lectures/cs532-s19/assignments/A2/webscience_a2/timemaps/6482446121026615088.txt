@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-12-03T05:23:36Z",
+        "uri": "http://wayback.archive-it.org/all/20171203052336/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+      },
+      {
+        "datetime": "2017-12-03T05:23:36Z",
+        "uri": "http://web.archive.org/web/20171203052336/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+      },
+      {
+        "datetime": "2017-12-04T16:30:27Z",
+        "uri": "http://web.archive.org/web/20171204163027/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+      }
+    ],
+    "first": {
+      "datetime": "2017-12-03T05:23:36Z",
+      "uri": "http://wayback.archive-it.org/all/20171203052336/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+    },
+    "last": {
+      "datetime": "2017-12-04T16:30:27Z",
+      "uri": "http://web.archive.org/web/20171204163027/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vanityfair.com/news/2017/12/how-scared-should-trump-be-of-mueller-ask-john-gotti-or-sammy-the-bull/amp"
+}

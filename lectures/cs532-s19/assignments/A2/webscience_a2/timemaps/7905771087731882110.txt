@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:29:51Z",
+        "uri": "http://web.archive.org/web/20190210012951/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html"
+      },
+      {
+        "datetime": "2019-02-10T05:02:59Z",
+        "uri": "http://web.archive.org/web/20190210050259/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:29:51Z",
+      "uri": "http://web.archive.org/web/20190210012951/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:02:59Z",
+      "uri": "http://web.archive.org/web/20190210050259/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cleveland.com/news/2019/02/arizona-border-city-slams-trumps-deployment-of-lethal-razor-wire.html"
+}

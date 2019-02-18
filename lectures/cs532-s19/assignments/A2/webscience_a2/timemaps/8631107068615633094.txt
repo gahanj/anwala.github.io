@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-06T18:19:37Z",
+        "uri": "http://archive.md/20190106181937/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+      },
+      {
+        "datetime": "2019-01-06T18:33:29Z",
+        "uri": "http://archive.md/20190106183329/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+      },
+      {
+        "datetime": "2019-01-06T22:32:29Z",
+        "uri": "http://archive.md/20190106223229/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+      },
+      {
+        "datetime": "2019-01-06T22:49:58Z",
+        "uri": "http://web.archive.org/web/20190106224958/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-06T18:19:37Z",
+      "uri": "http://archive.md/20190106181937/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+    },
+    "last": {
+      "datetime": "2019-01-06T22:49:58Z",
+      "uri": "http://web.archive.org/web/20190106224958/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.axios.com/trump-acting-cabinet-heads-more-flexibility-d708dcb6-967b-42ba-97dc-9b1cf1d30aaf.html"
+}

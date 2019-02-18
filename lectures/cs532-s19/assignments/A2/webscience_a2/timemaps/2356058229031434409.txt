@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.humor-kamensky.sk/index.php",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.humor-kamensky.sk/index.php",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-14T11:55:36Z",
+        "uri": "http://web.archive.org/web/20180614115536/https://www.humor-kamensky.sk/index.php"
+      },
+      {
+        "datetime": "2018-09-01T04:45:23Z",
+        "uri": "http://web.archive.org/web/20180901044523/https://humor-kamensky.sk/index.php"
+      },
+      {
+        "datetime": "2019-01-04T15:19:05Z",
+        "uri": "http://web.archive.org/web/20190104151905/https://www.humor-kamensky.sk/index.php"
+      },
+      {
+        "datetime": "2019-01-06T03:06:21Z",
+        "uri": "http://web.archive.org/web/20190106030621/https://www.humor-kamensky.sk/index.php"
+      },
+      {
+        "datetime": "2019-01-14T21:08:16Z",
+        "uri": "http://web.archive.org/web/20190114210816/https://humor-kamensky.sk/index.php"
+      },
+      {
+        "datetime": "2019-02-03T17:12:58Z",
+        "uri": "http://web.archive.org/web/20190203171258/https://www.humor-kamensky.sk/index.php"
+      },
+      {
+        "datetime": "2019-02-05T02:54:50Z",
+        "uri": "http://web.archive.org/web/20190205025450/https://www.humor-kamensky.sk/index.php"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-14T11:55:36Z",
+      "uri": "http://web.archive.org/web/20180614115536/https://www.humor-kamensky.sk/index.php"
+    },
+    "last": {
+      "datetime": "2019-02-05T02:54:50Z",
+      "uri": "http://web.archive.org/web/20190205025450/https://www.humor-kamensky.sk/index.php"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.humor-kamensky.sk/index.php",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.humor-kamensky.sk/index.php",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.humor-kamensky.sk/index.php"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.humor-kamensky.sk/index.php"
+}

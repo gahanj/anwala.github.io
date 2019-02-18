@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:52:23Z",
+        "uri": "http://web.archive.org/web/20190209015223/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+      },
+      {
+        "datetime": "2019-02-09T02:53:27Z",
+        "uri": "http://web.archive.org/web/20190209025327/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+      },
+      {
+        "datetime": "2019-02-09T23:45:45Z",
+        "uri": "http://web.archive.org/web/20190209234545/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+      },
+      {
+        "datetime": "2019-02-10T00:09:27Z",
+        "uri": "http://web.archive.org/web/20190210000927/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:52:23Z",
+      "uri": "http://web.archive.org/web/20190209015223/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:09:27Z",
+      "uri": "http://web.archive.org/web/20190210000927/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.reuters.com/article/us-northkorea-usa-envoy/trump-says-north-korea-talks-productive-summit-will-be-in-hanoi-idUSKCN1PX2B1?feedType=RSS&feedName=topNews"
+}

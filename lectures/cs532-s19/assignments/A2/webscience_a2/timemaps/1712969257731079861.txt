@@ -1,0 +1,322 @@
+{
+  "original_uri": "https://ctm.news/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://ctm.news/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-08-23T08:34:44Z",
+        "uri": "http://web.archive.org/web/20160823083444/http://ctm.news/"
+      },
+      {
+        "datetime": "2016-08-23T08:34:47Z",
+        "uri": "http://web.archive.org/web/20160823083447/http://ctm.news/"
+      },
+      {
+        "datetime": "2017-09-09T21:05:14Z",
+        "uri": "http://web.archive.org/web/20170909210514/https://ctm.news/"
+      },
+      {
+        "datetime": "2017-09-30T02:03:58Z",
+        "uri": "http://web.archive.org/web/20170930020358/https://ctm.news/"
+      },
+      {
+        "datetime": "2017-11-09T02:39:40Z",
+        "uri": "http://web.archive.org/web/20171109023940/http://ctm.news/"
+      },
+      {
+        "datetime": "2018-01-22T01:40:44Z",
+        "uri": "http://web.archive.org/web/20180122014044/http://ctm.news/"
+      },
+      {
+        "datetime": "2018-01-27T09:07:04Z",
+        "uri": "http://web.archive.org/web/20180127090704/http://ctm.news/"
+      },
+      {
+        "datetime": "2018-02-02T01:32:56Z",
+        "uri": "http://web.archive.org/web/20180202013256/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-02-19T17:52:53Z",
+        "uri": "http://web.archive.org/web/20180219175253/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-02-23T20:29:29Z",
+        "uri": "http://web.archive.org/web/20180223202929/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-02-24T02:55:25Z",
+        "uri": "http://web.archive.org/web/20180224025525/http://CTM.NEWS"
+      },
+      {
+        "datetime": "2018-02-24T02:55:31Z",
+        "uri": "http://web.archive.org/web/20180224025531/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-03-03T20:57:10Z",
+        "uri": "http://web.archive.org/web/20180303205710/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-03-17T12:17:26Z",
+        "uri": "http://web.archive.org/web/20180317121726/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-03-23T09:26:29Z",
+        "uri": "http://web.archive.org/web/20180323092629/http://ctm.news/"
+      },
+      {
+        "datetime": "2018-03-23T14:48:45Z",
+        "uri": "http://web.archive.org/web/20180323144845/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-03-27T14:57:00Z",
+        "uri": "http://web.archive.org/web/20180327145700/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-03-31T18:29:39Z",
+        "uri": "http://web.archive.org/web/20180331182939/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-04-05T18:47:43Z",
+        "uri": "http://web.archive.org/web/20180405184743/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-04-10T16:04:18Z",
+        "uri": "http://web.archive.org/web/20180410160418/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-04-17T21:09:22Z",
+        "uri": "http://web.archive.org/web/20180417210922/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-04-18T11:34:46Z",
+        "uri": "http://web.archive.org/web/20180418113446/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-04-24T21:00:08Z",
+        "uri": "http://web.archive.org/web/20180424210008/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-05-02T01:07:24Z",
+        "uri": "http://web.archive.org/web/20180502010724/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-05-09T01:29:13Z",
+        "uri": "http://web.archive.org/web/20180509012913/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-05-19T10:31:00Z",
+        "uri": "http://web.archive.org/web/20180519103100/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-05-24T16:03:25Z",
+        "uri": "http://web.archive.org/web/20180524160325/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-05-29T17:57:40Z",
+        "uri": "http://web.archive.org/web/20180529175740/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-05T22:22:58Z",
+        "uri": "http://web.archive.org/web/20180605222258/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:03Z",
+        "uri": "http://web.archive.org/web/20180610125203/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:07Z",
+        "uri": "http://web.archive.org/web/20180610125207/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:09Z",
+        "uri": "http://web.archive.org/web/20180610125209/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:13Z",
+        "uri": "http://web.archive.org/web/20180610125213/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:20Z",
+        "uri": "http://web.archive.org/web/20180610125220/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:25Z",
+        "uri": "http://web.archive.org/web/20180610125225/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:31Z",
+        "uri": "http://web.archive.org/web/20180610125231/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T12:52:34Z",
+        "uri": "http://web.archive.org/web/20180610125234/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T13:07:16Z",
+        "uri": "http://web.archive.org/web/20180610130716/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T13:07:20Z",
+        "uri": "http://web.archive.org/web/20180610130720/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T13:07:24Z",
+        "uri": "http://web.archive.org/web/20180610130724/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T15:02:14Z",
+        "uri": "http://web.archive.org/web/20180610150214/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T15:17:21Z",
+        "uri": "http://web.archive.org/web/20180610151721/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T15:17:25Z",
+        "uri": "http://web.archive.org/web/20180610151725/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T15:17:30Z",
+        "uri": "http://web.archive.org/web/20180610151730/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T15:17:33Z",
+        "uri": "http://web.archive.org/web/20180610151733/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-10T15:17:36Z",
+        "uri": "http://web.archive.org/web/20180610151736/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-20T02:07:17Z",
+        "uri": "http://web.archive.org/web/20180620020717/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-06-29T00:44:52Z",
+        "uri": "http://web.archive.org/web/20180629004452/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-07-17T11:20:04Z",
+        "uri": "http://web.archive.org/web/20180717112004/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-07-24T16:52:08Z",
+        "uri": "http://web.archive.org/web/20180724165208/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-08-07T20:20:06Z",
+        "uri": "http://web.archive.org/web/20180807202006/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-08-09T10:37:21Z",
+        "uri": "http://web.archive.org/web/20180809103721/http://ctm.news/"
+      },
+      {
+        "datetime": "2018-08-14T16:55:50Z",
+        "uri": "http://web.archive.org/web/20180814165550/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-10-13T06:22:13Z",
+        "uri": "http://web.archive.org/web/20181013062213/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-10-16T07:47:49Z",
+        "uri": "http://web.archive.org/web/20181016074749/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-10-23T15:04:52Z",
+        "uri": "http://web.archive.org/web/20181023150452/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-10-30T19:35:38Z",
+        "uri": "http://web.archive.org/web/20181030193538/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-11-06T19:34:34Z",
+        "uri": "http://web.archive.org/web/20181106193434/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-11-13T18:41:32Z",
+        "uri": "http://web.archive.org/web/20181113184132/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-11-30T04:58:08Z",
+        "uri": "http://web.archive.org/web/20181130045808/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-12-04T11:04:01Z",
+        "uri": "http://web.archive.org/web/20181204110401/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-12-19T09:58:41Z",
+        "uri": "http://web.archive.org/web/20181219095841/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-12-25T09:24:45Z",
+        "uri": "http://web.archive.org/web/20181225092445/https://ctm.news/"
+      },
+      {
+        "datetime": "2018-12-30T20:42:54Z",
+        "uri": "http://web.archive.org/web/20181230204254/http://ctm.news/"
+      },
+      {
+        "datetime": "2019-01-01T09:57:51Z",
+        "uri": "http://web.archive.org/web/20190101095751/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-01-08T15:24:17Z",
+        "uri": "http://web.archive.org/web/20190108152417/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-01-15T23:24:15Z",
+        "uri": "http://web.archive.org/web/20190115232415/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-01-22T11:10:14Z",
+        "uri": "http://web.archive.org/web/20190122111014/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-01-23T15:33:07Z",
+        "uri": "http://web.archive.org/web/20190123153307/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-01-29T11:24:46Z",
+        "uri": "http://web.archive.org/web/20190129112446/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-02-05T11:29:35Z",
+        "uri": "http://web.archive.org/web/20190205112935/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-02-05T12:32:12Z",
+        "uri": "http://web.archive.org/web/20190205123212/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-02-06T13:08:36Z",
+        "uri": "http://web.archive.org/web/20190206130836/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-02-08T15:07:43Z",
+        "uri": "http://web.archive.org/web/20190208150743/https://ctm.news/"
+      },
+      {
+        "datetime": "2019-02-09T16:03:31Z",
+        "uri": "http://web.archive.org/web/20190209160331/https://ctm.news/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-08-23T08:34:44Z",
+      "uri": "http://web.archive.org/web/20160823083444/http://ctm.news/"
+    },
+    "last": {
+      "datetime": "2019-02-09T16:03:31Z",
+      "uri": "http://web.archive.org/web/20190209160331/https://ctm.news/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://ctm.news/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://ctm.news/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://ctm.news/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://ctm.news/"
+}

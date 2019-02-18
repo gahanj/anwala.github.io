@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T21:24:16Z",
+        "uri": "http://web.archive.org/web/20190206212416/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+      },
+      {
+        "datetime": "2019-02-07T22:02:16Z",
+        "uri": "http://web.archive.org/web/20190207220216/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+      },
+      {
+        "datetime": "2019-02-08T23:10:04Z",
+        "uri": "http://web.archive.org/web/20190208231004/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+      },
+      {
+        "datetime": "2019-02-09T23:39:38Z",
+        "uri": "http://web.archive.org/web/20190209233938/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T21:24:16Z",
+      "uri": "http://web.archive.org/web/20190206212416/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:39:38Z",
+      "uri": "http://web.archive.org/web/20190209233938/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.fatherly.com/news/middle-class-angry-trump-tax-hike/"
+}

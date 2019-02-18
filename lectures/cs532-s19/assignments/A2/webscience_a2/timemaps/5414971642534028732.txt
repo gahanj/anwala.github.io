@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://apnews.com/3e265c4138d04e22886e6e1818789734",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://apnews.com/3e265c4138d04e22886e6e1818789734",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T15:16:25Z",
+        "uri": "http://web.archive.org/web/20190209151625/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+      },
+      {
+        "datetime": "2019-02-09T20:08:15Z",
+        "uri": "http://web.archive.org/web/20190209200815/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+      },
+      {
+        "datetime": "2019-02-09T22:32:45Z",
+        "uri": "http://web.archive.org/web/20190209223245/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+      },
+      {
+        "datetime": "2019-02-10T01:02:48Z",
+        "uri": "http://web.archive.org/web/20190210010248/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+      },
+      {
+        "datetime": "2019-02-10T02:12:24Z",
+        "uri": "http://web.archive.org/web/20190210021224/https://www.apnews.com/3e265c4138d04e22886e6e1818789734"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T15:16:25Z",
+      "uri": "http://web.archive.org/web/20190209151625/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:12:24Z",
+      "uri": "http://web.archive.org/web/20190210021224/https://www.apnews.com/3e265c4138d04e22886e6e1818789734"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://apnews.com/3e265c4138d04e22886e6e1818789734",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://apnews.com/3e265c4138d04e22886e6e1818789734",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://apnews.com/3e265c4138d04e22886e6e1818789734"
+}

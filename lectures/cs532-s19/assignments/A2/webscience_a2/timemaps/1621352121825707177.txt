@@ -1,0 +1,82 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/technology-47152051",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/technology-47152051",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:07:37Z",
+        "uri": "http://web.archive.org/web/20190210010737/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T01:07:37Z",
+        "uri": "http://web.archive.org/web/20190210010737/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T03:37:26Z",
+        "uri": "http://web.archive.org/web/20190210033726/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T03:37:26Z",
+        "uri": "http://web.archive.org/web/20190210033726/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T04:29:24Z",
+        "uri": "http://web.archive.org/web/20190210042924/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T04:29:24Z",
+        "uri": "http://web.archive.org/web/20190210042924/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T05:30:16Z",
+        "uri": "http://web.archive.org/web/20190210053016/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T05:30:16Z",
+        "uri": "http://web.archive.org/web/20190210053016/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T07:07:23Z",
+        "uri": "http://web.archive.org/web/20190210070723/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T07:07:36Z",
+        "uri": "http://web.archive.org/web/20190210070736/http://bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T07:07:41Z",
+        "uri": "http://web.archive.org/web/20190210070741/http://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T16:00:38Z",
+        "uri": "http://web.archive.org/web/20190210160038/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T16:00:38Z",
+        "uri": "http://web.archive.org/web/20190210160038/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T16:45:24Z",
+        "uri": "http://web.archive.org/web/20190210164524/https://www.bbc.co.uk/news/technology-47152051"
+      },
+      {
+        "datetime": "2019-02-10T16:45:24Z",
+        "uri": "http://web.archive.org/web/20190210164524/https://www.bbc.co.uk/news/technology-47152051"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:07:37Z",
+      "uri": "http://web.archive.org/web/20190210010737/https://www.bbc.co.uk/news/technology-47152051"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:45:24Z",
+      "uri": "http://web.archive.org/web/20190210164524/https://www.bbc.co.uk/news/technology-47152051"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.co.uk/news/technology-47152051",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/technology-47152051",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.co.uk/news/technology-47152051"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.co.uk/news/technology-47152051"
+}

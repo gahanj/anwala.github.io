@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T22:17:00Z",
+        "uri": "http://web.archive.org/web/20190209221700/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms"
+      },
+      {
+        "datetime": "2019-02-10T06:45:45Z",
+        "uri": "http://web.archive.org/web/20190210064545/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T22:17:00Z",
+      "uri": "http://web.archive.org/web/20190209221700/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:45:45Z",
+      "uri": "http://web.archive.org/web/20190210064545/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://timesofindia.indiatimes.com/world/rest-of-world/trump-kim-jong-to-meet-again-in-hanoi-on-feb-27-28/articleshow/67910409.cms"
+}

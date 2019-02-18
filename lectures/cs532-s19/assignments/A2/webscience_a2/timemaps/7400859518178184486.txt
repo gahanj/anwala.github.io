@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T04:33:02Z",
+        "uri": "http://web.archive.org/web/20190210043302/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/"
+      },
+      {
+        "datetime": "2019-02-10T09:02:06Z",
+        "uri": "http://web.archive.org/web/20190210090206/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T04:33:02Z",
+      "uri": "http://web.archive.org/web/20190210043302/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:02:06Z",
+      "uri": "http://web.archive.org/web/20190210090206/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.inquisitr.com/5288796/attorney-general-whitaker-mueller-probe-trump/"
+}

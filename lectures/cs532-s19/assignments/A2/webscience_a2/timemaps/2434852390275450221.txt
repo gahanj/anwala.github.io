@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T21:44:40Z",
+        "uri": "http://archive.md/20190206214440/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867"
+      },
+      {
+        "datetime": "2019-02-07T14:11:04Z",
+        "uri": "http://web.archive.org/web/20190207141104/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T21:44:40Z",
+      "uri": "http://archive.md/20190206214440/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:11:04Z",
+      "uri": "http://web.archive.org/web/20190207141104/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/06/congress-trump-yemen-1153867"
+}

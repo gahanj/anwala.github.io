@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T00:48:31Z",
+        "uri": "http://web.archive.org/web/20190209004831/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+      },
+      {
+        "datetime": "2019-02-09T08:39:49Z",
+        "uri": "http://web.archive.org/web/20190209083949/http://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+      },
+      {
+        "datetime": "2019-02-09T09:55:08Z",
+        "uri": "http://web.archive.org/web/20190209095508/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+      },
+      {
+        "datetime": "2019-02-09T20:22:40Z",
+        "uri": "http://web.archive.org/web/20190209202240/http://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+      },
+      {
+        "datetime": "2019-02-10T10:31:05Z",
+        "uri": "http://web.archive.org/web/20190210103105/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T00:48:31Z",
+      "uri": "http://web.archive.org/web/20190209004831/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:31:05Z",
+      "uri": "http://web.archive.org/web/20190210103105/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/politics/2019/02/08/trump-property-earned-money-political-committee-one-out-every-two-days-until-election/"
+}

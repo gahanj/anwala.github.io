@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T15:10:05Z",
+        "uri": "http://web.archive.org/web/20190208151005/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+      },
+      {
+        "datetime": "2019-02-08T17:45:02Z",
+        "uri": "http://archive.md/20190208174502/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+      },
+      {
+        "datetime": "2019-02-08T22:33:32Z",
+        "uri": "http://web.archive.org/web/20190208223332/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+      },
+      {
+        "datetime": "2019-02-09T10:21:57Z",
+        "uri": "http://web.archive.org/web/20190209102157/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+      },
+      {
+        "datetime": "2019-02-09T23:00:44Z",
+        "uri": "http://web.archive.org/web/20190209230044/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T15:10:05Z",
+      "uri": "http://web.archive.org/web/20190208151005/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:00:44Z",
+      "uri": "http://web.archive.org/web/20190209230044/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/as-trump-administration-negotiates-peace-with-taliban-some-retired-us-generals-see-defeat-100000833.html"
+}

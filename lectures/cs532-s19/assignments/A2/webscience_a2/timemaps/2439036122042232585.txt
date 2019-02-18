@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T04:30:36Z",
+        "uri": "http://web.archive.org/web/20190210043036/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T04:30:36Z",
+      "uri": "http://web.archive.org/web/20190210043036/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:30:36Z",
+      "uri": "http://web.archive.org/web/20190210043036/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://video.gelocal.it/iltirreno/locale/carnevale-di-viareggio-2019-la-prima-sfilata/115848/117443"
+}

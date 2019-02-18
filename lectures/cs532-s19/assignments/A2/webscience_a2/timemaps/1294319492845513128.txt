@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:45:18Z",
+        "uri": "http://web.archive.org/web/20190209214518/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:10:10Z",
+        "uri": "http://web.archive.org/web/20190210001010/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:27:17Z",
+        "uri": "http://web.archive.org/web/20190210002717/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T04:25:43Z",
+        "uri": "http://web.archive.org/web/20190210042543/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T07:48:03Z",
+        "uri": "http://web.archive.org/web/20190210074803/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T13:28:49Z",
+        "uri": "http://web.archive.org/web/20190210132849/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:45:18Z",
+      "uri": "http://web.archive.org/web/20190209214518/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:28:49Z",
+      "uri": "http://web.archive.org/web/20190210132849/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+}

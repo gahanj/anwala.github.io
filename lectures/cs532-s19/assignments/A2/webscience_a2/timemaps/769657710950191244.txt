@@ -1,0 +1,82 @@
+{
+  "original_uri": "http://news.witkh.us",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://news.witkh.us",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2013-10-09T06:59:14Z",
+        "uri": "http://web.archive.org/web/20131009065914/http://news.witkh.us:80/"
+      },
+      {
+        "datetime": "2013-12-25T23:08:36Z",
+        "uri": "http://web.archive.org/web/20131225230836/http://news.witkh.us:80/"
+      },
+      {
+        "datetime": "2014-02-21T13:09:27Z",
+        "uri": "http://web.archive.org/web/20140221130927/http://news.witkh.us:80/"
+      },
+      {
+        "datetime": "2014-07-05T16:37:00Z",
+        "uri": "http://web.archive.org/web/20140705163700/http://news.witkh.us:80/"
+      },
+      {
+        "datetime": "2014-10-04T19:03:44Z",
+        "uri": "http://archive.md/20141004190344/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2015-01-06T13:35:21Z",
+        "uri": "http://web.archive.org/web/20150106133521/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2015-10-18T21:36:47Z",
+        "uri": "http://web.archive.org/web/20151018213647/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2016-03-09T16:26:52Z",
+        "uri": "http://web.archive.org/web/20160309162652/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2016-05-28T00:51:36Z",
+        "uri": "http://web.archive.org/web/20160528005136/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2016-06-10T17:03:01Z",
+        "uri": "http://web.archive.org/web/20160610170301/http://news.witkh.us:80/"
+      },
+      {
+        "datetime": "2017-08-31T20:19:04Z",
+        "uri": "http://web.archive.org/web/20170831201904/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2017-09-03T04:36:10Z",
+        "uri": "http://web.archive.org/web/20170903043610/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2017-10-22T22:52:00Z",
+        "uri": "http://web.archive.org/web/20171022225200/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2018-03-29T08:08:49Z",
+        "uri": "http://web.archive.org/web/20180329080849/http://news.witkh.us/"
+      },
+      {
+        "datetime": "2018-11-24T04:47:51Z",
+        "uri": "http://web.archive.org/web/20181124044751/http://news.witkh.us/"
+      }
+    ],
+    "first": {
+      "datetime": "2013-10-09T06:59:14Z",
+      "uri": "http://web.archive.org/web/20131009065914/http://news.witkh.us:80/"
+    },
+    "last": {
+      "datetime": "2018-11-24T04:47:51Z",
+      "uri": "http://web.archive.org/web/20181124044751/http://news.witkh.us/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://news.witkh.us",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://news.witkh.us",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://news.witkh.us"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://news.witkh.us"
+}

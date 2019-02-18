@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T18:22:08Z",
+        "uri": "http://web.archive.org/web/20190209182208/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+      },
+      {
+        "datetime": "2019-02-10T00:18:42Z",
+        "uri": "http://web.archive.org/web/20190210001842/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+      },
+      {
+        "datetime": "2019-02-10T00:51:18Z",
+        "uri": "http://web.archive.org/web/20190210005118/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+      },
+      {
+        "datetime": "2019-02-10T01:44:46Z",
+        "uri": "http://web.archive.org/web/20190210014446/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+      },
+      {
+        "datetime": "2019-02-10T05:22:32Z",
+        "uri": "http://web.archive.org/web/20190210052232/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T18:22:08Z",
+      "uri": "http://web.archive.org/web/20190209182208/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:22:32Z",
+      "uri": "http://web.archive.org/web/20190210052232/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.express.co.uk/news/world/1084885/Iran-news-protest-rally-Donald-Trump-Europe-EU-news"
+}

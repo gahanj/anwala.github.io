@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T15:24:39Z",
+        "uri": "http://web.archive.org/web/20190209152439/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+      },
+      {
+        "datetime": "2019-02-09T23:44:25Z",
+        "uri": "http://web.archive.org/web/20190209234425/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+      },
+      {
+        "datetime": "2019-02-10T00:20:56Z",
+        "uri": "http://web.archive.org/web/20190210002056/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T15:24:39Z",
+      "uri": "http://web.archive.org/web/20190209152439/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:20:56Z",
+      "uri": "http://web.archive.org/web/20190210002056/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cnnespanol.cnn.com/2019/02/08/donald-trump-y-jeff-bezos-la-larga-y-dramatica-historia-de-su-enemistad/"
+}

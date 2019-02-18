@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-12T12:55:53Z",
+        "uri": "http://web.archive.org/web/20181212125553/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-12T12:55:53Z",
+      "uri": "http://web.archive.org/web/20181212125553/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/"
+    },
+    "last": {
+      "datetime": "2018-12-12T12:55:53Z",
+      "uri": "http://web.archive.org/web/20181212125553/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://people.com/politics/national-butterfly-center-to-be-destroyed-trump-border-wall/"
+}

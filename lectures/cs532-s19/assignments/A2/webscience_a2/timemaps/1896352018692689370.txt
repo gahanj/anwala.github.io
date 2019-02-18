@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-21T21:46:04Z",
+        "uri": "http://web.archive.org/web/20181121214604/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html"
+      },
+      {
+        "datetime": "2018-11-21T23:59:41Z",
+        "uri": "http://web.archive.org/web/20181121235941/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-21T21:46:04Z",
+      "uri": "http://web.archive.org/web/20181121214604/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html"
+    },
+    "last": {
+      "datetime": "2018-11-21T23:59:41Z",
+      "uri": "http://web.archive.org/web/20181121235941/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/business/trump-and-mbs-reveal-what-energy-dominance-really-entails/2018/11/21/5371e126-edb5-11e8-8b47-bd0975fd6199_story.html"
+}

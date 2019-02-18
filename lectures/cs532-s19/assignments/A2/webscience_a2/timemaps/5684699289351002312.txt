@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:26:34Z",
+        "uri": "http://web.archive.org/web/20190208232634/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:26:34Z",
+      "uri": "http://web.archive.org/web/20190208232634/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos"
+    },
+    "last": {
+      "datetime": "2019-02-08T23:26:34Z",
+      "uri": "http://web.archive.org/web/20190208232634/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://talkingpointsmemo.com/news/national-enquirer-donald-trump-jeff-bezos"
+}

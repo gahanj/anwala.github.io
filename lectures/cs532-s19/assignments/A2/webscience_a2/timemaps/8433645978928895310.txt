@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-04T21:22:51Z",
+        "uri": "http://web.archive.org/web/20190204212251/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-05T15:52:13Z",
+        "uri": "http://web.archive.org/web/20190205155213/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-05T17:43:22Z",
+        "uri": "http://web.archive.org/web/20190205174322/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-06T16:29:29Z",
+        "uri": "http://web.archive.org/web/20190206162929/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-07T02:07:51Z",
+        "uri": "http://web.archive.org/web/20190207020751/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-07T10:07:35Z",
+        "uri": "http://web.archive.org/web/20190207100735/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-07T18:12:18Z",
+        "uri": "http://web.archive.org/web/20190207181218/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-07T19:53:12Z",
+        "uri": "http://web.archive.org/web/20190207195312/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-08T21:52:37Z",
+        "uri": "http://web.archive.org/web/20190208215237/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-10T01:03:42Z",
+        "uri": "http://web.archive.org/web/20190210010342/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      },
+      {
+        "datetime": "2019-02-10T14:02:53Z",
+        "uri": "http://web.archive.org/web/20190210140253/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-04T21:22:51Z",
+      "uri": "http://web.archive.org/web/20190204212251/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:02:53Z",
+      "uri": "http://web.archive.org/web/20190210140253/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/04/business/us-economy-trump-taxes-trade.html"
+}

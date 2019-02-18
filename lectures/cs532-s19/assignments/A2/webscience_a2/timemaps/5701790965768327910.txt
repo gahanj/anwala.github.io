@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T16:42:20Z",
+        "uri": "http://web.archive.org/web/20190206164220/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T16:42:20Z",
+      "uri": "http://web.archive.org/web/20190206164220/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/"
+    },
+    "last": {
+      "datetime": "2019-02-06T16:42:20Z",
+      "uri": "http://web.archive.org/web/20190206164220/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theamericanconservative.com/articles/making-america-great-again-means-ending-the-wars/"
+}

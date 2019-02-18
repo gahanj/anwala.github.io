@@ -1,0 +1,122 @@
+{
+  "original_uri": "https://buchanan.org/blog/will-west-survive-century-125408",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/will-west-survive-century-125408",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-07-06T20:45:24Z",
+        "uri": "http://archive.md/20160706204524/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-07-08T01:06:31Z",
+        "uri": "http://web.archive.org/web/20160708010631/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-07-10T03:33:28Z",
+        "uri": "http://web.archive.org/web/20160710033328/http://buchanan.org:80/blog/will-west-survive-century-125408?"
+      },
+      {
+        "datetime": "2016-07-15T12:24:50Z",
+        "uri": "http://web.archive.org/web/20160715122450/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-07-27T10:37:25Z",
+        "uri": "http://web.archive.org/web/20160727103725/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-08-10T05:52:18Z",
+        "uri": "http://web.archive.org/web/20160810055218/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-08-10T05:52:40Z",
+        "uri": "http://web.archive.org/web/20160810055240/http://buchanan.org:80/blog/will-west-survive-century-125408?"
+      },
+      {
+        "datetime": "2016-08-11T06:01:22Z",
+        "uri": "http://web.archive.org/web/20160811060122/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-08-11T06:01:34Z",
+        "uri": "http://web.archive.org/web/20160811060134/http://buchanan.org:80/blog/will-west-survive-century-125408?"
+      },
+      {
+        "datetime": "2016-08-31T15:15:41Z",
+        "uri": "http://web.archive.org/web/20160831151541/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-09-11T22:35:54Z",
+        "uri": "http://web.archive.org/web/20160911223554/http://buchanan.org:80/blog/will-west-survive-century-125408?"
+      },
+      {
+        "datetime": "2016-09-23T15:28:59Z",
+        "uri": "http://web.archive.org/web/20160923152859/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-10-02T02:41:22Z",
+        "uri": "http://web.archive.org/web/20161002024122/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-10-13T14:03:45Z",
+        "uri": "http://web.archive.org/web/20161013140345/http://buchanan.org:80/blog/will-west-survive-century-125408?"
+      },
+      {
+        "datetime": "2016-10-30T10:39:13Z",
+        "uri": "http://web.archive.org/web/20161030103913/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-11-02T16:41:14Z",
+        "uri": "http://web.archive.org/web/20161102164114/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-11-03T18:24:59Z",
+        "uri": "http://web.archive.org/web/20161103182459/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2016-11-27T23:36:17Z",
+        "uri": "http://web.archive.org/web/20161127233617/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2017-07-08T20:06:30Z",
+        "uri": "http://web.archive.org/web/20170708200630/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2017-09-08T00:05:54Z",
+        "uri": "http://web.archive.org/web/20170908000554/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2017-09-20T17:48:05Z",
+        "uri": "http://web.archive.org/web/20170920174805/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2017-11-10T11:38:56Z",
+        "uri": "http://web.archive.org/web/20171110113856/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2017-11-10T12:24:58Z",
+        "uri": "http://web.archive.org/web/20171110122458/http://buchanan.org/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2017-11-21T05:58:39Z",
+        "uri": "http://web.archive.org/web/20171121055839/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      },
+      {
+        "datetime": "2018-06-23T12:52:44Z",
+        "uri": "http://web.archive.org/web/20180623125244/http://buchanan.org:80/blog/will-west-survive-century-125408"
+      }
+    ],
+    "first": {
+      "datetime": "2016-07-06T20:45:24Z",
+      "uri": "http://archive.md/20160706204524/http://buchanan.org/blog/will-west-survive-century-125408"
+    },
+    "last": {
+      "datetime": "2018-06-23T12:52:44Z",
+      "uri": "http://web.archive.org/web/20180623125244/http://buchanan.org:80/blog/will-west-survive-century-125408"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://buchanan.org/blog/will-west-survive-century-125408",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://buchanan.org/blog/will-west-survive-century-125408",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://buchanan.org/blog/will-west-survive-century-125408"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://buchanan.org/blog/will-west-survive-century-125408"
+}

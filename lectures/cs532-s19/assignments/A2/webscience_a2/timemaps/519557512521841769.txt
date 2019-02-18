@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T00:21:28Z",
+        "uri": "http://web.archive.org/web/20190209002128/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-09T06:09:58Z",
+        "uri": "http://web.archive.org/web/20190209060958/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-09T09:43:44Z",
+        "uri": "http://web.archive.org/web/20190209094344/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-09T21:35:42Z",
+        "uri": "http://archive.md/20190209213542/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-10T00:15:35Z",
+        "uri": "http://web.archive.org/web/20190210001535/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-10T01:53:17Z",
+        "uri": "http://web.archive.org/web/20190210015317/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-10T04:30:14Z",
+        "uri": "http://web.archive.org/web/20190210043014/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      },
+      {
+        "datetime": "2019-02-10T10:56:52Z",
+        "uri": "http://web.archive.org/web/20190210105652/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T00:21:28Z",
+      "uri": "http://web.archive.org/web/20190209002128/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:56:52Z",
+      "uri": "http://web.archive.org/web/20190210105652/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.usatoday.com/story/money/2019/02/08/taxes-2019-why-my-refund-lower-2019/2816418002/"
+}

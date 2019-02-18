@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T19:51:07Z",
+        "uri": "http://web.archive.org/web/20190209195107/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+      },
+      {
+        "datetime": "2019-02-09T23:21:17Z",
+        "uri": "http://web.archive.org/web/20190209232117/http://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+      },
+      {
+        "datetime": "2019-02-09T23:32:52Z",
+        "uri": "http://web.archive.org/web/20190209233252/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+      },
+      {
+        "datetime": "2019-02-10T06:12:00Z",
+        "uri": "http://web.archive.org/web/20190210061200/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+      },
+      {
+        "datetime": "2019-02-10T11:39:55Z",
+        "uri": "http://web.archive.org/web/20190210113955/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T19:51:07Z",
+      "uri": "http://web.archive.org/web/20190209195107/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:39:55Z",
+      "uri": "http://web.archive.org/web/20190210113955/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.msnbc.com/weekends-with-alex-witt/watch/expanding-social-security-so-no-retiree-lives-in-poverty-1440021571893"
+}

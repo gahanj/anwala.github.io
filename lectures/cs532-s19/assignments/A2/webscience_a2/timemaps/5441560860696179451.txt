@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T07:44:40Z",
+        "uri": "http://web.archive.org/web/20190210074440/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87"
+      },
+      {
+        "datetime": "2019-02-10T17:34:47Z",
+        "uri": "http://web.archive.org/web/20190210173447/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T07:44:40Z",
+      "uri": "http://web.archive.org/web/20190210074440/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:34:47Z",
+      "uri": "http://web.archive.org/web/20190210173447/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/snl-them-trumps-black-tv_us_5c5fc126e4b0f9e1b17dec87"
+}

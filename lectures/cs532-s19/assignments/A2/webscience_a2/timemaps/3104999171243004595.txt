@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.nrdc.org/trump-lies",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nrdc.org/trump-lies",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-08-30T16:19:49Z",
+        "uri": "http://web.archive.org/web/20170830161949/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2017-11-18T07:39:36Z",
+        "uri": "http://web.archive.org/web/20171118073936/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2017-12-25T11:35:45Z",
+        "uri": "http://web.archive.org/web/20171225113545/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2018-01-07T08:01:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180107080113/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2018-01-07T08:01:13Z",
+        "uri": "http://web.archive.org/web/20180107080113/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2018-08-08T11:22:30Z",
+        "uri": "http://web.archive.org/web/20180808112230/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2018-08-08T12:00:02Z",
+        "uri": "http://web.archive.org/web/20180808120002/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2018-10-27T21:20:57Z",
+        "uri": "http://web.archive.org/web/20181027212057/https://www.nrdc.org/trump-lies"
+      },
+      {
+        "datetime": "2018-11-15T04:06:24Z",
+        "uri": "http://archive.md/20181115040624/https://www.nrdc.org/trump-lies"
+      }
+    ],
+    "first": {
+      "datetime": "2017-08-30T16:19:49Z",
+      "uri": "http://web.archive.org/web/20170830161949/https://www.nrdc.org/trump-lies"
+    },
+    "last": {
+      "datetime": "2018-11-15T04:06:24Z",
+      "uri": "http://archive.md/20181115040624/https://www.nrdc.org/trump-lies"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nrdc.org/trump-lies",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nrdc.org/trump-lies",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nrdc.org/trump-lies"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nrdc.org/trump-lies"
+}

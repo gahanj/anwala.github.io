@@ -1,0 +1,3290 @@
+{
+  "original_uri": "http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2009-07-23T04:48:09Z",
+        "uri": "http://web.archive.org/web/20090723044809/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-07-23T04:48:09Z",
+        "uri": "http://web.archive.org/web/20090723044809/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-08-08T11:28:36Z",
+        "uri": "http://web.archive.org/web/20090808112836/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-08-08T11:28:36Z",
+        "uri": "http://web.archive.org/web/20090808112836/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-09-04T14:16:16Z",
+        "uri": "http://web.archive.org/web/20090904141616/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-09-04T14:16:16Z",
+        "uri": "http://web.archive.org/web/20090904141616/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-09-23T15:05:29Z",
+        "uri": "http://web.archive.org/web/20090923150529/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-10-16T12:47:18Z",
+        "uri": "http://web.archive.org/web/20091016124718/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2009-10-19T11:03:22Z",
+        "uri": "http://web.archive.org/web/20091019110322/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-03-30T00:34:23Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20100330003423/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-04-09T05:33:14Z",
+        "uri": "http://wayback.archive-it.org/all/20100409053314/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-04-09T05:33:14Z",
+        "uri": "http://web.archive.org/web/20100409053314/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-04-26T11:50:05Z",
+        "uri": "http://web.archive.org/web/20100426115005/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-04-26T11:50:05Z",
+        "uri": "http://web.archive.org/web/20100426115005/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-03T01:42:26Z",
+        "uri": "http://web.archive.org/web/20100503014226/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-03T01:42:26Z",
+        "uri": "http://web.archive.org/web/20100503014226/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-11T09:54:32Z",
+        "uri": "http://web.archive.org/web/20100511095432/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-11T09:54:32Z",
+        "uri": "http://web.archive.org/web/20100511095432/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-18T17:37:29Z",
+        "uri": "http://web.archive.org/web/20100518173729/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-18T17:37:29Z",
+        "uri": "http://web.archive.org/web/20100518173729/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-05-22T04:26:31Z",
+        "uri": "http://web.archive.org/web/20100522042631/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-06-01T18:25:59Z",
+        "uri": "http://web.archive.org/web/20100601182559/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-06-01T18:25:59Z",
+        "uri": "http://web.archive.org/web/20100601182559/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-06-15T10:26:18Z",
+        "uri": "http://web.archive.org/web/20100615102618/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-06-15T10:26:18Z",
+        "uri": "http://web.archive.org/web/20100615102618/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-06-30T11:08:45Z",
+        "uri": "http://web.archive.org/web/20100630110845/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-06-30T11:08:45Z",
+        "uri": "http://web.archive.org/web/20100630110845/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-07T03:26:28Z",
+        "uri": "http://web.archive.org/web/20100707032628/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-07T03:26:28Z",
+        "uri": "http://web.archive.org/web/20100707032628/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-13T19:56:58Z",
+        "uri": "http://web.archive.org/web/20100713195658/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-13T19:56:58Z",
+        "uri": "http://web.archive.org/web/20100713195658/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-20T09:14:15Z",
+        "uri": "http://web.archive.org/web/20100720091415/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-20T09:14:15Z",
+        "uri": "http://web.archive.org/web/20100720091415/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-28T04:49:34Z",
+        "uri": "http://web.archive.org/web/20100728044934/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-07-28T04:49:34Z",
+        "uri": "http://web.archive.org/web/20100728044934/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-10T23:33:32Z",
+        "uri": "http://web.archive.org/web/20100810233332/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-10T23:33:32Z",
+        "uri": "http://web.archive.org/web/20100810233332/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-18T00:14:04Z",
+        "uri": "http://web.archive.org/web/20100818001404/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-23T11:53:45Z",
+        "uri": "http://web.archive.org/web/20100823115345/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-23T11:53:45Z",
+        "uri": "http://web.archive.org/web/20100823115345/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-30T07:43:48Z",
+        "uri": "http://web.archive.org/web/20100830074348/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-08-30T07:43:48Z",
+        "uri": "http://web.archive.org/web/20100830074348/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-03T20:14:46Z",
+        "uri": "http://web.archive.org/web/20101003201446/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-07T09:26:56Z",
+        "uri": "http://web.archive.org/web/20101007092656/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-10T03:25:37Z",
+        "uri": "http://web.archive.org/web/20101010032537/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-12T12:50:31Z",
+        "uri": "http://web.archive.org/web/20101012125031/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-18T12:15:47Z",
+        "uri": "http://web.archive.org/web/20101018121547/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-25T12:21:35Z",
+        "uri": "http://web.archive.org/web/20101025122135/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-10-29T22:35:19Z",
+        "uri": "http://web.archive.org/web/20101029223519/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-03T08:55:22Z",
+        "uri": "http://web.archive.org/web/20101103085522/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-07T10:25:58Z",
+        "uri": "http://web.archive.org/web/20101107102558/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-09T19:20:49Z",
+        "uri": "http://web.archive.org/web/20101109192049/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-11T22:00:59Z",
+        "uri": "http://web.archive.org/web/20101111220059/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-12T20:52:35Z",
+        "uri": "http://web.archive.org/web/20101112205235/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-14T23:44:58Z",
+        "uri": "http://web.archive.org/web/20101114234458/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-15T02:38:06Z",
+        "uri": "http://web.archive.org/web/20101115023806/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-17T03:31:04Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20101117033104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-17T07:43:34Z",
+        "uri": "http://web.archive.org/web/20101117074334/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-22T09:05:01Z",
+        "uri": "http://web.archive.org/web/20101122090501/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-26T04:07:56Z",
+        "uri": "http://web.archive.org/web/20101126040756/http://feeds.feedburner.com//~ff//reuters//topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-27T20:56:18Z",
+        "uri": "http://web.archive.org/web/20101127205618/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-28T00:52:03Z",
+        "uri": "http://web.archive.org/web/20101128005203/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-29T07:42:37Z",
+        "uri": "http://wayback.archive-it.org/all/20101129074237/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-29T07:42:37Z",
+        "uri": "http://web.archive.org/web/20101129074237/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-11-29T18:38:50Z",
+        "uri": "http://web.archive.org/web/20101129183850/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-01T21:04:21Z",
+        "uri": "http://web.archive.org/web/20101201210421/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-05T17:49:04Z",
+        "uri": "http://web.archive.org/web/20101205174904/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-06T06:12:34Z",
+        "uri": "http://web.archive.org/web/20101206061234/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-07T13:43:07Z",
+        "uri": "http://web.archive.org/web/20101207134307/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-11T04:00:27Z",
+        "uri": "http://wayback.archive-it.org/all/20101211040027/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-11T04:00:27Z",
+        "uri": "http://web.archive.org/web/20101211040027/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-17T18:23:32Z",
+        "uri": "http://web.archive.org/web/20101217182332/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-18T09:24:41Z",
+        "uri": "http://wayback.archive-it.org/all/20101218092441/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-18T09:24:41Z",
+        "uri": "http://web.archive.org/web/20101218092441/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-18T15:24:34Z",
+        "uri": "http://web.archive.org/web/20101218152434/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-21T14:55:16Z",
+        "uri": "http://web.archive.org/web/20101221145516/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-23T15:11:26Z",
+        "uri": "http://web.archive.org/web/20101223151126/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-24T05:25:58Z",
+        "uri": "http://web.archive.org/web/20101224052558/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-27T18:36:37Z",
+        "uri": "http://web.archive.org/web/20101227183637/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-31T03:52:33Z",
+        "uri": "http://web.archive.org/web/20101231035233/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2010-12-31T07:26:24Z",
+        "uri": "http://web.archive.org/web/20101231072624/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-02T08:08:54Z",
+        "uri": "http://web.archive.org/web/20110102080854/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-03T03:01:43Z",
+        "uri": "http://web.archive.org/web/20110103030143/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-07T08:00:27Z",
+        "uri": "http://web.archive.org/web/20110107080027/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-07T19:51:02Z",
+        "uri": "http://web.archive.org/web/20110107195102/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-07T21:30:40Z",
+        "uri": "http://web.archive.org/web/20110107213040/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-09T01:43:56Z",
+        "uri": "http://wayback.archive-it.org/all/20110109014356/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-09T01:43:56Z",
+        "uri": "http://web.archive.org/web/20110109014356/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-10T16:18:08Z",
+        "uri": "http://web.archive.org/web/20110110161808/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-12T02:19:07Z",
+        "uri": "http://web.archive.org/web/20110112021907/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-12T02:51:22Z",
+        "uri": "http://web.archive.org/web/20110112025122/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-13T19:31:10Z",
+        "uri": "http://web.archive.org/web/20110113193110/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-21T03:36:05Z",
+        "uri": "http://web.archive.org/web/20110121033605/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-25T17:14:24Z",
+        "uri": "http://web.archive.org/web/20110125171424/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-27T17:00:03Z",
+        "uri": "http://web.archive.org/web/20110127170003/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-29T02:46:12Z",
+        "uri": "http://web.archive.org/web/20110129024612/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-29T11:08:09Z",
+        "uri": "http://web.archive.org/web/20110129110809/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-29T11:26:51Z",
+        "uri": "http://web.archive.org/web/20110129112651/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-29T12:54:20Z",
+        "uri": "http://web.archive.org/web/20110129125420/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-29T13:35:23Z",
+        "uri": "http://web.archive.org/web/20110129133523/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-31T11:08:45Z",
+        "uri": "http://web.archive.org/web/20110131110845/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-01-31T21:26:43Z",
+        "uri": "http://web.archive.org/web/20110131212643/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-02T15:44:06Z",
+        "uri": "http://web.archive.org/web/20110202154406/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-02T19:13:34Z",
+        "uri": "http://web.archive.org/web/20110202191334/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-02T19:46:42Z",
+        "uri": "http://web.archive.org/web/20110202194642/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-02T20:43:11Z",
+        "uri": "http://web.archive.org/web/20110202204311/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-02T21:03:32Z",
+        "uri": "http://web.archive.org/web/20110202210332/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-02T21:14:48Z",
+        "uri": "http://web.archive.org/web/20110202211448/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T00:12:55Z",
+        "uri": "http://web.archive.org/web/20110203001255/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T00:45:16Z",
+        "uri": "http://web.archive.org/web/20110203004516/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T03:58:03Z",
+        "uri": "http://web.archive.org/web/20110203035803/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T08:13:31Z",
+        "uri": "http://web.archive.org/web/20110203081331/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T09:54:29Z",
+        "uri": "http://web.archive.org/web/20110203095429/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T10:17:38Z",
+        "uri": "http://web.archive.org/web/20110203101738/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T11:11:13Z",
+        "uri": "http://web.archive.org/web/20110203111113/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T12:13:23Z",
+        "uri": "http://web.archive.org/web/20110203121323/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T12:58:41Z",
+        "uri": "http://web.archive.org/web/20110203125841/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-03T22:03:20Z",
+        "uri": "http://web.archive.org/web/20110203220320/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-04T05:41:17Z",
+        "uri": "http://web.archive.org/web/20110204054117/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-04T13:05:14Z",
+        "uri": "http://web.archive.org/web/20110204130514/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-04T13:39:54Z",
+        "uri": "http://web.archive.org/web/20110204133954/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-04T17:07:04Z",
+        "uri": "http://web.archive.org/web/20110204170704/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-05T05:07:53Z",
+        "uri": "http://web.archive.org/web/20110205050753/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-07T11:32:47Z",
+        "uri": "http://web.archive.org/web/20110207113247/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-07T13:28:55Z",
+        "uri": "http://web.archive.org/web/20110207132855/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-08T05:32:31Z",
+        "uri": "http://web.archive.org/web/20110208053231/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-08T10:23:17Z",
+        "uri": "http://web.archive.org/web/20110208102317/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-08T21:38:37Z",
+        "uri": "http://web.archive.org/web/20110208213837/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-08T21:45:04Z",
+        "uri": "http://wayback.archive-it.org/all/20110208214504/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-08T21:45:04Z",
+        "uri": "http://web.archive.org/web/20110208214504/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-08T21:48:06Z",
+        "uri": "http://web.archive.org/web/20110208214806/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-09T07:21:24Z",
+        "uri": "http://web.archive.org/web/20110209072124/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-09T08:28:39Z",
+        "uri": "http://web.archive.org/web/20110209082839/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-09T16:54:16Z",
+        "uri": "http://web.archive.org/web/20110209165416/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-09T21:22:45Z",
+        "uri": "http://web.archive.org/web/20110209212245/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-10T05:21:32Z",
+        "uri": "http://web.archive.org/web/20110210052132/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-10T06:51:09Z",
+        "uri": "http://web.archive.org/web/20110210065109/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-10T19:32:07Z",
+        "uri": "http://web.archive.org/web/20110210193207/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-11T07:34:34Z",
+        "uri": "http://web.archive.org/web/20110211073434/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-16T19:14:15Z",
+        "uri": "http://web.archive.org/web/20110216191415/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-18T06:54:20Z",
+        "uri": "http://web.archive.org/web/20110218065420/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-21T17:11:52Z",
+        "uri": "http://wayback.archive-it.org/all/20110221171152/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-21T17:11:52Z",
+        "uri": "http://web.archive.org/web/20110221171152/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T10:20:52Z",
+        "uri": "http://wayback.archive-it.org/all/20110222102052/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T10:20:52Z",
+        "uri": "http://web.archive.org/web/20110222102052/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T10:20:52Z",
+        "uri": "http://web.archive.org/web/20110222102052/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T14:23:41Z",
+        "uri": "http://wayback.archive-it.org/all/20110222142341/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T14:23:41Z",
+        "uri": "http://web.archive.org/web/20110222142341/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T14:23:41Z",
+        "uri": "http://web.archive.org/web/20110222142341/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-22T22:26:34Z",
+        "uri": "http://web.archive.org/web/20110222222634/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-23T06:40:45Z",
+        "uri": "http://web.archive.org/web/20110223064045/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-25T01:37:14Z",
+        "uri": "http://web.archive.org/web/20110225013714/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-02-25T18:18:19Z",
+        "uri": "http://web.archive.org/web/20110225181819/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-03T12:41:15Z",
+        "uri": "http://web.archive.org/web/20110303124115/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-05T02:32:47Z",
+        "uri": "http://web.archive.org/web/20110305023247/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-07T00:30:33Z",
+        "uri": "http://web.archive.org/web/20110307003033/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T14:26:42Z",
+        "uri": "http://web.archive.org/web/20110310142642/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T15:29:25Z",
+        "uri": "http://wayback.archive-it.org/all/20110310152925/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T15:29:25Z",
+        "uri": "http://web.archive.org/web/20110310152925/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T15:29:25Z",
+        "uri": "http://web.archive.org/web/20110310152925/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T17:17:26Z",
+        "uri": "http://wayback.archive-it.org/all/20110310171726/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T17:17:26Z",
+        "uri": "http://web.archive.org/web/20110310171726/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T17:17:26Z",
+        "uri": "http://web.archive.org/web/20110310171726/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T19:37:16Z",
+        "uri": "http://wayback.archive-it.org/all/20110310193716/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T19:37:16Z",
+        "uri": "http://web.archive.org/web/20110310193716/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-10T19:37:16Z",
+        "uri": "http://web.archive.org/web/20110310193716/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-11T11:13:27Z",
+        "uri": "http://wayback.archive-it.org/all/20110311111327/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-11T11:13:27Z",
+        "uri": "http://web.archive.org/web/20110311111327/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-11T11:13:27Z",
+        "uri": "http://web.archive.org/web/20110311111327/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-13T08:33:56Z",
+        "uri": "http://wayback.archive-it.org/all/20110313083356/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-13T08:33:56Z",
+        "uri": "http://web.archive.org/web/20110313083356/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-13T08:33:56Z",
+        "uri": "http://web.archive.org/web/20110313083356/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-18T14:52:04Z",
+        "uri": "http://web.archive.org/web/20110318145204/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-27T07:31:20Z",
+        "uri": "http://web.archive.org/web/20110327073120/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-29T11:15:04Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20110329111504/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-31T05:47:12Z",
+        "uri": "http://wayback.archive-it.org/all/20110331054712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-31T05:47:12Z",
+        "uri": "http://web.archive.org/web/20110331054712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-03-31T18:31:30Z",
+        "uri": "http://web.archive.org/web/20110331183130/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-04T17:41:14Z",
+        "uri": "http://web.archive.org/web/20110404174114/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-07T13:45:11Z",
+        "uri": "http://web.archive.org/web/20110407134511/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-09T08:35:54Z",
+        "uri": "http://web.archive.org/web/20110409083554/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-14T19:53:39Z",
+        "uri": "http://web.archive.org/web/20110414195339/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-21T16:19:49Z",
+        "uri": "http://web.archive.org/web/20110421161949/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-25T14:18:31Z",
+        "uri": "http://web.archive.org/web/20110425141831/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-29T02:44:59Z",
+        "uri": "http://web.archive.org/web/20110429024459/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-04-30T20:21:55Z",
+        "uri": "http://web.archive.org/web/20110430202155/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-03T20:53:24Z",
+        "uri": "http://web.archive.org/web/20110503205324/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-06T00:42:12Z",
+        "uri": "http://web.archive.org/web/20110506004212/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-06T09:06:20Z",
+        "uri": "http://web.archive.org/web/20110506090620/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-08T20:56:27Z",
+        "uri": "http://web.archive.org/web/20110508205627/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-10T06:58:10Z",
+        "uri": "http://web.archive.org/web/20110510065810/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-14T00:58:44Z",
+        "uri": "http://web.archive.org/web/20110514005844/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-19T11:09:59Z",
+        "uri": "http://web.archive.org/web/20110519110959/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-05-27T05:33:18Z",
+        "uri": "http://web.archive.org/web/20110527053318/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-01T16:58:59Z",
+        "uri": "http://web.archive.org/web/20110601165859/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-02T23:32:52Z",
+        "uri": "http://web.archive.org/web/20110602233252/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-10T08:38:57Z",
+        "uri": "http://web.archive.org/web/20110610083857/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-12T09:17:02Z",
+        "uri": "http://web.archive.org/web/20110612091702/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-17T07:47:32Z",
+        "uri": "http://web.archive.org/web/20110617074732/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-24T01:43:20Z",
+        "uri": "http://web.archive.org/web/20110624014320/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-24T02:57:14Z",
+        "uri": "http://web.archive.org/web/20110624025714/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-06-27T14:55:55Z",
+        "uri": "http://web.archive.org/web/20110627145555/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-01T10:24:57Z",
+        "uri": "http://web.archive.org/web/20110701102457/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-04T13:37:43Z",
+        "uri": "http://web.archive.org/web/20110704133743/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-05T00:36:44Z",
+        "uri": "http://web.archive.org/web/20110705003644/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-09T13:16:07Z",
+        "uri": "http://web.archive.org/web/20110709131607/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-13T08:09:17Z",
+        "uri": "http://web.archive.org/web/20110713080917/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-14T12:07:04Z",
+        "uri": "http://web.archive.org/web/20110714120704/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-07-27T23:11:25Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20110727231125/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-08-02T12:11:21Z",
+        "uri": "http://web.archive.org/web/20110802121121/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-11T19:53:26Z",
+        "uri": "http://wayback.archive-it.org/all/20110911195326/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-11T19:53:26Z",
+        "uri": "http://web.archive.org/web/20110911195326/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-12T19:58:35Z",
+        "uri": "http://wayback.archive-it.org/all/20110912195835/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-12T19:58:35Z",
+        "uri": "http://web.archive.org/web/20110912195835/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-13T19:47:12Z",
+        "uri": "http://wayback.archive-it.org/all/20110913194712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-13T19:47:12Z",
+        "uri": "http://web.archive.org/web/20110913194712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-14T20:44:59Z",
+        "uri": "http://wayback.archive-it.org/all/20110914204459/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-14T20:44:59Z",
+        "uri": "http://web.archive.org/web/20110914204459/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-15T19:48:21Z",
+        "uri": "http://wayback.archive-it.org/all/20110915194821/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-15T19:48:21Z",
+        "uri": "http://web.archive.org/web/20110915194821/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-15T20:32:25Z",
+        "uri": "http://wayback.archive-it.org/all/20110915203225/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-09-15T20:32:25Z",
+        "uri": "http://web.archive.org/web/20110915203225/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-04T23:16:01Z",
+        "uri": "http://web.archive.org/web/20111004231601/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-07T19:01:04Z",
+        "uri": "http://web.archive.org/web/20111007190104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-21T00:36:16Z",
+        "uri": "http://wayback.archive-it.org/all/20111021003616/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-21T00:36:16Z",
+        "uri": "http://web.archive.org/web/20111021003616/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-24T19:23:08Z",
+        "uri": "http://wayback.archive-it.org/all/20111024192308/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-24T19:23:08Z",
+        "uri": "http://web.archive.org/web/20111024192308/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-25T00:20:47Z",
+        "uri": "http://wayback.archive-it.org/all/20111025002047/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-10-25T00:20:47Z",
+        "uri": "http://web.archive.org/web/20111025002047/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-06T12:47:31Z",
+        "uri": "http://web.archive.org/web/20111106124731/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-21T17:15:33Z",
+        "uri": "http://wayback.archive-it.org/all/20111121171533/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-21T17:15:33Z",
+        "uri": "http://web.archive.org/web/20111121171533/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-25T09:27:10Z",
+        "uri": "http://wayback.archive-it.org/all/20111125092710/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-25T09:27:10Z",
+        "uri": "http://web.archive.org/web/20111125092710/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-25T22:48:18Z",
+        "uri": "http://wayback.archive-it.org/all/20111125224818/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-25T22:48:18Z",
+        "uri": "http://web.archive.org/web/20111125224818/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-26T01:16:22Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20111126011622/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-11-29T06:39:13Z",
+        "uri": "http://web.archive.org/web/20111129063913/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-01T01:29:30Z",
+        "uri": "http://web.archive.org/web/20111201012930/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-01T19:00:03Z",
+        "uri": "http://web.archive.org/web/20111201190003/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-02T11:55:08Z",
+        "uri": "http://web.archive.org/web/20111202115508/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-14T21:44:11Z",
+        "uri": "http://web.archive.org/web/20111214214411/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-14T23:03:31Z",
+        "uri": "http://web.archive.org/web/20111214230331/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-15T14:03:31Z",
+        "uri": "http://web.archive.org/web/20111215140331/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-16T03:12:46Z",
+        "uri": "http://web.archive.org/web/20111216031246/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-16T17:04:46Z",
+        "uri": "http://web.archive.org/web/20111216170446/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-16T22:38:44Z",
+        "uri": "http://web.archive.org/web/20111216223844/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-18T02:54:12Z",
+        "uri": "http://web.archive.org/web/20111218025412/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-18T10:31:32Z",
+        "uri": "http://web.archive.org/web/20111218103132/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-18T17:48:42Z",
+        "uri": "http://web.archive.org/web/20111218174842/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-18T21:39:34Z",
+        "uri": "http://web.archive.org/web/20111218213934/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-20T05:41:18Z",
+        "uri": "http://wayback.archive-it.org/all/20111220054118/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-20T05:41:18Z",
+        "uri": "http://web.archive.org/web/20111220054118/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-21T02:42:07Z",
+        "uri": "http://web.archive.org/web/20111221024207/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-21T06:24:00Z",
+        "uri": "http://web.archive.org/web/20111221062400/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-21T19:40:46Z",
+        "uri": "http://web.archive.org/web/20111221194046/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-22T22:46:26Z",
+        "uri": "http://web.archive.org/web/20111222224626/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-25T22:59:35Z",
+        "uri": "http://web.archive.org/web/20111225225935/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-26T23:17:36Z",
+        "uri": "http://web.archive.org/web/20111226231736/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-27T12:20:11Z",
+        "uri": "http://web.archive.org/web/20111227122011/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-28T11:14:28Z",
+        "uri": "http://web.archive.org/web/20111228111428/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-29T04:56:37Z",
+        "uri": "http://web.archive.org/web/20111229045637/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2011-12-30T15:18:33Z",
+        "uri": "http://web.archive.org/web/20111230151833/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-03T06:34:58Z",
+        "uri": "http://wayback.archive-it.org/all/20120103063458/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-03T06:34:58Z",
+        "uri": "http://web.archive.org/web/20120103063458/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-04T09:34:33Z",
+        "uri": "http://web.archive.org/web/20120104093433/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-06T22:51:46Z",
+        "uri": "http://web.archive.org/web/20120106225146/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-06T23:05:22Z",
+        "uri": "http://web.archive.org/web/20120106230522/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-08T00:39:03Z",
+        "uri": "http://web.archive.org/web/20120108003903/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-08T23:50:24Z",
+        "uri": "http://web.archive.org/web/20120108235024/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-09T20:58:47Z",
+        "uri": "http://web.archive.org/web/20120109205847/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-10T03:06:42Z",
+        "uri": "http://web.archive.org/web/20120110030642/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-10T23:24:55Z",
+        "uri": "http://web.archive.org/web/20120110232455/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-13T00:43:03Z",
+        "uri": "http://web.archive.org/web/20120113004303/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-14T01:40:20Z",
+        "uri": "http://web.archive.org/web/20120114014020/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-14T03:50:39Z",
+        "uri": "http://web.archive.org/web/20120114035039/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-15T07:02:55Z",
+        "uri": "http://web.archive.org/web/20120115070255/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-16T07:02:44Z",
+        "uri": "http://web.archive.org/web/20120116070244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-17T08:05:24Z",
+        "uri": "http://web.archive.org/web/20120117080524/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-21T13:56:04Z",
+        "uri": "http://web.archive.org/web/20120121135604/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-23T04:42:00Z",
+        "uri": "http://web.archive.org/web/20120123044200/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-23T17:45:28Z",
+        "uri": "http://web.archive.org/web/20120123174528/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-23T23:34:54Z",
+        "uri": "http://web.archive.org/web/20120123233454/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-26T13:15:01Z",
+        "uri": "http://web.archive.org/web/20120126131501/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-26T15:23:40Z",
+        "uri": "http://web.archive.org/web/20120126152340/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-26T23:30:41Z",
+        "uri": "http://web.archive.org/web/20120126233041/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-27T00:26:30Z",
+        "uri": "http://web.archive.org/web/20120127002630/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-27T21:48:12Z",
+        "uri": "http://web.archive.org/web/20120127214812/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-28T00:05:59Z",
+        "uri": "http://web.archive.org/web/20120128000559/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-28T03:32:32Z",
+        "uri": "http://web.archive.org/web/20120128033232/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-28T05:12:36Z",
+        "uri": "http://web.archive.org/web/20120128051236/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-28T20:16:34Z",
+        "uri": "http://web.archive.org/web/20120128201634/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-28T20:20:25Z",
+        "uri": "http://web.archive.org/web/20120128202025/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-28T22:30:00Z",
+        "uri": "http://web.archive.org/web/20120128223000/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-29T04:35:34Z",
+        "uri": "http://web.archive.org/web/20120129043534/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-29T05:27:54Z",
+        "uri": "http://web.archive.org/web/20120129052754/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-29T09:44:25Z",
+        "uri": "http://web.archive.org/web/20120129094425/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-30T01:33:38Z",
+        "uri": "http://web.archive.org/web/20120130013338/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-30T03:18:52Z",
+        "uri": "http://web.archive.org/web/20120130031852/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-30T04:40:27Z",
+        "uri": "http://web.archive.org/web/20120130044027/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-30T09:19:58Z",
+        "uri": "http://web.archive.org/web/20120130091958/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-30T15:13:05Z",
+        "uri": "http://web.archive.org/web/20120130151305/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-31T08:08:08Z",
+        "uri": "http://web.archive.org/web/20120131080808/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-31T11:25:19Z",
+        "uri": "http://web.archive.org/web/20120131112519/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-01-31T20:15:49Z",
+        "uri": "http://web.archive.org/web/20120131201549/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-01T09:49:43Z",
+        "uri": "http://web.archive.org/web/20120201094943/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-01T18:06:38Z",
+        "uri": "http://web.archive.org/web/20120201180638/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-02T01:23:27Z",
+        "uri": "http://web.archive.org/web/20120202012327/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-02T10:36:24Z",
+        "uri": "http://web.archive.org/web/20120202103624/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-02T16:32:52Z",
+        "uri": "http://web.archive.org/web/20120202163252/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-03T01:30:40Z",
+        "uri": "http://web.archive.org/web/20120203013040/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-03T04:47:05Z",
+        "uri": "http://web.archive.org/web/20120203044705/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-03T08:15:19Z",
+        "uri": "http://web.archive.org/web/20120203081519/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-03T17:03:15Z",
+        "uri": "http://web.archive.org/web/20120203170315/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-03T22:19:27Z",
+        "uri": "http://web.archive.org/web/20120203221927/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-05T15:52:36Z",
+        "uri": "http://web.archive.org/web/20120205155236/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-06T04:00:53Z",
+        "uri": "http://web.archive.org/web/20120206040053/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-07T18:37:46Z",
+        "uri": "http://web.archive.org/web/20120207183746/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-08T03:26:19Z",
+        "uri": "http://web.archive.org/web/20120208032619/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-08T07:29:00Z",
+        "uri": "http://web.archive.org/web/20120208072900/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-08T11:59:15Z",
+        "uri": "http://web.archive.org/web/20120208115915/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-08T22:28:18Z",
+        "uri": "http://web.archive.org/web/20120208222818/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-09T09:13:42Z",
+        "uri": "http://web.archive.org/web/20120209091342/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-10T11:48:22Z",
+        "uri": "http://web.archive.org/web/20120210114822/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-11T04:15:53Z",
+        "uri": "http://web.archive.org/web/20120211041553/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-11T06:20:06Z",
+        "uri": "http://web.archive.org/web/20120211062006/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-12T02:08:07Z",
+        "uri": "http://web.archive.org/web/20120212020807/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-13T02:01:17Z",
+        "uri": "http://web.archive.org/web/20120213020117/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-14T08:12:02Z",
+        "uri": "http://web.archive.org/web/20120214081202/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-14T18:37:50Z",
+        "uri": "http://web.archive.org/web/20120214183750/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-16T18:31:10Z",
+        "uri": "http://web.archive.org/web/20120216183110/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-16T21:36:27Z",
+        "uri": "http://web.archive.org/web/20120216213627/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-17T23:20:12Z",
+        "uri": "http://web.archive.org/web/20120217232012/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-18T00:35:40Z",
+        "uri": "http://web.archive.org/web/20120218003540/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-18T20:01:13Z",
+        "uri": "http://web.archive.org/web/20120218200113/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-19T01:19:57Z",
+        "uri": "http://web.archive.org/web/20120219011957/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-19T02:09:25Z",
+        "uri": "http://web.archive.org/web/20120219020925/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-20T01:38:28Z",
+        "uri": "http://web.archive.org/web/20120220013828/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-20T05:44:03Z",
+        "uri": "http://web.archive.org/web/20120220054403/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-21T00:07:31Z",
+        "uri": "http://web.archive.org/web/20120221000731/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-22T15:28:52Z",
+        "uri": "http://web.archive.org/web/20120222152852/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-22T18:42:57Z",
+        "uri": "http://web.archive.org/web/20120222184257/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-23T03:36:06Z",
+        "uri": "http://web.archive.org/web/20120223033606/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-23T14:58:36Z",
+        "uri": "http://web.archive.org/web/20120223145836/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-23T19:05:53Z",
+        "uri": "http://web.archive.org/web/20120223190553/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-23T20:18:22Z",
+        "uri": "http://web.archive.org/web/20120223201822/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-23T23:11:48Z",
+        "uri": "http://web.archive.org/web/20120223231148/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-26T00:52:00Z",
+        "uri": "http://web.archive.org/web/20120226005200/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-26T06:47:44Z",
+        "uri": "http://web.archive.org/web/20120226064744/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-26T23:19:51Z",
+        "uri": "http://web.archive.org/web/20120226231951/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-27T02:12:09Z",
+        "uri": "http://web.archive.org/web/20120227021209/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-28T04:26:15Z",
+        "uri": "http://web.archive.org/web/20120228042615/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-29T11:41:27Z",
+        "uri": "http://web.archive.org/web/20120229114127/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-02-29T19:07:33Z",
+        "uri": "http://web.archive.org/web/20120229190733/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-01T07:01:44Z",
+        "uri": "http://web.archive.org/web/20120301070144/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-01T10:31:12Z",
+        "uri": "http://web.archive.org/web/20120301103112/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-01T13:02:04Z",
+        "uri": "http://web.archive.org/web/20120301130204/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-01T13:05:28Z",
+        "uri": "http://web.archive.org/web/20120301130528/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-01T22:13:48Z",
+        "uri": "http://web.archive.org/web/20120301221348/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-01T23:01:42Z",
+        "uri": "http://web.archive.org/web/20120301230142/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-02T06:57:17Z",
+        "uri": "http://web.archive.org/web/20120302065717/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-02T20:56:01Z",
+        "uri": "http://web.archive.org/web/20120302205601/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-03T03:58:26Z",
+        "uri": "http://web.archive.org/web/20120303035826/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-03T20:47:03Z",
+        "uri": "http://web.archive.org/web/20120303204703/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-03T22:28:03Z",
+        "uri": "http://web.archive.org/web/20120303222803/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-04T08:54:18Z",
+        "uri": "http://web.archive.org/web/20120304085418/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-04T22:54:38Z",
+        "uri": "http://web.archive.org/web/20120304225438/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-05T00:48:13Z",
+        "uri": "http://web.archive.org/web/20120305004813/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-05T15:15:06Z",
+        "uri": "http://web.archive.org/web/20120305151506/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-06T07:09:21Z",
+        "uri": "http://web.archive.org/web/20120306070921/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-06T11:17:56Z",
+        "uri": "http://web.archive.org/web/20120306111756/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-06T23:17:17Z",
+        "uri": "http://web.archive.org/web/20120306231717/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-07T07:51:42Z",
+        "uri": "http://web.archive.org/web/20120307075142/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-07T11:30:54Z",
+        "uri": "http://web.archive.org/web/20120307113054/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-07T12:48:03Z",
+        "uri": "http://web.archive.org/web/20120307124803/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-07T20:45:42Z",
+        "uri": "http://web.archive.org/web/20120307204542/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-08T16:13:00Z",
+        "uri": "http://web.archive.org/web/20120308161300/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-08T19:07:40Z",
+        "uri": "http://web.archive.org/web/20120308190740/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-09T09:52:20Z",
+        "uri": "http://web.archive.org/web/20120309095220/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-09T19:41:31Z",
+        "uri": "http://web.archive.org/web/20120309194131/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-10T14:42:50Z",
+        "uri": "http://web.archive.org/web/20120310144250/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-10T14:48:43Z",
+        "uri": "http://web.archive.org/web/20120310144843/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-10T23:50:04Z",
+        "uri": "http://web.archive.org/web/20120310235004/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-11T07:51:24Z",
+        "uri": "http://web.archive.org/web/20120311075124/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-11T09:51:46Z",
+        "uri": "http://web.archive.org/web/20120311095146/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-11T20:35:59Z",
+        "uri": "http://web.archive.org/web/20120311203559/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-12T05:09:48Z",
+        "uri": "http://web.archive.org/web/20120312050948/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-12T08:07:15Z",
+        "uri": "http://web.archive.org/web/20120312080715/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-12T22:21:33Z",
+        "uri": "http://web.archive.org/web/20120312222133/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-13T02:24:52Z",
+        "uri": "http://web.archive.org/web/20120313022452/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-13T07:17:12Z",
+        "uri": "http://web.archive.org/web/20120313071712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-14T08:22:37Z",
+        "uri": "http://web.archive.org/web/20120314082237/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-14T10:01:04Z",
+        "uri": "http://web.archive.org/web/20120314100104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-15T10:53:17Z",
+        "uri": "http://web.archive.org/web/20120315105317/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-15T15:41:06Z",
+        "uri": "http://web.archive.org/web/20120315154106/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-16T08:34:43Z",
+        "uri": "http://web.archive.org/web/20120316083443/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-16T14:47:00Z",
+        "uri": "http://web.archive.org/web/20120316144700/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-16T20:36:28Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20120316203628/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-16T22:10:44Z",
+        "uri": "http://web.archive.org/web/20120316221044/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-17T02:16:25Z",
+        "uri": "http://web.archive.org/web/20120317021625/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-17T02:22:50Z",
+        "uri": "http://web.archive.org/web/20120317022250/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-17T23:29:38Z",
+        "uri": "http://web.archive.org/web/20120317232938/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-18T00:26:44Z",
+        "uri": "http://web.archive.org/web/20120318002644/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-18T23:37:42Z",
+        "uri": "http://web.archive.org/web/20120318233742/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-19T23:14:01Z",
+        "uri": "http://web.archive.org/web/20120319231401/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-20T06:32:44Z",
+        "uri": "http://web.archive.org/web/20120320063244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-20T15:12:44Z",
+        "uri": "http://web.archive.org/web/20120320151244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-20T15:19:24Z",
+        "uri": "http://web.archive.org/web/20120320151924/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-20T21:37:19Z",
+        "uri": "http://web.archive.org/web/20120320213719/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-21T00:17:44Z",
+        "uri": "http://web.archive.org/web/20120321001744/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-03-21T08:45:07Z",
+        "uri": "http://web.archive.org/web/20120321084507/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-04-09T22:41:55Z",
+        "uri": "http://web.archive.org/web/20120409224155/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-04-29T08:45:20Z",
+        "uri": "http://web.archive.org/web/20120429084520/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-04T21:20:59Z",
+        "uri": "http://web.archive.org/web/20120504212059/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-05T08:05:55Z",
+        "uri": "http://web.archive.org/web/20120505080555/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-05T21:04:53Z",
+        "uri": "http://web.archive.org/web/20120505210453/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-06T00:02:39Z",
+        "uri": "http://web.archive.org/web/20120506000239/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-06T11:38:48Z",
+        "uri": "http://web.archive.org/web/20120506113848/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-12T22:42:03Z",
+        "uri": "http://web.archive.org/web/20120512224203/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-18T21:14:46Z",
+        "uri": "http://web.archive.org/web/20120518211446/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-22T19:15:07Z",
+        "uri": "http://web.archive.org/web/20120522191507/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-25T04:58:55Z",
+        "uri": "http://web.archive.org/web/20120525045855/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-05-25T19:38:06Z",
+        "uri": "http://web.archive.org/web/20120525193806/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-06-01T13:51:04Z",
+        "uri": "http://web.archive.org/web/20120601135104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-06-08T18:04:55Z",
+        "uri": "http://web.archive.org/web/20120608180455/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-06-13T05:46:09Z",
+        "uri": "http://web.archive.org/web/20120613054609/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-06-21T04:27:13Z",
+        "uri": "http://web.archive.org/web/20120621042713/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-07-15T13:14:47Z",
+        "uri": "http://web.archive.org/web/20120715131447/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-07-24T17:56:43Z",
+        "uri": "http://web.archive.org/web/20120724175643/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-03T20:39:50Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20120803203950/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-04T03:31:51Z",
+        "uri": "http://web.archive.org/web/20120804033151/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-10T07:15:26Z",
+        "uri": "http://web.archive.org/web/20120810071526/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-12T16:09:19Z",
+        "uri": "http://web.archive.org/web/20120812160919/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-19T14:42:00Z",
+        "uri": "http://web.archive.org/web/20120819144200/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-23T22:05:01Z",
+        "uri": "http://web.archive.org/web/20120823220501/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-24T20:16:21Z",
+        "uri": "http://web.archive.org/web/20120824201621/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-08-31T23:58:27Z",
+        "uri": "http://web.archive.org/web/20120831235827/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-08T12:27:18Z",
+        "uri": "http://web.archive.org/web/20120908122718/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-11T15:53:58Z",
+        "uri": "http://web.archive.org/web/20120911155358/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-18T04:49:33Z",
+        "uri": "http://web.archive.org/web/20120918044933/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-18T18:37:53Z",
+        "uri": "http://web.archive.org/web/20120918183753/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-19T10:31:17Z",
+        "uri": "http://web.archive.org/web/20120919103117/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-20T13:23:18Z",
+        "uri": "http://web.archive.org/web/20120920132318/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-21T08:26:52Z",
+        "uri": "http://web.archive.org/web/20120921082652/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-22T09:12:48Z",
+        "uri": "http://web.archive.org/web/20120922091248/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-23T14:06:06Z",
+        "uri": "http://web.archive.org/web/20120923140606/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-24T09:07:10Z",
+        "uri": "http://web.archive.org/web/20120924090710/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-25T14:15:51Z",
+        "uri": "http://web.archive.org/web/20120925141551/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-26T20:55:08Z",
+        "uri": "http://web.archive.org/web/20120926205508/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-27T15:12:23Z",
+        "uri": "http://web.archive.org/web/20120927151223/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-28T14:07:46Z",
+        "uri": "http://web.archive.org/web/20120928140746/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-29T08:08:39Z",
+        "uri": "http://web.archive.org/web/20120929080839/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-09-30T05:50:41Z",
+        "uri": "http://web.archive.org/web/20120930055041/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-01T06:12:16Z",
+        "uri": "http://web.archive.org/web/20121001061216/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-01T23:01:14Z",
+        "uri": "http://web.archive.org/web/20121001230114/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-02T09:15:44Z",
+        "uri": "http://web.archive.org/web/20121002091544/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-02T23:20:43Z",
+        "uri": "http://web.archive.org/web/20121002232043/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-03T07:28:16Z",
+        "uri": "http://web.archive.org/web/20121003072816/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-03T17:37:15Z",
+        "uri": "http://web.archive.org/web/20121003173715/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-03T21:34:23Z",
+        "uri": "http://web.archive.org/web/20121003213423/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-04T13:23:44Z",
+        "uri": "http://web.archive.org/web/20121004132344/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-04T13:30:19Z",
+        "uri": "http://web.archive.org/web/20121004133019/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-05T23:16:00Z",
+        "uri": "http://web.archive.org/web/20121005231600/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-07T01:07:39Z",
+        "uri": "http://web.archive.org/web/20121007010739/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-07T09:05:27Z",
+        "uri": "http://web.archive.org/web/20121007090527/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-08T08:10:04Z",
+        "uri": "http://web.archive.org/web/20121008081004/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-10T13:59:17Z",
+        "uri": "http://web.archive.org/web/20121010135917/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-11T16:46:43Z",
+        "uri": "http://web.archive.org/web/20121011164643/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-11T20:51:43Z",
+        "uri": "http://web.archive.org/web/20121011205143/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-18T10:11:28Z",
+        "uri": "http://web.archive.org/web/20121018101128/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-18T18:19:21Z",
+        "uri": "http://web.archive.org/web/20121018181921/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-25T17:16:51Z",
+        "uri": "http://web.archive.org/web/20121025171651/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-25T18:42:44Z",
+        "uri": "http://web.archive.org/web/20121025184244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-29T08:20:54Z",
+        "uri": "http://wayback.archive-it.org/all/20121029082054/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-29T08:20:54Z",
+        "uri": "http://web.archive.org/web/20121029082054/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-29T23:34:26Z",
+        "uri": "http://wayback.archive-it.org/all/20121029233426/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-29T23:34:26Z",
+        "uri": "http://web.archive.org/web/20121029233426/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-30T21:20:42Z",
+        "uri": "http://wayback.archive-it.org/all/20121030212042/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-10-30T21:20:42Z",
+        "uri": "http://web.archive.org/web/20121030212042/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-03T05:37:35Z",
+        "uri": "http://wayback.archive-it.org/all/20121103053735/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-03T05:37:35Z",
+        "uri": "http://web.archive.org/web/20121103053735/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-03T08:36:02Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20121103083602/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-06T14:40:11Z",
+        "uri": "http://web.archive.org/web/20121106144011/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-08T12:33:26Z",
+        "uri": "http://web.archive.org/web/20121108123326/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-08T17:57:03Z",
+        "uri": "http://wayback.archive-it.org/all/20121108175703/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-08T17:57:03Z",
+        "uri": "http://web.archive.org/web/20121108175703/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-09T03:33:09Z",
+        "uri": "http://web.archive.org/web/20121109033309/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-13T16:35:43Z",
+        "uri": "http://web.archive.org/web/20121113163543/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-17T19:41:45Z",
+        "uri": "http://web.archive.org/web/20121117194145/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-20T03:33:06Z",
+        "uri": "http://web.archive.org/web/20121120033306/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-20T11:53:00Z",
+        "uri": "http://web.archive.org/web/20121120115300/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-24T22:11:34Z",
+        "uri": "http://web.archive.org/web/20121124221134/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-25T07:33:59Z",
+        "uri": "http://web.archive.org/web/20121125073359/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-27T12:34:36Z",
+        "uri": "http://web.archive.org/web/20121127123436/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-11-28T02:19:38Z",
+        "uri": "http://web.archive.org/web/20121128021938/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-01T22:35:57Z",
+        "uri": "http://web.archive.org/web/20121201223557/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-02T06:20:09Z",
+        "uri": "http://web.archive.org/web/20121202062009/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-04T10:47:02Z",
+        "uri": "http://web.archive.org/web/20121204104702/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-04T11:52:00Z",
+        "uri": "http://web.archive.org/web/20121204115200/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-09T09:44:46Z",
+        "uri": "http://web.archive.org/web/20121209094446/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-11T13:06:37Z",
+        "uri": "http://web.archive.org/web/20121211130637/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-12T02:11:24Z",
+        "uri": "http://web.archive.org/web/20121212021124/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-14T03:17:25Z",
+        "uri": "http://wayback.archive-it.org/all/20121214031725/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-14T03:17:25Z",
+        "uri": "http://web.archive.org/web/20121214031725/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-14T11:39:39Z",
+        "uri": "http://web.archive.org/web/20121214113939/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-18T16:06:04Z",
+        "uri": "http://web.archive.org/web/20121218160604/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-21T04:44:11Z",
+        "uri": "http://web.archive.org/web/20121221044411/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-22T08:49:23Z",
+        "uri": "http://wayback.archive-it.org/all/20121222084923/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-22T08:49:23Z",
+        "uri": "http://web.archive.org/web/20121222084923/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-23T03:22:26Z",
+        "uri": "http://wayback.archive-it.org/all/20121223032226/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-23T03:22:26Z",
+        "uri": "http://web.archive.org/web/20121223032226/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-23T08:43:03Z",
+        "uri": "http://web.archive.org/web/20121223084303/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-23T20:02:21Z",
+        "uri": "http://web.archive.org/web/20121223200221/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-26T05:10:21Z",
+        "uri": "http://web.archive.org/web/20121226051021/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2012-12-26T18:03:21Z",
+        "uri": "http://web.archive.org/web/20121226180321/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-03T07:26:34Z",
+        "uri": "http://wayback.archive-it.org/all/20130103072634/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-03T07:26:34Z",
+        "uri": "http://web.archive.org/web/20130103072634/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-04T09:31:23Z",
+        "uri": "http://web.archive.org/web/20130104093123/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-09T20:19:44Z",
+        "uri": "http://web.archive.org/web/20130109201944/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-11T03:39:24Z",
+        "uri": "http://web.archive.org/web/20130111033924/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-16T21:56:49Z",
+        "uri": "http://web.archive.org/web/20130116215649/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-17T05:06:46Z",
+        "uri": "http://web.archive.org/web/20130117050646/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-21T03:19:44Z",
+        "uri": "http://web.archive.org/web/20130121031944/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-23T07:06:20Z",
+        "uri": "http://web.archive.org/web/20130123070620/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-23T13:17:22Z",
+        "uri": "http://web.archive.org/web/20130123131722/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-27T23:55:49Z",
+        "uri": "http://web.archive.org/web/20130127235549/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-01-30T02:29:41Z",
+        "uri": "http://web.archive.org/web/20130130022941/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-03T07:19:04Z",
+        "uri": "http://web.archive.org/web/20130203071904/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-03T12:43:27Z",
+        "uri": "http://web.archive.org/web/20130203124327/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-03T16:01:43Z",
+        "uri": "http://web.archive.org/web/20130203160143/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-06T23:41:44Z",
+        "uri": "http://web.archive.org/web/20130206234144/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-07T01:53:25Z",
+        "uri": "http://web.archive.org/web/20130207015325/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-07T14:37:57Z",
+        "uri": "http://web.archive.org/web/20130207143757/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-10T09:47:29Z",
+        "uri": "http://web.archive.org/web/20130210094729/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-11T01:37:51Z",
+        "uri": "http://web.archive.org/web/20130211013751/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-13T17:25:39Z",
+        "uri": "http://web.archive.org/web/20130213172539/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-17T12:32:44Z",
+        "uri": "http://web.archive.org/web/20130217123244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-17T14:45:14Z",
+        "uri": "http://web.archive.org/web/20130217144514/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-20T16:18:32Z",
+        "uri": "http://web.archive.org/web/20130220161832/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-21T01:21:03Z",
+        "uri": "http://web.archive.org/web/20130221012103/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-21T15:21:39Z",
+        "uri": "http://web.archive.org/web/20130221152139/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-24T12:22:47Z",
+        "uri": "http://web.archive.org/web/20130224122247/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-25T06:15:31Z",
+        "uri": "http://web.archive.org/web/20130225061531/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-02-28T02:29:33Z",
+        "uri": "http://web.archive.org/web/20130228022933/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-02T20:09:37Z",
+        "uri": "http://web.archive.org/web/20130302200937/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-03T07:31:43Z",
+        "uri": "http://web.archive.org/web/20130303073143/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-04T13:36:21Z",
+        "uri": "http://web.archive.org/web/20130304133621/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-04T23:21:52Z",
+        "uri": "http://web.archive.org/web/20130304232152/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-07T17:28:41Z",
+        "uri": "http://web.archive.org/web/20130307172841/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-09T00:07:12Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20130309000712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-09T08:24:13Z",
+        "uri": "http://wayback.archive-it.org/all/20130309082413/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-09T08:24:13Z",
+        "uri": "http://web.archive.org/web/20130309082413/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-11T17:36:33Z",
+        "uri": "http://web.archive.org/web/20130311173633/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-14T02:39:32Z",
+        "uri": "http://web.archive.org/web/20130314023932/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-14T18:25:33Z",
+        "uri": "http://web.archive.org/web/20130314182533/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-16T11:02:16Z",
+        "uri": "http://web.archive.org/web/20130316110216/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-17T19:19:08Z",
+        "uri": "http://web.archive.org/web/20130317191908/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-20T04:10:51Z",
+        "uri": "http://web.archive.org/web/20130320041051/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-22T01:39:02Z",
+        "uri": "http://web.archive.org/web/20130322013902/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-25T18:50:12Z",
+        "uri": "http://web.archive.org/web/20130325185012/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-26T01:11:26Z",
+        "uri": "http://web.archive.org/web/20130326011126/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-28T07:03:14Z",
+        "uri": "http://web.archive.org/web/20130328070314/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-28T23:19:53Z",
+        "uri": "http://web.archive.org/web/20130328231953/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-28T23:27:42Z",
+        "uri": "http://web.archive.org/web/20130328232742/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-03-30T13:12:48Z",
+        "uri": "http://web.archive.org/web/20130330131248/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-03T22:21:20Z",
+        "uri": "http://web.archive.org/web/20130403222120/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-04T07:09:14Z",
+        "uri": "http://web.archive.org/web/20130404070914/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-05T01:39:29Z",
+        "uri": "http://web.archive.org/web/20130405013929/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-09T01:25:55Z",
+        "uri": "http://web.archive.org/web/20130409012555/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-09T06:04:34Z",
+        "uri": "http://web.archive.org/web/20130409060434/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-11T00:26:02Z",
+        "uri": "http://web.archive.org/web/20130411002602/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-11T07:45:48Z",
+        "uri": "http://web.archive.org/web/20130411074548/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-11T18:48:57Z",
+        "uri": "http://web.archive.org/web/20130411184857/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-16T02:26:46Z",
+        "uri": "http://web.archive.org/web/20130416022646/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-18T22:28:07Z",
+        "uri": "http://web.archive.org/web/20130418222807/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-20T05:37:14Z",
+        "uri": "http://web.archive.org/web/20130420053714/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-21T23:24:04Z",
+        "uri": "http://web.archive.org/web/20130421232404/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-22T20:49:41Z",
+        "uri": "http://web.archive.org/web/20130422204941/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-22T22:18:35Z",
+        "uri": "http://web.archive.org/web/20130422221835/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-25T07:19:34Z",
+        "uri": "http://web.archive.org/web/20130425071934/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-28T08:22:00Z",
+        "uri": "http://web.archive.org/web/20130428082200/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-04-30T15:41:48Z",
+        "uri": "http://web.archive.org/web/20130430154148/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-05-02T10:58:53Z",
+        "uri": "http://web.archive.org/web/20130502105853/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-05-13T09:13:33Z",
+        "uri": "http://web.archive.org/web/20130513091333/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-05-15T08:10:45Z",
+        "uri": "http://web.archive.org/web/20130515081045/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-01T08:20:03Z",
+        "uri": "http://web.archive.org/web/20130601082003/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-07T18:41:51Z",
+        "uri": "http://web.archive.org/web/20130607184151/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-08T18:44:45Z",
+        "uri": "http://wayback.archive-it.org/all/20130608184445/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-08T18:44:45Z",
+        "uri": "http://web.archive.org/web/20130608184445/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-11T23:20:05Z",
+        "uri": "http://wayback.archive-it.org/all/20130611232005/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-11T23:20:05Z",
+        "uri": "http://web.archive.org/web/20130611232005/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-16T23:31:34Z",
+        "uri": "http://wayback.archive-it.org/all/20130616233134/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-06-16T23:31:34Z",
+        "uri": "http://web.archive.org/web/20130616233134/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-04T20:32:44Z",
+        "uri": "http://wayback.archive-it.org/all/20130704203244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-04T20:32:44Z",
+        "uri": "http://web.archive.org/web/20130704203244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-05T10:54:53Z",
+        "uri": "http://wayback.archive-it.org/all/20130705105453/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-05T10:54:53Z",
+        "uri": "http://web.archive.org/web/20130705105453/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-10T22:54:07Z",
+        "uri": "http://wayback.archive-it.org/all/20130710225407/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-10T22:54:07Z",
+        "uri": "http://web.archive.org/web/20130710225407/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-11T23:41:52Z",
+        "uri": "http://wayback.archive-it.org/all/20130711234152/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-11T23:41:52Z",
+        "uri": "http://web.archive.org/web/20130711234152/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-13T20:44:44Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20130713204444/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-17T17:13:58Z",
+        "uri": "http://web.archive.org/web/20130717171358/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-07-27T07:08:32Z",
+        "uri": "http://web.archive.org/web/20130727070832/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-08-11T23:24:01Z",
+        "uri": "http://wayback.archive-it.org/all/20130811232401/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-08-11T23:24:01Z",
+        "uri": "http://web.archive.org/web/20130811232401/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-08-17T16:12:23Z",
+        "uri": "http://web.archive.org/web/20130817161223/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-09-10T18:23:43Z",
+        "uri": "http://web.archive.org/web/20130910182343/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-09-12T00:35:20Z",
+        "uri": "http://wayback.archive-it.org/all/20130912003520/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-09-12T00:35:20Z",
+        "uri": "http://web.archive.org/web/20130912003520/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-09-12T00:46:26Z",
+        "uri": "http://wayback.archive-it.org/all/20130912004626/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-09-12T00:46:26Z",
+        "uri": "http://web.archive.org/web/20130912004626/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-09-14T05:15:29Z",
+        "uri": "http://web.archive.org/web/20130914051529/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-01T18:59:47Z",
+        "uri": "http://web.archive.org/web/20131001185947/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-04T01:22:29Z",
+        "uri": "http://web.archive.org/web/20131004012229/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-05T11:34:46Z",
+        "uri": "http://wayback.archive-it.org/all/20131005113446/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-05T11:34:46Z",
+        "uri": "http://web.archive.org/web/20131005113446/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-11T14:17:56Z",
+        "uri": "http://wayback.archive-it.org/all/20131011141756/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-11T14:17:56Z",
+        "uri": "http://web.archive.org/web/20131011141756/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-12T00:22:58Z",
+        "uri": "http://wayback.archive-it.org/all/20131012002258/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-10-12T00:22:58Z",
+        "uri": "http://web.archive.org/web/20131012002258/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-01T23:59:07Z",
+        "uri": "http://wayback.vefsafn.is/wayback/20131101235907/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-10T02:16:22Z",
+        "uri": "http://web.archive.org/web/20131110021622/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-11T23:41:04Z",
+        "uri": "http://wayback.archive-it.org/all/20131111234104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-11T23:41:04Z",
+        "uri": "http://web.archive.org/web/20131111234104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-18T01:33:20Z",
+        "uri": "http://web.archive.org/web/20131118013320/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-21T04:20:55Z",
+        "uri": "http://web.archive.org/web/20131121042055/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-11-28T23:08:57Z",
+        "uri": "http://web.archive.org/web/20131128230857/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-11T15:42:10Z",
+        "uri": "http://wayback.archive-it.org/all/20131211154210/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-11T15:42:10Z",
+        "uri": "http://web.archive.org/web/20131211154210/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-12T00:09:06Z",
+        "uri": "http://wayback.archive-it.org/all/20131212000906/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-12T00:09:06Z",
+        "uri": "http://web.archive.org/web/20131212000906/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-15T07:18:24Z",
+        "uri": "http://web.archive.org/web/20131215071824/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-21T04:28:34Z",
+        "uri": "http://web.archive.org/web/20131221042834/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-25T01:28:41Z",
+        "uri": "http://web.archive.org/web/20131225012841/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2013-12-30T19:05:15Z",
+        "uri": "http://web.archive.org/web/20131230190515/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-01T06:36:04Z",
+        "uri": "http://web.archive.org/web/20140101063604/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-02T23:21:43Z",
+        "uri": "http://web.archive.org/web/20140102232143/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-05T10:13:09Z",
+        "uri": "http://wayback.archive-it.org/all/20140105101309/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-05T10:13:09Z",
+        "uri": "http://web.archive.org/web/20140105101309/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-05T13:29:31Z",
+        "uri": "http://web.archive.org/web/20140105132931/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-06T13:23:41Z",
+        "uri": "http://web.archive.org/web/20140106132341/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-10T00:05:09Z",
+        "uri": "http://wayback.archive-it.org/all/20140110000509/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-10T00:05:09Z",
+        "uri": "http://web.archive.org/web/20140110000509/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-10T15:04:53Z",
+        "uri": "http://web.archive.org/web/20140110150453/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-11T23:54:01Z",
+        "uri": "http://wayback.archive-it.org/all/20140111235401/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-11T23:54:01Z",
+        "uri": "http://web.archive.org/web/20140111235401/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-12T16:55:20Z",
+        "uri": "http://web.archive.org/web/20140112165520/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-25T09:56:17Z",
+        "uri": "http://web.archive.org/web/20140125095617/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-01-26T08:26:05Z",
+        "uri": "http://web.archive.org/web/20140126082605/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-02-02T02:33:36Z",
+        "uri": "http://web.archive.org/web/20140202023336/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-02-04T06:27:42Z",
+        "uri": "http://web.archive.org/web/20140204062742/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-02-08T18:33:47Z",
+        "uri": "http://web.archive.org/web/20140208183347/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-02-11T04:13:23Z",
+        "uri": "http://wayback.archive-it.org/all/20140211041323/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-02-11T04:13:23Z",
+        "uri": "http://web.archive.org/web/20140211041323/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-03-18T08:09:07Z",
+        "uri": "http://web.archive.org/web/20140318080907/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-04-05T11:05:23Z",
+        "uri": "http://wayback.archive-it.org/all/20140405110523/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-04-05T11:05:23Z",
+        "uri": "http://web.archive.org/web/20140405110523/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-04-19T12:16:45Z",
+        "uri": "http://wayback.archive-it.org/all/20140419121645/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-04-19T12:16:45Z",
+        "uri": "http://web.archive.org/web/20140419121645/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-06-02T03:11:50Z",
+        "uri": "http://web.archive.org/web/20140602031150/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-06-25T23:24:27Z",
+        "uri": "http://web.archive.org/web/20140625232427/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-07-05T11:21:27Z",
+        "uri": "http://wayback.archive-it.org/all/20140705112127/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-07-05T11:21:27Z",
+        "uri": "http://web.archive.org/web/20140705112127/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-08-09T12:01:04Z",
+        "uri": "http://web.archive.org/web/20140809120104/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-08-26T05:10:32Z",
+        "uri": "http://web.archive.org/web/20140826051032/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-09-28T06:16:32Z",
+        "uri": "http://web.archive.org/web/20140928061632/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-10-02T06:47:48Z",
+        "uri": "http://web.archive.org/web/20141002064748/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-10-05T10:20:16Z",
+        "uri": "http://wayback.archive-it.org/all/20141005102016/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-10-05T10:20:16Z",
+        "uri": "http://web.archive.org/web/20141005102016/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-10-06T10:06:29Z",
+        "uri": "http://web.archive.org/web/20141006100629/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-10-31T08:19:21Z",
+        "uri": "http://web.archive.org/web/20141031081921/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-11-18T01:57:42Z",
+        "uri": "http://web.archive.org/web/20141118015742/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-11-23T12:55:21Z",
+        "uri": "http://web.archive.org/web/20141123125521/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-11-27T04:02:20Z",
+        "uri": "https://arquivo.pt/wayback/20141127040220/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-12-02T03:11:19Z",
+        "uri": "http://web.archive.org/web/20141202031119/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-12-08T11:35:09Z",
+        "uri": "http://web.archive.org/web/20141208113509/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-12-14T21:28:11Z",
+        "uri": "http://web.archive.org/web/20141214212811/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-12-18T23:31:01Z",
+        "uri": "http://web.archive.org/web/20141218233101/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2014-12-20T11:41:27Z",
+        "uri": "http://web.archive.org/web/20141220114127/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-01-02T05:01:14Z",
+        "uri": "http://web.archive.org/web/20150102050114/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-01-05T11:17:11Z",
+        "uri": "http://wayback.archive-it.org/all/20150105111711/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-01-05T11:17:11Z",
+        "uri": "http://web.archive.org/web/20150105111711/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-01-06T23:52:51Z",
+        "uri": "http://web.archive.org/web/20150106235251/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-02-23T10:38:19Z",
+        "uri": "http://web.archive.org/web/20150223103819/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-02-25T19:23:10Z",
+        "uri": "http://web.archive.org/web/20150225192310/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-03-02T22:11:24Z",
+        "uri": "http://web.archive.org/web/20150302221124/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-03-15T10:28:12Z",
+        "uri": "http://web.archive.org/web/20150315102812/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-04-06T00:21:46Z",
+        "uri": "http://wayback.archive-it.org/all/20150406002146/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-04-06T00:21:46Z",
+        "uri": "http://web.archive.org/web/20150406002146/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-05-23T01:34:38Z",
+        "uri": "http://web.archive.org/web/20150523013438/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-06-07T14:50:57Z",
+        "uri": "http://web.archive.org/web/20150607145057/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-07-13T13:02:52Z",
+        "uri": "http://web.archive.org/web/20150713130252/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-08-06T21:03:06Z",
+        "uri": "http://web.archive.org/web/20150806210306/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-08-20T01:40:36Z",
+        "uri": "http://web.archive.org/web/20150820014036/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-08-27T14:59:15Z",
+        "uri": "http://web.archive.org/web/20150827145915/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-09-12T08:56:56Z",
+        "uri": "http://web.archive.org/web/20150912085656/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-10-05T08:56:00Z",
+        "uri": "http://wayback.archive-it.org/all/20151005085600/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-10-05T08:56:00Z",
+        "uri": "http://web.archive.org/web/20151005085600/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-11-16T11:35:58Z",
+        "uri": "http://web.archive.org/web/20151116113558/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2015-12-22T10:25:21Z",
+        "uri": "http://web.archive.org/web/20151222102521/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-01-10T04:30:00Z",
+        "uri": "http://web.archive.org/web/20160110043000/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-01-14T19:03:14Z",
+        "uri": "http://web.archive.org/web/20160114190314/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-01-21T05:37:23Z",
+        "uri": "http://web.archive.org/web/20160121053723/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-01-31T23:35:05Z",
+        "uri": "http://web.archive.org/web/20160131233505/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-02-02T06:06:43Z",
+        "uri": "http://web.archive.org/web/20160202060643/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-02-08T07:16:26Z",
+        "uri": "http://web.archive.org/web/20160208071626/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-02-10T09:26:49Z",
+        "uri": "https://arquivo.pt/wayback/20160210092649/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-03-15T02:42:15Z",
+        "uri": "https://arquivo.pt/wayback/20160315024215/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-03-17T16:36:23Z",
+        "uri": "http://web.archive.org/web/20160317163623/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-03-19T16:59:38Z",
+        "uri": "http://web.archive.org/web/20160319165938/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-03-22T05:45:30Z",
+        "uri": "http://web.archive.org/web/20160322054530/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-06-10T00:33:25Z",
+        "uri": "http://web.archive.org/web/20160610003325/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-08-03T14:12:01Z",
+        "uri": "http://web.archive.org/web/20160803141201/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-10-18T00:19:02Z",
+        "uri": "http://web.archive.org/web/20161018001902/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-10-20T17:30:21Z",
+        "uri": "http://web.archive.org/web/20161020173021/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-10-29T10:39:15Z",
+        "uri": "http://web.archive.org/web/20161029103915/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2016-12-19T18:30:17Z",
+        "uri": "http://web.archive.org/web/20161219183017/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-01-29T07:55:50Z",
+        "uri": "http://web.archive.org/web/20170129075550/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-02-09T22:32:52Z",
+        "uri": "http://web.archive.org/web/20170209223252/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-02-17T11:19:10Z",
+        "uri": "https://arquivo.pt/wayback/20170217111910/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-02-23T04:34:49Z",
+        "uri": "http://web.archive.org/web/20170223043449/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-03-11T16:03:30Z",
+        "uri": "http://web.archive.org/web/20170311160330/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-03-18T13:47:19Z",
+        "uri": "http://web.archive.org/web/20170318134719/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-04-06T04:53:27Z",
+        "uri": "http://web.archive.org/web/20170406045327/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-04-17T19:17:13Z",
+        "uri": "http://web.archive.org/web/20170417191713/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-05-17T14:53:07Z",
+        "uri": "http://web.archive.org/web/20170517145307/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-05-17T20:15:58Z",
+        "uri": "http://web.archive.org/web/20170517201558/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-07-09T08:18:43Z",
+        "uri": "http://web.archive.org/web/20170709081843/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-07-22T11:57:08Z",
+        "uri": "http://web.archive.org/web/20170722115708/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-08-30T02:09:04Z",
+        "uri": "http://web.archive.org/web/20170830020904/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-08-31T23:04:22Z",
+        "uri": "http://web.archive.org/web/20170831230422/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-09-29T00:31:13Z",
+        "uri": "http://web.archive.org/web/20170929003113/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-09-30T04:27:44Z",
+        "uri": "http://web.archive.org/web/20170930042744/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-09-30T08:08:33Z",
+        "uri": "http://wayback.archive-it.org/all/20170930080833/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-09-30T08:08:33Z",
+        "uri": "http://web.archive.org/web/20170930080833/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-01T08:41:58Z",
+        "uri": "http://wayback.archive-it.org/all/20171001084158/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-01T08:41:58Z",
+        "uri": "http://web.archive.org/web/20171001084158/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-01T19:48:45Z",
+        "uri": "http://wayback.archive-it.org/all/20171001194845/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-01T19:48:45Z",
+        "uri": "http://web.archive.org/web/20171001194845/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-02T13:01:27Z",
+        "uri": "http://wayback.archive-it.org/all/20171002130127/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-02T13:01:27Z",
+        "uri": "http://web.archive.org/web/20171002130127/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-10-02T17:50:05Z",
+        "uri": "http://web.archive.org/web/20171002175005/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-11-22T19:24:50Z",
+        "uri": "http://web.archive.org/web/20171122192450/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-11-29T20:13:42Z",
+        "uri": "http://web.archive.org/web/20171129201342/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2017-12-02T19:03:23Z",
+        "uri": "http://web.archive.org/web/20171202190323/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-23T22:18:07Z",
+        "uri": "http://web.archive.org/web/20180123221807/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-25T13:33:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180125133308/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-25T13:33:08Z",
+        "uri": "http://web.archive.org/web/20180125133308/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-25T16:02:56Z",
+        "uri": "http://wayback.archive-it.org/all/20180125160256/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-25T16:02:56Z",
+        "uri": "http://web.archive.org/web/20180125160256/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-29T02:32:44Z",
+        "uri": "http://web.archive.org/web/20180129023244/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-01-31T01:48:14Z",
+        "uri": "http://web.archive.org/web/20180131014814/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-02-01T05:09:56Z",
+        "uri": "http://web.archive.org/web/20180201050956/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-02-09T22:37:03Z",
+        "uri": "http://web.archive.org/web/20180209223703/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-02-24T21:56:33Z",
+        "uri": "http://web.archive.org/web/20180224215633/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-03-02T14:04:12Z",
+        "uri": "http://web.archive.org/web/20180302140412/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-03-07T23:30:21Z",
+        "uri": "http://web.archive.org/web/20180307233021/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-03-18T03:47:00Z",
+        "uri": "http://web.archive.org/web/20180318034700/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-03-27T16:38:57Z",
+        "uri": "http://web.archive.org/web/20180327163857/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-04-06T07:03:44Z",
+        "uri": "http://web.archive.org/web/20180406070344/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-04-11T05:36:44Z",
+        "uri": "http://web.archive.org/web/20180411053644/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-04-13T21:43:14Z",
+        "uri": "http://web.archive.org/web/20180413214314/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-04-18T12:34:15Z",
+        "uri": "http://web.archive.org/web/20180418123415/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-04-25T15:12:13Z",
+        "uri": "http://web.archive.org/web/20180425151213/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-02T09:19:38Z",
+        "uri": "http://web.archive.org/web/20180502091938/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-04T15:08:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180504150808/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-04T15:08:08Z",
+        "uri": "http://web.archive.org/web/20180504150808/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-09T15:54:45Z",
+        "uri": "http://web.archive.org/web/20180509155445/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-16T09:01:43Z",
+        "uri": "http://web.archive.org/web/20180516090143/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-21T15:17:45Z",
+        "uri": "http://web.archive.org/web/20180521151745/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-25T10:47:29Z",
+        "uri": "http://web.archive.org/web/20180525104729/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-05-30T10:31:05Z",
+        "uri": "http://web.archive.org/web/20180530103105/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-06-09T16:59:45Z",
+        "uri": "http://web.archive.org/web/20180609165945/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-06-12T18:44:19Z",
+        "uri": "http://web.archive.org/web/20180612184419/https://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-06-21T00:08:19Z",
+        "uri": "http://web.archive.org/web/20180621000819/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-06-21T01:56:51Z",
+        "uri": "http://web.archive.org/web/20180621015651/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-06-29T19:57:04Z",
+        "uri": "http://web.archive.org/web/20180629195704/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-03T23:27:12Z",
+        "uri": "http://web.archive.org/web/20180703232712/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-06T08:15:38Z",
+        "uri": "http://web.archive.org/web/20180706081538/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-08T19:04:00Z",
+        "uri": "http://web.archive.org/web/20180708190400/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-13T20:08:09Z",
+        "uri": "http://web.archive.org/web/20180713200809/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-18T00:19:12Z",
+        "uri": "http://web.archive.org/web/20180718001912/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-19T22:18:06Z",
+        "uri": "http://web.archive.org/web/20180719221806/http://feeds.feedburner.com/%7Eff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-25T09:40:11Z",
+        "uri": "http://web.archive.org/web/20180725094011/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-07-26T08:01:34Z",
+        "uri": "http://web.archive.org/web/20180726080134/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-08-09T12:13:12Z",
+        "uri": "http://web.archive.org/web/20180809121312/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-08-15T02:25:25Z",
+        "uri": "http://web.archive.org/web/20180815022525/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-08-15T12:40:08Z",
+        "uri": "http://web.archive.org/web/20180815124008/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-09-24T18:58:48Z",
+        "uri": "http://web.archive.org/web/20180924185848/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-14T03:55:22Z",
+        "uri": "http://web.archive.org/web/20181014035522/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-17T08:42:18Z",
+        "uri": "http://web.archive.org/web/20181017084218/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-19T23:53:19Z",
+        "uri": "http://web.archive.org/web/20181019235319/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-23T04:59:12Z",
+        "uri": "http://web.archive.org/web/20181023045912/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-24T14:07:27Z",
+        "uri": "http://web.archive.org/web/20181024140727/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-26T17:24:59Z",
+        "uri": "http://web.archive.org/web/20181026172459/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-28T09:19:25Z",
+        "uri": "http://web.archive.org/web/20181028091925/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-10-31T15:20:28Z",
+        "uri": "http://web.archive.org/web/20181031152028/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-11-06T14:21:21Z",
+        "uri": "http://web.archive.org/web/20181106142121/https://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-11-07T22:04:44Z",
+        "uri": "http://web.archive.org/web/20181107220444/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-11-14T14:28:09Z",
+        "uri": "http://web.archive.org/web/20181114142809/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-11-22T02:52:08Z",
+        "uri": "http://web.archive.org/web/20181122025208/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-11-30T23:30:34Z",
+        "uri": "http://web.archive.org/web/20181130233034/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-12-05T07:31:22Z",
+        "uri": "http://web.archive.org/web/20181205073122/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-12-11T04:25:31Z",
+        "uri": "http://web.archive.org/web/20181211042531/https://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-12-20T00:53:14Z",
+        "uri": "http://web.archive.org/web/20181220005314/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2018-12-26T01:32:16Z",
+        "uri": "http://web.archive.org/web/20181226013216/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-02T02:50:39Z",
+        "uri": "http://web.archive.org/web/20190102025039/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-09T07:38:01Z",
+        "uri": "http://web.archive.org/web/20190109073801/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-16T02:44:02Z",
+        "uri": "http://web.archive.org/web/20190116024402/https://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-16T16:53:07Z",
+        "uri": "http://web.archive.org/web/20190116165307/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-23T04:36:30Z",
+        "uri": "http://web.archive.org/web/20190123043630/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-26T06:57:45Z",
+        "uri": "http://web.archive.org/web/20190126065745/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-30T07:57:11Z",
+        "uri": "http://web.archive.org/web/20190130075711/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-01-31T22:33:02Z",
+        "uri": "http://web.archive.org/web/20190131223302/http://feeds.feedburner.com/~ff/reuters/topNews?d%3DyIl2AUoC8zA"
+      },
+      {
+        "datetime": "2019-02-06T06:35:35Z",
+        "uri": "http://web.archive.org/web/20190206063535/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+      }
+    ],
+    "first": {
+      "datetime": "2009-07-23T04:48:09Z",
+      "uri": "http://web.archive.org/web/20090723044809/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+    },
+    "last": {
+      "datetime": "2019-02-06T06:35:35Z",
+      "uri": "http://web.archive.org/web/20190206063535/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA"
+}

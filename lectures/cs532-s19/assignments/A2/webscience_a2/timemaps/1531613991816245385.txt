@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:47:56Z",
+        "uri": "http://web.archive.org/web/20190208184756/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-08T19:23:56Z",
+        "uri": "http://web.archive.org/web/20190208192356/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-08T21:13:47Z",
+        "uri": "http://web.archive.org/web/20190208211347/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-08T21:31:15Z",
+        "uri": "http://web.archive.org/web/20190208213115/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-08T23:42:30Z",
+        "uri": "http://web.archive.org/web/20190208234230/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:49:04Z",
+        "uri": "http://web.archive.org/web/20190209024904/http://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:20:20Z",
+        "uri": "http://web.archive.org/web/20190209182020/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-09T19:32:08Z",
+        "uri": "http://web.archive.org/web/20190209193208/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:10:07Z",
+        "uri": "http://web.archive.org/web/20190210001007/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:24:43Z",
+        "uri": "http://web.archive.org/web/20190210002443/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      },
+      {
+        "datetime": "2019-02-10T05:03:39Z",
+        "uri": "http://web.archive.org/web/20190210050339/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:47:56Z",
+      "uri": "http://web.archive.org/web/20190208184756/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:03:39Z",
+      "uri": "http://web.archive.org/web/20190210050339/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/politics/donald-trump-border-funding-lawmakers/index.html"
+}

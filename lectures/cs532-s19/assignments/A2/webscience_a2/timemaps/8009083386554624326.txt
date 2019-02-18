@@ -1,0 +1,42 @@
+{
+  "original_uri": "http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T09:57:39Z",
+        "uri": "http://web.archive.org/web/20190207095739/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+      },
+      {
+        "datetime": "2019-02-07T19:38:14Z",
+        "uri": "http://web.archive.org/web/20190207193814/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+      },
+      {
+        "datetime": "2019-02-08T01:47:50Z",
+        "uri": "http://web.archive.org/web/20190208014750/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+      },
+      {
+        "datetime": "2019-02-08T23:00:09Z",
+        "uri": "http://web.archive.org/web/20190208230009/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+      },
+      {
+        "datetime": "2019-02-09T18:31:26Z",
+        "uri": "http://web.archive.org/web/20190209183126/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T09:57:39Z",
+      "uri": "http://web.archive.org/web/20190207095739/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T18:31:26Z",
+      "uri": "http://web.archive.org/web/20190209183126/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.chinadaily.com.cn/a/201902/07/WS5c5b6ff1a3106c65c34e84cd.html"
+}

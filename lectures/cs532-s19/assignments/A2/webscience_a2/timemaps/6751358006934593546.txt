@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:14:52Z",
+        "uri": "http://web.archive.org/web/20190210001452/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+      },
+      {
+        "datetime": "2019-02-10T04:12:54Z",
+        "uri": "http://web.archive.org/web/20190210041254/http://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+      },
+      {
+        "datetime": "2019-02-10T05:54:03Z",
+        "uri": "http://web.archive.org/web/20190210055403/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:14:52Z",
+      "uri": "http://web.archive.org/web/20190210001452/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:54:03Z",
+      "uri": "http://web.archive.org/web/20190210055403/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://abcnews.go.com/US/wireStory/sc-town-honors-black-wwii-vet-decades-brutal-60962093"
+}

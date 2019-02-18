@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-05T02:50:26Z",
+        "uri": "http://web.archive.org/web/20181205025026/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+      },
+      {
+        "datetime": "2018-12-05T20:03:43Z",
+        "uri": "http://archive.md/20181205200343/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+      },
+      {
+        "datetime": "2019-01-20T11:55:33Z",
+        "uri": "http://web.archive.org/web/20190120115533/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+      },
+      {
+        "datetime": "2019-01-24T20:03:52Z",
+        "uri": "http://web.archive.org/web/20190124200352/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-05T02:50:26Z",
+      "uri": "http://web.archive.org/web/20181205025026/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+    },
+    "last": {
+      "datetime": "2019-01-24T20:03:52Z",
+      "uri": "http://web.archive.org/web/20190124200352/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://fortune.com/2018/12/04/trump-administration-proposes-postal-rate-hike-escalating-its-war-on-amazon/"
+}

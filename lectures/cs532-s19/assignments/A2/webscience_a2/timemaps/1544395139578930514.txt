@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-01T02:40:36Z",
+        "uri": "http://web.archive.org/web/20190201024036/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best"
+      },
+      {
+        "datetime": "2019-02-01T13:32:40Z",
+        "uri": "http://web.archive.org/web/20190201133240/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-01T02:40:36Z",
+      "uri": "http://web.archive.org/web/20190201024036/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best"
+    },
+    "last": {
+      "datetime": "2019-02-01T13:32:40Z",
+      "uri": "http://web.archive.org/web/20190201133240/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.billboard.com/articles/news/pride/8495616/randy-rainbow-donald-trump-parody-videos-best"
+}

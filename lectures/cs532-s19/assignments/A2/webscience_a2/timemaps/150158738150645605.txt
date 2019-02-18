@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:43:22Z",
+        "uri": "http://web.archive.org/web/20190209144322/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php"
+      },
+      {
+        "datetime": "2019-02-10T03:51:15Z",
+        "uri": "http://web.archive.org/web/20190210035115/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:43:22Z",
+      "uri": "http://web.archive.org/web/20190209144322/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:51:15Z",
+      "uri": "http://web.archive.org/web/20190210035115/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.sfchronicle.com/bayarea/williesworld/article/Democrats-have-a-2020-problem-Trump-is-good-at-13603018.php"
+}

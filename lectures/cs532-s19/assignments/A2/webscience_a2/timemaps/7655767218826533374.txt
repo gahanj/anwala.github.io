@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-05-26T05:57:30Z",
+        "uri": "http://web.archive.org/web/20150526055730/http://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2017-02-17T09:01:30Z",
+        "uri": "http://web.archive.org/web/20170217090130/http://www.nytimes.com:80/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2017-04-24T09:15:37Z",
+        "uri": "http://web.archive.org/web/20170424091537/http://www.nytimes.com:80/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2017-05-26T04:57:57Z",
+        "uri": "http://web.archive.org/web/20170526045757/http://www.nytimes.com:80/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2017-06-27T10:25:49Z",
+        "uri": "http://web.archive.org/web/20170627102549/http://www.nytimes.com:80/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2018-01-16T10:03:24Z",
+        "uri": "http://web.archive.org/web/20180116100324/http://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2018-04-21T02:02:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180421020220/http://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2018-04-21T02:02:20Z",
+        "uri": "http://web.archive.org/web/20180421020220/http://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2018-04-21T02:02:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180421020221/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      },
+      {
+        "datetime": "2018-04-21T02:02:21Z",
+        "uri": "http://web.archive.org/web/20180421020221/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+      }
+    ],
+    "first": {
+      "datetime": "2015-05-26T05:57:30Z",
+      "uri": "http://web.archive.org/web/20150526055730/http://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+    },
+    "last": {
+      "datetime": "2018-04-21T02:02:21Z",
+      "uri": "http://web.archive.org/web/20180421020221/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/1992/03/19/business/debt-deal-for-trump-on-plaza.html"
+}

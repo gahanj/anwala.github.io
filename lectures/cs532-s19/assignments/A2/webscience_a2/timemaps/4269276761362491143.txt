@@ -1,0 +1,326 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-05T20:07:24Z",
+        "uri": "http://web.archive.org/web/20190105200724/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T21:50:26Z",
+        "uri": "http://web.archive.org/web/20190105215026/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T22:49:43Z",
+        "uri": "http://web.archive.org/web/20190105224943/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T23:22:46Z",
+        "uri": "http://web.archive.org/web/20190105232246/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T23:34:53Z",
+        "uri": "http://web.archive.org/web/20190105233453/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T23:45:07Z",
+        "uri": "http://web.archive.org/web/20190105234507/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T23:56:31Z",
+        "uri": "http://web.archive.org/web/20190105235631/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-05T23:57:10Z",
+        "uri": "http://web.archive.org/web/20190105235710/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T00:08:00Z",
+        "uri": "http://web.archive.org/web/20190106000800/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T00:18:52Z",
+        "uri": "http://web.archive.org/web/20190106001852/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T00:29:33Z",
+        "uri": "http://web.archive.org/web/20190106002933/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T00:40:18Z",
+        "uri": "http://web.archive.org/web/20190106004018/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T02:31:20Z",
+        "uri": "https://perma-archives.org/warc/20190106023120/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T02:31:38Z",
+        "uri": "http://web.archive.org/web/20190106023138/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T02:34:33Z",
+        "uri": "http://web.archive.org/web/20190106023433/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T02:34:33Z",
+        "uri": "http://web.archive.org/web/20190106023433/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T02:34:33Z",
+        "uri": "http://web.archive.org/web/20190106023433/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T02:50:50Z",
+        "uri": "http://web.archive.org/web/20190106025050/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T05:42:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190106054223/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T05:42:23Z",
+        "uri": "http://web.archive.org/web/20190106054223/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T09:27:11Z",
+        "uri": "http://web.archive.org/web/20190106092711/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T11:00:12Z",
+        "uri": "http://web.archive.org/web/20190106110012/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T19:26:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190106192633/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T19:26:33Z",
+        "uri": "http://web.archive.org/web/20190106192633/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T21:52:03Z",
+        "uri": "http://web.archive.org/web/20190106215203/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-06T23:27:03Z",
+        "uri": "http://web.archive.org/web/20190106232703/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T00:14:32Z",
+        "uri": "http://archive.md/20190107001432/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T01:13:18Z",
+        "uri": "http://wayback.archive-it.org/all/20190107011318/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T01:13:18Z",
+        "uri": "http://web.archive.org/web/20190107011318/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T04:00:47Z",
+        "uri": "http://web.archive.org/web/20190107040047/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T09:33:58Z",
+        "uri": "http://web.archive.org/web/20190107093358/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T11:13:21Z",
+        "uri": "http://web.archive.org/web/20190107111321/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T13:31:01Z",
+        "uri": "http://wayback.archive-it.org/all/20190107133101/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T13:31:01Z",
+        "uri": "http://web.archive.org/web/20190107133101/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T14:04:25Z",
+        "uri": "http://web.archive.org/web/20190107140425/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T15:29:38Z",
+        "uri": "http://archive.md/20190107152938/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-07T21:17:47Z",
+        "uri": "http://web.archive.org/web/20190107211747/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T00:40:24Z",
+        "uri": "http://web.archive.org/web/20190108004024/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T06:54:15Z",
+        "uri": "http://web.archive.org/web/20190108065415/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T07:33:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190108073343/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T07:33:43Z",
+        "uri": "http://web.archive.org/web/20190108073343/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T14:59:53Z",
+        "uri": "http://web.archive.org/web/20190108145953/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T21:11:01Z",
+        "uri": "http://wayback.archive-it.org/all/20190108211101/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T21:11:01Z",
+        "uri": "http://web.archive.org/web/20190108211101/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-08T23:25:00Z",
+        "uri": "http://web.archive.org/web/20190108232500/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-09T01:42:50Z",
+        "uri": "http://web.archive.org/web/20190109014250/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-10T02:28:10Z",
+        "uri": "http://web.archive.org/web/20190110022810/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-10T02:51:51Z",
+        "uri": "http://web.archive.org/web/20190110025151/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-10T09:53:23Z",
+        "uri": "http://web.archive.org/web/20190110095323/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-10T12:06:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190110120646/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-10T12:06:46Z",
+        "uri": "http://web.archive.org/web/20190110120646/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-10T21:20:41Z",
+        "uri": "http://web.archive.org/web/20190110212041/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-11T02:04:35Z",
+        "uri": "http://web.archive.org/web/20190111020435/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-11T12:23:41Z",
+        "uri": "http://web.archive.org/web/20190111122341/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-12T03:29:34Z",
+        "uri": "http://web.archive.org/web/20190112032934/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-13T01:26:59Z",
+        "uri": "http://wayback.archive-it.org/all/20190113012659/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-13T01:26:59Z",
+        "uri": "http://web.archive.org/web/20190113012659/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-13T02:20:26Z",
+        "uri": "http://web.archive.org/web/20190113022026/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-13T06:52:18Z",
+        "uri": "http://wayback.archive-it.org/all/20190113065218/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-13T06:52:18Z",
+        "uri": "http://web.archive.org/web/20190113065218/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-14T05:26:51Z",
+        "uri": "http://web.archive.org/web/20190114052651/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-17T22:08:20Z",
+        "uri": "http://web.archive.org/web/20190117220820/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-19T16:55:31Z",
+        "uri": "http://web.archive.org/web/20190119165531/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-24T22:55:48Z",
+        "uri": "http://web.archive.org/web/20190124225548/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-25T00:18:03Z",
+        "uri": "http://web.archive.org/web/20190125001803/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-26T12:28:25Z",
+        "uri": "http://web.archive.org/web/20190126122825/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-26T17:27:13Z",
+        "uri": "http://web.archive.org/web/20190126172713/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-29T15:14:42Z",
+        "uri": "http://web.archive.org/web/20190129151442/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-31T10:33:55Z",
+        "uri": "http://web.archive.org/web/20190131103355/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-01-31T23:14:24Z",
+        "uri": "http://web.archive.org/web/20190131231424/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-02T21:37:31Z",
+        "uri": "http://web.archive.org/web/20190202213731/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-03T06:26:09Z",
+        "uri": "http://web.archive.org/web/20190203062609/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-05T06:22:09Z",
+        "uri": "http://web.archive.org/web/20190205062209/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-07T10:52:37Z",
+        "uri": "http://web.archive.org/web/20190207105237/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-07T23:36:00Z",
+        "uri": "http://web.archive.org/web/20190207233600/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      },
+      {
+        "datetime": "2019-02-10T10:46:44Z",
+        "uri": "http://web.archive.org/web/20190210104644/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-05T20:07:24Z",
+      "uri": "http://web.archive.org/web/20190105200724/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:46:44Z",
+      "uri": "http://web.archive.org/web/20190210104644/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/01/05/us/politics/donald-trump-border-wall.html"
+}

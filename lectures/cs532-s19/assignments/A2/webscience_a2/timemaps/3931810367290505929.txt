@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T04:56:16Z",
+        "uri": "http://archive.md/20190209045616/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T04:56:16Z",
+      "uri": "http://archive.md/20190209045616/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T04:56:16Z",
+      "uri": "http://archive.md/20190209045616/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.cgtn.com/news/3d3d774d3551544e32457a6333566d54/index.html"
+}

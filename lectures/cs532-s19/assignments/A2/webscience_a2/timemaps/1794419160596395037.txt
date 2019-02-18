@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:05:09Z",
+        "uri": "http://web.archive.org/web/20190210090509/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/"
+      },
+      {
+        "datetime": "2019-02-10T09:05:09Z",
+        "uri": "http://web.archive.org/web/20190210090509/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:05:09Z",
+      "uri": "http://web.archive.org/web/20190210090509/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:05:09Z",
+      "uri": "http://web.archive.org/web/20190210090509/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/sean-hannity-weird-trump-weekend/15869/"
+}

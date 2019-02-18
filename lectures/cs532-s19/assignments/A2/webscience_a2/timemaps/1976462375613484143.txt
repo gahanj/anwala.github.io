@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:17:24Z",
+        "uri": "http://web.archive.org/web/20190209011724/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:17:24Z",
+      "uri": "http://web.archive.org/web/20190209011724/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/"
+    },
+    "last": {
+      "datetime": "2019-02-09T01:17:24Z",
+      "uri": "http://web.archive.org/web/20190209011724/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.mbl.is/frettir/erlent/2019/02/08/vonar_ad_trump_skipti_um_skodun/"
+}

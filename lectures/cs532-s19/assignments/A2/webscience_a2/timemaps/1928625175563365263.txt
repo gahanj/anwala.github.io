@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:49:13Z",
+        "uri": "http://web.archive.org/web/20190210144913/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:49:13Z",
+      "uri": "http://web.archive.org/web/20190210144913/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:49:13Z",
+      "uri": "http://web.archive.org/web/20190210144913/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.slate.fr/story/173307/elizabeth-warren-femmes-democrates-donald-trump-election-presidentielle-2020"
+}

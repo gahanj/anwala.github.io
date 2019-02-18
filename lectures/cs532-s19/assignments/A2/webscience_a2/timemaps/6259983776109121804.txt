@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-18T07:01:13Z",
+        "uri": "http://web.archive.org/web/20190118070113/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+      },
+      {
+        "datetime": "2019-01-19T07:53:31Z",
+        "uri": "http://web.archive.org/web/20190119075331/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+      },
+      {
+        "datetime": "2019-01-24T19:19:53Z",
+        "uri": "http://web.archive.org/web/20190124191953/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+      },
+      {
+        "datetime": "2019-02-08T22:36:01Z",
+        "uri": "http://web.archive.org/web/20190208223601/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-18T07:01:13Z",
+      "uri": "http://web.archive.org/web/20190118070113/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+    },
+    "last": {
+      "datetime": "2019-02-08T22:36:01Z",
+      "uri": "http://web.archive.org/web/20190208223601/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-announcing-missile-defense-review/?utm_source=link&utm_medium=header"
+}

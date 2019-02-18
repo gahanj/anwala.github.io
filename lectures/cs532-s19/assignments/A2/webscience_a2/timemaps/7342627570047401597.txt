@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:06:52Z",
+        "uri": "http://web.archive.org/web/20190209200652/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:06:52Z",
+      "uri": "http://web.archive.org/web/20190209200652/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:06:52Z",
+      "uri": "http://web.archive.org/web/20190209200652/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.svoboda.org/a/usa-today-state-of-the-union-trump/29760468.html"
+}

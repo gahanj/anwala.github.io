@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T00:51:35Z",
+        "uri": "http://web.archive.org/web/20190209005135/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+      },
+      {
+        "datetime": "2019-02-09T18:00:28Z",
+        "uri": "http://web.archive.org/web/20190209180028/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+      },
+      {
+        "datetime": "2019-02-09T23:57:46Z",
+        "uri": "http://web.archive.org/web/20190209235746/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T00:51:35Z",
+      "uri": "http://web.archive.org/web/20190209005135/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:57:46Z",
+      "uri": "http://web.archive.org/web/20190209235746/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/blogs/blog-briefing-room/news/429151-mccabe-accuses-trump-of-acting-like-mob-boss-in-new-book-report"
+}

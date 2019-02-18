@@ -1,0 +1,2650 @@
+{
+  "original_uri": "https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-17T05:42:37Z",
+        "uri": "http://web.archive.org/web/20180317054237/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-17T06:28:21Z",
+        "uri": "http://web.archive.org/web/20180317062821/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-17T11:19:52Z",
+        "uri": "http://archive.md/20180317111952/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-17T20:21:47Z",
+        "uri": "http://web.archive.org/web/20180317202147/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-18T01:32:26Z",
+        "uri": "http://web.archive.org/web/20180318013226/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-18T04:30:29Z",
+        "uri": "http://web.archive.org/web/20180318043029/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-18T08:45:14Z",
+        "uri": "http://wayback.archive-it.org/all/20180318084514/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-18T08:45:14Z",
+        "uri": "http://web.archive.org/web/20180318084514/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-18T20:34:00Z",
+        "uri": "http://web.archive.org/web/20180318203400/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-19T02:05:20Z",
+        "uri": "http://web.archive.org/web/20180319020520/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-19T05:44:23Z",
+        "uri": "http://web.archive.org/web/20180319054423/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-19T20:10:51Z",
+        "uri": "http://web.archive.org/web/20180319201051/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-20T05:56:26Z",
+        "uri": "http://web.archive.org/web/20180320055626/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-20T06:33:43Z",
+        "uri": "http://web.archive.org/web/20180320063343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-21T18:54:15Z",
+        "uri": "http://web.archive.org/web/20180321185415/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-22T07:18:41Z",
+        "uri": "http://web.archive.org/web/20180322071841/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-22T18:51:52Z",
+        "uri": "http://web.archive.org/web/20180322185152/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-22T19:31:16Z",
+        "uri": "http://web.archive.org/web/20180322193116/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-22T23:53:59Z",
+        "uri": "http://web.archive.org/web/20180322235359/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-23T09:29:55Z",
+        "uri": "http://web.archive.org/web/20180323092955/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-23T19:15:53Z",
+        "uri": "http://web.archive.org/web/20180323191553/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-23T19:56:01Z",
+        "uri": "http://web.archive.org/web/20180323195601/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-24T00:39:40Z",
+        "uri": "http://web.archive.org/web/20180324003940/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-24T09:28:26Z",
+        "uri": "http://web.archive.org/web/20180324092826/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-24T20:11:31Z",
+        "uri": "http://web.archive.org/web/20180324201131/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-24T20:50:15Z",
+        "uri": "http://web.archive.org/web/20180324205015/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-25T11:06:09Z",
+        "uri": "http://web.archive.org/web/20180325110609/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-25T21:01:24Z",
+        "uri": "http://web.archive.org/web/20180325210124/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-25T21:40:25Z",
+        "uri": "http://web.archive.org/web/20180325214025/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-25T23:34:33Z",
+        "uri": "http://web.archive.org/web/20180325233433/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-26T13:37:40Z",
+        "uri": "http://web.archive.org/web/20180326133740/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-26T21:47:47Z",
+        "uri": "http://web.archive.org/web/20180326214747/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-27T08:35:12Z",
+        "uri": "http://web.archive.org/web/20180327083512/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-27T21:50:52Z",
+        "uri": "http://web.archive.org/web/20180327215052/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-27T22:26:21Z",
+        "uri": "http://web.archive.org/web/20180327222621/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-28T09:20:46Z",
+        "uri": "http://web.archive.org/web/20180328092046/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-28T22:07:57Z",
+        "uri": "http://web.archive.org/web/20180328220757/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-28T22:40:21Z",
+        "uri": "http://web.archive.org/web/20180328224021/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-29T02:03:21Z",
+        "uri": "http://web.archive.org/web/20180329020321/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-29T05:58:37Z",
+        "uri": "http://web.archive.org/web/20180329055837/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-29T16:35:01Z",
+        "uri": "http://web.archive.org/web/20180329163501/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-29T17:03:49Z",
+        "uri": "http://web.archive.org/web/20180329170349/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-30T01:52:16Z",
+        "uri": "http://web.archive.org/web/20180330015216/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-30T12:32:56Z",
+        "uri": "http://web.archive.org/web/20180330123256/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-30T15:16:23Z",
+        "uri": "http://web.archive.org/web/20180330151623/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-03-31T13:22:16Z",
+        "uri": "http://web.archive.org/web/20180331132216/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-01T02:42:28Z",
+        "uri": "http://web.archive.org/web/20180401024228/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-01T07:43:59Z",
+        "uri": "http://wayback.archive-it.org/all/20180401074359/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-01T07:43:59Z",
+        "uri": "http://web.archive.org/web/20180401074359/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-02T04:35:37Z",
+        "uri": "http://web.archive.org/web/20180402043537/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-02T10:23:12Z",
+        "uri": "http://web.archive.org/web/20180402102312/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-02T12:52:02Z",
+        "uri": "http://web.archive.org/web/20180402125202/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-03T06:43:01Z",
+        "uri": "http://web.archive.org/web/20180403064301/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-06T07:52:10Z",
+        "uri": "http://web.archive.org/web/20180406075210/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-09T12:17:51Z",
+        "uri": "http://web.archive.org/web/20180409121751/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-10T06:03:53Z",
+        "uri": "http://web.archive.org/web/20180410060353/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-11T06:51:25Z",
+        "uri": "http://web.archive.org/web/20180411065125/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-12T06:41:45Z",
+        "uri": "http://web.archive.org/web/20180412064145/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-13T11:31:44Z",
+        "uri": "http://web.archive.org/web/20180413113144/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-16T10:34:39Z",
+        "uri": "http://web.archive.org/web/20180416103439/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-17T19:35:30Z",
+        "uri": "http://web.archive.org/web/20180417193530/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-18T11:50:31Z",
+        "uri": "http://web.archive.org/web/20180418115031/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-19T13:27:08Z",
+        "uri": "http://web.archive.org/web/20180419132708/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-20T13:28:02Z",
+        "uri": "http://web.archive.org/web/20180420132802/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-23T18:34:30Z",
+        "uri": "http://web.archive.org/web/20180423183430/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-25T04:04:57Z",
+        "uri": "http://web.archive.org/web/20180425040457/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-25T16:17:05Z",
+        "uri": "http://web.archive.org/web/20180425161705/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-26T21:39:56Z",
+        "uri": "http://web.archive.org/web/20180426213956/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-27T11:50:04Z",
+        "uri": "http://web.archive.org/web/20180427115004/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-27T18:34:13Z",
+        "uri": "http://web.archive.org/web/20180427183413/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-28T16:24:37Z",
+        "uri": "http://web.archive.org/web/20180428162437/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-28T19:00:30Z",
+        "uri": "http://web.archive.org/web/20180428190030/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-29T16:51:33Z",
+        "uri": "http://web.archive.org/web/20180429165133/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-30T02:57:59Z",
+        "uri": "http://web.archive.org/web/20180430025759/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-30T17:45:55Z",
+        "uri": "http://web.archive.org/web/20180430174555/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-04-30T20:03:34Z",
+        "uri": "http://web.archive.org/web/20180430200334/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-01T18:05:04Z",
+        "uri": "http://web.archive.org/web/20180501180504/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-01T23:08:08Z",
+        "uri": "http://web.archive.org/web/20180501230808/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-02T19:01:14Z",
+        "uri": "http://web.archive.org/web/20180502190114/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-03T00:41:52Z",
+        "uri": "http://web.archive.org/web/20180503004152/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-03T15:16:10Z",
+        "uri": "http://web.archive.org/web/20180503151610/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-04T01:51:42Z",
+        "uri": "http://web.archive.org/web/20180504015142/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-04T08:05:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180504080531/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-04T08:05:31Z",
+        "uri": "http://web.archive.org/web/20180504080531/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-04T20:18:05Z",
+        "uri": "http://web.archive.org/web/20180504201805/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-05T03:03:44Z",
+        "uri": "http://web.archive.org/web/20180505030344/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-05T08:05:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180505080511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-05T08:05:11Z",
+        "uri": "http://web.archive.org/web/20180505080511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-05T20:26:45Z",
+        "uri": "http://web.archive.org/web/20180505202645/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-06T20:24:11Z",
+        "uri": "http://web.archive.org/web/20180506202411/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-07T08:05:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180507080527/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-07T08:05:27Z",
+        "uri": "http://web.archive.org/web/20180507080527/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-07T21:22:30Z",
+        "uri": "http://web.archive.org/web/20180507212230/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-08T02:21:45Z",
+        "uri": "http://web.archive.org/web/20180508022145/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-08T08:04:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180508080447/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-08T08:04:47Z",
+        "uri": "http://web.archive.org/web/20180508080447/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-08T22:25:19Z",
+        "uri": "http://web.archive.org/web/20180508222519/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-09T22:13:33Z",
+        "uri": "http://web.archive.org/web/20180509221333/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-10T01:33:45Z",
+        "uri": "http://web.archive.org/web/20180510013345/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-10T08:11:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180510081108/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-10T08:11:08Z",
+        "uri": "http://web.archive.org/web/20180510081108/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-11T00:02:00Z",
+        "uri": "http://web.archive.org/web/20180511000200/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-11T08:05:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180511080507/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-11T08:05:07Z",
+        "uri": "http://web.archive.org/web/20180511080507/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-11T19:35:03Z",
+        "uri": "http://web.archive.org/web/20180511193503/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-12T02:11:03Z",
+        "uri": "http://web.archive.org/web/20180512021103/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-12T08:03:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180512080331/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-12T08:03:31Z",
+        "uri": "http://web.archive.org/web/20180512080331/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-12T13:23:30Z",
+        "uri": "http://web.archive.org/web/20180512132330/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-13T04:50:54Z",
+        "uri": "http://web.archive.org/web/20180513045054/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-13T08:03:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180513080343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-13T08:03:43Z",
+        "uri": "http://web.archive.org/web/20180513080343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-13T17:30:46Z",
+        "uri": "http://web.archive.org/web/20180513173046/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-14T03:25:00Z",
+        "uri": "http://web.archive.org/web/20180514032500/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-14T08:03:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180514080340/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-14T08:03:40Z",
+        "uri": "http://web.archive.org/web/20180514080340/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-15T03:54:58Z",
+        "uri": "http://web.archive.org/web/20180515035458/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-15T08:04:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180515080431/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-15T08:04:31Z",
+        "uri": "http://web.archive.org/web/20180515080431/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-16T02:13:27Z",
+        "uri": "http://web.archive.org/web/20180516021327/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-16T08:04:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180516080444/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-16T08:04:44Z",
+        "uri": "http://web.archive.org/web/20180516080444/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-17T08:05:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180517080511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-17T08:05:11Z",
+        "uri": "http://web.archive.org/web/20180517080511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-18T08:04:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180518080435/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-18T08:04:35Z",
+        "uri": "http://web.archive.org/web/20180518080435/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-19T08:03:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180519080316/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-19T08:03:16Z",
+        "uri": "http://web.archive.org/web/20180519080316/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-20T08:03:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180520080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-20T08:03:37Z",
+        "uri": "http://web.archive.org/web/20180520080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-21T08:03:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180521080345/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-21T08:03:45Z",
+        "uri": "http://web.archive.org/web/20180521080345/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-22T08:03:38Z",
+        "uri": "http://wayback.archive-it.org/all/20180522080338/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-22T08:03:38Z",
+        "uri": "http://web.archive.org/web/20180522080338/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-23T08:03:38Z",
+        "uri": "http://wayback.archive-it.org/all/20180523080338/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-23T08:03:38Z",
+        "uri": "http://web.archive.org/web/20180523080338/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-24T08:04:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180524080404/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-24T08:04:04Z",
+        "uri": "http://web.archive.org/web/20180524080404/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-25T08:02:56Z",
+        "uri": "http://wayback.archive-it.org/all/20180525080256/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-25T08:02:56Z",
+        "uri": "http://web.archive.org/web/20180525080256/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-26T08:04:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180526080402/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-26T08:04:02Z",
+        "uri": "http://web.archive.org/web/20180526080402/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-27T08:03:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180527080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-27T08:03:37Z",
+        "uri": "http://web.archive.org/web/20180527080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-28T08:03:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180528080343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-28T08:03:43Z",
+        "uri": "http://web.archive.org/web/20180528080343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-29T08:03:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180529080325/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-29T08:03:25Z",
+        "uri": "http://web.archive.org/web/20180529080325/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-30T08:04:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180530080406/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-30T08:04:06Z",
+        "uri": "http://web.archive.org/web/20180530080406/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-31T08:12:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180531081239/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-05-31T08:12:39Z",
+        "uri": "http://web.archive.org/web/20180531081239/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-01T08:03:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180601080334/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-01T08:03:34Z",
+        "uri": "http://web.archive.org/web/20180601080334/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-02T08:03:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180602080342/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-02T08:03:42Z",
+        "uri": "http://web.archive.org/web/20180602080342/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-03T08:42:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180603084200/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-03T08:42:00Z",
+        "uri": "http://web.archive.org/web/20180603084200/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-04T08:13:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180604081316/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-04T08:13:16Z",
+        "uri": "http://web.archive.org/web/20180604081316/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-05T08:03:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180605080330/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-05T08:03:30Z",
+        "uri": "http://web.archive.org/web/20180605080330/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-06T08:03:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180606080358/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-06T08:03:58Z",
+        "uri": "http://web.archive.org/web/20180606080358/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-07T08:25:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180607082501/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-07T08:25:01Z",
+        "uri": "http://web.archive.org/web/20180607082501/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-07T16:32:40Z",
+        "uri": "http://web.archive.org/web/20180607163240/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-08T08:03:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180608080329/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-08T08:03:29Z",
+        "uri": "http://web.archive.org/web/20180608080329/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-09T08:04:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180609080411/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-09T08:04:11Z",
+        "uri": "http://web.archive.org/web/20180609080411/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-10T08:04:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180610080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-10T08:04:08Z",
+        "uri": "http://web.archive.org/web/20180610080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-11T08:03:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180611080343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-11T08:03:43Z",
+        "uri": "http://web.archive.org/web/20180611080343/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-11T17:27:06Z",
+        "uri": "http://web.archive.org/web/20180611172706/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-12T08:04:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180612080412/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-12T08:04:12Z",
+        "uri": "http://web.archive.org/web/20180612080412/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-12T15:41:34Z",
+        "uri": "http://web.archive.org/web/20180612154134/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-13T08:03:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180613080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-13T08:03:37Z",
+        "uri": "http://web.archive.org/web/20180613080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-13T18:34:38Z",
+        "uri": "http://web.archive.org/web/20180613183438/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-14T08:03:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180614080329/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-14T08:03:29Z",
+        "uri": "http://web.archive.org/web/20180614080329/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-15T02:37:32Z",
+        "uri": "http://web.archive.org/web/20180615023732/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-15T08:04:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180615080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-15T08:04:40Z",
+        "uri": "http://web.archive.org/web/20180615080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-15T08:19:05Z",
+        "uri": "http://web.archive.org/web/20180615081905/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-15T14:54:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180615145447/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-15T14:54:47Z",
+        "uri": "http://web.archive.org/web/20180615145447/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-16T08:03:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180616080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-16T08:03:37Z",
+        "uri": "http://web.archive.org/web/20180616080337/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-17T08:04:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180617080411/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-17T08:04:11Z",
+        "uri": "http://web.archive.org/web/20180617080411/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-18T08:04:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180618080430/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-18T08:04:30Z",
+        "uri": "http://web.archive.org/web/20180618080430/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-18T16:54:04Z",
+        "uri": "http://web.archive.org/web/20180618165404/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-19T08:03:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180619080347/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-19T08:03:47Z",
+        "uri": "http://web.archive.org/web/20180619080347/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-20T08:04:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180620080443/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-20T08:04:43Z",
+        "uri": "http://web.archive.org/web/20180620080443/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-21T08:04:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180621080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-21T08:04:40Z",
+        "uri": "http://web.archive.org/web/20180621080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-22T08:04:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180622080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-22T08:04:40Z",
+        "uri": "http://web.archive.org/web/20180622080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-23T08:04:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180623080427/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-23T08:04:27Z",
+        "uri": "http://web.archive.org/web/20180623080427/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-24T08:05:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180624080547/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-24T08:05:47Z",
+        "uri": "http://web.archive.org/web/20180624080547/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-25T08:04:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180625080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-25T08:04:40Z",
+        "uri": "http://web.archive.org/web/20180625080440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-26T08:04:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180626080427/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-26T08:04:27Z",
+        "uri": "http://web.archive.org/web/20180626080427/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-27T08:03:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180627080348/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-27T08:03:48Z",
+        "uri": "http://web.archive.org/web/20180627080348/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-28T08:06:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180628080634/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-28T08:06:34Z",
+        "uri": "http://web.archive.org/web/20180628080634/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-29T08:03:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180629080355/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-29T08:03:55Z",
+        "uri": "http://web.archive.org/web/20180629080355/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-30T08:04:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180630080412/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-06-30T08:04:12Z",
+        "uri": "http://web.archive.org/web/20180630080412/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-01T08:05:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180701080534/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-01T08:05:34Z",
+        "uri": "http://web.archive.org/web/20180701080534/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-02T08:04:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180702080434/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-02T08:04:34Z",
+        "uri": "http://web.archive.org/web/20180702080434/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-03T08:05:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180703080518/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-03T08:05:18Z",
+        "uri": "http://web.archive.org/web/20180703080518/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-04T08:06:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180704080627/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-04T08:06:27Z",
+        "uri": "http://web.archive.org/web/20180704080627/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-05T08:05:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180705080541/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-05T08:05:41Z",
+        "uri": "http://web.archive.org/web/20180705080541/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-05T21:33:49Z",
+        "uri": "http://web.archive.org/web/20180705213349/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-07T00:50:33Z",
+        "uri": "http://web.archive.org/web/20180707005033/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-07T04:05:11Z",
+        "uri": "http://web.archive.org/web/20180707040511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-07T08:04:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180707080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-07T08:04:08Z",
+        "uri": "http://web.archive.org/web/20180707080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-07T22:40:16Z",
+        "uri": "http://web.archive.org/web/20180707224016/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-08T08:05:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180708080557/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-08T08:05:57Z",
+        "uri": "http://web.archive.org/web/20180708080557/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-08T09:22:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180708092220/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-08T09:22:20Z",
+        "uri": "http://web.archive.org/web/20180708092220/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-09T08:04:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180709080431/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-09T08:04:31Z",
+        "uri": "http://web.archive.org/web/20180709080431/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-09T13:01:31Z",
+        "uri": "http://web.archive.org/web/20180709130131/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-09T16:41:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180709164116/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-09T16:41:16Z",
+        "uri": "http://web.archive.org/web/20180709164116/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-10T08:05:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180710080531/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-10T08:05:31Z",
+        "uri": "http://web.archive.org/web/20180710080531/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-11T08:05:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180711080528/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-11T08:05:28Z",
+        "uri": "http://web.archive.org/web/20180711080528/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-12T08:04:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180712080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-12T08:04:08Z",
+        "uri": "http://web.archive.org/web/20180712080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-12T12:00:01Z",
+        "uri": "http://web.archive.org/web/20180712120001/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-13T08:03:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180713080355/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-13T08:03:55Z",
+        "uri": "http://web.archive.org/web/20180713080355/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-14T08:04:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180714080453/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-14T08:04:53Z",
+        "uri": "http://web.archive.org/web/20180714080453/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-14T11:14:45Z",
+        "uri": "http://web.archive.org/web/20180714111445/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-15T08:04:26Z",
+        "uri": "http://wayback.archive-it.org/all/20180715080426/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-15T08:04:26Z",
+        "uri": "http://web.archive.org/web/20180715080426/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-15T13:17:32Z",
+        "uri": "http://web.archive.org/web/20180715131732/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-16T08:04:33Z",
+        "uri": "http://wayback.archive-it.org/all/20180716080433/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-16T08:04:33Z",
+        "uri": "http://web.archive.org/web/20180716080433/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-16T19:49:33Z",
+        "uri": "http://web.archive.org/web/20180716194933/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-17T08:05:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180717080515/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-17T08:05:15Z",
+        "uri": "http://web.archive.org/web/20180717080515/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-18T08:04:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180718080400/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-18T08:04:00Z",
+        "uri": "http://web.archive.org/web/20180718080400/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-18T16:41:03Z",
+        "uri": "http://web.archive.org/web/20180718164103/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-19T08:04:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180719080441/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-19T08:04:41Z",
+        "uri": "http://web.archive.org/web/20180719080441/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-19T08:43:50Z",
+        "uri": "http://web.archive.org/web/20180719084350/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-20T08:04:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180720080446/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-20T08:04:46Z",
+        "uri": "http://web.archive.org/web/20180720080446/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-20T10:53:21Z",
+        "uri": "http://web.archive.org/web/20180720105321/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-21T08:04:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180721080427/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-21T08:04:27Z",
+        "uri": "http://web.archive.org/web/20180721080427/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-22T08:04:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180722080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-22T08:04:08Z",
+        "uri": "http://web.archive.org/web/20180722080408/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-22T12:51:58Z",
+        "uri": "http://web.archive.org/web/20180722125158/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-23T08:03:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180723080358/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-23T08:03:58Z",
+        "uri": "http://web.archive.org/web/20180723080358/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-23T16:53:27Z",
+        "uri": "http://web.archive.org/web/20180723165327/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-24T08:04:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180724080454/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-24T08:04:54Z",
+        "uri": "http://web.archive.org/web/20180724080454/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-25T08:05:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180725080502/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-25T08:05:02Z",
+        "uri": "http://web.archive.org/web/20180725080502/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-25T17:59:20Z",
+        "uri": "http://web.archive.org/web/20180725175920/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-26T03:37:29Z",
+        "uri": "http://web.archive.org/web/20180726033729/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-26T08:04:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180726080417/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-26T08:04:17Z",
+        "uri": "http://web.archive.org/web/20180726080417/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-27T08:05:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180727080502/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-27T08:05:02Z",
+        "uri": "http://web.archive.org/web/20180727080502/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-27T08:12:08Z",
+        "uri": "http://web.archive.org/web/20180727081208/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-28T08:06:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180728080642/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-28T08:06:42Z",
+        "uri": "http://web.archive.org/web/20180728080642/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-28T08:15:12Z",
+        "uri": "http://web.archive.org/web/20180728081512/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-29T08:05:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180729080532/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-29T08:05:32Z",
+        "uri": "http://web.archive.org/web/20180729080532/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-29T09:10:27Z",
+        "uri": "http://web.archive.org/web/20180729091027/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-30T08:02:52Z",
+        "uri": "http://web.archive.org/web/20180730080252/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-30T08:04:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180730080422/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-30T08:04:22Z",
+        "uri": "http://web.archive.org/web/20180730080422/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-31T08:05:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180731080503/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-31T08:05:03Z",
+        "uri": "http://web.archive.org/web/20180731080503/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-07-31T08:09:07Z",
+        "uri": "http://web.archive.org/web/20180731080907/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-01T08:47:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180801084724/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-01T08:47:24Z",
+        "uri": "http://web.archive.org/web/20180801084724/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-01T08:58:14Z",
+        "uri": "http://web.archive.org/web/20180801085814/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-02T08:10:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180802081028/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-02T08:10:28Z",
+        "uri": "http://web.archive.org/web/20180802081028/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-02T08:58:29Z",
+        "uri": "http://web.archive.org/web/20180802085829/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-03T08:04:38Z",
+        "uri": "http://wayback.archive-it.org/all/20180803080438/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-03T08:04:38Z",
+        "uri": "http://web.archive.org/web/20180803080438/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-03T10:41:09Z",
+        "uri": "http://web.archive.org/web/20180803104109/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-04T14:15:56Z",
+        "uri": "http://wayback.archive-it.org/all/20180804141556/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-04T14:15:56Z",
+        "uri": "http://web.archive.org/web/20180804141556/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-05T13:26:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180805132610/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-05T13:26:10Z",
+        "uri": "http://web.archive.org/web/20180805132610/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-05T17:24:06Z",
+        "uri": "http://web.archive.org/web/20180805172406/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-05T19:05:39Z",
+        "uri": "http://web.archive.org/web/20180805190539/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-06T12:04:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180806120406/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-06T12:04:06Z",
+        "uri": "http://web.archive.org/web/20180806120406/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-07T12:04:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180807120442/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-07T12:04:42Z",
+        "uri": "http://web.archive.org/web/20180807120442/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-08T12:06:33Z",
+        "uri": "http://wayback.archive-it.org/all/20180808120633/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-08T12:06:33Z",
+        "uri": "http://web.archive.org/web/20180808120633/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-08T21:23:52Z",
+        "uri": "http://web.archive.org/web/20180808212352/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-09T13:26:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180809132618/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-09T13:26:18Z",
+        "uri": "http://web.archive.org/web/20180809132618/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-09T23:59:45Z",
+        "uri": "http://web.archive.org/web/20180809235945/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-10T11:57:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180810115751/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-10T11:57:51Z",
+        "uri": "http://web.archive.org/web/20180810115751/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-11T02:05:06Z",
+        "uri": "http://web.archive.org/web/20180811020506/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-11T11:32:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180811113204/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-11T11:32:04Z",
+        "uri": "http://web.archive.org/web/20180811113204/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-12T02:12:50Z",
+        "uri": "http://web.archive.org/web/20180812021250/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-12T12:41:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180812124127/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-12T12:41:27Z",
+        "uri": "http://web.archive.org/web/20180812124127/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-13T02:35:50Z",
+        "uri": "http://web.archive.org/web/20180813023550/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-13T11:25:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180813112558/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-13T11:25:58Z",
+        "uri": "http://web.archive.org/web/20180813112558/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-14T11:48:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180814114815/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-14T11:48:15Z",
+        "uri": "http://web.archive.org/web/20180814114815/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-15T11:54:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180815115452/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-15T11:54:52Z",
+        "uri": "http://web.archive.org/web/20180815115452/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-15T16:57:50Z",
+        "uri": "http://web.archive.org/web/20180815165750/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-16T11:30:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180816113006/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-16T11:30:06Z",
+        "uri": "http://web.archive.org/web/20180816113006/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-16T19:04:02Z",
+        "uri": "http://web.archive.org/web/20180816190402/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-17T09:40:07Z",
+        "uri": "http://web.archive.org/web/20180817094007/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-17T12:18:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180817121831/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-17T12:18:31Z",
+        "uri": "http://web.archive.org/web/20180817121831/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-18T02:50:01Z",
+        "uri": "http://web.archive.org/web/20180818025001/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-18T12:01:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180818120107/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-18T12:01:07Z",
+        "uri": "http://web.archive.org/web/20180818120107/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-19T03:01:14Z",
+        "uri": "http://web.archive.org/web/20180819030114/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-19T12:34:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180819123416/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-19T12:34:16Z",
+        "uri": "http://web.archive.org/web/20180819123416/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-20T01:45:34Z",
+        "uri": "http://web.archive.org/web/20180820014534/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-20T12:22:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180820122213/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-20T12:22:13Z",
+        "uri": "http://web.archive.org/web/20180820122213/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-21T02:38:10Z",
+        "uri": "http://web.archive.org/web/20180821023810/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-22T08:04:33Z",
+        "uri": "http://web.archive.org/web/20180822080433/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-22T08:31:01Z",
+        "uri": "http://web.archive.org/web/20180822083101/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-22T11:47:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180822114739/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-22T11:47:39Z",
+        "uri": "http://web.archive.org/web/20180822114739/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-23T05:30:11Z",
+        "uri": "http://web.archive.org/web/20180823053011/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-23T09:14:29Z",
+        "uri": "http://web.archive.org/web/20180823091429/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-23T11:07:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180823110708/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-23T11:07:08Z",
+        "uri": "http://web.archive.org/web/20180823110708/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-23T14:46:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180823144600/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-23T14:46:00Z",
+        "uri": "http://web.archive.org/web/20180823144600/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-24T11:39:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180824113958/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-24T11:39:58Z",
+        "uri": "http://web.archive.org/web/20180824113958/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-25T07:14:50Z",
+        "uri": "http://web.archive.org/web/20180825071450/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-25T11:15:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180825111516/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-25T11:15:16Z",
+        "uri": "http://web.archive.org/web/20180825111516/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-26T11:43:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180826114345/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-26T11:43:45Z",
+        "uri": "http://web.archive.org/web/20180826114345/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-27T11:39:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180827113930/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-27T11:39:30Z",
+        "uri": "http://web.archive.org/web/20180827113930/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-28T11:05:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180828110511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-28T11:05:11Z",
+        "uri": "http://web.archive.org/web/20180828110511/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-29T11:14:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180829111404/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-29T11:14:04Z",
+        "uri": "http://web.archive.org/web/20180829111404/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-29T16:29:45Z",
+        "uri": "http://web.archive.org/web/20180829162945/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-30T07:24:33Z",
+        "uri": "http://web.archive.org/web/20180830072433/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-30T11:31:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180830113128/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-30T11:31:28Z",
+        "uri": "http://web.archive.org/web/20180830113128/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-30T19:42:33Z",
+        "uri": "http://web.archive.org/web/20180830194233/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-30T21:03:11Z",
+        "uri": "http://web.archive.org/web/20180830210311/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-31T12:05:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180831120542/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-08-31T12:05:42Z",
+        "uri": "http://web.archive.org/web/20180831120542/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T03:36:35Z",
+        "uri": "http://web.archive.org/web/20180901033635/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T09:10:30Z",
+        "uri": "http://web.archive.org/web/20180901091030/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T09:59:50Z",
+        "uri": "http://wayback.archive-it.org/all/20180901095950/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T09:59:50Z",
+        "uri": "http://web.archive.org/web/20180901095950/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T12:24:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180901122402/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T12:24:02Z",
+        "uri": "http://web.archive.org/web/20180901122402/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-01T23:50:36Z",
+        "uri": "http://web.archive.org/web/20180901235036/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-02T01:10:22Z",
+        "uri": "http://web.archive.org/web/20180902011022/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-02T03:41:42Z",
+        "uri": "http://web.archive.org/web/20180902034142/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-02T13:43:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180902134340/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-02T13:43:40Z",
+        "uri": "http://web.archive.org/web/20180902134340/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-03T01:19:35Z",
+        "uri": "http://web.archive.org/web/20180903011935/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-03T11:56:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180903115643/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-03T11:56:43Z",
+        "uri": "http://web.archive.org/web/20180903115643/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-04T02:33:22Z",
+        "uri": "http://web.archive.org/web/20180904023322/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-04T11:34:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180904113425/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-04T11:34:25Z",
+        "uri": "http://web.archive.org/web/20180904113425/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-05T03:35:00Z",
+        "uri": "http://web.archive.org/web/20180905033500/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-05T11:25:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180905112508/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-05T11:25:08Z",
+        "uri": "http://web.archive.org/web/20180905112508/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-06T03:14:25Z",
+        "uri": "http://web.archive.org/web/20180906031425/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-06T12:19:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180906121947/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-06T12:19:47Z",
+        "uri": "http://web.archive.org/web/20180906121947/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-07T03:21:39Z",
+        "uri": "http://web.archive.org/web/20180907032139/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-07T11:35:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180907113536/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-07T11:35:36Z",
+        "uri": "http://web.archive.org/web/20180907113536/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-08T12:55:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180908125553/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-08T12:55:53Z",
+        "uri": "http://web.archive.org/web/20180908125553/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-09T13:12:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180909131234/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-09T13:12:34Z",
+        "uri": "http://web.archive.org/web/20180909131234/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-09T17:33:01Z",
+        "uri": "http://web.archive.org/web/20180909173301/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-10T12:28:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180910122829/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-10T12:28:29Z",
+        "uri": "http://web.archive.org/web/20180910122829/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-11T11:28:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180911112845/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-11T11:28:45Z",
+        "uri": "http://web.archive.org/web/20180911112845/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-12T11:35:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180912113551/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-12T11:35:51Z",
+        "uri": "http://web.archive.org/web/20180912113551/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-13T11:39:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180913113900/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-13T11:39:00Z",
+        "uri": "http://web.archive.org/web/20180913113900/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-14T13:38:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180914133846/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-14T13:38:46Z",
+        "uri": "http://web.archive.org/web/20180914133846/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-15T12:10:23Z",
+        "uri": "http://wayback.archive-it.org/all/20180915121023/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-15T12:10:23Z",
+        "uri": "http://web.archive.org/web/20180915121023/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-16T12:42:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180916124239/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-16T12:42:39Z",
+        "uri": "http://web.archive.org/web/20180916124239/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-17T12:11:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180917121144/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-17T12:11:44Z",
+        "uri": "http://web.archive.org/web/20180917121144/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-17T19:55:10Z",
+        "uri": "http://web.archive.org/web/20180917195510/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-18T11:12:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180918111241/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-18T11:12:41Z",
+        "uri": "http://web.archive.org/web/20180918111241/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-18T20:50:03Z",
+        "uri": "http://web.archive.org/web/20180918205003/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-19T12:45:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180919124541/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-19T12:45:41Z",
+        "uri": "http://web.archive.org/web/20180919124541/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-19T21:29:58Z",
+        "uri": "http://web.archive.org/web/20180919212958/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-20T11:45:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180920114551/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-20T11:45:51Z",
+        "uri": "http://web.archive.org/web/20180920114551/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-20T22:13:24Z",
+        "uri": "http://web.archive.org/web/20180920221324/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-21T11:06:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180921110601/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-21T11:06:01Z",
+        "uri": "http://web.archive.org/web/20180921110601/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-21T22:53:51Z",
+        "uri": "http://web.archive.org/web/20180921225351/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-22T12:56:26Z",
+        "uri": "http://wayback.archive-it.org/all/20180922125626/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-22T12:56:26Z",
+        "uri": "http://web.archive.org/web/20180922125626/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-23T12:17:38Z",
+        "uri": "http://wayback.archive-it.org/all/20180923121738/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-23T12:17:38Z",
+        "uri": "http://web.archive.org/web/20180923121738/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-24T13:07:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180924130712/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-24T13:07:12Z",
+        "uri": "http://web.archive.org/web/20180924130712/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-25T09:40:25Z",
+        "uri": "http://web.archive.org/web/20180925094025/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-25T12:40:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180925124000/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-25T12:40:00Z",
+        "uri": "http://web.archive.org/web/20180925124000/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-26T05:40:23Z",
+        "uri": "http://web.archive.org/web/20180926054023/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-26T11:50:43Z",
+        "uri": "http://web.archive.org/web/20180926115043/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-26T14:11:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180926141143/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-26T14:11:43Z",
+        "uri": "http://web.archive.org/web/20180926141143/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-27T00:35:34Z",
+        "uri": "http://web.archive.org/web/20180927003534/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-27T11:36:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180927113627/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-27T11:36:27Z",
+        "uri": "http://web.archive.org/web/20180927113627/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-28T02:00:16Z",
+        "uri": "http://web.archive.org/web/20180928020016/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-28T12:01:48Z",
+        "uri": "http://web.archive.org/web/20180928120148/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-28T13:03:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180928130341/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-28T13:03:41Z",
+        "uri": "http://web.archive.org/web/20180928130341/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-29T03:51:21Z",
+        "uri": "http://web.archive.org/web/20180929035121/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-29T11:15:36Z",
+        "uri": "http://web.archive.org/web/20180929111536/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-29T14:25:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180929142522/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-29T14:25:22Z",
+        "uri": "http://web.archive.org/web/20180929142522/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-30T11:22:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180930112205/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-30T11:22:05Z",
+        "uri": "http://web.archive.org/web/20180930112205/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-09-30T13:18:07Z",
+        "uri": "http://web.archive.org/web/20180930131807/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-01T11:50:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181001115048/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-01T11:50:48Z",
+        "uri": "http://web.archive.org/web/20181001115048/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-01T12:47:30Z",
+        "uri": "http://web.archive.org/web/20181001124730/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-01T20:57:25Z",
+        "uri": "http://web.archive.org/web/20181001205725/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-02T12:56:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181002125605/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-02T12:56:05Z",
+        "uri": "http://web.archive.org/web/20181002125605/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-02T19:33:41Z",
+        "uri": "http://web.archive.org/web/20181002193341/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-03T13:57:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181003135736/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-03T13:57:36Z",
+        "uri": "http://web.archive.org/web/20181003135736/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-05T12:37:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181005123752/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-05T12:37:52Z",
+        "uri": "http://web.archive.org/web/20181005123752/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-06T12:28:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181006122805/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-06T12:28:05Z",
+        "uri": "http://web.archive.org/web/20181006122805/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-07T05:10:16Z",
+        "uri": "http://web.archive.org/web/20181007051016/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-07T13:01:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181007130157/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-07T13:01:57Z",
+        "uri": "http://web.archive.org/web/20181007130157/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-08T04:16:57Z",
+        "uri": "http://web.archive.org/web/20181008041657/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-08T12:46:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181008124612/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-08T12:46:12Z",
+        "uri": "http://web.archive.org/web/20181008124612/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T16:39:18Z",
+        "uri": "http://web.archive.org/web/20181009163918/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T17:46:21Z",
+        "uri": "http://web.archive.org/web/20181009174621/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T18:58:01Z",
+        "uri": "http://web.archive.org/web/20181009185801/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T19:42:16Z",
+        "uri": "http://web.archive.org/web/20181009194216/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T20:05:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181009200517/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T20:05:17Z",
+        "uri": "http://web.archive.org/web/20181009200517/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T22:52:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181009225257/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-09T22:52:57Z",
+        "uri": "http://web.archive.org/web/20181009225257/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T00:42:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181010004258/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T00:42:58Z",
+        "uri": "http://web.archive.org/web/20181010004258/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T01:14:40Z",
+        "uri": "http://web.archive.org/web/20181010011440/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T01:43:02Z",
+        "uri": "http://web.archive.org/web/20181010014302/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T02:25:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181010022547/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T02:25:47Z",
+        "uri": "http://web.archive.org/web/20181010022547/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T03:30:55Z",
+        "uri": "http://web.archive.org/web/20181010033055/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T07:04:13Z",
+        "uri": "http://wayback.archive-it.org/all/20181010070413/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T07:04:13Z",
+        "uri": "http://web.archive.org/web/20181010070413/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T14:49:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181010144936/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-10T14:49:36Z",
+        "uri": "http://web.archive.org/web/20181010144936/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-11T02:21:14Z",
+        "uri": "http://web.archive.org/web/20181011022114/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-11T13:30:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181011133036/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-11T13:30:36Z",
+        "uri": "http://web.archive.org/web/20181011133036/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-13T14:52:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181013145236/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-13T14:52:36Z",
+        "uri": "http://web.archive.org/web/20181013145236/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-14T15:20:35Z",
+        "uri": "http://web.archive.org/web/20181014152035/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-15T16:34:28Z",
+        "uri": "http://web.archive.org/web/20181015163428/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-16T13:44:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181016134449/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-16T13:44:49Z",
+        "uri": "http://web.archive.org/web/20181016134449/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T08:34:41Z",
+        "uri": "http://web.archive.org/web/20181018083441/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T08:48:52Z",
+        "uri": "http://web.archive.org/web/20181018084852/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T10:07:11Z",
+        "uri": "http://web.archive.org/web/20181018100711/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T18:44:22Z",
+        "uri": "http://web.archive.org/web/20181018184422/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T19:15:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181018191504/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T19:15:04Z",
+        "uri": "http://web.archive.org/web/20181018191504/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T22:29:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181018222901/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-18T22:29:01Z",
+        "uri": "http://web.archive.org/web/20181018222901/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-19T11:10:20Z",
+        "uri": "http://wayback.archive-it.org/all/20181019111020/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-19T11:10:20Z",
+        "uri": "http://web.archive.org/web/20181019111020/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T03:36:07Z",
+        "uri": "http://web.archive.org/web/20181020033607/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T14:07:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181020140717/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T14:07:17Z",
+        "uri": "http://web.archive.org/web/20181020140717/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T15:52:48Z",
+        "uri": "https://perma-archives.org/warc/20181020155248/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T15:52:48Z",
+        "uri": "http://web.archive.org/web/20181020155248/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T18:19:35Z",
+        "uri": "https://perma-archives.org/warc/20181020181935/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-20T18:19:35Z",
+        "uri": "http://web.archive.org/web/20181020181935/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-21T12:07:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181021120756/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-21T12:07:56Z",
+        "uri": "http://web.archive.org/web/20181021120756/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-22T11:59:59Z",
+        "uri": "http://wayback.archive-it.org/all/20181022115959/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-22T11:59:59Z",
+        "uri": "http://web.archive.org/web/20181022115959/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-23T06:28:53Z",
+        "uri": "http://web.archive.org/web/20181023062853/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-24T07:33:07Z",
+        "uri": "http://web.archive.org/web/20181024073307/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-24T12:26:33Z",
+        "uri": "http://wayback.archive-it.org/all/20181024122633/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-24T12:26:33Z",
+        "uri": "http://web.archive.org/web/20181024122633/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-24T18:29:35Z",
+        "uri": "http://web.archive.org/web/20181024182935/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-25T15:38:40Z",
+        "uri": "http://web.archive.org/web/20181025153840/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-26T12:05:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181026120512/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-26T12:05:12Z",
+        "uri": "http://web.archive.org/web/20181026120512/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-26T18:48:16Z",
+        "uri": "http://web.archive.org/web/20181026184816/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-27T12:13:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181027121305/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-27T12:13:05Z",
+        "uri": "http://web.archive.org/web/20181027121305/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-28T12:22:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181028122210/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-28T12:22:10Z",
+        "uri": "http://web.archive.org/web/20181028122210/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-28T16:41:51Z",
+        "uri": "http://web.archive.org/web/20181028164151/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-29T11:51:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181029115144/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-29T11:51:44Z",
+        "uri": "http://web.archive.org/web/20181029115144/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-29T17:42:50Z",
+        "uri": "http://web.archive.org/web/20181029174250/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-31T00:02:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181031000226/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-31T00:02:26Z",
+        "uri": "http://web.archive.org/web/20181031000226/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-31T12:22:35Z",
+        "uri": "http://wayback.archive-it.org/all/20181031122235/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-10-31T12:22:35Z",
+        "uri": "http://web.archive.org/web/20181031122235/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-01T10:49:11Z",
+        "uri": "http://wayback.archive-it.org/all/20181101104911/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-01T10:49:11Z",
+        "uri": "http://web.archive.org/web/20181101104911/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-01T11:24:50Z",
+        "uri": "http://wayback.archive-it.org/all/20181101112450/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-01T11:24:50Z",
+        "uri": "http://web.archive.org/web/20181101112450/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-02T11:50:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181102115018/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-02T11:50:18Z",
+        "uri": "http://web.archive.org/web/20181102115018/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-03T12:51:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181103125106/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-03T12:51:06Z",
+        "uri": "http://web.archive.org/web/20181103125106/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-04T14:27:02Z",
+        "uri": "http://wayback.archive-it.org/all/20181104142702/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-04T14:27:02Z",
+        "uri": "http://web.archive.org/web/20181104142702/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-04T21:56:48Z",
+        "uri": "http://web.archive.org/web/20181104215648/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-05T15:13:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181105151349/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-05T15:13:49Z",
+        "uri": "http://web.archive.org/web/20181105151349/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-06T13:01:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181106130104/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-06T13:01:04Z",
+        "uri": "http://web.archive.org/web/20181106130104/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-06T16:34:00Z",
+        "uri": "http://web.archive.org/web/20181106163400/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-07T12:06:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181107120652/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-07T12:06:52Z",
+        "uri": "http://web.archive.org/web/20181107120652/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-08T13:27:50Z",
+        "uri": "http://wayback.archive-it.org/all/20181108132750/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-08T13:27:50Z",
+        "uri": "http://web.archive.org/web/20181108132750/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-08T21:18:30Z",
+        "uri": "http://web.archive.org/web/20181108211830/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-11T03:06:07Z",
+        "uri": "http://wayback.archive-it.org/all/20181111030607/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-11T03:06:07Z",
+        "uri": "http://web.archive.org/web/20181111030607/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-11T12:54:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181111125404/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-12T21:35:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181112213525/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-12T21:35:25Z",
+        "uri": "http://web.archive.org/web/20181112213525/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-13T11:03:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181113110308/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-13T11:03:08Z",
+        "uri": "http://web.archive.org/web/20181113110308/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-11-19T07:21:21Z",
+        "uri": "http://web.archive.org/web/20181119072121/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-03T21:18:56Z",
+        "uri": "http://web.archive.org/web/20181203211856/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-09T10:13:39Z",
+        "uri": "http://web.archive.org/web/20181209101339/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-11T12:50:22Z",
+        "uri": "http://web.archive.org/web/20181211125022/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-12T12:40:09Z",
+        "uri": "http://web.archive.org/web/20181212124009/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-15T04:03:21Z",
+        "uri": "http://web.archive.org/web/20181215040321/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-15T15:19:23Z",
+        "uri": "http://web.archive.org/web/20181215151923/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-15T22:43:57Z",
+        "uri": "http://web.archive.org/web/20181215224357/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-16T06:42:40Z",
+        "uri": "http://archive.md/20181216064240/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-16T06:59:37Z",
+        "uri": "http://archive.md/20181216065937/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-16T15:46:32Z",
+        "uri": "http://web.archive.org/web/20181216154632/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-16T16:18:30Z",
+        "uri": "http://web.archive.org/web/20181216161830/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-17T14:15:26Z",
+        "uri": "http://web.archive.org/web/20181217141526/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-17T20:56:12Z",
+        "uri": "http://web.archive.org/web/20181217205612/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-18T23:20:11Z",
+        "uri": "http://web.archive.org/web/20181218232011/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-19T08:27:05Z",
+        "uri": "http://web.archive.org/web/20181219082705/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-20T03:06:27Z",
+        "uri": "http://web.archive.org/web/20181220030627/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-20T08:51:38Z",
+        "uri": "http://web.archive.org/web/20181220085138/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-20T23:28:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181220232814/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-20T23:28:14Z",
+        "uri": "http://web.archive.org/web/20181220232814/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-21T04:01:03Z",
+        "uri": "http://web.archive.org/web/20181221040103/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-21T07:02:44Z",
+        "uri": "http://web.archive.org/web/20181221070244/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-21T07:26:17Z",
+        "uri": "http://web.archive.org/web/20181221072617/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-21T16:56:07Z",
+        "uri": "http://web.archive.org/web/20181221165607/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-21T22:43:13Z",
+        "uri": "http://web.archive.org/web/20181221224313/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-22T05:43:27Z",
+        "uri": "http://web.archive.org/web/20181222054327/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-23T03:01:31Z",
+        "uri": "http://web.archive.org/web/20181223030131/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-23T23:55:13Z",
+        "uri": "http://web.archive.org/web/20181223235513/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-24T21:19:15Z",
+        "uri": "http://web.archive.org/web/20181224211915/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-26T02:20:10Z",
+        "uri": "http://web.archive.org/web/20181226022010/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-27T02:40:31Z",
+        "uri": "http://web.archive.org/web/20181227024031/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-27T21:43:12Z",
+        "uri": "http://web.archive.org/web/20181227214312/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-28T02:38:53Z",
+        "uri": "http://web.archive.org/web/20181228023853/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-29T02:31:42Z",
+        "uri": "http://web.archive.org/web/20181229023142/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-30T03:38:33Z",
+        "uri": "http://web.archive.org/web/20181230033833/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-31T03:03:50Z",
+        "uri": "http://web.archive.org/web/20181231030350/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2018-12-31T23:54:52Z",
+        "uri": "http://web.archive.org/web/20181231235452/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-01T05:40:40Z",
+        "uri": "http://web.archive.org/web/20190101054040/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-02T01:42:27Z",
+        "uri": "http://web.archive.org/web/20190102014227/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-02T21:13:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190102211353/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-02T21:13:53Z",
+        "uri": "http://web.archive.org/web/20190102211353/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-03T03:06:29Z",
+        "uri": "http://web.archive.org/web/20190103030629/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-04T00:21:57Z",
+        "uri": "http://web.archive.org/web/20190104002157/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-04T11:40:24Z",
+        "uri": "http://web.archive.org/web/20190104114024/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-05T18:09:27Z",
+        "uri": "http://web.archive.org/web/20190105180927/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-07T12:09:00Z",
+        "uri": "http://web.archive.org/web/20190107120900/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-08T11:01:47Z",
+        "uri": "http://web.archive.org/web/20190108110147/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-11T13:33:41Z",
+        "uri": "http://web.archive.org/web/20190111133341/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-14T00:29:44Z",
+        "uri": "http://web.archive.org/web/20190114002944/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-16T12:21:25Z",
+        "uri": "http://web.archive.org/web/20190116122125/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-18T09:27:14Z",
+        "uri": "http://web.archive.org/web/20190118092714/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-22T13:37:57Z",
+        "uri": "http://web.archive.org/web/20190122133757/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-23T21:01:11Z",
+        "uri": "http://web.archive.org/web/20190123210111/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-29T23:54:06Z",
+        "uri": "http://web.archive.org/web/20190129235406/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-30T16:09:33Z",
+        "uri": "http://web.archive.org/web/20190130160933/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-01-31T09:55:31Z",
+        "uri": "http://web.archive.org/web/20190131095531/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-02-03T02:51:53Z",
+        "uri": "http://web.archive.org/web/20190203025153/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-02-05T02:14:09Z",
+        "uri": "http://web.archive.org/web/20190205021409/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      },
+      {
+        "datetime": "2019-02-10T12:41:03Z",
+        "uri": "http://web.archive.org/web/20190210124103/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-17T05:42:37Z",
+      "uri": "http://web.archive.org/web/20180317054237/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T12:41:03Z",
+      "uri": "http://web.archive.org/web/20190210124103/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/interactive/2018/03/16/us/politics/all-the-major-firings-and-resignations-in-trump-administration.html"
+}

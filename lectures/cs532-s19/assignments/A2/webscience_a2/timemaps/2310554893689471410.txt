@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://time.com/5525960/trump-good-health-physical-exam/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://time.com/5525960/trump-good-health-physical-exam/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T18:47:51Z",
+        "uri": "http://web.archive.org/web/20190209184751/http://time.com/5525960/trump-good-health-physical-exam/"
+      },
+      {
+        "datetime": "2019-02-09T20:50:22Z",
+        "uri": "http://web.archive.org/web/20190209205022/http://time.com/5525960/trump-good-health-physical-exam/"
+      },
+      {
+        "datetime": "2019-02-09T21:09:40Z",
+        "uri": "http://web.archive.org/web/20190209210940/https://time.com/5525960/trump-good-health-physical-exam/"
+      },
+      {
+        "datetime": "2019-02-10T01:03:40Z",
+        "uri": "http://web.archive.org/web/20190210010340/http://time.com/5525960/trump-good-health-physical-exam/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T18:47:51Z",
+      "uri": "http://web.archive.org/web/20190209184751/http://time.com/5525960/trump-good-health-physical-exam/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:03:40Z",
+      "uri": "http://web.archive.org/web/20190210010340/http://time.com/5525960/trump-good-health-physical-exam/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://time.com/5525960/trump-good-health-physical-exam/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://time.com/5525960/trump-good-health-physical-exam/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://time.com/5525960/trump-good-health-physical-exam/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://time.com/5525960/trump-good-health-physical-exam/"
+}

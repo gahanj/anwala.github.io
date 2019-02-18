@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.bezosdayonefund.org/day1familiesfund",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bezosdayonefund.org/day1familiesfund",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-20T14:14:34Z",
+        "uri": "http://archive.md/20181120141434/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2018-11-20T14:16:57Z",
+        "uri": "http://web.archive.org/web/20181120141657/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2018-11-20T14:32:04Z",
+        "uri": "http://web.archive.org/web/20181120143204/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2018-11-20T14:47:38Z",
+        "uri": "http://web.archive.org/web/20181120144738/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2018-11-21T07:41:53Z",
+        "uri": "http://web.archive.org/web/20181121074153/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2018-11-21T16:43:16Z",
+        "uri": "http://web.archive.org/web/20181121164316/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2018-11-22T23:34:12Z",
+        "uri": "http://web.archive.org/web/20181122233412/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2019-01-07T05:23:02Z",
+        "uri": "http://web.archive.org/web/20190107052302/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2019-02-02T20:52:18Z",
+        "uri": "http://web.archive.org/web/20190202205218/https://www.bezosdayonefund.org/day1familiesfund"
+      },
+      {
+        "datetime": "2019-02-07T15:24:53Z",
+        "uri": "http://web.archive.org/web/20190207152453/https://www.bezosdayonefund.org/day1familiesfund"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-20T14:14:34Z",
+      "uri": "http://archive.md/20181120141434/https://www.bezosdayonefund.org/day1familiesfund"
+    },
+    "last": {
+      "datetime": "2019-02-07T15:24:53Z",
+      "uri": "http://web.archive.org/web/20190207152453/https://www.bezosdayonefund.org/day1familiesfund"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bezosdayonefund.org/day1familiesfund",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bezosdayonefund.org/day1familiesfund",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bezosdayonefund.org/day1familiesfund"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bezosdayonefund.org/day1familiesfund"
+}

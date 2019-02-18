@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T06:05:13Z",
+        "uri": "http://web.archive.org/web/20190210060513/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html"
+      },
+      {
+        "datetime": "2019-02-10T06:20:34Z",
+        "uri": "http://web.archive.org/web/20190210062034/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T06:05:13Z",
+      "uri": "http://web.archive.org/web/20190210060513/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:20:34Z",
+      "uri": "http://web.archive.org/web/20190210062034/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://elpais.com/internacional/2019/02/08/estados_unidos/1549653678_035288.html"
+}

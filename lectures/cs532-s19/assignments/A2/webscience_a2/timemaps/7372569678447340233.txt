@@ -1,0 +1,102 @@
+{
+  "original_uri": "http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-09-16T04:18:58Z",
+        "uri": "http://web.archive.org/web/20150916041858/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2016-06-01T02:52:50Z",
+        "uri": "http://web.archive.org/web/20160601025250/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2016-08-04T04:10:02Z",
+        "uri": "http://web.archive.org/web/20160804041002/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2016-11-11T17:51:22Z",
+        "uri": "http://web.archive.org/web/20161111175122/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-01-13T18:15:14Z",
+        "uri": "http://web.archive.org/web/20170113181514/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-05-18T01:54:01Z",
+        "uri": "http://web.archive.org/web/20170518015401/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-05-18T01:54:03Z",
+        "uri": "http://web.archive.org/web/20170518015403/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-09-04T19:22:29Z",
+        "uri": "http://web.archive.org/web/20170904192229/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-09-06T10:02:22Z",
+        "uri": "http://web.archive.org/web/20170906100222/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-10-08T07:27:03Z",
+        "uri": "http://web.archive.org/web/20171008072703/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2017-12-21T10:25:34Z",
+        "uri": "http://web.archive.org/web/20171221102534/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-01-24T12:50:13Z",
+        "uri": "http://web.archive.org/web/20180124125013/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-02-03T02:11:16Z",
+        "uri": "http://archive.md/20180203021116/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-02-26T11:46:39Z",
+        "uri": "http://web.archive.org/web/20180226114639/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-03-31T15:14:37Z",
+        "uri": "http://web.archive.org/web/20180331151437/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-05-15T18:12:34Z",
+        "uri": "http://wayback.archive-it.org/all/20180515181234/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-05-15T18:12:34Z",
+        "uri": "http://web.archive.org/web/20180515181234/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2018-07-04T11:10:53Z",
+        "uri": "http://web.archive.org/web/20180704111053/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2019-01-05T05:20:50Z",
+        "uri": "http://web.archive.org/web/20190105052050/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      },
+      {
+        "datetime": "2019-01-05T15:42:13Z",
+        "uri": "http://web.archive.org/web/20190105154213/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+      }
+    ],
+    "first": {
+      "datetime": "2015-09-16T04:18:58Z",
+      "uri": "http://web.archive.org/web/20150916041858/http://richardkoshimizu.hatenablog.com:80/entry/20150815/1439569991"
+    },
+    "last": {
+      "datetime": "2019-01-05T15:42:13Z",
+      "uri": "http://web.archive.org/web/20190105154213/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://richardkoshimizu.hatenablog.com/entry/20150815/1439569991"
+}

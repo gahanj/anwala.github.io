@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-03T20:11:44Z",
+        "uri": "http://web.archive.org/web/20181203201144/http://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+      },
+      {
+        "datetime": "2018-12-04T13:33:37Z",
+        "uri": "http://web.archive.org/web/20181204133337/http://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+      },
+      {
+        "datetime": "2018-12-04T15:49:06Z",
+        "uri": "http://web.archive.org/web/20181204154906/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-03T20:11:44Z",
+      "uri": "http://web.archive.org/web/20181203201144/http://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+    },
+    "last": {
+      "datetime": "2018-12-04T15:49:06Z",
+      "uri": "http://web.archive.org/web/20181204154906/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.europe1.fr/emissions/vincent-hervouet-vous-parle-international/mobilisation-des-gilets-jaunes-quel-est-limpact-diplomatique-du-mouvement-a-letranger-3812609"
+}

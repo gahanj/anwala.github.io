@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-24T13:21:14Z",
+        "uri": "http://web.archive.org/web/20190124132114/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/"
+      },
+      {
+        "datetime": "2019-02-03T10:55:28Z",
+        "uri": "http://web.archive.org/web/20190203105528/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-24T13:21:14Z",
+      "uri": "http://web.archive.org/web/20190124132114/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/"
+    },
+    "last": {
+      "datetime": "2019-02-03T10:55:28Z",
+      "uri": "http://web.archive.org/web/20190203105528/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.arte.tv/de/videos/084760-000-A/trump-und-der-staatsstreich-der-konzerne/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:51:38Z",
+        "uri": "http://web.archive.org/web/20190210005138/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/"
+      },
+      {
+        "datetime": "2019-02-10T17:13:52Z",
+        "uri": "http://archive.md/20190210171352/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:51:38Z",
+      "uri": "http://web.archive.org/web/20190210005138/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:13:52Z",
+      "uri": "http://archive.md/20190210171352/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politifact.com/truth-o-meter/statements/2019/feb/08/donald-trump/no-border-barrier-did-not-drive-down-crime-el-paso/"
+}

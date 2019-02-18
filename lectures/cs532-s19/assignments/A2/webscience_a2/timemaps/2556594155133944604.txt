@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T15:24:28Z",
+        "uri": "http://web.archive.org/web/20190209152428/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+      },
+      {
+        "datetime": "2019-02-09T22:02:14Z",
+        "uri": "http://web.archive.org/web/20190209220214/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+      },
+      {
+        "datetime": "2019-02-09T23:58:19Z",
+        "uri": "http://web.archive.org/web/20190209235819/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+      },
+      {
+        "datetime": "2019-02-10T05:49:38Z",
+        "uri": "http://web.archive.org/web/20190210054938/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T15:24:28Z",
+      "uri": "http://web.archive.org/web/20190209152428/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:49:38Z",
+      "uri": "http://web.archive.org/web/20190210054938/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/new-evidence-possible-wrongdoing-trump-inaugural-committee_us_5c5edc8ce4b0eec79b23cf83"
+}

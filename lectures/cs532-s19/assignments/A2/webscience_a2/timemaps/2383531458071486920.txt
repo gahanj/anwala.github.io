@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T16:35:10Z",
+        "uri": "http://web.archive.org/web/20190209163510/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+      },
+      {
+        "datetime": "2019-02-09T20:08:57Z",
+        "uri": "http://web.archive.org/web/20190209200857/http://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+      },
+      {
+        "datetime": "2019-02-10T01:28:23Z",
+        "uri": "http://web.archive.org/web/20190210012823/http://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+      },
+      {
+        "datetime": "2019-02-10T01:28:24Z",
+        "uri": "http://web.archive.org/web/20190210012824/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T16:35:10Z",
+      "uri": "http://web.archive.org/web/20190209163510/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:28:24Z",
+      "uri": "http://web.archive.org/web/20190210012824/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.repubblica.it/economia/rubriche/eurobarometro/2019/02/08/news/dazi_commercio_trump-218647305/"
+}

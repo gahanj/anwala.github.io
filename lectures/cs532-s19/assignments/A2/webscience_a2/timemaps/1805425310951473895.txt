@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T14:26:20Z",
+        "uri": "http://web.archive.org/web/20190206142620/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-06T15:57:51Z",
+        "uri": "http://web.archive.org/web/20190206155751/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-06T22:06:20Z",
+        "uri": "http://web.archive.org/web/20190206220620/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-06T22:52:21Z",
+        "uri": "http://web.archive.org/web/20190206225221/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-07T13:06:48Z",
+        "uri": "http://web.archive.org/web/20190207130648/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-08T02:12:32Z",
+        "uri": "http://web.archive.org/web/20190208021232/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-08T02:24:54Z",
+        "uri": "http://web.archive.org/web/20190208022454/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-09T02:16:06Z",
+        "uri": "http://web.archive.org/web/20190209021606/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      },
+      {
+        "datetime": "2019-02-09T02:37:06Z",
+        "uri": "http://web.archive.org/web/20190209023706/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T14:26:20Z",
+      "uri": "http://web.archive.org/web/20190206142620/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+    },
+    "last": {
+      "datetime": "2019-02-09T02:37:06Z",
+      "uri": "http://web.archive.org/web/20190209023706/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/environment/2019/feb/06/trump-state-of-the-union-climate-change"
+}

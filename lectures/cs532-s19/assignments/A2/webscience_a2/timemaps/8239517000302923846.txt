@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-16T19:27:45Z",
+        "uri": "http://web.archive.org/web/20190116192745/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump"
+      },
+      {
+        "datetime": "2019-02-05T02:27:08Z",
+        "uri": "http://web.archive.org/web/20190205022708/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-16T19:27:45Z",
+      "uri": "http://web.archive.org/web/20190116192745/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump"
+    },
+    "last": {
+      "datetime": "2019-02-05T02:27:08Z",
+      "uri": "http://web.archive.org/web/20190205022708/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vox.com/2019/1/16/18184442/poll-shutdown-border-wall-trump"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T16:04:00Z",
+        "uri": "http://web.archive.org/web/20190210160400/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T16:04:00Z",
+      "uri": "http://web.archive.org/web/20190210160400/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:04:00Z",
+      "uri": "http://web.archive.org/web/20190210160400/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/videos/politics/2019/02/10/cross-exam-elie-honig-mueller-nr-vpx.cnn"
+}

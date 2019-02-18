@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T05:03:25Z",
+        "uri": "http://web.archive.org/web/20190210050325/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T05:03:25Z",
+      "uri": "http://web.archive.org/web/20190210050325/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:03:25Z",
+      "uri": "http://web.archive.org/web/20190210050325/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.axios.com/2020-presidential-campaign-trump-tweets-elizabeth-warren-2e9e3a4c-e239-4028-9541-d5194e826ef2.html"
+}

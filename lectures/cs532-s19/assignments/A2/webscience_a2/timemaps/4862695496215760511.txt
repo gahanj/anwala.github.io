@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T15:41:24Z",
+        "uri": "http://web.archive.org/web/20190206154124/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      },
+      {
+        "datetime": "2019-02-06T17:03:21Z",
+        "uri": "http://web.archive.org/web/20190206170321/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      },
+      {
+        "datetime": "2019-02-06T22:49:48Z",
+        "uri": "http://web.archive.org/web/20190206224948/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      },
+      {
+        "datetime": "2019-02-07T18:41:56Z",
+        "uri": "http://web.archive.org/web/20190207184156/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      },
+      {
+        "datetime": "2019-02-08T06:30:13Z",
+        "uri": "http://web.archive.org/web/20190208063013/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      },
+      {
+        "datetime": "2019-02-08T22:24:51Z",
+        "uri": "http://web.archive.org/web/20190208222451/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      },
+      {
+        "datetime": "2019-02-10T00:12:41Z",
+        "uri": "http://web.archive.org/web/20190210001241/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T15:41:24Z",
+      "uri": "http://web.archive.org/web/20190206154124/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:12:41Z",
+      "uri": "http://web.archive.org/web/20190210001241/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/05/health/drug-prices-rebates-sotu.html"
+}

@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-01T21:48:55Z",
+        "uri": "http://web.archive.org/web/20190201214855/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+      },
+      {
+        "datetime": "2019-02-01T21:48:58Z",
+        "uri": "http://web.archive.org/web/20190201214858/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+      },
+      {
+        "datetime": "2019-02-01T22:06:06Z",
+        "uri": "http://web.archive.org/web/20190201220606/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+      },
+      {
+        "datetime": "2019-02-02T11:39:18Z",
+        "uri": "http://web.archive.org/web/20190202113918/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+      },
+      {
+        "datetime": "2019-02-03T00:58:50Z",
+        "uri": "http://web.archive.org/web/20190203005850/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+      },
+      {
+        "datetime": "2019-02-06T13:22:30Z",
+        "uri": "http://web.archive.org/web/20190206132230/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-01T21:48:55Z",
+      "uri": "http://web.archive.org/web/20190201214855/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+    },
+    "last": {
+      "datetime": "2019-02-06T13:22:30Z",
+      "uri": "http://web.archive.org/web/20190206132230/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/01/donald-trump-time-start-coming-home-endless-wars/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T01:24:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190207012432/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse"
+      },
+      {
+        "datetime": "2019-02-07T01:24:32Z",
+        "uri": "http://web.archive.org/web/20190207012432/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T01:24:32Z",
+      "uri": "http://wayback.archive-it.org/all/20190207012432/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse"
+    },
+    "last": {
+      "datetime": "2019-02-07T01:24:32Z",
+      "uri": "http://web.archive.org/web/20190207012432/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thedailybeast.com/trump-promised-to-end-aids-a-day-later-may-have-made-the-crisis-worse"
+}

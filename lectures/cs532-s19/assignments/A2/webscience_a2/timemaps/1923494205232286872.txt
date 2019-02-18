@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:08:08Z",
+        "uri": "http://web.archive.org/web/20190210000808/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:13:41Z",
+        "uri": "http://web.archive.org/web/20190210001341/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-10T05:19:32Z",
+        "uri": "http://web.archive.org/web/20190210051932/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:08:08Z",
+      "uri": "http://web.archive.org/web/20190210000808/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:19:32Z",
+      "uri": "http://web.archive.org/web/20190210051932/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://us.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+}

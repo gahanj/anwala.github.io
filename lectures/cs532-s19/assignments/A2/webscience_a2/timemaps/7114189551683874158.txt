@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://AMERICAFORWALL.COM",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://AMERICAFORWALL.COM",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T02:01:44Z",
+        "uri": "http://web.archive.org/web/20190207020144/http://www.americaforwall.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T02:01:44Z",
+      "uri": "http://web.archive.org/web/20190207020144/http://www.americaforwall.com/"
+    },
+    "last": {
+      "datetime": "2019-02-07T02:01:44Z",
+      "uri": "http://web.archive.org/web/20190207020144/http://www.americaforwall.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://AMERICAFORWALL.COM",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://AMERICAFORWALL.COM",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://AMERICAFORWALL.COM"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://AMERICAFORWALL.COM"
+}

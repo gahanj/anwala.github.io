@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://c3metrics.com/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://c3metrics.com/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-07-10T04:10:04Z",
+        "uri": "http://web.archive.org/web/20160710041004/http://c3metrics.com:80/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/"
+      },
+      {
+        "datetime": "2016-07-11T05:13:05Z",
+        "uri": "http://web.archive.org/web/20160711051305/http://c3metrics.com:80/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-07-10T04:10:04Z",
+      "uri": "http://web.archive.org/web/20160710041004/http://c3metrics.com:80/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/"
+    },
+    "last": {
+      "datetime": "2016-07-11T05:13:05Z",
+      "uri": "http://web.archive.org/web/20160711051305/http://c3metrics.com:80/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://c3metrics.com/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://c3metrics.com/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://c3metrics.com/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://c3metrics.com/meet-australias-anti-trump-campaign-that-was-deemed-too-risky/"
+}

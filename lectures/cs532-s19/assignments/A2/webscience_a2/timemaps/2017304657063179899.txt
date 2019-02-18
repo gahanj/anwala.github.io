@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.turismo-global.com/p/noticias-de-turismo-global.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.turismo-global.com/p/noticias-de-turismo-global.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-09-04T09:04:41Z",
+        "uri": "http://web.archive.org/web/20170904090441/http://www.turismo-global.com/p/noticias-de-turismo-global.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-09-04T09:04:41Z",
+      "uri": "http://web.archive.org/web/20170904090441/http://www.turismo-global.com/p/noticias-de-turismo-global.html"
+    },
+    "last": {
+      "datetime": "2017-09-04T09:04:41Z",
+      "uri": "http://web.archive.org/web/20170904090441/http://www.turismo-global.com/p/noticias-de-turismo-global.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.turismo-global.com/p/noticias-de-turismo-global.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.turismo-global.com/p/noticias-de-turismo-global.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.turismo-global.com/p/noticias-de-turismo-global.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.turismo-global.com/p/noticias-de-turismo-global.html"
+}

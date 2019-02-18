@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:30:06Z",
+        "uri": "http://web.archive.org/web/20190208183006/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:30:06Z",
+      "uri": "http://web.archive.org/web/20190208183006/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/"
+    },
+    "last": {
+      "datetime": "2019-02-08T18:30:06Z",
+      "uri": "http://web.archive.org/web/20190208183006/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.newscast-pratyaksha.com/english/china-threatens-taiwan-air-attacks/"
+}

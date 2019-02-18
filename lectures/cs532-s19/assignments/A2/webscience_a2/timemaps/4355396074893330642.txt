@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T23:40:28Z",
+        "uri": "http://archive.md/20190207234028/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/"
+      },
+      {
+        "datetime": "2019-02-08T00:23:14Z",
+        "uri": "http://web.archive.org/web/20190208002314/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T23:40:28Z",
+      "uri": "http://archive.md/20190207234028/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/"
+    },
+    "last": {
+      "datetime": "2019-02-08T00:23:14Z",
+      "uri": "http://web.archive.org/web/20190208002314/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://freebeacon.com/blog/jewish-model-harassed-after-coming-out-as-trump-supporter/"
+}

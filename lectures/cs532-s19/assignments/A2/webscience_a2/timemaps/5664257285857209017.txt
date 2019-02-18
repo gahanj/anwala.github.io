@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T07:52:02Z",
+        "uri": "http://web.archive.org/web/20190210075202/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580"
+      },
+      {
+        "datetime": "2019-02-10T08:02:52Z",
+        "uri": "http://web.archive.org/web/20190210080252/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T07:52:02Z",
+      "uri": "http://web.archive.org/web/20190210075202/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580"
+    },
+    "last": {
+      "datetime": "2019-02-10T08:02:52Z",
+      "uri": "http://web.archive.org/web/20190210080252/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ozy.com/opinion/donald-dossier-trump-vs-bezos/92580"
+}

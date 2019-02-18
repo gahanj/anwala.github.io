@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-15T13:38:43Z",
+        "uri": "http://archive.md/20190115133843/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+      },
+      {
+        "datetime": "2019-01-15T17:40:42Z",
+        "uri": "http://web.archive.org/web/20190115174042/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+      },
+      {
+        "datetime": "2019-02-03T12:14:31Z",
+        "uri": "http://web.archive.org/web/20190203121431/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-15T13:38:43Z",
+      "uri": "http://archive.md/20190115133843/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+    },
+    "last": {
+      "datetime": "2019-02-03T12:14:31Z",
+      "uri": "http://web.archive.org/web/20190203121431/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/01/15/trump-volkswagen-tennessee-1100141"
+}

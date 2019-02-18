@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:22:35Z",
+        "uri": "http://web.archive.org/web/20190209082235/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan"
+      },
+      {
+        "datetime": "2019-02-10T01:07:15Z",
+        "uri": "http://web.archive.org/web/20190210010715/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:22:35Z",
+      "uri": "http://web.archive.org/web/20190209082235/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:07:15Z",
+      "uri": "http://web.archive.org/web/20190210010715/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.newyorker.com/news/news-desk/the-historical-precedents-of-the-current-uprising-in-sudan"
+}

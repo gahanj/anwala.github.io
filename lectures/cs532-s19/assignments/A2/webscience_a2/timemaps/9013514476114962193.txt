@@ -1,0 +1,546 @@
+{
+  "original_uri": "http://fortune.com/2017/02/16/donald-trump-autism-vaccines/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-02-16T22:15:07Z",
+        "uri": "http://wayback.archive-it.org/all/20170216221507/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-16T22:15:07Z",
+        "uri": "http://web.archive.org/web/20170216221507/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-17T08:26:10Z",
+        "uri": "http://web.archive.org/web/20170217082610/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-17T09:54:05Z",
+        "uri": "http://web.archive.org/web/20170217095405/http://fortune.com/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-02-17T21:54:55Z",
+        "uri": "http://wayback.archive-it.org/all/20170217215455/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-17T21:54:55Z",
+        "uri": "http://web.archive.org/web/20170217215455/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-18T00:40:55Z",
+        "uri": "http://web.archive.org/web/20170218004055/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-20T03:18:09Z",
+        "uri": "http://wayback.archive-it.org/all/20170220031809/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-20T03:18:09Z",
+        "uri": "http://web.archive.org/web/20170220031809/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-20T04:52:43Z",
+        "uri": "http://wayback.archive-it.org/all/20170220045243/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-20T04:52:43Z",
+        "uri": "http://web.archive.org/web/20170220045243/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-20T15:51:23Z",
+        "uri": "http://web.archive.org/web/20170220155123/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-02-20T15:51:23Z",
+        "uri": "http://web.archive.org/web/20170220155123/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-03-08T18:57:36Z",
+        "uri": "http://wayback.archive-it.org/all/20170308185736/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-03-08T18:57:36Z",
+        "uri": "http://web.archive.org/web/20170308185736/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-04-07T04:25:52Z",
+        "uri": "http://web.archive.org/web/20170407042552/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-04-18T20:03:28Z",
+        "uri": "http://web.archive.org/web/20170418200328/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-04-23T01:30:06Z",
+        "uri": "http://web.archive.org/web/20170423013006/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-04-23T06:48:11Z",
+        "uri": "http://web.archive.org/web/20170423064811/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-04-24T03:20:01Z",
+        "uri": "http://web.archive.org/web/20170424032001/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-05-14T13:17:15Z",
+        "uri": "http://web.archive.org/web/20170514131715/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-05-14T13:35:33Z",
+        "uri": "http://web.archive.org/web/20170514133533/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-05-19T03:38:44Z",
+        "uri": "http://web.archive.org/web/20170519033844/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-05-22T22:31:25Z",
+        "uri": "http://web.archive.org/web/20170522223125/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-05-22T22:31:25Z",
+        "uri": "http://web.archive.org/web/20170522223125/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-06-18T23:25:36Z",
+        "uri": "http://web.archive.org/web/20170618232536/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-06-24T04:03:19Z",
+        "uri": "http://web.archive.org/web/20170624040319/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-06-24T04:03:19Z",
+        "uri": "http://web.archive.org/web/20170624040319/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-07-18T20:00:12Z",
+        "uri": "http://web.archive.org/web/20170718200012/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-07-27T00:16:08Z",
+        "uri": "http://web.archive.org/web/20170727001608/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-07-27T00:16:08Z",
+        "uri": "http://web.archive.org/web/20170727001608/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-07-28T15:35:55Z",
+        "uri": "http://wayback.archive-it.org/all/20170728153555/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-07-28T15:35:55Z",
+        "uri": "http://web.archive.org/web/20170728153555/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-08-18T21:29:54Z",
+        "uri": "http://web.archive.org/web/20170818212954/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-10-12T06:21:13Z",
+        "uri": "http://web.archive.org/web/20171012062113/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-10-19T11:19:43Z",
+        "uri": "http://web.archive.org/web/20171019111943/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-11-12T19:20:44Z",
+        "uri": "http://web.archive.org/web/20171112192044/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-11-12T19:20:44Z",
+        "uri": "http://web.archive.org/web/20171112192044/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-11-30T23:25:47Z",
+        "uri": "http://web.archive.org/web/20171130232547/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-11-30T23:25:47Z",
+        "uri": "http://web.archive.org/web/20171130232547/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2017-12-19T18:47:33Z",
+        "uri": "http://web.archive.org/web/20171219184733/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2017-12-23T06:27:38Z",
+        "uri": "http://web.archive.org/web/20171223062738/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-01-11T01:29:14Z",
+        "uri": "http://web.archive.org/web/20180111012914/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-01-18T02:10:52Z",
+        "uri": "http://web.archive.org/web/20180118021052/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-01-25T02:46:49Z",
+        "uri": "http://web.archive.org/web/20180125024649/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-01T03:17:44Z",
+        "uri": "http://web.archive.org/web/20180201031744/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-08T03:46:16Z",
+        "uri": "http://web.archive.org/web/20180208034616/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-08T07:01:27Z",
+        "uri": "http://web.archive.org/web/20180208070127/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-15T04:33:16Z",
+        "uri": "http://web.archive.org/web/20180215043316/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-22T04:54:02Z",
+        "uri": "http://web.archive.org/web/20180222045402/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-25T17:35:27Z",
+        "uri": "http://web.archive.org/web/20180225173527/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-25T23:05:15Z",
+        "uri": "http://web.archive.org/web/20180225230515/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-02-25T23:05:15Z",
+        "uri": "http://web.archive.org/web/20180225230515/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2018-03-01T05:07:51Z",
+        "uri": "http://web.archive.org/web/20180301050751/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-03-08T07:49:42Z",
+        "uri": "http://web.archive.org/web/20180308074942/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-04-26T10:27:02Z",
+        "uri": "http://web.archive.org/web/20180426102702/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-04-26T10:27:02Z",
+        "uri": "http://web.archive.org/web/20180426102702/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2018-04-28T19:05:24Z",
+        "uri": "http://web.archive.org/web/20180428190524/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-05T02:25:04Z",
+        "uri": "http://web.archive.org/web/20180505022504/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-14T02:18:07Z",
+        "uri": "http://web.archive.org/web/20180514021807/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-15T01:43:45Z",
+        "uri": "http://web.archive.org/web/20180515014345/https://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-15T02:34:56Z",
+        "uri": "http://web.archive.org/web/20180515023456/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-16T03:15:19Z",
+        "uri": "http://web.archive.org/web/20180516031519/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-17T03:20:34Z",
+        "uri": "http://web.archive.org/web/20180517032034/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-19T18:36:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180519183632/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-19T18:36:32Z",
+        "uri": "http://web.archive.org/web/20180519183632/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-21T18:49:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180521184954/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-21T18:49:54Z",
+        "uri": "http://web.archive.org/web/20180521184954/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-22T12:12:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180522121258/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-05-22T12:12:58Z",
+        "uri": "http://web.archive.org/web/20180522121258/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-27T18:32:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180627183215/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-27T18:32:15Z",
+        "uri": "http://web.archive.org/web/20180627183215/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-28T18:31:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180628183141/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-28T18:31:41Z",
+        "uri": "http://web.archive.org/web/20180628183141/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-28T23:09:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180628230903/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-28T23:09:03Z",
+        "uri": "http://web.archive.org/web/20180628230903/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-29T18:32:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180629183203/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-29T18:32:03Z",
+        "uri": "http://web.archive.org/web/20180629183203/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-29T23:08:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180629230813/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-29T23:08:13Z",
+        "uri": "http://web.archive.org/web/20180629230813/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-30T18:13:30Z",
+        "uri": "http://web.archive.org/web/20180630181330/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-30T18:13:30Z",
+        "uri": "http://web.archive.org/web/20180630181330/http://fortune.com:80/2017/02/16/donald-trump-autism-vaccines"
+      },
+      {
+        "datetime": "2018-06-30T18:32:14Z",
+        "uri": "http://wayback.archive-it.org/all/20180630183214/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-06-30T18:32:14Z",
+        "uri": "http://web.archive.org/web/20180630183214/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-01T18:31:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180701183157/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-01T18:31:57Z",
+        "uri": "http://web.archive.org/web/20180701183157/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-02T12:41:29Z",
+        "uri": "http://web.archive.org/web/20180702124129/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-02T23:18:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180702231818/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-02T23:18:18Z",
+        "uri": "http://web.archive.org/web/20180702231818/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-04T02:43:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180704024324/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-04T02:43:24Z",
+        "uri": "http://web.archive.org/web/20180704024324/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-04T23:44:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180704234425/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-04T23:44:25Z",
+        "uri": "http://web.archive.org/web/20180704234425/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-07T00:55:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180707005552/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-07T00:55:52Z",
+        "uri": "http://web.archive.org/web/20180707005552/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-07T20:10:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180707201007/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-07T20:10:07Z",
+        "uri": "http://web.archive.org/web/20180707201007/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-08T20:04:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180708200400/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-08T20:04:00Z",
+        "uri": "http://web.archive.org/web/20180708200400/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-09T20:06:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180709200653/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-09T20:06:53Z",
+        "uri": "http://web.archive.org/web/20180709200653/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-10T20:01:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180710200145/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-10T20:01:45Z",
+        "uri": "http://web.archive.org/web/20180710200145/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-11T19:57:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180711195730/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-11T19:57:30Z",
+        "uri": "http://web.archive.org/web/20180711195730/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-12T05:33:54Z",
+        "uri": "http://web.archive.org/web/20180712053354/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-12T19:54:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180712195435/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-12T19:54:35Z",
+        "uri": "http://web.archive.org/web/20180712195435/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-14T05:10:33Z",
+        "uri": "http://wayback.archive-it.org/all/20180714051033/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-14T05:10:33Z",
+        "uri": "http://web.archive.org/web/20180714051033/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-15T07:39:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180715073915/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-15T07:39:15Z",
+        "uri": "http://web.archive.org/web/20180715073915/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-16T01:58:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180716015806/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-16T01:58:06Z",
+        "uri": "http://web.archive.org/web/20180716015806/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-29T15:07:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180729150751/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-07-29T15:07:51Z",
+        "uri": "http://web.archive.org/web/20180729150751/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-08-09T04:13:18Z",
+        "uri": "http://archive.md/20180809041318/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-08-09T19:58:49Z",
+        "uri": "http://web.archive.org/web/20180809195849/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-09-05T07:35:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180905073500/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-09-05T07:35:00Z",
+        "uri": "http://web.archive.org/web/20180905073500/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-09-18T04:28:05Z",
+        "uri": "http://web.archive.org/web/20180918042805/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-11-21T00:22:02Z",
+        "uri": "http://wayback.archive-it.org/all/20181121002202/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-11-21T00:22:02Z",
+        "uri": "http://web.archive.org/web/20181121002202/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-12-14T09:08:05Z",
+        "uri": "http://web.archive.org/web/20181214090805/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-12-22T08:10:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181222081051/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2018-12-22T08:10:51Z",
+        "uri": "http://web.archive.org/web/20181222081051/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2019-01-02T16:37:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190102163732/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2019-01-02T16:37:32Z",
+        "uri": "http://web.archive.org/web/20190102163732/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2019-01-05T12:37:03Z",
+        "uri": "http://wayback.archive-it.org/all/20190105123703/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2019-01-05T12:37:03Z",
+        "uri": "http://web.archive.org/web/20190105123703/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      },
+      {
+        "datetime": "2019-01-26T01:30:11Z",
+        "uri": "http://web.archive.org/web/20190126013011/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-02-16T22:15:07Z",
+      "uri": "http://wayback.archive-it.org/all/20170216221507/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+    },
+    "last": {
+      "datetime": "2019-01-26T01:30:11Z",
+      "uri": "http://web.archive.org/web/20190126013011/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://fortune.com/2017/02/16/donald-trump-autism-vaccines/"
+}

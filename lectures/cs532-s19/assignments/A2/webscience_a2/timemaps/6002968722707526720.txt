@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T10:38:33Z",
+        "uri": "http://web.archive.org/web/20190206103833/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T10:38:33Z",
+      "uri": "http://web.archive.org/web/20190206103833/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/"
+    },
+    "last": {
+      "datetime": "2019-02-06T10:38:33Z",
+      "uri": "http://web.archive.org/web/20190206103833/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.newsy.com/stories/vietnam-hosts-trump-kim-talks-as-success-story-for-n-korea/"
+}

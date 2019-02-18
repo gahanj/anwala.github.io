@@ -1,0 +1,1950 @@
+{
+  "original_uri": "https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-07-30T22:04:21Z",
+        "uri": "http://wayback.archive-it.org/all/20160730220421/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-30T22:04:21Z",
+        "uri": "http://web.archive.org/web/20160730220421/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-30T22:25:22Z",
+        "uri": "http://web.archive.org/web/20160730222522/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-30T22:26:01Z",
+        "uri": "http://archive.md/20160730222601/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-30T22:27:22Z",
+        "uri": "http://web.archive.org/web/20160730222722/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-31T01:48:09Z",
+        "uri": "http://web.archive.org/web/20160731014809/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-31T01:48:09Z",
+        "uri": "http://web.archive.org/web/20160731014809/http://nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-31T03:46:14Z",
+        "uri": "http://wayback.archive-it.org/all/20160731034614/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-31T03:46:14Z",
+        "uri": "http://web.archive.org/web/20160731034614/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-31T14:38:16Z",
+        "uri": "http://web.archive.org/web/20160731143816/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-07-31T17:35:12Z",
+        "uri": "http://web.archive.org/web/20160731173512/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-02T07:25:46Z",
+        "uri": "http://web.archive.org/web/20160802072546/http://www.nytimes.com:80/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-02T07:26:16Z",
+        "uri": "http://web.archive.org/web/20160802072616/http://www.nytimes.com:80/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html?"
+      },
+      {
+        "datetime": "2016-08-07T05:34:42Z",
+        "uri": "http://wayback.archive-it.org/all/20160807053442/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-07T05:34:42Z",
+        "uri": "http://web.archive.org/web/20160807053442/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-09T08:06:06Z",
+        "uri": "http://wayback.archive-it.org/all/20160809080606/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-09T08:06:06Z",
+        "uri": "http://web.archive.org/web/20160809080606/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-10T08:07:45Z",
+        "uri": "http://wayback.archive-it.org/all/20160810080745/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-10T08:07:45Z",
+        "uri": "http://web.archive.org/web/20160810080745/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-11T08:25:12Z",
+        "uri": "http://wayback.archive-it.org/all/20160811082512/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-11T08:25:12Z",
+        "uri": "http://web.archive.org/web/20160811082512/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-11T17:32:32Z",
+        "uri": "http://wayback.archive-it.org/all/20160811173232/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-11T17:32:32Z",
+        "uri": "http://web.archive.org/web/20160811173232/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-12T04:46:51Z",
+        "uri": "http://web.archive.org/web/20160812044651/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-12T08:03:59Z",
+        "uri": "http://web.archive.org/web/20160812080359/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-12T08:34:20Z",
+        "uri": "http://wayback.archive-it.org/all/20160812083420/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-12T08:34:20Z",
+        "uri": "http://web.archive.org/web/20160812083420/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-12T17:33:23Z",
+        "uri": "http://wayback.archive-it.org/all/20160812173323/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-12T17:33:23Z",
+        "uri": "http://web.archive.org/web/20160812173323/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-14T05:16:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160814051610/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-14T05:16:10Z",
+        "uri": "http://web.archive.org/web/20160814051610/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-15T04:18:17Z",
+        "uri": "http://wayback.archive-it.org/all/20160815041817/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-15T04:18:17Z",
+        "uri": "http://web.archive.org/web/20160815041817/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-16T08:31:42Z",
+        "uri": "http://wayback.archive-it.org/all/20160816083142/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-16T08:31:42Z",
+        "uri": "http://web.archive.org/web/20160816083142/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-17T08:50:40Z",
+        "uri": "http://wayback.archive-it.org/all/20160817085040/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-17T08:50:40Z",
+        "uri": "http://web.archive.org/web/20160817085040/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-17T13:32:39Z",
+        "uri": "http://wayback.archive-it.org/all/20160817133239/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-17T13:32:39Z",
+        "uri": "http://web.archive.org/web/20160817133239/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-18T08:44:21Z",
+        "uri": "http://wayback.archive-it.org/all/20160818084421/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-18T08:44:21Z",
+        "uri": "http://web.archive.org/web/20160818084421/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-19T12:51:17Z",
+        "uri": "http://web.archive.org/web/20160819125117/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-20T08:13:40Z",
+        "uri": "http://wayback.archive-it.org/all/20160820081340/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-20T08:13:40Z",
+        "uri": "http://web.archive.org/web/20160820081340/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-21T08:15:26Z",
+        "uri": "http://wayback.archive-it.org/all/20160821081526/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-21T08:15:26Z",
+        "uri": "http://web.archive.org/web/20160821081526/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-23T08:13:53Z",
+        "uri": "http://wayback.archive-it.org/all/20160823081353/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-23T08:13:53Z",
+        "uri": "http://web.archive.org/web/20160823081353/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-24T08:42:38Z",
+        "uri": "http://wayback.archive-it.org/all/20160824084238/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-24T08:42:38Z",
+        "uri": "http://web.archive.org/web/20160824084238/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-25T20:47:55Z",
+        "uri": "http://wayback.archive-it.org/all/20160825204755/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-25T20:47:55Z",
+        "uri": "http://web.archive.org/web/20160825204755/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-26T08:18:40Z",
+        "uri": "http://wayback.archive-it.org/all/20160826081840/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-26T08:18:40Z",
+        "uri": "http://web.archive.org/web/20160826081840/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-27T08:47:41Z",
+        "uri": "http://wayback.archive-it.org/all/20160827084741/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-27T08:47:41Z",
+        "uri": "http://web.archive.org/web/20160827084741/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-28T08:15:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160828081510/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-28T08:15:10Z",
+        "uri": "http://web.archive.org/web/20160828081510/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-29T08:15:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160829081510/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-29T08:15:10Z",
+        "uri": "http://web.archive.org/web/20160829081510/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-30T08:26:35Z",
+        "uri": "http://wayback.archive-it.org/all/20160830082635/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-30T08:26:35Z",
+        "uri": "http://web.archive.org/web/20160830082635/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-31T08:14:06Z",
+        "uri": "http://wayback.archive-it.org/all/20160831081406/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-08-31T08:14:06Z",
+        "uri": "http://web.archive.org/web/20160831081406/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-01T08:35:56Z",
+        "uri": "http://wayback.archive-it.org/all/20160901083556/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-01T08:35:56Z",
+        "uri": "http://web.archive.org/web/20160901083556/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-02T08:21:56Z",
+        "uri": "http://wayback.archive-it.org/all/20160902082156/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-02T08:21:56Z",
+        "uri": "http://web.archive.org/web/20160902082156/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-03T08:29:40Z",
+        "uri": "http://wayback.archive-it.org/all/20160903082940/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-03T08:29:40Z",
+        "uri": "http://web.archive.org/web/20160903082940/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-04T08:18:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160904081810/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-04T08:18:10Z",
+        "uri": "http://web.archive.org/web/20160904081810/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-05T17:24:24Z",
+        "uri": "http://wayback.archive-it.org/all/20160905172424/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-05T17:24:24Z",
+        "uri": "http://web.archive.org/web/20160905172424/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-06T08:32:32Z",
+        "uri": "http://wayback.archive-it.org/all/20160906083232/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-06T08:32:32Z",
+        "uri": "http://web.archive.org/web/20160906083232/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-07T10:06:30Z",
+        "uri": "http://web.archive.org/web/20160907100630/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-07T12:45:13Z",
+        "uri": "http://wayback.archive-it.org/all/20160907124513/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-07T12:45:13Z",
+        "uri": "http://web.archive.org/web/20160907124513/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-08T08:25:55Z",
+        "uri": "http://wayback.archive-it.org/all/20160908082555/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-08T08:25:55Z",
+        "uri": "http://web.archive.org/web/20160908082555/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-09T07:51:49Z",
+        "uri": "http://web.archive.org/web/20160909075149/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-10T08:52:52Z",
+        "uri": "http://wayback.archive-it.org/all/20160910085252/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-10T08:52:52Z",
+        "uri": "http://web.archive.org/web/20160910085252/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-11T08:45:06Z",
+        "uri": "http://wayback.archive-it.org/all/20160911084506/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-11T08:45:06Z",
+        "uri": "http://web.archive.org/web/20160911084506/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-12T08:45:32Z",
+        "uri": "http://wayback.archive-it.org/all/20160912084532/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-12T08:45:32Z",
+        "uri": "http://web.archive.org/web/20160912084532/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-13T08:31:31Z",
+        "uri": "http://wayback.archive-it.org/all/20160913083131/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-13T08:31:31Z",
+        "uri": "http://web.archive.org/web/20160913083131/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-13T08:50:51Z",
+        "uri": "http://web.archive.org/web/20160913085051/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-14T08:41:15Z",
+        "uri": "http://wayback.archive-it.org/all/20160914084115/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-14T08:41:15Z",
+        "uri": "http://web.archive.org/web/20160914084115/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-15T08:59:09Z",
+        "uri": "http://wayback.archive-it.org/all/20160915085909/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-15T08:59:09Z",
+        "uri": "http://web.archive.org/web/20160915085909/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-16T06:19:17Z",
+        "uri": "http://web.archive.org/web/20160916061917/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-16T06:38:48Z",
+        "uri": "http://web.archive.org/web/20160916063848/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-16T08:49:05Z",
+        "uri": "http://wayback.archive-it.org/all/20160916084905/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-16T08:49:05Z",
+        "uri": "http://web.archive.org/web/20160916084905/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-17T08:05:18Z",
+        "uri": "http://wayback.archive-it.org/all/20160917080518/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-17T08:05:18Z",
+        "uri": "http://web.archive.org/web/20160917080518/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-17T09:13:14Z",
+        "uri": "http://wayback.archive-it.org/all/20160917091314/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-17T09:13:14Z",
+        "uri": "http://web.archive.org/web/20160917091314/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-17T11:10:16Z",
+        "uri": "http://wayback.archive-it.org/all/20160917111016/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-17T11:10:16Z",
+        "uri": "http://web.archive.org/web/20160917111016/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-18T08:16:26Z",
+        "uri": "http://wayback.archive-it.org/all/20160918081626/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-18T08:16:26Z",
+        "uri": "http://web.archive.org/web/20160918081626/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-18T08:52:57Z",
+        "uri": "http://wayback.archive-it.org/all/20160918085257/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-18T08:52:57Z",
+        "uri": "http://web.archive.org/web/20160918085257/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-18T19:30:07Z",
+        "uri": "http://web.archive.org/web/20160918193007/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-19T08:08:27Z",
+        "uri": "http://wayback.archive-it.org/all/20160919080827/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-19T08:08:27Z",
+        "uri": "http://web.archive.org/web/20160919080827/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-19T08:22:59Z",
+        "uri": "http://wayback.archive-it.org/all/20160919082259/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-19T08:22:59Z",
+        "uri": "http://web.archive.org/web/20160919082259/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-20T08:26:14Z",
+        "uri": "http://wayback.archive-it.org/all/20160920082614/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-20T08:26:14Z",
+        "uri": "http://web.archive.org/web/20160920082614/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-21T08:48:37Z",
+        "uri": "http://wayback.archive-it.org/all/20160921084837/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-21T08:48:37Z",
+        "uri": "http://web.archive.org/web/20160921084837/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-22T08:57:17Z",
+        "uri": "http://wayback.archive-it.org/all/20160922085717/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-22T08:57:17Z",
+        "uri": "http://web.archive.org/web/20160922085717/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-22T18:20:44Z",
+        "uri": "http://web.archive.org/web/20160922182044/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-23T08:11:12Z",
+        "uri": "http://wayback.archive-it.org/all/20160923081112/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-23T08:11:12Z",
+        "uri": "http://web.archive.org/web/20160923081112/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-23T08:32:51Z",
+        "uri": "http://wayback.archive-it.org/all/20160923083251/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-23T08:32:51Z",
+        "uri": "http://web.archive.org/web/20160923083251/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-24T08:11:19Z",
+        "uri": "http://wayback.archive-it.org/all/20160924081119/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-24T08:11:19Z",
+        "uri": "http://web.archive.org/web/20160924081119/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-24T08:26:56Z",
+        "uri": "http://wayback.archive-it.org/all/20160924082656/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-24T08:26:56Z",
+        "uri": "http://web.archive.org/web/20160924082656/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-25T08:08:48Z",
+        "uri": "http://wayback.archive-it.org/all/20160925080848/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-25T08:08:48Z",
+        "uri": "http://web.archive.org/web/20160925080848/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-25T08:32:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160925083210/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-25T08:32:10Z",
+        "uri": "http://web.archive.org/web/20160925083210/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-26T08:19:07Z",
+        "uri": "http://wayback.archive-it.org/all/20160926081907/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-26T08:19:07Z",
+        "uri": "http://web.archive.org/web/20160926081907/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-26T21:41:11Z",
+        "uri": "http://web.archive.org/web/20160926214111/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-27T08:21:16Z",
+        "uri": "http://wayback.archive-it.org/all/20160927082116/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-27T08:21:16Z",
+        "uri": "http://web.archive.org/web/20160927082116/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-28T08:25:55Z",
+        "uri": "http://wayback.archive-it.org/all/20160928082555/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-28T08:25:55Z",
+        "uri": "http://web.archive.org/web/20160928082555/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-28T15:57:07Z",
+        "uri": "http://web.archive.org/web/20160928155707/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-30T08:37:33Z",
+        "uri": "http://wayback.archive-it.org/all/20160930083733/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-09-30T08:37:33Z",
+        "uri": "http://web.archive.org/web/20160930083733/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-03T05:39:06Z",
+        "uri": "http://web.archive.org/web/20161003053906/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-07T08:12:25Z",
+        "uri": "http://wayback.archive-it.org/all/20161007081225/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-07T08:12:25Z",
+        "uri": "http://web.archive.org/web/20161007081225/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-09T00:31:21Z",
+        "uri": "http://web.archive.org/web/20161009003121/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-10T12:42:40Z",
+        "uri": "http://web.archive.org/web/20161010124240/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-10T22:28:29Z",
+        "uri": "http://web.archive.org/web/20161010222829/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-17T04:12:59Z",
+        "uri": "http://web.archive.org/web/20161017041259/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-17T15:23:37Z",
+        "uri": "http://wayback.archive-it.org/all/20161017152337/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-17T15:23:37Z",
+        "uri": "http://web.archive.org/web/20161017152337/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-17T23:12:07Z",
+        "uri": "http://web.archive.org/web/20161017231207/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-18T05:27:11Z",
+        "uri": "http://web.archive.org/web/20161018052711/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-18T07:55:57Z",
+        "uri": "http://web.archive.org/web/20161018075557/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-19T01:37:17Z",
+        "uri": "http://wayback.archive-it.org/all/20161019013717/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-19T01:37:17Z",
+        "uri": "http://web.archive.org/web/20161019013717/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-10-31T05:25:25Z",
+        "uri": "http://web.archive.org/web/20161031052525/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-03T08:09:35Z",
+        "uri": "http://wayback.archive-it.org/all/20161103080935/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-03T08:09:35Z",
+        "uri": "http://web.archive.org/web/20161103080935/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-04T08:25:47Z",
+        "uri": "http://wayback.archive-it.org/all/20161104082547/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-04T08:25:47Z",
+        "uri": "http://web.archive.org/web/20161104082547/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-05T08:08:33Z",
+        "uri": "http://wayback.archive-it.org/all/20161105080833/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-05T08:08:33Z",
+        "uri": "http://web.archive.org/web/20161105080833/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-06T00:15:45Z",
+        "uri": "http://web.archive.org/web/20161106001545/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-06T08:21:26Z",
+        "uri": "http://wayback.archive-it.org/all/20161106082126/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-06T08:21:26Z",
+        "uri": "http://web.archive.org/web/20161106082126/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-07T08:44:08Z",
+        "uri": "http://wayback.archive-it.org/all/20161107084408/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-07T08:44:08Z",
+        "uri": "http://web.archive.org/web/20161107084408/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-08T04:06:32Z",
+        "uri": "http://web.archive.org/web/20161108040632/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-08T04:07:49Z",
+        "uri": "http://web.archive.org/web/20161108040749/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-08T07:04:09Z",
+        "uri": "http://web.archive.org/web/20161108070409/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-09T21:28:32Z",
+        "uri": "http://web.archive.org/web/20161109212832/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-10T07:09:14Z",
+        "uri": "http://web.archive.org/web/20161110070914/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-11T21:40:23Z",
+        "uri": "http://web.archive.org/web/20161111214023/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-12T01:17:36Z",
+        "uri": "http://web.archive.org/web/20161112011736/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-12T04:04:34Z",
+        "uri": "http://web.archive.org/web/20161112040434/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-13T01:59:18Z",
+        "uri": "http://web.archive.org/web/20161113015918/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-13T04:56:00Z",
+        "uri": "http://web.archive.org/web/20161113045600/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-14T04:53:38Z",
+        "uri": "http://web.archive.org/web/20161114045338/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-15T05:15:17Z",
+        "uri": "http://web.archive.org/web/20161115051517/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-15T17:56:20Z",
+        "uri": "http://web.archive.org/web/20161115175620/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-16T00:20:51Z",
+        "uri": "http://web.archive.org/web/20161116002051/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-16T07:29:37Z",
+        "uri": "http://wayback.archive-it.org/all/20161116072937/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-16T07:29:37Z",
+        "uri": "http://web.archive.org/web/20161116072937/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-22T21:06:16Z",
+        "uri": "http://web.archive.org/web/20161122210616/http://www.nytimes.com:80/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-23T09:22:51Z",
+        "uri": "http://web.archive.org/web/20161123092251/http://www.nytimes.com:80/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html?"
+      },
+      {
+        "datetime": "2016-11-25T07:30:08Z",
+        "uri": "http://wayback.archive-it.org/all/20161125073008/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-11-25T07:30:08Z",
+        "uri": "http://web.archive.org/web/20161125073008/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-02T07:24:33Z",
+        "uri": "http://web.archive.org/web/20161202072433/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-04T11:43:30Z",
+        "uri": "http://web.archive.org/web/20161204114330/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-05T13:47:49Z",
+        "uri": "http://web.archive.org/web/20161205134749/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-06T15:02:30Z",
+        "uri": "http://web.archive.org/web/20161206150230/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-17T01:21:42Z",
+        "uri": "http://wayback.archive-it.org/all/20161217012142/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-17T01:21:42Z",
+        "uri": "http://web.archive.org/web/20161217012142/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-24T14:35:21Z",
+        "uri": "http://web.archive.org/web/20161224143521/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2016-12-25T14:32:05Z",
+        "uri": "http://web.archive.org/web/20161225143205/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-15T22:35:14Z",
+        "uri": "http://web.archive.org/web/20170115223514/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-16T00:44:19Z",
+        "uri": "http://web.archive.org/web/20170116004419/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-16T03:45:08Z",
+        "uri": "http://web.archive.org/web/20170116034508/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-16T09:02:58Z",
+        "uri": "https://arquivo.pt/wayback/20170116090258/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-19T01:32:31Z",
+        "uri": "http://web.archive.org/web/20170119013231/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-19T01:32:34Z",
+        "uri": "http://web.archive.org/web/20170119013234/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-19T03:46:08Z",
+        "uri": "http://web.archive.org/web/20170119034608/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-19T03:46:13Z",
+        "uri": "http://web.archive.org/web/20170119034613/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-21T01:23:12Z",
+        "uri": "http://web.archive.org/web/20170121012312/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-23T08:52:47Z",
+        "uri": "http://web.archive.org/web/20170123085247/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-25T11:41:46Z",
+        "uri": "http://web.archive.org/web/20170125114146/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-25T11:41:54Z",
+        "uri": "http://web.archive.org/web/20170125114154/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-01-31T07:42:23Z",
+        "uri": "http://web.archive.org/web/20170131074223/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-02-07T20:46:23Z",
+        "uri": "http://web.archive.org/web/20170207204623/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-02-07T20:46:29Z",
+        "uri": "http://web.archive.org/web/20170207204629/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-02-27T11:53:04Z",
+        "uri": "http://web.archive.org/web/20170227115304/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-02-27T11:53:18Z",
+        "uri": "http://web.archive.org/web/20170227115318/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-04-07T06:56:17Z",
+        "uri": "http://wayback.archive-it.org/all/20170407065617/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-04-07T06:56:17Z",
+        "uri": "http://web.archive.org/web/20170407065617/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-04-24T09:02:01Z",
+        "uri": "http://web.archive.org/web/20170424090201/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-05-06T18:55:14Z",
+        "uri": "http://web.archive.org/web/20170506185514/http://www.nytimes.com:80/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-05-16T14:39:37Z",
+        "uri": "http://web.archive.org/web/20170516143937/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-05-16T14:39:38Z",
+        "uri": "http://web.archive.org/web/20170516143938/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-05-25T02:08:06Z",
+        "uri": "http://web.archive.org/web/20170525020806/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-06-14T11:08:10Z",
+        "uri": "http://web.archive.org/web/20170614110810/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-06-28T10:18:17Z",
+        "uri": "http://web.archive.org/web/20170628101817/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-02T09:30:58Z",
+        "uri": "http://web.archive.org/web/20170702093058/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-06T21:29:40Z",
+        "uri": "http://web.archive.org/web/20170706212940/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-07T22:08:02Z",
+        "uri": "http://web.archive.org/web/20170707220802/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-08T22:27:28Z",
+        "uri": "http://web.archive.org/web/20170708222728/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-09T22:54:02Z",
+        "uri": "http://web.archive.org/web/20170709225402/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-10T22:58:53Z",
+        "uri": "http://web.archive.org/web/20170710225853/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-11T23:18:11Z",
+        "uri": "http://web.archive.org/web/20170711231811/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-12T23:57:23Z",
+        "uri": "http://web.archive.org/web/20170712235723/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-14T00:15:09Z",
+        "uri": "http://web.archive.org/web/20170714001509/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-14T23:13:12Z",
+        "uri": "http://web.archive.org/web/20170714231312/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-15T23:14:30Z",
+        "uri": "http://web.archive.org/web/20170715231430/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-18T23:27:32Z",
+        "uri": "http://web.archive.org/web/20170718232732/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-19T23:43:06Z",
+        "uri": "http://web.archive.org/web/20170719234306/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-21T00:29:02Z",
+        "uri": "http://web.archive.org/web/20170721002902/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-23T00:06:45Z",
+        "uri": "http://web.archive.org/web/20170723000645/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-23T23:53:48Z",
+        "uri": "http://web.archive.org/web/20170723235348/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-25T01:02:17Z",
+        "uri": "http://web.archive.org/web/20170725010217/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-26T01:45:34Z",
+        "uri": "http://web.archive.org/web/20170726014534/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-27T03:54:30Z",
+        "uri": "http://web.archive.org/web/20170727035430/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-29T14:31:57Z",
+        "uri": "http://web.archive.org/web/20170729143157/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-07-30T02:31:21Z",
+        "uri": "http://web.archive.org/web/20170730023121/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-08-15T00:46:56Z",
+        "uri": "http://web.archive.org/web/20170815004656/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-08-15T15:19:38Z",
+        "uri": "http://web.archive.org/web/20170815151938/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-08-27T16:49:29Z",
+        "uri": "http://web.archive.org/web/20170827164929/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-08-27T16:49:30Z",
+        "uri": "http://web.archive.org/web/20170827164930/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-03T06:05:27Z",
+        "uri": "http://wayback.archive-it.org/all/20170903060527/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-03T06:05:27Z",
+        "uri": "http://wayback.archive-it.org/all/20170903060527/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-03T06:05:27Z",
+        "uri": "http://web.archive.org/web/20170903060527/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-03T06:05:27Z",
+        "uri": "http://web.archive.org/web/20170903060527/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-15T14:29:13Z",
+        "uri": "http://web.archive.org/web/20170915142913/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-16T03:44:08Z",
+        "uri": "http://web.archive.org/web/20170916034408/http://www.nytimes.com:80/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-09-30T19:27:48Z",
+        "uri": "http://web.archive.org/web/20170930192748/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-17T23:31:47Z",
+        "uri": "http://web.archive.org/web/20171017233147/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-18T01:34:39Z",
+        "uri": "http://web.archive.org/web/20171018013439/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-18T11:47:28Z",
+        "uri": "http://web.archive.org/web/20171018114728/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-19T13:51:58Z",
+        "uri": "http://web.archive.org/web/20171019135158/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-20T00:22:12Z",
+        "uri": "http://web.archive.org/web/20171020002212/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-20T15:35:21Z",
+        "uri": "http://web.archive.org/web/20171020153521/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-21T16:55:08Z",
+        "uri": "http://web.archive.org/web/20171021165508/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-22T18:03:36Z",
+        "uri": "http://web.archive.org/web/20171022180336/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-23T19:24:42Z",
+        "uri": "http://web.archive.org/web/20171023192442/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-24T21:06:06Z",
+        "uri": "http://web.archive.org/web/20171024210606/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-25T22:19:03Z",
+        "uri": "http://web.archive.org/web/20171025221903/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-26T22:02:50Z",
+        "uri": "http://web.archive.org/web/20171026220250/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-29T07:35:09Z",
+        "uri": "http://wayback.archive-it.org/all/20171029073509/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-10-29T07:35:09Z",
+        "uri": "http://web.archive.org/web/20171029073509/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-02T04:49:35Z",
+        "uri": "http://web.archive.org/web/20171102044935/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-12T13:34:20Z",
+        "uri": "http://web.archive.org/web/20171112133420/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-15T13:35:57Z",
+        "uri": "http://web.archive.org/web/20171115133557/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-16T05:09:18Z",
+        "uri": "http://wayback.archive-it.org/all/20171116050918/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-16T05:09:18Z",
+        "uri": "http://web.archive.org/web/20171116050918/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-16T20:34:38Z",
+        "uri": "http://web.archive.org/web/20171116203438/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-16T20:34:44Z",
+        "uri": "http://web.archive.org/web/20171116203444/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-18T16:30:25Z",
+        "uri": "http://web.archive.org/web/20171118163025/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-19T04:17:12Z",
+        "uri": "http://web.archive.org/web/20171119041712/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-19T17:47:09Z",
+        "uri": "http://web.archive.org/web/20171119174709/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-20T18:06:49Z",
+        "uri": "http://web.archive.org/web/20171120180649/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-25T20:34:01Z",
+        "uri": "http://web.archive.org/web/20171125203401/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-27T10:40:36Z",
+        "uri": "http://web.archive.org/web/20171127104036/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-11-27T10:40:37Z",
+        "uri": "http://web.archive.org/web/20171127104037/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-12T10:55:29Z",
+        "uri": "http://web.archive.org/web/20171212105529/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-15T12:08:05Z",
+        "uri": "http://web.archive.org/web/20171215120805/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-16T14:35:47Z",
+        "uri": "http://web.archive.org/web/20171216143547/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-22T02:03:23Z",
+        "uri": "http://web.archive.org/web/20171222020323/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-25T13:39:28Z",
+        "uri": "http://web.archive.org/web/20171225133928/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-29T16:19:13Z",
+        "uri": "http://web.archive.org/web/20171229161913/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2017-12-31T16:35:14Z",
+        "uri": "http://web.archive.org/web/20171231163514/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-12T05:24:36Z",
+        "uri": "http://web.archive.org/web/20180112052436/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-12T06:13:19Z",
+        "uri": "http://web.archive.org/web/20180112061319/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-18T14:51:32Z",
+        "uri": "http://web.archive.org/web/20180118145132/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-20T22:51:52Z",
+        "uri": "http://web.archive.org/web/20180120225152/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-21T05:37:15Z",
+        "uri": "http://web.archive.org/web/20180121053715/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-21T17:34:03Z",
+        "uri": "http://web.archive.org/web/20180121173403/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-21T18:36:42Z",
+        "uri": "http://web.archive.org/web/20180121183642/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-21T18:40:30Z",
+        "uri": "http://web.archive.org/web/20180121184030/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-22T07:02:17Z",
+        "uri": "http://web.archive.org/web/20180122070217/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-23T08:33:56Z",
+        "uri": "http://web.archive.org/web/20180123083356/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-23T23:45:54Z",
+        "uri": "http://web.archive.org/web/20180123234554/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-24T11:06:41Z",
+        "uri": "http://web.archive.org/web/20180124110641/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-25T12:01:14Z",
+        "uri": "http://web.archive.org/web/20180125120114/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-26T14:17:50Z",
+        "uri": "http://web.archive.org/web/20180126141750/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-27T18:08:19Z",
+        "uri": "http://web.archive.org/web/20180127180819/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-27T18:08:34Z",
+        "uri": "http://web.archive.org/web/20180127180834/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-01-28T08:58:00Z",
+        "uri": "http://web.archive.org/web/20180128085800/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-07T20:34:19Z",
+        "uri": "http://web.archive.org/web/20180207203419/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-08T14:07:38Z",
+        "uri": "http://web.archive.org/web/20180208140738/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-08T14:07:39Z",
+        "uri": "http://web.archive.org/web/20180208140739/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-12T09:24:39Z",
+        "uri": "http://web.archive.org/web/20180212092439/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-14T02:21:42Z",
+        "uri": "http://web.archive.org/web/20180214022142/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-20T09:30:52Z",
+        "uri": "http://web.archive.org/web/20180220093052/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-28T20:58:52Z",
+        "uri": "http://web.archive.org/web/20180228205852/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-02-28T20:59:01Z",
+        "uri": "http://web.archive.org/web/20180228205901/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-02T01:31:55Z",
+        "uri": "http://web.archive.org/web/20180302013155/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-02T01:32:03Z",
+        "uri": "http://web.archive.org/web/20180302013203/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-03T05:27:54Z",
+        "uri": "http://web.archive.org/web/20180303052754/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-03T05:28:02Z",
+        "uri": "http://web.archive.org/web/20180303052802/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-23T11:33:27Z",
+        "uri": "http://web.archive.org/web/20180323113327/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-23T11:33:37Z",
+        "uri": "http://web.archive.org/web/20180323113337/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-24T11:43:13Z",
+        "uri": "http://web.archive.org/web/20180324114313/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-24T11:43:18Z",
+        "uri": "http://web.archive.org/web/20180324114318/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-25T14:22:21Z",
+        "uri": "http://web.archive.org/web/20180325142221/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-25T14:22:37Z",
+        "uri": "http://web.archive.org/web/20180325142237/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-26T16:43:16Z",
+        "uri": "http://web.archive.org/web/20180326164316/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-26T16:43:31Z",
+        "uri": "http://web.archive.org/web/20180326164331/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-27T12:17:12Z",
+        "uri": "http://web.archive.org/web/20180327121712/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-27T12:17:22Z",
+        "uri": "http://web.archive.org/web/20180327121722/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-03-31T06:06:02Z",
+        "uri": "http://web.archive.org/web/20180331060602/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-09T20:00:07Z",
+        "uri": "http://web.archive.org/web/20180409200007/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-10T09:11:07Z",
+        "uri": "http://web.archive.org/web/20180410091107/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-13T13:00:47Z",
+        "uri": "http://web.archive.org/web/20180413130047/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-14T05:22:43Z",
+        "uri": "http://web.archive.org/web/20180414052243/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-17T23:38:33Z",
+        "uri": "http://web.archive.org/web/20180417233833/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-20T17:03:16Z",
+        "uri": "http://web.archive.org/web/20180420170316/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-22T20:03:55Z",
+        "uri": "http://web.archive.org/web/20180422200355/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-23T17:24:17Z",
+        "uri": "http://web.archive.org/web/20180423172417/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-25T01:43:05Z",
+        "uri": "http://web.archive.org/web/20180425014305/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-04-28T02:12:05Z",
+        "uri": "http://web.archive.org/web/20180428021205/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-01T05:26:05Z",
+        "uri": "http://web.archive.org/web/20180501052605/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-05T12:57:21Z",
+        "uri": "http://web.archive.org/web/20180505125721/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-06T22:26:54Z",
+        "uri": "http://web.archive.org/web/20180506222654/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-08T18:40:36Z",
+        "uri": "http://web.archive.org/web/20180508184036/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-09T02:44:12Z",
+        "uri": "http://web.archive.org/web/20180509024412/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-11T04:25:38Z",
+        "uri": "http://web.archive.org/web/20180511042538/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-12T02:22:16Z",
+        "uri": "http://web.archive.org/web/20180512022216/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-13T04:55:41Z",
+        "uri": "http://web.archive.org/web/20180513045541/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-14T04:51:01Z",
+        "uri": "http://web.archive.org/web/20180514045101/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-15T06:13:43Z",
+        "uri": "http://web.archive.org/web/20180515061343/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-16T11:27:29Z",
+        "uri": "http://web.archive.org/web/20180516112729/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-27T10:40:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180527104010/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-27T10:40:10Z",
+        "uri": "http://web.archive.org/web/20180527104010/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-28T09:02:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180528090235/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-28T09:02:35Z",
+        "uri": "http://web.archive.org/web/20180528090235/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-30T07:34:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180530073403/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-05-30T07:34:03Z",
+        "uri": "http://web.archive.org/web/20180530073403/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-01T07:05:39Z",
+        "uri": "http://web.archive.org/web/20180601070539/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-07T05:40:29Z",
+        "uri": "http://web.archive.org/web/20180607054029/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-24T21:19:54Z",
+        "uri": "http://web.archive.org/web/20180624211954/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-26T03:45:54Z",
+        "uri": "http://web.archive.org/web/20180626034554/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-29T02:25:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180629022537/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-29T02:25:37Z",
+        "uri": "http://web.archive.org/web/20180629022537/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-06-30T13:34:37Z",
+        "uri": "http://web.archive.org/web/20180630133437/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-11T06:48:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180711064800/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-11T06:48:00Z",
+        "uri": "http://web.archive.org/web/20180711064800/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-12T15:56:44Z",
+        "uri": "http://web.archive.org/web/20180712155644/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-14T10:43:27Z",
+        "uri": "http://web.archive.org/web/20180714104327/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-15T13:59:12Z",
+        "uri": "http://web.archive.org/web/20180715135912/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-17T19:03:16Z",
+        "uri": "http://web.archive.org/web/20180717190316/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-19T10:05:13Z",
+        "uri": "http://web.archive.org/web/20180719100513/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-20T11:08:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180720110801/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-20T11:08:01Z",
+        "uri": "http://web.archive.org/web/20180720110801/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-20T18:35:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180720183501/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-20T18:35:01Z",
+        "uri": "http://web.archive.org/web/20180720183501/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-21T19:31:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180721193148/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-21T19:31:48Z",
+        "uri": "http://web.archive.org/web/20180721193148/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-22T13:43:00Z",
+        "uri": "http://web.archive.org/web/20180722134300/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-22T19:42:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180722194220/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-22T19:42:20Z",
+        "uri": "http://web.archive.org/web/20180722194220/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-23T19:45:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180723194546/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-23T19:45:46Z",
+        "uri": "http://web.archive.org/web/20180723194546/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-24T19:47:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180724194753/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-24T19:47:53Z",
+        "uri": "http://web.archive.org/web/20180724194753/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-26T19:27:24Z",
+        "uri": "http://web.archive.org/web/20180726192724/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-28T16:00:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180728160010/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-28T16:00:10Z",
+        "uri": "http://web.archive.org/web/20180728160010/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-29T00:52:41Z",
+        "uri": "http://web.archive.org/web/20180729005241/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-30T10:23:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180730102354/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-07-30T10:23:54Z",
+        "uri": "http://web.archive.org/web/20180730102354/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-01T16:32:40Z",
+        "uri": "http://web.archive.org/web/20180801163240/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-05T15:58:17Z",
+        "uri": "http://web.archive.org/web/20180805155817/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-09T16:14:12Z",
+        "uri": "http://web.archive.org/web/20180809161412/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-17T02:19:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180817021931/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-17T02:19:31Z",
+        "uri": "http://web.archive.org/web/20180817021931/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-20T10:05:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180820100521/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-20T10:05:21Z",
+        "uri": "http://web.archive.org/web/20180820100521/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-22T14:50:59Z",
+        "uri": "http://web.archive.org/web/20180822145059/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-26T11:55:47Z",
+        "uri": "http://web.archive.org/web/20180826115547/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-27T07:56:17Z",
+        "uri": "http://web.archive.org/web/20180827075617/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-27T12:52:19Z",
+        "uri": "http://web.archive.org/web/20180827125219/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-28T08:13:39Z",
+        "uri": "http://web.archive.org/web/20180828081339/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-29T10:17:51Z",
+        "uri": "http://web.archive.org/web/20180829101751/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-29T15:48:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180829154820/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-29T15:48:20Z",
+        "uri": "http://web.archive.org/web/20180829154820/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-30T10:58:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180830105822/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-30T10:58:22Z",
+        "uri": "http://web.archive.org/web/20180830105822/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-30T16:29:02Z",
+        "uri": "http://web.archive.org/web/20180830162902/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-31T11:21:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180831112152/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-08-31T11:21:52Z",
+        "uri": "http://web.archive.org/web/20180831112152/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-01T09:49:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180901094912/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-01T09:49:12Z",
+        "uri": "http://web.archive.org/web/20180901094912/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-02T09:03:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180902090303/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-02T09:03:03Z",
+        "uri": "http://web.archive.org/web/20180902090303/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-02T09:54:17Z",
+        "uri": "http://web.archive.org/web/20180902095417/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-03T10:26:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180903102606/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-03T10:26:06Z",
+        "uri": "http://web.archive.org/web/20180903102606/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-04T11:23:23Z",
+        "uri": "http://wayback.archive-it.org/all/20180904112323/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-04T11:23:23Z",
+        "uri": "http://web.archive.org/web/20180904112323/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-05T12:33:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180905123318/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-05T12:33:18Z",
+        "uri": "http://web.archive.org/web/20180905123318/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-08T18:08:08Z",
+        "uri": "http://web.archive.org/web/20180908180808/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-08T21:44:50Z",
+        "uri": "http://web.archive.org/web/20180908214450/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-09T17:58:22Z",
+        "uri": "http://web.archive.org/web/20180909175822/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-09T19:47:58Z",
+        "uri": "http://web.archive.org/web/20180909194758/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-14T22:13:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180914221346/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-14T22:13:46Z",
+        "uri": "http://web.archive.org/web/20180914221346/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-09-21T02:43:43Z",
+        "uri": "http://web.archive.org/web/20180921024343/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-10-06T08:53:00Z",
+        "uri": "http://web.archive.org/web/20181006085300/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-10-26T03:39:50Z",
+        "uri": "http://web.archive.org/web/20181026033950/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-10-26T03:40:00Z",
+        "uri": "http://web.archive.org/web/20181026034000/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-10-31T15:10:36Z",
+        "uri": "http://web.archive.org/web/20181031151036/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-03T13:02:29Z",
+        "uri": "http://web.archive.org/web/20181103130229/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-03T13:02:36Z",
+        "uri": "http://web.archive.org/web/20181103130236/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-05T15:57:40Z",
+        "uri": "http://web.archive.org/web/20181105155740/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-05T15:57:52Z",
+        "uri": "http://web.archive.org/web/20181105155752/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-22T00:36:37Z",
+        "uri": "http://wayback.archive-it.org/all/20181122003637/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-22T00:36:37Z",
+        "uri": "http://web.archive.org/web/20181122003637/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-22T02:07:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181122020745/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-22T02:07:45Z",
+        "uri": "http://web.archive.org/web/20181122020745/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-22T02:13:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181122021343/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-22T02:13:43Z",
+        "uri": "http://web.archive.org/web/20181122021343/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-23T18:29:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181123182949/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-23T18:29:49Z",
+        "uri": "http://web.archive.org/web/20181123182949/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-24T14:27:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181124142736/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-24T14:27:36Z",
+        "uri": "http://web.archive.org/web/20181124142736/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-25T13:43:45Z",
+        "uri": "http://web.archive.org/web/20181125134345/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-26T20:15:15Z",
+        "uri": "http://wayback.archive-it.org/all/20181126201515/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-26T20:15:15Z",
+        "uri": "http://web.archive.org/web/20181126201515/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-28T09:28:03Z",
+        "uri": "http://web.archive.org/web/20181128092803/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-28T11:26:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181128112610/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-28T11:26:10Z",
+        "uri": "http://web.archive.org/web/20181128112610/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-28T14:02:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181128140224/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-28T14:02:24Z",
+        "uri": "http://web.archive.org/web/20181128140224/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-29T04:34:30Z",
+        "uri": "http://wayback.archive-it.org/all/20181129043430/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-29T04:34:30Z",
+        "uri": "http://web.archive.org/web/20181129043430/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-30T12:12:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181130121210/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-11-30T12:12:10Z",
+        "uri": "http://web.archive.org/web/20181130121210/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-02T07:04:30Z",
+        "uri": "http://wayback.archive-it.org/all/20181202070430/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-02T07:04:30Z",
+        "uri": "http://web.archive.org/web/20181202070430/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-03T04:18:41Z",
+        "uri": "http://wayback.archive-it.org/all/20181203041841/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-03T04:18:41Z",
+        "uri": "http://web.archive.org/web/20181203041841/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-05T10:52:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181205105257/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-05T10:52:57Z",
+        "uri": "http://web.archive.org/web/20181205105257/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-07T10:40:38Z",
+        "uri": "http://wayback.archive-it.org/all/20181207104038/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-07T10:40:38Z",
+        "uri": "http://web.archive.org/web/20181207104038/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-08T01:08:55Z",
+        "uri": "http://web.archive.org/web/20181208010855/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-08T01:08:56Z",
+        "uri": "http://web.archive.org/web/20181208010856/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-09T09:56:18Z",
+        "uri": "http://web.archive.org/web/20181209095618/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-09T12:25:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181209122548/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-09T12:25:48Z",
+        "uri": "http://web.archive.org/web/20181209122548/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-10T09:23:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181210092344/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-10T09:23:44Z",
+        "uri": "http://web.archive.org/web/20181210092344/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-10T11:51:21Z",
+        "uri": "http://web.archive.org/web/20181210115121/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-16T16:45:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181216164531/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-16T16:45:31Z",
+        "uri": "http://web.archive.org/web/20181216164531/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-16T23:41:23Z",
+        "uri": "http://wayback.archive-it.org/all/20181216234123/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2018-12-16T23:41:23Z",
+        "uri": "http://web.archive.org/web/20181216234123/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2019-01-01T00:51:20Z",
+        "uri": "http://web.archive.org/web/20190101005120/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2019-01-02T22:16:22Z",
+        "uri": "http://web.archive.org/web/20190102221622/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2019-01-07T17:31:17Z",
+        "uri": "http://web.archive.org/web/20190107173117/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      },
+      {
+        "datetime": "2019-01-11T13:08:17Z",
+        "uri": "http://web.archive.org/web/20190111130817/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+      }
+    ],
+    "first": {
+      "datetime": "2016-07-30T22:04:21Z",
+      "uri": "http://wayback.archive-it.org/all/20160730220421/http://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+    },
+    "last": {
+      "datetime": "2019-01-11T13:08:17Z",
+      "uri": "http://web.archive.org/web/20190111130817/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2016/07/31/us/politics/donald-trump-khizr-khan-wife-ghazala.html"
+}

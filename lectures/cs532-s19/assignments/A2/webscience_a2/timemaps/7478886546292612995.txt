@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T17:53:03Z",
+        "uri": "http://archive.md/20190209175303/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T17:53:03Z",
+      "uri": "http://archive.md/20190209175303/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi"
+    },
+    "last": {
+      "datetime": "2019-02-09T17:53:03Z",
+      "uri": "http://archive.md/20190209175303/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.presstv.com/Detail/2019/02/09/588121/US-Trump-Congress-Khashoggi"
+}

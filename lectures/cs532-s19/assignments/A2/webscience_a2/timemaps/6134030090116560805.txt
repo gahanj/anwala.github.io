@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:37:40Z",
+        "uri": "http://web.archive.org/web/20190209143740/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:37:40Z",
+      "uri": "http://web.archive.org/web/20190209143740/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/"
+    },
+    "last": {
+      "datetime": "2019-02-09T14:37:40Z",
+      "uri": "http://web.archive.org/web/20190209143740/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.newscast-pratyaksha.com/english/is-caliphate-defeated-week-us-president/"
+}

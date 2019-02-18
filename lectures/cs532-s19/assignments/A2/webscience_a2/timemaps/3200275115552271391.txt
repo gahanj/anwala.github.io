@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-04-30T18:54:49Z",
+        "uri": "http://web.archive.org/web/20180430185449/http://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      },
+      {
+        "datetime": "2018-05-01T22:37:43Z",
+        "uri": "http://web.archive.org/web/20180501223743/http://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      },
+      {
+        "datetime": "2018-05-02T07:59:19Z",
+        "uri": "http://web.archive.org/web/20180502075919/http://www.mlive.com:80/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      },
+      {
+        "datetime": "2018-06-02T11:39:42Z",
+        "uri": "http://web.archive.org/web/20180602113942/http://www.mlive.com:80/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      },
+      {
+        "datetime": "2018-07-03T19:34:54Z",
+        "uri": "http://web.archive.org/web/20180703193454/http://www.mlive.com:80/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      },
+      {
+        "datetime": "2018-09-14T15:39:27Z",
+        "uri": "http://web.archive.org/web/20180914153927/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      },
+      {
+        "datetime": "2019-01-04T08:38:24Z",
+        "uri": "http://web.archive.org/web/20190104083824/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-04-30T18:54:49Z",
+      "uri": "http://web.archive.org/web/20180430185449/http://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+    },
+    "last": {
+      "datetime": "2019-01-04T08:38:24Z",
+      "uri": "http://web.archive.org/web/20190104083824/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.mlive.com/expo/erry-2018/04/bab779dc196618/ten_highlights_from_donald_tru.html"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-08T05:45:30Z",
+        "uri": "http://web.archive.org/web/20180308054530/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+      },
+      {
+        "datetime": "2018-03-09T06:38:14Z",
+        "uri": "http://web.archive.org/web/20180309063814/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+      },
+      {
+        "datetime": "2018-11-06T12:22:20Z",
+        "uri": "http://web.archive.org/web/20181106122220/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-08T05:45:30Z",
+      "uri": "http://web.archive.org/web/20180308054530/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+    },
+    "last": {
+      "datetime": "2018-11-06T12:22:20Z",
+      "uri": "http://web.archive.org/web/20181106122220/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://tacticalinvestor.com/trump-gleeful-polls-record-high-numbers-economic-optimism/"
+}

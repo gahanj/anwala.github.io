@@ -1,0 +1,78 @@
+{
+  "original_uri": "http://mocnedata.sk/psychografika-donald-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://mocnedata.sk/psychografika-donald-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-03-14T12:41:02Z",
+        "uri": "http://web.archive.org/web/20170314124102/http://mocnedata.sk/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2017-03-17T22:49:27Z",
+        "uri": "http://web.archive.org/web/20170317224927/http://mocnedata.sk/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2017-03-29T08:29:53Z",
+        "uri": "http://web.archive.org/web/20170329082953/http://mocnedata.sk:80/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2017-03-29T08:29:53Z",
+        "uri": "http://web.archive.org/web/20170329082953/http://mocnedata.sk:80/psychografika-donald-trump"
+      },
+      {
+        "datetime": "2017-05-05T01:06:42Z",
+        "uri": "http://web.archive.org/web/20170505010642/http://mocnedata.sk:80/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2017-05-05T01:06:42Z",
+        "uri": "http://web.archive.org/web/20170505010642/http://mocnedata.sk:80/psychografika-donald-trump"
+      },
+      {
+        "datetime": "2017-06-05T12:23:25Z",
+        "uri": "http://web.archive.org/web/20170605122325/http://mocnedata.sk:80/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2017-06-05T12:23:25Z",
+        "uri": "http://web.archive.org/web/20170605122325/http://mocnedata.sk:80/psychografika-donald-trump"
+      },
+      {
+        "datetime": "2018-04-04T14:09:18Z",
+        "uri": "http://web.archive.org/web/20180404140918/http://mocnedata.sk:80/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2018-04-04T14:09:18Z",
+        "uri": "http://web.archive.org/web/20180404140918/http://mocnedata.sk:80/psychografika-donald-trump"
+      },
+      {
+        "datetime": "2018-06-05T13:36:47Z",
+        "uri": "http://web.archive.org/web/20180605133647/http://mocnedata.sk:80/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2018-06-05T13:36:47Z",
+        "uri": "http://web.archive.org/web/20180605133647/http://mocnedata.sk:80/psychografika-donald-trump"
+      },
+      {
+        "datetime": "2018-07-06T12:08:48Z",
+        "uri": "http://web.archive.org/web/20180706120848/http://mocnedata.sk:80/psychografika-donald-trump/"
+      },
+      {
+        "datetime": "2018-07-06T12:08:48Z",
+        "uri": "http://web.archive.org/web/20180706120848/http://mocnedata.sk:80/psychografika-donald-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2017-03-14T12:41:02Z",
+      "uri": "http://web.archive.org/web/20170314124102/http://mocnedata.sk/psychografika-donald-trump/"
+    },
+    "last": {
+      "datetime": "2018-07-06T12:08:48Z",
+      "uri": "http://web.archive.org/web/20180706120848/http://mocnedata.sk:80/psychografika-donald-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://mocnedata.sk/psychografika-donald-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://mocnedata.sk/psychografika-donald-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://mocnedata.sk/psychografika-donald-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://mocnedata.sk/psychografika-donald-trump/"
+}

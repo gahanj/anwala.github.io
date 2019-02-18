@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:35:02Z",
+        "uri": "http://web.archive.org/web/20190210093502/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:35:02Z",
+      "uri": "http://web.archive.org/web/20190210093502/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:35:02Z",
+      "uri": "http://web.archive.org/web/20190210093502/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.hollywoodreporter.com/live-feed/snl-tackles-trumps-state-union-empire-spoof-1184680"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T22:56:13Z",
+        "uri": "http://web.archive.org/web/20190209225613/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/"
+      },
+      {
+        "datetime": "2019-02-10T03:02:40Z",
+        "uri": "http://web.archive.org/web/20190210030240/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T22:56:13Z",
+      "uri": "http://web.archive.org/web/20190209225613/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:02:40Z",
+      "uri": "http://web.archive.org/web/20190210030240/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.aol.com/article/news/2019/02/09/in-new-book-mccabe-reportedly-says-trump-operates-like-a-mob-boss/23665663/"
+}

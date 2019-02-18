@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://Trump.lol",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://Trump.lol",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-10-05T09:38:40Z",
+        "uri": "http://web.archive.org/web/20161005093840/http://trump.lol/"
+      },
+      {
+        "datetime": "2018-08-10T02:22:31Z",
+        "uri": "http://web.archive.org/web/20180810022231/http://trump.lol/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-10-05T09:38:40Z",
+      "uri": "http://web.archive.org/web/20161005093840/http://trump.lol/"
+    },
+    "last": {
+      "datetime": "2018-08-10T02:22:31Z",
+      "uri": "http://web.archive.org/web/20180810022231/http://trump.lol/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://Trump.lol",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://Trump.lol",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://Trump.lol"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://Trump.lol"
+}

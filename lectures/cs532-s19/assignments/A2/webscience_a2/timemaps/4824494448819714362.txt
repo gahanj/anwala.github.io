@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T03:16:22Z",
+        "uri": "http://web.archive.org/web/20190210031622/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html"
+      },
+      {
+        "datetime": "2019-02-10T05:35:51Z",
+        "uri": "http://web.archive.org/web/20190210053551/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T03:16:22Z",
+      "uri": "http://web.archive.org/web/20190210031622/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:35:51Z",
+      "uri": "http://web.archive.org/web/20190210053551/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://brasil.elpais.com/brasil/2019/02/08/internacional/1549660310_662631.html"
+}

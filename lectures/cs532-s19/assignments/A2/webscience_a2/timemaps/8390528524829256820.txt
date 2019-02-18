@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T21:10:54Z",
+        "uri": "http://web.archive.org/web/20190208211054/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+      },
+      {
+        "datetime": "2019-02-09T11:32:02Z",
+        "uri": "http://web.archive.org/web/20190209113202/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+      },
+      {
+        "datetime": "2019-02-09T23:00:23Z",
+        "uri": "http://web.archive.org/web/20190209230023/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T21:10:54Z",
+      "uri": "http://web.archive.org/web/20190208211054/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:00:23Z",
+      "uri": "http://web.archive.org/web/20190209230023/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/08/donald-trump-busts-adam-schiff-for-hanging-out-with-fusion-gps-founder-in-aspen/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T15:23:37Z",
+        "uri": "http://web.archive.org/web/20190210152337/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw"
+      },
+      {
+        "datetime": "2019-02-10T15:23:37Z",
+        "uri": "http://web.archive.org/web/20190210152337/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T15:23:37Z",
+      "uri": "http://web.archive.org/web/20190210152337/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw"
+    },
+    "last": {
+      "datetime": "2019-02-10T15:23:37Z",
+      "uri": "http://web.archive.org/web/20190210152337/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/uk-news/2019/feb/10/chimps-use-branch-as-ladder-to-escape-belfast-zoo-enclosure?CMP=share_btn_tw"
+}

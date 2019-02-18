@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:06:18Z",
+      "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:06:18Z",
+      "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/campaign/429263-trump-campaign-slams-warren-as-fraud"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T18:17:59Z",
+        "uri": "http://web.archive.org/web/20190209181759/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+      },
+      {
+        "datetime": "2019-02-09T21:14:54Z",
+        "uri": "http://web.archive.org/web/20190209211454/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+      },
+      {
+        "datetime": "2019-02-10T09:24:47Z",
+        "uri": "http://archive.md/20190210092447/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+      },
+      {
+        "datetime": "2019-02-10T11:15:31Z",
+        "uri": "http://web.archive.org/web/20190210111531/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+      },
+      {
+        "datetime": "2019-02-10T20:37:51Z",
+        "uri": "http://web.archive.org/web/20190210203751/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T18:17:59Z",
+      "uri": "http://web.archive.org/web/20190209181759/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+    },
+    "last": {
+      "datetime": "2019-02-10T20:37:51Z",
+      "uri": "http://web.archive.org/web/20190210203751/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/clips/2019/02/09/exclusive-hungarian-govt-praises-trump-border-protection-obligation-state/"
+}

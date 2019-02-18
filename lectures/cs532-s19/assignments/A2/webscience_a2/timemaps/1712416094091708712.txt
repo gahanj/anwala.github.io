@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:04:36Z",
+        "uri": "http://web.archive.org/web/20190210010436/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+      },
+      {
+        "datetime": "2019-02-10T01:21:25Z",
+        "uri": "http://archive.md/20190210012125/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+      },
+      {
+        "datetime": "2019-02-10T07:42:08Z",
+        "uri": "http://web.archive.org/web/20190210074208/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+      },
+      {
+        "datetime": "2019-02-10T10:58:52Z",
+        "uri": "http://web.archive.org/web/20190210105852/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+      },
+      {
+        "datetime": "2019-02-10T20:37:51Z",
+        "uri": "http://web.archive.org/web/20190210203751/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:04:36Z",
+      "uri": "http://web.archive.org/web/20190210010436/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+    },
+    "last": {
+      "datetime": "2019-02-10T20:37:51Z",
+      "uri": "http://web.archive.org/web/20190210203751/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/09/trump-campaign-knocks-fraud-elizabeth-warren-upon-2020-announcement/"
+}

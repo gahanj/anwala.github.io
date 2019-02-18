@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:12:02Z",
+        "uri": "http://web.archive.org/web/20190210011202/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:12:02Z",
+      "uri": "http://web.archive.org/web/20190210011202/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:12:02Z",
+      "uri": "http://web.archive.org/web/20190210011202/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.ultimasnoticias.com.ve/noticias/opinion/bienvenido-mister-trump/"
+}

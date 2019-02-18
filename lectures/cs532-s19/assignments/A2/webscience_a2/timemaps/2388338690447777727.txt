@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T20:29:36Z",
+        "uri": "http://web.archive.org/web/20190208202936/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-08T21:14:12Z",
+        "uri": "http://web.archive.org/web/20190208211412/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-08T21:26:16Z",
+        "uri": "http://web.archive.org/web/20190208212616/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:28:09Z",
+        "uri": "http://web.archive.org/web/20190209022809/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:49:12Z",
+        "uri": "http://web.archive.org/web/20190209024912/http://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:28:15Z",
+        "uri": "http://web.archive.org/web/20190209182815/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-09T19:35:00Z",
+        "uri": "http://web.archive.org/web/20190209193500/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:17:54Z",
+        "uri": "http://web.archive.org/web/20190210001754/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:47:29Z",
+        "uri": "http://web.archive.org/web/20190210004729/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T20:29:36Z",
+      "uri": "http://web.archive.org/web/20190208202936/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:47:29Z",
+      "uri": "http://web.archive.org/web/20190210004729/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/politics/donald-trump-jeff-bezos-amazon-affair-national-enquirer/index.html"
+}

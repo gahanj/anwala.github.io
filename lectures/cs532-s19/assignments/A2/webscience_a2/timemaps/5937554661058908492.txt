@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T13:21:51Z",
+        "uri": "http://web.archive.org/web/20190208132151/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-08T13:27:10Z",
+        "uri": "http://web.archive.org/web/20190208132710/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-08T17:43:23Z",
+        "uri": "http://web.archive.org/web/20190208174323/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-08T18:47:36Z",
+        "uri": "http://web.archive.org/web/20190208184736/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T02:37:43Z",
+        "uri": "http://web.archive.org/web/20190209023743/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T02:51:35Z",
+        "uri": "http://web.archive.org/web/20190209025135/http://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T07:25:06Z",
+        "uri": "http://web.archive.org/web/20190209072506/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T18:24:01Z",
+        "uri": "http://web.archive.org/web/20190209182401/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T00:23:42Z",
+        "uri": "http://web.archive.org/web/20190210002342/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T01:17:08Z",
+        "uri": "http://web.archive.org/web/20190210011708/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T05:52:53Z",
+        "uri": "http://web.archive.org/web/20190210055253/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T13:21:51Z",
+      "uri": "http://web.archive.org/web/20190208132151/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:52:53Z",
+      "uri": "http://web.archive.org/web/20190210055253/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/videos/media/2019/02/08/late-night-laughs-trump-tax-returns-newday-vpx.cnn"
+}

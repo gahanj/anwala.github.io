@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-02-28T02:31:36Z",
+        "uri": "http://web.archive.org/web/20180228023136/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/"
+      },
+      {
+        "datetime": "2018-02-28T18:16:06Z",
+        "uri": "http://archive.md/20180228181606/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-02-28T02:31:36Z",
+      "uri": "http://web.archive.org/web/20180228023136/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/"
+    },
+    "last": {
+      "datetime": "2018-02-28T18:16:06Z",
+      "uri": "http://archive.md/20180228181606/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.newscientist.com/article/2162285-if-you-hate-bad-body-odour-youre-more-likely-to-support-trump/"
+}

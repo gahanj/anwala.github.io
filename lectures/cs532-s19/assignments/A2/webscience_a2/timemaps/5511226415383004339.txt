@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:45:27Z",
+        "uri": "http://web.archive.org/web/20190209144527/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:45:27Z",
+      "uri": "http://web.archive.org/web/20190209144527/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice"
+    },
+    "last": {
+      "datetime": "2019-02-09T14:45:27Z",
+      "uri": "http://web.archive.org/web/20190209144527/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.20minutes.fr/nice/2447467-20190209-donald-trump-va-devenir-ca-carnaval-nice"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T20:22:01Z",
+        "uri": "http://web.archive.org/web/20190208202201/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T20:22:01Z",
+      "uri": "http://web.archive.org/web/20190208202201/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-08T20:22:01Z",
+      "uri": "http://web.archive.org/web/20190208202201/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/02/08/glenn-simpson-adam-schiff-trump/"
+}

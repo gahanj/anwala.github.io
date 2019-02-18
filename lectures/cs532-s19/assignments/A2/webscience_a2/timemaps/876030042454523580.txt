@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T19:10:37Z",
+        "uri": "http://web.archive.org/web/20190208191037/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2"
+      },
+      {
+        "datetime": "2019-02-08T23:39:02Z",
+        "uri": "http://web.archive.org/web/20190208233902/http://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T19:10:37Z",
+      "uri": "http://web.archive.org/web/20190208191037/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2"
+    },
+    "last": {
+      "datetime": "2019-02-08T23:39:02Z",
+      "uri": "http://web.archive.org/web/20190208233902/http://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.businessinsider.com/ivanka-trump-comment-on-policy-disagree-father-2019-2"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T05:44:21Z",
+        "uri": "http://web.archive.org/web/20190207054421/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+      },
+      {
+        "datetime": "2019-02-07T15:42:43Z",
+        "uri": "http://web.archive.org/web/20190207154243/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+      },
+      {
+        "datetime": "2019-02-08T18:22:00Z",
+        "uri": "http://web.archive.org/web/20190208182200/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+      },
+      {
+        "datetime": "2019-02-08T23:28:41Z",
+        "uri": "http://web.archive.org/web/20190208232841/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+      },
+      {
+        "datetime": "2019-02-09T18:43:34Z",
+        "uri": "http://web.archive.org/web/20190209184334/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T05:44:21Z",
+      "uri": "http://web.archive.org/web/20190207054421/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+    },
+    "last": {
+      "datetime": "2019-02-09T18:43:34Z",
+      "uri": "http://web.archive.org/web/20190209184334/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://khn.org/news/trump-pledges-to-end-hiv-transmission-by-2030-doable-but-daunting/"
+}

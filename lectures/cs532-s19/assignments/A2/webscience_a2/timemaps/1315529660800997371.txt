@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T00:45:49Z",
+        "uri": "http://web.archive.org/web/20190209004549/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      },
+      {
+        "datetime": "2019-02-09T01:19:59Z",
+        "uri": "http://web.archive.org/web/20190209011959/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      },
+      {
+        "datetime": "2019-02-09T03:27:20Z",
+        "uri": "http://web.archive.org/web/20190209032720/http://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      },
+      {
+        "datetime": "2019-02-09T03:27:21Z",
+        "uri": "http://web.archive.org/web/20190209032721/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      },
+      {
+        "datetime": "2019-02-09T08:34:29Z",
+        "uri": "http://web.archive.org/web/20190209083429/http://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      },
+      {
+        "datetime": "2019-02-09T11:23:05Z",
+        "uri": "http://web.archive.org/web/20190209112305/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      },
+      {
+        "datetime": "2019-02-09T23:15:13Z",
+        "uri": "http://web.archive.org/web/20190209231513/http://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T00:45:49Z",
+      "uri": "http://web.archive.org/web/20190209004549/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:15:13Z",
+      "uri": "http://web.archive.org/web/20190209231513/http://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/climate-environment/2019/02/08/under-trump-epa-inspections-fall-year-low/"
+}

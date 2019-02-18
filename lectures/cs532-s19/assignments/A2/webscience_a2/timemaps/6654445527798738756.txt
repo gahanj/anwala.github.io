@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-07-08T18:55:15Z",
+        "uri": "http://web.archive.org/web/20180708185515/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news"
+      },
+      {
+        "datetime": "2018-07-17T14:29:23Z",
+        "uri": "http://web.archive.org/web/20180717142923/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news"
+      }
+    ],
+    "first": {
+      "datetime": "2018-07-08T18:55:15Z",
+      "uri": "http://web.archive.org/web/20180708185515/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news"
+    },
+    "last": {
+      "datetime": "2018-07-17T14:29:23Z",
+      "uri": "http://web.archive.org/web/20180717142923/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://play.google.com/store/apps/details?id=com.ozoo.apps.ary.news"
+}

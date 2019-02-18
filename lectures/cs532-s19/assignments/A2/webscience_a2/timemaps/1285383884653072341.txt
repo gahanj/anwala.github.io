@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-15T01:19:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181115011955/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+      },
+      {
+        "datetime": "2018-11-15T01:19:55Z",
+        "uri": "http://web.archive.org/web/20181115011955/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+      },
+      {
+        "datetime": "2018-11-15T02:28:07Z",
+        "uri": "http://web.archive.org/web/20181115022807/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+      },
+      {
+        "datetime": "2018-11-15T02:59:26Z",
+        "uri": "http://web.archive.org/web/20181115025926/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+      },
+      {
+        "datetime": "2018-11-16T19:43:37Z",
+        "uri": "http://web.archive.org/web/20181116194337/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-15T01:19:55Z",
+      "uri": "http://wayback.archive-it.org/all/20181115011955/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+    },
+    "last": {
+      "datetime": "2018-11-16T19:43:37Z",
+      "uri": "http://web.archive.org/web/20181116194337/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbsnews.com/news/trump-criminal-justice-reform-bill-announcement-today-2018-11-14-live-updates/"
+}

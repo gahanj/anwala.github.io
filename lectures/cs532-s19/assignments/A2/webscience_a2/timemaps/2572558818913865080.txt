@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T15:15:55Z",
+        "uri": "http://web.archive.org/web/20190207151555/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/"
+      },
+      {
+        "datetime": "2019-02-08T22:02:17Z",
+        "uri": "http://web.archive.org/web/20190208220217/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T15:15:55Z",
+      "uri": "http://web.archive.org/web/20190207151555/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/"
+    },
+    "last": {
+      "datetime": "2019-02-08T22:02:17Z",
+      "uri": "http://web.archive.org/web/20190208220217/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://khn.org/news/trump-administration-salutes-parade-of-generic-drug-approvals-but-hundreds-arent-for-sale/"
+}

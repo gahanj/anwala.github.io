@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T11:42:57Z",
+        "uri": "http://web.archive.org/web/20190207114257/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T11:42:57Z",
+      "uri": "http://web.archive.org/web/20190207114257/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump"
+    },
+    "last": {
+      "datetime": "2019-02-07T11:42:57Z",
+      "uri": "http://web.archive.org/web/20190207114257/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.avvenire.it/mondo/pagine/guaid-non-sono-il-fantoccio-di-trump"
+}

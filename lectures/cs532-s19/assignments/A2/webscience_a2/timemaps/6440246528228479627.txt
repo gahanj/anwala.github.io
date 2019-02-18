@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:56:40Z",
+        "uri": "http://web.archive.org/web/20190209205640/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/"
+      },
+      {
+        "datetime": "2019-02-09T23:52:23Z",
+        "uri": "http://web.archive.org/web/20190209235223/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:56:40Z",
+      "uri": "http://web.archive.org/web/20190209205640/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:52:23Z",
+      "uri": "http://web.archive.org/web/20190209235223/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nationalreview.com/2019/02/donald-trumps-iran-deal-withdrawal-is-clear-success/"
+}

@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T06:34:54Z",
+        "uri": "http://web.archive.org/web/20190209063454/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T09:44:03Z",
+        "uri": "http://web.archive.org/web/20190209094403/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T11:29:28Z",
+        "uri": "http://web.archive.org/web/20190209112928/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T12:56:28Z",
+        "uri": "http://web.archive.org/web/20190209125628/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:20:15Z",
+        "uri": "http://web.archive.org/web/20190209182015/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T21:56:52Z",
+        "uri": "http://web.archive.org/web/20190209215652/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T23:46:01Z",
+        "uri": "http://web.archive.org/web/20190209234601/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-09T23:46:12Z",
+        "uri": "http://web.archive.org/web/20190209234612/http://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:46:29Z",
+        "uri": "http://web.archive.org/web/20190210004629/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      },
+      {
+        "datetime": "2019-02-10T02:47:26Z",
+        "uri": "http://web.archive.org/web/20190210024726/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T06:34:54Z",
+      "uri": "http://web.archive.org/web/20190209063454/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:47:26Z",
+      "uri": "http://web.archive.org/web/20190210024726/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/politics/beto-orourke-trump-el-paso-visit-2020/index.html"
+}

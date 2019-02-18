@@ -1,0 +1,78 @@
+{
+  "original_uri": "https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T18:24:17Z",
+        "uri": "http://web.archive.org/web/20190209182417/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T19:02:24Z",
+        "uri": "http://web.archive.org/web/20190209190224/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T19:41:21Z",
+        "uri": "http://web.archive.org/web/20190209194121/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T20:00:35Z",
+        "uri": "http://web.archive.org/web/20190209200035/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T20:19:27Z",
+        "uri": "http://web.archive.org/web/20190209201927/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T20:58:29Z",
+        "uri": "http://web.archive.org/web/20190209205829/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T21:38:04Z",
+        "uri": "http://web.archive.org/web/20190209213804/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T22:18:34Z",
+        "uri": "http://web.archive.org/web/20190209221834/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T22:41:14Z",
+        "uri": "http://web.archive.org/web/20190209224114/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T23:21:16Z",
+        "uri": "http://web.archive.org/web/20190209232116/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T23:34:43Z",
+        "uri": "http://web.archive.org/web/20190209233443/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-09T23:59:31Z",
+        "uri": "http://web.archive.org/web/20190209235931/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-10T00:18:04Z",
+        "uri": "http://web.archive.org/web/20190210001804/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      },
+      {
+        "datetime": "2019-02-10T09:33:52Z",
+        "uri": "http://web.archive.org/web/20190210093352/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T18:24:17Z",
+      "uri": "http://web.archive.org/web/20190209182417/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:33:52Z",
+      "uri": "http://web.archive.org/web/20190210093352/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://slate.com/news-and-politics/2019/02/trump-inauguration-money-profit.html"
+}

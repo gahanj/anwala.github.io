@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-01T01:42:42Z",
+        "uri": "http://web.archive.org/web/20190201014242/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+      },
+      {
+        "datetime": "2019-02-01T10:46:34Z",
+        "uri": "http://web.archive.org/web/20190201104634/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+      },
+      {
+        "datetime": "2019-02-01T14:19:36Z",
+        "uri": "http://web.archive.org/web/20190201141936/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+      },
+      {
+        "datetime": "2019-02-08T06:31:17Z",
+        "uri": "http://web.archive.org/web/20190208063117/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-01T01:42:42Z",
+      "uri": "http://web.archive.org/web/20190201014242/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+    },
+    "last": {
+      "datetime": "2019-02-08T06:31:17Z",
+      "uri": "http://web.archive.org/web/20190208063117/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/01/31/world/americas/trump-hotel-brazil-corruption.html"
+}

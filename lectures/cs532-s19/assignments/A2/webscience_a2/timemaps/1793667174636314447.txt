@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-10-09T04:17:46Z",
+        "uri": "http://web.archive.org/web/20181009041746/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi"
+      },
+      {
+        "datetime": "2018-10-09T12:14:07Z",
+        "uri": "http://web.archive.org/web/20181009121407/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi"
+      }
+    ],
+    "first": {
+      "datetime": "2018-10-09T04:17:46Z",
+      "uri": "http://web.archive.org/web/20181009041746/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi"
+    },
+    "last": {
+      "datetime": "2018-10-09T12:14:07Z",
+      "uri": "http://web.archive.org/web/20181009121407/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnsnews.com/news/article/patrick-goodenough/trump-voices-concern-senators-warn-consequences-over-saudi"
+}

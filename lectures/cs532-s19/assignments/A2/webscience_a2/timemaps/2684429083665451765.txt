@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T17:39:05Z",
+        "uri": "http://archive.md/20190208173905/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/"
+      },
+      {
+        "datetime": "2019-02-09T20:57:13Z",
+        "uri": "http://web.archive.org/web/20190209205713/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T17:39:05Z",
+      "uri": "http://archive.md/20190208173905/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:57:13Z",
+      "uri": "http://web.archive.org/web/20190209205713/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nationalreview.com/2019/02/trump-border-wall-emergency-declaration-legal-likely-upheld/"
+}

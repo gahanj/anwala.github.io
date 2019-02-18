@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T08:00:08Z",
+        "uri": "http://web.archive.org/web/20190210080008/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T08:00:08Z",
+      "uri": "http://web.archive.org/web/20190210080008/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425"
+    },
+    "last": {
+      "datetime": "2019-02-10T08:00:08Z",
+      "uri": "http://web.archive.org/web/20190210080008/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://laestrella.com.pa/internacional/mundo/esta-cerca-segunda-reunion-trump/24106425"
+}

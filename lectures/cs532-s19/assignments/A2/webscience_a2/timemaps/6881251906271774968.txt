@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://shareblue.com/trump-iran-nuclear-deal-north-korea/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-iran-nuclear-deal-north-korea/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-14T04:15:35Z",
+        "uri": "http://web.archive.org/web/20180514041535/http://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+      },
+      {
+        "datetime": "2018-05-14T06:06:42Z",
+        "uri": "http://web.archive.org/web/20180514060642/https://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+      },
+      {
+        "datetime": "2018-06-25T01:31:14Z",
+        "uri": "http://web.archive.org/web/20180625013114/https://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+      },
+      {
+        "datetime": "2018-07-01T11:39:59Z",
+        "uri": "http://web.archive.org/web/20180701113959/https://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-14T04:15:35Z",
+      "uri": "http://web.archive.org/web/20180514041535/http://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+    },
+    "last": {
+      "datetime": "2018-07-01T11:39:59Z",
+      "uri": "http://web.archive.org/web/20180701113959/https://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/trump-iran-nuclear-deal-north-korea/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-iran-nuclear-deal-north-korea/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/trump-iran-nuclear-deal-north-korea/"
+}

@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T07:26:25Z",
+        "uri": "http://web.archive.org/web/20190209072625/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-09T12:53:25Z",
+        "uri": "http://web.archive.org/web/20190209125325/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-09T13:40:45Z",
+        "uri": "http://web.archive.org/web/20190209134045/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:17:43Z",
+        "uri": "http://web.archive.org/web/20190209181743/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-09T19:29:47Z",
+        "uri": "http://web.archive.org/web/20190209192947/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:07:32Z",
+        "uri": "http://web.archive.org/web/20190210000732/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:13:02Z",
+        "uri": "http://web.archive.org/web/20190210001302/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      },
+      {
+        "datetime": "2019-02-10T05:14:56Z",
+        "uri": "http://web.archive.org/web/20190210051456/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T07:26:25Z",
+      "uri": "http://web.archive.org/web/20190209072625/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:14:56Z",
+      "uri": "http://web.archive.org/web/20190210051456/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://edition.cnn.com/2019/02/09/politics/donald-trump-house-democrats-2020-election/index.html"
+}

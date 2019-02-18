@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T08:11:01Z",
+        "uri": "http://web.archive.org/web/20190206081101/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/"
+      },
+      {
+        "datetime": "2019-02-08T01:23:06Z",
+        "uri": "http://web.archive.org/web/20190208012306/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T08:11:01Z",
+      "uri": "http://web.archive.org/web/20190206081101/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/"
+    },
+    "last": {
+      "datetime": "2019-02-08T01:23:06Z",
+      "uri": "http://web.archive.org/web/20190208012306/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://mashable.com/article/women-cheering-state-of-the-union-democrats-trump/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:00:41Z",
+        "uri": "http://web.archive.org/web/20190210000041/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:00:41Z",
+      "uri": "http://web.archive.org/web/20190210000041/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:00:41Z",
+      "uri": "http://web.archive.org/web/20190210000041/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.yahoo.com/news/matt-whitaker-headed-trump-hotel-083018883.html"
+}

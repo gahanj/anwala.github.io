@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:04:47Z",
+        "uri": "http://web.archive.org/web/20190210010447/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:04:47Z",
+      "uri": "http://web.archive.org/web/20190210010447/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:04:47Z",
+      "uri": "http://web.archive.org/web/20190210010447/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.oann.com/watch-whitaker-testimony-president-trumps-surprise-trip-to-troops/"
+}

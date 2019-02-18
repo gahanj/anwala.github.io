@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-01-21T14:18:03Z",
+        "uri": "http://web.archive.org/web/20180121141803/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050"
+      }
+    ],
+    "first": {
+      "datetime": "2018-01-21T14:18:03Z",
+      "uri": "http://web.archive.org/web/20180121141803/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050"
+    },
+    "last": {
+      "datetime": "2018-01-21T14:18:03Z",
+      "uri": "http://web.archive.org/web/20180121141803/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://odaibako.net/detail/request/676762a2576f4b0ea302f529240d6050"
+}

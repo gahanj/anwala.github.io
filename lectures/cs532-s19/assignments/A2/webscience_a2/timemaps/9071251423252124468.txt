@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T12:54:30Z",
+        "uri": "http://web.archive.org/web/20190209125430/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/"
+      },
+      {
+        "datetime": "2019-02-09T16:36:02Z",
+        "uri": "http://web.archive.org/web/20190209163602/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-%245-7b-border-wall-369798/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T12:54:30Z",
+      "uri": "http://web.archive.org/web/20190209125430/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/"
+    },
+    "last": {
+      "datetime": "2019-02-09T16:36:02Z",
+      "uri": "http://web.archive.org/web/20190209163602/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-%245-7b-border-wall-369798/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.alipac.us/f12/gop-dems-set-offer-trump-quarter-$5-7b-border-wall-369798/"
+}

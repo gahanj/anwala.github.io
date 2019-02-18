@@ -1,0 +1,90 @@
+{
+  "original_uri": "http://documents.latimes.com/trump-imus-1993/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://documents.latimes.com/trump-imus-1993/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-06-20T14:34:36Z",
+        "uri": "http://web.archive.org/web/20160620143436/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-06-20T14:34:36Z",
+        "uri": "http://web.archive.org/web/20160620143436/http://documents.latimes.com:80/trump-imus-1993"
+      },
+      {
+        "datetime": "2016-06-22T20:57:15Z",
+        "uri": "http://web.archive.org/web/20160622205715/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-07-23T06:07:22Z",
+        "uri": "http://web.archive.org/web/20160723060722/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-07-23T06:07:22Z",
+        "uri": "http://web.archive.org/web/20160723060722/http://documents.latimes.com:80/trump-imus-1993"
+      },
+      {
+        "datetime": "2016-08-22T17:59:49Z",
+        "uri": "http://web.archive.org/web/20160822175949/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-08-23T19:13:38Z",
+        "uri": "http://web.archive.org/web/20160823191338/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-09-02T09:11:28Z",
+        "uri": "http://web.archive.org/web/20160902091128/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-09-02T09:11:28Z",
+        "uri": "http://web.archive.org/web/20160902091128/http://documents.latimes.com:80/trump-imus-1993"
+      },
+      {
+        "datetime": "2016-10-14T10:33:34Z",
+        "uri": "http://web.archive.org/web/20161014103334/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-10-14T10:33:34Z",
+        "uri": "http://web.archive.org/web/20161014103334/http://documents.latimes.com:80/trump-imus-1993"
+      },
+      {
+        "datetime": "2016-10-24T19:12:28Z",
+        "uri": "http://web.archive.org/web/20161024191228/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-11-12T16:10:24Z",
+        "uri": "http://web.archive.org/web/20161112161024/http://documents.latimes.com/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-11-17T01:30:14Z",
+        "uri": "http://web.archive.org/web/20161117013014/http://documents.latimes.com:80/trump-imus-1993/"
+      },
+      {
+        "datetime": "2016-11-17T01:30:14Z",
+        "uri": "http://web.archive.org/web/20161117013014/http://documents.latimes.com:80/trump-imus-1993"
+      },
+      {
+        "datetime": "2017-02-21T04:24:39Z",
+        "uri": "http://web.archive.org/web/20170221042439/http://documents.latimes.com/trump-imus-1993/"
+      },
+      {
+        "datetime": "2017-06-06T13:53:31Z",
+        "uri": "http://web.archive.org/web/20170606135331/http://documents.latimes.com/trump-imus-1993/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-06-20T14:34:36Z",
+      "uri": "http://web.archive.org/web/20160620143436/http://documents.latimes.com:80/trump-imus-1993/"
+    },
+    "last": {
+      "datetime": "2017-06-06T13:53:31Z",
+      "uri": "http://web.archive.org/web/20170606135331/http://documents.latimes.com/trump-imus-1993/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://documents.latimes.com/trump-imus-1993/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://documents.latimes.com/trump-imus-1993/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://documents.latimes.com/trump-imus-1993/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://documents.latimes.com/trump-imus-1993/"
+}

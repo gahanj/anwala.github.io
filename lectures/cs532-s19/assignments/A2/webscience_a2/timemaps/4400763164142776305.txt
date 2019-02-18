@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-10-09T08:27:01Z",
+        "uri": "http://web.archive.org/web/20181009082701/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-10-09T08:27:01Z",
+      "uri": "http://web.archive.org/web/20181009082701/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/"
+    },
+    "last": {
+      "datetime": "2018-10-09T08:27:01Z",
+      "uri": "http://web.archive.org/web/20181009082701/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.ejinsight.com/20181009-what-s-behind-trump-s-trade-war/"
+}

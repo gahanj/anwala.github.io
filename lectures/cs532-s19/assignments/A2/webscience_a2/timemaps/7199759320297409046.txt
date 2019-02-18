@@ -1,0 +1,1418 @@
+{
+  "original_uri": "http://time.com/4465744/donald-trump-undocumented-workers/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://time.com/4465744/donald-trump-undocumented-workers/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-08-25T12:15:16Z",
+        "uri": "http://web.archive.org/web/20160825121516/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T13:20:24Z",
+        "uri": "http://web.archive.org/web/20160825132024/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T13:20:44Z",
+        "uri": "http://archive.md/20160825132044/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T14:50:48Z",
+        "uri": "http://web.archive.org/web/20160825145048/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T16:28:20Z",
+        "uri": "http://web.archive.org/web/20160825162820/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T20:37:00Z",
+        "uri": "http://wayback.archive-it.org/all/20160825203700/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T20:37:00Z",
+        "uri": "http://web.archive.org/web/20160825203700/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T23:08:17Z",
+        "uri": "http://web.archive.org/web/20160825230817/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-25T23:11:59Z",
+        "uri": "http://web.archive.org/web/20160825231159/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T01:54:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160826015410/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T01:54:10Z",
+        "uri": "http://web.archive.org/web/20160826015410/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T02:16:14Z",
+        "uri": "http://wayback.archive-it.org/all/20160826021614/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T02:16:14Z",
+        "uri": "http://web.archive.org/web/20160826021614/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T03:17:34Z",
+        "uri": "http://web.archive.org/web/20160826031734/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T17:30:07Z",
+        "uri": "http://web.archive.org/web/20160826173007/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T19:18:29Z",
+        "uri": "http://web.archive.org/web/20160826191829/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T20:27:04Z",
+        "uri": "http://web.archive.org/web/20160826202704/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-26T23:12:00Z",
+        "uri": "http://web.archive.org/web/20160826231200/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-27T02:04:43Z",
+        "uri": "http://wayback.archive-it.org/all/20160827020443/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-27T02:04:43Z",
+        "uri": "http://web.archive.org/web/20160827020443/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-27T07:15:24Z",
+        "uri": "http://web.archive.org/web/20160827071524/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-27T23:41:43Z",
+        "uri": "http://web.archive.org/web/20160827234143/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-28T11:56:41Z",
+        "uri": "http://web.archive.org/web/20160828115641/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-28T19:46:38Z",
+        "uri": "http://web.archive.org/web/20160828194638/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-28T19:46:38Z",
+        "uri": "http://web.archive.org/web/20160828194638/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-08-28T19:46:43Z",
+        "uri": "http://web.archive.org/web/20160828194643/http://time.com:80/4465744/donald-trump-undocumented-workers/?"
+      },
+      {
+        "datetime": "2016-08-29T13:38:12Z",
+        "uri": "http://web.archive.org/web/20160829133812/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-29T21:04:30Z",
+        "uri": "http://web.archive.org/web/20160829210430/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-30T15:56:23Z",
+        "uri": "http://web.archive.org/web/20160830155623/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-31T12:04:45Z",
+        "uri": "http://web.archive.org/web/20160831120445/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-08-31T19:35:59Z",
+        "uri": "http://web.archive.org/web/20160831193559/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-02T06:22:37Z",
+        "uri": "http://web.archive.org/web/20160902062237/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-04T06:03:48Z",
+        "uri": "http://web.archive.org/web/20160904060348/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-04T13:20:15Z",
+        "uri": "http://web.archive.org/web/20160904132015/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-04T13:20:15Z",
+        "uri": "http://web.archive.org/web/20160904132015/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-09-05T12:50:29Z",
+        "uri": "http://web.archive.org/web/20160905125029/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-07T15:40:17Z",
+        "uri": "http://web.archive.org/web/20160907154017/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-10T22:14:47Z",
+        "uri": "http://web.archive.org/web/20160910221447/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-10T22:14:47Z",
+        "uri": "http://web.archive.org/web/20160910221447/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-09-12T11:31:47Z",
+        "uri": "http://web.archive.org/web/20160912113147/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-13T01:41:58Z",
+        "uri": "http://wayback.archive-it.org/all/20160913014158/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-13T01:41:58Z",
+        "uri": "http://web.archive.org/web/20160913014158/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-14T01:57:15Z",
+        "uri": "http://wayback.archive-it.org/all/20160914015715/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-14T01:57:15Z",
+        "uri": "http://web.archive.org/web/20160914015715/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-14T08:54:09Z",
+        "uri": "http://web.archive.org/web/20160914085409/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-18T01:16:32Z",
+        "uri": "http://web.archive.org/web/20160918011632/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-18T01:41:56Z",
+        "uri": "http://web.archive.org/web/20160918014156/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-18T01:41:56Z",
+        "uri": "http://web.archive.org/web/20160918014156/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-09-18T06:51:34Z",
+        "uri": "http://web.archive.org/web/20160918065134/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-24T11:29:53Z",
+        "uri": "http://web.archive.org/web/20160924112953/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-26T05:42:45Z",
+        "uri": "http://web.archive.org/web/20160926054245/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-26T05:42:45Z",
+        "uri": "http://web.archive.org/web/20160926054245/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-09-27T11:25:51Z",
+        "uri": "http://web.archive.org/web/20160927112551/http://time.com:80/4465744/donald-trump-undocumented-workers/?"
+      },
+      {
+        "datetime": "2016-09-27T13:07:33Z",
+        "uri": "http://web.archive.org/web/20160927130733/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-27T13:07:33Z",
+        "uri": "http://web.archive.org/web/20160927130733/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-09-27T14:42:05Z",
+        "uri": "http://web.archive.org/web/20160927144205/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-09-30T05:35:14Z",
+        "uri": "http://web.archive.org/web/20160930053514/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-01T10:36:48Z",
+        "uri": "http://web.archive.org/web/20161001103648/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-02T11:05:07Z",
+        "uri": "http://web.archive.org/web/20161002110507/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-03T11:52:21Z",
+        "uri": "http://web.archive.org/web/20161003115221/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-04T13:12:47Z",
+        "uri": "http://web.archive.org/web/20161004131247/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-05T13:12:35Z",
+        "uri": "http://web.archive.org/web/20161005131235/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-06T13:45:26Z",
+        "uri": "http://web.archive.org/web/20161006134526/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-06T15:19:41Z",
+        "uri": "http://web.archive.org/web/20161006151941/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-06T15:19:41Z",
+        "uri": "http://web.archive.org/web/20161006151941/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-10-08T03:29:28Z",
+        "uri": "http://web.archive.org/web/20161008032928/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-09T04:45:29Z",
+        "uri": "http://web.archive.org/web/20161009044529/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-10T05:31:40Z",
+        "uri": "http://web.archive.org/web/20161010053140/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-12T08:50:26Z",
+        "uri": "http://web.archive.org/web/20161012085026/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-13T10:10:05Z",
+        "uri": "http://web.archive.org/web/20161013101005/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-15T08:42:53Z",
+        "uri": "http://web.archive.org/web/20161015084253/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-16T08:11:31Z",
+        "uri": "http://web.archive.org/web/20161016081131/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-16T08:11:31Z",
+        "uri": "http://web.archive.org/web/20161016081131/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-10-17T09:22:06Z",
+        "uri": "http://web.archive.org/web/20161017092206/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-17T12:06:55Z",
+        "uri": "http://web.archive.org/web/20161017120655/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-17T12:06:55Z",
+        "uri": "http://web.archive.org/web/20161017120655/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-10-27T15:58:15Z",
+        "uri": "http://web.archive.org/web/20161027155815/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-28T01:49:41Z",
+        "uri": "http://web.archive.org/web/20161028014941/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-10-28T01:49:41Z",
+        "uri": "http://web.archive.org/web/20161028014941/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-10-30T09:15:15Z",
+        "uri": "http://web.archive.org/web/20161030091515/http://time.com:80/4465744/donald-trump-undocumented-workers/?"
+      },
+      {
+        "datetime": "2016-10-31T17:42:17Z",
+        "uri": "http://web.archive.org/web/20161031174217/http://time.com:80/4465744/donald-trump-undocumented-workers/?"
+      },
+      {
+        "datetime": "2016-11-03T09:39:00Z",
+        "uri": "http://web.archive.org/web/20161103093900/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-07T16:04:00Z",
+        "uri": "http://web.archive.org/web/20161107160400/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-09T20:01:01Z",
+        "uri": "http://web.archive.org/web/20161109200101/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-09T21:37:15Z",
+        "uri": "http://web.archive.org/web/20161109213715/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-09T21:37:15Z",
+        "uri": "http://web.archive.org/web/20161109213715/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-11-10T20:57:14Z",
+        "uri": "http://web.archive.org/web/20161110205714/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-11T19:59:04Z",
+        "uri": "http://web.archive.org/web/20161111195904/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-14T11:08:28Z",
+        "uri": "http://web.archive.org/web/20161114110828/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-16T10:46:53Z",
+        "uri": "http://web.archive.org/web/20161116104653/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-20T10:54:48Z",
+        "uri": "http://wayback.archive-it.org/all/20161120105448/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-20T10:54:48Z",
+        "uri": "http://web.archive.org/web/20161120105448/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-22T07:11:40Z",
+        "uri": "http://web.archive.org/web/20161122071140/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-22T07:11:40Z",
+        "uri": "http://web.archive.org/web/20161122071140/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2016-11-23T02:32:35Z",
+        "uri": "http://web.archive.org/web/20161123023235/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-23T08:48:11Z",
+        "uri": "http://wayback.archive-it.org/all/20161123084811/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-23T08:48:11Z",
+        "uri": "http://web.archive.org/web/20161123084811/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-23T22:02:51Z",
+        "uri": "http://web.archive.org/web/20161123220251/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-24T22:23:47Z",
+        "uri": "http://web.archive.org/web/20161124222347/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-25T22:23:27Z",
+        "uri": "http://web.archive.org/web/20161125222327/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-26T08:32:07Z",
+        "uri": "http://wayback.archive-it.org/all/20161126083207/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-26T08:32:07Z",
+        "uri": "http://web.archive.org/web/20161126083207/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-27T00:20:43Z",
+        "uri": "http://web.archive.org/web/20161127002043/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-27T12:42:31Z",
+        "uri": "http://wayback.archive-it.org/all/20161127124231/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-27T12:42:31Z",
+        "uri": "http://web.archive.org/web/20161127124231/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-28T01:16:59Z",
+        "uri": "http://web.archive.org/web/20161128011659/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-29T03:11:42Z",
+        "uri": "http://web.archive.org/web/20161129031142/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-11-30T04:28:49Z",
+        "uri": "http://web.archive.org/web/20161130042849/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-01T05:15:52Z",
+        "uri": "http://web.archive.org/web/20161201051552/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-02T10:34:14Z",
+        "uri": "http://web.archive.org/web/20161202103414/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-03T23:32:34Z",
+        "uri": "http://web.archive.org/web/20161203233234/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-04T11:07:05Z",
+        "uri": "http://web.archive.org/web/20161204110705/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-04T12:57:13Z",
+        "uri": "http://wayback.archive-it.org/all/20161204125713/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-04T12:57:13Z",
+        "uri": "http://web.archive.org/web/20161204125713/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-08T06:37:20Z",
+        "uri": "http://web.archive.org/web/20161208063720/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-08T16:49:03Z",
+        "uri": "http://web.archive.org/web/20161208164903/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-09T07:47:07Z",
+        "uri": "http://web.archive.org/web/20161209074707/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-09T17:06:19Z",
+        "uri": "http://web.archive.org/web/20161209170619/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-10T06:25:40Z",
+        "uri": "http://web.archive.org/web/20161210062540/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-10T17:58:56Z",
+        "uri": "http://web.archive.org/web/20161210175856/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-11T08:45:18Z",
+        "uri": "http://web.archive.org/web/20161211084518/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-11T12:12:16Z",
+        "uri": "http://wayback.archive-it.org/all/20161211121216/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-11T12:12:16Z",
+        "uri": "http://web.archive.org/web/20161211121216/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-12T17:58:34Z",
+        "uri": "http://web.archive.org/web/20161212175834/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-12T19:23:12Z",
+        "uri": "http://web.archive.org/web/20161212192312/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-13T21:02:06Z",
+        "uri": "http://web.archive.org/web/20161213210206/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-14T06:28:23Z",
+        "uri": "http://web.archive.org/web/20161214062823/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-14T22:39:46Z",
+        "uri": "http://web.archive.org/web/20161214223946/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-18T02:53:30Z",
+        "uri": "http://web.archive.org/web/20161218025330/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-19T02:17:19Z",
+        "uri": "http://web.archive.org/web/20161219021719/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-22T19:34:29Z",
+        "uri": "http://web.archive.org/web/20161222193429/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-23T19:12:50Z",
+        "uri": "http://web.archive.org/web/20161223191250/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-24T20:47:32Z",
+        "uri": "http://web.archive.org/web/20161224204732/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-25T20:52:19Z",
+        "uri": "http://web.archive.org/web/20161225205219/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-26T19:55:56Z",
+        "uri": "http://web.archive.org/web/20161226195556/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-27T22:46:58Z",
+        "uri": "http://wayback.archive-it.org/all/20161227224658/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-27T22:46:58Z",
+        "uri": "http://web.archive.org/web/20161227224658/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-28T01:08:39Z",
+        "uri": "http://web.archive.org/web/20161228010839/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-29T02:11:52Z",
+        "uri": "http://web.archive.org/web/20161229021152/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-30T04:18:36Z",
+        "uri": "http://web.archive.org/web/20161230041836/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2016-12-31T05:14:54Z",
+        "uri": "http://web.archive.org/web/20161231051454/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-01T05:55:35Z",
+        "uri": "http://web.archive.org/web/20170101055535/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-01T13:05:42Z",
+        "uri": "http://wayback.archive-it.org/all/20170101130542/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-01T13:05:42Z",
+        "uri": "http://web.archive.org/web/20170101130542/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-02T05:54:29Z",
+        "uri": "http://web.archive.org/web/20170102055429/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-03T04:49:44Z",
+        "uri": "http://web.archive.org/web/20170103044944/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-03T05:59:08Z",
+        "uri": "http://web.archive.org/web/20170103055908/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-04T12:10:45Z",
+        "uri": "http://web.archive.org/web/20170104121045/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-05T15:57:19Z",
+        "uri": "http://web.archive.org/web/20170105155719/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-06T16:22:24Z",
+        "uri": "http://web.archive.org/web/20170106162224/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-07T23:01:26Z",
+        "uri": "http://web.archive.org/web/20170107230126/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-08T12:57:53Z",
+        "uri": "http://wayback.archive-it.org/all/20170108125753/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-08T12:57:53Z",
+        "uri": "http://web.archive.org/web/20170108125753/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-09T00:00:10Z",
+        "uri": "http://web.archive.org/web/20170109000010/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-10T02:55:52Z",
+        "uri": "http://web.archive.org/web/20170110025552/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-11T05:50:59Z",
+        "uri": "http://web.archive.org/web/20170111055059/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-11T21:38:55Z",
+        "uri": "http://web.archive.org/web/20170111213855/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-13T08:13:46Z",
+        "uri": "http://web.archive.org/web/20170113081346/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-13T12:01:22Z",
+        "uri": "http://web.archive.org/web/20170113120122/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-14T03:25:20Z",
+        "uri": "http://web.archive.org/web/20170114032520/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-15T13:47:06Z",
+        "uri": "http://wayback.archive-it.org/all/20170115134706/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-15T13:47:06Z",
+        "uri": "http://web.archive.org/web/20170115134706/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-17T14:22:37Z",
+        "uri": "http://web.archive.org/web/20170117142237/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-18T13:14:32Z",
+        "uri": "http://web.archive.org/web/20170118131432/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-19T05:30:02Z",
+        "uri": "http://web.archive.org/web/20170119053002/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-19T08:06:49Z",
+        "uri": "http://web.archive.org/web/20170119080649/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-20T07:47:19Z",
+        "uri": "http://web.archive.org/web/20170120074719/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-21T10:02:54Z",
+        "uri": "http://web.archive.org/web/20170121100254/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-22T14:31:40Z",
+        "uri": "http://wayback.archive-it.org/all/20170122143140/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-22T14:31:40Z",
+        "uri": "http://web.archive.org/web/20170122143140/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-22T17:17:54Z",
+        "uri": "http://web.archive.org/web/20170122171754/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-23T18:49:20Z",
+        "uri": "http://web.archive.org/web/20170123184920/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-25T20:35:06Z",
+        "uri": "http://web.archive.org/web/20170125203506/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-26T16:23:09Z",
+        "uri": "http://web.archive.org/web/20170126162309/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-27T04:07:41Z",
+        "uri": "http://web.archive.org/web/20170127040741/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-01-31T08:47:28Z",
+        "uri": "http://web.archive.org/web/20170131084728/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-02T07:10:55Z",
+        "uri": "http://web.archive.org/web/20170202071055/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-05T23:57:29Z",
+        "uri": "http://web.archive.org/web/20170205235729/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-07T03:35:07Z",
+        "uri": "http://web.archive.org/web/20170207033507/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-07T04:11:31Z",
+        "uri": "http://web.archive.org/web/20170207041131/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-07T04:11:59Z",
+        "uri": "http://web.archive.org/web/20170207041159/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-10T22:12:03Z",
+        "uri": "http://web.archive.org/web/20170210221203/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-10T22:12:39Z",
+        "uri": "http://web.archive.org/web/20170210221239/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-12T09:27:54Z",
+        "uri": "http://web.archive.org/web/20170212092754/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-12T09:28:01Z",
+        "uri": "http://web.archive.org/web/20170212092801/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-12T10:36:37Z",
+        "uri": "http://web.archive.org/web/20170212103637/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-12T10:37:35Z",
+        "uri": "http://web.archive.org/web/20170212103735/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-14T10:50:55Z",
+        "uri": "http://web.archive.org/web/20170214105055/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-14T13:04:39Z",
+        "uri": "http://web.archive.org/web/20170214130439/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-14T13:04:51Z",
+        "uri": "http://web.archive.org/web/20170214130451/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-15T13:21:18Z",
+        "uri": "http://web.archive.org/web/20170215132118/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-15T13:21:29Z",
+        "uri": "http://web.archive.org/web/20170215132129/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-15T15:11:41Z",
+        "uri": "http://web.archive.org/web/20170215151141/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-15T15:12:10Z",
+        "uri": "http://web.archive.org/web/20170215151210/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-16T23:22:46Z",
+        "uri": "http://web.archive.org/web/20170216232246/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-16T23:22:54Z",
+        "uri": "http://web.archive.org/web/20170216232254/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-18T00:04:59Z",
+        "uri": "http://web.archive.org/web/20170218000459/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-18T04:01:23Z",
+        "uri": "http://web.archive.org/web/20170218040123/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-18T04:01:46Z",
+        "uri": "http://web.archive.org/web/20170218040146/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-21T04:19:29Z",
+        "uri": "http://web.archive.org/web/20170221041929/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-22T11:50:43Z",
+        "uri": "http://web.archive.org/web/20170222115043/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-22T11:51:22Z",
+        "uri": "http://web.archive.org/web/20170222115122/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-22T19:43:21Z",
+        "uri": "http://web.archive.org/web/20170222194321/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-23T13:38:51Z",
+        "uri": "http://web.archive.org/web/20170223133851/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-24T16:29:20Z",
+        "uri": "http://web.archive.org/web/20170224162920/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-27T03:48:41Z",
+        "uri": "http://web.archive.org/web/20170227034841/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-27T06:32:46Z",
+        "uri": "http://web.archive.org/web/20170227063246/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-02-27T06:32:56Z",
+        "uri": "http://web.archive.org/web/20170227063256/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-03-10T09:21:01Z",
+        "uri": "http://web.archive.org/web/20170310092101/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-03-18T10:46:42Z",
+        "uri": "http://web.archive.org/web/20170318104642/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-03-24T14:11:50Z",
+        "uri": "http://web.archive.org/web/20170324141150/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-05T02:54:43Z",
+        "uri": "http://web.archive.org/web/20170405025443/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-08T10:43:26Z",
+        "uri": "http://web.archive.org/web/20170408104326/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-08T15:40:34Z",
+        "uri": "http://web.archive.org/web/20170408154034/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-09T11:26:04Z",
+        "uri": "http://web.archive.org/web/20170409112604/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-09T15:05:29Z",
+        "uri": "http://web.archive.org/web/20170409150529/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-10T11:48:09Z",
+        "uri": "http://web.archive.org/web/20170410114809/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-10T16:50:27Z",
+        "uri": "http://web.archive.org/web/20170410165027/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-12T03:27:01Z",
+        "uri": "http://web.archive.org/web/20170412032701/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-22T02:49:57Z",
+        "uri": "http://web.archive.org/web/20170422024957/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-22T14:28:45Z",
+        "uri": "http://web.archive.org/web/20170422142845/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-23T03:18:22Z",
+        "uri": "http://web.archive.org/web/20170423031822/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-23T10:43:25Z",
+        "uri": "http://web.archive.org/web/20170423104325/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-24T04:07:30Z",
+        "uri": "http://web.archive.org/web/20170424040730/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-25T20:35:35Z",
+        "uri": "http://wayback.archive-it.org/all/20170425203535/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-25T20:35:35Z",
+        "uri": "http://web.archive.org/web/20170425203535/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-25T21:55:41Z",
+        "uri": "http://wayback.archive-it.org/all/20170425215541/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-25T21:55:41Z",
+        "uri": "http://web.archive.org/web/20170425215541/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-28T00:34:47Z",
+        "uri": "http://web.archive.org/web/20170428003447/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-04-29T13:58:05Z",
+        "uri": "http://web.archive.org/web/20170429135805/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-04T06:49:10Z",
+        "uri": "http://web.archive.org/web/20170504064910/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-05T17:52:46Z",
+        "uri": "http://web.archive.org/web/20170505175246/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-06T03:27:36Z",
+        "uri": "http://web.archive.org/web/20170506032736/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-07T03:00:29Z",
+        "uri": "http://web.archive.org/web/20170507030029/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-08T05:10:31Z",
+        "uri": "http://web.archive.org/web/20170508051031/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-09T04:04:21Z",
+        "uri": "http://web.archive.org/web/20170509040421/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-10T03:54:19Z",
+        "uri": "http://web.archive.org/web/20170510035419/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-10T16:47:13Z",
+        "uri": "http://web.archive.org/web/20170510164713/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-11T06:31:27Z",
+        "uri": "http://web.archive.org/web/20170511063127/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-12T08:13:37Z",
+        "uri": "http://web.archive.org/web/20170512081337/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-13T09:07:12Z",
+        "uri": "http://web.archive.org/web/20170513090712/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-14T05:45:21Z",
+        "uri": "http://web.archive.org/web/20170514054521/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-15T07:26:09Z",
+        "uri": "http://web.archive.org/web/20170515072609/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-15T14:42:47Z",
+        "uri": "http://web.archive.org/web/20170515144247/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-15T14:42:49Z",
+        "uri": "http://web.archive.org/web/20170515144249/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-16T05:27:16Z",
+        "uri": "http://web.archive.org/web/20170516052716/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-17T01:10:23Z",
+        "uri": "http://web.archive.org/web/20170517011023/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-17T02:34:00Z",
+        "uri": "http://web.archive.org/web/20170517023400/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-17T03:53:58Z",
+        "uri": "http://web.archive.org/web/20170517035358/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-18T04:56:39Z",
+        "uri": "http://web.archive.org/web/20170518045639/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-19T04:14:44Z",
+        "uri": "http://web.archive.org/web/20170519041444/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-23T20:18:25Z",
+        "uri": "http://wayback.archive-it.org/all/20170523201825/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-23T20:18:25Z",
+        "uri": "http://web.archive.org/web/20170523201825/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-24T07:46:38Z",
+        "uri": "http://wayback.archive-it.org/all/20170524074638/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-24T07:46:38Z",
+        "uri": "http://web.archive.org/web/20170524074638/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-24T20:41:28Z",
+        "uri": "http://wayback.archive-it.org/all/20170524204128/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-24T20:41:28Z",
+        "uri": "http://web.archive.org/web/20170524204128/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-05-25T09:36:45Z",
+        "uri": "http://web.archive.org/web/20170525093645/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-06-04T05:02:50Z",
+        "uri": "http://web.archive.org/web/20170604050250/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-06-04T05:02:50Z",
+        "uri": "http://web.archive.org/web/20170604050250/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-06-13T08:46:24Z",
+        "uri": "http://wayback.archive-it.org/all/20170613084624/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-06-13T08:46:24Z",
+        "uri": "http://web.archive.org/web/20170613084624/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-07-07T15:59:15Z",
+        "uri": "http://web.archive.org/web/20170707155915/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-07-07T15:59:15Z",
+        "uri": "http://web.archive.org/web/20170707155915/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-07-20T21:32:33Z",
+        "uri": "http://web.archive.org/web/20170720213233/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-07-25T05:49:14Z",
+        "uri": "http://web.archive.org/web/20170725054914/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-08-06T19:53:00Z",
+        "uri": "http://web.archive.org/web/20170806195300/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-08-23T04:29:11Z",
+        "uri": "http://web.archive.org/web/20170823042911/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-08-23T04:29:11Z",
+        "uri": "http://web.archive.org/web/20170823042911/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-09-11T23:25:09Z",
+        "uri": "http://web.archive.org/web/20170911232509/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-09-22T14:31:02Z",
+        "uri": "http://web.archive.org/web/20170922143102/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-09-22T14:31:02Z",
+        "uri": "http://web.archive.org/web/20170922143102/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-10-10T11:05:53Z",
+        "uri": "http://web.archive.org/web/20171010110553/https://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-10-12T13:44:04Z",
+        "uri": "http://web.archive.org/web/20171012134404/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-10-24T01:10:35Z",
+        "uri": "http://web.archive.org/web/20171024011035/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-10-24T01:10:35Z",
+        "uri": "http://web.archive.org/web/20171024011035/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-11-02T13:22:46Z",
+        "uri": "http://web.archive.org/web/20171102132246/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-19T09:10:38Z",
+        "uri": "http://web.archive.org/web/20171119091038/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-20T16:05:35Z",
+        "uri": "http://wayback.archive-it.org/all/20171120160535/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-20T16:05:35Z",
+        "uri": "http://web.archive.org/web/20171120160535/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-20T21:15:17Z",
+        "uri": "http://web.archive.org/web/20171120211517/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-22T05:21:04Z",
+        "uri": "http://web.archive.org/web/20171122052104/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-24T06:10:14Z",
+        "uri": "http://web.archive.org/web/20171124061014/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-25T08:45:38Z",
+        "uri": "http://web.archive.org/web/20171125084538/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-25T15:37:59Z",
+        "uri": "http://web.archive.org/web/20171125153759/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-25T15:37:59Z",
+        "uri": "http://web.archive.org/web/20171125153759/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-11-26T23:19:25Z",
+        "uri": "http://web.archive.org/web/20171126231925/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-11-28T06:14:38Z",
+        "uri": "http://web.archive.org/web/20171128061438/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-05T09:00:24Z",
+        "uri": "http://web.archive.org/web/20171205090024/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-06T09:25:12Z",
+        "uri": "http://web.archive.org/web/20171206092512/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-07T09:46:47Z",
+        "uri": "http://web.archive.org/web/20171207094647/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-08T13:33:26Z",
+        "uri": "http://web.archive.org/web/20171208133326/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-25T09:48:01Z",
+        "uri": "http://wayback.archive-it.org/all/20171225094801/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-25T09:48:01Z",
+        "uri": "http://web.archive.org/web/20171225094801/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-27T07:11:12Z",
+        "uri": "http://web.archive.org/web/20171227071112/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-28T08:39:40Z",
+        "uri": "http://web.archive.org/web/20171228083940/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-28T08:39:40Z",
+        "uri": "http://web.archive.org/web/20171228083940/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2017-12-28T17:02:52Z",
+        "uri": "http://web.archive.org/web/20171228170252/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-30T03:58:54Z",
+        "uri": "http://web.archive.org/web/20171230035854/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2017-12-31T21:11:04Z",
+        "uri": "http://web.archive.org/web/20171231211104/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-07T20:31:15Z",
+        "uri": "http://web.archive.org/web/20180107203115/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-08T14:23:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180108142300/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-08T14:23:00Z",
+        "uri": "http://web.archive.org/web/20180108142300/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-25T17:11:36Z",
+        "uri": "http://web.archive.org/web/20180125171136/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-26T08:29:04Z",
+        "uri": "http://web.archive.org/web/20180126082904/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-30T21:55:00Z",
+        "uri": "http://web.archive.org/web/20180130215500/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-01-30T21:55:00Z",
+        "uri": "http://web.archive.org/web/20180130215500/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2018-02-05T15:07:53Z",
+        "uri": "http://web.archive.org/web/20180205150753/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-02-16T07:02:23Z",
+        "uri": "http://web.archive.org/web/20180216070223/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-02-17T19:04:26Z",
+        "uri": "http://web.archive.org/web/20180217190426/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-02-23T16:39:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180223163944/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-02-23T16:39:44Z",
+        "uri": "http://web.archive.org/web/20180223163944/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-02T20:16:53Z",
+        "uri": "http://web.archive.org/web/20180302201653/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-03T20:25:42Z",
+        "uri": "http://web.archive.org/web/20180303202542/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-03T20:25:42Z",
+        "uri": "http://web.archive.org/web/20180303202542/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2018-03-05T11:26:31Z",
+        "uri": "http://web.archive.org/web/20180305112631/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-05T12:14:38Z",
+        "uri": "http://web.archive.org/web/20180305121438/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-09T22:11:19Z",
+        "uri": "http://web.archive.org/web/20180309221119/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-17T14:13:22Z",
+        "uri": "http://web.archive.org/web/20180317141322/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-03-29T06:21:27Z",
+        "uri": "http://web.archive.org/web/20180329062127/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-01T20:33:22Z",
+        "uri": "http://web.archive.org/web/20180401203322/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-01T22:05:17Z",
+        "uri": "http://web.archive.org/web/20180401220517/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-01T23:28:53Z",
+        "uri": "http://web.archive.org/web/20180401232853/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-05T12:23:51Z",
+        "uri": "http://web.archive.org/web/20180405122351/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-05T12:23:51Z",
+        "uri": "http://web.archive.org/web/20180405122351/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2018-04-10T12:03:33Z",
+        "uri": "http://web.archive.org/web/20180410120333/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-13T07:56:46Z",
+        "uri": "http://web.archive.org/web/20180413075646/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-14T08:44:33Z",
+        "uri": "http://web.archive.org/web/20180414084433/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-15T10:24:52Z",
+        "uri": "http://web.archive.org/web/20180415102452/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-17T12:11:08Z",
+        "uri": "http://web.archive.org/web/20180417121108/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-19T14:16:33Z",
+        "uri": "http://web.archive.org/web/20180419141633/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-20T20:40:54Z",
+        "uri": "http://web.archive.org/web/20180420204054/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-04-23T23:09:19Z",
+        "uri": "http://web.archive.org/web/20180423230919/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-01T21:27:04Z",
+        "uri": "http://web.archive.org/web/20180501212704/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-02T23:14:53Z",
+        "uri": "http://web.archive.org/web/20180502231453/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-04T00:40:31Z",
+        "uri": "http://web.archive.org/web/20180504004031/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-05T01:54:55Z",
+        "uri": "http://web.archive.org/web/20180505015455/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-08T00:59:00Z",
+        "uri": "http://web.archive.org/web/20180508005900/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-10T14:16:58Z",
+        "uri": "http://web.archive.org/web/20180510141658/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-05-11T01:50:25Z",
+        "uri": "http://web.archive.org/web/20180511015025/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-06-08T15:38:40Z",
+        "uri": "http://web.archive.org/web/20180608153840/http://time.com:80/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-06-08T15:38:40Z",
+        "uri": "http://web.archive.org/web/20180608153840/http://time.com:80/4465744/donald-trump-undocumented-workers"
+      },
+      {
+        "datetime": "2018-10-12T12:21:58Z",
+        "uri": "http://web.archive.org/web/20181012122158/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-11-14T05:20:16Z",
+        "uri": "http://web.archive.org/web/20181114052016/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-12-09T07:06:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181209070647/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-12-09T07:06:47Z",
+        "uri": "http://web.archive.org/web/20181209070647/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-12-12T07:08:44Z",
+        "uri": "http://web.archive.org/web/20181212070844/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-12-19T12:47:51Z",
+        "uri": "http://web.archive.org/web/20181219124751/http://time.com/4465744/donald-trump-undocumented-workers/"
+      },
+      {
+        "datetime": "2018-12-19T12:47:59Z",
+        "uri": "http://web.archive.org/web/20181219124759/http://time.com/4465744/donald-trump-undocumented-workers/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-08-25T12:15:16Z",
+      "uri": "http://web.archive.org/web/20160825121516/http://time.com/4465744/donald-trump-undocumented-workers/"
+    },
+    "last": {
+      "datetime": "2018-12-19T12:47:59Z",
+      "uri": "http://web.archive.org/web/20181219124759/http://time.com/4465744/donald-trump-undocumented-workers/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://time.com/4465744/donald-trump-undocumented-workers/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://time.com/4465744/donald-trump-undocumented-workers/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://time.com/4465744/donald-trump-undocumented-workers/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://time.com/4465744/donald-trump-undocumented-workers/"
+}

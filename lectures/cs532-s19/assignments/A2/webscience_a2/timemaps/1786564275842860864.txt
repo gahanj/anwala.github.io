@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T04:47:00Z",
+        "uri": "http://web.archive.org/web/20190208044700/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T04:47:00Z",
+      "uri": "http://web.archive.org/web/20190208044700/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump"
+    },
+    "last": {
+      "datetime": "2019-02-08T04:47:00Z",
+      "uri": "http://web.archive.org/web/20190208044700/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.straitstimes.com/world/united-states/us-may-declare-isis-defeated-soon-says-trump"
+}

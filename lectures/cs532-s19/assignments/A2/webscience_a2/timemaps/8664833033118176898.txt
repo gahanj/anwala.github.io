@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://cityofinvestment.com/investment/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cityofinvestment.com/investment/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-16T02:12:45Z",
+        "uri": "http://web.archive.org/web/20181116021245/https://cityofinvestment.com/investment/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-16T02:12:45Z",
+      "uri": "http://web.archive.org/web/20181116021245/https://cityofinvestment.com/investment/"
+    },
+    "last": {
+      "datetime": "2018-11-16T02:12:45Z",
+      "uri": "http://web.archive.org/web/20181116021245/https://cityofinvestment.com/investment/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cityofinvestment.com/investment/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cityofinvestment.com/investment/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cityofinvestment.com/investment/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cityofinvestment.com/investment/"
+}

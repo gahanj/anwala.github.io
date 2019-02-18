@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-31T01:19:40Z",
+        "uri": "http://web.archive.org/web/20190131011940/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-31T01:19:40Z",
+      "uri": "http://web.archive.org/web/20190131011940/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30"
+    },
+    "last": {
+      "datetime": "2019-01-31T01:19:40Z",
+      "uri": "http://web.archive.org/web/20190131011940/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.marketwatch.com/story/trump-couldnt-get-his-border-wall-but-is-getting-a-sea-of-fed-liquidity-2019-01-30"
+}

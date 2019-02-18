@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T00:03:31Z",
+        "uri": "http://web.archive.org/web/20190206000331/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change"
+      },
+      {
+        "datetime": "2019-02-07T20:10:11Z",
+        "uri": "http://web.archive.org/web/20190207201011/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T00:03:31Z",
+      "uri": "http://web.archive.org/web/20190206000331/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change"
+    },
+    "last": {
+      "datetime": "2019-02-07T20:10:11Z",
+      "uri": "http://web.archive.org/web/20190207201011/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vox.com/2019/2/5/18207337/state-of-the-union-2019-climate-change"
+}

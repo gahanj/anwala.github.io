@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T04:53:55Z",
+        "uri": "http://web.archive.org/web/20190208045355/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+      },
+      {
+        "datetime": "2019-02-08T05:52:39Z",
+        "uri": "http://web.archive.org/web/20190208055239/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+      },
+      {
+        "datetime": "2019-02-08T07:58:18Z",
+        "uri": "http://web.archive.org/web/20190208075818/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+      },
+      {
+        "datetime": "2019-02-08T09:03:37Z",
+        "uri": "http://web.archive.org/web/20190208090337/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+      },
+      {
+        "datetime": "2019-02-08T12:14:40Z",
+        "uri": "http://web.archive.org/web/20190208121440/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T04:53:55Z",
+      "uri": "http://web.archive.org/web/20190208045355/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+    },
+    "last": {
+      "datetime": "2019-02-08T12:14:40Z",
+      "uri": "http://web.archive.org/web/20190208121440/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://sputniknews.com/us/201902081072232782-trump-doesnt-follow-diet-doctors-orders/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T15:31:37Z",
+        "uri": "http://web.archive.org/web/20190208153137/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+      },
+      {
+        "datetime": "2019-02-08T15:33:34Z",
+        "uri": "http://archive.md/20190208153334/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+      },
+      {
+        "datetime": "2019-02-08T15:41:41Z",
+        "uri": "http://web.archive.org/web/20190208154141/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+      },
+      {
+        "datetime": "2019-02-08T15:52:31Z",
+        "uri": "http://web.archive.org/web/20190208155231/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T15:31:37Z",
+      "uri": "http://web.archive.org/web/20190208153137/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+    },
+    "last": {
+      "datetime": "2019-02-08T15:52:31Z",
+      "uri": "http://web.archive.org/web/20190208155231/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnbc.com/2019/02/08/trump-order-rosenstein-to-write-comey-firing-memo-mccabe-book-says.html"
+}

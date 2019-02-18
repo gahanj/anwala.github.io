@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T22:55:13Z",
+        "uri": "http://web.archive.org/web/20190209225513/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-09T23:46:12Z",
+        "uri": "http://web.archive.org/web/20190209234612/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T00:00:01Z",
+        "uri": "http://archive.md/20190210000001/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T00:10:36Z",
+        "uri": "http://web.archive.org/web/20190210001036/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T00:27:56Z",
+        "uri": "http://web.archive.org/web/20190210002756/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T03:55:11Z",
+        "uri": "http://web.archive.org/web/20190210035511/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T08:53:41Z",
+        "uri": "http://web.archive.org/web/20190210085341/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      },
+      {
+        "datetime": "2019-02-10T11:03:56Z",
+        "uri": "http://web.archive.org/web/20190210110356/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T22:55:13Z",
+      "uri": "http://web.archive.org/web/20190209225513/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:03:56Z",
+      "uri": "http://web.archive.org/web/20190210110356/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/videos/politics/2019/02/09/se-cupp-trump-warren-democratic-nominee-sot-nr-vpx.cnn"
+}

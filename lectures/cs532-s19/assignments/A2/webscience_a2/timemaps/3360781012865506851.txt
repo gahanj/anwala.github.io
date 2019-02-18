@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T07:50:25Z",
+        "uri": "http://web.archive.org/web/20190210075025/https://news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+      },
+      {
+        "datetime": "2019-02-10T07:50:29Z",
+        "uri": "http://web.archive.org/web/20190210075029/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+      },
+      {
+        "datetime": "2019-02-10T11:26:05Z",
+        "uri": "http://web.archive.org/web/20190210112605/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T07:50:25Z",
+      "uri": "http://web.archive.org/web/20190210075025/https://news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:26:05Z",
+      "uri": "http://web.archive.org/web/20190210112605/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.news.com.au/finance/work/leaders/donald-trump-undergoes-annual-health-check/news-story/ab63e7b2f26dbe61ece7f23091a5306e"
+}

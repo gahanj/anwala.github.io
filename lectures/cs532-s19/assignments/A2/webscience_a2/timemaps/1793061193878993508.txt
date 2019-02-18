@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:08:16Z",
+        "uri": "http://web.archive.org/web/20190210000816/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:14:05Z",
+        "uri": "http://web.archive.org/web/20190210001405/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      },
+      {
+        "datetime": "2019-02-10T05:19:18Z",
+        "uri": "http://web.archive.org/web/20190210051918/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:08:16Z",
+      "uri": "http://web.archive.org/web/20190210000816/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:19:18Z",
+      "uri": "http://web.archive.org/web/20190210051918/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://us.cnn.com/2019/02/09/opinions/democrats-drowning-out-trump-tweets-zelizer/index.html"
+}

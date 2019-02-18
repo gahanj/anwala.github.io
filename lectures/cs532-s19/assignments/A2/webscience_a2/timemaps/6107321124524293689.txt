@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T12:26:04Z",
+        "uri": "http://web.archive.org/web/20190209122604/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+      },
+      {
+        "datetime": "2019-02-10T05:02:48Z",
+        "uri": "http://web.archive.org/web/20190210050248/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+      },
+      {
+        "datetime": "2019-02-10T05:51:38Z",
+        "uri": "http://web.archive.org/web/20190210055138/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+      },
+      {
+        "datetime": "2019-02-10T07:44:26Z",
+        "uri": "http://web.archive.org/web/20190210074426/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T12:26:04Z",
+      "uri": "http://web.archive.org/web/20190209122604/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:44:26Z",
+      "uri": "http://web.archive.org/web/20190210074426/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.lemonde.fr/international/article/2019/02/09/khashoggi-la-pression-monte-a-nouveau-sur-riyad-mais-trump-fait-la-sourde-oreille_5421314_3210.html"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:06:51Z",
+        "uri": "http://web.archive.org/web/20190210010651/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+      },
+      {
+        "datetime": "2019-02-10T02:56:29Z",
+        "uri": "http://web.archive.org/web/20190210025629/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+      },
+      {
+        "datetime": "2019-02-10T07:42:03Z",
+        "uri": "http://web.archive.org/web/20190210074203/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:06:51Z",
+      "uri": "http://web.archive.org/web/20190210010651/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:42:03Z",
+      "uri": "http://web.archive.org/web/20190210074203/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/campaign/429289-trump-mocks-warren-campaign-announcement-with-native-american-joke-see-you"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:52:44Z",
+        "uri": "http://web.archive.org/web/20190210145244/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:52:44Z",
+      "uri": "http://web.archive.org/web/20190210145244/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:52:44Z",
+      "uri": "http://web.archive.org/web/20190210145244/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.aljazeera.com/news/2019/02/african-union-fulfilling-mandate-190210082945436.html"
+}

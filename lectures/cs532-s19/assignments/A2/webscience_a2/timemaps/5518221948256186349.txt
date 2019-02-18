@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T16:47:10Z",
+        "uri": "http://web.archive.org/web/20190210164710/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T16:47:10Z",
+      "uri": "http://web.archive.org/web/20190210164710/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:47:10Z",
+      "uri": "http://web.archive.org/web/20190210164710/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://m.huffpost.com/us/entry/us_5c5fc94ae4b0910c63f13435/amp"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-16T06:32:51Z",
+        "uri": "http://web.archive.org/web/20181116063251/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-16T06:32:51Z",
+      "uri": "http://web.archive.org/web/20181116063251/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites"
+    },
+    "last": {
+      "datetime": "2018-11-16T06:32:51Z",
+      "uri": "http://web.archive.org/web/20181116063251/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.trumphotels.com/turnberry/accommodations/luxury-signature-suites"
+}

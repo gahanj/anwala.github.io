@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:50:38Z",
+        "uri": "http://web.archive.org/web/20190210145038/http://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+      },
+      {
+        "datetime": "2019-02-10T20:13:04Z",
+        "uri": "http://archive.md/20190210201304/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+      },
+      {
+        "datetime": "2019-02-10T22:04:29Z",
+        "uri": "http://archive.md/20190210220429/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:50:38Z",
+      "uri": "http://web.archive.org/web/20190210145038/http://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T22:04:29Z",
+      "uri": "http://archive.md/20190210220429/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.latimes.com/opinion/op-ed/la-oe-almond-how-comics-support-trump-20190210-story.html"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T00:40:18Z",
+        "uri": "http://web.archive.org/web/20190209004018/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+      },
+      {
+        "datetime": "2019-02-10T01:04:42Z",
+        "uri": "http://web.archive.org/web/20190210010442/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+      },
+      {
+        "datetime": "2019-02-10T04:36:57Z",
+        "uri": "http://archive.md/20190210043657/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+      },
+      {
+        "datetime": "2019-02-10T05:42:07Z",
+        "uri": "http://web.archive.org/web/20190210054207/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T00:40:18Z",
+      "uri": "http://web.archive.org/web/20190209004018/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:42:07Z",
+      "uri": "http://web.archive.org/web/20190210054207/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/08/trump-jamal-khashoggi-1159502"
+}

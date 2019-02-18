@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T08:07:27Z",
+        "uri": "http://web.archive.org/web/20190210080727/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+      },
+      {
+        "datetime": "2019-02-10T10:22:40Z",
+        "uri": "http://web.archive.org/web/20190210102240/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+      },
+      {
+        "datetime": "2019-02-10T10:50:10Z",
+        "uri": "http://web.archive.org/web/20190210105010/https://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+      },
+      {
+        "datetime": "2019-02-10T14:55:03Z",
+        "uri": "http://web.archive.org/web/20190210145503/https://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T08:07:27Z",
+      "uri": "http://web.archive.org/web/20190210080727/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:55:03Z",
+      "uri": "http://web.archive.org/web/20190210145503/https://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.msn.com/en-us/news/politics/trump-appears-to-mock-trail-of-tears-in-tweet-about-senator-warrens-campaign-announcement/ar-BBTo8Dt"
+}

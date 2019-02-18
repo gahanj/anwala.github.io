@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:36:18Z",
+        "uri": "http://web.archive.org/web/20190209083618/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html"
+      },
+      {
+        "datetime": "2019-02-10T06:20:14Z",
+        "uri": "http://web.archive.org/web/20190210062014/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:36:18Z",
+      "uri": "http://web.archive.org/web/20190209083618/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T06:20:14Z",
+      "uri": "http://web.archive.org/web/20190210062014/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://elpais.com/economia/2019/02/08/actualidad/1549628451_450926.html"
+}

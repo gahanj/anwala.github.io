@@ -1,0 +1,606 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-08T20:22:03Z",
+        "uri": "http://web.archive.org/web/20190108202203/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-08T20:32:20Z",
+        "uri": "http://web.archive.org/web/20190108203220/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-08T20:44:18Z",
+        "uri": "http://web.archive.org/web/20190108204418/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-08T20:56:50Z",
+        "uri": "http://web.archive.org/web/20190108205650/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-08T21:18:42Z",
+        "uri": "http://archive.md/20190108211842/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-08T21:50:41Z",
+        "uri": "http://web.archive.org/web/20190108215041/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-08T21:51:09Z",
+        "uri": "http://archive.md/20190108215109/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T01:02:57Z",
+        "uri": "http://web.archive.org/web/20190109010257/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T01:19:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190109011902/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T01:19:02Z",
+        "uri": "http://web.archive.org/web/20190109011902/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T01:32:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190109013223/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T01:32:23Z",
+        "uri": "http://web.archive.org/web/20190109013223/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T01:50:52Z",
+        "uri": "http://web.archive.org/web/20190109015052/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T03:51:15Z",
+        "uri": "http://web.archive.org/web/20190109035115/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T07:45:49Z",
+        "uri": "http://web.archive.org/web/20190109074549/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T07:52:38Z",
+        "uri": "http://web.archive.org/web/20190109075238/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T08:43:13Z",
+        "uri": "http://web.archive.org/web/20190109084313/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T10:00:15Z",
+        "uri": "http://web.archive.org/web/20190109100015/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T10:10:42Z",
+        "uri": "http://web.archive.org/web/20190109101042/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T16:05:17Z",
+        "uri": "http://wayback.archive-it.org/all/20190109160517/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T16:05:17Z",
+        "uri": "http://web.archive.org/web/20190109160517/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T19:23:15Z",
+        "uri": "http://wayback.archive-it.org/all/20190109192315/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T19:23:15Z",
+        "uri": "http://web.archive.org/web/20190109192315/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T19:29:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190109192933/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T19:29:33Z",
+        "uri": "http://web.archive.org/web/20190109192933/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T19:56:01Z",
+        "uri": "http://archive.md/20190109195601/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-09T22:59:12Z",
+        "uri": "http://web.archive.org/web/20190109225912/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T01:30:49Z",
+        "uri": "http://wayback.archive-it.org/all/20190110013049/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T01:30:49Z",
+        "uri": "http://web.archive.org/web/20190110013049/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T01:41:51Z",
+        "uri": "http://web.archive.org/web/20190110014151/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T01:44:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190110014404/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T01:44:04Z",
+        "uri": "http://web.archive.org/web/20190110014404/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T07:38:17Z",
+        "uri": "http://web.archive.org/web/20190110073817/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T10:08:52Z",
+        "uri": "http://web.archive.org/web/20190110100852/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T16:11:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190110161156/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-10T16:11:56Z",
+        "uri": "http://web.archive.org/web/20190110161156/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T00:25:58Z",
+        "uri": "http://web.archive.org/web/20190111002558/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T02:33:53Z",
+        "uri": "http://web.archive.org/web/20190111023353/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T05:06:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190111050625/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T05:06:25Z",
+        "uri": "http://web.archive.org/web/20190111050625/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T05:15:29Z",
+        "uri": "http://web.archive.org/web/20190111051529/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T08:47:10Z",
+        "uri": "http://web.archive.org/web/20190111084710/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T12:32:20Z",
+        "uri": "http://web.archive.org/web/20190111123220/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T16:38:06Z",
+        "uri": "http://wayback.archive-it.org/all/20190111163806/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T16:38:06Z",
+        "uri": "http://web.archive.org/web/20190111163806/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T17:06:05Z",
+        "uri": "http://web.archive.org/web/20190111170605/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-11T22:29:37Z",
+        "uri": "http://web.archive.org/web/20190111222937/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T02:48:37Z",
+        "uri": "http://wayback.archive-it.org/all/20190112024837/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T02:48:37Z",
+        "uri": "http://web.archive.org/web/20190112024837/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T04:18:22Z",
+        "uri": "http://wayback.archive-it.org/all/20190112041822/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T04:18:22Z",
+        "uri": "http://web.archive.org/web/20190112041822/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T08:57:15Z",
+        "uri": "http://web.archive.org/web/20190112085715/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T15:30:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190112153043/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T15:30:43Z",
+        "uri": "http://web.archive.org/web/20190112153043/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-12T17:48:52Z",
+        "uri": "http://web.archive.org/web/20190112174852/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T01:00:37Z",
+        "uri": "http://web.archive.org/web/20190113010037/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T04:29:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190113042934/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T04:29:34Z",
+        "uri": "http://web.archive.org/web/20190113042934/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T06:48:27Z",
+        "uri": "http://web.archive.org/web/20190113064827/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T08:36:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190113083647/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T08:36:47Z",
+        "uri": "http://web.archive.org/web/20190113083647/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T14:34:34Z",
+        "uri": "http://web.archive.org/web/20190113143434/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-13T20:51:31Z",
+        "uri": "http://web.archive.org/web/20190113205131/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-14T02:48:36Z",
+        "uri": "http://web.archive.org/web/20190114024836/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-14T06:13:13Z",
+        "uri": "http://wayback.archive-it.org/all/20190114061313/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-14T06:13:13Z",
+        "uri": "http://web.archive.org/web/20190114061313/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-14T09:33:33Z",
+        "uri": "http://web.archive.org/web/20190114093333/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-14T15:05:07Z",
+        "uri": "http://web.archive.org/web/20190114150507/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-14T20:50:11Z",
+        "uri": "http://web.archive.org/web/20190114205011/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-15T00:58:57Z",
+        "uri": "http://web.archive.org/web/20190115005857/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-15T02:59:57Z",
+        "uri": "http://wayback.archive-it.org/all/20190115025957/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-15T02:59:57Z",
+        "uri": "http://web.archive.org/web/20190115025957/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-15T17:07:52Z",
+        "uri": "http://web.archive.org/web/20190115170752/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-16T02:49:45Z",
+        "uri": "http://web.archive.org/web/20190116024945/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-16T05:20:52Z",
+        "uri": "http://web.archive.org/web/20190116052052/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-16T08:26:15Z",
+        "uri": "http://web.archive.org/web/20190116082615/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-17T06:05:41Z",
+        "uri": "http://web.archive.org/web/20190117060541/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-17T09:34:33Z",
+        "uri": "http://web.archive.org/web/20190117093433/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-17T09:37:26Z",
+        "uri": "http://web.archive.org/web/20190117093726/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-17T18:24:27Z",
+        "uri": "http://web.archive.org/web/20190117182427/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-18T03:03:43Z",
+        "uri": "http://web.archive.org/web/20190118030343/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-18T08:38:33Z",
+        "uri": "http://web.archive.org/web/20190118083833/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-18T09:44:47Z",
+        "uri": "http://web.archive.org/web/20190118094447/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-18T10:36:08Z",
+        "uri": "http://web.archive.org/web/20190118103608/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-18T22:24:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190118222443/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-18T22:24:43Z",
+        "uri": "http://web.archive.org/web/20190118222443/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-19T10:18:09Z",
+        "uri": "http://web.archive.org/web/20190119101809/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-19T14:09:42Z",
+        "uri": "http://web.archive.org/web/20190119140942/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-19T15:12:19Z",
+        "uri": "http://web.archive.org/web/20190119151219/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-19T19:20:20Z",
+        "uri": "http://web.archive.org/web/20190119192020/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-19T22:01:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190119220146/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-19T22:01:46Z",
+        "uri": "http://web.archive.org/web/20190119220146/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-20T11:11:15Z",
+        "uri": "http://web.archive.org/web/20190120111115/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-20T15:24:40Z",
+        "uri": "http://web.archive.org/web/20190120152440/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-20T21:52:28Z",
+        "uri": "http://wayback.archive-it.org/all/20190120215228/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-20T21:52:28Z",
+        "uri": "http://web.archive.org/web/20190120215228/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-21T11:33:31Z",
+        "uri": "http://web.archive.org/web/20190121113331/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-21T11:39:52Z",
+        "uri": "http://web.archive.org/web/20190121113952/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-21T17:54:15Z",
+        "uri": "http://web.archive.org/web/20190121175415/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-22T07:26:09Z",
+        "uri": "http://wayback.archive-it.org/all/20190122072609/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-22T07:26:09Z",
+        "uri": "http://web.archive.org/web/20190122072609/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-22T12:35:17Z",
+        "uri": "http://web.archive.org/web/20190122123517/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T00:28:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190123002843/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T00:28:43Z",
+        "uri": "http://web.archive.org/web/20190123002843/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T09:00:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190123090042/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T09:00:42Z",
+        "uri": "http://web.archive.org/web/20190123090042/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T12:49:09Z",
+        "uri": "http://wayback.archive-it.org/all/20190123124909/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T12:49:09Z",
+        "uri": "http://web.archive.org/web/20190123124909/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T14:30:07Z",
+        "uri": "http://web.archive.org/web/20190123143007/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-23T17:32:21Z",
+        "uri": "http://web.archive.org/web/20190123173221/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-24T09:48:55Z",
+        "uri": "http://web.archive.org/web/20190124094855/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-24T13:34:38Z",
+        "uri": "http://wayback.archive-it.org/all/20190124133438/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-24T13:34:38Z",
+        "uri": "http://web.archive.org/web/20190124133438/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-24T15:48:15Z",
+        "uri": "http://web.archive.org/web/20190124154815/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-24T18:15:05Z",
+        "uri": "http://web.archive.org/web/20190124181505/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-25T02:38:51Z",
+        "uri": "http://web.archive.org/web/20190125023851/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-25T09:09:36Z",
+        "uri": "http://wayback.archive-it.org/all/20190125090936/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-25T09:09:36Z",
+        "uri": "http://web.archive.org/web/20190125090936/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-25T15:29:45Z",
+        "uri": "http://web.archive.org/web/20190125152945/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-25T16:32:15Z",
+        "uri": "http://web.archive.org/web/20190125163215/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-26T03:42:19Z",
+        "uri": "http://web.archive.org/web/20190126034219/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-26T09:46:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190126094624/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-26T09:46:24Z",
+        "uri": "http://web.archive.org/web/20190126094624/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-26T17:22:48Z",
+        "uri": "http://web.archive.org/web/20190126172248/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-26T17:24:13Z",
+        "uri": "http://web.archive.org/web/20190126172413/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-27T04:51:42Z",
+        "uri": "http://web.archive.org/web/20190127045142/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-27T12:56:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190127125656/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-27T12:56:56Z",
+        "uri": "http://web.archive.org/web/20190127125656/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-27T18:29:41Z",
+        "uri": "http://web.archive.org/web/20190127182941/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-27T21:09:23Z",
+        "uri": "http://web.archive.org/web/20190127210923/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-28T05:27:21Z",
+        "uri": "http://web.archive.org/web/20190128052721/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-28T10:08:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190128100843/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-28T10:08:43Z",
+        "uri": "http://web.archive.org/web/20190128100843/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-28T18:50:18Z",
+        "uri": "http://web.archive.org/web/20190128185018/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-28T20:32:11Z",
+        "uri": "http://web.archive.org/web/20190128203211/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-28T22:06:18Z",
+        "uri": "http://web.archive.org/web/20190128220618/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-29T03:58:48Z",
+        "uri": "http://web.archive.org/web/20190129035848/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-30T02:20:32Z",
+        "uri": "http://web.archive.org/web/20190130022032/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-30T12:36:30Z",
+        "uri": "http://web.archive.org/web/20190130123630/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-30T21:35:50Z",
+        "uri": "http://web.archive.org/web/20190130213550/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-31T03:05:30Z",
+        "uri": "http://web.archive.org/web/20190131030530/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-01-31T22:51:24Z",
+        "uri": "http://web.archive.org/web/20190131225124/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-02-01T12:15:28Z",
+        "uri": "http://web.archive.org/web/20190201121528/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-02-03T07:06:05Z",
+        "uri": "http://web.archive.org/web/20190203070605/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-02-03T14:14:42Z",
+        "uri": "http://web.archive.org/web/20190203141442/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      },
+      {
+        "datetime": "2019-02-08T14:13:31Z",
+        "uri": "http://web.archive.org/web/20190208141331/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-08T20:22:03Z",
+      "uri": "http://web.archive.org/web/20190108202203/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+    },
+    "last": {
+      "datetime": "2019-02-08T14:13:31Z",
+      "uri": "http://web.archive.org/web/20190208141331/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/01/08/us/politics/manafort-trump-campaign-data-kilimnik.html"
+}

@@ -1,0 +1,3242 @@
+{
+  "original_uri": "https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-07-25T01:07:49Z",
+        "uri": "http://archive.md/20180725010749/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T01:09:02Z",
+        "uri": "http://web.archive.org/web/20180725010902/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T01:20:29Z",
+        "uri": "http://web.archive.org/web/20180725012029/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T01:20:30Z",
+        "uri": "http://web.archive.org/web/20180725012030/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T01:29:15Z",
+        "uri": "http://web.archive.org/web/20180725012915/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T01:40:01Z",
+        "uri": "http://web.archive.org/web/20180725014001/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T01:51:26Z",
+        "uri": "http://web.archive.org/web/20180725015126/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T02:08:04Z",
+        "uri": "http://web.archive.org/web/20180725020804/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T02:21:54Z",
+        "uri": "http://web.archive.org/web/20180725022154/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T02:29:56Z",
+        "uri": "http://web.archive.org/web/20180725022956/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T02:30:52Z",
+        "uri": "http://web.archive.org/web/20180725023052/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T02:49:32Z",
+        "uri": "http://web.archive.org/web/20180725024932/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:01:14Z",
+        "uri": "http://web.archive.org/web/20180725030114/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:01:50Z",
+        "uri": "http://web.archive.org/web/20180725030150/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:02:33Z",
+        "uri": "http://archive.md/20180725030233/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:24:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180725032424/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:24:24Z",
+        "uri": "http://web.archive.org/web/20180725032424/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:31:24Z",
+        "uri": "http://web.archive.org/web/20180725033124/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T03:33:17Z",
+        "uri": "http://web.archive.org/web/20180725033317/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T04:06:19Z",
+        "uri": "http://web.archive.org/web/20180725040619/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T04:08:12Z",
+        "uri": "http://web.archive.org/web/20180725040812/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T04:28:30Z",
+        "uri": "http://web.archive.org/web/20180725042830/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T05:03:20Z",
+        "uri": "http://web.archive.org/web/20180725050320/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T05:38:24Z",
+        "uri": "http://web.archive.org/web/20180725053824/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T06:16:58Z",
+        "uri": "http://web.archive.org/web/20180725061658/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T06:52:05Z",
+        "uri": "http://web.archive.org/web/20180725065205/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T07:13:12Z",
+        "uri": "http://web.archive.org/web/20180725071312/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T07:27:31Z",
+        "uri": "http://web.archive.org/web/20180725072731/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T08:03:19Z",
+        "uri": "http://web.archive.org/web/20180725080319/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T08:39:07Z",
+        "uri": "http://web.archive.org/web/20180725083907/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T08:46:36Z",
+        "uri": "http://web.archive.org/web/20180725084636/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T09:13:03Z",
+        "uri": "http://web.archive.org/web/20180725091303/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T09:14:45Z",
+        "uri": "http://web.archive.org/web/20180725091445/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T09:50:02Z",
+        "uri": "http://web.archive.org/web/20180725095002/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T10:25:33Z",
+        "uri": "http://web.archive.org/web/20180725102533/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T10:51:39Z",
+        "uri": "http://web.archive.org/web/20180725105139/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T11:01:26Z",
+        "uri": "http://web.archive.org/web/20180725110126/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T11:38:15Z",
+        "uri": "http://web.archive.org/web/20180725113815/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T11:53:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180725115345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T11:53:45Z",
+        "uri": "http://web.archive.org/web/20180725115345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T12:00:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180725120041/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T12:00:41Z",
+        "uri": "http://web.archive.org/web/20180725120041/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T12:14:54Z",
+        "uri": "http://web.archive.org/web/20180725121454/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T12:51:45Z",
+        "uri": "http://web.archive.org/web/20180725125145/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T13:08:38Z",
+        "uri": "http://web.archive.org/web/20180725130838/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T13:27:37Z",
+        "uri": "http://web.archive.org/web/20180725132737/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T14:00:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180725140058/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T14:00:58Z",
+        "uri": "http://web.archive.org/web/20180725140058/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T14:03:51Z",
+        "uri": "http://web.archive.org/web/20180725140351/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T14:40:39Z",
+        "uri": "http://web.archive.org/web/20180725144039/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T15:19:42Z",
+        "uri": "http://web.archive.org/web/20180725151942/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T18:30:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180725183029/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T18:30:29Z",
+        "uri": "http://web.archive.org/web/20180725183029/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T20:15:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180725201530/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T20:15:30Z",
+        "uri": "http://web.archive.org/web/20180725201530/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T21:47:51Z",
+        "uri": "http://web.archive.org/web/20180725214751/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T22:19:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180725221928/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T22:19:28Z",
+        "uri": "http://web.archive.org/web/20180725221928/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T23:12:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180725231257/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T23:12:57Z",
+        "uri": "http://web.archive.org/web/20180725231257/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T23:13:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180725231355/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T23:13:55Z",
+        "uri": "http://web.archive.org/web/20180725231355/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-25T23:20:12Z",
+        "uri": "http://web.archive.org/web/20180725232012/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T00:51:49Z",
+        "uri": "http://web.archive.org/web/20180726005149/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:10:19Z",
+        "uri": "http://web.archive.org/web/20180726011019/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:17:59Z",
+        "uri": "http://web.archive.org/web/20180726011759/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:18:25Z",
+        "uri": "http://web.archive.org/web/20180726011825/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:21:32Z",
+        "uri": "http://web.archive.org/web/20180726012132/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:28:24Z",
+        "uri": "http://web.archive.org/web/20180726012824/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:43:23Z",
+        "uri": "http://web.archive.org/web/20180726014323/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T01:54:42Z",
+        "uri": "http://web.archive.org/web/20180726015442/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T02:00:33Z",
+        "uri": "http://web.archive.org/web/20180726020033/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T03:01:48Z",
+        "uri": "http://web.archive.org/web/20180726030148/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T03:44:19Z",
+        "uri": "http://web.archive.org/web/20180726034419/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T05:53:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180726055343/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T05:53:43Z",
+        "uri": "http://web.archive.org/web/20180726055343/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T06:06:05Z",
+        "uri": "http://web.archive.org/web/20180726060605/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T07:34:46Z",
+        "uri": "http://web.archive.org/web/20180726073446/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T19:07:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180726190701/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T19:07:01Z",
+        "uri": "http://web.archive.org/web/20180726190701/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T20:15:26Z",
+        "uri": "http://wayback.archive-it.org/all/20180726201526/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-26T20:15:26Z",
+        "uri": "http://web.archive.org/web/20180726201526/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T01:55:16Z",
+        "uri": "http://web.archive.org/web/20180727015516/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T02:17:27Z",
+        "uri": "http://web.archive.org/web/20180727021727/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T02:38:37Z",
+        "uri": "http://web.archive.org/web/20180727023837/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T02:43:07Z",
+        "uri": "http://web.archive.org/web/20180727024307/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T02:56:34Z",
+        "uri": "http://web.archive.org/web/20180727025634/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T03:01:43Z",
+        "uri": "http://web.archive.org/web/20180727030143/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T08:58:28Z",
+        "uri": "http://web.archive.org/web/20180727085828/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T20:00:52Z",
+        "uri": "http://web.archive.org/web/20180727200052/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T20:14:09Z",
+        "uri": "http://wayback.archive-it.org/all/20180727201409/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-27T20:14:09Z",
+        "uri": "http://web.archive.org/web/20180727201409/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T02:47:59Z",
+        "uri": "http://web.archive.org/web/20180728024759/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T02:49:14Z",
+        "uri": "http://web.archive.org/web/20180728024914/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T03:45:10Z",
+        "uri": "http://web.archive.org/web/20180728034510/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T03:52:59Z",
+        "uri": "http://web.archive.org/web/20180728035259/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T04:10:44Z",
+        "uri": "http://web.archive.org/web/20180728041044/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T04:12:47Z",
+        "uri": "http://web.archive.org/web/20180728041247/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T04:52:54Z",
+        "uri": "http://web.archive.org/web/20180728045254/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T05:01:15Z",
+        "uri": "http://web.archive.org/web/20180728050115/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T07:12:44Z",
+        "uri": "http://web.archive.org/web/20180728071244/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T08:01:29Z",
+        "uri": "http://web.archive.org/web/20180728080129/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T19:06:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180728190655/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T19:06:55Z",
+        "uri": "http://web.archive.org/web/20180728190655/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T20:12:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180728201205/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-28T20:12:05Z",
+        "uri": "http://web.archive.org/web/20180728201205/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T03:17:07Z",
+        "uri": "http://web.archive.org/web/20180729031707/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T03:32:29Z",
+        "uri": "http://web.archive.org/web/20180729033229/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T03:44:06Z",
+        "uri": "http://web.archive.org/web/20180729034406/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T03:45:37Z",
+        "uri": "http://web.archive.org/web/20180729034537/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T04:32:01Z",
+        "uri": "http://web.archive.org/web/20180729043201/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:10:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180729051044/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:10:44Z",
+        "uri": "http://web.archive.org/web/20180729051044/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:12:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180729051212/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:12:12Z",
+        "uri": "http://web.archive.org/web/20180729051212/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:21:44Z",
+        "uri": "http://web.archive.org/web/20180729052144/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:25:02Z",
+        "uri": "http://web.archive.org/web/20180729052502/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T05:28:50Z",
+        "uri": "http://web.archive.org/web/20180729052850/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T07:05:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180729070517/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T07:05:17Z",
+        "uri": "http://web.archive.org/web/20180729070517/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T09:00:01Z",
+        "uri": "http://web.archive.org/web/20180729090001/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T19:08:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180729190807/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T19:08:07Z",
+        "uri": "http://web.archive.org/web/20180729190807/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T20:13:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180729201353/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-29T20:13:53Z",
+        "uri": "http://web.archive.org/web/20180729201353/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T02:27:43Z",
+        "uri": "http://web.archive.org/web/20180730022743/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T04:12:07Z",
+        "uri": "http://web.archive.org/web/20180730041207/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T04:15:53Z",
+        "uri": "http://web.archive.org/web/20180730041553/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T04:16:49Z",
+        "uri": "http://web.archive.org/web/20180730041649/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T04:31:57Z",
+        "uri": "http://web.archive.org/web/20180730043157/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T04:38:30Z",
+        "uri": "http://web.archive.org/web/20180730043830/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T06:02:40Z",
+        "uri": "http://web.archive.org/web/20180730060240/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T06:05:04Z",
+        "uri": "http://web.archive.org/web/20180730060504/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T07:02:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180730070246/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T07:02:46Z",
+        "uri": "http://web.archive.org/web/20180730070246/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T07:20:56Z",
+        "uri": "http://web.archive.org/web/20180730072056/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T10:18:40Z",
+        "uri": "http://web.archive.org/web/20180730101840/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T12:29:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180730122936/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T12:29:36Z",
+        "uri": "http://web.archive.org/web/20180730122936/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T19:09:37Z",
+        "uri": "http://wayback.archive-it.org/all/20180730190937/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T19:09:37Z",
+        "uri": "http://web.archive.org/web/20180730190937/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T20:14:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180730201412/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-30T20:14:12Z",
+        "uri": "http://web.archive.org/web/20180730201412/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T05:12:51Z",
+        "uri": "http://web.archive.org/web/20180731051251/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T05:24:54Z",
+        "uri": "http://web.archive.org/web/20180731052454/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T06:07:53Z",
+        "uri": "http://web.archive.org/web/20180731060753/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T06:28:39Z",
+        "uri": "http://web.archive.org/web/20180731062839/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T11:47:39Z",
+        "uri": "http://web.archive.org/web/20180731114739/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T13:01:28Z",
+        "uri": "http://web.archive.org/web/20180731130128/http://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T13:01:29Z",
+        "uri": "http://web.archive.org/web/20180731130129/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T20:23:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180731202344/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-07-31T20:23:44Z",
+        "uri": "http://web.archive.org/web/20180731202344/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-01T06:50:51Z",
+        "uri": "http://web.archive.org/web/20180801065051/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-01T13:08:26Z",
+        "uri": "http://web.archive.org/web/20180801130826/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-01T13:13:24Z",
+        "uri": "http://web.archive.org/web/20180801131324/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-01T21:02:33Z",
+        "uri": "http://wayback.archive-it.org/all/20180801210233/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-01T21:02:33Z",
+        "uri": "http://web.archive.org/web/20180801210233/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-02T06:36:41Z",
+        "uri": "http://web.archive.org/web/20180802063641/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-02T07:16:13Z",
+        "uri": "http://web.archive.org/web/20180802071613/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-02T12:21:24Z",
+        "uri": "http://web.archive.org/web/20180802122124/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-02T13:24:24Z",
+        "uri": "http://web.archive.org/web/20180802132424/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-02T21:05:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180802210516/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-02T21:05:16Z",
+        "uri": "http://web.archive.org/web/20180802210516/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-03T16:57:05Z",
+        "uri": "http://web.archive.org/web/20180803165705/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-03T20:23:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180803202312/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-03T20:23:12Z",
+        "uri": "http://web.archive.org/web/20180803202312/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-04T13:58:55Z",
+        "uri": "http://web.archive.org/web/20180804135855/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-04T18:03:45Z",
+        "uri": "http://web.archive.org/web/20180804180345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-04T18:16:47Z",
+        "uri": "http://web.archive.org/web/20180804181647/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-04T20:15:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180804201524/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-04T20:15:24Z",
+        "uri": "http://web.archive.org/web/20180804201524/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-05T13:48:01Z",
+        "uri": "http://web.archive.org/web/20180805134801/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-05T18:44:06Z",
+        "uri": "http://web.archive.org/web/20180805184406/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-05T20:13:29Z",
+        "uri": "http://wayback.archive-it.org/all/20180805201329/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-05T20:13:29Z",
+        "uri": "http://web.archive.org/web/20180805201329/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-05T21:09:34Z",
+        "uri": "http://web.archive.org/web/20180805210934/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-06T13:37:36Z",
+        "uri": "http://web.archive.org/web/20180806133736/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-06T20:29:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180806202922/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-06T20:29:22Z",
+        "uri": "http://web.archive.org/web/20180806202922/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-06T23:31:52Z",
+        "uri": "http://web.archive.org/web/20180806233152/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-07T00:51:07Z",
+        "uri": "http://web.archive.org/web/20180807005107/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-07T18:44:36Z",
+        "uri": "http://web.archive.org/web/20180807184436/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-07T20:18:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180807201813/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-07T20:18:13Z",
+        "uri": "http://web.archive.org/web/20180807201813/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-08T20:21:23Z",
+        "uri": "http://wayback.archive-it.org/all/20180808202123/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-08T20:21:23Z",
+        "uri": "http://web.archive.org/web/20180808202123/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-09T02:33:01Z",
+        "uri": "http://web.archive.org/web/20180809023301/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-09T05:48:49Z",
+        "uri": "http://web.archive.org/web/20180809054849/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-09T09:07:21Z",
+        "uri": "http://web.archive.org/web/20180809090721/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-09T20:23:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180809202339/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-09T20:23:39Z",
+        "uri": "http://web.archive.org/web/20180809202339/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-10T20:25:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180810202512/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-10T20:25:12Z",
+        "uri": "http://web.archive.org/web/20180810202512/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-11T20:24:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180811202448/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-11T20:24:48Z",
+        "uri": "http://web.archive.org/web/20180811202448/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-12T20:27:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180812202727/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-12T20:27:27Z",
+        "uri": "http://web.archive.org/web/20180812202727/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-13T20:24:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180813202406/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-13T20:24:06Z",
+        "uri": "http://web.archive.org/web/20180813202406/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-14T20:29:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180814202930/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-14T20:29:30Z",
+        "uri": "http://web.archive.org/web/20180814202930/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-14T23:56:44Z",
+        "uri": "http://web.archive.org/web/20180814235644/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-15T15:07:12Z",
+        "uri": "http://web.archive.org/web/20180815150712/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-15T16:57:32Z",
+        "uri": "http://web.archive.org/web/20180815165732/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-15T20:26:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180815202621/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-15T20:26:21Z",
+        "uri": "http://web.archive.org/web/20180815202621/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-15T20:53:11Z",
+        "uri": "http://web.archive.org/web/20180815205311/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-16T03:10:59Z",
+        "uri": "http://web.archive.org/web/20180816031059/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-16T19:03:33Z",
+        "uri": "http://web.archive.org/web/20180816190333/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-16T20:28:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180816202808/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-16T20:28:08Z",
+        "uri": "http://web.archive.org/web/20180816202808/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-16T22:13:28Z",
+        "uri": "http://web.archive.org/web/20180816221328/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-17T00:17:17Z",
+        "uri": "http://web.archive.org/web/20180817001717/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-17T20:28:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180817202828/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-17T20:28:28Z",
+        "uri": "http://web.archive.org/web/20180817202828/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-18T02:49:39Z",
+        "uri": "http://web.archive.org/web/20180818024939/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-18T04:05:09Z",
+        "uri": "http://web.archive.org/web/20180818040509/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-18T20:24:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180818202447/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-18T20:24:47Z",
+        "uri": "http://web.archive.org/web/20180818202447/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-19T03:00:53Z",
+        "uri": "http://web.archive.org/web/20180819030053/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-19T20:24:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180819202442/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-19T20:24:42Z",
+        "uri": "http://web.archive.org/web/20180819202442/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-20T01:45:07Z",
+        "uri": "http://web.archive.org/web/20180820014507/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-20T20:38:50Z",
+        "uri": "http://wayback.archive-it.org/all/20180820203850/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-20T20:38:50Z",
+        "uri": "http://web.archive.org/web/20180820203850/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-21T02:38:01Z",
+        "uri": "http://web.archive.org/web/20180821023801/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-21T20:28:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180821202821/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-21T20:28:21Z",
+        "uri": "http://web.archive.org/web/20180821202821/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-22T00:38:15Z",
+        "uri": "http://web.archive.org/web/20180822003815/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-22T06:53:03Z",
+        "uri": "http://web.archive.org/web/20180822065303/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-22T08:29:35Z",
+        "uri": "http://web.archive.org/web/20180822082935/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-22T19:21:39Z",
+        "uri": "http://web.archive.org/web/20180822192139/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-22T20:34:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180822203453/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-22T20:34:53Z",
+        "uri": "http://web.archive.org/web/20180822203453/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T03:48:15Z",
+        "uri": "http://web.archive.org/web/20180823034815/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T04:26:53Z",
+        "uri": "http://web.archive.org/web/20180823042653/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T05:48:55Z",
+        "uri": "http://web.archive.org/web/20180823054855/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T07:17:42Z",
+        "uri": "http://web.archive.org/web/20180823071742/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T14:10:24Z",
+        "uri": "http://web.archive.org/web/20180823141024/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T19:37:46Z",
+        "uri": "http://web.archive.org/web/20180823193746/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T20:07:41Z",
+        "uri": "http://web.archive.org/web/20180823200741/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T20:32:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180823203200/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T20:32:00Z",
+        "uri": "http://web.archive.org/web/20180823203200/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-23T21:28:41Z",
+        "uri": "http://web.archive.org/web/20180823212841/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-24T20:16:51Z",
+        "uri": "http://web.archive.org/web/20180824201651/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-24T20:40:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180824204025/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-24T20:40:25Z",
+        "uri": "http://web.archive.org/web/20180824204025/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-25T03:18:36Z",
+        "uri": "http://web.archive.org/web/20180825031836/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-25T04:51:45Z",
+        "uri": "http://web.archive.org/web/20180825045145/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-25T13:04:29Z",
+        "uri": "http://web.archive.org/web/20180825130429/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-25T20:33:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180825203353/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-25T20:33:53Z",
+        "uri": "http://web.archive.org/web/20180825203353/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-26T01:43:54Z",
+        "uri": "http://web.archive.org/web/20180826014354/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-26T07:57:44Z",
+        "uri": "http://web.archive.org/web/20180826075744/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-26T20:24:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180826202420/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-26T20:24:20Z",
+        "uri": "http://web.archive.org/web/20180826202420/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-27T02:16:31Z",
+        "uri": "http://web.archive.org/web/20180827021631/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-27T04:24:59Z",
+        "uri": "http://web.archive.org/web/20180827042459/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-27T20:31:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180827203136/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-27T20:31:36Z",
+        "uri": "http://web.archive.org/web/20180827203136/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T03:43:44Z",
+        "uri": "http://web.archive.org/web/20180828034344/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T04:31:02Z",
+        "uri": "http://web.archive.org/web/20180828043102/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T05:51:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180828055104/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T05:51:04Z",
+        "uri": "http://web.archive.org/web/20180828055104/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T09:40:13Z",
+        "uri": "http://web.archive.org/web/20180828094013/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T20:43:09Z",
+        "uri": "http://wayback.archive-it.org/all/20180828204309/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-28T20:43:09Z",
+        "uri": "http://web.archive.org/web/20180828204309/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-29T02:57:14Z",
+        "uri": "http://web.archive.org/web/20180829025714/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-29T20:25:33Z",
+        "uri": "http://wayback.archive-it.org/all/20180829202533/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-29T20:25:33Z",
+        "uri": "http://web.archive.org/web/20180829202533/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-30T03:59:22Z",
+        "uri": "http://web.archive.org/web/20180830035922/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-30T05:40:50Z",
+        "uri": "http://web.archive.org/web/20180830054050/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-30T07:19:21Z",
+        "uri": "http://web.archive.org/web/20180830071921/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-30T20:24:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180830202417/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-30T20:24:17Z",
+        "uri": "http://web.archive.org/web/20180830202417/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-30T23:36:54Z",
+        "uri": "http://web.archive.org/web/20180830233654/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-31T10:08:57Z",
+        "uri": "http://web.archive.org/web/20180831100857/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-31T20:17:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180831201741/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-08-31T20:17:41Z",
+        "uri": "http://web.archive.org/web/20180831201741/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-01T06:03:53Z",
+        "uri": "http://web.archive.org/web/20180901060353/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-01T06:40:57Z",
+        "uri": "http://web.archive.org/web/20180901064057/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-01T20:15:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180901201535/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-01T20:15:35Z",
+        "uri": "http://web.archive.org/web/20180901201535/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-02T07:20:19Z",
+        "uri": "http://web.archive.org/web/20180902072019/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-02T20:05:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180902200548/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-02T20:05:48Z",
+        "uri": "http://web.archive.org/web/20180902200548/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-03T11:19:28Z",
+        "uri": "http://web.archive.org/web/20180903111928/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-03T20:08:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180903200807/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-03T20:08:07Z",
+        "uri": "http://web.archive.org/web/20180903200807/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-04T11:30:07Z",
+        "uri": "http://web.archive.org/web/20180904113007/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-04T20:22:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180904202228/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-04T20:22:28Z",
+        "uri": "http://web.archive.org/web/20180904202228/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-05T13:24:17Z",
+        "uri": "http://web.archive.org/web/20180905132417/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-05T20:23:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180905202343/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-05T20:23:43Z",
+        "uri": "http://web.archive.org/web/20180905202343/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-06T04:56:14Z",
+        "uri": "http://web.archive.org/web/20180906045614/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-06T10:50:31Z",
+        "uri": "http://web.archive.org/web/20180906105031/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-06T11:47:58Z",
+        "uri": "http://web.archive.org/web/20180906114758/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-06T20:21:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180906202143/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-06T20:21:43Z",
+        "uri": "http://web.archive.org/web/20180906202143/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-07T12:28:11Z",
+        "uri": "http://web.archive.org/web/20180907122811/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-07T20:20:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180907202052/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-07T20:20:52Z",
+        "uri": "http://web.archive.org/web/20180907202052/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-08T15:33:20Z",
+        "uri": "http://web.archive.org/web/20180908153320/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-08T20:19:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180908201921/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-08T20:19:21Z",
+        "uri": "http://web.archive.org/web/20180908201921/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-09T17:02:57Z",
+        "uri": "http://web.archive.org/web/20180909170257/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-09T20:03:23Z",
+        "uri": "http://wayback.archive-it.org/all/20180909200323/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-09T20:03:23Z",
+        "uri": "http://web.archive.org/web/20180909200323/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-10T20:17:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180910201711/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-10T20:17:11Z",
+        "uri": "http://web.archive.org/web/20180910201711/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-10T21:19:53Z",
+        "uri": "http://web.archive.org/web/20180910211953/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-11T19:48:34Z",
+        "uri": "http://web.archive.org/web/20180911194834/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-11T20:09:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180911200918/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-11T20:09:18Z",
+        "uri": "http://web.archive.org/web/20180911200918/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-12T19:18:07Z",
+        "uri": "http://web.archive.org/web/20180912191807/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-12T20:42:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180912204241/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-12T20:42:41Z",
+        "uri": "http://web.archive.org/web/20180912204241/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-12T22:06:47Z",
+        "uri": "http://web.archive.org/web/20180912220647/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-13T05:24:55Z",
+        "uri": "http://web.archive.org/web/20180913052455/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-13T19:18:24Z",
+        "uri": "http://web.archive.org/web/20180913191824/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-13T20:24:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180913202439/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-13T20:24:39Z",
+        "uri": "http://web.archive.org/web/20180913202439/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-13T22:22:36Z",
+        "uri": "http://web.archive.org/web/20180913222236/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-14T20:31:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180914203142/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-14T20:31:42Z",
+        "uri": "http://web.archive.org/web/20180914203142/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-14T22:59:23Z",
+        "uri": "http://web.archive.org/web/20180914225923/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-15T20:12:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180915201213/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-15T20:12:13Z",
+        "uri": "http://web.archive.org/web/20180915201213/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-16T00:37:36Z",
+        "uri": "http://web.archive.org/web/20180916003736/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-16T20:15:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180916201541/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-16T20:15:41Z",
+        "uri": "http://web.archive.org/web/20180916201541/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-16T23:05:47Z",
+        "uri": "http://web.archive.org/web/20180916230547/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-17T06:35:24Z",
+        "uri": "http://web.archive.org/web/20180917063524/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-17T20:21:19Z",
+        "uri": "http://wayback.archive-it.org/all/20180917202119/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-17T20:21:19Z",
+        "uri": "http://web.archive.org/web/20180917202119/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-17T23:07:43Z",
+        "uri": "http://web.archive.org/web/20180917230743/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-18T20:29:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180918202913/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-18T20:29:13Z",
+        "uri": "http://web.archive.org/web/20180918202913/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-19T00:41:07Z",
+        "uri": "http://web.archive.org/web/20180919004107/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-19T20:17:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180919201700/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-19T20:17:00Z",
+        "uri": "http://web.archive.org/web/20180919201700/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-20T02:08:11Z",
+        "uri": "http://web.archive.org/web/20180920020811/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-20T06:00:38Z",
+        "uri": "http://web.archive.org/web/20180920060038/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-20T20:35:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180920203554/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-20T20:35:54Z",
+        "uri": "http://web.archive.org/web/20180920203554/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-21T01:44:22Z",
+        "uri": "http://web.archive.org/web/20180921014422/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-21T20:46:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180921204607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-21T20:46:07Z",
+        "uri": "http://web.archive.org/web/20180921204607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-22T02:10:40Z",
+        "uri": "http://web.archive.org/web/20180922021040/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-22T20:35:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180922203518/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-22T20:35:18Z",
+        "uri": "http://web.archive.org/web/20180922203518/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-23T03:53:22Z",
+        "uri": "http://web.archive.org/web/20180923035322/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-23T20:26:59Z",
+        "uri": "http://wayback.archive-it.org/all/20180923202659/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-23T20:26:59Z",
+        "uri": "http://web.archive.org/web/20180923202659/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-24T01:46:08Z",
+        "uri": "http://web.archive.org/web/20180924014608/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-24T02:28:02Z",
+        "uri": "http://web.archive.org/web/20180924022802/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-24T20:39:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180924203953/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-24T20:39:53Z",
+        "uri": "http://web.archive.org/web/20180924203953/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-25T03:56:26Z",
+        "uri": "http://web.archive.org/web/20180925035626/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-25T21:25:42Z",
+        "uri": "http://wayback.archive-it.org/all/20180925212542/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-25T21:25:42Z",
+        "uri": "http://web.archive.org/web/20180925212542/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-26T03:31:29Z",
+        "uri": "http://web.archive.org/web/20180926033129/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-26T21:14:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180926211425/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-26T21:14:25Z",
+        "uri": "http://web.archive.org/web/20180926211425/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-27T04:00:19Z",
+        "uri": "http://web.archive.org/web/20180927040019/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-27T06:58:16Z",
+        "uri": "http://web.archive.org/web/20180927065816/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-27T09:29:34Z",
+        "uri": "http://web.archive.org/web/20180927092934/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-27T20:31:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180927203143/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-27T20:31:43Z",
+        "uri": "http://web.archive.org/web/20180927203143/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-28T09:02:23Z",
+        "uri": "http://web.archive.org/web/20180928090223/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-28T20:35:50Z",
+        "uri": "http://wayback.archive-it.org/all/20180928203550/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-28T20:35:50Z",
+        "uri": "http://web.archive.org/web/20180928203550/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-29T08:02:56Z",
+        "uri": "http://web.archive.org/web/20180929080256/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-29T20:19:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180929201945/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-29T20:19:45Z",
+        "uri": "http://web.archive.org/web/20180929201945/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-30T09:27:44Z",
+        "uri": "http://web.archive.org/web/20180930092744/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-30T20:12:33Z",
+        "uri": "http://wayback.archive-it.org/all/20180930201233/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-09-30T20:12:33Z",
+        "uri": "http://web.archive.org/web/20180930201233/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-01T07:15:16Z",
+        "uri": "http://web.archive.org/web/20181001071516/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-01T09:15:50Z",
+        "uri": "http://web.archive.org/web/20181001091550/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-01T20:54:02Z",
+        "uri": "http://wayback.archive-it.org/all/20181001205402/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-01T20:54:02Z",
+        "uri": "http://web.archive.org/web/20181001205402/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-02T15:55:29Z",
+        "uri": "http://web.archive.org/web/20181002155529/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-02T21:03:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181002210310/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-02T21:03:10Z",
+        "uri": "http://web.archive.org/web/20181002210310/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-03T16:43:33Z",
+        "uri": "http://web.archive.org/web/20181003164333/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-03T21:36:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181003213645/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-03T21:36:45Z",
+        "uri": "http://web.archive.org/web/20181003213645/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-04T08:54:00Z",
+        "uri": "http://web.archive.org/web/20181004085400/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-04T12:49:47Z",
+        "uri": "http://web.archive.org/web/20181004124947/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-04T19:00:54Z",
+        "uri": "http://web.archive.org/web/20181004190054/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-04T20:43:20Z",
+        "uri": "http://wayback.archive-it.org/all/20181004204320/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-04T20:43:20Z",
+        "uri": "http://web.archive.org/web/20181004204320/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-05T20:59:38Z",
+        "uri": "http://web.archive.org/web/20181005205938/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-05T21:04:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181005210451/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-05T21:04:51Z",
+        "uri": "http://web.archive.org/web/20181005210451/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-06T20:39:19Z",
+        "uri": "http://wayback.archive-it.org/all/20181006203919/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-06T20:39:19Z",
+        "uri": "http://web.archive.org/web/20181006203919/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-06T21:33:29Z",
+        "uri": "http://web.archive.org/web/20181006213329/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-07T20:43:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181007204321/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-07T20:43:21Z",
+        "uri": "http://web.archive.org/web/20181007204321/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-07T22:24:47Z",
+        "uri": "http://web.archive.org/web/20181007222447/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-08T22:00:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181008220027/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-08T22:00:27Z",
+        "uri": "http://web.archive.org/web/20181008220027/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-08T22:51:47Z",
+        "uri": "http://web.archive.org/web/20181008225147/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-09T21:46:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181009214655/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-09T21:46:55Z",
+        "uri": "http://web.archive.org/web/20181009214655/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-09T23:05:47Z",
+        "uri": "http://web.archive.org/web/20181009230547/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-10T21:16:02Z",
+        "uri": "http://wayback.archive-it.org/all/20181010211602/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-10T21:16:02Z",
+        "uri": "http://web.archive.org/web/20181010211602/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-11T00:07:45Z",
+        "uri": "http://web.archive.org/web/20181011000745/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-11T08:04:48Z",
+        "uri": "http://web.archive.org/web/20181011080448/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-11T22:19:13Z",
+        "uri": "http://wayback.archive-it.org/all/20181011221913/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-11T22:19:13Z",
+        "uri": "http://web.archive.org/web/20181011221913/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-12T07:58:58Z",
+        "uri": "http://web.archive.org/web/20181012075858/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-13T00:25:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181013002517/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-13T00:25:17Z",
+        "uri": "http://web.archive.org/web/20181013002517/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-13T08:09:32Z",
+        "uri": "http://web.archive.org/web/20181013080932/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-13T21:42:53Z",
+        "uri": "http://wayback.archive-it.org/all/20181013214253/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-13T21:42:53Z",
+        "uri": "http://web.archive.org/web/20181013214253/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-14T09:23:46Z",
+        "uri": "http://web.archive.org/web/20181014092346/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-14T21:39:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181014213956/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-14T21:39:56Z",
+        "uri": "http://web.archive.org/web/20181014213956/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-15T09:14:11Z",
+        "uri": "http://web.archive.org/web/20181015091411/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-15T21:09:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181015210934/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-15T21:09:34Z",
+        "uri": "http://web.archive.org/web/20181015210934/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-16T09:46:31Z",
+        "uri": "http://web.archive.org/web/20181016094631/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-16T21:53:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181016215314/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-16T21:53:14Z",
+        "uri": "http://web.archive.org/web/20181016215314/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-17T10:49:01Z",
+        "uri": "http://web.archive.org/web/20181017104901/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-17T21:20:40Z",
+        "uri": "http://wayback.archive-it.org/all/20181017212040/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-17T21:20:40Z",
+        "uri": "http://web.archive.org/web/20181017212040/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-17T22:20:28Z",
+        "uri": "http://web.archive.org/web/20181017222028/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-18T11:03:59Z",
+        "uri": "http://web.archive.org/web/20181018110359/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-18T12:28:49Z",
+        "uri": "http://web.archive.org/web/20181018122849/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-18T23:57:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181018235716/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-18T23:57:16Z",
+        "uri": "http://web.archive.org/web/20181018235716/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-19T12:27:06Z",
+        "uri": "http://web.archive.org/web/20181019122706/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-19T19:35:14Z",
+        "uri": "http://web.archive.org/web/20181019193514/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-19T20:13:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181019201345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-19T20:13:45Z",
+        "uri": "http://web.archive.org/web/20181019201345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-20T12:31:20Z",
+        "uri": "http://web.archive.org/web/20181020123120/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-20T19:24:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181020192431/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-20T19:24:31Z",
+        "uri": "http://web.archive.org/web/20181020192431/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-21T13:42:47Z",
+        "uri": "http://web.archive.org/web/20181021134247/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-21T19:27:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181021192727/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-21T19:27:27Z",
+        "uri": "http://web.archive.org/web/20181021192727/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-22T13:46:30Z",
+        "uri": "http://web.archive.org/web/20181022134630/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-22T19:22:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181022192245/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-22T19:22:45Z",
+        "uri": "http://web.archive.org/web/20181022192245/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-23T13:56:59Z",
+        "uri": "http://web.archive.org/web/20181023135659/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-23T21:29:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181023212905/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-23T21:29:05Z",
+        "uri": "http://web.archive.org/web/20181023212905/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-24T15:13:35Z",
+        "uri": "http://web.archive.org/web/20181024151335/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-24T19:34:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181024193442/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-24T19:34:42Z",
+        "uri": "http://web.archive.org/web/20181024193442/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-25T10:06:33Z",
+        "uri": "http://web.archive.org/web/20181025100633/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-25T10:23:26Z",
+        "uri": "http://web.archive.org/web/20181025102326/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-25T15:30:22Z",
+        "uri": "http://web.archive.org/web/20181025153022/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-25T19:28:33Z",
+        "uri": "http://wayback.archive-it.org/all/20181025192833/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-25T19:28:33Z",
+        "uri": "http://web.archive.org/web/20181025192833/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-26T08:36:09Z",
+        "uri": "http://web.archive.org/web/20181026083609/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-26T16:18:17Z",
+        "uri": "http://web.archive.org/web/20181026161817/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-26T19:56:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181026195608/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-26T19:56:08Z",
+        "uri": "http://web.archive.org/web/20181026195608/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-27T19:30:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181027193016/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-27T19:30:16Z",
+        "uri": "http://web.archive.org/web/20181027193016/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-28T03:23:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181028032318/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-28T03:23:18Z",
+        "uri": "http://web.archive.org/web/20181028032318/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-28T19:28:53Z",
+        "uri": "http://wayback.archive-it.org/all/20181028192853/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-28T19:28:53Z",
+        "uri": "http://web.archive.org/web/20181028192853/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-29T19:27:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181029192751/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-29T19:27:51Z",
+        "uri": "http://web.archive.org/web/20181029192751/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-30T19:25:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181030192510/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-30T19:25:10Z",
+        "uri": "http://web.archive.org/web/20181030192510/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-31T09:41:06Z",
+        "uri": "http://web.archive.org/web/20181031094106/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-31T19:33:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181031193345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-10-31T19:33:45Z",
+        "uri": "http://web.archive.org/web/20181031193345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-01T08:32:42Z",
+        "uri": "http://web.archive.org/web/20181101083242/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-01T15:29:32Z",
+        "uri": "http://web.archive.org/web/20181101152932/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-01T19:28:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181101192814/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-01T19:28:14Z",
+        "uri": "http://web.archive.org/web/20181101192814/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-02T08:32:40Z",
+        "uri": "http://web.archive.org/web/20181102083240/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-02T19:32:51Z",
+        "uri": "http://web.archive.org/web/20181102193251/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-02T19:33:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181102193301/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-02T19:33:01Z",
+        "uri": "http://web.archive.org/web/20181102193301/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-03T09:12:32Z",
+        "uri": "http://web.archive.org/web/20181103091232/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-03T19:26:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181103192645/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-03T19:26:45Z",
+        "uri": "http://web.archive.org/web/20181103192645/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-04T10:13:26Z",
+        "uri": "http://web.archive.org/web/20181104101326/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-04T20:16:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181104201616/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-04T20:16:16Z",
+        "uri": "http://web.archive.org/web/20181104201616/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-05T11:31:31Z",
+        "uri": "http://web.archive.org/web/20181105113131/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-05T20:46:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181105204629/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-05T20:46:29Z",
+        "uri": "http://web.archive.org/web/20181105204629/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-06T19:27:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181106192747/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-06T19:27:47Z",
+        "uri": "http://web.archive.org/web/20181106192747/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-06T20:26:48Z",
+        "uri": "http://web.archive.org/web/20181106202648/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-07T19:50:19Z",
+        "uri": "http://wayback.archive-it.org/all/20181107195019/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-07T19:50:19Z",
+        "uri": "http://web.archive.org/web/20181107195019/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-08T00:00:03Z",
+        "uri": "http://web.archive.org/web/20181108000003/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-08T19:36:38Z",
+        "uri": "http://wayback.archive-it.org/all/20181108193638/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-08T19:36:38Z",
+        "uri": "http://web.archive.org/web/20181108193638/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-09T03:13:45Z",
+        "uri": "http://web.archive.org/web/20181109031345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-09T10:23:32Z",
+        "uri": "http://web.archive.org/web/20181109102332/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-10T02:18:05Z",
+        "uri": "http://web.archive.org/web/20181110021805/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-10T19:23:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181110192316/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-10T19:23:16Z",
+        "uri": "http://web.archive.org/web/20181110192316/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-11T06:35:12Z",
+        "uri": "http://web.archive.org/web/20181111063512/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-12T07:50:58Z",
+        "uri": "http://web.archive.org/web/20181112075058/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-12T13:28:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181112132834/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-12T13:28:34Z",
+        "uri": "http://web.archive.org/web/20181112132834/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-12T23:35:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181112233554/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-12T23:35:54Z",
+        "uri": "http://web.archive.org/web/20181112233554/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-13T08:54:33Z",
+        "uri": "http://web.archive.org/web/20181113085433/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-13T19:25:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181113192524/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-13T19:25:24Z",
+        "uri": "http://web.archive.org/web/20181113192524/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-14T09:55:13Z",
+        "uri": "http://web.archive.org/web/20181114095513/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-14T19:26:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181114192621/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-14T19:26:21Z",
+        "uri": "http://web.archive.org/web/20181114192621/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-15T09:35:25Z",
+        "uri": "http://web.archive.org/web/20181115093525/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-15T19:26:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181115192625/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-15T19:26:25Z",
+        "uri": "http://web.archive.org/web/20181115192625/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-16T09:38:49Z",
+        "uri": "http://web.archive.org/web/20181116093849/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-16T19:25:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181116192516/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-16T19:25:16Z",
+        "uri": "http://web.archive.org/web/20181116192516/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-17T10:53:43Z",
+        "uri": "http://web.archive.org/web/20181117105343/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-17T19:30:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181117193027/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-17T19:30:27Z",
+        "uri": "http://web.archive.org/web/20181117193027/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-18T11:51:21Z",
+        "uri": "http://web.archive.org/web/20181118115121/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-18T19:24:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181118192445/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-18T19:24:45Z",
+        "uri": "http://web.archive.org/web/20181118192445/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-19T11:56:37Z",
+        "uri": "http://web.archive.org/web/20181119115637/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-19T19:51:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181119195155/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-19T19:51:55Z",
+        "uri": "http://web.archive.org/web/20181119195155/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-20T12:24:14Z",
+        "uri": "http://web.archive.org/web/20181120122414/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-20T19:26:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181120192643/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-20T19:26:43Z",
+        "uri": "http://web.archive.org/web/20181120192643/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-21T13:15:22Z",
+        "uri": "http://web.archive.org/web/20181121131522/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-21T19:37:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181121193704/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-21T19:37:04Z",
+        "uri": "http://web.archive.org/web/20181121193704/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-22T13:23:30Z",
+        "uri": "http://web.archive.org/web/20181122132330/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-22T19:23:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181122192355/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-22T19:23:55Z",
+        "uri": "http://web.archive.org/web/20181122192355/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-23T14:09:54Z",
+        "uri": "http://web.archive.org/web/20181123140954/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-23T21:04:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181123210400/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-23T21:04:00Z",
+        "uri": "http://web.archive.org/web/20181123210400/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-24T15:02:25Z",
+        "uri": "http://web.archive.org/web/20181124150225/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-24T19:35:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181124193508/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-24T19:35:08Z",
+        "uri": "http://web.archive.org/web/20181124193508/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-25T15:23:22Z",
+        "uri": "http://web.archive.org/web/20181125152322/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-26T14:32:56Z",
+        "uri": "http://web.archive.org/web/20181126143256/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-26T19:26:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181126192606/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-26T19:26:06Z",
+        "uri": "http://web.archive.org/web/20181126192606/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-27T03:05:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181127030514/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-27T03:05:14Z",
+        "uri": "http://web.archive.org/web/20181127030514/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-27T16:39:02Z",
+        "uri": "http://web.archive.org/web/20181127163902/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-27T23:14:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181127231431/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-27T23:14:31Z",
+        "uri": "http://web.archive.org/web/20181127231431/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-28T19:28:33Z",
+        "uri": "http://wayback.archive-it.org/all/20181128192833/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-28T19:28:33Z",
+        "uri": "http://web.archive.org/web/20181128192833/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-29T19:03:46Z",
+        "uri": "http://web.archive.org/web/20181129190346/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-29T19:22:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181129192243/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-29T19:22:43Z",
+        "uri": "http://web.archive.org/web/20181129192243/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-30T08:18:47Z",
+        "uri": "http://web.archive.org/web/20181130081847/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-30T19:01:31Z",
+        "uri": "http://web.archive.org/web/20181130190131/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-30T19:24:30Z",
+        "uri": "http://wayback.archive-it.org/all/20181130192430/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-11-30T19:24:30Z",
+        "uri": "http://web.archive.org/web/20181130192430/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-01T19:26:32Z",
+        "uri": "http://wayback.archive-it.org/all/20181201192632/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-01T19:26:32Z",
+        "uri": "http://web.archive.org/web/20181201192632/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-01T20:07:40Z",
+        "uri": "http://web.archive.org/web/20181201200740/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-02T19:26:11Z",
+        "uri": "http://wayback.archive-it.org/all/20181202192611/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-02T19:26:11Z",
+        "uri": "http://web.archive.org/web/20181202192611/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-02T20:41:45Z",
+        "uri": "http://web.archive.org/web/20181202204145/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-03T19:25:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181203192526/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-03T19:25:26Z",
+        "uri": "http://web.archive.org/web/20181203192526/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-03T21:57:02Z",
+        "uri": "http://web.archive.org/web/20181203215702/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-04T19:24:30Z",
+        "uri": "http://wayback.archive-it.org/all/20181204192430/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-04T19:24:30Z",
+        "uri": "http://web.archive.org/web/20181204192430/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-05T19:27:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181205192744/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-05T19:27:44Z",
+        "uri": "http://web.archive.org/web/20181205192744/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-06T19:26:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181206192657/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-06T19:26:57Z",
+        "uri": "http://web.archive.org/web/20181206192657/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-06T23:36:49Z",
+        "uri": "http://web.archive.org/web/20181206233649/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-07T19:33:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181207193329/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-07T19:33:29Z",
+        "uri": "http://web.archive.org/web/20181207193329/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-08T00:03:48Z",
+        "uri": "http://web.archive.org/web/20181208000348/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-08T19:25:19Z",
+        "uri": "http://wayback.archive-it.org/all/20181208192519/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-08T19:25:19Z",
+        "uri": "http://web.archive.org/web/20181208192519/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-09T01:47:41Z",
+        "uri": "http://web.archive.org/web/20181209014741/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-09T16:26:02Z",
+        "uri": "http://web.archive.org/web/20181209162602/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-09T19:26:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181209192618/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-09T19:26:18Z",
+        "uri": "http://web.archive.org/web/20181209192618/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-10T02:41:06Z",
+        "uri": "http://web.archive.org/web/20181210024106/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-10T11:24:15Z",
+        "uri": "http://web.archive.org/web/20181210112415/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-10T17:17:34Z",
+        "uri": "http://web.archive.org/web/20181210171734/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-10T19:26:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181210192629/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-10T19:26:29Z",
+        "uri": "http://web.archive.org/web/20181210192629/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-11T02:31:46Z",
+        "uri": "http://web.archive.org/web/20181211023146/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-11T12:33:13Z",
+        "uri": "http://web.archive.org/web/20181211123313/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-11T18:04:54Z",
+        "uri": "http://web.archive.org/web/20181211180454/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-11T19:26:28Z",
+        "uri": "http://wayback.archive-it.org/all/20181211192628/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-11T19:26:28Z",
+        "uri": "http://web.archive.org/web/20181211192628/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-12T01:56:07Z",
+        "uri": "http://web.archive.org/web/20181212015607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-12T19:32:09Z",
+        "uri": "http://wayback.archive-it.org/all/20181212193209/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-12T19:32:09Z",
+        "uri": "http://web.archive.org/web/20181212193209/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-12T23:04:17Z",
+        "uri": "http://web.archive.org/web/20181212230417/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-13T12:42:05Z",
+        "uri": "http://web.archive.org/web/20181213124205/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-13T19:27:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181213192721/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-13T19:27:21Z",
+        "uri": "http://web.archive.org/web/20181213192721/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-14T03:22:26Z",
+        "uri": "http://web.archive.org/web/20181214032226/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-14T19:45:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181214194555/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-14T19:45:55Z",
+        "uri": "http://web.archive.org/web/20181214194555/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-14T22:02:56Z",
+        "uri": "http://web.archive.org/web/20181214220256/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-15T03:19:38Z",
+        "uri": "http://web.archive.org/web/20181215031938/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-15T19:35:11Z",
+        "uri": "http://wayback.archive-it.org/all/20181215193511/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-15T19:35:11Z",
+        "uri": "http://web.archive.org/web/20181215193511/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-16T00:04:24Z",
+        "uri": "http://web.archive.org/web/20181216000424/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-16T05:34:09Z",
+        "uri": "http://web.archive.org/web/20181216053409/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-16T19:28:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181216192843/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-16T19:28:43Z",
+        "uri": "http://web.archive.org/web/20181216192843/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-17T02:18:31Z",
+        "uri": "http://web.archive.org/web/20181217021831/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-17T05:55:41Z",
+        "uri": "http://web.archive.org/web/20181217055541/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-17T19:30:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181217193057/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-17T19:30:57Z",
+        "uri": "http://web.archive.org/web/20181217193057/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-18T05:13:45Z",
+        "uri": "http://web.archive.org/web/20181218051345/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-18T06:06:25Z",
+        "uri": "http://web.archive.org/web/20181218060625/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-18T20:45:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181218204555/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-18T20:45:55Z",
+        "uri": "http://web.archive.org/web/20181218204555/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-19T04:40:52Z",
+        "uri": "http://web.archive.org/web/20181219044052/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-19T06:45:42Z",
+        "uri": "http://web.archive.org/web/20181219064542/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-19T19:28:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181219192824/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-19T19:28:24Z",
+        "uri": "http://web.archive.org/web/20181219192824/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-19T21:02:12Z",
+        "uri": "http://web.archive.org/web/20181219210212/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-20T04:32:11Z",
+        "uri": "http://web.archive.org/web/20181220043211/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-20T07:36:39Z",
+        "uri": "http://web.archive.org/web/20181220073639/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-20T19:28:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181220192817/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-20T19:28:17Z",
+        "uri": "http://web.archive.org/web/20181220192817/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-21T08:49:46Z",
+        "uri": "http://web.archive.org/web/20181221084946/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-21T19:27:09Z",
+        "uri": "http://wayback.archive-it.org/all/20181221192709/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-21T19:27:09Z",
+        "uri": "http://web.archive.org/web/20181221192709/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-22T10:03:25Z",
+        "uri": "http://web.archive.org/web/20181222100325/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-22T19:29:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181222192926/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-22T19:29:26Z",
+        "uri": "http://web.archive.org/web/20181222192926/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-23T10:20:07Z",
+        "uri": "http://web.archive.org/web/20181223102007/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-23T19:30:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181223193034/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-23T19:30:34Z",
+        "uri": "http://web.archive.org/web/20181223193034/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-24T10:47:43Z",
+        "uri": "http://web.archive.org/web/20181224104743/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-24T19:34:23Z",
+        "uri": "http://wayback.archive-it.org/all/20181224193423/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-24T19:34:23Z",
+        "uri": "http://web.archive.org/web/20181224193423/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-25T10:14:30Z",
+        "uri": "http://web.archive.org/web/20181225101430/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-25T19:45:32Z",
+        "uri": "http://wayback.archive-it.org/all/20181225194532/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-25T19:45:32Z",
+        "uri": "http://web.archive.org/web/20181225194532/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-26T11:15:34Z",
+        "uri": "http://web.archive.org/web/20181226111534/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-26T19:48:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181226194826/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-26T19:48:26Z",
+        "uri": "http://web.archive.org/web/20181226194826/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-27T12:12:31Z",
+        "uri": "http://web.archive.org/web/20181227121231/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-27T19:51:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181227195100/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-27T19:51:00Z",
+        "uri": "http://web.archive.org/web/20181227195100/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-28T06:11:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181228061144/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-28T06:11:44Z",
+        "uri": "http://web.archive.org/web/20181228061144/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-28T12:39:12Z",
+        "uri": "http://web.archive.org/web/20181228123912/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-28T20:27:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181228202752/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-28T20:27:52Z",
+        "uri": "http://web.archive.org/web/20181228202752/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-29T12:55:24Z",
+        "uri": "http://web.archive.org/web/20181229125524/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-29T19:49:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181229194952/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-29T19:49:52Z",
+        "uri": "http://web.archive.org/web/20181229194952/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-30T13:29:09Z",
+        "uri": "http://web.archive.org/web/20181230132909/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-30T19:57:22Z",
+        "uri": "http://wayback.archive-it.org/all/20181230195722/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-30T19:57:22Z",
+        "uri": "http://web.archive.org/web/20181230195722/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-31T06:15:41Z",
+        "uri": "http://web.archive.org/web/20181231061541/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-31T13:46:58Z",
+        "uri": "http://web.archive.org/web/20181231134658/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-31T14:23:24Z",
+        "uri": "http://web.archive.org/web/20181231142324/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-31T20:07:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181231200734/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2018-12-31T20:07:34Z",
+        "uri": "http://web.archive.org/web/20181231200734/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-01T14:31:07Z",
+        "uri": "http://web.archive.org/web/20190101143107/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-01T19:54:37Z",
+        "uri": "http://wayback.archive-it.org/all/20190101195437/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-01T19:54:37Z",
+        "uri": "http://web.archive.org/web/20190101195437/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-02T14:18:26Z",
+        "uri": "http://web.archive.org/web/20190102141826/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-02T19:56:20Z",
+        "uri": "http://wayback.archive-it.org/all/20190102195620/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-02T19:56:20Z",
+        "uri": "http://web.archive.org/web/20190102195620/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-04T02:05:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190104020544/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-04T02:05:44Z",
+        "uri": "http://web.archive.org/web/20190104020544/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-04T05:16:11Z",
+        "uri": "http://web.archive.org/web/20190104051611/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-04T08:16:01Z",
+        "uri": "http://web.archive.org/web/20190104081601/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-04T19:29:22Z",
+        "uri": "http://wayback.archive-it.org/all/20190104192922/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-04T19:29:22Z",
+        "uri": "http://web.archive.org/web/20190104192922/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-05T08:29:44Z",
+        "uri": "http://web.archive.org/web/20190105082944/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-05T19:27:31Z",
+        "uri": "http://wayback.archive-it.org/all/20190105192731/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-05T19:27:31Z",
+        "uri": "http://web.archive.org/web/20190105192731/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-06T09:45:07Z",
+        "uri": "http://web.archive.org/web/20190106094507/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-06T19:27:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190106192742/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-06T19:27:42Z",
+        "uri": "http://web.archive.org/web/20190106192742/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-07T09:52:20Z",
+        "uri": "http://web.archive.org/web/20190107095220/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-07T19:29:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190107192946/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-07T19:29:46Z",
+        "uri": "http://web.archive.org/web/20190107192946/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-08T10:49:08Z",
+        "uri": "http://web.archive.org/web/20190108104908/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-08T19:25:09Z",
+        "uri": "http://wayback.archive-it.org/all/20190108192509/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-08T19:25:09Z",
+        "uri": "http://web.archive.org/web/20190108192509/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-09T11:05:52Z",
+        "uri": "http://web.archive.org/web/20190109110552/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-09T19:35:40Z",
+        "uri": "http://wayback.archive-it.org/all/20190109193540/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-09T19:35:40Z",
+        "uri": "http://web.archive.org/web/20190109193540/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-10T11:49:02Z",
+        "uri": "http://web.archive.org/web/20190110114902/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-10T19:26:07Z",
+        "uri": "http://wayback.archive-it.org/all/20190110192607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-10T19:26:07Z",
+        "uri": "http://web.archive.org/web/20190110192607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-11T11:18:29Z",
+        "uri": "http://web.archive.org/web/20190111111829/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-11T19:31:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190111193146/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-11T19:31:46Z",
+        "uri": "http://web.archive.org/web/20190111193146/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-12T12:36:29Z",
+        "uri": "http://web.archive.org/web/20190112123629/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-12T19:23:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190112192335/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-12T19:23:35Z",
+        "uri": "http://web.archive.org/web/20190112192335/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-13T13:54:26Z",
+        "uri": "http://web.archive.org/web/20190113135426/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-13T19:27:15Z",
+        "uri": "http://wayback.archive-it.org/all/20190113192715/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-13T19:27:15Z",
+        "uri": "http://web.archive.org/web/20190113192715/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-14T11:23:36Z",
+        "uri": "http://web.archive.org/web/20190114112336/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-14T11:31:44Z",
+        "uri": "http://web.archive.org/web/20190114113144/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-14T14:20:39Z",
+        "uri": "http://web.archive.org/web/20190114142039/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-14T19:29:59Z",
+        "uri": "http://wayback.archive-it.org/all/20190114192959/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-14T19:29:59Z",
+        "uri": "http://web.archive.org/web/20190114192959/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-15T15:34:21Z",
+        "uri": "http://web.archive.org/web/20190115153421/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-15T19:34:18Z",
+        "uri": "http://wayback.archive-it.org/all/20190115193418/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-15T19:34:18Z",
+        "uri": "http://web.archive.org/web/20190115193418/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-16T15:52:14Z",
+        "uri": "http://web.archive.org/web/20190116155214/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-16T20:25:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190116202534/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-16T20:25:34Z",
+        "uri": "http://web.archive.org/web/20190116202534/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-17T17:26:37Z",
+        "uri": "http://web.archive.org/web/20190117172637/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-17T19:29:06Z",
+        "uri": "http://wayback.archive-it.org/all/20190117192906/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-17T19:29:06Z",
+        "uri": "http://web.archive.org/web/20190117192906/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-18T17:51:29Z",
+        "uri": "http://web.archive.org/web/20190118175129/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-18T19:57:52Z",
+        "uri": "http://wayback.archive-it.org/all/20190118195752/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-18T19:57:52Z",
+        "uri": "http://web.archive.org/web/20190118195752/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-19T18:05:43Z",
+        "uri": "http://web.archive.org/web/20190119180543/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-19T19:33:27Z",
+        "uri": "http://wayback.archive-it.org/all/20190119193327/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-19T19:33:27Z",
+        "uri": "http://web.archive.org/web/20190119193327/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-19T20:02:18Z",
+        "uri": "http://web.archive.org/web/20190119200218/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-20T18:33:16Z",
+        "uri": "http://web.archive.org/web/20190120183316/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-20T19:29:28Z",
+        "uri": "http://wayback.archive-it.org/all/20190120192928/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-20T19:29:28Z",
+        "uri": "http://web.archive.org/web/20190120192928/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-21T19:35:50Z",
+        "uri": "http://wayback.archive-it.org/all/20190121193550/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-21T19:35:50Z",
+        "uri": "http://web.archive.org/web/20190121193550/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-21T20:04:53Z",
+        "uri": "http://web.archive.org/web/20190121200453/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-22T19:36:39Z",
+        "uri": "http://wayback.archive-it.org/all/20190122193639/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-22T19:36:39Z",
+        "uri": "http://web.archive.org/web/20190122193639/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-22T20:20:28Z",
+        "uri": "http://web.archive.org/web/20190122202028/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-23T19:56:07Z",
+        "uri": "http://wayback.archive-it.org/all/20190123195607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-23T19:56:07Z",
+        "uri": "http://web.archive.org/web/20190123195607/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-23T21:07:00Z",
+        "uri": "http://web.archive.org/web/20190123210700/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T12:13:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190124121347/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T12:13:47Z",
+        "uri": "http://web.archive.org/web/20190124121347/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T19:32:50Z",
+        "uri": "http://wayback.archive-it.org/all/20190124193250/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T19:32:50Z",
+        "uri": "http://web.archive.org/web/20190124193250/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T22:47:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190124224725/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T22:47:25Z",
+        "uri": "http://web.archive.org/web/20190124224725/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-24T23:27:08Z",
+        "uri": "http://web.archive.org/web/20190124232708/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-25T19:56:05Z",
+        "uri": "http://wayback.archive-it.org/all/20190125195605/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-25T19:56:05Z",
+        "uri": "http://web.archive.org/web/20190125195605/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-25T20:44:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190125204451/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-25T20:44:51Z",
+        "uri": "http://web.archive.org/web/20190125204451/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-26T00:18:35Z",
+        "uri": "http://web.archive.org/web/20190126001835/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-26T19:41:37Z",
+        "uri": "http://wayback.archive-it.org/all/20190126194137/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-26T19:41:37Z",
+        "uri": "http://web.archive.org/web/20190126194137/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-27T04:47:29Z",
+        "uri": "http://web.archive.org/web/20190127044729/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-27T19:28:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190127192823/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-27T19:28:23Z",
+        "uri": "http://web.archive.org/web/20190127192823/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-28T06:42:40Z",
+        "uri": "http://web.archive.org/web/20190128064240/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-28T20:02:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190128200225/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-28T20:02:25Z",
+        "uri": "http://web.archive.org/web/20190128200225/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-29T04:03:20Z",
+        "uri": "http://web.archive.org/web/20190129040320/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-29T19:29:55Z",
+        "uri": "http://wayback.archive-it.org/all/20190129192955/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-29T19:29:55Z",
+        "uri": "http://web.archive.org/web/20190129192955/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-30T03:36:10Z",
+        "uri": "http://web.archive.org/web/20190130033610/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-30T19:34:13Z",
+        "uri": "http://wayback.archive-it.org/all/20190130193413/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-30T19:34:13Z",
+        "uri": "http://web.archive.org/web/20190130193413/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-31T04:33:14Z",
+        "uri": "http://web.archive.org/web/20190131043314/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-31T16:41:27Z",
+        "uri": "http://web.archive.org/web/20190131164127/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-31T19:35:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190131193553/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-01-31T19:35:53Z",
+        "uri": "http://web.archive.org/web/20190131193553/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-01T03:41:23Z",
+        "uri": "http://web.archive.org/web/20190201034123/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-01T19:30:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190201193034/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-01T19:30:34Z",
+        "uri": "http://web.archive.org/web/20190201193034/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-02T05:43:23Z",
+        "uri": "http://web.archive.org/web/20190202054323/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-02T19:28:17Z",
+        "uri": "http://wayback.archive-it.org/all/20190202192817/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-02T19:28:17Z",
+        "uri": "http://web.archive.org/web/20190202192817/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-03T06:01:51Z",
+        "uri": "http://web.archive.org/web/20190203060151/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-03T19:29:06Z",
+        "uri": "http://wayback.archive-it.org/all/20190203192906/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-03T19:29:06Z",
+        "uri": "http://web.archive.org/web/20190203192906/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-04T04:58:33Z",
+        "uri": "http://web.archive.org/web/20190204045833/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-04T19:33:05Z",
+        "uri": "http://wayback.archive-it.org/all/20190204193305/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-04T19:33:05Z",
+        "uri": "http://web.archive.org/web/20190204193305/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-05T03:18:56Z",
+        "uri": "http://web.archive.org/web/20190205031856/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-05T08:06:40Z",
+        "uri": "http://web.archive.org/web/20190205080640/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-05T19:33:13Z",
+        "uri": "http://wayback.archive-it.org/all/20190205193313/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-05T19:33:13Z",
+        "uri": "http://web.archive.org/web/20190205193313/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-06T06:47:51Z",
+        "uri": "http://web.archive.org/web/20190206064751/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-06T19:27:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190206192742/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-06T19:27:42Z",
+        "uri": "http://web.archive.org/web/20190206192742/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-07T06:43:58Z",
+        "uri": "http://web.archive.org/web/20190207064358/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-07T19:32:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190207193242/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-07T19:32:42Z",
+        "uri": "http://web.archive.org/web/20190207193242/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-08T07:57:53Z",
+        "uri": "http://web.archive.org/web/20190208075753/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-08T19:47:35Z",
+        "uri": "http://web.archive.org/web/20190208194735/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-09T10:40:14Z",
+        "uri": "http://web.archive.org/web/20190209104014/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-09T19:30:18Z",
+        "uri": "http://web.archive.org/web/20190209193018/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      },
+      {
+        "datetime": "2019-02-10T11:39:15Z",
+        "uri": "http://web.archive.org/web/20190210113915/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-07-25T01:07:49Z",
+      "uri": "http://archive.md/20180725010749/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:39:15Z",
+      "uri": "http://web.archive.org/web/20190210113915/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2018/07/24/politics/michael-cohen-donald-trump-tape/index.html"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/08/harlan-trump-unity/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/08/harlan-trump-unity/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:11:12Z",
+        "uri": "http://web.archive.org/web/20190208231112/https://dailycaller.com/2019/02/08/harlan-trump-unity/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:11:12Z",
+      "uri": "http://web.archive.org/web/20190208231112/https://dailycaller.com/2019/02/08/harlan-trump-unity/"
+    },
+    "last": {
+      "datetime": "2019-02-08T23:11:12Z",
+      "uri": "http://web.archive.org/web/20190208231112/https://dailycaller.com/2019/02/08/harlan-trump-unity/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/02/08/harlan-trump-unity/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/08/harlan-trump-unity/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/02/08/harlan-trump-unity/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/02/08/harlan-trump-unity/"
+}

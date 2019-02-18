@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T01:35:20Z",
+        "uri": "http://web.archive.org/web/20190205013520/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+      },
+      {
+        "datetime": "2019-02-05T16:15:08Z",
+        "uri": "http://archive.md/20190205161508/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+      },
+      {
+        "datetime": "2019-02-07T04:33:46Z",
+        "uri": "http://web.archive.org/web/20190207043346/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+      },
+      {
+        "datetime": "2019-02-09T05:08:21Z",
+        "uri": "http://web.archive.org/web/20190209050821/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T01:35:20Z",
+      "uri": "http://web.archive.org/web/20190205013520/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+    },
+    "last": {
+      "datetime": "2019-02-09T05:08:21Z",
+      "uri": "http://web.archive.org/web/20190209050821/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/02/04/never-trump-bill-kristol-donate-ralph-northam-campaign/"
+}

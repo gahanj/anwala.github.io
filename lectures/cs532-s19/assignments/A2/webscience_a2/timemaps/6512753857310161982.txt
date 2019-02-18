@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:06:57Z",
+        "uri": "http://web.archive.org/web/20190210010657/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/"
+      },
+      {
+        "datetime": "2019-02-10T09:04:56Z",
+        "uri": "http://web.archive.org/web/20190210090456/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:06:57Z",
+      "uri": "http://web.archive.org/web/20190210010657/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:04:56Z",
+      "uri": "http://web.archive.org/web/20190210090456/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://nypost.com/2019/02/09/trump-ladies-day-out-tiffany-trump-marla-maples-and-kimberly-guilfoyle-hit-fashion-week/"
+}

@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-23T11:09:41Z",
+        "uri": "http://web.archive.org/web/20190123110941/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+      },
+      {
+        "datetime": "2019-01-23T14:01:41Z",
+        "uri": "http://web.archive.org/web/20190123140141/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+      },
+      {
+        "datetime": "2019-01-23T21:21:16Z",
+        "uri": "http://web.archive.org/web/20190123212116/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+      },
+      {
+        "datetime": "2019-01-24T10:43:05Z",
+        "uri": "http://web.archive.org/web/20190124104305/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+      },
+      {
+        "datetime": "2019-01-24T15:36:21Z",
+        "uri": "http://web.archive.org/web/20190124153621/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+      },
+      {
+        "datetime": "2019-01-27T20:44:32Z",
+        "uri": "http://web.archive.org/web/20190127204432/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-23T11:09:41Z",
+      "uri": "http://web.archive.org/web/20190123110941/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+    },
+    "last": {
+      "datetime": "2019-01-27T20:44:32Z",
+      "uri": "http://web.archive.org/web/20190127204432/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/clips/2019/01/22/dem-rep-peterson-calls-on-democrats-to-give-trump-the-money-for-border-wall/"
+}

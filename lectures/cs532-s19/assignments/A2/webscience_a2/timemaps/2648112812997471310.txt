@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T20:34:19Z",
+        "uri": "http://archive.md/20190208203419/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/"
+      },
+      {
+        "datetime": "2019-02-08T23:17:01Z",
+        "uri": "http://web.archive.org/web/20190208231701/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T20:34:19Z",
+      "uri": "http://archive.md/20190208203419/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/"
+    },
+    "last": {
+      "datetime": "2019-02-08T23:17:01Z",
+      "uri": "http://web.archive.org/web/20190208231701/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://freebeacon.com/national-security/iran-supreme-leader-wishes-death-on-trump-bolton-pompeo/"
+}

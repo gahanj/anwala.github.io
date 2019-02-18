@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T22:54:12Z",
+        "uri": "http://web.archive.org/web/20190208225412/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing"
+      },
+      {
+        "datetime": "2019-02-09T15:14:35Z",
+        "uri": "http://web.archive.org/web/20190209151435/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T22:54:12Z",
+      "uri": "http://web.archive.org/web/20190208225412/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing"
+    },
+    "last": {
+      "datetime": "2019-02-09T15:14:35Z",
+      "uri": "http://web.archive.org/web/20190209151435/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vox.com/2019/2/8/18216851/mueller-manafort-trump-russia-transcript-hearing"
+}

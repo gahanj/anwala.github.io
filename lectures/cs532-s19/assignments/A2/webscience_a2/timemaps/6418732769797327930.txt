@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T10:52:04Z",
+        "uri": "http://web.archive.org/web/20190209105204/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T10:52:04Z",
+      "uri": "http://web.archive.org/web/20190209105204/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874"
+    },
+    "last": {
+      "datetime": "2019-02-09T10:52:04Z",
+      "uri": "http://web.archive.org/web/20190209105204/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.sky.com/story/rising-number-of-young-knife-victims-a-major-concern-for-doctors-11631874"
+}

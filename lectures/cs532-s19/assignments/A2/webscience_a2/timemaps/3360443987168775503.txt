@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.kitco.com/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.kitco.com/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-03-24T00:05:56Z",
+        "uri": "http://web.archive.org/web/20160324000556/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+      },
+      {
+        "datetime": "2016-03-25T07:41:37Z",
+        "uri": "http://web.archive.org/web/20160325074137/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+      },
+      {
+        "datetime": "2016-04-25T03:54:27Z",
+        "uri": "http://web.archive.org/web/20160425035427/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+      },
+      {
+        "datetime": "2016-05-26T07:51:25Z",
+        "uri": "http://web.archive.org/web/20160526075125/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+      },
+      {
+        "datetime": "2016-06-27T19:25:00Z",
+        "uri": "http://web.archive.org/web/20160627192500/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+      }
+    ],
+    "first": {
+      "datetime": "2016-03-24T00:05:56Z",
+      "uri": "http://web.archive.org/web/20160324000556/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+    },
+    "last": {
+      "datetime": "2016-06-27T19:25:00Z",
+      "uri": "http://web.archive.org/web/20160627192500/http://www.kitco.com:80/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.kitco.com/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.kitco.com/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.kitco.com/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.kitco.com/news/2016-03-22/Gold-at-Fort-Knox-Donald-Trump-Doesn-t-Think-So.html?sitetype=fullsite"
+}

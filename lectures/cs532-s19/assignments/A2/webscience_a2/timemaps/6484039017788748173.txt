@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T22:51:04Z",
+        "uri": "http://web.archive.org/web/20190207225104/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+      },
+      {
+        "datetime": "2019-02-08T06:48:09Z",
+        "uri": "http://archive.md/20190208064809/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+      },
+      {
+        "datetime": "2019-02-10T07:52:16Z",
+        "uri": "http://web.archive.org/web/20190210075216/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T22:51:04Z",
+      "uri": "http://web.archive.org/web/20190207225104/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:52:16Z",
+      "uri": "http://web.archive.org/web/20190210075216/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.rt.com/usa/450933-pentagon-full-syria-withdrawal/"
+}

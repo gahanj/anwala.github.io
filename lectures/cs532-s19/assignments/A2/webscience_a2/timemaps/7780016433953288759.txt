@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-04T15:52:52Z",
+        "uri": "http://archive.md/20190204155252/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-04T16:46:19Z",
+        "uri": "http://web.archive.org/web/20190204164619/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-04T17:02:10Z",
+        "uri": "http://web.archive.org/web/20190204170210/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-04T21:31:03Z",
+        "uri": "http://web.archive.org/web/20190204213103/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-05T09:46:17Z",
+        "uri": "http://web.archive.org/web/20190205094617/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-05T23:01:36Z",
+        "uri": "http://web.archive.org/web/20190205230136/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-06T23:01:06Z",
+        "uri": "http://web.archive.org/web/20190206230106/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      },
+      {
+        "datetime": "2019-02-07T21:05:46Z",
+        "uri": "http://web.archive.org/web/20190207210546/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-04T15:52:52Z",
+      "uri": "http://archive.md/20190204155252/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+    },
+    "last": {
+      "datetime": "2019-02-07T21:05:46Z",
+      "uri": "http://web.archive.org/web/20190207210546/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/opinion/white-house/428288-intel-operation-against-trump-still-going-strong"
+}

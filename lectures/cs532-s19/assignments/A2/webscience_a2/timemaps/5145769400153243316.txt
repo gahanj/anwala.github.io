@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T04:08:07Z",
+        "uri": "http://web.archive.org/web/20190209040807/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263"
+      },
+      {
+        "datetime": "2019-02-10T02:22:15Z",
+        "uri": "http://web.archive.org/web/20190210022215/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T04:08:07Z",
+      "uri": "http://web.archive.org/web/20190209040807/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:22:15Z",
+      "uri": "http://web.archive.org/web/20190210022215/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/donald-trump-late-term-abortion_us_5c5b02c5e4b09293b20a8263"
+}

@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-01-25T06:00:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180125060044/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2018-01-25T06:00:44Z",
+        "uri": "http://web.archive.org/web/20180125060044/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2018-01-25T07:18:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180125071840/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2018-01-25T07:18:40Z",
+        "uri": "http://web.archive.org/web/20180125071840/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2018-01-25T10:01:19Z",
+        "uri": "http://wayback.archive-it.org/all/20180125100119/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2018-01-25T10:01:19Z",
+        "uri": "http://web.archive.org/web/20180125100119/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2019-01-20T01:16:32Z",
+        "uri": "http://web.archive.org/web/20190120011632/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      },
+      {
+        "datetime": "2019-01-20T01:16:36Z",
+        "uri": "http://web.archive.org/web/20190120011636/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+      }
+    ],
+    "first": {
+      "datetime": "2018-01-25T06:00:44Z",
+      "uri": "http://wayback.archive-it.org/all/20180125060044/http://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+    },
+    "last": {
+      "datetime": "2019-01-20T01:16:36Z",
+      "uri": "http://web.archive.org/web/20190120011636/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.com/news/av/uk-scotland-20463092/donald-trump-tells-msps-i-am-the-evidence"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-31T22:52:54Z",
+        "uri": "http://web.archive.org/web/20190131225254/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/"
+      },
+      {
+        "datetime": "2019-02-01T01:30:15Z",
+        "uri": "http://web.archive.org/web/20190201013015/http://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-31T22:52:54Z",
+      "uri": "http://web.archive.org/web/20190131225254/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/"
+    },
+    "last": {
+      "datetime": "2019-02-01T01:30:15Z",
+      "uri": "http://web.archive.org/web/20190201013015/http://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://mobile.wnd.com/2019/01/brennan-nuked-after-latest-trump-bashing/"
+}

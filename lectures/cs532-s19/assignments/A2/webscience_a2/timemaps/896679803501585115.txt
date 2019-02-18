@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:57:50Z",
+        "uri": "http://web.archive.org/web/20190210005750/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v"
+      },
+      {
+        "datetime": "2019-02-10T08:52:08Z",
+        "uri": "http://web.archive.org/web/20190210085208/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:57:50Z",
+      "uri": "http://web.archive.org/web/20190210005750/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v"
+    },
+    "last": {
+      "datetime": "2019-02-10T08:52:08Z",
+      "uri": "http://web.archive.org/web/20190210085208/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thetimes.co.uk/article/oprah-s-guru-gears-up-to-defeat-trump-with-love-trrjvc30v"
+}

@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T18:32:31Z",
+        "uri": "http://web.archive.org/web/20190209183231/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+      },
+      {
+        "datetime": "2019-02-09T22:06:20Z",
+        "uri": "http://web.archive.org/web/20190209220620/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+      },
+      {
+        "datetime": "2019-02-09T22:06:21Z",
+        "uri": "http://web.archive.org/web/20190209220621/http://foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+      },
+      {
+        "datetime": "2019-02-09T23:19:08Z",
+        "uri": "http://web.archive.org/web/20190209231908/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+      },
+      {
+        "datetime": "2019-02-10T00:13:39Z",
+        "uri": "http://web.archive.org/web/20190210001339/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+      },
+      {
+        "datetime": "2019-02-10T00:58:22Z",
+        "uri": "http://web.archive.org/web/20190210005822/http://foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T18:32:31Z",
+      "uri": "http://web.archive.org/web/20190209183231/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:58:22Z",
+      "uri": "http://web.archive.org/web/20190210005822/http://foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.foxnews.com/opinion/andrew-mccarthy-this-investigation-poses-real-peril-for-trump"
+}

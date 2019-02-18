@@ -1,0 +1,542 @@
+{
+  "original_uri": "https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-30T01:03:21Z",
+        "uri": "http://web.archive.org/web/20171130010321/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T02:07:41Z",
+        "uri": "http://web.archive.org/web/20171130020741/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T02:40:57Z",
+        "uri": "http://web.archive.org/web/20171130024057/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T09:19:11Z",
+        "uri": "http://wayback.archive-it.org/all/20171130091911/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T09:19:11Z",
+        "uri": "http://web.archive.org/web/20171130091911/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T20:58:54Z",
+        "uri": "http://web.archive.org/web/20171130205854/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T21:38:22Z",
+        "uri": "http://wayback.archive-it.org/all/20171130213822/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-11-30T21:38:22Z",
+        "uri": "http://web.archive.org/web/20171130213822/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-12-03T16:58:08Z",
+        "uri": "http://web.archive.org/web/20171203165808/http://www.cnn.com:80/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-12-07T12:13:00Z",
+        "uri": "http://web.archive.org/web/20171207121300/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-12-21T09:18:31Z",
+        "uri": "http://web.archive.org/web/20171221091831/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2017-12-21T09:47:21Z",
+        "uri": "http://web.archive.org/web/20171221094721/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-02T00:25:52Z",
+        "uri": "http://web.archive.org/web/20180102002552/http://www.cnn.com:80/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-08T08:41:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180108084107/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-08T08:41:07Z",
+        "uri": "http://web.archive.org/web/20180108084107/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-11T02:12:35Z",
+        "uri": "http://web.archive.org/web/20180111021235/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-12T07:48:03Z",
+        "uri": "http://web.archive.org/web/20180112074803/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-13T07:36:01Z",
+        "uri": "http://web.archive.org/web/20180113073601/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-14T07:35:36Z",
+        "uri": "http://web.archive.org/web/20180114073536/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-15T08:20:18Z",
+        "uri": "http://web.archive.org/web/20180115082018/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-16T10:08:55Z",
+        "uri": "http://web.archive.org/web/20180116100855/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-17T11:14:11Z",
+        "uri": "http://web.archive.org/web/20180117111411/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-18T10:33:57Z",
+        "uri": "http://web.archive.org/web/20180118103357/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-19T11:39:46Z",
+        "uri": "http://web.archive.org/web/20180119113946/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-20T11:59:27Z",
+        "uri": "http://web.archive.org/web/20180120115927/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-21T12:55:39Z",
+        "uri": "http://web.archive.org/web/20180121125539/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-21T15:54:14Z",
+        "uri": "http://web.archive.org/web/20180121155414/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-22T16:57:00Z",
+        "uri": "http://web.archive.org/web/20180122165700/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-22T16:57:02Z",
+        "uri": "http://web.archive.org/web/20180122165702/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-23T18:31:56Z",
+        "uri": "http://web.archive.org/web/20180123183156/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-24T15:39:40Z",
+        "uri": "http://web.archive.org/web/20180124153940/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-25T16:18:11Z",
+        "uri": "http://web.archive.org/web/20180125161811/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-26T16:47:53Z",
+        "uri": "http://web.archive.org/web/20180126164753/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-27T17:03:38Z",
+        "uri": "http://web.archive.org/web/20180127170338/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-28T18:11:46Z",
+        "uri": "http://web.archive.org/web/20180128181146/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-30T05:38:17Z",
+        "uri": "http://web.archive.org/web/20180130053817/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-01-31T03:29:12Z",
+        "uri": "http://web.archive.org/web/20180131032912/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-01T04:50:24Z",
+        "uri": "http://web.archive.org/web/20180201045024/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-02T05:30:45Z",
+        "uri": "http://web.archive.org/web/20180202053045/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-02T20:56:24Z",
+        "uri": "http://web.archive.org/web/20180202205624/http://www.cnn.com:80/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-03T05:08:40Z",
+        "uri": "http://web.archive.org/web/20180203050840/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-08T00:50:51Z",
+        "uri": "http://web.archive.org/web/20180208005051/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-08T09:16:14Z",
+        "uri": "http://web.archive.org/web/20180208091614/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-09T07:17:12Z",
+        "uri": "http://web.archive.org/web/20180209071712/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-10T06:27:40Z",
+        "uri": "http://web.archive.org/web/20180210062740/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-11T07:22:51Z",
+        "uri": "http://web.archive.org/web/20180211072251/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-12T08:32:55Z",
+        "uri": "http://web.archive.org/web/20180212083255/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-13T12:33:06Z",
+        "uri": "http://web.archive.org/web/20180213123306/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-14T13:24:06Z",
+        "uri": "http://web.archive.org/web/20180214132406/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-15T13:43:04Z",
+        "uri": "http://web.archive.org/web/20180215134304/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-16T14:50:00Z",
+        "uri": "http://web.archive.org/web/20180216145000/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-17T15:31:55Z",
+        "uri": "http://web.archive.org/web/20180217153155/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-18T16:23:10Z",
+        "uri": "http://web.archive.org/web/20180218162310/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-19T18:21:20Z",
+        "uri": "http://web.archive.org/web/20180219182120/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-20T17:59:31Z",
+        "uri": "http://web.archive.org/web/20180220175931/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-21T15:11:50Z",
+        "uri": "http://web.archive.org/web/20180221151150/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-22T19:55:56Z",
+        "uri": "http://web.archive.org/web/20180222195556/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-23T20:37:31Z",
+        "uri": "http://web.archive.org/web/20180223203731/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-24T22:55:13Z",
+        "uri": "http://web.archive.org/web/20180224225513/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-25T23:22:46Z",
+        "uri": "http://web.archive.org/web/20180225232246/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-27T00:19:09Z",
+        "uri": "http://web.archive.org/web/20180227001909/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-02-28T02:21:01Z",
+        "uri": "http://web.archive.org/web/20180228022101/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-01T01:44:39Z",
+        "uri": "http://web.archive.org/web/20180301014439/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-02T08:40:18Z",
+        "uri": "http://web.archive.org/web/20180302084018/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-03T09:16:45Z",
+        "uri": "http://web.archive.org/web/20180303091645/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-04T10:12:06Z",
+        "uri": "http://web.archive.org/web/20180304101206/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-05T01:50:05Z",
+        "uri": "http://web.archive.org/web/20180305015005/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-05T02:00:39Z",
+        "uri": "http://web.archive.org/web/20180305020039/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-05T10:31:34Z",
+        "uri": "http://web.archive.org/web/20180305103134/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-06T15:51:01Z",
+        "uri": "http://web.archive.org/web/20180306155101/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-07T10:07:22Z",
+        "uri": "http://web.archive.org/web/20180307100722/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-07T10:21:21Z",
+        "uri": "http://web.archive.org/web/20180307102121/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-07T20:53:58Z",
+        "uri": "http://web.archive.org/web/20180307205358/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-08T22:00:57Z",
+        "uri": "http://web.archive.org/web/20180308220057/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-09T06:41:14Z",
+        "uri": "http://web.archive.org/web/20180309064114/http://www.cnn.com:80/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-10T00:45:17Z",
+        "uri": "http://web.archive.org/web/20180310004517/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-11T00:24:14Z",
+        "uri": "http://web.archive.org/web/20180311002414/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-11T12:16:50Z",
+        "uri": "http://web.archive.org/web/20180311121650/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-12T00:06:19Z",
+        "uri": "http://web.archive.org/web/20180312000619/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-12T08:51:44Z",
+        "uri": "http://web.archive.org/web/20180312085144/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-13T00:56:04Z",
+        "uri": "http://web.archive.org/web/20180313005604/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-13T07:52:17Z",
+        "uri": "http://web.archive.org/web/20180313075217/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-14T01:31:11Z",
+        "uri": "http://web.archive.org/web/20180314013111/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-14T10:03:57Z",
+        "uri": "http://web.archive.org/web/20180314100357/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-15T01:28:33Z",
+        "uri": "http://web.archive.org/web/20180315012833/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-15T09:05:47Z",
+        "uri": "http://web.archive.org/web/20180315090547/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-16T01:10:30Z",
+        "uri": "http://web.archive.org/web/20180316011030/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-16T09:08:34Z",
+        "uri": "http://web.archive.org/web/20180316090834/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-17T07:41:33Z",
+        "uri": "http://web.archive.org/web/20180317074133/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-17T09:31:07Z",
+        "uri": "http://web.archive.org/web/20180317093107/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-18T01:53:39Z",
+        "uri": "http://web.archive.org/web/20180318015339/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-18T09:54:33Z",
+        "uri": "http://web.archive.org/web/20180318095433/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-19T03:23:04Z",
+        "uri": "http://web.archive.org/web/20180319032304/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-19T09:55:53Z",
+        "uri": "http://web.archive.org/web/20180319095553/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-20T06:19:52Z",
+        "uri": "http://web.archive.org/web/20180320061952/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-21T06:57:05Z",
+        "uri": "http://web.archive.org/web/20180321065705/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-22T05:56:48Z",
+        "uri": "http://web.archive.org/web/20180322055648/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-23T05:00:24Z",
+        "uri": "http://web.archive.org/web/20180323050024/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-24T04:56:09Z",
+        "uri": "http://web.archive.org/web/20180324045609/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-25T05:20:08Z",
+        "uri": "http://web.archive.org/web/20180325052008/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-26T06:27:02Z",
+        "uri": "http://web.archive.org/web/20180326062702/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-27T07:09:21Z",
+        "uri": "http://web.archive.org/web/20180327070921/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-28T08:30:15Z",
+        "uri": "http://web.archive.org/web/20180328083015/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-29T08:41:15Z",
+        "uri": "http://web.archive.org/web/20180329084115/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-30T09:26:33Z",
+        "uri": "http://web.archive.org/web/20180330092633/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-03-31T11:32:35Z",
+        "uri": "http://web.archive.org/web/20180331113235/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-04-01T10:21:33Z",
+        "uri": "http://web.archive.org/web/20180401102133/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-04-10T08:10:09Z",
+        "uri": "http://web.archive.org/web/20180410081009/http://www.cnn.com:80/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-01T05:42:49Z",
+        "uri": "http://web.archive.org/web/20180601054249/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-01T05:59:07Z",
+        "uri": "http://web.archive.org/web/20180601055907/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-02T05:26:59Z",
+        "uri": "http://web.archive.org/web/20180602052659/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-03T06:24:01Z",
+        "uri": "http://web.archive.org/web/20180603062401/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-04T07:13:29Z",
+        "uri": "http://web.archive.org/web/20180604071329/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-05T08:55:11Z",
+        "uri": "http://web.archive.org/web/20180605085511/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-06T01:22:30Z",
+        "uri": "http://web.archive.org/web/20180606012230/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-07T07:53:11Z",
+        "uri": "http://web.archive.org/web/20180607075311/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-08T10:46:48Z",
+        "uri": "http://web.archive.org/web/20180608104648/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-09T10:55:08Z",
+        "uri": "http://web.archive.org/web/20180609105508/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-10T10:33:44Z",
+        "uri": "http://web.archive.org/web/20180610103344/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-06-18T23:24:57Z",
+        "uri": "http://web.archive.org/web/20180618232457/http://www.cnn.com:80/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-07-17T21:40:07Z",
+        "uri": "http://web.archive.org/web/20180717214007/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-07-26T19:34:16Z",
+        "uri": "http://web.archive.org/web/20180726193416/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-02T01:54:48Z",
+        "uri": "http://web.archive.org/web/20180802015448/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-03T03:21:29Z",
+        "uri": "http://web.archive.org/web/20180803032129/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-05T04:33:31Z",
+        "uri": "http://web.archive.org/web/20180805043331/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-22T09:57:46Z",
+        "uri": "http://web.archive.org/web/20180822095746/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-23T14:16:08Z",
+        "uri": "http://web.archive.org/web/20180823141608/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-24T13:57:59Z",
+        "uri": "http://web.archive.org/web/20180824135759/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-08-26T16:14:58Z",
+        "uri": "http://web.archive.org/web/20180826161458/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      },
+      {
+        "datetime": "2018-11-05T11:48:47Z",
+        "uri": "http://web.archive.org/web/20181105114847/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-30T01:03:21Z",
+      "uri": "http://web.archive.org/web/20171130010321/http://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+    },
+    "last": {
+      "datetime": "2018-11-05T11:48:47Z",
+      "uri": "http://web.archive.org/web/20181105114847/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2017/11/29/opinions/trump-native-americans-moya-smith-opinion/index.html"
+}

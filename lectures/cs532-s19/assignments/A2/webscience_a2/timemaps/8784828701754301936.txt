@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-24T23:46:51Z",
+        "uri": "http://web.archive.org/web/20190124234651/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+      },
+      {
+        "datetime": "2019-01-25T11:28:38Z",
+        "uri": "http://web.archive.org/web/20190125112838/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+      },
+      {
+        "datetime": "2019-02-01T00:38:38Z",
+        "uri": "http://web.archive.org/web/20190201003838/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-24T23:46:51Z",
+      "uri": "http://web.archive.org/web/20190124234651/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+    },
+    "last": {
+      "datetime": "2019-02-01T00:38:38Z",
+      "uri": "http://web.archive.org/web/20190201003838/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.elle.com/culture/career-politics/a26028357/pelosi-sotu-scarf/"
+}

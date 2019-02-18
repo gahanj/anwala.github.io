@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T22:52:42Z",
+        "uri": "http://web.archive.org/web/20190208225242/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+      },
+      {
+        "datetime": "2019-02-09T02:44:27Z",
+        "uri": "http://web.archive.org/web/20190209024427/http://news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+      },
+      {
+        "datetime": "2019-02-09T02:44:29Z",
+        "uri": "http://web.archive.org/web/20190209024429/http://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+      },
+      {
+        "datetime": "2019-02-09T02:46:39Z",
+        "uri": "http://web.archive.org/web/20190209024639/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+      },
+      {
+        "datetime": "2019-02-09T03:55:09Z",
+        "uri": "http://web.archive.org/web/20190209035509/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+      },
+      {
+        "datetime": "2019-02-10T14:24:22Z",
+        "uri": "http://web.archive.org/web/20190210142422/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T22:52:42Z",
+      "uri": "http://web.archive.org/web/20190208225242/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:24:22Z",
+      "uri": "http://web.archive.org/web/20190210142422/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.news.com.au/national/joe-hildebrand-writes-the-death-of-truth-how-facts-have-been-replaced-with-feelings/news-story/e28fa779be461fa8245f71e203baf862"
+}

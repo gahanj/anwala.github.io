@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.rt.com/usa/451089-trump-green-deal-brilliant/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.rt.com/usa/451089-trump-green-deal-brilliant/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T02:25:09Z",
+        "uri": "http://web.archive.org/web/20190210022509/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T02:25:09Z",
+        "uri": "http://web.archive.org/web/20190210022509/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T04:27:57Z",
+        "uri": "http://web.archive.org/web/20190210042757/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T04:27:57Z",
+        "uri": "http://web.archive.org/web/20190210042757/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T05:28:00Z",
+        "uri": "http://web.archive.org/web/20190210052800/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T05:28:00Z",
+        "uri": "http://web.archive.org/web/20190210052800/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T06:19:29Z",
+        "uri": "http://web.archive.org/web/20190210061929/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      },
+      {
+        "datetime": "2019-02-10T14:31:37Z",
+        "uri": "http://archive.md/20190210143137/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T02:25:09Z",
+      "uri": "http://web.archive.org/web/20190210022509/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:31:37Z",
+      "uri": "http://archive.md/20190210143137/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.rt.com/usa/451089-trump-green-deal-brilliant/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.rt.com/usa/451089-trump-green-deal-brilliant/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.rt.com/usa/451089-trump-green-deal-brilliant/"
+}

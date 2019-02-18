@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T02:22:00Z",
+        "uri": "http://web.archive.org/web/20190210022200/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/"
+      },
+      {
+        "datetime": "2019-02-10T02:22:00Z",
+        "uri": "http://web.archive.org/web/20190210022200/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T02:22:00Z",
+      "uri": "http://web.archive.org/web/20190210022200/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:22:00Z",
+      "uri": "http://web.archive.org/web/20190210022200/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/ted-lieu-hammer-trump-donald/15849/"
+}

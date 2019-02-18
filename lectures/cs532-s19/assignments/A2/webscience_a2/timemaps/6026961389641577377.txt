@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:41:15Z",
+        "uri": "http://web.archive.org/web/20190209144115/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551"
+      },
+      {
+        "datetime": "2019-02-10T04:36:38Z",
+        "uri": "http://archive.md/20190210043638/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:41:15Z",
+      "uri": "http://web.archive.org/web/20190209144115/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:36:38Z",
+      "uri": "http://archive.md/20190210043638/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/09/tech-industry-facing-a-trump-trap-in-2020-1086551"
+}

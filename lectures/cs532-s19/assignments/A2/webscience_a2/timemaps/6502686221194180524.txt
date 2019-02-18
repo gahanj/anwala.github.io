@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:30:22Z",
+        "uri": "http://web.archive.org/web/20190209143022/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-09T14:42:38Z",
+        "uri": "http://web.archive.org/web/20190209144238/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-09T18:17:14Z",
+        "uri": "http://web.archive.org/web/20190209181714/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-09T23:36:59Z",
+        "uri": "http://web.archive.org/web/20190209233659/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-10T00:19:14Z",
+        "uri": "http://web.archive.org/web/20190210001914/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-10T00:19:45Z",
+        "uri": "http://web.archive.org/web/20190210001945/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-10T07:58:30Z",
+        "uri": "http://web.archive.org/web/20190210075830/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-10T14:20:34Z",
+        "uri": "http://web.archive.org/web/20190210142034/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      },
+      {
+        "datetime": "2019-02-10T14:20:34Z",
+        "uri": "http://web.archive.org/web/20190210142034/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:30:22Z",
+      "uri": "http://web.archive.org/web/20190209143022/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:20:34Z",
+      "uri": "http://web.archive.org/web/20190210142034/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/technology/2019/feb/09/jeff-bezos-trump-national-enquirer-amazon-david-pecker"
+}

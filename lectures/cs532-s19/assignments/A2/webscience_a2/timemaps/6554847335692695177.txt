@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-10-03T08:20:08Z",
+        "uri": "http://web.archive.org/web/20181003082008/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html"
+      },
+      {
+        "datetime": "2018-10-04T16:11:15Z",
+        "uri": "http://web.archive.org/web/20181004161115/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-10-03T08:20:08Z",
+      "uri": "http://web.archive.org/web/20181003082008/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html"
+    },
+    "last": {
+      "datetime": "2018-10-04T16:11:15Z",
+      "uri": "http://web.archive.org/web/20181004161115/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnbc.com/2018/10/03/trump-i-told-saudi-king-salman-he-wouldnt-last-without-us-support.html"
+}

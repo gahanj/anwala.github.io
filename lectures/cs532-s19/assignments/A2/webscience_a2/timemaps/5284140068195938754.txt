@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:00:29Z",
+        "uri": "http://web.archive.org/web/20190210110029/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/"
+      },
+      {
+        "datetime": "2019-02-10T11:00:49Z",
+        "uri": "http://web.archive.org/web/20190210110049/http://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:00:29Z",
+      "uri": "http://web.archive.org/web/20190210110029/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:00:49Z",
+      "uri": "http://web.archive.org/web/20190210110049/http://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtontimes.com/news/2019/feb/9/michael-mccaul-texas-republican-blasts-trump-ignor/"
+}

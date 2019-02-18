@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T05:49:21Z",
+        "uri": "http://web.archive.org/web/20190210054921/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump"
+      },
+      {
+        "datetime": "2019-02-10T07:57:01Z",
+        "uri": "http://web.archive.org/web/20190210075701/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T05:49:21Z",
+      "uri": "http://web.archive.org/web/20190210054921/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:57:01Z",
+      "uri": "http://web.archive.org/web/20190210075701/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.buzzfeednews.com/article/karlazabludovsky/venezuela-maduro-reject-us-aid-trump"
+}

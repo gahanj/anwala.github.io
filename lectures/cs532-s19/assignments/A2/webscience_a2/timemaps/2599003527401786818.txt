@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:44:26Z",
+        "uri": "http://web.archive.org/web/20190209144426/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession"
+      },
+      {
+        "datetime": "2019-02-09T18:19:46Z",
+        "uri": "http://web.archive.org/web/20190209181946/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:44:26Z",
+      "uri": "http://web.archive.org/web/20190209144426/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession"
+    },
+    "last": {
+      "datetime": "2019-02-09T18:19:46Z",
+      "uri": "http://web.archive.org/web/20190209181946/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.zerohedge.com/news/2019-02-08/energy-dominance-isnt-just-trump-obsession"
+}

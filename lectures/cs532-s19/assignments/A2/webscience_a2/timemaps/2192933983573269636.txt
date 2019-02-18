@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T18:42:29Z",
+        "uri": "http://web.archive.org/web/20190210184229/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T18:42:29Z",
+      "uri": "http://web.archive.org/web/20190210184229/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg"
+    },
+    "last": {
+      "datetime": "2019-02-10T18:42:29Z",
+      "uri": "http://web.archive.org/web/20190210184229/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thegatewaypundit.com/wp-content/uploads/trump-parade-italy-.jpg"
+}

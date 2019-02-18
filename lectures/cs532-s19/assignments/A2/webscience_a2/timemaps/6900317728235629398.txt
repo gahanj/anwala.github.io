@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T22:22:44Z",
+        "uri": "http://web.archive.org/web/20190207222244/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+      },
+      {
+        "datetime": "2019-02-08T01:26:28Z",
+        "uri": "http://wayback.archive-it.org/all/20190208012628/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+      },
+      {
+        "datetime": "2019-02-08T01:26:28Z",
+        "uri": "http://web.archive.org/web/20190208012628/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T22:22:44Z",
+      "uri": "http://web.archive.org/web/20190207222244/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+    },
+    "last": {
+      "datetime": "2019-02-08T01:26:28Z",
+      "uri": "http://web.archive.org/web/20190208012628/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/policy/healthcare/428969-trump-health-official-says-agency-would-never-have-supported-family"
+}

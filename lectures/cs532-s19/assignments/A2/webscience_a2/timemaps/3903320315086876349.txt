@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:55:37Z",
+        "uri": "http://web.archive.org/web/20190208185537/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+      },
+      {
+        "datetime": "2019-02-08T22:40:04Z",
+        "uri": "http://web.archive.org/web/20190208224004/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+      },
+      {
+        "datetime": "2019-02-09T08:03:34Z",
+        "uri": "http://web.archive.org/web/20190209080334/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:55:37Z",
+      "uri": "http://web.archive.org/web/20190208185537/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T08:03:34Z",
+      "uri": "http://web.archive.org/web/20190209080334/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.axios.com/trump-organization-illegal-immigrants-a15ff2d9-6906-4208-aefa-1d284c42a7cf.html"
+}

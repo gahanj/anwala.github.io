@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:17:14Z",
+        "uri": "http://web.archive.org/web/20190210001714/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/"
+      },
+      {
+        "datetime": "2019-02-10T02:55:09Z",
+        "uri": "http://web.archive.org/web/20190210025509/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:17:14Z",
+      "uri": "http://web.archive.org/web/20190210001714/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:55:09Z",
+      "uri": "http://web.archive.org/web/20190210025509/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbsnews.com/news/federal-reserve-consumer-credit-report-you-feel-so-overwhelmed-jamie-kearns-interview/"
+}

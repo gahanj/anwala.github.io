@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T16:42:52Z",
+        "uri": "http://web.archive.org/web/20190210164252/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T16:42:52Z",
+      "uri": "http://web.archive.org/web/20190210164252/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:42:52Z",
+      "uri": "http://web.archive.org/web/20190210164252/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news4sanantonio.com/news/local/president-trump-supporters-form-human-chain-at-border-near-sunland-park"
+}

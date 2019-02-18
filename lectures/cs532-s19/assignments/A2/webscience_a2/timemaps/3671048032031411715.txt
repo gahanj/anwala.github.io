@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T03:58:04Z",
+        "uri": "http://web.archive.org/web/20190209035804/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T03:58:04Z",
+      "uri": "http://web.archive.org/web/20190209035804/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante"
+    },
+    "last": {
+      "datetime": "2019-02-09T03:58:04Z",
+      "uri": "http://web.archive.org/web/20190209035804/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.journaldemontreal.com/2019/02/08/donald-trump-est-en-tres-bonne-sante"
+}

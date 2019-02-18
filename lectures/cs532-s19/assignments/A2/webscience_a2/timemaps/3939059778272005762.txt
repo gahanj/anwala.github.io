@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T05:31:04Z",
+        "uri": "http://web.archive.org/web/20190210053104/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html"
+      },
+      {
+        "datetime": "2019-02-10T09:39:59Z",
+        "uri": "http://web.archive.org/web/20190210093959/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T05:31:04Z",
+      "uri": "http://web.archive.org/web/20190210053104/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:39:59Z",
+      "uri": "http://web.archive.org/web/20190210093959/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.lemonde.fr/chroniques-de-la-presidence-trump/article/2019/02/10/president-trump-an-iii-le-socialisme-voila-l-ennemi_5421625_5077160.html"
+}

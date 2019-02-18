@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:27:56Z",
+        "uri": "http://web.archive.org/web/20190209012756/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T04:02:40Z",
+        "uri": "http://web.archive.org/web/20190209040240/http://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T08:32:56Z",
+        "uri": "http://web.archive.org/web/20190209083256/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T00:54:01Z",
+        "uri": "http://web.archive.org/web/20190210005401/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T02:07:28Z",
+        "uri": "http://web.archive.org/web/20190210020728/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:27:56Z",
+      "uri": "http://web.archive.org/web/20190209012756/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:07:28Z",
+      "uri": "http://web.archive.org/web/20190210020728/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.latimes.com/politics/la-na-pol-epa-enforcement-decline-20190208-story.html"
+}

@@ -1,0 +1,90 @@
+{
+  "original_uri": "https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-08-21T17:27:10Z",
+        "uri": "http://web.archive.org/web/20170821172710/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-22T05:08:07Z",
+        "uri": "http://web.archive.org/web/20170822050807/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-22T21:28:25Z",
+        "uri": "http://web.archive.org/web/20170822212825/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-23T05:22:30Z",
+        "uri": "http://web.archive.org/web/20170823052230/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-23T18:50:39Z",
+        "uri": "http://web.archive.org/web/20170823185039/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-25T19:49:52Z",
+        "uri": "http://web.archive.org/web/20170825194952/http://www.nytimes.com:80/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-26T21:29:57Z",
+        "uri": "http://web.archive.org/web/20170826212957/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-08-27T04:20:47Z",
+        "uri": "http://web.archive.org/web/20170827042047/http://www.nytimes.com:80/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-09-07T19:48:43Z",
+        "uri": "http://web.archive.org/web/20170907194843/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2017-09-07T20:47:45Z",
+        "uri": "http://web.archive.org/web/20170907204745/http://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2018-01-27T19:34:55Z",
+        "uri": "http://web.archive.org/web/20180127193455/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2018-02-20T03:07:34Z",
+        "uri": "http://web.archive.org/web/20180220030734/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2018-04-25T03:18:19Z",
+        "uri": "http://web.archive.org/web/20180425031819/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2018-06-13T23:54:20Z",
+        "uri": "http://web.archive.org/web/20180613235420/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2018-08-01T11:46:04Z",
+        "uri": "http://web.archive.org/web/20180801114604/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2018-11-25T07:43:40Z",
+        "uri": "http://web.archive.org/web/20181125074340/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      },
+      {
+        "datetime": "2019-01-19T06:01:50Z",
+        "uri": "http://web.archive.org/web/20190119060150/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-08-21T17:27:10Z",
+      "uri": "http://web.archive.org/web/20170821172710/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+    },
+    "last": {
+      "datetime": "2019-01-19T06:01:50Z",
+      "uri": "http://web.archive.org/web/20190119060150/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2017/08/21/us/jerry-falwell-liberty-university-trump.html"
+}

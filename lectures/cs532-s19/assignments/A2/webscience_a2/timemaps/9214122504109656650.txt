@@ -1,0 +1,726 @@
+{
+  "original_uri": "https://www.youtube.com/watch?v=QgrZsOfEnGo",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=QgrZsOfEnGo",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-24T19:37:14Z",
+        "uri": "http://web.archive.org/web/20180324193714/https://www.youtube.com/watch?v=QgrZsOfEnGo&gl=US&hl=en"
+      },
+      {
+        "datetime": "2018-03-24T20:27:32Z",
+        "uri": "http://web.archive.org/web/20180324202732/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-24T20:28:07Z",
+        "uri": "http://web.archive.org/web/20180324202807/https://www.youtube.com/watch?v=QgrZsOfEnGo&feature=youtu.be"
+      },
+      {
+        "datetime": "2018-03-24T20:28:10Z",
+        "uri": "http://web.archive.org/web/20180324202810/https://www.youtube.com/watch?v=QgrZsOfEnGo&app=desktop"
+      },
+      {
+        "datetime": "2018-03-24T20:28:50Z",
+        "uri": "http://web.archive.org/web/20180324202850/https://www.youtube.com/watch?v=QgrZsOfEnGo&feature=applinks"
+      },
+      {
+        "datetime": "2018-03-24T22:09:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180324220915/http://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-24T22:09:15Z",
+        "uri": "http://web.archive.org/web/20180324220915/http://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-25T03:05:25Z",
+        "uri": "http://web.archive.org/web/20180325030525/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-25T12:01:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180325120115/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-25T12:01:15Z",
+        "uri": "http://web.archive.org/web/20180325120115/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-25T12:01:20Z",
+        "uri": "http://web.archive.org/web/20180325120120/https://www.youtube.com/watch?v=QgrZsOfEnGo&feature=applinks"
+      },
+      {
+        "datetime": "2018-03-25T12:01:28Z",
+        "uri": "http://web.archive.org/web/20180325120128/https://www.youtube.com/watch?v=QgrZsOfEnGo&feature=youtu.be"
+      },
+      {
+        "datetime": "2018-03-25T12:01:29Z",
+        "uri": "http://web.archive.org/web/20180325120129/https://www.youtube.com/watch?v=QgrZsOfEnGo&app=desktop"
+      },
+      {
+        "datetime": "2018-03-26T04:12:38Z",
+        "uri": "http://web.archive.org/web/20180326041238/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-27T05:24:36Z",
+        "uri": "http://web.archive.org/web/20180327052436/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-28T18:40:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180328184046/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-28T18:40:46Z",
+        "uri": "http://web.archive.org/web/20180328184046/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-29T07:01:15Z",
+        "uri": "http://web.archive.org/web/20180329070115/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-30T05:17:28Z",
+        "uri": "http://web.archive.org/web/20180330051728/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-30T07:50:03Z",
+        "uri": "http://web.archive.org/web/20180330075003/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-31T20:15:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180331201520/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-03-31T20:15:20Z",
+        "uri": "http://web.archive.org/web/20180331201520/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-01T09:06:47Z",
+        "uri": "http://web.archive.org/web/20180401090647/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-01T19:45:36Z",
+        "uri": "http://wayback.archive-it.org/all/20180401194536/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-01T19:45:36Z",
+        "uri": "http://web.archive.org/web/20180401194536/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-02T10:14:22Z",
+        "uri": "http://web.archive.org/web/20180402101422/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-03T21:26:58Z",
+        "uri": "http://wayback.archive-it.org/all/20180403212658/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-03T21:26:58Z",
+        "uri": "http://web.archive.org/web/20180403212658/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-04T19:17:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180404191711/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-04T19:17:11Z",
+        "uri": "http://web.archive.org/web/20180404191711/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-06T13:12:44Z",
+        "uri": "http://web.archive.org/web/20180406131244/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-07T13:58:47Z",
+        "uri": "http://web.archive.org/web/20180407135847/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-08T14:42:39Z",
+        "uri": "http://web.archive.org/web/20180408144239/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-09T16:29:34Z",
+        "uri": "http://web.archive.org/web/20180409162934/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-09T20:41:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180409204130/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-09T20:41:30Z",
+        "uri": "http://web.archive.org/web/20180409204130/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-10T16:49:16Z",
+        "uri": "http://web.archive.org/web/20180410164916/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-11T17:09:22Z",
+        "uri": "http://web.archive.org/web/20180411170922/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-11T23:07:43Z",
+        "uri": "http://wayback.archive-it.org/all/20180411230743/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-11T23:07:43Z",
+        "uri": "http://web.archive.org/web/20180411230743/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-12T17:42:30Z",
+        "uri": "http://web.archive.org/web/20180412174230/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-12T23:39:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180412233915/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-12T23:39:15Z",
+        "uri": "http://web.archive.org/web/20180412233915/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-13T20:15:50Z",
+        "uri": "http://web.archive.org/web/20180413201550/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-14T19:51:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180414195135/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-14T19:51:35Z",
+        "uri": "http://web.archive.org/web/20180414195135/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-14T20:08:29Z",
+        "uri": "http://web.archive.org/web/20180414200829/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-15T20:01:46Z",
+        "uri": "http://web.archive.org/web/20180415200146/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-15T21:18:48Z",
+        "uri": "http://web.archive.org/web/20180415211848/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-15T22:10:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180415221010/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-15T22:10:10Z",
+        "uri": "http://web.archive.org/web/20180415221010/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-16T21:29:26Z",
+        "uri": "http://web.archive.org/web/20180416212926/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-17T22:29:54Z",
+        "uri": "http://web.archive.org/web/20180417222954/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-18T21:12:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180418211251/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-18T21:12:51Z",
+        "uri": "http://web.archive.org/web/20180418211251/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-18T22:34:02Z",
+        "uri": "http://web.archive.org/web/20180418223402/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-19T22:27:40Z",
+        "uri": "http://web.archive.org/web/20180419222740/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-20T23:13:42Z",
+        "uri": "http://web.archive.org/web/20180420231342/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-21T00:28:57Z",
+        "uri": "http://web.archive.org/web/20180421002857/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-22T00:07:07Z",
+        "uri": "http://web.archive.org/web/20180422000707/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-23T00:20:13Z",
+        "uri": "http://web.archive.org/web/20180423002013/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-24T00:11:05Z",
+        "uri": "http://web.archive.org/web/20180424001105/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-25T00:03:37Z",
+        "uri": "http://web.archive.org/web/20180425000337/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-26T00:42:41Z",
+        "uri": "http://web.archive.org/web/20180426004241/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-27T01:40:20Z",
+        "uri": "http://web.archive.org/web/20180427014020/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-28T00:59:01Z",
+        "uri": "http://web.archive.org/web/20180428005901/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-29T01:49:45Z",
+        "uri": "http://web.archive.org/web/20180429014945/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-04-30T02:12:36Z",
+        "uri": "http://web.archive.org/web/20180430021236/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-01T02:42:07Z",
+        "uri": "http://web.archive.org/web/20180501024207/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-02T02:43:10Z",
+        "uri": "http://web.archive.org/web/20180502024310/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-03T02:55:59Z",
+        "uri": "http://web.archive.org/web/20180503025559/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-05T10:56:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180505105624/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-05T10:56:24Z",
+        "uri": "http://web.archive.org/web/20180505105624/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-06T02:13:38Z",
+        "uri": "http://web.archive.org/web/20180506021338/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-07T03:08:32Z",
+        "uri": "http://web.archive.org/web/20180507030832/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-08T03:20:23Z",
+        "uri": "http://web.archive.org/web/20180508032023/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-09T03:18:05Z",
+        "uri": "http://web.archive.org/web/20180509031805/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-10T04:10:37Z",
+        "uri": "http://web.archive.org/web/20180510041037/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-11T04:49:30Z",
+        "uri": "http://web.archive.org/web/20180511044930/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-12T05:20:01Z",
+        "uri": "http://web.archive.org/web/20180512052001/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-13T05:51:13Z",
+        "uri": "http://web.archive.org/web/20180513055113/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-14T06:22:50Z",
+        "uri": "http://web.archive.org/web/20180514062250/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-15T07:12:57Z",
+        "uri": "http://web.archive.org/web/20180515071257/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-16T07:45:39Z",
+        "uri": "http://web.archive.org/web/20180516074539/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-17T08:01:05Z",
+        "uri": "http://web.archive.org/web/20180517080105/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-18T08:46:50Z",
+        "uri": "http://web.archive.org/web/20180518084650/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-18T15:30:49Z",
+        "uri": "http://web.archive.org/web/20180518153049/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-19T10:43:44Z",
+        "uri": "http://web.archive.org/web/20180519104344/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-20T11:24:13Z",
+        "uri": "http://web.archive.org/web/20180520112413/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-21T11:44:44Z",
+        "uri": "http://web.archive.org/web/20180521114444/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-22T12:23:51Z",
+        "uri": "http://web.archive.org/web/20180522122351/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-23T13:07:04Z",
+        "uri": "http://web.archive.org/web/20180523130704/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-05-24T14:40:49Z",
+        "uri": "http://web.archive.org/web/20180524144049/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-06-15T12:16:00Z",
+        "uri": "http://web.archive.org/web/20180615121600/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-06-18T09:42:34Z",
+        "uri": "http://web.archive.org/web/20180618094234/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-18T05:14:44Z",
+        "uri": "http://web.archive.org/web/20180718051444/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-26T05:15:40Z",
+        "uri": "http://web.archive.org/web/20180726051540/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-27T07:03:10Z",
+        "uri": "http://web.archive.org/web/20180727070310/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-28T07:06:09Z",
+        "uri": "http://web.archive.org/web/20180728070609/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-29T07:34:35Z",
+        "uri": "http://web.archive.org/web/20180729073435/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-30T09:02:17Z",
+        "uri": "http://web.archive.org/web/20180730090217/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-07-31T09:07:45Z",
+        "uri": "http://web.archive.org/web/20180731090745/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-01T05:33:01Z",
+        "uri": "http://web.archive.org/web/20180801053301/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-02T07:11:19Z",
+        "uri": "http://web.archive.org/web/20180802071119/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-03T07:32:40Z",
+        "uri": "http://web.archive.org/web/20180803073240/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-04T07:51:15Z",
+        "uri": "http://web.archive.org/web/20180804075115/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-05T08:41:35Z",
+        "uri": "http://web.archive.org/web/20180805084135/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-07T10:24:19Z",
+        "uri": "http://web.archive.org/web/20180807102419/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-08T10:44:49Z",
+        "uri": "http://web.archive.org/web/20180808104449/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-08-13T21:04:30Z",
+        "uri": "http://web.archive.org/web/20180813210430/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-09-04T18:13:31Z",
+        "uri": "http://web.archive.org/web/20180904181331/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-09-13T20:13:07Z",
+        "uri": "http://web.archive.org/web/20180913201307/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-09-14T22:54:06Z",
+        "uri": "http://web.archive.org/web/20180914225406/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-09-17T23:53:48Z",
+        "uri": "http://web.archive.org/web/20180917235348/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-09-19T00:38:08Z",
+        "uri": "http://web.archive.org/web/20180919003808/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-08T10:48:25Z",
+        "uri": "http://web.archive.org/web/20181008104825/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-09T11:56:28Z",
+        "uri": "http://web.archive.org/web/20181009115628/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-17T07:29:52Z",
+        "uri": "http://web.archive.org/web/20181017072952/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-18T08:57:02Z",
+        "uri": "http://web.archive.org/web/20181018085702/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-19T09:12:51Z",
+        "uri": "http://web.archive.org/web/20181019091251/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-20T10:03:20Z",
+        "uri": "http://web.archive.org/web/20181020100320/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-21T10:25:32Z",
+        "uri": "http://web.archive.org/web/20181021102532/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-22T14:05:20Z",
+        "uri": "http://web.archive.org/web/20181022140520/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-23T12:25:13Z",
+        "uri": "http://web.archive.org/web/20181023122513/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-24T13:32:19Z",
+        "uri": "http://web.archive.org/web/20181024133219/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-25T13:57:55Z",
+        "uri": "http://web.archive.org/web/20181025135755/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-26T22:30:35Z",
+        "uri": "http://web.archive.org/web/20181026223035/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-10-31T00:46:57Z",
+        "uri": "http://web.archive.org/web/20181031004657/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-01T02:27:46Z",
+        "uri": "http://web.archive.org/web/20181101022746/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-02T02:57:15Z",
+        "uri": "http://web.archive.org/web/20181102025715/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-03T03:40:50Z",
+        "uri": "http://web.archive.org/web/20181103034050/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-04T05:01:21Z",
+        "uri": "http://web.archive.org/web/20181104050121/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-05T05:33:13Z",
+        "uri": "http://web.archive.org/web/20181105053313/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-06T06:05:06Z",
+        "uri": "http://web.archive.org/web/20181106060506/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-07T06:01:46Z",
+        "uri": "http://web.archive.org/web/20181107060146/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-08T06:44:07Z",
+        "uri": "http://web.archive.org/web/20181108064407/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-09T15:27:33Z",
+        "uri": "http://web.archive.org/web/20181109152733/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-10T15:54:28Z",
+        "uri": "http://web.archive.org/web/20181110155428/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-11T16:32:40Z",
+        "uri": "http://web.archive.org/web/20181111163240/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-12T19:12:37Z",
+        "uri": "http://web.archive.org/web/20181112191237/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-20T13:33:56Z",
+        "uri": "http://web.archive.org/web/20181120133356/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-21T18:54:22Z",
+        "uri": "http://web.archive.org/web/20181121185422/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-22T19:43:23Z",
+        "uri": "http://web.archive.org/web/20181122194323/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-23T18:58:03Z",
+        "uri": "http://web.archive.org/web/20181123185803/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-24T19:28:11Z",
+        "uri": "http://web.archive.org/web/20181124192811/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-25T20:17:59Z",
+        "uri": "http://web.archive.org/web/20181125201759/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-26T21:14:25Z",
+        "uri": "http://web.archive.org/web/20181126211425/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-27T23:12:35Z",
+        "uri": "http://web.archive.org/web/20181127231235/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-28T21:24:18Z",
+        "uri": "http://web.archive.org/web/20181128212418/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-11-29T21:30:26Z",
+        "uri": "http://web.archive.org/web/20181129213026/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-12T00:43:51Z",
+        "uri": "http://web.archive.org/web/20181212004351/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-12T08:17:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181212081758/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-12T08:17:58Z",
+        "uri": "http://web.archive.org/web/20181212081758/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-13T02:12:13Z",
+        "uri": "http://web.archive.org/web/20181213021213/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-14T01:35:53Z",
+        "uri": "http://web.archive.org/web/20181214013553/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-15T05:25:45Z",
+        "uri": "http://web.archive.org/web/20181215052545/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-16T09:26:40Z",
+        "uri": "http://web.archive.org/web/20181216092640/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-17T11:18:14Z",
+        "uri": "http://web.archive.org/web/20181217111814/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-18T03:38:26Z",
+        "uri": "http://web.archive.org/web/20181218033826/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2018-12-19T08:14:08Z",
+        "uri": "http://web.archive.org/web/20181219081408/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-09T09:03:18Z",
+        "uri": "http://web.archive.org/web/20190109090318/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-10T13:05:30Z",
+        "uri": "http://web.archive.org/web/20190110130530/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-11T11:48:34Z",
+        "uri": "http://web.archive.org/web/20190111114834/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-12T13:19:12Z",
+        "uri": "http://web.archive.org/web/20190112131912/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-12T16:47:45Z",
+        "uri": "http://web.archive.org/web/20190112164745/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-13T13:17:13Z",
+        "uri": "http://web.archive.org/web/20190113131713/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-16T09:13:31Z",
+        "uri": "http://web.archive.org/web/20190116091331/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-21T12:56:53Z",
+        "uri": "http://web.archive.org/web/20190121125653/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-22T17:34:54Z",
+        "uri": "http://web.archive.org/web/20190122173454/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-01-30T21:47:13Z",
+        "uri": "http://web.archive.org/web/20190130214713/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-02-01T21:27:10Z",
+        "uri": "http://web.archive.org/web/20190201212710/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-02-03T01:22:30Z",
+        "uri": "http://web.archive.org/web/20190203012230/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-02-06T17:28:38Z",
+        "uri": "http://web.archive.org/web/20190206172838/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-02-07T18:56:28Z",
+        "uri": "http://web.archive.org/web/20190207185628/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-02-08T19:51:48Z",
+        "uri": "http://web.archive.org/web/20190208195148/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      },
+      {
+        "datetime": "2019-02-09T20:39:54Z",
+        "uri": "http://web.archive.org/web/20190209203954/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-24T19:37:14Z",
+      "uri": "http://web.archive.org/web/20180324193714/https://www.youtube.com/watch?v=QgrZsOfEnGo&gl=US&hl=en"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:39:54Z",
+      "uri": "http://web.archive.org/web/20190209203954/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.youtube.com/watch?v=QgrZsOfEnGo",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=QgrZsOfEnGo",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.youtube.com/watch?v=QgrZsOfEnGo"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:06:18Z",
+        "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit"
+      },
+      {
+        "datetime": "2019-02-09T23:26:23Z",
+        "uri": "http://web.archive.org/web/20190209232623/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:06:18Z",
+      "uri": "http://web.archive.org/web/20190209200618/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:26:23Z",
+      "uri": "http://web.archive.org/web/20190209232623/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/campaign/429276-orourke-rips-trumps-lies-ahead-of-el-paso-visit"
+}

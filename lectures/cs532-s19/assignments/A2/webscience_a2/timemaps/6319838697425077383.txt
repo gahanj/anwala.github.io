@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-02T01:47:51Z",
+        "uri": "http://web.archive.org/web/20190202014751/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+      },
+      {
+        "datetime": "2019-02-08T09:36:12Z",
+        "uri": "http://web.archive.org/web/20190208093612/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+      },
+      {
+        "datetime": "2019-02-08T09:36:38Z",
+        "uri": "http://web.archive.org/web/20190208093638/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-02T01:47:51Z",
+      "uri": "http://web.archive.org/web/20190202014751/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+    },
+    "last": {
+      "datetime": "2019-02-08T09:36:38Z",
+      "uri": "http://web.archive.org/web/20190208093638/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://khn.org/news/winners-and-losers-under-bold-trump-plan-to-slash-drug-rebate-deals/"
+}

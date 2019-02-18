@@ -1,0 +1,542 @@
+{
+  "original_uri": "https://projects.fivethirtyeight.com/trump-approval-ratings/adults/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-03-16T02:34:38Z",
+        "uri": "http://web.archive.org/web/20170316023438/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-05-04T14:21:21Z",
+        "uri": "http://web.archive.org/web/20170504142121/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-05-23T18:37:57Z",
+        "uri": "http://web.archive.org/web/20170523183757/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-05-31T08:27:09Z",
+        "uri": "http://web.archive.org/web/20170531082709/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-06-13T16:05:06Z",
+        "uri": "http://wayback.archive-it.org/all/20170613160506/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-06-13T16:05:06Z",
+        "uri": "http://web.archive.org/web/20170613160506/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-08-06T21:49:08Z",
+        "uri": "http://web.archive.org/web/20170806214908/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-08-06T21:49:44Z",
+        "uri": "http://archive.md/20170806214944/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-08-22T15:50:23Z",
+        "uri": "http://archive.md/20170822155023/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-08-29T16:28:42Z",
+        "uri": "http://archive.md/20170829162842/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-09-11T22:39:02Z",
+        "uri": "http://archive.md/20170911223902/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-09-15T19:47:38Z",
+        "uri": "http://archive.md/20170915194738/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-09-16T11:00:22Z",
+        "uri": "http://archive.md/20170916110022/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-09-21T08:13:01Z",
+        "uri": "http://web.archive.org/web/20170921081301/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-10-04T20:59:27Z",
+        "uri": "http://archive.md/20171004205927/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-10-16T18:27:37Z",
+        "uri": "http://web.archive.org/web/20171016182737/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-10-27T19:04:36Z",
+        "uri": "http://web.archive.org/web/20171027190436/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-10-29T17:36:16Z",
+        "uri": "http://web.archive.org/web/20171029173616/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-10-31T19:00:42Z",
+        "uri": "http://web.archive.org/web/20171031190042/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-02T23:51:49Z",
+        "uri": "http://web.archive.org/web/20171102235149/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-05T19:29:38Z",
+        "uri": "http://web.archive.org/web/20171105192938/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-06T21:40:52Z",
+        "uri": "http://web.archive.org/web/20171106214052/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-09T20:34:17Z",
+        "uri": "http://web.archive.org/web/20171109203417/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-14T19:45:16Z",
+        "uri": "http://web.archive.org/web/20171114194516/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-21T16:37:27Z",
+        "uri": "http://web.archive.org/web/20171121163727/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-11-21T17:04:20Z",
+        "uri": "http://web.archive.org/web/20171121170420/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-12-04T18:59:13Z",
+        "uri": "http://web.archive.org/web/20171204185913/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-12-08T17:45:38Z",
+        "uri": "http://web.archive.org/web/20171208174538/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-12-18T13:43:31Z",
+        "uri": "http://web.archive.org/web/20171218134331/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-12-19T19:22:37Z",
+        "uri": "http://web.archive.org/web/20171219192237/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-12-28T15:19:56Z",
+        "uri": "http://web.archive.org/web/20171228151956/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2017-12-31T20:00:32Z",
+        "uri": "http://web.archive.org/web/20171231200032/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-08T22:47:29Z",
+        "uri": "http://web.archive.org/web/20180108224729/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-10T22:06:08Z",
+        "uri": "http://web.archive.org/web/20180110220608/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-15T19:16:57Z",
+        "uri": "http://web.archive.org/web/20180115191657/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-16T08:11:14Z",
+        "uri": "http://web.archive.org/web/20180116081114/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-17T19:40:17Z",
+        "uri": "http://web.archive.org/web/20180117194017/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-22T21:07:57Z",
+        "uri": "http://web.archive.org/web/20180122210757/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-25T23:01:52Z",
+        "uri": "http://web.archive.org/web/20180125230152/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-01-31T20:05:18Z",
+        "uri": "http://web.archive.org/web/20180131200518/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-03T12:20:48Z",
+        "uri": "http://web.archive.org/web/20180203122048/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-05T20:37:25Z",
+        "uri": "http://web.archive.org/web/20180205203725/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-06T22:49:17Z",
+        "uri": "http://web.archive.org/web/20180206224917/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-07T20:02:57Z",
+        "uri": "http://web.archive.org/web/20180207200257/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-16T14:51:39Z",
+        "uri": "http://web.archive.org/web/20180216145139/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-19T19:36:15Z",
+        "uri": "http://web.archive.org/web/20180219193615/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-22T19:02:29Z",
+        "uri": "http://web.archive.org/web/20180222190229/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-25T22:39:01Z",
+        "uri": "http://web.archive.org/web/20180225223901/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-02-28T21:43:24Z",
+        "uri": "http://web.archive.org/web/20180228214324/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-04T19:41:46Z",
+        "uri": "http://web.archive.org/web/20180304194146/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-05T22:36:32Z",
+        "uri": "http://web.archive.org/web/20180305223632/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-06T21:10:16Z",
+        "uri": "http://web.archive.org/web/20180306211016/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-13T22:50:15Z",
+        "uri": "http://web.archive.org/web/20180313225015/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-16T23:04:06Z",
+        "uri": "http://web.archive.org/web/20180316230406/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-19T20:15:49Z",
+        "uri": "http://web.archive.org/web/20180319201549/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-26T18:18:57Z",
+        "uri": "http://web.archive.org/web/20180326181857/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-26T20:03:43Z",
+        "uri": "http://web.archive.org/web/20180326200343/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-03-29T23:40:48Z",
+        "uri": "http://web.archive.org/web/20180329234048/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-02T22:24:00Z",
+        "uri": "http://web.archive.org/web/20180402222400/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-09T20:28:50Z",
+        "uri": "http://web.archive.org/web/20180409202850/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-10T23:12:09Z",
+        "uri": "http://web.archive.org/web/20180410231209/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-14T23:23:39Z",
+        "uri": "http://web.archive.org/web/20180414232339/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-21T23:06:34Z",
+        "uri": "http://web.archive.org/web/20180421230634/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-23T23:32:20Z",
+        "uri": "http://web.archive.org/web/20180423233220/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-26T17:11:29Z",
+        "uri": "http://web.archive.org/web/20180426171129/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-27T23:20:05Z",
+        "uri": "http://web.archive.org/web/20180427232005/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-04-30T22:32:49Z",
+        "uri": "http://web.archive.org/web/20180430223249/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-01T19:25:37Z",
+        "uri": "http://web.archive.org/web/20180501192537/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-03T22:33:18Z",
+        "uri": "http://web.archive.org/web/20180503223318/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-07T18:15:30Z",
+        "uri": "http://web.archive.org/web/20180507181530/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-11T21:30:56Z",
+        "uri": "http://web.archive.org/web/20180511213056/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-15T22:39:27Z",
+        "uri": "http://web.archive.org/web/20180515223927/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-22T15:10:09Z",
+        "uri": "http://web.archive.org/web/20180522151009/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-25T20:05:33Z",
+        "uri": "http://web.archive.org/web/20180525200533/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-05-31T23:11:55Z",
+        "uri": "http://web.archive.org/web/20180531231155/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-06T20:43:00Z",
+        "uri": "http://web.archive.org/web/20180606204300/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-07T23:07:55Z",
+        "uri": "http://web.archive.org/web/20180607230755/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-11T08:00:28Z",
+        "uri": "http://web.archive.org/web/20180611080028/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-13T23:04:53Z",
+        "uri": "http://web.archive.org/web/20180613230453/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-16T13:13:30Z",
+        "uri": "http://web.archive.org/web/20180616131330/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-18T21:43:14Z",
+        "uri": "http://web.archive.org/web/20180618214314/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-20T21:08:43Z",
+        "uri": "http://web.archive.org/web/20180620210843/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-06-20T21:08:48Z",
+        "uri": "http://web.archive.org/web/20180620210848/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-08-10T22:57:23Z",
+        "uri": "http://web.archive.org/web/20180810225723/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-08-15T19:59:36Z",
+        "uri": "http://web.archive.org/web/20180815195936/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-08-22T20:03:01Z",
+        "uri": "http://web.archive.org/web/20180822200301/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-08-23T22:35:23Z",
+        "uri": "http://web.archive.org/web/20180823223523/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-08-29T17:59:16Z",
+        "uri": "http://web.archive.org/web/20180829175916/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-05T22:59:16Z",
+        "uri": "http://web.archive.org/web/20180905225916/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-11T19:37:23Z",
+        "uri": "http://web.archive.org/web/20180911193723/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-12T16:06:18Z",
+        "uri": "http://web.archive.org/web/20180912160618/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-17T23:20:04Z",
+        "uri": "http://web.archive.org/web/20180917232004/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-18T22:53:00Z",
+        "uri": "http://web.archive.org/web/20180918225300/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-21T23:34:00Z",
+        "uri": "http://web.archive.org/web/20180921233400/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-23T23:24:49Z",
+        "uri": "http://web.archive.org/web/20180923232449/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-25T18:27:14Z",
+        "uri": "http://web.archive.org/web/20180925182714/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-09-27T22:40:27Z",
+        "uri": "http://web.archive.org/web/20180927224027/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-02T21:23:50Z",
+        "uri": "http://web.archive.org/web/20181002212350/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-05T23:33:54Z",
+        "uri": "http://web.archive.org/web/20181005233354/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-08T22:57:25Z",
+        "uri": "http://web.archive.org/web/20181008225725/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-14T15:41:00Z",
+        "uri": "http://web.archive.org/web/20181014154100/https://projects.fivethirtyeight.com/trump-approval-ratings/adults"
+      },
+      {
+        "datetime": "2018-10-14T15:41:01Z",
+        "uri": "http://web.archive.org/web/20181014154101/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-15T23:26:04Z",
+        "uri": "http://web.archive.org/web/20181015232604/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-19T23:21:16Z",
+        "uri": "http://web.archive.org/web/20181019232116/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-25T23:24:40Z",
+        "uri": "http://web.archive.org/web/20181025232440/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-10-26T22:49:25Z",
+        "uri": "http://web.archive.org/web/20181026224925/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-05T00:07:15Z",
+        "uri": "http://web.archive.org/web/20181105000715/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-05T23:19:40Z",
+        "uri": "http://web.archive.org/web/20181105231940/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-12T21:52:30Z",
+        "uri": "http://web.archive.org/web/20181112215230/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-14T23:38:10Z",
+        "uri": "http://web.archive.org/web/20181114233810/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-15T18:00:48Z",
+        "uri": "http://web.archive.org/web/20181115180048/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-15T20:49:42Z",
+        "uri": "http://web.archive.org/web/20181115204942/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-15T20:50:07Z",
+        "uri": "http://archive.md/20181115205007/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-20T22:02:09Z",
+        "uri": "http://web.archive.org/web/20181120220209/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-11-28T23:20:17Z",
+        "uri": "http://web.archive.org/web/20181128232017/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-12-03T22:33:29Z",
+        "uri": "http://web.archive.org/web/20181203223329/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-12-05T22:22:06Z",
+        "uri": "http://web.archive.org/web/20181205222206/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-12-11T23:40:12Z",
+        "uri": "http://web.archive.org/web/20181211234012/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-12-12T22:29:50Z",
+        "uri": "http://web.archive.org/web/20181212222950/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-12-15T23:04:47Z",
+        "uri": "http://web.archive.org/web/20181215230447/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2018-12-17T23:36:39Z",
+        "uri": "http://web.archive.org/web/20181217233639/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-11T22:58:02Z",
+        "uri": "http://web.archive.org/web/20190111225802/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-13T22:55:20Z",
+        "uri": "http://web.archive.org/web/20190113225520/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-13T22:55:23Z",
+        "uri": "http://web.archive.org/web/20190113225523/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-19T23:41:09Z",
+        "uri": "http://web.archive.org/web/20190119234109/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-23T23:43:28Z",
+        "uri": "http://web.archive.org/web/20190123234328/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-25T23:24:40Z",
+        "uri": "http://web.archive.org/web/20190125232440/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-28T23:38:55Z",
+        "uri": "http://web.archive.org/web/20190128233855/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-01-29T23:08:52Z",
+        "uri": "http://web.archive.org/web/20190129230852/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      },
+      {
+        "datetime": "2019-02-04T23:23:19Z",
+        "uri": "http://web.archive.org/web/20190204232319/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-03-16T02:34:38Z",
+      "uri": "http://web.archive.org/web/20170316023438/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+    },
+    "last": {
+      "datetime": "2019-02-04T23:23:19Z",
+      "uri": "http://web.archive.org/web/20190204232319/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://projects.fivethirtyeight.com/trump-approval-ratings/adults/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://m-en.yna.co.kr/view/AEN20190210003600315",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://m-en.yna.co.kr/view/AEN20190210003600315",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:57:43Z",
+        "uri": "http://web.archive.org/web/20190210145743/https://m-en.yna.co.kr/view/AEN20190210003600315"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:57:43Z",
+      "uri": "http://web.archive.org/web/20190210145743/https://m-en.yna.co.kr/view/AEN20190210003600315"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:57:43Z",
+      "uri": "http://web.archive.org/web/20190210145743/https://m-en.yna.co.kr/view/AEN20190210003600315"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://m-en.yna.co.kr/view/AEN20190210003600315",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://m-en.yna.co.kr/view/AEN20190210003600315",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://m-en.yna.co.kr/view/AEN20190210003600315"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://m-en.yna.co.kr/view/AEN20190210003600315"
+}

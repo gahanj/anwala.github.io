@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:35:41Z",
+        "uri": "http://web.archive.org/web/20190210003541/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+      },
+      {
+        "datetime": "2019-02-10T08:16:58Z",
+        "uri": "http://web.archive.org/web/20190210081658/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+      },
+      {
+        "datetime": "2019-02-10T10:53:19Z",
+        "uri": "http://web.archive.org/web/20190210105319/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:35:41Z",
+      "uri": "http://web.archive.org/web/20190210003541/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:53:19Z",
+      "uri": "http://web.archive.org/web/20190210105319/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/09/ocasio-cortez-im-not-clapping-when-authoritarian-trump-says-he-wants-to-make-america-great/"
+}

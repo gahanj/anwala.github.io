@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:20:29Z",
+        "uri": "http://web.archive.org/web/20190210112029/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:20:29Z",
+      "uri": "http://web.archive.org/web/20190210112029/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:20:29Z",
+      "uri": "http://web.archive.org/web/20190210112029/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.foxnews.com/politics/trump-needles-new-presidential-candidate-warren-over-native-american-claims?cmpid=prn_msn"
+}

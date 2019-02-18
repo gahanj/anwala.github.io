@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:11:56Z",
+        "uri": "http://web.archive.org/web/20190209211156/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+      },
+      {
+        "datetime": "2019-02-09T23:16:55Z",
+        "uri": "http://web.archive.org/web/20190209231655/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+      },
+      {
+        "datetime": "2019-02-10T01:11:00Z",
+        "uri": "http://archive.md/20190210011100/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+      },
+      {
+        "datetime": "2019-02-10T11:11:12Z",
+        "uri": "http://web.archive.org/web/20190210111112/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:11:56Z",
+      "uri": "http://web.archive.org/web/20190209211156/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:11:12Z",
+      "uri": "http://web.archive.org/web/20190210111112/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/clips/2019/02/09/dem-rep-barbara-lee-trump-presided-over-the-most-corrupt-administration-in-history/"
+}

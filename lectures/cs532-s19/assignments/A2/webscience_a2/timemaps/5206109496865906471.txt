@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-19T03:08:07Z",
+        "uri": "http://web.archive.org/web/20181219030807/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks"
+      },
+      {
+        "datetime": "2018-12-19T03:08:07Z",
+        "uri": "http://wayback.archive-it.org/all/20181219030807/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-19T03:08:07Z",
+      "uri": "http://web.archive.org/web/20181219030807/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks"
+    },
+    "last": {
+      "datetime": "2018-12-19T03:08:07Z",
+      "uri": "http://wayback.archive-it.org/all/20181219030807/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.c-span.org/video/?c4768695/trump-administration-bans-bump-stocks"
+}

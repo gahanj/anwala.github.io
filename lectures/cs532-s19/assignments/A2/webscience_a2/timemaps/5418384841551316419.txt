@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-15T00:35:44Z",
+        "uri": "http://web.archive.org/web/20181115003544/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill"
+      },
+      {
+        "datetime": "2018-11-18T09:55:21Z",
+        "uri": "http://web.archive.org/web/20181118095521/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-15T00:35:44Z",
+      "uri": "http://web.archive.org/web/20181115003544/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill"
+    },
+    "last": {
+      "datetime": "2018-11-18T09:55:21Z",
+      "uri": "http://web.archive.org/web/20181118095521/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/administration/416764-trump-throws-support-behind-criminal-justice-bill"
+}

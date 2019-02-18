@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://bootstraptemplatedesign.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://bootstraptemplatedesign.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-07-01T04:05:12Z",
+        "uri": "http://web.archive.org/web/20180701040512/http://www.bootstraptemplatedesign.com:80/"
+      },
+      {
+        "datetime": "2018-08-08T08:37:37Z",
+        "uri": "http://web.archive.org/web/20180808083737/http://bootstraptemplatedesign.com/"
+      },
+      {
+        "datetime": "2018-08-29T01:41:11Z",
+        "uri": "http://web.archive.org/web/20180829014111/https://bootstraptemplatedesign.com/"
+      },
+      {
+        "datetime": "2018-12-29T06:34:45Z",
+        "uri": "http://web.archive.org/web/20181229063445/http://bootstraptemplatedesign.com/"
+      },
+      {
+        "datetime": "2019-01-17T21:43:00Z",
+        "uri": "http://web.archive.org/web/20190117214300/https://bootstraptemplatedesign.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-07-01T04:05:12Z",
+      "uri": "http://web.archive.org/web/20180701040512/http://www.bootstraptemplatedesign.com:80/"
+    },
+    "last": {
+      "datetime": "2019-01-17T21:43:00Z",
+      "uri": "http://web.archive.org/web/20190117214300/https://bootstraptemplatedesign.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://bootstraptemplatedesign.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://bootstraptemplatedesign.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://bootstraptemplatedesign.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://bootstraptemplatedesign.com/"
+}

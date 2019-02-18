@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T00:20:15Z",
+        "uri": "http://web.archive.org/web/20190208002015/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+      },
+      {
+        "datetime": "2019-02-08T14:31:35Z",
+        "uri": "http://web.archive.org/web/20190208143135/http://foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+      },
+      {
+        "datetime": "2019-02-08T14:38:38Z",
+        "uri": "http://web.archive.org/web/20190208143838/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T00:20:15Z",
+      "uri": "http://web.archive.org/web/20190208002015/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+    },
+    "last": {
+      "datetime": "2019-02-08T14:38:38Z",
+      "uri": "http://web.archive.org/web/20190208143838/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.foxbusiness.com/politics/trump-is-weighing-another-tax-cut-according-to-larry-kudlow"
+}

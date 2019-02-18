@@ -1,0 +1,406 @@
+{
+  "original_uri": "https://www.ffd365.de",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ffd365.de",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-04-24T01:34:41Z",
+        "uri": "http://web.archive.org/web/20160424013441/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2016-05-29T10:17:32Z",
+        "uri": "http://web.archive.org/web/20160529101732/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2016-06-29T20:33:17Z",
+        "uri": "http://web.archive.org/web/20160629203317/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2016-08-01T05:21:02Z",
+        "uri": "http://web.archive.org/web/20160801052102/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2016-08-02T11:14:51Z",
+        "uri": "http://web.archive.org/web/20160802111451/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2016-09-07T14:17:30Z",
+        "uri": "http://web.archive.org/web/20160907141730/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2016-10-05T13:26:41Z",
+        "uri": "http://web.archive.org/web/20161005132641/http://ffd365.de/"
+      },
+      {
+        "datetime": "2016-10-10T00:30:16Z",
+        "uri": "http://web.archive.org/web/20161010003016/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-01-07T23:42:34Z",
+        "uri": "http://web.archive.org/web/20170107234234/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-02-25T23:37:21Z",
+        "uri": "http://web.archive.org/web/20170225233721/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-05-16T11:38:37Z",
+        "uri": "http://web.archive.org/web/20170516113837/http://ffd365.de/"
+      },
+      {
+        "datetime": "2017-05-17T21:49:08Z",
+        "uri": "http://web.archive.org/web/20170517214908/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-07-17T01:49:37Z",
+        "uri": "http://web.archive.org/web/20170717014937/http://ffd365.de/"
+      },
+      {
+        "datetime": "2017-07-17T20:50:28Z",
+        "uri": "http://web.archive.org/web/20170717205028/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-07-30T15:00:39Z",
+        "uri": "http://web.archive.org/web/20170730150039/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-07-31T19:54:52Z",
+        "uri": "http://web.archive.org/web/20170731195452/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-09-01T22:39:06Z",
+        "uri": "http://web.archive.org/web/20170901223906/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-09-10T15:02:42Z",
+        "uri": "http://web.archive.org/web/20170910150242/http://ffd365.de/"
+      },
+      {
+        "datetime": "2017-09-12T23:20:49Z",
+        "uri": "http://web.archive.org/web/20170912232049/http://ffd365.de/"
+      },
+      {
+        "datetime": "2017-10-03T14:30:36Z",
+        "uri": "http://web.archive.org/web/20171003143036/http://www.ffd365.de/"
+      },
+      {
+        "datetime": "2017-10-04T00:22:49Z",
+        "uri": "http://web.archive.org/web/20171004002249/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-11-05T13:00:31Z",
+        "uri": "http://web.archive.org/web/20171105130031/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2017-11-08T21:09:32Z",
+        "uri": "http://web.archive.org/web/20171108210932/http://ffd365.de/"
+      },
+      {
+        "datetime": "2017-12-08T13:29:50Z",
+        "uri": "http://web.archive.org/web/20171208132950/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-01-12T20:25:58Z",
+        "uri": "http://web.archive.org/web/20180112202558/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-01-13T21:01:35Z",
+        "uri": "http://web.archive.org/web/20180113210135/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-02-14T02:11:48Z",
+        "uri": "http://web.archive.org/web/20180214021148/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-03-21T12:35:59Z",
+        "uri": "http://web.archive.org/web/20180321123559/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-03-21T14:18:32Z",
+        "uri": "http://web.archive.org/web/20180321141832/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-03-24T06:42:40Z",
+        "uri": "http://web.archive.org/web/20180324064240/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-03-28T23:00:13Z",
+        "uri": "http://web.archive.org/web/20180328230013/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-04-04T18:40:18Z",
+        "uri": "http://web.archive.org/web/20180404184018/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-04-13T14:19:13Z",
+        "uri": "http://web.archive.org/web/20180413141913/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-04-18T20:27:16Z",
+        "uri": "http://web.archive.org/web/20180418202716/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-04-20T16:41:09Z",
+        "uri": "http://web.archive.org/web/20180420164109/https://ffd365.de/"
+      },
+      {
+        "datetime": "2018-04-21T22:54:22Z",
+        "uri": "http://web.archive.org/web/20180421225422/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-04-23T09:45:45Z",
+        "uri": "http://web.archive.org/web/20180423094545/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-04-25T20:21:30Z",
+        "uri": "http://web.archive.org/web/20180425202130/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-05-03T00:18:46Z",
+        "uri": "http://web.archive.org/web/20180503001846/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-05-09T16:11:20Z",
+        "uri": "http://web.archive.org/web/20180509161120/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-05-17T05:10:54Z",
+        "uri": "http://web.archive.org/web/20180517051054/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-05-24T20:10:18Z",
+        "uri": "http://web.archive.org/web/20180524201018/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-05-31T16:12:31Z",
+        "uri": "http://web.archive.org/web/20180531161231/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-06-15T09:08:16Z",
+        "uri": "http://web.archive.org/web/20180615090816/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-06-20T17:54:47Z",
+        "uri": "http://web.archive.org/web/20180620175447/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-06-24T13:21:32Z",
+        "uri": "http://web.archive.org/web/20180624132132/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-06-24T13:21:34Z",
+        "uri": "http://web.archive.org/web/20180624132134/https://ffd365.de/"
+      },
+      {
+        "datetime": "2018-06-27T13:48:50Z",
+        "uri": "http://web.archive.org/web/20180627134850/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-06-28T23:26:46Z",
+        "uri": "http://web.archive.org/web/20180628232646/http://ffd365.de:80/"
+      },
+      {
+        "datetime": "2018-07-04T16:46:19Z",
+        "uri": "http://web.archive.org/web/20180704164619/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-07-25T10:22:21Z",
+        "uri": "http://web.archive.org/web/20180725102221/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-01T15:58:53Z",
+        "uri": "http://web.archive.org/web/20180801155853/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-05T05:57:36Z",
+        "uri": "http://web.archive.org/web/20180805055736/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-08T15:44:56Z",
+        "uri": "http://web.archive.org/web/20180808154456/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-15T17:26:30Z",
+        "uri": "http://web.archive.org/web/20180815172630/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-17T21:00:08Z",
+        "uri": "http://web.archive.org/web/20180817210008/https://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-21T03:11:16Z",
+        "uri": "http://web.archive.org/web/20180821031116/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-22T18:37:27Z",
+        "uri": "http://web.archive.org/web/20180822183727/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-29T17:11:54Z",
+        "uri": "http://web.archive.org/web/20180829171154/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-08-31T15:28:55Z",
+        "uri": "http://web.archive.org/web/20180831152855/https://www.ffd365.de"
+      },
+      {
+        "datetime": "2018-08-31T15:28:55Z",
+        "uri": "http://web.archive.org/web/20180831152855/https://www.ffd365.de"
+      },
+      {
+        "datetime": "2018-08-31T15:28:55Z",
+        "uri": "http://web.archive.org/web/20180831152855/https://www.ffd365.de"
+      },
+      {
+        "datetime": "2018-08-31T15:28:55Z",
+        "uri": "http://web.archive.org/web/20180831152855/https://www.ffd365.de"
+      },
+      {
+        "datetime": "2018-08-31T15:28:56Z",
+        "uri": "http://web.archive.org/web/20180831152856/https://www.ffd365.de"
+      },
+      {
+        "datetime": "2018-08-31T15:29:12Z",
+        "uri": "http://web.archive.org/web/20180831152912/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-09-04T15:34:23Z",
+        "uri": "http://web.archive.org/web/20180904153423/https://www.ffd365.de"
+      },
+      {
+        "datetime": "2018-09-05T18:12:50Z",
+        "uri": "http://web.archive.org/web/20180905181250/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-09-19T12:31:35Z",
+        "uri": "http://web.archive.org/web/20180919123135/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-09-27T11:14:03Z",
+        "uri": "http://web.archive.org/web/20180927111403/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-03T10:06:40Z",
+        "uri": "http://web.archive.org/web/20181003100640/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-04T14:43:16Z",
+        "uri": "http://web.archive.org/web/20181004144316/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-07T14:07:15Z",
+        "uri": "http://web.archive.org/web/20181007140715/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-10T13:25:53Z",
+        "uri": "http://web.archive.org/web/20181010132553/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-17T14:04:08Z",
+        "uri": "http://web.archive.org/web/20181017140408/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-24T14:25:14Z",
+        "uri": "http://web.archive.org/web/20181024142514/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-31T14:52:01Z",
+        "uri": "http://web.archive.org/web/20181031145201/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-10-31T19:39:40Z",
+        "uri": "http://archive.md/20181031193940/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-11-06T12:22:07Z",
+        "uri": "http://web.archive.org/web/20181106122207/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-11-06T15:14:30Z",
+        "uri": "http://web.archive.org/web/20181106151430/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2018-11-08T09:26:36Z",
+        "uri": "http://web.archive.org/web/20181108092636/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-11-16T12:51:16Z",
+        "uri": "http://web.archive.org/web/20181116125116/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-11-21T09:51:44Z",
+        "uri": "http://web.archive.org/web/20181121095144/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-11-28T14:22:32Z",
+        "uri": "http://web.archive.org/web/20181128142232/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-12-05T14:33:14Z",
+        "uri": "http://web.archive.org/web/20181205143314/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-12-12T03:50:53Z",
+        "uri": "http://web.archive.org/web/20181212035053/https://ffd365.de/"
+      },
+      {
+        "datetime": "2018-12-19T07:59:24Z",
+        "uri": "http://web.archive.org/web/20181219075924/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-12-27T21:13:55Z",
+        "uri": "http://web.archive.org/web/20181227211355/http://ffd365.de/"
+      },
+      {
+        "datetime": "2018-12-29T18:38:59Z",
+        "uri": "http://web.archive.org/web/20181229183859/http://ffd365.de/"
+      },
+      {
+        "datetime": "2019-01-02T10:19:16Z",
+        "uri": "http://web.archive.org/web/20190102101916/http://ffd365.de/"
+      },
+      {
+        "datetime": "2019-01-09T07:48:06Z",
+        "uri": "http://web.archive.org/web/20190109074806/http://ffd365.de/"
+      },
+      {
+        "datetime": "2019-01-16T13:58:35Z",
+        "uri": "http://web.archive.org/web/20190116135835/http://ffd365.de/"
+      },
+      {
+        "datetime": "2019-01-22T02:53:00Z",
+        "uri": "http://web.archive.org/web/20190122025300/https://ffd365.de/"
+      },
+      {
+        "datetime": "2019-01-24T18:39:00Z",
+        "uri": "http://web.archive.org/web/20190124183900/http://ffd365.de/"
+      },
+      {
+        "datetime": "2019-02-06T08:55:13Z",
+        "uri": "http://web.archive.org/web/20190206085513/http://ffd365.de/"
+      },
+      {
+        "datetime": "2019-02-06T10:12:00Z",
+        "uri": "http://web.archive.org/web/20190206101200/https://www.ffd365.de/"
+      },
+      {
+        "datetime": "2019-02-07T14:21:18Z",
+        "uri": "http://web.archive.org/web/20190207142118/http://ffd365.de/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-04-24T01:34:41Z",
+      "uri": "http://web.archive.org/web/20160424013441/http://ffd365.de:80/"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:21:18Z",
+      "uri": "http://web.archive.org/web/20190207142118/http://ffd365.de/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ffd365.de",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ffd365.de",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ffd365.de"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ffd365.de"
+}

@@ -1,0 +1,114 @@
+{
+  "original_uri": "https://www.der-postillon.com/2017/02/indianer-indien.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.der-postillon.com/2017/02/indianer-indien.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-02-08T00:00:17Z",
+        "uri": "http://web.archive.org/web/20170208000017/http://www.der-postillon.com/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-02-09T12:07:31Z",
+        "uri": "http://web.archive.org/web/20170209120731/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-04-29T09:35:50Z",
+        "uri": "http://web.archive.org/web/20170429093550/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-04-30T13:42:31Z",
+        "uri": "http://web.archive.org/web/20170430134231/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-06-01T10:00:38Z",
+        "uri": "http://web.archive.org/web/20170601100038/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-06-20T13:15:14Z",
+        "uri": "http://web.archive.org/web/20170620131514/http://www.der-postillon.com/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-07-02T17:51:26Z",
+        "uri": "http://web.archive.org/web/20170702175126/http://www.der-postillon.com/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-07-03T19:07:51Z",
+        "uri": "http://web.archive.org/web/20170703190751/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-07-16T14:29:20Z",
+        "uri": "http://web.archive.org/web/20170716142920/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-08-17T02:47:11Z",
+        "uri": "http://web.archive.org/web/20170817024711/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-09-16T18:36:35Z",
+        "uri": "http://web.archive.org/web/20170916183635/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-10-17T15:51:03Z",
+        "uri": "http://web.archive.org/web/20171017155103/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-11-19T14:46:49Z",
+        "uri": "http://web.archive.org/web/20171119144649/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2017-12-20T23:50:11Z",
+        "uri": "http://web.archive.org/web/20171220235011/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-01-21T04:48:40Z",
+        "uri": "http://web.archive.org/web/20180121044840/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-02-04T06:03:42Z",
+        "uri": "http://web.archive.org/web/20180204060342/http://www.der-postillon.com/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-02-17T14:56:51Z",
+        "uri": "http://web.archive.org/web/20180217145651/http://www.der-postillon.com/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-02-17T14:57:09Z",
+        "uri": "http://archive.md/20180217145709/http://www.der-postillon.com/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-02-21T11:48:32Z",
+        "uri": "http://web.archive.org/web/20180221114832/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-03-25T03:10:31Z",
+        "uri": "http://web.archive.org/web/20180325031031/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-04-25T07:04:06Z",
+        "uri": "http://web.archive.org/web/20180425070406/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-05-26T19:29:04Z",
+        "uri": "http://web.archive.org/web/20180526192904/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      },
+      {
+        "datetime": "2018-06-27T06:40:14Z",
+        "uri": "http://web.archive.org/web/20180627064014/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-02-08T00:00:17Z",
+      "uri": "http://web.archive.org/web/20170208000017/http://www.der-postillon.com/2017/02/indianer-indien.html"
+    },
+    "last": {
+      "datetime": "2018-06-27T06:40:14Z",
+      "uri": "http://web.archive.org/web/20180627064014/http://www.der-postillon.com:80/2017/02/indianer-indien.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.der-postillon.com/2017/02/indianer-indien.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.der-postillon.com/2017/02/indianer-indien.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.der-postillon.com/2017/02/indianer-indien.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.der-postillon.com/2017/02/indianer-indien.html"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:07:38Z",
+        "uri": "http://web.archive.org/web/20190209210738/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+      },
+      {
+        "datetime": "2019-02-09T21:36:29Z",
+        "uri": "http://web.archive.org/web/20190209213629/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+      },
+      {
+        "datetime": "2019-02-10T11:13:16Z",
+        "uri": "http://web.archive.org/web/20190210111316/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:07:38Z",
+      "uri": "http://web.archive.org/web/20190209210738/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:13:16Z",
+      "uri": "http://web.archive.org/web/20190210111316/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/09/nolte-meghan-mccain-trashes-jared-and-ivanka-for-accepting-invitation-to-her-fathers-funeral/"
+}

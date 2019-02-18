@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-09T13:08:50Z",
+        "uri": "http://web.archive.org/web/20181109130850/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+      },
+      {
+        "datetime": "2018-11-09T13:12:34Z",
+        "uri": "http://archive.md/20181109131234/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+      },
+      {
+        "datetime": "2018-11-09T13:16:12Z",
+        "uri": "http://web.archive.org/web/20181109131612/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+      },
+      {
+        "datetime": "2018-11-09T13:31:38Z",
+        "uri": "http://web.archive.org/web/20181109133138/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+      },
+      {
+        "datetime": "2018-11-09T14:46:22Z",
+        "uri": "http://web.archive.org/web/20181109144622/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+      },
+      {
+        "datetime": "2018-11-19T04:51:37Z",
+        "uri": "http://web.archive.org/web/20181119045137/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-09T13:08:50Z",
+      "uri": "http://web.archive.org/web/20181109130850/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+    },
+    "last": {
+      "datetime": "2018-11-19T04:51:37Z",
+      "uri": "http://web.archive.org/web/20181119045137/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theatlantic.com/science/archive/2018/11/experts-warn-trump-epa-meddling-scientific-method/575377/"
+}

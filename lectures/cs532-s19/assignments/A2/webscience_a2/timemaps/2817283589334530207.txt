@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-04T12:52:42Z",
+        "uri": "http://web.archive.org/web/20190204125242/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-04T12:52:42Z",
+      "uri": "http://web.archive.org/web/20190204125242/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/"
+    },
+    "last": {
+      "datetime": "2019-02-04T12:52:42Z",
+      "uri": "http://web.archive.org/web/20190204125242/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cz.sputniknews.com/video/201901299066514-maduro-trump-ruce-pryc-venezuela-usa-video/"
+}

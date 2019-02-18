@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-28T04:54:40Z",
+        "uri": "http://web.archive.org/web/20190128045440/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smid=tw-nytimes&smtyp=cur"
+      },
+      {
+        "datetime": "2019-01-29T03:28:31Z",
+        "uri": "http://web.archive.org/web/20190129032831/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smid=tw-nytimes&smtyp=cur"
+      },
+      {
+        "datetime": "2019-01-29T15:26:18Z",
+        "uri": "http://web.archive.org/web/20190129152618/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smid=tw-nytimes&smtyp=cur"
+      },
+      {
+        "datetime": "2019-01-29T15:26:29Z",
+        "uri": "http://web.archive.org/web/20190129152629/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes"
+      },
+      {
+        "datetime": "2019-02-05T19:47:30Z",
+        "uri": "http://web.archive.org/web/20190205194730/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes"
+      },
+      {
+        "datetime": "2019-02-07T10:10:54Z",
+        "uri": "http://web.archive.org/web/20190207101054/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smid=tw-nytimes&smtyp=cur"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-28T04:54:40Z",
+      "uri": "http://web.archive.org/web/20190128045440/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smid=tw-nytimes&smtyp=cur"
+    },
+    "last": {
+      "datetime": "2019-02-07T10:10:54Z",
+      "uri": "http://web.archive.org/web/20190207101054/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smid=tw-nytimes&smtyp=cur"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/interactive/2019/01/26/us/politics/trump-contacts-russians-wikileaks.html?smtyp=cur&smid=tw-nytimes"
+}

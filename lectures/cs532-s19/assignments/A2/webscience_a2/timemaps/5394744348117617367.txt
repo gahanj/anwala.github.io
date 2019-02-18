@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-02-17T07:10:01Z",
+        "uri": "http://archive.md/20170217071001/http://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+      },
+      {
+        "datetime": "2017-02-21T15:31:13Z",
+        "uri": "http://web.archive.org/web/20170221153113/http://www.ibtimes.co.uk:80/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+      },
+      {
+        "datetime": "2018-02-23T23:13:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180223231332/http://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+      },
+      {
+        "datetime": "2018-02-23T23:13:32Z",
+        "uri": "http://web.archive.org/web/20180223231332/http://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+      }
+    ],
+    "first": {
+      "datetime": "2017-02-17T07:10:01Z",
+      "uri": "http://archive.md/20170217071001/http://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+    },
+    "last": {
+      "datetime": "2018-02-23T23:13:32Z",
+      "uri": "http://web.archive.org/web/20180223231332/http://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ibtimes.co.uk/trump-associate-erik-prince-helping-china-create-private-army-1607040"
+}

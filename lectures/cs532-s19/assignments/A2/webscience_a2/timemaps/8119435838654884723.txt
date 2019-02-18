@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T06:21:43Z",
+        "uri": "http://web.archive.org/web/20190207062143/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017"
+      },
+      {
+        "datetime": "2019-02-07T11:50:23Z",
+        "uri": "http://web.archive.org/web/20190207115023/http://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T06:21:43Z",
+      "uri": "http://web.archive.org/web/20190207062143/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017"
+    },
+    "last": {
+      "datetime": "2019-02-07T11:50:23Z",
+      "uri": "http://web.archive.org/web/20190207115023/http://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailykos.com/stories/2019/2/5/1832500/-Winning-Taxpayers-spent-almost-1M-per-day-for-Trump-s-four-visits-to-Mar-a-Lago-in-early-2017"
+}

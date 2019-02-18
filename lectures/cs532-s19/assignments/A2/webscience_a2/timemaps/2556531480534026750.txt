@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T15:41:26Z",
+        "uri": "http://web.archive.org/web/20190206154126/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+      },
+      {
+        "datetime": "2019-02-06T17:03:22Z",
+        "uri": "http://web.archive.org/web/20190206170322/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+      },
+      {
+        "datetime": "2019-02-07T20:33:58Z",
+        "uri": "http://web.archive.org/web/20190207203358/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+      },
+      {
+        "datetime": "2019-02-08T07:34:35Z",
+        "uri": "http://web.archive.org/web/20190208073435/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+      },
+      {
+        "datetime": "2019-02-10T00:04:05Z",
+        "uri": "http://web.archive.org/web/20190210000405/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T15:41:26Z",
+      "uri": "http://web.archive.org/web/20190206154126/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:04:05Z",
+      "uri": "http://web.archive.org/web/20190210000405/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/05/us/politics/women-in-white-state-of-the-union.html"
+}

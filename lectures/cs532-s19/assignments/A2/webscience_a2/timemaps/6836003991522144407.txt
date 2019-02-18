@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-01-27T01:54:06Z",
+        "uri": "http://web.archive.org/web/20170127015406/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/"
+      },
+      {
+        "datetime": "2018-01-19T19:25:30Z",
+        "uri": "http://web.archive.org/web/20180119192530/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-01-27T01:54:06Z",
+      "uri": "http://web.archive.org/web/20170127015406/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/"
+    },
+    "last": {
+      "datetime": "2018-01-19T19:25:30Z",
+      "uri": "http://web.archive.org/web/20180119192530/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.scientificamerican.com/article/trump-signs-orders-advancing-keystone-dakota-pipelines/"
+}

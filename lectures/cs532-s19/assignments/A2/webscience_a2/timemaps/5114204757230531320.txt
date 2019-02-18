@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.gofundme.com/f/bbkp3h-baby-trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.gofundme.com/f/bbkp3h-baby-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:59:01Z",
+        "uri": "http://web.archive.org/web/20190209235901/https://www.gofundme.com/f/bbkp3h-baby-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:59:01Z",
+      "uri": "http://web.archive.org/web/20190209235901/https://www.gofundme.com/f/bbkp3h-baby-trump"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:59:01Z",
+      "uri": "http://web.archive.org/web/20190209235901/https://www.gofundme.com/f/bbkp3h-baby-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.gofundme.com/f/bbkp3h-baby-trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.gofundme.com/f/bbkp3h-baby-trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.gofundme.com/f/bbkp3h-baby-trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.gofundme.com/f/bbkp3h-baby-trump"
+}

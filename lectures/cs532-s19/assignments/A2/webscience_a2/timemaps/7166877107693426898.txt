@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-19T12:16:08Z",
+        "uri": "http://web.archive.org/web/20190119121608/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/"
+      },
+      {
+        "datetime": "2019-02-03T11:02:26Z",
+        "uri": "http://web.archive.org/web/20190203110226/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-19T12:16:08Z",
+      "uri": "http://web.archive.org/web/20190119121608/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/"
+    },
+    "last": {
+      "datetime": "2019-02-03T11:02:26Z",
+      "uri": "http://web.archive.org/web/20190203110226/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.westernjournal.com/ignore-liberal-media-president-trump-right-immigration/"
+}

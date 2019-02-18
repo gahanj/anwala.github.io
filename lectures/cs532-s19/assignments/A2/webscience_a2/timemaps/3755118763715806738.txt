@@ -1,0 +1,74 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T22:38:15Z",
+        "uri": "http://web.archive.org/web/20190207223815/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-07T23:17:13Z",
+        "uri": "http://web.archive.org/web/20190207231713/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-08T01:41:01Z",
+        "uri": "http://web.archive.org/web/20190208014101/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-08T04:52:01Z",
+        "uri": "http://web.archive.org/web/20190208045201/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-08T17:54:52Z",
+        "uri": "http://web.archive.org/web/20190208175452/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-08T21:43:12Z",
+        "uri": "http://web.archive.org/web/20190208214312/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-09T00:49:32Z",
+        "uri": "http://web.archive.org/web/20190209004932/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:32:30Z",
+        "uri": "http://web.archive.org/web/20190209023230/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:50:21Z",
+        "uri": "http://web.archive.org/web/20190209025021/http://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:30:35Z",
+        "uri": "http://web.archive.org/web/20190209183035/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:23:42Z",
+        "uri": "http://web.archive.org/web/20190210002342/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:52:47Z",
+        "uri": "http://web.archive.org/web/20190210005247/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      },
+      {
+        "datetime": "2019-02-10T02:21:43Z",
+        "uri": "http://web.archive.org/web/20190210022143/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T22:38:15Z",
+      "uri": "http://web.archive.org/web/20190207223815/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:21:43Z",
+      "uri": "http://web.archive.org/web/20190210022143/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/07/opinions/ivanka-trump-art-vacuuming-paddy-johnson/index.html"
+}

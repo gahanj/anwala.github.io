@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-15T03:13:51Z",
+        "uri": "http://web.archive.org/web/20180615031351/http://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+      },
+      {
+        "datetime": "2018-06-15T10:35:16Z",
+        "uri": "http://web.archive.org/web/20180615103516/http://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+      },
+      {
+        "datetime": "2018-06-17T08:36:18Z",
+        "uri": "http://web.archive.org/web/20180617083618/http://thehill.com:80/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+      },
+      {
+        "datetime": "2018-07-10T03:09:10Z",
+        "uri": "http://web.archive.org/web/20180710030910/http://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-15T03:13:51Z",
+      "uri": "http://web.archive.org/web/20180615031351/http://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+    },
+    "last": {
+      "datetime": "2018-07-10T03:09:10Z",
+      "uri": "http://web.archive.org/web/20180710030910/http://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/media/392266-president-blasts-trump-foundation-lawsuit"
+}

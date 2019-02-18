@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-16T03:57:55Z",
+        "uri": "http://web.archive.org/web/20181116035755/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-16T03:57:55Z",
+      "uri": "http://web.archive.org/web/20181116035755/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK"
+    },
+    "last": {
+      "datetime": "2018-11-16T03:57:55Z",
+      "uri": "http://web.archive.org/web/20181116035755/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.pscp.tv/w/bpu9RDF4bmpySmt6RHlqWUR8MWxEeExYemFvd3l4bVFZvBTh6tVVydBaUY8gnqxi_9M_w5UFXnuGURN4-EDK"
+}

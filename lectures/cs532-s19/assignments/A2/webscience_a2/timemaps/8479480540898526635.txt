@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://www.youtube.com/watch?v=szaKnOhJbow",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=szaKnOhJbow",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-01-06T01:32:57Z",
+        "uri": "http://web.archive.org/web/20180106013257/https://www.youtube.com/watch?v=szaKnOhJbow&gl=US&hl=en"
+      },
+      {
+        "datetime": "2018-01-25T18:33:24Z",
+        "uri": "http://web.archive.org/web/20180125183324/https://www.youtube.com/watch?v=szaKnOhJbow&feature=youtu.be"
+      },
+      {
+        "datetime": "2018-01-25T23:13:21Z",
+        "uri": "http://web.archive.org/web/20180125231321/https://www.youtube.com/watch?v=szaKnOhJbow&feature=youtu.be"
+      },
+      {
+        "datetime": "2018-01-26T00:43:45Z",
+        "uri": "http://web.archive.org/web/20180126004345/https://www.youtube.com/watch?v=szaKnOhJbow&app=desktop"
+      },
+      {
+        "datetime": "2018-01-26T03:16:15Z",
+        "uri": "http://web.archive.org/web/20180126031615/https://www.youtube.com/watch?v=szaKnOhJbow&app=desktop"
+      },
+      {
+        "datetime": "2018-03-06T03:48:05Z",
+        "uri": "http://web.archive.org/web/20180306034805/https://www.youtube.com/watch?v=szaKnOhJbow&app=desktop"
+      },
+      {
+        "datetime": "2018-06-03T08:24:33Z",
+        "uri": "http://web.archive.org/web/20180603082433/https://www.youtube.com/watch?v=szaKnOhJbow"
+      },
+      {
+        "datetime": "2018-06-27T06:52:42Z",
+        "uri": "http://web.archive.org/web/20180627065242/https://www.youtube.com/watch?v=szaKnOhJbow"
+      },
+      {
+        "datetime": "2018-07-08T22:18:16Z",
+        "uri": "http://web.archive.org/web/20180708221816/https://www.youtube.com/watch?v=szaKnOhJbow"
+      },
+      {
+        "datetime": "2018-07-25T09:41:53Z",
+        "uri": "http://web.archive.org/web/20180725094153/https://www.youtube.com/watch?v=szaKnOhJbow&feature=youtu.be"
+      },
+      {
+        "datetime": "2018-09-15T14:56:53Z",
+        "uri": "http://web.archive.org/web/20180915145653/https://www.youtube.com/watch?v=szaKnOhJbow"
+      },
+      {
+        "datetime": "2019-01-06T16:39:46Z",
+        "uri": "http://web.archive.org/web/20190106163946/https://www.youtube.com/watch?v=szaKnOhJbow"
+      }
+    ],
+    "first": {
+      "datetime": "2018-01-06T01:32:57Z",
+      "uri": "http://web.archive.org/web/20180106013257/https://www.youtube.com/watch?v=szaKnOhJbow&gl=US&hl=en"
+    },
+    "last": {
+      "datetime": "2019-01-06T16:39:46Z",
+      "uri": "http://web.archive.org/web/20190106163946/https://www.youtube.com/watch?v=szaKnOhJbow"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.youtube.com/watch?v=szaKnOhJbow",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=szaKnOhJbow",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.youtube.com/watch?v=szaKnOhJbow"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.youtube.com/watch?v=szaKnOhJbow"
+}

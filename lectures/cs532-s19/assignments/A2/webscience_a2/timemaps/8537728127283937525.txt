@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:52:38Z",
+        "uri": "http://web.archive.org/web/20190208235238/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+      },
+      {
+        "datetime": "2019-02-09T00:30:31Z",
+        "uri": "http://web.archive.org/web/20190209003031/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+      },
+      {
+        "datetime": "2019-02-10T01:08:13Z",
+        "uri": "http://web.archive.org/web/20190210010813/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:52:38Z",
+      "uri": "http://web.archive.org/web/20190208235238/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:08:13Z",
+      "uri": "http://web.archive.org/web/20190210010813/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/ivanka-trump-says-she-apos-133417405.html"
+}

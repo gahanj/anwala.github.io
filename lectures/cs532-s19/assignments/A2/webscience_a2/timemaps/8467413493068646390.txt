@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T12:58:47Z",
+        "uri": "http://web.archive.org/web/20190209125847/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T12:58:47Z",
+      "uri": "http://web.archive.org/web/20190209125847/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico"
+    },
+    "last": {
+      "datetime": "2019-02-09T12:58:47Z",
+      "uri": "http://web.archive.org/web/20190209125847/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://actualidad.rt.com/actualidad/305056-trump-corea-norte-cohete-economico"
+}

@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T21:14:21Z",
+        "uri": "http://web.archive.org/web/20190208211421/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-08T21:14:44Z",
+        "uri": "http://archive.md/20190208211444/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-09T01:07:53Z",
+        "uri": "http://archive.md/20190209010753/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-09T05:43:22Z",
+        "uri": "http://web.archive.org/web/20190209054322/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-09T19:19:06Z",
+        "uri": "http://web.archive.org/web/20190209191906/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-09T22:10:18Z",
+        "uri": "http://web.archive.org/web/20190209221018/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-10T02:15:06Z",
+        "uri": "http://web.archive.org/web/20190210021506/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      },
+      {
+        "datetime": "2019-02-10T21:09:29Z",
+        "uri": "http://web.archive.org/web/20190210210929/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T21:14:21Z",
+      "uri": "http://web.archive.org/web/20190208211421/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+    },
+    "last": {
+      "datetime": "2019-02-10T21:09:29Z",
+      "uri": "http://web.archive.org/web/20190210210929/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.buzzfeednews.com/article/mollyhensleyclancy/amy-klobuchar-staff-2020-election"
+}

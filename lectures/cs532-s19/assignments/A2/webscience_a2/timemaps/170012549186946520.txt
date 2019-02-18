@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:00:59Z",
+        "uri": "http://web.archive.org/web/20190208230059/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:00:59Z",
+      "uri": "http://web.archive.org/web/20190208230059/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917"
+    },
+    "last": {
+      "datetime": "2019-02-08T23:00:59Z",
+      "uri": "http://web.archive.org/web/20190208230059/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.kvia.com/news/el-paso/information-how-to-get-tickets-to-president-trump-s-rally-in-el-paso/1006208917"
+}

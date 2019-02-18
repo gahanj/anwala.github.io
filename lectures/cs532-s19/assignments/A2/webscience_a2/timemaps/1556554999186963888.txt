@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:36:20Z",
+        "uri": "http://web.archive.org/web/20190209213620/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official"
+      },
+      {
+        "datetime": "2019-02-10T10:26:44Z",
+        "uri": "http://archive.md/20190210102644/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:36:20Z",
+      "uri": "http://web.archive.org/web/20190209213620/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:26:44Z",
+      "uri": "http://archive.md/20190210102644/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.zerohedge.com/news/2019-02-09/trump-campaign-knocks-deceitful-fraud-elizabeth-warren-she-makes-2020-bid-official"
+}

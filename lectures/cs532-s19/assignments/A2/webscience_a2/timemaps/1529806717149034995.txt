@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://shareblue.com/trump-popularity-handling-north-korea/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-popularity-handling-north-korea/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-28T05:01:54Z",
+        "uri": "http://web.archive.org/web/20180528050154/http://shareblue.com/trump-popularity-handling-north-korea/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-28T05:01:54Z",
+      "uri": "http://web.archive.org/web/20180528050154/http://shareblue.com/trump-popularity-handling-north-korea/"
+    },
+    "last": {
+      "datetime": "2018-05-28T05:01:54Z",
+      "uri": "http://web.archive.org/web/20180528050154/http://shareblue.com/trump-popularity-handling-north-korea/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/trump-popularity-handling-north-korea/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-popularity-handling-north-korea/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/trump-popularity-handling-north-korea/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/trump-popularity-handling-north-korea/"
+}

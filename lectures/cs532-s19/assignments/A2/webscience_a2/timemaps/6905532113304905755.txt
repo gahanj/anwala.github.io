@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-28T18:03:59Z",
+        "uri": "http://web.archive.org/web/20180828180359/http://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government"
+      },
+      {
+        "datetime": "2018-11-23T08:01:57Z",
+        "uri": "http://web.archive.org/web/20181123080157/http://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-28T18:03:59Z",
+      "uri": "http://web.archive.org/web/20180828180359/http://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government"
+    },
+    "last": {
+      "datetime": "2018-11-23T08:01:57Z",
+      "uri": "http://web.archive.org/web/20181123080157/http://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/opinion/white-house/403937-trump-cannot-be-king-of-debt-when-it-comes-to-government"
+}

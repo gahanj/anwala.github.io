@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://video.foxnews.com/v/6000408889001",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://video.foxnews.com/v/6000408889001",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:57:02Z",
+        "uri": "http://web.archive.org/web/20190210015702/https://video.foxnews.com/v/6000408889001/"
+      },
+      {
+        "datetime": "2019-02-10T01:57:04Z",
+        "uri": "http://web.archive.org/web/20190210015704/http://video.foxnews.com/v/6000408889001/"
+      },
+      {
+        "datetime": "2019-02-10T17:13:06Z",
+        "uri": "http://web.archive.org/web/20190210171306/https://video.foxnews.com/v/6000408889001/"
+      },
+      {
+        "datetime": "2019-02-10T17:13:06Z",
+        "uri": "http://web.archive.org/web/20190210171306/https://video.foxnews.com/v/6000408889001/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:57:02Z",
+      "uri": "http://web.archive.org/web/20190210015702/https://video.foxnews.com/v/6000408889001/"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:13:06Z",
+      "uri": "http://web.archive.org/web/20190210171306/https://video.foxnews.com/v/6000408889001/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://video.foxnews.com/v/6000408889001",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://video.foxnews.com/v/6000408889001",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://video.foxnews.com/v/6000408889001"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://video.foxnews.com/v/6000408889001"
+}

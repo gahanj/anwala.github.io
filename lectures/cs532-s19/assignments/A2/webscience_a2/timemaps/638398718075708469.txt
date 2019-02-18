@@ -1,0 +1,838 @@
+{
+  "original_uri": "https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-07-25T19:33:13Z",
+        "uri": "http://web.archive.org/web/20160725193313/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-07-25T19:33:51Z",
+        "uri": "http://archive.md/20160725193351/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-07-25T23:12:31Z",
+        "uri": "http://web.archive.org/web/20160725231231/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-07-26T14:35:12Z",
+        "uri": "http://web.archive.org/web/20160726143512/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-07-28T11:37:07Z",
+        "uri": "http://web.archive.org/web/20160728113707/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-07-29T05:37:14Z",
+        "uri": "http://web.archive.org/web/20160729053714/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2016-08-02T04:21:09Z",
+        "uri": "http://web.archive.org/web/20160802042109/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-07T16:43:20Z",
+        "uri": "http://web.archive.org/web/20160807164320/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-12T05:55:38Z",
+        "uri": "http://web.archive.org/web/20160812055538/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-12T07:38:24Z",
+        "uri": "http://web.archive.org/web/20160812073824/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-13T12:26:04Z",
+        "uri": "http://web.archive.org/web/20160813122604/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-17T08:33:48Z",
+        "uri": "http://web.archive.org/web/20160817083348/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-17T10:22:03Z",
+        "uri": "http://web.archive.org/web/20160817102203/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-17T10:49:36Z",
+        "uri": "http://web.archive.org/web/20160817104936/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-17T10:49:36Z",
+        "uri": "http://web.archive.org/web/20160817104936/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-18T22:18:35Z",
+        "uri": "http://web.archive.org/web/20160818221835/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-19T03:56:06Z",
+        "uri": "http://web.archive.org/web/20160819035606/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-20T05:31:26Z",
+        "uri": "http://web.archive.org/web/20160820053126/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-25T04:49:25Z",
+        "uri": "http://web.archive.org/web/20160825044925/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-29T06:38:09Z",
+        "uri": "http://web.archive.org/web/20160829063809/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2016-08-30T17:11:08Z",
+        "uri": "http://web.archive.org/web/20160830171108/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-08-31T19:21:23Z",
+        "uri": "http://web.archive.org/web/20160831192123/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-05T00:54:44Z",
+        "uri": "http://web.archive.org/web/20160905005444/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-10T20:34:39Z",
+        "uri": "http://web.archive.org/web/20160910203439/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-10T20:55:37Z",
+        "uri": "http://wayback.archive-it.org/all/20160910205537/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-10T20:55:37Z",
+        "uri": "http://web.archive.org/web/20160910205537/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-10T20:55:43Z",
+        "uri": "http://web.archive.org/web/20160910205543/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-10T23:33:53Z",
+        "uri": "http://web.archive.org/web/20160910233353/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T01:43:16Z",
+        "uri": "http://wayback.archive-it.org/all/20160911014316/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T01:43:16Z",
+        "uri": "http://web.archive.org/web/20160911014316/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T04:59:42Z",
+        "uri": "http://web.archive.org/web/20160911045942/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T05:02:48Z",
+        "uri": "http://wayback.archive-it.org/all/20160911050248/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T05:02:48Z",
+        "uri": "http://web.archive.org/web/20160911050248/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T14:37:51Z",
+        "uri": "http://web.archive.org/web/20160911143751/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T17:16:56Z",
+        "uri": "http://web.archive.org/web/20160911171656/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-11T20:55:31Z",
+        "uri": "http://web.archive.org/web/20160911205531/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-12T01:22:14Z",
+        "uri": "http://web.archive.org/web/20160912012214/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-12T12:06:55Z",
+        "uri": "http://web.archive.org/web/20160912120655/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-12T14:18:10Z",
+        "uri": "http://web.archive.org/web/20160912141810/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-13T04:28:34Z",
+        "uri": "http://web.archive.org/web/20160913042834/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-13T13:08:44Z",
+        "uri": "http://web.archive.org/web/20160913130844/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-13T15:42:39Z",
+        "uri": "http://web.archive.org/web/20160913154239/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-17T09:23:01Z",
+        "uri": "http://web.archive.org/web/20160917092301/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-22T00:09:13Z",
+        "uri": "http://web.archive.org/web/20160922000913/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-23T06:06:58Z",
+        "uri": "http://web.archive.org/web/20160923060658/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-29T14:41:24Z",
+        "uri": "http://web.archive.org/web/20160929144124/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-09-29T18:35:14Z",
+        "uri": "http://web.archive.org/web/20160929183514/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2016-10-01T03:57:33Z",
+        "uri": "http://web.archive.org/web/20161001035733/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2016-10-05T20:56:02Z",
+        "uri": "http://web.archive.org/web/20161005205602/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-10-06T22:09:26Z",
+        "uri": "http://web.archive.org/web/20161006220926/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-10-13T01:47:11Z",
+        "uri": "http://web.archive.org/web/20161013014711/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-10-14T07:15:14Z",
+        "uri": "http://web.archive.org/web/20161014071514/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-10-19T08:15:25Z",
+        "uri": "http://web.archive.org/web/20161019081525/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-10-26T12:33:27Z",
+        "uri": "http://web.archive.org/web/20161026123327/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-02T13:55:21Z",
+        "uri": "http://web.archive.org/web/20161102135521/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2016-11-04T06:54:36Z",
+        "uri": "http://web.archive.org/web/20161104065436/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2016-11-04T08:45:10Z",
+        "uri": "http://web.archive.org/web/20161104084510/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-13T00:12:56Z",
+        "uri": "http://web.archive.org/web/20161113001256/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-13T01:52:47Z",
+        "uri": "http://web.archive.org/web/20161113015247/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-13T19:17:51Z",
+        "uri": "http://web.archive.org/web/20161113191751/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-14T20:33:22Z",
+        "uri": "http://web.archive.org/web/20161114203322/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-15T05:50:26Z",
+        "uri": "http://web.archive.org/web/20161115055026/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-15T22:46:20Z",
+        "uri": "http://web.archive.org/web/20161115224620/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-11-18T22:43:25Z",
+        "uri": "http://web.archive.org/web/20161118224325/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-12-03T05:11:21Z",
+        "uri": "http://web.archive.org/web/20161203051121/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-12-03T06:37:48Z",
+        "uri": "http://web.archive.org/web/20161203063748/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-12-06T04:04:40Z",
+        "uri": "http://web.archive.org/web/20161206040440/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-12-12T02:51:26Z",
+        "uri": "http://web.archive.org/web/20161212025126/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2016-12-15T06:45:40Z",
+        "uri": "http://web.archive.org/web/20161215064540/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-01-14T15:50:59Z",
+        "uri": "http://web.archive.org/web/20170114155059/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-01-16T10:25:35Z",
+        "uri": "http://web.archive.org/web/20170116102535/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-01-18T15:47:48Z",
+        "uri": "http://web.archive.org/web/20170118154748/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-01-27T00:05:53Z",
+        "uri": "http://web.archive.org/web/20170127000553/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-01-28T02:54:48Z",
+        "uri": "http://web.archive.org/web/20170128025448/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-02-19T04:36:19Z",
+        "uri": "http://web.archive.org/web/20170219043619/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2017-02-24T18:31:18Z",
+        "uri": "http://web.archive.org/web/20170224183118/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-02-25T22:24:52Z",
+        "uri": "http://web.archive.org/web/20170225222452/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-03-02T01:14:47Z",
+        "uri": "http://web.archive.org/web/20170302011447/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-03-21T09:28:05Z",
+        "uri": "http://web.archive.org/web/20170321092805/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-03-23T04:31:37Z",
+        "uri": "http://web.archive.org/web/20170323043137/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-03-25T23:39:54Z",
+        "uri": "http://web.archive.org/web/20170325233954/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-03-30T16:09:47Z",
+        "uri": "http://wayback.archive-it.org/all/20170330160947/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-03-30T16:09:47Z",
+        "uri": "http://web.archive.org/web/20170330160947/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-04-02T04:12:14Z",
+        "uri": "http://web.archive.org/web/20170402041214/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-04-04T23:51:57Z",
+        "uri": "http://web.archive.org/web/20170404235157/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-04-15T03:30:41Z",
+        "uri": "http://web.archive.org/web/20170415033041/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-04-26T08:35:46Z",
+        "uri": "http://web.archive.org/web/20170426083546/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-04-27T02:40:07Z",
+        "uri": "http://web.archive.org/web/20170427024007/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-05-10T21:00:07Z",
+        "uri": "http://web.archive.org/web/20170510210007/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2017-05-15T14:32:21Z",
+        "uri": "http://web.archive.org/web/20170515143221/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-05-17T20:10:38Z",
+        "uri": "http://web.archive.org/web/20170517201038/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-05-17T20:10:38Z",
+        "uri": "http://web.archive.org/web/20170517201038/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-05-28T10:46:55Z",
+        "uri": "http://web.archive.org/web/20170528104655/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-05-31T05:33:33Z",
+        "uri": "http://web.archive.org/web/20170531053333/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-06-02T16:25:51Z",
+        "uri": "http://web.archive.org/web/20170602162551/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-06-02T18:34:29Z",
+        "uri": "http://web.archive.org/web/20170602183429/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-06-12T06:09:11Z",
+        "uri": "http://web.archive.org/web/20170612060911/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2017-06-28T06:36:49Z",
+        "uri": "http://web.archive.org/web/20170628063649/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-07-03T06:24:56Z",
+        "uri": "http://wayback.archive-it.org/all/20170703062456/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-07-03T06:24:56Z",
+        "uri": "http://web.archive.org/web/20170703062456/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-07-14T00:27:04Z",
+        "uri": "http://web.archive.org/web/20170714002704/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history?"
+      },
+      {
+        "datetime": "2017-07-19T02:35:16Z",
+        "uri": "http://web.archive.org/web/20170719023516/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-07-27T22:03:20Z",
+        "uri": "http://archive.md/20170727220320/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-07-28T21:02:22Z",
+        "uri": "http://web.archive.org/web/20170728210222/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-09T06:57:17Z",
+        "uri": "http://web.archive.org/web/20170809065717/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-09T06:57:18Z",
+        "uri": "http://web.archive.org/web/20170809065718/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-09T08:27:08Z",
+        "uri": "http://web.archive.org/web/20170809082708/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-09T08:27:08Z",
+        "uri": "http://web.archive.org/web/20170809082708/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-09T22:06:30Z",
+        "uri": "http://web.archive.org/web/20170809220630/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-09T22:06:36Z",
+        "uri": "http://web.archive.org/web/20170809220636/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-10T04:47:53Z",
+        "uri": "http://web.archive.org/web/20170810044753/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-11T16:28:48Z",
+        "uri": "http://web.archive.org/web/20170811162848/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-13T08:32:21Z",
+        "uri": "http://web.archive.org/web/20170813083221/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-17T15:48:32Z",
+        "uri": "http://web.archive.org/web/20170817154832/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-17T16:31:21Z",
+        "uri": "http://web.archive.org/web/20170817163121/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-19T04:39:39Z",
+        "uri": "http://web.archive.org/web/20170819043939/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-19T04:39:45Z",
+        "uri": "http://web.archive.org/web/20170819043945/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-28T10:52:22Z",
+        "uri": "http://web.archive.org/web/20170828105222/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-28T18:51:53Z",
+        "uri": "http://web.archive.org/web/20170828185153/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-08-28T21:33:39Z",
+        "uri": "http://web.archive.org/web/20170828213339/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-09-02T06:22:39Z",
+        "uri": "http://web.archive.org/web/20170902062239/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-09-24T05:03:42Z",
+        "uri": "http://web.archive.org/web/20170924050342/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-09-28T18:22:21Z",
+        "uri": "http://web.archive.org/web/20170928182221/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-06T03:55:53Z",
+        "uri": "http://web.archive.org/web/20171006035553/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-06T03:55:54Z",
+        "uri": "http://web.archive.org/web/20171006035554/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-09T05:55:44Z",
+        "uri": "http://web.archive.org/web/20171009055544/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-10T09:07:11Z",
+        "uri": "http://wayback.archive-it.org/all/20171010090711/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-10T09:07:11Z",
+        "uri": "http://web.archive.org/web/20171010090711/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-10T09:07:12Z",
+        "uri": "http://wayback.archive-it.org/all/20171010090712/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-10T09:07:12Z",
+        "uri": "http://web.archive.org/web/20171010090712/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-12T03:45:35Z",
+        "uri": "http://web.archive.org/web/20171012034535/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-18T06:30:09Z",
+        "uri": "http://web.archive.org/web/20171018063009/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-20T00:50:33Z",
+        "uri": "http://web.archive.org/web/20171020005033/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-20T00:50:33Z",
+        "uri": "http://web.archive.org/web/20171020005033/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-21T00:28:48Z",
+        "uri": "http://web.archive.org/web/20171021002848/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-10-29T05:20:02Z",
+        "uri": "http://web.archive.org/web/20171029052002/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-11-17T23:16:48Z",
+        "uri": "http://web.archive.org/web/20171117231648/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-11-20T15:54:36Z",
+        "uri": "http://web.archive.org/web/20171120155436/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-11-20T15:54:42Z",
+        "uri": "http://web.archive.org/web/20171120155442/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-11-29T16:51:51Z",
+        "uri": "http://web.archive.org/web/20171129165151/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-11-30T04:21:32Z",
+        "uri": "http://web.archive.org/web/20171130042132/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-11-30T04:32:43Z",
+        "uri": "http://web.archive.org/web/20171130043243/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2017-12-30T05:49:06Z",
+        "uri": "http://web.archive.org/web/20171230054906/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-01-12T20:30:40Z",
+        "uri": "http://web.archive.org/web/20180112203040/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-01-13T10:52:42Z",
+        "uri": "http://web.archive.org/web/20180113105242/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-01-13T10:52:45Z",
+        "uri": "http://web.archive.org/web/20180113105245/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-01-15T00:35:42Z",
+        "uri": "http://web.archive.org/web/20180115003542/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-01-21T02:24:01Z",
+        "uri": "http://web.archive.org/web/20180121022401/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-01-29T23:05:32Z",
+        "uri": "http://web.archive.org/web/20180129230532/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-02-09T10:39:25Z",
+        "uri": "http://web.archive.org/web/20180209103925/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-03-02T13:09:21Z",
+        "uri": "http://web.archive.org/web/20180302130921/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-03-03T13:55:29Z",
+        "uri": "http://web.archive.org/web/20180303135529/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-03-07T20:30:32Z",
+        "uri": "http://web.archive.org/web/20180307203032/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-03-08T11:33:52Z",
+        "uri": "http://wayback.archive-it.org/all/20180308113352/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-03-08T11:33:52Z",
+        "uri": "http://web.archive.org/web/20180308113352/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-04-02T06:43:54Z",
+        "uri": "http://web.archive.org/web/20180402064354/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-05-03T07:49:23Z",
+        "uri": "http://web.archive.org/web/20180503074923/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-06-03T00:17:37Z",
+        "uri": "http://web.archive.org/web/20180603001737/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-06-08T13:14:31Z",
+        "uri": "http://wayback.archive-it.org/all/20180608131431/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-06-08T13:14:31Z",
+        "uri": "http://web.archive.org/web/20180608131431/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-06-12T14:31:07Z",
+        "uri": "http://web.archive.org/web/20180612143107/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-07-03T19:38:51Z",
+        "uri": "http://web.archive.org/web/20180703193851/http://www.vox.com:80/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-07-05T21:00:54Z",
+        "uri": "http://web.archive.org/web/20180705210054/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-07-09T11:37:53Z",
+        "uri": "http://web.archive.org/web/20180709113753/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-07-09T11:37:55Z",
+        "uri": "http://web.archive.org/web/20180709113755/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-07-13T15:57:16Z",
+        "uri": "http://web.archive.org/web/20180713155716/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-07-29T09:21:19Z",
+        "uri": "http://web.archive.org/web/20180729092119/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-08-25T19:54:33Z",
+        "uri": "http://web.archive.org/web/20180825195433/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-09-07T23:37:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180907233728/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-09-07T23:37:28Z",
+        "uri": "http://web.archive.org/web/20180907233728/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-09-13T11:15:55Z",
+        "uri": "http://web.archive.org/web/20180913111555/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-09-28T01:12:41Z",
+        "uri": "http://web.archive.org/web/20180928011241/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-10-12T04:37:39Z",
+        "uri": "http://web.archive.org/web/20181012043739/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-10-12T18:59:05Z",
+        "uri": "http://web.archive.org/web/20181012185905/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-10-15T18:23:55Z",
+        "uri": "http://web.archive.org/web/20181015182355/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-10-16T06:46:57Z",
+        "uri": "http://web.archive.org/web/20181016064657/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-11-05T21:23:56Z",
+        "uri": "http://web.archive.org/web/20181105212356/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-11-06T14:37:13Z",
+        "uri": "http://web.archive.org/web/20181106143713/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-11-22T03:27:36Z",
+        "uri": "http://wayback.archive-it.org/all/20181122032736/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-11-22T03:27:36Z",
+        "uri": "http://web.archive.org/web/20181122032736/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-01T08:19:03Z",
+        "uri": "http://wayback.archive-it.org/all/20181201081903/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-01T08:19:03Z",
+        "uri": "http://web.archive.org/web/20181201081903/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-08T03:33:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181208033354/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-08T03:33:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181208033354/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-08T03:33:54Z",
+        "uri": "http://web.archive.org/web/20181208033354/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-08T03:33:54Z",
+        "uri": "http://web.archive.org/web/20181208033354/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-10T16:34:03Z",
+        "uri": "http://web.archive.org/web/20181210163403/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-17T19:23:07Z",
+        "uri": "http://web.archive.org/web/20181217192307/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-18T22:19:56Z",
+        "uri": "http://web.archive.org/web/20181218221956/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-20T02:08:06Z",
+        "uri": "http://web.archive.org/web/20181220020806/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-20T02:08:07Z",
+        "uri": "http://web.archive.org/web/20181220020807/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-20T21:50:02Z",
+        "uri": "http://web.archive.org/web/20181220215002/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2018-12-30T03:34:34Z",
+        "uri": "http://web.archive.org/web/20181230033434/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-01-09T06:11:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190109061148/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-01-09T06:11:48Z",
+        "uri": "http://web.archive.org/web/20190109061148/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-01-19T07:45:07Z",
+        "uri": "http://web.archive.org/web/20190119074507/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-01-20T21:57:29Z",
+        "uri": "http://wayback.archive-it.org/all/20190120215729/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-01-20T21:57:29Z",
+        "uri": "http://web.archive.org/web/20190120215729/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-01-26T12:00:15Z",
+        "uri": "http://web.archive.org/web/20190126120015/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-02-04T11:29:13Z",
+        "uri": "http://wayback.archive-it.org/all/20190204112913/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-02-04T11:29:13Z",
+        "uri": "http://web.archive.org/web/20190204112913/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-02-05T08:15:49Z",
+        "uri": "http://web.archive.org/web/20190205081549/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-02-05T12:34:53Z",
+        "uri": "http://web.archive.org/web/20190205123453/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      },
+      {
+        "datetime": "2019-02-09T03:26:45Z",
+        "uri": "http://web.archive.org/web/20190209032645/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+      }
+    ],
+    "first": {
+      "datetime": "2016-07-25T19:33:13Z",
+      "uri": "http://web.archive.org/web/20160725193313/http://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+    },
+    "last": {
+      "datetime": "2019-02-09T03:26:45Z",
+      "uri": "http://web.archive.org/web/20190209032645/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.vox.com/2016/7/25/12270880/donald-trump-racism-history"
+}

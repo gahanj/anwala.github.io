@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T20:22:22Z",
+        "uri": "http://web.archive.org/web/20190130202222/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T20:22:22Z",
+      "uri": "http://web.archive.org/web/20190130202222/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma"
+    },
+    "last": {
+      "datetime": "2019-01-30T20:22:22Z",
+      "uri": "http://web.archive.org/web/20190130202222/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nbcnews.com/video/trump-threatens-declaring-national-emergency-another-shutdown-without-fair-deal-on-border-wall-1432048707704?cid=sm_npd_nn_tw_ma"
+}

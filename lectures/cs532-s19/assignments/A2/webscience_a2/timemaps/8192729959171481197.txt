@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:03:33Z",
+        "uri": "http://web.archive.org/web/20190210010333/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:03:33Z",
+      "uri": "http://web.archive.org/web/20190210010333/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:03:33Z",
+      "uri": "http://web.archive.org/web/20190210010333/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://canadafreepress.com/article/trumps-home-run-bolsters-chances-of-re-election"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:38:48Z",
+        "uri": "http://web.archive.org/web/20190210093848/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:38:48Z",
+      "uri": "http://web.archive.org/web/20190210093848/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:38:48Z",
+      "uri": "http://web.archive.org/web/20190210093848/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/10/world/asia/us-south-korea-military-costs.html"
+}

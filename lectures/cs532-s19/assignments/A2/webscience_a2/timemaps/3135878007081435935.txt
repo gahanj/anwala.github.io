@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:00:03Z",
+        "uri": "http://web.archive.org/web/20190210010003/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:00:03Z",
+      "uri": "http://web.archive.org/web/20190210010003/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:00:03Z",
+      "uri": "http://web.archive.org/web/20190210010003/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nbcnews.com/news/us-news/house-va-committee-probe-trump-connected-individuals-influence-over-va-n969611?cid=public-rss_20190210"
+}

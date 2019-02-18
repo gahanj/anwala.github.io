@@ -1,0 +1,58 @@
+{
+  "original_uri": "http://www.citizensgroup.us/is-donald-trump-a-successful-businessman/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.citizensgroup.us/is-donald-trump-a-successful-businessman/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-07-11T19:27:50Z",
+        "uri": "http://web.archive.org/web/20160711192750/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman/"
+      },
+      {
+        "datetime": "2018-03-25T23:24:57Z",
+        "uri": "http://web.archive.org/web/20180325232457/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman/"
+      },
+      {
+        "datetime": "2018-03-25T23:24:57Z",
+        "uri": "http://web.archive.org/web/20180325232457/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman"
+      },
+      {
+        "datetime": "2018-04-14T17:07:39Z",
+        "uri": "http://web.archive.org/web/20180414170739/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman/"
+      },
+      {
+        "datetime": "2018-04-14T17:07:39Z",
+        "uri": "http://web.archive.org/web/20180414170739/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman"
+      },
+      {
+        "datetime": "2018-06-20T11:51:51Z",
+        "uri": "http://web.archive.org/web/20180620115151/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman/"
+      },
+      {
+        "datetime": "2018-06-20T11:51:51Z",
+        "uri": "http://web.archive.org/web/20180620115151/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman"
+      },
+      {
+        "datetime": "2018-06-21T20:15:46Z",
+        "uri": "http://web.archive.org/web/20180621201546/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman/"
+      },
+      {
+        "datetime": "2018-06-21T20:15:46Z",
+        "uri": "http://web.archive.org/web/20180621201546/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman"
+      }
+    ],
+    "first": {
+      "datetime": "2016-07-11T19:27:50Z",
+      "uri": "http://web.archive.org/web/20160711192750/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman/"
+    },
+    "last": {
+      "datetime": "2018-06-21T20:15:46Z",
+      "uri": "http://web.archive.org/web/20180621201546/http://www.citizensgroup.us:80/is-donald-trump-a-successful-businessman"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.citizensgroup.us/is-donald-trump-a-successful-businessman/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.citizensgroup.us/is-donald-trump-a-successful-businessman/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.citizensgroup.us/is-donald-trump-a-successful-businessman/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.citizensgroup.us/is-donald-trump-a-successful-businessman/"
+}

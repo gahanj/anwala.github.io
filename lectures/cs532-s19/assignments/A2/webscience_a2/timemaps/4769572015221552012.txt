@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:59:42Z",
+        "uri": "http://web.archive.org/web/20190210005942/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html"
+      },
+      {
+        "datetime": "2019-02-10T13:11:30Z",
+        "uri": "http://web.archive.org/web/20190210131130/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:59:42Z",
+      "uri": "http://web.archive.org/web/20190210005942/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:11:30Z",
+      "uri": "http://web.archive.org/web/20190210131130/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/09/us/politics/trump-military-claims.html"
+}

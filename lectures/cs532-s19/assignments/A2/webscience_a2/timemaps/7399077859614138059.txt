@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T03:06:50Z",
+        "uri": "http://web.archive.org/web/20190210030650/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/"
+      },
+      {
+        "datetime": "2019-02-10T03:06:50Z",
+        "uri": "http://web.archive.org/web/20190210030650/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T03:06:50Z",
+      "uri": "http://web.archive.org/web/20190210030650/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:06:50Z",
+      "uri": "http://web.archive.org/web/20190210030650/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/uglier-kushner-trump-got/15867/"
+}

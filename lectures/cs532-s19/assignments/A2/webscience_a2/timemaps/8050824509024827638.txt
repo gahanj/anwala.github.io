@@ -1,0 +1,242 @@
+{
+  "original_uri": "http://blurbboard.com/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://blurbboard.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-22T11:12:13Z",
+        "uri": "http://web.archive.org/web/20180322111213/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-03-25T16:30:22Z",
+        "uri": "http://web.archive.org/web/20180325163022/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-04-01T16:25:01Z",
+        "uri": "http://web.archive.org/web/20180401162501/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-04-08T16:12:14Z",
+        "uri": "http://web.archive.org/web/20180408161214/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-04-15T16:33:53Z",
+        "uri": "http://web.archive.org/web/20180415163353/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-04-22T16:04:38Z",
+        "uri": "http://web.archive.org/web/20180422160438/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-04-29T17:04:47Z",
+        "uri": "http://web.archive.org/web/20180429170447/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-05-06T15:55:22Z",
+        "uri": "http://web.archive.org/web/20180506155522/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-05-13T17:47:00Z",
+        "uri": "http://web.archive.org/web/20180513174700/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-05-20T22:31:41Z",
+        "uri": "http://web.archive.org/web/20180520223141/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-05-27T18:32:18Z",
+        "uri": "http://web.archive.org/web/20180527183218/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-06-03T19:03:38Z",
+        "uri": "http://web.archive.org/web/20180603190338/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-06-16T18:22:45Z",
+        "uri": "http://web.archive.org/web/20180616182245/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-06-17T14:45:09Z",
+        "uri": "http://web.archive.org/web/20180617144509/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-06-23T05:53:51Z",
+        "uri": "http://web.archive.org/web/20180623055351/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-06-24T15:46:18Z",
+        "uri": "http://web.archive.org/web/20180624154618/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-07-01T15:56:20Z",
+        "uri": "http://web.archive.org/web/20180701155620/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-07-08T16:15:46Z",
+        "uri": "http://web.archive.org/web/20180708161546/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-07-19T22:05:52Z",
+        "uri": "http://web.archive.org/web/20180719220552/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-07-21T11:05:55Z",
+        "uri": "http://web.archive.org/web/20180721110555/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-07-22T15:39:53Z",
+        "uri": "http://web.archive.org/web/20180722153953/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-07-29T16:39:08Z",
+        "uri": "http://web.archive.org/web/20180729163908/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-08-05T16:33:48Z",
+        "uri": "http://web.archive.org/web/20180805163348/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-08-06T05:32:44Z",
+        "uri": "http://web.archive.org/web/20180806053244/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-08-12T16:18:24Z",
+        "uri": "http://web.archive.org/web/20180812161824/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-08-19T17:49:11Z",
+        "uri": "http://web.archive.org/web/20180819174911/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-08-26T17:08:04Z",
+        "uri": "http://web.archive.org/web/20180826170804/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-09-02T16:54:00Z",
+        "uri": "http://web.archive.org/web/20180902165400/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-09-09T16:45:13Z",
+        "uri": "http://web.archive.org/web/20180909164513/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-09-16T15:42:36Z",
+        "uri": "http://web.archive.org/web/20180916154236/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-09-24T10:16:03Z",
+        "uri": "http://web.archive.org/web/20180924101603/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-10-01T14:16:36Z",
+        "uri": "http://web.archive.org/web/20181001141636/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-10-07T16:04:31Z",
+        "uri": "http://web.archive.org/web/20181007160431/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-10-14T16:02:22Z",
+        "uri": "http://web.archive.org/web/20181014160222/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-10-21T15:55:42Z",
+        "uri": "http://web.archive.org/web/20181021155542/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-10-28T16:34:38Z",
+        "uri": "http://web.archive.org/web/20181028163438/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-11-04T19:00:32Z",
+        "uri": "http://web.archive.org/web/20181104190032/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-11-08T14:52:19Z",
+        "uri": "http://web.archive.org/web/20181108145219/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-11-11T16:58:00Z",
+        "uri": "http://web.archive.org/web/20181111165800/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-11-18T14:47:47Z",
+        "uri": "http://web.archive.org/web/20181118144747/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-11-25T15:55:33Z",
+        "uri": "http://web.archive.org/web/20181125155533/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-02T16:05:00Z",
+        "uri": "http://web.archive.org/web/20181202160500/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-09T16:39:15Z",
+        "uri": "http://web.archive.org/web/20181209163915/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-13T16:35:51Z",
+        "uri": "http://web.archive.org/web/20181213163551/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-16T14:39:03Z",
+        "uri": "http://web.archive.org/web/20181216143903/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-23T16:29:33Z",
+        "uri": "http://web.archive.org/web/20181223162933/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-25T01:28:23Z",
+        "uri": "http://web.archive.org/web/20181225012823/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2018-12-30T15:14:48Z",
+        "uri": "http://web.archive.org/web/20181230151448/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-01-04T11:08:04Z",
+        "uri": "http://web.archive.org/web/20190104110804/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-01-06T14:37:38Z",
+        "uri": "http://web.archive.org/web/20190106143738/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-01-13T16:01:23Z",
+        "uri": "http://web.archive.org/web/20190113160123/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-01-21T14:20:22Z",
+        "uri": "http://web.archive.org/web/20190121142022/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-01-27T15:57:22Z",
+        "uri": "http://web.archive.org/web/20190127155722/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-02-01T05:44:25Z",
+        "uri": "http://web.archive.org/web/20190201054425/http://blurbboard.com/"
+      },
+      {
+        "datetime": "2019-02-03T15:07:33Z",
+        "uri": "http://web.archive.org/web/20190203150733/http://blurbboard.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-22T11:12:13Z",
+      "uri": "http://web.archive.org/web/20180322111213/http://blurbboard.com/"
+    },
+    "last": {
+      "datetime": "2019-02-03T15:07:33Z",
+      "uri": "http://web.archive.org/web/20190203150733/http://blurbboard.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://blurbboard.com/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://blurbboard.com/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://blurbboard.com/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://blurbboard.com/"
+}

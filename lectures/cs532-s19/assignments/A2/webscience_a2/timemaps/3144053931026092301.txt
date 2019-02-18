@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://isTrumpMeltingDown.com",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://isTrumpMeltingDown.com",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-30T11:34:41Z",
+        "uri": "http://web.archive.org/web/20180330113441/http://www.istrumpmeltingdown.com:80/"
+      },
+      {
+        "datetime": "2018-04-15T16:44:03Z",
+        "uri": "http://web.archive.org/web/20180415164403/http://www.istrumpmeltingdown.com:80/"
+      },
+      {
+        "datetime": "2018-05-01T06:43:24Z",
+        "uri": "http://web.archive.org/web/20180501064324/http://www.istrumpmeltingdown.com:80/"
+      },
+      {
+        "datetime": "2018-06-08T00:28:45Z",
+        "uri": "http://web.archive.org/web/20180608002845/http://www.istrumpmeltingdown.com:80/"
+      },
+      {
+        "datetime": "2018-06-09T04:25:29Z",
+        "uri": "http://web.archive.org/web/20180609042529/http://www.istrumpmeltingdown.com:80/"
+      },
+      {
+        "datetime": "2018-08-06T06:20:59Z",
+        "uri": "http://web.archive.org/web/20180806062059/http://istrumpmeltingdown.com/"
+      },
+      {
+        "datetime": "2018-09-29T22:22:37Z",
+        "uri": "http://web.archive.org/web/20180929222237/http://istrumpmeltingdown.com/"
+      },
+      {
+        "datetime": "2018-09-29T22:22:39Z",
+        "uri": "http://archive.md/20180929222239/http://istrumpmeltingdown.com/"
+      },
+      {
+        "datetime": "2019-02-08T03:27:20Z",
+        "uri": "http://archive.md/20190208032720/https://istrumpmeltingdown.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-30T11:34:41Z",
+      "uri": "http://web.archive.org/web/20180330113441/http://www.istrumpmeltingdown.com:80/"
+    },
+    "last": {
+      "datetime": "2019-02-08T03:27:20Z",
+      "uri": "http://archive.md/20190208032720/https://istrumpmeltingdown.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://isTrumpMeltingDown.com",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://isTrumpMeltingDown.com",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://isTrumpMeltingDown.com"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://isTrumpMeltingDown.com"
+}

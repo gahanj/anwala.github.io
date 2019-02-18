@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-15T20:28:52Z",
+        "uri": "http://web.archive.org/web/20190115202852/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html"
+      },
+      {
+        "datetime": "2019-02-03T17:58:51Z",
+        "uri": "http://web.archive.org/web/20190203175851/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-15T20:28:52Z",
+      "uri": "http://web.archive.org/web/20190115202852/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html"
+    },
+    "last": {
+      "datetime": "2019-02-03T17:58:51Z",
+      "uri": "http://web.archive.org/web/20190203175851/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnbc.com/2019/01/15/voters-doubt-trump-border-wall-will-solve-immigration-issues-poll-says.html"
+}

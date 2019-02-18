@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:48:06Z",
+        "uri": "http://web.archive.org/web/20190209214806/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html"
+      },
+      {
+        "datetime": "2019-02-10T02:40:35Z",
+        "uri": "http://web.archive.org/web/20190210024035/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:48:06Z",
+      "uri": "http://web.archive.org/web/20190209214806/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:40:35Z",
+      "uri": "http://web.archive.org/web/20190210024035/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/09/americas/trump-venezuela-socialism-oppman-intl/index.html"
+}

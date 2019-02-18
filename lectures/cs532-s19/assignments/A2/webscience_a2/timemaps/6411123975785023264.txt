@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-01-04T19:02:29Z",
+        "uri": "http://web.archive.org/web/20180104190229/http://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671"
+      },
+      {
+        "datetime": "2018-03-05T03:56:34Z",
+        "uri": "http://web.archive.org/web/20180305035634/http://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671"
+      }
+    ],
+    "first": {
+      "datetime": "2018-01-04T19:02:29Z",
+      "uri": "http://web.archive.org/web/20180104190229/http://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671"
+    },
+    "last": {
+      "datetime": "2018-03-05T03:56:34Z",
+      "uri": "http://web.archive.org/web/20180305035634/http://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://chm.tbe.taleo.net/chm04/ats/careers/requisition.jsp?org=TRUMHOTE&cws=1&rid=2671"
+}

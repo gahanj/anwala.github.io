@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T15:05:24Z",
+        "uri": "http://web.archive.org/web/20190210150524/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/"
+      },
+      {
+        "datetime": "2019-02-10T16:48:04Z",
+        "uri": "http://web.archive.org/web/20190210164804/https://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T15:05:24Z",
+      "uri": "http://web.archive.org/web/20190210150524/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:48:04Z",
+      "uri": "http://web.archive.org/web/20190210164804/https://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.tampabay.com/florida-politics/buzz/2019/02/10/where-did-this-ron-desantis-come-from-floridas-governor-surprises-everyone-but-himself/"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:06:40Z",
+        "uri": "http://web.archive.org/web/20190209010640/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+      },
+      {
+        "datetime": "2019-02-09T02:10:00Z",
+        "uri": "http://web.archive.org/web/20190209021000/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+      },
+      {
+        "datetime": "2019-02-09T03:11:02Z",
+        "uri": "http://web.archive.org/web/20190209031102/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+      },
+      {
+        "datetime": "2019-02-09T05:52:53Z",
+        "uri": "http://web.archive.org/web/20190209055253/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+      },
+      {
+        "datetime": "2019-02-09T15:28:01Z",
+        "uri": "http://web.archive.org/web/20190209152801/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:06:40Z",
+      "uri": "http://web.archive.org/web/20190209010640/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+    },
+    "last": {
+      "datetime": "2019-02-09T15:28:01Z",
+      "uri": "http://web.archive.org/web/20190209152801/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://sputniknews.com/us/201902091072265903-trump-kim-summit-hanoi-vietnam/"
+}

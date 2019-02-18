@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T17:52:38Z",
+        "uri": "http://web.archive.org/web/20190207175238/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html"
+      },
+      {
+        "datetime": "2019-02-07T17:54:53Z",
+        "uri": "http://web.archive.org/web/20190207175453/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T17:52:38Z",
+      "uri": "http://web.archive.org/web/20190207175238/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html"
+    },
+    "last": {
+      "datetime": "2019-02-07T17:54:53Z",
+      "uri": "http://web.archive.org/web/20190207175453/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/07/briefing/virginia-climate-change-donald-trump.html"
+}

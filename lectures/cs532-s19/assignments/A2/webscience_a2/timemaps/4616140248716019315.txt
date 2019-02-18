@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T03:01:11Z",
+        "uri": "http://web.archive.org/web/20190205030111/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+      },
+      {
+        "datetime": "2019-02-06T02:24:57Z",
+        "uri": "http://web.archive.org/web/20190206022457/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+      },
+      {
+        "datetime": "2019-02-09T04:48:31Z",
+        "uri": "http://web.archive.org/web/20190209044831/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T03:01:11Z",
+      "uri": "http://web.archive.org/web/20190205030111/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+    },
+    "last": {
+      "datetime": "2019-02-09T04:48:31Z",
+      "uri": "http://web.archive.org/web/20190209044831/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.msnbc.com/velshi-ruhle/watch/for-fact-s-sake-trump-did-not-create-the-greatest-u-s-economy-1437081667656"
+}

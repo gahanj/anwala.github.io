@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-15T00:03:19Z",
+        "uri": "http://web.archive.org/web/20180615000319/http://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/"
+      },
+      {
+        "datetime": "2018-06-24T11:56:56Z",
+        "uri": "http://web.archive.org/web/20180624115656/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-15T00:03:19Z",
+      "uri": "http://web.archive.org/web/20180615000319/http://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/"
+    },
+    "last": {
+      "datetime": "2018-06-24T11:56:56Z",
+      "uri": "http://web.archive.org/web/20180624115656/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/world-leaders-ridicule-trump-incoherent-g7/"
+}

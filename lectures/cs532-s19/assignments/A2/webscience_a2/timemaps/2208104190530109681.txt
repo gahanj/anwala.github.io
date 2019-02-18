@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T19:49:03Z",
+        "uri": "http://web.archive.org/web/20190208194903/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+      },
+      {
+        "datetime": "2019-02-08T20:59:14Z",
+        "uri": "http://web.archive.org/web/20190208205914/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+      },
+      {
+        "datetime": "2019-02-09T20:13:50Z",
+        "uri": "http://web.archive.org/web/20190209201350/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+      },
+      {
+        "datetime": "2019-02-10T02:34:52Z",
+        "uri": "http://web.archive.org/web/20190210023452/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T19:49:03Z",
+      "uri": "http://web.archive.org/web/20190208194903/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:34:52Z",
+      "uri": "http://web.archive.org/web/20190210023452/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.salon.com/2019/02/08/autocracies-that-look-like-democracies-are-a-threat-across-the-globe_partner/"
+}

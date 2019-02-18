@@ -1,0 +1,74 @@
+{
+  "original_uri": "https://www.bbc.co.uk/sport/winter-sports/47190087",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/sport/winter-sports/47190087",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T12:31:35Z",
+        "uri": "http://web.archive.org/web/20190210123135/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T12:31:35Z",
+        "uri": "http://web.archive.org/web/20190210123135/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T12:34:27Z",
+        "uri": "http://web.archive.org/web/20190210123427/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T12:34:27Z",
+        "uri": "http://web.archive.org/web/20190210123427/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T13:32:17Z",
+        "uri": "http://web.archive.org/web/20190210133217/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T13:32:17Z",
+        "uri": "http://web.archive.org/web/20190210133217/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T13:35:41Z",
+        "uri": "http://web.archive.org/web/20190210133541/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T13:35:41Z",
+        "uri": "http://web.archive.org/web/20190210133541/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T15:45:48Z",
+        "uri": "http://web.archive.org/web/20190210154548/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T15:45:48Z",
+        "uri": "http://web.archive.org/web/20190210154548/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T18:01:48Z",
+        "uri": "http://web.archive.org/web/20190210180148/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-10T19:01:46Z",
+        "uri": "http://web.archive.org/web/20190210190146/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      },
+      {
+        "datetime": "2019-02-11T01:15:38Z",
+        "uri": "http://web.archive.org/web/20190211011538/https://www.bbc.co.uk/sport/winter-sports/47190087"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T12:31:35Z",
+      "uri": "http://web.archive.org/web/20190210123135/https://www.bbc.co.uk/sport/winter-sports/47190087"
+    },
+    "last": {
+      "datetime": "2019-02-11T01:15:38Z",
+      "uri": "http://web.archive.org/web/20190211011538/https://www.bbc.co.uk/sport/winter-sports/47190087"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.co.uk/sport/winter-sports/47190087",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/sport/winter-sports/47190087",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.co.uk/sport/winter-sports/47190087"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.co.uk/sport/winter-sports/47190087"
+}

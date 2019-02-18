@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T03:49:26Z",
+        "uri": "http://web.archive.org/web/20190209034926/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech"
+      },
+      {
+        "datetime": "2019-02-10T05:37:03Z",
+        "uri": "http://web.archive.org/web/20190210053703/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T03:49:26Z",
+      "uri": "http://web.archive.org/web/20190209034926/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:37:03Z",
+      "uri": "http://web.archive.org/web/20190210053703/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.techradar.com/news/trump-anticipated-to-ban-5g-networks-from-using-chinese-tech"
+}

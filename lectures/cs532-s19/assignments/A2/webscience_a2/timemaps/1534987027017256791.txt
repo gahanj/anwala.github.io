@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T20:30:31Z",
+        "uri": "http://web.archive.org/web/20190208203031/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+      },
+      {
+        "datetime": "2019-02-08T20:30:33Z",
+        "uri": "http://archive.md/20190208203033/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+      },
+      {
+        "datetime": "2019-02-09T01:34:52Z",
+        "uri": "http://web.archive.org/web/20190209013452/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+      },
+      {
+        "datetime": "2019-02-09T07:14:37Z",
+        "uri": "http://web.archive.org/web/20190209071437/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+      },
+      {
+        "datetime": "2019-02-10T00:00:12Z",
+        "uri": "http://archive.md/20190210000012/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+      },
+      {
+        "datetime": "2019-02-10T05:59:04Z",
+        "uri": "http://web.archive.org/web/20190210055904/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T20:30:31Z",
+      "uri": "http://web.archive.org/web/20190208203031/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:59:04Z",
+      "uri": "http://web.archive.org/web/20190210055904/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thedailybeast.com/candace-owens-hitler-was-ok-until-he-tried-to-go-global"
+}

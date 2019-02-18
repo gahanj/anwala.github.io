@@ -1,0 +1,66 @@
+{
+  "original_uri": "http://negligiblenews.com/atthishour/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://negligiblenews.com/atthishour/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-01-22T04:26:15Z",
+        "uri": "http://web.archive.org/web/20170122042615/http://negligiblenews.com:80/atthishour/"
+      },
+      {
+        "datetime": "2017-01-22T04:26:15Z",
+        "uri": "http://web.archive.org/web/20170122042615/http://negligiblenews.com:80/atthishour"
+      },
+      {
+        "datetime": "2017-10-04T04:31:13Z",
+        "uri": "http://web.archive.org/web/20171004043113/http://negligiblenews.com/atthishour"
+      },
+      {
+        "datetime": "2018-01-10T15:17:01Z",
+        "uri": "http://web.archive.org/web/20180110151701/http://negligiblenews.com/atthishour"
+      },
+      {
+        "datetime": "2018-01-11T04:03:12Z",
+        "uri": "http://web.archive.org/web/20180111040312/http://negligiblenews.com/atthishour/"
+      },
+      {
+        "datetime": "2018-03-10T09:59:23Z",
+        "uri": "http://web.archive.org/web/20180310095923/http://negligiblenews.com/atthishour"
+      },
+      {
+        "datetime": "2018-03-11T06:02:36Z",
+        "uri": "http://web.archive.org/web/20180311060236/http://negligiblenews.com/atthishour"
+      },
+      {
+        "datetime": "2018-08-28T01:51:57Z",
+        "uri": "http://web.archive.org/web/20180828015157/http://negligiblenews.com/atthishour"
+      },
+      {
+        "datetime": "2018-11-08T22:03:17Z",
+        "uri": "http://web.archive.org/web/20181108220317/http://negligiblenews.com/atthishour/"
+      },
+      {
+        "datetime": "2018-11-16T10:47:58Z",
+        "uri": "http://web.archive.org/web/20181116104758/http://negligiblenews.com/atthishour"
+      },
+      {
+        "datetime": "2018-12-05T10:50:45Z",
+        "uri": "http://web.archive.org/web/20181205105045/http://negligiblenews.com/atthishour/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-01-22T04:26:15Z",
+      "uri": "http://web.archive.org/web/20170122042615/http://negligiblenews.com:80/atthishour/"
+    },
+    "last": {
+      "datetime": "2018-12-05T10:50:45Z",
+      "uri": "http://web.archive.org/web/20181205105045/http://negligiblenews.com/atthishour/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://negligiblenews.com/atthishour/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://negligiblenews.com/atthishour/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://negligiblenews.com/atthishour/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://negligiblenews.com/atthishour/"
+}

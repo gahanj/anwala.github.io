@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T02:34:17Z",
+        "uri": "http://web.archive.org/web/20190209023417/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-09T03:01:51Z",
+        "uri": "http://web.archive.org/web/20190209030151/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-09T03:20:51Z",
+        "uri": "http://web.archive.org/web/20190209032051/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-09T08:29:29Z",
+        "uri": "http://web.archive.org/web/20190209082929/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-09T11:29:59Z",
+        "uri": "http://web.archive.org/web/20190209112959/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:23:57Z",
+        "uri": "http://web.archive.org/web/20190209182357/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-09T21:50:03Z",
+        "uri": "http://web.archive.org/web/20190209215003/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:23:30Z",
+        "uri": "http://web.archive.org/web/20190210002330/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-10T02:45:00Z",
+        "uri": "http://web.archive.org/web/20190210024500/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      },
+      {
+        "datetime": "2019-02-10T03:44:48Z",
+        "uri": "http://web.archive.org/web/20190210034448/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T02:34:17Z",
+      "uri": "http://web.archive.org/web/20190209023417/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:44:48Z",
+      "uri": "http://web.archive.org/web/20190210034448/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/politics/bezos-saudi-trump-ami/index.html"
+}

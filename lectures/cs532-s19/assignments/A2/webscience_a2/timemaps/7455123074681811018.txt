@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-02-02T23:50:31Z",
+        "uri": "http://web.archive.org/web/20180202235031/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier/"
+      },
+      {
+        "datetime": "2018-02-03T06:23:44Z",
+        "uri": "http://web.archive.org/web/20180203062344/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+      },
+      {
+        "datetime": "2018-02-25T16:22:41Z",
+        "uri": "http://web.archive.org/web/20180225162241/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier/"
+      },
+      {
+        "datetime": "2018-03-07T19:07:52Z",
+        "uri": "http://web.archive.org/web/20180307190752/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+      },
+      {
+        "datetime": "2018-09-13T15:20:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180913152045/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+      },
+      {
+        "datetime": "2018-09-13T15:20:45Z",
+        "uri": "http://web.archive.org/web/20180913152045/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+      }
+    ],
+    "first": {
+      "datetime": "2018-02-02T23:50:31Z",
+      "uri": "http://web.archive.org/web/20180202235031/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier/"
+    },
+    "last": {
+      "datetime": "2018-09-13T15:20:45Z",
+      "uri": "http://web.archive.org/web/20180913152045/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://tacticalinvestor.com/clinton-claims-she-didnt-know-about-the-dossier"
+}

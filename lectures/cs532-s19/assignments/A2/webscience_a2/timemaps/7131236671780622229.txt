@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:13:21Z",
+        "uri": "http://web.archive.org/web/20190208231321/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/"
+      },
+      {
+        "datetime": "2019-02-10T00:00:31Z",
+        "uri": "http://web.archive.org/web/20190210000031/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:13:21Z",
+      "uri": "http://web.archive.org/web/20190208231321/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:00:31Z",
+      "uri": "http://web.archive.org/web/20190210000031/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.motherjones.com/politics/2019/02/what-did-ivanka-know-about-trump-tower-moscow-it-wasnt-almost-nothing/"
+}

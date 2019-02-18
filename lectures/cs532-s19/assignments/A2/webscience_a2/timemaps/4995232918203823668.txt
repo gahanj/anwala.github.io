@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T09:29:32Z",
+        "uri": "http://web.archive.org/web/20190209092932/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T10:06:59Z",
+        "uri": "http://web.archive.org/web/20190209100659/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T10:44:16Z",
+        "uri": "http://web.archive.org/web/20190209104416/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T11:22:10Z",
+        "uri": "http://web.archive.org/web/20190209112210/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T12:01:05Z",
+        "uri": "http://web.archive.org/web/20190209120105/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T12:39:41Z",
+        "uri": "http://web.archive.org/web/20190209123941/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T13:17:56Z",
+        "uri": "http://web.archive.org/web/20190209131756/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T13:56:01Z",
+        "uri": "http://web.archive.org/web/20190209135601/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T14:34:00Z",
+        "uri": "http://web.archive.org/web/20190209143400/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T15:12:23Z",
+        "uri": "http://web.archive.org/web/20190209151223/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T15:50:21Z",
+        "uri": "http://web.archive.org/web/20190209155021/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T16:28:48Z",
+        "uri": "http://web.archive.org/web/20190209162848/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T17:07:08Z",
+        "uri": "http://web.archive.org/web/20190209170708/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-09T17:45:31Z",
+        "uri": "http://web.archive.org/web/20190209174531/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-10T01:29:34Z",
+        "uri": "http://web.archive.org/web/20190210012934/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      },
+      {
+        "datetime": "2019-02-10T04:36:34Z",
+        "uri": "http://archive.md/20190210043634/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T09:29:32Z",
+      "uri": "http://web.archive.org/web/20190209092932/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:36:34Z",
+      "uri": "http://archive.md/20190210043634/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/08/roger-stone-gag-order-1159369"
+}

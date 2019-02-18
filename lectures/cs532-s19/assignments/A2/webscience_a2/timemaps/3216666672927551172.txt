@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:55:57Z",
+        "uri": "http://web.archive.org/web/20190210095557/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/"
+      },
+      {
+        "datetime": "2019-02-10T09:56:04Z",
+        "uri": "http://web.archive.org/web/20190210095604/http://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:55:57Z",
+      "uri": "http://web.archive.org/web/20190210095557/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:56:04Z",
+      "uri": "http://web.archive.org/web/20190210095604/http://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://cnnespanol.cnn.com/video/estados-unidos-warren-democrata-candidatura-presidencia-trump-sot-elizabeth-warren/"
+}

@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T05:26:49Z",
+        "uri": "http://web.archive.org/web/20190210052649/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+      },
+      {
+        "datetime": "2019-02-10T05:26:49Z",
+        "uri": "http://web.archive.org/web/20190210052649/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+      },
+      {
+        "datetime": "2019-02-10T07:28:33Z",
+        "uri": "http://web.archive.org/web/20190210072833/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+      },
+      {
+        "datetime": "2019-02-10T07:28:33Z",
+        "uri": "http://web.archive.org/web/20190210072833/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+      },
+      {
+        "datetime": "2019-02-10T08:03:14Z",
+        "uri": "http://web.archive.org/web/20190210080314/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+      },
+      {
+        "datetime": "2019-02-10T23:44:22Z",
+        "uri": "http://web.archive.org/web/20190210234422/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T05:26:49Z",
+      "uri": "http://web.archive.org/web/20190210052649/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+    },
+    "last": {
+      "datetime": "2019-02-10T23:44:22Z",
+      "uri": "http://web.archive.org/web/20190210234422/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://sputniknews.com/us/201902101072283626-trump-dems-win-elections-2020-ag/"
+}

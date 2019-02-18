@@ -1,0 +1,1394 @@
+{
+  "original_uri": "https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-09-11T20:10:00Z",
+        "uri": "http://web.archive.org/web/20180911201000/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T20:42:11Z",
+        "uri": "http://web.archive.org/web/20180911204211/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T21:18:57Z",
+        "uri": "http://web.archive.org/web/20180911211857/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T21:48:15Z",
+        "uri": "http://web.archive.org/web/20180911214815/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T21:58:47Z",
+        "uri": "http://web.archive.org/web/20180911215847/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T22:34:13Z",
+        "uri": "http://web.archive.org/web/20180911223413/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T23:10:43Z",
+        "uri": "http://web.archive.org/web/20180911231043/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-11T23:48:16Z",
+        "uri": "http://web.archive.org/web/20180911234816/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T00:25:00Z",
+        "uri": "http://web.archive.org/web/20180912002500/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T01:00:42Z",
+        "uri": "http://web.archive.org/web/20180912010042/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T01:39:09Z",
+        "uri": "http://web.archive.org/web/20180912013909/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T02:15:52Z",
+        "uri": "http://web.archive.org/web/20180912021552/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T02:31:24Z",
+        "uri": "http://web.archive.org/web/20180912023124/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T03:07:55Z",
+        "uri": "http://web.archive.org/web/20180912030755/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T03:46:10Z",
+        "uri": "http://web.archive.org/web/20180912034610/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T05:01:55Z",
+        "uri": "http://web.archive.org/web/20180912050155/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T05:39:29Z",
+        "uri": "http://web.archive.org/web/20180912053929/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T06:14:58Z",
+        "uri": "http://web.archive.org/web/20180912061458/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T06:50:20Z",
+        "uri": "http://web.archive.org/web/20180912065020/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T07:25:46Z",
+        "uri": "http://web.archive.org/web/20180912072546/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T08:01:33Z",
+        "uri": "http://web.archive.org/web/20180912080133/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T09:12:54Z",
+        "uri": "http://web.archive.org/web/20180912091254/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T09:48:11Z",
+        "uri": "http://web.archive.org/web/20180912094811/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T10:24:30Z",
+        "uri": "http://web.archive.org/web/20180912102430/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T11:00:06Z",
+        "uri": "http://web.archive.org/web/20180912110006/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T11:24:29Z",
+        "uri": "http://web.archive.org/web/20180912112429/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T11:35:56Z",
+        "uri": "http://web.archive.org/web/20180912113556/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T12:11:48Z",
+        "uri": "http://web.archive.org/web/20180912121148/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T12:48:08Z",
+        "uri": "http://web.archive.org/web/20180912124808/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T14:55:16Z",
+        "uri": "http://web.archive.org/web/20180912145516/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T20:08:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180912200820/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-12T20:08:20Z",
+        "uri": "http://web.archive.org/web/20180912200820/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-13T12:55:03Z",
+        "uri": "http://web.archive.org/web/20180913125503/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-13T20:10:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180913201002/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-13T20:10:02Z",
+        "uri": "http://web.archive.org/web/20180913201002/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-14T17:30:06Z",
+        "uri": "http://wayback.archive-it.org/all/20180914173006/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-14T17:30:06Z",
+        "uri": "http://web.archive.org/web/20180914173006/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-14T20:10:01Z",
+        "uri": "http://wayback.archive-it.org/all/20180914201001/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-14T20:10:01Z",
+        "uri": "http://web.archive.org/web/20180914201001/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-15T19:59:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180915195902/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-15T19:59:02Z",
+        "uri": "http://web.archive.org/web/20180915195902/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-16T19:56:12Z",
+        "uri": "http://wayback.archive-it.org/all/20180916195612/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-16T19:56:12Z",
+        "uri": "http://web.archive.org/web/20180916195612/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-17T07:01:24Z",
+        "uri": "http://web.archive.org/web/20180917070124/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-17T20:07:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180917200700/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-17T20:07:00Z",
+        "uri": "http://web.archive.org/web/20180917200700/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-18T20:14:21Z",
+        "uri": "http://wayback.archive-it.org/all/20180918201421/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-18T20:14:21Z",
+        "uri": "http://web.archive.org/web/20180918201421/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-19T20:04:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180919200430/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-19T20:04:30Z",
+        "uri": "http://web.archive.org/web/20180919200430/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-20T20:15:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180920201522/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-20T20:15:22Z",
+        "uri": "http://web.archive.org/web/20180920201522/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-21T03:23:20Z",
+        "uri": "http://web.archive.org/web/20180921032320/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-21T20:27:49Z",
+        "uri": "http://wayback.archive-it.org/all/20180921202749/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-21T20:27:49Z",
+        "uri": "http://web.archive.org/web/20180921202749/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-22T20:19:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180922201955/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-22T20:19:55Z",
+        "uri": "http://web.archive.org/web/20180922201955/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-23T20:07:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180923200741/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-23T20:07:41Z",
+        "uri": "http://web.archive.org/web/20180923200741/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-24T20:25:51Z",
+        "uri": "http://wayback.archive-it.org/all/20180924202551/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-24T20:25:51Z",
+        "uri": "http://web.archive.org/web/20180924202551/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-25T21:03:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180925210302/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-25T21:03:02Z",
+        "uri": "http://web.archive.org/web/20180925210302/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-26T20:49:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180926204922/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-26T20:49:22Z",
+        "uri": "http://web.archive.org/web/20180926204922/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-27T20:17:16Z",
+        "uri": "http://wayback.archive-it.org/all/20180927201716/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-27T20:17:16Z",
+        "uri": "http://web.archive.org/web/20180927201716/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-28T20:11:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180928201104/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-28T20:11:04Z",
+        "uri": "http://web.archive.org/web/20180928201104/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-29T20:06:46Z",
+        "uri": "http://wayback.archive-it.org/all/20180929200646/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-29T20:06:46Z",
+        "uri": "http://web.archive.org/web/20180929200646/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-30T19:58:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180930195827/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-09-30T19:58:27Z",
+        "uri": "http://web.archive.org/web/20180930195827/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-01T20:18:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181001201849/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-01T20:18:49Z",
+        "uri": "http://web.archive.org/web/20181001201849/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-02T20:47:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181002204734/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-02T20:47:34Z",
+        "uri": "http://web.archive.org/web/20181002204734/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-03T20:49:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181003204924/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-03T20:49:24Z",
+        "uri": "http://web.archive.org/web/20181003204924/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-04T20:23:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181004202308/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-04T20:23:08Z",
+        "uri": "http://web.archive.org/web/20181004202308/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-05T20:35:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181005203547/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-05T20:35:47Z",
+        "uri": "http://web.archive.org/web/20181005203547/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-06T20:14:23Z",
+        "uri": "http://wayback.archive-it.org/all/20181006201423/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-06T20:14:23Z",
+        "uri": "http://web.archive.org/web/20181006201423/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-07T20:24:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181007202439/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-07T20:24:39Z",
+        "uri": "http://web.archive.org/web/20181007202439/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-08T21:05:09Z",
+        "uri": "http://wayback.archive-it.org/all/20181008210509/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-08T21:05:09Z",
+        "uri": "http://web.archive.org/web/20181008210509/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-09T21:02:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181009210239/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-09T21:02:39Z",
+        "uri": "http://web.archive.org/web/20181009210239/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-10T20:48:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181010204842/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-10T20:48:42Z",
+        "uri": "http://web.archive.org/web/20181010204842/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-11T21:41:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181011214154/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-11T21:41:54Z",
+        "uri": "http://web.archive.org/web/20181011214154/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-12T23:32:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181012233221/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-12T23:32:21Z",
+        "uri": "http://web.archive.org/web/20181012233221/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-13T21:18:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181013211827/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-13T21:18:27Z",
+        "uri": "http://web.archive.org/web/20181013211827/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-14T20:57:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181014205706/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-14T20:57:06Z",
+        "uri": "http://web.archive.org/web/20181014205706/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-15T20:40:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181015204045/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-15T20:40:45Z",
+        "uri": "http://web.archive.org/web/20181015204045/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-16T21:11:32Z",
+        "uri": "http://wayback.archive-it.org/all/20181016211132/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-16T21:11:32Z",
+        "uri": "http://web.archive.org/web/20181016211132/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-17T20:47:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181017204700/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-17T20:47:00Z",
+        "uri": "http://web.archive.org/web/20181017204700/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-18T23:18:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181018231852/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-18T23:18:52Z",
+        "uri": "http://web.archive.org/web/20181018231852/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-18T23:29:03Z",
+        "uri": "http://archive.md/20181018232903/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-19T21:03:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181019210355/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-19T21:03:55Z",
+        "uri": "http://web.archive.org/web/20181019210355/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-20T20:08:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181020200852/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-20T20:08:52Z",
+        "uri": "http://web.archive.org/web/20181020200852/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-21T20:11:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181021201104/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-21T20:11:04Z",
+        "uri": "http://web.archive.org/web/20181021201104/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-22T20:06:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181022200639/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-22T20:06:39Z",
+        "uri": "http://web.archive.org/web/20181022200639/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-23T23:19:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181023231925/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-23T23:19:25Z",
+        "uri": "http://web.archive.org/web/20181023231925/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-24T20:24:53Z",
+        "uri": "http://wayback.archive-it.org/all/20181024202453/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-24T20:24:53Z",
+        "uri": "http://web.archive.org/web/20181024202453/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-25T20:19:10Z",
+        "uri": "http://wayback.archive-it.org/all/20181025201910/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-25T20:19:10Z",
+        "uri": "http://web.archive.org/web/20181025201910/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-26T20:19:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181026201955/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-26T20:19:55Z",
+        "uri": "http://web.archive.org/web/20181026201955/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-27T20:16:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181027201651/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-27T20:16:51Z",
+        "uri": "http://web.archive.org/web/20181027201651/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-28T05:59:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181028055926/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-28T05:59:26Z",
+        "uri": "http://web.archive.org/web/20181028055926/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-28T20:24:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181028202412/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-28T20:24:12Z",
+        "uri": "http://web.archive.org/web/20181028202412/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-29T20:26:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181029202645/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-29T20:26:45Z",
+        "uri": "http://web.archive.org/web/20181029202645/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-30T20:21:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181030202127/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-30T20:21:27Z",
+        "uri": "http://web.archive.org/web/20181030202127/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-31T20:40:38Z",
+        "uri": "http://wayback.archive-it.org/all/20181031204038/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-10-31T20:40:38Z",
+        "uri": "http://web.archive.org/web/20181031204038/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-01T20:18:09Z",
+        "uri": "http://wayback.archive-it.org/all/20181101201809/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-01T20:18:09Z",
+        "uri": "http://web.archive.org/web/20181101201809/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-02T21:42:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181102214239/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-02T21:42:39Z",
+        "uri": "http://web.archive.org/web/20181102214239/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-03T20:25:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181103202542/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-03T20:25:42Z",
+        "uri": "http://web.archive.org/web/20181103202542/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-04T22:23:30Z",
+        "uri": "http://wayback.archive-it.org/all/20181104222330/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-04T22:23:30Z",
+        "uri": "http://web.archive.org/web/20181104222330/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-05T23:44:53Z",
+        "uri": "http://wayback.archive-it.org/all/20181105234453/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-05T23:44:53Z",
+        "uri": "http://web.archive.org/web/20181105234453/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-06T20:28:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181106202842/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-06T20:28:42Z",
+        "uri": "http://web.archive.org/web/20181106202842/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-07T20:26:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181107202643/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-07T20:26:43Z",
+        "uri": "http://web.archive.org/web/20181107202643/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-08T20:50:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181108205039/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-08T20:50:39Z",
+        "uri": "http://web.archive.org/web/20181108205039/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-10T20:20:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181110202006/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-10T20:20:06Z",
+        "uri": "http://web.archive.org/web/20181110202006/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-12T12:59:05Z",
+        "uri": "http://web.archive.org/web/20181112125905/http://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-13T02:24:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181113022439/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-13T02:24:39Z",
+        "uri": "http://web.archive.org/web/20181113022439/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-13T20:27:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181113202749/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-13T20:27:49Z",
+        "uri": "http://web.archive.org/web/20181113202749/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-14T20:23:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181114202344/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-14T20:23:44Z",
+        "uri": "http://web.archive.org/web/20181114202344/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-15T20:21:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181115202156/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-15T20:21:56Z",
+        "uri": "http://web.archive.org/web/20181115202156/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-16T20:18:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181116201817/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-16T20:18:17Z",
+        "uri": "http://web.archive.org/web/20181116201817/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-17T20:29:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181117202917/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-17T20:29:17Z",
+        "uri": "http://web.archive.org/web/20181117202917/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-18T20:11:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181118201116/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-18T20:11:16Z",
+        "uri": "http://web.archive.org/web/20181118201116/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-19T20:22:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181119202257/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-19T20:22:57Z",
+        "uri": "http://web.archive.org/web/20181119202257/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-20T20:22:40Z",
+        "uri": "http://wayback.archive-it.org/all/20181120202240/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-20T20:22:40Z",
+        "uri": "http://web.archive.org/web/20181120202240/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-21T20:45:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181121204518/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-21T20:45:18Z",
+        "uri": "http://web.archive.org/web/20181121204518/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-22T20:09:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181122200916/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-22T20:09:16Z",
+        "uri": "http://web.archive.org/web/20181122200916/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-24T04:31:23Z",
+        "uri": "http://wayback.archive-it.org/all/20181124043123/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-24T04:31:23Z",
+        "uri": "http://web.archive.org/web/20181124043123/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-24T21:07:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181124210746/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-24T21:07:46Z",
+        "uri": "http://web.archive.org/web/20181124210746/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-26T20:15:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181126201534/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-26T20:15:34Z",
+        "uri": "http://web.archive.org/web/20181126201534/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-27T03:57:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181127035739/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-27T03:57:39Z",
+        "uri": "http://web.archive.org/web/20181127035739/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-28T00:06:35Z",
+        "uri": "http://wayback.archive-it.org/all/20181128000635/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-28T00:06:35Z",
+        "uri": "http://web.archive.org/web/20181128000635/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-28T20:38:26Z",
+        "uri": "http://wayback.archive-it.org/all/20181128203826/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-28T20:38:26Z",
+        "uri": "http://web.archive.org/web/20181128203826/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-29T20:11:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181129201108/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-29T20:11:08Z",
+        "uri": "http://web.archive.org/web/20181129201108/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-30T20:11:07Z",
+        "uri": "http://wayback.archive-it.org/all/20181130201107/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-11-30T20:11:07Z",
+        "uri": "http://web.archive.org/web/20181130201107/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-01T20:20:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181201202048/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-01T20:20:48Z",
+        "uri": "http://web.archive.org/web/20181201202048/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-02T20:10:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181202201047/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-02T20:10:47Z",
+        "uri": "http://web.archive.org/web/20181202201047/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-03T20:12:15Z",
+        "uri": "http://wayback.archive-it.org/all/20181203201215/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-03T20:12:15Z",
+        "uri": "http://web.archive.org/web/20181203201215/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-04T20:19:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181204201947/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-04T20:19:47Z",
+        "uri": "http://web.archive.org/web/20181204201947/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-05T20:23:13Z",
+        "uri": "http://wayback.archive-it.org/all/20181205202313/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-05T20:23:13Z",
+        "uri": "http://web.archive.org/web/20181205202313/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-06T20:24:05Z",
+        "uri": "http://wayback.archive-it.org/all/20181206202405/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-06T20:24:05Z",
+        "uri": "http://web.archive.org/web/20181206202405/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-07T21:52:59Z",
+        "uri": "http://wayback.archive-it.org/all/20181207215259/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-07T21:52:59Z",
+        "uri": "http://web.archive.org/web/20181207215259/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-08T20:21:40Z",
+        "uri": "http://wayback.archive-it.org/all/20181208202140/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-08T20:21:40Z",
+        "uri": "http://web.archive.org/web/20181208202140/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-09T20:07:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181209200744/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-09T20:07:44Z",
+        "uri": "http://web.archive.org/web/20181209200744/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-10T20:21:35Z",
+        "uri": "http://wayback.archive-it.org/all/20181210202135/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-10T20:21:35Z",
+        "uri": "http://web.archive.org/web/20181210202135/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-11T20:07:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181211200757/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-11T20:07:57Z",
+        "uri": "http://web.archive.org/web/20181211200757/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-12T00:40:33Z",
+        "uri": "http://wayback.archive-it.org/all/20181212004033/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-12T00:40:33Z",
+        "uri": "http://web.archive.org/web/20181212004033/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-12T20:29:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181212202925/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-12T20:29:25Z",
+        "uri": "http://web.archive.org/web/20181212202925/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-13T20:18:30Z",
+        "uri": "http://wayback.archive-it.org/all/20181213201830/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-13T20:18:30Z",
+        "uri": "http://web.archive.org/web/20181213201830/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-14T20:11:40Z",
+        "uri": "http://wayback.archive-it.org/all/20181214201140/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-14T20:11:40Z",
+        "uri": "http://web.archive.org/web/20181214201140/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-15T20:36:32Z",
+        "uri": "http://wayback.archive-it.org/all/20181215203632/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-15T20:36:32Z",
+        "uri": "http://web.archive.org/web/20181215203632/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-16T20:10:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181216201000/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-16T20:10:00Z",
+        "uri": "http://web.archive.org/web/20181216201000/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-17T20:26:35Z",
+        "uri": "http://wayback.archive-it.org/all/20181217202635/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-17T20:26:35Z",
+        "uri": "http://web.archive.org/web/20181217202635/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-18T21:06:12Z",
+        "uri": "http://wayback.archive-it.org/all/20181218210612/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-18T21:06:12Z",
+        "uri": "http://web.archive.org/web/20181218210612/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-18T21:11:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181218211114/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-18T21:11:14Z",
+        "uri": "http://web.archive.org/web/20181218211114/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-19T20:13:28Z",
+        "uri": "http://wayback.archive-it.org/all/20181219201328/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-19T20:13:28Z",
+        "uri": "http://web.archive.org/web/20181219201328/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-20T20:15:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181220201542/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-20T20:15:42Z",
+        "uri": "http://web.archive.org/web/20181220201542/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-21T20:08:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181221200858/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-21T20:08:58Z",
+        "uri": "http://web.archive.org/web/20181221200858/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-22T20:08:50Z",
+        "uri": "http://wayback.archive-it.org/all/20181222200850/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-22T20:08:50Z",
+        "uri": "http://web.archive.org/web/20181222200850/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-23T20:18:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181223201845/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-23T20:18:45Z",
+        "uri": "http://web.archive.org/web/20181223201845/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-24T20:21:46Z",
+        "uri": "http://wayback.archive-it.org/all/20181224202146/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-24T20:21:46Z",
+        "uri": "http://web.archive.org/web/20181224202146/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-25T20:06:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181225200625/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-25T20:06:25Z",
+        "uri": "http://web.archive.org/web/20181225200625/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-26T20:10:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181226201017/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-26T20:10:17Z",
+        "uri": "http://web.archive.org/web/20181226201017/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-26T23:11:05Z",
+        "uri": "http://web.archive.org/web/20181226231105/http://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-27T20:16:39Z",
+        "uri": "http://wayback.archive-it.org/all/20181227201639/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-27T20:16:39Z",
+        "uri": "http://web.archive.org/web/20181227201639/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-28T06:43:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181228064308/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-28T06:43:08Z",
+        "uri": "http://web.archive.org/web/20181228064308/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-28T21:00:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181228210048/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-28T21:00:48Z",
+        "uri": "http://web.archive.org/web/20181228210048/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-29T20:13:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181229201318/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-29T20:13:18Z",
+        "uri": "http://web.archive.org/web/20181229201318/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-30T20:13:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181230201356/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-30T20:13:56Z",
+        "uri": "http://web.archive.org/web/20181230201356/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-31T20:33:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181231203327/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2018-12-31T20:33:27Z",
+        "uri": "http://web.archive.org/web/20181231203327/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-01T20:33:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190101203356/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-01T20:33:56Z",
+        "uri": "http://web.archive.org/web/20190101203356/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-02T20:35:13Z",
+        "uri": "http://wayback.archive-it.org/all/20190102203513/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-02T20:35:13Z",
+        "uri": "http://web.archive.org/web/20190102203513/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-04T02:32:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190104023256/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-04T02:32:56Z",
+        "uri": "http://web.archive.org/web/20190104023256/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-04T20:13:49Z",
+        "uri": "http://wayback.archive-it.org/all/20190104201349/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-04T20:13:49Z",
+        "uri": "http://web.archive.org/web/20190104201349/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-05T20:14:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190105201447/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-05T20:14:47Z",
+        "uri": "http://web.archive.org/web/20190105201447/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-06T20:10:57Z",
+        "uri": "http://wayback.archive-it.org/all/20190106201057/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-06T20:10:57Z",
+        "uri": "http://web.archive.org/web/20190106201057/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-07T20:16:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190107201656/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-07T20:16:56Z",
+        "uri": "http://web.archive.org/web/20190107201656/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-08T20:19:52Z",
+        "uri": "http://wayback.archive-it.org/all/20190108201952/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-08T20:19:52Z",
+        "uri": "http://web.archive.org/web/20190108201952/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-09T20:55:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190109205534/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-09T20:55:34Z",
+        "uri": "http://web.archive.org/web/20190109205534/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-10T20:15:15Z",
+        "uri": "http://wayback.archive-it.org/all/20190110201515/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-10T20:15:15Z",
+        "uri": "http://web.archive.org/web/20190110201515/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-11T20:22:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190111202232/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-11T20:22:32Z",
+        "uri": "http://web.archive.org/web/20190111202232/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-12T20:12:26Z",
+        "uri": "http://wayback.archive-it.org/all/20190112201226/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-12T20:12:26Z",
+        "uri": "http://web.archive.org/web/20190112201226/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-13T20:03:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190113200325/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-13T20:03:25Z",
+        "uri": "http://web.archive.org/web/20190113200325/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-14T20:18:55Z",
+        "uri": "http://wayback.archive-it.org/all/20190114201855/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-14T20:18:55Z",
+        "uri": "http://web.archive.org/web/20190114201855/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-15T20:56:13Z",
+        "uri": "http://wayback.archive-it.org/all/20190115205613/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-15T20:56:13Z",
+        "uri": "http://web.archive.org/web/20190115205613/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-16T20:55:08Z",
+        "uri": "http://wayback.archive-it.org/all/20190116205508/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-16T20:55:08Z",
+        "uri": "http://web.archive.org/web/20190116205508/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-17T20:14:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190117201419/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-17T20:14:19Z",
+        "uri": "http://web.archive.org/web/20190117201419/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-18T20:26:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190118202619/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-18T20:26:19Z",
+        "uri": "http://web.archive.org/web/20190118202619/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-19T20:22:18Z",
+        "uri": "http://wayback.archive-it.org/all/20190119202218/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-19T20:22:18Z",
+        "uri": "http://web.archive.org/web/20190119202218/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-20T20:11:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190120201146/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-20T20:11:46Z",
+        "uri": "http://web.archive.org/web/20190120201146/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-21T20:24:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190121202424/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-21T20:24:24Z",
+        "uri": "http://web.archive.org/web/20190121202424/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-22T20:50:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190122205035/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-22T20:50:35Z",
+        "uri": "http://web.archive.org/web/20190122205035/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-23T20:19:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190123201943/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-23T20:19:43Z",
+        "uri": "http://web.archive.org/web/20190123201943/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-24T20:19:21Z",
+        "uri": "http://wayback.archive-it.org/all/20190124201921/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-24T20:19:21Z",
+        "uri": "http://web.archive.org/web/20190124201921/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-25T20:27:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190125202702/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-25T20:27:02Z",
+        "uri": "http://web.archive.org/web/20190125202702/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-26T20:36:45Z",
+        "uri": "http://wayback.archive-it.org/all/20190126203645/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-26T20:36:45Z",
+        "uri": "http://web.archive.org/web/20190126203645/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-27T20:47:59Z",
+        "uri": "http://wayback.archive-it.org/all/20190127204759/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-27T20:47:59Z",
+        "uri": "http://web.archive.org/web/20190127204759/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-28T20:49:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190128204919/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-28T20:49:19Z",
+        "uri": "http://web.archive.org/web/20190128204919/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-29T20:15:40Z",
+        "uri": "http://wayback.archive-it.org/all/20190129201540/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-29T20:15:40Z",
+        "uri": "http://web.archive.org/web/20190129201540/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-30T20:20:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190130202047/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-30T20:20:47Z",
+        "uri": "http://web.archive.org/web/20190130202047/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-31T20:44:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190131204434/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-01-31T20:44:34Z",
+        "uri": "http://web.archive.org/web/20190131204434/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-01T20:18:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190201201825/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-01T20:18:25Z",
+        "uri": "http://web.archive.org/web/20190201201825/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-02T20:14:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190202201425/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-02T20:14:25Z",
+        "uri": "http://web.archive.org/web/20190202201425/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-03T20:08:39Z",
+        "uri": "http://wayback.archive-it.org/all/20190203200839/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-03T20:08:39Z",
+        "uri": "http://web.archive.org/web/20190203200839/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-04T20:22:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190204202232/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-04T20:22:32Z",
+        "uri": "http://web.archive.org/web/20190204202232/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-05T17:15:14Z",
+        "uri": "http://web.archive.org/web/20190205171514/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html/"
+      },
+      {
+        "datetime": "2019-02-05T20:38:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190205203844/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-05T20:38:44Z",
+        "uri": "http://web.archive.org/web/20190205203844/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-06T20:14:27Z",
+        "uri": "http://wayback.archive-it.org/all/20190206201427/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-06T20:14:27Z",
+        "uri": "http://web.archive.org/web/20190206201427/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-07T20:18:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190207201843/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-07T20:18:43Z",
+        "uri": "http://web.archive.org/web/20190207201843/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-08T20:10:49Z",
+        "uri": "http://web.archive.org/web/20190208201049/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      },
+      {
+        "datetime": "2019-02-09T20:14:43Z",
+        "uri": "http://web.archive.org/web/20190209201443/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-09-11T20:10:00Z",
+      "uri": "http://web.archive.org/web/20180911201000/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:14:43Z",
+      "uri": "http://web.archive.org/web/20190209201443/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnbc.com/2018/09/11/trump-once-considered-just-printing-money-to-lower-the-national-debt-woodward-reports.html"
+}

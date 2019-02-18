@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T10:29:22Z",
+        "uri": "http://web.archive.org/web/20190206102922/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/"
+      },
+      {
+        "datetime": "2019-02-07T01:13:32Z",
+        "uri": "http://web.archive.org/web/20190207011332/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T10:29:22Z",
+      "uri": "http://web.archive.org/web/20190206102922/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/"
+    },
+    "last": {
+      "datetime": "2019-02-07T01:13:32Z",
+      "uri": "http://web.archive.org/web/20190207011332/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tmz.com/2019/02/05/oj-simpson-president-trump-fun-guy-impeachment-roger-stone/"
+}

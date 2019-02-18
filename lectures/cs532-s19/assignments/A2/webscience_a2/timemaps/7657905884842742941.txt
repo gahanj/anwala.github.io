@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-21T12:19:19Z",
+        "uri": "http://web.archive.org/web/20181221121919/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+      },
+      {
+        "datetime": "2018-12-23T07:07:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181223070745/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+      },
+      {
+        "datetime": "2018-12-23T07:07:45Z",
+        "uri": "http://web.archive.org/web/20181223070745/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+      },
+      {
+        "datetime": "2018-12-30T07:37:41Z",
+        "uri": "http://wayback.archive-it.org/all/20181230073741/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+      },
+      {
+        "datetime": "2018-12-30T07:37:41Z",
+        "uri": "http://web.archive.org/web/20181230073741/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-21T12:19:19Z",
+      "uri": "http://web.archive.org/web/20181221121919/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+    },
+    "last": {
+      "datetime": "2018-12-30T07:37:41Z",
+      "uri": "http://web.archive.org/web/20181230073741/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ft.com/content/d3a16640-0445-11e9-99df-6183d3002ee1"
+}

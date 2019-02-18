@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:30:30Z",
+        "uri": "http://web.archive.org/web/20190209203030/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:30:30Z",
+      "uri": "http://web.archive.org/web/20190209203030/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:30:30Z",
+      "uri": "http://web.archive.org/web/20190209203030/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://g1.globo.com/mundo/noticia/2019/02/09/trump-anuncia-que-novo-encontro-com-kim-jong-un-sera-em-hanoi-capital-do-vietna.ghtml"
+}

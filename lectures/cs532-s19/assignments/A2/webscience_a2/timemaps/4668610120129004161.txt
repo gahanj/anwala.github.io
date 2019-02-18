@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:33:10Z",
+        "uri": "http://web.archive.org/web/20190209083310/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126"
+      },
+      {
+        "datetime": "2019-02-10T00:52:09Z",
+        "uri": "http://web.archive.org/web/20190210005209/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:33:10Z",
+      "uri": "http://web.archive.org/web/20190209083310/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:52:09Z",
+      "uri": "http://web.archive.org/web/20190210005209/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.el-nacional.com/noticias/trump-anuncio-que-segunda-cumbre-con-kim-jong-un-sera-hanoi_270126"
+}

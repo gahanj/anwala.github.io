@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-01-21T15:04:32Z",
+        "uri": "http://web.archive.org/web/20180121150432/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+      },
+      {
+        "datetime": "2018-08-06T10:59:47Z",
+        "uri": "http://web.archive.org/web/20180806105947/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+      },
+      {
+        "datetime": "2019-01-11T07:45:47Z",
+        "uri": "http://archive.md/20190111074547/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+      }
+    ],
+    "first": {
+      "datetime": "2018-01-21T15:04:32Z",
+      "uri": "http://web.archive.org/web/20180121150432/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+    },
+    "last": {
+      "datetime": "2019-01-11T07:45:47Z",
+      "uri": "http://archive.md/20190111074547/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/us-news/2016/apr/12/barack-obama-says-libya-was-worst-mistake-of-his-presidency?CMP=share_btn_tw"
+}

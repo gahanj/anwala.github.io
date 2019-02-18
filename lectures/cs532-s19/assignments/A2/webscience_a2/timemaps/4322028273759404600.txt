@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T20:09:52Z",
+        "uri": "http://web.archive.org/web/20190209200952/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T20:09:52Z",
+      "uri": "http://web.archive.org/web/20190209200952/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:09:52Z",
+      "uri": "http://web.archive.org/web/20190209200952/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/02/09/donald-trump-whitaker-hearing/"
+}

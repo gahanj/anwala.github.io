@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-10-10T12:07:59Z",
+        "uri": "http://web.archive.org/web/20181010120759/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/"
+      },
+      {
+        "datetime": "2018-10-11T14:50:54Z",
+        "uri": "http://web.archive.org/web/20181011145054/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-10-10T12:07:59Z",
+      "uri": "http://web.archive.org/web/20181010120759/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/"
+    },
+    "last": {
+      "datetime": "2018-10-11T14:50:54Z",
+      "uri": "http://web.archive.org/web/20181011145054/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.libremercado.com/2018-10-10/trump-hace-historia-en-eeuu-los-sueldos-crecen-al-3-y-el-paro-cae-por-debajo-del-4-1276626242/"
+}

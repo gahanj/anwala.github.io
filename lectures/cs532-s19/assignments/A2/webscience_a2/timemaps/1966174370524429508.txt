@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-02-03T03:44:47Z",
+        "uri": "http://web.archive.org/web/20180203034447/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs"
+      }
+    ],
+    "first": {
+      "datetime": "2018-02-03T03:44:47Z",
+      "uri": "http://web.archive.org/web/20180203034447/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs"
+    },
+    "last": {
+      "datetime": "2018-02-03T03:44:47Z",
+      "uri": "http://web.archive.org/web/20180203034447/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.breitbart.com.le6b.clonezone.link/trump-medicare-prescription-drugs"
+}

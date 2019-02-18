@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T17:47:04Z",
+        "uri": "http://web.archive.org/web/20190207174704/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+      },
+      {
+        "datetime": "2019-02-08T04:12:08Z",
+        "uri": "http://web.archive.org/web/20190208041208/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+      },
+      {
+        "datetime": "2019-02-08T04:12:10Z",
+        "uri": "http://web.archive.org/web/20190208041210/http://scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+      },
+      {
+        "datetime": "2019-02-09T00:39:53Z",
+        "uri": "http://web.archive.org/web/20190209003953/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T17:47:04Z",
+      "uri": "http://web.archive.org/web/20190207174704/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+    },
+    "last": {
+      "datetime": "2019-02-09T00:39:53Z",
+      "uri": "http://web.archive.org/web/20190209003953/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.scmp.com/news/china/diplomacy/article/2185347/donald-trump-and-xi-jinping-unlikely-meet-march-1-deadline-us"
+}

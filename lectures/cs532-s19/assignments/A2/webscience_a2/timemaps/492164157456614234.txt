@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:35:21Z",
+        "uri": "http://web.archive.org/web/20190209083521/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:35:21Z",
+      "uri": "http://web.archive.org/web/20190209083521/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"
+    },
+    "last": {
+      "datetime": "2019-02-09T08:35:21Z",
+      "uri": "http://web.archive.org/web/20190209083521/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T12:57:44Z",
+        "uri": "http://web.archive.org/web/20190207125744/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/"
+      },
+      {
+        "datetime": "2019-02-08T03:46:48Z",
+        "uri": "http://web.archive.org/web/20190208034648/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T12:57:44Z",
+      "uri": "http://web.archive.org/web/20190207125744/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/"
+    },
+    "last": {
+      "datetime": "2019-02-08T03:46:48Z",
+      "uri": "http://web.archive.org/web/20190208034648/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/jr-adam-schiff-prison-trump/15776/"
+}

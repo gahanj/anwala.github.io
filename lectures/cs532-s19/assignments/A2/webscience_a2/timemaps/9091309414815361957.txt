@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T16:08:18Z",
+        "uri": "http://web.archive.org/web/20190207160818/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T16:08:18Z",
+      "uri": "http://web.archive.org/web/20190207160818/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/"
+    },
+    "last": {
+      "datetime": "2019-02-07T16:08:18Z",
+      "uri": "http://web.archive.org/web/20190207160818/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.expressen.se/nyheter/maduro-blockerar-humanitart-stod/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T02:03:52Z",
+        "uri": "http://web.archive.org/web/20190207020352/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/"
+      },
+      {
+        "datetime": "2019-02-07T12:04:48Z",
+        "uri": "http://web.archive.org/web/20190207120448/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T02:03:52Z",
+      "uri": "http://web.archive.org/web/20190207020352/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/"
+    },
+    "last": {
+      "datetime": "2019-02-07T12:04:48Z",
+      "uri": "http://web.archive.org/web/20190207120448/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://immigrationimpact.com/2019/02/06/trumps-state-of-union-misunderstanding-immigration/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:57:22Z",
+        "uri": "http://web.archive.org/web/20190210005722/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0"
+      },
+      {
+        "datetime": "2019-02-10T03:45:27Z",
+        "uri": "http://archive.md/20190210034527/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:57:22Z",
+      "uri": "http://web.archive.org/web/20190210005722/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:45:27Z",
+      "uri": "http://archive.md/20190210034527/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.zerohedge.com/news/2019-02-09/trumps-border-wall-could-slice-through-50-acre-spacex-launchpad-facility-0"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-16T04:07:54Z",
+        "uri": "http://web.archive.org/web/20190116040754/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+      },
+      {
+        "datetime": "2019-01-17T04:50:20Z",
+        "uri": "http://web.archive.org/web/20190117045020/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+      },
+      {
+        "datetime": "2019-02-03T05:18:32Z",
+        "uri": "http://web.archive.org/web/20190203051832/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+      },
+      {
+        "datetime": "2019-02-09T11:34:21Z",
+        "uri": "http://web.archive.org/web/20190209113421/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-16T04:07:54Z",
+      "uri": "http://web.archive.org/web/20190116040754/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+    },
+    "last": {
+      "datetime": "2019-02-09T11:34:21Z",
+      "uri": "http://web.archive.org/web/20190209113421/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://fivethirtyeight.com/features/how-17-long-shot-presidential-contenders-could-build-a-winning-coalition/"
+}

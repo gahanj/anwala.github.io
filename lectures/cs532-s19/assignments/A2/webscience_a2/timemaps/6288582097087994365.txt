@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T12:44:41Z",
+        "uri": "http://web.archive.org/web/20190207124441/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T12:44:41Z",
+      "uri": "http://web.archive.org/web/20190207124441/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/"
+    },
+    "last": {
+      "datetime": "2019-02-07T12:44:41Z",
+      "uri": "http://web.archive.org/web/20190207124441/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.mercurynews.com/2019/02/06/political-cartoons-trumps-state-of-the-union-speech/"
+}

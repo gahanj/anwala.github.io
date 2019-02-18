@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:31:51Z",
+        "uri": "http://web.archive.org/web/20190208233151/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+      },
+      {
+        "datetime": "2019-02-08T23:35:30Z",
+        "uri": "http://web.archive.org/web/20190208233530/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+      },
+      {
+        "datetime": "2019-02-09T04:12:13Z",
+        "uri": "http://web.archive.org/web/20190209041213/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:31:51Z",
+      "uri": "http://web.archive.org/web/20190208233151/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+    },
+    "last": {
+      "datetime": "2019-02-09T04:12:13Z",
+      "uri": "http://web.archive.org/web/20190209041213/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.telegraaf.nl/nieuws/3130108/fysieke-test-is-trump-108-kg-al-afgevallen"
+}

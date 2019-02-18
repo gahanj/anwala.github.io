@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:26:19Z",
+        "uri": "http://web.archive.org/web/20190209232619/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:26:19Z",
+      "uri": "http://web.archive.org/web/20190209232619/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:26:19Z",
+      "uri": "http://web.archive.org/web/20190209232619/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://mundo.sputniknews.com/america_del_norte/201902091085367652-michelle-lujan-grisham-muros-mexico/"
+}

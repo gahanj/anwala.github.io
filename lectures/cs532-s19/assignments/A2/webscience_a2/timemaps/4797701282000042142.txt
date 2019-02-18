@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://tweetedtimes.com/v/3709",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://tweetedtimes.com/v/3709",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-01-27T01:35:12Z",
+        "uri": "http://web.archive.org/web/20180127013512/http://tweetedtimes.com/v/3709"
+      }
+    ],
+    "first": {
+      "datetime": "2018-01-27T01:35:12Z",
+      "uri": "http://web.archive.org/web/20180127013512/http://tweetedtimes.com/v/3709"
+    },
+    "last": {
+      "datetime": "2018-01-27T01:35:12Z",
+      "uri": "http://web.archive.org/web/20180127013512/http://tweetedtimes.com/v/3709"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://tweetedtimes.com/v/3709",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://tweetedtimes.com/v/3709",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://tweetedtimes.com/v/3709"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://tweetedtimes.com/v/3709"
+}

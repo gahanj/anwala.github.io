@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:03:19Z",
+        "uri": "http://web.archive.org/web/20190208230319/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:18:00Z",
+        "uri": "http://web.archive.org/web/20190209021800/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-09T03:34:48Z",
+        "uri": "http://web.archive.org/web/20190209033448/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-09T11:29:34Z",
+        "uri": "http://web.archive.org/web/20190209112934/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:28:31Z",
+        "uri": "http://web.archive.org/web/20190209182831/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-09T23:34:46Z",
+        "uri": "http://web.archive.org/web/20190209233446/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-10T00:48:27Z",
+        "uri": "http://web.archive.org/web/20190210004827/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-10T01:29:51Z",
+        "uri": "http://web.archive.org/web/20190210012951/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-10T04:08:10Z",
+        "uri": "http://web.archive.org/web/20190210040810/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      },
+      {
+        "datetime": "2019-02-10T05:04:35Z",
+        "uri": "http://web.archive.org/web/20190210050435/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:03:19Z",
+      "uri": "http://web.archive.org/web/20190208230319/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:04:35Z",
+      "uri": "http://web.archive.org/web/20190210050435/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/politics/ivanka-trump-jared-kushner-security-clearances/index.html"
+}

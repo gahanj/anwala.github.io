@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:41:00Z",
+        "uri": "http://web.archive.org/web/20190209144100/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-09T14:43:32Z",
+        "uri": "http://web.archive.org/web/20190209144332/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-09T14:44:02Z",
+        "uri": "http://archive.md/20190209144402/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-09T22:02:08Z",
+        "uri": "http://web.archive.org/web/20190209220208/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-09T23:12:33Z",
+        "uri": "http://web.archive.org/web/20190209231233/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-09T23:15:37Z",
+        "uri": "http://web.archive.org/web/20190209231537/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-10T01:43:54Z",
+        "uri": "http://web.archive.org/web/20190210014354/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      },
+      {
+        "datetime": "2019-02-10T05:22:00Z",
+        "uri": "http://web.archive.org/web/20190210052200/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:41:00Z",
+      "uri": "http://web.archive.org/web/20190209144100/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:22:00Z",
+      "uri": "http://web.archive.org/web/20190210052200/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/stephen-king-donald-trump-kim-jong-un_us_5c5e97b2e4b0f9e1b17d7368"
+}

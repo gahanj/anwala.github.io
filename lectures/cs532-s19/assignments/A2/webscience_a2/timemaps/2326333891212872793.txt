@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T21:57:03Z",
+        "uri": "http://archive.md/20190206215703/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909"
+      },
+      {
+        "datetime": "2019-02-07T01:50:42Z",
+        "uri": "http://web.archive.org/web/20190207015042/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T21:57:03Z",
+      "uri": "http://archive.md/20190206215703/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909"
+    },
+    "last": {
+      "datetime": "2019-02-07T01:50:42Z",
+      "uri": "http://web.archive.org/web/20190207015042/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/06/trump-visits-el-paso-border-1152909"
+}

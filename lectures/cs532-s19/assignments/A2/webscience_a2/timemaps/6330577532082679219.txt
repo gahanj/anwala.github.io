@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T22:50:52Z",
+        "uri": "http://web.archive.org/web/20190206225052/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/"
+      },
+      {
+        "datetime": "2019-02-07T14:27:05Z",
+        "uri": "http://web.archive.org/web/20190207142705/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T22:50:52Z",
+      "uri": "http://web.archive.org/web/20190206225052/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:27:05Z",
+      "uri": "http://web.archive.org/web/20190207142705/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.scientificamerican.com/article/trump-touts-infrastructure-in-state-of-the-union-ignores-climate-change/"
+}

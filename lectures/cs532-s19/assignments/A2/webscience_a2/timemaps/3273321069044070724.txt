@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-04T20:30:01Z",
+        "uri": "http://archive.md/20190204203001/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-05T01:01:17Z",
+        "uri": "http://web.archive.org/web/20190205010117/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-05T10:43:38Z",
+        "uri": "http://wayback.archive-it.org/all/20190205104338/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-05T10:43:38Z",
+        "uri": "http://web.archive.org/web/20190205104338/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-05T12:18:45Z",
+        "uri": "http://web.archive.org/web/20190205121845/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-05T20:27:26Z",
+        "uri": "http://wayback.archive-it.org/all/20190205202726/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-05T20:27:26Z",
+        "uri": "http://web.archive.org/web/20190205202726/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-06T01:49:07Z",
+        "uri": "http://web.archive.org/web/20190206014907/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-06T02:05:20Z",
+        "uri": "http://web.archive.org/web/20190206020520/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-06T20:07:38Z",
+        "uri": "http://wayback.archive-it.org/all/20190206200738/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-06T20:07:38Z",
+        "uri": "http://web.archive.org/web/20190206200738/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-07T20:12:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190207201234/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-07T20:12:34Z",
+        "uri": "http://web.archive.org/web/20190207201234/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-08T18:42:31Z",
+        "uri": "http://web.archive.org/web/20190208184231/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-08T20:05:19Z",
+        "uri": "http://web.archive.org/web/20190208200519/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      },
+      {
+        "datetime": "2019-02-09T20:10:35Z",
+        "uri": "http://web.archive.org/web/20190209201035/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-04T20:30:01Z",
+      "uri": "http://archive.md/20190204203001/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:10:35Z",
+      "uri": "http://web.archive.org/web/20190209201035/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/04/david-bernhardt-interior-secretary-1145523"
+}

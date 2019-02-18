@@ -1,0 +1,46 @@
+{
+  "original_uri": "http://Trumpit.Chat",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://Trumpit.Chat",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-04T03:18:38Z",
+        "uri": "http://web.archive.org/web/20180804031838/http://trumpit.chat/"
+      },
+      {
+        "datetime": "2018-08-11T20:50:30Z",
+        "uri": "http://web.archive.org/web/20180811205030/https://trumpit.chat/"
+      },
+      {
+        "datetime": "2018-12-10T18:53:49Z",
+        "uri": "http://web.archive.org/web/20181210185349/https://trumpit.chat/"
+      },
+      {
+        "datetime": "2019-01-24T02:37:50Z",
+        "uri": "http://web.archive.org/web/20190124023750/http://trumpit.chat"
+      },
+      {
+        "datetime": "2019-01-24T02:38:24Z",
+        "uri": "http://archive.md/20190124023824/http://trumpit.chat/"
+      },
+      {
+        "datetime": "2019-01-26T22:25:39Z",
+        "uri": "http://web.archive.org/web/20190126222539/https://trumpit.chat/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-04T03:18:38Z",
+      "uri": "http://web.archive.org/web/20180804031838/http://trumpit.chat/"
+    },
+    "last": {
+      "datetime": "2019-01-26T22:25:39Z",
+      "uri": "http://web.archive.org/web/20190126222539/https://trumpit.chat/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://Trumpit.Chat",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://Trumpit.Chat",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://Trumpit.Chat"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://Trumpit.Chat"
+}

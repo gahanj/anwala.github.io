@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.thenation.com/article/nuclear-madness-inf/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thenation.com/article/nuclear-madness-inf/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:34:00Z",
+        "uri": "http://web.archive.org/web/20190208183400/https://www.thenation.com/article/nuclear-madness-inf/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:34:00Z",
+      "uri": "http://web.archive.org/web/20190208183400/https://www.thenation.com/article/nuclear-madness-inf/"
+    },
+    "last": {
+      "datetime": "2019-02-08T18:34:00Z",
+      "uri": "http://web.archive.org/web/20190208183400/https://www.thenation.com/article/nuclear-madness-inf/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thenation.com/article/nuclear-madness-inf/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thenation.com/article/nuclear-madness-inf/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thenation.com/article/nuclear-madness-inf/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thenation.com/article/nuclear-madness-inf/"
+}

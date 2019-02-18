@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.arirang.co.kr/News/News_View.asp?nSeq=231307",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.arirang.co.kr/News/News_View.asp?nSeq=231307",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:48:05Z",
+        "uri": "http://web.archive.org/web/20190210144805/http://www.arirang.co.kr/News/News_View.asp?nseq=231307"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:48:05Z",
+      "uri": "http://web.archive.org/web/20190210144805/http://www.arirang.co.kr/News/News_View.asp?nseq=231307"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:48:05Z",
+      "uri": "http://web.archive.org/web/20190210144805/http://www.arirang.co.kr/News/News_View.asp?nseq=231307"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.arirang.co.kr/News/News_View.asp?nSeq=231307",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.arirang.co.kr/News/News_View.asp?nSeq=231307",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.arirang.co.kr/News/News_View.asp?nSeq=231307"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.arirang.co.kr/News/News_View.asp?nSeq=231307"
+}

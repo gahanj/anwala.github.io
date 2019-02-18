@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-07T10:15:51Z",
+        "uri": "http://web.archive.org/web/20181107101551/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-07T10:47:27Z",
+        "uri": "http://web.archive.org/web/20181107104727/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-07T14:46:30Z",
+        "uri": "http://web.archive.org/web/20181107144630/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-07T15:26:59Z",
+        "uri": "http://web.archive.org/web/20181107152659/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-07T15:26:59Z",
+        "uri": "http://web.archive.org/web/20181107152659/http://foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-08T19:19:07Z",
+        "uri": "http://web.archive.org/web/20181108191907/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-08T19:19:08Z",
+        "uri": "http://web.archive.org/web/20181108191908/http://foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      },
+      {
+        "datetime": "2018-11-16T11:06:15Z",
+        "uri": "http://web.archive.org/web/20181116110615/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-07T10:15:51Z",
+      "uri": "http://web.archive.org/web/20181107101551/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+    },
+    "last": {
+      "datetime": "2018-11-16T11:06:15Z",
+      "uri": "http://web.archive.org/web/20181116110615/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.foxnews.com/us/fox-news-first-mixed-midterm-results-for-trump-and-both-parties-but-everyones-declaring-victory"
+}

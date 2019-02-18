@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-18T19:24:38Z",
+        "uri": "http://web.archive.org/web/20180818192438/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/"
+      },
+      {
+        "datetime": "2018-11-06T14:31:02Z",
+        "uri": "http://web.archive.org/web/20181106143102/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-18T19:24:38Z",
+      "uri": "http://web.archive.org/web/20180818192438/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/"
+    },
+    "last": {
+      "datetime": "2018-11-06T14:31:02Z",
+      "uri": "http://web.archive.org/web/20181106143102/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.newsmax.com/politics/russia-probe-richard-burr-donald-trump-collusion/2018/08/18/id/877629/"
+}

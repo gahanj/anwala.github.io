@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-02T12:28:04Z",
+        "uri": "http://web.archive.org/web/20190202122804/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-02T12:44:42Z",
+        "uri": "http://web.archive.org/web/20190202124442/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-02T18:21:13Z",
+        "uri": "http://web.archive.org/web/20190202182113/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-03T10:31:04Z",
+        "uri": "http://web.archive.org/web/20190203103104/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-03T12:47:34Z",
+        "uri": "http://web.archive.org/web/20190203124734/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-03T21:42:43Z",
+        "uri": "http://web.archive.org/web/20190203214243/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-03T21:43:09Z",
+        "uri": "http://archive.md/20190203214309/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-03T22:16:51Z",
+        "uri": "http://web.archive.org/web/20190203221651/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-05T11:16:56Z",
+        "uri": "http://web.archive.org/web/20190205111656/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-06T03:46:33Z",
+        "uri": "http://web.archive.org/web/20190206034633/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      },
+      {
+        "datetime": "2019-02-08T02:39:11Z",
+        "uri": "http://web.archive.org/web/20190208023911/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-02T12:28:04Z",
+      "uri": "http://web.archive.org/web/20190202122804/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+    },
+    "last": {
+      "datetime": "2019-02-08T02:39:11Z",
+      "uri": "http://web.archive.org/web/20190208023911/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://theintercept.com/2019/02/02/venezuela-us-trump-sanctions/"
+}

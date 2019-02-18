@@ -1,0 +1,874 @@
+{
+  "original_uri": "https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-05T16:01:14Z",
+        "uri": "http://archive.md/20181205160114/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T16:01:14Z",
+        "uri": "http://web.archive.org/web/20181205160114/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T16:12:02Z",
+        "uri": "http://web.archive.org/web/20181205161202/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T16:17:19Z",
+        "uri": "http://web.archive.org/web/20181205161719/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T16:17:45Z",
+        "uri": "http://archive.md/20181205161745/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T16:22:10Z",
+        "uri": "http://web.archive.org/web/20181205162210/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T16:32:34Z",
+        "uri": "http://web.archive.org/web/20181205163234/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T17:13:42Z",
+        "uri": "http://web.archive.org/web/20181205171342/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T17:51:08Z",
+        "uri": "http://web.archive.org/web/20181205175108/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T18:28:10Z",
+        "uri": "http://web.archive.org/web/20181205182810/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T19:06:44Z",
+        "uri": "http://web.archive.org/web/20181205190644/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T19:42:26Z",
+        "uri": "http://web.archive.org/web/20181205194226/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T20:19:57Z",
+        "uri": "http://web.archive.org/web/20181205201957/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T20:23:30Z",
+        "uri": "http://web.archive.org/web/20181205202330/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T20:57:58Z",
+        "uri": "http://web.archive.org/web/20181205205758/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T21:13:19Z",
+        "uri": "http://web.archive.org/web/20181205211319/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T21:54:02Z",
+        "uri": "http://web.archive.org/web/20181205215402/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T22:42:30Z",
+        "uri": "http://web.archive.org/web/20181205224230/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T23:20:11Z",
+        "uri": "http://web.archive.org/web/20181205232011/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-05T23:56:20Z",
+        "uri": "http://web.archive.org/web/20181205235620/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T00:33:35Z",
+        "uri": "http://web.archive.org/web/20181206003335/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T00:49:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181206004947/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T00:49:47Z",
+        "uri": "http://web.archive.org/web/20181206004947/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T01:11:06Z",
+        "uri": "http://web.archive.org/web/20181206011106/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T01:48:15Z",
+        "uri": "http://web.archive.org/web/20181206014815/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T02:24:21Z",
+        "uri": "http://web.archive.org/web/20181206022421/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T03:00:33Z",
+        "uri": "http://web.archive.org/web/20181206030033/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T03:09:21Z",
+        "uri": "http://web.archive.org/web/20181206030921/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T03:37:25Z",
+        "uri": "http://web.archive.org/web/20181206033725/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T04:13:54Z",
+        "uri": "http://web.archive.org/web/20181206041354/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T04:50:01Z",
+        "uri": "http://web.archive.org/web/20181206045001/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T05:11:32Z",
+        "uri": "http://web.archive.org/web/20181206051132/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T05:26:05Z",
+        "uri": "http://web.archive.org/web/20181206052605/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T06:01:58Z",
+        "uri": "http://web.archive.org/web/20181206060158/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T06:38:00Z",
+        "uri": "http://web.archive.org/web/20181206063800/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T07:15:01Z",
+        "uri": "http://web.archive.org/web/20181206071501/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T09:01:27Z",
+        "uri": "http://web.archive.org/web/20181206090127/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T09:16:57Z",
+        "uri": "http://web.archive.org/web/20181206091657/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T09:32:31Z",
+        "uri": "http://web.archive.org/web/20181206093231/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T09:48:30Z",
+        "uri": "http://web.archive.org/web/20181206094830/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T10:02:39Z",
+        "uri": "http://web.archive.org/web/20181206100239/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T12:49:21Z",
+        "uri": "http://web.archive.org/web/20181206124921/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T13:23:59Z",
+        "uri": "http://web.archive.org/web/20181206132359/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T13:26:02Z",
+        "uri": "http://web.archive.org/web/20181206132602/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T13:33:04Z",
+        "uri": "http://web.archive.org/web/20181206133304/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T14:47:39Z",
+        "uri": "http://web.archive.org/web/20181206144739/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T18:10:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181206181029/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T18:10:29Z",
+        "uri": "http://web.archive.org/web/20181206181029/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T20:20:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181206202052/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T20:20:52Z",
+        "uri": "http://web.archive.org/web/20181206202052/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-06T23:10:04Z",
+        "uri": "http://archive.md/20181206231004/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-07T02:23:14Z",
+        "uri": "http://web.archive.org/web/20181207022314/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-07T10:30:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181207103029/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-07T10:30:29Z",
+        "uri": "http://web.archive.org/web/20181207103029/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-07T21:39:35Z",
+        "uri": "http://wayback.archive-it.org/all/20181207213935/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-07T21:39:35Z",
+        "uri": "http://web.archive.org/web/20181207213935/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T05:21:27Z",
+        "uri": "http://web.archive.org/web/20181208052127/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T08:52:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181208085217/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T08:52:17Z",
+        "uri": "http://web.archive.org/web/20181208085217/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T09:09:28Z",
+        "uri": "http://web.archive.org/web/20181208090928/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T18:50:43Z",
+        "uri": "http://web.archive.org/web/20181208185043/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T20:17:25Z",
+        "uri": "http://wayback.archive-it.org/all/20181208201725/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T20:17:25Z",
+        "uri": "http://web.archive.org/web/20181208201725/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-08T20:55:35Z",
+        "uri": "http://web.archive.org/web/20181208205535/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-09T03:42:22Z",
+        "uri": "http://wayback.archive-it.org/all/20181209034222/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-09T03:42:22Z",
+        "uri": "http://web.archive.org/web/20181209034222/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-09T18:00:40Z",
+        "uri": "http://web.archive.org/web/20181209180040/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-09T20:04:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181209200417/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-09T20:04:17Z",
+        "uri": "http://web.archive.org/web/20181209200417/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-10T02:15:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181210021524/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-10T02:15:24Z",
+        "uri": "http://web.archive.org/web/20181210021524/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-10T20:23:15Z",
+        "uri": "http://wayback.archive-it.org/all/20181210202315/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-10T20:23:15Z",
+        "uri": "http://web.archive.org/web/20181210202315/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-11T20:05:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181211200547/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-11T20:05:47Z",
+        "uri": "http://web.archive.org/web/20181211200547/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-11T23:11:13Z",
+        "uri": "http://web.archive.org/web/20181211231113/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-12T14:19:53Z",
+        "uri": "http://wayback.archive-it.org/all/20181212141953/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-12T14:19:53Z",
+        "uri": "http://web.archive.org/web/20181212141953/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-12T20:28:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181212202827/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-12T20:28:27Z",
+        "uri": "http://web.archive.org/web/20181212202827/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-13T16:31:44Z",
+        "uri": "http://web.archive.org/web/20181213163144/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-13T20:14:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181213201427/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-13T20:14:27Z",
+        "uri": "http://web.archive.org/web/20181213201427/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-14T20:04:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181214200452/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-14T20:04:52Z",
+        "uri": "http://web.archive.org/web/20181214200452/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-15T20:33:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181215203321/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-15T20:33:21Z",
+        "uri": "http://web.archive.org/web/20181215203321/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-16T16:22:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181216162249/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-16T16:22:49Z",
+        "uri": "http://web.archive.org/web/20181216162249/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-16T20:08:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181216200858/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-16T20:08:58Z",
+        "uri": "http://web.archive.org/web/20181216200858/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-17T20:29:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181217202904/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-17T20:29:04Z",
+        "uri": "http://web.archive.org/web/20181217202904/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-18T21:04:59Z",
+        "uri": "http://wayback.archive-it.org/all/20181218210459/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-18T21:04:59Z",
+        "uri": "http://web.archive.org/web/20181218210459/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-19T20:13:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181219201348/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-19T20:13:48Z",
+        "uri": "http://web.archive.org/web/20181219201348/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-20T20:12:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181220201248/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-20T20:12:48Z",
+        "uri": "http://web.archive.org/web/20181220201248/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-21T19:43:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181221194306/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-21T19:43:06Z",
+        "uri": "http://web.archive.org/web/20181221194306/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-21T20:06:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181221200657/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-21T20:06:57Z",
+        "uri": "http://web.archive.org/web/20181221200657/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-22T20:08:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181222200842/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-22T20:08:42Z",
+        "uri": "http://web.archive.org/web/20181222200842/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-23T20:17:31Z",
+        "uri": "http://wayback.archive-it.org/all/20181223201731/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-23T20:17:31Z",
+        "uri": "http://web.archive.org/web/20181223201731/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-24T03:20:04Z",
+        "uri": "http://web.archive.org/web/20181224032004/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-24T20:15:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181224201527/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-24T20:15:27Z",
+        "uri": "http://web.archive.org/web/20181224201527/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-25T20:05:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181225200500/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-25T20:05:00Z",
+        "uri": "http://web.archive.org/web/20181225200500/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-26T20:09:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181226200917/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-26T20:09:17Z",
+        "uri": "http://web.archive.org/web/20181226200917/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-27T20:11:17Z",
+        "uri": "http://wayback.archive-it.org/all/20181227201117/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-27T20:11:17Z",
+        "uri": "http://web.archive.org/web/20181227201117/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-28T06:38:47Z",
+        "uri": "http://wayback.archive-it.org/all/20181228063847/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-28T06:38:47Z",
+        "uri": "http://web.archive.org/web/20181228063847/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-28T20:52:34Z",
+        "uri": "http://wayback.archive-it.org/all/20181228205234/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-28T20:52:34Z",
+        "uri": "http://web.archive.org/web/20181228205234/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-29T20:10:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181229201021/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-29T20:10:21Z",
+        "uri": "http://web.archive.org/web/20181229201021/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-30T20:12:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181230201258/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-30T20:12:58Z",
+        "uri": "http://web.archive.org/web/20181230201258/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-31T20:30:59Z",
+        "uri": "http://wayback.archive-it.org/all/20181231203059/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2018-12-31T20:30:59Z",
+        "uri": "http://web.archive.org/web/20181231203059/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-01T20:26:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190101202654/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-01T20:26:54Z",
+        "uri": "http://web.archive.org/web/20190101202654/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-02T20:34:18Z",
+        "uri": "http://wayback.archive-it.org/all/20190102203418/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-02T20:34:18Z",
+        "uri": "http://web.archive.org/web/20190102203418/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-04T02:27:28Z",
+        "uri": "http://wayback.archive-it.org/all/20190104022728/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-04T02:27:28Z",
+        "uri": "http://web.archive.org/web/20190104022728/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-04T20:09:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190104200932/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-04T20:09:32Z",
+        "uri": "http://web.archive.org/web/20190104200932/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-04T20:58:00Z",
+        "uri": "http://web.archive.org/web/20190104205800/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-05T07:16:21Z",
+        "uri": "http://web.archive.org/web/20190105071621/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-05T20:14:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190105201433/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-05T20:14:33Z",
+        "uri": "http://web.archive.org/web/20190105201433/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-06T20:05:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190106200525/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-06T20:05:25Z",
+        "uri": "http://web.archive.org/web/20190106200525/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-07T20:13:06Z",
+        "uri": "http://wayback.archive-it.org/all/20190107201306/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-07T20:13:06Z",
+        "uri": "http://web.archive.org/web/20190107201306/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-08T20:14:18Z",
+        "uri": "http://wayback.archive-it.org/all/20190108201418/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-08T20:14:18Z",
+        "uri": "http://web.archive.org/web/20190108201418/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-09T20:45:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190109204543/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-09T20:45:43Z",
+        "uri": "http://web.archive.org/web/20190109204543/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-10T20:15:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190110201519/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-10T20:15:19Z",
+        "uri": "http://web.archive.org/web/20190110201519/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-11T20:17:27Z",
+        "uri": "http://wayback.archive-it.org/all/20190111201727/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-11T20:17:27Z",
+        "uri": "http://web.archive.org/web/20190111201727/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-12T20:05:28Z",
+        "uri": "http://wayback.archive-it.org/all/20190112200528/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-12T20:05:28Z",
+        "uri": "http://web.archive.org/web/20190112200528/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-13T20:00:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190113200035/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-13T20:00:35Z",
+        "uri": "http://web.archive.org/web/20190113200035/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-14T20:15:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190114201551/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-14T20:15:51Z",
+        "uri": "http://web.archive.org/web/20190114201551/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-15T20:53:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190115205348/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-15T20:53:48Z",
+        "uri": "http://web.archive.org/web/20190115205348/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-16T20:50:08Z",
+        "uri": "http://wayback.archive-it.org/all/20190116205008/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-16T20:50:08Z",
+        "uri": "http://web.archive.org/web/20190116205008/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-17T05:33:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190117053302/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-17T05:33:02Z",
+        "uri": "http://web.archive.org/web/20190117053302/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-17T20:11:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190117201124/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-17T20:11:24Z",
+        "uri": "http://web.archive.org/web/20190117201124/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-18T20:16:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190118201632/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-18T20:16:32Z",
+        "uri": "http://web.archive.org/web/20190118201632/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-19T20:17:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190119201719/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-19T20:17:19Z",
+        "uri": "http://web.archive.org/web/20190119201719/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-20T20:08:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190120200851/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-20T20:08:51Z",
+        "uri": "http://web.archive.org/web/20190120200851/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-21T20:22:20Z",
+        "uri": "http://wayback.archive-it.org/all/20190121202220/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-21T20:22:20Z",
+        "uri": "http://web.archive.org/web/20190121202220/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-22T05:04:29Z",
+        "uri": "http://wayback.archive-it.org/all/20190122050429/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-22T05:04:29Z",
+        "uri": "http://web.archive.org/web/20190122050429/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-22T20:50:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190122205019/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-22T20:50:19Z",
+        "uri": "http://web.archive.org/web/20190122205019/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-23T20:19:14Z",
+        "uri": "http://wayback.archive-it.org/all/20190123201914/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-23T20:19:14Z",
+        "uri": "http://web.archive.org/web/20190123201914/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-24T20:16:31Z",
+        "uri": "http://wayback.archive-it.org/all/20190124201631/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-24T20:16:31Z",
+        "uri": "http://web.archive.org/web/20190124201631/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-25T20:16:58Z",
+        "uri": "http://wayback.archive-it.org/all/20190125201658/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-25T20:16:58Z",
+        "uri": "http://web.archive.org/web/20190125201658/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-26T20:37:31Z",
+        "uri": "http://wayback.archive-it.org/all/20190126203731/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-26T20:37:31Z",
+        "uri": "http://web.archive.org/web/20190126203731/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-27T20:40:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190127204042/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-27T20:40:42Z",
+        "uri": "http://web.archive.org/web/20190127204042/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-28T20:44:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190128204442/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-28T20:44:42Z",
+        "uri": "http://web.archive.org/web/20190128204442/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-29T20:13:07Z",
+        "uri": "http://wayback.archive-it.org/all/20190129201307/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-29T20:13:07Z",
+        "uri": "http://web.archive.org/web/20190129201307/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-30T20:17:37Z",
+        "uri": "http://wayback.archive-it.org/all/20190130201737/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-30T20:17:37Z",
+        "uri": "http://web.archive.org/web/20190130201737/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-31T20:44:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190131204442/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-01-31T20:44:42Z",
+        "uri": "http://web.archive.org/web/20190131204442/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-01T20:15:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190201201534/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-01T20:15:34Z",
+        "uri": "http://web.archive.org/web/20190201201534/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-02T20:09:15Z",
+        "uri": "http://wayback.archive-it.org/all/20190202200915/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-02T20:09:15Z",
+        "uri": "http://web.archive.org/web/20190202200915/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-03T20:06:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190203200644/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-03T20:06:44Z",
+        "uri": "http://web.archive.org/web/20190203200644/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-03T23:08:55Z",
+        "uri": "http://wayback.archive-it.org/all/20190203230855/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-03T23:08:55Z",
+        "uri": "http://web.archive.org/web/20190203230855/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-04T20:15:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190204201533/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-04T20:15:33Z",
+        "uri": "http://web.archive.org/web/20190204201533/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-05T05:57:23Z",
+        "uri": "http://web.archive.org/web/20190205055723/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-05T20:24:09Z",
+        "uri": "http://wayback.archive-it.org/all/20190205202409/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-05T20:24:09Z",
+        "uri": "http://web.archive.org/web/20190205202409/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-06T20:11:09Z",
+        "uri": "http://wayback.archive-it.org/all/20190206201109/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-06T20:11:09Z",
+        "uri": "http://web.archive.org/web/20190206201109/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-07T20:16:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190207201653/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-07T20:16:53Z",
+        "uri": "http://web.archive.org/web/20190207201653/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-08T20:09:03Z",
+        "uri": "http://web.archive.org/web/20190208200903/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      },
+      {
+        "datetime": "2019-02-09T20:07:17Z",
+        "uri": "http://web.archive.org/web/20190209200717/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-05T16:01:14Z",
+      "uri": "http://archive.md/20181205160114/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+    },
+    "last": {
+      "datetime": "2019-02-09T20:07:17Z",
+      "uri": "http://web.archive.org/web/20190209200717/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thedailybeast.com/trump-on-coming-debt-crisis-i-wont-be-here-when-it-blows-up"
+}

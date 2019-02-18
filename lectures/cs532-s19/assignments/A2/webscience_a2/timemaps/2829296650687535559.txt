@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-asia-47181801",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/world-asia-47181801",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T03:16:15Z",
+        "uri": "http://web.archive.org/web/20190209031615/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-09T06:45:55Z",
+        "uri": "http://web.archive.org/web/20190209064555/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-09T07:32:28Z",
+        "uri": "http://web.archive.org/web/20190209073228/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-09T08:08:31Z",
+        "uri": "http://web.archive.org/web/20190209080831/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-09T12:14:15Z",
+        "uri": "http://web.archive.org/web/20190209121415/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-10T05:09:15Z",
+        "uri": "http://web.archive.org/web/20190210050915/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-10T06:00:54Z",
+        "uri": "http://web.archive.org/web/20190210060054/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-10T06:00:54Z",
+        "uri": "http://web.archive.org/web/20190210060054/https://www.bbc.co.uk/news/world-asia-47181801"
+      },
+      {
+        "datetime": "2019-02-10T20:02:40Z",
+        "uri": "http://web.archive.org/web/20190210200240/https://www.bbc.co.uk/news/world-asia-47181801"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T03:16:15Z",
+      "uri": "http://web.archive.org/web/20190209031615/https://www.bbc.co.uk/news/world-asia-47181801"
+    },
+    "last": {
+      "datetime": "2019-02-10T20:02:40Z",
+      "uri": "http://web.archive.org/web/20190210200240/https://www.bbc.co.uk/news/world-asia-47181801"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.co.uk/news/world-asia-47181801",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/world-asia-47181801",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.co.uk/news/world-asia-47181801"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.co.uk/news/world-asia-47181801"
+}

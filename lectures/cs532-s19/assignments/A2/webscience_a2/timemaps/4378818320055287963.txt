@@ -1,0 +1,46 @@
+{
+  "original_uri": "http://www.pressreleasepoint.com/files/html/429.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.pressreleasepoint.com/files/html/429.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-03T20:05:06Z",
+        "uri": "http://web.archive.org/web/20181203200506/http://www.pressreleasepoint.com/files/html/429.html"
+      },
+      {
+        "datetime": "2018-12-29T03:17:48Z",
+        "uri": "http://web.archive.org/web/20181229031748/http://www.pressreleasepoint.com/files/html/429.html"
+      },
+      {
+        "datetime": "2019-01-13T22:16:19Z",
+        "uri": "http://web.archive.org/web/20190113221619/http://www.pressreleasepoint.com/files/html/429.html"
+      },
+      {
+        "datetime": "2019-01-30T07:25:12Z",
+        "uri": "http://web.archive.org/web/20190130072512/http://www.pressreleasepoint.com/files/html/429.html"
+      },
+      {
+        "datetime": "2019-02-06T19:07:53Z",
+        "uri": "http://web.archive.org/web/20190206190753/http://www.pressreleasepoint.com/files/html/429.html"
+      },
+      {
+        "datetime": "2019-02-07T02:47:37Z",
+        "uri": "http://web.archive.org/web/20190207024737/http://www.pressreleasepoint.com/files/html/429.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-03T20:05:06Z",
+      "uri": "http://web.archive.org/web/20181203200506/http://www.pressreleasepoint.com/files/html/429.html"
+    },
+    "last": {
+      "datetime": "2019-02-07T02:47:37Z",
+      "uri": "http://web.archive.org/web/20190207024737/http://www.pressreleasepoint.com/files/html/429.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.pressreleasepoint.com/files/html/429.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.pressreleasepoint.com/files/html/429.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.pressreleasepoint.com/files/html/429.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.pressreleasepoint.com/files/html/429.html"
+}

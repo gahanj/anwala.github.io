@@ -1,0 +1,450 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-05T16:55:43Z",
+        "uri": "http://web.archive.org/web/20190105165543/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T17:47:44Z",
+        "uri": "http://web.archive.org/web/20190105174744/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T18:30:58Z",
+        "uri": "http://web.archive.org/web/20190105183058/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T18:46:12Z",
+        "uri": "http://web.archive.org/web/20190105184612/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T18:56:25Z",
+        "uri": "http://web.archive.org/web/20190105185625/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T19:06:39Z",
+        "uri": "http://web.archive.org/web/20190105190639/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T19:19:09Z",
+        "uri": "http://web.archive.org/web/20190105191909/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T19:30:18Z",
+        "uri": "http://web.archive.org/web/20190105193018/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T19:55:38Z",
+        "uri": "http://web.archive.org/web/20190105195538/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:06:10Z",
+        "uri": "http://web.archive.org/web/20190105200610/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:16:23Z",
+        "uri": "http://web.archive.org/web/20190105201623/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:26:46Z",
+        "uri": "http://web.archive.org/web/20190105202646/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:37:10Z",
+        "uri": "http://web.archive.org/web/20190105203710/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:46:50Z",
+        "uri": "http://web.archive.org/web/20190105204650/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:48:07Z",
+        "uri": "http://web.archive.org/web/20190105204807/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T20:58:35Z",
+        "uri": "http://web.archive.org/web/20190105205835/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T21:10:08Z",
+        "uri": "http://web.archive.org/web/20190105211008/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T21:34:17Z",
+        "uri": "http://web.archive.org/web/20190105213417/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T22:22:50Z",
+        "uri": "http://web.archive.org/web/20190105222250/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T23:04:56Z",
+        "uri": "http://web.archive.org/web/20190105230456/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T23:06:10Z",
+        "uri": "http://web.archive.org/web/20190105230610/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-05T23:46:03Z",
+        "uri": "http://web.archive.org/web/20190105234603/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T00:23:04Z",
+        "uri": "http://archive.md/20190106002304/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T00:26:30Z",
+        "uri": "http://web.archive.org/web/20190106002630/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T01:09:06Z",
+        "uri": "http://web.archive.org/web/20190106010906/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T01:49:42Z",
+        "uri": "http://web.archive.org/web/20190106014942/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T02:29:57Z",
+        "uri": "http://web.archive.org/web/20190106022957/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T03:10:07Z",
+        "uri": "http://web.archive.org/web/20190106031007/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T03:16:51Z",
+        "uri": "http://web.archive.org/web/20190106031651/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T03:50:34Z",
+        "uri": "http://web.archive.org/web/20190106035034/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T04:30:09Z",
+        "uri": "http://web.archive.org/web/20190106043009/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T05:10:05Z",
+        "uri": "http://web.archive.org/web/20190106051005/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T05:49:23Z",
+        "uri": "http://web.archive.org/web/20190106054923/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T05:59:58Z",
+        "uri": "http://wayback.archive-it.org/all/20190106055958/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T05:59:58Z",
+        "uri": "http://web.archive.org/web/20190106055958/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T06:28:48Z",
+        "uri": "http://web.archive.org/web/20190106062848/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T07:08:26Z",
+        "uri": "http://web.archive.org/web/20190106070826/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T07:47:55Z",
+        "uri": "http://web.archive.org/web/20190106074755/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T08:27:16Z",
+        "uri": "http://web.archive.org/web/20190106082716/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T08:49:55Z",
+        "uri": "http://web.archive.org/web/20190106084955/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T09:27:46Z",
+        "uri": "http://web.archive.org/web/20190106092746/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T09:29:51Z",
+        "uri": "http://web.archive.org/web/20190106092951/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T23:08:26Z",
+        "uri": "http://wayback.archive-it.org/all/20190106230826/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T23:08:26Z",
+        "uri": "http://web.archive.org/web/20190106230826/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-06T23:37:56Z",
+        "uri": "http://web.archive.org/web/20190106233756/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-07T04:10:13Z",
+        "uri": "http://web.archive.org/web/20190107041013/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-07T09:34:47Z",
+        "uri": "http://web.archive.org/web/20190107093447/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-07T11:41:03Z",
+        "uri": "http://web.archive.org/web/20190107114103/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-07T12:13:42Z",
+        "uri": "http://web.archive.org/web/20190107121342/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-07T15:15:56Z",
+        "uri": "http://web.archive.org/web/20190107151556/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-07T17:35:08Z",
+        "uri": "http://web.archive.org/web/20190107173508/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-08T02:58:31Z",
+        "uri": "http://archive.md/20190108025831/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-08T06:52:09Z",
+        "uri": "http://web.archive.org/web/20190108065209/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-08T14:19:09Z",
+        "uri": "http://web.archive.org/web/20190108141909/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-09T13:29:33Z",
+        "uri": "http://web.archive.org/web/20190109132933/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-09T17:57:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190109175754/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-09T17:57:54Z",
+        "uri": "http://web.archive.org/web/20190109175754/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-10T21:21:06Z",
+        "uri": "http://web.archive.org/web/20190110212106/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-11T23:56:23Z",
+        "uri": "http://web.archive.org/web/20190111235623/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T02:42:53Z",
+        "uri": "http://web.archive.org/web/20190113024253/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T03:22:50Z",
+        "uri": "http://web.archive.org/web/20190113032250/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T04:02:41Z",
+        "uri": "http://web.archive.org/web/20190113040241/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T04:43:07Z",
+        "uri": "http://web.archive.org/web/20190113044307/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T05:22:35Z",
+        "uri": "http://web.archive.org/web/20190113052235/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T06:03:39Z",
+        "uri": "http://web.archive.org/web/20190113060339/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T06:44:47Z",
+        "uri": "http://web.archive.org/web/20190113064447/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T07:25:54Z",
+        "uri": "http://web.archive.org/web/20190113072554/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T07:59:36Z",
+        "uri": "http://web.archive.org/web/20190113075936/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T08:39:37Z",
+        "uri": "http://web.archive.org/web/20190113083937/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T09:20:42Z",
+        "uri": "http://web.archive.org/web/20190113092042/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T10:02:16Z",
+        "uri": "http://web.archive.org/web/20190113100216/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T10:54:19Z",
+        "uri": "http://web.archive.org/web/20190113105419/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T11:35:31Z",
+        "uri": "http://web.archive.org/web/20190113113531/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T12:06:50Z",
+        "uri": "http://web.archive.org/web/20190113120650/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T12:50:58Z",
+        "uri": "http://web.archive.org/web/20190113125058/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T13:35:00Z",
+        "uri": "http://web.archive.org/web/20190113133500/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T14:17:00Z",
+        "uri": "https://perma-archives.org/warc/20190113141700/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T14:18:31Z",
+        "uri": "http://web.archive.org/web/20190113141831/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T15:01:42Z",
+        "uri": "http://web.archive.org/web/20190113150142/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T15:51:22Z",
+        "uri": "http://web.archive.org/web/20190113155122/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T16:48:50Z",
+        "uri": "http://web.archive.org/web/20190113164850/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-13T18:22:05Z",
+        "uri": "http://web.archive.org/web/20190113182205/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-14T15:35:38Z",
+        "uri": "http://web.archive.org/web/20190114153538/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-15T20:58:43Z",
+        "uri": "http://web.archive.org/web/20190115205843/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-16T19:03:12Z",
+        "uri": "http://web.archive.org/web/20190116190312/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-17T01:11:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190117011124/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-17T01:11:24Z",
+        "uri": "http://web.archive.org/web/20190117011124/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-17T22:08:40Z",
+        "uri": "http://web.archive.org/web/20190117220840/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-18T12:25:55Z",
+        "uri": "http://web.archive.org/web/20190118122555/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-19T16:34:42Z",
+        "uri": "http://web.archive.org/web/20190119163442/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-21T06:48:48Z",
+        "uri": "http://web.archive.org/web/20190121064848/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-22T09:57:12Z",
+        "uri": "http://web.archive.org/web/20190122095712/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-24T02:22:48Z",
+        "uri": "http://web.archive.org/web/20190124022248/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-24T22:56:08Z",
+        "uri": "http://web.archive.org/web/20190124225608/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-25T15:25:55Z",
+        "uri": "http://web.archive.org/web/20190125152555/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-27T00:29:59Z",
+        "uri": "http://web.archive.org/web/20190127002959/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-27T06:50:07Z",
+        "uri": "http://wayback.archive-it.org/all/20190127065007/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-27T06:50:07Z",
+        "uri": "http://web.archive.org/web/20190127065007/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-28T05:46:57Z",
+        "uri": "http://web.archive.org/web/20190128054657/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-28T12:22:46Z",
+        "uri": "http://web.archive.org/web/20190128122246/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-30T04:15:17Z",
+        "uri": "http://web.archive.org/web/20190130041517/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-01-31T23:14:44Z",
+        "uri": "http://web.archive.org/web/20190131231444/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-02-03T09:29:09Z",
+        "uri": "http://web.archive.org/web/20190203092909/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-02-05T07:47:07Z",
+        "uri": "http://web.archive.org/web/20190205074707/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-02-07T07:40:30Z",
+        "uri": "http://web.archive.org/web/20190207074030/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-02-07T23:36:16Z",
+        "uri": "http://web.archive.org/web/20190207233616/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      },
+      {
+        "datetime": "2019-02-09T21:24:02Z",
+        "uri": "http://web.archive.org/web/20190209212402/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-05T16:55:43Z",
+      "uri": "http://web.archive.org/web/20190105165543/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T21:24:02Z",
+      "uri": "http://web.archive.org/web/20190209212402/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/01/05/opinion/sunday/trump-impeachment.html"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-13T19:27:08Z",
+        "uri": "http://web.archive.org/web/20181113192708/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+      },
+      {
+        "datetime": "2018-11-15T21:52:34Z",
+        "uri": "http://web.archive.org/web/20181115215234/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+      },
+      {
+        "datetime": "2019-02-03T15:31:14Z",
+        "uri": "http://web.archive.org/web/20190203153114/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-13T19:27:08Z",
+      "uri": "http://web.archive.org/web/20181113192708/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+    },
+    "last": {
+      "datetime": "2019-02-03T15:31:14Z",
+      "uri": "http://web.archive.org/web/20190203153114/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/us-news/2018/nov/13/nigel-farage-mueller-russia-investigation-trump-latest-jerome-corsi-claim?CMP=share_btn_tw"
+}

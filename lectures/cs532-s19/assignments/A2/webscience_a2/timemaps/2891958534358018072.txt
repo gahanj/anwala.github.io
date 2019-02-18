@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:21:52Z",
+        "uri": "http://web.archive.org/web/20190209012152/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T03:59:59Z",
+        "uri": "http://web.archive.org/web/20190209035959/http://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T04:53:31Z",
+        "uri": "http://web.archive.org/web/20190209045331/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T04:53:52Z",
+        "uri": "http://archive.md/20190209045352/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-09T08:28:46Z",
+        "uri": "http://web.archive.org/web/20190209082846/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+      },
+      {
+        "datetime": "2019-02-10T03:26:26Z",
+        "uri": "http://web.archive.org/web/20190210032626/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:21:52Z",
+      "uri": "http://web.archive.org/web/20190209012152/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:26:26Z",
+      "uri": "http://web.archive.org/web/20190210032626/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.latimes.com/business/la-fi-trump-wall-spacex-launch-site-20190208-story.html"
+}

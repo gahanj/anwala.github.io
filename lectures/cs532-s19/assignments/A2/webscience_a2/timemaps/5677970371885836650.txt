@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:52:36Z",
+        "uri": "http://web.archive.org/web/20190208185236/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+      },
+      {
+        "datetime": "2019-02-10T03:44:20Z",
+        "uri": "http://web.archive.org/web/20190210034420/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+      },
+      {
+        "datetime": "2019-02-10T04:37:09Z",
+        "uri": "http://archive.md/20190210043709/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:52:36Z",
+      "uri": "http://web.archive.org/web/20190208185236/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:37:09Z",
+      "uri": "http://archive.md/20190210043709/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/08/trump-media-richard-burr-1159002"
+}

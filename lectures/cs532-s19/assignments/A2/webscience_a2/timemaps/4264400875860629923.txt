@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T23:45:35Z",
+        "uri": "http://web.archive.org/web/20190208234535/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573"
+      },
+      {
+        "datetime": "2019-02-09T21:45:25Z",
+        "uri": "http://web.archive.org/web/20190209214525/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T23:45:35Z",
+      "uri": "http://web.archive.org/web/20190208234535/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573"
+    },
+    "last": {
+      "datetime": "2019-02-09T21:45:25Z",
+      "uri": "http://web.archive.org/web/20190209214525/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ozy.com/opinion/nasa-join-us-in-going-to-the-moon-and-beyond/92573"
+}

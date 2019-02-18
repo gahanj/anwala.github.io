@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-12T20:29:25Z",
+        "uri": "http://web.archive.org/web/20181212202925/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html"
+      },
+      {
+        "datetime": "2018-12-13T12:07:21Z",
+        "uri": "http://web.archive.org/web/20181213120721/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-12T20:29:25Z",
+      "uri": "http://web.archive.org/web/20181212202925/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html"
+    },
+    "last": {
+      "datetime": "2018-12-13T12:07:21Z",
+      "uri": "http://web.archive.org/web/20181213120721/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ecowatch.com/fracking-utah-national-parks-2623200218.html"
+}

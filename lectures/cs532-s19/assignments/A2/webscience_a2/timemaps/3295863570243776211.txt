@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-07T02:00:06Z",
+        "uri": "http://web.archive.org/web/20190207020006/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/"
+      },
+      {
+        "datetime": "2019-02-07T13:11:10Z",
+        "uri": "http://web.archive.org/web/20190207131110/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-07T02:00:06Z",
+      "uri": "http://web.archive.org/web/20190207020006/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/"
+    },
+    "last": {
+      "datetime": "2019-02-07T13:11:10Z",
+      "uri": "http://web.archive.org/web/20190207131110/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.infowars.com/donald-trump-calls-on-congress-to-ban-late-term-abortions/"
+}

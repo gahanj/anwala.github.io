@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T03:27:06Z",
+        "uri": "http://archive.md/20190210032706/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on"
+      },
+      {
+        "datetime": "2019-02-10T05:00:24Z",
+        "uri": "http://archive.md/20190210050024/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T03:27:06Z",
+      "uri": "http://archive.md/20190210032706/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:00:24Z",
+      "uri": "http://archive.md/20190210050024/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/graphics/2019/politics/michael-cohens-secret-agenda-as-trumps-fixer/?noredirect=on"
+}

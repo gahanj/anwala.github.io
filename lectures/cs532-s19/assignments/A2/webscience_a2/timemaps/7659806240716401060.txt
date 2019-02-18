@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T00:49:38Z",
+        "uri": "http://web.archive.org/web/20190210004938/http://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/"
+      },
+      {
+        "datetime": "2019-02-10T04:29:07Z",
+        "uri": "http://web.archive.org/web/20190210042907/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T00:49:38Z",
+      "uri": "http://web.archive.org/web/20190210004938/http://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:29:07Z",
+      "uri": "http://web.archive.org/web/20190210042907/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.westernjournal.com/ct/trumps-not-going-anywhere-presidents-doctor-says-trumps-in-very-good-health/"
+}

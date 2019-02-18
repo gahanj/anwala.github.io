@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-09-07T17:46:32Z",
+        "uri": "http://web.archive.org/web/20170907174632/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize"
+      },
+      {
+        "datetime": "2017-11-08T21:02:05Z",
+        "uri": "http://web.archive.org/web/20171108210205/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize"
+      }
+    ],
+    "first": {
+      "datetime": "2017-09-07T17:46:32Z",
+      "uri": "http://web.archive.org/web/20170907174632/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize"
+    },
+    "last": {
+      "datetime": "2017-11-08T21:02:05Z",
+      "uri": "http://web.archive.org/web/20171108210205/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.foxnews.com.47gx.clonezone.link/trumps-muslim-ban-marginalize"
+}

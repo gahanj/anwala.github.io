@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-10T09:21:28Z",
+        "uri": "http://web.archive.org/web/20190110092128/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+      },
+      {
+        "datetime": "2019-01-14T04:41:31Z",
+        "uri": "http://web.archive.org/web/20190114044131/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+      },
+      {
+        "datetime": "2019-02-02T23:07:40Z",
+        "uri": "http://web.archive.org/web/20190202230740/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-10T09:21:28Z",
+      "uri": "http://web.archive.org/web/20190110092128/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+    },
+    "last": {
+      "datetime": "2019-02-02T23:07:40Z",
+      "uri": "http://web.archive.org/web/20190202230740/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.middleeastmonitor.com/20190110-trump-envoys-tell-mideast-leaders-what-they-want-to-hear/"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T13:57:15Z",
+        "uri": "http://web.archive.org/web/20190210135715/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+      },
+      {
+        "datetime": "2019-02-10T13:57:15Z",
+        "uri": "http://web.archive.org/web/20190210135715/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+      },
+      {
+        "datetime": "2019-02-10T19:35:46Z",
+        "uri": "http://archive.md/20190210193546/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T13:57:15Z",
+      "uri": "http://web.archive.org/web/20190210135715/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T19:35:46Z",
+      "uri": "http://archive.md/20190210193546/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.eldiario.es/politica/Casado-Rivera-Abascal-Pedro-Sanchez_0_866513456.html"
+}

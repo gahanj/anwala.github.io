@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T08:06:11Z",
+        "uri": "http://web.archive.org/web/20190210080611/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+      },
+      {
+        "datetime": "2019-02-10T11:30:43Z",
+        "uri": "http://web.archive.org/web/20190210113043/http://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+      },
+      {
+        "datetime": "2019-02-10T11:37:05Z",
+        "uri": "http://web.archive.org/web/20190210113705/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+      },
+      {
+        "datetime": "2019-02-10T11:48:59Z",
+        "uri": "http://web.archive.org/web/20190210114859/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+      },
+      {
+        "datetime": "2019-02-10T12:01:32Z",
+        "uri": "http://web.archive.org/web/20190210120132/http://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T08:06:11Z",
+      "uri": "http://web.archive.org/web/20190210080611/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+    },
+    "last": {
+      "datetime": "2019-02-10T12:01:32Z",
+      "uri": "http://web.archive.org/web/20190210120132/http://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.businessinsider.com/trump-mocks-trail-of-tears-elizabeth-warren-tweet-2019-2"
+}

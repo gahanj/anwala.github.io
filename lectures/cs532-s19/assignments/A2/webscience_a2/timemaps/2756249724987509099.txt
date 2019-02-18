@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://newspunch.com/trump-officially-legalizes-hemp-nationwide/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-21T15:20:24Z",
+        "uri": "http://archive.md/20181221152024/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/"
+      },
+      {
+        "datetime": "2018-12-22T12:09:37Z",
+        "uri": "http://web.archive.org/web/20181222120937/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-21T15:20:24Z",
+      "uri": "http://archive.md/20181221152024/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/"
+    },
+    "last": {
+      "datetime": "2018-12-22T12:09:37Z",
+      "uri": "http://web.archive.org/web/20181222120937/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://newspunch.com/trump-officially-legalizes-hemp-nationwide/"
+}

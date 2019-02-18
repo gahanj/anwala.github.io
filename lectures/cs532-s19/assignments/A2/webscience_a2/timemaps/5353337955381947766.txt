@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T09:13:44Z",
+        "uri": "http://web.archive.org/web/20190210091344/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T09:13:44Z",
+      "uri": "http://web.archive.org/web/20190210091344/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7"
+    },
+    "last": {
+      "datetime": "2019-02-10T09:13:44Z",
+      "uri": "http://web.archive.org/web/20190210091344/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.ft.com/content/3d0c900a-2b3d-11e9-a5ab-ff8ef2b976c7"
+}

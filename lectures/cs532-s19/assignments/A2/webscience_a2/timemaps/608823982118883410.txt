@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T03:48:02Z",
+        "uri": "http://web.archive.org/web/20190210034802/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/"
+      },
+      {
+        "datetime": "2019-02-10T03:48:02Z",
+        "uri": "http://web.archive.org/web/20190210034802/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T03:48:02Z",
+      "uri": "http://web.archive.org/web/20190210034802/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:48:02Z",
+      "uri": "http://web.archive.org/web/20190210034802/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.palmerreport.com/analysis/greenlight-khashoggi-donald-trump-evidence/15860/"
+}

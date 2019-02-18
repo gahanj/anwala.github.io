@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.youtube.com/watch?v=_R4orZum4ao",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=_R4orZum4ao",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-27T01:00:03Z",
+        "uri": "http://wayback.archive-it.org/all/20181127010003/http://www.youtube.com/watch?v=_R4orZum4ao"
+      },
+      {
+        "datetime": "2018-11-27T01:00:03Z",
+        "uri": "http://web.archive.org/web/20181127010003/http://www.youtube.com/watch?v=_R4orZum4ao"
+      },
+      {
+        "datetime": "2018-11-27T01:01:35Z",
+        "uri": "http://wayback.archive-it.org/all/20181127010135/https://www.youtube.com/watch?v=_R4orZum4ao"
+      },
+      {
+        "datetime": "2018-11-27T01:01:35Z",
+        "uri": "http://web.archive.org/web/20181127010135/https://www.youtube.com/watch?v=_R4orZum4ao"
+      },
+      {
+        "datetime": "2018-11-30T04:16:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181130041649/https://www.youtube.com/watch?v=_R4orZum4ao"
+      },
+      {
+        "datetime": "2018-11-30T04:16:49Z",
+        "uri": "http://web.archive.org/web/20181130041649/https://www.youtube.com/watch?v=_R4orZum4ao"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-27T01:00:03Z",
+      "uri": "http://wayback.archive-it.org/all/20181127010003/http://www.youtube.com/watch?v=_R4orZum4ao"
+    },
+    "last": {
+      "datetime": "2018-11-30T04:16:49Z",
+      "uri": "http://web.archive.org/web/20181130041649/https://www.youtube.com/watch?v=_R4orZum4ao"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.youtube.com/watch?v=_R4orZum4ao",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.youtube.com/watch?v=_R4orZum4ao",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.youtube.com/watch?v=_R4orZum4ao"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.youtube.com/watch?v=_R4orZum4ao"
+}

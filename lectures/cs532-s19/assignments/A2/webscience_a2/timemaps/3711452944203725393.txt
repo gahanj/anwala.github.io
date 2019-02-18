@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://shareblue.com/trump-iran-nuclear-deal-germany/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-iran-nuclear-deal-germany/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-14T04:00:56Z",
+        "uri": "http://web.archive.org/web/20180514040056/http://shareblue.com/trump-iran-nuclear-deal-germany/"
+      },
+      {
+        "datetime": "2018-05-14T06:06:10Z",
+        "uri": "http://web.archive.org/web/20180514060610/https://shareblue.com/trump-iran-nuclear-deal-germany/"
+      },
+      {
+        "datetime": "2018-06-14T22:01:17Z",
+        "uri": "http://web.archive.org/web/20180614220117/https://shareblue.com/trump-iran-nuclear-deal-germany/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-14T04:00:56Z",
+      "uri": "http://web.archive.org/web/20180514040056/http://shareblue.com/trump-iran-nuclear-deal-germany/"
+    },
+    "last": {
+      "datetime": "2018-06-14T22:01:17Z",
+      "uri": "http://web.archive.org/web/20180614220117/https://shareblue.com/trump-iran-nuclear-deal-germany/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/trump-iran-nuclear-deal-germany/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-iran-nuclear-deal-germany/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/trump-iran-nuclear-deal-germany/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/trump-iran-nuclear-deal-germany/"
+}

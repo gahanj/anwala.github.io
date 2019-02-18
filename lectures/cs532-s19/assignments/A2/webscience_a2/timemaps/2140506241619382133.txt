@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-04-11T17:55:22Z",
+        "uri": "http://wayback.archive-it.org/all/20180411175522/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-04-11T17:55:22Z",
+        "uri": "http://web.archive.org/web/20180411175522/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-04-11T20:51:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180411205144/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-04-11T20:51:44Z",
+        "uri": "http://web.archive.org/web/20180411205144/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-04-13T04:35:20Z",
+        "uri": "http://web.archive.org/web/20180413043520/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-05-03T16:57:01Z",
+        "uri": "http://web.archive.org/web/20180503165701/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-06-16T05:36:17Z",
+        "uri": "http://web.archive.org/web/20180616053617/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      },
+      {
+        "datetime": "2018-11-26T03:30:16Z",
+        "uri": "http://web.archive.org/web/20181126033016/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-04-11T17:55:22Z",
+      "uri": "http://wayback.archive-it.org/all/20180411175522/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+    },
+    "last": {
+      "datetime": "2018-11-26T03:30:16Z",
+      "uri": "http://web.archive.org/web/20181126033016/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2018/04/11/politics/james-comey-donald-trump-mob-boss/index.html"
+}

@@ -1,0 +1,102 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/uk-47187491",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/uk-47187491",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T05:26:54Z",
+        "uri": "http://web.archive.org/web/20190210052654/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T05:26:54Z",
+        "uri": "http://web.archive.org/web/20190210052654/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T05:32:25Z",
+        "uri": "http://web.archive.org/web/20190210053225/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T05:32:25Z",
+        "uri": "http://web.archive.org/web/20190210053225/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T06:10:38Z",
+        "uri": "http://archive.md/20190210061038/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T07:46:44Z",
+        "uri": "http://web.archive.org/web/20190210074644/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T07:46:44Z",
+        "uri": "http://web.archive.org/web/20190210074644/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T08:29:55Z",
+        "uri": "http://web.archive.org/web/20190210082955/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T08:29:55Z",
+        "uri": "http://web.archive.org/web/20190210082955/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T09:30:48Z",
+        "uri": "http://web.archive.org/web/20190210093048/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T09:30:48Z",
+        "uri": "http://web.archive.org/web/20190210093048/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T12:32:50Z",
+        "uri": "http://web.archive.org/web/20190210123250/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T12:32:50Z",
+        "uri": "http://web.archive.org/web/20190210123250/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T13:33:41Z",
+        "uri": "http://web.archive.org/web/20190210133341/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T13:33:41Z",
+        "uri": "http://web.archive.org/web/20190210133341/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T14:34:51Z",
+        "uri": "http://web.archive.org/web/20190210143451/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T14:34:51Z",
+        "uri": "http://web.archive.org/web/20190210143451/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T15:35:48Z",
+        "uri": "http://web.archive.org/web/20190210153548/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T15:35:48Z",
+        "uri": "http://web.archive.org/web/20190210153548/https://www.bbc.co.uk/news/uk-47187491"
+      },
+      {
+        "datetime": "2019-02-10T19:40:39Z",
+        "uri": "http://web.archive.org/web/20190210194039/https://www.bbc.co.uk/news/uk-47187491"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T05:26:54Z",
+      "uri": "http://web.archive.org/web/20190210052654/https://www.bbc.co.uk/news/uk-47187491"
+    },
+    "last": {
+      "datetime": "2019-02-10T19:40:39Z",
+      "uri": "http://web.archive.org/web/20190210194039/https://www.bbc.co.uk/news/uk-47187491"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.co.uk/news/uk-47187491",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/uk-47187491",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.co.uk/news/uk-47187491"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.co.uk/news/uk-47187491"
+}

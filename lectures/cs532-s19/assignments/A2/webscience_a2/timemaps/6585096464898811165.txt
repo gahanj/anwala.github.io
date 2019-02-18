@@ -1,0 +1,506 @@
+{
+  "original_uri": "https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-08-19T18:05:27Z",
+        "uri": "http://web.archive.org/web/20170819180527/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T18:05:31Z",
+        "uri": "http://web.archive.org/web/20170819180531/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T18:09:53Z",
+        "uri": "https://arquivo.pt/wayback/20170819180953/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T19:20:06Z",
+        "uri": "http://wayback.archive-it.org/all/20170819192006/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T19:20:06Z",
+        "uri": "http://web.archive.org/web/20170819192006/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T21:25:44Z",
+        "uri": "http://web.archive.org/web/20170819212544/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T21:43:49Z",
+        "uri": "http://web.archive.org/web/20170819214349/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T22:06:37Z",
+        "uri": "http://web.archive.org/web/20170819220637/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-19T22:22:12Z",
+        "uri": "http://web.archive.org/web/20170819222212/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T03:18:29Z",
+        "uri": "http://web.archive.org/web/20170820031829/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T05:05:34Z",
+        "uri": "http://wayback.archive-it.org/all/20170820050534/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T05:05:34Z",
+        "uri": "http://web.archive.org/web/20170820050534/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T06:34:13Z",
+        "uri": "http://wayback.archive-it.org/all/20170820063413/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T06:34:13Z",
+        "uri": "http://web.archive.org/web/20170820063413/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T17:06:57Z",
+        "uri": "https://arquivo.pt/wayback/20170820170657/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T18:30:55Z",
+        "uri": "https://arquivo.pt/wayback/20170820183055/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T21:36:29Z",
+        "uri": "http://web.archive.org/web/20170820213629/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T22:00:34Z",
+        "uri": "http://web.archive.org/web/20170820220034/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T23:00:57Z",
+        "uri": "http://web.archive.org/web/20170820230057/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-20T23:47:58Z",
+        "uri": "http://web.archive.org/web/20170820234758/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T04:41:17Z",
+        "uri": "http://web.archive.org/web/20170821044117/http://www.nytimes.com:80/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T17:12:02Z",
+        "uri": "https://arquivo.pt/wayback/20170821171202/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T17:25:22Z",
+        "uri": "https://arquivo.pt/wayback/20170821172522/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T22:19:24Z",
+        "uri": "http://web.archive.org/web/20170821221924/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T22:23:27Z",
+        "uri": "http://web.archive.org/web/20170821222327/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T23:39:07Z",
+        "uri": "http://web.archive.org/web/20170821233907/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-21T23:43:11Z",
+        "uri": "http://web.archive.org/web/20170821234311/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-22T17:17:50Z",
+        "uri": "https://arquivo.pt/wayback/20170822171750/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-22T17:34:07Z",
+        "uri": "https://arquivo.pt/wayback/20170822173407/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-22T22:44:55Z",
+        "uri": "http://web.archive.org/web/20170822224455/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-22T22:49:32Z",
+        "uri": "http://web.archive.org/web/20170822224932/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T00:04:04Z",
+        "uri": "http://wayback.archive-it.org/all/20170823000404/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T00:04:04Z",
+        "uri": "http://web.archive.org/web/20170823000404/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T00:04:50Z",
+        "uri": "http://web.archive.org/web/20170823000450/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T00:07:10Z",
+        "uri": "http://wayback.archive-it.org/all/20170823000710/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T00:07:10Z",
+        "uri": "http://web.archive.org/web/20170823000710/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T00:08:52Z",
+        "uri": "http://web.archive.org/web/20170823000852/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T16:42:38Z",
+        "uri": "http://wayback.archive-it.org/all/20170823164238/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T16:42:38Z",
+        "uri": "http://web.archive.org/web/20170823164238/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T16:46:03Z",
+        "uri": "http://wayback.archive-it.org/all/20170823164603/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T16:46:03Z",
+        "uri": "http://web.archive.org/web/20170823164603/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T17:23:41Z",
+        "uri": "https://arquivo.pt/wayback/20170823172341/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T17:39:23Z",
+        "uri": "https://arquivo.pt/wayback/20170823173923/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T23:04:11Z",
+        "uri": "http://web.archive.org/web/20170823230411/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-23T23:08:39Z",
+        "uri": "http://web.archive.org/web/20170823230839/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T00:26:23Z",
+        "uri": "http://web.archive.org/web/20170824002623/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T00:30:51Z",
+        "uri": "http://web.archive.org/web/20170824003051/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T11:07:00Z",
+        "uri": "http://wayback.archive-it.org/all/20170824110700/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T11:07:00Z",
+        "uri": "http://web.archive.org/web/20170824110700/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T11:11:47Z",
+        "uri": "http://wayback.archive-it.org/all/20170824111147/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T11:11:47Z",
+        "uri": "http://web.archive.org/web/20170824111147/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T13:19:45Z",
+        "uri": "http://web.archive.org/web/20170824131945/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T13:23:41Z",
+        "uri": "http://web.archive.org/web/20170824132341/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T17:29:28Z",
+        "uri": "https://arquivo.pt/wayback/20170824172928/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T17:47:22Z",
+        "uri": "https://arquivo.pt/wayback/20170824174722/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T23:41:59Z",
+        "uri": "http://web.archive.org/web/20170824234159/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-24T23:46:53Z",
+        "uri": "http://web.archive.org/web/20170824234653/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T01:00:38Z",
+        "uri": "http://web.archive.org/web/20170825010038/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T01:05:36Z",
+        "uri": "http://web.archive.org/web/20170825010536/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:04:46Z",
+        "uri": "http://wayback.archive-it.org/all/20170825170446/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:04:46Z",
+        "uri": "http://web.archive.org/web/20170825170446/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:09:04Z",
+        "uri": "http://wayback.archive-it.org/all/20170825170904/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:09:04Z",
+        "uri": "http://web.archive.org/web/20170825170904/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:37:12Z",
+        "uri": "https://arquivo.pt/wayback/20170825173712/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:54:03Z",
+        "uri": "http://web.archive.org/web/20170825175403/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:59:08Z",
+        "uri": "http://web.archive.org/web/20170825175908/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T17:59:51Z",
+        "uri": "https://arquivo.pt/wayback/20170825175951/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-25T23:55:19Z",
+        "uri": "http://web.archive.org/web/20170825235519/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T00:00:51Z",
+        "uri": "http://web.archive.org/web/20170826000051/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T01:19:59Z",
+        "uri": "http://web.archive.org/web/20170826011959/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T01:25:17Z",
+        "uri": "http://web.archive.org/web/20170826012517/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T03:09:56Z",
+        "uri": "http://web.archive.org/web/20170826030956/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T03:17:22Z",
+        "uri": "http://web.archive.org/web/20170826031722/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T17:39:36Z",
+        "uri": "https://arquivo.pt/wayback/20170826173936/http://www.nytimes.com//2017//08//19//business//the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-26T18:03:04Z",
+        "uri": "https://arquivo.pt/wayback/20170826180304/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-08-27T17:13:02Z",
+        "uri": "http://web.archive.org/web/20170827171302/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-09-07T01:40:16Z",
+        "uri": "http://web.archive.org/web/20170907014016/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-10-17T22:38:12Z",
+        "uri": "http://web.archive.org/web/20171017223812/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-10-24T23:28:17Z",
+        "uri": "http://web.archive.org/web/20171024232817/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-01T20:41:38Z",
+        "uri": "http://web.archive.org/web/20171101204138/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-03T12:27:12Z",
+        "uri": "http://archive.md/20171103122712/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-04T00:39:03Z",
+        "uri": "http://web.archive.org/web/20171104003903/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-08T20:01:24Z",
+        "uri": "http://web.archive.org/web/20171108200124/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-11T17:56:44Z",
+        "uri": "http://web.archive.org/web/20171111175644/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-11T18:37:32Z",
+        "uri": "http://web.archive.org/web/20171111183732/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-12T16:27:18Z",
+        "uri": "http://web.archive.org/web/20171112162718/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-15T22:54:11Z",
+        "uri": "http://web.archive.org/web/20171115225411/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-19T22:25:53Z",
+        "uri": "http://web.archive.org/web/20171119222553/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-22T22:44:37Z",
+        "uri": "http://web.archive.org/web/20171122224437/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-24T04:19:54Z",
+        "uri": "http://web.archive.org/web/20171124041954/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-26T01:34:23Z",
+        "uri": "http://web.archive.org/web/20171126013423/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-29T11:04:10Z",
+        "uri": "http://web.archive.org/web/20171129110410/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-11-29T22:32:13Z",
+        "uri": "http://web.archive.org/web/20171129223213/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-12-06T23:43:46Z",
+        "uri": "http://web.archive.org/web/20171206234346/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-12-13T23:44:09Z",
+        "uri": "http://web.archive.org/web/20171213234409/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-12-21T00:18:13Z",
+        "uri": "http://web.archive.org/web/20171221001813/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-12-24T07:22:36Z",
+        "uri": "http://web.archive.org/web/20171224072236/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-12-28T00:20:02Z",
+        "uri": "http://web.archive.org/web/20171228002002/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2017-12-31T07:46:06Z",
+        "uri": "http://web.archive.org/web/20171231074606/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-01-07T15:27:35Z",
+        "uri": "http://web.archive.org/web/20180107152735/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-02-02T05:31:20Z",
+        "uri": "http://web.archive.org/web/20180202053120/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-02-27T22:26:15Z",
+        "uri": "http://web.archive.org/web/20180227222615/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-03-20T11:11:56Z",
+        "uri": "http://web.archive.org/web/20180320111156/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-06T03:40:40Z",
+        "uri": "http://web.archive.org/web/20180406034040/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-08T06:56:53Z",
+        "uri": "http://web.archive.org/web/20180408065653/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-13T14:19:20Z",
+        "uri": "http://web.archive.org/web/20180413141920/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-20T12:23:14Z",
+        "uri": "http://web.archive.org/web/20180420122314/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-24T15:23:55Z",
+        "uri": "http://web.archive.org/web/20180424152355/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-26T16:43:02Z",
+        "uri": "http://web.archive.org/web/20180426164302/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-27T22:59:26Z",
+        "uri": "http://web.archive.org/web/20180427225926/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-04-28T23:26:38Z",
+        "uri": "http://web.archive.org/web/20180428232638/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-05-01T00:26:21Z",
+        "uri": "http://web.archive.org/web/20180501002621/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-05-03T05:21:27Z",
+        "uri": "http://web.archive.org/web/20180503052127/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-05-04T05:27:16Z",
+        "uri": "http://web.archive.org/web/20180504052716/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-05-05T06:32:46Z",
+        "uri": "http://web.archive.org/web/20180505063246/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-05-08T05:27:40Z",
+        "uri": "http://web.archive.org/web/20180508052740/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-05-10T17:26:34Z",
+        "uri": "http://web.archive.org/web/20180510172634/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-07-14T11:19:16Z",
+        "uri": "http://web.archive.org/web/20180714111916/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-08-01T13:50:11Z",
+        "uri": "http://web.archive.org/web/20180801135011/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-10-04T06:49:15Z",
+        "uri": "http://web.archive.org/web/20181004064915/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      },
+      {
+        "datetime": "2018-10-05T07:12:26Z",
+        "uri": "http://web.archive.org/web/20181005071226/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-08-19T18:05:27Z",
+      "uri": "http://web.archive.org/web/20170819180527/http://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+    },
+    "last": {
+      "datetime": "2018-10-05T07:12:26Z",
+      "uri": "http://web.archive.org/web/20181005071226/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2017/08/19/business/the-benefits-of-standing-by-the-president.html"
+}

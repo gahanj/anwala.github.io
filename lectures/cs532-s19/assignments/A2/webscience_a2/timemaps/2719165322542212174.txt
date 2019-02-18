@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-europe-47190135",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/world-europe-47190135",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:56:48Z",
+        "uri": "http://web.archive.org/web/20190210115648/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T11:56:48Z",
+        "uri": "http://web.archive.org/web/20190210115648/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T12:04:41Z",
+        "uri": "http://web.archive.org/web/20190210120441/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T12:04:41Z",
+        "uri": "http://web.archive.org/web/20190210120441/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T12:31:43Z",
+        "uri": "http://web.archive.org/web/20190210123143/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T12:31:43Z",
+        "uri": "http://web.archive.org/web/20190210123143/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T13:32:38Z",
+        "uri": "http://web.archive.org/web/20190210133238/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T13:32:38Z",
+        "uri": "http://web.archive.org/web/20190210133238/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T14:33:33Z",
+        "uri": "http://web.archive.org/web/20190210143333/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T14:33:33Z",
+        "uri": "http://web.archive.org/web/20190210143333/https://www.bbc.co.uk/news/world-europe-47190135"
+      },
+      {
+        "datetime": "2019-02-10T22:40:56Z",
+        "uri": "http://web.archive.org/web/20190210224056/https://www.bbc.co.uk/news/world-europe-47190135"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:56:48Z",
+      "uri": "http://web.archive.org/web/20190210115648/https://www.bbc.co.uk/news/world-europe-47190135"
+    },
+    "last": {
+      "datetime": "2019-02-10T22:40:56Z",
+      "uri": "http://web.archive.org/web/20190210224056/https://www.bbc.co.uk/news/world-europe-47190135"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.co.uk/news/world-europe-47190135",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.co.uk/news/world-europe-47190135",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.co.uk/news/world-europe-47190135"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.co.uk/news/world-europe-47190135"
+}

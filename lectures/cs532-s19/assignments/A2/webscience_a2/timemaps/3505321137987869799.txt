@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:04:01Z",
+        "uri": "http://web.archive.org/web/20190210140401/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:04:01Z",
+      "uri": "http://web.archive.org/web/20190210140401/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:04:01Z",
+      "uri": "http://web.archive.org/web/20190210140401/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.yahoo.com/trump-revives-racist-apos-pocahontas-035111414.html"
+}

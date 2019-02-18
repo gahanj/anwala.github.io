@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T10:22:12Z",
+        "uri": "http://web.archive.org/web/20190209102212/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1"
+      },
+      {
+        "datetime": "2019-02-09T19:16:59Z",
+        "uri": "http://web.archive.org/web/20190209191659/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T10:22:12Z",
+      "uri": "http://web.archive.org/web/20190209102212/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1"
+    },
+    "last": {
+      "datetime": "2019-02-09T19:16:59Z",
+      "uri": "http://web.archive.org/web/20190209191659/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/trump-undocumented-workers-golf-club_us_5c5daca6e4b03afe8d673bf1"
+}

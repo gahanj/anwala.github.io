@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T21:36:27Z",
+        "uri": "http://web.archive.org/web/20190209213627/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+      },
+      {
+        "datetime": "2019-02-10T09:48:53Z",
+        "uri": "http://web.archive.org/web/20190210094853/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+      },
+      {
+        "datetime": "2019-02-10T11:22:30Z",
+        "uri": "http://web.archive.org/web/20190210112230/http://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T21:36:27Z",
+      "uri": "http://web.archive.org/web/20190209213627/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+    },
+    "last": {
+      "datetime": "2019-02-10T11:22:30Z",
+      "uri": "http://web.archive.org/web/20190210112230/http://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.washingtonpost.com/politics/2019/02/09/yet-another-trump-doctor-has-contracted-trumpitis/"
+}

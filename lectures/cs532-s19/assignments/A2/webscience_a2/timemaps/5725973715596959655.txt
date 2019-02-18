@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T00:33:55Z",
+        "uri": "http://web.archive.org/web/20190208003355/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64"
+      },
+      {
+        "datetime": "2019-02-08T13:45:14Z",
+        "uri": "http://web.archive.org/web/20190208134514/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T00:33:55Z",
+      "uri": "http://web.archive.org/web/20190208003355/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64"
+    },
+    "last": {
+      "datetime": "2019-02-08T13:45:14Z",
+      "uri": "http://web.archive.org/web/20190208134514/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.co.uk/entry/us-lobbyists-brexit_uk_5c5b26c6e4b00187b5579f64"
+}

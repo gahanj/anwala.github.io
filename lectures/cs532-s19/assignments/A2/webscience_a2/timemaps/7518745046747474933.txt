@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://news.gallup.com/poll/244736/congressional-approval-stable.aspx",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-13T18:28:45Z",
+        "uri": "http://web.archive.org/web/20181113182845/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx"
+      },
+      {
+        "datetime": "2018-12-10T13:20:50Z",
+        "uri": "http://web.archive.org/web/20181210132050/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-13T18:28:45Z",
+      "uri": "http://web.archive.org/web/20181113182845/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx"
+    },
+    "last": {
+      "datetime": "2018-12-10T13:20:50Z",
+      "uri": "http://web.archive.org/web/20181210132050/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://news.gallup.com/poll/244736/congressional-approval-stable.aspx"
+}

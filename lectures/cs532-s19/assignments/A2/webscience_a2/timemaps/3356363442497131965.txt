@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.documentcloud.org/documents/5719169-Trump-Moscow.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T14:36:31Z",
+        "uri": "http://archive.md/20190205143631/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+      },
+      {
+        "datetime": "2019-02-05T18:20:51Z",
+        "uri": "http://web.archive.org/web/20190205182051/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+      },
+      {
+        "datetime": "2019-02-05T22:24:01Z",
+        "uri": "http://web.archive.org/web/20190205222401/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+      },
+      {
+        "datetime": "2019-02-06T02:30:58Z",
+        "uri": "http://web.archive.org/web/20190206023058/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+      },
+      {
+        "datetime": "2019-02-09T04:15:49Z",
+        "uri": "http://web.archive.org/web/20190209041549/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T14:36:31Z",
+      "uri": "http://archive.md/20190205143631/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+    },
+    "last": {
+      "datetime": "2019-02-09T04:15:49Z",
+      "uri": "http://web.archive.org/web/20190209041549/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.documentcloud.org/documents/5719169-Trump-Moscow.html"
+}

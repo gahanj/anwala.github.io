@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T15:18:16Z",
+        "uri": "http://web.archive.org/web/20190208151816/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T15:18:16Z",
+      "uri": "http://web.archive.org/web/20190208151816/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/"
+    },
+    "last": {
+      "datetime": "2019-02-08T15:18:16Z",
+      "uri": "http://web.archive.org/web/20190208151816/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehornnews.com/melania-trump-wins-big-fake-news-court-fight/"
+}

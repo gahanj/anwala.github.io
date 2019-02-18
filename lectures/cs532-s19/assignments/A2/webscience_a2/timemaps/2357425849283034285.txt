@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-06T02:45:22Z",
+        "uri": "http://archive.md/20181106024522/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+      },
+      {
+        "datetime": "2018-11-06T12:22:44Z",
+        "uri": "http://web.archive.org/web/20181106122244/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+      },
+      {
+        "datetime": "2018-11-07T19:08:16Z",
+        "uri": "http://web.archive.org/web/20181107190816/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+      },
+      {
+        "datetime": "2019-02-09T02:25:16Z",
+        "uri": "http://web.archive.org/web/20190209022516/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-06T02:45:22Z",
+      "uri": "http://archive.md/20181106024522/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+    },
+    "last": {
+      "datetime": "2019-02-09T02:25:16Z",
+      "uri": "http://web.archive.org/web/20190209022516/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.exopolitics.org/did-trumps-uncle-tell-him-about-missing-tesla-papers-flying-saucers/"
+}

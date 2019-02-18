@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://valkostore.com/trump",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://valkostore.com/trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-06T13:31:41Z",
+        "uri": "http://web.archive.org/web/20181106133141/https://valkostore.com/trump"
+      },
+      {
+        "datetime": "2018-12-05T09:05:54Z",
+        "uri": "http://web.archive.org/web/20181205090554/https://valkostore.com/trump"
+      },
+      {
+        "datetime": "2018-12-05T09:06:06Z",
+        "uri": "http://web.archive.org/web/20181205090606/https://valkostore.com/trump"
+      },
+      {
+        "datetime": "2019-02-05T09:39:22Z",
+        "uri": "http://web.archive.org/web/20190205093922/https://valkostore.com/trump"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-06T13:31:41Z",
+      "uri": "http://web.archive.org/web/20181106133141/https://valkostore.com/trump"
+    },
+    "last": {
+      "datetime": "2019-02-05T09:39:22Z",
+      "uri": "http://web.archive.org/web/20190205093922/https://valkostore.com/trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://valkostore.com/trump",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://valkostore.com/trump",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://valkostore.com/trump"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://valkostore.com/trump"
+}

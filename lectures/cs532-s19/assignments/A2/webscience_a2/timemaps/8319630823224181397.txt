@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.syrianews.cc/trump-forces-relocate-isis-syria/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.syrianews.cc/trump-forces-relocate-isis-syria/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T17:30:36Z",
+        "uri": "http://web.archive.org/web/20190210173036/https://www.syrianews.cc/trump-forces-relocate-isis-syria/"
+      },
+      {
+        "datetime": "2019-02-10T17:30:36Z",
+        "uri": "http://web.archive.org/web/20190210173036/https://www.syrianews.cc/trump-forces-relocate-isis-syria/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T17:30:36Z",
+      "uri": "http://web.archive.org/web/20190210173036/https://www.syrianews.cc/trump-forces-relocate-isis-syria/"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:30:36Z",
+      "uri": "http://web.archive.org/web/20190210173036/https://www.syrianews.cc/trump-forces-relocate-isis-syria/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.syrianews.cc/trump-forces-relocate-isis-syria/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.syrianews.cc/trump-forces-relocate-isis-syria/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.syrianews.cc/trump-forces-relocate-isis-syria/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.syrianews.cc/trump-forces-relocate-isis-syria/"
+}

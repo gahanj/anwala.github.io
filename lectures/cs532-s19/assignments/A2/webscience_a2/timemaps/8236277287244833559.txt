@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T07:15:34Z",
+        "uri": "http://web.archive.org/web/20190210071534/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+      },
+      {
+        "datetime": "2019-02-10T07:40:57Z",
+        "uri": "http://web.archive.org/web/20190210074057/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+      },
+      {
+        "datetime": "2019-02-10T07:40:57Z",
+        "uri": "http://web.archive.org/web/20190210074057/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+      },
+      {
+        "datetime": "2019-02-10T11:21:10Z",
+        "uri": "http://web.archive.org/web/20190210112110/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+      },
+      {
+        "datetime": "2019-02-10T17:01:25Z",
+        "uri": "http://web.archive.org/web/20190210170125/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+      },
+      {
+        "datetime": "2019-02-10T17:01:25Z",
+        "uri": "http://web.archive.org/web/20190210170125/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T07:15:34Z",
+      "uri": "http://web.archive.org/web/20190210071534/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:01:25Z",
+      "uri": "http://web.archive.org/web/20190210170125/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.foxnews.com/politics/border-security-advocates-form-human-wall-along-u-s-mexico-border"
+}

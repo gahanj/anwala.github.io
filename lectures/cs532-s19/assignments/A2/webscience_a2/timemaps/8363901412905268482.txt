@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:36:56Z",
+        "uri": "http://web.archive.org/web/20190209143656/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+      },
+      {
+        "datetime": "2019-02-09T20:45:49Z",
+        "uri": "http://web.archive.org/web/20190209204549/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+      },
+      {
+        "datetime": "2019-02-09T23:31:51Z",
+        "uri": "http://web.archive.org/web/20190209233151/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+      },
+      {
+        "datetime": "2019-02-10T00:15:10Z",
+        "uri": "http://web.archive.org/web/20190210001510/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+      },
+      {
+        "datetime": "2019-02-10T00:18:46Z",
+        "uri": "http://web.archive.org/web/20190210001846/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:36:56Z",
+      "uri": "http://web.archive.org/web/20190209143656/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:18:46Z",
+      "uri": "http://web.archive.org/web/20190210001846/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.theguardian.com/us-news/2019/feb/09/new-york-southern-district-donald-trump-inauguration-prosecutors"
+}

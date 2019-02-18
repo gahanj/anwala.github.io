@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.bbc.com/mundo/noticias-internacional-44622380",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.com/mundo/noticias-internacional-44622380",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-07-01T14:34:59Z",
+        "uri": "http://web.archive.org/web/20180701143459/http://www.bbc.com:80/mundo/noticias-internacional-44622380"
+      }
+    ],
+    "first": {
+      "datetime": "2018-07-01T14:34:59Z",
+      "uri": "http://web.archive.org/web/20180701143459/http://www.bbc.com:80/mundo/noticias-internacional-44622380"
+    },
+    "last": {
+      "datetime": "2018-07-01T14:34:59Z",
+      "uri": "http://web.archive.org/web/20180701143459/http://www.bbc.com:80/mundo/noticias-internacional-44622380"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.bbc.com/mundo/noticias-internacional-44622380",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.bbc.com/mundo/noticias-internacional-44622380",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.bbc.com/mundo/noticias-internacional-44622380"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.bbc.com/mundo/noticias-internacional-44622380"
+}

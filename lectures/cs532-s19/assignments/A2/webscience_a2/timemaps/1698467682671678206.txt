@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-01T21:04:44Z",
+        "uri": "http://web.archive.org/web/20181101210444/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+      },
+      {
+        "datetime": "2018-11-01T23:42:13Z",
+        "uri": "http://web.archive.org/web/20181101234213/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+      },
+      {
+        "datetime": "2018-11-02T00:41:29Z",
+        "uri": "http://web.archive.org/web/20181102004129/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+      },
+      {
+        "datetime": "2018-11-02T11:16:11Z",
+        "uri": "http://web.archive.org/web/20181102111611/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-01T21:04:44Z",
+      "uri": "http://web.archive.org/web/20181101210444/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+    },
+    "last": {
+      "datetime": "2018-11-02T11:16:11Z",
+      "uri": "http://web.archive.org/web/20181102111611/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2018/11/01/black-voter-approval-trump/"
+}

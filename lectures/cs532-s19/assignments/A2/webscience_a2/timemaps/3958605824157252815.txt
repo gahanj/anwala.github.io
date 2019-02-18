@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-02-27T03:34:58Z",
+        "uri": "http://web.archive.org/web/20180227033458/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+      },
+      {
+        "datetime": "2018-02-28T02:27:10Z",
+        "uri": "http://web.archive.org/web/20180228022710/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+      },
+      {
+        "datetime": "2018-02-28T18:19:22Z",
+        "uri": "http://web.archive.org/web/20180228181922/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+      },
+      {
+        "datetime": "2018-08-15T14:04:45Z",
+        "uri": "http://web.archive.org/web/20180815140445/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+      }
+    ],
+    "first": {
+      "datetime": "2018-02-27T03:34:58Z",
+      "uri": "http://web.archive.org/web/20180227033458/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+    },
+    "last": {
+      "datetime": "2018-08-15T14:04:45Z",
+      "uri": "http://web.archive.org/web/20180815140445/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://petitions.whitehouse.gov/petition/petition-president-trump-appoint-presidential-commission-child-sex-abuse-america"
+}

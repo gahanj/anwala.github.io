@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-17T02:33:53Z",
+        "uri": "http://archive.md/20180517023353/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-05-17T03:33:37Z",
+        "uri": "http://web.archive.org/web/20180517033337/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-05-17T15:28:15Z",
+        "uri": "http://web.archive.org/web/20180517152815/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-05-17T17:09:15Z",
+        "uri": "http://web.archive.org/web/20180517170915/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-05-21T20:51:29Z",
+        "uri": "http://web.archive.org/web/20180521205129/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-05-23T03:41:21Z",
+        "uri": "http://web.archive.org/web/20180523034121/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-06-21T01:36:51Z",
+        "uri": "http://web.archive.org/web/20180621013651/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-07-09T19:08:09Z",
+        "uri": "http://web.archive.org/web/20180709190809/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-07-10T13:50:10Z",
+        "uri": "http://web.archive.org/web/20180710135010/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-07-13T19:46:29Z",
+        "uri": "http://web.archive.org/web/20180713194629/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      },
+      {
+        "datetime": "2018-12-10T11:36:46Z",
+        "uri": "http://web.archive.org/web/20181210113646/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-17T02:33:53Z",
+      "uri": "http://archive.md/20180517023353/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+    },
+    "last": {
+      "datetime": "2018-12-10T11:36:46Z",
+      "uri": "http://web.archive.org/web/20181210113646/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2018/05/16/us/politics/richard-burr-senate-intelligence-committee-russia.html"
+}

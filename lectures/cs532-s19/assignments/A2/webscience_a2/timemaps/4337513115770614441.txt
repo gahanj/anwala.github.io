@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T13:33:13Z",
+        "uri": "http://archive.md/20190210133313/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T13:33:13Z",
+      "uri": "http://archive.md/20190210133313/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C"
+    },
+    "last": {
+      "datetime": "2019-02-10T13:33:13Z",
+      "uri": "http://archive.md/20190210133313/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nationaljournal.com/s/676542?unlock=THRFT8CZS12CF03C"
+}

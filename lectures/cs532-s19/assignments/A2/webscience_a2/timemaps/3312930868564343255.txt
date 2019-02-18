@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T04:28:41Z",
+        "uri": "http://web.archive.org/web/20190210042841/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+      },
+      {
+        "datetime": "2019-02-10T04:36:19Z",
+        "uri": "http://archive.md/20190210043619/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+      },
+      {
+        "datetime": "2019-02-10T05:02:54Z",
+        "uri": "http://web.archive.org/web/20190210050254/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T04:28:41Z",
+      "uri": "http://web.archive.org/web/20190210042841/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:02:54Z",
+      "uri": "http://web.archive.org/web/20190210050254/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/09/bloomberg-trump-immigration-1160775"
+}

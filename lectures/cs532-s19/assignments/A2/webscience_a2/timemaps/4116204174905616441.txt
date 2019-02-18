@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-21T18:48:14Z",
+        "uri": "http://web.archive.org/web/20180821184814/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+      },
+      {
+        "datetime": "2018-08-21T19:38:01Z",
+        "uri": "http://web.archive.org/web/20180821193801/http://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+      },
+      {
+        "datetime": "2018-08-22T11:56:15Z",
+        "uri": "http://web.archive.org/web/20180822115615/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+      },
+      {
+        "datetime": "2018-08-23T00:37:00Z",
+        "uri": "http://web.archive.org/web/20180823003700/http://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-21T18:48:14Z",
+      "uri": "http://web.archive.org/web/20180821184814/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+    },
+    "last": {
+      "datetime": "2018-08-23T00:37:00Z",
+      "uri": "http://web.archive.org/web/20180823003700/http://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.businessinsider.com/stock-market-trump-eric-nails-buy-call-during-february-selling-2018-8"
+}

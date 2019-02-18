@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T17:28:10Z",
+        "uri": "http://archive.md/20190210172810/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T17:28:10Z",
+      "uri": "http://archive.md/20190210172810/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807"
+    },
+    "last": {
+      "datetime": "2019-02-10T17:28:10Z",
+      "uri": "http://archive.md/20190210172810/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.huffingtonpost.com/entry/trump-eric-holder_us_5c6002b7e4b0f9e1b17e1807"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:37:48Z",
+        "uri": "http://web.archive.org/web/20190208183748/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation"
+      },
+      {
+        "datetime": "2019-02-10T05:22:14Z",
+        "uri": "http://web.archive.org/web/20190210052214/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:37:48Z",
+      "uri": "http://web.archive.org/web/20190208183748/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation"
+    },
+    "last": {
+      "datetime": "2019-02-10T05:22:14Z",
+      "uri": "http://web.archive.org/web/20190210052214/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/policy/international/429090-iran-supreme-leader-death-to-america-aimed-at-trump-not-nation"
+}

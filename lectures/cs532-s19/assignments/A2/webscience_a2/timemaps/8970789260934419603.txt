@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T04:02:18Z",
+        "uri": "http://archive.md/20190209040218/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+      },
+      {
+        "datetime": "2019-02-09T08:24:15Z",
+        "uri": "http://web.archive.org/web/20190209082415/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+      },
+      {
+        "datetime": "2019-02-09T09:44:08Z",
+        "uri": "http://web.archive.org/web/20190209094408/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+      },
+      {
+        "datetime": "2019-02-09T23:58:15Z",
+        "uri": "http://web.archive.org/web/20190209235815/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+      },
+      {
+        "datetime": "2019-02-10T05:02:55Z",
+        "uri": "http://web.archive.org/web/20190210050255/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+      },
+      {
+        "datetime": "2019-02-10T12:04:17Z",
+        "uri": "http://web.archive.org/web/20190210120417/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T04:02:18Z",
+      "uri": "http://archive.md/20190209040218/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+    },
+    "last": {
+      "datetime": "2019-02-10T12:04:17Z",
+      "uri": "http://web.archive.org/web/20190210120417/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/08/trump-executive-time-schedule-1160691"
+}

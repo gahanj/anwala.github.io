@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T11:59:42Z",
+        "uri": "http://web.archive.org/web/20190209115942/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+      },
+      {
+        "datetime": "2019-02-09T20:13:07Z",
+        "uri": "http://web.archive.org/web/20190209201307/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+      },
+      {
+        "datetime": "2019-02-09T23:33:54Z",
+        "uri": "http://web.archive.org/web/20190209233354/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+      },
+      {
+        "datetime": "2019-02-10T02:11:29Z",
+        "uri": "http://web.archive.org/web/20190210021129/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+      },
+      {
+        "datetime": "2019-02-10T10:22:24Z",
+        "uri": "http://web.archive.org/web/20190210102224/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T11:59:42Z",
+      "uri": "http://web.archive.org/web/20190209115942/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:22:24Z",
+      "uri": "http://web.archive.org/web/20190210102224/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nbcnews.com/politics/politics-news/shutdown-hangover-still-waiting-pay-funding-delayed-business-approvals-stalled-n969161"
+}

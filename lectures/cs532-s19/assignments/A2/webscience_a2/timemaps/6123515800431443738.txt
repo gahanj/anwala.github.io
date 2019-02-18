@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T12:39:26Z",
+        "uri": "http://web.archive.org/web/20190206123926/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T12:00:40Z",
+        "uri": "http://web.archive.org/web/20190207120040/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T12:08:53Z",
+        "uri": "http://web.archive.org/web/20190207120853/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T13:39:02Z",
+        "uri": "http://web.archive.org/web/20190207133902/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T14:00:13Z",
+        "uri": "http://web.archive.org/web/20190207140013/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T14:03:03Z",
+        "uri": "http://web.archive.org/web/20190207140303/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T14:05:06Z",
+        "uri": "http://web.archive.org/web/20190207140506/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      },
+      {
+        "datetime": "2019-02-07T14:11:18Z",
+        "uri": "http://web.archive.org/web/20190207141118/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T12:39:26Z",
+      "uri": "http://web.archive.org/web/20190206123926/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+    },
+    "last": {
+      "datetime": "2019-02-07T14:11:18Z",
+      "uri": "http://web.archive.org/web/20190207141118/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thenation.com/article/stacey-abrams-donald-trump-sotu-response/"
+}

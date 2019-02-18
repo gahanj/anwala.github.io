@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T11:05:16Z",
+        "uri": "http://web.archive.org/web/20190210110516/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      },
+      {
+        "datetime": "2019-02-10T11:05:16Z",
+        "uri": "http://web.archive.org/web/20190210110516/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      },
+      {
+        "datetime": "2019-02-10T15:55:44Z",
+        "uri": "http://web.archive.org/web/20190210155544/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      },
+      {
+        "datetime": "2019-02-10T15:55:44Z",
+        "uri": "http://web.archive.org/web/20190210155544/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      },
+      {
+        "datetime": "2019-02-10T15:56:34Z",
+        "uri": "http://archive.md/20190210155634/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      },
+      {
+        "datetime": "2019-02-10T16:19:34Z",
+        "uri": "http://web.archive.org/web/20190210161934/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      },
+      {
+        "datetime": "2019-02-10T16:19:34Z",
+        "uri": "http://web.archive.org/web/20190210161934/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T11:05:16Z",
+      "uri": "http://web.archive.org/web/20190210110516/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T16:19:34Z",
+      "uri": "http://web.archive.org/web/20190210161934/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailymail.co.uk/news/article-6686593/Jeremy-Corbyns-40-years-plots-lies-intimidation-chaos.html"
+}

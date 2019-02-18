@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:03:58Z",
+        "uri": "http://web.archive.org/web/20190210010358/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program"
+      },
+      {
+        "datetime": "2019-02-10T04:33:36Z",
+        "uri": "http://web.archive.org/web/20190210043336/http://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:03:58Z",
+      "uri": "http://web.archive.org/web/20190210010358/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program"
+    },
+    "last": {
+      "datetime": "2019-02-10T04:33:36Z",
+      "uri": "http://web.archive.org/web/20190210043336/http://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.dailykos.com/stories/2019/2/8/1833353/-Trump-administration-flouting-Medicaid-rules-to-allow-states-to-kick-people-out-of-program"
+}

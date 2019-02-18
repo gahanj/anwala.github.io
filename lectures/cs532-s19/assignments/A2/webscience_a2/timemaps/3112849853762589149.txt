@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T10:31:00Z",
+        "uri": "http://web.archive.org/web/20190206103100/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T10:31:00Z",
+      "uri": "http://web.archive.org/web/20190206103100/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc"
+    },
+    "last": {
+      "datetime": "2019-02-06T10:31:00Z",
+      "uri": "http://web.archive.org/web/20190206103100/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://apnews.com/7fbb90ea48f542cdb78e169fdba584cc"
+}

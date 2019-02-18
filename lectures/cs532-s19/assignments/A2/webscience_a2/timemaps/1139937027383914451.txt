@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-31T05:03:43Z",
+        "uri": "http://web.archive.org/web/20190131050343/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+      },
+      {
+        "datetime": "2019-01-31T21:34:56Z",
+        "uri": "http://web.archive.org/web/20190131213456/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+      },
+      {
+        "datetime": "2019-02-03T22:08:43Z",
+        "uri": "http://web.archive.org/web/20190203220843/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-31T05:03:43Z",
+      "uri": "http://web.archive.org/web/20190131050343/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+    },
+    "last": {
+      "datetime": "2019-02-03T22:08:43Z",
+      "uri": "http://web.archive.org/web/20190203220843/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.tmz.com/2019/01/30/jussie-smollett-maga-supporters-attack-president-trump-greg-louganis/"
+}

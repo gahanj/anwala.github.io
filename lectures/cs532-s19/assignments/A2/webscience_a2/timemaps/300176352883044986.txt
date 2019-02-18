@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T14:38:52Z",
+        "uri": "http://web.archive.org/web/20190209143852/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+      },
+      {
+        "datetime": "2019-02-10T04:37:21Z",
+        "uri": "http://archive.md/20190210043721/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+      },
+      {
+        "datetime": "2019-02-10T07:31:03Z",
+        "uri": "http://web.archive.org/web/20190210073103/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T14:38:52Z",
+      "uri": "http://web.archive.org/web/20190209143852/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:31:03Z",
+      "uri": "http://web.archive.org/web/20190210073103/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.politico.com/story/2019/02/09/trump-hiv-strategy-1160086"
+}

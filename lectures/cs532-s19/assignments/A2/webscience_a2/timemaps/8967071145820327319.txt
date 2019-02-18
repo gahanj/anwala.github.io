@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T14:58:17Z",
+        "uri": "http://web.archive.org/web/20190210145817/http://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T14:58:17Z",
+      "uri": "http://web.archive.org/web/20190210145817/http://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:58:17Z",
+      "uri": "http://web.archive.org/web/20190210145817/http://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-trump-impeachment-investigations-20190210-story.html"
+}

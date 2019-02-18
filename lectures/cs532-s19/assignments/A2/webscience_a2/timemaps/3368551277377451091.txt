@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://shareblue.com/trump-cant-remember-name-white-house/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-cant-remember-name-white-house/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-04-03T03:30:03Z",
+        "uri": "http://web.archive.org/web/20180403033003/https://shareblue.com/trump-cant-remember-name-white-house/"
+      },
+      {
+        "datetime": "2018-10-01T21:44:11Z",
+        "uri": "http://web.archive.org/web/20181001214411/https://shareblue.com/trump-cant-remember-name-white-house/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-04-03T03:30:03Z",
+      "uri": "http://web.archive.org/web/20180403033003/https://shareblue.com/trump-cant-remember-name-white-house/"
+    },
+    "last": {
+      "datetime": "2018-10-01T21:44:11Z",
+      "uri": "http://web.archive.org/web/20181001214411/https://shareblue.com/trump-cant-remember-name-white-house/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://shareblue.com/trump-cant-remember-name-white-house/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://shareblue.com/trump-cant-remember-name-white-house/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://shareblue.com/trump-cant-remember-name-white-house/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://shareblue.com/trump-cant-remember-name-white-house/"
+}

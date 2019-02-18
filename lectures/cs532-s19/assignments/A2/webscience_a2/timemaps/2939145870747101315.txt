@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://teespring.com/neverag",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://teespring.com/neverag",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-16T00:58:33Z",
+        "uri": "http://web.archive.org/web/20181116005833/https://teespring.com/neverag"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-16T00:58:33Z",
+      "uri": "http://web.archive.org/web/20181116005833/https://teespring.com/neverag"
+    },
+    "last": {
+      "datetime": "2018-11-16T00:58:33Z",
+      "uri": "http://web.archive.org/web/20181116005833/https://teespring.com/neverag"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://teespring.com/neverag",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://teespring.com/neverag",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://teespring.com/neverag"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://teespring.com/neverag"
+}

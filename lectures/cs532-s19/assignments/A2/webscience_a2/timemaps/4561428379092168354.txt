@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-07T07:21:58Z",
+        "uri": "http://web.archive.org/web/20181107072158/http://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana"
+      },
+      {
+        "datetime": "2018-11-16T08:07:48Z",
+        "uri": "http://web.archive.org/web/20181116080748/http://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-07T07:21:58Z",
+      "uri": "http://web.archive.org/web/20181107072158/http://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana"
+    },
+    "last": {
+      "datetime": "2018-11-16T08:07:48Z",
+      "uri": "http://web.archive.org/web/20181116080748/http://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://insider.foxnews.com/2018/11/06/sarah-sanders-donald-trump-closing-deal-mike-braun-indiana"
+}

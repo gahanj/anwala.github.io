@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T00:36:15Z",
+        "uri": "http://web.archive.org/web/20190208003615/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T00:36:15Z",
+      "uri": "http://web.archive.org/web/20190208003615/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/"
+    },
+    "last": {
+      "datetime": "2019-02-08T00:36:15Z",
+      "uri": "http://web.archive.org/web/20190208003615/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://dailycaller.com/2019/02/07/oil-trump-gas-expansion/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:26:59Z",
+        "uri": "http://web.archive.org/web/20190209082659/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/"
+      },
+      {
+        "datetime": "2019-02-10T07:32:40Z",
+        "uri": "http://web.archive.org/web/20190210073240/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:26:59Z",
+      "uri": "http://web.archive.org/web/20190209082659/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/"
+    },
+    "last": {
+      "datetime": "2019-02-10T07:32:40Z",
+      "uri": "http://web.archive.org/web/20190210073240/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/videos/politics/2019/02/07/trump-national-security-council-aides-schiff-administration-hires-collins-sot-nr-vpx.cnn/video/playlists/this-week-in-politics/"
+}

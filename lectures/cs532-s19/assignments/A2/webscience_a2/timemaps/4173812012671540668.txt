@@ -1,0 +1,46 @@
+{
+  "original_uri": "http://www.betfellas.gr/tipster/TheOthers/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.betfellas.gr/tipster/TheOthers/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-19T12:04:44Z",
+        "uri": "http://web.archive.org/web/20171119120444/http://www.betfellas.gr/tipster/TheOthers/"
+      },
+      {
+        "datetime": "2017-12-19T13:21:44Z",
+        "uri": "http://web.archive.org/web/20171219132144/http://www.betfellas.gr:80/tipster/TheOthers/"
+      },
+      {
+        "datetime": "2018-01-31T01:45:51Z",
+        "uri": "http://web.archive.org/web/20180131014551/http://www.betfellas.gr/tipster/theothers/"
+      },
+      {
+        "datetime": "2018-04-21T05:44:19Z",
+        "uri": "http://web.archive.org/web/20180421054419/http://www.betfellas.gr:80/tipster/TheOthers/"
+      },
+      {
+        "datetime": "2018-06-23T02:07:56Z",
+        "uri": "http://web.archive.org/web/20180623020756/http://www.betfellas.gr:80/tipster/TheOthers/"
+      },
+      {
+        "datetime": "2018-06-24T10:09:59Z",
+        "uri": "http://web.archive.org/web/20180624100959/http://www.betfellas.gr:80/tipster/TheOthers/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-19T12:04:44Z",
+      "uri": "http://web.archive.org/web/20171119120444/http://www.betfellas.gr/tipster/TheOthers/"
+    },
+    "last": {
+      "datetime": "2018-06-24T10:09:59Z",
+      "uri": "http://web.archive.org/web/20180624100959/http://www.betfellas.gr:80/tipster/TheOthers/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.betfellas.gr/tipster/TheOthers/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.betfellas.gr/tipster/TheOthers/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.betfellas.gr/tipster/TheOthers/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.betfellas.gr/tipster/TheOthers/"
+}

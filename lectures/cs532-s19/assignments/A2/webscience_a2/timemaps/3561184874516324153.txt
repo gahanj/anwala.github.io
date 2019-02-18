@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-06T14:07:14Z",
+        "uri": "http://web.archive.org/web/20190206140714/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+      },
+      {
+        "datetime": "2019-02-07T23:04:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190207230423/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+      },
+      {
+        "datetime": "2019-02-07T23:04:23Z",
+        "uri": "http://web.archive.org/web/20190207230423/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-06T14:07:14Z",
+      "uri": "http://web.archive.org/web/20190206140714/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+    },
+    "last": {
+      "datetime": "2019-02-07T23:04:23Z",
+      "uri": "http://web.archive.org/web/20190207230423/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://thehill.com/homenews/administration/428609-trump-inaugural-chair-sought-to-use-admin-foreign-connections-for"
+}

@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T01:34:36Z",
+        "uri": "http://web.archive.org/web/20190209013436/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T01:38:13Z",
+        "uri": "http://web.archive.org/web/20190209013813/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:34:46Z",
+        "uri": "http://web.archive.org/web/20190209023446/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T02:48:42Z",
+        "uri": "http://web.archive.org/web/20190209024842/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T03:01:12Z",
+        "uri": "http://web.archive.org/web/20190209030112/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T03:18:41Z",
+        "uri": "http://archive.md/20190209031841/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T03:20:41Z",
+        "uri": "http://web.archive.org/web/20190209032041/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T18:18:44Z",
+        "uri": "http://web.archive.org/web/20190209181844/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-09T22:00:54Z",
+        "uri": "http://web.archive.org/web/20190209220054/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      },
+      {
+        "datetime": "2019-02-10T02:49:16Z",
+        "uri": "http://web.archive.org/web/20190210024916/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T01:34:36Z",
+      "uri": "http://web.archive.org/web/20190209013436/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:49:16Z",
+      "uri": "http://web.archive.org/web/20190210024916/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cnn.com/2019/02/08/politics/trump-hanoi-vietnam/index.html"
+}

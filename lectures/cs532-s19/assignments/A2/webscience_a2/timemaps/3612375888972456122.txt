@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T04:00:59Z",
+        "uri": "http://web.archive.org/web/20190210040059/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+      },
+      {
+        "datetime": "2019-02-10T04:00:59Z",
+        "uri": "http://web.archive.org/web/20190210040059/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+      },
+      {
+        "datetime": "2019-02-10T06:14:11Z",
+        "uri": "http://web.archive.org/web/20190210061411/http://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+      },
+      {
+        "datetime": "2019-02-10T14:57:12Z",
+        "uri": "http://web.archive.org/web/20190210145712/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T04:00:59Z",
+      "uri": "http://web.archive.org/web/20190210040059/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+    },
+    "last": {
+      "datetime": "2019-02-10T14:57:12Z",
+      "uri": "http://web.archive.org/web/20190210145712/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://nativenewsonline.net/currents/trumps-latest-tweet-about-elizabeth-warren-references-trail-of-tears/"
+}

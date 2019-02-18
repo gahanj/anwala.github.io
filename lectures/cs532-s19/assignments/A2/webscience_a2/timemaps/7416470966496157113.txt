@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T07:42:07Z",
+        "uri": "http://web.archive.org/web/20190210074207/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+      },
+      {
+        "datetime": "2019-02-10T08:16:33Z",
+        "uri": "http://web.archive.org/web/20190210081633/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+      },
+      {
+        "datetime": "2019-02-10T10:58:16Z",
+        "uri": "http://web.archive.org/web/20190210105816/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T07:42:07Z",
+      "uri": "http://web.archive.org/web/20190210074207/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+    },
+    "last": {
+      "datetime": "2019-02-10T10:58:16Z",
+      "uri": "http://web.archive.org/web/20190210105816/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.breitbart.com/politics/2019/02/09/donald-trump-welcomes-pocahontas-elizabeth-warren-to-2020-campaign-trail/"
+}

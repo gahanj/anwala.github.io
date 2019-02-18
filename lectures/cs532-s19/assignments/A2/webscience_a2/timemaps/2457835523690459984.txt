@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T23:54:07Z",
+        "uri": "http://web.archive.org/web/20190209235407/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701"
+      },
+      {
+        "datetime": "2019-02-10T02:11:59Z",
+        "uri": "http://web.archive.org/web/20190210021159/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T23:54:07Z",
+      "uri": "http://web.archive.org/web/20190209235407/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701"
+    },
+    "last": {
+      "datetime": "2019-02-10T02:11:59Z",
+      "uri": "http://web.archive.org/web/20190210021159/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nbcnews.com/think/opinion/msnbc-hosts-state-union-address-jeff-bezos-reported-trump-tirade-ncna969701"
+}

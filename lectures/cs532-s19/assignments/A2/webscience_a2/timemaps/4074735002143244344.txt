@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T11:10:58Z",
+        "uri": "http://web.archive.org/web/20190208111058/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+      },
+      {
+        "datetime": "2019-02-08T11:11:18Z",
+        "uri": "http://archive.md/20190208111118/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+      },
+      {
+        "datetime": "2019-02-08T19:49:58Z",
+        "uri": "http://archive.md/20190208194958/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T11:10:58Z",
+      "uri": "http://web.archive.org/web/20190208111058/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+    },
+    "last": {
+      "datetime": "2019-02-08T19:49:58Z",
+      "uri": "http://archive.md/20190208194958/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.thedailybeast.com/new-trump-probe-looks-a-lot-like-a-rico-investigation"
+}

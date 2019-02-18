@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T00:23:57Z",
+        "uri": "http://web.archive.org/web/20190208002357/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/"
+      },
+      {
+        "datetime": "2019-02-09T09:46:35Z",
+        "uri": "http://archive.md/20190209094635/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T00:23:57Z",
+      "uri": "http://web.archive.org/web/20190208002357/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/"
+    },
+    "last": {
+      "datetime": "2019-02-09T09:46:35Z",
+      "uri": "http://archive.md/20190209094635/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://freebeacon.com/issues/american-jews-thank-trump-in-full-page-new-york-times-ad/"
+}

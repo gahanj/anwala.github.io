@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T18:09:44Z",
+        "uri": "http://web.archive.org/web/20190208180944/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/"
+      },
+      {
+        "datetime": "2019-02-08T23:01:08Z",
+        "uri": "http://web.archive.org/web/20190208230108/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T18:09:44Z",
+      "uri": "http://web.archive.org/web/20190208180944/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/"
+    },
+    "last": {
+      "datetime": "2019-02-08T23:01:08Z",
+      "uri": "http://web.archive.org/web/20190208230108/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://sputniknews.com/us/201902081072258251-trump-malpass-world-bank/"
+}

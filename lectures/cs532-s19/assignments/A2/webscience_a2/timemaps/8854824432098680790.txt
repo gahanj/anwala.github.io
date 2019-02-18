@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T01:28:42Z",
+        "uri": "http://archive.md/20190208012842/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T01:28:42Z",
+      "uri": "http://archive.md/20190208012842/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage"
+    },
+    "last": {
+      "datetime": "2019-02-08T01:28:42Z",
+      "uri": "http://archive.md/20190208012842/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.nytimes.com/2019/02/07/opinion/trump-socialism-state-of-the-union.html?action=click&module=Opinion&pgtype=Homepage"
+}

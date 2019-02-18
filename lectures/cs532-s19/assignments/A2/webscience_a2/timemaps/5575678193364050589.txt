@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://www.whatdoesitmean.com/index2776.htm",
+  "self": "https://memgator.cs.odu.edu/timemap/json/http://www.whatdoesitmean.com/index2776.htm",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T01:49:20Z",
+        "uri": "http://archive.md/20190205014920/http://www.whatdoesitmean.com/index2776.htm"
+      },
+      {
+        "datetime": "2019-02-05T01:49:35Z",
+        "uri": "http://web.archive.org/web/20190205014935/http://www.whatdoesitmean.com/index2776.htm"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T01:49:20Z",
+      "uri": "http://archive.md/20190205014920/http://www.whatdoesitmean.com/index2776.htm"
+    },
+    "last": {
+      "datetime": "2019-02-05T01:49:35Z",
+      "uri": "http://web.archive.org/web/20190205014935/http://www.whatdoesitmean.com/index2776.htm"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/http://www.whatdoesitmean.com/index2776.htm",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/http://www.whatdoesitmean.com/index2776.htm",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/http://www.whatdoesitmean.com/index2776.htm"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/http://www.whatdoesitmean.com/index2776.htm"
+}

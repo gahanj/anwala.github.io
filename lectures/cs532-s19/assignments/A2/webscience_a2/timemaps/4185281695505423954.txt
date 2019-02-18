@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-10T01:00:32Z",
+        "uri": "http://web.archive.org/web/20190210010032/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-10T01:00:32Z",
+      "uri": "http://web.archive.org/web/20190210010032/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/"
+    },
+    "last": {
+      "datetime": "2019-02-10T01:00:32Z",
+      "uri": "http://web.archive.org/web/20190210010032/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.oann.com/pres-trump-gets-good-health-review-following-latest-physical-exam/"
+}

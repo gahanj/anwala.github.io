@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/",
+  "self": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T08:34:06Z",
+        "uri": "http://web.archive.org/web/20190209083406/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+      },
+      {
+        "datetime": "2019-02-09T17:40:38Z",
+        "uri": "http://web.archive.org/web/20190209174038/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+      },
+      {
+        "datetime": "2019-02-10T00:51:37Z",
+        "uri": "http://web.archive.org/web/20190210005137/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T08:34:06Z",
+      "uri": "http://web.archive.org/web/20190209083406/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+    },
+    "last": {
+      "datetime": "2019-02-10T00:51:37Z",
+      "uri": "http://web.archive.org/web/20190210005137/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "https://memgator.cs.odu.edu/timemap/link/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/",
+    "json_format": "https://memgator.cs.odu.edu/timemap/json/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/",
+    "cdxj_format": "https://memgator.cs.odu.edu/timemap/cdxj/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+  },
+  "timegate_uri": "https://memgator.cs.odu.edu/timegate/https://www.cbsnews.com/news/beto-orourke-to-join-el-paso-anti-wall-march-to-counter-trump-rally/"
+}
