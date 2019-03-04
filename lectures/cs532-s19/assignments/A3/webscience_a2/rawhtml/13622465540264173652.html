@@ -1,0 +1,1307 @@
+ <!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYAWVNWChABVVFXAQQHUg=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<title>Martin Luther King Jr.&#039;s Daughter Writes Letter Supporting Trump-Endorsed Bill | Daily Wire</title>
+<!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="apple-touch-icon" sizes="" href="/sites/all/themes/dw_theme/images/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/sites/all/themes/dw_theme/images/favicon.ico" />
+<link rel="canonical" href="https://www.dailywire.com/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra" />
+<link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/dw_theme/images/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/dw_theme/images/apple-touch-icon-114x114.png" />
+<meta name='parsely-metadata' content='{"nid":"39191","image_style_urls":{"169small":"https://www.dailywire.com/sites/default/files/styles/169small/public/uploads/2018/12/dr._bernice_king.jpg?itok=gTDpCOOZ","169medium":"https://www.dailywire.com/sites/default/files/styles/169medium/public/uploads/2018/12/dr._bernice_king.jpg?itok=NlBYlD8D","169large":"https://www.dailywire.com/sites/default/files/styles/169large/public/uploads/2018/12/dr._bernice_king.jpg?itok=6WwAwsKo","11medium":"https://www.dailywire.com/sites/default/files/styles/11medium/public/uploads/2018/12/dr._bernice_king.jpg?itok=gAk2fAEA","11small":"https://www.dailywire.com/sites/default/files/styles/11small/public/uploads/2018/12/dr._bernice_king.jpg?itok=AbS45haM"}}' /><link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/dw_theme/images/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/dw_theme/images/apple-touch-icon-180x180.png" />
+<link rel="icon" sizes="32x32" href="/sites/all/themes/dw_theme/images/favicon-32x32.ico" />
+<link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/dw_theme/images/apple-touch-icon-57x57.png" />
+<link rel="icon" sizes="16x16" href="/sites/all/themes/dw_theme/images/favicon-16x16.ico" />
+<meta property="fb:admins" content="1392721063" />
+<script>
+          dataLayer = [{
+            'isLoggedIn': 0
+          }];
+        </script>
+<link rel="shortlink" href="/node/39191" />
+<link rel="canonical" href="/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","headline":"Martin Luther King Jr.'s Daughter Writes Letter Supporting Trump-Endorsed Bill","description":"Dr. Bernice King, the daughter of Martin Luther King Jr., wrote a letter this week in support of a criminal justice reform bill that has bipartisan support and has been endorsed by President Donald Trump.","image":{"@type":"ImageObject","url":"https://www.dailywire.com/sites/default/files/uploads/2018/12/dr._bernice_king.jpg","height":1483,"width":2637},"url":"https://www.dailywire.com/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra","thumbnailUrl":"https://www.dailywire.com/sites/default/files/uploads/2018/12/dr._bernice_king.jpg","dateCreated":"2018-12-08T23:59:00Z","datePublished":"2018-12-08T23:59:00Z","dateModified":"2018-12-09T15:36:19Z","author":{"@type":"Person","name":"Ryan Saavedra"},"creator":"Ryan Saavedra","wordcount":1680,"publisher":{"@type":"Organization","name":"The Daily Wire","logo":{"@type":"ImageObject","url":"https://www.dailywire.com/sites/all/themes/dw_theme/images/logo.png","height":60,"width":371}},"keywords":["Democratic Party","Donald Trump","Martin Luther King Jr.","Prison","Republican Party"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.dailywire.com/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra"},"articleSection":"News","alternativeHeadline":null}</script><link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/dw_theme/images/apple-touch-icon-72x72.png" />
+<meta name="description" content="Dr. Bernice King, the daughter of Martin Luther King Jr., wrote a letter this week in support of a criminal justice reform bill that has bipartisan support and has been endorsed by President Donald Trump." />
+<meta property="og:site_name" content="Daily Wire" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Martin Luther King Jr.&#039;s Daughter Writes Letter Supporting Trump-Endorsed Bill" />
+<meta property="og:description" content="Dr. Bernice King, the daughter of Martin Luther King Jr., wrote a letter this week in support of a criminal justice reform bill that has bipartisan support and has been endorsed by President Donald Trump." />
+<meta property="og:url" content="https://www.dailywire.com/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra" />
+<meta name="twitter:site" content="@realDailyWire" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="https://www.dailywire.com/sites/default/files/styles/open_graph/public/uploads/2018/12/dr._bernice_king.jpg?itok=RoFXlRAU" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="article:publisher" content="https://www.facebook.com/DailyWire" />
+<meta property="article:published_time" content="2018-12-08T15:59:00-08:00" />
+<link type="text/css" rel="stylesheet" href="https://www.dailywire.com/sites/default/files/advagg_css/css__dPl_lK-pstjG4AxE6PglRCzpjm1u1SOC__ANNay60CY__yFqcBlybu6o8sBQhOOXYhArANuuID5eIWNOq_Hncxx8__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dailywire.com/sites/default/files/advagg_css/css__cg6oV7E7RsE8G3C8bkmodP4ushlkY_QKwYykMjmqVC0__dWDCGffzMFGxarPAQ83K2TBfcnhuvppmxGnDyfRKZwM__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dailywire.com/sites/default/files/advagg_css/css__BxIV-FO59GhrHfiKHGYJWdeptshaJKuINPP_WHYK91w__uAQz_Wv2l_GykY_SqUXKvaa-W_yqUPy8dz8zr0yQlGo__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dailywire.com/sites/default/files/advagg_css/css__Ow5F9NYQ3k6ONxQ-VmkK_hnAc_WnxDn3BwZkBQwHoYw__i4S4sICrzWt2oy1JRCeE6b5AjFni3mV3me33SCDEo5A__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.css" media="all" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/2.1/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.dailywire.com/sites/default/files/advagg_js/js__PLnzmAtDp0j2y5mxKCtH9idVuyqlLjUYuXm-7I6z6N4__bpF254AanmlVOxLRkzbCaSxGD-piSkOP10t_J0Ui4Rw__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.js"></script>
+<script type="text/javascript" src="https://www.dailywire.com/sites/default/files/advagg_js/js__YanYK8dzqOYpp9RV-xD_TfcwjqljmLr1r9lgP9Exo0Y__-a2ghiJV9n3_UjGLiNEku8ro-Ia5cYj3dfMRr4OEqWA__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.js"></script>
+<script type="text/javascript" src="https://www.dailywire.com/sites/default/files/advagg_js/js__m6gy5yh1EgI3_CedY1E751xWDO3dQLbh1WsfrRZN3k4__2LU_GO3LrNKPj9FxVVfBZFQ-0R2gLfR83RSU1o_jHKg__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MMVZXC');
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.dailywire.com/sites/default/files/advagg_js/js__COMvY-Ey-g37bMM_6lBVSh4pOQvC6v7ovfvMXeT1g_g__EkF9hk7WV8oKTo0jQtcAUkL8uyQbIWefxRCYCGmRO_c__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var dw = dw || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"></script>
+<script type="text/javascript" src="https://www.dailywire.com/sites/default/files/advagg_js/js__x97YSvxI9645-KZItteh0BxGYLZ2Qw8CI3LZtExutzE__bFA7TFcQ4hpbwYuqFUGY1I4OR6dsyI9e3cwb2Vmt8pU__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.js"></script>
+<script type="text/javascript" src="https://www.dailywire.com/sites/default/files/advagg_js/js__J055Ad0QMF--Cj0Z4mf5FIH6k_PkErce3f3lu_s68Bc__9f2D4I6xMNs3UWY_Ce4PSzGen3bn_kUPTwbLPuaQTb8__tCND1e0zWT0ifQWsQpPtdnL8pq9OmaEZ4wfAIDBpRTk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dw_theme","theme_token":"9dd9mdwHGtPAv9Ie97nmLuFJJxVzTnwUaoTUV1IPttc","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/features\/fwp_polls\/fwp_polls.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/default\/files\/honeypot\/honeypot.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.field_ui.css":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/remodal\/1.1.1\/remodal.min.css":1,"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/dw_theme\/system.menus.css":1,"sites\/all\/themes\/dw_theme\/system.messages.css":1,"sites\/all\/themes\/dw_theme\/system.theme.css":1,"sites\/all\/themes\/dw_theme\/css\/whitebelt.css":1,"sites\/all\/themes\/dw_theme\/css\/styles.css":1,"sites\/all\/themes\/dw_theme\/css\/hotfix.css":1,"sites\/all\/themes\/dw_theme\/css\/admin-menu.css":1},"js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/2.1.4\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/features\/dailywire_subscriptions\/dailywire_subscriptions.js":1,"sites\/all\/modules\/contrib\/fb_instant_articles\/modules\/fb_instant_articles_display\/js\/admin.js":1,"sites\/all\/modules\/features\/fwp_polls\/fwp_polls.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/handlebars.js\/4.0.12\/handlebars.min.js":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/underscore.js\/1.9.1\/underscore-min.js":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/waypoints\/4.0.1\/jquery.waypoints.min.js":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/remodal\/1.1.1\/remodal.min.js":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/sticky-kit\/1.1.3\/sticky-kit.min.js":1,"sites\/all\/themes\/dw_theme\/js\/modernizr.js":1,"sites\/all\/themes\/dw_theme\/js\/functions.js":1,"sites\/all\/themes\/dw_theme\/js\/responsive.js":1,"sites\/all\/themes\/dw_theme\/js\/scripts.js":1,"sites\/all\/modules\/custom\/dw_recurly\/js\/dw_recurly_raa.js":1}},"urlIsAjaxTrusted":{"\/user\/register":true},"pathauto_ignore_words":["a","an","as","at","before","but","by","for","from","is","in","into","like","of","off","on","onto","per","since","than","the","this","that","to","up","via","with"],"parsely":{"site":"dailywire.com"},"dailywire_articles":{"nid":"39191"},"disqus":{"domain":"thedailywire","url":"https:\/\/www.dailywire.com\/news\/39191\/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra","title":"Martin Luther King Jr.\u0026#039;s Daughter Writes Letter Supporting Trump-Endorsed Bill","identifier":"node\/39191"}});
+//--><!]]>
+</script>
+<script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script async src="/sites/all/themes/dw_theme/js/prebid-1541451197.js"></script>
+
+<script src="//d8yw4927nnimu.cloudfront.net/script.js"></script>
+
+<script src="//s.ntv.io/serve/load.js"></script>
+
+<script async src="//widgets.outbrain.com/outbrain.js"></script>
+
+<script src="//get.s-onetag.com/f027e5b9-e46c-45a8-9db6-008ce21cdfaf/tag.min.js" async defer></script>
+
+<script src="//dailywire-com.videoplayerhub.com/videoloader.js" async></script>
+
+<script>
+    function getRoxotGroupId() {
+      try {
+        var storageKey = 'roxot-gid';
+        var groupId = localStorage.getItem(storageKey);
+        if (groupId === null) {
+          groupId = 1 + Math.floor(Math.random() * 10000);
+          localStorage.setItem(storageKey, groupId);
+        }
+        return '' + groupId;
+      } catch (e) {
+        return '10001';
+      }
+    }
+
+    function getRoxotSectorId() {
+      try {
+        var storageKey = 'roxot-sid';
+        var groupId = localStorage.getItem(storageKey);
+        if (groupId === null) {
+          groupId = 1 + Math.floor(Math.random() * 100);
+          localStorage.setItem(storageKey, groupId);
+        }
+        return '' + groupId;
+      } catch (e) {
+        return '101';
+      }
+    }
+
+    function getRoxotDeep() {
+      try {
+        var storageKey = 'roxot-deep';
+        var groupId = localStorage.getItem(storageKey);
+        if (groupId === null) {
+          groupId = 1 + Math.floor(Math.random() * 100);
+          localStorage.setItem(storageKey, groupId);
+        }
+        return '' + groupId;
+      } catch (e) {
+        return '101';
+      }
+    }
+
+    function getRoxotEvent() {
+      return '' + (1 + Math.floor(Math.random() * 100));
+    }
+  </script>
+<script>
+    var PREBID_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 3000;
+
+    var adUnits = [
+      {
+        code: '/61914415/DW_Image',
+        mediaTypes: {
+          banner: {
+            sizes: [
+              [728, 90]
+            ]
+          }
+        },
+        bids: [
+          {
+            bidder: "criteo",
+            params: {
+              zoneId: "759512"
+            }
+          }, {
+            bidder: "emx_digital",
+            params: {
+              tagid: "30132"
+            }
+          }, {
+            bidder: "sonobi",
+            params: {
+              ad_unit: "/61914415/DW_Image"
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493181"
+            }
+          }, {
+            bidder: "ix",
+            params: {
+              id: "01",
+              siteId: "290211",
+              size: [728, 90]
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910412",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }
+        ]
+      },
+      {
+        code: '/61914415/DW_Body1',
+        mediaTypes: {
+          banner: {
+            sizes: [
+              [728, 90],
+              [300, 250]
+            ]
+          }
+        },
+        bids: [
+          {
+            bidder: 'criteo',
+            params: {
+              zoneId: '759515'
+            }
+          }, {
+            bidder: 'emx_digital',
+            params: {
+              tagid: '30147'
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '02',
+              siteId: '290212',
+              size: [728, 90]
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '07',
+              siteId: '290217',
+              size: [300, 250]
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910431",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910417",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: 'sonobi',
+            params: {
+              ad_unit: '/61914415/DW_Body1'
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493183"
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493187"
+            }
+          }, {
+            bidder: 'undertone',
+            params: {
+              publisherId: '3417'
+            }
+          }, {
+            bidder: 'audienceNetwork',
+            params: {
+              placementId: '1192665987504318_1192717897499127',
+              testmode: false,
+              format: 'fullwidth'
+            }
+          }
+        ]
+      },
+      {
+        code: '/61914415/DW_Body2',
+        mediaTypes: {
+          banner: {
+            sizes: [
+              [728, 90],
+              [300, 250]
+            ]
+          }
+        },
+        bids: [
+          {
+            bidder: 'criteo',
+            params: {
+              zoneId: '759517'
+            }
+          }, {
+            bidder: 'emx_digital',
+            params: {
+              tagid: '30150'
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '03',
+              siteId: '290213',
+              size: [728, 90]
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '08',
+              siteId: '290218',
+              size: [300, 250]
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910432",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910419",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: 'sonobi',
+            params: {
+              ad_unit: '/61914415/DW_Body2'
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493188"
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493185"
+            }
+          }, {
+            bidder: 'undertone',
+            params: {
+              publisherId: '3417'
+            }
+          }, {
+            bidder: 'audienceNetwork',
+            params: {
+              placementId: '1192665987504318_1192718370832413',
+              testmode: false,
+              format: 'fullwidth'
+            }
+          }
+        ]
+      },
+      {
+        code: '/61914415/DW_Body3',
+        mediaTypes: {
+          banner: {
+            sizes: [
+              [728, 90],
+              [300, 250]
+            ]
+          }
+        },
+        bids: [
+          {
+            bidder: 'criteo',
+            params: {
+              zoneId: '759519'
+            }
+          }, {
+            bidder: 'emx_digital',
+            params: {
+              tagid: '30152'
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '04',
+              siteId: '290214',
+              size: [728, 90]
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '09',
+              siteId: '290219',
+              size: [300, 250]
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910420",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910433",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+              bidder: 'sonobi',
+              params: {
+                ad_unit: '/61914415/DW_Body3'
+              }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493189"
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493186"
+            }
+          }, {
+            bidder: 'undertone',
+            params: {
+              publisherId: '3417'
+            }
+          }, {
+            bidder: 'audienceNetwork',
+            params: {
+              placementId: '1192665987504318_1192718567499060',
+              testmode: false,
+              format: 'fullwidth'
+            }
+          }
+        ]
+      },
+      {
+        code: '/61914415/DW_Sidebar1',
+        mediaTypes: {
+          banner: {
+            sizes: [
+              [300, 600]
+            ]
+          }
+        },
+        bids: [
+          {
+            bidder: 'criteo',
+            params: {
+              zoneId: '759520'
+            }
+          }, {
+            bidder: 'emx_digital',
+            params: {
+              tagid: '30135'
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '05',
+              siteId: '290215',
+              size: [300, 600]
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910421",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: 'sonobi',
+            params: {
+              ad_unit: '/61914415/DW_Sidebar1'
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493190"
+            }
+          }
+        ]
+      },
+      {
+        code: '/61914415/DW_Sidebar2',
+        mediaTypes: {
+          banner: {
+            sizes: [
+              [300, 600]
+            ]
+          }
+        },
+        bids: [
+          {
+            bidder: 'criteo',
+            params: {
+              zoneId: '759521'
+            }
+          }, {
+            bidder: 'emx_digital',
+            params: {
+              tagid: '30138'
+            }
+          }, {
+            bidder: 'ix',
+            params: {
+              id: '06',
+              siteId: '290216',
+              size: [300, 600]
+            }
+          }, {
+            bidder: "openx",
+            params: {
+              unit: "538910422",
+              delDomain: "forwardpublishing-d.openx.net"
+            }
+          }, {
+            bidder: 'sonobi',
+            params: {
+              ad_unit: '/61914415/DW_Sidebar2'
+            }
+          }, {
+            bidder: "sovrn",
+            params: {
+              tagid: "493191"
+            }
+          }
+        ]
+      }
+    ];
+
+    var customConfigObject = {
+      "buckets": [{
+          "precision": 2,
+          "min": 0,
+          "max": 20,
+          "increment": 0.01
+        },
+        {
+          "precision": 2,
+          "min": 20,
+          "max": 30,
+          "increment": 0.05
+        },
+        {
+          "precision": 2,
+          "min": 30,
+          "max": 50,
+          'increment': 0.1
+        },
+        {
+          "precision": 2,
+          "min": 50,
+          "max": 99,
+          "increment": 1.00
+        }
+      ]
+    };
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    var referrer = document.referrer.split('.').reverse()[1];
+
+    googletag.cmd.push(function() {
+      googletag.pubads()
+        .setTargeting('roxot-group-id', getRoxotGroupId())
+        .setTargeting('roxot-sector-id', getRoxotSectorId())
+        .setTargeting('roxot-deep', getRoxotDeep())
+        .setTargeting('roxot-event-group-id', getRoxotEvent())
+        .setTargeting('roxot-event', getRoxotEvent())
+        .setTargeting('roxot-event-deep', getRoxotEvent())
+        .setTargeting('roxot-minutes', (new Date).getUTCMinutes().toString())
+        .setTargeting('roxot-hours', (new Date).getUTCHours().toString())
+        .setTargeting('roxot-day', (new Date).getUTCDay().toString())
+        .setTargeting('referrer', referrer ? referrer : 'none')
+        .setTargeting('section', 'news')
+        .setTargeting('nid', '39191')
+        .setTargeting('dw-subscription-level', 'none')
+        .disableInitialLoad();
+    });
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+    pbjs.que.push(function() {
+      //  ROXOT Analytics
+      pbjs.enableAnalytics({
+        provider: 'roxot',
+        options: {
+          publisherIds: ['872f2505-e20e-4f2f-b8c5-99a61d952796']
+        }
+      });
+      // Auience Network bidderSettings
+      pbjs.bidderSettings = {
+        audienceNetwork: {
+          adserverTargeting: [{
+            key: "fb_adid",
+            val: function(bidResponse) {
+              return bidResponse.fbBidId;
+            }
+          }, {
+            key: "hb_bidder",
+            val: function(bidResponse) {
+              return bidResponse.bidderCode;
+            }
+          }, {
+            key: "hb_pb",
+            val: function(bidResponse) {
+              return bidResponse.pbMg;
+            }
+          }]
+        }
+      };
+      pbjs.addAdUnits(adUnits);
+      pbjs.setConfig({
+        priceGranularity: customConfigObject
+      });
+      pbjs.requestBids({
+        bidsBackHandler: initAdserver,
+        timeout: PREBID_TIMEOUT
+      });
+    });
+
+    function initAdserver() {
+      if (pbjs.initAdserverSet) return;
+      pbjs.initAdserverSet = true;
+      googletag.cmd.push(function() {
+        pbjs.que.push(function() {
+          pbjs.setTargetingForGPTAsync();
+          googletag.pubads().refresh();
+        });
+      });
+    }
+
+    // in case PBJS doesn't load
+    setTimeout(function() {
+      initAdserver();
+    }, FAILSAFE_TIMEOUT);
+
+    googletag.cmd.push(function() {
+
+      var sizeMappings = {
+        header: googletag.sizeMapping()
+          .addSize([864, 0], [970, 250])
+          .build(),
+        image: googletag.sizeMapping()
+          .addSize([864, 0], [728, 90])
+          .build(),
+        body: googletag.sizeMapping()
+          .addSize([864, 0], [728, 90])
+          .build(),
+        sidebar: googletag.sizeMapping()
+          .addSize([1180, 0], [300, 600])
+          .build(),
+      }
+
+      googletag.defineSlot(
+        '/61914415/DW_Header', [300, 300],
+        'div-gpt-ad-DW_Header')
+        .defineSizeMapping(sizeMappings.header)
+        .addService(googletag.pubads());
+
+      
+      googletag.defineSlot(
+        '/61914415/DW_Image', [],
+        'div-gpt-ad-DW_Image')
+        .defineSizeMapping(sizeMappings.image)
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Body1', [300, 250],
+        'div-gpt-ad-DW_Body1')
+        .defineSizeMapping(sizeMappings.body)
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Body2', [300, 250],
+        'div-gpt-ad-DW_Body2')
+        .defineSizeMapping(sizeMappings.body)
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Body3', [300, 250],
+        'div-gpt-ad-DW_Body3')
+        .defineSizeMapping(sizeMappings.body)
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Sidebar1', [],
+        'div-gpt-ad-DW_Sidebar1')
+        .defineSizeMapping(sizeMappings.sidebar)
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Sidebar2', [],
+        'div-gpt-ad-DW_Sidebar2')
+        .defineSizeMapping(sizeMappings.sidebar)
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Footer', [480, 360],
+        'div-gpt-ad-DW_Footer')
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Pixel1', [1, 1],
+        'div-gpt-ad-DW_Pixel1')
+        .addService(googletag.pubads());
+
+      googletag.defineSlot(
+        '/61914415/DW_Pixel2', [1, 1],
+        'div-gpt-ad-DW_Pixel2')
+        .addService(googletag.pubads());
+
+      
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+<script>
+    var partnerConfig = {
+      "iid": "13402013"
+    };
+    var createSvBeacon = function() {
+      var p = location.protocol;
+      var url = (p === 'https:' ? p : 'http:') + "//ap.lijit.com/www/sovrn_beacon_standalone/sovrn_standalone_beacon.js?iid=" + partnerConfig.iid;
+      var scr = document.createElement("script");
+      scr.id = "sBeacon";
+      scr.src = url;
+      scr.async = false;
+      var s0 = document.getElementsByTagName('script')[0];
+      s0.parentNode.insertBefore(scr, s0);
+    };
+    createSvBeacon();
+  </script>
+</head>
+<body class="fx fx-d-c min-h-100 f-deflate-1-s html not-front not-logged-in no-sidebars page-node page-node- page-node-39191 node-type-article">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMVZXC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header id="header" class="bg-white mb-3-s">
+<div class="contain fx ai-c">
+<div class="logo mr-4 mr-5-l"><a href="/" class="d-b ti--999">The Daily Wire</a></div>
+<div class="group fx-g-1">
+<nav class="beaufort-medium ta-c-s mb-3-s">
+<ul class="ma-0 pa-0 fx-ns ai-c-ns f-5-s">
+<li><a href="/">News</a></li>
+<li><a href="/podcasts">Podcasts</a></li>
+<li><a href="/events">Events</a></li>
+<li><a href="/authors">Authors</a></li>
+<li><a href="https://www.amazon.com/stores/page/E92ABC78-DF24-4AFF-B066-ADA533954653" target="_blank">Store</a></li>
+<li><a href="/user/login">Login</a></li>
+<li><a href="/search">Search</a></li>
+<li>
+<a href="/subscribe" class="btn-primary-sm">
+Subscribe
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="ad-toggle ml-a f-min">
+<span class="label d-b ta-c gray-dark lato-heavy mb-05">Advertisements</span>
+<a href="#ad-free-modal" class="fx tt-u beaufort-heavy lh-1 ta-c">
+<span class="on w-50">On</span>
+<span class="off w-50">Off</span>
+</a>
+</div>
+<div class="remodal" data-remodal-id="ad-free-modal">
+<a data-remodal-action="close" class="remodal-close"></a>
+<div class="ad-free-experiance">
+<h2 class="f-2 f-lg-l lh-100 beaufort-heavy mb-3">We're taking a whole new approach.</h2>
+<p>Start reading The Daily Wire WITHOUT ADS<sup>*</sup><br><br><strong>Try it FREE for 30 Days!</strong></p>
+<form class="user-info-from-cookie ad-free-modal-signup" enctype="multipart/form-data" action="/user/register" method="post" id="user-register-form" accept-charset="UTF-8"><div><input type="hidden" name="form_build_id" value="form--Uv8eJU_JwSTb7QCCQgTIPUi5ORgueNlo__giwdkolE" />
+<input type="hidden" name="form_id" value="user_register_form" />
+<input type="hidden" name="plan_code" value="basic" />
+<div id="edit-account" class="form-wrapper"><input class="username" type="hidden" name="name" value="email_registration_uzB8Upkvy2" />
+<div class="form-item form-type-textfield form-item-mail">
+<label class="element-invisible" for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+<input placeholder="Your email address" type="text" id="edit-mail" name="mail" value="" size="60" maxlength="254" class="form-text required" />
+</div>
+<div class="form-item form-type-checkbox form-item-persistent-login">
+<input type="checkbox" id="edit-persistent-login" name="persistent_login" value="1" class="form-checkbox" /> <label class="option" for="edit-persistent-login">Remember me </label>
+</div>
+</div><div class="field-type-list-boolean field-name-field-terms-privacy field-widget-options-onoff form-wrapper" id="edit-field-terms-privacy"><div class="form-item form-type-checkbox form-item-field-terms-privacy-und">
+<input type="checkbox" id="edit-field-terms-privacy-und" name="field_terms_privacy[und]" value="1" class="form-checkbox required" /> <label class="option" for="edit-field-terms-privacy-und">By checking this box, I have read and agree to the <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a> and authorize Forward Publishing LLC to charge my card today for the subscription fee and in the future for renewal fees. <span class="form-required" title="This field is required.">*</span></label>
+</div>
+</div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Get Started" class="form-submit" /></div><p class="login">Already a Member?
+<a href="/user/login">Login Now</a></p><div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+<label for="edit-url">Leave this field blank </label>
+<input autocomplete="off" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div></div></form> <p class="disclaimer subscription-disclaimer">*Internal promotions, recommended
+content, and ads that enhance the user experience may still be included on the site.</p>
+</div>
+</div>
+<button class="menu-toggle open ord--1 mr-2 f-3 pa-0 d-n-ns mt-05">
+<i class="fa fa-bars" aria-hidden="true"></i>
+</button>
+</div>
+</header>
+<main id="main" class="fx-g-1 pb-5-s pb-6-ns">
+<div class="highlighted">
+<ul class="trending-topics ma-0 f-min lato-bold tt-u ls-3 fx-ns ai-c-ns jc-c-ns pa-0 px-3-ns ta-c-s" style="font-size: 10px;">
+<li class="d-b-s d-ib-ns mb-3-s"><a href="/tags/jussie-smollett">Jussie Smollett</a></li>
+<li class="d-b-s d-ib-ns mb-3-s"><a href="/tags/donald-trump">Donald Trump</a></li>
+<li class="d-b-s d-ib-ns mb-3-s"><a href="/tags/kamala-harris">Kamala Harris</a></li>
+<li class="d-b-s d-ib-ns mb-3-s"><a href="/tags/hollywood">Hollywood</a></li>
+<li class="d-b-s d-ib-ns mb-3-s"><a href="/tags/media-bias">Media Bias</a></li>
+<li class="d-b-s d-ib-ns mb-3-s"><a href="/tags/hate-crime">Hate Crime</a></li>
+</ul>
+</div>
+<div class="bg-gray-light py-1 ta-c mt--3 mb-3 mt--4-ns mb-4-ns">
+
+<div id='div-gpt-ad-DW_Header'>
+<script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-DW_Header');
+      });
+    </script>
+</div>
+</div>
+<div class="contain contain-md-m contain-s-s fx-l">
+<div class="article-wrapper mr-4-l fx-g-1-l mb-5 mb-0-l">
+<article class="article article-full fx-s fx-d-c-s">
+
+<header>
+<h1 class="f-3-s f-1-l mb-2 mt--1-l">Martin Luther King Jr.&#039;s Daughter Writes Letter Supporting Trump-Endorsed Bill</h1>
+</header>
+
+<figure class="ma-0 pos-r mb-1-s ord--1-s mt--3-s mx--3-s mb-2-ns">
+<img src="https://www.dailywire.com/sites/default/files/styles/article_full/public/uploads/2018/12/dr._bernice_king.jpg?itok=MePaDQa_" alt="" title="Paras Griffin/Getty Images" class="w-100-s">
+<figcaption class="media-credit pos-a pos-t-0-ns pos-b-0-s pos-r-0 px-1 f-min lato-light">
+Paras Griffin/Getty Images </figcaption>
+<div class="ad-unit image-overlay-ad" style='height:90px; width:728px; margin: -90px auto 0;'>
+<div id='div-gpt-ad-DW_Image'>
+<script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-DW_Image');
+      });
+    </script>
+</div>
+
+<span class='bt-uid-tg' data-uid='5c0aa9004e-254' style='display: none !important'></span> 
+</div>
+</figure>
+
+<div class="byline fx ai-c mb-1-s mb-2-ns">
+<div class="as-fs">
+<address class="author fx as-fs ai-c mb-1">
+<div class="avatar mr-2 lh-0">
+<img src="https://www.dailywire.com/sites/default/files/styles/11medium/public/authors/ryan_saavedra.jpg?itok=AzyR42nP" />
+</div>
+<div class="author-information">
+<span class="label">By</span>
+<a href="/authors/ryan-saavedra">
+Ryan Saavedra </a>
+<div class="social-network-handle">
+<a href="https://twitter.com/realsaavedra" target="_blank">
+@realsaavedra </a>
+</div>
+</div>
+</address>
+</div>
+
+<div class="ml-a mb-1 ta-r ">
+<time class="date d-b" datetime="2018-12-08" itemprop="datePublished">
+December 8, 2018 </time>
+
+<div class="view-count hide">
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span>&nbsp;&nbsp;</span> views
+</div>
+</div>
+</div>
+
+<div class="field-body">
+<p>Dr. Bernice King, the daughter of Martin Luther King Jr., wrote a letter this week in support of a criminal justice reform bill that has bipartisan support and has been endorsed by President Donald Trump.</p> <div class='ad-unit mb-3'>
+<div id='div-gpt-ad-DW_Body1'>
+<script>
+      googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-DW_Body1');
+      });
+    </script>
+</div>
+
+<span class='bt-uid-tg' data-uid='5c0aa9aae0-254' style='display: none !important'></span> 
+</div>
+<div id="powr_1" style="margin-bottom: 32px;"></div>
+<script src="https://player.powr.com/player.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        new PowrPlayer({
+           "user_id": 100010608,
+           "player_id": 438,
+           "placeholder": "powr_1"
+        });
+    })();
+</script>
+<p>In a letter obtained by The Daily Wire from the National Diversity Coalition For Trump, King wrote in a "plea to Congress" that the "First Step Act" is an opportunity to take a "monumental" step "towards assisting and empowering the least of these in America."</p> <p>"The bill would reduce mandatory minimum sentences for some crimes and grant judges greater discretion in sentencing nonviolent drug offenders," a Bloomberg editorial <a href="https://www.bloomberg.com/opinion/articles/2018-12-07/first-step-act-mitch-mcconnell-shouldn-t-block-sentencing-reform">said</a> about the bill. "It would also fund recidivism-reduction programs for low-risk inmates and allow some 2,600 drug offenders to petition for reduced sentences. Perhaps most important, the bill would require more research on criminal justice — a predicate to reducing guesswork in setting future policy on sentencing."</p> <p>In endorsing the bill, Trump <a href="https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-calls-congress-pass-first-step-act/">said</a> in November that the U.S. "benefits if former inmates are able to reenter society as productive, law-abiding citizens."</p> <div class="embed video fluid-video"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/PCUvBoPMki0" width="560"></iframe></div> <div class='ad-unit mb-3'>
+<div id='div-gpt-ad-DW_Body2'>
+<script>
+      googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-DW_Body2');
+      });
+    </script>
+</div>
+
+<span class='bt-uid-tg' data-uid='5c0aa9df78-254' style='display: none !important'></span> 
+</div>
+<p>"For too long, disenfranchised populations have suffered in a punitive prison system that offers no viable pathways to reentering society," King continued in her letter. "Today, over two million Americans are incarcerated in a system that does not offer the resources to bring out their intellectual and creative genius."</p> <p>King said that while she does not believe the bill is "comprehensive enough," she thinks that it's a good step forward.</p> <div class='ad-unit mb-3'>
+<div id='div-gpt-ad-DW_Body3'>
+<script>
+      googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-DW_Body3');
+      });
+    </script>
+</div>
+
+<span class='bt-uid-tg' data-uid='5c0aaa191f-254' style='display: none !important'></span> 
+</div>
+<p>Although the bill has increasing bipartisan support, not everyone is sold on it.</p> <p>Sen. Tom Cotton (R-AR) <a href="https://www.nationalreview.com/2018/11/first-step-criminal-justice-reform-bill-whats-in-it/">said</a> in a recent op-ed: "Let there be no doubt: If the bill is passed, thousands of federal offenders, including violent felons and sex offenders, will be released earlier than they would be under current law. Whatever word games the bill’s proponents use will make no difference to the future victims of these felons."</p> <p>Full text of Dr. Bernice King's letter:</p> <blockquote> <p>In 1963, while incarcerated in Birmingham, my father, Dr. Martin Luther King, Jr., challenged the conscience of America when he penned these words “Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly.” My father wanted us to understand our interrelatedness in addressing social inequalities that infringe on human being’s ability to live a life of dignity.</p> <p>We are closing 2018 with an opportunity to take a monumental “FIRST STEP” towards assisting and empowering the least of these in America. In the hands of our chosen servant leaders of Congress is the FIRST STEP for Criminal Justice Reform Act that begins to address some serious flaws in America’s criminal justice system.</p> <p>For too long, disenfranchised populations have suffered in a punitive prison system that offers no viable pathways to reentering society. Today, over two million Americans are incarcerated in a system that does not offer the resources to bring out their intellectual and creative genius. Invariably, the world at large is impacted. Families are fractured. Children are missing out on relationships with their parents. Furthermore, the average annual cost to incarcerate prisoners is over $32,000. Prisons are draining financial resources that can be used to invest in improving families and communities. The Congressional Budget Office predicts the FIRST STEP Act would reduce the federal prison population by nearly 20% over the next decade.</p> <p>The FIRST STEP Act can launch a better way to America’s criminal justice reform. While many have asserted that this bill is not comprehensive enough, to which I also agree, we must also understand that the road to progress is paved with incremental steps.</p> <p>Over 60 years ago, America’s Civil Rights Movement perfectly illustrated how small legislative steps – when multiplied – paved the way to the monumental progress we have achieved in equal housing, diversity in education, wages disparities, and more. In 1948, President Truman’s Executive Order ending segregation in the military paved the way for the 1954 Brown vs. Board of Education decision, effectively ending racial segregation in public schools. In 1957, President Eisenhower’s Civil Rights Act to protect voter rights gave activists in the 1965 Selma March the legislative support needed to protest voter suppression, and prompted the Voting Rights Act of 1965. Each small legislative step inspired America to become a better version of itself. Today’s FIRST STEP Act is a meaningful start for prison reform. We must not prolong justice in this hour.</p> <p>The FIRST STEP Act would provide federal judges the discretion to augment sentencing guidelines when the mandatory minimum is too harsh for some criminal offenses. The FIRST STEP Act introduces a mentor program between incarcerated youth and volunteers from faith-based or community organizations. Additionally, The FIRST STEP Act will retroactively reform unfair sentencing disparities that affected 2,600 federal prisoners convicted of crack offenses before 2010.</p> <p>My mother, Coretta Scott King, said, “Struggle is a never ending process. Freedom is never really won, you earn it and win it in every generation.” My parents understood that justice and equality achieved in one generation can be threatened in the next. Thus, they embraced every small victory. Incremental progress served as a foundation for progress well beyond their lifetime.</p> <p>We find ourselves in a climate of fear – where reaching across political party aisles in Congress could cause severe backlash that is akin to political suicide. But there comes a time when the cry for humanity stirs so deeply that even fear must adhere to its cry. When faced with political fears, my father said, “Cowardice asks the question, 'Is it safe?' Expediency asks the question, 'Is it politic?' Vanity asks the question, 'Is it popular?' But, conscience asks the question, 'Is it right?' And there comes a time when one must take a position that is neither safe, nor politic, nor popular, but one must take it because one's conscience tells one that it is right.”</p> <p>Some naysayers proclaim Senate Majority Leader Mitch McConnell will never bring this bill up for a vote, and discount his compassion for Civil Rights causes. However, in my research I learned that Senator McConnell has advocated for Civil Rights. As a law student in the 1960s he was present for the signing of the Voting Rights Bill, and was on the Lincoln Memorial in 1963 during my father’s “I Have a Dream” speech. He was so inspired that he began writing editorials advocating for others to support Martin Luther King, Jr. and the Civil Rights Movement.</p> <p>There is more to Senator McConnell than the Kavanaugh hearings... Growing up his parents were involved in the National Urban League, so I know he understands the importance of liberty and justice for all. In 2015, Senator McConnell broke rank with other Senators and provided a pivotal vote in favor of Loretta Lynch to become the first African American woman as an Attorney General.</p> <p>Our country has experienced many divisive dark days, but God’s hand has guided us through it all. The bipartisan efforts behind this bill can begin to restore hope in America for many who lost faith in Congress’ ability to ever work together again.</p> <p>I implore Senate Majority Leader Mitch McConnell to bring the FIRST STEP Act to a vote before the close of this session.</p> <p>I am hopeful for America because in order to form a more perfect union, Politicians from diverse ideologies have come together and put differences aside to craft legislation that puts humanity above all else. This bill gives thousands in American prisons a road to rehabilitation, redemption and reconciliation. This bill shows America has compassion for the disenfranchised and marginalized and it stops the inhumane treatment of shackling women who give birth in prison.</p> <p>I believe our leaders will answer the call to conscience and do the right thing for humanity and ensure the unalienable rights of Life, Liberty and the pursuit of Happiness for ALL Americans. American politics has been weighed down by a “win at all costs” mentality. We must come together for this – WIN – at all costs. The FIRST STEP Act is critical for America’s progress.</p> <p>If you believe in prayer – PRAY. If you believe in America’s declaration of liberty and justice for ALL – Support this bill. America has been at its best when we have come together, and voted together for the good of humanity! In the words of my father, “We are confronted with the fierce urgency of now. In this unfolding conundrum of life and history there is such a thing as being too late. This is no time for apathy or complacency. This is a time for vigorous and positive action.” Join me and encourage Congress to not let political division distract, deter or destroy this opportunity to serve humanity. This bill represents Hope – Unity – Redemption.</p> <p>This year the King Center commemorated 50 years since my father’s assassination with a theme “Together We Win with Love for Humanity.” What better way to close this year and honor Martin Luther King Jr.’s legacy than to see political lines vanish in support of the compassion and humanity within the FIRST STEP Act.</p> <p>Let’s move America forward! I ask members of Congress to Honor My Father’s Legacy by showing the world we can come together…because Together We Win… With Love for Humanity!</p> <p> </p> <p>Dr. Bernice A. King</p> <p>CEO, The Martin Luther King, Jr. Center for Nonviolent Social Change</p> </blockquote>
+</div>
+<footer class="mt-1-s mb-4-s my-5-ns">
+<div class="tags ls-1 tt-u f-xxs pb-4-s">
+<span class="mr-1 beaufort-heavy d-ib">Read More:</span>
+<a href="/tags/democratic-party" class="gray-dark lato-bold">
+Democratic Party </a>
+<a href="/tags/donald-trump" class="gray-dark lato-bold">
+Donald Trump </a>
+<a href="/tags/martin-luther-king-jr." class="gray-dark lato-bold">
+Martin Luther King Jr. </a>
+<a href="/tags/prison" class="gray-dark lato-bold">
+Prison </a>
+<a href="/tags/republican-party" class="gray-dark lato-bold">
+Republican Party </a>
+</div>
+<div class="share">
+<ul>
+<li class="share-facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.dailywire.com/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook" aria-hidden="true"></i><small></small></a>
+</li>
+<li class="share-twitter">
+<a href="https://twitter.com/intent/tweet?status=Martin+Luther+King+Jr.%26%23039%3Bs+Daughter+Writes+Letter+Supporting+Trump-Endorsed+Bill+https://www.dailywire.com/news/39191/martin-luther-king-jrs-daughter-writes-letter-ryan-saavedra" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=440,width=600');return false;"><i class="fa fa-twitter" aria-hidden="true"></i><small></small></a>
+</li>
+<li class="share-email">
+<a class="in" href="/cdn-cgi/l/email-protection#7c430f091e16191f0841311d0e0815125c30090814190e5c3715121b5c360e525a5f4c4f45470f5c381d091b1408190e5c2b0e1508190f5c30190808190e5c2f090c0c130e0815121b5c280e09110c51391218130e0f19185c3e1510105a1d110c471e131805413f14191f17594e4c0814150f594e4c1d0e08151f1019594e4c1d08594e4c281419594e4c381d151005594e4c2b150e19594f3d594e4c594c38594c3d311d0e0815125730090814190e573715121b57360e52594e4a594e4f4c4f45594f3e0f57381d091b1408190e572b0e1508190f5730190808190e572f090c0c130e0815121b57280e09110c51391218130e0f1918573e151010594e4c594c38594c3d1408080c0f4653530b0b0b52181d1510050b150e19521f13115312190b0f534f454d454d53111d0e0815125110090814190e511715121b51160e0f51181d091b1408190e510b0e1508190f5110190808190e510e051d12510f1d1d0a19180e1d594e4c"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+</li>
+<li class="share-print">
+<a class="in" onclick="window.print()"><i class="fa fa-print" aria-hidden="true"></i></a>
+</li>
+</ul>
+</div>
+</footer>
+</article>
+<div id='div-gpt-ad-DW_Footer'>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+    googletag.cmd.push(function() {
+      googletag.display('div-gpt-ad-DW_Footer');
+    });
+  </script>
+</div>
+<section class="sponsored-content sponsored-content-horiontal">
+<h2 class="section-title-sm">Recommended For You</h2>
+<div class="OUTBRAIN" data-widget-id="TF_6" data-src="" data-ob-template="ForwardPublishing"></div>
+</section>
+<div id="M312882ScriptRootC204275">
+<div id="M312882PreloadC204275"></div>
+<script>
+    (function(){
+    var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById';
+    var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M312882ScriptRootC204275")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
+    catch(e){var iw=d;var c=d[gi]("M312882ScriptRootC204275");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=204275;c[ac](dv);
+    var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src="//jsc.idealmedia.com/d/a/dailywire.com.204275.js?t="+D.getYear()+D.getMonth()+D.getDate()+D.getHours();c[ac](s);})();
+  </script>
+</div>
+<section class="comments mb-5-s mb-5-m">
+<h2 class="section-title-sm d-n-s d-n-m">What's Your Reaction?</h2>
+<div id="disqus_thread_wrapper" class="hidden">
+<div id="disqus_thread"><noscript><p><a href="http://thedailywire.disqus.com/?url=https%3A%2F%2Fwww.dailywire.com%2Fnews%2F39191%2Fmartin-luther-king-jrs-daughter-writes-letter-ryan-saavedra">View the discussion thread.</a></p></noscript></div> </div>
+<button class="comments-toggle btn-secondary-lg show-element w-100" data-element-selector="#disqus_thread_wrapper">View Comments</button>
+</section>
+<script>
+  (function($) {
+    "use strict";
+
+    function mkFormatter(num) {
+      if (num > 999999) {
+        return parseFloat((num/1000000).toFixed(1)) + 'm'
+      } else if (num > 999) {
+        return parseFloat((num/1000).toFixed(1)) + 'k'
+      } else {
+        return num;
+      }
+    }
+
+    var getArticleShares = function() {
+      $.ajax({
+        url: 'https://api.parsely.com/v2/shares/post/detail',
+        jsonp: 'callback',
+        dataType: 'jsonp',
+        data: {
+          'apikey': 'dailywire.com',
+          'url': location.href,
+        },
+        success: function(response) {
+          var shares = response.data[0];
+          var fb = !shares || shares.fb < 10 ? 0 : mkFormatter(shares.fb);
+          var tw = !shares || shares.tw < 10 ? 0 : mkFormatter(shares.tw);
+          $('.share .share-facebook a').addClass(!fb ? 'in no-stats' : 'in stats').find('small').text(fb);
+          $('.share .share-twitter a').addClass(!tw ? 'in no-stats' : 'in stats').find('small').text(tw);
+        }
+      });
+    };
+
+    var getArticleViews = function() {
+      $.ajax({
+        url: 'https://api.parsely.com/v2/analytics/post/detail',
+        jsonp: 'callback',
+        dataType: 'jsonp',
+        data: {
+          'apikey': 'dailywire.com',
+          'url': location.href,
+          'period_start': '90d',
+        },
+        success: function(response) {
+          var postDetail = response.data[0];
+          if (postDetail && postDetail.metrics.views) {
+            var views = mkFormatter(postDetail.metrics.views); // test/tmp
+            $('.view-count').removeClass('hide').find('span').text(views);
+          }
+        }
+      });
+    };
+
+    $(window).on('parsely_ready', function(){
+      getArticleShares();
+      if ($('.article-full .view-count').length) {
+        getArticleViews();
+      }
+    });
+
+  })(jQuery);
+</script>
+</div>
+<div class="sidebar fx-s-0-l">
+<section class="hotwire"></section>
+<script id="hotwire-template" type="text/x-handlebars-template">
+  <section class="article-hot-wires mb-4-ns">
+    <h3 class="block-title">Hot Wire</h3>
+    {{#each articles}}
+      <article class="article-hot-wire fx pos-r pb-3 pb-2-l">
+        <div class="media as-fs beaufort-heavy f-min pos-r fx-s-0 mr-2 mr-3-m">
+          <a href="{{ url }}">
+            <img src="{{ metadata.image_style_urls.169medium }}" alt="{{ title }}" />
+          </a>
+        </div>
+        <div class="as-c">
+          <h3 class="f-5 f-sm-l mb-1"><a href="{{ url }}">{{ title }}</a></h3>
+          {{#each authors}}
+            <address class="author">
+              <span class="label">By</span> {{ this }}
+            </address>
+          {{/each}}
+        </div>
+      </article>
+    {{/each}}
+  </section>
+</script>
+<script>
+  (function($, Drupal) {
+    "use strict";
+
+    var source   = $("script#hotwire-template").html();
+    var template = Handlebars.compile(source);
+
+    var cleanUpArticles = function(articles){
+      var cleaned = [];
+      for (var i in articles){
+        articles[i].metadata = JSON.parse(articles[i].metadata);
+        cleaned.push(articles[i]);
+      }
+      return cleaned;
+    };
+
+    $.ajax({
+      url: 'https://api.parsely.com/v2/analytics/posts',
+      jsonp: 'callback',
+      dataType: 'jsonp',
+      data: {
+        'apikey': 'dailywire.com',
+        'pub_date_start': '1w', // 90 days
+        'limit': 5,
+        'page': 1,
+        'section': 'News',
+        'sort': 'views',
+        'period_start': '30m'
+      },
+      success: function(response) {
+        var articles = cleanUpArticles(response.data);
+        console.log(articles);
+        $('.hotwire').append(template({ articles: articles }));
+      }
+    });
+
+  })(jQuery, Drupal);
+</script>
+<div id='div-gpt-ad-DW_Sidebar1' class='mb-4 ta-c'>
+<script type='text/javascript'>
+    googletag.cmd.push(function() {
+      googletag.display('div-gpt-ad-DW_Sidebar1');
+    });
+  </script>
+
+<span class='bt-uid-tg' data-uid='5c0aaa4473-254' style='display: none !important'></span> 
+</div>
+<div class="sticky-wrapper">
+<section class="sponsored-content sponsored-content-vertical mb-4">
+<div class="OUTBRAIN" data-widget-id="TS_1" data-src="" data-ob-template="ForwardPublishing"></div>
+</section>
+</div>
+<div class='sticky-wrapper'>
+<div id='div-gpt-ad-DW_Sidebar2' class='ad-unit ta-c'>
+<script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-DW_Sidebar2');
+      });
+    </script>
+</div>
+
+<span class='bt-uid-tg' data-uid='5c0aaa5c3f-254' style='display: none !important'></span> 
+</div>
+</div>
+</div>
+</main>
+<footer id="footer" class="bg-black pb-8">
+<div class="contain">
+
+
+<section class="podcast-episodes-latest even">
+<div class="podcasts-subscribe-pitch item">
+<h4>Unlock video podcasts and watch LIVE</h4>
+<a href="/subscribe" class="btn-primary-sm">Subscribe</a>
+</div>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/show/ben-shapiro-show" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/the-ben-shapiro-show/host-logo.png);">The Ben Shapiro Show</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/43596/ep-719-why-we-buy-hoaxes">Ep. 719 - Why We Buy Hoaxes</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/show/andrew-klavan-show" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/the-andrew-klavan-show/host-logo.png);">The Andrew Klavan Show</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/43600/ep-657-what-does-jussie-want">Ep. 657 - What Does Jussie Want?</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/show/michael-knowles-show" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/the-michael-knowles-show/host-logo.png);">The Michael Knowles Show</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/43613/ep-299-fake-hate-crimes-real-state-crimes">Ep. 299 - Fake Hate Crimes, Real State Crimes</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/show/matt-walsh-show" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/the-matt-walsh-show/host-logo.png);">The Matt Walsh Show</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/43603/ep-200-media-beclowns-itself-jussie-smollett-story">Ep. 200 - The Media Beclowns Itself On Jussie Smollett Story</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/series/sunday-special" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/sunday-special/host-logo.png);">Sunday Special</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/43549/sunday-special-ep-38-daniel-krauthammer">Sunday Special Ep 38: Daniel Krauthammer</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/series/conversation" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/the-conversation/host-logo.png);">The Conversation</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/42520/ep-17-andrew-klavan">Ep. 17: Andrew Klavan</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/series/backstage" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/daily-wire-backstage/host-logo.png);">Daily Wire Backstage</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/43102/sotu-special">SOTU Special</a></h4>
+</div>
+</div>
+</article>
+<article class="podcast-episode item">
+<div class="group">
+<span class="show-title">
+<a href="/podcasts/series/another-kingdom" class="text-replace" style="background-image: url(/sites/all/themes/dw_theme/images/podcasts/another-kingdom/host-logo.png);">Another Kingdom</a>
+</span>
+<div class="episode">
+<span class="label">Latest Episode</span>
+<h4 class="episode-title"><a href="/podcasts/39190/ep-10-last-dragon">Ep. 10: The Last Dragon</a></h4>
+</div>
+</div>
+</article>
+</section>
+<div class="fx jc-c fx-d-c-s fx-d-c-m ai-c mb-2 mb-4-l ta-c pt-5-s pt-6-ns">
+<div class="logo d-n-s ti--999">
+<a href="/" class="d-b">{{ site.title }}</a>
+</div>
+<ul class="social-links f-6 f-4-s mx-4-l mb-3-s my-4-m my-0 pa-0">
+<li>
+<a href="https://www.facebook.com/DailyWire">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/realDailyWire">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UCaeO5vkdj5xOQHp4UmIN6dw">
+<i class="fa fa-youtube-play" aria-hidden="true"></i>
+</a>
+</li>
+<li>
+<a href="https://www.dailywire.com/rss.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
+</a>
+</li>
+</ul>
+<nav class="main-navigation f-min tt-u beaufort-heavy ls-2">
+<a href="/privacy-policy">Privacy Policy</a>
+<a href="/terms-of-use">Terms of Use</a>
+<a href="/contact#advertising">Advertise With Us</a>
+<a href="https://contact.dailywire.com/speakers/">Book our Speakers</a>
+<a href="/contact">Contact Us</a>
+</nav>
+</div>
+<div class="tt-u ta-c gray ls-2" style="font-size:10px;">&copy; Copyright 2018, The Daily Wire</div></div>
+</footer>
+
+<div id='div-gpt-ad-DW_Pixel1'>
+<script>
+    googletag.cmd.push(function() {
+      googletag.display('div-gpt-ad-DW_Pixel1');
+    });
+  </script>
+</div>
+
+<div id='div-gpt-ad-DW_Pixel2'>
+<script>
+    googletag.cmd.push(function() {
+      googletag.display('div-gpt-ad-DW_Pixel2');
+    });
+  </script>
+</div>
+<div id="parsely-root" style="display: none">
+<span id="parsely-cfg" data-parsely-site="dailywire.com"></span>
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(window).on('resize', function(event) {dw.breakpoint.refreshValue();}); jQuery( window ).load(function() {jQuery(window).trigger('resize');});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.PARSELY = {
+  onload: function() {
+    jQuery(window).trigger('parsely_ready');
+  }
+};
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7dd9c83691","applicationID":"11056504","transactionName":"ZlFVNhEDCkcFUUNfCV8bdgEXCwtaS1ZWXwpIQ14QBj0UWwBRVkUSQmtZDQcHO0QFVVJpEFhRQA==","queueTime":0,"applicationTime":272,"atts":"ShZWQFkZGUk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

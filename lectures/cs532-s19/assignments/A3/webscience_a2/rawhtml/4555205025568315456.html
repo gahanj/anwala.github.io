@@ -1,0 +1,926 @@
+<div style='display:none'>201616</div><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="alexaVerifyID" content="uysrzaqVLnyzkOkV14JYE73MXaA" />
+<title>Trump se burla de Elizabeth Warren tras su anuncio de candidatura para 2020 | En el Mundo | 2001.com.ve</title>
+<meta name="title" content="Trump se burla de Elizabeth Warren tras su anuncio de candidatura para 2020 | En el Mundo | 2001.com.ve" />
+<meta name="description"  content=""¡Nos vemos en la campaña, Liz!", dijo el mandatario" />
+<meta name="keywords" content="2001, En el Mundo, 0" />
+<meta name="news_keywords" content="2001, En el Mundo, 0 , a" />
+<meta name="Robots" content="All">
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@2001OnLine" />
+<meta name="twitter:title" content="Trump se burla de Elizabeth Warren tras su anuncio de candidatura para 2020 | En el Mundo | 2001.com.ve">
+<meta name="twitter:description" content="&quot;&iexcl;Nos vemos en la campa&ntilde;a, Liz!&quot;, dijo el mandatario">
+<meta name="twitter:image" content="http://www.2001.com.ve/image_articulos/85e4d2487a7fbb96c55a5a27d3ac5f42.jpg">
+<meta property="og:site_name" content="2001.com.ve"/>
+<meta property="og:title" content="Trump se burla de Elizabeth Warren tras su anuncio de candidatura para 2020 | En el Mundo | 2001.com.ve" />
+<meta property="og:author" content="Redaccion 2001 OnLine" />   
+<meta property="og:type" content="article" />      
+<meta property="og:description" content=""¡Nos vemos en la campaña, Liz!", dijo el mandatario" /> 
+
+<link href="http://www.2001.com.ve/estilos_v02/estilo_2001_nuevo.css" rel="stylesheet" type="text/css" />
+
+<link rel="SHORTCUT ICON" href="http://www.2001.com.ve/logo_2001a.ico">
+<script type="text/javascript" src="//ads.vidoomy.com/2001_611.js" ></script>
+
+
+<script type="text/javascript" src="http://www.meridiano.com.ve/assets/scripts/jwplayer-7.3.6/jwplayer.js"></script>
+ <script>jwplayer.key="gqhgXanFLsg98x55vPtw3WX/pRVxSfyunqnH3g==";</script>
+<!-- socialize.js script should only be included once -->
+<script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=3_dJqG14JsbAj9nk7Y9GiZ-A-LCe9rVXYmY0Io_pUVEe1uMjK4sQXUL78HfXF4t0_z"></script>
+
+
+<script src="http://www.2001.com.ve/js/jquery1.js"></script>
+
+
+
+<script src="http://www.2001.com.ve/logica/galerias/galleria-1.2.7.js"></script>
+<script src="http://www.2001.com.ve/js/jquery.lazyload.js" language="javascript"></script>
+        
+<script type="text/javascript" charset="utf-8">
+function ir(a)
+{
+	window.location=(a);
+}
+$(function() {
+	$("img").lazyload({placeholder : "http://www.2001.com.ve/imagenes_site/loading.gif", threshold : 100});
+});
+
+var noti_s_q = 1;
+$(document).ready(function(){
+	 $.ajaxSetup({ cache: false });
+			$.ajax({
+				   contentType:"text/xml; charset=ISO-8859-1",
+				type: "GET",
+				url: "http://www.2001.com.ve/logica/home/noticia_superior_nueva.xml",
+				dataType: "xml",
+				success: function(xml) {
+					$(xml).find('noticia_grande').each(function(){
+						
+						var link_noti = $(this).find('link_noti').text();
+						var foto = $(this).find('foto').text();
+						var titulo = $(this).find('titulo').text();
+																		
+						$('#noticia_superior_'+noti_s_q).html($('#noticia_superior_'+noti_s_q).html()+'<table border="0" cellpadding="0" cellspacing="0" width="264"><tr><td width="98" align="left"><a href="'+link_noti+'"><img src="'+foto+'" width="89" height="124" border="0" alt="'+titulo+'" title="'+titulo+'" /></a></td><td valign="top"><a href="'+link_noti+'"><h5 class="titulo_noticias_superiores" style="font-size:11pt !important">'+titulo+'</h5></a></td></tr></table>');
+						noti_s_q=noti_s_q+1;
+						
+					});
+				}
+			});
+		});
+		
+		var t=0;
+							$(document).ready(function(){
+								 $.ajaxSetup({ cache: false });
+								$.ajax({
+									   contentType:"text/xml; charset=ISO-8859-1",
+									type: "GET",
+									url: "http://www.2001.com.ve/logica/interna/en-el-mundo_avance-derecho_308.xml",
+									dataType: "xml",
+									success: function(xml) {
+										$(xml).find('noticia_grande').each(function(){
+											if(t==0)
+											{
+											$('#notro').html($('#notro').html()+'<tr><td><div class="topes_derecha">Otras Noticias</div></td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" width="308" id="nsucesos" class="nsucesos" ></table></td></tr>');
+											t=1;
+											}
+											
+											var link_noti = $(this).find('link_noti').text();
+											var foto = $(this).find('foto').text();
+											var titulo = $(this).children('titulo').text();
+											var ante_titulo = $(this).find('ante_titulo').text();
+											var resumen = $(this).find('resumen').text();
+											var resena_foto = $(this).find('resena_foto').text();
+											var hay = $(this).find('hay').text();
+																						
+											$('#nsucesos').html($('#nsucesos').html()+'<tr><td width="308" class="antetitulo" >'+ante_titulo+'</td></tr><tr><td width="308" align="left"><a href="'+link_noti+'" class="titulos_cen_medium2">'+titulo+'</a></td></tr>');
+											
+											if(foto=='http://www.2001.com.ve/image_articulos/0')
+											{
+												$('#nsucesos').html($('#nsucesos').html()+'<tr><td width="308" class="resumeng">'+resumen+'</td></tr><tr><tdwidth="308"><div style="height:2px;"></div></td></tr>');												
+											}
+											else
+											{
+												$('#nsucesos').html($('#nsucesos').html()+'<tr><td width="308" height="250" ><a href="'+link_noti+'"><img src="'+foto+'" title="'+resena_foto+'"  alt="'+resena_foto+'" align="left" border="0" width="308" height="250" /></a></td></tr>');
+												$('#nsucesos').html($('#nsucesos').html()+'<tr><td width="308" class="resumeng">'+resumen+'</td></tr>');	
+											}
+											
+											if(hay=='1')
+											{
+											
+												$(this).find('noticia_r').each(function(){
+													var titulo_url = $(this).find('titulo_url').text();
+													var titulo = $(this).children('titulo').text();
+													$('#nsucesos').html($('#nsucesos').html()+'<tr><td valign="top" align="left" width="308"><table border="0" border="0" cellspacing="0" cellpadding="0" width="308"><tr><td  width="14"><div class="flecha_izquierda_relacion"></div></td><td><a href="'+titulo_url+'" class="relacionadas">'+titulo+'</a></td></tr></table></td></tr>');
+												
+												});
+												$('#nsucesos').html($('#nsucesos').html()+'<tr><td width="308"><div style="height:3px;"></div></td></tr><tr><td width="308"><div style="width:308px; height:5px; border-top:1px solid #000;"></div></td></tr><tr><td width="308"><div style="height:2px;"></div></td></tr>');
+											}
+											else
+											{
+												$('#nsucesos').html($('#nsucesos').html()+'<tr><td width="308"><div style="height:2px;"></div></td></tr><tr><td width="308"><div style="width:308px; height:5px; border-top:1px solid #000;"></div></td></tr><tr><td width="308"><div style="height:2px;"></div></td></tr>');
+											}
+											
+										});
+									}
+								});
+							});
+
+						
+		
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18515160-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+
+/***********************************************
+* Cross browser Marquee II- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+var delayb4scroll=2000 //Specify initial delay before marquee starts to scroll on page (2000=2 seconds)
+var marqueespeed=1 //Specify marquee scroll speed (larger is faster 1-10)
+var pauseit=1 //Pause marquee onMousever (0=no. 1=yes)?
+
+////NO NEED TO EDIT BELOW THIS LINE////////////
+
+var copyspeed=marqueespeed
+var pausespeed=(pauseit==0)? copyspeed: 0
+var actualheight=''
+
+function scrollmarquee(){
+if (parseInt(cross_marquee.style.top)>(actualheight*(-1)+8))
+cross_marquee.style.top=parseInt(cross_marquee.style.top)-copyspeed+"px"
+else
+cross_marquee.style.top=parseInt(marqueeheight)+8+"px"
+}
+
+function initializemarquee(){
+cross_marquee=document.getElementById("vmarquee")
+//cross_marquee.style.top=0
+marqueeheight=document.getElementById("marqueecontainer").offsetHeight
+actualheight=cross_marquee.offsetHeight
+if (window.opera || navigator.userAgent.indexOf("Netscape/7")!=-1){ //if Opera or Netscape 7x, add scrollbars to scroll and exit
+cross_marquee.style.height=marqueeheight+"px"
+cross_marquee.style.overflow="scroll"
+return
+}
+setTimeout('lefttime=setInterval("scrollmarquee()",30)', delayb4scroll)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", initializemarquee, false)
+else if (window.attachEvent)
+window.attachEvent("onload", initializemarquee)
+else if (document.getElementById)
+window.onload=initializemarquee
+
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18515160-1']);
+  _gaq.push(['_setDomainName', '.2001.com.ve']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <style type="text/css">
+ .noticia_completa{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+ </style>
+<meta name="google-site-verification" content="K4tYe6kdDd4Itoc1P2S42B5idHEMuHULjYTHRxFweic" />
+
+
+
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/bloquedearmas-2001comve/loader.js',
+  'tb_loader_script');
+</script>
+
+</head>
+
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div style="height:10px;">&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width:990px; height:27px; background-color:#999; text-align:center;"><table width="990" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#DCDCDD">
+    <tr>
+        <!--
+<td width="165" height="27" align="center" valign="middle" class="menu_empresa"><a href="http://www.2001.com.ve/empresa_2001/tarifa2001.pdf" target="_blank" >Publicidad Impresos</a></td>
+<td width="165" height="27" align="center" valign="middle" class="menu_empresa"><a href="http://www.2001.com.ve/empresa_2001/tarifas_web2001.pdf" target="_blank" >Publicidad Web</a></td>
+<td width="165" height="27" align="center" valign="middle" class="menu_empresa"><a href="http://www.2001.com.ve/directorio_2001.php" target="_blank" >&iquest;Qui&eacute;nes Somos?</a></td>
+<td width="165" align="center" valign="middle" class="menu_empresa"><a href="http://www.2001.com.ve/gabinete_ejecutivo_nuevo.php" >Gabinete Ejecutivo</a></td>
+<td width="165" align="center" valign="middle" class="menu_empresa"><a href="http://www.2001.com.ve/otros_servicios_nuevo.php" >Otros Servicios</a></td>
+<td width="165" height="27" align="center" valign="middle" class="menu_empresa"><a href="mailto:contacto@dearmas.com" target="_blank" >Cont&aacute;ctanos</a></td>
+!-->
+        <!-- <td width="141" height="27" align="center" valign="middle" class="menu_empresa"><a href="https://drive.google.com/file/d/0B2FVr4UGw3CdSDNWZlZyOGRQdUU/view?usp=sharing" target="_blank" >PREVENTA 2016</a></td> !-->
+        <td width="141" height="27" align="center" valign="middle" class="menu_empresa"><a href="" target="_blank" >Publicidad Impresos</a></td>
+        <td width="141" height="27" align="center" valign="middle" class="menu_empresa"><a href="" target="_blank" >Publicidad Web</a></td>
+        <td width="141" height="27" align="center" valign="middle" class="menu_empresa"><a href="" target="_blank" >&iquest;Qui&eacute;nes Somos?</a></td>
+        <td width="141" align="center" valign="middle" class="menu_empresa"><a href="" >Gabinete Ejecutivo</a></td>
+        <td width="141" align="center" valign="middle" class="menu_empresa"><a href="http://www.2001.com.ve/otros_servicios_nuevo.php" >Otros Servicios</a></td>
+        <td width="141" height="27" align="center" valign="middle" class="menu_empresa"><a href="mailto:contacto@dearmas.com" target="_blank" >Cont&aacute;ctanos</a></td>
+    </tr>
+</table>
+</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div style="height:5px;">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div style="height:1px; border-bottom:1px solid #000;">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div style="height:5px;">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+	<td width="990" height="152">
+    <div style=" width:990px; height: 152px; position: relative;">
+    <div style="width:990px; height: 152px; position:absolute; z-index:1;">
+    
+    <img src="http://www.2001.com.ve/imagenes_botones/tope_2001_n.jpg" width="990" height="152" usemap="#Map" border="0"  />
+  
+    <map name="Map" id="Map">
+  <area shape="rect" coords="10,7,396,122" href="http://www.2001.com.ve" alt="2001.com.ve" title="2001.com.ve" />
+  <area shape="rect" coords="398,124,676,190" href="https://twitter.com/intent/user?screen_name=2001OnLine" alt="@2001OnLine" title="@2001OnLine" />
+  <area shape="rect" coords="685,123,983,168" href="https://www.facebook.com/2001Online/" alt="Facebook 2001Online" title="Facebook 2001Online" />
+  <area shape="rect" coords="759,3,991,124" href="http://www.2001.com.ve/aniversario-2001.html" alt="Aniversario 2001" title="Aniversario 2001" />  
+  <!--
+  <area shape="rect" coords="396,112,676,147" href="https://twitter.com/intent/user?screen_name=2001OnLine" alt="@2001OnLine" title="@2001OnLine" />
+  <area shape="rect" coords="685,113,985,147" href="https://www.facebook.com/2001Online/" alt="Facebook 2001Online" title="Facebook 2001Online" />
+  !-->
+</map>
+
+
+<map name="Map_aniversario" id="Map_aniversario">
+  <area shape="rect" coords="10,7,396,122" href="http://www.2001.com.ve" alt="2001.com.ve" title="2001.com.ve" />
+  <area shape="rect" coords="398,124,676,190" href="https://twitter.com/intent/user?screen_name=2001OnLine" alt="@2001OnLine" title="@2001OnLine" />
+  <area shape="rect" coords="685,123,983,168" href="https://www.facebook.com/2001Online/" alt="Facebook 2001Online" title="Facebook 2001Online" />
+  <area shape="rect" coords="759,3,991,124" href="http://www.2001.com.ve/aniversario-2001.html" alt="Aniversario 2001" title="Aniversario 2001" />  
+</map>
+
+
+    </div>
+      	<div class="noticia_superior_2" id="noticia_superior_2" >
+    
+    </div>
+    <div class="noticia_superior_1" id="noticia_superior_1" >
+    
+    </div>
+    
+    
+    <div class="hora" >
+    <div>
+	02:43:33 PM&nbsp;
+    <SCRIPT language="JavaScript">
+ 
+var fecha=new Date();
+var diames=fecha.getDate();
+var diasemana=fecha.getDay();
+var mes=fecha.getMonth() +1 ;
+var ano=fecha.getFullYear();
+var textosemana = new Array(7);
+
+textosemana[0]="Domingo";
+textosemana[1]="Lunes";
+textosemana[2]="Martes";
+textosemana[3]="Mi&eacute;rcoles";
+textosemana[4]="Jueves";
+textosemana[5]="Viernes";
+textosemana[6]="S&aacute;bado";
+
+var textomes = new Array (12);
+textomes[1]="Enero";
+textomes[2]="Febrero";
+textomes[3]="Marzo";
+textomes[4]="Abril";
+textomes[5]="Mayo";
+textomes[6]="Junio";
+textomes[7]="Julio";
+textomes[8]="Agosto";
+textomes[9]="Septiembre";
+textomes[10]="Octubre";
+textomes[11]="Noviembre";
+textomes[12]="Diciembre";
+
+document.write(textosemana[diasemana] + ", " + diames + " de " + textomes[mes] + " de " + ano);
+
+</SCRIPT>
+</div>
+    </div>
+        
+    </div>
+	</td>
+</tr>
+	
+    <tr>
+<td>
+<div style="height:5px;">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<script type="text/javascript">
+function irp(a){
+	window.location = a;
+}
+</script>
+<table border="0" cellpadding="0" cellspacing="0" width="990" height="40" class="menu_categorias">
+    <tr>
+    <td width="143" height="40">
+    	<div class="conlagente" onclick="irp('http://www.2001.com.ve/con-la-gente.html');"><a href="http://www.2001.com.ve/con-la-gente.html">CON LA GENTE</a></div>
+    </td>
+    <td width="143">
+    	<div class="enlacalle" onclick="irp('http://www.2001.com.ve/en-la-calle.html');"><a href="http://www.2001.com.ve/en-la-calle.html">EN LA CALLE</a></div>
+    </td>
+    <td width="143">
+    	<div class="enlaagenda" onclick="irp('http://www.2001.com.ve/en-la-agenda.html');"><a href="http://www.2001.com.ve/en-la-agenda.html">EN LA AGENDA</a></div>
+    </td>
+    <td width="143">
+    	<div class="enelchisme" onclick="irp('http://www.2001.com.ve/en-el-chisme.html');"><a href="http://www.2001.com.ve/en-el-chisme.html">EN EL CHISME</a></div>
+    </td>
+    <td width="143">
+    	<div class="enlajugada" onclick="irp('http://www.2001.com.ve/en-la-jugada.html');"><a href="http://www.2001.com.ve/en-la-jugada.html">EN LA JUGADA</a></div>
+    </td>
+    <td width="143">
+    	<div class="enelmundo" onclick="irp('http://www.2001.com.ve/en-el-mundo.html');"><a href="http://www.2001.com.ve/en-el-mundo.html">EN EL MUNDO</a></div>
+    </td>
+    
+    <td valign="top">
+    	<table border="0" cellpadding="0" cellspacing="0" height="32" width="123" class="menu_categorias_internas" >
+        <tr>
+        	<td width="3" height="32"><div style="width:3px;"></div></td>
+            <td width="1" height="32"><div style="width:1px; height:32px; border-left:1px #000 solid;"></div></td>
+            <td width="3" height="32"><div style="width:3px;"></div></td>
+            <!--
+            <td width="71" valign="middle"><div  class="sub-menus" ><a href="http://www.2001.com.ve/gabinete_ejecutivo_nuevo.php" >Gabinete Ejecutivo</a></div></td>
+            <td width="1" bgcolor="#e8e9ea"><div style="width:1px;"></div></td>
+            <td width="1"  bgcolor="#e8e9ea" valign="middle"><div style="width:1px; border-left:1px #000000 solid; height:20px;"></div></td>
+            <td width="1" bgcolor="#e8e9ea"><div style="width:1px;"></div></td>
+            <td width="71" valign="middle"><div  class="sub-menus" ><a href="http://www.2001.com.ve/otros_servicios_nuevo.php" >Otros Servicios</a></div></td>
+            <td width="1" bgcolor="#e8e9ea"><div style="width:1px;"></div></td>
+            <td width="1"  bgcolor="#e8e9ea" valign="middle"><div style="width:1px; border-left:1px #000000 solid; height:20px;"></div></td>
+            <td width="1" bgcolor="#e8e9ea"><div style="width:1px;"></div></td>
+            !-->
+            <td width="116" valign="middle"><div  class="sub-menus" ><a href="http://www.2001.com.ve/logica/portada/portada.pdf" >Edición Impresa de 2001</a></div></td> 
+        </tr>
+        </table>       
+    </td>
+    </tr>
+</table></td>
+</tr>
+
+<tr>
+<td>
+<div style="height:5px;">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div style="height:1px; border-bottom:1px solid #000;">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div style="height:5px;">&nbsp;</div>
+</td>
+</tr>
+
+
+
+<tr>
+	<td>
+    	<table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+        	<td width="656" valign="top">
+            	<table border="0" cellpadding="0" width="656" cellspacing="0" class="noti_completas" id="noti_completas">
+                
+                	<tr>
+                        <td align="left" valign="top" class="antetitulo"></td>
+                    </tr>
+                    
+                    <tr>                                       
+                     	<td align="left" valign="top" class="titulo660"><h1 class="titulo660" style="font-size:22pt !important;margin:0 !important">Trump se burla de Elizabeth Warren tras su anuncio de candidatura para 2020</h1></td>
+                    </tr>
+                     <tr>
+                    <td style="padding-top:5px; padding-bottom:5px;">
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58067ef10bb522ae"></script> 
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
+
+                    </td>
+                    </tr>  
+                    
+                    <TR>
+                    	<TD><div style="height:5px;"></div></TD>
+                    </TR>
+
+                    
+                   <tr>
+                   	<td class="noticia_completa">
+                                      		                        <div align="center" style=" width:656px; color:#0000CC; font-weight:bold; float:left; margin-right:7px;; max-width:656px; margin-bottom:7px;">
+                        <img src="http://www.2001.com.ve/image_articulos/85e4d2487a7fbb96c55a5a27d3ac5f42.jpg" title="Foto: Archivo"  alt="Foto: Archivo" align="left" style="padding-bottom:5px; padding-right:5px; max-width:656px;" /> 
+                                                <div style="background:#000; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:normal; padding-bottom:3px;">
+						Foto: Archivo                        </div>
+                                                </div>
+ 						                   <br />
+
+                                             <div id="vidoomy"></div>
+                    <p><strong>2001.com.ve | EFE</strong></p>
+<p><span>El <strong>presidente estadounidense, Donald Trump</strong>, se burló de la <strong>senadora demócrata Elizabeth Warren</strong>, quien anunció este sábado su candidatura para las próximas elecciones presidenciales en Estados Unidos en 2020.</span><br /><br /><span>"<strong>Hoy Elizabeth Warren, a veces referida por mí como Pocahontas</strong>, se unió a la carrera para Presidente. ¿Se postulará como nuestra primera candidata presidencial nativa americana, o ha decidido que después de 32 años, esto ya no está funcionando tan bien?", dijo Trump en su cuenta de Twitter.</span><br /><br /><span>"¡Nos vemos en la campaña, Liz!", añadió el mandatario.</span><br /><br /><span>El anuncio de Warren llegó en un momento en el que su popularidad ha bajado después de que la senadora <strong>publicara en octubre los resultados de una prueba de ADN</strong> para demostrar que probablemente tenía raíces de nativos americanos.</span><br /><br /><span>El diario The Boston Globe publicó el resultado de una prueba de ADN que, en un primer momento, demostraba "pruebas sólidas" de que hubo un nativo americano en el árbol genealógico de Warren.</span><br /><br /><span>Sin embargo, horas más tarde el rotativo de Boston reconoció que hubo un "error matemático" al calcular la herencia genealógica de Warren y que, en realidad, la política tiene entre 1/64 y 1/1.024 de origen nativo americano.</span><br /><br /><span>Ese paso provocó las burlas de Trump, que la ha llamado "Pocahontas" en repetidas ocasiones, y el enfado de la tribu indígena Nación Cherokee, que aseveró que el uso de una prueba de ADN para demostrar "cualquier conexión" con orígenes nativoamericanos "es inapropiado e incorrecto".</span><br /><br /><span>En 2012, la legisladora dijo que tenía raíces indígenas, pero la falta de pruebas al respecto y su decisión de identificarse como nativoamericana en el directorio de la Asociación de Escuelas de Derecho de EE.UU. llevaron a Trump y otros conservadores a acusarla de haber mentido sobre ese punto para avanzar en su carrera.</span><br /><br /><span>El jefe de la campaña electoral de Trump de cara a 2020, Brad Pascale, tildó a Warren de "fraude" y vaticinó que su campaña será "deshonesta".</span><br /><br /><span>"Warren ya ha sido expuesta como un fraude por parte de los nativos americanos después de hacerse pasar por una indígena y cometer una falta de respeto para avanzar en su carrera profesional. (...) El pueblo estadounidense rechazará su campaña deshonesta", aseveró Pascale en un comunicado.</span><br /><br /><span>La senadora Warren, considerada una de las más progresistas de la Cámara Alta estadounidense, se sumó así a otros senadores de su partido que han anunciado su intención de llegar a la Casa Blanca, como Cory Booker, Kamala Harris y Kirsten Gillibrand. </span></p>
+<p><strong>2019-02-09</strong></p>
+<p><em>Para mantenerte informado sigue nuestro canal en Telegram <strong><a href="https://t.me/Diario2001Online">https://t.me/Diario2001Online</a> </strong></em></p>
+<p><span> </span></p>
+                        
+                        <br />
+                        
+
+                    
+                    </td>
+                   </tr>
+				  <tr>
+					 <td valign="top"><div style="height:5px;"></div></td>
+				  </tr>	
+
+				  <tr>
+					 <td valign="top">
+                       <!-- <div class="OUTBRAIN" data-src="DROP_PERMALINK_HERE" data-widget-id="AR_1" data-ob-template="2001.com" ></div>
+                        <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>            -->          
+                     </td>
+				  </tr>	
+                   
+                  <!-- INICIO COMENTARIOS DE LA NOTICIA -->
+					
+				  <tr>
+					 <td valign="top"><div style="height:5px;"></div></td>
+				  </tr>	
+                  				
+				  <tr>
+
+					 <td width="656" valign="top">
+
+
+
+<div id="rcjsload_f39d56"></div>
+
+<script type="text/javascript">
+
+(function() {
+
+var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+
+var rcel = document.createElement("script");
+
+rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+
+rcel.type = 'text/javascript';
+
+rcel.src = "http://trends.revcontent.com/serve.js.php?w=85334&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth)+"&referer="+referer;
+
+rcel.async = true;
+
+var rcds = document.getElementById("rcjsload_f39d56"); rcds.appendChild(rcel);
+
+})();
+
+</script>
+
+
+<div id="taboola-below-article-thumbnails" style='padding-right: 10px;'></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'thumbnails-a',
+    container: 'taboola-below-article-thumbnails',
+    placement: 'Below Article Thumbnails',
+    target_type: 'mix'
+  });
+</script>
+
+
+
+
+
+                        <a id="comentar"></a>
+                        <table width="656" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="656" height="10" valign="top" class="Estilo_mensaje"><h4><b>PARA COMENTAR ESTA INFORMACION DEBE LOGUEARSE EN ALGUNA DE LAS REDES SOCIALES</b></h4></td>
+                          <tr>
+                          <tr>
+                            <td valign="top">
+                            
+                            <script src='http://cdn.gigya.com/JS/socialize.js?apiKey=3_dJqG14JsbAj9nk7Y9GiZ-A-LCe9rVXYmY0Io_pUVEe1uMjK4sQXUL78HfXF4t0_z' type='text/javascript'></script>
+<div id='commentsDiv'></div>
+<script type='text/javascript'>
+var params ={
+                categoryID: 'Noticias',
+                                        streamID: 'http://www.2001.com.ve/201616',
+                                        containerID: 'commentsDiv',
+                cid:'',
+                enabledShareProviders: 'facebook,twitter,yahoo,linkedin'
+}
+gigya.socialize.showCommentsUI(params);
+</script>
+     
+                             </td>
+                          </tr>
+                        </table>
+                </td>
+                </tr>
+              <tr>
+                 <td height="5" valign="top"><div style="height:5px;"></div></td>
+              <tr>	
+                   
+                                   
+                </table>
+            </td>
+            
+            <td width="6" valign="top"></td>
+            <td width="1" valign="top" style="border-left:1px solid #b3b3b3;"></td>
+            <td width="6" valign="top"></td>
+            
+            <td width="308" valign="top">
+            
+
+            	
+                
+                <!-- SECCION LO ULTIMO !-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="308" bgcolor="#E5E5E5">
+                        <tr>
+                        <td>
+                        <div style="height:10px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td align="center" valign="top">
+                            <div class="topeloultimo" >Lo &Uacute;ltimo</div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        <tr valign="top">
+                            <td height="460" bgcolor="#E5E5E5">
+							<iframe
+							height="448" width="308" style="z-index: 1"
+							src="http://www.2001.com.ve/loultimoxseccion.php?categoria=en-el-mundo"
+							frameborder="0" scrolling="no" allowTransparency="true"> </iframe>	
+                            </td>
+                        </tr>
+                        
+                    </table>    
+                    <!-- FIN SECCION LO ULTIMO !-->
+            
+            	
+                
+                 <!-- INICIO VIDEOS !-->
+				<table border="0" cellpadding="0" cellspacing="0" width="308" >
+                <tr><td><div style="height:5px;"></div></td></tr>
+                
+				<tr>	
+                <td>
+                <div style=" width:303px; height:17px; font-size:14px; padding-top:2px; padding-left:5px; color:#FFF; font-weight:bold; background-color:#c5091d;">
+                VIDEOS
+                </div>
+                </td>
+                </tr>
+<tr>
+	<td>
+		<div style="height:3px;"></div>
+	</td>
+</tr><tr>
+	<td>
+        	<table border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+			<td class="titulospeq" align="left">Trump apela a la "emergencia nacional" para erigir su muro</td>
+		</tr>
+        	
+		<tr>
+			<td  valign="top" align="center" bgcolor="#000000" class="codigo_video"><iframe width="308" height="250" class='lazyload' data-src="https://www.youtube.com/embed/9zhGjeqwNm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td ><div style="height:5px;"></div></td>
+</tr><tr>
+	<td>
+        	<table border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+			<td class="titulospeq" align="left">El drama de los migrantes venezolanos que trabajan con narcocultivos en Colombia</td>
+		</tr>
+        	
+		<tr>
+			<td  valign="top" align="center" bgcolor="#000000" class="codigo_video"><iframe width="308" height="250" class='lazyload' data-class='lazyload' data-class='lazyload' data-src="https://www.youtube.com/embed/fwhTTTRUIZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td ><div style="height:5px;"></div></td>
+</tr>                <tr><td><div style="height:5px;"></div></td></tr>
+                </table>
+                <!-- FIN VIDEOS !-->
+                
+            
+            	<!-- INICIO SUCESOS !-->
+				<table border="0" cellpadding="0" cellspacing="0" width="308" class="notro" id="notro" >
+                    
+                </table>
+                <!-- FIN SUCESOS !-->
+                
+               
+                
+                
+                <!--  Enredados con 2001 !-->
+                    
+                    <table border="0" cellpadding="0" cellspacing="0" width="308">
+                    
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        <tr>
+                        <td>
+                        <div style="height:1px; border-bottom:1px solid #000000;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        
+                    
+                        <tr>
+                            <td>
+                            <div class="topes_derecha">Enredados con 2001</div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        <tr>
+                          <td align="center">
+                        <a class="twitter-timeline" width="308" height="250" href="https://twitter.com/2001OnLine" data-widget-id="344846145211756544">Tweets por @2001OnLine</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        
+                          </td>
+                      </tr>
+                      
+                      <tr>
+                      <td>
+                      <div style="height:5px;">&nbsp;</div>
+                      </td>
+                      </tr>
+                      
+                      <tr>
+                        <td align="center" bgcolor="#FFFFFF">
+                        
+<div class="fb-page" data-href="https://www.facebook.com/2001Online/" data-tabs="timeline" data-height="900" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/2001Online/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/2001Online/">2001</a></blockquote></div>                        </td>
+                        
+                        </td>
+                      </tr>
+        
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                        <td>
+                        <div style="height:1px; border-bottom:1px solid #000000;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                            <div class="topes_derecha">Bloque DeArmas en l&iacute;nea</div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                        <td>
+                        <div style="height:5px;">&nbsp;</div>
+                        </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <img src="http://www.2001.com.ve/imagenes_botones/BloqueDeArmasenlinea.jpg" width="308" usemap="#Sitio_interer" border="0"  />
+                            </td>
+                        </tr>
+                        
+                    </table>
+                    
+                    <!-- Fin Enredados con 2001 !-->
+                
+            </td>
+            
+            <td width="13" align="center" valign="top"></td>
+            
+        </tr>
+        </table>
+	</td>
+</tr>
+
+	<tr>
+    <td>
+    <div style="height:5px;"></div>
+    </td>
+    </tr>
+    
+<tr>
+	<td width="990">
+    	<div style="height:5px;">&nbsp;</div>
+    	<div style="border-bottom:1px solid #000; height:1px;">&nbsp;</div>
+        <div style="height:2px;">&nbsp;</div>
+    	<div style="border-bottom:1px solid #000; height:1px;">&nbsp;</div>
+        <div style="height:5px;">&nbsp;</div>
+    </td>
+</tr>
+
+	<tr>
+		<td width="990" align="center">
+        	<img src="http://www.2001.com.ve/imagenes_botones/logo_2001_pequeno.jpg" />
+		</td>
+    </tr>
+    
+    <tr>
+    	<td>
+        	<div style="height:10px;">&nbsp;</div>
+        </td>
+    </tr>
+    
+    <tr>
+		<td width="990" align="center" class="foote_texto">
+        	| <a href="http://www.2001.com.ve/empresa_2001/tarifas_web2001.pdf">Publicidad web</a> | <a href="http://www.2001.com.ve/empresa_2001/tarifa2001.pdf">Publicidad Impreso</a> | <a href="http://www.2001.com.ve/directorio_2001.php">Directorio</a> | <a href="mailto:contacto@dearmas.com">Contáctenos</a> |
+        </td>
+    </tr>
+     <tr>
+		<td width="990" align="center" class="foote_texto">
+        	<!-- Otras publicaciones del Bloque Editorial Dearmas: | <a href="http://www.bloquedearmas.com/fascinacion/">Fascinación</a> | <a href="http://www.bloquedearmas.com/ronda/">Ronda</a> |  <a href="http://www.bloquedearmas.com/variedades/">Variedades</a> | <a href="http://www.bloquedearmas.com/toomuch/">Too Much</a> | !-->
+        </td>
+    </tr>
+     <tr>
+		<td width="990" align="center" class="foote_texto">
+        	© Copyright 1996 - 2019 Todos los derechos reservados a www.2001.com.ve.
+        </td>
+    </tr>
+     <tr>
+		<td width="990" align="center" class="foote_texto">
+        	Bloque Editorial Dearmas
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<div style="height:10px;">&nbsp;</div>
+        </td>
+    </tr>
+     <tr>
+		<td width="990" align="center" class="foote_texto">
+        	<table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+            	<td valign="top">Otros sitios  de inter&eacute;s</td>
+                <td><img src="http://www.2001.com.ve/imagenes_botones/logos_empresas.jpg" /></td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+    
+<tr>
+    	<td>
+        	<div style="height:5px;">&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<img src="http://www.2001.com.ve/imagenes_botones/footer_final.jpg"  />
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<div style="height:5px;">&nbsp;</div>
+        </td>
+    </tr> 
+
+</table>
+<map name="Sitio_interer" id="Sitio_interer">
+  <area shape="rect" coords="17,4,78,57" href="http://www.bloquedearmas.com/" target="_blank" alt="Bloque deArmas" title="Bloque deArmas" />
+  <area shape="rect" coords="103,2,181,59" href="http://www.meridiano.com.ve/programacion_mtv.php" target="_blank" alt="Programación MTV" title="Programación MTV" />
+  <area shape="rect" coords="196,3,304,51" href="http://www.meridiano.com.ve/" target="_blank" alt="Meridiano.com.ve" title="Meridiano.com.ve" />
+</map>
+
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+
+<!--
+<script>
+
+    // Load the classic theme
+    Galleria.loadTheme('http://www.2001.com.ve/logica/galerias/galleria.classic1.js');
+
+    </script>
+!-->
+<script src="http://www.2001.com.ve/logica/galerias/galleria.classic1.js"></script>
+<script src="http://www.2001.com.ve/js/lazysizes.min.js"></script>
+
+
+
+
+</body>
+</html>
+

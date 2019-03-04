@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","beacon":"bam.nr-data.net","transactionName":"ZwRUbERQDUsHVkJdWV5OcE1YUhdRCVsZVUZAT0RLRV8GTxVdQ1YYRghTT0ULAkoSXFVYUw==","agent":"","queueTime":1,"applicationTime":331,"applicationID":"206660223","licenseKey":"8c66ac5a08"}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="og:type" content="article" />
+<meta name="og:url" content="http://rssnewshub.com/-/mexico-border-towns-overwhelmed-as-trump-policy-le-92" />
+<meta name="og:title" content="
+Mexico border towns overwhelmed as Trump policy leaves migrants in limbo
+" />
+<meta name="og:image" content="http://i.guim.co.uk/img/media/14d97ee4a8b83f76c9973549776c1d014148d7a3/0_0_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=b851c2e879918a12b1c0dcb4361671b6" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@rssnewshub" />
+<meta name="twitter:creator" content="@rssnewshub">
+<meta name="twitter:title" content="
+Mexico border towns overwhelmed as Trump policy leaves migrants in limbo
+" />
+<meta name="twitter:description" content="Caravans receive rough welcomes at towns like Piedras Negras where locals are suspicious and officials struggle to house 1,700 newcomers
+Rows of federal police in riot gear faced the former factory in the Mexican borderlands, as soldiers watched on from the gun turrets on a pair of Humvees.
+But the armed men weren’t preparing for an operation in the country’s bloody drug wars: they were guarding a group of 1,700 Central American migrants who were hoping to reach the US. Continue reading" />
+<meta name="twitter:image" content="http://i.guim.co.uk/img/media/14d97ee4a8b83f76c9973549776c1d014148d7a3/0_0_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=b851c2e879918a12b1c0dcb4361671b6" />
+<meta name="twitter:url" content="http://rssnewshub.com/-/mexico-border-towns-overwhelmed-as-trump-policy-le-92" />
+<meta name="description" content="Caravans receive rough welcomes at towns like Piedras Negras where locals are suspicious and officials struggle to house 1,700 newcomers
+Rows of federal police in riot gear faced the former factory in the Mexican borderlands, as soldiers watched on from the gun turrets on a pair of Humvees.
+But the armed men weren’t preparing for an operation in the country’s bloody drug wars: they were guarding a group of 1,700 Central American migrants who were hoping to reach the US. Continue reading">
+<meta name="keywords" content="Americas,US immigration,Mexico,World news,world,news">
+<meta name="news_keywords" content="Americas,US immigration,Mexico,World news,world,news">
+<link rel="shortcut icon" href="http://www.iconj.com/ico/y/4/y40mixclok.ico" type="image/x-icon" />
+<title>
+Mexico border towns overwhelmed as Trump policy leaves migrants in limbo
+</title>
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://rssnewshub.s3.dualstack.us-east-1.amazonaws.com/static/css/98hefochwe9.css?9f1d056e">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://rssnewshub.s3.dualstack.us-east-1.amazonaws.com/static/js/dw892uid1oiwhd.js?26178972"></script>
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" href="/">
+<img alt="RSS News Hub" src="https://rssnewshub.s3.dualstack.us-east-1.amazonaws.com/static/rnh/favicon-96x96.png">
+</a>
+<p class="navbar-text navbar-left"><a href="/">RSS News Hub</a></p>
+</div>
+<div id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+In World News
+<i class="fa fa-bars"></i>
+</a>
+<ul class="dropdown-menu navbar-collapse">
+<li>
+<a href="/category/top">Top</a>
+</li>
+<li>
+<a href="/category/trending">Trending</a>
+</li>
+<li>
+<a href="/category/entertainment">Entertainment</a>
+</li>
+<li>
+<a href="/category/fashion">Fashion</a>
+</li>
+<li class="active">
+<a href="/category/world">World</a>
+</li>
+<li>
+<a href="/category/opinions">Opinions</a>
+</li>
+<li>
+<a href="/category/sports">Sports</a>
+</li>
+<li>
+<a href="/category/tech">Tech</a>
+</li>
+<li>
+<a href="/category/USA">USA</a>
+</li>
+<li>
+ <a href="/category/inspiring">Inspiring</a>
+</li>
+<li>
+<a href="/category/politics">Politics</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+<div class="container details">
+<div class="row">
+<div class="col-md-8">
+<article>
+<header>
+<h1>
+<a href="http://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town" rel="nofollow" title="Redirects to The Guardian" class="external">Mexico border towns overwhelmed as Trump policy leaves migrants in limbo</a>
+<br>
+<small>
+The Guardian
+- <time datetime="2019-02-10T08:00:34.000Z">2019-02-10T08:00:34.000Z</time>
+</small>
+</h1>
+</header>
+<p class="hero"><a href="http://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town" rel="nofollow" title="Redirects to The Guardian" class="external"><img class="img-responsive" content="http://i.guim.co.uk/img/media/14d97ee4a8b83f76c9973549776c1d014148d7a3/0_0_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=b851c2e879918a12b1c0dcb4361671b6" src="http://i.guim.co.uk/img/media/14d97ee4a8b83f76c9973549776c1d014148d7a3/0_0_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=b851c2e879918a12b1c0dcb4361671b6"></a></p>
+<p>Caravans receive rough welcomes at towns like Piedras Negras where locals are suspicious and officials struggle to house 1,700 newcomers</p>
+<p>Rows of federal police in riot gear faced the former factory in the Mexican borderlands, as soldiers watched on from the gun turrets on a pair of Humvees.</p>
+<p>But the armed men weren’t preparing for an operation in the country’s bloody drug wars: they were guarding a group of 1,700 Central American migrants who were hoping to reach the US. Continue reading</p>
+<div class="keywords well">
+<ul class="list-inline">
+<li>tags:</li>
+<li><a href="/tag/Americas" rel="tag" class="keyword" title="More articles with keyword, Americas">Americas</a></li>
+<li><a href="/tag/US%20immigration" rel="tag" class="keyword" title="More articles with keyword, US immigration">US immigration</a></li>
+<li><a href="/tag/Mexico" rel="tag" class="keyword" title="More articles with keyword, Mexico">Mexico</a></li>
+<li><a href="/tag/World%20news" rel="tag" class="keyword" title="More articles with keyword, World news">World news</a></li>
+</ul>
+<input type="hidden" name="IL_IN_TAG" value="2" />
+</div>
+<ul class="nav nav-pills nav-justified">
+<li><a href="http://www.theguardian.com/us-news/2019/feb/10/trump-asylum-migrants-mexico-border-town" rel="nofollow" title="Redirects to The Guardian" class="external">
+Full Article
+</a></li>
+
+<li><a href="/category/world">
+More World
+</a></li>
+<li><a href="/site/The%20Guardian">
+More from The Guardian
+</a></li>
+</ul>
+<hr>
+</article>
+<section>
+<div id="contentad359185"></div>
+<script type="text/javascript">
+                    (function(d) {
+                        var params =
+                        {
+                            id: "9c955b06-a229-4965-85b7-cc50c8b9eb3c",
+                            d:  "cnNzbmV3c2h1Yi5jb20=",
+                            wid: "359185",
+                            cb: (new Date()).getTime()
+                        };
+
+                        var qs=[];
+                        for(var key in params) qs.push(key+'='+encodeURIComponent(params[key]));
+                        var s = d.createElement('script');s.type='text/javascript';s.async=true;
+                        var p = 'https:' == document.location.protocol ? 'https' : 'http';
+                        s.src = p + "://api.content-ad.net/Scripts/widget2.aspx?" + qs.join('&');
+                        d.getElementById("contentad359185").appendChild(s);
+                    })(document);
+                </script>
+<input type="hidden" name="IL_IN_ARTICLE">
+<h3>In related news</h3>
+<ul class="list-unstyled">
+<li data-hits="1" class="article-long">
+<h3><a href="/-/trumps-claim-that-mexico-sent-migrants-to-the-bor-28">
+Trump’s Claim That Mexico Sent Migrants to the Border Is Partly True
+</a></h3>
+<p>One Mexican state recently helped migrants reach a city on the border with Texas. Cities and other states helped in the past — for humanitarian reasons.</p>
+<ul class="list-inline mini">
+<li><a href="/--/trumps-claim-that-mexico-sent-migrants-to-the-bor-28">Related Articles</a></li>
+<li><a href="/category/USA">In USA</a></li>
+<li><a href="/site/The%20New%20York%20Times">From The New York Times</a></li>
+<li><time datetime="2019-02-06T18:00:05.000Z">2019-02-06T18:00:05.000Z</time></li>
+</ul>
+<hr>
+</li><li data-hits="5" class="article-long">
+<h3><a href="/-/mayor-of-mexico-border-city-dubbed-tijuana-trump-34">
+Mayor of Mexico border city dubbed 'Tijuana Trump' blasts caravan migrants, calls them 'bums' and 'pot smokers'
+</a></h3>
+<p>Called “Tijuana Trump,” Tijuana Mayor Juan Manuel Gastelum repeatedly has expressed his objections to the caravan and called for its organizers to be identified and prosecuted for taking advantage of desperate people and putting their lives at risk.</p>
+<ul class="list-inline mini">
+<li><a href="/--/mayor-of-mexico-border-city-dubbed-tijuana-trump-34">Related Articles</a></li>
+<li><a href="/category/USA">In USA</a></li>
+<li><a href="/site/FOX%20News">From FOX News</a></li>
+<li><time datetime="2019-02-05T20:00:34.000Z">2019-02-05T20:00:34.000Z</time></li>
+</ul>
+<hr>
+</li><li data-hits="5" class="article-long">
+<h3><a href="/-/new-mexico-s-governor-says-trump-s-border-crisis-d-9">
+New Mexico's governor says Trump's border crisis does not exist, orders National Guard off border
+</a></h3>
+<p>On Tuesday, New Mexico’s newly elected Democratic Governor Michelle Lujan Grisham ordered the withdrawal of the “majority of National Guard troops currently deployed to the state&#39;s southern border with Mexico,” according to ABC News affiliate KVIA. In a statement released to the news media, Lujan Grisham said she rejected Trump’s insistence that there is a pressing security crisis at the border, pointing out that the border towns in her area are some of the safest communities in the country....</p>
+<ul class="list-inline mini">
+<li><a href="/--/new-mexico-s-governor-says-trump-s-border-crisis-d-9">Related Articles</a></li>
+<li><a href="/category/opinions">In Opinions</a></li>
+<li><a href="/site/Daily%20Kos">From Daily Kos</a></li>
+<li><time datetime="2019-02-08T03:30:07.000Z">2019-02-08T03:30:07.000Z</time></li>
+</ul>
+<hr>
+</li>
+</ul>
+</section>
+</div>
+<div class="col-md-4">
+<aside>
+<h3>More related news</h3>
+<ul class="list-unstyled">
+<li class="article-line">
+<h5><a href="/-/new-mexico-governor-pulls-national-guard-from-sout-65">New Mexico governor pulls National Guard from southern border, citing Trump's 'charade of border fear-mongering'</a>
+<small>- <time datetime="2019-02-06T21:50:00.000Z">2019-02-06T21:50:00.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/new-mexico-governor-pulls-national-guard-from-sout-47">New Mexico governor pulls National Guard from southern border, citing Trump's 'charade of border fear-mongering'</a>
+<small>- <time datetime="2019-02-06T13:50:00.000Z">2019-02-06T13:50:00.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/migrant-caravan-arrives-at-town-on-texas-border-81">Migrant caravan arrives at town on Texas border</a>
+<small>- <time datetime="2019-02-05T21:05:45.000Z">2019-02-05T21:05:45.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/migrant-caravan-reaches-town-on-texas-border-26">Migrant caravan reaches town on Texas border</a>
+<small>- <time datetime="2019-02-05T18:05:46.000Z">2019-02-05T18:05:46.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/migrant-caravan-reaches-town-on-texas-border-90">Migrant caravan reaches town on Texas border</a>
+<small>- <time datetime="2019-02-05T16:56:00.000Z">2019-02-05T16:56:00.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/migrant-caravan-reaches-town-on-texas-border-85">Migrant caravan reaches town on Texas border</a>
+<small>- <time datetime="2019-02-05T15:36:12.000Z">2019-02-05T15:36:12.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/migrant-caravan-reaches-town-on-texas-border-34">Migrant caravan reaches town on Texas border</a>
+<small>- <time datetime="2019-02-05T12:34:11.000Z">2019-02-05T12:34:11.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/mexico-border-wall-trump-faces-fight-in-the-court-73">Mexico border wall: Trump faces fight in the courts</a>
+<small>- <time datetime="2019-02-16T10:49:54.000Z">2019-02-16T10:49:54.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/311-migrants-arrested-at-new-mexico-border-crossin-31">311 migrants arrested at New Mexico border crossing</a>
+<small>- <time datetime="2019-02-12T23:38:32.000Z">2019-02-12T23:38:32.000Z</time></small></h5>
+</li>
+</ul>
+<h3>More World</h3>
+<ul class="list-unstyled">
+<li class="article-line">
+<h5><a href="/-/no-deal-brexit-could-disrupt-london-commuter-trai-74">No-deal Brexit 'could disrupt London commuter trains'</a>
+<small>- <time datetime="2019-02-21T17:19:18.000Z">2019-02-21T17:19:18.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/shamima-begum-citizenship-decision-sets-a-dangerou-5">Shamima Begum citizenship decision sets a dangerous precedent</a>
+<small>- <time datetime="2019-02-21T17:08:48.000Z">2019-02-21T17:08:48.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/global-champions-league-new-look-teams-for-2019-53">Global Champions League: New-look teams for 2019</a>
+<small>- <time datetime="2019-02-21T17:03:57.000Z">2019-02-21T17:03:57.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/saudi-scholar-my-father-faces-the-death-penalty-i-36">Saudi Scholar: My Father Faces the Death Penalty in Saudi Arabia for Supporting Human Rights</a>
+<small>- <time datetime="2019-02-21T17:01:09.576Z">2019-02-21T17:01:09.576Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/eastern-libyan-military-forces-claim-control-of-el-38">Eastern Libyan military forces claim control of El Feel oilfield: spokesman</a>
+<small>- <time datetime="2019-02-21T17:00:34.000Z">2019-02-21T17:00:34.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/labor-will-allow-bank-victims-to-reopen-cases-and-67">Labor will allow bank victims to reopen cases and lift claims cap to $2m</a>
+<small>- <time datetime="2019-02-21T17:00:00.000Z">2019-02-21T17:00:00.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/the-latest-officials-try-to-verify-french-is-memb-47">The Latest: Officials try to verify French IS member's death</a>
+<small>- <time datetime="2019-02-21T16:54:50.000Z">2019-02-21T16:54:50.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/live-president-calls-empire-actor-jussie-smollett-52">LIVE: President calls Empire actor Jussie Smollett's attack claims 'racist' after rant about 6G technology</a>
+<small>- <time datetime="2019-02-21T16:54:35.000Z">2019-02-21T16:54:35.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/new-york-city-to-repay-5-3m-in-hurricane-relief-f-16">New York City to repay $5.3m in hurricane relief fraud</a>
+<small>- <time datetime="2019-02-21T16:53:30.000Z">2019-02-21T16:53:30.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/refugee-actor-invited-to-perform-migration-play-in-42">Refugee actor invited to perform migration play in Malta barred entry by immigration officials</a>
+<small>- <time datetime="2019-02-21T16:49:45.000Z">2019-02-21T16:49:45.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/kenya-court-set-to-rule-on-whether-to-scrap-anti-g-12">Kenya court set to rule on whether to scrap anti-gay laws</a>
+<small>- <time datetime="2019-02-21T16:48:19.000Z">2019-02-21T16:48:19.000Z</time></small></h5>
+</li><li class="article-line">
+<h5><a href="/-/peter-tork-death-monkees-singer-dies-after-being-35">Peter Tork death: Monkees singer dies after being diagnosed with rare tongue disease, aged 77</a>
+<small>- <time datetime="2019-02-21T16:47:24.000Z">2019-02-21T16:47:24.000Z</time></small></h5>
+</li>
+</ul>
+</aside>
+</div>
+</div>
+<footer>
+<ul class="nav nav-pills nav-justified">
+<li><a href="/--/mexico-border-towns-overwhelmed-as-trump-policy-le-92" rel="next">More Related</a></li>
+</ul>
+</footer>
+</div>
+
+<footer class="main">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<p>Subscribe to our <a href="/feed/latest" rel="nofollow">RSS Feed <i class="fa fa-rss"></i></a></p>
+<p>RSS News Hub is a news aggregate site where you can browse all the latest news by topic, trends and see what other sites are posting about it.</p>
+<p>Copyright &copy; RSS News Hub. All trademarks, service marks, trade names, trade dress, product names, images and logos appearing on the site are the property of their respective owners.</p>
+<p>By using this website, you agree to our <a href="/terms_of_use" rel="nofollow">terms of use</a> and <a href="/privacy_policy" rel="nofollow">privacy policy</a>.</p>
+</div>
+<div class="col-sm-6">
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript">$.post(window.location.pathname);</script>
+</body>
+</html>

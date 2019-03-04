@@ -1,0 +1,1497 @@
+<!doctype html>
+<html lang="es-GT">
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>Arrestos de migrantes dentro de EE. UU. aumentan en la era Trump &#8211; Prensa Libre</title>
+		<!-- Piano Script -->
+		<script>
+      tp = window.tp || [];
+      tp.push(["setAid", 'NWrSQaQjFd']);
+      tp.push(["setSandbox", false]);
+      tp.push(["setUseTinypassAccounts", false]);
+      tp.push( [ "addHandler", "loginRequired", function ( params ) {
+        document.cookie = "__pianoParams=" + JSON.stringify( params ) + "; path=/; domain=.prensalibre.com";
+      }]);
+      (function(src) {
+        var a = document.createElement("script");
+        a.type = "text/javascript";
+        a.async = true;
+        a.src = src;
+        var b = document.getElementsByTagName("script")[0];
+        b.parentNode.insertBefore(a, b)
+      })("//cdn.tinypass.com/api/tinypass.min.js");
+		</script>
+		<!-- End Piano Script -->
+		    
+    <!--favicon-->
+	<link href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+	<link href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/favicon.ico" type="image/x-icon" rel="icon"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/favicon/favicon-16x16.png">
+    <!--end favicon -->
+	<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Prensa Libre &raquo; Feed" href="https://www.prensalibre.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Prensa Libre &raquo; RSS de los comentarios" href="https://www.prensalibre.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Prensa Libre &raquo; iCal Feed" href="https://www.prensalibre.com/agenda/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="Prensa Libre &raquo; Arrestos de migrantes dentro de EE. UU. aumentan en la era Trump RSS de los comentarios" href="https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.prensalibre.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0' href='https://www.prensalibre.com/_static/??-eJylkstu3DAMRX8otiVZ1GMR5FtIipqqkR+wZRTz9/UkmaBAZ1FMd5J476GIy+HX2vEyN5nbsNbjUuZ9wNRVvMq2D7z/cetSXvvz5WX4d8+3vsxcjySf5VT2NlBd+L2rhTbcrsPerlX6qcx/dWg/ZDp96ybzjje5DFzLrUJHqekDyMs0LXNvQAhsUCIxKGsgREKKxqiUo84Wn+Zf6kJYe03IUTFomzV5k+LoR49Za5tUduCe5uNF5oT9yY5ZcdBJk5JRBxalk7eBWFgcPP9/rLIVXJetYcK9DzyqxDag1pmAHYjRjpgiBhVFPx8Ebq3wGSTEE2nAujEpB0aPyHALw4NYp7z/n0nOUa69cSkRmDGO1p5oq4VUUh4jgFPZm4cN7svakKp0Z5/9ax8l41HbQ890dHfbT2kr8vuH5et8k79NrxpAuRijj78BQygolA==' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var adLayersDFP = {"layerDebugLabel":"Current ad layer","consoleDebugLabel":"Switch to Google console","adUnitPrefix":"div-gpt-ad-"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var adLayersAdServer = {"jsAPIClass":"AdLayersDFPAPI"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.prensalibre.com/_static/??-eJylkttqhTAQRX+oxlyN81D6LZNkYiMxeqJSzt9XS9uHQyktQmAYZq/Nekj7tjSp+LwHWtvxeLed6v1zsHF9an8LNFMaKm7EplS+wn4uG5WtXfI+pLK2GJqMd6of9PfShLj8j3hMb680HUpLpbJiTq5S63M6L25POZysn6dpLiwaJQGEk8Ja4Fy6jnrm9hLyj+J/KB7y7DAzjcoqITxEJZzyoK0P14pxoBKQcZIR+gAKuOgVFyRAXzTGTDXhMtcNA67MS4edDB0npXXvpQwxXlSvW/IH7US0ZJyMxtjeKu4pqsvu+fyNPQal41HttItobPT2ofllehbG8A4ALIzvzpYETQ=='></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.prensalibre.com/wp-content/themes/prensalibre/inc/prebid/js/prebid2.0.0.js?m=1549907795g'></script>
+<link rel='https://api.w.org/' href='https://www.prensalibre.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.prensalibre.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.prensalibre.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<link rel="canonical" href="https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/" />
+<link rel='shortlink' href='https://wp.me/pahLsT-8pvR' />
+<link rel="alternate" type="application/json+oembed" href="https://www.prensalibre.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.prensalibre.com%2Fguatemala%2Fmigrantes%2Fdetenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.prensalibre.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.prensalibre.com%2Fguatemala%2Fmigrantes%2Fdetenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump%2F&#038;format=xml" />
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+		<script type="text/javascript">
+			var _sf_async_config = _sf_async_config || {};
+			_sf_async_config.uid = 65187;
+			_sf_async_config.domain = "prensalibre.com";
+			_sf_async_config.useCanonical = true;
+		</script>
+		<script src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+				<meta property="fb:pages" content="345419408148" />
+			<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.prensalibre.com"><link rel="https://theeventscalendar.com/" href="https://www.prensalibre.com/wp-json/tribe/events/v1/" />
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+			<script>
+			window.dataLayer = window.dataLayer || [];
+			window.dataLayer.push(
+				[]			);
+		</script>
+			<script src="https://cdn.gravitec.net/storage/9609a7b42a20db0b24d9efcdf2e8c786/client.js" async></script>
+	    <!-- PREBID SCRIPT -->
+    <script>
+      // SIZES
+	        var pl_bll_1_sizes =[[728,90],[970,90],[970,250],[1200,300],[728,250],[300,100],[300,250],[300,50],[320,100],[320,50],];
+	        var pl_bx_1_sizes =[[250,250],[300,250],];
+	        var pl_bx_2_sizes =[[250,250],[300,250],];
+	        var pl_bx_3_sizes =[[250,250],[300,250],];
+	        var pl_bx_4_sizes =[[250,250],[300,250],];
+	        var pl_dbx_sizes =[[120,600],[160,600],[300,600],[240,400],[300,250],];
+	        var pl_ft_sizes =[[970,90],[1200,100],[728,90],[300,100],[300,50],[320,100],[320,50],];
+	        var pl_ga_1_sizes =[[250,250],[300,250],];
+	        var pl_ga_2_sizes =[[250,250],[300,250],];
+	        var pl_ga_3_sizes =[[250,250],[300,250],];
+	        var pl_hd_sizes =[[970,90],[1200,100],[728,90],[300,100],[300,50],[320,100],[320,50],];
+	        var pl_inl_sizes =[[10,10],];
+	        var pl_ldb_sizes =[[970,90],[1200,100],[320,50],[728,90],[300,100],[300,50],[320,100],];
+	  
+      // UNITS
+      var adUnits = [
+{code: '55904062/pl_bll_1', mediaTypes: {banner: {sizes: pl_bll_1_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_bx_1', mediaTypes: {banner: {sizes: pl_bx_1_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_bx_2', mediaTypes: {banner: {sizes: pl_bx_2_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_bx_3', mediaTypes: {banner: {sizes: pl_bx_3_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_bx_4', mediaTypes: {banner: {sizes: pl_bx_4_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_dbx', mediaTypes: {banner: {sizes: pl_dbx_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_ft', mediaTypes: {banner: {sizes: pl_ft_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_ga_1', mediaTypes: {banner: {sizes: pl_ga_1_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_ga_2', mediaTypes: {banner: {sizes: pl_ga_2_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_ga_3', mediaTypes: {banner: {sizes: pl_ga_3_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_hd', mediaTypes: {banner: {sizes: pl_hd_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_inl', mediaTypes: {banner: {sizes: pl_inl_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]},
+{code: '55904062/pl_ldb', mediaTypes: {banner: {sizes: pl_ldb_sizes,}},bids: [{bidder: 'eplanning',params: {ci: '2765b'}}]}      ];
+    </script>
+    <!-- END PREBID -->
+								<script type='text/javascript'>
+				var dfpAdUnits = {};
+				var googletag = googletag || {};
+				googletag.cmd = googletag.cmd || [];
+				(function() {
+				var gads = document.createElement('script');
+				gads.async = true;
+				gads.type = 'text/javascript';
+				var useSSL = 'https:' == document.location.protocol;
+				gads.src = (useSSL ? 'https:' : 'http:') +
+				'//www.googletagservices.com/tag/js/gpt.js';
+				var node = document.getElementsByTagName('script')[0];
+				node.parentNode.insertBefore(gads, node);
+				})();
+				</script>
+									<script type="text/javascript">
+			var dfpBuiltMappings = {}, dfpAdUnits = {};
+			googletag.cmd.push(function() {
+				dfpBuiltMappings["pl_bll_1"] = googletag.sizeMapping().addSize([1224,1],[[728,90],[970,90],[970,250],[1200,300]]).addSize([768,1],[[728,90],[728,250]]).addSize([320,1],[[300,100],[300,250],[300,50],[320,100],[320,50]]).build();
+dfpBuiltMappings["pl_bx_1"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_bx_2"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_bx_3"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_bx_4"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_dbx"] = googletag.sizeMapping().addSize([1224,1],[[120,600],[160,600],[300,600],[240,400]]).addSize([768,1],[[120,600],[160,600],[300,250],[300,600],[240,400]]).addSize([320,1],[[120,600],[160,600],[300,250],[300,600],[240,400]]).build();
+dfpBuiltMappings["pl_ft"] = googletag.sizeMapping().addSize([1224,1],[[970,90],[1200,100]]).addSize([768,1],[[728,90]]).addSize([320,1],[[300,100],[300,50],[320,100],[320,50]]).build();
+dfpBuiltMappings["pl_ga_1"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_ga_2"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_ga_3"] = googletag.sizeMapping().addSize([1224,1],[[250,250],[300,250]]).addSize([768,1],[[250,250],[300,250]]).addSize([320,1],[[250,250],[300,250]]).build();
+dfpBuiltMappings["pl_hd"] = googletag.sizeMapping().addSize([1224,1],[[970,90],[1200,100]]).addSize([768,1],[[728,90]]).addSize([320,1],[[300,100],[300,50],[320,100],[320,50]]).build();
+dfpBuiltMappings["pl_inl"] = googletag.sizeMapping().addSize([1224,1],[[10,10]]).addSize([768,1],[[10,10]]).addSize([320,1],[[10,10]]).build();
+dfpBuiltMappings["pl_ldb"] = googletag.sizeMapping().addSize([1224,1],[[970,90],[1200,100],[320,50]]).addSize([768,1],[[728,90],[320,50]]).addSize([320,1],[[300,100],[300,50],[320,100],[320,50]]).build();
+dfpBuiltMappings["pl_rhcm"] = googletag.sizeMapping().addSize([1224,1],[[1,1]]).addSize([768,1],[[1,1]]).addSize([320,1],[[1,1]]).build();
+dfpBuiltMappings["pl_rhcm_2"] = googletag.sizeMapping().addSize([1224,1],[[1,1]]).addSize([768,1],[[1,1]]).addSize([320,1],[[1,1]]).build();
+dfpAdUnits["pl_rhcm"] = googletag.defineSlot("\/55904062\/pl_rhcm",[1,1],"div-gpt-ad-pl_rhcm").defineSizeMapping(dfpBuiltMappings["pl_rhcm"]).addService(googletag.pubads());
+dfpAdUnits["pl_rhcm_2"] = googletag.defineOutOfPageSlot("\/55904062\/pl_rhcm_2","div-gpt-ad-pl_rhcm_2").addService(googletag.pubads());
+dfpAdUnits["pl_hd"] = googletag.defineSlot("\/55904062\/pl_hd",[1200,100],"div-gpt-ad-pl_hd").defineSizeMapping(dfpBuiltMappings["pl_hd"]).addService(googletag.pubads());
+dfpAdUnits["pl_dbx"] = googletag.defineSlot("\/55904062\/pl_dbx",[240,400],"div-gpt-ad-pl_dbx").defineSizeMapping(dfpBuiltMappings["pl_dbx"]).addService(googletag.pubads());
+dfpAdUnits["pl_inl"] = googletag.defineSlot("\/55904062\/pl_inl",[10,10],"div-gpt-ad-pl_inl").defineSizeMapping(dfpBuiltMappings["pl_inl"]).addService(googletag.pubads());
+dfpAdUnits["pl_bx_1"] = googletag.defineSlot("\/55904062\/pl_bx_1",[300,250],"div-gpt-ad-pl_bx_1").defineSizeMapping(dfpBuiltMappings["pl_bx_1"]).addService(googletag.pubads());
+dfpAdUnits["pl_bx_2"] = googletag.defineSlot("\/55904062\/pl_bx_2",[300,250],"div-gpt-ad-pl_bx_2").defineSizeMapping(dfpBuiltMappings["pl_bx_2"]).addService(googletag.pubads());
+dfpAdUnits["pl_bx_3"] = googletag.defineSlot("\/55904062\/pl_bx_3",[300,250],"div-gpt-ad-pl_bx_3").defineSizeMapping(dfpBuiltMappings["pl_bx_3"]).addService(googletag.pubads());
+dfpAdUnits["pl_bx_4"] = googletag.defineSlot("\/55904062\/pl_bx_4",[300,250],"div-gpt-ad-pl_bx_4").defineSizeMapping(dfpBuiltMappings["pl_bx_4"]).addService(googletag.pubads());
+dfpAdUnits["pl_bll_1"] = googletag.defineSlot("\/55904062\/pl_bll_1",[970,250],"div-gpt-ad-pl_bll_1").defineSizeMapping(dfpBuiltMappings["pl_bll_1"]).addService(googletag.pubads());
+dfpAdUnits["pl_ldb"] = googletag.defineSlot("\/55904062\/pl_ldb",[1200,100],"div-gpt-ad-pl_ldb").defineSizeMapping(dfpBuiltMappings["pl_ldb"]).addService(googletag.pubads());
+dfpAdUnits["pl_ft"] = googletag.defineSlot("\/55904062\/pl_ft",[1200,100],"div-gpt-ad-pl_ft").defineSizeMapping(dfpBuiltMappings["pl_ft"]).addService(googletag.pubads());
+dfpAdUnits["pl_ga_1"] = googletag.defineSlot("\/55904062\/pl_ga_1",[300,250],"div-gpt-ad-pl_ga_1").defineSizeMapping(dfpBuiltMappings["pl_ga_1"]).addService(googletag.pubads());
+dfpAdUnits["pl_ga_2"] = googletag.defineSlot("\/55904062\/pl_ga_2",[300,250],"div-gpt-ad-pl_ga_2").defineSizeMapping(dfpBuiltMappings["pl_ga_2"]).addService(googletag.pubads());
+dfpAdUnits["pl_ga_3"] = googletag.defineSlot("\/55904062\/pl_ga_3",[300,250],"div-gpt-ad-pl_ga_3").defineSizeMapping(dfpBuiltMappings["pl_ga_3"]).addService(googletag.pubads());
+googletag.pubads().setTargeting("pl_section",["migrantes"]).setTargeting("pl_page_type",["nota"]).setTargeting("pl_tag",["donald-trump","estados-unidos","migracion","migrantes"]).setTargeting("CxSegments",cX.getUserSegmentIds( {persistedQueryId:'16b6765bc37fe772b1ce242df2dceec4a3715e96'} ));
+googletag.pubads().enableAsyncRendering();
+googletag.pubads().collapseEmptyDivs();
+googletag.pubads().disableInitialLoad();
+				if ( typeof AdLayersAPI === 'undefined' || ! AdLayersAPI.isDebug() ) {
+					googletag.enableServices();
+				}
+			});
+			
+    var PREBID_TIMEOUT = 1000;
+    var FAILSAFE_TIMEOUT = 3000;
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs . que || [];
+    pbjs.que.push( function () {
+    pbjs.addAdUnits( adUnits );
+    pbjs.requestBids({
+    bidsBackHandler: initAdserver,
+    timeout: PREBID_TIMEOUT
+    });
+    });
+
+    function initAdserver() {
+    if ( pbjs . initAdserverSet ) {
+    return;
+    }
+    pbjs.initAdserverSet = true;
+    googletag.cmd.push( function () {
+    pbjs.que.push( function () {
+    pbjs.setTargetingForGPTAsync();
+    googletag.pubads().refresh();
+    } );
+    } );
+    }
+
+    // in case PBJS doesn't load
+
+    setTimeout( function () {
+    initAdserver();
+    }, FAILSAFE_TIMEOUT );
+
+			var dfpSizeMapping = {"pl_bll_1":[[[1224,1],[[728,90],[970,90],[970,250],[1200,300]]],[[768,1],[[728,90],[728,250]]],[[320,1],[[300,100],[300,250],[300,50],[320,100],[320,50]]]],"pl_bx_1":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_bx_2":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_bx_3":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_bx_4":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_dbx":[[[1224,1],[[120,600],[160,600],[300,600],[240,400]]],[[768,1],[[120,600],[160,600],[300,250],[300,600],[240,400]]],[[320,1],[[120,600],[160,600],[300,250],[300,600],[240,400]]]],"pl_ft":[[[1224,1],[[970,90],[1200,100]]],[[768,1],[[728,90]]],[[320,1],[[300,100],[300,50],[320,100],[320,50]]]],"pl_ga_1":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_ga_2":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_ga_3":[[[1224,1],[[250,250],[300,250]]],[[768,1],[[250,250],[300,250]]],[[320,1],[[250,250],[300,250]]]],"pl_hd":[[[1224,1],[[970,90],[1200,100]]],[[768,1],[[728,90]]],[[320,1],[[300,100],[300,50],[320,100],[320,50]]]],"pl_inl":[[[1224,1],[[10,10]]],[[768,1],[[10,10]]],[[320,1],[[10,10]]]],"pl_ldb":[[[1224,1],[[970,90],[1200,100],[320,50]]],[[768,1],[[728,90],[320,50]]],[[320,1],[[300,100],[300,50],[320,100],[320,50]]]],"pl_rhcm":[[[1224,1],[[1,1]]],[[768,1],[[1,1]]],[[320,1],[[1,1]]]],"pl_rhcm_2":[[[1224,1],[[1,1]]],[[768,1],[[1,1]]],[[320,1],[[1,1]]]]};
+			var dfpAdLayer = {"post_id":1736726,"title":"Notas"};
+			var dfpAdDetails = {"pl_rhcm":{"path":"\/55904062\/pl_rhcm","sizes":[1,1],"targeting":[]},"pl_rhcm_2":{"path":"\/55904062\/pl_rhcm_2","sizes":[1,1],"targeting":[]},"pl_hd":{"path":"\/55904062\/pl_hd","sizes":[1200,100],"targeting":[]},"pl_dbx":{"path":"\/55904062\/pl_dbx","sizes":[240,400],"targeting":[]},"pl_inl":{"path":"\/55904062\/pl_inl","sizes":[10,10],"targeting":[]},"pl_bx_1":{"path":"\/55904062\/pl_bx_1","sizes":[300,250],"targeting":[]},"pl_bx_2":{"path":"\/55904062\/pl_bx_2","sizes":[300,250],"targeting":[]},"pl_bx_3":{"path":"\/55904062\/pl_bx_3","sizes":[300,250],"targeting":[]},"pl_bx_4":{"path":"\/55904062\/pl_bx_4","sizes":[300,250],"targeting":[]},"pl_bll_1":{"path":"\/55904062\/pl_bll_1","sizes":[970,250],"targeting":[]},"pl_ldb":{"path":"\/55904062\/pl_ldb","sizes":[1200,100],"targeting":[]},"pl_ft":{"path":"\/55904062\/pl_ft","sizes":[1200,100],"targeting":[]},"pl_ga_1":{"path":"\/55904062\/pl_ga_1","sizes":[300,250],"targeting":[]},"pl_ga_2":{"path":"\/55904062\/pl_ga_2","sizes":[300,250],"targeting":[]},"pl_ga_3":{"path":"\/55904062\/pl_ga_3","sizes":[300,250],"targeting":[]}};
+			</script>
+			
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Arrestos de migrantes dentro de EE. UU. aumentan en la era Trump" />
+<meta property="og:url" content="https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/" />
+<meta property="og:description" content="Los guatemaltecos que viven en EE. UU. de manera irregular se las han tenido que ingeniar en los últimos años para llevar a cabo sus actividades con precaución, puesto que en muchos estados las aut…" />
+<meta property="article:published_time" content="2019-02-09T11:00:30+00:00" />
+<meta property="article:modified_time" content="2019-02-09T05:19:18+00:00" />
+<meta property="og:site_name" content="Prensa Libre" />
+<meta property="og:image" content="https://www.prensalibre.com/wp-content/uploads/2018/12/a92dac37-175d-4cb3-9eee-48c51238a93e.jpg?quality=82" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="586" />
+<meta property="og:locale" content="es_LA" />
+<meta name="twitter:creator" content="@prensa_libre" />
+<meta name="twitter:site" content="@prensa_libre" />
+<meta name="twitter:text:title" content="Arrestos de migrantes dentro de EE. UU. aumentan en la era Trump" />
+<meta name="twitter:image" content="https://www.prensalibre.com/wp-content/uploads/2018/12/a92dac37-175d-4cb3-9eee-48c51238a93e.jpg?quality=82&#038;w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+	<!-- Cxsense -->
+	<script type="text/javascript" src='https://cdn.cxense.com/cx.js'></script>
+
+	<script type="text/javascript">
+	  var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+	  cX.callQueue.push(['setSiteId', '1144065291826789674' ]);
+	  cX.callQueue.push(['getUserSegmentIds', {
+		persistedQueryId: '16b6765bc37fe772b1ce242df2dceec4a3715e96',
+		callback: function(segments) {
+		  try{
+			if((segments != null)){
+			  var date = new Date();
+			  date.setTime(date.getTime() + (180 * 24 * 60 * 60 * 1000));
+			  var expires = "; expires=" + date.toGMTString();
+			  document.cookie = "cxSegmentos" + "=" + segments.join('|') + expires + ";path = /;domain = " + cX.getTopLevelDomain();
+			}
+		  }catch(e){console.log("cxCookie error:" + e)}
+		}
+	  }]);
+	  var email = cX.getCookie("login_username");
+	  if (email != null) {
+		cX.callQueue.push(["addExternalId", {"id": email, "type":"pli"}]);
+	  }
+	  cX.callQueue.push(['sendPageViewEvent']);
+	</script>
+	<!-- Fin Cxsense -->
+			<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-MWWQQW7');</script>
+		<!-- End Google Tag Manager -->
+		<link rel="icon" href="https://www.prensalibre.com/wp-content/uploads/2019/01/cropped-PLico.png?quality=82&#038;w=32" sizes="32x32" />
+<link rel="icon" href="https://www.prensalibre.com/wp-content/uploads/2019/01/cropped-PLico.png?quality=82&#038;w=192" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.prensalibre.com/wp-content/uploads/2019/01/cropped-PLico.png?quality=82&#038;w=180" />
+<meta name="msapplication-TileImage" content="https://www.prensalibre.com/wp-content/uploads/2019/01/cropped-PLico.png?quality=82&#038;w=270" />
+			<style type="text/css" id="wp-custom-css">
+				.module-agenda__5{
+	overflow: hidden!important;
+}
+.module-agenda__5 img{
+	max-width: 100vw!important;
+}
+.main-footer .wrapper {
+	padding-left: 0;
+  padding-right:0;
+}
+/*.art-tools.i.inline-tools.g {margin:0px;}
+/*relacionadas agenda*/
+@media (max-width: 600px){ 
+.tribe-events-single ul.tribe-related-events li .tribe-related-event-info {    width: 100%;}
+	.tribe-events-single ul.tribe-related-events .tribe-related-events-thumbnail {width:100%;}
+	}
+
+.art-tools.i.inline-tools.g {
+	margin: 0;
+}			</style>
+		</head>
+
+<body class="post-template-default single single-post postid-2004699 single-format-standard wp-custom-logo tribe-no-js">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Saltar al contenido</a>
+
+	<div id="div-gpt-ad-pl_hd" class="dfp-ad dfp-pl_hd" data-ad-unit="pl_hd">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_hd"); } );
+						}
+					</script>
+				</div>
+<header class="masthead site-header" data-component="siteHeader">
+	
+<div class="wrapper">
+	
+<p class="update ">
+	Actualizado 12:22h</p>
+
+	<div class="fo_container_header fo_nav-bar" style="margin-top:15px;">
+		<button id="toggle-mobile-main-nav" class="menu menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<span class="icon icon-menu"></span>
+		</button>
+
+		
+<div class="fo_logo">
+	<a class="logo" href="https://www.prensalibre.com/">
+		<img width="400" height="85" src="https://www.prensalibre.com/wp-content/uploads/2019/01/prensa-libre.png?quality=82" class="pl-logo" alt="Prensa Libre" itemprop="logo" srcset="https://www.prensalibre.com/wp-content/uploads/2019/01/prensa-libre.png 400w, https://www.prensalibre.com/wp-content/uploads/2019/01/prensa-libre.png?resize=300,64 300w" sizes="(max-width: 400px) 100vw, 400px" />
+					
+							<p class="subtitle site-description">
+					Periódico líder de Guatemala				</p>
+						</a>
+
+	</div>
+	</div>
+
+	
+<div class="pl_header__current-info current-info">
+	<div class="date">
+
+		<time class="pl-current-date" datetime="2019-02-21">
+				<span class="day">Jue</span> 
+				<span class="numeric-day">21</span> 
+				<abbr class="month" title="febrero">Feb</abbr> 
+				<span class="month">de febrero</span> 
+				<span class="year">2019</span>
+			</time>
+		
+<p class="update updated-desktop">
+	Actualizado 12:22h</p>
+	</div>
+
+	
+<div class="social-menu">
+	<h2 id="socialmenulabel" class="screen-reader-text">
+		Menú de Redes Sociales	</h2>
+	<ul class="social" aria-labelledby="socialmenulabel">
+		<li>
+			<a target="_blank" href="https://www.facebook.com/prensalibregt/">
+				<span class="icon icon-facebook"></span>
+				<span class="screen-reader-text">Facebook</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://twitter.com/prensa_libre">
+				<span class="icon icon-twitter"></span>
+				<span class="screen-reader-text">Twitter</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://plus.google.com/+prensalibre/posts">
+				<span class="icon icon-googleplus"></span>
+				<span class="screen-reader-text">Google Plus</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://www.instagram.com/prensa_libre/?hl=en">
+				<span class="icon icon-instagram"></span>
+				<span class="screen-reader-text">Instagram</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://es.linkedin.com/company/prensalibre">
+				<img class="icon icon-linkedin"
+					 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/linkedin_icon.png">
+				<span class="screen-reader-text">Linkedin</span>
+			</a>
+		</li>
+	</ul>
+</div>
+
+	<time class="pl-current-time">12:23h</time>
+	<div class="pl-weather">
+				<span class="cwe">23º</span>
+				<span class="maxwe">25º</span>
+				<span class="minwe">13º</span>
+			</div>
+</div>
+	
+<div class="utils-wrap">
+	<div class="pl-header__utils utils">
+
+					<a class="mipl" id="trackSus" href="https://plconnect.prensalibre.com/catalogo-suscripciones/">
+				<div class="fo_btn_suscribe">
+					<span class="icon icon-Periodico"></span>
+					Suscríbase				</div>
+			</a>
+		
+		
+	<div class="fo_btn_login js-toggle" id="usrloginmodal" data-component="toggleClass">
+		<span id="fo_msg" class="open-toggle open">
+			<span class="icon icon-Ingresa-button_2"></span>
+			<span class="icon icon-downFill"></span>
+			<div class="tooltip">
+				Entrar			</div>
+		</span>
+		<div class="content-toggle log-opt">
+			<div>
+				<a class="close-toggle">
+					<span class="icon icon-close"></span>
+					<span class="screen-reader-text">
+					Cerrar el log in de Usuario				</span>
+				</a>
+			</div>
+			<h2 id="userloginlabel" class="screen-reader-text">
+				Login de Usuario			</h2>
+			<ul aria-labelledby='userloginlabel'>
+				<li class="fo_opt">
+					<a class="fo_btn plconnectLogin">
+						Ingresar					</a>
+					<p>
+						¿No tiene cuenta? &nbsp;
+						<a class="plconnectLogin">
+							Regístrese aquí						</a>
+					</p>
+				</li>
+				<li class="fo_opt_1">
+					<a class="fo_btn" href="https://plconnect.prensalibre.com/catalogo-suscripciones/">
+						Suscríbase					</a>
+					<a class="fo_btn" href="http://www.prensalibre.com/boletines">
+						Boletines					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<div class="fo_btn_login js-toggle userlogedbtn" id="userloged" data-component="toggleClass" style="display: none">
+	<span id="sphola" class="open-toggle open">
+		<span id="spholatext" class="open-toggle__text usernamelogin"></span>
+		<span class="icon icon-downFill"></span>
+	</span>
+	<div class="content-toggle log-opt">
+		<div>
+			<p id="fo_username" class="fo_username"></p>
+			<a class="close-toggle">
+				<span class="icon icon-close"></span>
+				<span class="screen-reader-text">
+					Cerrar el Menú de Usuario				</span>
+			</a>
+		</div>
+
+		<h2 id="usermenulabel" class="screen-reader-text">
+			Menú de Usuario		</h2>
+		<ul aria-labelledby="usermenulabel">
+			<li class="fo_opt">
+				<a class="fo_btn" href="https://plconnect.prensalibre.com/my-profile">
+					Ver mi perfil				</a>
+			</li>
+			<li class="fo_opt_1">
+				<a id="fo_suscr" class="fo_btn fo_suscr">Suscríbase</a>
+				<a class="fo_btn" href="http://www.prensalibre.com/boletines">
+					Boletines				</a>
+				<a class="plconnect-logout">
+					Cerrar sesión				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+		
+		
+<div class="search-header" data-component="searchForm">
+
+		<span class="icon icon-search search-form__open-btn"></span>
+		<div class="search-form">
+		<form method="get" action="https://www.prensalibre.com/">
+			<label>
+				<span class="screen-reader-text">Buscar para:</span>
+				<input placeholder="Buscar"
+					   type="search"
+					   name="s"
+					   value=""
+					   class="search-form__input"
+				>
+			</label>
+			<div class="actions">
+				<button id="sebutton" type="submit" class="search-form__btn">
+					<span class="text">
+						Buscar					</span>
+				</button>
+                                    <span class="icon icon-search search-form__close-btn"></span>
+                			</div>
+		</form>
+	</div>
+</div>
+
+	</div>
+</div>
+
+</div>
+
+
+<div class="nav-bar">
+	<div class="wrapper">
+		<nav id="site-navigation" class="main-nav" aria-labelledby="mainmenulabel">
+			<h2 id="mainmenulabel" class="screen-reader-text">
+				Navegación Principal			</h2>
+
+			
+<div class='home has-menu'>
+	<a href="https://www.prensalibre.com/">
+		<span class="icon icon-home"></span>
+		<span class="text">Inicio</span>
+	</a>
+
+	<div class="m-submenu g home-menu">
+		<div class="left-area gi desk-two-thirds"><ul id="nav-dropdown-left" class="menu"><li id="menu-item-1728677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728677"><a href="/">Inicio</a></li>
+<li id="menu-item-1728678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728678"><a title="Cinco familias cuentan ahora con un nuevo hogar. (Foto Prensa Libre: Óscar Rivas)." href="https://plconnect.prensalibre.com/catalogo-suscripciones/">Suscríbase</a></li>
+<li id="menu-item-1728679" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-1728679"><a title="Varios sindicados en el Caso La Línea en el Juzgado de Mayor Riesgo B, medidas sustitutivas. (Foto Prensa Libre: Óscar Rivas)" href="https://www.prensalibre.com/guatemala/">Guatemala</a>
+<ul class="sub-menu">
+	<li id="menu-item-1728682" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728682"><a title="La cotización en bolsa de Facebook se ha visto afectada tras varios escándalos que dañaron su reputación. GETTY IMAGES" href="https://www.prensalibre.com/guatemala/politica/">Política</a></li>
+	<li id="menu-item-1728680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728680"><a title="Roxana Velásquez (centro), hija de Diego Alberto Velásquez Xón, compra flores para recibir el cuerpo de su padre. (Foto Prensa Libre: Héctor Cordero)" href="https://www.prensalibre.com/guatemala/justicia/">Justicia</a></li>
+	<li id="menu-item-1728683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728683"><a title="El argentino Gerardo &#039;Tata&#039; Martino, quien cumplirá 60 años el día antes de empezar el Mundial de Catar 2022, en su presentación como nuevo Director Técnico de la Selección Nacional de Futbol de México. (Foto Prensa Libre: EFE)" href="https://www.prensalibre.com/guatemala/sucesos/">Sucesos</a></li>
+	<li id="menu-item-1728681" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728681"><a href="https://www.prensalibre.com/guatemala/comunitario/">Comunitario</a></li>
+	<li id="menu-item-1728684" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1728684"><a href="https://www.prensalibre.com/guatemala/migrantes/">Migrantes</a></li>
+</ul>
+</li>
+<li id="menu-item-1728685" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1728685"><a title="Paulo Alvaradopresto_non_troppo@yahoo.com" href="https://www.prensalibre.com/ciudades/">Ciudades</a>
+<ul class="sub-menu">
+	<li id="menu-item-1728686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728686"><a title="Ricardo Jerez es uno de los referentes de Guatemala en el extranjero. (Foto Prensa Libre: Cortesía Alianza Petrolera)" href="https://www.prensalibre.com/departamental/">Departamental</a></li>
+	<li id="menu-item-1728687" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728687"><a title="El presidente Jimmy Morales invitó a los ciudadanos rusos Igor Bitkov a la conferencia en el Palacio Nacional de la Cultura. (Foto Prensa Libre: EFE)" href="https://www.prensalibre.com/ciudades/quetzaltenango/">Quetzaltenango</a></li>
+</ul>
+</li>
+<li id="menu-item-1728690" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1728690"><a title="Al cabo de unas pocas sesiones las personas serán capaces de hacer movimientos en el aire que no creían que podían hacer. (GETTY IMAGES)" href="https://www.prensalibre.com/deportes/">Deportes</a>
+<ul class="sub-menu">
+	<li id="menu-item-1728692" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728692"><a title="José Santiago Molinajosesmolinam@gmail.com" href="https://www.prensalibre.com/deportes/futbol-nacional/">Fútbol Nacional</a></li>
+	<li id="menu-item-1728691" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728691"><a title="El presidente Jimmy Morales anuncia el fin del mandato de la Cicig. (Foto Prensa Libre: Esbin García)" href="https://www.prensalibre.com/deportes/futbol-internacional/">Fútbol Internacional</a></li>
+	<li id="menu-item-1728689" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728689"><a href="https://www.prensalibre.com/deportes/deporte-nacional/">Deporte Nacional</a></li>
+	<li id="menu-item-1728688" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728688"><a title="Dragoslav Secularac marcó una época en el futbol con la exyugoslavia. (Foto Prensa Libre: Hemeroteca PL)" href="https://www.prensalibre.com/deportes/deporte-internacional/">Deporte Internacional</a></li>
+</ul>
+</li>
+<li id="menu-item-1728693" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728693"><a href="https://www.prensalibre.com/internacional/">Internacional</a></li>
+<li id="menu-item-1728694" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1728694"><a title="Vida Amor de Paz vidanicol@gmail.com" href="https://www.prensalibre.com/economia/">Economía</a>
+<ul class="sub-menu">
+	<li id="menu-item-1728695" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728695"><a title="La posición de la ONU respecto a la Cicig se mantiene firme sobre la fecha en que finalizará su mandato. (Foto Prensa Libre: ONU)" href="https://www.prensalibre.com/economia/vida-empresarial/">Vida Empresarial</a></li>
+	<li id="menu-item-1728696" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728696"><a href="https://www.prensalibre.com/economia/voz-comercial/">Voz Comercial</a></li>
+	<li id="menu-item-1728697" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728697"><a href="https://www.prensalibre.com/efectivo/">Efectivo</a></li>
+</ul>
+</li>
+<li id="menu-item-1728698" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1728698"><a href="https://www.prensalibre.com/vida/">Vida</a>
+<ul class="sub-menu">
+	<li id="menu-item-1728699" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728699"><a title="Acción Ciudadana presenta denuncia contra ministros de Gobernación y Relaciones Exteriores en el Ministerio Público. (Foto Prensa Libre: Hemeroteca)" href="https://www.prensalibre.com/vida/escenario/">Escenario</a></li>
+	<li id="menu-item-1728700" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728700"><a href="https://www.prensalibre.com/vida/moda-y-estilo/">Moda y Estilo</a></li>
+	<li id="menu-item-1728705" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728705"><a href="https://www.prensalibre.com/vida/tecnologia/">Tecnología</a></li>
+	<li id="menu-item-1728701" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728701"><a href="https://www.prensalibre.com/vida/salud-y-familia/">Salud y Familia</a></li>
+</ul>
+</li>
+<li id="menu-item-1728704" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728704"><a href="https://www.prensalibre.com/opinion/">Opinión</a></li>
+</ul></div><div class="right-area gi desk-one-third"><ul id="nav-dropdown-right" class="secondary"><li id="menu-item-1728661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728661"><a title="El Lago de Atitlán es uno de los sitios emblemáticos y más visitados en Guatemala. (Foto Prensa Libre, Hemeroteca)" href="/agenda/">Agenda</a></li>
+<li id="menu-item-1728663" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728663"><a title="Previo al sepelio de los cuatro integrantes de la familia se ofició una misa en la Iglesia El Calvario. (Foto Prensa Libre: María Longo)" href="https://www.prensalibre.com/ojo-del-lector/">Ojo del Lector</a></li>
+<li id="menu-item-1728665" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728665"><a title="El Tribunal de Mayor Riesgo B integrado por Irma Valdés, María Castellanos y Elia Perdomo, inició un debate contra 10 implicados en el caso Génesis. (Foto Prensa Libre: Juan Diego González)" href="/videos/">Videos</a></li>
+<li id="menu-item-1728666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728666"><a title="Socorristas y vecinos observan el cadáver de una de las víctimas. (Foto Prensa Libre: Esaú Coloma)." href="/PrensaLibreTV/Programa/el-consultorio">El Consultorio</a></li>
+<li id="menu-item-1728667" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728667"><a title="Gareth Bale sufrió una lesión en el partido contra el Villarreal. (Foto Prensa Libre: AFP)" href="https://www.prensalibre.com/hemeroteca/">Hemeroteca</a></li>
+<li id="menu-item-1728668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728668"><a title="Una modelo canadiense captó la atención del mundo gracias a sus múliples intervenciones en las fotos de la alfombra roja. (FOTO Prensa Libre: Twitter)" href="http://www.tarjetalibre.com.gt/">Tarjeta Libre</a></li>
+<li id="menu-item-1728669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728669"><a title="El precio del galón de gasolina y diésel registró una baja de Q0.50 ayer en el mercado local, como reflejo de la tendencia internacional, informaron fuentes del sector. (Foto Prensa Libre: Juan Diego González)" href="/obituarios">Obituario</a></li>
+</ul></div>
+<div class="social-menu">
+	<h2 id="socialmenulabel" class="screen-reader-text">
+		Menú de Redes Sociales	</h2>
+	<ul class="social" aria-labelledby="socialmenulabel">
+		<li>
+			<a target="_blank" href="https://www.facebook.com/prensalibregt/">
+				<span class="icon icon-facebook"></span>
+				<span class="screen-reader-text">Facebook</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://twitter.com/prensa_libre">
+				<span class="icon icon-twitter"></span>
+				<span class="screen-reader-text">Twitter</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://plus.google.com/+prensalibre/posts">
+				<span class="icon icon-googleplus"></span>
+				<span class="screen-reader-text">Google Plus</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://www.instagram.com/prensa_libre/?hl=en">
+				<span class="icon icon-instagram"></span>
+				<span class="screen-reader-text">Instagram</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://es.linkedin.com/company/prensalibre">
+				<img class="icon icon-linkedin"
+					 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/linkedin_icon.png">
+				<span class="screen-reader-text">Linkedin</span>
+			</a>
+		</li>
+	</ul>
+</div>
+	</div>
+</div>
+
+			<div class="primary"><ul id="primary-menu" class="menu"><li id="menu-item-1728654" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-1728654"><a title="Marcos Andrés Antil MarcosAntil.com" href="https://www.prensalibre.com/guatemala/">Guatemala</a></li>
+<li id="menu-item-1728659" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728659"><a href="https://www.prensalibre.com/ciudades/">Ciudades</a></li>
+<li id="menu-item-1728656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728656"><a title="Santiago Choj Tiul tiene 10 años de vender billetes de lotería. Imagen ilustrativa. (Foto Prensa Libre: Hemeroteca PL)." href="https://www.prensalibre.com/deportes/">Deportes</a></li>
+<li id="menu-item-1728655" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728655"><a title="El juez Miguel Gálvez rechazó un incidente del general Érick Fernando Melgar Padilla. (Foto Prensa Libre: Hemeroteca)" href="https://www.prensalibre.com/internacional/">Internacional</a></li>
+<li id="menu-item-1728658" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728658"><a title="De los 270 contenedores que se cayeron al mar, más de 200 seguían sin ubicarse el jueves. FOTO: AFP" href="https://www.prensalibre.com/economia/">Economía</a></li>
+<li id="menu-item-1728657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728657"><a title="Imagen muestra el incidente que se registró en Ixquisis en rechazo a la hidroeléctrica. (Foto Prensa Libre: Cortesía)." href="https://www.prensalibre.com/vida/">Vida</a></li>
+<li id="menu-item-1728660" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728660"><a href="https://www.prensalibre.com/opinion/">Opinión</a></li>
+</ul></div>		</nav>
+
+		
+<h2 id="secondarynavlabel" class="screen-reader-text">
+	Navegación secundaria</h2>
+<ul class="secondary-nav" aria-labelledby="secondarynavlabel">
+	<li class="search">
+		<a href="https://www.prensalibre.com/archivo/" class="open-search-form">
+			<span class="icon icon-search"></span>
+		</a>
+	</li>
+	<li class="now">
+		<a href="https://www.prensalibre.com/ahora/">
+			<span class="icon icon-clock"></span>
+			<span class="text">Ahora</span>
+		</a>
+		<div class="tooltip">Últimas noticias</div>
+	</li>
+	<li class="tv-link">
+		<a href="https://www.prensalibre.com/videos/">
+			<span class="icon icon-videoFill"></span>
+			<span class="text">Videos</span>
+		</a>
+	</li>
+	<li class="tv-link">
+		<a href="javascript:alerta();">
+			<span class="icon icon-alertas"></span>
+			<span class="text">Alertas</span>
+		</a>
+	</li>
+</ul>
+	</div>
+</div>
+
+
+<header class="section-nav">
+	<div class="wrapper">
+		<h2 class="heading open">
+			<a class=" term-link" href="https://www.prensalibre.com/guatemala/migrantes/">Migrantes</a>		</h2>
+
+		<nav class='content-toggle'>
+			<ul>
+							</ul>
+		</nav>
+	</div
+</header>
+</header>
+
+	<div id="content" class="site-content">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main">
+
+				
+<div class="wrapper">
+	
+		<article id="post-2004699" class="single-article section post-2004699 post type-post status-publish format-standard has-post-thumbnail hentry category-migrantes tag-donald-trump tag-estados-unidos tag-migracion tag-migrantes hashtags-migrantes">
+	<header class="sart-header sart-header-wide gi one-whole">
+		<div class="sart-head-content">
+			<h1 class="sart-title">Arrestos de migrantes dentro de EE. UU. aumentan en la era Trump</h1>
+		</div>
+		<div class="sart-intro">
+			<p>Los guatemaltecos que viven en EE. UU. de manera irregular se las han tenido que ingeniar en los últimos años para llevar a cabo sus actividades con precaución, puesto que en muchos estados las autoridades locales y estatales han aumentado su cooperación con ICE para detener a los migrantes y ponerlos a su disposición.</p>
+		</div>
+		<div class="h-aside g">
+	<div class="auth-info gi ten-sixteenths">
+		<p class="sart-author">
+			<span class="byline">por <span class="author vcard">Sergio Morales Rodas</span></span>		</p>
+
+		<span class="posted-on">Publicado el <a href="https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/" rel="bookmark"><time class="sart-time entry-date published updated" datetime="2019-02-09T05:00:30-06:00">9 de febrero de 2019 a las 5:02h</time></a></span>	</div>
+
+
+	<div class="tools-module gi six-sixteenths">
+		
+<div class="art-tools i inline-tools g">
+	<div class="soc-tools">
+		<ul class="">
+			<!-- Email -->
+							<li>
+					
+					<a class="show-share"
+					   href="mailto:?subject=Mira%20este%20artículo%20de%20PrensaLibre.com&#038;body=https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/"
+					>
+						<span aria-hidden="true" class="icon icon-mail"></span>
+						<span class="screen-reader-text">
+							Enviar este artículo a un amigo por email						</span>
+					</a>
+				</li>
+			
+			<!-- WhatsApp -->
+							<li class="hidden-lap hidden-desk">
+					<a data-action="share/whatsapp/share"
+					   href="whatsapp://send?text=https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/"
+					>
+						<span aria-hidden="true" class="icon icon-whatsapp"></span>
+						<span class="screen-reader-text">
+							Comparte este artículo por Whatsapp						</span>
+					</a>
+				</li>
+			
+			<!-- GooglePlus -->
+							<li class="hidden-palm">
+					<a data-component="openShare"
+					   data-share-name="googleplus"
+					   data-share-height="400"
+					   data-share-width="500"
+					   href="https://plus.google.com/share?url=https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/"
+					>
+						<span aria-hidden="true" class="icon icon-googleplus"></span>
+						<span class="screen-reader-text">
+							Comparte este artículo en Google+						</span>
+					</a>
+				</li>
+			
+
+			<!-- Twitter -->
+							<li>
+					
+					<a data-component="openShare"
+					   data-share-name="twitter"
+					   data-share-height="400"
+					   data-share-width="500"
+					   href="https://twitter.com/intent/tweet?url=https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/&#038;via=prensa_libre&#038;text=Arrestos%20de%20migrantes%20dentro%20de%20EE.%20UU.%20aumentan%20en%20la%20era%20Trump"
+					>
+						<span aria-hidden="true" class="icon icon-twitter"></span>
+						<span class="screen-reader-text">
+							Comparte este artículo en Twitter						</span>
+					</a>
+				</li>
+			
+			<!-- Facebook -->
+							<li>
+					
+					<a href="http://www.facebook.com/sharer.php?t=Arrestos%20de%20migrantes%20dentro%20de%20EE.%20UU.%20aumentan%20en%20la%20era%20Trump&#038;s=Los%20guatemaltecos%20que%20viven%20en%20EE.%20UU.%20de%20manera%20irregular%20se%20las%20han%20tenido%20que%20ingeniar%20en%20los%20últimos%20años%20para%20llevar%20a%20cabo%20sus%20actividades%20con%20precaución,%20puesto%20que%20en%20muchos%20estados%20las%20autoridades%20locales%20y%20estatales%20han%20aumentado%20su%20cooperación%20con%20ICE%20para%20detener%20a%20los%20migrantes%20y%20ponerlos%20a%20su%20disposición.&#038;u=https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/&#038;i%5B0%5D%5B0%5D=https://www.prensalibre.com/wp-content/uploads/2018/12/a92dac37-175d-4cb3-9eee-48c51238a93e.jpg?quality=82&#038;w=760&#038;h=430&#038;crop=1&#038;i%5B0%5D%5B1%5D=760&#038;i%5B0%5D%5B2%5D=430&#038;i%5B0%5D%5B3%5D=1"
+					   data-component="openShare"
+					   data-share-name="facebook"
+					   data-share-height="400"
+					   data-share-width="500"
+					>
+						<span aria-hidden="true" class="icon icon-facebook"></span>
+						<span class="screen-reader-text">
+							Comparte este artículo en Facebook						</span>
+					</a>
+				</li>
+					</ul>
+
+		<span data-component="disqusCount" class="disqus-comment-component">
+			<button class="tool">
+				<span class="disqus-comment-count" data-disqus-url="https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/"></span>
+				<span class="icon icon-chat"></span>
+			</button>
+		</span>
+	</div>
+</div>
+	</div>
+</div>
+
+		
+<div class="sart-tags">
+	<i class="icon icon-archived"></i>
+	<div class="tags-list">
+		<p class="tags-title">
+			Archivado en:		</p>
+
+		<a class="tag-item" href="https://www.prensalibre.com/tema/donald-trump/">Donald Trump</a><a class="tag-item" href="https://www.prensalibre.com/tema/estados-unidos/">Estados Unidos</a><a class="tag-item" href="https://www.prensalibre.com/tema/migracion/">migración</a><a class="tag-item" href="https://www.prensalibre.com/tema/migrantes/">Migrantes</a>	</div>
+</div>
+	</header>
+	<div class="one-whole sart-wrap gi">
+		<div class="floating-aside desk-four-sixteenths gi hidden-palm hidden-lap active">
+			<div class="advice-wrap" data-component="StickyElement">
+			</div>
+		</div>
+		<div class="sart-content">
+			
+	<div class="sart-image sart-wide-module">
+
+	
+	
+			
+				<img width="760" height="430" src="https://www.prensalibre.com/wp-content/uploads/2018/12/a92dac37-175d-4cb3-9eee-48c51238a93e.jpg?quality=82&amp;w=760&amp;h=430&amp;crop=1" class="attachment-featured-medium size-featured-medium" alt="Las detenciones de ICE dentro de territorio estadounidense aumentó 24% en el año fiscal 2018. (Foto Prensa Libre: Cortesía)" />
+			
+							<figcaption class="figcaption">
+					Las detenciones de ICE dentro de territorio estadounidense aumentó 24% en el año fiscal 2018. (Foto Prensa Libre: Cortesía)				</figcaption>
+						
+	
+	</div>
+
+			<div class='floating-advice'>
+				<div class="advice module wrapper" data-desktop='.floating-aside .advice-wrap' data-mobile='.floating-advice' data-tablet='.floating-advice'>
+					<div id="div-gpt-ad-pl_dbx" class="dfp-ad dfp-pl_dbx" data-ad-unit="pl_dbx">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_dbx"); } );
+						}
+					</script>
+				</div>				</div>
+			</div>
+
+			<p>“Tan solo escuchar la palabra ICE causa escalofríos entre la gente”, dice Marcelo Santos, un guatemalteco que vive en Texas desde hace varios años. Aunque él cuenta con un estatus legal, asegura que hay muchos hispanos que no han podido arreglar su situación legal y a quienes el solo hecho de hablar de ICE (Inmigración y Control de Aduanas, en inglés) les causa gran aflicción.</p>
+<div id="div-gpt-ad-pl_inl" class="dfp-ad dfp-pl_inl" data-ad-unit="pl_inl">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_inl"); } );
+						}
+					</script>
+				</div>
+
+<article class="content-added seven-sixteenths mini-article">
+	<div class="slab-light">
+		<header class="article-head">
+			<span class="icon icon-marker"></span>
+			<div class="article-info">LEA TAMBIÉN:</div>
+			<h4 class="article-title">
+				<a href="https://www.prensalibre.com/internacional/campo-de-golf-de-trump-fue-construido-por-indocumentados-mas-inmigrantes-senalan-a-mandatario-de-ee-uu/">
+											&#8220;Campo de golf de Trump fue construido por indocumentados&#8221;: más inmigrantes denuncian a presidente									</a>
+			</h4>
+		</header>
+		<div class="article-content">
+			<div class="auth-info hidden-all">
+									<p class="author">
+						EFE					</p>
+								<time class="time">
+					8 de febrero de 2019 a las 08:57h				</time>
+			</div>
+			<div class="article-actions">
+				<a href="https://www.prensalibre.com/internacional/campo-de-golf-de-trump-fue-construido-por-indocumentados-mas-inmigrantes-senalan-a-mandatario-de-ee-uu/">
+					<span class="icon icon-right"></span>
+											<img width="200" height="120" src="https://www.prensalibre.com/wp-content/uploads/2019/02/b8747314e80f96b5cf87d8c5ead0aad848c509e4.jpg?quality=82&amp;w=200&amp;h=120&amp;crop=1" class="attachment-quinto-elemento size-quinto-elemento" alt="Migrantes dicen que trabajaron sin papeles en los campos de golf de Trump como mano de obra barata. (Foto: AFP)" />									</a>
+			</div>
+		</div>
+	</div>
+</article>
+
+<p>Y las cifras comprueben en cierta medida ese temor.</p>
+<p>De acuerdo con el informe anual de Operaciones de Ejecución y Remoción (ERO en inglés) de ICE, en el año fiscal 2018 se incrementó un 24 por ciento las detenciones dentro de EE. UU. para las cuales reciben apoyo de otras agencias del Gobierno y de autoridades locales. El alza es del 105% si se comparan las cifras con las del 2016.</p>
+<p>Cada año fiscal en EE. UU. comprende del 1 de octubre al 30 de septiembre.</p>
+<p>El reporte señala que en el 2018, 177 mil 147 migrantes fueron detenidos en ciudades estadounidenses; mientras que la cifra un año antes fue de 142 mil 346. En el 2016, la cantidad de detenciones sumó 86 mil 26.</p>
+<p>Se solicitó a ICE el desglose de esas capturas para establecer cuántos guatemaltecos figuran en ellas, pero hasta el cierre de esta nota no respondió a un requerimiento hecho vía correo electrónico.</p>
+<p>Estas detenciones se producen cuando una agencia policial local notifica a ICE que ha detenido a alguien que sospechan está de manera irregular en EE. UU. Estas capturas pueden darse por faltas relativamente leves como manejar sin licencia de conducir o pasar por alto una señal de tránsito.</p>
+<figure id="attachment_847250" style="width: 1024px" class="wp-caption alignnone"><img class="size-large wp-image-847250" src="https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg?quality=82&amp;w=1024" alt="" width="1024" height="576" srcset="https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg 1200w, https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg?resize=300,169 300w, https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg?resize=768,432 768w, https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg?resize=1024,576 1024w, https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg?resize=276,154 276w, https://www.prensalibre.com/wp-content/uploads/2018/12/cfa6cafd-dc4b-4679-a30f-0d2490f2222d.jpg?resize=260,146 260w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-caption-text">Los arrestos de indocumentados se han incrementado en EE. UU. (Foto Prensa Libre: Hemeroteca PL)</figcaption></figure>
+<p>Fuentes consultadas coinciden en que anteriormente este tipo de infracciones solían ser objeto de una sanción, tras la cual los migrantes recobraban su libertad; ahora no, ya que las autoridades dan aviso a ICE de estos casos.</p>
+<div class="advice module sart-right-module"><div id="div-gpt-ad-pl_bx_1" class="dfp-ad dfp-pl_bx_1" data-ad-unit="pl_bx_1">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_bx_1"); } );
+						}
+					</script>
+				</div></div>
+<p>El reporte destaca que “la cooperación que ICE recibe de otros organismos encargados de hacer cumplir la ley es fundamental para su capacidad de identificar y arrestar a extranjeros que representan un riesgo para la seguridad pública o nacional”.</p>
+<h2>Prioridades han cambiado</h2>
+<p>Pero ¿cómo se explica un aumento de las detenciones en la era del presidente Donald Trump?</p>
+<figure id="attachment_878979" style="width: 1024px" class="wp-caption alignnone"><img class="size-large wp-image-878979" src="https://www.prensalibre.com/wp-content/uploads/2018/12/4c27ca74-e43f-4e74-9793-0844e25d2fed.jpg?quality=82&amp;w=1024" alt="" width="1024" height="683" srcset="https://www.prensalibre.com/wp-content/uploads/2018/12/4c27ca74-e43f-4e74-9793-0844e25d2fed.jpg 1200w, https://www.prensalibre.com/wp-content/uploads/2018/12/4c27ca74-e43f-4e74-9793-0844e25d2fed.jpg?resize=300,200 300w, https://www.prensalibre.com/wp-content/uploads/2018/12/4c27ca74-e43f-4e74-9793-0844e25d2fed.jpg?resize=768,512 768w, https://www.prensalibre.com/wp-content/uploads/2018/12/4c27ca74-e43f-4e74-9793-0844e25d2fed.jpg?resize=1024,683 1024w, https://www.prensalibre.com/wp-content/uploads/2018/12/4c27ca74-e43f-4e74-9793-0844e25d2fed.jpg?resize=270,180 270w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-caption-text">Agentes de Seguridad Nacional durante un arresto en octubre pasado en Miami, Florida. (Foto Prensa Libre: AFP)</figcaption></figure>
+<p>Tony Herrera, director ejecutivo de la organización No Te Dejes con sede en California, expuso que antes de la llegada de Trump al poder se perseguía, detenía y deportaba a aquellos migrantes con récord criminal, pero desde hace dos años “toda persona es sujeta a deportación, aunque no haya cometido un crimen”.</p>
+<p>“Si te paran en un alto o por cualquier razón y no puedes demostrar que tienes un estatus legal en Estados Unidos estás sujeto a deportación”, indicó Herrera, quien añadió que lo que agrava la situación es el hecho de que las autoridades de muchas ciudades tienen acuerdos con ICE para reportar a los indocumentados.</p>
+<p>Agregó que cada vez son menos las localidades que protegen a los indocumentados (ciudades santuario) y ahora “la mayor parte de estas en Estados Unidos te van a entregar a las autoridades” para comenzar con un proceso de deportación.</p>
+<p><a href="https://www.prensalibre.com/guatemala/justicia/capturan-a-supuesto-complice-de-la-rancherita-en-la-zona-18/" target="_blank" rel="noopener"><em>Lea también: Detienen a supuesto cómplice de la Rancherita</em></a></p>
+<div class="advice module sart-right-module"><div id="div-gpt-ad-pl_bx_2" class="dfp-ad dfp-pl_bx_2" data-ad-unit="pl_bx_2">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_bx_2"); } );
+						}
+					</script>
+				</div></div>
+<p>Herrera precisó que muchos de los afectados por estas detenciones son migrante que tenían 10 o 15 años de vivir en EE. UU. y que han esperado por mucho tiempo que haya la posibilidad de optar a una regularización o alivio migratorio.</p>
+<p>En la Fuerza Aérea de Guatemala, donde arriban a diario vuelos de deportados de EE. UU., es común encontrar historias de guatemaltecos que incluso dejaron esposa e hijos en aquel país y que tenían trabajo y un estilo de vida definido desde hace muchos años, pero que por una falta fueron detenidos y retornados al país.</p>
+<p><img class="alignnone size-large wp-image-837021" src="https://www.prensalibre.com/wp-content/uploads/2018/12/f3b6b573-ee03-42f5-8e6e-4140aa79ff8d.jpg?quality=82&amp;w=1024" alt="" width="1024" height="683" srcset="https://www.prensalibre.com/wp-content/uploads/2018/12/f3b6b573-ee03-42f5-8e6e-4140aa79ff8d.jpg 1024w, https://www.prensalibre.com/wp-content/uploads/2018/12/f3b6b573-ee03-42f5-8e6e-4140aa79ff8d.jpg?resize=300,200 300w, https://www.prensalibre.com/wp-content/uploads/2018/12/f3b6b573-ee03-42f5-8e6e-4140aa79ff8d.jpg?resize=768,512 768w, https://www.prensalibre.com/wp-content/uploads/2018/12/f3b6b573-ee03-42f5-8e6e-4140aa79ff8d.jpg?resize=270,180 270w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Guillermo Castillo, un guatemalteco que trabaja en una oficina jurídica que asiste a migrantes centroamericanos en Kentucky, confirmó que en varios estados como en el que él radica se ha incrementado la colaboración entre autoridades locales y ICE, esto debido a que antes de Trump ICE tenía como prioridad el arresto de indocumentados con sospecha de haber cometido un crimen, pero ahora “todos pueden ser detenidos de igual forma”.</p>
+<p>Castillo precisó que también se han producido redadas “en forma silenciosa” no solo en fábricas, sino también en restaurantes y otros lugares en donde tienen conocimiento y sospechas de que hay migrantes irregulares.</p>
+<p><a href="https://www.prensalibre.com/guatemala/politica/colegio-de-ingenieros-agronomos-se-disculpa-por-otorgar-titulo-honorario-al-ministro-de-ambiente-alfonso-alonzo/" target="_blank" rel="noopener"><em>Lea también: Entrega de reconocimiento a ministro de Ambiente por parte del Colegio de Ingenieros Agrónomos genera críticas </em></a></p>
+<p>Al respecto, Herrera comentó que las redadas siempre han existido, pero antes a estas personas las dejaban en libertad cuando constataban que no tenían antecedentes criminales, pero ahora todos entran en un proceso de deportación.</p>
+<p>Sin embargo, otra razón que podría incidir en el incremento de las capturas internas es que los estadounidenses se han decidido a denunciar a los migrantes indocumentados. Como lo dice Santos, el migrante de Texas, “gracias a Trump se sienten con el valor de hacerlo”.</p>
+<h2>Casos se entrampan en cortes</h2>
+<p>Al ser detenidos por las autoridades de ICE, algunos migrantes pretenden pelear un caso de solicitud de asilo, pero estos pueden tardar años, según una investigación que publicó en enero pasado el medio The New York Times.</p>
+<div class="advice module sart-right-module"><div id="div-gpt-ad-pl_bx_3" class="dfp-ad dfp-pl_bx_3" data-ad-unit="pl_bx_3">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_bx_3"); } );
+						}
+					</script>
+				</div></div>
+<p>Según ese reportaje, hay 809 mil 41 solicitudes de asilo pendientes de ser resueltas por las cortes de Inmigración, dentro de ellas las de 158 mil 935 guatemaltecos. Cabe destacar que Guatemala es el segundo país, después de México, cuyos ciudadanos han pedido esa figura de protección a EE. UU.</p>
+<figure id="attachment_2002632" style="width: 1024px" class="wp-caption alignnone"><img class="size-large wp-image-2002632" src="https://www.prensalibre.com/wp-content/uploads/2019/02/1128315724.jpg?quality=82&amp;w=1024" alt="" width="1024" height="799" srcset="https://www.prensalibre.com/wp-content/uploads/2019/02/1128315724.jpg 3000w, https://www.prensalibre.com/wp-content/uploads/2019/02/1128315724.jpg?resize=300,234 300w, https://www.prensalibre.com/wp-content/uploads/2019/02/1128315724.jpg?resize=768,599 768w, https://www.prensalibre.com/wp-content/uploads/2019/02/1128315724.jpg?resize=1024,799 1024w, https://www.prensalibre.com/wp-content/uploads/2019/02/1128315724.jpg?resize=225,175 225w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-caption-text">Miles de centroamericanos llegar cada año a EE. UU. a solicitar asilo político. (Foto Prensa Libre: AFP)</figcaption></figure>
+<p>Según la investigación periodística un caso puede tardarse hasta cuatro años en ser resuelto, además, la lentitud de los procesos sería parte de los esfuerzos de la administración Trump por desestimular la migración con fines de solicitar asilo.</p>
+<p>Castillo indicó que el estancamiento de estos procesos judiciales puede constituirse en una verdadera barrera contra los migrantes puesto que cuando un ciudadano no posee documentos no puede acceder a permisos de empleo y puede ser deportado de ser detenido por las autoridades de ICE.</p>
+<p><a href="https://www.prensalibre.com/guatemala/migrantes/grupo-en-el-que-viajaban-286-migrantes-guatemaltecos-es-detenido-en-arizona/" target="_blank" rel="noopener"><em>Lea también: Grupo en el que viajaban 286 migrantes guatemaltecos es detenido en Arizona</em></a></p>
+<h2>Sigue migración</h2>
+<p>Guatemala es el segundo país, detrás de México, que mayores ciudadanos han sido expulsados de EE. UU., como lo demuestra el informe anual de Operaciones de Ejecución y Remoción (ERO en inglés), que da cuenta que en año fiscal 2018 fueron expulsados 50 mil 390 guatemaltecos, 16 mil 820 más que el año anterior.</p>
+<figure id="attachment_1947086" style="width: 1024px" class="wp-caption alignnone"><img class="size-large wp-image-1947086" src="https://www.prensalibre.com/wp-content/uploads/2019/02/1126804456.jpg?quality=82&amp;w=1024" alt="" width="1024" height="683" srcset="https://www.prensalibre.com/wp-content/uploads/2019/02/1126804456.jpg 5472w, https://www.prensalibre.com/wp-content/uploads/2019/02/1126804456.jpg?resize=300,200 300w, https://www.prensalibre.com/wp-content/uploads/2019/02/1126804456.jpg?resize=768,512 768w, https://www.prensalibre.com/wp-content/uploads/2019/02/1126804456.jpg?resize=1024,683 1024w, https://www.prensalibre.com/wp-content/uploads/2019/02/1126804456.jpg?resize=270,180 270w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-caption-text">Adultos y niños llegan a la frontera entre EE. UU. y México. (Foto Prensa Libre: AFP)</figcaption></figure>
+<p>Cada día decenas de connacionales llegan a la frontera sur de EE. UU. en busca de mejores oportunidades de vida. La Patrulla Fronteriza reportó que tan solo el jueves pasado detuvo a un grupo de 326 personas, entre hombres, mujeres y niños; de los cuales 282, eran guatemaltecos.</p>
+<div class="advice module sart-right-module"><div id="div-gpt-ad-pl_bx_4" class="dfp-ad dfp-pl_bx_4" data-ad-unit="pl_bx_4">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_bx_4"); } );
+						}
+					</script>
+				</div></div>
+<p>La Patrulla Fronteriza informó en su cuenta de Twitter que durante al año fiscal 2019 que comenzó el 1 de octubre pasado se ha experimentado un incremento de las detenciones y que a la fecha han capturado a 58 grupos “grandes” de más de 100 personas.</p>
+<h2>Contenido relacionado</h2>
+<p><em><a href="https://www.prensalibre.com/guatemala/migrantes/nueva-caravana-de-migrantes-hondurenos-llegara-a-guatemala/" target="_blank" rel="noopener">&gt; Cuarta caravana de migrantes sale de Honduras</a></em></p>
+<p><em><a href="https://www.prensalibre.com/guatemala/migrantes/el-muro-no-salvara-vidas-y-hara-mas-vulnerables-a-los-migrantes-dicen-organizaciones/" target="_blank" rel="noopener">&gt; Organizaciones refutan a Trump y dicen que muro no salvará vidas</a></em></p>
+<p><em><a href="https://www.prensalibre.com/guatemala/migrantes/ee-uu-dice-que-no-permitira-el-ingreso-ilegal-de-nueva-caravana-de-migrantes/" target="_blank" rel="noopener">&gt; EE. UU. dice que no permitirá paso de migrantes ilegales, a propósito de nueva caravana</a></em></p>
+<p>&nbsp;</p>
+					</div>
+	</div>
+
+    <!--relacionadas-->
+    <aside class='wrapper section shaded-box'>
+    <div class='related-content horizontal-slide-wrapper'>
+        <h2 class="h-gamma highlight" style="margin-top: 1%;">Notas de interés</h2>
+        <div class='pager'>
+            <div class='prev'></div>
+            <div class='next'></div>
+            <div class='pages'></div>
+        </div>
+
+        <div id="notas_relacionadas" class='wrapper g'>
+        </div>
+    </div>
+</aside>
+
+<script type="text/javascript">
+
+    function thumbnailUrlFix(urlImg) {
+        var urlDefault = "https://gnwebprensalibrerootwest.s3.us-west-2.amazonaws.com/App_Themes/PL/assets/images/no-img.jpg";
+        var urlImg = (typeof urlImg == "undefined") ? urlDefault : urlImg;
+
+        if (urlImg.indexOf("http://d3ustg7s7bf7i9.cloudfront.net") > -1) {
+            urlImg = "https://gnwebprensalibrerootwest.s3.us-west-2.amazonaws.com" + urlImg.substr(36);
+        } else if (urlImg.indexOf("http://gnwebprensalibrerootwest.s3.us-west-2.amazonaws.com") > -1) {
+            urlImg = "https://gnwebprensalibrerootwest.s3.us-west-2.amazonaws.com" + urlImg.substr(58);
+        }
+
+        return urlImg;
+    }
+
+    var WIDGET_ID = "28c614f28409f627f762f81c0af6690588988cd7";//Notas Relacionadas
+    function myRenderFunction(data, context) {
+
+        var resizeWindowRelacionados = function(tmpNotasRelacionadasObj){
+            var styleTmp = {};
+
+            if(jQuery(window).width() > 768){
+                styleTmp = {"height": "194px", "overflow": "hidden", "width": "100%"}
+            }
+            else{
+                styleTmp = {"height": "194px","overflow": "auto","width": "100%"}
+            }
+            tmpNotasRelacionadasObj.find(".imagen-nota-rec-content").css(styleTmp);
+        }
+
+        var Promesa = new Promise(function(resolve, reject) {
+            var notaReferida = document.getElementById("notas_relacionadas");
+
+            for (a = 0; a < data.response.items.length; a++) {
+                for (b = a+1; b < data.response.items.length; b++) {
+                    if ( data.response.items[a]["description"] == data.response.items[b]["description"]){
+                        data.response.items.splice(b, 1);
+                        b--;
+                    }
+                }
+            }
+
+            for (i = 0; i < data.response.items.length; i++) {
+
+                var thumbnail = "https://gnwebprensalibrerootwest.s3.us-west-2.amazonaws.com/App_Themes/PL/assets/images/no-img.jpg";
+                if( data.response.items[i]["dominantimage"] != "" && typeof data.response.items[i]["dominantimage"] != "undefined"){
+                    thumbnail = data.response.items[i]["dominantimage"].replace("1024_512", "M");
+                    if(typeof thumbnailUrlFix === 'function') {
+                        thumbnail = thumbnailUrlFix( thumbnail );
+                    }else{
+                        console.log("function thumbnailUrlFix no exist");
+                    }
+                }
+
+                if(data.response.items[i]["taxonomy"] == "opinion")continue;
+
+                var recPageUrl = data.response.items[i]["click_url"];
+                var url = data.response.items[i]["click_url"];
+                var title = (typeof data.response.items[i]["title"] != "undefined") ? data.response.items[i]["title"] : "";
+                var descriptionText = (typeof data.response.items[i]["description"] != "undefined") ? data.response.items[i]["description"] : "";
+                if (descriptionText.length > 117) {
+                    descriptionText = descriptionText.substring(0, 117) + "...";
+                }
+                if (data.response.items[i]["taxonomy"] instanceof Array) {
+                    var taxonomy = ( data.response.items[i]["taxonomy"][0].indexOf("/") == -1 ) ? data.response.items[i]["taxonomy"][0] : data.response.items[i]["taxonomy"][1];
+                } else {
+                    var taxonomy = (typeof data.response.items[i]["taxonomy"] != "undefined") ? data.response.items[i]["taxonomy"] : "";
+                }
+                //taxonomy = taxonomy.replace("-", " ").toUpperCase();
+                taxonomy = taxonomy.replace("-", " ").toLowerCase();
+
+                taxonomy = taxonomy.charAt(0).toUpperCase() + taxonomy.slice(1);
+
+                title = title.replace(/"/g, "\"");
+                title = title.replace(/”/g, "\"");
+                title = title.replace(/“/g, "\"");
+
+                descriptionText = descriptionText.replace(/"/g, "\"");
+                descriptionText = descriptionText.replace(/”/g, "\"");
+                descriptionText = descriptionText.replace(/“/g, "\"");
+
+                //Articulo
+                var article = document.createElement("article");
+//                        article.className = "story related gi";
+                article.className = "story related gi";
+
+                //Imagen
+                var aPhoto = document.createElement("a");
+//                        aPhoto.className = "photo";
+                aPhoto.className = "photo";
+                aPhoto.href = url;
+
+                var divImgContent = document.createElement("div");
+                divImgContent.className = "imagen-nota-rec-content";
+                divImgContent.href = url;
+                divImgContent.style.backgroundImage = "url("+thumbnail+")";
+                divImgContent.style.backgroundSize = "cover";
+
+                aPhoto.appendChild(divImgContent);
+                article.appendChild(aPhoto);
+
+                //Etiqueta
+                var ulArticle = document.createElement("ul");
+                ulArticle.className = "list-tools small";
+
+                var liUlArticle = document.createElement("li");
+
+                var aLiUlArticle = document.createElement("a");
+                aLiUlArticle.href = url;
+
+                var spanALiUlArticle = document.createElement("span");
+                spanALiUlArticle.className = "icon icon-text";
+
+                aLiUlArticle.appendChild(spanALiUlArticle);	//Anida icono span en a
+                liUlArticle.appendChild(aLiUlArticle);		//Anida a en li
+                ulArticle.appendChild(liUlArticle);             //Anida li en ul
+                article.appendChild(ulArticle);                 //Anida ul en articulo
+
+                //Guatemala
+                var strong = document.createElement("strong");
+                strong.className = "h-beta light story-section";
+                strong.appendChild(document.createTextNode(taxonomy));
+                article.appendChild(strong);                    //Anida strong en articulo
+
+                //Titulo
+                var h1Article = document.createElement("h4");
+                h1Article.className = "story-title cx-title";
+
+                var aH1Article = document.createElement("a");
+                aH1Article.appendChild(document.createTextNode(title));
+                aH1Article.href = url;
+
+                h1Article.appendChild(aH1Article);
+                article.appendChild(h1Article);                  //Anida titulo en articulo
+
+                //Descripcion
+                var divArticle = document.createElement("div");
+                divArticle.className = "story-text";
+                var pDivArticle = document.createElement("p");
+                pDivArticle.appendChild(document.createTextNode(descriptionText));
+
+                divArticle.appendChild(pDivArticle);
+                article.appendChild(divArticle);
+                notaReferida.appendChild(article);
+            }
+            resolve(true);
+        });
+
+//                Promesa.then((result) => {
+        Promesa.then(function(result) {
+            if(result){
+
+                var tmpNotasRelacionadas = jQuery("#notas_relacionadas");
+                tmpNotasRelacionadas.addClass("horizontal-slide");
+
+                setTimeout(function(){
+                    resizeWindowRelacionados(tmpNotasRelacionadas);
+                    tmpNotasRelacionadas.bxSlider({
+                        touchEnabled: false,
+                        minSlides: 1,
+                        maxSlides: 4,
+                        slideMargin: 15,
+                        slideWidth: 280,
+                        infiniteLoop: false,
+                        hideControlOnEnd: true,
+                        pagerSelector: jQuery(tmpNotasRelacionadas).parents('.horizontal-slide-wrapper').find('.pager .pages'),
+                        nextSelector: jQuery(tmpNotasRelacionadas).parents('.horizontal-slide-wrapper').find('.pager .next'),
+                        prevSelector: jQuery(tmpNotasRelacionadas).parents('.horizontal-slide-wrapper').find('.pager .prev'),
+                        nextText: '<span class="icon icon-rightFill"></span>',
+                        prevText: '<span class="icon icon-leftFill"></span>'
+                    });
+                }, 300);
+
+            }
+            $(window).resize(function(){
+                resizeWindowRelacionados(tmpNotasRelacionadas);
+            })
+        });
+    }
+
+    var cX = cX || {};
+    cX.callQueue = cX.callQueue || [];
+    cX.callQueue.push(['insertWidget', {
+        widgetId: WIDGET_ID, renderFunction: myRenderFunction
+    }]);
+</script>
+	<div id="div-gpt-ad-pl_bll_1" class="dfp-ad dfp-pl_bll_1" data-ad-unit="pl_bll_1">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_bll_1"); } );
+						}
+					</script>
+				</div>	<div id="div-gpt-ad-pl_ldb" class="dfp-ad dfp-pl_ldb" data-ad-unit="pl_ldb">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_ldb"); } );
+						}
+					</script>
+				</div>	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+		
+<div id="comments" class="comments-area">
+
+	
+		
+	
+	
+
+
+</div><!-- #comments -->
+
+<section id="waiting" class="comments-module">
+	<header>
+		<div class="comm-tot">
+			<span class="icon icon-comment"></span>2		</div>
+		<div class="comm-send-area comm-login">
+				<div id="respond" class="comment-respond">
+		<div class="comm-send-text">Deja un comentario<br/><span class="hidden-all"><a rel="nofollow" id="cancel-comment-reply-link" href="/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/#respond" style="display:none;">Omitir comentario</a></span></div>			<form action="https://www.prensalibre.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<label for="comment">Comentario</label><textarea id="comment" name="comment" class="post-2004699" resizable="false" rows="4" maxlength="65525" required="required"></textarea>
+<label class="comment-leyend">* Los comentarios emitidos aparecerán luego de ser aprobados.</label><br><label class="comment-leyend"><a href="https://www.prensalibre.com/terminos/" target="_blank">- Lea nuestras políticas y términos de uso.</a></label>
+
+<p class="form-submit"><button name="submit" type="submit" id="comentar_nota" class="submit button no-margin-button">Comentar</button> <input type='hidden' name='comment_post_ID' value='2004699' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="6bbc7c4a1e" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="193"/></p>			</form>
+			</div><!-- #respond -->
+				<div class="join hidden-all" id="join-for-comment">
+				<p class="deco">
+					<span class="icon icon-userIco"></span>
+					¿nuevo?
+				</p>
+				<p class="join-text">
+					<span class="icon icon-right"></span>
+					Necesitas iniciar sesión en <strong>prensalibre.com</strong> para poder comentar.
+				</p>
+			</div>
+		</div>
+	</header>
+	
+	<article class="comment">
+		<aside class="vote g hidden-palm hidden-lap">
+			<img alt='' src='https://secure.gravatar.com/avatar/32aa4a00a55117134fd771e73b292c64?s=80&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/32aa4a00a55117134fd771e73b292c64?s=160&#038;d=mm&#038;r=r 2x' class='avatar avatar-80 photo' height='80' width='80' />		</aside>
+		<div class="comm-block">
+			<header>
+				<div id="comment-3031"  class="comm-author"><p>
+						Manuel&nbsp;Sagastume												<span>
+							Hace 1 semana						</span>
+					</p></div>
+				<div class="comm-tools pos">
+					<a rel='nofollow' class='comment-reply-link' href='https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/?replytocom=3031#respond' onclick='return addComment.moveForm( "comment-3031", "3031", "respond", "2004699" )' aria-label='Responder a Manuel&nbsp;Sagastume'>Responder</a>				</div>
+			</header>
+			<div class="comm-content">
+				<p>Prensa Libre se las llevan de muy duros con los comentarios del lector y se reservan el derecho de publicarlo, miren el de abajo, es una trampa caza bobos, se les coló&#8230;&#8230;&#8230;&#8230;&#8230;.</p>
+			</div>
+		</div>
+	</article>
+	</li><!-- #comment-## -->
+
+	<article class="comment">
+		<aside class="vote g hidden-palm hidden-lap">
+			<img alt='' src='https://secure.gravatar.com/avatar/67dbc386ff833eed0137627856eef7f6?s=80&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/67dbc386ff833eed0137627856eef7f6?s=160&#038;d=mm&#038;r=r 2x' class='avatar avatar-80 photo' height='80' width='80' />		</aside>
+		<div class="comm-block">
+			<header>
+				<div id="comment-2843"  class="comm-author"><p>
+						Micheal&nbsp;Micheal												<span>
+							Hace 2 semanas						</span>
+					</p></div>
+				<div class="comm-tools pos">
+					<a rel='nofollow' class='comment-reply-link' href='https://www.prensalibre.com/guatemala/migrantes/detenciones-de-migrantes-en-ee-uu-aumentan-en-la-era-trump/?replytocom=2843#respond' onclick='return addComment.moveForm( "comment-2843", "2843", "respond", "2004699" )' aria-label='Responder a Micheal&nbsp;Micheal'>Responder</a>				</div>
+			</header>
+			<div class="comm-content">
+				<p>Para introducir correctamente mí mismo, soy el Sr. Michael Benson un prestamista privado, doy a préstamo mínimo de € 5.000 euros o su equivalente en otras monedas a cualquier cantidad de préstamos a tipo de interés del 3%, esta es una oportunidad financiera a su puerta, Obtenga su préstamo 2019 rápidamente. Hay tanta gente afuera que busca oportunidades financieras o ayuda a la vuelta de la esquina y en Lugares, y aún así no pueden conseguir uno, pero aquí está. Oportunidades de financiamiento en su puerta y, como tal, no puede permitirse el lujo de perder esta oportunidad. Este servicio está hecho para personas, empresas, hombres de negocios y mujeres y la disponibilidad de cualquier cantidad que desee para obtener más información. Contáctenos por correo electrónico: <a href="mailto:MICHEALBENSONLOANAGENCY@GMAIL.COM">MICHEALBENSONLOANAGENCY@GMAIL.COM</a><br />
+Formulario de solicitud de préstamo y devuélvalo.</p>
+<p>Nombre completo &#8230;&#8230;&#8230;&#8230;&#8230;..</p>
+<p>Número de teléfono privado &#8230;&#8230;&#8230;&#8230;&#8230;.</p>
+<p>País &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;</p>
+<p>Dirección &#8230;&#8230;&#8230;&#8230;&#8230;.</p>
+<p>Estado &#8230;&#8230;&#8230;&#8230;&#8230;</p>
+<p>Años &#8230;&#8230;&#8230;&#8230;..</p>
+<p>Has aplicado antes o no. &#8230;&#8230;&#8230;&#8230;.</p>
+<p>Estado &#8230;&#8230;&#8230;&#8230;..</p>
+<p>Cantidad del préstamo necesaria. &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;</p>
+<p>Periodo de préstamo &#8230;&#8230;&#8230;&#8230;&#8230;.</p>
+<p>Ocupación&#8230;&#8230;&#8230;&#8230;&#8230;..</p>
+<p>Ingreso mensual &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;</p>
+<p>En reconocimiento de estos detalles, le enviaremos nuestro acuerdo con el cronograma de reembolso, y si acepta los Términos y Condiciones, podrá obtener su préstamo una vez aprobado, dependiendo de la gravedad, urgencia y confianza que tengamos para usted.<br />
+Estoy esperando tu respuesta rápida.</p>
+<p>Atentamente</p>
+<p>Micheal Benson</p>
+			</div>
+		</div>
+	</article>
+	</li><!-- #comment-## -->
+</section>
+
+		</div>
+
+			</main>
+		</div>
+
+		
+	</div><!-- #content -->
+
+	<div id="div-gpt-ad-pl_ft" class="dfp-ad dfp-pl_ft" data-ad-unit="pl_ft">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_ft"); } );
+						}
+					</script>
+				</div>
+<footer id="colophon" class="main-footer">
+	<div class="wrapper">
+		<nav class="footer-nav"><ul id="footer-nav" class="menu"><li id="menu-item-1728645" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-1728645"><a title="Concejo de Antigua Guatemala, Sacatepéquez, durante una de las reuniones recientes. (Foto Prensa Libre: Julio Sicán)" href="https://www.prensalibre.com/guatemala/">Guatemala</a></li>
+<li id="menu-item-1728653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728653"><a title="En algunos negocios afectados por el incendio se espera habilitar áreas lo antes posible.(Foto Prensa Libre: Érick Ávila)" href="https://www.prensalibre.com/ciudades/">Ciudades</a></li>
+<li id="menu-item-1728647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728647"><a title="Decenas de personas hacen fila para adquirir su boleto de ornato. (Foto Prensa Libre: Eslly Melgarejo)" href="https://www.prensalibre.com/deportes/">Deportes</a></li>
+<li id="menu-item-1728646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728646"><a href="https://www.prensalibre.com/internacional/">Internacional</a></li>
+<li id="menu-item-1728649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728649"><a href="https://www.prensalibre.com/economia/">Economía</a></li>
+<li id="menu-item-1728652" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728652"><a title="Vivienda de la familia Méndez Sánchez —inserta— . (Foto: Cortesía)" href="https://www.prensalibre.com/opinion/">Opinión</a></li>
+<li id="menu-item-1728648" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1728648"><a title="Autoridades de Migración no permitieron el ingreso del investigador de la Cicig, Yilen Osorio, mientras se resuelve su situación él no podrá salir del aeropuerto internacional La Aurora, lo custodia personal del MP y de la PDH. (Foto Prensa Libre: Cortesía)" href="https://www.prensalibre.com/vida/">Vida</a></li>
+<li id="menu-item-1728650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728650"><a href="/ahora/">Ahora</a></li>
+<li id="menu-item-1728651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1728651"><a href="/videos/">Videos</a></li>
+</ul></nav>
+		<div class="footer-content">
+			<div class="cities-module"><ul id="cities-module" class="menu"><li id="menu-item-1801996" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1801996"><a href="https://www.prensalibre.com/ciudades/alta-verapaz/">Alta Verapaz</a></li>
+<li id="menu-item-1802009" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802009"><a href="https://www.prensalibre.com/ciudades/baja-verapaz/">Baja Verapaz</a></li>
+<li id="menu-item-1802010" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802010"><a href="https://www.prensalibre.com/ciudades/chiquimula/">Chiquimula</a></li>
+<li id="menu-item-1802013" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802013"><a href="https://www.prensalibre.com/ciudades/chimaltenango/">Chimaltenango</a></li>
+<li id="menu-item-1802024" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802024"><a href="https://www.prensalibre.com/ciudades/el-progreso/">El Progreso</a></li>
+<li id="menu-item-1802027" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802027"><a href="https://www.prensalibre.com/ciudades/escuintla/">Escuintla</a></li>
+<li id="menu-item-1802028" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802028"><a href="https://www.prensalibre.com/ciudades/guatemala-ciudades/">Guatemala</a></li>
+<li id="menu-item-1802029" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1802029"><a href="https://www.prensalibre.com/ciudades/huehuetenango/">Huehuetenango</a></li>
+<li id="menu-item-1805941" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805941"><a href="https://www.prensalibre.com/ciudades/izabal/">Izabal</a></li>
+<li id="menu-item-1805942" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805942"><a href="https://www.prensalibre.com/ciudades/jalapa/">Jalapa</a></li>
+<li id="menu-item-1805943" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805943"><a href="https://www.prensalibre.com/ciudades/jutiapa/">Jutiapa</a></li>
+<li id="menu-item-1805944" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805944"><a href="https://www.prensalibre.com/ciudades/peten/">Petén</a></li>
+<li id="menu-item-2048249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2048249"><a href="https://www.prensalibre.com/ciudades/quetzaltenango/">Quetzaltenango</a></li>
+<li id="menu-item-1805946" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805946"><a href="https://www.prensalibre.com/ciudades/quiche/">Quiché</a></li>
+<li id="menu-item-1805947" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805947"><a href="https://www.prensalibre.com/ciudades/retalhuleu/">Retalhuleu</a></li>
+<li id="menu-item-1805948" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805948"><a href="https://www.prensalibre.com/ciudades/sacatepequez/">Sacatepéquez</a></li>
+<li id="menu-item-1805949" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805949"><a href="https://www.prensalibre.com/ciudades/san-marcos/">San Marcos</a></li>
+<li id="menu-item-1805951" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805951"><a href="https://www.prensalibre.com/ciudades/santa-rosa/">Santa Rosa</a></li>
+<li id="menu-item-1805950" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805950"><a href="https://www.prensalibre.com/ciudades/solola/">Sololá</a></li>
+<li id="menu-item-1805954" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805954"><a href="https://www.prensalibre.com/ciudades/suchitepequez/">Suchitepéquez</a></li>
+<li id="menu-item-1805952" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805952"><a href="https://www.prensalibre.com/ciudades/totonicapan/">Totonicapán</a></li>
+<li id="menu-item-1805953" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1805953"><a href="https://www.prensalibre.com/ciudades/zacapa/">Zacapa</a></li>
+</ul></div><div class="section-footer"><ul id="footer-secondary-nav" class="footer-secondary-nav"><li id="menu-item-1742501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742501"><a href="https://www.prensalibre.com/contactenos/">CONTACTO</a></li>
+<li id="menu-item-1742499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742499"><a href="https://www.prensalibre.com/ventas/">ANÚNCIESE AQUÍ</a></li>
+<li id="menu-item-1742529" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1742529"><a href="https://plconnect.prensalibre.com/catalogo-suscripciones/">SUSCRIPCIONES</a></li>
+<li id="menu-item-1742566" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1742566"><a href="/feed">RSS</a></li>
+<li id="menu-item-1742497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742497"><a href="https://www.prensalibre.com/obituarios/">OBITUARIO</a></li>
+<li id="menu-item-1742540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742540"><a href="https://www.prensalibre.com/hemeroteca/">HEMEROTECA</a></li>
+<li id="menu-item-1742498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742498"><a href="https://www.prensalibre.com/mapadelsitio/">MAPA WEB</a></li>
+<li id="menu-item-1742542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742542"><a href="https://www.prensalibre.com/?page_id=1742509">OPINIÓN</a></li>
+<li id="menu-item-1742543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742543"><a href="https://www.prensalibre.com/boletines/">BOLETINES</a></li>
+<li id="menu-item-1742500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742500"><a href="https://www.prensalibre.com/terminos/">TÉRMINOS Y CONDICIONES</a></li>
+<li id="menu-item-1742545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1742545"><a href="http://talento.prensalibre.com/">TRABAJE CON NOSOTROS</a></li>
+</ul></div>		</div>
+
+		
+<div class="other-footer">
+	<ul>
+					<li>
+								<a href="https://www.prensalibre.com"
+					class=""
+					target=""
+				>
+				
+										<img alt="Prensa Libre"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/prensa-logo.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="https://www.revistaamiga.com"
+					class=""
+					target=""
+				>
+				
+										<img alt="Mundo Motor"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/amiga.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="http://clasificados.prensalibre.com"
+					class=""
+					target=""
+				>
+				
+										<img alt="Clasificados"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/clasificados-logo.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="https://www.aula2pl.com"
+					class=""
+					target=""
+				>
+				
+										<img alt="Aula"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/aula-logo.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="https://www.hagomitarea.com/"
+					class=""
+					target=""
+				>
+				
+										<img alt="Hago mi Tarea"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/hmtarea-logo.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="http://www.tarjetalibre.com.gt"
+					class=""
+					target=""
+				>
+				
+										<img alt="Trajeta Libre"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/tarjeta-logo.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="https://www.prensalibre.com/Ciudades/Quetzaltenango"
+					class=""
+					target=""
+				>
+				
+										<img alt="elQuetzalteco"
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/quetzalteco-logo.png"
+					>
+					
+								</a>
+							</li>
+					<li>
+								<a href="http://www.greatplacetowork-ca.com"
+					class="centroamerica-cert"
+					target="_blank"
+				>
+				
+										<img alt=""
+						 src="https://www.prensalibre.com/wp-content/themes/prensalibre/client/build/images/affiliates/certificacion-centroamerica-logo.png"
+					>
+					
+								</a>
+							</li>
+			</ul>
+</div>
+	</div>
+</footer><!-- #colophon -->
+<div id="div-gpt-ad-pl_rhcm" class="dfp-ad dfp-pl_rhcm" data-ad-unit="pl_rhcm">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_rhcm"); } );
+						}
+					</script>
+				</div><div id="div-gpt-ad-pl_rhcm_2" class="dfp-ad dfp-pl_rhcm_2" data-ad-unit="pl_rhcm_2">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-pl_rhcm_2"); } );
+						}
+					</script>
+				</div>
+</div><!-- #page -->
+
+
+		<script type="text/javascript">
+					 _sf_async_config.authors = "Sergio Morales Rodas";
+			_sf_async_config.sections = "Migrantes";
+					(function(){
+			        function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+					document.body.appendChild(e);
+				  }
+				  var oldonload = window.onload;
+				  window.onload = (typeof window.onload != 'function') ?
+					 loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+				})();
+		</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+			<div style="display:none">
+	<div class="grofile-hash-map-32aa4a00a55117134fd771e73b292c64">
+	</div>
+	<div class="grofile-hash-map-67dbc386ff833eed0137627856eef7f6">
+	</div>
+	</div>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWWQQW7"
+						  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["domingo","lunes","martes","mi\u00e9rcoles","jueves","viernes","s\u00e1bado"],"dayNamesShort":["Dom","Lun","Mar","Mie","Jue","Vie","Sab"],"dayNamesMin":["D","L","M","X","J","V","S"],"monthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthNamesShort":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthNamesMin":["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"nextText":"Siguiente","prevText":"Anterior","currentText":"Hoy","closeText":"Hecho","today":"Hoy","clear":"Limpiar"}};var tribe_system_info = {"sysinfo_optin_nonce":"22ad763470","clipboard_btn_text":"Copy to clipboard","clipboard_copied_text":"System info copied","clipboard_fail_text":"Press \"Cmd + C\" to copy"};/* ]]> */ </script><script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201908'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.prensalibre.com/_static/??/wp-content/mu-plugins/jetpack/modules/wpgroho.js,/wp-includes/js/wp-embed.min.js,/wp-content/mu-plugins/akismet/_inc/form.js?m=1547060577j'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201908.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.0.1',blog:'151997395',post:'2004699',tz:'-6',srv:'www.prensalibre.com'} ]);
+	_stq.push([ 'clickTrackerInit', '151997395', '2004699' ]);
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e62653faa6","applicationID":"172824496","transactionName":"ZFZTMBdZCBcEBUJdDV0ccAcRUQkKShFEVRJDVkM=","queueTime":0,"applicationTime":397,"atts":"SBFERl9DG0hHBxQOGU5O","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,3100 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+    
+<script>
+    var TC        = JSON.parse('{"env_template":{"name":"env_template","source":"all","logged":false,"type":"text","value":"article"},"env_univers":{"name":"env_univers","source":"all","logged":false,"type":"text","value":"crx"},"env_paywall":{"name":"env_paywall","source":"all","logged":false,"type":"text","value":"article-crx-standard"},"env_work":{"name":"env_work","source":"all","logged":false,"type":"text","value":"prod"},"env_channel":{"name":"env_channel","source":"all","logged":false,"type":"text","value":"desktop"},"env_domain":{"name":"env_domain","source":"all","logged":false,"type":"text","value":"www.la-croix.com"},"page_cat1":{"name":"page_cat1","source":"all","logged":false,"type":"text","value":"Monde"},"page_cat2":{"name":"page_cat2","source":"all","logged":false,"type":"text","value":""},"page_cat3":{"name":"page_cat3","source":"all","logged":false,"type":"text","value":""},"page_id":{"name":"page_id","source":"article","logged":false,"type":"int","value":"1301001322"},"page_type":{"name":"page_type","source":"article","logged":false,"type":"text","value":"standard"},"page_comment":{"name":"page_comment","source":"article","logged":false,"type":"int","value":0},"type_payant":{"name":"type_payant","source":"article","logged":false,"type":"text","value":""},"genre":{"name":"genre","source":"all","logged":false,"type":"text","value":""},"page_article_tag":{"name":"page_article_tag","source":"all","logged":false,"type":"text","value":"USA"},"user_profil_id":{"name":"user_profil_id","source":"all","logged":false,"type":"int","value":19}}');
+    var dataLayer = [];
+
+    for (var name in TC) {
+        if(TC.hasOwnProperty(name)) {
+            dataLayer.push({[name]: TC[name]['value']});
+        }
+    }
+</script>
+<script>
+    (function(w,d,s,l,i) {w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            'event':'gtm.js'
+        });
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KP37JNG');
+</script>
+    <script type="text/javascript">
+    window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+    ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"7ecc89e4d0",applicationID:"117557793",sa:1}
+</script>
+
+    
+            <meta charset="UTF-8">
+
+    <title>Le deuxième sommet Trump/Kim se tiendra à Hanoï - La Croix</title>
+
+
+<meta name="description" content="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018 /...">
+
+    <link rel="canonical" href="https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322" />
+
+<meta name="author" content="La-Croix.com"/>
+<meta name="msvalidate.01" content="11DD40A31E57D7971165B2A9E2B96D43" />
+<meta name="specificfeeds-verification-code" content="h6U2vvtDxDUWk1R599Gw"/>
+
+    <meta name="keywords" content="USA, CoréeNord, Vietnam, diplomatie, politique, Monde, deuxième, tiendra, sommet, Hanoï"/>
+    <meta name="news_keywords" content="USA, CoréeNord, Vietnam, diplomatie, politique, Monde, deuxième, tiendra, sommet, Hanoï"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index,follow">
+
+
+
+    
+    
+<meta property="og:title" content="Le deuxième sommet Trump/Kim se tiendra à Hanoï"/>
+<meta property="og:url" content="https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"/>
+<meta property="og:description" content="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018 /..."/>
+<meta property="og:image" content="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_1399_933.jpg"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="La Croix"/>
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:article:author" content="afp" />
+
+<meta property="twitter:account_id" content="12272292" />
+<meta property="twitter:description" content="" />
+<meta property="twitter:description" content="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018 /..." />
+<meta name="twitter:site" content="@LaCroix"/>
+<meta name="twitter:app:name:iphone" content="La Croix Mobile"/>
+<meta name="twitter:app:name:googleplay" content="La Croix Mobile"/>
+<meta name="twitter:app:id:googleplay" content="com.lacroix.mobile"/>
+<meta name="twitter:image" content="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_1399_933.jpg"/>
+<meta name="twitter:url" content="https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"/>
+<meta name="twitter:title" content="Le deuxième sommet Trump/Kim se tiendra à Hanoï"/>
+<meta name="twitter:card" content="summary_large_image" />    
+        
+<meta property="article:author" content="La Croix" />
+<meta property="article:published_time" itemprop="datePublished" content="2019-02-09T07:01:04+01:00" />
+<meta property="article:modified_time" itemprop="datePublished" content="2019-02-09T07:00:46+01:00" />
+<meta property="article:section" itemprop="articleSection" content=" Monde " />
+<meta property="article:section_url" content="www.la-croix.com/Monde/" />
+<meta property="article:tag" content="USA" />
+<meta property="article:tag" content="CoréeNord" />
+<meta property="article:tag" content="Vietnam" />
+<meta property="article:tag" content="diplomatie" />
+<meta property="article:tag" content="politique" />
+
+<meta property="al:android:package" content="com.lacroix.mobile" />
+<meta property="al:android:app_name" content="La Croix" />
+<meta property="al:iphone:app_store_id" content="890013289" />
+<meta property="al:iphone:app_name" content="La Croix" />
+<meta property="al:ipad:app_store_id" content="890013289" />
+<meta property="al:ipad:app_name" content="La Croix" />
+
+
+
+ 
+
+            <link rel="dns-prefetch" href="https://static.bayard.io/global/ads.js?v=1">
+<link rel="dns-prefetch" href="https://www.la-croix.com">
+<link rel="dns-prefetch" href="https://bayardsso.fr">
+<link rel="dns-prefetch" href="https://try.abtasty.com">
+    
+    <link rel="stylesheet" href="/build/lacroix/vendors~0e6e26da.fddf8edd.css" />
+<link rel="stylesheet" href="/build/lacroix/app.905c861e.css" />
+
+
+     
+            <link rel="amphtml" href="https://www.la-croix.com/amp/1301001322" />
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/build/lacroix/images/favicon.3ea2cd01.ico" />
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152-precomposed.png">
+
+    <link rel="alternate" type="application/rss+xml" title="La-Croix.com" href="/RSS/UNIVERS_ALL" />
+    <link href="https://cdn.tagcommander.com">
+    <link href="https://logs177.xiti.com">
+
+    <script type="application/ld+json">
+             </script>
+
+        </head>
+
+<body general ng-controller="LcAppCtrl as CTRL" class="article">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KP37JNG" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<loading name="lc-loading"></loading>
+
+    <tc-vars load="{&quot;env_template&quot;:{&quot;name&quot;:&quot;env_template&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;article&quot;},&quot;env_univers&quot;:{&quot;name&quot;:&quot;env_univers&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;crx&quot;},&quot;env_paywall&quot;:{&quot;name&quot;:&quot;env_paywall&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;article-crx-standard&quot;},&quot;env_work&quot;:{&quot;name&quot;:&quot;env_work&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;prod&quot;},&quot;env_channel&quot;:{&quot;name&quot;:&quot;env_channel&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;desktop&quot;},&quot;env_domain&quot;:{&quot;name&quot;:&quot;env_domain&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;www.la-croix.com&quot;},&quot;page_cat1&quot;:{&quot;name&quot;:&quot;page_cat1&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Monde&quot;},&quot;page_cat2&quot;:{&quot;name&quot;:&quot;page_cat2&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;&quot;},&quot;page_cat3&quot;:{&quot;name&quot;:&quot;page_cat3&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;&quot;},&quot;page_id&quot;:{&quot;name&quot;:&quot;page_id&quot;,&quot;source&quot;:&quot;article&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;int&quot;,&quot;value&quot;:&quot;1301001322&quot;},&quot;page_type&quot;:{&quot;name&quot;:&quot;page_type&quot;,&quot;source&quot;:&quot;article&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;standard&quot;},&quot;page_comment&quot;:{&quot;name&quot;:&quot;page_comment&quot;,&quot;source&quot;:&quot;article&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;int&quot;,&quot;value&quot;:0},&quot;type_payant&quot;:{&quot;name&quot;:&quot;type_payant&quot;,&quot;source&quot;:&quot;article&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;&quot;},&quot;genre&quot;:{&quot;name&quot;:&quot;genre&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;&quot;},&quot;page_article_tag&quot;:{&quot;name&quot;:&quot;page_article_tag&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;USA&quot;},&quot;user_profil_id&quot;:{&quot;name&quot;:&quot;user_profil_id&quot;,&quot;source&quot;:&quot;all&quot;,&quot;logged&quot;:false,&quot;type&quot;:&quot;int&quot;,&quot;value&quot;:19}}"></tc-vars>
+
+    
+    <div class="top-bar-links">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="top-bar-links-list">
+                                            <li>
+                            <a href="https://librairie.la-croix.com/">
+                                Librairie
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://croire.la-croix.com/">
+                                Croire
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://international.la-croix.com/">
+                                La Croix International
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://www.1jour1actu.com/">
+                                1jour1actu
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://www.phosphore.com/">
+                                Phosphore
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://www.la-croix.com/Urbi-et-Orbi">
+                                Urbi&amp;Orbi
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://africa.la-croix.com/">
+                                La Croix Africa
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://es.la-croix.com/">
+                                La Croix español
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://www.pelerin.com/">
+                                Pelerin
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://www.bayard-jeunesse.com/">
+                                Bayard Jeunesse
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+
+                                                                           
+    <lc-article-navi
+        id="1301001322"
+        universe="lacroix"
+        source-id=""
+        source-type=""
+        source-position="1"
+    ></lc-article-navi>
+        
+<header class="row mobile-header  article-header header-index">
+
+    <div class="col-lg-4 col-md-4 col-sm-3  col-xs-2 special-category-menu">
+        <nav class="dropdown pages-menu">
+            <button id="dLabel" type="button" class="button lighter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="icon-menu"></i>
+                <span class="visible-inline-md">menu</span>
+            </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dLabel" data-lc-full-height="true">
+                    <li class="visible-xs mobile-menu-search">
+                        <div class="search">
+                            <form data-lc-top-search="topSearch" data-ng-cloak></form>
+                        </div>
+                    </li>
+                                            <li class="standard-item">
+                            <a href="/"
+                               data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Menu_Burger_Rubrique',
+                                    label1: 'Accueil'
+                               })"
+                            >
+                                ACCUEIL
+                            </a>
+                        </li>
+
+                                                                
+                                                                            
+                        <li class="standard-item">
+                            <a href="/France"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'France',
+                                        label2: ''
+                                    })"                            >France</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Monde"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Monde',
+                                        label2: ''
+                                    })"                            >Monde</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Economie"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Economie',
+                                        label2: ''
+                                    })"                            >Economie</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Religion"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Religion',
+                                        label2: ''
+                                    })"                            >Religion</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Culture"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Culture',
+                                        label2: ''
+                                    })"                            >Culture</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Sciences-et-ethique"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Sciences-et-ethique',
+                                        label2: ''
+                                    })"                            >Sciences & éthique</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Famille"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Famille',
+                                        label2: ''
+                                    })"                            >Famille</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Sport"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Sport',
+                                        label2: ''
+                                    })"                            >Sport</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="standard-item">
+                            <a href="/Debats"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Debats',
+                                        label2: ''
+                                    })"                            >Débats</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="urbi-item">
+                            <a href="/Urbi-et-Orbi"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Urbi-et-Orbi',
+                                        label2: ''
+                                    })"                            >Urbi & Orbi</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="grey-item">
+                            <a href="/Debats/Blogs"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_SousRubrique',
+                                        label1: 'Debats',
+                                        label2: 'Blogs'
+                                    })"                            >Blogs</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="grey-item">
+                            <a href="/Videos"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Videos',
+                                        label2: ''
+                                    })"                            >Videos</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="grey-item">
+                            <a href="/Dossiers"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Dossiers',
+                                        label2: ''
+                                    })"                            >Dossiers</a>
+                        </li>
+                                            
+                                                                            
+                        <li class="grey-item">
+                            <a href="/Recherche"
+                                data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Menu_Burger_Rubrique',
+                                        label1: 'Recherche',
+                                        label2: ''
+                                    })"                            >Archives</a>
+                        </li>
+                                        <a href="https://journal.la-croix.com/" target="_blank">
+                        <li class="telecharger-box-menu">
+                            <div class="icon"><i class="icon-newspaper"></i></div>
+                            <p><strong class="text-uppercase">télécharger l’édition du jour</strong> <br> <em>édition du 21/02/2019</em></p>
+                        </li>
+                    </a>
+                                            <li>
+                            <a class="back-to-lacroix libraire"
+                               href="https://librairie.la-croix.com/"
+                               data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'A',
+                                    category: 'PromoAbo',
+                                    action: 'C_Menu_Burger_Rubrique',
+                                    label1: 'Librairie',
+                                    format: ''
+                               })"
+                            >
+                                <i class="icon-cart"></i>
+                                <span>librairie</span>
+                                <img src="/build/lacroix/images/logo.8b8497a6.svg" alt="La Croix logo">
+                            </a>
+                        </li>
+                                        <li class="e-version-box abonent menu-version">
+                        <div class="box">
+			    <a href="/abo-decouverte"
+                              data-ng-click="sendTcEvent($event, 'click', {
+                              type: 'A',
+                              category: 'PromoAbo',
+                              action: 'C_Menu_Burger_Rubrique',
+                              label1: 'Autopromo',
+                              format: ''
+                              })"
+                             >
+                            <h4>Pas encore abonné ?<br><strong class="hidden-xs">Abonnez-Vous à partir d’1€</strong></h4>
+                            <img class="img-responsive responsively-lazy" src="/build/lacroix/images/abo-menu.da941e41.png" data-srcset="/build/lacroix/images/abo-menu.da941e41.png 112w" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Abonnement">
+                            <div class="button-set">
+                            <button class="hidden-xs grey-button">profitez de l’offre</button>
+                            <strong class="visible-xs">Abonnez-Vous à partir d’1€</strong>
+                            </div>
+			  </a>
+                        </div>
+                    </li>
+                                    </ul>
+                    </nav>
+    </div>
+
+
+
+                                            <div class="col-lg-4 col-md-4 col-sm-5 hidden-xs mobile-centered">
+            <div class="logo-header-set">
+                                    <a href="/">
+                        <img class="logo-header img-responsive" src="/build/lacroix/images/logo.8b8497a6.svg" alt="La Croix logo">
+                    </a>
+                            </div>
+        </div>
+    
+    
+<div class="col-lg-4                col-xs-0                col-sm-4 col-md-4 top-menu user-top-menu">
+    
+    <div class="search hidden-xs">
+        <form data-lc-top-search="topSearch" data-ng-cloak></form>
+    </div>
+
+                                
+        
+        
+        <div class="mobile-menu visible-xs pull-left">
+            <div class="inline-buttons">
+                <a href="/Monde">
+                    <button class="button turn-back">
+                        <i class="icon-arrow-right"></i>
+                    </button>
+                    <button class="button currently-category">
+                                                    <span>
+                              Monde
+                            </span>
+                                                                                                                    </button>
+                </a>
+            </div>
+        </div>
+    
+    <lc-header-top
+        auth="/login/check?target=1301001322"
+        failure-path="/login?target=1301001322"
+            ></lc-header-top>
+</div>
+
+
+    
+
+            <div class="top-menu article-top-menu hidden-xs hidden-sm hidden-md hidden-1600">
+            <div class="menu-container">
+                <div class="active-category hidden-xs hidden-sm hidden-md hidden-1600">
+                    <a href="/"
+                       class="no-underline"
+                    >
+                        <i class="icon-home"></i>
+                    </a>
+                                        <a href="/Monde"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'N',
+                                category: 'Navigation',
+                                action: 'C_Tab_Nav_Rubrique',
+                                label1: 'Monde',
+                                label2: '',
+                                label3: ''
+                            })"
+                    >
+                        Monde
+                    </a>
+                </div>
+
+                <ul class="top-links hidden-xs hidden-sm hidden-md hidden-1600">
+                                            
+                                                                                    <li>
+                                    <a
+                                            href="/Monde/Europe"
+                                            data-ng-click="sendTcEvent($event, 'click', {
+                                                type: 'N',
+                                                category: 'Navigation',
+                                                action: 'C_Tab_Nav_SousRubrique',
+                                                label1: 'Monde',
+                                                label2: 'Monde|Europe',
+                                                label3: ''
+                                            })"
+                                    >
+                                        Europe
+                                    </a>
+                                </li>
+                                                                                                
+                                                                                    <li>
+                                    <a
+                                            href="/Monde/Afrique"
+                                            data-ng-click="sendTcEvent($event, 'click', {
+                                                type: 'N',
+                                                category: 'Navigation',
+                                                action: 'C_Tab_Nav_SousRubrique',
+                                                label1: 'Monde',
+                                                label2: 'Monde|Afrique',
+                                                label3: ''
+                                            })"
+                                    >
+                                        Afrique
+                                    </a>
+                                </li>
+                                                                                                
+                                                                                    <li>
+                                    <a
+                                            href="/Monde/Ameriques"
+                                            data-ng-click="sendTcEvent($event, 'click', {
+                                                type: 'N',
+                                                category: 'Navigation',
+                                                action: 'C_Tab_Nav_SousRubrique',
+                                                label1: 'Monde',
+                                                label2: 'Monde|Amériques',
+                                                label3: ''
+                                            })"
+                                    >
+                                        Amériques
+                                    </a>
+                                </li>
+                                                                                                
+                                                                                    <li>
+                                    <a
+                                            href="/Monde/Moyen-Orient"
+                                            data-ng-click="sendTcEvent($event, 'click', {
+                                                type: 'N',
+                                                category: 'Navigation',
+                                                action: 'C_Tab_Nav_SousRubrique',
+                                                label1: 'Monde',
+                                                label2: 'Monde|Moyen-Orient',
+                                                label3: ''
+                                            })"
+                                    >
+                                        Moyen-Orient
+                                    </a>
+                                </li>
+                                                                                                
+                                                                                    <li>
+                                    <a
+                                            href="/Monde/Asie-Oceanie"
+                                            data-ng-click="sendTcEvent($event, 'click', {
+                                                type: 'N',
+                                                category: 'Navigation',
+                                                action: 'C_Tab_Nav_SousRubrique',
+                                                label1: 'Monde',
+                                                label2: 'Monde|Asie-Océanie',
+                                                label3: ''
+                                            })"
+                                    >
+                                        Asie-Océanie
+                                    </a>
+                                </li>
+                                                                                        </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="tablet-menu hidden-xs top-menu visible-1600 category-menu">
+
+        <div class="active-category hidden-xs">
+            <a href="/"><i
+                        class="icon-home"></i></a><a href="/Monde">Monde</a>
+        </div>
+
+        <ul class="top-links hidden-xs">
+                            
+                                    <li>
+                        <a                             href="/Monde/Europe"
+                            data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'N',
+                                category: 'Navigation',
+                                action: 'C_Tab_Nav_SousRubrique',
+                                label1: 'Monde',
+                                label2: 'Monde|Europe',
+                                label3: ''
+                            })"
+                        >Europe</a>
+                    </li>
+                                            
+                                    <li>
+                        <a                             href="/Monde/Afrique"
+                            data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'N',
+                                category: 'Navigation',
+                                action: 'C_Tab_Nav_SousRubrique',
+                                label1: 'Monde',
+                                label2: 'Monde|Afrique',
+                                label3: ''
+                            })"
+                        >Afrique</a>
+                    </li>
+                                            
+                                    <li>
+                        <a                             href="/Monde/Ameriques"
+                            data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'N',
+                                category: 'Navigation',
+                                action: 'C_Tab_Nav_SousRubrique',
+                                label1: 'Monde',
+                                label2: 'Monde|Amériques',
+                                label3: ''
+                            })"
+                        >Amériques</a>
+                    </li>
+                                            
+                                    <li>
+                        <a                             href="/Monde/Moyen-Orient"
+                            data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'N',
+                                category: 'Navigation',
+                                action: 'C_Tab_Nav_SousRubrique',
+                                label1: 'Monde',
+                                label2: 'Monde|Moyen-Orient',
+                                label3: ''
+                            })"
+                        >Moyen-Orient</a>
+                    </li>
+                                            
+                                    <li>
+                        <a                             href="/Monde/Asie-Oceanie"
+                            data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'N',
+                                category: 'Navigation',
+                                action: 'C_Tab_Nav_SousRubrique',
+                                label1: 'Monde',
+                                label2: 'Monde|Asie-Océanie',
+                                label3: ''
+                            })"
+                        >Asie-Océanie</a>
+                    </li>
+                                    </ul>
+    </nav>
+
+    <div class="row ">
+        <div class="col-md-12">
+            <div id="dfp-top" class="dfp-top">
+            </div>
+        </div>
+    </div>
+
+<section class="row wrapper">
+                            
+
+
+
+<article class="col-sm-12"
+         data-ng-controller="ArticleCtrl"
+         data-article-id="1301001322"
+         data-articles-id="1301001322" 
+itemscope="" itemtype="http://schema.org/Article" itemprop="mainContentOfPage" id="1301001322">
+    <meta itemprop="mainEntityOfPage" content="www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322">
+    <div class="article-header" data-ng-swipe-left="articleSwipeLeft()" data-ng-swipe-right="articleSwipeRight()" data-ng-click="arrowsTrigger()">
+        
+        <header>
+
+            <div class="row top-menu">
+                <div class="col-sm-12 col-md-4 date">
+                </div>
+                <div class="col-sm-12 col-md-8 col-md-offset-4 actions-parent hidden-xs hidden-sm hidden-md">
+                    <div class="actions">
+    <ul>
+        <li data-lc-zoom data-ng-cloak
+            data-tagco-label="Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï"
+        ></li>
+        <li data-lc-text-size data-hide-slide="true"
+            data-tagco-label="Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï"
+            data-ng-cloak
+        ></li>
+        <li data-lc-pdf="https://www.la-croix.com/pdf/article/1301001322"
+            data-tagco-label="Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï"
+            data-ng-cloak
+        ></li>
+
+                    <li class="abo-plus" style="margin:0 !important;">
+                                <a href="/abo-decouverte"
+                                   target="_blank"
+                   data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'A',
+                    category: 'PromoAbo',
+                    action: 'C_Button_ToolBar_CRX_Abo',
+                    label1: 'standard',
+                    format: 'Button'
+               })"
+                >
+                    Abonnez-vous à 1 €
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+                </div>
+
+                <div class="vertical-social-buttons text-center">
+                    <share-buttons article-id="1301001322"></share-buttons>
+                </div>
+
+                <div class="row title">
+                    <div class="col-sm-12">
+                                                <h1 itemprop="headline">Le deuxième sommet Trump/Kim se tiendra à Hanoï</h1>
+                                            </div>
+                </div>
+            </div>
+        </header>
+
+        <header class="">
+            <div class="row meta-data">
+                <div class="col-xs-12 meta-author">
+                                        <span itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+                        <span itemprop="name">afp</span>
+                    </span>,
+                     le <span itemprop="datePublished" content="2019-02-09T07:01:04+01:00">09/02/2019 à 7h01</span>
+                                            <br/>Mis à jour le <span itemprop="dateModified" content="2019-02-09T07:00:46+01:00">09/02/2019 à 7h00</span>
+                                    </div>
+                <div class="col-xs-12">
+                    <share-buttons article-id="1301001322"></share-buttons>
+                </div>
+            </div>
+        </header>
+
+        <section class="row content">
+            <div class="article-content col-xs-12 col-sm-7">
+                
+                
+
+                <span itemprop="articleBody"><div class="test-main-image"><div class="image-container" itemscope itemprop="image" itemtype="http://schema.org/ImageObject"><meta itemprop="width" content="729"><meta itemprop="height" content="486"><meta itemprop="url" content="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_729_486.jpg"><img src="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_729_486.jpg" alt="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018/AFP/Archives" class="img-responsive" /><a class="imageZoomTrigger" href="#imageZoom"><i class="icon-camera"></i></a><div class="under-picture"><p>Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018 / AFP/Archives</p></div></div></div><p>Donald Trump a révélé vendredi que la capitale du Vietnam, Hanoï, accueillerait le deuxième sommet historique entre le président américain et le dirigeant nord-coréen Kim Jong Un fin février, tout en prédisant un avenir économique radieux pour la Corée du Nord.</p><p>Le pays, ainsi que la date de ce deuxième sommet historique --après celui ayant eu lieu à Singapour en juin-- étaient déjà connus, mais pas sa localisation exacte. </p><p>"Mes représentants viennent juste de quitter la Corée du Nord après une réunion très productive", a écrit le locataire de la Maison Blanche sur Twitter. Le sommet "se tiendra à Hanoï, au Vietnam, les 27 et 28 février".</p><p>"J'ai hâte de rencontrer le président Kim et de faire avancer la cause de la paix!", a-t-il déclaré. </p><p>La Corée du Nord n'a pas donné d'information officielle à propos du sommet. Kim Jong Un ne l'a pas non plus mentionné durant une réunion vendredi avec les hauts gradés de l'armée du pays.</p><p>L'émissaire des Etats-Unis pour la Corée du Nord Stephen Biegun a terminé vendredi une visite de trois jours à Pyongyang destinée à préparer ce deuxième sommet.</p><p>De mercredi à vendredi, il s'est entretenu avec l'émissaire nord-coréen Kim Hyok Chol, afin de permettre des progrès sur "une dénucléarisation complète, la transformation des relations Etats-Unis/Corée du Nord, et la mise en place d'une paix durable sur la péninsule coréenne", a déclaré le département d'Etat américain dans un communiqué, quelques heures avant le tweet du président Trump.</p><p>Les émissaires des deux pays ont convenu de se rencontrer à nouveau avant le 27 février.</p><p>A Séoul, M. Biegun a informé samedi le ministre sud-coréen des Affaires étrangères, Kang Kyung-hwa, du déroulement de ses discussions à Pyongyang. Il a souligné qu'il restait encore du travail à faire avec les Nord-Coréens avant le sommet de Hanoï. </p><p>"Nous avons un dur travail à faire avec la DPRK", acronyme anglais de la République populaire démocratique de Corée, a dit M. Biegun à M. Kang. "Je suis confiant que si les deux parties restent engagées, nous pouvons faire de réels progrès", a-t-il dit.</p><p>"Nous ne savons pas où cela va aller, mais nous sommes au milieu d'une conversation", et les discussions à Pyongyang "ont été productives", a déclaré l'émissaire américain.</p><p>M. Kang a dit à M. Biegun que les Etats-Unis avaient "le soutien total" de la Corée du Sud pour le sommet à venir.</p><p>- "Fusée économique" -</p><p>Le président américain a estimé vendredi que la Corée du Nord, actuellement minée par la pauvreté, pouvait espérer de biens meilleurs jours sur le plan économique. </p><p>"La Corée du Nord, sous le commandement de Kim Jong Un, va devenir une grande puissance économique", a estimé Donald Trump dans un deuxième tweet vendredi.</p><p>Kim Jong Un "pourra en surprendre certains mais il ne me surprendra pas moi, car j'ai appris à le connaître et suis entièrement conscient de ce dont il est capable", a-t-il poursuivi.</p><p>"La Corée du Nord va devenir un autre type de fusée - une fusée économique!", s'est enthousiasmé celui qui traitait encore il y a peu le dirigeant nord-coréen d'"homme-fusée" ("Rocket Man"), en référence aux tests de missiles balistiques nord-coréens.</p><p>Après des mois de surenchère, d'insultes personnelles et de menaces, les deux dirigeants ont amorcé un rapprochement spectaculaire au début de l'an dernier. </p><p>Lors de leur première rencontre, MM. Kim et Trump avaient signé une déclaration très vague en faveur de "la dénucléarisation de la péninsule coréenne". Mais aucun progrès n'a depuis été réalisé, les deux parties n'étant même pas d'accord sur le sens exact de cet engagement. </p><p>Les analystes espèrent que cette deuxième rencontre débouchera sur des progrès plus concrets.</p><p>Pyongyang demande un allègement des sanctions adoptées par la communauté internationale en réponse à ses programmes nucléaire et balistique interdits. Mais les États-Unis considèrent que ces sanctions, qui asphyxient le peuple nord-coréen, doivent être maintenues tant que la Corée du Nord n'aura pas renoncé à ses armes nucléaires. </p></span>
+
+                <div class="author">
+                    <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+                        <meta itemprop="name" content="La Croix">
+                        <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+                            <meta itemprop="url" content="/build/lacroix/images/logo.9c2a448b.png">
+                        </span>
+                    </span>
+                    afp
+                </div>
+
+                <share-buttons article-id="1301001322" class="social-under-article"></share-buttons>
+
+                
+                
+                
+
+    
+
+
+                                        <aside class="next-article-block">
+                    <div class="next-article-block--title">Et aussi</div>
+                    <div class="next-article-block--content">
+                                                                                                            <div class="next-article-block--content--picto">
+                                <a  href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280"
+                                    data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_Asuivre',
+                                    label1: 'Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï',
+                                    format: 'Content block'
+                                })">
+                                    <img src="https://img.aws.la-croix.com/2019/02/06/1301000280/Donald-Trump-arrivee-Congresson-discours-Union-Nancy-Pelosi-presidente-democrate-Chambre-representants-Mike-Pence-president-americain_1_190_135.jpg" alt="Donald Trump à son arrivée au Congrès pour son discours sur l&#039;état de l&#039;Union, f..."/>
+                                </a>
+                            </div>
+                                                <div class="next-article-block--content--text">
+                            <div class="next-article-block--content--text--title">
+                                <a  href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280"
+                                    data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_Asuivre',
+                                    label1: 'Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï',
+                                    format: 'Content block'
+                                })">
+                                    Trump tente la conciliation dans un climat politique délétère
+                                </a>
+                            </div>
+                            <div class="next-article-block--content--text--desc">
+                                <span class="hidden-sm hidden-xs"> Pour ce traditionnel discours sur &quot;l’état de l&#039;Union&quot;, le tempétueux président américain a multiplié les appels au compromis.</span>
+                                <span class="hidden-lg hidden-md"> Pour ce traditionnel discours sur &quot;l’état de l&#039;Union&quot;, le tempétueux président américain a multiplié les appels au compromis.</span>
+                                <span>
+                                    <a  href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280"
+                                        data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Block_Asuivre',
+                                        label1: 'Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï',
+                                        format: 'Content block'
+                                    })">
+                                        Lire la suite
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                        
+                    <div class="tags">
+        <h2 class="light-header">Thèmes associés </h2>
+        <ul>
+                            
+                                    <li><a href="/Recherche/USA"><< USA >></a></li>
+                                            
+                                    <li><a href="/Recherche/Cor%C3%A9eNord"><< CoréeNord >></a></li>
+                                            
+                                    <li><a href="/Recherche/Vietnam"><< Vietnam >></a></li>
+                                            
+                                    <li><a href="/Recherche/diplomatie"><< diplomatie >></a></li>
+                                            
+                                    <li><a href="/Definitions/Lexique/Politique"><< politique >></a></li>
+                            
+                    </ul>
+    </div>
+
+                                                                    
+                <div class="OUTBRAIN" data-src="/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322" data-widget-id="AR_1" data-ob-template="lacroix" ></div>
+                <script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+
+                <div>
+                    
+                        <lc-comments article-id="1301001322"></lc-comments>
+
+                                    </div>
+                <center>
+                    <div id="dfp-middle-mobile" class="publicite-box hidden-lg">
+                        <p>Publicité</p>
+                    </div>
+                </center>
+            </div>
+
+            <aside class="mobile-aside-widget col-sm-offset-1 col-sm-4">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="dfp-middle" class="publicite-box hidden-xs">
+                            <p>Publicité</p>
+                        </div>
+
+                        
+                        
+                                                    
+        
+    <div class="author-articles-widget hidden-xs">
+        <h2 class="widget-header">
+                            Autour de cet article
+                    </h2>
+
+                    
+            <div class="row">
+                                                            
+                        <div class="col-xs-12 author-item equalHeight" style="display: block; height: auto !important;">
+                            <a href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280?from_univers=lacroix"
+                               class="similarArticleTitle"
+                               data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_AutourArticle_1',
+                                    label1: 'Monde|Trump tente la conciliation dans un climat politique délétère',
+                                    format: 'Content block'
+                               })"
+                            >
+                                <div class="col-sm-5">
+                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/06/1301000280/Donald-Trump-arrivee-Congresson-discours-Union-Nancy-Pelosi-presidente-democrate-Chambre-representants-Mike-Pence-president-americain_1_190_135.jpg" alt="Donald Trump à son arrivée au Congrès pour son discours sur l&#039;état de l&#039;Union, face à Nancy Pelosi, la présidente démocrate de la Chambre des représentants, et Mike Pence, le vice-président américain">
+    </figure>
+
+
+                                </div>
+                                <div class="col-sm-7">
+                                                                            <div class="category">
+                                            Monde
+                                        </div>
+                                                                        <p>Trump tente la conciliation dans un climat politique délétère</p>
+                                </div>
+                            </a>
+                        </div>
+                                                                                
+                        <div class="col-xs-12 author-item equalHeight" style="display: block; height: auto !important;">
+                            <a href="/Monde/Venezuela-Guaido-appelle-manifester-faire-basculer-armee-2019-01-28-1300998308?from_univers=lacroix"
+                               class="similarArticleTitle"
+                               data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_AutourArticle_2',
+                                    label1: 'Monde|Amériques|Venezuela : Juan Guaido appelle à manifester pour faire basculer l’armée',
+                                    format: 'Content block'
+                               })"
+                            >
+                                <div class="col-sm-5">
+                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/01/28/1300998308/president-autoproclame-Venezuela-Juan-Guaido-adresse-presseavoir-assiste-messe-honneur-prisonniers-politiques-exiles-eglise-San-Jose-Caracas-27-janvier-2019_0_190_135.jpg" alt="Le président autoproclamé du Venezuela, Juan Guaido, s&#039;adresse à la presse après avoir assisté à une messe en l&#039;honneur des prisonniers politiques et des exilés à l&#039;église San Jose de Caracas, le 27 janvier 2019">
+    </figure>
+
+
+                                </div>
+                                <div class="col-sm-7">
+                                                                            <div class="category">
+                                            Amériques
+                                        </div>
+                                                                        <p>Venezuela : Juan Guaido appelle à manifester pour faire basculer l’armée</p>
+                                </div>
+                            </a>
+                        </div>
+                                                </div>
+                    
+            <div class="row">
+                                                            
+                        <div class="col-xs-12 author-item equalHeight" style="display: block; height: auto !important;">
+                            <a href="/Monde/Turquie-parvient-pas-enrayer-debacle-livre-2018-08-14-1300961684?from_univers=lacroix"
+                               class="similarArticleTitle"
+                               data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_AutourArticle_1',
+                                    label1: 'Monde|La Turquie ne parvient pas à enrayer la débâcle de la livre',
+                                    format: 'Content block'
+                               })"
+                            >
+                                <div class="col-sm-5">
+                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2018/08/14/1300961684/president-Recep-Tayyip-Erdogan-13-2018-Ankara_0_190_135.jpg" alt="Le président turc Recep Tayyip Erdogan, le 13 août 2018 à Ankara">
+    </figure>
+
+
+                                </div>
+                                <div class="col-sm-7">
+                                                                            <div class="category">
+                                            Monde
+                                        </div>
+                                                                        <p>La Turquie ne parvient pas à enrayer la débâcle de la livre</p>
+                                </div>
+                            </a>
+                        </div>
+                                                                                
+                        <div class="col-xs-12 author-item equalHeight" style="display: block; height: auto !important;">
+                            <a href="/Monde/11-septembre-Trump-Shanksville-heros-vol-93-2018-09-11-1300967749?from_univers=lacroix"
+                               class="similarArticleTitle"
+                               data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_AutourArticle_2',
+                                    label1: 'Monde|Amériques|11 septembre : Trump à Shanksville pour les héros du vol 93',
+                                    format: 'Content block'
+                               })"
+                            >
+                                <div class="col-sm-5">
+                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2018/09/11/1300967749/Tour-Shanksville-Pennsylvanie-9-septembre-2018_1_190_135.jpg" alt="La &quot;Tour des voix&quot;, à Shanksville (Pennsylvanie), le 9 septembre 2018">
+    </figure>
+
+
+                                </div>
+                                <div class="col-sm-7">
+                                                                            <div class="category">
+                                            Amériques
+                                        </div>
+                                                                        <p>11 septembre : Trump à Shanksville pour les héros du vol 93</p>
+                                </div>
+                            </a>
+                        </div>
+                                                </div>
+            </div>
+
+
+<lc-own-page-right-block
+        data-title="Votre Sélection"
+        data-limit="8"
+        data-ownpage-user-id=""
+        data-referrer="https://www.la-croix.com/Monde/Le-deuxieme-sommet-Trump-Kim-tiendra-Hanoi-2019-02-09-1301001322"
+></lc-own-page-right-block>
+                        
+                        <div id="dfp-middle1" class="publicite-box hidden-xs">
+                            <p>Publicité</p>
+                        </div>
+
+                        <div id="ownpage_recommandation"></div>
+
+                        
+<div class="article-nav hidden-xs">
+    <h5>À la une</h5>
+    <div>
+        <!-- Nav tabs -->
+        <div class="articles-inner">
+            <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active">
+                        <a href="#allArticles"
+                           class="aside-news-lazyload-onclick"
+                           aria-controls="allArticles"
+                           role="tab"
+                           data-toggle="tab"
+                           data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'A',
+                                category: 'Navigation',
+                                action: 'C_Block_Une_Filter',
+                                label1: 'Tout',
+                                format: 'Content block'
+                           })"
+                        >
+                            Tout
+                        </a>
+                    </li>
+                                    <li role="presentation" class="">
+                        <a href="#franceArticles"
+                           class="aside-news-lazyload-onclick"
+                           aria-controls="franceArticles"
+                           role="tab"
+                           data-toggle="tab"
+                           data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'A',
+                                category: 'Navigation',
+                                action: 'C_Block_Une_Filter',
+                                label1: 'France',
+                                format: 'Content block'
+                           })"
+                        >
+                            France
+                        </a>
+                    </li>
+                                    <li role="presentation" class="">
+                        <a href="#worldArticles"
+                           class="aside-news-lazyload-onclick"
+                           aria-controls="worldArticles"
+                           role="tab"
+                           data-toggle="tab"
+                           data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'A',
+                                category: 'Navigation',
+                                action: 'C_Block_Une_Filter',
+                                label1: 'Monde',
+                                format: 'Content block'
+                           })"
+                        >
+                            Monde
+                        </a>
+                    </li>
+                                    <li role="presentation" class="">
+                        <a href="#cultureArticles"
+                           class="aside-news-lazyload-onclick"
+                           aria-controls="cultureArticles"
+                           role="tab"
+                           data-toggle="tab"
+                           data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'A',
+                                category: 'Navigation',
+                                action: 'C_Block_Une_Filter',
+                                label1: 'Culture',
+                                format: 'Content block'
+                           })"
+                        >
+                            Culture
+                        </a>
+                    </li>
+                                    <li role="presentation" class="">
+                        <a href="#religionArticles"
+                           class="aside-news-lazyload-onclick"
+                           aria-controls="religionArticles"
+                           role="tab"
+                           data-toggle="tab"
+                           data-ng-click="sendTcEvent($event, 'click', {
+                                type: 'A',
+                                category: 'Navigation',
+                                action: 'C_Block_Une_Filter',
+                                label1: 'Religion',
+                                format: 'Content block'
+                           })"
+                        >
+                            Religion
+                        </a>
+                    </li>
+                            </ul>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="allArticles">
+                                    
+    
+                        
+            <a href="/Economie/Entreprises/Lacierie-Ascoval-repreneur-2019-02-21-1201004164?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Economie|Entreprises|L’aciérie Ascoval n’a plus de repreneur',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004164/Lacierie-Ascoval-Saint-Saulve-Nord-redressement-judiciaireun_0_100_71.jpg" alt="L’aciérie Ascoval de Saint-Saulve (Nord), en redressement judiciaire depuis un an.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Entreprises</span>
+                                        <h4 class="media-heading">L’aciérie Ascoval n’a plus de repreneur</h4>
+                </div>
+            </a>
+                                
+            <a href="/Religion/Catholicisme/Pape/Abus-sexuels-feuille-route-Mgr-Charles-Scicluna-2019-02-21-1201004108?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Catholicisme|Pape|Abus sexuels, la feuille de route de Mgr Charles Scicluna',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004108/Mgr-Charles-Scicluna-secretaire-adjoint-Congregationla-doctrine_0_100_71.jpg" alt="Mgr Charles Scicluna, secrétaire adjoint de la Congrégation pour la doctrine de la foi.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Pape</span>
+                                        <h4 class="media-heading">Abus sexuels, la feuille de route de Mgr Charles Scicluna</h4>
+                </div>
+            </a>
+                                
+            <a href="/Monde/Europe/Londres-soppose-retour-dune-djihadiste-19-ans-2019-02-21-1201004151?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Europe|Londres s’oppose au retour d’une djihadiste de 19 ans',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004151/Shamima-Begum-enfuie-Londres-fevrier-2015trois-camarades-classe_0_100_71.jpg" alt="Shamima Begum s’est enfuie de Londres en février 2015 avec trois camarades de classe.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Europe</span>
+                                        <h4 class="media-heading">Londres s’oppose au retour d’une djihadiste de 19 ans</h4>
+                </div>
+            </a>
+                                
+            <a href="/Monde/Ameriques/Venezuela-Juan-Guaido-frontiere-colombienne-faire-entrer-laide-2019-02-21-1201004146?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Amériques|Venezuela, Juan Guaido à la frontière colombienne pour faire entrer l’aide',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004146/Juan-Guaido-16-fevrier-2019dune-manifestation-Caracas-capitale-Venezuela_0_100_71.jpg" alt="Juan Guaido le 16 février 2019 lors d’une manifestation à Caracas, capitale du Venezuela.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Amériques</span>
+                                        <h4 class="media-heading">Venezuela, Juan Guaido à la frontière colombienne pour faire entrer l’aide</h4>
+                </div>
+            </a>
+                                
+            <a href="/Religion/Catholicisme/Pape/Au-sommet-abus-sexuels-larmes-cardinal-Tagle-2019-02-21-1201004101?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Catholicisme|Pape|Au sommet sur les abus sexuels, les larmes du cardinal Tagle',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004101/cardinal-philippin-Luis-Antonio-Tagle-21-fevrier-sommet-sexuels-Vatican_0_100_71.jpg" alt="Le cardinal philippin Luis Antonio Tagle, le 21 février au sommet sur les abus sexuels, au Vatican.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Pape</span>
+                                        <h4 class="media-heading">Au sommet sur les abus sexuels, les larmes du cardinal Tagle</h4>
+                </div>
+            </a>
+                        
+                            </div>
+            <div role="tabpanel" class="tab-pane" id="franceArticles">
+                                    
+    
+                        
+            <a href="/France/Politique/Agnes-Thill-risque-lexclusion-propos-PMA-2019-02-19-1201003479?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'France|Politique|Agnès Thill reste à La république en marche après ses propos sur la PMA',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/19/1201003479/Agnes-Thill-convoquee-mardi-19-fevrier-14-heures_0_100_71.jpg" alt="Agnès Thill, est convoquée mardi 19 février à 14 heures.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Politique</span>
+                                        <h4 class="media-heading">Agnès Thill reste à La république en marche après ses propos sur la PMA</h4>
+                </div>
+            </a>
+                                
+            <a href="/France/Exclusion/A-lecole-langue-francaise-2019-02-21-1201004052?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'France|Exclusion|À l’école de la langue française',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004052/Marie-professeur-francais-lecole-Thot-corrige-eleves_1_100_71.jpg" alt="Marie, professeur de francais à l’école Thot, corrige une de ses élèves.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Exclusion</span>
+                                        <h4 class="media-heading">À l’école de la langue française</h4>
+                </div>
+            </a>
+                                
+            <a href="/France/Justice/Amende-historique-geant-bancaire-suisse-UBS-2019-02-20-1201003884?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'France|Justice|Amende historique pour le géant bancaire suisse UBS',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003884/banque-UBS-condamnee-amende-historique-37-milliards-deuros-lalourde-peine-jamais-infligee-justice-francaise-affaire-devasion-fiscale_0_100_71.jpg" alt="La banque UBS a été condamnée  à une amende historique de 3,7 milliards d’euros, la plus lourde peine jamais infligée par la justice française dans une affaire d’évasion fiscale.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Justice</span>
+                                        <h4 class="media-heading">Amende historique pour le géant bancaire suisse UBS</h4>
+                </div>
+            </a>
+                                
+            <a href="/France/jeunes-invites-faire-contre-lantisemitisme-2019-02-20-1201003827?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'France|Les jeunes invités à en faire plus contre l’antisémitisme',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003827/Manifestation-contre-lantisemitisme-organisee-place-Republique-Paris-19-fevrier_0_100_71.jpg" alt="Manifestation contre l’antisémitisme organisée place de la République, à Paris, le 19 février.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>France</span>
+                                        <h4 class="media-heading">Les jeunes invités à en faire plus contre l’antisémitisme</h4>
+                </div>
+            </a>
+                                
+            <a href="/France/Securite/securite-Nice-experimente-reconnaissance-faciale-2019-02-19-1201003567?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'France|Sécurité|Pour sa sécurité, Nice expérimente la reconnaissance faciale',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/19/1201003567/Bataille-fleurs-Carnaval-Nice-samedi-16-fevrier-Christian-Estrosi-maire-Nice-femme-Laura_0_100_71.jpg" alt="Bataille des fleurs du Carnaval de Nice, le samedi 16 février. Christian Estrosi, maire de Nice, et sa femme Laura.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Sécurité</span>
+                                        <h4 class="media-heading">Pour sa sécurité, Nice expérimente la reconnaissance faciale</h4>
+                </div>
+            </a>
+                        
+                            </div>
+            <div role="tabpanel" class="tab-pane" id="worldArticles">
+                                    
+    
+                        
+            <a href="/Monde/Europe/Londres-soppose-retour-dune-djihadiste-19-ans-2019-02-21-1201004151?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Europe|Londres s’oppose au retour d’une djihadiste de 19 ans',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004151/Shamima-Begum-enfuie-Londres-fevrier-2015trois-camarades-classe_0_100_71.jpg" alt="Shamima Begum s’est enfuie de Londres en février 2015 avec trois camarades de classe.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Europe</span>
+                                        <h4 class="media-heading">Londres s’oppose au retour d’une djihadiste de 19 ans</h4>
+                </div>
+            </a>
+                                
+            <a href="/Monde/Moyen-Orient/En-Israel-fusion-au-centre-a-lapproche-des-elections-2019-02-21-1201004098?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Moyen-Orient|En Israël, fusion au centre à l’approche des élections',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004098/Selon-derniers-sondages-Resilience-Yesh-Atid-obtiennent-22-11-mandats-deputes-120_0_100_71.jpg" alt="Selon les derniers sondages, « Résilience » et « Yesh Atid » obtiennent 22 et 11 mandats de députés (sur 120).">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Moyen-Orient</span>
+                                        <h4 class="media-heading">En Israël, fusion au centre à l’approche des élections</h4>
+                </div>
+            </a>
+                                
+            <a href="/Monde/Asie-et-Oceanie/tensions-entre-Pakistan-lInde-pourraient-conduire-deux-pays-bord-guerre-2019-02-21-1201004047?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Asie-Océanie|Les tensions entre le Pakistan et l’Inde « pourraient conduire les deux pays au bord de la guerre »',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004047/Arrestation-New-Delhi-Inde-militants-JKNPPdune-manifestation-lendemain-lattentat-Cachemire-15-fevrier-2019_0_100_71.jpg" alt="Arrestation à New Delhi (Inde) de militants du JKNPP lors d’une manifestation au lendemain de l’attentat au Cachemire, le 15 février 2019.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Asie-Océanie</span>
+                                        <h4 class="media-heading">Les tensions entre le Pakistan et l’Inde « pourraient conduire les deux pays au bord de la guerre »</h4>
+                </div>
+            </a>
+                                
+            <a href="/Monde/Ameriques/Au-Venezuela-tensions-sattisent-laide-sorganise-2019-02-21-1201004022?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Amériques|Au Venezuela, les tensions s’attisent et l’aide s’organise',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004022/president-Nicolas-Maduro-lopposant-Juan-Guaido-determines-forcer-reciproquement_0_100_71.jpg" alt="Le président Nicolas Maduro et l’opposant Juan Guaido, sont tous deux déterminés à se forcer la main réciproquement.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Amériques</span>
+                                        <h4 class="media-heading">Au Venezuela, les tensions s’attisent et l’aide s’organise</h4>
+                </div>
+            </a>
+                                
+            <a href="/Monde/Afrique/LEgypte-prepare-presidence-vie-Sissi-2019-02-20-1201003764?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Monde|Afrique|L’Égypte prépare une présidence à vie pour al-Sissi',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003764/president-egyptien-Abdel-Fattah-Sissi-cotes-dirigeants-militaires-paysdu-Salon-international-lindustrie-defense-securite-Caire-Egypte-3-decembre-2018_0_100_71.jpg" alt="Le président égyptien Abdel Fattah al-Sissi aux côtés des dirigeants militaires du pays lors du Salon international de l’industrie de la défense et de la sécurité au Caire, en Egypte, le 3 décembre 2018.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Afrique</span>
+                                        <h4 class="media-heading">L’Égypte prépare une présidence à vie pour al-Sissi</h4>
+                </div>
+            </a>
+                        
+                            </div>
+            <div role="tabpanel" class="tab-pane" id="cultureArticles">
+                                    
+    
+                        
+            <a href="/Culture/Art-de-vivre/A-Paris-plongee-premiere-reserve-naturelle-virtuelle-2019-02-21-1201004118?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Culture|Art de vivre|À Paris, plongée dans la première réserve naturelle virtuelle',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004118/premiere-reserve-naturelle-virtuelle-ouvre-portes-23-fevrier-Palais-dhiver-Jardin-dacclimatation-Paris_0_100_71.jpg" alt="La première réserve naturelle virtuelle ouvre ses portes le 23 février au Palais d’hiver du Jardin d’acclimatation à Paris.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Art de vivre</span>
+                                        <h4 class="media-heading">À Paris, plongée dans la première réserve naturelle virtuelle</h4>
+                </div>
+            </a>
+                                
+            <a href="/Culture/Livres-et-idees/Revelation-francaise-Michelet-2019-02-21-1201004020?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Culture|Livres &amp; idées|La Révélation française de Michelet',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004020/Revolution-francaise-1789-Citoyens-armes-Liberte-Mort-Gouache-freres-Lesueur-18eme-siecle-Paris-Musee-Carnavalet_0_100_71.jpg" alt="Revolution francaise, 1789 : Citoyens armes &quot; La Liberte ou la Mort &quot;. Gouache des freres Lesueur ( 18eme siecle ). Paris, Musee Carnavalet.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Livres &amp; idées</span>
+                                        <h4 class="media-heading">La Révélation française de Michelet</h4>
+                </div>
+            </a>
+                                
+            <a href="/Culture/TV-Radio/Apprentis-herbe-itineraire-deux-agriculteurs-passes-bio-2019-02-21-1201004021?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Culture|TV / Radio|« Les Apprentis en herbe », itinéraire de deux agriculteurs passés au bio',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004021/conversion-implique-aussiles-eleveurs-nouveau-rapport-vaches_0_100_71.jpg" alt="La bio-conversion implique aussi, pour les éleveurs, un nouveau rapport aux vaches.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>TV / Radio</span>
+                                        <h4 class="media-heading">« Les Apprentis en herbe », itinéraire de deux agriculteurs passés au bio</h4>
+                </div>
+            </a>
+                                
+            <a href="/Culture/Expositions/DIAPORAMA-Robert-Doisneau-photographe-connait-musique-2019-02-20-1201003862?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Culture|Expositions|DIAPORAMA - Robert Doisneau, un photographe qui connaît la musique',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003862/Clairon-dimanche-Antony-1947_0_100_71.jpg" alt="Le Clairon du dimanche à Antony en 1947">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Expositions</span>
+                                        <h4 class="media-heading">DIAPORAMA - Robert Doisneau, un photographe qui connaît la musique</h4>
+                </div>
+            </a>
+                                
+            <a href="/Culture/Theatre/Breaking-the-Waves-vents-mauvais-conformisme-2019-02-20-1201003830?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Culture|Théâtre|« Breaking the Waves », les vents mauvais du conformisme',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003830/Ladaptation-Myriam-Muller-prefere-lallegorie-radicalisme-Lars-Trier_0_100_71.jpg" alt="L’adaptation de Myriam Muller préfère l’allégorie au radicalisme de Lars von Trier.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Théâtre</span>
+                                        <h4 class="media-heading">« Breaking the Waves », les vents mauvais du conformisme</h4>
+                </div>
+            </a>
+                        
+                            </div>
+            <div role="tabpanel" class="tab-pane" id="religionArticles">
+                                    
+    
+                        
+            <a href="/Religion/Catholicisme/Monde/Le-Vatican-soutient-Madrid-exhumer-restes-Franco-2019-02-21-1201004102?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Catholicisme|Monde|Le Vatican soutient Madrid pour exhumer les restes de Franco',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004102/famille-dictateur-Francisco-Franco-probablement-deposer-nouveau-recours-aupres-Tribunal-Supreme_0_100_71.jpg" alt="La famille du dictateur Francisco Franco va probablement déposer un nouveau recours auprès du Tribunal Suprême.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Monde</span>
+                                        <h4 class="media-heading">Le Vatican soutient Madrid pour exhumer les restes de Franco</h4>
+                </div>
+            </a>
+                                
+            <a href="/Religion/Judaisme/Emmanuel-Macron-annonce-proposition-loi-lutter-contre-lantisemitisme-Internet-2019-02-21-1201004038?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Religion|Judaïsme|Emmanuel Macron annonce une proposition de loi pour lutter contre l’antisémitisme sur Internet',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/21/1201004038/Emmanuel-Macrondu-34e-diner-annuel-Conseil-representatif-institutions-juives-France-Crif-mercredi-20-fevrier-2019_0_100_71.jpg" alt="Emmanuel Macron lors du 34e dîner annuel du Conseil représentatif des institutions juives de France (Crif), mercredi 20 février 2019.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Judaïsme</span>
+                                        <h4 class="media-heading">Emmanuel Macron annonce une proposition de loi pour lutter contre l’antisémitisme sur Internet</h4>
+                </div>
+            </a>
+                                
+            <a href="/Religion/Orthodoxie/Linstitut-Saint-Serge-joyau-terni-lorthodoxie-francaise-2019-02-20-1201003891?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Religion|Orthodoxie|L’institut Saint-Serge, joyau terni de l’orthodoxie française',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003891/chapelle-Institut-theologie-orthodoxe-Saint-Serge-Paris_0_100_71.jpg" alt="La chapelle de l&#039;Institut de théologie orthodoxe Saint-Serge, à Paris">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Orthodoxie</span>
+                                        <h4 class="media-heading">L’institut Saint-Serge, joyau terni de l’orthodoxie française</h4>
+                </div>
+            </a>
+                                
+            <a href="/Religion/Protestantisme/CEDH-limite-lintrusion-lEtat-lorganisation-lEglise-Roumanie-2019-02-20-1201003822?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Religion|Protestantisme|La CEDH limite l’intrusion de l’État dans l’organisation des Églises en Roumanie',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003822/Leglise-lutherienne-dArad-Roumanie_0_100_71.jpg" alt="L’église luthérienne, d’Arad, en Roumanie.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>Protestantisme</span>
+                                        <h4 class="media-heading">La CEDH limite l’intrusion de l’État dans l’organisation des Églises en Roumanie</h4>
+                </div>
+            </a>
+                                
+            <a href="/Religion/Catholicisme/France/Labbaye-Bassac-reinvente-laics-2019-02-20-1201003777?from_univers=lacroix"
+               class="media"
+               data-ng-click="sendTcEvent($event, 'click', {
+                    type: 'N',
+                    category: 'Navigation',
+                    action: 'C_Block_Une',
+                    label1: 'Catholicisme|France|L’abbaye de Bassac se réinvente avec des laïcs',
+                    format: 'Content block'
+               })"
+            >
+                <div class="media-left">
+                    <div class=img-box>
+                                                                                    
+                
+        <figure>
+        <img class="aside-news-lazyload img-responsive" data-src="https://img.aws.la-croix.com/2019/02/20/1201003777/derniers-Freres-missionnaires-Sainte-Therese-quitte-labbaye-Bassac-2010_0_100_71.jpg" alt="Les derniers Frères missionnaires de Sainte Thérèse ont quitté l’abbaye de Bassac 2010.">
+    </figure>
+
+
+                                                                        </div>
+                </div>
+                <div class="media-body">
+                                            <span>France</span>
+                                        <h4 class="media-heading">L’abbaye de Bassac se réinvente avec des laïcs</h4>
+                </div>
+            </a>
+                        
+                            </div>
+        </div>
+    </div>
+</div>
+                        <div id="dfp-autopromo1" class="publicite-box hidden-xs">
+                            <p>Publicité</p>
+                        </div>
+                        <div id="dfp-autopromo2" class="publicite-box hidden-xs">
+                            <p>Publicité</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+                    
+<div class="col-sm-12">
+                <div class="carousel-area visible-md-lg">
+                            
+                    
+        
+    <h5 class="carousel-header">Découvrez nos articles à la Une</h5>
+    <div id="carousel-block-75d995c5-7b5b-eaaa-275c-38fa04464254" class="carousel footer-carousel slide carousel-article-block"
+         data-ride="carousel" data-interval="false">
+        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                    <div class="row">
+                                                                                                                <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Religion/Catholicisme/Pape/direct-sommet-abus-sexuels-Vatican-pedophilie-Eglise-pape-Francois-evequesSuivez-direct-sommet-abus-sexuels-Vatican-2019-02-21-1201004059?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004059/Le-Francois-Mgr-Frederico-Lombardi-louverture-sommet-sexuels-21-fevrier-2019_1_350_250.jpg" alt="Suivez en direct le sommet au Vatican sur les abus sexuels"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Pape</span>
+                                                
+                                                <span class="title">Suivez en direct le sommet au Vatican sur les abus sexuels</span>
+
+                                                                                                    <p> Le sommet sur la pédophilie et les abus sexuels a...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                            <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Debats/Forum-et-debats/Gilets-Jaunes-gens-contre-peuple-2019-02-21-1201004135?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004135/Cette-masse-inorganique-anonymes-nappartienta-lEtat-organisese-tient-separee_0_350_250.jpg" alt="Gilets Jaunes : les gens contre le peuple"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Forum et débats</span>
+                                                
+                                                <span class="title">Gilets Jaunes : les gens contre le peuple</span>
+
+                                                                                                    <p> Thierry Leterre, philosophe et politologue</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                            <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Economie/Entreprises/Poste-courrier-represente-28-lactivite-lentreprise-2019-02-21-1201004123?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive" src="https://img.aws.la-croix.com/2019/02/21/1201004123/reseau-Poste-aujourdhui-compose-48-bureaux-poste-traditionnels-52-points-contacts_0_350_250.jpg" alt="La Poste, le courrier ne représente plus que 28 % de l’activité de l’entreprise"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Entreprises</span>
+                                                
+                                                <span class="title">La Poste, le courrier ne représente plus que 28 % de l’activité de l’entreprise</span>
+
+                                                                                                    <p> L’opérateur public poursuit sa diversification à...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                        </div>
+                </div>
+                            <div class="item ">
+                    <div class="row">
+                                                                                                                <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Culture/Art-de-vivre/A-Paris-plongee-premiere-reserve-naturelle-virtuelle-2019-02-21-1201004118?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004118/premiere-reserve-naturelle-virtuelle-ouvre-portes-23-fevrier-Palais-dhiver-Jardin-dacclimatation-Paris_0_350_250.jpg" alt="À Paris, plongée dans la première réserve naturelle virtuelle"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Art de vivre</span>
+                                                
+                                                <span class="title">À Paris, plongée dans la première réserve naturelle virtuelle</span>
+
+                                                                                                    <p> Pour approcher les animaux du monde entier sans impact...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                            <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Sciences-et-ethique/Sante/2-800-deces-dus-lepidemie-grippe-France-2019-02-21-1201004091?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004091/Pas-moins-11-000-personnes-rendues-urgences-suite-syndrome-grippal_0_350_250.jpg" alt="2 800 décès dus à l’épidémie de grippe en France"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Santé</span>
+                                                
+                                                <span class="title">2 800 décès dus à l’épidémie de grippe en France</span>
+
+                                                                                                    <p> Le pic de l’épidémie de grippe a « probablement...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                            <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Monde/Europe/LAllemagne-dechire-publicite-autour-lavortement-2019-02-21-1201004113?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004113/Kristina-Hanel-medecin-Giessen-Allemagne-condamnee-decembre-2017-amende-6-000-avoir-publicite-autour-lavortement_0_350_250.jpg" alt="L’Allemagne se déchire sur la publicité autour de l’avortement"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Europe</span>
+                                                
+                                                <span class="title">L’Allemagne se déchire sur la publicité autour de l’avortement</span>
+
+                                                                                                    <p> Les députés allemands devraient adopter d’ici...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                        </div>
+                </div>
+                            <div class="item ">
+                    <div class="row">
+                                                                                                                <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Religion/Catholicisme/Monde/Le-Vatican-soutient-Madrid-exhumer-restes-Franco-2019-02-21-1201004102?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004102/famille-dictateur-Francisco-Franco-probablement-deposer-nouveau-recours-aupres-Tribunal-Supreme_0_350_250.jpg" alt="Le Vatican soutient Madrid pour exhumer les restes de Franco"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Monde</span>
+                                                
+                                                <span class="title">Le Vatican soutient Madrid pour exhumer les restes de Franco</span>
+
+                                                                                                    <p> Dans une lettre reçue le 14 février par le...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                            <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Monde/Moyen-Orient/En-Israel-fusion-au-centre-a-lapproche-des-elections-2019-02-21-1201004098?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004098/Selon-derniers-sondages-Resilience-Yesh-Atid-obtiennent-22-11-mandats-deputes-120_0_350_250.jpg" alt="En Israël, fusion au centre à l’approche des élections"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Moyen-Orient</span>
+                                                
+                                                <span class="title">En Israël, fusion au centre à l’approche des élections</span>
+
+                                                                                                    <p> Les deux grands partis israéliens du centre ont...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                            <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Debats/Chroniques/parler-remede-delitement-2019-02-21-1201004093?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004093/grands-debats-Lille-presence-Brune-Poirson-secretaire-Etat-aupres-ministre-transition-ecologique-solidaire-19-fevrier_0_350_250.jpg" alt="Se parler, le remède au délitement"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Chroniques</span>
+                                                
+                                                <span class="title">Se parler, le remède au délitement</span>
+
+                                                                                                    <p> La chronique de Frédéric Boyer.</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                        </div>
+                </div>
+                            <div class="item ">
+                    <div class="row">
+                                                                                                                <div class="subitem col-sm-4">
+                                    <div class="inner">
+                                        <a href="/Sciences-et-ethique/Environnement/France-accueillera-Giec-biodiversite-mai-2019-2019-02-21-1201004058?from_univers=lacroix">
+                                                                                                        <figure><img class="img-responsive lazy-load-full-width-slider" data-src="https://img.aws.la-croix.com/2019/02/21/1201004058/Albatros-fuligineux-clair-large-larchipel-Crozet-reserve-naturelle-terres-australes-francaises_0_350_250.jpg" alt="La France accueillera le « Giec de la biodiversité » en mai 2019"></figure>
+    
+                                            
+
+                                            <div class="info-item">
+                                                                                                    <span class="tag">Environnement</span>
+                                                
+                                                <span class="title">La France accueillera le « Giec de la biodiversité » en mai 2019</span>
+
+                                                                                                    <p> Les chercheurs de l’IPBES, la plate-forme...</p>
+                                                                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                                                                                                                                                                                                                        </div>
+                </div>
+                    </div>
+
+        <a class="left carousel-control" href="#carousel-block-75d995c5-7b5b-eaaa-275c-38fa04464254" role="button" data-slide="prev"
+           data-ng-click="sendTcEvent($event, 'click', {
+                type: 'A',
+                category: 'Navigation',
+                action: 'C_Block_Carroussel_Arrow_Left',
+                label1: 'block-75d995c5-7b5b-eaaa-275c-38fa04464254',
+                format: 'Arrow'
+           })"
+        >
+            <span class="left-arrow icon-arrow-light" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-block-75d995c5-7b5b-eaaa-275c-38fa04464254" role="button" data-slide="next"
+           data-ng-click="sendTcEvent($event, 'click', {
+                type: 'A',
+                category: 'Navigation',
+                action: 'C_Block_Carroussel_Arrow_Right',
+                label1: 'block-75d995c5-7b5b-eaaa-275c-38fa04464254',
+                format: 'Arrow'
+           })"
+        >
+            <span class="right-arrow icon-arrow-light" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+                            
+                    <div id="dfp-bottom"></div><div id="dfp-bottom1"></div>
+
+                    </div>
+        </div>
+        
+        <section class="mobile-pull-spot"></section>
+
+        
+<div id="imageZoom" style="display:none">
+
+    <div id="imageZoom-slider" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner" role="listbox" >
+                                        <div class="item active">
+                <div class="zoom-item">
+                    <div class="image-col">
+                        
+                
+        <figure>
+        <img class="img-responsive-zoom img-responsive" data-src="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_1399_933.jpg" alt="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018">
+    </figure>
+
+
+                    </div>
+                    <div class="imageZoom-caption">
+                        <p>Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018</p>
+                        <p class="imageZoom-author">AFP/Archives</p>
+                    </div>
+                </div>
+            </div>
+                        
+        </div>
+    </div>
+
+    <div class="right-sidebar">
+        <ul class="controls">
+            <li class="close-zoom"><i class="icon-x"></i></li>
+            <li class="show-desc hidden-xs"><i class="icon-legenda"></i></li>
+                    </ul>
+    </div>
+</div>
+
+                <div id="easy-reading" style="display:none;">
+            <article>
+                <header>
+                    <div class="row title">
+                        <div class="col-sm-12">
+                            <div class="head">Le deuxième sommet Trump/Kim se tiendra à Hanoï</div>
+                        </div>
+                    </div>
+                </header>
+
+
+                <section class="row">
+                    <div class="col-sm-12 col-md-12 short-description-column">
+                        <div class="short-description">
+                            <h2></h2>
+                        </div>
+                    </div>
+                </section>
+
+
+                <header class="hidden-xs">
+                    <div class="row meta-data">
+                        <div class="col-md-6 meta-author">
+                             <!--<a href="#">-->afp<!--</a>-->, le 10/04/2019 à 8h01
+                        </div>
+                        <div class="col-md-6">
+                            <share-buttons article-id="1301001322"></share-buttons>
+                        </div>
+                    </div>
+                </header>
+                <section class="row">
+                    <div class="col-md-8 col-md-offset-2 article-main-image">
+                        
+                
+        <figure>
+        <img class="img-responsive-easy-read img-responsive" data-src="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_1399_933.jpg" alt="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018">
+    </figure>
+
+
+                                                    <p class="under-picture">Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018 / AFP/Archives</p>
+                                            </div>
+                </section>
+                <section class="row content">
+                    <div class="article-content col-md-12">
+
+                                                
+                        <div class="test-main-image"><div class="image-container" itemscope itemprop="image" itemtype="http://schema.org/ImageObject"><meta itemprop="width" content="729"><meta itemprop="height" content="486"><meta itemprop="url" content="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_729_486.jpg"><img src="https://img.aws.la-croix.com/2019/02/09/1301001322/president-Etats-Unis-Donald-Trump-dirigeant-coreen-Kim-Jongde-premier-sommet-Singapour-12-2018_0_729_486.jpg" alt="Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018/AFP/Archives" class="img-responsive" /><a class="imageZoomTrigger" href="#imageZoom"><i class="icon-camera"></i></a><div class="under-picture"><p>Le président des Etats-Unis Donald Trump et le dirigeant nord-coréen Kim Jong Un lors de leur premier sommet à Singapour, le 12 juin 2018 / AFP/Archives</p></div></div></div><p>Donald Trump a révélé vendredi que la capitale du Vietnam, Hanoï, accueillerait le deuxième sommet historique entre le président américain et le dirigeant nord-coréen Kim Jong Un fin février, tout en prédisant un avenir économique radieux pour la Corée du Nord.</p><p>Le pays, ainsi que la date de ce deuxième sommet historique --après celui ayant eu lieu à Singapour en juin-- étaient déjà connus, mais pas sa localisation exacte. </p><p>"Mes représentants viennent juste de quitter la Corée du Nord après une réunion très productive", a écrit le locataire de la Maison Blanche sur Twitter. Le sommet "se tiendra à Hanoï, au Vietnam, les 27 et 28 février".</p><p>"J'ai hâte de rencontrer le président Kim et de faire avancer la cause de la paix!", a-t-il déclaré. </p><p>La Corée du Nord n'a pas donné d'information officielle à propos du sommet. Kim Jong Un ne l'a pas non plus mentionné durant une réunion vendredi avec les hauts gradés de l'armée du pays.</p><p>L'émissaire des Etats-Unis pour la Corée du Nord Stephen Biegun a terminé vendredi une visite de trois jours à Pyongyang destinée à préparer ce deuxième sommet.</p><p>De mercredi à vendredi, il s'est entretenu avec l'émissaire nord-coréen Kim Hyok Chol, afin de permettre des progrès sur "une dénucléarisation complète, la transformation des relations Etats-Unis/Corée du Nord, et la mise en place d'une paix durable sur la péninsule coréenne", a déclaré le département d'Etat américain dans un communiqué, quelques heures avant le tweet du président Trump.</p><p>Les émissaires des deux pays ont convenu de se rencontrer à nouveau avant le 27 février.</p><p>A Séoul, M. Biegun a informé samedi le ministre sud-coréen des Affaires étrangères, Kang Kyung-hwa, du déroulement de ses discussions à Pyongyang. Il a souligné qu'il restait encore du travail à faire avec les Nord-Coréens avant le sommet de Hanoï. </p><p>"Nous avons un dur travail à faire avec la DPRK", acronyme anglais de la République populaire démocratique de Corée, a dit M. Biegun à M. Kang. "Je suis confiant que si les deux parties restent engagées, nous pouvons faire de réels progrès", a-t-il dit.</p><p>"Nous ne savons pas où cela va aller, mais nous sommes au milieu d'une conversation", et les discussions à Pyongyang "ont été productives", a déclaré l'émissaire américain.</p><p>M. Kang a dit à M. Biegun que les Etats-Unis avaient "le soutien total" de la Corée du Sud pour le sommet à venir.</p><p>- "Fusée économique" -</p><p>Le président américain a estimé vendredi que la Corée du Nord, actuellement minée par la pauvreté, pouvait espérer de biens meilleurs jours sur le plan économique. </p><p>"La Corée du Nord, sous le commandement de Kim Jong Un, va devenir une grande puissance économique", a estimé Donald Trump dans un deuxième tweet vendredi.</p><p>Kim Jong Un "pourra en surprendre certains mais il ne me surprendra pas moi, car j'ai appris à le connaître et suis entièrement conscient de ce dont il est capable", a-t-il poursuivi.</p><p>"La Corée du Nord va devenir un autre type de fusée - une fusée économique!", s'est enthousiasmé celui qui traitait encore il y a peu le dirigeant nord-coréen d'"homme-fusée" ("Rocket Man"), en référence aux tests de missiles balistiques nord-coréens.</p><p>Après des mois de surenchère, d'insultes personnelles et de menaces, les deux dirigeants ont amorcé un rapprochement spectaculaire au début de l'an dernier. </p><p>Lors de leur première rencontre, MM. Kim et Trump avaient signé une déclaration très vague en faveur de "la dénucléarisation de la péninsule coréenne". Mais aucun progrès n'a depuis été réalisé, les deux parties n'étant même pas d'accord sur le sens exact de cet engagement. </p><p>Les analystes espèrent que cette deuxième rencontre débouchera sur des progrès plus concrets.</p><p>Pyongyang demande un allègement des sanctions adoptées par la communauté internationale en réponse à ses programmes nucléaire et balistique interdits. Mais les États-Unis considèrent que ces sanctions, qui asphyxient le peuple nord-coréen, doivent être maintenues tant que la Corée du Nord n'aura pas renoncé à ses armes nucléaires. </p>
+
+                        <div class="pull-left author">afp</div>
+
+                        
+
+    
+
+
+                                        <aside class="next-article-block">
+                    <div class="next-article-block--title">Et aussi</div>
+                    <div class="next-article-block--content">
+                                                                                                            <div class="next-article-block--content--picto">
+                                <a  href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280"
+                                    data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_Asuivre',
+                                    label1: 'Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï',
+                                    format: 'Content block'
+                                })">
+                                    <img src="https://img.aws.la-croix.com/2019/02/06/1301000280/Donald-Trump-arrivee-Congresson-discours-Union-Nancy-Pelosi-presidente-democrate-Chambre-representants-Mike-Pence-president-americain_1_190_135.jpg" alt="Donald Trump à son arrivée au Congrès pour son discours sur l&#039;état de l&#039;Union, f..."/>
+                                </a>
+                            </div>
+                                                <div class="next-article-block--content--text">
+                            <div class="next-article-block--content--text--title">
+                                <a  href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280"
+                                    data-ng-click="sendTcEvent($event, 'click', {
+                                    type: 'N',
+                                    category: 'Navigation',
+                                    action: 'C_Block_Asuivre',
+                                    label1: 'Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï',
+                                    format: 'Content block'
+                                })">
+                                    Trump tente la conciliation dans un climat politique délétère
+                                </a>
+                            </div>
+                            <div class="next-article-block--content--text--desc">
+                                <span class="hidden-sm hidden-xs"> Pour ce traditionnel discours sur &quot;l’état de l&#039;Union&quot;, le tempétueux président américain a multiplié les appels au compromis.</span>
+                                <span class="hidden-lg hidden-md"> Pour ce traditionnel discours sur &quot;l’état de l&#039;Union&quot;, le tempétueux président américain a multiplié les appels au compromis.</span>
+                                <span>
+                                    <a  href="/Monde/Trump-tente-conciliation-climat-politique-deletere-2019-02-06-1301000280"
+                                        data-ng-click="sendTcEvent($event, 'click', {
+                                        type: 'N',
+                                        category: 'Navigation',
+                                        action: 'C_Block_Asuivre',
+                                        label1: 'Monde|Le deuxième sommet Trump/Kim se tiendra à Hanoï',
+                                        format: 'Content block'
+                                    })">
+                                        Lire la suite
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                        
+                            <div class="tags">
+        <h2 class="light-header">Thèmes associés </h2>
+        <ul>
+                            
+                                    <li><a href="/Recherche/USA"><< USA >></a></li>
+                                            
+                                    <li><a href="/Recherche/Cor%C3%A9eNord"><< CoréeNord >></a></li>
+                                            
+                                    <li><a href="/Recherche/Vietnam"><< Vietnam >></a></li>
+                                            
+                                    <li><a href="/Recherche/diplomatie"><< diplomatie >></a></li>
+                                            
+                                    <li><a href="/Definitions/Lexique/Politique"><< politique >></a></li>
+                            
+                    </ul>
+    </div>
+
+                        <div class="col-md-6 col-md-offset-3 col-xs-12">
+                                                                                                                    
+                            
+                                <lc-comments article-id="1301001322"></lc-comments>
+
+                                                    </div>
+                    </div>
+                </section>
+                <div class="close-easy-reading" onclick="$.fancybox.close();">Retour à l’article<i class="icon-close"></i></div>
+            </article>
+        </div>
+    </div>
+</article>
+            
+    <a href="#" id="return-to-top" class="text-center"><i class="inner-arrow text-center glyphicon glyphicon-menu-up"></i>
+    <p class="sub-arrow">RETOUR EN <br>HAUT DE PAGE</p>
+</a></section>
+    
+<footer class="lacroix-footer visible-lg hidden-xs">
+    <div class="links-row">
+        <div class="color-section">
+            <div class="column">
+                
+                    <span class="title-column">Les actualités de La Croix</span>
+                    
+    <ul>
+        
+                                                    
+                                        <li>
+                    <a href="/France"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'France'
+                       })"
+                    >
+                                                                        France
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Monde"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Monde'
+                       })"
+                    >
+                                                                        Monde
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Economie"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Économie'
+                       })"
+                    >
+                                                                        Économie
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Religion"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Religion'
+                       })"
+                    >
+                                                                        Religion
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Culture"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Culture'
+                       })"
+                    >
+                                                                        Culture
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Sciences-et-ethique"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Sciences &amp; éthique'
+                       })"
+                    >
+                                                                        Sciences &amp; éthique
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Famille"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Famille'
+                       })"
+                    >
+                                                                        Famille
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Sport"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Sport'
+                       })"
+                    >
+                                                                        Sport
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Debats"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Débats'
+                       })"
+                    >
+                                                                        Débats
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Debats/Blogs"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Blogs'
+                       })"
+                    >
+                                                                        Blogs
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Videos"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Vidéos'
+                       })"
+                    >
+                                                                        Vidéos
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Dossiers"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Dossiers'
+                       })"
+                    >
+                                                                        Dossiers
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Urbi-et-Orbi"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Urbi &amp; Orbi'
+                       })"
+                    >
+                                                                        Urbi &amp; Orbi
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://international.la-croix.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'La Croix International'
+                       })"
+                    >
+                                                                        La Croix International
+                    </a>
+                </li>
+            
+            </ul>
+
+
+                            </div>
+            <div class="column">
+                
+                    <span class="title-column">Nous contacter</span>
+
+                    
+    <ul>
+        
+                                                    
+                                        <li>
+                    <a href="/Services/La-Croix/La-Redaction/Contactez-nous-_NG_-2011-04-19-565337"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Service client'
+                       })"
+                    >
+                                                                        Service client
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Services/La-Croix/La-Redaction/Contactez-nous-_NG_-2011-04-19-565337"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Courrier des lecteurs'
+                       })"
+                    >
+                                                                        Courrier des lecteurs
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Services/Aide/Numerique-La-Croix-mode-emploi-2016-03-08-1200745357"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Aide'
+                       })"
+                    >
+                                                                        Aide
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="/Service/Aide/L-equipe-2016-05-19-1200761386"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'L\&#039;équipe'
+                       })"
+                    >
+                                                                        L&#039;équipe
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://services.la-croix.com/presentation-numerique/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Découvrir LA CROIX numérique'
+                       })"
+                    >
+                                                                        Découvrir LA CROIX numérique
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.facebook.com/lacroix.journal/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Facebook'
+                       })"
+                    >
+                                                                            <i class="icon--Facebook"></i>
+                                                Facebook
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://twitter.com/LaCroix"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Twitter'
+                       })"
+                    >
+                                                                            <i class="icon--Twitter"></i>
+                                                Twitter
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://flipboard.com/@JournalLaCroix"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Flipboard'
+                       })"
+                    >
+                                                                        Flipboard
+                    </a>
+                </li>
+            
+            </ul>
+
+
+                            </div>
+            <div class="column">
+                
+                    <span class="title-column">Nos services</span>
+
+                    
+    <ul>
+        
+                                                    
+                                        <li>
+                    <a href="/abo-decouverte"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Abonnement'
+                       })"
+                    >
+                                                                        Abonnement
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://librairie.la-croix.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Boutique'
+                       })"
+                    >
+                                                                        Boutique
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://ebook.la-croix.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Ebook'
+                       })"
+                    >
+                                                                        Ebook
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://services.la-croix.com/don/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Faire un don'
+                       })"
+                    >
+                                                                        Faire un don
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://services.la-croix.com/newsletters/croix-form"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'Inscription à la newsletter'
+                       })"
+                    >
+                                                                        Inscription à la newsletter
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://services.la-croix.com/rss/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'N',
+                            category: 'Navigation',
+                            action: 'C_Tab_Footer',
+                            label1: 'RSS'
+                       })"
+                    >
+                                                                        RSS
+                    </a>
+                </li>
+            
+            </ul>
+
+
+                            </div>
+        </div>
+    </div>
+    <div class="partners-row">
+        <div class="color-section">
+            <span class="title-column">
+                Nos partenaires
+            </span>
+            <div class="images-inline">
+                <a href="https://www.franceinter.fr/">
+                    <img class="responsively-lazy" src="/build/lacroix/images/inter.7b11042a.png" data-srcset="/build/lacroix/images/inter.7b11042a.png 68w" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="France Inter logo">
+                </a>
+                <a href="https://www.finansol.org/">
+                    <img class="responsively-lazy" src="/build/lacroix/images/finansol.1a908a27.png" data-srcset="/build/lacroix/images/finansol.1a908a27.png 111w" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Finansol logo">
+                </a>
+                <a href="https://www.franceinfo.fr/">
+                    <img class="responsively-lazy" src="/build/lacroix/images/franceinfo-v4.bad21d19.png" data-srcset="/build/lacroix/images/franceinfo-v4.bad21d19.png 120w" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="France Info logo">
+                </a>
+                <a href="https://www.franceculture.fr/">
+                    <img class="responsively-lazy" src="/build/lacroix/images/franceculture.4e45606c.jpg" data-srcset="/build/lacroix/images/franceculture.4e45606c.jpg 68w" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                         alt="France Culture logo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+<div class="links-row-2">
+    <div class="color-section">
+                    <div class="header-links">
+            </div>
+
+                            <div class="column">
+                    
+    <ul>
+        
+                                                    
+                                        <li>
+                    <a href="https://www.bayardmilan.be"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'BAYARD BELGIQUE'
+                       })"
+                    >
+                                                                        BAYARD BELGIQUE
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.bayard-jeunesse.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'BAYARD JEUNESSE'
+                       })"
+                    >
+                                                                        BAYARD JEUNESSE
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.editions-bayard.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'EDITIONS BAYARD'
+                       })"
+                    >
+                                                                        EDITIONS BAYARD
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.groupebayard.com/fr"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'Groupe Bayard'
+                       })"
+                    >
+                                                                        Groupe Bayard
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.milanpresse.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'MILAN PRESSE'
+                       })"
+                    >
+                                                                        MILAN PRESSE
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://librairie-bayard.com"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'Librairie Bayard'
+                       })"
+                    >
+                                                                        Librairie Bayard
+                    </a>
+                </li>
+            
+            </ul>
+
+
+                </div>
+                            <div class="column">
+                    
+    <ul>
+        
+                                                    
+                                        <li>
+                    <a href="https://www.lesdossiersdelactualite.com"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'Les dossiers de l\&#039;actualité'
+                       })"
+                    >
+                                                                        Les dossiers de l&#039;actualité
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.notrefamille.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'NOTRE FAMILLE'
+                       })"
+                    >
+                                                                        NOTRE FAMILLE
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.notretemps.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'NOTRE TEMPS'
+                       })"
+                    >
+                                                                        NOTRE TEMPS
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.phosphore.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'Phosphore'
+                       })"
+                    >
+                                                                        Phosphore
+                    </a>
+                </li>
+            
+            </ul>
+
+
+                </div>
+                            <div class="column">
+                    
+    <ul>
+        
+                                                    
+                                        <li>
+                    <a href="https://croire.la-croix.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'CROIRE.COM'
+                       })"
+                    >
+                                                                        CROIRE.COM
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="http://www.eveilalafoi.fr/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'EVEILALAFOI.FR'
+                       })"
+                    >
+                                                                        EVEILALAFOI.FR
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.mondedelabible.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'LE MONDE DE LA BIBLE'
+                       })"
+                    >
+                                                                        LE MONDE DE LA BIBLE
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.panorama.fr"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'PANORAMA'
+                       })"
+                    >
+                                                                        PANORAMA
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.pelerin.com"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'PÈLERIN'
+                       })"
+                    >
+                                                                        PÈLERIN
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="http://www.pointsderepere.com/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'POINTS DE REPÈRES'
+                       })"
+                    >
+                                                                        POINTS DE REPÈRES
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.prionseneglise.fr/"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'PRIONS EN EGLISE'
+                       })"
+                    >
+                                                                        PRIONS EN EGLISE
+                    </a>
+                </li>
+            
+        
+                                                    
+                                        <li>
+                    <a href="https://www.chantonseneglise.fr/accueil"
+                       data-ng-click="sendTcEvent($event, 'click', {
+                            type: 'E',
+                            category: 'Navigation',
+                            action: 'C_Link_Footer_Bayard',
+                            label1: 'Chantons en eglise'
+                       })"
+                    >
+                                                                        Chantons en eglise
+                    </a>
+                </li>
+            
+            </ul>
+
+
+                </div>
+                        </div>
+</div>
+    <div class="short-footer">
+        <div class="color-section">
+            <p>
+                <div class="short-footer-logo">
+                    <img class="responsively-lazy" src="/build/lacroix/images/logo-bayard.e581496f.png" data-srcset="/build/lacroix/images/logo-bayard.e581496f.png 200w" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bayard logo">
+                </div>
+                <a href="https://www.groupebayard.com/rgpd">Politique de confidentialité</a> - <a href="/Mentions-legales-2011-02-15-10639" name="Mentions légales" title="Mentions légales">Mentions légales</a> - <a href="https://img.aws.la-croix.com/2011/02/15/10639/CGU-LaCroix.pdf">CGU</a> - <a href="https://www.la-croix.com/Sitemap">Sitemap</a> -  © 2019 - Bayard Presse - Tous droits réservés - @la-croix.com est un site de la Croix Network
+            </p>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-mobile hidden-lg">
+    <p><a href="/Mentions-legales-2011-02-15-10639">Mentions légales</a> - <a href="https://img.aws.la-croix.com/2011/02/15/10639/CGU-LaCroix.pdf">CGU</a> - <a href="https://www.la-croix.com/Sitemap">Sitemap</a> - © 2019 Bayard Presse - Tous droits réservés - @la-croix.com est un site de la Croix Network</p>
+</div>
+
+<div class="hidden-lg hidden-md hidden" id="promotion-app-banner">
+    <div class="promotion-app-banner">
+        <div id="promotion-app-close">
+            <span class="close-banner"></span>
+        </div>
+        <div id="promotion-app-click">
+            <div>
+                <img src="/build/lacroix/images/banner-logo.719cbcd2.svg" alt="lacroix mobile" />
+            </div>
+            <div>
+                Lire cet article dans l’application
+            </div>
+            <div>
+                <a href="#" class="btn btn-default" id="promotion-app-btn">
+                    Lire
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+
+<script>
+    const JSSTORAGE = '\u007B\u0022page\u0022\u003A\u007B\u0022type\u0022\u003A\u0022category\u0022,\u0022id\u0022\u003A\u0022news\u002Dcommon\u0022\u007D,\u0022httpHost\u0022\u003A\u0022www.la\u002Dcroix.com\u0022,\u0022article_id\u0022\u003A1301001322\u007D';
+</script>
+
+<!-- /191403088/la_croix/Homepage/bottom DFP -->
+<div id='div-gpt-ad-1524653617175-0'></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="dfp-bottom" class="dfp-bottom">
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="/build/lacroix/runtime.d41d8cd9.js"></script>
+<script type="text/javascript" src="/build/lacroix/vendors~0e6e26da.51988cec.js"></script>
+<script type="text/javascript" src="/build/lacroix/vendors~549780d2.6de078e8.js"></script>
+<script type="text/javascript" src="/build/lacroix/app.002389f2.js"></script>
+
+
+ 
+</body>
+
+<script type="text/javascript" src="https://cdn.tagcommander.com/2482/tc_LaCroixV2_1.js"></script>
+<script type="text/javascript" src="https://cdn.tagcommander.com/2482/tc_LaCroixV2_3.js" async></script>
+
+
+<noscript>
+    <iframe src="//redirect1443.tagcommander.com/utils/noscript.php?id=1&mode=iframe" width="1" height="1" rel="noindex,nofollow"></iframe>
+</noscript>
+</html>

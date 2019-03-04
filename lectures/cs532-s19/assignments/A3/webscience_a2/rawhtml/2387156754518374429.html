@@ -1,0 +1,1228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta baidu-gxt-verify-token="264dee6caa2e44b18a2ebf9ed11b782b" />
+<meta name="twitter:image" content="https://www.timeshighereducation.com/sites/default/files/bull_2.jpg" />
+<meta name="twitter:description" content="In what may be a tactical pullback, Trump administration reduces reach of wide-reaching bid to empower for-profit sector" />
+<meta name="twitter:title" content="US officials retreat from ‘provocative’ higher education reforms" />
+<meta name="twitter:site" content="@timeshighered" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="shortcut icon" href="https://www.timeshighereducation.com/sites/default/themes/custom/the_responsive/favicon.ico" type="image/vnd.microsoft.icon" />
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@graph": [
+        {
+            "@type": "NewsArticle",
+            "headline": "US officials retreat from ‘provocative’ higher education reforms",
+            "name": "US officials retreat from ‘provocative’ higher education reforms",
+            "description": "In what may be a tactical pullback, Trump administration reduces reach of wide-reaching bid to empower for-profit sector",
+            "author": {
+                "@type": "Person",
+                "@id": "https://www.timeshighereducation.com/author/paul-basken",
+                "name": "Paul Basken",
+                "url": "https://www.timeshighereducation.com/author/paul-basken",
+                "sameAs": ""
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.timeshighereducation.com",
+                "name": "Times Higher Education (THE)",
+                "url": "https://www.timeshighereducation.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.timeshighereducation.com/sites/default/themes/custom/the_responsive/img/logo/logo-wur-2x.png",
+                    "width": "255px",
+                    "height": "57px"
+                }
+            },
+            "datePublished": "February 4, 2019 - 12:01am",
+            "dateModified": "February 4, 2019 - 12:01am",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.timeshighereducation.com/"
+            },
+            "mainEntityOfPage": "https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms",
+            "hasPart": {
+                "@type": "WebPageElement",
+                "@id": "https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms",
+                "name": "US officials retreat from ‘provocative’ higher education reforms",
+                "isAccessibleForFree": "False",
+                "cssSelector": [
+                    ".pane-bylines-academic-byline",
+                    ".pane-node-field-body"
+                ]
+            },
+            "isAccessibleForFree": "False",
+            "about": [
+                "News"
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.timeshighereducation.com",
+            "name": "Times Higher Education (THE)",
+            "url": "https://www.timeshighereducation.com",
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.tes.com",
+                "name": "TES Global",
+                "url": "https://www.tes.com/tesglobal",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.tes.com/sites/default/files/tes-global-logo-text.png",
+                    "width": "600px",
+                    "height": "285px"
+                }
+            }
+        }
+    ]
+}</script>
+<link href="https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms" rel="alternate" hreflang="en" />
+<link href="https://www.timeshighereducation.com/cn/news/us-officials-retreat-provocative-higher-education-reforms" rel="alternate" hreflang="zh-hans" />
+<meta name="referrer" content="unsafe-url" />
+<meta name="description" content="In what may be a tactical pullback, Trump administration reduces reach of wide-reaching bid to empower for-profit sector" />
+<meta name="referrer" content="unsafe-url" />
+<link rel="canonical" href="https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms" />
+<link rel="shortlink" href="https://www.timeshighereducation.com/node/667383" />
+<meta property="mz:id" content="667383" />
+<meta property="og:site_name" content="Times Higher Education (THE)" />
+<meta property="mz:section" content="academic" />
+<meta property="og:type" content="article" />
+<meta property="mz:subsection" content="News" />
+<meta property="og:url" content="https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms" />
+<meta property="mz:type" content="article" />
+<meta property="og:title" content="US officials retreat from ‘provocative’ higher education reforms" />
+<meta property="mz:pagename" content="US officials retreat from ‘provocative’ higher education reforms" />
+<meta property="og:description" content="In what may be a tactical pullback, Trump administration reduces reach of wide-reaching bid to empower for-profit sector" />
+<meta property="mz:language" content="und" />
+<meta property="og:updated_time" content="2019-02-05T13:53:49+00:00" />
+<meta property="og:image" content="https://www.timeshighereducation.com/sites/default/files/bull_2.jpg" />
+<meta property="article:published_time" content="2019-02-04T00:01:00+00:00" />
+<meta property="article:modified_time" content="2019-02-05T13:53:49+00:00" />
+<meta name="msvalidate.01" content="DBA2827FABEE1B561280B9DBAD77C9A3" />
+<meta name="google-site-verification" content="KJs1E-IVyjYA-caTRM8z_rMaVUI_xI-lHuRXCAqu4Zo" />
+  <title>US officials retreat from ‘provocative’ higher education reforms | Times Higher Education (THE)</title>
+  <link type="text/css" rel="stylesheet" href="https://www.timeshighereducation.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.timeshighereducation.com/sites/default/files/css/css_IjVDL-ZVE5VXwAMiNOtvj8kUoE0ESNenqVTFGzGmD7g.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.timeshighereducation.com/sites/default/files/css/css_IInMafIkn8MFxxsq6GeKZgxaTYcmCR7GQbotiC0n1OU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.timeshighereducation.com/sites/default/files/css/css_n67k2DqgpECa1fesmORYwM-uo0G0fIRNY81LOhRNrCw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.timeshighereducation.com/sites/default/files/css/css_iqwF9GsHh2mUNZII0KiDa3nuMwQiYcEoqvwkqC09SkE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.timeshighereducation.com/sites/default/files/css/css_3wyDwy1KL9bGXUSwxboVAsqgDOfZhPAnrlQors2vLTs.css" media="all" />
+  <script src="https://www.timeshighereducation.com/sites/default/files/js/js_pt9cxyDNpR9fMF5pje1INL0udR-T4N4qW8h-AhjPH70.js"></script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_UuI6vQnfOr_d8R8ogHmFQMMP2w9QKgxpzl9mCMDUnAE.js"></script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_u6u4KA8f3qTmju32gCEks5gcWgpqfstjpwZvL0sdgRU.js"></script>
+<script>function euCookieComplianceLoadScripts() {}</script>
+<script>var eu_cookie_compliance_cookie_name = "";</script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_wq0XUOE9Eg7UW3A6fmv6dL9-7gRdhOc1r0LNwwkfsSY.js"></script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_4MRGjqSerJEQxet46pdKTifSYprPwyhoaSNKNoRsFw4.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"the_responsive","theme_token":"Q0NbUCqgDb5vPTCkzO3lH-iabkH6tzdDDAWDJ2WQiQg","js":{"misc\/jquery.once.js":1,"sites\/all\/modules\/shared\/custom\/tes_license_search\/js\/scripts.js":1,"sites\/default\/modules\/custom\/the_geography_extras\/js\/the-geography-extras.js":1,"sites\/default\/modules\/custom\/the_most_viewed_commented\/js\/most_viewed_commented.js":1,"sites\/default\/modules\/custom\/the_user_restrictions\/js\/paywall.js":1,"sites\/all\/modules\/shared\/custom\/the_dfp\/js\/the_dfp.js":1,"sites\/default\/themes\/custom\/the_responsive\/js\/article-tweaks.js":1,"sites\/default\/modules\/custom\/the_dmp\/includes\/the_dmp.js":1,"sites\/default\/modules\/custom\/the_dmp\/includes\/the_dmp_dynamic.js":1,"sites\/default\/modules\/custom\/mz_events_the\/js\/mz_events_the.js":1,"sites\/default\/modules\/custom\/the_login_modal\/js\/the_login_modal.js":1,"sites\/all\/modules\/shared\/custom\/the_cache_control\/the_cache_control_new_relic.js":1,"sites\/default\/themes\/custom\/the_responsive\/js\/hacks.js":1,"sites\/default\/themes\/custom\/the_responsive\/js\/nav-main.js":1,"sites\/all\/libraries\/jssocials\/jssocials.min.js":1,"sites\/all\/modules\/shared\/custom\/mz_analytics\/js\/mz_analytics.js":1,"sites\/default\/modules\/custom\/the_nag_footer\/includes\/the_nag_footer.js":1,"sites\/all\/modules\/contrib\/chosen\/chosen.js":1,"0":1,"https:\/\/native.sharethrough.com\/assets\/sfp.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fontfaceobserver\/fontfaceobserver.js":1,"sites\/default\/themes\/custom\/the_responsive\/js\/font-loader.js":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"misc\/form.js":1,"sites\/default\/themes\/custom\/the_responsive\/js\/global.js":1,"sites\/all\/modules\/contrib\/hybridauth\/js\/hybridauth.modal.js":1,"sites\/all\/modules\/contrib\/hybridauth\/js\/hybridauth.onclick.js":1,"sites\/default\/modules\/custom\/the_jobs\/js\/the_jobs.js":1,"1":1,"2":1,"sites\/default\/modules\/custom\/the_traffic_drivers\/includes\/the_traffic_drivers.js":1,"sites\/default\/modules\/custom\/the_institution_profiles\/js\/video_apis.js":1,"sites\/all\/libraries\/smartmenus\/jquery.smartmenus.min.js":1,"sites\/all\/libraries\/smartmenus\/addons\/bootstrap\/jquery.smartmenus.bootstrap.min.js":1,"sites\/all\/libraries\/readmore\/readmore.min.js":1,"sites\/default\/themes\/custom\/the_responsive\/js\/nav-sub.js":1,"sites\/all\/libraries\/bootstrap\/dist\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/default\/modules\/custom\/the_most_viewed_commented\/css\/most_viewed_commented.css":1,"sites\/default\/modules\/custom\/the_user_restrictions\/css\/paywall_message.css":1,"sites\/all\/modules\/contrib\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/default\/modules\/custom\/the_panels_bootstrap_layouts\/plugins\/layouts\/bootstrap_bricks\/..\/the-panels-bootstrap-layouts.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__social_academic.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__article_byline.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contrib\/hybridauth\/plugins\/icon_pack\/hybridauth_32\/hybridauth_32.css":1,"sites\/all\/modules\/contrib\/hybridauth\/css\/hybridauth.css":1,"sites\/all\/modules\/contrib\/hybridauth\/css\/hybridauth.modal.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__jobs_list.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/css\/eu_cookie_compliance.bare.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__modals.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__user_login_register_forms.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__search_form.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__search_form_institution.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__search_form_keywords.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__search_form_page.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/page__article_content.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__article_dont_miss.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__article_paywall.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__article_featured_image.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__article_tags.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__comment.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_views_most_viewed.css":1,"sites\/default\/modules\/custom\/the_nag_footer\/includes\/the_nag_footer.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__traffic_driver.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__more_link.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__feature_article_info.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_node_listing.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_node_listing_hover.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_node_listing_horizontal.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_views_articles.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__article_teaser_feature_half_width.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__pairwise_comparison.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/layout__the_main_with_sidebar.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/layout__the_landing_page.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/node_listing.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/node_listing_horizontal.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/node_listing_hover.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/node_student_seo.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/node_teaser.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_articles.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_comments.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_globals.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_responsive_byline.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_stats_country.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_student_landing_articles.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/views_wur.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__the_methodology_pdf.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/header_banner.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/misc.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_cart.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_checkout.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_currency.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_header.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_landing.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_mypayments.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_myproducts.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_products.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_products_teaser.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_purchased_product.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/store_resubscribe_page.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/vendor\/bootstrap-sass\/bootstrap_styles.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/base__font-declarations.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/vendor\/jssocial\/jssocial_styles.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/base__overrides_bootstrap.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/base__overrides_drupal.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/base__typography_extras.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/base__colours.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__nav_primary.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__nav_primary_mobile.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__nav_primary_buttons.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__nav_secondary.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__nav_secondary_user_menu.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__nav_sticky.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__sub_nav_sticky.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__footer.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__resubscribe.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__wur_lists_basket.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__wur_modal.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__wur_my_lists.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__wur_universities_list.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__sliding_popup.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__inline-navigation.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/paragraph__all.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__breadcrumb_header.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__adverts.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__title.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__social_fonts.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__headings.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__buttons.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__read_more.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__label.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__video.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/element__article_image.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/block__language_locale.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/layout__legacy_panes.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/layout__panel_regions.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/layout__main_container.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_miscellaneous.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_views.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__legacy_taxomony_term_item.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/the_pane_style.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/component__teaser_card.css":1,"sites\/default\/themes\/custom\/the_responsive\/css\/styles\/layout__views.css":1}},"the_dfp":{"slots":[],"enable_debug":0,"keyvalues":{"e646a9f09d4d5f3a7d61114b0416beb1":{"nid":"667383"}}},"the_jobs":{"the_jobs_debug":null},"theImpressionsTracking":{"impressions":{"job":[133590,133602,133670,133573,133689,133590,133602,133670,133573,133689]}},"urlIsAjaxTrusted":{"\/news\/us-officials-retreat-provocative-higher-education-reforms":true},"chosen":{"selector":"select:visible","minimum_single":20,"minimum_multiple":20,"minimum_width":200,"options":{"allow_single_deselect":false,"disable_search":false,"disable_search_threshold":0,"search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":1,"popup_scrolling_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EBy using the THE website you agree to our use of cookies as described in our \u003Ca href=\u0022\/cookie-policy\u0022 target=\u0022_blank\u0022 rel=\u0022noopener noreferrer\u0022\u003Ecookie policy\u003C\/a\u003E.\u003C\/p\u003E          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n                \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003E\u0026lt;h2\u0026gt;Thank you for accepting cookies\u0026lt;\/h2\u0026gt;\u0026lt;p\u0026gt;You can now hide this message or find out more about cookies.\u0026lt;\/p\u0026gt;\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":1,"popup_height":"auto","popup_width":0,"popup_delay":1000,"popup_link":"\/cookie-policy","popup_link_new_window":1,"popup_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"default","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003E\u0026lt;h2\u0026gt;We use cookies on this site to enhance your user experience\u0026lt;\/h2\u0026gt;\u0026lt;p\u0026gt;You have given your consent for us to set cookies.\u0026lt;\/p\u0026gt;\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false},"the_dmp":{"pid":"10648","sg":["DeUr-8da6f5e5","AcLo-606348","AcLo-606390"],"debug":0},"thenf":{"start":"400","min_width":"1080","restrict_roles":0,"roles":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"30":0,"8":0,"13":0,"16":0,"38":0,"10":0,"19":0,"25":0,"28":0,"36":0}},"corporate_subscriptions":{"use_ajax":0},"mz_variables":{"mz_script":"\/\/www.timeshighereducation.com\/cdn\/mz\/450\/js\/mz.js","user_variables":{"id":0},"mz_domain":"","page_variables":{"version":11,"variant":"drupal"},"admin_tracking":0},"the_user":[],"the_page":[],"the_user_restrictions":{"cookie_name":"pw","cookie_lifetime_days":8,"limit":0,"show_growl_scroller":true,"the_user_paywall_growl":"\u003Cdiv id=\u0022growl_message\u0022\u003EPlease \u003Ca href=\u0022#\u0022 data-mz=\u0022\u0022 data-module-name=\u0022paywall-login\u0022 data-module-type=\u0022login\u0022 data-toggle=\u0022modal\u0022 data-target=\u0022#loginModal\u0022 class=\u0022mze-processed\u0022\u003Elogin\u003C\/a\u003E or \u003Ca id=\u0022growlModalRegister\u0022 href=\u0022#\u0022 data-mz=\u0022\u0022 data-module-name=\u0022growl\u0022 data-module-type=\u0022register\u0022 data-toggle=\u0022modal\u0022 data-target=\u0022#registerModal\u0022 class=\u0022mze-processed\u0022\u003Eregister\u003C\/a\u003E to read this article. \u003C\/div\u003E"},"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-667383 node-type-breaking-news paywall-article i18n-en font-loader"  data-paywall="true" data-nid="667383">
+<div class="white-modal"></div>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+    <div class="region region-utmost-top">
+    <section id="block-the-dfp-full-page-mobile" class="block block-the-dfp clearfix">
+
+      
+  <div id="div-gpt-ad-930911813187464-1" data-ad-page="news" data-ad-unit="2884/THE_COM/academic/article" data-ad-mobile-size="[320,480]" data-ad-size="exclude" class="the-dfp"></div>
+
+</section>
+<section id="block-the-dfp-the-dfp-header" class="block block-the-dfp clearfix">
+
+      
+  <div id="div-gpt-ad-301659438031000-2" data-ad-page="news" data-ad-unit="2884/THE_COM/academic/article" data-ad-mobile-size="exclude" data-ad-size="[[728,90],[970,90],[970,250],[970,31]]" data-ad-priority="high" data-ad-key-values="e646a9f09d4d5f3a7d61114b0416beb1" class="the-dfp"></div>
+
+</section>
+  </div>
+
+<header id="navbar" role="banner" class="navbar navbar-default navbar-white js-sticky-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <!-- Primary Mobile Navbar Header -->
+        <div class="navbar-header">
+          <!-- Menu button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">Menu</button>
+          <!-- Logo -->
+                      <div class="navbar-btn--wrapper">
+              <a data-mz data-module="site_logo" class="logo navbar-btn" href="/" title="Home">Times Higher Education</a>
+            </div>
+                    <!-- Site name -->
+                      <a class="name navbar-brand" href="/" title="Home">Times Higher Education (THE)</a>
+                  </div>
+
+        <!-- Primary Desktop Navbar Header -->
+                  <div class="navbar-collapse collapse" id="main-menu">
+
+            <!-- Desktop & Mobile Primary Nav List -->
+            <nav role="navigation" data-module="main-menu">
+                              <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/" title="" data-mz="" data-position="menu" data-target="#" class="dropdown-toggle">Professional</a><ul class="dropdown-menu"><li class="first leaf"><a href="/academic/news" data-mz="" data-position="menu">News</a></li>
+<li class="leaf"><a href="/academic/opinion" title="" data-mz="" data-position="menu">Opinion</a></li>
+<li class="leaf"><a href="/comment/reader-comments" title="" data-mz="" data-position="menu">Reader Comments</a></li>
+<li class="leaf"><a href="/academic/books" data-mz="" data-position="menu">Books</a></li>
+<li class="leaf"><a href="/academic/features" data-mz="" data-position="menu">Features</a></li>
+<li class="leaf"><a href="/academic/research" title="" data-mz="" data-position="menu">Research</a></li>
+<li class="leaf"><a href="http://www.the-awards.co.uk" title="" data-mz="" data-position="menu">Awards</a></li>
+<li class="last leaf"><a href="/academic/digital-editions" title="" data-mz="" data-position="menu">Digital Editions</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="https://www.timeshighereducation.com/unijobs" title="" data-mz="" data-position="menu" data-target="#" class="dropdown-toggle">Jobs</a><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.timeshighereducation.com/unijobs/listings/" title="" data-mz="" data-position="menu">Find a job</a></li>
+<li class="leaf"><a href="https://www.timeshighereducation.com/unijobs/newalert/" title="" data-mz="" data-position="menu">Jobs by email</a></li>
+<li class="leaf"><a href="https://www.timeshighereducation.com/unijobs/employers/" title="" data-mz="" data-position="menu">Search recruiters</a></li>
+<li class="last leaf"><a href="/careers" title="" data-mz="" data-position="menu">Careers</a></li>
+</ul></li>
+<li class="leaf"><a href="/summits" title="" data-mz="" data-position="menu">Summits</a></li>
+<li class="expanded dropdown"><a href="/world-university-rankings" title="" data-mz="" data-position="menu" data-target="#" class="dropdown-toggle">Rankings</a><ul class="dropdown-menu"><li class="first leaf"><a href="/world-university-rankings/2019/world-ranking" title="" data-mz="" data-position="menu">World University Rankings</a></li>
+<li class="leaf"><a href="/rankings/europe-teaching/2018" data-mz="" data-position="menu">Europe Teaching Rankings</a></li>
+<li class="leaf"><a href="/rankings/united-states/2019" data-mz="" data-position="menu">US College rankings</a></li>
+<li class="leaf"><a href="/rankings/japan-university/2018" data-mz="" data-position="menu">Japan University Rankings</a></li>
+<li class="leaf"><a href="/world-university-rankings/by-subject" title="" data-mz="" data-position="menu">By subject</a></li>
+<li class="leaf"><a href="/policy/rankings" title="" data-mz="" data-position="menu">News</a></li>
+<li class="last leaf"><a href="/world-university-rankings/about-the-times-higher-education-world-university-rankings" title="" data-mz="" data-position="menu">About</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/student" title="" data-mz="" data-position="menu" data-target="#" class="dropdown-toggle">Student</a><ul class="dropdown-menu"><li class="first leaf"><a href="/student/best-universities" title="" data-mz="" data-position="menu">Best universities</a></li>
+<li class="leaf"><a href="/student/where-to-study" title="" data-mz="" data-position="menu">Where to study</a></li>
+<li class="leaf"><a href="/student/news" title="" data-mz="" data-position="menu">News</a></li>
+<li class="leaf"><a href="/student/advice" title="" data-mz="" data-position="menu">Advice</a></li>
+<li class="leaf"><a href="/student/blogs" title="" data-mz="" data-position="menu">Blogs</a></li>
+<li class="leaf"><a href="/search/type/ranking_institution" title="" data-mz="" data-position="menu">Find a University</a></li>
+<li class="last leaf"><a href="/student/subjects" title="" data-mz="" data-position="menu">Subjects</a></li>
+</ul></li>
+<li class="last collapsed"><a href="/about-us" title="" data-mz="" data-position="menu">About Us</a></li>
+</ul>                                        </nav>
+          </div>
+          <div class="navbar-button__wrapper">
+            <ul class="navbar-buttons"><li class="navbar-buttons__btn"><a href="javascript:void(0)" data-target="block-the-social-links-share-buttons" class="navbar-buttons__btn-link navbar-buttons__btn-link--share js-navbar-buttons__btn-link" title="Share"></a></li>
+<li class="navbar-buttons__btn"><a href="javascript:void(0)" data-target="block-the-login-modal-the-login-modal" class="btn-toggle--user js-toggle-user navbar-buttons__btn-link navbar-buttons__btn-link--user js-navbar-buttons__btn-link user-anon" title="User account"></a></li>
+<li class="navbar-buttons__btn"><a href="javascript:void(0)" data-target="block-the-site-search-tsskeyword" class="btn-toggle--search navbar-buttons__btn-link navbar-buttons__btn-link--search js-navbar-buttons__btn-link" title="Search"></a></li>
+</ul>          </div>
+              </div>
+
+      <!-- Secondary Navigation -->
+               <div class="region region-secondary-navigation">
+    <section id="block-the-login-modal-the-login-modal" class="block block-the-login-modal clearfix">
+
+      
+  <!-- Login modal. -->
+<div class="modal fade" tabindex="-1" id="loginModal" role="dialog" aria-labelledby="loginTitle">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="loginTitle">Please log in</h4>
+      </div>
+      <div class="modal-body">
+        <form action="/news/us-officials-retreat-provocative-higher-education-reforms" method="post" id="user-login" accept-charset="UTF-8"><div><div id="social-sign-on-widget" class="hybridauth-widget-wrapper text-center">
+  <ul class="hybridauth-widget"><li><a href="/hybridauth/window/Facebook?destination=node/667383&amp;destination_error=node/667383" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-hybridauth-32 hybridauth-facebook hybridauth-facebook-hybridauth-32" title="Facebook"></span></a></li>
+<li><a href="/hybridauth/window/Twitter?destination=node/667383&amp;destination_error=node/667383" title="Twitter" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-hybridauth-32 hybridauth-twitter hybridauth-twitter-hybridauth-32" title="Twitter"></span></a></li>
+<li><a href="/hybridauth/window/Google?destination=node/667383&amp;destination_error=node/667383" title="Google" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Google" data-hybridauth-url="/hybridauth/window/Google?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon google hybridauth-icon-hybridauth-32 hybridauth-google hybridauth-google-hybridauth-32" title="Google"></span></a></li>
+<li><a href="/hybridauth/window/LinkedIn?destination=node/667383&amp;destination_error=node/667383" title="LinkedIn" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="LinkedIn" data-hybridauth-url="/hybridauth/window/LinkedIn?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon linkedin hybridauth-icon-hybridauth-32 hybridauth-linkedin hybridauth-linkedin-hybridauth-32" title="LinkedIn"></span></a></li>
+</ul>  <h3>or</h3>
+</div>
+<div class="form-item form-item-name form-type-textfield form-group"> <label class="control-label" for="edit-name">E-mail or username <span class="form-required" title="This field is required.">*</span></label>
+<input class="form-control form-text required" title="Enter your e-mail address or username." data-toggle="tooltip" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" /></div><div class="form-item form-item-pass form-type-password form-group"> <label class="control-label" for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+<input class="form-control form-text required" title="Enter the password that accompanies your e-mail." data-toggle="tooltip" type="password" id="edit-pass" name="pass" size="60" maxlength="128" /></div><input type="hidden" name="form_build_id" value="form-qTmDC7TQJNm9W3Y4aoL3FSNyfQwdd_qbVMhSBujDuso" />
+<input type="hidden" name="form_id" value="user_login" />
+<div class="form-actions form-wrapper form-group" id="edit-actions"><button type="submit" id="edit-submit" name="op" value="Log in" class="btn btn-primary form-submit form-submit">Log in</button>
+</div></div></form>      </div>
+      <div class="modal-footer">
+        <p class="text-center join-us">
+          <a href="#registerModal" data-dismiss="modal" data-toggle="modal">Not a member yet?<br>
+            <b>Join us for FREE</b></a><br>
+          <a href="/the_user/password">Forgotten Password?</a>
+        </p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Register modal. -->
+<div class="modal fade" id="registerModal" role="dialog" aria-labelledby="modalRegisterLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" id="modalRegisterLabel">Register now for free</h4>
+      </div>
+      <div class="modal-body">
+        <form class="user-info-from-cookie" enctype="multipart/form-data" action="/news/us-officials-retreat-provocative-higher-education-reforms" method="post" id="user-register-form" accept-charset="UTF-8"><div><div id="social-sign-on-widget" class="hybridauth-widget-wrapper text-center">
+  <ul class="hybridauth-widget"><li><a href="/hybridauth/window/Facebook?destination=node/667383&amp;destination_error=node/667383" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-hybridauth-32 hybridauth-facebook hybridauth-facebook-hybridauth-32" title="Facebook"></span></a></li>
+<li><a href="/hybridauth/window/Twitter?destination=node/667383&amp;destination_error=node/667383" title="Twitter" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-hybridauth-32 hybridauth-twitter hybridauth-twitter-hybridauth-32" title="Twitter"></span></a></li>
+<li><a href="/hybridauth/window/Google?destination=node/667383&amp;destination_error=node/667383" title="Google" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Google" data-hybridauth-url="/hybridauth/window/Google?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon google hybridauth-icon-hybridauth-32 hybridauth-google hybridauth-google-hybridauth-32" title="Google"></span></a></li>
+<li><a href="/hybridauth/window/LinkedIn?destination=node/667383&amp;destination_error=node/667383" title="LinkedIn" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="LinkedIn" data-hybridauth-url="/hybridauth/window/LinkedIn?destination=node/667383&amp;destination_error=node/667383" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon linkedin hybridauth-icon-hybridauth-32 hybridauth-linkedin hybridauth-linkedin-hybridauth-32" title="LinkedIn"></span></a></li>
+</ul>  <h3>or</h3>
+</div>
+<div class="field-type-list-text field-name-field-profile-type field-widget-options-select form-wrapper form-group" id="edit-field-profile-type"><div class="form-item form-item-field-profile-type-und form-type-select form-group"><select class="form-control form-select required" id="edit-field-profile-type-und" name="field_profile_type[und]"><option value="_none">You are a ...</option><option value="academic">Academic</option><option value="student">Student</option><option value="parent">Parent</option><option value="university_administrator">University Administrator</option></select> <label class="control-label element-invisible" for="edit-field-profile-type-und">Choose your profile <span class="form-required" title="This field is required.">*</span></label>
+</div></div><input type="hidden" name="form_build_id" value="form--NfMXthN2QSAdEjrzUrSCEJEQdsYBwKqBlwnfe5nl14" />
+<input type="hidden" name="form_id" value="user_register_form" />
+<input type="hidden" name="pdf_redirect" value="" />
+<div id="edit-account" class="form-wrapper form-group"><div class="form-item form-item-mail form-type-textfield form-group"><input placeholder="E-mail" class="form-control form-text required" title="A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail." data-toggle="tooltip" type="text" id="edit-mail" name="mail" value="" size="60" maxlength="254" /> <label class="control-label element-invisible" for="edit-mail">Email <span class="form-required" title="This field is required.">*</span></label>
+</div><div class="form-item form-item-pass form-type-password form-group"><input placeholder="Password" class="form-control form-text required" type="password" id="edit-pass--2" name="pass" size="60" maxlength="128" /> <label class="control-label element-invisible" for="edit-pass--2">Password <span class="form-required" title="This field is required.">*</span></label>
+</div><div class="form-item form-item-name form-type-textfield form-group"><input class="username form-control form-text required" placeholder="Username" title="Create a username for yourself to use in public-facing parts of the site, such as commenting on articles." data-toggle="tooltip" type="text" id="edit-name--2" name="name" value="" size="100" maxlength="128" /> <label class="control-label element-invisible" for="edit-name--2">Username <span class="form-required" title="This field is required.">*</span></label>
+</div></div><div class="field-type-mailchimp-lists-subscription field-name-field-mailchimp-subscriptions field-widget-mailchimp-lists-select form-wrapper form-group" id="edit-field-mailchimp-subscriptions"><div id="field-mailchimp-subscriptions-add-more-wrapper"><fieldset  class="panel panel-default form-wrapper" id="edit-field-mailchimp-subscriptions-und-0">
+          <legend class="panel-heading">
+      <span class="panel-title fieldset-legend">Sign up to our newsletters</span>
+    </legend>
+        <div class="panel-body" id="edit-field-mailchimp-subscriptions-und-0-body">
+        <fieldset  class="panel panel-default form-wrapper" id="edit-field-mailchimp-subscriptions-und-0-interest-groups">
+    <div class="panel-body" id="edit-field-mailchimp-subscriptions-und-0-interest-groups-body">
+        <div class="form-item form-item-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62 form-type-checkboxes form-group"><div id="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62" class="form-checkboxes mailchimp-newsletter-interests-daa7e51487"><div class="form-item form-item-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-030385903f form-type-checkbox checkbox"> <label class="control-label" for="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-030385903f"><input class="mailchimp-newsletter-interests-daa7e51487 form-checkbox" type="checkbox" id="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-030385903f" name="field_mailchimp_subscriptions[und][0][interest_groups][d5b07eac62][030385903f]" value="030385903f" />Higher education updates from the THE editorial team</label>
+</div><div class="form-item form-item-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-32abe3e73c form-type-checkbox checkbox"> <label class="control-label" for="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-32abe3e73c"><input class="mailchimp-newsletter-interests-daa7e51487 form-checkbox" type="checkbox" id="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-32abe3e73c" name="field_mailchimp_subscriptions[und][0][interest_groups][d5b07eac62][32abe3e73c]" value="32abe3e73c" />World University Rankings news</label>
+</div><div class="form-item form-item-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-b45a02d170 form-type-checkbox checkbox"> <label class="control-label" for="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-b45a02d170"><input class="mailchimp-newsletter-interests-daa7e51487 form-checkbox" type="checkbox" id="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-b45a02d170" name="field_mailchimp_subscriptions[und][0][interest_groups][d5b07eac62][b45a02d170]" value="b45a02d170" />Student newsletters</label>
+</div><div class="form-item form-item-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-a688bcc37b form-type-checkbox checkbox"> <label class="control-label" for="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-a688bcc37b"><input class="mailchimp-newsletter-interests-daa7e51487 form-checkbox" type="checkbox" id="edit-field-mailchimp-subscriptions-und-0-interest-groups-d5b07eac62-a688bcc37b" name="field_mailchimp_subscriptions[und][0][interest_groups][d5b07eac62][a688bcc37b]" value="a688bcc37b" />Send me special offers and marketing info from THE and selected partners</label>
+</div></div></div>  </div>
+</fieldset>
+  </div>
+</fieldset>
+</div></div><div class="form-actions form-wrapper form-group" id="edit-actions--2"><button type="submit" id="edit-submit--2" name="op" value="Join us" class="btn btn-default form-submit form-submit">Join us</button>
+</div></div></form>        <p class="disclaimer">By registering, you agree to our <a
+            href="/cookie-policy" target="_blank">cookie policy</a> and <a
+            href="/terms-and-conditions" target="_blank">terms and conditions</a>.</p>
+      </div>
+      <div class="modal-footer">
+        <p class="text-center join-us">
+          <a href="#loginModal" data-dismiss="modal" data-toggle="modal">Already have a THE account?<br> <b>Log in now</b></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="user-menu">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <div class="user-menu__user-state user-menu__user-state anonymous">
+                <div>
+      <div class="user-menu__message-wrapper">
+        <div class="user-menu__message">
+                                      </div>
+      </div>
+    </div>
+</div>
+  <ul class="navbar-login-visible user-menu__logged-out-menu"><li><a href="" data-mz="" data-module-name="topnav" data-module-type="login" data-toggle="modal" data-target="#loginModal">Login</a></li>
+<li><a href="" data-mz="" data-module-name="topnav" data-module-type="register" data-toggle="modal" data-target="#registerModal">Register</a></li>
+<li><a href="/store" data-mz="">Subscribe</a></li>
+</ul></div>
+
+</section>
+<section id="block-the-social-links-share-buttons" class="block block-the-social-links clearfix">
+
+      
+  <ul class="soc share-buttons js-share-buttons"><li><a href="https://twitter.com/intent/tweet?url=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;via=timeshighered&amp;text=US officials retreat from ‘provocative’ higher education reforms" class="twitter" title="Share on twitter" target="_blank" data-network="twitter">Share on twitter</a></li>
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;p[title]=US officials retreat from ‘provocative’ higher education reforms" class="facebook" title="Share on facebook" target="_blank" data-network="facebook">Share on facebook</a></li>
+<li><a href="https://plus.google.com/share?url=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;title=US officials retreat from ‘provocative’ higher education reforms" class="google" title="Share on google" target="_blank" data-network="google">Share on google</a></li>
+<li><a href="whatsapp://send?text=US%20officials%20retreat%20from%20%E2%80%98provocative%E2%80%99%20higher%20education%20reforms%20at%20https%3A%2F%2Fwww.timeshighereducation.com%2Fnews%2Fus-officials-retreat-provocative-higher-education-reforms" class="whatsapp" title="Share on whatsapp" target="_blank" data-network="whatsapp" data-action="share/whatsapp/share">Share on whatsapp</a></li>
+</ul>
+</section>
+<section id="block-the-site-search-tsskeyword" class="block block-the-site-search clearfix">
+
+      
+  <form class="the-search-form the-search-form--keyword" action="/news/us-officials-retreat-provocative-higher-education-reforms" method="post" id="the-site-search-form-keyword" accept-charset="UTF-8"><div><div class="form-item form-item-keys form-type-textfield form-group"><input title="Search" placeholder="Search" class="search-form__textfield search-keys-field form-control form-text" type="text" id="edit-keys" name="keys" value="" size="60" maxlength="128" /></div><input type="hidden" name="form_build_id" value="form-PHTd8eBiW_r6suZAvCqeAzBB9oRshXTWbk00Emyy4J0" />
+<input type="hidden" name="form_id" value="the_site_search_form_keyword" />
+<button type="submit" id="edit-submit--4" name="op" value="GO" class="btn btn-default form-submit form-submit">GO</button>
+</div></form>
+</section>
+  </div>
+          </div>
+  </div>
+</header>
+
+    <div class="region region-hero">
+      </div>
+
+
+
+<div class="main-container">
+
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+    
+    
+    <a id="main-content"></a>
+
+                                <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="layout-bootstrap-override" >
+        <div class="container">
+                <div class="row">
+      <div class="col-sm-8 content-primary">
+        <div class="panel-pane pane-page-title"  >
+  
+      
+  
+  <div class="pane-content">
+    <h1>US officials retreat from ‘provocative’ higher education reforms</h1>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-standfirst"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-standfirst field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>In what may be a tactical pullback, Trump administration reduces reach of wide-reaching bid to empower for-profit sector</p></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-node-created"  >
+  
+      
+  
+  <div class="pane-content">
+    February 4, 2019  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-social-links"  >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="soc share-buttons js-share-buttons"><li><a href="https://twitter.com/intent/tweet?url=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;via=timeshighered&amp;text=US officials retreat from ‘provocative’ higher education reforms" class="twitter" title="Share on twitter" target="_blank" data-network="twitter">Share on twitter</a></li>
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;p[title]=US officials retreat from ‘provocative’ higher education reforms" class="facebook" title="Share on facebook" target="_blank" data-network="facebook">Share on facebook</a></li>
+<li><a href="https://www.linkedin.com/shareArticle?url=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;title=US officials retreat from ‘provocative’ higher education reforms" class="linkedin" title="Share on linkedin" target="_blank" data-network="linkedin">Share on linkedin</a></li>
+<li><a href="whatsapp://send?text=US%20officials%20retreat%20from%20%E2%80%98provocative%E2%80%99%20higher%20education%20reforms%20at%20https%3A%2F%2Fwww.timeshighereducation.com%2Fnews%2Fus-officials-retreat-provocative-higher-education-reforms" class="whatsapp" title="Share on whatsapp" target="_blank" data-network="whatsapp" data-action="share/whatsapp/share">Share on whatsapp</a></li>
+<li><a href="mailto:?subject=Check out US officials retreat from ‘provocative’ higher education reforms&amp;body= View it here https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;url=https://www.timeshighereducation.com/news/us-officials-retreat-provocative-higher-education-reforms&amp;title=US officials retreat from ‘provocative’ higher education reforms" class="mail" title="Share on mail" target="_blank" data-network="mail">Share on mail</a></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-bylines-academic-byline  view-mode-teaser"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-bylines view-id-bylines view-display-id-academic_byline view-dom-id-00417948b95f9c3feda318845ace617a">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content">By <a href="/author/paul-basken">Paul Basken</a></span>  </div>  
+  <span class="views-field views-field-field-byline-twitter-name">        <span class="field-content">Twitter: <a target="_blank" href="http://www.twitter.com/pbasken">@pbasken</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-breaking-news-images-panel-pane-1  view-mode-teaser"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-breaking-news-images view-id-breaking_news_images view-display-id-panel_pane_1 view-dom-id-0c7b4f05db260ad91ade169b5f81b30a">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-breaking-news-images">        <div class="field-content"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/bull_2.jpg?itok=cUZQxbFN" width="620" height="413" alt="Bucking bronco" /></div>  </div>  
+  <div class="views-field views-field-field-file-image-credit">        <div class="field-content">Source: Getty</div>  </div>  
+  <div class="views-field views-field-field-file-image-caption">        <div class="field-content"></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-body"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>One round into its plans for an extensive overhaul of key rules governing US higher education, the Trump administration is backing off, at least for the moment.</p>
+<p>After putting forth ideas derided in academic circles as open invitations for unqualified companies to pose as publicly financed colleges, the administration’s top higher education official offered a series of pullbacks and even apologies.</p>
+<p>“Clearly we came to the table with some very provocative ideas,” said Diane Auer Jones, the principal deputy undersecretary for higher education at the US Department of Education. “We did that to open the conversation.”</p>
+<p>In an address to the annual conference of the Council for Higher Education Accreditation in Washington, Ms Jones then listed a series of specific administration proposals that she did not actually expect would be implemented. Those proposals include removing existing standards for defining a credit hour of class work, ending requirements for “regular and substantive” student-teacher interactions, and ending any role of states in deciding qualified providers.</p>
+<p></p><div id="node-614568" class="node node-visualisation node-promoted node-node_embed clearfix">
+
+  
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><hr /><p><a href="https://www.timeshighereducation.com/unijobs/"><strong>Search our database of more than 7,000 global university jobs</strong></a></p>
+<hr /></div></div></div>  </div>
+
+  
+  
+</div>
+
+<p>The proposals are part of an expansive round of talks with the higher education community aimed at revising the rules by which government-endorsed accrediting agencies affirm the eligibility of colleges to have their students receive federal financial aid. The <a href="https://www2.ed.gov/policy/highered/reg/hearulemaking/2018/index.html">talks</a> began in January, and are expected to resume in mid-February and conclude in March. By law, the process is considered consultative, aimed at winning consensus positions. Administrations, however, ultimately hold the right to make regulatory changes that comply with existing laws.</p>
+<p>That leaves fairly wide discretion. The sum of the Trump administration’s proposed changes, said Barmak Nassirian of the American Association of State Colleges and Universities, would dramatically lower if not eliminate barriers to profit-making enterprises using federal student aid money to serve as universities and even accreditors, with existing institutions then forced to honour the academic credits that they issue.</p>
+<p>“This is an experiment on live subjects, and most of the risk is borne by students and taxpayers,” said Mr Nassirian, the association’s director of federal relations and policy analysis.</p>
+<p>Ms Jones, however, explained that her administration removed major chunks of regulatory language from its proposal without offering replacements largely as a means of stimulating wide-ranging discussions of what alternatives could be devised.</p>
+<p>“We’re trying a somewhat different approach this time,” she told the accreditor group. “And I have to tell you that, you know, you learn.”</p>
+<p>But Ms Jones held firm on some aspects of the administration’s plan, including its goal of ending the perceived reputational differences between the six long-standing “regional” accreditors and the “national” accreditors that typically serve online and other lower-quality institutions. Among its methods of accomplishing that, the administration has suggested new limits on the regional bodies, which are more highly regarded.</p>
+<p>“We do want to address this narrative that somehow we have a two-tiered system, because in our eyes, there’s one tier,” Ms Jones said.</p>
+<p><em><a href="mailto:paul.basken@timeshighereducation.com">paul.basken@timeshighereducation.com</a></em></p></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-news-articles-panel-pane-1 dont-miss-block view-mode-full show-1-items"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-news-articles view-id-news_articles view-display-id-panel_pane_1 articles-related content view-dom-id-bf5edd39bd2851a98e165867dac26853">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <div class="field-type-image"><a href="/news/high-stakes-military-veterans-us-profit-college-debate"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/thumbnail/public/soldier-with-head-in-hands.jpg?itok=4_OmkfU-" width="100" height="67" alt="Soldier with head in hands" /></a></div>    
+          <h3 class="pane-title"><a href="/news/high-stakes-military-veterans-us-profit-college-debate">High stakes for military veterans in US for-profit college debate</a></h3>    
+          <p class="more-link"><a href="/news/high-stakes-military-veterans-us-profit-college-debate">Read more</a></p>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-paywall-cta"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="subs_wrapper2 paywall-cta">
+  <div class="sleeve">
+    <h2>Please <a href="" data-mz="" data-module-name="paywall_title" data-module-type="login" data-toggle="modal" data-target="#loginModal">login</a> or <a href="" data-mz="" data-module-name="paywall_title" data-module-type="register" data-toggle="modal" data-target="#registerModal">register</a> to read this article</h2>
+    <div class="col1 register_box">
+      <div class="htmlContent">
+        <h3>Register to continue</h3>
+        <p><strong>Get a month's unlimited access to THE content online. </strong>Just register and complete your career summary.</p>
+        <p>Registration is free and only takes a moment. Once registered you can read a total of 3 articles each month, plus:</p>
+        <ul class="option-list">
+          <li>Sign up for the editor's highlights</li>
+          <li>Receive World University Rankings news first</li>
+          <li>Get job alerts, shortlist jobs and save job searches</li>
+          <li>Participate in reader discussions and post comments</li>
+        </ul>
+        <a data-mz data-module-name="paywall" data-module-type="register" data-toggle="modal" data-target="#registerModal" class="button btn-primary" href="#">
+          <span>Register</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="col2 subscribe_box">
+      <div class="htmlContent">
+        <h3>Subscribe</h3>
+        <p>Or subscribe for unlimited access to:</p>
+        <ul class="option-list">
+          <li>Unlimited access to news, views, insights & reviews</li>
+          <li>Digital editions</li>
+          <li>Digital access to <i>THE’s</i> university and college rankings analysis</li>
+          <li>Unrestricted access to the UK and global edition of the <i>THE</i> app on IOS, Android and Kindle Fire</li>
+        </ul>
+        <img class="subscribe-image" src="/sites/default/themes/custom/the_responsive/img/footer/image-ipad.png">
+        <a class="button button-secondary" data-mz
+           href="https://shop.timeshighereducation.com/store">Subscribe        </a>
+      </div>
+    </div>
+    <p class="limit-sign-in text-center">Already registered or a current subscriber?
+      <a href="#" data-target="#loginModal" data-toggle="modal" data-module-name="paywall" data-module-type="login" data-mz="" class="btn-primary button">Sign in now</a></p>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-breaking-news-policy-tags article-tags"  >
+  
+        <div class="pane-title">
+      Read more about    </div>
+    
+  
+  <div class="pane-content">
+    <div class="field field-name-field-breaking-news-policy-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Read more about:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/policy/politics">Politics</a></div><div class="field-item odd"><a href="/policy/private-providers">Private providers</a></div></div></div>  </div>
+
+  
+  </div>
+                  <div class="row">
+                        <div class="col-sm-6">
+              <div class="panel-pane pane-views-panes pane-news-articles-panel-pane-9  view-mode-listing_horizontal_small show-5-items"  >
+  
+        <h2 class="pane-title">
+      Related articles    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-news-articles view-id-news_articles view-display-id-panel_pane_9 articles-related content-old view-dom-id-1e08d3527a7998777884e3d0d67de950">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-665718"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/high-stakes-military-veterans-us-profit-college-debate" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/soldier-with-head-in-hands.jpg?itok=Ig8YDqjb" width="135" height="90" alt="Soldier with head in hands" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/high-stakes-military-veterans-us-profit-college-debate">High stakes for military veterans in US for-profit college debate</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        January 9, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-665887"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/credit-transfer-key-trump-drive-help-profit-colleges" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/screen_shot_2019-01-08_at_17.10.27.png?itok=yb6YHudE" width="135" height="90" alt="Donald Trump standing with Betsy DeVos" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/credit-transfer-key-trump-drive-help-profit-colleges">Credit transfer key to Trump drive to help for-profit colleges</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        January 8, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-664538"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/closure-us-profit-chain-leaves-15000-students-stranded" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/closed_sign.jpg?itok=YHa-PUob" width="135" height="90" alt="Closed sign" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/closure-us-profit-chain-leaves-15000-students-stranded">Closure of US for-profit chain leaves 15,000 students stranded</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        December 6, 2018      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-663515"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/proposed-us-rules-sexual-assault-investigations-aid-accused" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/trump-devos.jpg?itok=pF3DRFCX" width="135" height="90" alt="Donald Trump standing with Betsy DeVos" title="Donald Trump standing with Betsy DeVos" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/proposed-us-rules-sexual-assault-investigations-aid-accused">Proposed US rules on sexual assault investigations ‘aid accused’</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        November 16, 2018      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div id="node-661807"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/quality-questions-us-shift-towards-competency-based-assessment" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/american-football-flag-slip.jpg?itok=jEAYQhBv" width="135" height="90" alt="american-football-flag-slip" title="american-football-flag-slip" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/quality-questions-us-shift-towards-competency-based-assessment">Quality questions in US shift towards competency-based assessment</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        October 24, 2018      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+            </div>
+                                  </div>
+                <div class="panel-pane pane-node-comment-form article-sharing-fixed-bottom"  >
+  
+        <h2 class="pane-title">
+      Have your say    </h2>
+    
+  
+  <div class="pane-content">
+    <a href="# " data-mz="" data-module-name="comment_form" data-module-type="login" data-toggle="modal" data-target="#loginModal" class="mze">Log in</a> or <a href="# " data-mz="" data-module-name="comment_form" data-module-type="register" data-toggle="modal" data-target="#loginModal" class="mze">register</a> to post comments  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-the-dfp-advert"  >
+  
+      
+  
+  <div class="pane-content">
+    <div data-ad-page="news" class="the-dfp" id="div-gpt-ad-132237175184993-1" data-ad-unit="2884/THE_COM/academic/article" data-ad-size="[1,1]" data-ad-mobile-size="[1,1]" data-ank="strnativekey" data-anv="1375e497"></div>
+  </div>
+
+  
+  </div>
+                      </div>
+      <div class="col-sm-4 sidebar-primary sidebar-primary--right">
+        <div class="panel-pane pane-panels-mini pane-right-sidebar-academic"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-right_sidebar_academic">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-the-jobs"  >
+  
+        <h2 class="pane-title">
+      Featured jobs    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="job-listings" data-module="the-jobs">
+  <div class="job-listing">
+    <img class="job-listing__recruiter-logo" src="//d311j2r2qvjkvi.cloudfront.net/getasset/c5374ca8-097d-4ab5-80e5-d2d46bf41cbc/" alt="Recruiter logo" />
+    <h3 class="job-listing__title">
+      <a href="//www.timeshighereducation.com/unijobs/listing/133590/?trackid=10" data-position="1" data-mz="">Software Development Engineer, Knowledge Transfer Partnership Associate</a>    </h3>
+    <div class="job-listing__recruiter-name">Aston University</div>
+  </div>
+  <div class="job-listing">
+    <img class="job-listing__recruiter-logo" src="//d311j2r2qvjkvi.cloudfront.net/getasset/fa405a49-3f30-4afc-9e06-7f6c1314a0be/" alt="Recruiter logo" />
+    <h3 class="job-listing__title">
+      <a href="//www.timeshighereducation.com/unijobs/listing/133602/?trackid=10" data-position="2" data-mz="">Centre Director, Centre for Medical Education</a>    </h3>
+    <div class="job-listing__recruiter-name">Queens University Belfast</div>
+  </div>
+  <div class="job-listing">
+    <img class="job-listing__recruiter-logo" src="//d311j2r2qvjkvi.cloudfront.net/getasset/e03847f6-ad9f-488f-9422-8a1fb518f493/" alt="Recruiter logo" />
+    <h3 class="job-listing__title">
+      <a href="//www.timeshighereducation.com/unijobs/listing/133670/?trackid=10" data-position="3" data-mz="">Dean, Pharmacy and Pharmaceutical Sciences</a>    </h3>
+    <div class="job-listing__recruiter-name">Monash University</div>
+  </div>
+  <div class="job-listing">
+    <img class="job-listing__recruiter-logo" src="//d311j2r2qvjkvi.cloudfront.net/getasset/e0bf6a92-d040-4225-ba1c-895ae6283072/" alt="Recruiter logo" />
+    <h3 class="job-listing__title">
+      <a href="//www.timeshighereducation.com/unijobs/listing/133573/?trackid=10" data-position="4" data-mz="">Instructional Designer, TTE Programme</a>    </h3>
+    <div class="job-listing__recruiter-name">Cern</div>
+  </div>
+  <div class="job-listing">
+    <img class="job-listing__recruiter-logo" src="//d311j2r2qvjkvi.cloudfront.net/getasset/8e5673db-6dca-44b6-a094-bb71c61ad4be/" alt="Recruiter logo" />
+    <h3 class="job-listing__title">
+      <a href="//www.timeshighereducation.com/unijobs/listing/133689/?trackid=10" data-position="5" data-mz="">Assistant Professor/Associate Professor/Professor in Multimedia and Animation</a>    </h3>
+    <div class="job-listing__recruiter-name">Vellore Institute Of Technology</div>
+  </div>
+</div>
+<div class="job-see-more">
+  <a href="//www.timeshighereducation.com/unijobs/listings/" class="btn btn-primary btn-sm" data-mz="">See all jobs</a>  </div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-hub-traffic-drivers"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="traffic-driver-container"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-the-dfp-advert"  >
+  
+      
+  
+  <div class="pane-content">
+    <div data-ad-page="news" class="the-dfp" id="div-gpt-ad-918439629770945-2" data-ad-unit="2884/THE_COM/academic/article" data-ad-pos="1" data-ad-priority="high" data-ad-size="[[300,600],[300,250]]" data-ad-mobile-size="[300,250]"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-the-dfp-advert"  >
+  
+      
+  
+  <div class="pane-content">
+    <div data-ad-page="news" class="the-dfp" id="div-gpt-ad-345216049822943-3" data-ad-unit="2884/THE_COM/academic/article" data-ad-priority="high" data-ad-size="[300,100]" data-ad-mobile-size="[300,100]"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-the-most-read-the-most-read  view-mode-teaser show-5-items"  >
+  
+        <h2 class="pane-title">
+      Most Viewed    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-the-most-read view-id-the_most_read view-display-id-the_most_read articles-queue view-dom-id-ca6ab58389a51575c109052057abac26">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-619884"
+     class="node node-student-article node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-students-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/student/best-universities/best-universities-asia-pacific-region" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/istock-629183422.jpg?itok=N2IcIYaA" width="135" height="90" alt="Best universities in the Asia Pacific" title="Best universities in the Asia Pacific" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/student/best-universities/best-universities-asia-pacific-region">Best universities in the Asia-Pacific region 2019</a>
+              </div>
+        
+          <div class="submitted">
+        February 20, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-667674"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/world-university-rankings/asia-pacific-university-rankings-2019-top-of-world-again" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/landscape.jpg?itok=rEhxSnC4" width="135" height="90" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/world-university-rankings/asia-pacific-university-rankings-2019-top-of-world-again">THE Asia-Pacific University Rankings 2019: to the top of the world again</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 20, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-668268"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/sudden-v-c-exits-raise-big-question-who-should-run-universities" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/clothed-man-dive-pool.jpg?itok=qbo2LiPa" width="135" height="90" alt="clothed-man-dive-pool" title="clothed-man-dive-pool" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/sudden-v-c-exits-raise-big-question-who-should-run-universities">Sudden v-c exits raise big question: who should run universities?</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 20, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-668301"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/impostor-syndrome-two-thirds-female-scholars-suffer-badly" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/istock-5145164981.jpg?itok=0KVJ9Q-1" width="135" height="90" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/impostor-syndrome-two-thirds-female-scholars-suffer-badly">Impostor syndrome: two-thirds of female scholars suffer badly</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 20, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div id="node-576921"
+     class="node node-student-article node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-students-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/student/best-universities/best-universities-uk" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/university-of-oxford-university-church-st-mary.jpg?itok=xabobndH" width="135" height="90" alt="University of Oxford, University Church of St Mary the Virgin" title="University of Oxford, University Church of St Mary the Virgin" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/student/best-universities/best-universities-uk">Best universities in the UK</a>
+              </div>
+        
+          <div class="submitted">
+        September 26, 2018      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-the-most-commented-panel-pane-1  view-mode-teaser show-5-items"  >
+  
+        <h2 class="pane-title">
+      Most Commented    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-the-most-commented view-id-the_most_commented view-display-id-panel_pane_1 articles-queue view-dom-id-bb9520b3dd9b0845fcd79fab664253af">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-666960"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/cvs-and-interviews-axed-universities-de-bias-recruitment" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/piles-of-papers.jpg?itok=wI6VjMQD" width="135" height="90" alt="piles-of-papers" title="piles-of-papers" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/cvs-and-interviews-axed-universities-de-bias-recruitment">CVs and interviews axed as universities ‘de-bias’ recruitment</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        January 30, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-667113"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/opinion/glamorised-study-halls-do-not-need-army-librarians" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/library_3.jpg?itok=NwxXTVst" width="135" height="90" alt="A modern university library" title="University library" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/opinion/glamorised-study-halls-do-not-need-army-librarians">Glamorised study halls do not need an army of librarians</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 7, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-667941"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/blog/after-neoliberal-misery-will-come-collegial-and-creative-universities" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/yawning-student.jpg?itok=nugAxufg" width="135" height="90" alt="yawning-student" title="yawning-student" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/blog/after-neoliberal-misery-will-come-collegial-and-creative-universities">After neoliberal misery will come collegial and creative universities </a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 12, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-666633"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/features/plan-s-how-important-open-access-publishing" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/1-diver-ship-books.jpg?itok=JZ6TjVc1" width="135" height="90" alt="diver-ship-books" title="diver-ship-books" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/features/plan-s-how-important-open-access-publishing">Plan S: how important is open access publishing?</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        January 24, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div id="node-668223"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/features/are-universities-hotbeds-left-wing-bias" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/1-pipers.jpg?itok=NpCGooEJ" width="135" height="90" alt="pipers" title="pipers" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/features/are-universities-hotbeds-left-wing-bias">Are universities hotbeds of left-wing bias?</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 21, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-hub-traffic-drivers"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="traffic-driver-container"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-the-dfp-advert"  >
+  
+      
+  
+  <div class="pane-content">
+    <div data-ad-page="news" class="the-dfp" id="div-gpt-ad-541101260889137-4" data-ad-unit="2884/THE_COM/academic/article" data-ad-pos="2" data-ad-priority="low" data-ad-size="[[300,600],[300,250]]" data-ad-mobile-size="[300,250]"></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-related-tagged-content-panel-pane-1  view-mode-listing_horizontal_small"  >
+  
+        <h2 class="pane-title">
+      You might also like    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-related-tagged-content view-id-related_tagged_content view-display-id-panel_pane_1 articles-queue view-dom-id-e39a89289b2cd17b1829d23dfd3ec153">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-668223"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/features/are-universities-hotbeds-left-wing-bias" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/1-pipers.jpg?itok=NpCGooEJ" width="135" height="90" alt="pipers" title="pipers" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/features/are-universities-hotbeds-left-wing-bias">Are universities hotbeds of left-wing bias?</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 21, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-668445"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/news/russian-trolls-used-campus-rows-push-partisan-hot-buttons" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/games-in-row.jpg?itok=AQTKHR-m" width="135" height="90" alt="games-in-row" title="games-in-row" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/news/russian-trolls-used-campus-rows-push-partisan-hot-buttons">Russian trolls used campus rows to ‘push partisan hot buttons’</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 21, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-668202"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/opinion/australias-innovation-ecosystem-needs-biodiversity" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/australia-tree.jpg?itok=aaSIhJQg" width="135" height="90" alt="australia-tree" title="australia-tree" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/opinion/australias-innovation-ecosystem-needs-biodiversity">Australia’s innovation ecosystem needs biodiversity</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 21, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    <div id="node-668133"
+     class="node node-breaking-news node-listing_horizontal_small node-listing clearfix">
+
+  <div class="field field-name-field-breaking-news-images field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/opinion/locations-limit-new-public-universities-impact-india" data-mz="" data-position="article-img"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/files/styles/article_lists_135x90/public/banaras-hindu-university.jpg?itok=JbzqsFHy" width="135" height="90" alt="banaras-hindu-university" title="banaras-hindu-university" /></a></div></div></div>
+  <div class="listing-content-wrapper">
+              <div class="title">
+                <a data-mz data-position="article-title" class="article-title" href="/opinion/locations-limit-new-public-universities-impact-india">Locations limit new public universities’ impact in India</a>
+        <span aria-label="Article behind paywall" class="subscription icon"></span>      </div>
+        
+          <div class="submitted">
+        February 21, 2019      </div>
+    
+    <div class="details ">
+          </div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+      </div>
+    </div>
+      </div>
+</div>
+
+</section>
+  </div>
+
+  
+</div>
+
+
+    <div class="region region-footer-ads">
+    <section id="block-the-dfp-the-dfp-footer" class="block block-the-dfp clearfix">
+
+      
+  <div id="div-gpt-ad-254773734777343-3" data-ad-page="news" data-ad-unit="2884/THE_COM/academic/article" data-ad-mobile-size="[320,50]" data-ad-size="[728,90]" data-ad-priority="low" class="the-dfp"></div>
+
+</section>
+  </div>
+
+<footer class="footer" data-module="footer">
+    <div class="region region-footer">
+    <section id="block-menu-menu-footer-nav" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/contact-us" title="" data-mz="" data-position="menu">Contact Us</a></li>
+<li class="leaf"><a href="/news/writing-for-times-higher-education/418274.article" title="" data-mz="" data-position="menu">Write for the THE</a></li>
+<li class="leaf"><a href="/terms-and-conditions" title="" data-mz="" data-position="menu">Terms &amp; Conditions</a></li>
+<li class="leaf"><a href="https://www.tes.com/terms/privacy-policy" title="" data-mz="" data-position="menu">Privacy</a></li>
+<li class="leaf"><a href="/cookie-policy" title="" data-mz="" data-position="menu">Cookie Policy</a></li>
+<li class="last leaf"><a href="/our-partners" title="" data-mz="" data-position="menu">Our partners</a></li>
+</ul>
+</section>
+<section id="block-locale-language" class="block block-locale clearfix">
+
+      
+  <ul class="language-switcher-locale-url"><li class="en first active"><a href="/news/us-officials-retreat-provocative-higher-education-reforms" class="language-link active" xml:lang="en" hreflang="en" data-mz="" data-position="language-switcher">English</a></li>
+<li class="zh-hans last"><a href="/cn/news/us-officials-retreat-provocative-higher-education-reforms" class="language-link" xml:lang="zh-hans" hreflang="zh-hans" data-mz="" data-position="language-switcher">Simplified Chinese (简体中文)</a></li>
+</ul>
+</section>
+  </div>
+
+  <section id="footer-top" class="footer-top"><div class="section-container container"><div><div id="the-subscribe" class="the-subscribe footer-top-col"><img class="img-responsive" src="https://www.timeshighereducation.com/sites/default/themes/custom/the_responsive/img/footer/280x280-THE-footer-generic.png" width="221" height="289" alt="Times Higher Education subscriptions" /><p class="footer-section-title">Subscribe</p><p>If you like what you're reading online, why not take advantage of our subscription and get unlimited access to all of <i>Times Higher Education</i>'s content?</p><p>You'll get full access to our website, print and digital editions, and the <i>Times Higher Education</i> app for iOS, Android and Kindle Fire devices.</p><a class="btn-the processed" href="/store" data-mz="">Subscribe</a></div></div></div></section>
+</footer>
+  <div id="the-nag-footer" class="academic-advert"><div class="nag-footer-content"><div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div id="nag-footer-test" data-ad-unit="2884/THE_COM/home" data-ad-mobile-size="[320,50]" data-ad-size="[970,90]" data-ad-priority="nag" class="the-dfp"></div>
+</div>
+</div>
+</div>
+</div></div>
+<noscript><img src="//dmp.adform.net/dmp/profile/?pid=10648&sg=DeUr-8da6f5e5" style="display:none !important;"><img src="//dmp.adform.net/dmp/profile/?pid=10648&sg=AcLo-606348" style="display:none !important;"><img src="//dmp.adform.net/dmp/profile/?pid=10648&sg=AcLo-606390" style="display:none !important;"><img src="https://track.adform.net/Serving/TrackPoint/?pm=711826" width="1" height="1" alt="" /></noscript>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_PdiuypZMI8o81AYEdTHwjRslVPEF69JFzr7Y9sMWt4s.js"></script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_uFQIBBulec3QTHDnYapTsfGtl6IYNdiWiM6NVetylrY.js"></script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_Q-TM-70NOXAZLuHJLnfQHyTZJQj3rz9rYoYdoZyukvg.js"></script>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"55613def96","applicationID":"135616639","transactionName":"Ml1TZBNTCkcCAkFaWAsXcFMVWwtaTBFUVFI6VVBeAFUBRjwPWldSOk5YVRZtFFUEBA==","queueTime":0,"applicationTime":676,"atts":"HhpQEltJGUk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<script src="https://native.sharethrough.com/assets/sfp.js"></script>
+<script src="https://www.timeshighereducation.com/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+</body>
+</html>

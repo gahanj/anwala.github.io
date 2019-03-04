@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<title>Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival - Tea Party News</title>
+<link rel="profile" href="//gmpg.org/xfn/11">
+<link rel="stylesheet" href="https://www.teaparty.org/wp-content/themes/teaparty/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.teaparty.org/wp-content/themes/teaparty/css/jquery.fancybox.css">
+
+<script type="text/javascript">
+        (function(document, window){
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "https://api.pushnami.com/scripts/v1/pushnami-adv/5a43e2b213f050433847cad2";
+            script.onload = function() {
+                Pushnami
+                    .update()
+                    .prompt(
+
+                        {multi: true}
+                    )
+            };
+            document.getElementsByTagName("head")[0].appendChild(script);
+        })(document, window);
+    </script>
+<link rel="manifest" href="https://www.teaparty.org/manifest.json">
+
+<link rel="canonical" href="https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival - Tea Party News" />
+<meta property="og:description" content="The huge statue stood over four stories high, and featured speakers blaring the metal song “Carolus Rex” by Sabaton. (Big League Politics) &#8211; A carnival in Viareggio, Italy featured a massive statue of President Donald J. Trump dressed in power armor from the Warhammer 40k games and books, referencing the popular “God Emperor Trump” meme. &hellip;" />
+<meta property="og:url" content="https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/" />
+<meta property="og:site_name" content="Tea Party" />
+<meta property="article:publisher" content="https://www.facebook.com/teapartyorg" />
+<meta property="article:section" content="Politics" />
+<meta property="article:published_time" content="2019-02-10T10:40:34-08:00" />
+<meta property="article:modified_time" content="2019-02-10T15:53:02-08:00" />
+<meta property="og:updated_time" content="2019-02-10T15:53:02-08:00" />
+<meta property="og:image" content="https://www.teaparty.org/wp-content/uploads/2019/02/trump-emperor.jpg" />
+<meta property="og:image:width" content="705" />
+<meta property="og:image:height" content="477" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="The huge statue stood over four stories high, and featured speakers blaring the metal song “Carolus Rex” by Sabaton. (Big League Politics) &#8211; A carnival in Viareggio, Italy featured a massive statue of President Donald J. Trump dressed in power armor from the Warhammer 40k games and books, referencing the popular “God Emperor Trump” meme. [&hellip;]" />
+<meta name="twitter:title" content="Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival - Tea Party News" />
+<meta name="twitter:site" content="@teapartyorg" />
+<meta name="twitter:image" content="https://www.teaparty.org/wp-content/uploads/2019/02/trump-emperor.jpg" />
+<meta name="twitter:creator" content="@teapartyorg" />
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Tea Party &raquo; Feed" href="https://www.teaparty.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tea Party &raquo; Comments Feed" href="https://www.teaparty.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tea Party &raquo; Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival Comments Feed" href="https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/feed/" />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.teaparty.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='validate-engine-css-css' href='https://www.teaparty.org/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jellyfish_cw_css-css' href='https://www.teaparty.org/wp-content/plugins/jellyfish-counter-widget/jellyfish-odometer-class/css/jellyfish-counter.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.teaparty.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-post-navigation-style-css' href='https://www.teaparty.org/wp-content/plugins/wp-post-navigation/style.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='front-css-yuzo_related_post-css' href='https://www.teaparty.org/wp-content/plugins/yuzo-related-post/assets/css/style.css?ver=5.12.68' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css' href='https://www.teaparty.org/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-lato-css' href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://www.teaparty.org/wp-content/themes/teaparty/genericons/genericons.css?ver=20180131' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css' href='https://www.teaparty.org/wp-content/themes/teaparty/style.css?ver=20180131' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='https://www.teaparty.org/wp-content/themes/teaparty/css/ie.css?ver=20180131' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='teaparty-app-css' href='https://www.teaparty.org/wp-content/themes/teaparty/assets/css/app.css?ver=20180131' type='text/css' media='all' />
+<link rel='stylesheet' id='fbSEOStylesheet-css' href='https://www.teaparty.org/wp-content/plugins/seo-facebook-comments/assets/fbseo-style.css?ver=4.7.3' type='text/css' media='all' />
+
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-32522776-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+
+<script type='text/javascript' src='https://www.teaparty.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/plugins/thrive-visual-editor/editor/js/compat.min.js?ver=1.500.6'></script>
+<link rel='https://api.w.org/' href='https://www.teaparty.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.teaparty.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.teaparty.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.7.3" />
+<link rel='shortlink' href='https://www.teaparty.org/?p=346071' />
+<link rel="alternate" type="application/json+oembed" href="https://www.teaparty.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.teaparty.org%2Fwatch-huge-god-emperor-trump-statue-rises-italian-carnival-346071%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.teaparty.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.teaparty.org%2Fwatch-huge-god-emperor-trump-statue-rises-italian-carnival-346071%2F&#038;format=xml" />
+<iframe id='aq-ch' src='//static-42andpark-com.s3.amazonaws.com/html/danaton3.html?adname=&adid=' width='1' height='1' style='width:1px;height:1px;position:absolute;left:-1000;'></iframe><style>
+#adtoniq-msg-bar {
+	position: fixed;
+	bottom: -20%;
+	left: 0;
+	width: 100%;
+	min-height: 30px;
+	z-index: 99999;
+	padding: 15px 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background: #222;
+	color: #fff;
+	-webkit-transition: bottom 500ms ease-in-out;
+	transition: bottom 500ms ease-in-out
+}
+
+#adtoniq-msg-bar p {
+	margin: 0 0 10px !important
+}
+
+#adtoniq-msg-bar a {
+	color: #fff !important;
+	text-decoration: underline !important
+}
+
+#adtoniq-msg-bar a:hover {
+	color: #d3d3d3 !important;
+	text-decoration: underline !important
+}
+
+#adtoniq-msg-bar.reveal-alert {
+	bottom: 0;
+	-webkit-transition: bottom 500ms ease-in-out;
+	transition: bottom 500ms ease-in-out
+}
+
+#adtoniq-msg-bar .btn-msg-bar {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 10px 30px;
+	border-radius: 0;
+	background-color: #395972;
+	color: #fff !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+#adtoniq-msg-bar .btn-msg-bar:hover {
+	background: #283e50
+}
+
+#adtoniq-msg-bar .btn-msg-bar+.btn-msg-bar {
+	margin-left: 10px
+}
+
+#adtoniq-msg-bar #adtoniq-msg {
+	display: inline
+}
+
+#adtoniq-msg-bar #adtoniq-btns {
+	display: inline
+}
+
+</style>
+<script>
+adtoniq=function(){var P="";var q=false;var aj=document.createElement("a");aj.href=window.location.href;var w="www.teaparty.org";var j=w;var v="ontouchstart" in window||navigator.msMaxTouchPoints;var S="https://magicalthirteen.com";var c="https://magicalthirteen.com/";var W="https://magicalthirteen.com/";var ak="e7470363-ed9f-4843-bdf2-20eec4dbda13";var I="561";var y="live";var al="live";var O=null;var ae=true;var J=false;var e=null;var d=null;var F=null;var C=null;var V=null;var x=null;var ai=null;var u;var ap;function U(l){return(l==0?"00":((l<10)?("0"+l):(l+"")))}var f=af("adSense");var M;var au=false;var ac=false;var a=false;var aq=false;var H=false;var K=false;var Z=false;var g=false;var p=false;var E=false;var Q="";var G=0;var o=false;var ag=0;var T=Math.floor(Math.random()*10000000);var ab=0;var ah=[];var an=[];var s=[];var Y=[];var aw=[];var n=[];var av=null;var ar=k("adtoniq_choice");var aa=null;var am=false;function B(aA){if(document.getElementsByClassName){return document.getElementsByClassName(aA)}var l=[];var az=new RegExp("(^| )"+aA+"( |$)");var ay=document.getElementsByTagName("*");for(var ax=0,z=ay.length;ax<z;ax++){if(az.test(ay[ax].className)){l.push(ay[ax])}}return l}function m(l){D(l,"")}function D(ax,z){var ay=B(ax);if(ay){for(var l=0;l<ay.length;l++){ay[l].style.display=z}}}function A(){D("adtoniq_adblocked","none");D("adtoniq_acceptable","none");D("adtoniq_blocked_analytics","none");m("adtoniq_nonblocked");m("adtoniq_protect")}function b(){var z=an.length;for(var l=0;l<z;l++){an[l]()}m("adtoniq_nonblocked");m("adtoniq_protect")}function r(){m("adtoniq_adblocked");if(H){m("adtoniq_acceptable")}else{m("adtoniq_adblocked_no_acceptable")}}var X=false,at=false;var h=false;function ao(){if(!h&&(aq||a||K)){if(ar!="track"){r()}else{b()}function aB(){h=true;var aN=s.length;for(var aM=0;aM<aN;aM++){s[aM](ar,W)}}if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",function(){aB()})}else{aB()}}function aH(){return/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)}if(X&&at&&Z&&g){if(aq||a||!p){}else{b()}var az=ah.length;for(var aA=0;aA<az;aA++){ah[aA](aq,a,H,p)}var aC=/bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);if(!aC){var aE=0;try{var aG=av?av():document.querySelectorAll("ins,div[id^='div-gpt-ad'],div[id^='dfp-slot']");aE=aG.length}catch(aD){}var aK=aq||a;var ay=aK?"blocked":"unblocked";var aI=a?"true":"false";var ax=(H&&aK)?"true":"false";var z="n";switch(ar){case"track":z="t";break;case"do-not-track":z="d";break;default:z="n";break}var aH=aH()?"t":"f";if(!E){adtoniq.ajax(c+"c",function(aM){},"s="+ay+"&f="+j+"&n="+aE+"&p="+location.pathname+"&e="+aI+"&a="+ax+"&i="+I+"&g="+p+"&c="+z+"&m="+aH);if(!aK||ar=="track"){var aF=Math.floor(Math.random()*100)+1;if(aF<=G){var aJ="";if(o&&!p){aJ=(W+"j?u=1&id="+Q)}else{aJ="https://www.googletagmanager.com/gtag/js?id="+Q}var aL=document.createElement("script");aL.type="text/javascript";aL.src=aJ;document.head.appendChild(aL);window.dataLayer=window.dataLayer||[];function l(){dataLayer.push(arguments)}l("js",new Date());l("config",Q,{metric1:aE,metric2:aE,dimension1:w,dimension1:w,dimension2:"all users",dimension3:ay,dimension4:ax,dimension5:aI,dimension6:ay,dimension7:ay,dimension8:p,custom_map:{metric1:"numAdUnits",metric2:"numBlockedAdUnits",dimension1:"hostname",dimension2:"testid",dimension3:"adBlockStatus",dimension4:"acceptableAdsEnabled",dimension5:"elementHidingEnabled",dimension6:"adBlockStatus",dimension7:"adBlockStatus",dimension8:"googleAnalyticsEnabled"}});l("event",ay,{event_category:"Adtoniq",value:1,metric1:aE,metric2:aE,dimension1:w,dimension1:w,dimension2:"all users",dimension3:ay,dimension4:ax,dimension5:aI,dimension6:ay,dimension7:ay,dimension8:p})}}}q=true}}}function k(l){var z="; "+document.cookie;var ax=z.split("; "+l+"=");if(ax.length==2){return ax.pop().split(";").shift()}}function t(ax,ay,az){var l="";if(az){var z=new Date();z.setTime(z.getTime()+(az*24*60*60*1000));l="; expires="+z.toUTCString()}document.cookie=ax+"="+ay+l+"; path=/"}function L(){var l=document.getElementById("adtoniq-message");if(l){l.parentNode.removeChild(l)}}function N(z){var l=document.getElementById("adtoniq-message");if(l){l.innerHTML="<div>"+z+"</div>"}}function R(){X=true;ao()}function ad(){at=true;if(aa){clearTimeout(aa);aa=null}setTimeout(function(){var l=document.getElementById("aq-ch");if(l){l.parentNode.removeChild(l)}},1*1000);ao()}function af(z,l){if(!l){l=window.location.href}z=z.replace(/[\[\]]/g,"\\$&");var ay=new RegExp("[?&]"+z+"(=([^&#]*)|&|#|$)"),ax=ay.exec(l);if(!ax){return null}if(!ax[2]){return""}return decodeURIComponent(ax[2].replace(/\+/g," "))}return{setup:function(){isSetPreviewCookie=af("atdoniq-preview");if(isSetPreviewCookie=="1"){t("adt_mc",1,0)}if(y=="master-preview"){var l=k("adt_mc");am=(l!="1")}if(!am){adtoniq.setup2()}},addBobber:function(l){ah.push(l)},addAdBlockerCallback:function(l){ah.push(l)},setAdUnitLocator:function(l){av=l},onBlocked:function(l){if(h){if(aq||a||K){if(ar!="track"){r();l(ar,true)}}}else{s.push(l)}},onAnalyticsBlocked:function(l){Y.push(l)},setGA:function(z,ax,l){Q=z;G=ax;o=l},setIntegration:function(z,l){S=z},setProxy:function(l){W=l},getProxy:function(){return W},setCollector:function(l){c=l},setId:function(l){I=l},optOut:function(z){ar="do-not-track";t("adtoniq_choice",ar,365);for(var l=0;l<n.length;l++){n[l]()}},optIn:function(z){ar="track";t("adtoniq_choice","track",365);A();for(var l=0;l<aw.length;l++){aw[l]()}},onOptIn:function(l){aw.push(l)},onOptOut:function(l){aw.push(l)},addNoAdBlockerCallback:function(l){an.push(l)},laybait:function(){function l(){var z=new Image();z.onload=function(){aq=false;ad()};z.onerror=function(){aq=true;ad()};z.src="https://static-42andpark-com.s3-us-west-2.amazonaws.com/ads/ad-300x250.png"}l();document.addEventListener("DOMContentLoaded",function(ay){var ax=null;function az(){var aE="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links";var aD="width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;";ax=document.createElement("div");ax.id="zippity";ax.setAttribute("class",aE);ax.setAttribute("style",aD);document.body.appendChild(ax)}function aC(){var aE=window.document.body.getAttribute("abp")!==null||ax.offsetParent===null||ax.offsetHeight==0||ax.offsetWidth==0||ax.offsetLeft==0||ax.offsetTop==0||ax.clientHeight==0||ax.clientWidth==0;if(window.getComputedStyle!==undefined&&!aE){var aD=window.getComputedStyle(ax,null);aE=aD.getPropertyValue("display")=="none"||aD.getPropertyValue("visibility")=="hidden"}if(aE){a=true}return aE}K=false;if(K){R()}else{az();var aB=new Date();var aA=null;var z=setInterval(function(){if(aC()){if(aA){clearTimeout(aA)}try{document.body.removeChild(ax)}catch(aD){}clearInterval(z);R()}},100);aA=setTimeout(function(){clearInterval(z);try{document.body.removeChild(ax)}catch(aD){}R()},1*1000)}})},setup2:function(){if(typeof j==="undefined"){return}if(ar=="track"){m("adtoniq_nonblocked")}document.addEventListener("DOMContentLoaded",function(z){if(!at){aa=setTimeout(function(){aq=true;ad()},15*1000*(v?2:1))}});function l(ax){var ay=ax.data;if(typeof(ay)==="string"){try{ay=JSON.parse(ay.trim())}catch(az){}}if(ay&&ay.adtoniq&&ay.adtoniq=="adtoniq"){if(typeof ay.acceptable==="boolean"){H=ay.acceptable;Z=true}if(typeof ay.ga==="boolean"){p=ay.ga;g=true;var aA=k("adtoniq_choice");if(!p&&aA!="track"){m("adtoniq_blocked_analytics")}for(var z=0;z<Y.length;z++){Y[z](!p,aA)=="do-not-track"}}if(typeof ay.status==="string"){if(window.removeEventListener){removeEventListener("message",l)}else{detachEvent("onmessage",l)}if(aa){clearTimeout(aa);aa=null}aq=(ay.status=="blocked");ad()}}}if(window.addEventListener){addEventListener("message",l,false)}else{attachEvent("onmessage",l)}adtoniq.laybait()},inflateAdUnit:function(aI,aL,ax,aP,aM,az){if(y=="master-preview"){var aQ=k("adt_mc");if(aQ!="1"){return}}function aR(aY){var aX=document.createElement("img");aX.src="//d2t7a3zbo166a9.cloudfront.net/images/logos/A-15x15.png";aX.style.setProperty("float","right");var aZ=document.createElement("span");aZ.innerText="Why am I seeing this ad?";aZ.style.display="none";aZ.style.fontSize="10px";aZ.style.paddingRight="10px";aZ.style.verticalAlign="top";aZ.style["float"]="right";var aW=document.createElement("a");aW.href="/why-am-i-seeing-ads";aW.target="_blank";aW.appendChild(aX);aW.appendChild(aZ);aW.style.position="relative";aW.style.display="block";aW.style.zIndex="9";aW.style.setProperty("float","right");aW.style.height="20px";aW.style.boxShadow="none";aW.onmouseenter=function(){aZ.style.display=""};aW.onmouseleave=function(){aZ.style.display="none"};aY.parentNode.insertBefore(aW,aY);if(al=="on"){aY.style.border="2px solid  red"}setTimeout(function(){aY.parentNode.style.height=(aY.parentNode.clientHeight+20)+"px"},1000)}function l(aZ,aX,aY,aW){var a0=aX.getAttribute(aY);if(a0==null){a0=aW}aZ.setAttribute(aY,a0)}function aC(aX,aW){var aY=aW.getAttribute("style");if(aY){if(aY[aY.length-1]!=";"){aY+=";"}aY=aY.replace(/;/g," !important;");aX.setAttribute("style",aY)}}function aH(aY,aX,aW){if(aW.getAttribute(aY)){aX.setAttribute(aY,aW.getAttribute(aY))}}function aV(aX,aW){aC(aX,aW);aX.setAttribute("data-ad-layout",aP);aX.setAttribute("data-ad-format",aM);aX.setAttribute("data-ad-client",aL);aX.setAttribute("data-ad-slot",az)}function aU(aX,aW){aC(aX,aW);if(aP){aX.setAttribute("data-ad-layout",aP)}aX.setAttribute("data-ad-format","rectangle");if(aL){aX.setAttribute("data-ad-client",aL)}if(az){aX.setAttribute("data-ad-slot",az)}}function aJ(aX,aW){aC(aX,aW);l(aX,aW,"data-ad-client",aL);l(aX,aW,"data-ad-slot",az)}function aN(aX,aW){aW.parentNode.insertBefore(aX,aW.nextSibling)}adsbygoogle=window.adsbygoogle=undefined;var aS=av?av():document.querySelectorAll(aI);var aF=document.createElement("script");aF.type="text/javascript";aF.src=ps+"j";if(P){aF.src+="?filter="+P}document.head.appendChild(aF);if(typeof ax!=="string"){ax=6}else{ax=parseInt(ax);if(isNaN(ax)){ax=6}}var aK=ax>6?6:ax;if(aS.length<aK){aK=aS.length}for(i=0;i<aK;i++){var aA=aS[i];if(aA){var z=aA.tagName.toLowerCase();var aE=document.createElement("ins");aE.className="jibberjabber";aE.style.setProperty("text-align","center","important");aE.style.setProperty("visibility","visible","important");aE.style.setProperty("background","white");switch(z!="ins"?"2":f){case"1":default:aV(aE,aA);break;case"2":aU(aE,aA);break;case"3":aJ(aE,aA);break}var aD=aA.parentNode;var aG=aA.nextSibling;var aO=window.getComputedStyle(aA);var aT=aO.cssText;aD.removeChild(aA);if(z=="ins"){if(aG){aD.insertBefore(aE,aG)}else{aD.appendChild(aE)}}else{var ay=document.createElement(z);ay.style.cssText=aT;ay.style.setProperty("visibility","visible","important");ay.style.setProperty("display","block","important");ay.style.setProperty("height","300px");if(aG){aD.insertBefore(ay,aG)}else{aD.appendChild(ay)}ay.appendChild(aE);aE.style.setProperty("display","grid");aE.style.setProperty("display","block","important");aE.style.setProperty("background","white")}aR(aE);if(z==="ins"){aE.className=aA.className.replace("adsbygoogle","jibberjabber")}else{aE.className="jibberjabber"}var aB=document.createElement("script");var aF="(adsbygoogle = window.adsbygoogle || []).push({});";aB.appendChild(document.createTextNode(aF));aN(aB,aE)}}},setFilter:function(l){t("adtoniq-filter",l,365)},inflateAdUnit2:function(l){var z=document.getElementById(l);var ax=null;if(z){var ax=document.createElement("div");ax.style.cssText=document.defaultView.getComputedStyle(z).cssText;ax.id=z.id;ax.className=z.className;ax.style.setProperty("width",z.style.width,"important");ax.style.setProperty("height",z.style.height,"important");ax.style.setProperty("display","block","important");ax.style.setProperty("visibility","visible","important")}return ax},ajax:function(l,ax,z){adtoniq.ajax_2(l,ax,true,null,z)},ajax_synchronous:function(l,z){adtoniq.ajax_2(l,z,false,null,"")},ajax_2:function(ay,aC,z,aB,aA){var az;var ax=adtoniq.getBrowser();var l=adtoniq.getBrowserVersion();if(ax=="MSIE"&&l=="9"&&window.XDomainRequest){az=new XDomainRequest()}else{if(window.XMLHttpRequest){az=new XMLHttpRequest()}else{az=new ActiveXObject("Microsoft.XMLHTTP")}}if(aC){if(ax=="MSIE"&&l=="9"&&window.XDomainRequest){az.onload=function(){aC(az.responseText.trim())}}else{az.onreadystatechange=function(){if(az.readyState==4){if(az.status==200){aC(az.responseText.trim())}else{if(aB){aB()}}}}}}az.open("POST",ay,z);az.setRequestHeader("Content-Type","application/x-www-form-urlencoded");az.send(aA)},getBrowser:function(){var z=navigator.userAgent,l,ax=z.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i)||[];if(/trident/i.test(ax[1])){l=/\brv[ :]+(\d+)/g.exec(z)||[];return"IE "+(l[1]||"")}if(ax[1]==="Chrome"){l=z.match(/\bOPR\/(\d+)/);if(l!=null){return"Opera "+l[1]}}ax=ax[2]?[ax[1],ax[2]]:[navigator.appName,navigator.appVersion,"-?"];if((l=z.match(/version\/(\d+)/i))!=null){ax.splice(1,1,l[1])}return ax[0]},getBrowserVersion:function(){var z=navigator.userAgent,l,ax=z.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i)||[];if(/trident/i.test(ax[1])){l=/\brv[ :]+(\d+)/g.exec(z)||[];return"IE "+(l[1]||"")}if(ax[1]==="Chrome"){l=z.match(/\bOPR\/(\d+)/);if(l!=null){return"Opera "+l[1]}}ax=ax[2]?[ax[1],ax[2]]:[navigator.appName,navigator.appVersion,"-?"];if((l=z.match(/version\/(\d+)/i))!=null){ax.splice(1,1,l[1])}return ax[1]}}}();adtoniq.setup();
+</script><script>if (adtoniq && adtoniq.setGA) adtoniq.setGA('UA-69020513-6','100','true');</script><meta property='fb:admins' content='100000848987579,100005840343412,100000680827376' /><meta property='og:title' content='Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival' /><meta property='og:site_name' content='Tea Party' /><meta property='og:url' content='https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/' /><meta property='og:type' content='article' /><meta property='fb:app_id' content='461404847254579'>
+<style type="text/css">
+					.wp-post-navigation a{
+					text-decoration: none;
+font:bold 16px sans-serif, arial;
+color: #428BCA;
+					}
+				 </style><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="https://www.teaparty.org/wp-content/uploads/2017/01/cropped-TPLogo5122x512-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.teaparty.org/wp-content/uploads/2017/01/cropped-TPLogo5122x512-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.teaparty.org/wp-content/uploads/2017/01/cropped-TPLogo5122x512-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.teaparty.org/wp-content/uploads/2017/01/cropped-TPLogo5122x512-1-270x270.jpg" />
+<script>if (!window.$ && jQuery) { window.$ = jQuery; }</script>
+<link href='//fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<script charset="utf-8" type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53d00f7e5e7dca08"></script>
+
+<script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+<!--[if lt IE 9]>
+    <script src="https://www.teaparty.org/wp-content/themes/teaparty/js/html5.js"></script>
+    <![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" href="https://www.teaparty.org/wp-content/themes/teaparty/css/styles-ie.css">
+    <![endif]-->
+
+<meta name="p:domain_verify" content="b959ab2bf45586dadccd2a0d8d3acfe6" />
+</head>
+<body class="post-template-default single single-post postid-346071 single-format-standard group-blog masthead-fixed footer-widgets singular responsive">
+<div id="fb-root"></div>
+<div class="addthis_responsive_sharing"></div>
+
+<script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1094491430591707');
+    fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1094491430591707&ev=PageView&noscript=1"
+    /></noscript>
+
+<div id="page" class="hfeed site">
+<header id="masthead" class="site-header" role="banner">
+<div class="header-main">
+<div class="site-slogan">
+Our mission is to bring awareness to any issue <br> which challenges the security, sovereignty or <br> domestic tranquility of our beloved nation, <br> The United States of America. </div>
+<h1 class="site-title logo asd">
+<a href="https://www.teaparty.org/" rel="home">
+<img src="https://www.teaparty.org/wp-content/themes/teaparty/images/logo.png" alt="Tea Party Logo" " />
+</a>
+</h1>
+<div class="social pull-right" style="width:250px;">
+<table>
+<tr>
+<td style="padding-right:30px">
+<div class="fb-like" data-href="https://www.facebook.com/teapartyorg" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</td>
+<td style="text-align:right">
+<a href="https://www.facebook.com/teapartyorg"><img src="https://www.teaparty.org/wp-content/themes/teaparty/images/social-fb.png" alt="Social Facebook icon" /></a>
+ <a href="https://www.twitter.com/teapartyorg"><img src="https://www.teaparty.org/wp-content/themes/teaparty/images/social-twitter.png" alt="Social Twitter icon" /></a>
+<a href="https://plus.google.com/108941335849621840963/posts"><img src="https://www.teaparty.org/wp-content/themes/teaparty/images/social-gplus.png" alt="Social Google Plus" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<a href="https://campaigns.teaparty.org/donate" class="mobile-donate-button">DONATE</a>
+<a href="/" class="mobile-home-button">HOME</a>
+<div class="clearfix"></div>
+</div>
+<div class="navigation top-navigation">
+<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-38074" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-38074"><a href="https://www.teaparty.org">Home</a></li>
+<li id="menu-item-38073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38073"><a href="https://www.teaparty.org/about-us/">About Us</a></li>
+<li id="menu-item-8138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8138"><a title="projects" href="https://www.teaparty.org/take-action-now/">Projects</a></li>
+<li id="menu-item-8142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8142"><a title="donate" href="https://campaigns.teaparty.org/donate">Donate</a></li>
+<li id="menu-item-8137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8137"><a href="http://teapartyorg.ning.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://teapartyorg.ning.com/', 'Command Center');" title="command-center">Command Center</a></li>
+</ul></div>
+</div>
+
+<div class="clearfix"></div>
+</header>
+<div id="main" class="site-main">
+<script type='text/javascript'>
+
+        googletag.cmd.push(function () {
+            var map970 = googletag.sizeMapping()
+                .addSize([0, 0], [300, 250])
+                .addSize([481, 481], [970, 90])
+                .build();
+
+            var map468 = googletag.sizeMapping()
+                .addSize([0, 0], [300, 250])
+                .addSize([481, 481], [468, 60])
+                .build();
+
+            var map620 = googletag.sizeMapping()
+                .addSize([0, 0], [300, 250])
+                .addSize([481, 481], [620, 310])
+                .build();
+
+            var mobile300 = googletag.sizeMapping()
+                .addSize([0, 0], [300, 250])
+                .addSize([481, 481], [])
+                .build();
+
+            googletag.defineSlot('/59946820/970x90_Top_ArticlePage', [970, 90], 'div-gpt-ad-1412703479075-5').defineSizeMapping(map970).addService(googletag.pubads());
+            googletag.defineSlot('/59946820/468x60_btf_ArticlePage', [468, 60], 'div-gpt-ad-1412703479075-3').defineSizeMapping(map468).addService(googletag.pubads());
+            googletag.defineSlot('/59946820/468x60_Mid_btf_ArticlePage', [468, 60], 'div-gpt-ad-1412703479075-4').defineSizeMapping(map468).addService(googletag.pubads());
+            googletag.defineSlot('/59946820/620x310_btf_ArticlePage', [620, 310], 'div-gpt-ad-1416253903483-0').defineSizeMapping(map620).addService(googletag.pubads());
+            googletag.defineSlot('/59946820/300x250_aft_ArticlePages', [300, 250], 'div-gpt-ad-1412703479075-1').addService(googletag.pubads());
+            googletag.defineSlot('/59946820/300x250_Bottom_btf_ArticlePages', [300, 250], 'div-gpt-ad-1412703479075-2').addService(googletag.pubads());
+            googletag.defineSlot('/59946820/300x600_sidebar_top', [300, 600], 'div-gpt-ad-1482196617735-1').addService(googletag.pubads());
+            googletag.defineSlot('/59946820/300x600_btf_ArticlePage', [300, 600], 'div-gpt-ad-1412977933285-0').addService(googletag.pubads());
+            googletag.defineSlot('/59946820/300x250_TOPaft_ArticlePages', [300, 250], 'div-gpt-ad-1416521351193-0').addService(googletag.pubads());
+            googletag.defineSlot('/59946820/300x250_underheader_ArticlePages', [300, 250], 'div-gpt-ad-1486769303539-0').defineSizeMapping(mobile300).addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+<div id="post" class="content-area main-wrapper container site-wrap">
+<div class=" ad mobile-only article below-logo pi-300x250">
+
+<div class="pi_4547 powerinbox">
+
+
+<style type="text/css">
+                    div, a, img { margin: 0; padding: 0; } .pi_4547 { position: relative; max-width: 300px; overflow: hidden; } .pi_4547 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_4547 .pi_brand img { width: 84px; } .pi_4547 img { display: block; max-width: 84px; border: 0; outline: none; text-decoration: none; } .pi_4547 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; top: 0; cursor: pointer; z-index: 1000; transition: width .3s; } .pi_4547 .pi_brand:hover { width: 84px; } .pi_4547 .pi_au img { height: auto; width: 100%; max-width: 300px; }
+                </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_4547&utm_content=logo&rs_type=web" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4547" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4547">
+</a>
+</div>
+</div>
+
+</div>
+<div class="block3-3">
+<div class="block2-3 nopad">
+<div class="single-bg main-photo" style="background-image:url('https://www.teaparty.org/wp-content/uploads/2019/02/trump-emperor.jpg')">
+<h3 class="caption">
+<span>Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival</span>
+</h3>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div class="ad desk-only pi-970x90 article below-banner" style="">
+
+<div class="pi_4357 powerinbox">
+
+
+<style type="text/css">
+                            div, a, img { margin: 0; padding: 0;} .pi_4357 { position: relative; max-width: 970px; overflow: hidden; } .pi_4357 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_4357 .pi_brand img { width: 84px; } .pi_4357 img { display: block; max-width: 84px;
+                                                                                                                                                                                                                                                                                       border: 0; outline: none; text-decoration: none; } .pi_4357 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; top: 0; cursor: pointer; z-index: 1000; transition: width .3s; } .pi_4357 .pi_brand:hover
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           { width: 84px; } .pi_4357 .pi_au img { height: auto; width: 100%; max-width: 970px; }
+                        </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_4357&utm_content=logo&rs_type=web" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4357" target="_blank" ref="nofollow"><img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4357"></a>
+</div>
+</div>
+
+</div>
+<div class="ad mobile-only pi-300x250 article below-banner" style="">
+
+<div class="pi_4548 powerinbox">
+
+
+<style type="text/css">
+                            div, a, img { margin: 0; padding: 0; } .pi_4548 { position: relative; max-width: 300px; overflow: hidden; } .pi_4548 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_4548 .pi_brand img { width: 84px; } .pi_4548 img { display: block; max-width: 84px; border: 0; outline: none; text-decoration: none; } .pi_4548 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; top: 0; cursor: pointer; z-index: 1000; transition: width .3s; } .pi_4548 .pi_brand:hover { width: 84px; } .pi_4548 .pi_au img { height: auto; width: 100%; max-width: 300px; }
+                        </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_4548&utm_content=logo&rs_type=web" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4548" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4548">
+</a>
+ </div>
+</div>
+
+</div>
+<div id="content" class="site-content pad" style="padding-top:130px" role="main">
+<div class="share_icons">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/" target="_blank" class="soc_button facebookIcon">
+Share this
+</a>
+<a href="https://twitter.com/share?text=Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival+&ndash;+" target="_blank" class="soc_button twitterIcon">
+Tweet this
+</a>
+<a href="https://plus.google.com/share?url=https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/" target="_blank" class="soc_button googleplusIcon">
+Google +
+</a>
+<div class="addthis_sharing_toolbox sendemailIcon"><span>Email this</span>
+<a class="addthis_button_email"></a>
+<script src="//s7.addthis.com/js/250/addthis_widget.js" type="text/javascript"></script>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+<div class="post-content">
+<div class="meta">February 10, 2019 10:40 am&nbsp;&nbsp;<ul class="post-categories">
+<li><a href="https://www.teaparty.org/category/politics/" rel="category tag">Politics</a></li></ul></div>
+
+
+
+
+<p><strong>The huge statue stood over four stories high, and featured speakers blaring the metal song “Carolus Rex” by Sabaton.</strong></p>
+<p>(Big League Politics) &#8211; A carnival in Viareggio, Italy featured a massive statue of President Donald J. Trump dressed in power armor from the Warhammer 40k games and books, referencing the popular “God Emperor Trump” meme.</p>
+<p>The huge statue stood over four stories high, and featured speakers blaring the metal song “Carolus Rex” by Sabaton.</p><div class="ad desk mobile pi-970x250 article mid-article">
+
+<div class="pi_10547 powerinbox">
+
+
+<style type="text/css">
+  .pi_10547 div, .pi_10547 a, .pi_10547 img, .pi_10547 ul, .pi_10547 li { margin: 0; padding: 0; line-height: 0; list-style: none; border: 0; vertical-align: baseline; } .pi_10547 { position: relative; max-width: 970px; overflow: hidden; } .pi_10547 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_10547 img { display: block; max-width: 84px; border: 0; outline: none; text-decoration: none; } .pi_10547 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; top: 0; cursor: pointer; z-index: 1000; transition: width .3s; line-height: 0; } .pi_10547 .pi_brand:hover { width: 84px; } .pi_10547 .pi_au img { height: auto; width: 100%; max-width: 970px; }
+  </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_10547&utm_content=logo&rs_type=web" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://branding.rs-stripe.com/?utm_source=contentstripe&amp;utm_medium=email&amp;utm_campaign=rs_10547&amp;utm_content=logo&amp;rs_type=web', '\n      \n    ');" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=10547" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&amp;cs_containertype=web&amp;cs_esp=powerinbox_web&amp;cs_offset=0&amp;cs_stripeid=10547', '');" target="_blank" ref="nofollow"><img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=10547"></a>
+</div>
+</div>
+
+</div>
+<p>WATCH:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0qIOc0kcyGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Fans of Warhammer 40k and President Trump both found the statue to be hilarious on social media, one user remarking “They made a 5 story tall God Emperor Trump in Italy,” and others calling it “surreal.”</p>
+<blockquote><p>HAHAHAHHAHA</p>
+<p>THEY MADE A 5 STORY TALL GOD EMPEROR TRUMP IN ITALY AND BLASTED CAROLUS REX BY SABATON OVER LOUDSPEAKERS</p>
+<p>HAHAHAHHAHAHAH pic.twitter.com/qEwpB8LlKR</p>
+<p>— Why it (@spergwyatt) February 10, 2019</p></blockquote>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script></p>
+<div class="fb-post" data-href="https://www.facebook.com/Warhammer40kQuotes/posts/2483811948314598" data-width="474">
+<blockquote cite="https://www.facebook.com/Warhammer40kQuotes/posts/2483811948314598" class="fb-xfbml-parse-ignore">
+<p>&quot;Master-drone&quot;&#8230; seen by the Drone😱😱😱</p>
+<p>Posted by <a href="https://www.facebook.com/fabrizio.galli" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.facebook.com/fabrizio.galli', 'Fabrizio Galli');">Fabrizio Galli</a> on&nbsp;<a href="https://www.facebook.com/Warhammer40kQuotes/posts/2483811948314598" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.facebook.com/Warhammer40kQuotes/posts/2483811948314598', 'Thursday, February 7, 2019');">Thursday, February 7, 2019</a></p></blockquote>
+</div>
+<p></p>
+<p>Italy’s fascination with President Trump and the global populist uprising has been well noted. Italy’s resurgent right wing populist parties have made historic gains in recent elections, and are taking steps to end the endless migration to the Italian peninsula.</p>
+<p>Just last month, Italian Deputy Prime Minister Matteo Salvini’s office said in a public statement that President Trump could view Italy as his closest ally in Europe.</p>
+<p>Bloomberg News reported:</p>
+<blockquote><p>Face time with Trump is the latest ambition of Italian Deputy Prime Minister Matteo Salvini, who dominates the government in Rome and views Europe as ripe for someone to fill the vacuum left by Brexit and prickly relations with Angela Merkel and Emmanuel Macron.</p>
+<p>“This is the time for the U.S. to have a new special relationship, not with the U.K. but with Italy,” Guglielmo Picchi, a Salvini adviser and undersecretary at the Italian Foreign Ministry, said in an interview at his cavernous Rome office. “We’ll be the ones for Trump to call, his closest ally in the EU.</p>
+<p>While Germany’s economic might and France’s geopolitical influence make Europe’s two biggest powers hard to ignore for the U.S., a stamp of approval by Trump could give Salvini a boost, including against domestic rivals, ahead of European Parliament elections in May.</p></blockquote>
+<p>It appears the Italian people are enamored with President Trump, as well as the meme culture that led this writer’s satirical Facebook page, God Emperor Trump, to reach nearly 350,000 ‘likes’ on the platform.</p>
+<p>bigleaguepolitics.com/watch-huge-god-emperor-trump-statue-rises-over-italian-carnival/ </p>
+<p><iframe src='https://campaigns.teaparty.org/trump-s-war-room-survwy' width='100%' height='650' frameborder='0'></iframe></p>
+<span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid transparent;"></span></p>
+</div>
+
+<div class="ad desk mobile pi-500x475 article below-content">
+
+<div class="pi_10025 powerinbox">
+
+<style type="text/css">
+                                .pi_10025 div, .pi_10025 a, .pi_10025 img, .pi_10025 ul, .pi_10025 li {
+                                    margin: 0;
+                                    padding: 0;
+                                    line-height: 0;
+                                    list-style: none;
+                                    border: 0;
+                                    vertical-align: baseline;
+                                }
+
+                                .pi_10025 a {
+                                    display: inline-block;
+                                    width: 100%;
+                                    border: 0;
+                                    border-style: none;
+                                    outline: none;
+                                    text-decoration: none;
+                                }
+
+                                .pi_10025 img {
+                                    display: block;
+                                    border: 0;
+                                    outline: none;
+                                    text-decoration: none;
+                                }
+
+                                .pi_10025 .pi_header {
+                                    font-family: 'Roboto Condensed', sans-serif;
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    text-align: left;
+                                    color: #333333;
+                                    margin: 0 0 10px 0;
+                                    line-height: 100%;
+                                }
+
+                                .pi_10025 .pi_header:after {
+                                    content: "";
+                                    display: table;
+                                    clear: both;
+                                }
+
+                                .pi_10025 .pi_brand {
+                                    float: right;
+                                    clear: both;
+                                }
+
+                                .pi_10025 .pi_brand {
+                                    float: right;
+                                    clear: both;
+                                }
+
+                                .pi_10025 .pi_au_container {
+                                    direction: ltr;
+                                    padding-bottom: 10px;
+                                }
+
+                                .pi_10025 .pi_au {
+                                    position: relative;
+                                    font-size: 0;
+                                    width: 100%;
+                                    display: inline-block;
+                                    vertical-align: top;
+                                    min-width: 50px;
+                                    list-style-type: none;
+                                    box-sizing: border-box;
+                                }
+
+                                .pi_10025 .pi_au img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            </style>
+<div class="pi_header">
+You Might Like
+</div>
+<ul class="pi_au_container">
+<li class="pi_au pi_o">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=0&cs_esp=powerinbox_web&cs_containertype=web" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=0&cs_esp=powerinbox_web&cs_containertype=web">
+</a>
+</li>
+</ul>
+<ul class="pi_au_container">
+<li class="pi_au pi_o">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=1&cs_esp=powerinbox_web&cs_containertype=web" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=1&cs_esp=powerinbox_web&cs_containertype=web">
+</a>
+</li>
+</ul>
+<ul class="pi_au_container">
+<li class="pi_au pi_o">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=2&cs_esp=powerinbox_web&cs_containertype=web" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=2&cs_esp=powerinbox_web&cs_containertype=web">
+</a>
+</li>
+</ul>
+<ul class="pi_au_container">
+<li class="pi_au pi_o">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=3&cs_esp=powerinbox_web&cs_containertype=web" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_stripeid=10025&cs_offset=3&cs_esp=powerinbox_web&cs_containertype=web">
+</a>
+</li>
+</ul>
+</div>
+<div class="pi_header">
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_campaign=rs_10025&utm_medium=web&utm_content=logo&rs_type=web" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/short.png" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+</div>
+
+</div>
+
+<div class="share_icons">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/" target="_blank" class="soc_button facebookIcon">
+Share this
+</a>
+<a href="https://twitter.com/share?text=Watch: Huge ‘God Emperor Trump’ Statue Rises Over Italian Carnival+&ndash;+" target="_blank" class="soc_button twitterIcon">
+Tweet this
+</a>
+<a href="https://plus.google.com/share?url=https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/" target="_blank" class="soc_button googleplusIcon">
+Google +
+</a>
+<div class="addthis_sharing_toolbox sendemailIcon"><span>Email this</span>
+<a class="addthis_button_email"></a>
+<script src="//s7.addthis.com/js/250/addthis_widget.js" type="text/javascript"></script>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+<h2>Comments</h2>
+<hr class="bold" />
+<span class="spam-txt">Please help us stay spam-free. Mouse over a spam post and click the X to report spam.</span>
+<div id="fbSEOComments"> <fb:comments id='seoFacebookCommentsPlugin' mobile='false' href='https://www.teaparty.org/watch-huge-god-emperor-trump-statue-rises-italian-carnival-346071/' num_posts='15' colorscheme='light' order_by=''></fb:comments></div><script>
+                            var fbSEOWrapperWidth = document.getElementById('fbSEOComments').offsetWidth;
+                            document.getElementById('fbSEOComments').style.width = fbSEOWrapperWidth + 'px';
+                            document.getElementById('seoFacebookCommentsPlugin').setAttribute('width', fbSEOWrapperWidth + 'px');
+                          </script><div id='fb-root'></div>
+<script>
+                            window.fbAsyncInit = function() {
+                                FB.init({
+                                  appId      : '461404847254579', // App ID
+                                  status     : true, // check login status
+                                  cookie     : true, // enable cookies to allow the server to access the session
+                                  xfbml      : true  // parse XFBML
+                                });
+                                // Additional initialization code here
+                              };
+                                //  Load the SDK Asynchronously
+                              (function(d){
+                                 var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+                                 if (d.getElementById(id)) {return;}
+                                 js = d.createElement('script'); js.id = id; js.async = true;
+                                 js.src = "//connect.facebook.net/en_US/all.js";
+                                 ref.parentNode.insertBefore(js, ref);
+                           }(document))
+                    </script> <div class="article pi-468x60 below-comments ad desk-only">
+
+<div class="pi_4551 powerinbox">
+
+
+<style type="text/css">
+                                div, a, img { margin: 0; padding: 0; } .pi_4551 { position: relative; max-width: 468px; overflow: hidden; } .pi_4551 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_4551 .pi_brand img { width: 84px; } .pi_4551 img { display: block; max-width: 84px; border: 0; outline: none; text-decoration: none; } .pi_4551 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; bottom: 0; cursor: pointer; z-index: 1000; transition: width .3s; } .pi_4551 .pi_brand:hover { width: 84px; } .pi_4551 .pi_au img { height: auto; width: 100%; max-width: 468px; }
+                            </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_4551&utm_content=logo&rs_type=web" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4551" target="_blank" ref="nofollow"><img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4551"></a>
+</div>
+</div>
+
+</div>
+<div class="ad mobile-only below-comments home pi-300x250">
+
+<div class="pi_9152 powerinbox">
+
+
+<style type="text/css">
+                                div, a, img { margin: 0; padding: 0; } .pi_9152 { position: relative; max-width: 300px; overflow: hidden; } .pi_9152 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_9152 .pi_brand img { width: 84px; } .pi_9152 img { display: block; max-width: 84px; border: 0; outline: none; text-decoration: none; } .pi_9152 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; top: 0; cursor: pointer; z-index: 1000; transition: width .3s; } .pi_9152 .pi_brand:hover { width: 84px; } .pi_9152 .pi_au img { height: auto; width: 100%; max-width: 300px; }
+                            </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_9152&utm_content=logo&rs_type=web" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=9152" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=9152">
+</a>
+</div>
+</div>
+
+</div>
+<div class="bottom-widget">
+<div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_223548"><div class="tl-style" id="tve_blank_set" data-state="94"><div class="tve-leads-conversion-object" data-tl-type="shortcode_223548"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_blank_set tve_white tve_brdr_solid tve_empty_dropzone"><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_blue tve_14 thrv_lead_generation_vertical" data-inputs-count="14" data-tve-style="1" style="margin-top: 5px; margin-bottom: 0px;" data-tve-version="1" data-connection="api"><div class="thrv_lead_generation_code" style="display: none;"></div><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Name and Email fields are required&quot;}"><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 10px;"></div><input id="_form_type" type="hidden" name="_form_type" value="tve_lead_shortcode"><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjg6Im1haWxwb2V0IjtzOjI6IjQ3Ijt9"><input id="__tcb_lg_msg" type="hidden" name="__tcb_lg_msg" value="undefined"><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_error_message_option" type="hidden" name="_error_message_option" value=""><input id="_back_url" type="hidden" name="_back_url" value=""><input id="_submit_option" type="hidden" name="_submit_option" value=""><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve tve_lg_submit tve_lg_2"><button type="Submit">Get FREE Tea Party Breaking News Alerts</button></div></div></form></div></div></div></div></div></div></div></div>
+</div>
+</div>
+</div>
+<div class="block1-3 right-col">
+<div id="secondary">
+<div class="banners-small">
+
+<aside id="newsletterwidget-3" class="widget widget_newsletterwidget_article">
+<div class="textwidget"><div class="ad desk-only article">
+
+<div class="pi_4547 powerinbox">
+
+
+<style type="text/css">
+  div, a, img { margin: 0; padding: 0; } .pi_4547 { position: relative; max-width: 300px; overflow: hidden; } .pi_4547 a { display: block; border: 0; border-style: none; outline: none; text-decoration: none; } .pi_4547 .pi_brand img { width: 84px; } .pi_4547 img { display: block; max-width: 84px; border: 0; outline: none; text-decoration: none; } .pi_4547 .pi_brand { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; right: 0; top: 0; cursor: pointer; z-index: 1000; transition: width .3s; } .pi_4547 .pi_brand:hover { width: 84px; } .pi_4547 .pi_au img { height: auto; width: 100%; max-width: 300px; }
+  </style>
+<div class="pi_brand">
+<a href="https://branding.rs-stripe.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=rs_4547&utm_content=logo&rs_type=web" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://branding.rs-stripe.com/?utm_source=contentstripe&amp;utm_medium=email&amp;utm_campaign=rs_4547&amp;utm_content=logo&amp;rs_type=web', '\n      \n    ');" target="_blank" ref="nofollow">
+<img data-src="https://branding.rs-stripe.com/recommend/web.png" height="15" alt="Learn more about RevenueStripe...">
+</a>
+</div>
+<div class="pi_au">
+<a href="https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4547" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://stripe.rs-stripe.com/stripe/redirect?cs_email={{GUID}}&amp;cs_containertype=web&amp;cs_esp=powerinbox_web&amp;cs_offset=0&amp;cs_stripeid=4547', '\n      \n    ');" target="_blank" ref="nofollow">
+<img alt="" data-src="https://stripe.rs-stripe.com/stripe/image?cs_email={{GUID}}&cs_containertype=web&cs_esp=powerinbox_web&cs_offset=0&cs_stripeid=4547">
+</a>
+</div>
+</div>
+
+</div>
+</div>
+<div class="getalerts">
+<div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_223548"><div class="tl-style" id="tve_blank_set" data-state="94"><div class="tve-leads-conversion-object" data-tl-type="shortcode_223548"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_blank_set tve_white tve_brdr_solid tve_empty_dropzone"><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_blue tve_14 thrv_lead_generation_vertical" data-inputs-count="14" data-tve-style="1" style="margin-top: 5px; margin-bottom: 0px;" data-tve-version="1" data-connection="api"><div class="thrv_lead_generation_code" style="display: none;"></div><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Name and Email fields are required&quot;}"><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 10px;"></div><input id="_form_type" type="hidden" name="_form_type" value="tve_lead_shortcode"><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjg6Im1haWxwb2V0IjtzOjI6IjQ3Ijt9"><input id="__tcb_lg_msg" type="hidden" name="__tcb_lg_msg" value="undefined"><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_error_message_option" type="hidden" name="_error_message_option" value=""><input id="_back_url" type="hidden" name="_back_url" value=""><input id="_submit_option" type="hidden" name="_submit_option" value=""><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve tve_lg_submit tve_lg_2"><button type="Submit">Get FREE Tea Party Breaking News Alerts</button></div></div></form></div></div></div></div></div></div></div></div>
+</div>
+</aside>
+<div id="secondary-sidebar" class="primary-sidebar widget-area" role="complementary">
+<div class="ad desk-only">
+<aside id="text-33" class="widget widget_text"> <div class="textwidget"></div>
+</aside> </div>
+</div>
+</div>
+
+
+<div class="custom-sidebar pad">
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+		$(document).ready(function(e) {
+			$(".fancybox").fancybox({type: 'iframe'});
+		});
+	</script>
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="site-info container">
+<table>
+<tr>
+<td class="cr">
+Copyright © 2019 Tea Party, Inc. All Rights Reserved.
+- <a href="https://www.teaparty.org/privacy-policy/">Privacy Policy</a> -
+<a href="https://www.teaparty.org/terms/">Terms of Use</a>
+</td>
+</tr>
+</table>
+</div>
+</footer>
+</div>
+<script src="https://www.teaparty.org/wp-content/themes/teaparty/js/jquery.fancybox.pack.js"></script>
+<script src="https://www.teaparty.org/wp-content/themes/teaparty/js/bootstrap.min.js"></script>
+<script>
+
+		var source_links = [
+			'https://payments.paysimple.com/buyer/checkoutformpay/Lz7kEm6HCnCvtD5h2KOzRst2TEg-', // impeach
+			'https://payments.paysimple.com/buyer/checkoutformpay/R6utr7z1Pam9XjKUD-Tda-s-gtU-', // audit irs
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/0LRTYopJvMG1mClMS2sN8wmeIAM-', // fax a flag
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/HE1Gdzamr1rawW30Ac01YlXrW90-', // not eligible
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/4lUjFOJHiSV8iZyln8kBn7-7bxA-', // red ink
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/NKjDnr4aYK6l2ZBUsFad6DchGYA-', // protect military
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/oYrJMq-lp-9tY2LYic5BIy93IEQ-', // no to obamacare
+			'https://payments.paysimple.com/PaySimple/Buyer/CheckOutFormPay/r4LMe7BEp7Cu41BRVX5j-3akkJ8-', // protect internet freedom of speech
+			'https://payments.paysimple.com/buyer/checkoutformpay/uoafj26MSbm2qWXSWz78sTb-gqQ-', // protect your gun rights
+			'https://payments.paysimple.com/buyer/checkoutformpay/9QMHYzpzDq8DhoK0FFw0pWVlLm8-', // no amnesty
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/MIF6IWKow2YrDyrejeF7PXk2-BY-' // donation
+		];
+		var stripe_links = [
+			'https://www.teaparty.org/campaigns/impeach-obama.php', // impeach
+			'https://payments.paysimple.com/buyer/checkoutformpay/R6utr7z1Pam9XjKUD-Tda-s-gtU-', // audit irs
+			'https://www.teaparty.org/campaigns/fax-a-flag.php', // fax a flag
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/HE1Gdzamr1rawW30Ac01YlXrW90-', // not eligible
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/4lUjFOJHiSV8iZyln8kBn7-7bxA-', // red ink
+			'https://payments.paysimple.com/PaySimple/buyer/checkoutformpay/NKjDnr4aYK6l2ZBUsFad6DchGYA-', // protect military
+			'https://www.teaparty.org/campaigns/no-obamacare.php', // no to obamacare
+			'https://payments.paysimple.com/PaySimple/Buyer/CheckOutFormPay/r4LMe7BEp7Cu41BRVX5j-3akkJ8-', // protect internet freedom of speech
+			'https://www.teaparty.org/campaigns/45-gun-fax.php', // protect your gun rights
+			'https://www.teaparty.org/campaigns/no-amnesty.php', // no amnesty
+			'https://www.teaparty.org/campaigns/' // donation
+		];
+
+		var links = document.getElementsByTagName("a");
+
+		var num_links = links.length;
+		for (var i = 0; i < num_links; i++) {
+			var source_length = source_links.length;
+			for (var j = 0; j < source_length; j++) {
+				if (links[i].href.indexOf(source_links[j]) != -1) {
+					links[i].href = stripe_links[j];
+				}
+			}
+		}
+	</script>
+<div id="tve_notification_box"></div><style scoped>.yuzo_related_post{}
+.yuzo_related_post .relatedthumb{}</style><link rel='stylesheet' id='tve_style_family_tve_flt-css' href='https://www.teaparty.org/wp-content/plugins/thrive-visual-editor/editor/css/thrive_flat.css?ver=1.500.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tve_leads_forms-css' href='//www.teaparty.org/wp-content/plugins/thrive-leads/editor-layouts/css/frontend.css?ver=1.95.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tve-leads-blank_set-css' href='//www.teaparty.org/wp-content/plugins/thrive-leads/editor-templates/_form_css/blank_set.css?ver=1.95.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.6'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/plugins/yuzo-related-post/assets/js/jquery.equalizer.js?ver=5.12.68'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/themes/teaparty/js/functions.js?ver=20180131'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/themes/teaparty/assets/js/app.js?ver=20180131'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tve_dash_front = {"ajaxurl":"https:\/\/www.teaparty.org\/wp-admin\/admin-ajax.php","is_crawler":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.33'></script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-includes/js/wp-embed.min.js?ver=4.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"https:\/\/www.teaparty.org\/wp-admin\/admin-ajax.php","social_fb_app_id":"","dash_url":"https:\/\/www.teaparty.org\/wp-content\/plugins\/thrive-visual-editor\/thrive-dashboard","translations":{"Copy":"Copy"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.teaparty.org/wp-content/plugins/thrive-visual-editor/editor/js/thrive_content_builder_frontend.min.js?ver=1.500.6'></script>
+<script type='text/javascript' src='//www.teaparty.org/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.95.6'></script>
+<script type="text/javascript">/*<![CDATA[*/if ( !window.TL_Const ) var TL_Const={"security":"866b98b8fe","ajax_url":"https:\/\/www.teaparty.org\/wp-admin\/admin-ajax.php","forms":{"shortcode_223548":{"_key":"94","trigger":"page_load","trigger_config":{},"form_type_id":"223548","main_group_id":"223548","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["223548"],"custom_post_data":[],"current_screen":{"screen_type":4,"screen_id":346071},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","__tcb_lg_msg","_state","_form_type","_error_message_option","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/*]]> */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_223548 = {"group_id":"223548","form_type_id":"223548","variation_key":"94","active_test_id":null,"output_js":true};</script><script type="text/javascript">
+	(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_223548","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);
+</script>
+<a style="display: none;" title="Web Analytics" href="http://clicky.com/101011524"><img alt="Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(101011524); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101011524ns.gif" /></p></noscript>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"98c0f64c56","applicationID":"49942038","transactionName":"ZQRVN0JUVkZYV0QLXVxOdgBEXFdbFkdZDFVeBA==","queueTime":0,"applicationTime":747,"atts":"SUNWQQpORUg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

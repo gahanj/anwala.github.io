@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcFWVRXCxABU1ZQAwIFVA=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Watch: Dem Senator Crashes and Burns Trying To Define Socialism</title>
+<script>
+			function getParameterByName( name ) {
+				name = name.replace( /[\[\]]/g, "\\$&" );
+				var regex = new RegExp( "[?&]" + name + "(=([^&#]*)|&|#|$)" ),
+				    results = regex.exec( window.location.href );
+				if( ! results ) return null;
+				if( ! results[2] ) return '';
+				return decodeURIComponent( results[2].replace( /\+/g, " " ) );
+			}
+
+			function getCookie(cname) {
+			    var name = cname + "=";
+			    var decodedCookie = decodeURIComponent(document.cookie);
+			    var ca = decodedCookie.split(';');
+			    for(var i = 0; i <ca.length; i++) {
+			        var c = ca[i];
+			        while (c.charAt(0) == ' ') {
+			            c = c.substring(1);
+			        }
+			        if (c.indexOf(name) == 0) {
+			            return c.substring(name.length, c.length);
+			        }
+			    }
+			    return "";
+			}
+		</script>
+<style>
+			.liveblog-entry {
+				display: block !important;
+			}
+
+			.liveblog-entry-main {
+				padding-top: 10px;
+			}
+
+			.liveblog-entry-content * {
+				word-break: normal !important;
+			}
+		</style>
+<script type="text/javascript" src="//d3l320urli0p1u.cloudfront.net/script.js"></script>
+<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga( 'create', 'UA-54260989-7', 'auto', { allowLinker: true } );
+
+		  
+		</script>
+<script>
+				window.dataLayer = window.dataLayer || [];
+				window.dataLayer.push({"siteName":"http:\/\/conservativetribune.com","pageCategory":"Commentary","wordCount":1000,"paragraphCount":"27","articleTitle":"Watch: Dem Senator Crashes and Burns Trying To Define Socialism","articleSocialTitle":"Watch: Dem Senator Crashes and Burns Trying To Define Socialism","articleSEOTitle":"Watch: Dem Senator Crashes and Burns Trying To Define Socialism","articleChooser":"azientek","articleTitler":"azientek","articleTitleLength":63,"articleSocialTitleLength":63,"articleSEOTitleLength":63,"articleAuthor":"Cillian Zeal","articleEditor":"twindsor","articleShareTextAuthor":"azientek","articleShareTextLength":114,"articleCategory":"American Left","articlePublishDate":"2019-02-09","articleTopic":"American Left, CNN, Democrats, Oregon, Senate, socialism","articleSection":"Commentary, Politics","articleID":566847,"articleFormat":"standard","abTesting":"false","articleSource":"","articleVia":"","googleCompliant":"true","videoPosition":"above_article","platform":"web","event":"dataLayer-loaded"});
+			</script>
+
+<meta name="description" content="Oregon Sen. Jeff Merkley was asked about socialism on CNN, and his effort to define it without exposing what it really is was something to behold." />
+<link rel="canonical" href="https://www.westernjournal.com/ct/watch-dem-senator-crashes-burns-trying-define-socialism/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Watch: Dem Senator Crashes and Burns Trying To Define Socialism" />
+<meta property="og:description" content="Oregon Sen. Jeff Merkley was asked about socialism on CNN, and his effort to define it without exposing what it really is was something to behold." />
+<meta property="og:url" content="https://www.westernjournal.com/ct/watch-dem-senator-crashes-burns-trying-define-socialism/" />
+<meta property="og:site_name" content="Conservative Tribune" />
+<meta property="article:publisher" content="https://www.facebook.com/theconservativetribune" />
+<meta property="article:author" content="https://www.facebook.com/cillian.zeal.5?lst=11054941201000275323307091533319324" />
+<meta property="article:tag" content="American Left" />
+<meta property="article:tag" content="CNN" />
+<meta property="article:tag" content="Democrats" />
+<meta property="article:tag" content="Oregon" />
+<meta property="article:tag" content="Senate" />
+<meta property="article:tag" content="socialism" />
+<meta property="article:section" content="Commentary" />
+<meta property="article:published_time" content="2019-02-09T17:28:13+00:00" />
+<meta property="article:modified_time" content="2019-02-09T17:55:53+00:00" />
+<meta property="og:updated_time" content="2019-02-09T17:55:53+00:00" />
+<meta property="og:image" content="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Burnett-Merkley-CNN-socialism.jpg" />
+<meta property="og:image:secure_url" content="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Burnett-Merkley-CNN-socialism.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Democrat Sen. Jeff Merkley of Oregon, right, explains socialism to CNN&#039;s Erin Burnett." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Oregon Sen. Jeff Merkley was asked about socialism on CNN, and his effort to define it without exposing what it really is was something to behold." />
+<meta name="twitter:title" content="Watch: Dem Senator Crashes and Burns Trying To Define Socialism" />
+<meta name="twitter:site" content="@conserv_tribune" />
+<meta name="twitter:image" content="https://static.westernjournal.com/ct/wp-content/uploads/2019/02/Burnett-Merkley-CNN-socialism.jpg" />
+<meta name="twitter:creator" content="@CillianZeal" />
+
+<link rel="amphtml" href="https://www.westernjournal.com/ct/watch-dem-senator-crashes-burns-trying-define-socialism/amp/?utm_source=Twitter&#038;utm_medium=PostSideSharingButtons&#038;utm_campaign=websitesharingbuttons" /><link rel='dns-prefetch' href='//www.westernjournal.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Conservative Tribune &raquo; Feed" href="https://www.westernjournal.com/ct/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Conservative Tribune &raquo; Comments Feed" href="https://www.westernjournal.com/ct/comments/feed/" />
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-K3K9VP');</script>
+
+<link rel='stylesheet' id='ct-fonts-css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C900&#038;ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='ct-main-css' href='https://www.westernjournal.com/ct/wp-content/plugins/ct-functionality/assets/css/main.css?ver=1549649530' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.westernjournal.com/ct/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='https://www.westernjournal.com/ct/wp-content/themes/firefly/assets/js/prebid.js?ver=0.26.1-1547225292' async='async'></script>
+<link rel='https://api.w.org/' href='https://www.westernjournal.com/ct/wp-json/' />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.westernjournal.com/ct/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://www.westernjournal.com/ct/?p=566847' />
+<link rel="alternate" type="application/json+oembed" href="https://www.westernjournal.com/ct/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.westernjournal.com/ct/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F&#038;format=xml" />
+
+<script type="text/javascript">
+        _atrk_opts = { atrk_acct:"C1z2k1acFH002c", domain:"westernjournal.com",dynamic: true};
+        (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+        </script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=C1z2k1acFH002c" style="display:none" height="1" width="1" alt="" /></noscript>
+
+<script>
+			var ff_current_page = 1;
+			var FF_REP_COUNT = 2;
+			var FF_EXCLUDE_ADS = [];
+
+			function firefly_setTargeting() {
+				googletag.pubads().setTargeting("Site", ["http://www.westernjournal.com/ct"]);
+				googletag.pubads().setTargeting("Tag", ["American Left", "CNN", "Democrats", "Oregon", "Senate", "socialism"]);
+				googletag.pubads().setTargeting("Category", ["Commentary", "Politics"]);
+
+				googletag.pubads().setTargeting("URL", "/ct/watch-dem-senator-crashes-burns-tryi");
+				googletag.pubads().setTargeting("GoogleCompliant", "true");
+
+				if( typeof FIREFLY_AIRTV_RAND != 'undefined' && FIREFLY_AIRTV_RAND < 0.2 ) googletag.pubads().setTargeting("AIRTV", "true");
+
+				['campaign','content','medium','source'].forEach( function( utm ) { googletag.pubads().setTargeting( 'utm_' + utm, getParameterByName( 'utm_' + utm ) ); } );
+			}
+			function firefly_size_list_to_max_wh( size_list ) {
+				let max_wh = [0, 0];
+				for( let i = 0; i < size_list.length; i++ ) {
+					if( size_list[i][0] > max_wh[0] ) max_wh[0] = size_list[i][0];
+					if( size_list[i][1] > max_wh[1] ) max_wh[1] = size_list[i][1];
+				}
+				return max_wh;
+			}
+		
+			var FFADS = {"desktop_bidding_timeout":"1100","mobile_bidding_timeout":"950","lazy_load_threshold":"1000","units":{"SA1":{"lazy_load":"yes","ad_type":"dfp_prebid","size_mappings":[{"screen_width":"944"},{"screen_width":"1","creative_sizes":[{"size":"320x100"},{"size":"320x50"}]}]},"IC3":{"lazy_load":"yes","ad_type":"dfp_prebid","size_mappings":[{"screen_width":"1280","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"728x90"}]},{"screen_width":"622","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"320x100"}]},{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"}]}],"bidders":[{"name":"audienceNetwork","device_category":"mobile","audiencenetwork_placementid":"1521975967886043_1695385700545068","audiencenetwork_format":"fullwidth"},{"name":"audienceNetwork","device_category":"desktop","audiencenetwork_placementid":"1521975967886043_1814350525315251","audiencenetwork_format":"native"},{"name":"appnexus","device_category":"all","appnexus_placementid":"13527810"},{"name":"ix","device_category":"all","ix_siteid":"193595","ix_size":[{"size":"300"},{"size":"250"}]},{"name":"ix","device_category":"desktop","ix_siteid":"193595","ix_size":[{"size":"728"},{"size":"90"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193595","ix_size":[{"size":"320"},{"size":"100"}]}]},"SB4":{"lazy_load":"yes","ad_type":"dfp_prebid","size_mappings":[{"screen_width":"944","creative_sizes":[{"size":"300x250"}]},{"screen_width":"1"}],"bidders":[{"name":"appnexus","device_category":"desktop","appnexus_placementid":"13527817"},{"name":"ix","device_category":"desktop","ix_siteid":"193599","ix_size":[{"size":"300"},{"size":"250"}]}]},"Top":{"ad_type":"dfp_prebid","size_mappings":[{"screen_width":"1280","creative_sizes":[{"size":"728x90"},{"size":"468x60"}]},{"screen_width":"500","creative_sizes":[{"size":"300x250"},{"size":"320x100"},{"size":"468x60"}]},{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"},{"size":"320x50"},{"size":"336x280"}]}],"bidders":[{"name":"audienceNetwork","device_category":"mobile","audiencenetwork_placementid":"1521975967886043_1695386880544950","audiencenetwork_format":"fullwidth"},{"name":"appnexus","device_category":"all","appnexus_placementid":"13527789"},{"name":"ix","device_category":"desktop","ix_siteid":"193593","ix_size":[{"size":"728"},{"size":"90"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193593","ix_size":[{"size":"300"},{"size":"250"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193593","ix_size":[{"size":"320"},{"size":"100"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193593","ix_size":[{"size":"320"},{"size":"50"}]},{"name":"ix","device_category":"all","ix_siteid":"193593","ix_size":[{"size":"468"},{"size":"60"}]}]},"IC1":{"ad_type":"dfp_prebid","size_mappings":[{"screen_width":"1280","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"728x90"}]},{"screen_width":"622","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"320x100"}]},{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"}]}],"bidders":[{"name":"audienceNetwork","device_category":"mobile","audiencenetwork_placementid":"1521975967886043_1695358527214452","audiencenetwork_format":"fullwidth"},{"name":"audienceNetwork","device_category":"desktop","audiencenetwork_placementid":"1521975967886043_1814349928648644","audiencenetwork_format":"native"},{"name":"appnexus","device_category":"all","appnexus_placementid":"13527791"},{"name":"ix","device_category":"all","ix_siteid":"193594","ix_size":[{"size":"300"},{"size":"250"}]},{"name":"ix","device_category":"desktop","ix_siteid":"193594","ix_size":[{"size":"728"},{"size":"90"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193594","ix_size":[{"size":"320"},{"size":"100"}]}]},"IC2":{"ad_type":"dfp_prebid","size_mappings":[{"screen_width":"1280","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"728x90"}]},{"screen_width":"622","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"320x100"}]},{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"}]}],"bidders":[{"name":"audienceNetwork","device_category":"mobile","audiencenetwork_placementid":"1521975967886043_1837265856357051","audiencenetwork_format":"fullwidth"},{"name":"audienceNetwork","device_category":"desktop","audiencenetwork_placementid":"1521975967886043_1814350385315265","audiencenetwork_format":"native"},{"name":"appnexus","device_category":"all","appnexus_placementid":"13527808"},{"name":"ix","device_category":"all","ix_siteid":"193594","ix_size":[{"size":"300"},{"size":"250"}]},{"name":"ix","device_category":"desktop","ix_siteid":"193594","ix_size":[{"size":"728"},{"size":"90"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193594","ix_size":[{"size":"320"},{"size":"100"}]}]},"SB1":{"ad_type":"dfp_prebid"},"SB2":{"ad_type":"dfp_prebid","size_mappings":[{"screen_width":"944","creative_sizes":[{"size":"300x250"},{"size":"300x600"}]}],"bidders":[{"name":"appnexus","device_category":"desktop","appnexus_placementid":"13527815"},{"name":"ix","device_category":"desktop","ix_siteid":"193598","ix_size":[{"size":"300"},{"size":"600"}]},{"name":"ix","device_category":"desktop","ix_siteid":"193598","ix_size":[{"size":"300"},{"size":"250"}]}]},"SB3":{"ad_type":"custom","custom_ads":[{"code":"<div id=\"rcjsload_d5aa95\"><\/div>","rendering_script":"(function() {\r\nvar referer=\"\";try{if(referer=document.referrer,\"undefined\"==typeof referer||\"\"==referer)throw\"undefined\"}catch(exception){referer=document.location.href,(\"\"==referer||\"undefined\"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);\r\nvar rcds = document.getElementById(\"rcjsload_d5aa95\");\r\nvar rcel = document.createElement(\"script\");\r\nrcel.id = 'rc_' + Math.floor(Math.random() * 1000);\r\nrcel.type = 'text\/javascript';\r\nrcel.src = \"https:\/\/trends.revcontent.com\/serve.js.php?w=82751&t=\"+rcel.id+\"&c=\"+(new Date()).getTime()+\"&width=\"+(window.outerWidth || document.documentElement.clientWidth)+\"&referer=\"+encodeURIComponent(referer);\r\nrcel.async = true;\r\nrcds.appendChild(rcel);\r\n})();"}]},"BA1":{"ad_type":"custom","custom_ads":[{"code":"<!-- ad here -->","rendering_script":"var ff_ad_unit_script = document.createElement('script');\r\nff_ad_unit_script.async = 'async';\r\nff_ad_unit_script.type = 'text\/javascript';\r\nff_ad_unit_script.dataset.connatixToken = '9db2a771-ce49-4bdb-b386-7b7e745f82e1';\r\nff_ad_unit_script.src = 'https:\/\/cdn.connatix.com\/min\/connatix.renderer.infeed.min.js';\r\ndocument.getElementById('BA1').appendChild(ff_ad_unit_script);\r\nff_ad_unit_script = document.createElement('script');\r\nff_ad_unit_script.async = 'async';\r\nff_ad_unit_script.type = 'text\/javascript';\r\nff_ad_unit_script.dataset.connatixToken = '1b613826-8b08-4c15-b029-768195ae4b10';\r\nff_ad_unit_script.src = 'https:\/\/cdn.connatix.com\/min\/connatix.renderer.infeed.min.js';\r\ndocument.getElementById('BA1').appendChild(ff_ad_unit_script);"}]},"BB1":{"ad_type":"dfp_prebid","size_mappings":[{"screen_width":"990","creative_sizes":[{"size":"970x250"},{"size":"970x90"},{"size":"728x90"}]},{"screen_width":"748","creative_sizes":[{"size":"728x90"}]},{"screen_width":"1"}],"bidders":[{"name":"appnexus","device_category":"desktop","appnexus_placementid":"13527788"},{"name":"ix","device_category":"desktop","ix_siteid":"236246","ix_size":[{"size":"970"},{"size":"250"}]},{"name":"ix","device_category":"desktop","ix_siteid":"236246","ix_size":[{"size":"728"},{"size":"90"}]},{"name":"ix","device_category":"desktop","ix_siteid":"236246","ix_size":[{"size":"970"},{"size":"90"}]}]},"IC4":{"ad_type":"dfp_prebid","lazy_load":"yes","size_mappings":[{"screen_width":"1280","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"728x90"}]},{"screen_width":"622","creative_sizes":[{"size":"622x250"},{"size":"300x250"},{"size":"320x100"}]},{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"}]}],"bidders":[{"name":"audienceNetwork","device_category":"desktop","audiencenetwork_placementid":"1521975967886043_1814350678648569","audiencenetwork_format":"native"},{"name":"appnexus","device_category":"all","appnexus_placementid":"13527812"},{"name":"ix","device_category":"all","ix_siteid":"193595","ix_size":[{"size":"300"},{"size":"250"}]},{"name":"ix","device_category":"desktop","ix_siteid":"193595","ix_size":[{"size":"728"},{"size":"90"}]},{"name":"ix","device_category":"mobile","ix_siteid":"193595","ix_size":[{"size":"320"},{"size":"100"}]}],"repeating":true},"SB5":{"ad_type":"dfp_prebid"},"WP1":{"ad_type":"custom"},"IF1":{"ad_type":"dfp_prebid","lazy_load":"yes","size_mappings":[{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"},{"size":"320x50"},{"size":"336x280"}]}]},"IF2":{"ad_type":"dfp_prebid","lazy_load":"yes","size_mappings":[{"screen_width":"1","creative_sizes":[{"size":"300x250"},{"size":"320x100"},{"size":"320x50"},{"size":"336x280"}]}]}},"lazy_load":"yes","ad_type":"dfp_prebid","custom_unit_code":"ECT","use_fixed_containers":"yes","cat":"uncategorized"};
+		
+			FFADS.debug = function( msg ) {
+				if( document.location.href.search( 'ffads_debug=true' ) !== -1 ) console.log( msg );
+			}
+
+			FFADS.content_order = ["SA1","WP1","BB1","Top","IC1","IC2","IC3","IC4","IF1","IF2","BA1"];
+			FFADS.sidebar_order = ["SB1","SB2","SB3","SB4","SB5"];
+
+			for( let ad_unit in FFADS.units ) if( FFADS.units[ad_unit].ad_type == 'dfp_prebid' && FFADS.units[ad_unit].size_mappings ) for( let i = 0; i < FFADS.units[ad_unit].size_mappings.length; i++ ) if( window.innerWidth >= FFADS.units[ad_unit].size_mappings[i].screen_width ) {
+				if( FFADS.units[ad_unit].size_mappings[i].creative_sizes && FF_EXCLUDE_ADS.indexOf( ad_unit ) == -1 ) FFADS.units[ad_unit].sizes = FFADS.units[ad_unit].size_mappings[i].creative_sizes.map( function( sizeObj ) { return sizeObj.size.split( 'x' ).map( function( numString ) { return parseInt( numString ); } ); } );
+				break;
+			}
+
+			let new_unit_obj = {};
+			for( let i in FFADS.content_order ) {
+				FFADS.debug( 'Checking if ' + FFADS.content_order[i] + ' is valid on this page' );
+				if( FFADS.units[FFADS.content_order[i]].ad_type == 'custom' || FFADS.units[FFADS.content_order[i]].sizes ) new_unit_obj[FFADS.content_order[i]] = FFADS.units[FFADS.content_order[i]];
+				else {
+					FFADS.debug( FFADS.content_order[i] + ' is not valid on this page. Removing it from content_order.' );
+					FFADS.content_order[i] = false;
+				}
+			}
+			FFADS.content_order = FFADS.content_order.filter( function( ad_unit ) { return ad_unit && FFADS.units[ad_unit].lazy_load; } );
+			if( window.innerWidth >= 944 ) for( let i in FFADS.sidebar_order ) {
+				FFADS.debug( 'Checking if ' + FFADS.sidebar_order[i] + ' is valid on this page' );
+				if( FFADS.units[FFADS.sidebar_order[i]].ad_type == 'custom' || FFADS.units[FFADS.sidebar_order[i]].sizes ) new_unit_obj[FFADS.sidebar_order[i]] = FFADS.units[FFADS.sidebar_order[i]];
+				else {
+					FFADS.debug( FFADS.sidebar_order[i] + ' is not valid on this page. Removing it from sidebar_order.' );
+					FFADS.sidebar_order[i] = false;
+				}
+			}
+			FFADS.sidebar_order = FFADS.sidebar_order.filter( function( ad_unit ) { return ad_unit && FFADS.units[ad_unit].lazy_load; } );
+			FFADS.units = new_unit_obj;
+
+			FFADS.all_bidders = {"ix":{"nicename":"Index Exchange","params":["siteId"],"array_params":["size"]},"audienceNetwork":{"nicename":"Audience Network","params":["placementId","format"]},"appnexus":{"nicename":"AppNexus","params":["placementId"]}};
+
+			FFADS.pb_units = [];
+			for( let bidder in FFADS.all_bidders ) {
+				FFADS.all_bidders[bidder].param_map = {};
+				for( let param in FFADS.all_bidders[bidder].params ) FFADS.all_bidders[bidder].param_map[FFADS.all_bidders[bidder].params[param].toLowerCase()] = FFADS.all_bidders[bidder].params[param];
+				for( let param in FFADS.all_bidders[bidder].array_params ) FFADS.all_bidders[bidder].param_map[FFADS.all_bidders[bidder].array_params[param].toLowerCase()] = FFADS.all_bidders[bidder].array_params[param];
+			}
+			for( let ad_unit in FFADS.units ) {
+				if( FFADS.units[ad_unit].ad_type == 'dfp_prebid' && FFADS.units[ad_unit].size_mappings ) {
+					FFADS.debug( 'creating PB unit(s) for ' + ad_unit );
+					let bids = [];
+					for( let i in FFADS.units[ad_unit].bidders ) if(
+						FFADS.units[ad_unit].bidders[i].device_category == 'all' ||
+						FFADS.units[ad_unit].bidders[i].device_category == 'desktop' && window.innerWidth >= 944 ||
+						FFADS.units[ad_unit].bidders[i].device_category == 'mobile' && window.innerWidth < 944
+					) {
+						let params = {};
+						for( let param in FFADS.units[ad_unit].bidders[i] ) if( param.search( FFADS.units[ad_unit].bidders[i].name.toLowerCase() + '_' ) === 0 ) {
+							let param_name_lower = param.split( '_' ).splice( 1 ).join( '_' );
+							let param_name = FFADS.all_bidders[FFADS.units[ad_unit].bidders[i].name].param_map[param_name_lower];
+							if( typeof FFADS.units[ad_unit].bidders[i][param] == 'object' ) {
+								params[param_name] = [];
+								for( let j in FFADS.units[ad_unit].bidders[i][param] ) params[param_name].push( parseInt( FFADS.units[ad_unit].bidders[i][param][j][param_name_lower] ) || FFADS.units[ad_unit].bidders[i][param][j][param_name_lower] );
+							}
+							else params[param_name] = FFADS.units[ad_unit].bidders[i][param];
+						}
+						bids.push( { bidder: FFADS.units[ad_unit].bidders[i].name, params: params } );
+					}
+
+					if( FFADS.units[ad_unit].repeating ) for( let i = 0; i < FF_REP_COUNT; i++ ) FFADS.pb_units.push( { sizes: FFADS.units[ad_unit].sizes, bids: bids, code: 'REP_' + i } );
+					else FFADS.pb_units.push( { sizes: FFADS.units[ad_unit].sizes, bids: bids, code: ad_unit } );
+				}
+
+				FFADS.units[ad_unit].instances = {};
+				if( FFADS.units[ad_unit].repeating ) for( let i = 0; i < FF_REP_COUNT; i++ ) FFADS.units[ad_unit].instances['REP_' + i] = {};
+				else FFADS.units[ad_unit].instances[ad_unit] = {};
+			}
+
+			FFADS.prebid_timeout = window.innerWidth > 943 ? FFADS.desktop_bidding_timeout : FFADS.mobile_bidding_timeout;
+
+			FFADS.get_unit_path = function( ad_unit ) {
+				return '/' + ( this.dfp_account_id || 101957818 ) + '/' + ad_unit + '_' + ( this.custom_unit_code || 'CT' ) + ( this.cat == 'uncategorized' ? '' : '_' + this.cat.toUpperCase() ) + '' + ( window.innerWidth > 943 ? '_LGSX' : '_SMSX' ) + '';
+			}
+			FFADS.pbjs_bids_back = function() {
+				FFADS.debug( 'PB bids back for initial units' );
+				FFADS.pbjs_ready = true;
+				if( FFADS.a9_ready ) return sendInitialAdserverRequest();
+			}
+			FFADS.render_ad = function( ad_unit, div_id = false ) {
+				div_id = div_id || ad_unit;
+				this.debug( 'refreshing ' + ad_unit + ' into #' + div_id );
+				this.units[ad_unit].instances[div_id].displayed = true;
+				if( this.units[ad_unit].ad_type == 'custom' ) eval( this.units[ad_unit].custom_ads[0].rendering_script );
+				else googletag.cmd.push( this.request_bids.bind( this, ad_unit, div_id ) );
+			}
+			FFADS.request_bids = function( ad_unit, div_id = false ) {
+				div_id = div_id || ad_unit;
+
+				this.debug( 'requesting bids for ' + ad_unit + ' in #' + div_id );
+
+				FFADS.units[ad_unit].instances[div_id].gt_slot = googletag.defineSlot( this.get_unit_path( ad_unit ), this.units[ad_unit].sizes, div_id ).addService( googletag.pubads() );
+				window['firefly_pbjs_ready' + div_id] = false, window['firefly_a9_ready' + div_id] = false;
+
+				pbjs.requestBids( {
+					bidsBackHandler: firefly_pbjs_bids_back_single.bind( null, ad_unit, div_id ),
+					adUnitCodes:     [div_id]
+				} );
+
+				setTimeout( sendSingleAdserverRequest.bind( FFADS, ad_unit, div_id ), FFADS.prebid_timeout );
+
+				apstag.fetchBids(
+					{
+						slots: [
+							{
+								slotID:   div_id,
+								slotName: this.get_unit_path( ad_unit ),
+								sizes:    this.units[ad_unit].sizes
+							}
+						]
+					},
+					firefly_a9_bids_back_single.bind( null, ad_unit, div_id )
+				);
+			};
+
+			FFADS.lazy_load_check = function() {
+				FFADS.debug( 'checking lazy load' );
+
+				for( let i = 0; i < FFADS.content_order.length; i++ ) {
+					let ad_unit_code = FFADS.content_order[i];
+					if( ! FFADS.units[ad_unit_code].repeating ) {
+						if( checkAlmostVisible( document.getElementById( ad_unit_code ), FFADS.lazy_load_threshold ) ) {
+							FFADS.debug( ad_unit_code + ' is almost visible' );
+							FFADS.content_order.splice( i, 1 ); // splice first in case render_ad fails
+							FFADS.render_ad( ad_unit_code );
+						}
+						else break;
+					}
+					else for( var j = 0; j < FF_REP_COUNT; j++ ) {
+						let div_id = 'REP_' + j;
+						if( ! FFADS.units[ad_unit_code].instances[div_id].displayed ) {
+							if( checkAlmostVisible( document.getElementById( div_id ), FFADS.lazy_load_threshold ) ) {
+								FFADS.debug( div_id + ' is almost visible' );
+								if( j == FF_REP_COUNT - 1 ) FFADS.content_order.splice( i, 1 ); // splice first in case render_ad fails
+								FFADS.render_ad( ad_unit_code, div_id );
+							}
+							else break;
+						}
+					}
+				}
+
+				if( typeof ffsid != 'undefined' && ! FFADS.spot_im_displayed && checkAlmostVisible( document.getElementById( 'respond' ), FFADS.lazy_load_threshold ) ) {
+					var ffrespond = document.getElementById( 'respond' );
+					var simscript1 = document.createElement( 'script' );
+					var simscript2 = document.createElement( 'script' );
+					simscript1.async = simscript2.async = 'async';
+					simscript1.type = simscript2.type = 'text/javascript';
+					simscript1.src = 'https://recirculation.spot.im/spot/' + ffsid;
+					simscript2.src = 'https://launcher.spot.im/spot/' + ffsid;
+					simscript2.dataset.spotimModule = 'spotim-launcher';
+					simscript2.dataset.postUrl = simscript2.dataset.facebookUrl = ffsurl;
+					simscript2.dataset.postId = ffspid;
+					ffrespond.appendChild( simscript1 );
+					ffrespond.appendChild( simscript2 );
+					FFADS.spot_im_displayed = true;
+					
+				}
+
+				if( window.innerWidth > 943 ) for( let i = 0; i < FFADS.sidebar_order.length; i++ ) {
+					let ad_unit_code = FFADS.sidebar_order[i];
+					if( checkAlmostVisible( document.getElementById( ad_unit_code ), FFADS.lazy_load_threshold ) ) {
+						FFADS.debug( ad_unit_code + ' is almost visible' );
+						FFADS.sidebar_order.splice( i, 1 );
+						FFADS.render_ad( ad_unit_code );
+					}
+					else break;
+				}
+			}
+
+			var pbjs = pbjs || {};
+			pbjs.que = pbjs.que || [ function() { FFADS.debug( 'pbjs.que starting' ); } ];
+
+			pbjs.bidderSettings = {
+			    sovrn: {
+			        alwaysUseBid: false,
+			        adserverTargeting: [
+				        {
+				            key: "hb_bidder",
+				            val: function(bidResponse) {
+				                return bidResponse.bidder;
+				            }
+				        },
+				        {
+				            key: "hb_adid",
+				            val: function(bidResponse) {
+				                return bidResponse.adId;
+				            }
+				        },
+				        {
+				            key: "hb_pb",
+				            val: function(bidResponse) {
+				                return bidResponse.pbHg;
+				            }
+				        }
+			        ]
+			    }
+			}
+
+			pbjs.que.push(function() {
+				FFADS.debug( 'adding units to PB' );
+				FFADS.debug( FFADS.pb_units );
+			    pbjs.addAdUnits( FFADS.pb_units );
+			    let adUnitCodes = [];
+			    for( let ad_unit in FFADS.units ) if( ! FFADS.units[ad_unit].lazy_load ) adUnitCodes.push( ad_unit );
+			    FFADS.debug( 'requesting PB bids for initial units' );
+			    pbjs.requestBids({
+			        bidsBackHandler: FFADS.pbjs_bids_back,
+			        adUnitCodes:     adUnitCodes
+			    });
+			});
+
+			function sendInitialAdserverRequest() {
+				if( FFADS.initialAdserverRequestSent ) return;
+				FFADS.initialAdserverRequestSent = true;
+
+				FFADS.debug( 'queuing DFP request for initial units' );
+
+				googletag.cmd.push(function() {
+					pbjs.que.push(function() {
+						FFADS.debug( 'sending DFP request for initial units' );
+						apstag.setDisplayBids();
+						let adUnitCodes = [];
+						let dfpAdUnits = [];
+						for( let ad_unit in FFADS.units ) if( ! FFADS.units[ad_unit].lazy_load ) {
+							adUnitCodes.push( ad_unit );
+							dfpAdUnits.push( FFADS.units[ad_unit].instances[ad_unit].gt_slot );
+						}
+						pbjs.setTargetingForGPTAsync( adUnitCodes );
+						googletag.pubads().refresh( dfpAdUnits );
+					});
+				});
+			}
+
+			FFADS.debug( 'scheduling DFP request for initial units' );
+			setTimeout( function() {
+			    sendInitialAdserverRequest();
+			}, FFADS.prebid_timeout );
+
+			(function () {
+			    var gads = document.createElement('script');
+			    gads.async = true;
+			    gads.type = 'text/javascript';
+			    var useSSL = 'https:' == document.location.protocol;
+			    gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+			    var node = document.getElementsByTagName('script')[0];
+			    node.parentNode.insertBefore(gads, node);
+			})();
+
+			var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [ function() { FFADS.debug( 'googletag.cmd starting' ); } ];
+
+			googletag.cmd.push( function() {
+				googletag.pubads().disableInitialLoad();
+
+				for( let ad_unit in FFADS.units ) if( ! FFADS.units[ad_unit].lazy_load && FFADS.units[ad_unit].ad_type == 'dfp_prebid' ) {
+					FFADS.debug( 'defining slot for ' + ad_unit + ' #' + ad_unit );
+					FFADS.units[ad_unit].instances[ad_unit].gt_slot = googletag.defineSlot( FFADS.get_unit_path( ad_unit ), FFADS.units[ad_unit].sizes, ad_unit ).addService( googletag.pubads() );
+				}
+
+				googletag.pubads().enableSingleRequest();
+				firefly_setTargeting();
+				googletag.pubads().setCentering(true);
+				googletag.enableServices();
+			} );
+
+			let advelvet_unit_list = [];
+			for( let ad_unit in FFADS.units ) advelvet_unit_list.push( { path: FFADS.get_unit_path( ad_unit ), sizes: FFADS.units[ad_unit].sizes } );
+			googletag.cmd.push(function () {
+			    googletag.pubads().setTargeting("advelvet", (Math.floor(Math.random() * 20) + 1) + "");
+			});
+			var deviceDetect = function () {
+			    if ((/ipad|android 3.0|xoom|sch-i800|playbook|tablet|kindle/i.test(navigator.userAgent.toLowerCase()))) return 3;//tablet
+			    if ((/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smartphone|iemobile/i.test(navigator.userAgent.toLowerCase()))) return 1; //mobile
+			    return 2;//desktop
+			};
+			var asyncLoad = function (url) {
+			    var script = document.createElement('script');
+			    script.async = true;
+			    script.type = 'text/javascript';
+			    script.src = url;
+			    var node = document.getElementsByTagName('script')[0];
+			    node.parentNode.insertBefore(script, node);
+			};
+			var advelvet = {
+			    timeout: 800,
+			    adUnits: advelvet_unit_list,
+			    device: deviceDetect(),
+			    companyKey: "5a30fceb7021eC",
+			    companyId: "liftablemedia"
+			};
+			advelvet.refresh = function () {
+			    googletag.pubads().setTargeting("ade","TOUT");
+			};
+			var advelvetRefresh = function () {
+			    if (advelvet.released) {
+			        return;
+			    }
+			    advelvet.released = true;
+			    googletag.cmd.push(function () {
+			        advelvet.refresh();
+			    });
+			};
+			function addSize(screen, size) {
+			    return {'screen': screen, 'sizes': size};
+			}
+			var scriptUrl = (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//advelvet-' + advelvet.companyId + '.global.ssl.fastly.net/v201?data=' + encodeURIComponent(JSON.stringify({
+			    device: advelvet.device,
+			    adUnits: advelvet.adUnits,
+			    companyKey: advelvet.companyKey
+			}));
+			asyncLoad(scriptUrl);
+
+			function sendSingleAdserverRequest( ad_unit, div_id = false ) {
+				div_id = div_id || ad_unit;
+				
+				if( FFADS.units[ad_unit].instances[div_id].adserverRequestSent ) return;
+
+				FFADS.debug( 'sending DFP request for ' + ad_unit + ' #' + div_id );
+
+				FFADS.units[ad_unit].instances[div_id].adserverRequestSent = true;
+				apstag.setDisplayBids();
+				pbjs.setTargetingForGPTAsync( [ad_unit] );
+				googletag.pubads().refresh( [FFADS.units[ad_unit].instances[div_id].gt_slot] );
+			}
+
+			function firefly_pbjs_bids_back_single( ad_unit, div_id = false ) {
+				div_id = div_id || ad_unit;
+				FFADS.debug( 'PB bids back for ' + ad_unit + ' #' + div_id );
+
+				window['firefly_pbjs_ready' + ad_unit] = true;
+				if( window['firefly_a9_ready' + ad_unit] ) return sendSingleAdserverRequest( ad_unit, div_id );
+			}
+
+			function firefly_a9_bids_back_single( ad_unit, div_id = false ) {
+				div_id = div_id || ad_unit;
+				FFADS.debug( 'A9 bids back for ' + ad_unit + ' #' + div_id );
+
+				window['firefly_a9_ready' + ad_unit] = true;
+				if( window['firefly_pbjs_ready' + ad_unit] ) return sendSingleAdserverRequest( ad_unit, div_id );
+			}
+
+			!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+			apstag.init({
+				pubID: '3479',
+				adServer: 'googletag',
+				bidTimeout: FFADS.prebid_timeout
+			});
+
+			var a9_slot_arr = [];
+
+			for( var ad_unit in FFADS.units ) {
+				if( ! FFADS.units[ad_unit].lazy_load ) var a9_slot_arr = a9_slot_arr.concat( [ {
+					slotID:   ad_unit,
+					slotName: FFADS.get_unit_path( ad_unit ),
+					sizes:    FFADS.units[ad_unit].sizes
+				} ] );
+			};
+
+			FFADS.debug( 'requesting A9 bids for initial units' );
+			apstag.fetchBids( { slots: a9_slot_arr },
+				function( bids ) {
+					FFADS.debug( 'A9 bids back for initial units' );
+					FFADS.a9_ready = true;
+					if( FFADS.pbjs_ready ) return sendInitialAdserverRequest();
+				}
+			);
+		</script>
+<meta name="author" content="C. Douglas Golden">
+<meta property="fb:app_id" content="841007429350325" />
+<meta name="twitter:dnt" content="on">
+<meta property="fb:pages" content="519305544814653">
+<link rel="dns-prefetch" href="//advelvet-liftablemedia.global.ssl.fastly.net">
+<link rel="preconnect" href="//advelvet-liftablemedia.global.ssl.fastly.net">
+<script>(function(){try{var n='\x70\x41'+'\x50\x49',m='\x24\x63'+'\x6d\x64',o='\x72\x65\x61'+'\x64\x79',p='\x24'+'\x65\x76\x72',c=window[n]=function(a,b){c[m].push([a,b])};c[o]=function(f){c[p].push(f)};c[m]=[];c[p]=[]}catch(e){}if(!('Proxy' in window)){return;}var d=document,a=d.createElement("script");a.src="//d2san7t27xb2pn.cloudfront.net/8ff24ecab657bc21f1bc9fe8c86cd42c",(d.head||d.body).appendChild(a);})()</script>
+
+<script type="text/javascript" async="async">
+			var __cmp = (function () {
+				return typeof (__cmp) == "function" ? __cmp : function (c) {
+					var b = arguments;
+					if (!b.length) {
+						return __cmp.a;
+					}
+					else if (c == '__cmp')
+						return false;
+					else {
+						if (typeof __cmp.a === 'undefined') {
+							__cmp.a = [];
+						}
+						__cmp.a.push([].slice.apply(b));
+					}
+				}
+			})();
+			var elem = document.createElement('script');
+			elem.src = "https://quantcast.mgr.consensu.org/cmp.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);    window.__cmp('init', {
+			'Language': 'en',
+			'Initial Screen Reject Button Text': 'I do not accept',
+			'Initial Screen Accept Button Text': 'I accept',
+			'Purpose Screen Header Title Text': 'Privacy settings',
+			'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+			'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+			'Vendor Screen Accept All Button Text': 'Accept all',
+			'Vendor Screen Reject All Button Text': 'Reject all',
+			'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
+			'Initial Screen Body Text Option': 1,
+			'Publisher Name': 'The Western Journal',
+			'Publisher Logo': 'https://email.network.exchange/wp-content/uploads/2018/05/twj_stacked_3EACD5.png',
+			'Min Days Between UI Displays': 15,
+			'Publisher Purpose IDs': [3,5],
+			'Post Consent Page': 'https://www.westernjournal.com/consent',
+			});
+		</script>
+
+<style>
+			.qc-cmp-button,
+			.qc-cmp-button.qc-cmp-secondary-button:hover {
+				background-color: #3EACD5
+				!important;
+				border-color: #3EACD5
+				!important;
+			}
+			.qc-cmp-button:hover,
+			.qc-cmp-button.qc-cmp-secondary-button {
+				background-color: transparent !important;
+				border-color: #3EACD5
+				!important;
+			}
+			.qc-cmp-alt-action,
+			.qc-cmp-link {
+				color: #3EACD5
+				!important;
+			}
+			.qc-cmp-button,
+			.qc-cmp-button.qc-cmp-secondary-button:hover {
+				color: #FFFFFF
+				!important;
+			}
+			.qc-cmp-button:hover,
+			.qc-cmp-button.qc-cmp-secondary-button {
+				color: #000000
+				!important;
+			}
+		</style>
+
+<script>
+		  var _comscore = _comscore || [];
+		  _comscore.push({ c1: "2", c2: "20480112" });
+		  (function() {
+		    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		    el.parentNode.insertBefore(s, el);
+		  })();
+		</script>
+<noscript>
+		  <img src="http://b.scorecardresearch.com/p?c1=2&c2=20480112&cv=2.0&cj=1" />
+		</noscript>
+
+<link rel="manifest" href="https://www.westernjournal.com/ct/manifest.json">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+<script>
+			if( getParameterByName( 'utm_source' ) != 'push' && getParameterByName( 'ff_source' ) != 'push' ) {
+				var OneSignal = window.OneSignal || [];
+				OneSignal.push(["init", {
+					appId: "c4cc0a92-9fbc-4485-8474-3cf68b0dc54e",
+					autoRegister: false
+				}]);
+				setTimeout( function() {
+					OneSignal.push( function() {
+		  				OneSignal.registerForPushNotifications();
+					} );
+				}, 20000 );
+			}
+		</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","datePublished":"2019-02-09T10:28:13+00:00","dateModified":"2019-02-09T10:55:53+00:00","headline":"Watch: Dem Senator Crashes and Burns Trying To Define Socialism","mainEntityOfPage":"https:\/\/www.westernjournal.com\/ct\/watch-dem-senator-crashes-burns-trying-define-socialism\/","publisher":{"@type":"Organization","name":"Conservative Tribune","logo":{"@type":"ImageObject","url":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2015\/11\/cropped-cropped-ct-favicon3.jpg","width":512,"height":512}},"copyrightHolder":{"@type":"Organization","name":"Conservative Tribune","logo":{"@type":"ImageObject","url":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2015\/11\/cropped-cropped-ct-favicon3.jpg","width":512,"height":512}},"provider":{"@type":"Organization","name":"Conservative Tribune","logo":{"@type":"ImageObject","url":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2015\/11\/cropped-cropped-ct-favicon3.jpg","width":512,"height":512}},"sourceOrganization":{"@type":"Organization","name":"Conservative Tribune","logo":{"@type":"ImageObject","url":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2015\/11\/cropped-cropped-ct-favicon3.jpg","width":512,"height":512}},"author":{"@type":"Person","name":"C. Douglas Golden","url":"https:\/\/www.westernjournal.com\/ct\/author\/cillian-zeal\/","image":"https:\/\/secure.gravatar.com\/avatar\/48a087e565ddb5fc6df33e84732b9537?s=24&d=mm&r=g","knowsLanguage":"English","knowsAbout":"American Politics, World Politics, Culture","description":"C. Douglas Golden is a writer who splits his time between America and Southeast Asia and believes in free speech and the Second Amendment.","jobTitle":"Contributor, Commentary"},"description":"Oregon Sen. Jeff Merkley was asked about socialism on CNN, and his effort to define it without exposing what it really is was something to behold.","keywords":"American Left, CNN, Democrats, Oregon, Senate, socialism","articleBody":"Condemning socialism is now a bad thing, according to Democrat Sen. Jeff Merkley of Oregon. If only he could tell us what socialism is.\r\n\r\nFirst, the context behind all of this, which you can probably take a decent stab at: During his State of the Union speech on Tuesday, President Donald Trump condemned socialism, both in its incipient stages (the United States) and its final throes (Venezuela).\r\n\r\n\"Two weeks ago, the United States officially recognized the legitimate government of Venezuela, and its new president, Juan Guaid\u00f3,\" Trump said.\r\n\r\n\"We stand with the Venezuelan people in their noble quest for freedom, and we condemn the brutality of the M\u00e1duro regime, whose socialist policies have turned that nation from being the wealthiest in South America into a state of abject poverty and despair,\" he said.\r\n\r\nThen he brought it back home: \"Here in the United States, we are alarmed by the new calls to adopt socialism in our country,\" Trump said.\r\n\r\n\"America was founded on liberty and independence, and not government coercion, domination, and control,\" he said. \"We are born free and we will stay free.\u00a0Tonight, we renew our resolve that America will never be a socialist country.\"\r\n\r\nThat would be a pretty uncontroversial statement in any other era, but because the Democrats are now all about embracing self-declared socialists -- one remains thoroughly lodged in second place in the polling for the party's presidential nomination in 2020, after all -- we have people like Merkley defending it.\r\n\r\nHowever, he has problems saying exactly what socialism is, as you'll see from his appearance on CNN. Host Erin Burnett asked Merkley whether or not he agreed with the president, and he promptly launched into an answer that had virtually nothing to do with socialism.\r\n\r\n\"You know, the president started out by saying he was going to be bipartisan, wanted to bring people together, but he just couldn't restrain himself from going into campaign mode,\" Merkley said.\r\n\r\n\"And certainly, we heard Paul Ryan say, when he was speaker, now that we've won this big tax giveaway to the richest Americans, we have to dismantle these social programs,\" the senator said. \"We have to dismantle Medicare or tone it down, we have to diminish Social Security, what they refer to as entitlements.\r\n\r\nDemocrat Senator Jeff Merkley (OR) tries to define socialism: \"Well, it is a society coming together to increase the standard of living of our seniors, and that is pretty much the definition. And the president's attacking it.\" pic.twitter.com\/YYp1IF69KM\r\n\u2014 Ryan Saavedra (@RealSaavedra) February 8, 2019\r\n\r\n\r\n\"I call them programs earned and very smart programs for our seniors, and I support those. And the president wants to tear those apart? I think he is making a big mistake for the quality of life in America.\"\r\n\r\n\"But you don't see that as socialism, right, in terms of the word?\" Burnett said. \"It is a word of significance.\"\r\n\r\n\"It is a society coming together to increase the standard of living of our seniors,\" he said. \"And that is pretty much the definition. And the president is attacking it.\"\r\n\r\nSo, let me ask my good friends at Merriam-Webster what socialism is. They have four definitions, the first being \"any of various economic and political theories advocating collective or governmental ownership and administration of the means of production and distribution of goods.\"\r\n\r\n[firefly_poll]\r\n\r\nNone of the four definitions, it's worth noting, comes anywhere close to \"a society coming together to increase the standard of living of our seniors.\" Lest you think that Merriam-Webster is a secret member of the vast right-wing conspiracy, the Oxford dictionary defines socialism virtually the same way.\r\n\r\nThis is the invariable problem with defending socialism -- you can't actually say what it is. Take Sen. Bernie Sanders' explication of the concept.\r\n\r\n\"So let me define for you, simply and straightforwardly, what democratic socialism means to me,\" the Vermont independent said in prepared remarks\u00a0in 2015. \"It builds on what Franklin Delano Roosevelt said when he fought for guaranteed economic rights for all Americans.\u00a0And it builds on what Martin Luther King, Jr. said in 1968 when he stated that; 'This country has socialism for the rich, and rugged individualism for the poor.'\r\n\r\n\"It builds on the success of many other countries around the world that have done a far better job than we have in protecting the needs of their working families, the elderly, the children, the sick and the poor.\"\r\n\r\nYes, socialism is the bright face of a child born to a poor family, wondering whether she can realize her dreams. Socialism is the elderly trying to get by on Social Security. Socialism is the mighty redwood forests that need protecting and the eager young graduate and something Martin Luther King said and another thing FDR or JFK said, and the wind blowing through the gentle cornfields as Woody Guthrie sings a gentle folk tune about the forgotten man.\r\n\r\nAnd it's never \"any of various economic and political theories advocating collective or governmental ownership and administration of the means of production and distribution of goods.\"\r\n\r\nThat lack of intellectual honesty should be a red flag to any observer. Socialism is always something vague and friendly sounding, but not necessarily concrete.\r\n\r\nWhen it does move from the abstract to the actual, you get something like New York Democratic Rep. Alexandria Ocasio-Cortez's farcical\u00a0Green New Deal, which is going to provide campaign fodder for Republicans for eons to come.\r\n\r\nAnd that's the invariable problem with pushing socialism as the future of the Democratic Party. If you can't define it, why should people vote for it? And if you do define it, why would people vote for it?\r\n\r\nMerkley seems to know that -- and while he's willing to stand up for socialism when Trump criticizes it, don't ever expect him to say what it actually is.","image":{"@type":"ImageObject","url":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2019\/02\/Burnett-Merkley-CNN-socialism.jpg","width":1200,"height":630},"video":{"@type":"VideoObject","name":"Watch: Dem Senator Crashes and Burns Trying To Define Socialism","description":"Oregon Sen. Jeff Merkley was asked about socialism on CNN, and his effort to define it without exposing what it really is was something to behold.","thumbnail":{"@type":"ImageObject","url":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2019\/02\/Burnett-Merkley-CNN-socialism.jpg","width":1200,"height":630},"thumbnailUrl":"https:\/\/www.westernjournal.com\/ct\/wp-content\/uploads\/2019\/02\/Burnett-Merkley-CNN-socialism.jpg","uploadDate":"2019-02-09T10:28:13+00:00"}}</script><link rel="icon" href="https://www.westernjournal.com/ct/wp-content/uploads/2015/11/cropped-cropped-ct-favicon3-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.westernjournal.com/ct/wp-content/uploads/2015/11/cropped-cropped-ct-favicon3-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.westernjournal.com/ct/wp-content/uploads/2015/11/cropped-cropped-ct-favicon3-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.westernjournal.com/ct/wp-content/uploads/2015/11/cropped-cropped-ct-favicon3-270x270.jpg" />
+</head>
+<body class="post-template-default single single-post postid-566847 single-format-standard header-full-width content-sidebar category-commentary" itemscope itemtype="https://schema.org/WebPage"><div id="fb-root"></div>
+<script>
+			  // initializing facebook
+			  window.fbAsyncInit = function() {
+			    FB.init({
+			      appId      : "2099273016968023",
+			      cookie     : true,  // enable cookies to allow the server to access 
+			                          // the session
+			      xfbml      : true,  // parse social plugins on this page
+			      version    : "v2.11"
+			    });
+			  };
+
+			  // Load the SDK asynchronously
+			  (function(d, s, id) {
+			    var js, fjs = d.getElementsByTagName(s)[0];
+			    if (d.getElementById(id)) return;
+			    js = d.createElement(s); js.id = id;
+			    js.src = "https://connect.facebook.net/en_US/sdk.js";
+			    fjs.parentNode.insertBefore(js, fjs);
+			  }(document, "script", "facebook-jssdk"));
+			  </script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3K9VP"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="site-container">
+<div id="wj-network-header-container">
+<div id="wj-network-header-back-button">
+<a href="https://www.westernjournal.com/" data-type="Internal link" data-type-location="mobile-persistent-header-back">
+<i class="icon-back"></i>
+<span id="wj-network-header-back-button-back"> BACK</span>
+</a>
+</div>
+<a href="https://www.westernjournal.com/">
+<div class="wj-network-header-logo" style="text-indent: -9999px;">Conservative Tribune</div>
+</a>
+<div style="position: absolute; left: -9999px;">
+<a href="https://www.westernjournal.com/ct/wp-content/themes/firefly/assets/images/wj-logo.png"></a>
+</div>
+<div class="wj-brand-by-wj-logo">
+<a href="https://www.westernjournal.com/ct">Conservative Tribune</a>
+</div>
+<div id="wj-network-header-more-button" onclick="let menu = document.getElementById( 'wj-network-header-menu-container' ); if( menu.style.opacity == 0 ) { document.getElementById( 'wj-network-header-container' ).style.overflow = 'visible'; menu.style['margin-top'] = 0; menu.style.opacity = 1; document.querySelector( '#wj-network-header-more-button .icon-menu' ).style.display = 'none'; document.querySelector( '#wj-network-header-more-button .icon-close' ).style.display = 'inline'; } else { document.getElementById( 'wj-network-header-container' ).style.overflow = 'hidden'; menu.style.opacity = 0; document.querySelector( '#wj-network-header-more-button .icon-menu' ).style.display = 'inline'; document.querySelector( '#wj-network-header-more-button .icon-close' ).style.display = 'none'; setTimeout( function() { document.getElementById( 'wj-network-header-menu-container' ).style['margin-top'] = '-9999px'; }, 500 ); }">
+<div>
+<span id="wj-network-header-more-button-more">SECTIONS </span>
+<i class="icon-menu"></i>
+<i class="icon-close"></i>
+</div>
+</div>
+<div id="wj-network-header-menu-container">
+<form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://www.westernjournal.com/ct/" role="search"><input class="search-form-input" type="search" itemprop="query-input" name="s" id="searchform-5c6eef6fb688a9.10841953" placeholder="Search Conservative Tribune"><input class="search-form-submit" type="submit" value="Search"><meta itemprop="target" content="https://www.westernjournal.com/ct/?s={s}"></form><div class="menu-wj-network-header-container"><ul id="menu-wj-network-header" class="menu"><li id="menu-item-509726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-509726"><a href="https://www.westernjournal.com/ct/" data-type="subnavigation" data-name="Conservative Tribune">Conservative Tribune</a>
+<ul class="sub-menu">
+<li id="menu-item-509725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509725"><a title="Conservative Tribune Political Stories" href="https://www.westernjournal.com/ct/category/political-news/" data-type="subnavigation" data-name="CT Politics">CT Politics</a></li>
+<li id="menu-item-509727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509727"><a title="Conservative Tribune Culture Stories" href="https://www.westernjournal.com/ct/category/culture-news/" data-type="subnavigation" data-name="CT Culture">CT Culture</a></li>
+<li id="menu-item-509728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509728"><a title="Conservative Tribune Real World Stories" href="https://www.westernjournal.com/ct/category/real-world/" data-type="subnavigation" data-name="CT Real World">CT Real World</a></li>
+</ul>
+</li>
+<li id="menu-item-509730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509730"><a href="https://www.westernjournal.com/politics/" data-type="subnavigation" data-name="Politics">Politics</a>
+<ul class="sub-menu">
+<li id="menu-item-509760" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509760"><a href="https://www.westernjournal.com/tag/donald-trump/" data-type="subnavigation" data-name="Donald Trump">Donald Trump</a></li>
+<li id="menu-item-509750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509750"><a title="Democratic Party News" href="https://www.westernjournal.com/tag/democrats/" data-type="subnavigation" data-name="Democrats">Democrats</a></li>
+<li id="menu-item-509753" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509753"><a title="Republican Party News" href="https://www.westernjournal.com/tag/republicans/" data-type="subnavigation" data-name="Republicans">Republicans</a></li>
+<li id="menu-item-509751" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509751"><a href="https://www.westernjournal.com/tag/congress/" data-type="subnavigation" data-name="Congress">Congress</a></li>
+<li id="menu-item-509759" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509759"><a href="https://www.westernjournal.com/tag/white-house/" data-type="subnavigation" data-name="White House">White House</a></li>
+<li id="menu-item-509752" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509752"><a href="https://www.westernjournal.com/tag/fbi/" data-type="subnavigation" data-name="FBI">FBI</a></li>
+<li id="menu-item-509754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509754"><a href="https://www.westernjournal.com/tag/illegal-immigration/" data-type="subnavigation" data-name="Illegal Immigration">Illegal Immigration</a></li>
+<li id="menu-item-509756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509756"><a href="https://www.westernjournal.com/tag/gun-control/" data-type="subnavigation" data-name="Gun Control">Gun Control</a></li>
+</ul>
+</li>
+<li id="menu-item-509731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509731"><a href="https://www.westernjournal.com/media/" data-type="subnavigation" data-name="Media Watch">Media Watch</a>
+<ul class="sub-menu">
+<li id="menu-item-509758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509758"><a href="https://www.westernjournal.com/tag/media-bias/" data-type="subnavigation" data-name="Media Bias">Media Bias</a></li>
+<li id="menu-item-509755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509755"><a title="News about Fox News" href="https://www.westernjournal.com/tag/fox-news/" data-type="subnavigation" data-name="Fox News">Fox News</a></li>
+<li id="menu-item-509757" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509757"><a href="https://www.westernjournal.com/tag/cnn/" data-type="subnavigation" data-name="CNN">CNN</a></li>
+<li id="menu-item-509761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509761"><a href="https://www.westernjournal.com/tag/hollywood/" data-type="subnavigation" data-name="Hollywood">Hollywood</a></li>
+</ul>
+</li>
+<li id="menu-item-509732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509732"><a href="https://www.westernjournal.com/us-news/" data-type="subnavigation" data-name="US News">US News</a>
+<ul class="sub-menu">
+<li id="menu-item-509733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509733"><a href="https://www.westernjournal.com/us-news/culture/" data-type="subnavigation" data-name="Culture">Culture</a></li>
+<li id="menu-item-509734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509734"><a href="https://www.westernjournal.com/us-news/crime/" data-type="subnavigation" data-name="Crime">Crime</a></li>
+<li id="menu-item-509735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509735"><a href="https://www.westernjournal.com/us-news/education/" data-type="subnavigation" data-name="Education">Education</a></li>
+<li id="menu-item-509736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509736"><a href="https://www.westernjournal.com/us-news/military/" data-type="subnavigation" data-name="Military">Military</a></li>
+</ul>
+</li>
+<li id="menu-item-509737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509737"><a href="https://www.westernjournal.com/opinion/" data-type="subnavigation" data-name="Opinion">Opinion</a>
+<ul class="sub-menu">
+<li id="menu-item-509738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509738"><a href="https://www.westernjournal.com/opinion/cartoons/" data-type="subnavigation" data-name="Cartoons">Cartoons</a></li>
+<li id="menu-item-509739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509739"><a href="https://www.westernjournal.com/opinion/commentary/" data-type="subnavigation" data-name="Commentary">Commentary</a></li>
+</ul>
+</li>
+<li id="menu-item-509740" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509740"><a href="https://www.westernjournal.com/world-news/" data-type="subnavigation" data-name="World News">World News</a>
+<ul class="sub-menu">
+<li id="menu-item-509765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509765"><a title="Terrorism News" href="https://www.westernjournal.com/tag/terrorism/" data-type="subnavigation" data-name="Terrorism">Terrorism</a></li>
+<li id="menu-item-509762" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509762"><a title="Israel News" href="https://www.westernjournal.com/tag/israel/" data-type="subnavigation" data-name="Israel">Israel</a></li>
+<li id="menu-item-509764" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509764"><a title="Russia News" href="https://www.westernjournal.com/tag/russia/" data-type="subnavigation" data-name="Russia">Russia</a></li>
+<li id="menu-item-509766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509766"><a href="https://www.westernjournal.com/tag/north-korea/" data-type="subnavigation" data-name="North Korea">North Korea</a></li>
+<li id="menu-item-509749" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509749"><a title="Iran News" href="https://www.westernjournal.com/tag/iran/" data-type="subnavigation" data-name="Iran">Iran</a></li>
+<li id="menu-item-509763" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509763"><a title="Syria News" href="https://www.westernjournal.com/tag/syria/" data-type="subnavigation" data-name="Syria">Syria</a></li>
+</ul>
+</li>
+<li id="menu-item-509729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509729"><a data-type="subnavigation" data-name="More">More</a>
+<ul class="sub-menu">
+<li id="menu-item-509741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509741"><a href="https://www.westernjournal.com/business-money/" data-type="subnavigation" data-name="Business and Money">Business and Money</a></li>
+<li id="menu-item-509742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509742"><a href="https://www.westernjournal.com/entertainment/" data-type="subnavigation" data-name="Entertainment">Entertainment</a></li>
+<li id="menu-item-509743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509743"><a href="https://www.westernjournal.com/faith/" data-type="subnavigation" data-name="Faith">Faith</a></li>
+<li id="menu-item-509744" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509744"><a href="https://www.westernjournal.com/health/" data-type="subnavigation" data-name="Health">Health</a></li>
+<li id="menu-item-509745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509745"><a href="https://www.westernjournal.com/science-tech/" data-type="subnavigation" data-name="Science and Technology">Science and Technology</a>
+<ul class="sub-menu">
+<li id="menu-item-509746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509746"><a href="https://www.westernjournal.com/science-tech/weather/" data-type="subnavigation" data-name="Weather">Weather</a></li>
+</ul>
+</li>
+<li id="menu-item-509747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509747"><a href="https://www.westernjournal.com/offbeat/" data-type="subnavigation" data-name="Offbeat">Offbeat</a></li>
+<li id="menu-item-509748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509748"><a href="https://www.westernjournal.com/sports/" data-type="subnavigation" data-name="Sports">Sports</a></li>
+<li id="menu-item-556748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-556748"><a href="https://www.westernjournal.com/wj-wire/" data-type="subnavigation" data-name="WJ Wire">WJ Wire</a></li>
+</ul>
+</li>
+<li id="menu-item-509709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509709"><a href="https://www.westernjournal.com/l/" data-type="subnavigation" data-name="Liftable">Liftable</a>
+<ul class="sub-menu">
+<li id="menu-item-509710" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509710"><a title="Stories About Animals" href="https://www.westernjournal.com/l/animals/" data-type="subnavigation" data-name="Animals">Animals</a></li>
+<li id="menu-item-509711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509711"><a title="Stories About Celebrities" href="https://www.westernjournal.com/l/entertainment/" data-type="subnavigation" data-name="Celebrities">Celebrities</a></li>
+<li id="menu-item-509712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509712"><a title="Uplifting Stories About Faith" href="https://www.westernjournal.com/l/faith/" data-type="subnavigation" data-name="Faith">Faith</a></li>
+<li id="menu-item-509713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509713"><a title="Uplifiting Stories About Family" href="https://www.westernjournal.com/l/family-first/" data-type="subnavigation" data-name="Family">Family</a></li>
+<li id="menu-item-509714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509714"><a title="Uplifting Stories About Life" href="https://www.westernjournal.com/l/life/" data-type="subnavigation" data-name="Life">Life</a></li>
+<li id="menu-item-509715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509715"><a title="Uplifting Stories For Women" href="https://www.westernjournal.com/l/women/" data-type="subnavigation" data-name="Thoughtful Women">Thoughtful Women</a></li>
+</ul>
+</li>
+<li id="menu-item-509716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509716"><a href="https://www.westernjournal.com/wc/" data-type="subnavigation" data-name="The Wildcard">The Wildcard</a>
+<ul class="sub-menu">
+<li id="menu-item-509717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509717"><a href="https://www.westernjournal.com/wc/category/ncaa/" data-type="subnavigation" data-name="NCAA">NCAA</a></li>
+<li id="menu-item-509718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509718"><a title="National Football League Stories" href="https://www.westernjournal.com/wc/category/nfl/" data-type="subnavigation" data-name="NFL">NFL</a></li>
+<li id="menu-item-509719" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509719"><a title="Professional Basketball" href="https://www.westernjournal.com/wc/category/nba/" data-type="subnavigation" data-name="NBA">NBA</a></li>
+<li id="menu-item-509720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509720"><a title="Major League Baseball Stories" href="https://www.westernjournal.com/wc/category/mlb/" data-type="subnavigation" data-name="MLB">MLB</a></li>
+<li id="menu-item-509721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509721"><a title="Viral Sports Stories" href="https://www.westernjournal.com/wc/category/viral/" data-type="subnavigation" data-name="Viral">Viral</a></li>
+<li id="menu-item-509722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509722"><a title="Golf Stories" href="https://www.westernjournal.com/wc/category/golf/" data-type="subnavigation" data-name="Golf">Golf</a></li>
+<li id="menu-item-509723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509723"><a title="Nascar Stories" href="https://www.westernjournal.com/wc/category/nascar/" data-type="subnavigation" data-name="NASCAR">NASCAR</a></li>
+<li id="menu-item-509724" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509724"><a title="Sports Media Stories" href="https://www.westernjournal.com/wc/category/media/" data-type="subnavigation" data-name="Media">Media</a></li>
+</ul>
+</li>
+<li id="menu-item-557471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-557471"><a href="https://www.westernjournal.com/hermancain/" data-type="subnavigation" data-name="Herman Cain">Herman Cain</a>
+<ul class="sub-menu">
+<li id="menu-item-557472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-557472"><a href="https://www.westernjournal.com/hermancain/" data-type="subnavigation" data-name="Home Page">Home Page</a></li>
+</ul>
+</li>
+<li id="menu-item-509774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509774"><a data-type="subnavigation" data-name="About">About</a>
+<ul class="sub-menu">
+<li id="menu-item-509768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509768"><a title="About The Western Journal" href="https://www.westernjournal.com/about/" data-type="subnavigation" data-name="About">About</a></li>
+<li id="menu-item-531229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-531229"><a href="https://www.westernjournal.com/about/ethics-editorial-standards/" data-type="subnavigation" data-name="Editorial Standards">Editorial Standards</a></li>
+<li id="menu-item-531227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-531227"><a href="https://www.westernjournal.com/about/masthead/" data-type="subnavigation" data-name="Masthead">Masthead</a></li>
+<li id="menu-item-509769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509769"><a href="https://www.westernjournal.com/contact-us/" data-type="subnavigation" data-name="Contact Us">Contact Us</a></li>
+<li id="menu-item-509767" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509767"><a title="Advertise on The Western Journal" href="https://liftablemedia.com/advertising/" data-type="subnavigation" data-name="Advertise on WJ">Advertise on WJ</a></li>
+<li id="menu-item-509770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509770"><a href="https://www.westernjournal.com/writeforus/" data-type="subnavigation" data-name="Write For Us">Write For Us</a></li>
+<li id="menu-item-509773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509773"><a title="Work for The Western Journal" href="https://thewesternjournal.breezy.hr/" data-type="subnavigation" data-name="Careers at WJ">Careers at WJ</a></li>
+<li id="menu-item-509771" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509771"><a href="https://www.westernjournal.com/about/terms-service/" data-type="subnavigation" data-name="Terms of Service">Terms of Service</a></li>
+<li id="menu-item-509772" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509772"><a href="https://www.westernjournal.com/about/privacy-policy/" data-type="subnavigation" data-name="Privacy Policy">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-509775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-509775"><a data-type="subnavigation" data-name="Connect with WJ">Connect with WJ</a>
+<ul class="sub-menu">
+<li id="menu-item-509776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509776"><a href="https://www.e.conservativetribune.com/liftablemediact/ctsignup.html" data-type="subnavigation" data-name="Email Subscribe">Email Subscribe</a></li>
+<li id="menu-item-509780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509780"><a href="https://www.westernjournal.com/feed/" data-type="subnavigation" data-name="RSS">RSS</a></li>
+<li id="menu-item-509777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509777"><a href="https://www.facebook.com/WesternJournal/" data-type="subnavigation" data-name="Facebook">Facebook</a></li>
+<li id="menu-item-509778" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509778"><a href="https://twitter.com/westjournalism?lang=en" data-type="subnavigation" data-name="Twitter">Twitter</a></li>
+<li id="menu-item-509779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509779"><a href="https://www.youtube.com/channel/UCa2gbBXGeGh-Pdtugdg_qcQ" data-type="subnavigation" data-name="YouTube">YouTube</a></li>
+<li id="menu-item-509781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-509781"><a href="https://flipboard.com/@WJournal" data-type="subnavigation" data-name="Flipboard">Flipboard</a></li>
+</ul>
+</li>
+</ul></div>
+</div>
+</div>
+<div class="bumper"></div>
+<div class="wj-brand-logo"><a href="https://www.westernjournal.com/ct">Conservative Tribune</a></div>
+<div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><div id="BB1-ad" class="sponsor BB1">
+<div id="BB1">
+<script>
+					if( 'BB1' != 'REP' && FFADS.units.BB1 && FFADS.units.BB1.ad_type == 'custom' && FFADS.units.BB1.custom_ads ) {
+						document.getElementById( 'BB1' ).innerHTML = FFADS.units.BB1.custom_ads[0].code;
+						if( ! FFADS.units.BB1.lazy_load ) eval( FFADS.units.BB1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.BB1 ) {
+						if( 'BB' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.BB1.sizes );
+							let el = document.querySelector( '#BB1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'BB1' );
+						} );
+					}
+					else document.querySelector( '#BB1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div><main class="content"><article class="post-566847 post type-post status-publish format-standard has-post-thumbnail category-commentary category-political-news tag-american-left tag-cnn tag-democrats tag-oregon tag-senate tag-socialism entry"><header class="entry-header"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary" data-type='Internal link' data-type-location='before-article-meta'>Commentary</a> <a href="https://www.westernjournal.com/ct/category/political-news/" class="category-label label-political-news" data-type='Internal link' data-type-location='before-article-meta'>Politics</a></span><div class="article-sharing side floating">
+<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DFacebook%26utm_medium%3DPostSideSharingButtons%26utm_campaign%3Dwebsitesharingbuttons&#038;display=popup&#038;ref=plugin&#038;src=share_button" class="facebook-share ea-share-count-button" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Facebook', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DFacebook%26utm_medium%3DPostSideSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostSideSharingButtons'});"><i class="icon-facebook"></i> <span class="label">Share <span class="longer-desc">on Facebook</span></span><span class="count">Share</span></a>
+<a target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DTwitter%26utm_medium%3DPostSideSharingButtons%26utm_campaign%3Dwebsitesharingbuttons&#038;utm_medium%3DCTWebsite%26utm_source%3DTwitter%26utm_campaign%3Dsocial&#038;text=Watch%3A%20Dem%20Senator%20Crashes%20and%20Burns%20Trying%20To%20Define%20Socialism" class="twitter-share ea-share-count-button" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Twitter', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DTwitter%26utm_medium%3DPostSideSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostSideSharingButtons'});"><i class="icon-twitter"></i> <span class="label">Tweet</span></a>
+<a href="mailto:?subject=Watch%3A%20Dem%20Senator%20Crashes%20and%20Burns%20Trying%20To%20Define%20Socialism&#038;body=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F" class="email-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Email', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DEmail%26utm_medium%3DPostSideSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostSideSharingButtons'});" data-nonce="1aa0d3707a" data-postid="566847"><i class="icon-email"></i> <span class="label">Email</span></a>
+<span class="postupshare"><a href="#" class="email-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Email', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DEmail%26utm_medium%3DPostSideSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostSideSharingButtons'});" data-nonce="1aa0d3707a" data-postid="566847"><i class="icon-email"></i> <span class="label">Email</span></a></span><a href="javascript:window.print()" class="print-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Print', 'sharedLink': '', 'shareLocation': 'PostSideSharingButtons'});"><i class="icon-print"></i> <span class="label">Print</span></a></div><h1 class="entry-title" itemprop="headline">Watch: Dem Senator Crashes and Burns Trying To Define Socialism</h1>
+<div class="jw-above-container"><div class="jw-sticky-container">
+<script type='text/javascript' src='https://content.jwplatform.com/libraries/KBFaAZNI.js'></script>
+<div id='jwplayer_CkwXFgIh_KBFaAZNI_div'></div>
+<script type='text/javascript'>
+			if(typeof(jQuery)=="function"){(function($){$.fn.fitVids=function(){}})(jQuery)};
+				jwplayer('jwplayer_CkwXFgIh_KBFaAZNI_div').setup(
+				{"mute":true,"playlist":"https:\/\/content.jwplatform.com\/feeds\/CkwXFgIh.json","ph":2}
+			);
+		</script>
+<div class="jw-sticky-close" onclick="this.parentElement.parentElement.classList.add( 'never-stick' );">×</div></div></div><div class="entry-meta">
+<div class="entry-meta-text">
+By <a href="https://www.westernjournal.com/ct/author/cillian-zeal/" data-type='Internal link' data-type-location='before-article-meta'>C. Douglas Golden</a>
+<br>
+Published February 9, 2019 at 10:28am
+</div>
+</div></header><div class="article-sharing top">
+<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DFacebook%26utm_medium%3DPostTopSharingButtons%26utm_campaign%3Dwebsitesharingbuttons&#038;display=popup&#038;ref=plugin&#038;src=share_button" class="facebook-share ea-share-count-button" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Facebook', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DFacebook%26utm_medium%3DPostTopSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostTopSharingButtons'});"><i class="icon-facebook"></i> <span class="label">Share <span class="longer-desc">on Facebook</span></span><span class="count">Share</span></a>
+<a target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DTwitter%26utm_medium%3DPostTopSharingButtons%26utm_campaign%3Dwebsitesharingbuttons&#038;utm_medium%3DCTWebsite%26utm_source%3DTwitter%26utm_campaign%3Dsocial&#038;text=Watch%3A%20Dem%20Senator%20Crashes%20and%20Burns%20Trying%20To%20Define%20Socialism" class="twitter-share ea-share-count-button" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Twitter', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DTwitter%26utm_medium%3DPostTopSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostTopSharingButtons'});"><i class="icon-twitter"></i> <span class="label">Tweet</span></a>
+<a href="mailto:?subject=Watch%3A%20Dem%20Senator%20Crashes%20and%20Burns%20Trying%20To%20Define%20Socialism&#038;body=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F" class="email-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Email', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DEmail%26utm_medium%3DPostTopSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostTopSharingButtons'});" data-nonce="1aa0d3707a" data-postid="566847"><i class="icon-email"></i> <span class="label">Email</span></a>
+<span class="postupshare"><a href="#" class="email-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Email', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DEmail%26utm_medium%3DPostTopSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostTopSharingButtons'});" data-nonce="1aa0d3707a" data-postid="566847"><i class="icon-email"></i> <span class="label">Email</span></a></span><a href="javascript:window.print()" class="print-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Print', 'sharedLink': '', 'shareLocation': 'PostTopSharingButtons'});"><i class="icon-print"></i> <span class="label">Print</span></a></div><div class="entry-content" itemprop="text"><p>Condemning socialism is now a bad thing, according to Democrat Sen. Jeff Merkley of Oregon. If only he could tell us what socialism is.</p>
+<p>First, the context behind all of this, which you can probably take a decent stab at: During his State of the Union <a href="https://www.whitehouse.gov/briefings-statements/remarks-president-trump-state-union-address-2/" target="_blank" rel="noopener">speech</a> on Tuesday, President Donald Trump condemned socialism, both in its incipient stages (the United States) and its final throes (Venezuela).</p>
+<p>&#8220;Two weeks ago, the United States officially recognized the legitimate government of Venezuela, and its new president, Juan Guaidó,&#8221; Trump said.</p>
+<div id="Top-ad" class="sponsor Top"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement - story continues below</p>
+<div id="Top">
+<script>
+					if( 'Top' != 'REP' && FFADS.units.Top && FFADS.units.Top.ad_type == 'custom' && FFADS.units.Top.custom_ads ) {
+						document.getElementById( 'Top' ).innerHTML = FFADS.units.Top.custom_ads[0].code;
+						if( ! FFADS.units.Top.lazy_load ) eval( FFADS.units.Top.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.Top ) {
+						if( 'To' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.Top.sizes );
+							let el = document.querySelector( '#Top' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'Top' );
+						} );
+					}
+					else document.querySelector( '#Top-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<p>&#8220;We stand with the Venezuelan people in their noble quest for freedom, and we condemn the brutality of the Máduro regime, whose socialist policies have turned that nation from being the wealthiest in South America into a state of abject poverty and despair,&#8221; he said.</p>
+<p>Then he brought it back home: &#8220;Here in the United States, we are alarmed by the new calls to adopt socialism in our country,&#8221; Trump said.</p>
+<p class="article-extras trending">
+<strong>TRENDING:</strong> <a href="https://www.westernjournal.com/ct/coup-danger-still-trumps-cabinet-2-cabinet-officials-ready-help-remove-trump-office-report/" data-type='Internal link' data-type-location='in-content-trending'>Coup Danger Still in Trump&#8217;s Cabinet? 2 Cabinet Officials Were Ready To Help Remove Trump from Office: Report</a>
+</p>
+<p>&#8220;America was founded on liberty and independence, and not government coercion, domination, and control,&#8221; he said. &#8220;We are born free and we will stay free. Tonight, we renew our resolve that America will <a href="https://www.westernjournal.com/ct/video-venezuelans-beg-americans-not-adopt-socialism-destroyed-country/" target="_blank" rel="noopener">never be a socialist country</a>.&#8221;</p>
+<p>That would be a pretty uncontroversial statement in any other era, but because the Democrats are now all about embracing self-declared socialists &#8212; one remains thoroughly lodged <a href="https://www.westernjournal.com/ct/new-2020-poll-shows-just-much-trouble-democrats-facing/" target="_blank" rel="noopener">in second place</a> in the polling for the party&#8217;s presidential nomination in 2020, after all &#8212; we have people like Merkley defending it.</p>
+<div id="IC1-ad" class="sponsor IC1"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement - story continues below</p>
+<div id="IC1">
+<script>
+					if( 'IC1' != 'REP' && FFADS.units.IC1 && FFADS.units.IC1.ad_type == 'custom' && FFADS.units.IC1.custom_ads ) {
+						document.getElementById( 'IC1' ).innerHTML = FFADS.units.IC1.custom_ads[0].code;
+						if( ! FFADS.units.IC1.lazy_load ) eval( FFADS.units.IC1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.IC1 ) {
+						if( 'IC' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.IC1.sizes );
+							let el = document.querySelector( '#IC1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'IC1' );
+						} );
+					}
+					else document.querySelector( '#IC1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<p>However, he has problems saying exactly what socialism is, as you&#8217;ll see from his appearance on CNN. Host Erin Burnett asked Merkley whether or not he agreed with the president, and he promptly launched into an answer that had virtually nothing to do with socialism.</p>
+<p>&#8220;You know, the president started out by saying he was going to be bipartisan, wanted to bring people together, but he just couldn&#8217;t restrain himself from going into campaign mode,&#8221; Merkley said.</p>
+<p>&#8220;And certainly, we heard Paul Ryan say, when he was speaker, now that we&#8217;ve won this big tax giveaway to the richest Americans, we have to dismantle these social programs,&#8221; the senator said. &#8220;We have to dismantle Medicare or tone it down, we have to diminish Social Security, what they refer to as entitlements.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p dir="ltr" lang="en">Democrat Senator Jeff Merkley (OR) tries to define socialism: &#8220;Well, it is a society coming together to increase the standard of living of our seniors, and that is pretty much the definition. And the president&#8217;s attacking it.&#8221; <a href="https://t.co/YYp1IF69KM">pic.twitter.com/YYp1IF69KM</a></p>
+<p>— Ryan Saavedra (@RealSaavedra) <a href=" https://twitter.com/RealSaavedra/status/1093724401881600000 ">February 8, 2019</a></p>
+</blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>&#8220;I call them programs earned and very smart programs for our seniors, and I support those. And the president wants to tear those apart? I think he is making a big mistake for the quality of life in America.&#8221;</p>
+<div id="IC2-ad" class="sponsor IC2"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement - story continues below</p>
+<div id="IC2">
+<script>
+					if( 'IC2' != 'REP' && FFADS.units.IC2 && FFADS.units.IC2.ad_type == 'custom' && FFADS.units.IC2.custom_ads ) {
+						document.getElementById( 'IC2' ).innerHTML = FFADS.units.IC2.custom_ads[0].code;
+						if( ! FFADS.units.IC2.lazy_load ) eval( FFADS.units.IC2.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.IC2 ) {
+						if( 'IC' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.IC2.sizes );
+							let el = document.querySelector( '#IC2' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'IC2' );
+						} );
+					}
+					else document.querySelector( '#IC2-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<p>&#8220;But you don&#8217;t see that as socialism, right, in terms of the word?&#8221; Burnett said. &#8220;It is a word of significance.&#8221;</p>
+<p>&#8220;It is a society coming together to increase the standard of living of our seniors,&#8221; he said. &#8220;And that is pretty much the definition. And the president is attacking it.&#8221;</p>
+<p class="article-extras related">
+<strong>RELATED:</strong> <a href="https://www.westernjournal.com/ct/every-american-needs-hear-dem-candidates-view-society-breadlines-good/" data-type='Internal link' data-type-location='in-content-related'>Every American Needs To Hear Dem Candidate&#8217;s View on Society: Breadlines &#8216;Are Good&#8217;</a>
+</p>
+<p>So, let me ask my good friends at <a href="https://www.merriam-webster.com/dictionary/socialism" target="_blank" rel="noopener">Merriam-Webster</a> what socialism is. They have four definitions, the first being &#8220;any of various economic and political theories advocating collective or governmental ownership and administration of the means of production and distribution of goods.&#8221;</p>
+<div id="firefly-poll-container" class="one-half">
+<h3 class="firefly-poll-question">Do you think that socialism will ever take hold in the United States?</h3>
+<form id="firefly-poll" class="firefly-poll"> <input type="radio" name="firefly-poll-answer" value="yes" required><label for="yes">Yes</label> <input type="radio" name="firefly-poll-answer" value="no" required><label for="no">No</label> <br /><input type="email" id="firefly-poll-email" placeholder="Enter your email" required><input id="firefly-poll-submit" type="submit" value="Submit"><img id="firefly-poll-submitting" style="display: none; vertical-align: middle; margin-left: 10px;"></p>
+<div class="firefly-poll-disclaimer"> Completing this poll entitles you to Conservative Tribune news updates free of charge. You may opt out at anytime. You also agree to our <a href="https://conservativetribune.com/privacy-policy/">Privacy Policy</a> and <a href="https://conservativetribune.com/terms-of-service/">Terms of Use</a>. </div>
+<div id="fbLogout" onclick="fbLogout()" style="display:none">You&#8217;re logged in to Facebook. Click here to log out.</div>
+</form>
+<div id="firefly-poll-results">
+<div id="firefly-poll-results-yes"></div>
+<div id="firefly-poll-results-no"></div>
+</div>
+<p> <script type="text/javascript">			/* <!-- */			/*<![CDATA[*/				var firefly_voting = false;				var submitMethod = 'email';				function firefly_show_poll_results( res = { yes: 331, no: 2980 } ) {					console.log( res );					var yes_p = 0;					var no_p = 0;					if( parseInt( res.yes ) + parseInt( res.no ) ) {						yes_p = Math.round( parseInt( res.yes ) / ( parseInt( res.yes ) + parseInt( res.no ) ) * 100 );						no_p = 100.0 - yes_p;					}					yes_p += '%';					no_p += '%';					document.getElementById( 'firefly-poll' ).style.display = 'none';					document.getElementById( 'firefly-poll-results-yes' ).style.width = yes_p;					yes_p += ' (' + res.yes + ' Votes)';					document.getElementById( 'firefly-poll-results-yes' ).innerHTML = yes_p;					document.getElementById( 'firefly-poll-results-no' ).style.width = no_p;					no_p += ' (' + res.no + ' Votes)';					document.getElementById( 'firefly-poll-results-no' ).innerHTML = no_p;					document.getElementById( 'firefly-poll-results' ).style.display = 'block';				}				var firefly_configured_poll_ajax = false;				function firefly_configure_poll_ajax() {					if( firefly_configured_poll_ajax ) {						console.log( 'attempted to configure poll ajax twice' );						return;					}					firefly_configured_poll_ajax = true;					console.log( 'configuring poll' );					/* attach a submit handler to the form */					jQuery( "#firefly-poll" ).submit( function( event ) {						if( firefly_voting || getCookie( 'firefly_voted_566847' ) ) return;						firefly_voting = true;						document.getElementById( 'firefly-poll-submit' ).style.display = 'none';						document.getElementById( 'firefly-poll-submitting' ).src = 'https://www.westernjournal.com/ct/wp-content/themes/firefly/assets/images/loading.gif';						document.getElementById( 'firefly-poll-submitting' ).style.display = 'inline-block';						/* stop form from submitting normally */						event.preventDefault();						console.log( 'subbing' );						/* Send the data using post with element id name and name2*/						var posting = jQuery.post(							'https://www.westernjournal.com/ct/wp-admin/admin-ajax.php',							{								action: 'firefly_polls_record_vote',								post_id: 566847,								answer: jQuery( 'input:radio[name=firefly-poll-answer]:checked' ).val(),								email: jQuery( '#firefly-poll-email' ).val()							}						);						dataLayer.push({							'event': 'in-article poll vote',							'pollAnswer': jQuery( 'input:radio[name=firefly-poll-answer]:checked' ).val(),							'pollName': jQuery( '.firefly-poll-question').text(),							'pollSubmitMethod': submitMethod,						});						setCookie( 'firefly_voted_566847', 1, 365 );						/* Alerts the results */						posting.done( function( response ) {							firefly_voting = false;							if( response.success ) firefly_show_poll_results( response.data.results );						});					});					if( getCookie( 'firefly_voted_566847' ) ) firefly_show_poll_results();					else {						if( getCookie( 'ff_source' ) == 'email' ) {							document.getElementById( 'firefly-poll-email' ).style.display = 'none';							document.getElementById( 'firefly-poll-email' ).required = false;						}						document.getElementById( 'firefly-poll' ).style.display = 'block';					}				}			/* --> */			/*]]&gt;*/			</script></p>
+</div>
+<div id="IC3-ad" class="sponsor IC3"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement - story continues below</p>
+<div id="IC3">
+<script>
+					if( 'IC3' != 'REP' && FFADS.units.IC3 && FFADS.units.IC3.ad_type == 'custom' && FFADS.units.IC3.custom_ads ) {
+						document.getElementById( 'IC3' ).innerHTML = FFADS.units.IC3.custom_ads[0].code;
+						if( ! FFADS.units.IC3.lazy_load ) eval( FFADS.units.IC3.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.IC3 ) {
+						if( 'IC' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.IC3.sizes );
+							let el = document.querySelector( '#IC3' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'IC3' );
+						} );
+					}
+					else document.querySelector( '#IC3-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<p>None of the four definitions, it&#8217;s worth noting, comes anywhere close to &#8220;a society coming together to increase the standard of living of our seniors.&#8221; Lest you think that Merriam-Webster is a secret member of the vast right-wing conspiracy, the Oxford dictionary <a href="https://en.oxforddictionaries.com/definition/socialism" target="_blank" rel="noopener">defines</a> socialism virtually the same way.</p>
+<p>This is the invariable problem with defending socialism &#8212; you can&#8217;t actually say what it is. Take Sen. Bernie Sanders&#8217; explication of the concept.</p>
+<p>&#8220;So let me define for you, simply and straightforwardly, what democratic socialism means to me,&#8221; the Vermont independent said in <a href="https://berniesanders.com/democratic-socialism-in-the-united-states/" target="_blank" rel="noopener">prepared remarks</a> in 2015. &#8220;It builds on what Franklin Delano Roosevelt said when he fought for guaranteed economic rights for all Americans. And it builds on what Martin Luther King, Jr. said in 1968 when he stated that; &#8216;This country has socialism for the rich, and rugged individualism for the poor.&#8217;</p>
+<p>&#8220;It builds on the success of many other countries around the world that have done a far better job than we have in protecting the needs of their working families, the elderly, the children, the sick and the poor.&#8221;</p>
+<div id="REP_0-ad" class="sponsor REP"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement - story continues below</p>
+<div id="REP_0">
+<script>
+					if( 'REP' != 'REP' && FFADS.units.IC4 && FFADS.units.REP_0.ad_type == 'custom' && FFADS.units.REP_0.custom_ads ) {
+						document.getElementById( 'REP_0' ).innerHTML = FFADS.units.REP_0.custom_ads[0].code;
+						if( ! FFADS.units.REP_0.lazy_load ) eval( FFADS.units.REP_0.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.IC4 ) {
+						if( 'RE' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.IC4.sizes );
+							let el = document.querySelector( '#REP_0' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'REP_0' );
+						} );
+					}
+					else document.querySelector( '#REP_0-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<p>Yes, socialism is the bright face of a child born to a poor family, wondering whether she can realize her dreams. Socialism is the elderly trying to get by on Social Security. Socialism is the mighty redwood forests that need protecting and the eager young graduate and something Martin Luther King said and another thing FDR or JFK said, and the wind blowing through the gentle cornfields as Woody Guthrie sings a gentle folk tune about the forgotten man.</p>
+<p>And it&#8217;s never &#8220;any of various economic and political theories advocating collective or governmental ownership and administration of the means of production and distribution of goods.&#8221;</p>
+<p>That lack of intellectual honesty should be a red flag to any observer. Socialism is always something vague and friendly sounding, but not necessarily concrete.</p>
+<p>When it does move from the abstract to the actual, you get something like New York Democratic Rep. Alexandria Ocasio-Cortez&#8217;s farcical <a href="https://www.westernjournal.com/ct/ocasio-cortez-green-new-deal-numbers-coming-atrocious/" target="_blank" rel="noopener">Green New Deal</a>, which is going to provide campaign fodder for Republicans for eons to come.</p>
+<div id="REP_1-ad" class="sponsor REP"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement - story continues below</p>
+<div id="REP_1">
+<script>
+					if( 'REP' != 'REP' && FFADS.units.IC4 && FFADS.units.REP_1.ad_type == 'custom' && FFADS.units.REP_1.custom_ads ) {
+						document.getElementById( 'REP_1' ).innerHTML = FFADS.units.REP_1.custom_ads[0].code;
+						if( ! FFADS.units.REP_1.lazy_load ) eval( FFADS.units.REP_1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.IC4 ) {
+						if( 'RE' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.IC4.sizes );
+							let el = document.querySelector( '#REP_1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'REP_1' );
+						} );
+					}
+					else document.querySelector( '#REP_1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<p>And that&#8217;s the invariable problem <a href="https://www.westernjournal.com/ct/watch-bernies-face-trump/" target="_blank" rel="noopener">with pushing socialism</a> as the future of the Democratic Party. If you can&#8217;t define it, why should people vote for it? And if you do define it, why would people vote for it?</p>
+<p>Merkley seems to know that &#8212; and while he&#8217;s willing to stand up for socialism when Trump criticizes it, don&#8217;t ever expect him to say what it actually is.</p>
+<p class="article-ask"><span class="ask"><span style="font-size: 16px">We are committed to truth and accuracy in all of our journalism. Read our <a href="https://www.westernjournal.com/about/ethics-editorial-standards/">editorial standards</a>.</span></span></p></div>
+<div class="entry-submit-correction">
+<a href="#" onclick="event.preventDefault(); document.querySelector( '.entry-submit-correction .correction-form form' ).style.display = 'block';">Submit a Correction</a>
+<br>
+<div class="correction-form">
+<form style="display: none;">
+<div class="sc-name-field">
+<label>* Name</label>
+<br>
+<input type="text" name="name" required>
+</div>
+<div class="sc-email-field">
+<label>* Email</label>
+<br>
+<input type="text" name="email" required>
+</div>
+<br>
+<label>* Message</label>
+<br>
+<textarea name="message" required></textarea>
+<br>
+<br>
+<div class="required-message" style="display: none; padding-bottom: 15px;">* All fields are required.</div>
+<input type="submit" value="Submit" onclick="event.preventDefault(); firefly_sc( 566847 );">
+<img class="firefly-sc-submitting-img">
+<div class="firefly-sc-confirm" style="display: none;">Success!</div>
+</form>
+</div>
+</div>
+<div class="article-sharing bottom">
+<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DFacebook%26utm_medium%3DPostBottomSharingButtons%26utm_campaign%3Dwebsitesharingbuttons&#038;display=popup&#038;ref=plugin&#038;src=share_button" class="facebook-share ea-share-count-button" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Facebook', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DFacebook%26utm_medium%3DPostBottomSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostBottomSharingButtons'});"><i class="icon-facebook"></i> <span class="label">Share <span class="longer-desc">on Facebook</span></span><span class="count">Share</span></a>
+<a target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DTwitter%26utm_medium%3DPostBottomSharingButtons%26utm_campaign%3Dwebsitesharingbuttons&#038;utm_medium%3DCTWebsite%26utm_source%3DTwitter%26utm_campaign%3Dsocial&#038;text=Watch%3A%20Dem%20Senator%20Crashes%20and%20Burns%20Trying%20To%20Define%20Socialism" class="twitter-share ea-share-count-button" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Twitter', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DTwitter%26utm_medium%3DPostBottomSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostBottomSharingButtons'});"><i class="icon-twitter"></i> <span class="label">Tweet</span></a>
+<a href="mailto:?subject=Watch%3A%20Dem%20Senator%20Crashes%20and%20Burns%20Trying%20To%20Define%20Socialism&#038;body=https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F" class="email-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Email', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DEmail%26utm_medium%3DPostBottomSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostBottomSharingButtons'});" data-nonce="1aa0d3707a" data-postid="566847"><i class="icon-email"></i> <span class="label">Email</span></a>
+<span class="postupshare"><a href="#" class="email-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Email', 'sharedLink': 'https%3A%2F%2Fwww.westernjournal.com%2Fct%2Fwatch-dem-senator-crashes-burns-trying-define-socialism%2F%3Futm_source%3DEmail%26utm_medium%3DPostBottomSharingButtons%26utm_campaign%3Dwebsitesharingbuttons', 'shareLocation': 'PostBottomSharingButtons'});" data-nonce="1aa0d3707a" data-postid="566847"><i class="icon-email"></i> <span class="label">Email</span></a></span><a href="javascript:window.print()" class="print-share" onclick="dataLayer.push({'event': 'social share intent', 'shareMethod': 'Print', 'sharedLink': '', 'shareLocation': 'PostBottomSharingButtons'});"><i class="icon-print"></i> <span class="label">Print</span></a></div><div class="entry-meta author"><div id="author-info-28" class="author-info">
+<div class="line-one">
+<div class="author-image">
+<a href="https://www.westernjournal.com/ct/author/cillian-zeal/">
+<img src="https://www.westernjournal.com/ct/wp-content/uploads/2018/12/IMG_0989-140x140.jpg">
+</a>
+</div>
+<div class="entry-meta-text">
+<div class="name author-meta-title">
+<a href="https://www.westernjournal.com/ct/author/cillian-zeal/">
+C. Douglas Golden
+</a>
+</div>
+<div class="firefly_job_title author-meta-value">Contributor, Commentary</div>
+</div>
+<div class="author-tabs">
+<input type="radio" name="ff-author-tab-28" value="summary-tab" id="summary-tab-radio-28" checked />
+<label for="summary-tab-radio-28">Summary<div class="faux-border"></div></label><input type="radio" name="ff-author-tab-28" value="more-info-tab" id="more-info-tab-radio-28" />
+<label for="more-info-tab-radio-28">More <span class="rmation">Biographical </span>Info<span class="rmation">rmation</span><div class="faux-border"></div></label><input type="radio" name="ff-author-tab-28" value="posts-tab" id="posts-tab-radio-28" />
+<label for="posts-tab-radio-28">Recent Posts<div class="faux-border"></div></label><input type="radio" name="ff-author-tab-28" value="contact-tab" id="contact-tab-radio-28" />
+<label for="contact-tab-radio-28">Contact<div class="faux-border"></div></label>
+<div class="author-tab summary-tab">
+<div class="firefly_job_title author-meta-value">C. Douglas Golden is a writer who splits his time between America and Southeast Asia and believes in free speech and the Second Amendment.</div><div class="twitter">
+<a href="https://twitter.com/CillianZeal"><i class="icon-twitter"></i> @CillianZeal</a>
+</div><div class="facebook">
+<a href="https://www.facebook.com/cillian.zeal.5?lst=11054941201000275323307091533319324">Facebook</a>
+</div>
+</div>
+<div class="author-tab more-info-tab"><div class="firefly_long_bio author-meta-value">
+C. Douglas Golden is a writer who splits his time between America and Southeast Asia. He became a staunch right-winger at the age of three: While watching a clip of Ronald Reagan, he told his mother (to her great horror), "Mom, I'm a Republican." Except for a brief, scarring and inexplicable late high-school dalliance with Ralph Nader and his ilk, he's never looked back.
+Aside from politics, he enjoys literature (especially British comic novels and modern Japanese lit), indie rock, jazz, spending time with his wife, drinking coffee and watching Formula One and football (of both American and world varieties). He is the proud owner of a very lazy West Highland white terrier and an extraordinary troublesome poodle mix of indeterminate provenance. His proudest accomplishments include reading the entirety of Thomas Pynchon's published oeuvre.
+</div><div class="firefly_languages author-meta-title">
+Languages Spoken
+</div><div class="firefly_languages author-meta-value">
+English
+</div><div class="firefly_topics author-meta-title">
+Topics of Expertise
+</div><div class="firefly_topics author-meta-value">
+American Politics, World Politics, Culture
+</div>
+</div>
+<div class="author-tab contact-tab">
+<form>
+<div class="ma-name-field">
+<label>* Name</label>
+<br>
+<input type="text" name="name" required>
+</div>
+<div class="ma-email-field">
+<label>* Email</label>
+<br>
+<input type="text" name="email" required>
+</div>
+<br>
+<br>
+<label>* Message</label>
+<br>
+<textarea name="message" required></textarea>
+<br>
+<br>
+<input type="hidden" name="author_id" value="28">
+<div class="required-message" style="display: none; padding-bottom: 15px;">* All fields are required.</div>
+<input type="submit" value="Submit" onclick="event.preventDefault(); firefly_ma( 28 );">
+<img class="firefly-ma-submitting-img">
+<div class="firefly-ma-confirm" style="display: none;">Success!</div>
+</form>
+</div>
+<div class="author-tab posts-tab">
+<div class="author-headline">
+<a href="https://www.westernjournal.com/ct/lib-loving-facebook-runs-interference-smollett-bans-post-talking-hate-hoax-report/">Lib-Loving Facebook Runs Interference for Smollett, Bans Post Talking About &#8216;Hate Hoax&#8217;: Report</a>
+</div>
+<div class="author-headline">
+<a href="https://www.westernjournal.com/ct/reagan-proud-watch-trumps-perfect-explanation-socialism-just-3-minutes/">Reagan Would Be Proud: Watch Trump&#8217;s Perfect Explanation of Socialism in Just 3 Minutes</a>
+</div>
+<div class="author-headline">
+<a href="https://www.westernjournal.com/ct/cbss-lara-logan-bravely-calls-establishment-media-bias-interview-professional-suicide/">CBS&#8217;s Lara Logan Bravely Calls Out Establishment Media Bias: &#8216;This Interview Is Professional Suicide&#8217;</a>
+</div>
+<div class="author-headline">
+<a href="https://www.westernjournal.com/ct/warren-didnt-get-memo-panicking-dems-doubles-coup-trump-worst-time-possible/">Warren Didn&#8217;t Get Memo from Panicking Dems, Doubles Down on Coup Against Trump at Worst Time Possible</a>
+</div>
+<div class="author-headline">
+<a href="https://www.westernjournal.com/ct/watch-nathan-phillips-get-physical-run-reporter-maga-kids/">Watch Nathan Phillips Get Physical, Run When Reporter Does to Him What He Did to MAGA Kids</a>
+</div>
+<div class="author-headline">
+<a href="https://www.westernjournal.com/ct/author/cillian-zeal/">See more...</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><footer class="entry-footer"><div class="entry-tags">Tags: <a href="https://www.westernjournal.com/ct/tag/american-left/" data-type='Internal link' data-type-location='after-article-meta'>American Left</a>, <a href="https://www.westernjournal.com/ct/tag/cnn/" data-type='Internal link' data-type-location='after-article-meta'>CNN</a>, <a href="https://www.westernjournal.com/ct/tag/democrats/" data-type='Internal link' data-type-location='after-article-meta'>Democrats</a>, <a href="https://www.westernjournal.com/ct/tag/oregon/" data-type='Internal link' data-type-location='after-article-meta'>Oregon</a>, <a href="https://www.westernjournal.com/ct/tag/senate/" data-type='Internal link' data-type-location='after-article-meta'>Senate</a>, <a href="https://www.westernjournal.com/ct/tag/socialism/" data-type='Internal link' data-type-location='after-article-meta'>socialism</a></div></footer></article><div class="after-article"><div id="BA1-ad" class="sponsor BA1">
+<div id="BA1">
+<script>
+					if( 'BA1' != 'REP' && FFADS.units.BA1 && FFADS.units.BA1.ad_type == 'custom' && FFADS.units.BA1.custom_ads ) {
+						document.getElementById( 'BA1' ).innerHTML = FFADS.units.BA1.custom_ads[0].code;
+						if( ! FFADS.units.BA1.lazy_load ) eval( FFADS.units.BA1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.BA1 ) {
+						if( 'BA' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.BA1.sizes );
+							let el = document.querySelector( '#BA1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'BA1' );
+						} );
+					}
+					else document.querySelector( '#BA1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div></div>
+<div id="respond">
+<div data-spotim-module="recirculation" data-spot-id="sp_xQKcvxed"></div>
+<script>FFADS.spot_im_displayed = false; var ffsid = 'sp_xQKcvxed'; var ffsurl = 'https://www.westernjournal.com/ct/watch-dem-senator-crashes-burns-trying-define-socialism/'; var ffspid = '566847';</script>
+</div><div class="more-posts clearfix"><div class="trending-posts"><h2>Popular Right Now</h2><article class="post-568112 post type-post status-publish format-standard has-post-thumbnail category-commentary category-political-news tag-brett-kavanaugh tag-due-process tag-hollywood tag-homosexual-agenda tag-homosexuality tag-lgbt tag-liberals tag-sexual-assault tag-sexual-harassment entry post-summary size-small first-three"><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/gay-mayor-heavily-attacked-kavanaugh-now-desperate-due-process/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568160 wp-post-image" alt="John Duran" sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/John-Duran-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/John-Duran.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/John-Duran-345x181.jpg" /><span class="firefly-attribution">Ringo H.W. Chiu / AP Photo</span></a></p><a href="https://www.westernjournal.com/ct/gay-mayor-heavily-attacked-kavanaugh-now-desperate-due-process/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Gay Mayor Who Heavily Attacked Kavanaugh Now Desperate for Due Process</h3><div class="entry-meta"><div><span class="entry-author">Ben Marquis</span> <span class="entry-date">February 18, 2019 at 7:09pm</span></div><div><span class="share-count">31k Reactions</span></div></div></div></a></div></article><article class="post-568105 post type-post status-publish format-standard has-post-thumbnail category-commentary category-culture-news tag-chicago tag-hollywood tag-liberal-media tag-media-bias tag-race-baiting tag-racism tag-television entry post-summary size-small first-three"><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/smolletts-latest-moves-show-now-panicking-big-time-boots-lawyer-hires-last-thing-innocent-people-usually-crisis-management-group/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568138 wp-post-image" alt="Television actor Jussie Smollett in a December file photo." sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Jussie-Smollett-for-Feb.-18-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Jussie-Smollett-for-Feb.-18.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Jussie-Smollett-for-Feb.-18-345x181.jpg" /><span class="firefly-attribution">Gabriel Olsen / Getty Images</span></a></p><a href="https://www.westernjournal.com/ct/smolletts-latest-moves-show-now-panicking-big-time-boots-lawyer-hires-last-thing-innocent-people-usually-crisis-management-group/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Smollett&#8217;s Latest Moves Show He&#8217;s Now Panicking Big Time. Boots Lawyer Then Hires the Last Thing Innocent People Usually Do: A Crisis Management Group</h3><div class="entry-meta"><div><span class="entry-author">Benjamin Arie</span> <span class="entry-date">February 18, 2019 at 3:59pm</span></div><div><span class="share-count">19k Reactions</span></div></div></div></a></div></article><article class="post-568179 post type-post status-publish format-standard has-post-thumbnail category-commentary category-culture-news tag-march-for-life tag-nathan-phillips tag-native-americans entry post-summary size-small first-three"><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/watch-nathan-phillips-get-physical-run-reporter-maga-kids/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568213 wp-post-image" alt="Native American activist Nathan Phillips is approached by a journalist for Breitbart News in Washington on Monday." sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Nathan-Phillips-for-Feb.-19-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Nathan-Phillips-for-Feb.-19.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Nathan-Phillips-for-Feb.-19-345x181.jpg" /><span class="firefly-attribution">Breitbart News / Twitter screen shot</span></a></p><a href="https://www.westernjournal.com/ct/watch-nathan-phillips-get-physical-run-reporter-maga-kids/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Watch Nathan Phillips Get Physical, Run When Reporter Does to Him What He Did to MAGA Kids</h3><div class="entry-meta"><div><span class="entry-author">C. Douglas Golden</span> <span class="entry-date">February 19, 2019 at 7:17am</span></div><div><span class="share-count">9.6k Reactions</span></div></div></div></a></div></article><article class="post-568423 post type-post status-publish format-standard has-post-thumbnail category-commentary category-political-news tag-democrats tag-donald-trump tag-russia tag-trey-gowdy entry post-summary size-small "><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/gowdy-gives-schiff-grammar-lesson-bringing-collusion/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568445 wp-post-image" alt="" sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Trey-Gowdy-Adam-Schiff-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Trey-Gowdy-Adam-Schiff.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Trey-Gowdy-Adam-Schiff-345x181.jpg" /><span class="firefly-attribution">Mark Wilson / Getty Images; Ben Gabbe / Getty Images for The New Yorker</span></a></p><a href="https://www.westernjournal.com/ct/gowdy-gives-schiff-grammar-lesson-bringing-collusion/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Gowdy Gives Schiff Grammar Lesson After Bringing Up &#8216;Collusion&#8217; Again</h3><div class="entry-meta"><div><span class="entry-author">Malachi Bailey</span> <span class="entry-date">February 20, 2019 at 12:32pm</span></div><div><span class="share-count">12k Reactions</span></div></div></div></a></div></article><article class="post-568211 post type-post status-publish format-standard has-post-thumbnail category-commentary category-political-news tag-cuba tag-donald-trump tag-socialism tag-speech tag-venezuela entry post-summary size-small "><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/reagan-proud-watch-trumps-perfect-explanation-socialism-just-3-minutes/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568245 wp-post-image" alt="President Donald Trump speaks during a rally at Florida International University on Feb. 18, 2019, in Miami, Florida." sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Donald-Trump-4-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Donald-Trump-4.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Donald-Trump-4-345x181.jpg" /><span class="firefly-attribution">Joe Raedle / Getty Images</span></a></p><a href="https://www.westernjournal.com/ct/reagan-proud-watch-trumps-perfect-explanation-socialism-just-3-minutes/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Reagan Would Be Proud: Watch Trump&#8217;s Perfect Explanation of Socialism in Just 3 Minutes</h3><div class="entry-meta"><div><span class="entry-author">C. Douglas Golden</span> <span class="entry-date">February 19, 2019 at 11:42am</span></div><div><span class="share-count">59k Reactions</span></div></div></div></a></div></article><article class="post-568185 post type-post status-publish format-standard has-post-thumbnail category-commentary category-political-news tag-department-of-justice-doj tag-elizabeth-warren tag-fbi tag-james-comey entry post-summary size-small "><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/warren-didnt-get-memo-panicking-dems-doubles-coup-trump-worst-time-possible/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568227 wp-post-image" alt="Sen. Elizabeth Warren" sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/elizabeth-warren-for-feb.-19-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/elizabeth-warren-for-feb.-19.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/elizabeth-warren-for-feb.-19-345x181.jpg" /><span class="firefly-attribution">The Washington Times / Twitter screen shot</span></a></p><a href="https://www.westernjournal.com/ct/warren-didnt-get-memo-panicking-dems-doubles-coup-trump-worst-time-possible/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Warren Didn&#8217;t Get Memo from Panicking Dems, Doubles Down on Coup Against Trump at Worst Time Possible</h3><div class="entry-meta"><div><span class="entry-author">C. Douglas Golden</span> <span class="entry-date">February 19, 2019 at 8:48am</span></div><div><span class="share-count">7.3k Reactions</span></div></div></div></a></div></article><article class="post-568383 post type-post status-publish format-standard has-post-thumbnail category-commentary category-culture-news tag-american-left tag-democrats tag-donald-trump tag-hate-crime tag-liberals tag-racism entry post-summary size-small "><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/done-smollett-lied-cops-past-set-brother-take-fall-got-2-years-probation/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568416 wp-post-image" alt="TV actor Jussie Smollett; left; and celebrity chef Jake Smollett, right." sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Jussie-Smollett-sbs-Jake-Smollett-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Jussie-Smollett-sbs-Jake-Smollett.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Jussie-Smollett-sbs-Jake-Smollett-345x181.jpg" /><span class="firefly-attribution">Shutterstock; Getty Images</span></a></p><a href="https://www.westernjournal.com/ct/done-smollett-lied-cops-past-set-brother-take-fall-got-2-years-probation/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">He&#8217;s Done It Before! Smollett Lied to Cops in Past, Set His Brother Up To Take the Fall, Got 2 Years Probation</h3><div class="entry-meta"><div><span class="entry-author">Malachi Bailey</span> <span class="entry-date">February 20, 2019 at 9:40am</span></div><div><span class="share-count">15k Reactions</span></div></div></div></a></div></article><article class="post-568503 post type-post status-publish format-standard has-post-thumbnail category-commentary category-culture-news tag-abortion tag-baby tag-pro-life entry post-summary size-small "><header class="summary-entry-header entry-header"></header><div class="summary-entry-content entry-content"><p class="entry-image"><span class="article-categories"><a href="https://www.westernjournal.com/ct/category/commentary/" class="category-label label-commentary">Commentary</a></span><a href="https://www.westernjournal.com/ct/disturbing-video-surfaces-shows-ny-abortion-clinic-assuring-woman-baby-will-killed-born-alive/" data-type='Internal link' data-type-location='below-post-trending'><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568552 wp-post-image" alt="Abortion clinic worker." sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/abortion-clinic-worker-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/abortion-clinic-worker.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/abortion-clinic-worker-345x181.jpg" /><span class="firefly-attribution">Lila Rose / Twitter screen shot</span></a></p><a href="https://www.westernjournal.com/ct/disturbing-video-surfaces-shows-ny-abortion-clinic-assuring-woman-baby-will-killed-born-alive/" data-type='Internal link' data-type-location='below-post-trending'><div class="entry-summary"><h3 class="entry-title">Disturbing Video Surfaces Shows NY Abortion Clinic Assuring Woman Baby Will Be Killed If Born Alive</h3><div class="entry-meta"><div><span class="entry-author">Randy DeSoto</span> <span class="entry-date">February 20, 2019 at 4:44pm</span></div><div><span class="share-count">19k Reactions</span></div></div></div></a></div></article></div><div class="archive-latest"><h2>Recently Posted</h2><article class="entry"></article><div class="archive-navigation"><div class="next"><a href="https://www.westernjournal.com/ct/page/2">Next</a></div></div></div></div></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="https://schema.org/WPSideBar"><section id="be-must-read-widget-13" class="widget be-must-read-widget"><div class="widget-wrap"><h4 class="widget-title widgettitle">Trending Right Now</h4>
+<p class="article clearfix"><a href="https://www.westernjournal.com/ct/aoc-blasted-billboard-time-square-amazon-deal/"><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568574 wp-post-image" alt="Rep. Alexandria Ocasio-Cortez, left; Times Square file photo, right." sizes="(max-width: 345px) 100vw, 345px" srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/AOC-sbs-Times-Square-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/AOC-sbs-Times-Square.jpg 1200w" src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/AOC-sbs-Times-Square-345x181.jpg" /><span class="firefly-attribution">Shutterstock</span></a> <a class="entry-title" href="https://www.westernjournal.com/ct/aoc-blasted-billboard-time-square-amazon-deal/" data-type='Internal link' data-type-location='widget-must-read'>AOC Blasted with Massive Billboard over Time Square for Amazon Deal</a></p><p class="article clearfix"><a href="https://www.westernjournal.com/ct/sharpton-wants-smollett-held-accountable-don-jr-reminds-ironic-past/"><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568565 wp-post-image" alt="Donald Trump Jr.,. left; and Al Sharpton, right." sizes="(max-width: 345px) 100vw, 345px" srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Donald-Trump-Jr.-sbs-Al-Sharpton-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Donald-Trump-Jr.-sbs-Al-Sharpton.jpg 1200w" src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/Donald-Trump-Jr.-sbs-Al-Sharpton-345x181.jpg" /><span class="firefly-attribution">Getty Images; Shutterstock</span></a> <a class="entry-title" href="https://www.westernjournal.com/ct/sharpton-wants-smollett-held-accountable-don-jr-reminds-ironic-past/" data-type='Internal link' data-type-location='widget-must-read'>Sharpton Wants Smollett To Be Held Accountable, Don Jr Reminds Him of Ironic Past</a></p><p class="article clearfix"><a href="https://www.westernjournal.com/ct/disturbing-video-surfaces-shows-ny-abortion-clinic-assuring-woman-baby-will-killed-born-alive/"><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568552 wp-post-image" alt="Abortion clinic worker." sizes="(max-width: 345px) 100vw, 345px" srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/abortion-clinic-worker-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/abortion-clinic-worker.jpg 1200w" src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/abortion-clinic-worker-345x181.jpg" /><span class="firefly-attribution">Lila Rose / Twitter screen shot</span></a> <a class="entry-title" href="https://www.westernjournal.com/ct/disturbing-video-surfaces-shows-ny-abortion-clinic-assuring-woman-baby-will-killed-born-alive/" data-type='Internal link' data-type-location='widget-must-read'>Disturbing Video Surfaces Shows NY Abortion Clinic Assuring Woman Baby Will Be Killed If Born Alive</a></p></div></section>
+<section id="firefly-sidebar-ad-8" class="widget firefly-sidebar-ad"><div class="widget-wrap"><div id="SB1-ad" class="sponsor SB1"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement</p>
+<div id="SB1">
+<script>
+					if( 'SB1' != 'REP' && FFADS.units.SB1 && FFADS.units.SB1.ad_type == 'custom' && FFADS.units.SB1.custom_ads ) {
+						document.getElementById( 'SB1' ).innerHTML = FFADS.units.SB1.custom_ads[0].code;
+						if( ! FFADS.units.SB1.lazy_load ) eval( FFADS.units.SB1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.SB1 ) {
+						if( 'SB' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.SB1.sizes );
+							let el = document.querySelector( '#SB1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'SB1' );
+						} );
+					}
+					else document.querySelector( '#SB1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div></div></section>
+<section id="firefly-sidebar-ad-3" class="widget firefly-sidebar-ad"><div class="widget-wrap"><div id="SB2-ad" class="sponsor SB2"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement</p>
+<div id="SB2">
+<script>
+					if( 'SB2' != 'REP' && FFADS.units.SB2 && FFADS.units.SB2.ad_type == 'custom' && FFADS.units.SB2.custom_ads ) {
+						document.getElementById( 'SB2' ).innerHTML = FFADS.units.SB2.custom_ads[0].code;
+						if( ! FFADS.units.SB2.lazy_load ) eval( FFADS.units.SB2.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.SB2 ) {
+						if( 'SB' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.SB2.sizes );
+							let el = document.querySelector( '#SB2' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'SB2' );
+						} );
+					}
+					else document.querySelector( '#SB2-ad' ).style.display = 'none';
+				</script>
+</div>
+</div></div></section>
+<section id="firefly-sidebar-ad-11" class="widget firefly-sidebar-ad"><div class="widget-wrap"><div id="SB3-ad" class="sponsor SB3"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement</p>
+<div id="SB3">
+<script>
+					if( 'SB3' != 'REP' && FFADS.units.SB3 && FFADS.units.SB3.ad_type == 'custom' && FFADS.units.SB3.custom_ads ) {
+						document.getElementById( 'SB3' ).innerHTML = FFADS.units.SB3.custom_ads[0].code;
+						if( ! FFADS.units.SB3.lazy_load ) eval( FFADS.units.SB3.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.SB3 ) {
+						if( 'SB' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.SB3.sizes );
+							let el = document.querySelector( '#SB3' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'SB3' );
+						} );
+					}
+					else document.querySelector( '#SB3-ad' ).style.display = 'none';
+				</script>
+</div>
+</div></div></section>
+<div id="fixed-widget-anchor"></div>
+<section class="fixed-widgets"><section id="be-trending-widget-2" class="widget be-trending-widget"><div class="widget-wrap"><h4 class="widget-title widgettitle">Editor's Pick</h4>
+<p class="article clearfix"><a href="https://www.westernjournal.com/ct/cbss-lara-logan-bravely-calls-establishment-media-bias-interview-professional-suicide/"><img width="345" height="181" class="attachment-be_medium size-be_medium wp-image-568262 wp-post-image" alt="Lara Logan, chief foreign affairs correspondent for CBS News." sizes="(max-width: 345px) 100vw, 345px" data-srcset="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/laura-logan-345x181.jpg 345w, https://www.westernjournal.com/ct/wp-content/uploads/2019/02/laura-logan.jpg 1200w" data-src="https://www.westernjournal.com/ct/wp-content/uploads/2019/02/laura-logan-345x181.jpg" /><span class="firefly-attribution">Saul Loeb / Getty Images</span></a> <a class="entry-title" href="https://www.westernjournal.com/ct/cbss-lara-logan-bravely-calls-establishment-media-bias-interview-professional-suicide/" data-type='Internal link' data-type-location='widget-trending'>CBS&#8217;s Lara Logan Bravely Calls Out Establishment Media Bias: &#8216;This Interview Is Professional Suicide&#8217;</a></p></div></section>
+<section id="firefly-sidebar-ad-5" class="widget firefly-sidebar-ad"><div class="widget-wrap"><div id="SB4-ad" class="sponsor SB4"><p class="ad-notice flipboard-remove" fl:fl-noexcerpt="true">Advertisement</p>
+<div id="SB4">
+<script>
+					if( 'SB4' != 'REP' && FFADS.units.SB4 && FFADS.units.SB4.ad_type == 'custom' && FFADS.units.SB4.custom_ads ) {
+						document.getElementById( 'SB4' ).innerHTML = FFADS.units.SB4.custom_ads[0].code;
+						if( ! FFADS.units.SB4.lazy_load ) eval( FFADS.units.SB4.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.SB4 ) {
+						if( 'SB' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.SB4.sizes );
+							let el = document.querySelector( '#SB4' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'SB4' );
+						} );
+					}
+					else document.querySelector( '#SB4-ad' ).style.display = 'none';
+				</script>
+</div>
+</div></div></section>
+</section>
+</aside></div></div></div></div>
+
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-s4EjFfr0LYkYa"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-s4EjFfr0LYkYa.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+
+<img src="https://bh.contextweb.com/bh/set.aspx?action=add&pid=1&advid=5248&token=LCMHRD&do=add" />
+<div id="ff_a2hs">
+<div id="ff_a2hs_button" class="a2hs-button">Tap here to add The Western Journal to your home screen.</div>
+</div>
+<div id="WP1-ad" class="sponsor WP1">
+<div id="WP1">
+<script>
+					if( 'WP1' != 'REP' && FFADS.units.WP1 && FFADS.units.WP1.ad_type == 'custom' && FFADS.units.WP1.custom_ads ) {
+						document.getElementById( 'WP1' ).innerHTML = FFADS.units.WP1.custom_ads[0].code;
+						if( ! FFADS.units.WP1.lazy_load ) eval( FFADS.units.WP1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.WP1 ) {
+						if( 'WP' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.WP1.sizes );
+							let el = document.querySelector( '#WP1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'WP1' );
+						} );
+					}
+					else document.querySelector( '#WP1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+<script>
+			function firefly_set_ff_utms() {
+				['source', 'medium', 'campaign', 'content'].forEach( function( utm ) {
+					let val = getParameterByName( 'utm_' + utm );
+					if( ! val ) val = getParameterByName( 'ff_' + utm );
+					if( val ) {
+						let links = document.querySelectorAll( 'a[href*="https://www.westernjournal.com/ct"]:not( [href*="_' + utm + '"] )' );
+						for( let i = 0, l = links.length; i < l; ++i ) links[i].href += [/\?/.test(links[i].href) ? '&' : '?', 'ff_', utm, '=', val].join('');
+					}
+				});
+			}
+			firefly_set_ff_utms();
+
+			let links = document.querySelectorAll( 'a:not([href*="https://www.westernjournal.com/ct"]):not([href^="#"])' );
+			for( let i = 0, l = links.length; i < l; ++i ) links[i].target = '_blank';
+		</script>
+<div class="persistent-footer">
+<div class="ff-pf-close" onclick="this.parentElement.style.display='none';">×</div>
+<div id="SA1-ad" class="sponsor SA1">
+<div id="SA1">
+<script>
+					if( 'SA1' != 'REP' && FFADS.units.SA1 && FFADS.units.SA1.ad_type == 'custom' && FFADS.units.SA1.custom_ads ) {
+						document.getElementById( 'SA1' ).innerHTML = FFADS.units.SA1.custom_ads[0].code;
+						if( ! FFADS.units.SA1.lazy_load ) eval( FFADS.units.SA1.custom_ads[0].rendering_script );
+					}
+					else if( FFADS.units.SA1 ) {
+						if( 'SA' != 'SB' && FFADS.use_fixed_containers ) {
+							let max_wh = firefly_size_list_to_max_wh( FFADS.units.SA1.sizes );
+							let el = document.querySelector( '#SA1' );
+							el.style.width = max_wh[0] + 'px';
+							el.style.height = max_wh[1] + 'px';
+							el.classList.add( 'fixed-size' );
+						}
+						googletag.cmd.push( function() {
+							googletag.display( 'SA1' );
+						} );
+					}
+					else document.querySelector( '#SA1-ad' ).style.display = 'none';
+				</script>
+</div>
+</div>
+</div>
+<script>var firefly_global_loaded_v = false;</script><script type='text/javascript' async='async' onload='firefly_global_loaded_v = true; if( typeof firefly_global_loaded == "function" ) firefly_global_loaded();' src='https://www.westernjournal.com/ct/wp-content/themes/firefly/assets/js/global-min.js?ver=1.1-1548284447'></script>
+<script type='text/javascript' src='https://www.westernjournal.com/ct/wp-includes/js/wp-embed.min.js?ver=4.9.9'></script>
+<script>
+			function firefly_global_loaded() {
+				if( typeof firefly_configure_poll_ajax == 'function' ) firefly_configure_poll_ajax();
+				jQuery(document).ready(function($){
+					$(".archive-latest").infinitescroll({
+						navSelector  : ".archive-navigation",
+						nextSelector : ".archive-navigation .next a",
+						itemSelector : ".archive-latest .entry, .archive-latest .sponsor",
+						// IS usually starts with page 2 since they assume P1 is already loaded, but we choose
+						// to NOT load P1 on single posts and we use this to fetch the page before the one IS wants
+						path: function( page ) {
+							let base_url = 'https://www.westernjournal.com/ct/'; page--;
+							base_url = base_url.replace( /\/page\/[0-9]*\//, '/' );
+							base_url += ( base_url.search( /\?/ ) == -1 ? '?' : '&' ) + 'is=true&firefly_api_helper=1';
+							base_url = base_url.replace( /\?/, 'page/' + page + '/?' );
+							return base_url;
+						},
+						bufferPx: 600,
+						debug: false,
+						state: { curPage: 0 }
+					},function(arrayOfNewElems){
+						jQuery( function( $ ){ $( ".archive-latest img" ).unveil( 200 ); } );
+					    dataLayer.push({ 'event': 'infinite scroll' });
+					    firefly_set_ff_utms();
+					});
+				});
+			}
+			if( firefly_global_loaded_v ) firefly_global_loaded();
+
+			var firefly_loading_gif_url = 'https://www.westernjournal.com/ct/wp-content/themes/firefly/assets/images/loading.gif';
+			var firefly_ajax_url        = 'https://www.westernjournal.com/ct/wp-admin/admin-ajax.php';
+			var firefly_post_id         = 566847;
+		</script>
+<div id="easc-modal-wrap" style="display:none;">
+<div class="easc-modal">
+<span class="easc-modal-title">Share this Article</span>
+<p>
+<label for="easc-modal-recipient">Friend's Email Address</label>
+<input type="text" id="easc-modal-recipient">
+</p>
+<p>
+<label for="easc-modal-name">Your Name</label>
+<input type="text" id="easc-modal-name">
+</p>
+<p>
+<label for="easc-modal-email">Your Email Address</label>
+<input type="text" id="easc-modal-email">
+</p>
+<p class="easc-modal-validation">
+<label for="easc-modal-validation">Comments</label>
+<input type="text" id="easc-modal-validation" autocomplete="off">
+</p>
+<p class="easc-modal-submit">
+<button id="easc-modal-submit"><i class="easc-icon-envelope"></i> Send Email</button>
+</p>
+<a href="#" id="easc-modal-close"><i class="easc-icon-close close-icon"></i></a>
+<div id="easc-modal-sent">Email sent!</div>
+</div>
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"122dc12de0","applicationID":"17724322,86577151","transactionName":"YQFSN0RZDxZUUEBaClhLcQBCUQ4LGkBdXQJaAR0TWUsV","queueTime":0,"applicationTime":467,"atts":"TUZRQQxDHBg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

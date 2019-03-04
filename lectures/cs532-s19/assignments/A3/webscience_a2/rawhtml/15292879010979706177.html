@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="keywords"
+    content="joomla, Joomla, joomla 1.5, wordpress 2.5, Drupal" />
+<meta name="description" content="Joomla!" />
+<meta name="generator"
+    content="Joomla! 1.5 - Open Source Content Management" />
+<meta name="generator" content="WordPress 2.5" />
+
+
+    <title>Just a moment please...</title>
+    <meta name="description" content="">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>body,html{background:#212121;color:#FAFAFA;margin-top:5%;font-family:Roboto}.loader{height:150px;width:150px;margin:75px auto 0;transform:rotate(-45deg);font-size:0;line-height:0;animation:rotate-loader 5s infinite;padding:25px;border:1px solid teal}.segment-holder{position:relative;display:inline-block;width:50%;height:50%}.segment{position:absolute;background:teal}.one{bottom:0;height:0;width:100%;animation:slide-one 1s infinite}.three,.two{height:100%;width:0}.two{left:0;animation:slide-two 1s infinite;animation-delay:.25s}.three{right:0;animation:slide-two 1s infinite;animation-delay:.75s}.four{top:0;height:0;width:100%;animation:slide-one 1s infinite;animation-delay:.5s}h1.message{text-align:center;margin-top:45px;font-weight:100;font-size:20px;text-transform:uppercase;opacity:.9;color:#E0E0E0;line-height:30px}h1.message a:link{text-decoration:none;color:inherit;font-weight:300}@keyframes slide-one{0%{height:0;opacity:1}12.5%{height:100%;opacity:1}50%{opacity:1}100%{height:100%;opacity:0}}@keyframes slide-two{0%{width:0;opacity:1}12.5%{width:100%;opacity:1}50%{opacity:1}100%{width:100%;opacity:0}}@keyframes rotate-loader{0%,20%{transform:rotate(-45deg)}25%,45%{transform:rotate(-135deg)}50%,70%{transform:rotate(-225deg)}75%,95%{transform:rotate(-315deg)}100%{transform:rotate(-405deg)}}</style>
+<script type="text/javascript">
+            //<![CDATA[
+            function startCountdown() {
+                setInterval(function () {
+                    var $secondsElement = document.getElementById('seconds');
+                    var seconds = parseInt($secondsElement.innerHTML);
+                    if (seconds > 0) {
+                        seconds--;
+                        $secondsElement.innerHTML = seconds;
+                    }
+                }, 1000);
+            }
+            function browserIntegrityCheck() {
+                w = window.innerWidth;
+                h = window.innerHeight;
+                arr = [w, h, Math.floor((Math.random() * 9) + 1)];
+                arr.push(arr[0] * arr[1] * arr[2]);
+                d = new Date().getTime();
+                arr = [];
+                b = navigator.appName;
+                div1 = document.createElement('div');
+                div1.style.display = 'none';
+                div2 = document.createElement('div');
+                div2.style.display = 'none';
+                div3 = document.createElement('div');
+                div3.style.display = 'none';
+                c = document.getElementById('content');
+                c.appendChild(div1);
+                div1.appendChild(div2);
+                div2.appendChild(div3);
+                div1.removeChild(div2);
+                r = genRandString();
+                if (r.search('asd')) {
+                    r.replace('asd', 'bsd');
+                }
+            }
+
+            function redirect() {
+                setTimeout(function () {
+                    f = document.getElementById('challenge-form');
+                    f.submit();
+                }, 4000);
+            }
+            function genRandString() {
+                var text = "";
+                var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+                for (var i = 0; i < 5; i++)
+                    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+                return text;
+            }
+            
+            (function () {
+                var a = function () {
+                    try {
+                        return !!window.addEventListener
+                    } catch (e) {
+                        return !1
+                    }
+                },
+                b = function (b, c) {
+                    a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)
+                };
+                b(function () {
+                    var a = document.getElementById('content').style.display = 'block';
+
+                    setTimeout(startCountdown(), 0);
+                    setTimeout(browserIntegrityCheck(), 0);
+                    setTimeout(redirect(), 0);
+                }, false);
+            })();
+            //]]>
+</script>
+<script src="/vendor/jquery.min.js"></script>
+<script src="/vendor/angular.min.js"></script>
+<script src="/vendor/angular-translate.min.js"></script>
+<script src="/js/app.config.js"></script>
+<script src="/js/app.controller.js"></script>
+</head>
+<body>
+<div class="loader">
+<div class="segment-holder"> 
+<div class="segment one">
+</div> 
+</div> 
+<div class="segment-holder">
+<div class="segment two">
+</div> 
+</div> 
+<div class="segment-holder"> 
+<div class="segment three">
+</div> 
+</div>
+<div class="segment-holder"> 
+<div class="segment four">
+</div> 
+</div>
+</div>
+<div class="col-sm-12">
+<noscript><h1 style="text-align:center;color:red;"><strong><br/>Please turn JavaScript on and reload the page.</strong></h1></noscript>
+<div id="content" style="display:none"></div><h1 class="message"><font color="#E0E0E0">Verifying your browser, please wait...<br/></font><br/>Please allow up to <span id="seconds">5</span> seconds&hellip;</a></h1>
+</div>
+</div>
+<form id="challenge-form" action="/verify.php" method="post">
+<input type="hidden" name="hash" value="3e89ebe1d09a940bcc3dfa68923390f3b173b54c"/>
+<input type="hidden" name="origin_url" value="https://lesinfos.online/2019/02/10/le-blanc-il-est-stupide-une-invitee-de-quotidien-accusee-de-racisme-pour-des-propos-sur-trump/ls2srSZyZap38kaks97eDsC8VPwxKGGx7MltG5rZUAJbWqj76wpQOcDZWV2fzZ6K5sO3pgHYvneCuCxZRASR43tOJjxmJzjJCAqW/403.html"/>
+</form>
+</body>
+<!--
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href='index.php?option=com_dshop'>This contact form is about /components/com_dshop/ </a><br>
+<a href='index.php?option=com_jobprofile'>This contact form is about /components/com_jobprofile/ </a><br>
+<a href='index.php?option=com_fckeditor'>This contact form is about /components/com_fckeditor/ </a><br>
+<a href='index.php?option=com_acajoom'>This contact form is about /components/com_acajoom/ </a><br>
+<a href='index.php?option=com_content'>This contact form is about /components/com_content/ </a><br>
+<a href='index.php?option=com_phocagallery'>This contact form is about /components/com_phocagallery/ </a><br>
+<a href='index.php?option=com_mailto'>This contact form is about /components/com_mailto/ </a><br>
+<a href='index.php?option=com_qcontacts'>This contact form is about /components/com_qcontacts/ </a><br>
+<a href='index.php?option=com_jevents'>This contact form is about /components/com_jevents/ </a><br>
+<a href='index.php?option=com_contact'>This contact form is about /components/com_contact/ </a><br>
+<a href='index.php?option=com_search'>This contact form is about /components/com_search/ </a><br>
+<a href='index.php?option=com_virtuemart'>This contact form is about /components/com_virtuemart/ </a><br>
+<a href='index.php?option=com_google'>This contact form is about /components/com_google/ </a><br>
+<a href='index.php?option=com_oziogallery2'>This contact form is about /components/com_oziogallery2/ </a><br>
+<a href='index.php?option=fckeditor/editor/filemanager/connectors/uploadtest.html'>This contact form is about /components/fckeditor/editor/filemanager/connectors/uploadtest.html/ </a><br>
+<a href='index.php?option=FCKeditor - Uploaders Tests'>This contact form is about /components/FCKeditor - Uploaders Tests/ </a><br>
+<a href='index.php?option=phpmyadmin'>This contact form is about /components/phpmyadmin/ </a><br>
+<a href='index.php?option=phpmyadmin2'>This contact form is about /components/phpmyadmin2/ </a><br>
+
+<a href="demo/GHH%20-%20Haxplorer/1.php?param=honey">GHDB Signature #833 (filetype:php HAXPLORER &quot;Server Files Browser&quot;)</a><br>
+<br>
+<a href="demo/GHH%20-%20PHP%20Ping/php-ping.php?param=honey">GHDB Signature #733 (&quot;Enter ip&quot; inurl:&quot;php-ping.php&quot;)</a><br>
+<br>
+<a href="demo/GHH%20-%20PHP%20Shell/phpshell.php?param=honey">GHDB Signature #365 (intitle:&quot;PHP Shell *&quot; &quot;Enable stderr&quot; filetype:php)</a><br>
+<br>
+<a href="demo/GHH%20-%20PHPBB%20Install/phpBB2/install/install.php?param=honey">GHDB Signature #935 (inurl:&quot;install/install.php&quot;)</a><br>
+<br>
+<a href="demo/GHH%20-%20PHPFM/index.php?param=honey">GHDB Signature #361 (&quot;Powered by PHPFM&quot; filetype:php -username)
+</a><br><br>
+<a href="demo/GHH%20-%20PhpSysInfo/index.php?param=honey">GHDB Signature #161 (inurl:phpSysInfo/ &quot;created by phpsysinfo&quot;)</a><br><br>
+<a href="demo/GHH%20-%20SquirrelMail/src/login.php?param=honey">GHDB Signature #1013 (&quot;SquirrelMail version 1.4.4&quot; inurl:src ext:php)</a> <br><br>
+<a href="/demo/?GHH v1.1 - WebUtil 2.7">GHDB Signature #1013 (&quot;SquirrelMail version 1.4.4&quot; inurl:src ext:php)</a> <br><br>
+<a href="/demo/?GHH v1.1 - .mdb/admin.mdb">GHDB Signature #162 (allinurl: admin mdb)</a> <br><br>
+<a href="/demo/?GHH v1.1 - .sql/create.sql">GHDB Signature #1064 (filetype:sql ("passwd values" | "password values" | "pass values" ))</a> <br><br>
+<a href="/demo/?GHH v1.1 - AIM BuddyList/BuddyList.blt">GHDB Signature #937 (filetype:blt "buddylist")</a> <br><br>
+<a href="/demo/?GHH v1.1 - File Upload Manager/">GHDB Signature #734 ("File Upload Manager v1.3" "rename to")</a> <br><br>
+<a href="/demo/?GHH v1.1 - passlist.txt/passlist.txt">GHDB Signature #58 (inurl:passlist.txt)</a> <br><br>
+<a href="/demo/?GHH v1.1 - passwd.txt/passwd.txt">GHDB Signature #1122 (wwwboard WebAdmin inurl:passwd.txt</a> <br><br>
+<a href="/demo/?GHH v1.1 - WebUtil 2.7/webutil.pl">GHDB Signature #769 (inurl:webutil.pl)</a> <br><br>
+-->
+
+<!--
+<a href="mailto:csapda@web-server.hu"></a>
+<a href="mailto:csapda@astrohost.com"></a>
+-->
+</html>

@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQUPVFFXChACUlJVAwEDVg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,N=y.hash,this[u]=g.now()}function o(){M--,y.hash!==N&&i(0,!0);var t=g.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=g.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,g=t("loader");if(w[v]&&g.xhrWrappable){var b=t(10),x=t(11),E=t(8),O=t(6),P=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),S=j.get("tracer");t(15),g.features.spa=!0;var N,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(l,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),P.buffer(["setTimeout"+c,"clearTimeout"+s,u]),T.buffer([u,"new-xhr","send-xhr"+s]),R.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),b.buffer([u]),x.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+s),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+s),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(8);var b=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,e){var n=t[0];n instanceof b&&i("bst",[n,e,this.bstStart,g.now()])}),a.on(m,function(t,e,n){this.bstStart=g.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+l,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(24)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(21);e.exports=o;var a=window,s="fetch-",c=s+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,l="prototype";u&&d&&p&&(i(f,function(t,e){r(u[l],e,c),r(d[l],e,c)}),r(a,"fetch",s),o.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(s+"done",[null,e],n)}else o.emit(s+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(24)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t(24)(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-"),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(24)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(24),a=t("ee").get("promise"),s=i(a),c=t(21),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(24)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(24)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(24)(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,b),b.prototype=l.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(e.cat=c.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),l=t(19),h=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,l&&(l>34||l<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<d;s++)e.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],21:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],22:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],23:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],24:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[n]];return d&&d.push([b,n,r,a]),a}}function l(t,e){y[t]=m(t).concat(e)}function h(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},b={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(g,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(17),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}]},{},["loader",2,15,5,3,4]);</script>
+<link rel="shortcut icon" href="https://www.biocentury.com/sites/all/themes/biocentury/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="HHS’s proposal to scrap the secret rebates drug manufacturers pay PBMs and health plans in Medicare Part D would..." />
+<meta name="twitter:title" content="How scrapping Part D PBM rebates will help Trump,..." />
+<meta name="twitter:url" content="https://www.biocentury.com/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" />
+<meta name="twitter:image:alt" content="How scrapping Part D PBM rebates will help Trump,..." />
+<meta property="og:image:height" content="344" />
+<meta property="og:image:width" content="846" />
+<meta property="og:image" content="https://www.biocentury.com/sites/default/files/styles/article_banner/public/article_images/BC_KillingRebates_021119_BannerImage_i.jpg?itok=SB8oZSBj" />
+<meta property="og:site_name" content="BioCentury" />
+<meta property="og:description" content="HHS’s proposal to scrap the secret rebates drug manufacturers pay PBMs and health plans in Medicare Part D would help President Donald Trump fulfill promises to reduce drug prices." />
+<meta property="og:url" content="https://www.biocentury.com/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How scrapping Part D PBM rebates will help Trump, patients and pharma" />
+<meta name="twitter:image" content="https://www.biocentury.com/sites/default/files/styles/article_banner/public/article_images/BC_KillingRebates_021119_BannerImage_i.jpg?itok=SB8oZSBj" />
+<meta name="description" content="HHS’s proposal to scrap the secret rebates drug manufacturers pay PBMs and health plans in Medicare Part D would help President Donald Trump fulfill promises to reduce drug prices. It would also reduce financial burdens on senior citizens who incur the highest costs at pharmacy counters, and remove perverse incentives for Part D plans to steer patients to the most expensive drugs." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.biocentury.com/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" />
+<link rel="shortlink" href="https://www.biocentury.com/node/300787" />
+  	<base href="/">
+  	<link rel="manifest" href="/manifest.json" />
+  	<meta name="theme-color" content="#004750" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="BioCentury" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="BioCentury">
+
+    <meta name="msapplication-navbutton-color" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-150x150.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-starturl" content="/">
+
+	<link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="/icons/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="/icons/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="/icons/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="/icons/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="/icons/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="/icons/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="/icons/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="/icons/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/icons/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+
+  <title>BioCentury  - Killing Part D rebates</title>
+  <meta id="meta-viewport-scaling" content="width=device-width, initial-scale=1, minimum-scale=0.25, user-scalable=0" name="viewport" />
+  <meta name="HandheldFriendly" content="true" />
+  <!--<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7472272/757208/css/fonts.css" />-->
+  <link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_eW0AncxOl9Tq8dyAMF3RQiH_7eFDO7wNckdcMEkZPpE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_N7P2yld9_ya4nqnZlpSeq-S-HPu68frDRw0FkLoOQ7s.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_qtqWZfHJ2bMLG8GgG_ufPrteAaW1EJRSe0zyNqoomIo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_1rbod3WZxrkXUpk5r3gJXCLSFniuF-vtmnIwxYu8aIc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_F9UNSTSQKEyxZIPIr9tPhBbxj8Z1f5dZgHQcMGO6wfg.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_4GA2ePgLy3QAEoQop4qTiizUpPcA9W4hicDPQbyFwy8.css" media="screen and (max-width: 1120px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_x6jmIfqhj-FsOnnhlP1xJz2nPquLgCidUXbw8L_t7rI.css" media="screen and (max-width: 960px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_M3RDWTJ6lGtavjhvDwLNpjbXAiGmhCOrkcFmdSemORc.css" media="screen and (max-width: 800px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_FwgCyGWKHtyqZ-tFNe9e1z0quEw5hnyx9iEd9xpoV4s.css" media="screen and (max-width: 700px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_IFldtq1aHqF1D9D5yEAAiYZQFaIgFxNYIacU0SeZisw.css" media="screen and (max-width: 640px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_1wHTipaa9he6EnHZrLETKE9X4Iop8lBMK_ooGelD1V4.css" media="screen and (max-width: 480px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_G4zZ8mnDVMX0YIsaqVhq9r6THzHysnVzidIKkzfagqU.css" media="screen and (max-width: 400px)" />
+<link type="text/css" rel="stylesheet" href="https://www.biocentury.com/sites/default/files/css/css_RZjdVlUI5KLTsKMA986cOj_hMuHGscZpE6ZCHUaLg3M.css" media="screen and (max-width: 360px)" />
+  <!--[if IE 7]><link rel="stylesheet" type="text/css" href="/sites/all/themes/biocentury/css/ie7.css"><![endif]-->
+
+  <script type="text/javascript">
+    (function() {
+      var didInit = false;
+      function initMunchkin() {
+        if(didInit === false) {
+          didInit = true;
+          Munchkin.init('731-BYF-828', { 'asyncOnly': true, 'disableClickDelay': true });
+        }
+      }
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//munchkin.marketo.net/munchkin.js';
+      s.onreadystatechange = function() {
+        if (this.readyState == 'complete' || this.readyState == 'loaded') {
+          initMunchkin();
+        }
+      };
+      s.onload = initMunchkin;
+      document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+  </script>
+    <script type="text/javascript">
+	  window.dataLayer = window.dataLayer || [];
+	  	  dataLayer.push({"UserID":"","CompanyName":"","LoginStatus":"No","IPAuthStatus":"No","PaidEntitlementStatus":"No","TrialEntitlementStatus":"No","PaidEntitlements":"","TrialEntitlements":"","DayOfTrial":"","PageType":"Article","ArticleID":"300787","Headline":"Killing Part D rebates ","Authors":"Steve Usdin, Washington Editor","PubDate":"02-08-2019","Product":"BioCentury","Category":"Politics, Policy & Law","Application":"Legacy","NetworkStatus":"Online"});
+	  	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer', 'GTM-WWLMD4W');
+   </script>
+      	<script src="//bciq.biocentury.com/webcontrols/x-tag-core.js?v=2.2"></script>
+	<link rel="stylesheet" type="text/css" href="//bciq.biocentury.com/webcontrols/styles.css?v=2.2">
+	</head>
+<body class="html not-front not-logged-in two-sidebars page-node page-node- page-node-300787 node-type-article i18n-en section-politics-policy-law section-2019-02-08 section-biocentury" >
+<script type="text/javascript" src="//app-sj13.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_JE9pq6eEWLckDlN4xJceut6LfFPHXWJ4gPnaBUlptTw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_XX9THuruZU-mjAYkefouxektft7dMeZF7WvFYRIomN0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_s3L_uC35AiN5EGYY533su-jccnLRp2aKpOnjgPLbo34.js"></script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_5XMh9keTzMMoklKOMPodw7gqXMLh8_GHAHRpCiA7GLU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var mapping = googletag.sizeMapping()
+  .addSize([0, 0], [320, 50])
+  .addSize([768, 200], [728, 90])
+  .build();
+googletag.slots["drupal_leaderboard"] = googletag.defineSlot("/2408056/Drupal_Leaderboard_728x90", [728, 90], "dfp-ad-drupal_leaderboard")
+  .addService(googletag.pubads())
+  .defineSizeMapping(mapping);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["drupal_skyscraper"] = googletag.defineSlot("/2408056/Drupal_Skyscraper_300x600", [300, 600], "dfp-ad-drupal_skyscraper")
+  .addService(googletag.pubads());
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_6vM14b4BmM5srP_EQ4nmrEZGNFiHYyk-JzsNauDZYS4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {
+  googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+});
+
+googletag.enableServices();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_w7XzJ4hDOpYvPq2spF3Bpq5nJWNBUzoEDE-ZhK8r7oM.js"></script>
+<script type="text/javascript" src="https://www.biocentury.com/sites/default/files/js/js_gEumllyQpDF1nttA2vC1bqznQhqz78aH7PxvtOcTfiI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","bc_help_url":"https:\/\/www.biocentury.com\/user\/support\/help","ajaxPageState":{"theme":"biocentury","theme_token":"uBvQdWJQhQLglotMm8peQfgaIOjY3tz2NlCE-3KVWTQ","jquery_version":"2.1","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/2.1\/jquery.min.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery-migrate\/1.2.1\/jquery-migrate.min.js":1,"misc\/jquery.once.js":1,"1":1,"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/3\/jquery.form.min.js":1,"2":1,"3":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tooltip.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"4":1,"sites\/all\/modules\/features\/bc_transmitted_request_state\/bc_transmitted_request_state.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/radioactivity\/js\/radioactivity.js":1,"sites\/all\/modules\/features\/bc_content\/jquery.mark.min.js":1,"sites\/all\/modules\/features\/bc_content\/bc_content.js":1,"sites\/all\/modules\/contrib\/form_placeholder\/form_placeholder.js":1,"sites\/all\/themes\/biocentury\/..\/..\/modules\/contrib\/lodash\/lodash.min.js":1,"sites\/all\/themes\/biocentury\/js\/jquery.colorbox-min.js":1,"sites\/all\/themes\/biocentury\/js\/jquery.mCustomScrollbar.js":1,"sites\/all\/themes\/biocentury\/js\/jquery.cookie.js":1,"sites\/all\/themes\/biocentury\/js\/moment.min.js":1,"sites\/all\/themes\/biocentury\/js\/jquery.print.js":1,"sites\/all\/themes\/biocentury\/js\/moment-timezone-with-data.min.js":1,"sites\/all\/themes\/biocentury\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tooltip.css":1,"sites\/all\/modules\/contrib\/simplenews\/simplenews.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/radioactivity\/css\/radioactivity.css":1,"sites\/all\/themes\/biocentury\/css\/reset.css":1,"sites\/all\/themes\/biocentury\/css\/colorbox.css":1,"sites\/all\/themes\/biocentury\/css\/jquery.mCustomScrollbar.css":1,"sites\/all\/themes\/biocentury\/css\/chosen.css":1,"sites\/all\/themes\/biocentury\/css\/style.css":1,"sites\/all\/themes\/biocentury\/css\/print.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-1120.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-960.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-800.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-700.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-640.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-480.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-400.css":1,"sites\/all\/themes\/biocentury\/css\/screen\/screen-360.css":1}},"better_exposed_filters":{"views":{"trial_subscription":{"displays":{"trial_subscription":{"filters":[]}}},"buy_article":{"displays":{"buy_unauth":{"filters":[]}}},"conference_menu":{"displays":{"conf_menu":{"filters":[]}}}}},"ajax":{"edit-product-id-5":{"callback":"commerce_cart_add_to_cart_form_attributes_refresh","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"product_id"}},"edit-product-id-1":{"callback":"commerce_cart_add_to_cart_form_attributes_refresh","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"product_id"}},"edit-product-id-5--2":{"callback":"commerce_cart_add_to_cart_form_attributes_refresh","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"product_id"}},"edit-product-id-1--2":{"callback":"commerce_cart_add_to_cart_form_attributes_refresh","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"product_id"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/biocentury\/politics-policy-law\/2019-02-08\/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-":true},"form_placeholder":{"fallback_support":false,"include":"#commerce-checkout-form-checkout .form-text, #commerce-checkout-form-checkout .form-select","exclude":"","required_indicator":"leave"},"radioactivity":{"emitters":{"emitDefault":[{"accuracy":100,"bundle":"article","energy":10,"entity_id":"300787","entity_type":"node","field_name":"popularity","language":"und","storage":"Live","type":"none","checksum":"adc4db5a37778133db99c3816776fde7"}]},"config":{"emitPath":"\/sites\/all\/modules\/contrib\/radioactivity\/emit.php","fpEnabled":0,"fpTimeout":"15"}},"bc_cookie_domain":".biocentury.com","bc_print_footer":"\u003Cp\u003E\u003Ca href=\u0022\/node\/1018\u0022\u003E\u003Cspan\u003E\u00a9 2019 BioCentury Inc. All Rights Reserved.\u003C\/span\u003E\u003C\/a\u003E \u00a0\u00a0 \u003Ca href=\u0022\/legal\/terms-of-use\u0022\u003ETerms \u0026amp; Conditions\u003C\/a\u003E | \u003Ca href=\u0022\/privacy-policy\u0022\u003EPrivacy Policy\u003C\/a\u003E\u003C\/p\u003E","bc_print_css":"https:\/\/www.biocentury.com\/sites\/all\/themes\/biocentury\/css\/print.css","bc":{"customerid":"","product":"1"}});
+//--><!]]>
+</script>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+  <div id="page-wrapper">
+        <div id="block-dfp-drupal-leaderboard" class="block block-dfp">
+
+    
+  <div class="content">
+    <div id="dfp-ad-drupal_leaderboard-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-drupal_leaderboard" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-drupal_leaderboard");
+    });
+  </script>
+</div>
+</div>  </div>
+</div>
+    <div id="menu-bar" class="section"><div class="limiter clearfix">
+      <a id="top-left-search" href="#"><img src="/sites/all/themes/biocentury/css/images/icon_search.png" width="30" height="30" alt="Search" /></a>
+
+<div class="links-top-left clearfix">
+  
+      <ul class="menu">
+        <li class="first leaf"><a title="View articles" href="/articles">Publications</a></li>
+        <li class="leaf"><a href="/archives">Archives</a></li>
+        <li class="leaf"><a href="//bciq.biocentury.com/home">BCIQ</a></li>
+        <li class="leaf"><a href="/conferences">Conferences</a></li>
+        <!--<li class="last leaf"><a id="cart-link-top" href="/cart">Cart</a></li>-->
+      </ul>
+    </div>
+<div class="links-top-right clearfix">
+  	  <ul class="menu">
+    <li class="first leaf"><a title="Free Trial" href="/subscribe/trial">Free Trial</a> / <a title="Subscribe" href="/subscribe">Subscribe</a></li>	
+	    <li class="last leaf"><a title="Sign In" id="top-menu-login" href="/user/login">Sign In</a></li>    <li class="last leaf"><a title="Sign In" id="top-menu-login-mobile" href="#">Sign In</a></li>      </ul>
+
+		<ul class="language-switcher-locale-url">
+					<li class="en first active">
+				<a href="/" class="language-link active" xml:lang="en">
+					English				</a>
+			</li>
+					<li class="zh-hans">
+				<a href="/marketing/zh-hans" class="language-link " xml:lang="zh-hans">
+					简体中文				</a>
+			</li>
+					<li class="ja">
+				<a href="/marketing/ja" class="language-link " xml:lang="ja">
+					日本語				</a>
+			</li>
+					<li class="ko last">
+				<a href="/marketing/ko" class="language-link " xml:lang="ko">
+					한국어				</a>
+			</li>
+			</ul>
+</div>
+
+
+    </div></div>
+    <div id="menu-bar-bottom"><div id="user-login-form-custom"> <bc-login-form is-bciq="false" type="horizontal" domain=".biocentury.com" redirect="/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" password-url="/user/support/password/forgot" token-entry-point="https://bciq.biocentury.com/auth/connect/token"></bc-login-form></div></div>
+    <div id="header" class="section"><div class="limiter clearfix">
+      <a href="/" title="Home" rel="home" id="logo-main">Biocentury</a>
+      
+    <form accept-charset="UTF-8" id="cross-site-search-form" class="views-exposed-form-search-page" method="get" action="/archives">
+      <div class="clearfix">
+        <div class="views-exposed-form">
+          <div class="views-exposed-widgets clearfix">
+            <input type="hidden" class="hidden" name="st" value="general" />
+            <div class="views-exposed-widget views-widget-filter-search_api_views_fulltext" id="edit-kwbc-wrapper">
+              <label for="edit-kwbc">Search</label>
+              <div class="views-widget">
+                <div class="form-item form-type-textfield form-item-kwbc">
+                  <input type="text" class="form-text" size="30" value="" name="kwb" id="edit-kwbc" autocomplete="off" />
+                </div>
+              </div>
+            </div>
+            <div class="views-exposed-widget views-submit-button">
+              <input type="submit" class="form-submit" value="Apply" name="" id="edit-submit-search" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>    </div>
+    <div class="block block-block contextual-links-region" id="menu-dropdown">
+	  <div class="content">
+	    <h6 class="clearfix"><img width="30" height="30" alt="Menu" src="/sites/all/themes/biocentury/css/images/menu_arrow.png"/><span>Menu</span></h6>
+	    <div class="menu-block-wrapper">
+	      <ul class="clearfix">
+	        <li class="collapse"><a id="menu-today" class="menu-today" href="/">Home <img width="20" height="20" alt="Today" src="/sites/all/themes/biocentury/css/images/icon_today.png"/><span>+</span></a></li>
+	        <li class="collapse"><a id="menu-publications" class="menu-publications" title="Publications" href="/articles">Publications <img width="20" height="20" alt="Publications" src="/sites/all/themes/biocentury/css/images/icon_publications.png"/><span>+</span></a>
+	          <ul class="menu" id="publication-brand-section-menu"><li class="brand-section-menu-item"><a href="/biocentury">BioCentury</a></li><li class="brand-section-menu-item"><a href="/bc-innovations">BC Innovations</a></li><li class="brand-section-menu-item"><a href="/bc-extra">BC Extra</a></li><li class="brand-section-menu-item"><a href="/bc-week-review">BC Week In Review</a></li><li class="brand-section-menu-item"><a href="/user/back-issues?type=bc">Current Issues</a></li></ul>
+	        </li>
+	        <li class="collapse"><a id="menu-archives" class="menu-archives" title="Archives" href="/archives">Archives <img width="20" height="20" alt="Archives" src="/sites/all/themes/biocentury/css/images/icon_archives.png"/><span>+</span></a>
+	          <ul class="menu"><li class="first leaf"><a href="/archives" id="menu-link-basic-search">Basic Search</a></li>
+<li class="leaf"><a href="/archives" id="menu-link-advanced-search">Advanced Search</a></li>
+<li class="last leaf"><a href="/user/back-issues?type=bc">Back Issues</a></li>
+</ul>
+	        </li>
+	        <li class="collapse"><a id="menu-bciq" title="BCIQ" class="menu-bciq" href="//bciq.biocentury.com/marketing">BCIQ <img width="20" height="20" alt="BCIQ" src="/sites/all/themes/biocentury/css/images/icon_bciq.png"/><span>+</span></a>
+	          <ul class="menu">
+	      <li class="first leaf"><a href="//bciq.biocentury.com/marketing">Overview<span>&gt;</span></a></li>
+		  <li class="leaf"><a href="//bciq.biocentury.com/login?backUrl=%2Fhome">Newsfeed<span>&gt;</span></a></li>
+	      <li class="leaf"><a href="//bciq.biocentury.com/login?backUrl=%2Fcompany">Companies<span>&gt;</span></a></li>
+	      <li class="leaf"><a href="//bciq.biocentury.com/login?backUrl=%2Fpipeline">Products<span>&gt;</span></a></li>
+	      <li class="leaf"><a href="//bciq.biocentury.com/login?backUrl=%2Ffinance">Finance<span>&gt;</span></a></li>
+	      <li class="leaf leaf"><a href="//bciq.biocentury.com/login?backUrl=%2Fdeal">Deals<span>&gt;</span></a></li>
+	    </ul>
+	        </li>
+	        <li class="collapse"><a id="menu-conferences" title="Conferences" class="menu-conferences" href="/conferences">Conferences <img width="20" height="20" alt="Conferences" src="/sites/all/themes/biocentury/css/images/icon_conferences.png"/><span>+</span></a>
+	                <ul class="menu">
+      <li>
+          
+          <a href="/conferences/china-healthcare-summit-2019" rel="China Healthcare Summit">China Healthcare Summit</a>    </li><li>
+          
+          <a href="/conferences/bio€quity-europe-2019" rel="Bio€quity Europe">Bio€quity Europe</a>    </li><li>
+          
+          <a href="/conferences/future-leaders-2019" rel="Future Leaders">Future Leaders</a>    </li><li>
+          
+          <a href="/conferences/newsmakers-2018" rel="Newsmakers">Newsmakers</a>    </li>      <li><a href="/conferences/other-events">Other Industry Events</a></li>
+    </ul>
+  
+	        </li>
+	        <li class="collapse last" id="menu-interact-li"><a id="menu-interact" title="eLearning" class="menu-interact" href="/interactive">eLearning <img width="20" height="20" alt="Interact" src="/sites/all/themes/biocentury/css/images/icon_interact.png"/><span>+</span></a>
+	          <ul class="menu"><li class="first leaf"><a href="/interactive/videos">Videos</a></li>
+<li class="last leaf"><a href="/interactive/whitepapers">White Papers</a></li>
+</ul>
+	        </li>
+	        <li class="follow-us"><span class="text-link">Follow Us</span>
+	          <p>
+	          		<a bc-action="Tweet" href="https://twitter.com/BioCentury" target="_blank">
+	          			<img width="27" height="27" alt="Twitter" src="/sites/all/themes/biocentury/css/images/icon_twitter_gray3.png"/>
+	          		</a>
+	          		<a bc-action="LinkedIn" href="https://www.linkedin.com/company/biocentury-publications?trk=top_nav_home" target="_blank">
+	          			<img width="27" height="27" alt="LinkedIn" src="/sites/all/themes/biocentury/css/images/icon_linkedin_gray3.png"/>
+	          		</a>
+	          		<a bc-action="RSS" href="/rssfeeds">
+	          			<img width="27" height="27" alt="RSS" src="/sites/all/themes/biocentury/css/images/icon_rss_gray3.png"/>
+	          		</a>
+	          	</p>
+	        </li>
+	      </ul>
+	      <div><a href="" id="menu-close"><img width="30" height="30" alt="X" src="/sites/all/themes/biocentury/css/images/menu_x.png"/></a></div>
+	    </div>
+	  </div>
+	</div>    </div>
+    <div id="breadcrumb"><div class="limiter clearfix"><div id="breadcrumb-left"><a href="/">Home</a> / <a href="/articles">Publications</a> / <span>BioCentury</span></div> <div id="breadcrumb-right"><a href="/user/back-issues?type=bc">Current &amp; Back Issues</a> &nbsp; | &nbsp; <a href="/user/tools/saved-searches">Manage Saved Searches</a> &nbsp; | &nbsp; <a href="/user/tools/purchases_list">My purchases</a> &nbsp; | &nbsp; <a href="/user/tools/support">Support</a></div></div></div>        <div id="main-content" class="section"><div class="limiter clearfix">
+         <div class="region region-sidebar-second">
+    <div id="block-dfp-drupal-skyscraper" class="block block-dfp">
+
+    
+  <div class="content">
+    <div id="dfp-ad-drupal_skyscraper-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-drupal_skyscraper" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-drupal_skyscraper");
+    });
+  </script>
+</div>
+</div>  </div>
+</div>
+  </div>
+
+      <div id="content-wrapper" class="clearfix">
+                <div id="banner-image"><img typeof="foaf:Image" src="https://www.biocentury.com/sites/default/files/styles/article_banner/public/article_images/BC_KillingRebates_021119_BannerImage_i.jpg?itok=SB8oZSBj" width="846" height="344" alt="" title="YURI_ARCURS/E+/GETTY IMAGES" /></div>        <div id="banner-image-credit"></div>        <div id="content" class="section  clearfix">
+                    <div id="content-wrapper-inner" class="clearfix">
+            <div class="title-top">
+            	<div class="time js_localDate" data-orig-date="2019-02-08T18:06:40-08:00" data-format="h:mm a z">6:06 PM</div> &nbsp;|&nbsp;
+            	<div class="date js_localDate" data-orig-date="2019-02-08T18:06:40-08:00" data-format="MMM D, YYYY">Feb 08, 2019</div> &nbsp;|&nbsp;
+            	<a href="/biocentury">BioCentury</a>  &nbsp;|&nbsp;  <a href="/biocentury/politics-policy-law-0">Politics, Policy &amp; Law</a>            </div>
+                        <h1 class="title" id="page-title">Killing Part D rebates </h1>                        <div class="title-bottom">How scrapping Part D PBM rebates will help Trump, patients and pharma</div>
+            <div class="tabs"></div>                                                    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-300787" class="node node-article node-promoted node-politics-policy--law node-biocentury node--article--summary clearfix" about="/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" typeof="sioc:Item foaf:Document">
+
+
+  <div class="content clearfix">
+
+
+    <div class="submitted clearfix">
+            <div class="time">6:06 PM</div>
+      <div class="date">Feb 08, 2019</div>
+      <div class="byline">
+        <div class="name">by Steve Usdin, Washington Editor</div>
+        <div class="job-title"></div>
+      </div>
+      <div class="social">
+        <span>Share</span>
+        <a target="_blank" bc-action="Tweet" href="https://twitter.com/intent/tweet?text=How%20scrapping%20Part%20D%20PBM%20rebates%20will%20help%20Trump%2C%20patients%20and%20pharma&url=https%3A%2F%2Fwww.biocentury.com%2Fbiocentury%2Fpolitics-policy-law%2F2019-02-08%2Fhow-scrapping-part-d-pbm-rebates-will-help-trump-patients-"><img src="/sites/all/themes/biocentury/css/images/icon_twitter_gray.png" width="27" height="27" alt="Twitter"/></a>
+        <a target="_blank" bc-action="FBShare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.biocentury.com%2Fbiocentury%2Fpolitics-policy-law%2F2019-02-08%2Fhow-scrapping-part-d-pbm-rebates-will-help-trump-patients-"><img src="/sites/all/themes/biocentury/css/images/icon_facebook_gray.png" width="27" height="27" alt="Facebook"/></a>
+        <a bc-action="Forward" href="mailto:?Subject=How%20scrapping%20Part%20D%20PBM%20rebates%20will%20help%20Trump%2C%20patients%20and%20pharma&body=https%3A%2F%2Fwww.biocentury.com%2Fbiocentury%2Fpolitics-policy-law%2F2019-02-08%2Fhow-scrapping-part-d-pbm-rebates-will-help-trump-patients-"><img src="/sites/all/themes/biocentury/css/images/icon_unknown_gray.png" width="27" height="27" alt="Forward"/></a>
+      </div>
+      <div class="text-size">
+        <span>Text Size</span>
+        <a class="active" id="text-size-small" href="#">A</a>
+        <a id="text-size-medium" href="#">A</a>
+        <a id="text-size-large" href="#">A</a>
+      </div>
+      <div class="text-print clearfix">
+        <div class="printer-friendly">
+          <span>Print</span>
+          <a bc-action="Print" target="_blank" href="/print/300787"><img src="/sites/all/themes/biocentury/css/images/icon_print_gray.png" alt="Print"/></a>
+        </div>
+        <div class="pdf-version">
+          <span>PDF</span>
+          <a bc-action="PDF" target="_blank" href="/printpdf/300787"><img src="/sites/all/themes/biocentury/css/images/icon_pdf_gray.png" alt="PDF"/></a>
+        </div>
+      </div>
+    </div>
+          <div class="content clearfix"><div class="field field-name-body"><div class="field-items"><div class="field-item clearfix"><p class="bodytext">HHS’s proposal to scrap the secret rebates drug manufacturers pay PBMs and health plans in Medicare Part D would help President Donald Trump fulfill promises to reduce drug prices. It would also reduce financial burdens on senior citizens who incur the highest costs at pharmacy counters, and remove perverse incentives for Part D plans to steer patients to the most expensive drugs. </p><p class="bodytext">Although HHS Secretary Alex Azar is presenting the proposal as an attack on the drug industry, unlike many drug price proposals announced by the Trump administration and under consideration in Congress, biopharma companies are delighted by the rebate proposal (see Sidebar: “Popping Corks”). </p><p class="bodytext">That’s because while eliminating Part D PBM rebates will lead to lower list prices for some drugs, it isn’t likely to reduce the net prices manufacturers actually receive for most drugs, and it could even make net increases possible for some drugs.  </p><p class="bodytext">The policy change would also boost revenues for biopharma companies by reducing their obligations to provide discounts in the Part D coverage gap. </p><p class="bodytext">The collateral upside for the industry is that visible and dramatic list price reductions could improve its standing among politicians and the public.</p><p class="bodytext">Eliminating rebates isn’t a zero-sum game, but it would create some losers. </p><p class="bodytext">These include companies in competitive spaces that have jacked up list prices and given PBMs large rebates to negotiate favorable formulary status to grab marketshare from less expensive therapeutic alternatives such as biosimilars.</p><blockquote>“Large rebates on expensive drugs are used by middlemen not just to pad their profits, but to push down premiums.”<p class="author">Alex Azar, HHS</p></blockquote><p class="bodytext">PBMs would be hit hard. They would no longer be able to siphon profits from rebate pools, and would lose one of their most potent tools for reducing their clients’ costs.</p><p class="bodytext">CMS acknowledges that it can’t predict every way the proposed rule would ripple through the Part D marketplace, and that it is likely to cause some pain. </p><p class="bodytext">Among the negatives could be higher premiums for all Part D beneficiaries, since a large portion of PBM rebates are allocated for subsidizing premiums, Azar said last week in a briefing for reporters. </p><p class="bodytext">In response to loss of rebate revenue, Part D plans could reduce costs by tightening formularies, which would decrease access to drugs.  </p><p class="bodytext">The proposed rule has been written as if it will go into effect in January 2020, a goal that would cheer political strategists working on campaigns for Trump and congressional Republicans. </p><p class="bodytext">Given the complexity and possibility of legal challenges, however, there’s a good chance that implementation will be pushed back to 2021. </p><div id="inline-content-bar-1"><div id="inline-content-block-2"><div class="inline-content-1"><h3><br />Sidebar: Popping corks</h3><p class="sidebar-body-text">In a speech on Feb. 1, Azar accused drug companies of “building a shadowy system of kickbacks” and vowed to end the pernicious practice by implementing a proposed rule eliminating rebate payments to Medicare Part D PBMs.</p><p class="sidebar-body-text">Speaking on the Fox television network on Feb. 8, Azar said the Trump administration will put “billions and billions of dollars of kickbacks and rebates to the benefit of the patient at the pharmacy counter, and we will take away the last excuse the drug companies have for these inflated and ever-increasing list prices.”</p><p class="sidebar-body-text">Rather than complain about the policy, pharma CEOs are popping champagne corks. Several praised the proposal in earnings calls. </p><p class="sidebar-body-text">“We support the administration’s approach,” Emma Walmsley, CEO of GlaxoSmithKline plc, said Feb. 6 on an earnings call. The proposal, she said, would bring “more transparency to the kind of pricing value chain and continue to encourage, thereby, responsible pricing and, most importantly, passing on the discounts that manufacturers provide to patients so that out-of-pocket can be impacted.”</p><p class="sidebar-body-text">During an earnings call on Feb. 1, Lars Fruergaard Jørgensen, CEO of Novo...</p></div></div></div></div></div></div></div>
+      <div id="article-count"><h3>Read the full <span id="article-count-number">3096</span> word article</h3></div>
+  </div>
+
+      <div id="article-bottom-boxes" class="clearfix nblocks-3">
+      <div id="block-user-login" class="block block-user">
+
+    <h3>User Sign in</h3>
+  
+  <div class="content">
+    <bc-login-form is-bciq="false" type="vertical" redirect="https://www.biocentury.com/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" domain=".biocentury.com" password-url="/user/support/password/forgot" token-entry-point="https://bciq.biocentury.com/auth/connect/token"></bc-login-form>  </div>
+</div>
+<div id="block-views-0f40da547fedd470320db9a1648df303" class="block block-views">
+
+    <h3>Trial Subscription</h3>
+  
+  <div class="content">
+    <div class="view view-trial-subscription view-id-trial_subscription view-display-id-trial_subscription view-dom-id-f267cb614e098981fe48324335ea08c5">
+              
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="trial-subscription-text">Get a 4-week free trial subscription to BioCentury</div>
+<div class="trial-subscription-link"><a href="/subscribe/trial">Sign Up</a></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-buy-article-buy-unauth" class="block block-views">
+
+    <h3>Article Purchase</h3>
+  
+  <div class="content">
+    <div class="view view-buy-article view-id-buy_article view-display-id-buy_unauth view-dom-id-5083d81616a6f3252d55fcbc45e75665">
+              
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-rendered-entity">        <span class="field-content"><div id="node-754" class="node node-articlepdf-product-display clearfix" about="/node/754" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Buy BioCentury Article/PDF" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="product-display-content-wrapper"> <div class="commerce-product-field commerce-product-field-commerce-price field-commerce-price node-754-product-commerce-price"><div class="field field-name-commerce-price field-type-commerce-price field-label-hidden"><div class="field-items"><div class="field-item even">$150  USD</div></div></div></div></div><div class="field field-name-article-product-mref field-type-commerce-product-reference field-label-hidden"><div class="field-items"><div class="field-item even"><form class="commerce-add-to-cart commerce-cart-add-to-cart-form-1-5" action="/biocentury/politics-policy-law/2019-02-08/how-scrapping-part-d-pbm-rebates-will-help-trump-patients-" method="post" id="commerce-cart-add-to-cart-form-1-5--2" accept-charset="UTF-8"><div><div id="edit-product-id--2" class="form-radios"><div class="form-item form-type-radio form-item-product-id">
+ <input type="radio" id="edit-product-id-5--2" name="product_id" value="5" class="form-radio" />  <label class="option" for="edit-product-id-5--2">Distribution and Website Posting $750.00  USD </label>
+
+</div>
+<div class="form-item form-type-radio form-item-product-id">
+ <input type="radio" id="edit-product-id-1--2" name="product_id" value="1" checked="checked" class="form-radio" />  <label class="option" for="edit-product-id-1--2">Individual Use $150.00  USD </label>
+
+</div>
+</div><input type="hidden" name="form_build_id" value="form-gwVtudZNE2-CeB9nGpIZ6FY965aXP2xN9rrBfUYvcO8" />
+<input type="hidden" name="form_id" value="commerce_cart_add_to_cart_form_1_5" />
+<div class="article-purchase-more-info"><a href="/about/article-purchase" target="_blank">More Info &gt;</a></div><input type="submit" id="edit-submit--2" name="op" value="Purchase" class="form-submit" /><div id="edit-line-item-fields--2" class="form-wrapper"></div><input type="hidden" name="quantity" value="1" />
+</div></form></div></div></div>  </div>
+
+  
+  
+</div>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+    </div>
+  </div>  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+            <div id="block-trending"><div class="content"></div></div>    <div id="footer" class="section"><div class="limiter clearfix">
+      
+<div class="block block-block contextual-links-region" id="footer-menu">
+  <div class="content">
+    <div class="columns columns-3 clearfix">
+      <div class="column column-1">
+        <h6>About Biocentury</h6>
+        <ul class="menu"><li class="first leaf"><a href="/about-biocentury">Company Overview</a></li>
+<li class="leaf"><a href="/about/biocentury-management">Management</a></li>
+<li class="leaf"><a href="/about/editorial-research">Editorial &amp; Research</a></li>
+<li class="last leaf"><a href="/market-data">Market Data</a></li>
+</ul>      </div>
+      <div class="column column-2">
+        <h6>Contact</h6>
+        <ul class="menu"><li class="first leaf"><a href="/contact-us">Contact Us</a></li>
+<li class="leaf"><a href="/contact/advertising-sponsorship">Advertising &amp; Sponsorship</a></li>
+<li class="last leaf"><a href="/contact/career-opportunities">Career Opportunities</a></li>
+</ul>      </div>
+      <div class="column column-3">
+        <h6>Support</h6>
+        <ul class="menu"><li class="first leaf"><a href="/user/support/password/forgot">Forgot Password</a></li>
+<li class="leaf"><a href="/support/customer-service">Customer Service</a></li>
+<li class="last leaf"><a href="/support/faqs">FAQs</a></li>
+</ul>      </div>
+      <div class="column column-4">
+        <h6>Products & Solutions</h6>
+        <ul class="menu"><li class="first leaf"><a href="/marketing">Products Overview</a></li>
+<li class="leaf"><a href="/articles">Publications</a></li>
+<li class="leaf"><a href="/archives">Archives</a></li>
+<li class="leaf"><a href="https://bciq.biocentury.com/home" target="_blank">BCIQ</a></li>
+<li class="leaf"><a href="/conferences">Conferences</a></li>
+<li class="leaf"><a href="/interactive">eLearning</a></li>
+<li class="last leaf"><a href="/rssfeeds">RSS Feeds</a></li>
+</ul>      </div>
+      <div class="column column-5">
+        <h6>Legal</h6>
+        <ul class="menu"><li class="first leaf"><a href="/legal/user-agreement">User Agreement</a></li>
+<li class="leaf"><a href="/legal/terms-of-use">Terms of Use</a></li>
+<li class="leaf"><a href="/legal/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/legal/your-california-privacy-rights">Your California Privacy Rights</a></li>
+<li class="leaf"><a href="/legal/use-of-images">Use of Images</a></li>
+<li class="last leaf"><a href="/market-data">Market Data</a></li>
+</ul>		<ul>
+	        <li class="follow-us">Follow Us
+	          <p>
+	          	<a bc-action="Tweet" target="_blank" href="https://twitter.com/BioCentury">
+	          		<img width="27" height="27" alt="Twitter" src="/sites/all/themes/biocentury/css/images/icon_twitter_gray.png">
+	          	</a>
+	          	<a bc-action="LinkedIn" target="_blank" href="https://www.linkedin.com/company/biocentury-publications?trk=top_nav_home">
+	          		<img width="27" height="27" alt="LinkedIn" src="/sites/all/themes/biocentury/css/images/icon_linkedin_gray.png">
+	          	</a>
+          		<a bc-action="RSS" href="/rssfeeds">
+          			<img width="27" height="27" alt="RSS" src="/sites/all/themes/biocentury/css/images/icon_rss_gray.png"/>
+          		</a>
+	          </p>
+	        </li>
+        </ul>
+      </div>
+      <div class="column column-6">
+        <h6>What is BioCentury?</h6>
+        <p>BioCentury employs a fully integrated multimedia platform — including publications, online data solutions and conferences — to provide its audience with authoritative and up-to-date intelligence about corporate strategy, partnering, emerging technology, clinical data, public policy and the financial markets.</p>
+        <p id="footer-buttons" class="clearfix"><a id="btn-footer-login" href="/login">Sign In</a><a id="btn-free-trial" href="/subscribe/trial">Free Trial</a></p>      </div>
+     </div>
+  </div>
+</div>
+<div id="block-block-6" class="block block-block">
+
+    
+  <div class="content">
+    <p><a href="/node/1018"><span>© 2019 BioCentury Inc. All Rights Reserved.</span></a>    <a href="/legal/terms-of-use">Terms &amp; Conditions</a> | <a href="/privacy-policy">Privacy Policy</a></p>  </div>
+</div>
+    </div></div>
+  </div>
+      <!-- Dummy to force load the icon image for iphone -->
+  <div style="display:none" class="chosen-container-multi">
+    <ul class="chosen-choices"><li class="search-choice"><a class="search-choice-close"></a></li></ul>
+  </div>
+  <script type="text/javascript">
+  (function() {
+		var arrForm = [
+			"bc-login-form",
+			"bc-password-forgot",
+			"bc-registration",
+			"bc-assistance-info"
+		];
+
+		for (var i = 0; i < arrForm.length; i++) {
+			var formName = arrForm[i];
+			var x = document.createElement("link");
+			x.async = 1;
+			x.setAttribute("rel", "import");
+			x.setAttribute("href", "//bciq.biocentury.com/webcontrols/"+ formName +".html?v=2.2");
+			document.head.appendChild(x);
+		}
+  })();
+  </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a9e716ee41","applicationID":"26374040","transactionName":"YlwGZxYEXRBUAU0IV1sWJVAQDFwNGgxWBV1qSQVUATpFClAV","queueTime":0,"applicationTime":800,"atts":"ThsFEV4eTh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

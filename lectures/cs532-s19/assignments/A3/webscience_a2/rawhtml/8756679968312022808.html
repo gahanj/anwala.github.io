@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xmlns:fb="http://ogp.me/ns/fb#" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<title>IVN POLL: Independents Like Bernie, Tulsi, and Trump for 2020 - IVN.us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" type="image/png" href="/wp-content/themes/ivn/assets/img/ivnappicon.png">
+<link rel="icon" type="image/png" href="/wp-content/themes/ivn/assets/img/ivnfavicon.png">
+
+<meta name="description" content="The presidential field is quickly emerging for the 2020 election. We asked our audience to tell us which candidates they like in this presidential poll." />
+<meta name="news_keywords" content="2020 elections, bernie sanders, democratic party, donald trump, independent voters, ivn, public opinion, republican party, tulsi gabbard, politics" />
+<link rel="original-source" href="https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/" />
+<meta name="robots" content="noodp" />
+<meta name="keywords" content="2020 elections, 2020, presidential election, Donald Trump, Bernie Sanders, Tulsi Gabbard, independent voters, IVN, politics, public opinion" />
+<link rel="canonical" href="https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/" />
+<link rel="publisher" href="https://plus.google.com/101219378970530930435/posts" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="IVN SURVEY: Independents Like Bernie, Tulsi, and Trump for 2020" />
+<meta property="og:description" content="The presidential field is quickly emerging for the 2020 election. We asked our audience to tell us which candidates they like in this presidential poll." />
+<meta property="og:url" content="https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/" />
+<meta property="og:site_name" content="IVN.us" />
+<meta property="article:publisher" content="https://www.facebook.com/IVN" />
+<meta property="article:author" content="https://www.facebook.com/IVN/" />
+<meta property="article:tag" content="2020 elections" />
+<meta property="article:tag" content="Bernie Sanders" />
+<meta property="article:tag" content="Democratic Party" />
+<meta property="article:tag" content="donald trump" />
+<meta property="article:tag" content="independent voters" />
+<meta property="article:tag" content="IVN" />
+<meta property="article:tag" content="public opinion" />
+<meta property="article:tag" content="republican party" />
+<meta property="article:tag" content="Tulsi Gabbard" />
+<meta property="article:section" content="Campaigns" />
+<meta property="article:published_time" content="2019-02-08T11:36:08-08:00" />
+<meta property="article:modified_time" content="2019-02-11T12:44:31-08:00" />
+<meta property="og:updated_time" content="2019-02-11T12:44:31-08:00" />
+<meta property="fb:app_id" content="546547282195004" />
+<meta property="og:image" content="https://ivn.us/wp-content/uploads/2019/02/ivn-poll-independents-ideologically-diverse-want-2020-challenger-two-party-establishment-96133.png" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:height" content="1080" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The presidential field is quickly emerging for the 2020 election. We asked our audience to tell us which candidates they like in this presidential poll." />
+<meta name="twitter:title" content="IVN POLL: Independents Like Bernie, Tulsi, and Trump for 2020 - IVN.us" />
+<meta name="twitter:site" content="@IVN" />
+<meta name="twitter:image" content="https://ivn.us/wp-content/uploads/2019/02/ivn-poll-independents-ideologically-diverse-want-2020-challenger-two-party-establishment-96133.png" />
+<meta name="twitter:creator" content="@TheShawnG" />
+<meta property="DC.date.issued" content="2019-02-08T11:36:08-08:00" />
+
+<link rel='dns-prefetch' href='//ivn.us' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<script>
+            (function(f,b,g){
+                var xo=g.prototype.open,xs=g.prototype.send,c;
+                f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+                f._hjSettings={hjid:8091, hjsv:2};
+                function ls(){f.hj.documentHtml=b.documentElement.outerHTML;c=b.createElement("script");c.async=1;c.src="//static.hotjar.com/c/hotjar-8091.js?sv=2";b.getElementsByTagName("head")[0].appendChild(c);}
+                if(b.readyState==="interactive"||b.readyState==="complete"||b.readyState==="loaded"){ls();}else{if(b.addEventListener){b.addEventListener("DOMContentLoaded",ls,false);}}
+                if(!f._hjPlayback && b.addEventListener){
+                    g.prototype.open=function(l,j,m,h,k){this._u=j;xo.call(this,l,j,m,h,k)};
+                    g.prototype.send=function(e){var j=this;function h(){if(j.readyState===4){f.hj("_xhr",j._u,j.status,j.response)}}this.addEventListener("readystatechange",h,false);xs.call(this,e)};
+                }
+            })(window,document,window.XMLHttpRequest);
+            </script>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ivn.us\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" href="https://ivn.us/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3">
+<link rel="stylesheet" href="https://ivn.us/wp-content/themes/ivn/assets/stylesheets/main.min.css?ver=16d7440b">
+
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-26203335-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+
+<script type='text/javascript' src='https://ivn.us/wp-content/themes/ivn/assets/vendor/jquery/dist/jquery.min.js?ver=be87b82a'></script>
+<script type='text/javascript' src='https://ivn.us/wp-content/themes/ivn/assets/vendor/js-cookie/src/js.cookie.js?ver=475b8209'></script>
+<script type='text/javascript' src='https://ivn.us/wp-content/themes/ivn/assets/vendor/validate/validate.min.js?ver=ccb7f2e2'></script>
+<script async type='text/javascript' src='https://ivn.us/wp-content/themes/ivn/assets/scripts/scripts.min.js?ver=78bd2568'></script>
+<link rel='https://api.w.org/' href='https://ivn.us/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://ivn.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fivn.us%2F2019%2F02%2F08%2Fivn-poll-independents-like-bernie-tulsi-and-trump-for-2020%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ivn.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fivn.us%2F2019%2F02%2F08%2Fivn-poll-independents-like-bernie-tulsi-and-trump-for-2020%2F&#038;format=xml" />
+<link rel="alternate" type="application/rss+xml" title="IVN.us Feed" href="https://ivn.us/feed/" />
+<script src="https://use.typekit.net/ynz0kkq.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({article:'auto'});
+      !function (e, f, u, i) {
+        if (!document.getElementById(i)){
+          e.async = 1;
+          e.src = u;
+          e.id = i;
+          f.parentNode.insertBefore(e, f);
+        }
+      }(
+        document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/ivn-ivn/loader.js',
+        'tb_loader_script'
+      );
+    </script>
+</head>
+<body>
+<div class="page" id="page">
+<div class="navbar ">
+<nav class="navbar__top">
+<div class="navbar__top-wrapper">
+<div class="navbar__branding-wrapper">
+<a class="navbar__branding" href="/">
+<img class="navbar__logo" src="/wp-content/themes/ivn/assets/img/ivnlogo.svg" alt="IVN's logo">
+</a>
+</div>
+<ul class="navbar__menu">
+<li class="navbar__menu-item">
+<button class="navbar__submenu-toggle">
+About <i class="navbar__submenu-toggle-icon fa fa-caret-down"></i>
+</button>
+ <ul class="navbar__submenu">
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/about/">
+<span class="navbar__submenu-link">About IVN</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/about/#etiquette">
+<span class="navbar__submenu-link">Etiquette</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/2018/05/04/writers-guide-publishing-ivn/">
+<span class="navbar__submenu-link">Guide to Publishing</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/newsletter/">
+<span class="navbar__submenu-link">Newsletter</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="navbar__menu-item">
+<button class="navbar__submenu-toggle">
+Issues <i class="navbar__submenu-toggle-icon fa fa-caret-down"></i>
+</button>
+<ul class="navbar__submenu">
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/electoral-reform/">
+<span class="navbar__submenu-link">Electoral Reform</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/campaigns/">
+<span class="navbar__submenu-link">Campaigns</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/civil-rights/">
+<span class="navbar__submenu-link">Civil Rights</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/economy/">
+<span class="navbar__submenu-link">Economy</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/healthcare/">
+<span class="navbar__submenu-link">Healthcare</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/legislation/">
+<span class="navbar__submenu-link">Legislation</span>
+</a>
+</li>
+ <li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/tag/privacy/">
+<span class="navbar__submenu-link">Privacy</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/category/opinion/">
+<span class="navbar__submenu-link">Opinion</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="navbar__menu-item">
+<a class="navbar__top-link" href="https://ivn.us/columns/san-diego/">
+IVN San Diego
+</a>
+</li>
+<li class="navbar__menu-item">
+<button class="navbar__submenu-toggle">
+More <i class="navbar__submenu-toggle-icon fa fa-caret-down"></i>
+</button>
+<ul class="navbar__submenu">
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/2018/04/23/what-is-electoral-reform/">
+<span class="navbar__submenu-link">What is Electoral Reform?</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/2013/10/22/how-do-primary-elections-work/">
+<span class="navbar__submenu-link">How Primaries Work</span>
+</a>
+</li>
+<li class="navbar__submenu-item">
+<a class="navbar__submenu-link-wrapper" href="https://ivn.us/tag/ivn-podcast/">
+<span class="navbar__submenu-link">IVN Podcast</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+<div class="navbar__spacer"></div>
+<ul class="navbar__actions">
+<li class="navbar__actions-item">
+<button class="navbar__action navbar__action_search">
+Search <i class="navbar__action-icon fa fa-search"></i>
+</button>
+</li>
+<li class="navbar__actions-item navbar__actions-item_login">
+<a class="navbar__action" id="navbar__login" href="https://ivn.us/wp-login.php" rel="nofollow">
+Login <i class="navbar__action-icon fa fa-sign-in"></i>
+</a>
+</li>
+<li class="navbar__actions-item">
+<a class="navbar__action" id="navbar__write" href="https://ivc.typeform.com/to/TzXQ2d" title="Publish your story on IVN" data-mode="1" target="_blank" rel="nofollow">
+Write <i class="navbar__action-icon fa fa-edit"></i>
+</a>
+</li>
+<li class="navbar__actions-item navbar__actions-item_menu-toggle">
+<button class="navbar__action navbar__action_menu-toggle" id="navbar__menu-toggle">
+Menu <i class="navbar__action-icon fa fa-bars"></i>
+</button>
+</li>
+</ul>
+</div>
+<button class="navbar__screen-menu-toggle"></button>
+</nav>
+<div class="navbar__search">
+<div class="search-bar">
+<form class="search-bar__form" role="search" method="get" action="/">
+<label class="search-bar__label">
+Search for:
+</label>
+<input class="search-bar__input" type="search" value="" name="s" placeholder="Search" speech="speech" x-webkit-speech="x-webkit-speech">
+<button class="search-bar__submit-button" type="submit">
+<i class="fa fa-search"></i>
+</button>
+</form>
+</div>
+</div>
+</div>
+<div class="page--main-content">
+<div class="article" itemscope itemtype="https://schema.org/NewsArticle">
+<div class="hidden" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<meta itemprop="name" content="ivn.us">
+<meta itemprop="logo" content="/wp-content/themes/ivn/assets/img/ivn-logo.png">
+</div>
+<meta itemprop="url" content="https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/">
+<header class="article__header">
+<div class="article__pagers">
+<a href="https://ivn.us/2019/02/07/2019-sees-tremendous-surge-ranked-choice-legislation-nationwide/" aria-label="Go to previous post: 2019 Sees Tremendous Surge in Ranked Choice Legislation Nationwide" title="Go to previous post: 2019 Sees Tremendous Surge in Ranked Choice Legislation Nationwide" class="article__pager-link">
+<div class="article__pager-prev">
+<i class="fa fa-chevron-left fa-fw article__pager-icon"></i>
+</div>
+</a>
+<a href="https://ivn.us/2019/02/12/independent-budget-analyst-san-diego-fire-rescue-blows-through-budget/" aria-label="Go to next post: Independent Budget Analyst: San Diego Fire-Rescue Blows Through Budget" title="Go to next post: Independent Budget Analyst: San Diego Fire-Rescue Blows Through Budget" class="article__pager-link">
+<div class="article__pager-next">
+<i class="fa fa-chevron-right fa-fw article__pager-icon"></i>
+</div>
+</a>
+</div>
+<h1 class="article__title" itemprop="headline">IVN POLL: Independents Like Bernie, Tulsi, and Trump for 2020</h1>
+<div class="article__meta">
+by
+<a class="link" href="https://ivn.us/author/shawntx/" rel="author" title="More articles by Shawn M. Griffiths">
+Shawn M. Griffiths </a>
+in <a class="link" href="https://ivn.us/category/campaigns/">Campaigns</a>
+<time datetime="2019-02-08T11:36:08+00:00" itemprop="datePublished">
+Feb 8, 2019 </time>
+</div>
+<div class="article__image-wrapper" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://ivn.us/wp-content/uploads/2019/02/ivn-poll-independents-ideologically-diverse-want-2020-challenger-two-party-establishment-96133-560x315.png">
+<meta itemprop="width" content="560">
+<meta itemprop="height" content="315">
+<img class="article__image" src="https://ivn.us/wp-content/uploads/2019/02/ivn-poll-independents-ideologically-diverse-want-2020-challenger-two-party-establishment-96133-560x315.png" width="560" height="315" alt="" itemprop="contentUrl">
+</div>
+<div class="share-toolbar">
+<div class="share-toolbar__interactions">
+</div>
+<ul class="share-toolbar__links-list">
+<li class="share-toolbar__links-list-item facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/" target="_blank" data-socialshareclick="" title="Share on Facebook" class="social-share-button facebook">
+<i class="fa fa-facebook fa-fw"></i></a>
+</li>
+<li class="share-toolbar__links-list-item twitter">
+<a href="https://www.twitter.com/intent/tweet?text=IVN+POLL%3A+Independents+Like+Bernie%2C+Tulsi%2C+and+Trump+for+2020&amp;url=https%3A%2F%2Fivn.us%2F2019%2F02%2F08%2Fivn-poll-independents-like-bernie-tulsi-and-trump-for-2020%2F&amp;via=ivn" target="_blank" data-socialshareclick="" title="Share on Twitter" class="social-share-button twitter">
+<i class="fa fa-twitter fa-fw"></i></a>
+</li>
+<li class="share-toolbar__links-list-item reddit">
+<a href="https://www.reddit.com/r/news/submit?url=https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/&amp;title=IVN POLL: Independents Like Bernie, Tulsi, and Trump for 2020" target="_blank" data-socialshareclick="" title="Share on Reddit" class="social-share-button reddit">
+<i class="fa fa-reddit fa-fw"></i></a>
+</li>
+<li class="share-toolbar__links-list-item email">
+<a href="/cdn-cgi/l/email-protection#29165a5c4b434c4a5d146f5e4d0c1a6802607f6702796665650c1a680260474d4c594c474d4c475d5a026540424c026b4c5b47404c0c1b6a027d5c455a400c1b6a0248474d027d5b5c4459024f465b021b191b190f484459124b464d50147b4c484d0244465b4c02485d02607f67075c5a0c1a6802415d5d595a0c1a680c1b6f0c1b6f405f47075c5a0c1b6f1b1918100c1b6f191b0c1b6f19110c1b6f405f4704594645450440474d4c594c474d4c475d5a044540424c044b4c5b47404c045d5c455a400448474d045d5b5c4459044f465b041b191b190c1b6f" data-socialshareclick="" title="Share via Email" class="social-share-button email">
+<i class="fa fa-envelope fa-fw"></i></a>
+</li>
+<li class="share-toolbar__links-list-item print">
+<a href="javascript:window.print()" data-socialshareclick="" title="Print" class="social-share-button print">
+<i class="fa fa-print fa-fw"></i></a>
+</li>
+</ul>
+</div>
+<div class="article__ad-leader">
+<div class="article-banner-slot">
+<div class="layout-banner-slot">
+<div class="layout-banner-slot__mobile">
+<a href="/podcasts/">
+<img src="/wp-content/themes/ivn/assets/img/IVN-Podcast-Web-Banner-Ad-300x100.gif">
+</a>
+</div>
+<div class="layout-banner-slot__desktop">
+<a href="/podcasts/">
+<img src="/wp-content/themes/ivn/assets/img/IVN-Podcast-Web-Banner-Ad-728x90.gif">
+</a>
+</div>
+</div>
+</div>
+</div>
+<meta itemprop="keywords" content="2020 elections,Bernie Sanders,Democratic Party,donald trump,independent voters,IVN,public opinion,republican party,Tulsi Gabbard">
+<div class="taglist">
+<div class="taglist__label">
+Tagged in:
+</div>
+<ul class="taglist--list">
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/2020-elections/" rel="tag" title="Read more in 2020 elections">
+2020 elections </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/bernie-sanders/" rel="tag" title="Read more in Bernie Sanders">
+Bernie Sanders </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/democratic-party/" rel="tag" title="Read more in Democratic Party">
+Democratic Party </a>
+</li>
+<li class="taglist--list-item">
+ <a class="tag" href="https://ivn.us/tag/donald-trump/" rel="tag" title="Read more in donald trump">
+donald trump </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/independent-voters/" rel="tag" title="Read more in independent voters">
+independent voters </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/ivn/" rel="tag" title="Read more in IVN">
+IVN </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/public-opinion/" rel="tag" title="Read more in public opinion">
+public opinion </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/republican-party/" rel="tag" title="Read more in republican party">
+republican party </a>
+</li>
+<li class="taglist--list-item">
+<a class="tag" href="https://ivn.us/tag/tulsi-gabbard/" rel="tag" title="Read more in Tulsi Gabbard">
+Tulsi Gabbard </a>
+</li>
+</ul>
+</div>
+</header>
+<div class="article__content" itemprop="articleBody">
+<div class="content-area ">
+<div class="content-area__content">
+<!DOCTYPE html>
+<html>
+<p>The presidential field is quickly emerging for the 2020 election. Ten Democrats have already officially launched their campaigns  Meanwhile, President Trump is still waiting to see if he will face a primary challenge at all.</p>
+<p>Regardless of political party, the partisan presidential primary process determines not only which candidates are willing to run, but the issues, tone, and target audience for their message.</p>
+<p>This year, we expect a number of Democrats to preach about how they will bring national unity, while beating their chests to be the King or Queen of everything that is not “right.” Trump will do the same from his soapbox against everything that is “left.”</p>
+<p>But at IVN, our audience includes voters from both major parties, third parties, and those who refuse to join any party. Our readers, therefore, are not so easily defined by conventional political wisdom.</p>
+<p>What we do know, however, is that independent-minded voters will make the difference in 2020.</p>
+<p>Last week, IVN surveyed its own audience to see who they approved of in the 2020 election. Full disclosure: this was not a scientific poll. We simply sent a survey to some of our readers asking them to select any of the presidential candidates they might support.</p>
+<div class="content-area__full-width">
+<div class="newsletter-promo">
+<div class="newsletter-promo__continue">
+Story continues below <i class="fa fa-chevron-down"></i>
+</div>
+<div class="newsletter-promo__wrapper">
+<div class="newsletter-promo__content">
+<div class="newsletter-promo__image-wrapper">
+<img class="newsletter-promo__image" src="/wp-content/themes/ivn/assets/img/newsletter-promo-image.svg">
+</div>
+<div class="newsletter-promo__text">
+<strong>Go Beyond the Two-Sided Narrative!</strong> Get IVN’s weekly
+round-up of news and information for independent-minded voters in
+your inbox.
+</div>
+<div class="newsletter-promo__form">
+<div class="newsletter-promo__success-message">
+Thanks for signing up!
+</div>
+<div class="newsletter-promo__error-message">
+An unknown error occured :( Please try again later
+</div>
+<form class="newsletter-promo__form-fields" action="https://wt-9938f9a197fdb22f817ef536752a53c4-0.run.webtask.io/ivnnews-newsletter-signup" method="post" name="newsletterSignup" target="_blank" novalidate="">
+<div class="newsletter-promo__field-group-half">
+<div class="newsletter-promo__field">
+<label for="newsletter-promo__first-name" class="newsletter-promo__label">First Name*</label>
+<input type="text" id="newsletter-promo__first-name" name="first_name" class="newsletter-promo__input">
+</div>
+</div>
+<div class="newsletter-promo__field-group-half">
+<div class="newsletter-promo__field">
+<label for="newsletter-promo__last-name" class="newsletter-promo__label">Last Name*</label>
+<input type="text" id="newsletter-promo__last-name" name="last_name" class="newsletter-promo__input">
+</div>
+</div>
+<div class="newsletter-promo__field-group-two-thirds">
+<div class="newsletter-promo__field">
+<label for="newsletter-promo__email" class="newsletter-promo__label">Email Address*</label>
+<input type="email" class="newsletter-promo__input" name="email_address" id="newsletter-promo__email">
+</div>
+</div>
+<div class="newsletter-promo__terms">
+<input type="hidden" name="terms" value="false">
+<input type="checkbox" name="terms" value="true"><label for="terms">I accept IVN's <a href="/terms-and-conditions">terms and conditions</a>?</label>
+</div>
+<div class="newsletter-promo__form-actions">
+<button type="submit" class="newsletter-promo__button">
+Sign Up <img class="newsletter-promo__loader" width="16" height="16" src="/wp-content/themes/ivn/assets/img/loader-gray.gif">
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>We used what is called an “approval voting” method, which means that survey respondents could select as many candidates as they wanted, rather than just one.</p>
+<p>There were 871 completed survey responses. The top three vote-getters were US Sen.<a href="https://ivn.us/tag/bernie-sanders"> Bernie Sanders</a>, Hawaii US Rep.<a href="https://ivn.us/tag/tulsi-gabbard"> Tulsi Gabbard</a>, and the incumbent President <a href="https://ivn.us/tag/donald-trump">Donald Trump</a>. US Sen. Elizabeth Warren, “Other,” US Sen. Kamala Harris, and Starbucks CEO Howard Schultz followed the lead.</p>
+<p><img class="alignnone size-full wp-image-23295715670" src="https://ivn.us/wp-content/uploads/2019/02/ivn-poll-independents-ideologically-diverse-want-2020-challenger-two-party-establishment-84973.png" alt="" width="576" height="507"></p>
+<p><strong>See the full results <a href="https://ivc.typeform.com/report/LTuatH/gDEqQghLU7bslNBP">here</a>. </strong></p>
+<h2><strong>What the Results Tell Us</strong></h2>
+<p><img class="alignnone size-full wp-image-23295715672" src="https://ivn.us/wp-content/uploads/2019/02/ivn-poll-independents-ideologically-diverse-want-2020-challenger-two-party-establishment-23270.png" alt="" width="574" height="500"></p>
+<p>It’s important to understand, as IVN has long acknowledged, that being an independent does not often put voters in the middle of a linear left-right scale.</p>
+<p>Bernie Sanders, for instance, is a self-identified democratic socialist. Yet, his 2016 candidacy was popular among many independent voters in 2016, despite efforts by party leaders in the Democratic Party to derail and marginalize his campaign.</p>
+<div class="content-area__sidebar"><div> <div class="in-content-slot">
+<a href="/podcasts/">
+<img src="/wp-content/themes/ivn/assets/img/IVN-Podcast-Web-Banner-Ad-300x250.gif">
+</a>
+</div>
+</div></div>
+<p>Tulsi Gabbard is largely viewed as a progressive, but her ideas, policy positions, and actions have challenged the DC establishment, even in her own party, and as a result she has garnered support from voters across the political spectrum.</p>
+<p>Donald Trump did not campaign as a moderate. He espouses ideas that some view as extreme, but he has also taken positions that reject the free trade policies long supported by both major parties. Trump has challenged the war hawks of the DC establishment. He has turned politics-as-usual on its head.</p>
+<p>It’s worth noting that in quite a few cases, respondents who picked Trump, Sanders, or Gabbard, also picked one or both of the other top three candidates.</p>
+<p>This desire among independents for someone who is offering something different from the partisan status quo, continues to be the most under-appreciated factor in understanding why they vote the way they do (or don’t vote).</p>
+<p>And these decisions have a deciding impact on presidential elections, as we saw in 2016.</p>
+<aside class="related-articles">
+<h3 class="related-articles--title">Related Articles</h3>
+<ul class="related-articles--list">
+<li class="related-articles--list-item">
+<article itemscope="" itemtype="http://schema.org/NewsArticle" class="article-teaser">
+<div class="hidden" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+<meta itemprop="name" content="ivn.us">
+<meta itemprop="logo" content="/wp-content/themes/ivn/assets/img/ivn-logo.png">
+</div>
+<header class="article-teaser--wrapper">
+<a class="article-teaser--media-wrapper-link" href="https://ivn.us/2019/02/19/ways-party-still-screw-bernie-sanders/" tabindex="-1">
+<figure class="article-teaser--media-wrapper" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="article-teaser--media" width="560" height="315" src="https://ivn.us/wp-content/uploads/2019/02/ways-party-still-screw-bernie-sanders-87183-560x315.jpg">
+<meta itemprop="contentUrl" content="https://ivn.us/wp-content/uploads/2019/02/ways-party-still-screw-bernie-sanders-87183-560x315.jpg">
+<meta itemprop="url" content="https://ivn.us/wp-content/uploads/2019/02/ways-party-still-screw-bernie-sanders-87183-560x315.jpg">
+<meta itemprop="width" content="560">
+<meta itemprop="height" content="315">
+
+</figure>
+<div class="article-teaser--media-overlay">
+<div class="article-teaser--media-overlay-text">
+Read now <i class="fa fa-arrow-right "></i> </div>
+</div>
+</a>
+<div class="article-teaser--content-wrapper">
+<a class="article-teaser--title-link" href="https://ivn.us/2019/02/19/ways-party-still-screw-bernie-sanders/" itemprop="url">
+<h2 class="article-teaser--title" itemprop="headline">
+4 Ways The Party Could Still Screw Bernie Sanders </h2>
+</a>
+<div class="article-teaser--meta">
+<div class="article-teaser--byline">
+ By
+<a class="article-teaser--author-link" href="https://ivn.us/author/shawntx/" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+<span itemprop="name">Shawn M. Griffiths</span></a>
+</div>
+<span class="article-teaser--meta-separator">-</span>
+<time class="article-teaser--pubdate" datetime="2019-02-19T12:32:59+00:00" itemprop="datePublished">
+2 days ago </time>
+</div>
+</div>
+</header>
+</article>
+</li>
+<li class="related-articles--list-item">
+<article itemscope="" itemtype="http://schema.org/NewsArticle" class="article-teaser">
+<div class="hidden" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+<meta itemprop="name" content="ivn.us">
+<meta itemprop="logo" content="/wp-content/themes/ivn/assets/img/ivn-logo.png">
+</div>
+<header class="article-teaser--wrapper">
+<a class="article-teaser--media-wrapper-link" href="https://ivn.us/2019/02/18/tulsi-gabbard-couldnt-possibly-president-unless/" tabindex="-1">
+<figure class="article-teaser--media-wrapper" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="article-teaser--media" width="560" height="315" src="https://ivn.us/wp-content/uploads/2017/11/tulsi-cant-afford-veteran-care-shouldnt-send-into-conflict-83285-560x315.jpg">
+<meta itemprop="contentUrl" content="https://ivn.us/wp-content/uploads/2017/11/tulsi-cant-afford-veteran-care-shouldnt-send-into-conflict-83285-560x315.jpg">
+<meta itemprop="url" content="https://ivn.us/wp-content/uploads/2017/11/tulsi-cant-afford-veteran-care-shouldnt-send-into-conflict-83285-560x315.jpg">
+<meta itemprop="width" content="560">
+<meta itemprop="height" content="315">
+
+</figure>
+<div class="article-teaser--media-overlay">
+<div class="article-teaser--media-overlay-text">
+Read now <i class="fa fa-arrow-right "></i> </div>
+</div>
+</a>
+<div class="article-teaser--content-wrapper">
+<a class="article-teaser--title-link" href="https://ivn.us/2019/02/18/tulsi-gabbard-couldnt-possibly-president-unless/" itemprop="url">
+<h2 class="article-teaser--title" itemprop="headline">
+4 Reasons Tulsi Gabbard Could Shock the Media, Party Establishment </h2>
+</a>
+<div class="article-teaser--meta">
+<div class="article-teaser--byline">
+By
+<a class="article-teaser--author-link" href="https://ivn.us/author/shawntx/" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+<span itemprop="name">Alex Gauthier</span></a>
+</div>
+<span class="article-teaser--meta-separator">-</span>
+<time class="article-teaser--pubdate" datetime="2019-02-18T04:00:56+00:00" itemprop="datePublished">
+Feb 18, 2019 </time>
+</div>
+</div>
+</header>
+</article>
+</li>
+<li class="related-articles--list-item">
+<article itemscope="" itemtype="http://schema.org/NewsArticle" class="article-teaser">
+<div class="hidden" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+<meta itemprop="name" content="ivn.us">
+<meta itemprop="logo" content="/wp-content/themes/ivn/assets/img/ivn-logo.png">
+</div>
+<header class="article-teaser--wrapper">
+<a class="article-teaser--media-wrapper-link" href="https://ivn.us/2019/02/17/reports-bernie-sanders-records-video-announcing-2020-bid/" tabindex="-1">
+<figure class="article-teaser--media-wrapper" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="article-teaser--media" width="560" height="315" src="https://ivn.us/wp-content/uploads/2019/02/reports-bernie-sanders-records-video-announcing-2020-bid-91196-560x315.jpg">
+<meta itemprop="contentUrl" content="https://ivn.us/wp-content/uploads/2019/02/reports-bernie-sanders-records-video-announcing-2020-bid-91196-560x315.jpg">
+<meta itemprop="url" content="https://ivn.us/wp-content/uploads/2019/02/reports-bernie-sanders-records-video-announcing-2020-bid-91196-560x315.jpg">
+<meta itemprop="width" content="560">
+<meta itemprop="height" content="315">
+
+</figure>
+<div class="article-teaser--media-overlay">
+<div class="article-teaser--media-overlay-text">
+Read now <i class="fa fa-arrow-right "></i> </div>
+</div>
+</a>
+<div class="article-teaser--content-wrapper">
+<a class="article-teaser--title-link" href="https://ivn.us/2019/02/17/reports-bernie-sanders-records-video-announcing-2020-bid/" itemprop="url">
+<h2 class="article-teaser--title" itemprop="headline">
+REPORTS: Bernie Sanders Records Video Announcing 2020 Bid </h2>
+</a>
+<div class="article-teaser--meta">
+<div class="article-teaser--byline">
+By
+<a class="article-teaser--author-link" href="https://ivn.us/author/shawntx/" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+<span itemprop="name">Shawn M. Griffiths</span></a>
+</div>
+<span class="article-teaser--meta-separator">-</span>
+<time class="article-teaser--pubdate" datetime="2019-02-17T14:24:43+00:00" itemprop="datePublished">
+Feb 17, 2019 </time>
+</div>
+</div>
+</header>
+</article>
+</li>
+<li class="related-articles--list-item">
+<article itemscope="" itemtype="http://schema.org/NewsArticle" class="article-teaser">
+<div class="hidden" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+<meta itemprop="name" content="ivn.us">
+<meta itemprop="logo" content="/wp-content/themes/ivn/assets/img/ivn-logo.png">
+</div>
+<header class="article-teaser--wrapper">
+<a class="article-teaser--media-wrapper-link" href="https://ivn.us/2019/02/12/5-reasons-bernie-2020-looking-all-but-certain/" tabindex="-1">
+<figure class="article-teaser--media-wrapper" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="article-teaser--media" width="560" height="315" src="https://ivn.us/wp-content/uploads/2019/02/5-reasons-bernie-2020-looking-all-but-certain-10219-560x315.jpg">
+<meta itemprop="contentUrl" content="https://ivn.us/wp-content/uploads/2019/02/5-reasons-bernie-2020-looking-all-but-certain-10219-560x315.jpg">
+<meta itemprop="url" content="https://ivn.us/wp-content/uploads/2019/02/5-reasons-bernie-2020-looking-all-but-certain-10219-560x315.jpg">
+<meta itemprop="width" content="560">
+<meta itemprop="height" content="315">
+
+</figure>
+<div class="article-teaser--media-overlay">
+<div class="article-teaser--media-overlay-text">
+Read now <i class="fa fa-arrow-right "></i> </div>
+</div>
+</a>
+<div class="article-teaser--content-wrapper">
+<a class="article-teaser--title-link" href="https://ivn.us/2019/02/12/5-reasons-bernie-2020-looking-all-but-certain/" itemprop="url">
+<h2 class="article-teaser--title" itemprop="headline">
+5 Reasons Bernie 2020 Is Looking All But Certain </h2>
+</a>
+<div class="article-teaser--meta">
+<div class="article-teaser--byline">
+By
+<a class="article-teaser--author-link" href="https://ivn.us/author/shawntx/" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+<span itemprop="name">Shawn M. Griffiths</span></a>
+</div>
+<span class="article-teaser--meta-separator">-</span>
+<time class="article-teaser--pubdate" datetime="2019-02-12T13:16:46+00:00" itemprop="datePublished">
+Feb 12, 2019 </time>
+</div>
+</div>
+</header>
+</article>
+</li>
+</ul>
+</aside>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></html>
+</div>
+</div>
+</div>
+<footer>
+<div class="article__footer">
+<div itemprop="author" itemscope="" itemtype="http://schema.org/Person" class="author-details">
+<h3>About the Author</h3>
+<div class="author-details--content-wrapper">
+<div class="author-details--author-avatar">
+<img class="responsive-img vertical" src="https://i0.wp.com/ivn.us/wp-content/uploads/2015/09/Shawn-M.-Griffiths_avatar_1441419583-135x135.png" width="135" height="135" alt="Shawn M. Griffiths" itemprop="image">
+</div>
+<div class="author-details--header-wrapper">
+<div class="author-details--author-name" itemprop="name">
+Shawn M. Griffiths </div>
+<div class="author-details--contact-links">
+<div class="contact-links">
+<div class="layout-list inline">
+<ul class="layout-list--list">
+<li class="layout-list--list-item">
+<a href="https://www.facebook.com/IVN/" class="icon-link">
+<i class="fa fa-facebook "></i></a>
+</li>
+<li class="layout-list--list-item">
+<a href="//twitter.com/TheShawnG" class="icon-link">
+<i class="fa fa-twitter "></i></a>
+</li>
+<li class="layout-list--list-item">
+<a href="https://ivn.us/columns/in-full-color" class="icon-link">
+<i class="fa fa-globe "></i></a>
+</li>
+<li class="layout-list--list-item">
+<a href="/cdn-cgi/l/email-protection#acdfc4cddbc2ecc5c2c8c9dcc9c2c8c9c2d8dac3d8c9decfc3c2d8cdcfd882cfc3c1" class="icon-link">
+<i class="fa fa-envelope "></i></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p class="author-details--author-description" itemprop="description">
+Shawn is the Election Reform Editor for IVN.us. He studied history and philosophy at the University of North Texas, and joined the IVN team in 2012. He has several years of experience covering the broad scope of political and election reform efforts across the country, and has an extensive knowledge of the movement at large. A native Texan, he now lives in San Diego, California. </p>
+<div class="author-details--read-more-button">
+ <a itemprop="url" href="https://ivn.us/author/shawntx/" class="button light-bg">
+Read more by Shawn M. Griffiths</a>
+</div>
+</div>
+</div>
+</div>
+<div class="article__footer">
+<div class="etiquette">
+<div>
+<h3 class="etiquette__title">Join the discussion</h3>
+&nbsp;-&nbsp;
+<em class="etiquette__subtitle">Please be relevant and respectful.</em>
+</div>
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+The IVN Etiquette: No Partisan Attacks, No Self-Promotion,
+Substantiate Claims, No Personal Attacks.
+</a>
+</h4>
+</div>
+
+<div id="collapseOne" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="col-sm-6">
+<div class="entry-content-asset">
+<img style="width: 100%; height: auto; margin-bottom: 20px" src="/wp-content/themes/ivn/assets/img/large-IVN-Etiquette-OG.png" alt="The IVN Etiquette">
+</div>
+
+</div>
+
+The Independent Voter Network is dedicated to providing political
+analysis, unfiltered news, and rational commentary in an effort to
+elevate the level of our public discourse.
+<p>
+<br />
+<a href="/about/" class="btn btn-primary">Learn More About IVN</a>
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="comments">
+<div id="disqus_thread"></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  var disqus_config = function () {
+    this.page.title = 'IVN POLL: Independents Like Bernie, Tulsi, and Trump for 2020';
+    this.page.url = 'https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/';
+    this.page.identifier = '23295715667';
+  };
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://ivnnews.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<div class="article__facebook-comments">
+<h3>Comment on Facebook</h3>
+<div class="fb-comments" data-href="https://ivn.us/2019/02/08/ivn-poll-independents-like-bernie-tulsi-and-trump-for-2020/" data-numposts="20" data-width="100%"></div>
+</div>
+</div>
+</footer>
+<aside>
+<div class="social-feed">
+<h3 class="social-feed__title">Follow the Independent Action</h3>
+<div class="social-feed__embed">
+<script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+<ul class="juicer-feed" data-feed-id="ivn" data-per="12" data-pages="1" data-truncate="300"></ul>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<footer>
+<div class="site-footer">
+<div class="site-footer__container">
+<div class="site-footer__logo-wrapper">
+<img class="site-footer__logo" src="/wp-content/themes/ivn/assets/img/site-footer/ivnlogo.svg">
+</div>
+<div class="site-footer__links-wrapper">
+<div class="site-footer__links">
+<a class="site-footer__link" href="/about/advertise/">Advertise</a>
+<a class="site-footer__link" href="/contact">Contact</a>
+<a class="site-footer__link" href="/about">About</a>
+<a class="site-footer__link" href="/privacy-policy">Privacy Policy</a>
+<a class="site-footer__link" href="/terms-and-conditions">Terms and Conditions</a>
+<span class="site-footer__link">Copyright 2011-2019 FIVE</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!--[if lt IE 10]>
+       <div class="page--notification">
+           You are using an <strong>outdated</strong> browser (IE9 or earlier)
+           that our site does not support. Please upgrade IE or download
+           another browser from <a class="link" href="http://browsehappy.com/">browsehappy.com</a>
+           to improve your experience (we use and recommend Google Chrome!).
+       </div>
+       <![endif]-->
+</div>
+<div id="fb-root"></div>
+<script>
+                (function(d, s, id) {
+                  var cb;
+                  window.fbInitialized = false
+                  window.fbInitializeHandlers = window.fbInitializeHandlers || []
+                  window.fbAsyncInit = function() {
+                    FB.init({
+                      appId      : '546547282195004',
+                      xfbml      : true
+                    });
+                    window.fbInitialized = true
+                    while (window.fbInitializeHandlers.length > 0) {
+                      cb = window.fbInitializeHandlers.pop();
+                      cb.call(FB);
+                    }
+                  }
+
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id; js.async = true;
+                  js.src = "//connect.facebook.net/en_US/all.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+              </script>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+<script type='text/javascript' src='https://ivn.us/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+
+<script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '521123611401565');
+    fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=521123611401565&ev=PageView&noscript=1"
+    /></noscript>
+
+<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=219759718234939&amp;ev=NoScript" /></noscript>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({flush: true});
+    </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"593b4e696c","applicationID":"35654960","transactionName":"YgRVbUFUCkIFAEAPWVtOYktaGktYCgdRHhhFCUc=","queueTime":0,"applicationTime":612,"atts":"TkNCGwlOGR1GAhZcTUgc","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

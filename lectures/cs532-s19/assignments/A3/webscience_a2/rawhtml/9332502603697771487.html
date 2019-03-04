@@ -1,0 +1,1281 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+var vYear = 2019; 
+var vMonth = 2; 
+var vDay = 22; 
+var vHours = 3; 
+var vMinutes = 27; 
+var vSeconds = 46; 
+
+function GetTheDate() { 
+ //alert("1");
+ vSeconds += 1; 
+
+ if(vSeconds >= 60) { 
+  vSeconds = 0; 
+  vMinutes += 1; 
+ } 
+
+ if(vMinutes >= 60) { 
+  vMinutes = 0; 
+  vHours += 1; 
+ } 
+
+ if(vHours >= 24) { 
+  vHours = 0; 
+  vDay +=1; 
+ } 
+
+
+ if (vMonth == 4 || vMonth == 6 || vMonth == 9 || vMonth == 11) { 
+  vLastDay = 30; 
+ } 
+ else if ((vMonth == 2) && !(vYear % 4 == 0)) { 
+  vLastDay = 28; 
+ } 
+ else if ((vMonth == 2) && (vYear % 4 == 0)) { 
+  if (vYear % 100 == 0) { 
+   if (vYear % 400 == 0) 
+    vLastDay = 29; 
+   else 
+    vLastDay = 28; 
+  } else { 
+   vLastDay = 29; 
+  } 
+ } else { 
+  vLastDay = 31; 
+ } 
+
+ if(vDay >= (vLastDay+1)) { 
+  vDay = 1; 
+  vMonth +=1; 
+ } 
+
+ if(vMonth > 12) { 
+  vMonth = 1; 
+  vYear += 1; 
+ } 
+
+ //var vCurrentDate = vMonth+"Year "+vDay+"Date "+vHours+"Hour "+vMinutes+"Minute "+vSeconds+"Second"; 
+ if((vHours < 10)&&(vMinutes < 10)) { 
+   var vCurrentDate = "0"+vHours+":0"+vMinutes+"";
+ }
+ else if(vHours < 10) {
+   var vCurrentDate = "0"+vHours+":"+vMinutes+"";
+ }
+ else if(vMinutes < 10) {
+   var vCurrentDate = vHours+":0"+vMinutes+"";
+ }
+ else{
+   var vCurrentDate = vHours+":"+vMinutes+"";
+ }
+ 
+  //document.getElementById("clock").innerHTML = vCurrentDate; 
+ 
+} 
+
+function GoForIt(){ 
+ if (document.all||document.getElementById) 
+  setInterval("GetTheDate()", 1000);
+} 
+-->
+</script>
+
+<title>News View :: The World On Arirang</title>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge"><![endif]-->
+<meta property="fb:pages" content="272685362813727" />
+<meta name="description" content="한국을 대표하는 글로벌 방송! The World On Arirang!">
+<meta name="author" content="The Korea International Broadcasting Foundation">
+<meta name="keywords" content="News View :: The World On Arirang, arirang, arirang tv, arirang radio, arirang news, korea, tv, radio, news, 아리랑티비, 아리랑TV, 아리랑라디오, 아리랑뉴스, 아리랑방송, 국제방송교류재단, 국제방송, 티비, 라디오, 뉴스">
+<meta name="google" content="News View :: The World On Arirang, arirang, arirang tv, arirang radio, arirang news, korea, tv, radio, news">
+<meta property="og:type" content="website">
+<meta property="og:title" content="한국을 대표하는 글로벌 방송! The World On Arirang!">
+<meta property="og:description" content="세계인에게 한국을 알리는 글로벌 대표 국제방송사. 아리랑 TV는 한국의 시사, 문화, 및 역사에 관한 영어 정보를 한국 주변 지역에 제공하고 있다. A global representative international broadcasting company that informs the world about Korea.">
+<meta property="og:image" content="http://www.arirang.com/arirang_blue.png">
+<meta property="og:url" content="http://www.arirang.com/">
+
+<link rel="image_src" href="http://arirang.com/arirang_t.png" type="image/jpeg">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/css/common2014.css?ver=03:27">
+
+<link rel="stylesheet" type="text/css" href="/css/common2014_news.css?ver=03:27">
+
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/common_ie.css"><![endif]-->
+<!--[if lte IE 9]> <link rel="stylesheet" type="text/css" href="/css/common_ie9.css"> <![endif]-->
+<!--[if lte IE 8]> <link rel="stylesheet" type="text/css" href="/css/common_ie8.css"> <![endif]-->
+<!--[if lte IE 7]> <link rel="stylesheet" type="text/css" href="/css/common_ie7.css"> <![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css/common2014_news_ie8.css"><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/common2014_news_ie7.css"><![endif]-->
+<script src="/js/js2014/jquery-latest.min.js"></script>
+<!--[if lt IE 9]><script src="/JS/js2014/html5.js"></script><![endif]-->
+<script defer="defer" src="/js/js2014/common2014.js"></script>
+<script defer="defer" src="/js/common.js"></script>
+<script defer="defer" src="/js/js2013/modernizr.custom.js"></script>
+<script defer="defer" src="/js/jquery.carousel.min.js"></script>
+<script src="/JS/Rolling.js"></script>
+<script defer="defer" src="/JS/VOD_Popup.js"></script>
+<script defer="defer" src="/JS/News_Popup.js"></script>
+<script defer="defer" src="/JS/News_Common.js"></script>
+<script defer="defer" src="/JS/Zoom.js"></script>
+<script defer="defer" src="/JS/Layer_Popup.js"></script>
+<script src="/Embed/Flash.js"></script>
+<script src="/Embed/Flash_VOD.js"></script>
+<script src="https://use.fontawesome.com/55a7cea66a.js"></script>
+<script src="/js/jquery.bxslider.js"></script>
+<meta property="og:url"           content="http://www.arirang.co.kr/news/news_view.asp?nseq=231307">
+<meta property="og:title"         content="Leaders of S. Korea and U.S. likely to speak ahead of 2nd Kim-Trump summit">
+<meta property="og:site_name"     content="Leaders of S. Korea and U.S. likely to speak ahead of 2nd Kim-Trump summit : ARIRANG">
+<meta property="og:description"   content="South Korea	̔s presidential office says it will be in close touch with officials in the U.S. ahead of President Trump	̔s summit later this month in Vietnam with North Korean leader Kim Jong-un.
+
+  The Blue House spokesperson says presidents Moon and Trump might speak on the phone in the coming da">
+<meta property="og:image"         content="http://img.arirang.com/A_UpFile/News_Image/201902/N190211082257B.jpg"></head>
+<body onLoad="GoForIt();" >
+<script> 
+$(function(){ 
+	var menupos = 1000;
+	var aBodyHeight = document.body.scrollHeight;
+	var aCHeight = document.getElementById("arirangContainer").offsetHeight;
+	if (aBodyHeight > 2500) {
+		$(window).scroll(function(){ 
+			if($(window).scrollTop() >= menupos) { 
+				$("#arirangTnb").css("position","fixed"); 
+				$("#arirangTnb").css("top","0");
+				$("#arirangTnb").css("border-bottom", "2px solid #000");
+				$("#aTHLang_box").css("display","none");
+			} else { 
+				$("#arirangTnb").css("position","relative"); 
+				$("#arirangTnb").css("top","");
+				$("#arirangTnb").css("border-bottom", "0px");
+			}
+		});
+	}
+	//if (/mobile/i.test(navigator.userAgent) && /news/news_view.asp = "/index.asp") { 
+	//	$("#arirangContainer.aC_index").css("width", "1100px");
+	//}
+	$('#arirangSkipNav>.goContents').on({
+		'click':function(){
+			$('#skipcontent').attr('tabindex','0').focus();
+			$('#aNews').attr('tabindex','0').focus();
+			$('#arirangContent').attr('tabindex','0').focus();
+			$('#content').attr('tabindex','0').focus();
+		}
+	})
+	$('#arirangSkipNav>.goMenu').on({
+		'click':function(){
+			$('#skipMenu').attr('tabindex','0').focus();
+		}		
+	})
+	$('.aTHLang_box>a').blur(function() {
+		$('.aTHLang_box').css('display','none');
+	});
+}); 
+function viewKor(id) {
+	document.getElementById(id).style.display='block'; 
+}
+function viewEng(id) {
+	document.getElementById(id).style.display='block'; 
+}
+</script>
+<script>
+ window._taboola = window._taboola || [];
+ _taboola.push({article:'auto'});
+ !function (e, f, u, i) {
+ if (!document.getElementById(i)){
+ e.async = 1;
+ e.src = u;
+ e.id = i;
+ f.parentNode.insertBefore(e, f);
+ }
+ }(document.createElement('script'),
+ document.getElementsByTagName('script')[0],
+ '//cdn.taboola.com/libtrc/arirangtv-arirangtv/loader.js',
+ 'tb_loader_script');
+ if(window.performance && typeof window.performance.mark == 'function')
+ {window.performance.mark('tbl_ic');}
+</script>
+<nav id="arirangSkipNav">
+	<a href="#skipcontent" class="goContents">Go to the Contents</a>
+	<a href="#skipMenu" class="goMenu">Go to the menu</a>
+</nav>
+
+
+<section id="arirangWrap" class="aW_news">
+	<h2 class="hide">arirang news</h2>
+	<header id="arirangHeader">
+		<div class="arirang_header">
+			<div class="header_top">
+				<nav id="arirang_subtop">
+					<div class="sub_wrap">
+						<ul class="aTSign">
+							<li class="aTHLanguage"><b>LANGUAGE</b>
+							
+								<span onmouseover="$('.aTHLang_box').show();" onclick="$('.aTHLang_box').show();" class="on"><a href="javascript:void(0);" onfocus="viewKor('langKor');">ENG</a></span>
+								<span class="aTHLang_box" id="langKor"><a href="http://www.arirang.co.kr/News/News_View.asp?nSeq=231307&amp;sys_lang=Kor">KOR</a></span>
+							
+							</li>
+						</ul>
+						<div class="aTHTW"><a href="http://www.arirang.com/prroom/howtowatch1.asp?sys_lang=Eng">HOW TO WATCH</a></div>
+					</div>
+				</nav>
+				<div class="arirang_mainlogo">
+					<h1><a href="http://www.arirang.com/Index.asp?sys_lang=Eng" target="_top">The World On arirang</a></h1>
+				</div>
+
+				<div class="arirang_mainmenu" id="skipMenu">
+					<ul class="gnb_wrap">
+						<li id="li_air" class="li_gm1 "><a href="/player/onair_tv.asp?sys_lang=Eng" class="gnb_onair_btn" onmouseover="activeGNB('gm1');" onfocus="activeGNB('gm1');" onmouseout="activeGNBOut('gm1');">On-Air</a>
+							<ul class="menu_step2" id="gm1" onmouseover="activeGNB('gm1');">
+								<li class="live"><a href="http://www.arirang.com/player/onair_tv.asp?sys_lang=Eng">TV</a></li>
+								<li class="live"><a href="http://www.arirang.com/player/onair_radio.asp?sys_lang=Eng">Radio</a></li>
+								<li class="schedule lastmenu"><a href="http://www.arirang.com/Tv/TV_Index_SCH.asp?sys_lang=Eng">Schedule</a></li>
+							</ul>
+						</li>
+						<li id="li_tv" ><a href="http://www.arirang.com/Tv/Tv_Index.asp?sys_lang=Eng">TV</a></li>
+						<li id="li_radio" ><a href="http://www.arirang.com/Radio/Radio_Index.asp?sys_lang=Eng">Radio</a></li>
+						<li id="li_news" class="li_news on"><a href="http://www.arirang.com/News/News_Index.asp?sys_lang=Eng">News</a></li>
+						<li id="li_aplus" class="li_gm2 "><a href="/news/aplus/index.asp" onmouseover="activeGNB('gm2');" onfocus="activeGNB('gm2');" onmouseout="activeGNBOut('gm2');"><img src="http://img.arirang.com/images/common2014/gnb_aplus.png" alt="aplus"></a>
+							<ul class="menu_step2" id="gm2" onmouseover="activeGNB('gm2');">
+								<li class="li_1"><a href="/news/aplus/index.asp?sys_lang=Eng">Original</a></li>
+								<li class="li_2"><a href="/news/aplus/aplus_view.asp?xList=SmartA&sys_lang=Eng">Smart</a></li>
+								<li class="li_3"><a href="/news/aplus/DNA.asp?sys_lang=Eng">Digital News</a></li>
+								<li class="li_4"><a href="/news/aplus/TV.asp?sys_lang=Eng">X TV</a></li>
+							</ul>
+						</li>
+						<li id="li_video" class="li_gm3 "><a href="/player/Clips_Travel.asp?sys_lang=Eng" onmouseover="activeGNB('gm3');" onfocus="activeGNB('gm3');" onmouseout="activeGNBOut('gm3');">Video</a>
+							<ul class="menu_step2" id="gm3" onmouseover="activeGNB('gm3');">
+								<li><a href="http://www.arirang.com/player/Clips_Travel.asp?sys_lang=Eng">Travel</a></li>
+								<li><a href="http://www.arirang.com/player/Clips_Food.asp?sys_lang=Eng">Food</a></li>
+								<li><a href="http://www.arirang.com/player/Clips_KPop.asp?sys_lang=Eng">K-Pop</a></li>
+								<li><a href="http://www.arirang.com/player/Clips_Korean.asp?sys_lang=Eng">Learn Korean</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="gnb_search">
+					<img src="http://img.arirang.com/images/common2014/gnb_search.gif" alt="Search" class="gnb_search_btn">
+					<div class="search_zone">
+						<div class="search_wrap">
+							<form method="post" class="aHMSForm" name="sF" action="http://search.arirang.com/RSA/front/RssResult.jsp">
+								<label for="qt" class="zero">search</label>
+								<input type="text" class="search_text" id="qt" name="qt" title="search word"><input type="submit" value="Search" class="search_btn" onclick="on_search();">
+							</form>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			function activeGNB(id) {
+				$("#gm1").hide();
+				$("#gm2").hide();
+				$("#gm3").hide();
+				$(".li_gm1").removeClass("on");
+				$(".li_gm2").removeClass("on");
+				$(".li_gm3").removeClass("on");
+				$(".li_"+id).addClass("on");
+				
+				document.getElementById(id).style.display='block';
+			}
+
+			function activeGNBOut(id){
+				document.getElementById(id).style.display='none';
+			}
+
+			$('.menu_step2').mouseleave(function() { 
+				$(this).hide();
+			});
+
+			$(".gnb_onair_btn").click(function() {
+				$(".menu_onair").toggle();
+			});
+			$(".gnb_search_btn").click(function() {
+				$(".search_zone").toggle();
+			});
+		</script>
+	</header>
+	
+	<div id="main_aIN_menu">
+		<div class="aIN_menu_wrap">
+			<ul class="aIN_menu">
+				<!-- <li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=4">PEACE 2018</a></li> -->
+				<li ><a href="http://www.arirang.com/news/cardnews/index.asp?sys_lang=Eng&category=10">Digital News</a></li>
+				<li  class='on'><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=2">Nat'l/Politics</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=4">North Korea</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=3">Economy</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=5">IT/Science</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=9">Foreign Policy</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=1">World</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=7">Life/Culture</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=6">Sports</a></li>
+				<li ><a href="http://www.arirang.com/News/News_List.asp?sys_lang=Eng&category=8">Weather</a></li>
+			</ul>
+		</div>
+	</div>
+	<section id="arirangContainer" class="aC_news_view aC_news_news_view">
+<!--
+<div id="aIN_menu">
+	<div class="aIN_menu_wrap">
+		<h2>arirang news</h2>
+		<ul class="aIN_menu">
+			<li  class='on'><a href="News_List.asp?category=2">Nat'l/Politics</a></li>
+			<li ><a href="News_List.asp?category=4">North Korea</a></li>
+			<li ><a href="News_List.asp?category=3">Economy</a></li>
+			<li ><a href="News_List.asp?category=5">IT/Science</a></li>
+			<li ><a href="News_List.asp?category=9">Foreign Policy</a></li>
+			<li ><a href="News_List.asp?category=1">World</a></li>
+			<li ><a href="News_List.asp?category=7">Life/Culture</a></li>
+			<li ><a href="News_List.asp?category=6">Sports</a></li>
+			<li ><a href="News_List.asp?category=8">Weather</a></li>
+		</ul>
+	</div>
+</div>-->
+<div id="aIN_lastestnews">
+	<dl class="aIN_lastestnews">
+		<dt>lastest news</dt>
+		<dd>
+			<div id="newsrolling" style="width:600px; height:18px;">
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=231997">Pres. Moon calls on young Koreans to take on challenges</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=231977">President Moon and Indian PM Modi attend unveiling of Gandhi bust</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=232014">South Korea to draw up follow-up measures after second N. Korea-U.S. summit</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=232016">Korea-India Business Symposium kicks off Thursday</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=232015">Inter-Korean cooperation has been considered as sanctions relief for N. Korea: Official</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=232017">"Win-win type local jobs" solution to revive economy</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=232018">Worsening ultra fine dust pollution</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=232005">Income disparity widened in 2018 Q4 as employment situation worsens</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=231975">N. Korea, U.S. envoys in Hanoi hold second round of talks in Hanoi</a></div>
+			
+				<div style="width:600px; height:18px;"><a href="News_View.asp?nseq=231961">N. Korea, U.S. expected to focus on dismantlement of key nuclear sites during summit</a></div>
+			
+			</div>
+			<script>
+					var roll1 = new rolling_banner(document.getElementById('newsrolling'));
+					roll1.gap=1;
+					roll1.gap_time = '50';	
+					roll1.gap_sleep = '6000';
+					roll1.start();
+				</script>
+			<h6><a href="/Radio/Radio_News.asp">AOD List</a></h6>
+		</dd>
+	</dl>
+	<div class="roll_button">
+		<button class="rollstart" onclick="roll1.start()">start</button>
+		<button class="rollstop" onclick="roll1.pause()">pause</button>
+	</div>
+	<div class="aIN_fullvideo">
+		<span class="sr-only">Full Video</span>
+		<ul>
+			<li><a href="/news/News_Vod.asp">VOD List</a></li>
+			<li><a href="/news/Radio_News.asp">RADIO AOD</a></li>
+		</ul>
+	</div>
+</div>
+<div id="skipcontent"></div>
+
+<script>
+function go_Del(ret,fkey,newscode){	
+	if(!confirm("Are you sure you want to delete?")){
+		return;
+	}else{
+		location.href="News_Comments_Action.asp?Method=Delete&DB_KEY="+ret+"&F_KEY="+fkey;
+	}
+}
+</script>
+<div class="aI_section" id="aNews">
+	<div id="aN_content">
+		<div id="aNews_View">
+			<div id="aNews_sns">
+				<ul>
+					<li class="aNSNS_facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.arirang.co.kr/news/news_view.asp?nseq=231307" onclick="window.open(this.href,'','toolbar=0,status=0,scrollbars=0,width=560,height=350'); return false;" title="New Window">facebook</a></li>
+
+					<li class="aNSNS_twitter"><a href="javascript:void(0);" onclick="window.open('http://www.twitter.com/share?text=' + encodeURIComponent(document.getElementsByTagName('h4')[0].innerHTML) + '&amp;url=' + location.href,'','');" title="New Window">twitter</a></li>
+					<li class="aNSNS_google"><a href="javascript:void(0);" onclick="window.open('http://plus.google.com/share?url=' + location.href,'','');" title="New Window">googleplus</a></li>
+					<li class="aNSNS_print"><a href="javascript:void(0);" onclick="Popup2('/News/News_Print.asp?type=news&amp;nseq=231307');" title="New Window">print</a></li>
+				</ul>
+			</div>
+			<h2>Leaders of S. Korea and U.S. likely to speak ahead of 2nd Kim-Trump summit
+				<span class="aNews_date">Updated: 2019-02-11 04:05:53 KST</span>
+			</h2>
+
+
+			<div class="aNV_movie">
+				<iframe width="670" height="378" src="http://v.kr.kollus.com/xJkbSYvT?player_version=html5" allowfullscreen title="news movie"></iframe>
+				<!-- webkitallowfullscreen mozallowfullscreen -->
+			</div>	
+			
+			<script>
+				function resizeText(multiplier) {
+					if (document.getElementById('newsText').style.fontSize == "") {
+						document.getElementById('newsText').style.fontSize = "1em";
+					}
+					document.getElementById('newsText').style.fontSize = parseFloat(document.getElementById('newsText').style.fontSize) + (multiplier *0.2 ) + "em";
+				}
+			</script>
+			<div class="newsTextBtn">
+				<a href="#" id="plustext" class="myButton" onclick="resizeText(1); return false;">+ Text Size Large</a> / <a href="#" id="minustext" class="myButton" onclick="resizeText(-1); return false;">- Small</a>
+			</div>
+			<div id="newsText" class="aNV_news">
+				South Korea's presidential office says it will be in close touch with officials in the U.S. ahead of President Trump's summit later this month in Vietnam with North Korean leader Kim Jong-un.<br>
+  The Blue House spokesperson says presidents Moon and Trump might speak on the phone in the coming days.<br>
+The spokesperson also hinted at further discussions on multiple levels between Seoul and Washington, some between their top diplomats as well as between their national security chiefs Chung Eui-yong and John Bolton.<br>
+More working-level talks between North Korea and the U.S. have also been confirmed in the lead-up to the second Kim-Trump summit.
+				<div class="aNV_reporter">Reporter : <a href="mailto:ashin@arirang.co.kr">ashin@arirang.co.kr</a></div>
+			</div>
+			<div class="aNV_comment"></div>
+			<div class="KOGL_news">
+				<a href="/help/copyright_policy.asp"><img src="http://img.arirang.com/images/help/KOGL_logo_s.jpg" alt="KOGL : Korea Open Government License"></a>
+				<div style="padding-top:10px; font-size:11px;">본 저작물 중 본문에 해당하는 뉴스 스크립트(텍스트)는 공공누리 제1유형-출처표시 조건에 따라 이용할 수 있습니다.</div>
+			</div>
+			<!-- 광고제거 - 이택수 2018.12.24
+			<div id="aAD_footer" class="w100">
+				<div class="aADF_left"><script src="http://media.adpnut.com/cgi-bin/PelicanC.dll?impr?pageid=01u9&out=script"></script></div>
+				<div class="aADF_right"><script src="http://media.adpnut.com/cgi-bin/PelicanC.dll?impr?pageid=01uB&out=script"></script></div>
+			</div>-->
+		</div>
+	</div>
+
+	<div id="aN_aside">
+	<div id="aNA_TopStories" class="aN_aside">
+		<h2>top stories</h2>
+
+		<h3><a href="News_View.asp?nseq=231975"><img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190221224535B.jpg" alt="N. Korea, U.S. envoys in Hanoi hold second round of talks in Hanoi"><i class="aI_play"></i> 
+		<span class="video_time"><span>01:29</span></span>
+		<span class="thumb_txtbg"><strong>N. Korea, U.S. envoys in Hanoi hold second round of talks in Hanoi</strong></span></a>
+		</h3>
+
+		<ul class="aNA_list">
+					
+			<li>
+				<a href="News_View.asp?nseq=232016">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190221212246S.jpg" alt="Korea-India Business Symposium kicks off Thursday"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>02:42</span></span>
+					<h4>Korea-India Business Symposium kicks off Thursday</h4>
+					<h5>Around 400 business leaders and government officials from Korea and In...</h5>
+				</a>
+			</li>
+					
+			<li>
+				<a href="News_View.asp?nseq=232011">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190221212324S.jpg" alt="Fine dust emergency measures to be issued on Friday"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>00:40</span></span>
+					<h4>Fine dust emergency measures to be issued on Friday</h4>
+					<h5>South Korea is once again plagued by fine dust.
+Several cities and pr...</h5>
+				</a>
+			</li>
+		
+		</ul>
+	</div>
+	
+	<div id="aNA_MPiN" class="aN_aside">
+		<h2>Most Popular in News</h2>
+		<ul class="aNA_list">
+
+		
+			<li>
+				<a href="News_View.asp?nseq=231940">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190220181104S.JPG" alt="Biegun, Kim Hyok-chol set to meet in Hanoi for pre-summit talks"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>02:26</span></span>
+					<h4>Biegun, Kim Hyok-chol set to meet in Hanoi for pre-summit talks</h4>
+					<h5>
+North Korea's Special Representative for U.S. Affairs, Kim Hyok-chol...</h5>
+					<h6>1</h6>
+				</a>
+			</li>
+		
+			<li>
+				<a href="News_View.asp?nseq=231907">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190220133430S.jpg" alt="S. Korean president floats economic concessions for upcoming Kim-Trump summit in Hanoi"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>01:55</span></span>
+					<h4>S. Korean president floats economic concessions for upcoming Kim-Trump summit in Hanoi</h4>
+					<h5>
+  U.S. President Donald Trump has shown a positive response to Presi...</h5>
+					<h6>2</h6>
+				</a>
+			</li>
+		
+			<li>
+				<a href="News_View.asp?nseq=231945">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190220211852S.jpg" alt="Seoul to expand subway lines, extensions, reducing commute time by 15 percent"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>01:30</span></span>
+					<h4>Seoul to expand subway lines, extensions, reducing commute time by 15 percent</h4>
+					<h5>
+ Seoul's subway lines will become faster and more accessible, cuttin...</h5>
+					<h6>3</h6>
+				</a>
+			</li>
+		
+			<li>
+				<a href="News_View.asp?nseq=231969">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190221170738S.jpg" alt="Trump says 'meaningful' steps need to be taken to lift sanctions, amid hinting more summits with Kim Jong-un ahead"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>01:46</span></span>
+					<h4>Trump says 'meaningful' steps need to be taken to lift sanctions, amid hinting more summits with Kim Jong-un ahead</h4>
+					<h5>U.S. President Donald Trump has again stressed that he and North Korea...</h5>
+					<h6>4</h6>
+				</a>
+			</li>
+		
+			<li>
+				<a href="News_View.asp?nseq=231975">
+					<img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190221224535S.jpg" alt="N. Korea, U.S. envoys in Hanoi hold second round of talks in Hanoi"><i class="aI_play"></i>
+					<span class="video_time" style="left:92px;right: inherit;"><span>01:29</span></span>
+					<h4>N. Korea, U.S. envoys in Hanoi hold second round of talks in Hanoi</h4>
+					<h5>Key negotiators from Pyeongyang and Washington went straight to work a...</h5>
+					<h6>5</h6>
+				</a>
+			</li>
+	
+		</ul>
+	</div>
+
+	
+	<div id="aNA_LastestNews" class="aN_aside">
+		<h2>Lastest News</h2>
+		<ul>
+	
+			<li><a href="News_View.asp?nseq=231997">Pres. Moon calls on young Koreans to take on challenges</a></li>
+	
+			<li><a href="News_View.asp?nseq=231977">President Moon and Indian PM Modi attend unveiling of Gandhi bust</a></li>
+	
+			<li><a href="News_View.asp?nseq=232014">South Korea to draw up follow-up measures after second N. Korea-U.S. summit</a></li>
+	
+			<li><a href="News_View.asp?nseq=232016">Korea-India Business Symposium kicks off Thursday</a></li>
+	
+			<li><a href="News_View.asp?nseq=232015">Inter-Korean cooperation has been considered as sanctions relief for N. Korea: Official</a></li>
+	
+			<li><a href="News_View.asp?nseq=232017">"Win-win type local jobs" solution to revive economy</a></li>
+	
+			<li><a href="News_View.asp?nseq=232018">Worsening ultra fine dust pollution</a></li>
+	
+			<li><a href="News_View.asp?nseq=232005">Income disparity widened in 2018 Q4 as employment situation worsens</a></li>
+	
+			<li><a href="News_View.asp?nseq=231975">N. Korea, U.S. envoys in Hanoi hold second round of talks in Hanoi</a></li>
+	
+			<li><a href="News_View.asp?nseq=231961">N. Korea, U.S. expected to focus on dismantlement of key nuclear sites during summit</a></li>
+	
+		</ul>
+	</div>
+
+	<div id="aNA_program" style=display:none;>
+	
+		<h3><a href="News_List.asp?category=4">North Korea</a></h3>
+		<a href="News_View.asp?nseq=232001"><img src="http://img.arirang.com/A_UpFile/News_Image/201902/N190221195900B.jpg" alt="More U.S. remains from N. Korea to be identified in coming weeks" class="aNA_thumb"><i class="aI_play"></i></a>
+		<h4><a href="News_View.asp?nseq=232001"><strong> More U.S. remains from N. Korea to be identified in coming weeks</strong> </a></h4>
+	</div>
+
+	<div id="aNA_CurrentAfair" style=display:none;>
+		<h2>Current Affairs programs</h2>
+		<ul>			
+						
+			<li>
+				<div class="thumb"><a href="http://www.arirang.com/Tv2/Tv_Home.asp?PROG_CODE=TVCR0848&amp;MENU_CODE=102643&amp;code=Po1&amp;sys_lang=Eng"><img src="http://img.arirang.com/A_UpFile/TV_Image/201806/HL_IDX180620105307C.png" alt="A Road to Peace"></a></div>
+				<div class="txtbox">
+					<a href="http://www.arirang.com/Tv2/Tv_Home.asp?PROG_CODE=TVCR0848&amp;MENU_CODE=102643&amp;code=Po1&amp;sys_lang=Eng"><strong>A Road to Peace</strong></a>
+					<p>The 30-minute show also sheds light on South Korean efforts to improve...</p>
+				</div>
+			</li>
+						
+			<li>
+				<div class="thumb"><a href="/News/News_Index.asp?sys_lang=Eng"><img src="http://img.arirang.com/A_UpFile/TV_Image/201801/HL_IDX180109095950C.png" alt="Arirang News"></a></div>
+				<div class="txtbox">
+					<a href="/News/News_Index.asp?sys_lang=Eng"><strong>Arirang News</strong></a>
+					<p>The Arirang NEWS quickly delivered the news about National/Politics, N...</p>
+				</div>
+			</li>
+	
+		</ul>
+	</div>
+</div>
+
+	<div id="aAD_right"><script src="http://media.adpnut.com/cgi-bin/PelicanC.dll?impr?pageid=01uC&out=script"></script></div>
+	<!--<div id="aAD_right"><script src="http://pub.adpnut.com/ron/js/591d093cb1cf2986480135"></script></div>-->
+	
+</div>
+<div class="aNAd_Taboola" style="width:980px; margin:0 auto;">
+	<div id="taboola-below-article-thumbnails"></div>
+	<script>
+		window._taboola = window._taboola || [];
+			_taboola.push({
+			mode: 'thumbnails-c',
+			container: 'taboola-below-article-thumbnails',
+			placement: 'Below Article Thumbnails',
+			target_type: 'mix'
+		});
+	</script>
+</div>
+<div id="aIN_weather">
+	<div class="aIN_weather_wrap">
+		<a class="aIN_weather_more" href="javascript:Popup_Weather('http://hosts.weatheri.co.kr/arirangtv/world/','580','800');" title="New Window"><span class="sr-only">weather</span></a>
+		<script>
+			function Popup_Weather(u,w,h){
+				window.open(u,'weather','toolbar=no,resizable=no,width='+w+', height='+h+', left=550, top=50')
+			}
+		</script>
+		<ul>
+			<li><iframe title="(New Window)Weather" src="http://hosts.weatheri.co.kr/arirangtv/ariban2.php"></iframe></li>
+			<li><iframe title="(New Window)Weather" src="http://hosts.weatheri.co.kr/arirangtv/ariban3.php"></iframe></li>
+		</ul>
+	</div>
+</div>	</section>
+	<footer id="arirangFMain" >
+		<div id="arirangFMWrap">
+			<aside class="aFSpot"></aside>
+			<h2 id="arirangFMLogo"><a href="http://www.arirang.com">arirang</a></h2>
+			<nav id="arirangFMNav" class="arirangFMNav">
+				<ul>
+					<li class="h3"><a href="http://www.arirang.com/Tv/Tv_Index.asp">TV</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0756">21st Century</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0848">A Road to Peace</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0688">After School Club</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0800">ArTravel</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0858">ArTravel 2</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0844">Architecture 101</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0114">Arirang News</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0478">Arirang Prime</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0208">Arirang Special</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0686">Arts Avenue</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0772">B CRUZE</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0835">BEYOND</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0825">BizSmart</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0525">Discover World</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0854">Encountering Tomorrow</a></li>
+					
+					<li><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0802">Foreign Correspondents</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0703">Global Business Report</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0818">Globetrotters</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0816">Heart to Heart</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0826">I'm Live</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0758">In Frame (Season3)</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0809">K-Phile</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0855">Korea Travelogue</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0843">MYSTERY TRAVELERS</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0823">Masterpieces of All Time</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0847">Money Monster</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0645">NEWSCENTER</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0852">NOW</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0776">Peace Insight</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0817">PerformArts Reload</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0102">Pops in Seoul</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0820">Premium Collection</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0850">Seeking Korean Treasures</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0733">Seoulscape</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0747">Shooters</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0112">Showbiz Korea</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0636">Simply K-Pop</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0856">SmartBiz Accelerators</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0846">The Diplomat</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0839">The Five Keys</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0744">The Grand Heritage</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0633">The Innerview</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0849">The Point : World Affairs</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0836">This is the Wild</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0853">Travel Agency</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0838">Understanding Asia</a></li>
+					
+					<li class="aFMNavMorelist"><a href="http://www.arirang.com/Tv/Tv_Pagego.asp?PROG_CODE=TVCR0851">World Experience - ATLAS</a></li>
+					
+					<li id="aFMNavMoreBtn" class="aFMNavMoreBtn" onclick="aFMNavMore('.aFMNavMorelist');" style="margin-top:10px; padding:3px 0 1px 3px; color:#000; cursor:pointer; border:0px solid #8f8f8f;"><a href="javascript:void(0);">more <span>▼</span></a></li>
+					<li style="clear:both;"></li>
+				</ul>
+				<script>
+					function aFMNavMore(id) {
+						$(id).toggle(function(e) {
+							if ($(this).is(":visible")) {
+								$('#aFMNavMoreBtn>a').html('more 　<span>▲</span>');
+								$(this).slideDown();
+							} else {
+								$('#aFMNavMoreBtn>a').html('more 　<span>▼</span>');
+								$(this).slideUp();
+							};
+						});
+					}
+				</script>
+				<ul>
+					<li class="h3"><a href="http://www.arirang.com/Radio/Radio_Index.asp">radio</a></li>
+					<li><a href="http://www.arirang.com/Radio/Radio_Home_News.asp?PROG_CODE=RADR0125&MENU_CODE=102449">Arirang Radio News</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0162">#dailyK</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0145">Catch the Wave</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0160">Good Morning Seoul</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0156">Hot Beat</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0143">K-Poppin'</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0144">Music Access</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0163">Music Cube</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0164">Nonstop K-Pop</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0147">Sound K</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0155">Super K-Pop</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0148">Wonders of Jeju</a></li>
+								
+					<li><a href="http://www.arirang.com/Radio/Radio_Pagego.asp?PROG_CODE=RADR0109">World Music Station</a></li>
+					
+				</ul>
+				<ul>
+					<li class="h3"><a href="http://www.arirang.com/News/News_Index.asp">news</a></li>
+					<li><a href="http://www.arirang.com/News/News_Vod.asp">Arirang News Full Video</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=2">Nat'l / Politics</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=4">North Korea</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=3">Economy</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=5">IT / Science</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=9">Foreign Policy</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=1">World</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=7">Life / Culture</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=6">Sports</a></li>
+					<li><a href="http://www.arirang.com/News/News_List.asp?category=8">Weather</a></li>
+					<li><a href="http://www.arirang.com/News/News_ViewFinder.asp">Viewfinder</a></li>
+				</ul>
+				<ul>
+					<li class="h3"><a href="http://www.arirang.com/news/aplus/index.asp">A Plus</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=UnnieNews">A+ UnnieNews</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=Story">A+ Story</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=WHY%20do%20Koreans">A+ WHY do Koreans</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=Misorang">English with Misorang</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=TMI">A+ TMI</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=360">A+ 360</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=Branded">Branded A+ [Good4U]</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=Gilgeori">A+ Gilgeori</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=SmartA">Smart A+</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/DNA.asp">Card News</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=Simply%20K-Pop">A+ Simply K-Pop</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=Fancam">A+ Fancam</a></li>
+					<li><a href="http://www.arirang.com/news/aplus/aplus_view.asp?xList=After%20School%20Club">A+ After School Club</a></li>
+				</ul>
+				<ul>
+					<li class="h3"><a href="#" onClick="return false;">classics</a></li>
+					<li>
+						<div class="aFMNav_more">
+							<div class="aFMNav_more_btn"><a href="javascript:void(0);"><b>TV Classics</b></a></div>
+							<div class="aFMNav_more_list" style="height:250px;">
+								<ul>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0806" target="_blank">#Stylecast</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0815" target="_blank">#Stylecast 2017</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0556" target="_blank">100 Icons of Korean Culture</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0736" target="_blank">4 Angles</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0668" target="_blank">After 10</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0798" target="_blank">Arirang Odyssey</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0801" target="_blank">B CRUZE (Season 2)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0685" target="_blank">Bizline</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0663" target="_blank">Bon Voyage</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0741" target="_blank">Bring It On</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0752" target="_blank">Business Daily</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0731" target="_blank">Chef's Foodcation</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0837" target="_blank">City DNA</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0657" target="_blank">Company Close-up</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0766" target="_blank">Cooking Possible</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0767" target="_blank">Culture Trove</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0642" target="_blank">Day Break</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0280" target="_blank">Destination Korea</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0616" target="_blank">Edventure in Asia</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0438" target="_blank">Edward's Live Kitchen</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0613" target="_blank">G-Korea 2011</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0763" target="_blank">G-Lounge</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0769" target="_blank">Glimpse of Korea</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0821" target="_blank">Global Families</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0765" target="_blank">Global Tech</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0743" target="_blank">Going Global</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0807" target="_blank">Hansik of the day</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0715" target="_blank">Hello My Teacher</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0728" target="_blank">In Frame (Season2)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0632" target="_blank">In the Newsroom</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0759" target="_blank">InfoScope</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0824" target="_blank">InsideBiz</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0631" target="_blank">Insight</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0830" target="_blank">Intelligence-High School Debate</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0753" target="_blank">Join Us Korea</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0777" target="_blank">K-Culture Elite</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0727" target="_blank">K-Populous</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0252" target="_blank">Korea Confidential with Paul Schenk</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0827" target="_blank">Korea in  the sky</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0732" target="_blank">Korea on The Move</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0764" target="_blank">Korea on the Rise</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0635" target="_blank">Korea Today</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0614" target="_blank">Korea Top 10</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0661" target="_blank">Korea Top 10 (Season 2)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0662" target="_blank">Korea Wide</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0707" target="_blank">Korea, on the New Horizon</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0721" target="_blank">Latin America's Wish</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0701" target="_blank">Legend of Doctors</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0812" target="_blank">Let's Speak Korean</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0813" target="_blank">Let's Speak Korean (Season 2)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0110" target="_blank">Let's Speak Korean (Season 3)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0430" target="_blank">Let's Speak Korean (Season 4)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0503" target="_blank">Let's Speak Korean (Season 5)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0590" target="_blank">Life between Games</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0602" target="_blank">Live Music Concert Nanjang</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0774" target="_blank">Masterpiece of Generations</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0748" target="_blank">Mechanics of Life</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0726" target="_blank">Medical Story</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0737" target="_blank">Money Matters</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0719" target="_blank">My Little Kitchen</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0761" target="_blank">News Inside</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0746" target="_blank">Newstellers</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0760" target="_blank">On the Agenda</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0745" target="_blank">ONSTAGE K</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0814" target="_blank">OURS</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0808" target="_blank">Peninsula 24</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0751" target="_blank">Peninsula Inside</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0108" target="_blank">PerformArts</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0768" target="_blank">PerformArts M</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0810" target="_blank">Project-K</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0829" target="_blank">Prosumer LAB 101</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0542" target="_blank">Quilt Your Korean Map</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0797" target="_blank">Quiz Whiz Junior</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0655" target="_blank">Rock on Korea</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0670" target="_blank">Semipermanent</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0822" target="_blank">Shaping the Economy</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0773" target="_blank">Spirit of Korea</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0664" target="_blank">Stars' Road</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0691" target="_blank">Tales of Hansik</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0669" target="_blank">Taste of Wisdom</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0526" target="_blank">Tasty Trail with Benjamin</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0755" target="_blank">Technolyze</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0796" target="_blank">That Day</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0819" target="_blank">The 3S</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0709" target="_blank">The Road to Seoul</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0811" target="_blank">The S.O.S</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0634" target="_blank">The Sensation</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0725" target="_blank">The Wish of the Earth</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0770" target="_blank">Touch Q</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0828" target="_blank">Tour Avatar</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0754" target="_blank">Tour vs Tour</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0799" target="_blank">Tour vs Tour (Season 2)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0834" target="_blank">Tour vs Tour (Season 3)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0705" target="_blank">Travel Story</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0729" target="_blank">Travel Story (Season2)</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0507" target="_blank">Travelog</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0722" target="_blank">Upfront</a></li>
+								
+									<li><a href="http://www.arirang.com/tv/Tv_Pagego.asp?PROG_CODE=TVCR0804" target="_blank">Youth Calls</a></li>
+								
+								</ul>
+							</div>
+							<div class="aFMNav_more_btn_minus">close up</div>
+						</div>
+					</li>
+					<li>
+						<div class="aFMNav_more">
+							<div class="aFMNav_more_btn"><a href="javascript:void(0);"><b>RADIO Classics</b></a></div>
+							<div class="aFMNav_more_list" style="height:250px;">
+								<ul>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0152" target="_blank">Hello, Gugak!</a></li>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0126" target="_blank">It Classic</a></li>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0159" target="_blank">Sonic City</a></li>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0154" target="_blank">SunnySide Up</a></li>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0161" target="_blank">The Jenny Jo Show</a></li>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0108" target="_blank">Travel Bug</a></li>
+									 
+										<li><a href="http://www.arirang.com/radio/Radio_Pagego.asp?PROG_CODE=RADR0157" target="_blank">Urban Sounds</a></li>
+									
+								</ul>
+							</div>
+							<div class="aFMNav_more_btn_minus">close up</div>
+						</div>
+					</li>
+					<script>
+						$(function(){
+							$(".aFMNav_more_btn").click(function(e){
+								e.preventDefault();
+								$(this).css("cursor","default");
+								$(this).next().next().css("display","block");
+								$(this).next().slideDown();
+								$(this).css("background-image","none");
+							});
+							$(".aFMNav_more_btn_minus").click(function(e){
+								e.preventDefault();
+								$(this).css("display","none");
+								$(this).prev().prev().css("display","block");
+								$(this).prev().prev().css("cursor","pointer");
+								$(this).prev().slideUp();
+								$(this).prev().prev().css('background-image', 'url(http://img.arirang.com/images/common2014/aFMNav_plus_btn.gif)');
+							});
+							$(".aFMNav4 .aFMNav_more_btn_minus").click(function(e){
+								$(this).prev().prev().css('background-image', 'url(http://img.arirang.com/images/common2014/aFMNav_more_show.png)');
+							});
+						});
+					</script>
+					<li class="aFMNavMorelist_clasic" style="margin-top:30px;"><a href="http://www.arirang.com/Event/2015/joinuskorea.asp">2015 Join Us Korea</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/Event/2015/bestartist.asp">2015 Best K-Pop Artist</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/2014/Find_Adrien_Lee_map.asp">2014 Find Adrien Lee</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/2014/kdf.asp" style="letter-spacing:-1px;">2014 Korea Drama Festival</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/2014/harmony.asp">2014 Arirang Harmony</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/2014/arirang_radio.asp">2014 11th Radio Concert</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/ucc_contest2012/Photo_Gallery.asp?mc=5">2012 Photo Contest</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/ucc_contest2011/Win_Entries.asp">2011 UCC Contest</a></li>
+					<li class="aFMNavMorelist_clasic"><a href="http://www.arirang.com/event/ucc_contest2010/win.asp">2010 UCC Contest</a></li>
+					<li id="aFMNavMoreBtn_classic" class="aFMNavMoreBtn" onclick="aFMNavMore_classic('.aFMNavMorelist_clasic');" style="margin-top:20px; padding:3px 0 1px 3px; color:#000; cursor:pointer; border:0px solid #8f8f8f;"><a href="javascript:void(0);">more <span>▼</span></a></li>
+				</ul>
+				<script>
+					function aFMNavMore_classic(id) {
+						$(id).toggle(function(e) {
+							if ($(this).is(":visible")) {
+								$('#aFMNavMoreBtn_classic>a').html('more 　<span>▲</span>');
+								$(this).slideDown();
+							} else {
+								$('#aFMNavMoreBtn_classic>a').html('more 　<span>▼</span>');
+								$(this).slideUp();
+							};
+						});
+					}
+				</script>
+				<ul>
+					<li class="h3"><a href="http://www.arirang.com/Tv/TV_Index_SCH.asp">schedule</a></li>
+					<li><a href="http://www.arirang.com/Tv/TV_Index_SCH.asp">TV Schedule</a></li>
+					<li><a href="http://www.arirang.com/Radio/Radio_index.asp">RADIO Schedule</a></li>
+				</ul>
+			</nav>
+			
+			<div id="aI_fbanner2">
+				<a href="http://www.arirang.com/Techinfra/techinfra01.asp" target="_blank"><img src="http://img.arirang.com/images/index/aI_fbanner_techinfra.jpg" alt="Tech Infra"></a>
+			</div>
+			<nav id="arirangFMNav2" class="arirangFMNav aFMNav4">
+				<ul>
+					<li class="h3 aFMNav_more">
+						<a href="http://www.arirang.com/prroom/about_arirangn_ceo.asp">about arirang</a>
+						<div class="aFMNav_more_btn"><a href="javascript:void(0);">more</a></div>
+						<div class="aFMNav_more_list">
+							<ul>
+								<li><a href="http://www.arirang.com/prroom/About_ArirangN1.asp">Arirang Introduction</a></li>
+								<li><a href="http://www.arirang.com/prroom/about_arirangn_ceo.asp">CEO Message</a></li>
+								<li><a href="http://www.arirang.com/prroom/HowToWatch1.asp">How to Watch</a></li>
+								<li><a href="http://www.arirang.com/prroom/H_ToListen.asp">How to Listen</a></li>
+								<li><a href="http://www.arirang.com/prroom/PrRoom_Press.asp">Press Releases</a></li>
+								<li><a href="http://www.arirang.com/prroom/PR_Materials.asp">PR Materials</a></li>
+								<li><a href="http://www.arirang.com/prroom/Promotional.asp">Promotional Films</a></li>
+								<li><a href="http://www.arirang.com/prroom/CI_Arirang.asp">Arirang CI</a></li>
+								<li><a href="http://www.arirang.com/prroom/newsletter.asp">Newsletter</a></li>
+							</ul>
+						</div>
+						<div class="aFMNav_more_btn_minus">close up</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="h3 aFMNav_more">
+						<a href="http://www.arirang.com/Help/Announcement.asp">contact</a>
+						<div class="aFMNav_more_btn"><a href="javascript:void(0);">more</a></div>
+						<div class="aFMNav_more_list">
+							<ul>
+								<li><a href="http://www.arirang.com/Help/Announcement.asp">Announcement</a></li>
+								<li style="background:url(http://img.arirang.com/images/icon_email_14_gray.gif) no-repeat 40px 8px;"><a href="http://www.arirang.com/Help/Help_Desk.asp">Help</a></li>
+								<li><a href="http://www.arirang.com/Help/FAQ.asp">FAQ</a></li>
+								<li><a href="http://www.arirang.com/Adinfo/Adver.asp">Advertisement</a></li>
+								<li><a href="http://www.arirang.com/Help/Contact_US.asp">Contact Us</a></li>
+								<li><a href="http://www.arirang.com/Help/Tour_Inquiry.asp">Tour Inquiry</a></li>
+								<li><a href="http://www.arirang.com/Help/Location.asp">Location</a></li>
+								<li><a href="http://www.arirang.com/Help/Terms_of_Service.asp">Terms of Use</a></li>
+								<li><a href="http://www.arirang.com/Help/Privacy_Policy.asp">Privacy Policy</a></li>
+							</ul>
+						</div>
+						<div class="aFMNav_more_btn_minus">close up</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="h3 aFMNav_more">
+						<a href="#" onClick="return false;">ARIRANG QUICK LINKS</a>
+						<div class="aFMNav_more_btn"><a href="javascript:void(0);">more</a></div>
+						<div class="aFMNav_more_list">
+							<ul>
+								<li><a href="http://www.arirang.com/event/pr/Arirang_Mobile.asp?MCode=1&amp;sys_lang=Eng">Mobile</a></li>
+								<li><a href="http://www.arirang.com/event/pr/Newmedia_Platforms.asp">New Media Platforms</a></li>
+								<li><a href="http://www.arirang.com/event/pr/snshub.asp">Social Media</a></li>
+								<li><a href="http://www.arirang.com/prroom/Newsletter.asp">Newsletter</a></li>
+							</ul>
+						</div>
+						<div class="aFMNav_more_btn_minus">close up</div>
+					</li>
+				</ul>
+				<ul style="position:relative;">
+					<li class="h3 aFMNav_more">
+						<a href="#" onClick="return false;">RECOMMENDED SITES</a>
+						<div class="aFMNav_more_btn"><a href="javascript:void(0);">more</a></div>
+						<div class="aFMNav_more_list">
+							<ul>
+								<li><a href="http://www.youtube.com/user/arirangworld">YouTube Arirang World</a></li>
+								<li><a href="http://www.youtube.com/user/arirangnews">YouTube Arirang News</a></li>
+								<li><a href="http://www.youtube.com/user/arirangkorean">YouTube Arirang Korean</a></li>
+								<li><a href="http://www.ustream.tv/channel/yu2KqmPnFV5">Ustream Arirang TV</a></li>
+								<li><a href="http://twitter.com/arirangworld">Arirang Twitter</a></li>
+								<li><a href="https://www.facebook.com/arirangtv?v=wall">Arirang Facebook</a></li>
+								<li><a href="http://blog.naver.com/kibfarirang">Naver Arirang Blog</a></li>
+								<li><a href="http://blog.daum.net/arirangtv">Daum Arirang Blog</a></li>
+								<li><a href="http://twitter.com/arirangradio">Arirang Radio Twitter</a></li>
+								<li><a href="http://www.arirangtvmedia.com">ArirangTV Media</a></li>
+							</ul>
+						</div>
+						<div class="aFMNav_more_btn_minus">close up</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div id="arirangFM_guidetext">* All Arirang Programs are Sponsored by the Communications Development Fund of Korea Communications Commission.</div>
+	</footer>
+
+	
+	<footer id="arirangFooter">
+		<div id="arirangFWrap">
+			<nav id="arirangFNav" class="arirangFNav">
+				<ul>
+				
+					<li><a href="http://www.arirang.com/prroom/about_arirangn_ceo.asp?sys_lang=Eng">About Arirang</a></li>
+					<li><a href="http://www.arirang.com/prroom/HowToWatch1.asp?sys_lang=Eng">How to Watch</a></li>
+					<li><a href="http://www.arirang.com/AdInfo/Adver.asp?code=Ad1">Advertisement</a></li>
+					<li><a href="http://www.arirang.com/Help/Contact_US.asp?sys_lang=Eng">Contact Us</a></li>
+					<li><a href="http://www.arirang.com/help/copyright_policy.asp?sys_lang=Eng">Copyright Policy</a></li>
+					<li><a href="http://www.arirang.com/gov30/gov30_1.asp?sys_lang=Kor">정보공개</a></li>
+				
+				</ul>
+			</nav>
+			<nav id="arirangFNav2" class="arirangFNav">
+				<ul>
+				
+					<li><a href="http://www.arirang.com/Help/Terms_of_Service.asp">Terms of Use</a></li>
+					<li class="PrivacyPolicy"><a href="http://www.arirang.com/Help/Privacy_Policy.asp">Privacy Policy</a></li>
+				
+					<li class="aFNSNS">
+						<a class="aFNSNS_facebook" href="http://www.arirang.com/event/pr/snshub.asp?code=F">facebook</a>
+						<a class="aFNSNS_twitter" href="http://www.arirang.com/event/pr/snshub.asp?code=T">twitter</a>
+						<a class="aFNSNS_google" href="http://www.arirang.com/event/pr/snshub.asp?code=G">google</a>
+						<a class="aFNSNS_li"></a>
+					</li>
+					<li>
+						<div class="aFLanguage"><b>Language</b>
+						
+							<span onmouseover="$('.aFLang_box').show();" class="on"><a href="#" onfocus="footKor('ftKor');">&gt; Eng</a></span>
+							<div class="aFLang_box" onmouseout="$('.aFLang_box').hide();" id="ftKor">
+							<a href="http://www.arirang.co.kr/News/News_View.asp?nSeq=231307&amp;sys_lang=Kor">&gt; Kor</a>
+							</div>
+						
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<ul id="arirangFInfo">
+				<li>
+				Arirang Tower, 2351, Nambusunhwan-ro, Seocho-gu, Seoul, 06713, Rep. of KOREA
+				</li>
+				<li>Tel : <a href="tel:82-2-3475-5000">82-2-3475-5000</a></li>
+				<li>E-mail : <a href="mailto:help@arirang.com">help@arirang.com</a></li>
+			</ul>
+			<div id="arirangFCopyright">
+				Copyright Since 1996, The Korea International Broadcasting Foundation All Reserved.
+			</div>
+			<div id="arirangF_logo">
+						
+				<a href="https://www.goodcontent.kr/eng/main.do" target="_blank" class="goodCS"><img src="http://img.arirang.com/images/prroom/about_arirang_goodCS_logo.png" alt="Good Content Service"></a>
+				<a href="http://www.kogl.or.kr/" target="_blank" class="KOGL">KOGL</a>
+			</div>
+		</div>
+	</footer>
+</section>
+<div style="text-align:center;"><a href="http://www.arirang.com/mobile/index.asp" id="arirangGoMobileWeb"></a></div>
+<script> if (/mobile/i.test(navigator.userAgent)) { $("#arirangGoMobileWeb").css("display", "block"); }</script>
+<script>
+	$(document).ready(function(){
+		$('.aFLang_box>a').blur(function() {
+			$('.aFLang_box').css('display','none');
+		});
+	});
+	function footKor(id) {
+		document.getElementById(id).style.display='block'; 
+	}
+	function footEng(id) {
+		document.getElementById(id).style.display='block'; 
+	}
+</script>
+<!-- 국제방송교류재단 - 국제방송교류재단 웹로그 수집  TAG 시작 -->
+<script>
+//<![CDATA[
+//분석로그 수집 : 고정
+var _BT_SITE = "log.kcisa.kr";
+
+// 로그인사용자에 대한 정보. 로그인되었을 경우 첨부
+//var _BT_LOGINSEG = "userid" + "_/" + "성별( 1 :남성, 2:여성, 3:기타(법인포함) )" + "_/" + "연령";
+// 로그인 되었을 경우 해당 값을 위 예시를 참고하여 작성하여 주시기 바랍니다.
+var _BT_LOGINSEG = "";
+//DEBUG 용도. on 으로 되어 있으면 script 실행결과가 alert 으로 나옴
+//var _BT_DEBUG_ = "on";
+
+document.write("<sc" + "ript type='text/java" + "scr" + "ipt' src='"
+				+ ( document.location.protocol == "https:" ? "https://" : "http://" )
+				+ _BT_SITE + "/tag/WebNibbler_arirang_co_kr.js" + "'>");
+document.write("</sc" + "ript>");
+//]]>
+</script>
+
+<noscript>
+	<img src="http://log.kcisa.kr/tag/tag.jsp?site_cd=www.arirang.co.kr" width="0" height="0" alt="">
+</noscript>
+<!-- 국제방송교류재단 - 국제방송교류재단 웹로그 수집  TAG 종료 -->
+</body>
+</html>

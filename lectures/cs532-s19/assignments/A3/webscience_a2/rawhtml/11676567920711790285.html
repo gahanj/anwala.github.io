@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script type="text/javascript">
+		function unescapeHtml(escaped_str) {
+		    var div = document.createElement('div');
+		    div.innerHTML = escaped_str;
+		    var child = div.childNodes[0];
+		    return child ? child.nodeValue : null;
+		}
+		
+		function validateProtocol(url) {
+			var parser = document.createElement('a');
+		    parser.href = url;
+		    var protocol = parser.protocol.toLowerCase();
+			if ([ 'javascript:', 'vbscript:', 'data:' ].indexOf(protocol) < 0) {
+				return url;
+			}
+			return null;
+		}
+		
+		function validate(url) {
+			var unescaped_value = unescapeHtml(url);
+			if (unescaped_value && validateProtocol(unescaped_value)) {
+				return unescaped_value;
+			}
+			return '/';
+		}			var hasURI = false;
+			var intervalExecuted = false;
+			window.onload = function() {
+				document.getElementById("l").src = validate("nullmedium.com/p/stacey-abrams-and-kamala-harris-will-drown-out-trumps-pathetic-lies-for-you-65e910593db2?link_click_id=link-621465233588302188");
+				window.setTimeout(function() {
+					if (!hasURI) {
+						window.top.location = validate("https://medium.com/p/stacey-abrams-and-kamala-harris-will-drown-out-trumps-pathetic-lies-for-you-65e910593db2?_branch_match_id=link-621465233588302188");
+					}
+					intervalExecuted = true;
+				}, 300);
+			};
+
+			window.onblur = function() {
+				hasURI = true;
+			};
+
+			window.onfocus = function() {
+				if (hasURI) {
+					window.top.location = validate("https://medium.com/p/stacey-abrams-and-kamala-harris-will-drown-out-trumps-pathetic-lies-for-you-65e910593db2?_branch_match_id=link-621465233588302188");
+				} else if(intervalExecuted) {
+					window.top.location = validate("https://medium.com/p/stacey-abrams-and-kamala-harris-will-drown-out-trumps-pathetic-lies-for-you-65e910593db2?_branch_match_id=link-621465233588302188");
+				}
+			}
+		</script>
+		<iframe id="l" width="1" height="1" style="visibility:hidden"></iframe>
+	</body>
+</html>

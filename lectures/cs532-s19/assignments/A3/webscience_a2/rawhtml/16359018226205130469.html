@@ -1,0 +1,1392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d0dc94d46c","applicationID":"52584056","transactionName":"YFMEYhcHX0JWVUNeX1kZJ2U1SUlCQ1dDXlMYRhRfCANDUF9ZRVYfQ1MLRgkHRVQYWFhDURlXFUYd","queueTime":0,"applicationTime":199,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta property="fb:pages" content="99825897726">
+<link rel="amphtml" href="https://m.primerahora.com/amp/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/" />
+<title>“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump</title>
+<meta name="Description" content="El presidente de Estados Unidos continúa con sus ataques tuiteros" />
+<meta name="Keywords" content="Donald Trump" />
+<base href="https://www.primerahora.com/XStatic/primerahora/template/nota.aspx?id=1302410" />
+<link rel="shortcut icon" href="https://www.primerahora.com/XStatic/primerahora/images/icons/favicon.ico" type="image/x-icon">
+<link rel="image_src" href="https://rec-eph.primerahora.com/images/2018/09/14/cropw0h0trump61146240_4.jpg">
+<meta property="og:image" content="https://rec-eph.primerahora.com/images/2018/09/14/cropw0h0trump61146240_4.jpg" />
+<meta property="og:title" content="“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/" />
+<meta property="og:description" content="El presidente de Estados Unidos continúa con sus ataques tuiteros" />
+<meta property="og:site_name" content="Primera Hora" />
+<meta property="article:publisher" content="https://www.facebook.com/primerahora" />
+<meta property="article:published_time" content="2018-09-14T09:48:00-04:00">
+<meta property="article:expiration_time" content="2018-11-13T09:48:00-04:00">
+<meta name="cXenseParse:recs:publishtime" content="2018-09-14T09:48:00-04:00">
+</meta>
+<meta name="cXenseParse:recs:articleid" content="1001302410" />
+<script type="text/javascript">
+    var gfrM = gfrM || {};
+    gfrM.siteConfig = {
+        section : "noticias",
+        subsection : "estados-unidos",
+        publisher : "primerahora.com",
+        contentId : "1302410",
+        contentType : "news", 
+        cxsegments: [],
+        adPromo : "",
+        sponsor : "", 
+        topics : ["donald trump"],
+        author : ["primerahora.com"],
+        referral: "",
+        classification: "",
+        category: "",
+        environment :  "PROD",
+        customParams: function () { 
+            return "&cust_params=".concat((this.contentId.length > 0) ? "contentId%3D" + this.contentId : "", 
+               (this.contentType.length > 0) ? "%26contentType%3D" + 
+               this.contentType : "", 
+               (this.section.length > 0) ? "%26section%3D" + this.section : "", 
+               (this.sponsor.length > 0) ? "%26sponsor%3D" + this.sponsor : "", 
+               (this.adPromo.length > 0) ? "%26AdPromo%3D" + this.adPromo : ""); 
+        },
+        vidPreAd: function () {
+            var custParam = this.customParams();
+            return "https://pubads.g.doubleclick.net/gampad/ads" +
+            "?sz=640x480|640x480|640x360|640x360" +
+            "&iu=/282897603/" + this.publisher + "/videos/vid-preroll" +                         
+            "&ciu_szs=640x480,640x360&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=" + custParam +"&description_url=__page-url__" +"&correlator=__random-number__";
+        },
+        vidOvrAd: function () {
+            var custParam = this.customParams();
+            return "https://pubads.g.doubleclick.net/gampad/ads" +
+            "?sz=480x90|480x90|468x60|60x468" +
+            "&iu=/282897603/" + this.publisher + "/videos/vid-overlay" +
+            "&ciu_szs=480x90,468x60&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=" +custParam +"&description_url=__page-url__" + "&correlator=__random-number__";
+        },
+        queue: []
+    };
+</script>
+<script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump",
+        "url": "https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/",
+        "thumbnailUrl": "https://rec-eph.primerahora.com/images/2018/09/14/cropw0h0trump61146240.jpg",
+        "dateCreated": "2018-09-15T01:48:00Z",
+        "articleSection": "estados-unidos",
+        "creator": ["primerahora.com"],
+        "keywords": ["donald trump"]
+        }
+</script>
+<meta property="fb:pages" content="99825897726" />
+<meta content="198431033627479" property="fb:app_id" />
+<meta content="513826675" property="fb:admins" />
+<meta name="twitter:card" value="summary_large_image">
+<meta name="twitter:image:src" content="https://rec-eph.primerahora.com/images/2018/09/14/cropw0h0trump61146240_4.jpg" />
+<meta name="twitter:title" content="“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump" />
+<meta name="twitter:url" content="https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/" />
+<meta name="twitter:description" content="El presidente de Estados Unidos continúa con sus ataques tuiteros" />
+<meta name="twitter:site" content="@primerahora" />
+<link rel="canonical" href="https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/" />
+<script src="https://cdns.gigya.com/JS/socialize.js?apikey=3_IZ8okhZbYR1x4UfAki59lJC725MEv1vKohC7bSpQZk8X0LJOuwz_AY4ppNzhNG46" type="text/javascript">{"siteName":"primerahora.com","enabledProviders":"facebook,twitter,googleplus,messenger,email,pinterest","connectWithoutLoginBehavior":"loginExistingUser","autoLogin":true,"lang":"es","sessionExpiration":"-2","regSource":"primerahora.com"}</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Oswald:400,700,300'>
+<link rel="stylesheet" type="text/css" href='https://www.primerahora.com/XStatic/primerahora/espanol/assets/css/style.css?v=98745' media="screen" />
+<link rel="stylesheet" type="text/css" href='https://www.primerahora.com/XStatic/primerahora/espanol/assets/css/common.css?v=98745' media="screen" />
+<link rel="stylesheet" type="text/css" href='https://www.primerahora.com/XStatic/primerahora/espanol/assets/css/style-show.css?v=98745' />
+<link rel="stylesheet" type="text/css" href='https://www.primerahora.com/XStatic/primerahora/espanol/assets/css/lightbox.css?v=98745' />
+<!--[if lt IE 9]>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js?v=98745"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/ie.css?v=98745" media="screen" />
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js?v=98745"></script>
+<![endif]-->
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/jquery-1.7.1.min.js?v=98745'></script>
+<script src='https://www.primerahora.com/XStatic/primerahora/js/sitio.js?v=98745' type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var _gfrM_section = "noticias";
+var _gfrM_subsection = "estados-unidos";
+var _gfrM_author = "";
+var _gfrM_ga_ver = "20180808";
+</script>
+<script type="text/javascript" src="https://www.primerahora.com/XStatic/primerahora/js/ga-tagtools-ph.0.6.min.js"></script>
+
+<script type="text/javascript">
+	    ; (function (p, l, o, w, i, n, g) {
+	        if (!p[i]) {
+	            p.GlobalAamNamespace = p.GlobalAamNamespace || [];
+	            p.GlobalAamNamespace.push(i); p[i] = function () {
+	                (p[i].q = p[i].q || []).push(arguments)
+	            }; p[i].q = p[i].q || []; n = l.createElement(o); g = l.getElementsByTagName(o)[0]; n.async = 1;
+	            n.src = w; g.parentNode.insertBefore(n, g)
+	        } 
+	    } (window, document, "script", "//gadasource.storage.googleapis.com/aam.js", "aamsitecertifier"));
+
+	    window.aamsitecertifier('newTracker', 'cf', 'aamcf.aamsitecertifier.com', {
+	        idWeb: '311'
+	    });
+
+	    window.aamsitecertifier('trackPageView');
+	</script>
+
+
+<script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        } (window,
+    document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '328867890997183');  // Insert your pixel ID here.
+        
+        fbq('trackCustom', "NewsCategory", { category: 'videos', subcategory: 'noticias' });
+        
+        
+    </script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1797069973919862&ev=PageView&noscript=1" />
+    </noscript>
+
+
+<script type="text/javascript">
+    if (typeof $igniter_var === 'undefined') {
+        (function (w, d, s, p, v, e, r) {
+            w.$ps = (w.performance && w.performance.now && typeof (w.performance.now) == "function") ? w.performance.now() : undefined;
+            w['$igniter_var'] = v; w[v] = w[v] || function () { (w[v].q = w[v].q || []).push(arguments) }; w[v].l = 1 * new Date(); e = d.createElement(s), r = d.getElementsByTagName(s)[0]; e.async = 1;
+            e.src = p + '?ts=' + (+new Date() / 3600000 | 0);
+            r.parentNode.insertBefore(e, r)
+        })(window, document, 'script', '//cdn.petametrics.com/mk1mfkjl1tjltc02.js', '$p');
+
+    $p('init', "mk1mfkjl1tjltc02");
+    $p('send', "pageview");
+}
+</script>
+
+
+<div id="parsely-root" style="display: none">
+<span id="parsely-cfg" data-parsely-site="primerahora.com"></span>
+</div>
+<script id="Script1" src="https://d1z2jf7jlzjs58.cloudfront.net/keys/primerahora.com/p.js"></script>
+
+</head>
+<body class="" style="background-color:#fff">
+<div id='Background'><script>gfrM.siteConfig.queue.push('Background');</script></div>
+<script language="javascript">
+	var intShowM=0;
+	function hideImage(){
+	    $(".editableToolbar").hide();
+	    $(".editableToolbar").parent("a").unbind('click');
+	     
+	    $(".delElemento").hide();
+	    $("input[name=strEdition]").val("0");
+		var images = document.getElementsByTagName('img'); 
+		for (var i = 0; i < images.length; i++) { 	
+			id = images[i].getAttribute("id"); 
+			if (id != null) {				
+				if ( id.indexOf('lapiz_')>=0 ) { 
+					images[i].style.display = 'none';
+				}
+			}
+		}	
+		var span= document.getElementsByTagName('span'); 
+		for (var i = 0; i < span.length; i++) { 	
+			id = span[i].getAttribute("id"); 
+			if (id != null) {				
+				if ( id.indexOf('lapiz_')>=0 ) { 
+					span[i].style.display = 'none';
+				}
+			}
+		}
+	    
+	}
+
+	function showImage() {
+
+		if ($(".editableToolbar").length == 0)	{
+		    		 $(".editableText").editableText({
+		    		     newlinesEnabled: false,
+		    		     adminURL: "https://sacspro.gfrmedia.com"                 
+                	   });
+				}
+		else
+		    {
+	        $(".editableToolbar").show();					
+                    $(".editableToolbar").parent("a").click(function(event) { 
+        			    event.preventDefault(); 
+                    }); 
+		}
+		   
+		$(".delElemento").show();   	
+	    $("input[name=strEdition]").val("1");
+		var span= document.getElementsByTagName('span'); 
+		for (var i = 0; i < span.length; i++) { 	
+			id = span[i].getAttribute("id"); 
+			if (id != null) {				
+				if ( id.indexOf('lapiz_')>=0 ) { 
+					span[i].style.display = '';
+				}
+			}
+		}
+		var images = document.getElementsByTagName('img'); 
+		for (var i = 0; i < images.length; i++) { 
+			id = images[i].getAttribute("id"); 
+			if (id != null) {	    
+				if ( id.indexOf('lapiz_')>=0 ) { 
+					images[i].style.display = '';
+				}
+			}
+		}
+	       
+	}
+		
+    function selectPage() {    
+		window.opener.document.all.campo.value='..';
+		window.close();
+    }
+
+    function myClickFunction(sender, eventArgs)
+      {
+            if (eventArgs.Item.Value != null)
+				if (eventArgs.Item.Value!='selectPage')
+					if (eventArgs.Item.Value!='edicionnavegacion')
+						if (eventArgs.Item.Value.indexOf('javascript')>=0)
+							eval(eventArgs.Item.Value);
+						else
+							document.location.href=eventArgs.Item.Value;
+					else
+					{
+						var menu = ctl00_ctrlSACSMenu_Radmenu1;
+						var item = menu.FindItemByValue('edicionnavegacion');
+						if (intShowM==0)
+						{
+							showImage();
+							intShowM=1;
+							if (item)
+								{
+									item.SetText('&nbsp;&nbsp;Navegación');
+								}
+						}
+						else
+						{
+							hideImage();
+							intShowM=0;
+							if (item)
+								{
+									item.SetText('&nbsp;&nbsp;Edición');
+								}
+						}
+					}
+				else
+					selectPage();
+        }
+</script>
+<div align="left">
+<div id="ctl00_ctrlSACSMenu_Radmenu1" class="radmenu RadMenu_Outlook  contextMenu RadMenu_Outlook_Context">
+<script type="text/javascript" src="/WebResource.axd?d=YYFC3x3TZGy3abQvyVpWV-pIDxjPVHafTJnMQkwU6QqKWOElJXKZZZBt9T19JPTmgFd1-7BoQyn5g0-XrPlvPAAYw-EpvK8-_WYYF4xBZb9UQZ9egXjaj93yAUyY2hrzgwsxdxWW6cv84G1FU6K7plRY02oZ3YwG7JbDIY64lSJQ3iE20&amp;t=636396819500442681"></script><span id="ctl00_ctrlSACSMenu_Radmenu1StyleSheetHolder" style="display:none;"></span><script type="text/javascript">RadControlsNamespace.AppendStyleSheet(false, 'ctl00_ctrlSACSMenu_Radmenu1', '/WebResource.axd?d=BnHSMIm6hG6ovmuH2MXJxVwdnuAbKF6F3r2hkx11vpQMc71BmFFFdw0CVH2LoEopdqU8i3P6J5hsUlETCUXjt-0CX5MgtYLCKEgI00CMVVOscecAVJKFQr8jrIxSWQza56e8xHvEiKcc34lHbI1X-FzgkOUhNZQw9QC3iZVxKA7TrBD90&amp;t=636396819500442681');</script><script type="text/javascript">RadControlsNamespace.AppendStyleSheet(false, 'ctl00_ctrlSACSMenu_Radmenu1', '/RadControls/Menu/Skins/Outlook/styles.css');</script><ul class="vertical group level1">
+</ul><input type="hidden" id="ctl00_ctrlSACSMenu_Radmenu1_Hidden" name="ctl00$ctrlSACSMenu$Radmenu1" /><script type="text/javascript">window["ctl00_ctrlSACSMenu_Radmenu1"] = RadMenu.Create("ctl00_ctrlSACSMenu_Radmenu1");window["ctl00_ctrlSACSMenu_Radmenu1"].Initialize({"IsContext":true,"Skin":"Outlook","CausesValidation":false,"Flow":0,"Enabled":true,"OnClientItemClicked":"myClickFunction"},{});</script>
+</div>
+</div>
+<div class="container">
+<div class="row hrow">
+<aside class="container" style="text-align: center" align="center">
+
+<header class="page-header " role="banner" data-isnota="False">
+<div class="wrap"></div>
+<div class="masthead">
+<div class="wrap"></div>
+</div>
+</header>
+ <div id='Leaderboard'><script> gfrM.siteConfig.queue.push('Leaderboard');</script></div>
+</aside>
+
+<header id="header">
+<div id="site-head" class="inner">
+<div class="row">
+<figure class="twocol logo" style="margin: 13px 0 0 1.6%;">
+<a href="/">
+<img title="Primera Hora" alt="Primera Hora" src="http://www.primerahora.com/XStatic/primerahora/images/misc/logoph2018.png" target="_self">
+</a>
+</figure>
+<div>
+<div class="tencol last noticias">
+<div class="fivecol login ilogin"> <span class="date">21.02.2019 </span> <span>Actualización 2:40 PM</span> </div>
+<div class="sevencol last noticias clearfix">
+<div id="usuariologueado" style="display:none">
+<ul id="nav" class="nav02">
+<li id="mainlevel_1b">
+<a href="/usuarios/panel-de-control/" rel="nofollow" class="tl1 tFontW2 c1_esp"><img src="../images/default-avatar.png" id="usuarioavatar" width="27px" height="27px"><span class="nom_login" id="usuarionombre"></span></a>
+<div class="pos1 clearfix bg_alt" onMouseOver="document.getElementById('mainlevel_1b').className='hover';" onMouseOut="document.getElementById('mainlevel_1b').className='';">
+<ul>
+<li><a href="/usuarios/panel-de-control/actividad/">Actividad</a></li>
+<li><a href="/usuarios/panel-de-control/miperfil/">Mi perfil</a></li>
+<li><a href="/usuarios/panel-de-control/conexiones/">Conexiones</a></li>
+
+<li><a href="javascript:logoffMenu();">Logout</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="fivecol last noticias login" id="Login">
+<div id="Login">
+<ul>
+<li>
+<a onclick="showRegistroGigya()" href="javascript:gigya.accounts.showScreenSet({screenSet:'ph-login-mobile'});">Login</a>
+</li>
+<li>
+<a href="javascript:gigya.accounts.showScreenSet({screenSet:'ph-login-mobile', startScreen: 'gigya-register-screen'});">Regístrate</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="sixcol searchfield noticias">
+<form id="formheadersearch" action="/buscador/" onsubmit="return validateForm()">
+<input type="text" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" name="q" id="q" value="" placeholder="¿Qué Buscas?" />
+<input type="submit" value="" />
+</form>
+<script>
+    function validateForm() {
+        var x = document.forms["formheadersearch"]["q"].value;
+        if (x == null || x == "") {
+            alert("Ingresa tu busqueda.");
+            return false;
+        }
+    }
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation row nnavigation" style="padding-bottom:0px">
+<nav class="eightcol pnav db_nav" style="width:640px !important;">
+<ul class="clearfix">
+<li class="mn01"> <a href="/ultimas-noticias/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Últimas",, false]);'>ÚLTIMAS</a>
+<div class="submenus megamenu row navnone" style="display:none" rel='0,964479,ultimas,-1,1'></div>
+</li>
+<li class="active"><a href="/noticias/">NOTICIAS</a>
+<ul class="row submenu gsubmenu pleft0" style="background-color:#FFF029">
+</ul>
+</li>
+<li class=""> <a href="/entretenimiento/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Entretenimiento",, false]);'>ENTRETENIMIENTO</a>
+<div class="submenus megamenu row " style="display:none" rel='2,161,entretenimiento,2,1'></div>
+</li>
+<li class=""> <a href="/deportes/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Deportes",, false]);'>DEPORTES</a>
+<div class="submenus megamenu row " style="display:none" rel='3,162,deportes,3,1'></div>
+</li>
+<li class=""> <a href="/estilos-de-vida/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Estilos de Vida",, false]);'>ESTILOS DE VIDA</a>
+<div class="submenus megamenu row " style="display:none" rel='4,163,estilos-de-vida,4,1'></div>
+</li>
+<li>
+<a href="/videos/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Videos",, false]);'>VIDEOS</a>
+<div class="submenus megamenu row clearfix" style="display:none" rel='0,166,multimedios,-1,3'></div>
+</li>
+<li>
+<a href="/fotogalerias/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Fotos",, false]);'>FOTOS</a>
+<div class="submenus row megamenu" style="display:none" rel='1,970079,fotos,-1,3'></div>
+</li>
+<li>
+<a href="/regionales/" onClick='_gaq.push(["_trackEvent", "MainNavClick", "click", "Regionales",, false]);'>REGIONALES</a>
+<div class="submenus megamenu row clearfix" style="height: 70px!important; display:none" rel='0,1175614,regionales,-1,3'></div>
+</li>
+</ul>
+</nav>
+<nav>
+<ul id="nav_01" style="width: 284px !important;">
+<li id="mainlevel_1">
+<a href="http://clasificadospr.com/" target="_blank" onClick="_gaq.push(['_trackEvent', 'clasificados-home', 'click', 'ph-nav-clasificados-home-click',, false]);" rel="nofollow" class="tl1">CLASIFICADOS<!--[if gte IE 8]><!--></a><!--<![endif]--><!--[if gte IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><![endif]-->
+<div class="pos1 ancho01" onmouseover="document.getElementById('mainlevel_1').className='hover';" onmouseout="document.getElementById('mainlevel_1').className='';">
+<ul>
+<li><a href="http://clasificadospr.com/r/vehiculos-carros" target="_blank" onClick="_gaq.push(['_trackEvent', 'clasificados-autos', 'click', 'ph-nav-clasificados-autos-click',, false]);">AUTOS</a></li>
+<li><a href="http://clasificadospr.com/r/bienes-raices" target="_blank" onClick="_gaq.push(['_trackEvent', 'clasificados-casas', 'click', 'ph-nav-clasificados-casas-click',, false]);">CASAS</a></li>
+<li><a href="http://clasificadospr.com/empleos" target="_blank" onClick="_gaq.push(['_trackEvent', 'clasificados-empleos', 'click', 'ph-nav-clasificados-empleos-click',, false]);">EMPLEOS</a></li>
+</ul>
+</div>
+<!--[if lte IE 6]><![endif]-->
+</li>
+<li><a class="db_ofertas" href="http://www.ofertadeldia.com/puerto-rico-ofertas/oferta" target="_blank">OFERTAS</a></li>
+<li><a class="db_sal" href="https://www.shop.pr/" target="_blank">SHOP.PR</a></li>
+<li><a class="db_sal" style=" color: #ffffff !important; " href="https://juegos.primerahora.com/" target="_blank" onClick="_gaq.push(['_trackEvent', 'primerahora-juegos', 'click', 'ph-nav-juegos-click',, false]);">JUEGOS</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+</div>
+<div class="row hrow" style="height: 15px;">
+</div>
+
+<div id="content">
+<div class="page visible">
+<div class="row cinema visible">
+<div class="container visible">
+</div>
+
+<section class="eightcol main-content nota">
+<style type="text/css">
+.body-content ol
+{
+    list-style-type: decimal; 
+    font-size: 1.4em; 
+    line-height: 150%!important; 
+    color: rgb(17,17,17); 
+    padding: 0px 30px;
+}
+
+.body-content ul
+{
+    list-style-type: disc; 
+    font-size: 1.4em; 
+    line-height: 150%!important; 
+    color: rgb(17,17,17); 
+    padding: 0px 30px;
+}
+
+
+.body-content .related_content ul
+{
+    padding: 0px !important
+}
+
+</style>
+<div class="blogpost">
+<article class="container tscott">
+<div style=" height: 27px; background-color: #FBF2F2; border-radius: 6.5px; text-align: left; padding-left: 15px; padding-top: 20px; margin: 5px; font-family: verdana; border: #E0E0E0; border-width: 1px; border-style: solid; color: red;">
+<strong>Nota de archivo: publicada hace más de 90 días</strong>
+</div>
+<div class="ntscott">
+<h1>“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump</h1>
+<h6 style='background: url("assets/images/no_autor_placeholder.png") 0 0 no-repeat; float:left'>
+<strong>Por Primerahora.com
+
+</strong>
+09/14/2018 |09:48 p.m.
+</h6>
+</div>
+<div class="container caddons">
+<div style="display: none;">
+<div id="divButtons" style="display: none;">
+</div>
+</div>
+
+<div style="float:left">
+<a href="javascript:void(0);" onclick="gigya.services.socialize.plugins.reactions.instances['divButtons'].buttonInstances['divButtons-reaction0'].onClick()">
+<img src="../images/varios/fb.png" style="width: 32px; height: 32px;" /></a>
+<a href="javascript:void(0);" onclick="gigya.services.socialize.plugins.reactions.instances['divButtons'].buttonInstances['divButtons-reaction1'].onClick()">
+<img src="../images/varios/twitter.png" style="width: 32px; height: 32px;" /></a>
+<a href="javascript:void(0);" onclick="gigya.services.socialize.plugins.reactions.instances['divButtons'].buttonInstances['divButtons-reaction2'].onClick()">
+<img src="../images/varios/googleplus.png" style="width: 32px; height: 32px;" /></a>
+</div>
+<div style="float:right; padding-top: 4px;">
+<a href="javascript:void(0);" onclick="$('html, body').animate({scrollTop:$('#comentarios').offset().top}, 'slow');">
+<span class="bubbleComments burbuja" id='bubble1302410' title='“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump-1302410' rel='noticias'>0</span></a> <a href="javascript:void(0);" onclick="zoomText('decrease','zomm')">
+<img class="mr5" src="assets/images/ico_menos.png" alt=""></a> <a href="javascript:void(0);" onclick="zoomText('increase','zomm')">
+<img src="assets/images/ico_mas.png" alt=""></a>
+</div>
+
+<script type="text/javascript">
+
+            // Define an image media item:
+            var image = {
+                type: 'image',
+                src: 'https://rec-eph.primerahora.com/images/2018/09/14/cropw0h0trump61146240_4.jpg',
+                href: 'https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/'
+            }
+
+            // Step 1: Construct a UserAction object and fill it with data
+            var ua = new gigya.socialize.UserAction();
+            ua.setLinkBack('https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/');
+
+            // Step 2: Define the Share Bar plugin's params object
+            ua.setTitle('“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump @PrimeraHora');
+            ua.setSubtitle("Via PrimeraHora.com");
+            ua.addMediaItem(image);
+
+            var params = {
+                userAction: ua,
+                shareButtons: [
+			        { // Facebook button
+			            provider: 'facebook',
+			            tooltip: 'Share on Facebook',
+			            defaultText: 'Facebook message'
+			        },
+			        { // Twitter Tweet button
+			            provider: 'twitter',
+			            tooltip: 'Share on Twitter',
+			            defaultText: 'Twitter message'
+			        },
+                    {
+                        provider: 'googleplus'
+                    },
+                    {
+                        provider: 'WhatsApp'
+                    }
+            ],
+                containerID: 'divButtons',
+                cid: ''
+            };
+
+            // Step 3: Load the Share Bar plugin:
+            gigya.socialize.showShareBarUI(params);
+
+        </script>
+</div>
+<figure>
+<img src="https://rec-eph.primerahora.com/images/tnph3/615/304/1/1/615/304/2018/09/14/cropw0h0trump61146240.jpg">
+<figcaption>
+(Archivo) <span>&nbsp;</span>
+</figcaption>
+</figure>
+<blockquote>El presidente de Estados Unidos continúa con sus ataques tuiteros</blockquote>
+<div class="body-content" id="zomm">
+<footerlisttemplate>
+</footerlisttemplate>
+<p>El presidente de Estados Unidos, Donald Trump, citó
+hoy en su cuenta de Twitter una fuerte frase del comentarista de televisión Lou
+Dobbs.</p><p>
+<div class="related_content">
+<h6>
+Contenido relacionado</h6>
+<ul>
+<li>
+<figure><img alt="" src="https://rec-eph.primerahora.com/images/tnph3/45/45/1/1/45/45/2018/09/14/cropw0h0eeuuparalizacion57132239.jpg"></figure>
+<a href="/noticias/estados-unidos/nota/eeuusobrevotopresidencialaboricuassilodeseansonlibresdemudarseacualquierestado-1302394/">
+EE.UU. sobre voto presidencial a boricuas: “Si lo desean son libres de mudarse a cualquier estado”</a> </li>
+<li>
+<figure><img alt="" src="https://rec-eph.primerahora.com/images/tnph3/45/45/1/1/45/45/2018/09/13/cropw0h0201802015mcdjgoalcaldesrtz58724146.jpg"></figure>
+<a href="/noticias/gobierno-politica/nota/jenniffergonzalezvuelveaagradeceratrumpporsurespuestatrasmaria-1302230/">
+Jenniffer González vuelve a agradecer a Trump por su respuesta tras María</a> </li>
+<li>
+<figure><img alt="" src="https://rec-eph.primerahora.com/images/tnph3/45/45/1/1/45/45/2018/09/13/cropw0h0b7fd180dc320475f8abf9c2abb4f9596.jpg"></figure>
+<a href="/noticias/gobierno-politica/nota/rossellolerespondeatrump-1302153/">
+Rosselló le responde a Trump</a> </li>
+<li>
+<figure><img alt="" src="https://rec-eph.primerahora.com/images/tnph3/45/45/1/1/45/45/2018/09/13/cropw0h01872ad6ff0c54cf08aaa0a1232dc32b3.jpg"></figure>
+<a href="/noticias/policia-tribunales/nota/trumpnocreequemariacauso3000muertesenenlaisla-1302131/">
+Trump no cree que María causó 3,000 muertes en en la isla</a> </li>
+</ul> </div>
+</p><p>“El pueblo de Puerto Rico tiene uno de los gobiernos
+más corruptos de nuestro país”, citó el magnate.</p><p>El tuit se une a una serie de ataques realizados
+hacia el gobierno local por el proceso de recuperación tras el huracán María.</p><p>Posteriormente, Trump volvió a atacar al gobierno local y les acusó de no
+saber contar los muertos tras María.</p><p>“GWU [GEORGE Washington University] investiga para decirles cuántas
+personas habían muerto en Puerto Rico (¿cómo no podrían saber esto?). Este
+método nunca se realizó con huracanes anteriores porque otras jurisdicciones saben
+cuántas personas murieron. Cincuentas veces el número original – No way!”,
+tuiteó. </p><div id='scroller'><script>gfrM.siteConfig.queue.push("scroller");</script></div><p>
+</p><p>Ayer, cuestionó el estimado de muertes cercano a
+3,000 que concluyó la Universidad George Washington en un informe encargado por
+la administración de Ricardo Rosselló.</p><p>
+</p><p>“3,000 personas no murieron en los dos huracanes que
+azotaron a Puerto Rico. Cuando salí de la isla, después de que la tormenta
+había golpeado, tenían entre seis y 18 muertes. Con el paso del tiempo, no
+subió demasiado. Luego, mucho tiempo después, comenzaron a reportar números
+realmente grandes, como 3,000”, escribió ayer.</p><p>
+</p><p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“The story of Puerto Rico is the rebuilding that has occurred. The President has done an extraordinary job of cleanup, rebuilding electrical stuff and everything else.” <a href="https://twitter.com/EdRollins?ref_src=twsrc%5Etfw">@EdRollins</a> “The people of Puerto Rico have one of the most corrupt governments in our country.” <a href="https://twitter.com/LouDobbs?ref_src=twsrc%5Etfw">@LouDobbs</a></p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1040760021443850241?ref_src=twsrc%5Etfw">September 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p><p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">....GWU Research to tell them how many people had died in Puerto Rico (how would they not know this?). This method was never done with previous hurricanes because other jurisdictions know how many people were killed. FIFTY TIMES LAST ORIGINAL NUMBER - NO WAY!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1040788151000883201?ref_src=twsrc%5Etfw">September 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p><p>
+</p><p>Esto se une a un pedido que realizó hoy el gobierno
+del país norteamericano de desestimar una querella en su contra por
+supuestamente violar derechos humanos al negarle el voto presidencial y
+congresional a los boricuas. </p><p>
+</p><p>“Si lo desean, los residentes de Puerto Rico, casi todos los cuales son
+ciudadanos de Estados Unidos, también son libres de mudarse a cualquier
+estado", sostuvo el representante adjunto de Estados Unidos ante la
+Organización de Estados Americanos (OEA), Kevin Sullivan.</p><p>
+<img style="width:100%" src="https://rec-eph.primerahora.com/images/2018/09/14/corrupciontrump.png" />
+</br>
+<span style="font-size: .9em">(Twitter)</span>
+<div style="border-bottom: solid thin #dad2d2; font-size:large "></div>
+</p><p>
+<img style="width:100%" src="https://rec-eph.primerahora.com/images/2018/09/14/trump.png" />
+</br>
+<span style="font-size: .9em">(Twitter)</span>
+<div style="border-bottom: solid thin #dad2d2; font-size:large "></div>
+</p><p></p>
+</div>
+<div id="desktop-redirect-movil" style=" height: 27px; background-color: #FBF2F2; border-radius: 6.5px; text-align: left; padding-left: 15px; padding-top: 20px; margin: 5px; font-family: verdana; border: #E0E0E0; border-width: 1px; border-style: solid; color: red;">
+<strong><a href="https://www.primerahora.com/mr/" target="_blank" style=" text-decoration:none; color:#ff1e1e">Regresar a portada móvil </a></strong>
+</div>
+<script type="text/javascript">
+                   if (screen.width < 450) {
+                       $('#desktop-redirect-movil').hide();
+                   }
+                   else {
+                       $('#desktop-redirect-movil').hide();
+                   }
+                </script>
+<p><font size="5" color="#ff0000"><a href="https://www.primerahora.com/" target="_blank">Regresa a la portada</a></font></p>
+<div class="d1b_tags">
+<h4>Tags</h4>
+<a href='/tags/donaldtrump-684/'>Donald Trump</a> •
+</div>
+
+<div class="li-rec-desktop">
+<div id="cx_102b5dad4685008e0393f5eeaaf9b0fe22148ede" style="display:none"></div>
+<script type="text/javascript">
+        var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+        cX.callQueue.push(['insertWidget', {
+            widgetId: '102b5dad4685008e0393f5eeaaf9b0fe22148ede',
+            insertBeforeElementId: 'cx_102b5dad4685008e0393f5eeaaf9b0fe22148ede',
+            width: 610, height: 424, renderTemplateUrl: 'auto'
+        }]);
+
+        // Async load of cx.js
+        (function (d, s, e, t) {
+            e = d.createElement(s); e.type = 'text/java' + s; e.async = 'async';
+            e.src = 'http' + ('https:' === location.protocol ? 's://s' : '://') + 'cdn.cxense.com/cx.js';
+            t = d.getElementsByTagName(s)[0]; t.parentNode.insertBefore(e, t);
+        })(document, 'script');
+    </script>
+</div>
+<div id='ContntRecom'>
+<script type='text/javascript'>
+    // Outbrain Dynamic Widget Configuration
+    var host = window.location.hostname;
+    var template = "";
+    if (host.indexOf("primerahora") !== -1) {
+        host = "www.primerahora.com";
+        template = "primerahora";
+    } else if (host.indexOf("elnuevodia") !== -1) {
+        host = "www.elnuevodia.com";
+        template = "elnuevodia";
+    } else if (host.indexOf("indice") !== -1) {
+        host = "www.indicepr.com";
+        template = "indicepr";
+    }
+    // SECTION Eval Cxense Segment for US vs PR
+    var language = "es";
+    // =====================
+    if ((localStorage.cx_usr_segment && localStorage.cx_usr_segment.includes("8m5mbbe65pmr")) || gfrM.siteConfig.section.includes("english")) {
+        var language = "en";
+    }
+    var outbrainLanguage = language; // 'es' for Spanish targeted Widgets & 'en' for English targeted Widgets.
+    var outbrainFullSiteDomain = 'http://' + host + '/'; // Must include trailing slash at the end.
+    var outbrainWidgetID = 'AR_10';
+    var outbrainTemplateID = template;
+    var outbrainPathName = document.location.pathname;
+    var outbrainClass = 'OUTBRAIN';
+    // Write Outbrain Widget
+    var divElem = document.createElement("div");
+    divElem.setAttribute('class', outbrainClass);
+    divElem.setAttribute('data-src', outbrainFullSiteDomain + outbrainLanguage + outbrainPathName);
+    divElem.setAttribute('data-widget-id', outbrainWidgetID);
+    divElem.setAttribute('data-ob-template', outbrainTemplateID);
+    var scriptElem = document.createElement("script");
+    scriptElem.type = 'text/javascript';
+    scriptElem.src = 'https://widgets.outbrain.com/outbrain.js';
+    scriptElem.async = 'async';
+    var contRecomm = window.parent.document.getElementById('ContntRecom') || window.parent.document.getElementById('contntrecom');
+    if (contRecomm != null) {
+        contRecomm.append(divElem);
+        contRecomm.append(scriptElem);
+    }
+</script>
+</div>
+
+
+<script language="javascript" type="text/javascript">
+
+    function crearStream() {
+        var streamParams = {
+            categoryID: 'noticias',
+            streamID: '“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump-1302410',
+            streamTitle: '“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump',
+            streamURL: 'https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/',
+            streamTags: 'nota,noticias,estados-unidos'
+        }
+        gigya.comments.setStreamInfo(streamParams);
+    }
+
+    function confirmarStream(response) {
+        if (response.errorCode == 0) {
+            if (null != response.streamInfo.streamTitle && response.streamInfo.streamTitle != "") {
+                //alert('Ya existe');
+            } else {
+                crearStream();
+            }
+        } else {
+            //alert('Error :' + response.errorMessage);
+        }
+    }
+
+    function verificarStream() {
+        var verStreamParams = {
+            categoryID: 'noticias',
+            streamID: '“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump-1302410',
+            callback: confirmarStream
+        }
+        gigya.comments.getStreamInfo(verStreamParams)
+    }
+</script>
+<script language="javascript" type="text/javascript">
+//cambio StreamId
+    function crearStreamId() {
+        var streamParams = {
+            categoryID: 'noticias',
+            streamID: '1302410',
+            streamTitle: '“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump',
+            streamURL: 'https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/',
+            streamTags: 'nota,noticias,estados-unidos'
+        }
+        gigya.comments.setStreamInfo(streamParams);
+    }
+
+    function confirmarStreamId(response) {
+        if (response.errorCode == 0) {
+            if (null != response.streamInfo.streamTitle && response.streamInfo.streamTitle != "") {
+                //alert('Ya existe');
+            } else {
+                crearStreamId();
+            }
+        } else {
+            //alert('Error :' + response.errorMessage);
+        }
+    }
+
+    function verificarStreamId() {
+        var verStreamParams = {
+            categoryID: 'noticias',
+            streamID: '1302410',
+            callback: confirmarStreamId
+        }
+        gigya.comments.getStreamInfo(verStreamParams)
+    }
+</script>
+<script language="javascript" type="text/javascript">
+// Constructing a UserAction Object
+var act2 = new gigya.services.socialize.UserAction();	    
+act2.setLinkBack("https://www.primerahora.com/noticias/estados-unidos/nota/elpueblodepuertoricotieneunodelosgobiernosmascorruptoscitatrump-1302410/"); // Adding a Link Back		
+act2.setTitle("“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump");
+
+function cambiarInfo(event) {
+	act2.setDescription(event.commentText);
+	if (event.parentID != null) {
+		act2.setActionName("respondió a");		
+	} else {
+		act2.setActionName("comentó en");			
+	}
+}
+
+function registrarcomentario(event) {
+   try {
+            var comment = event.commentText;
+            var streamId = event.comment.streamId;
+            var categoryId = event.categoryID;
+            var commentGigyaId = event.comment.ID;
+            var status = event.comment.status;
+	    var email = "guest";
+	    var firstname = "Guest";
+            var lastname= "Guest";
+
+	    try {
+            	email = event.user.email;
+            	firstname = event.user.firstName;
+            	lastname = event.user.lastName;
+            	comment = comment.replace(/["']/g, "");
+	    } catch(err1) {}
+
+            $.ajax({
+                type: "POST",
+                url: "comments.aspx/saveComment",
+                data: "{'comentario':'" + comment + "','streamId':'" + streamId + "','categoryId':'" + categoryId + "','commentGigyaId':'" + commentGigyaId + "','status':'" + status + "','email':'" + email + "','firstname':'" + firstname + "','lastname':'" + lastname + "'}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (msg) {
+                    
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    logregistrar('error llamado comments.aspx>' + errorThrown + ',' + XMLHttpRequest.responseText +',' + comment + ',' + streamId + ',' + categoryId + ',' + commentGigyaId + ','+ status + ',' + email + ',' + firstname + ',' + lastname);
+                }
+            });
+   } catch(err) { logregistrar('error try ' + err); }
+}
+
+function logregistrar(errorLog) {
+try {
+	$.get( "log.aspx", { error: errorLog } );
+} catch (err) {}
+}
+
+
+function abriroverlay() {
+//    $('#loginoverlay').jqmShow();
+//alert("entre 44");
+gigya.accounts.showScreenSet({screenSet:'ph-login-mobile'});
+}
+
+var params_Com ={
+	categoryID: 'noticias',
+	streamID: '“El pueblo de Puerto Rico tiene uno de los gobiernos más corruptos”, cita Trump-1302410',
+	userAction:act2, 
+	replyUserAction: act2,
+	scope: 'both', // posibles valores son: external, internal, both
+	privacy: 'public', // posibles valores son: public, friends, private
+	containerID: 'commentsDiv',
+	onBeforeCommentSubmitted: cambiarInfo,
+	useSiteLogin: true,
+    onSiteLoginClicked: abriroverlay,
+	cid:'',
+    width:614,
+	enabledShareProviders: 'facebook,twitter,yahoo,linkedin',
+}
+
+var params_ComId ={
+	categoryID: 'noticias',
+	streamID: '1302410',
+	userAction:act2, 
+	replyUserAction: act2,
+	scope: 'both', // posibles valores son: external, internal, both
+	privacy: 'public', // posibles valores son: public, friends, private
+	containerID: 'commentsDiv',
+	onBeforeCommentSubmitted: cambiarInfo,
+    //onCommentSubmitted: registrarcomentario,
+	useSiteLogin: true,
+    onSiteLoginClicked: abriroverlay,
+	cid:'',
+    width:614,
+	enabledShareProviders: 'facebook,twitter,yahoo,linkedin',
+}
+</script>
+<a name="comentarios" id="comentarios">&nbsp;</a>
+<div id='commentsDiv'></div>
+<script type='text/javascript'>
+        verificarStreamId();
+        gigya.socialize.showCommentsUI(params_ComId);
+</script>
+</article>
+</div>
+<script type="text/javascript" language="javascript">
+    $("a[href]").each(function () {
+        var href = this.href;
+        if (href.indexOf('https://www.primerahora.com/XStatic/primerahora/template/www.') >= 0) {
+            href = href.replace("https://www.primerahora.com/Xstatic/primerahora/template/", "");
+            this.href = 'http://' + href;
+        }
+    });
+
+    // Trimming white space
+    $('p').filter(function () { return $.trim(this.innerHTML) == "" }).remove();
+
+    // Without trimming white space
+    $('p').filter(function () { return this.innerHTML == "" }).remove();
+</script>
+</section>
+
+
+<aside class="fourcol last sidebar">
+<figure> <div id='ATF300'><script> gfrM.siteConfig.queue.push('ATF300');</script></div>
+</figure>
+<br />
+<div class="container">
+<div class="tabs">
+<h3>
+Las <span>+</span></h3>
+<ul>
+<li style="width:33%;text-align:center"><a href="#fragment-1">vistas</a><span>&nbsp;</span></li>
+<li style="width:35%;text-align:center"><a href="#fragment-2">comentadas</a><span>&nbsp;</span></li>
+<li style="display:none"><a href="#fragment-3">&nbsp;</a><span>&nbsp;</span></li>
+</ul>
+<div id="fragment-1" class="ui-tabs-panel">
+</div>
+<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide">
+<div id="topCommentDiv">
+</div>
+</div>
+<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide">
+<ul>
+<li>&nbsp;</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container tstories" style="margin-top: 40px; margin-bottom: 10px; ">
+<div class="eightcol">
+<h3 style="text-shadow: none;">VIDEOS</h3>
+</div>
+<div class="fourcol last">
+</div>
+</div>
+<div>
+<div style="margin-bottom: 10px; margin-left: 6px;">
+<figure><a href="/videos/noticias/cienciaambiente/realizanimportanteinvestigacionenelyunque-252916/"><img src="https://assets.gfrvideo.com/ph/2019/02/21/252916_20190221160928_el-yunque-cambio-climatico/thumb_0000.jpg" alt="Watch Video" title="Watch Video" width="280" height="152"><span style="
+    width: 100%;
+    height: 100%;   
+    bottom: 0px; 
+    right: 0;  
+    position: absolute;
+    background: url(../images/icon-play_M.png) center no-repeat; 
+    "></span></a></figure>
+<h5 style="color: rgb(200, 15, 19); padding: 0px 0px; background-color: transparent;">
+Ciencia y Ambiente</h5>
+<h4 style="font-family: Georgia, Times New Roman, Times, serif;">
+<a style="color:rgb(92,92,92);" href="/videos/noticias/cienciaambiente/realizanimportanteinvestigacionenelyunque-252916/">
+Realizan importante investigación en El Yunque</a></h4>
+<p style=" font-size: 1.2em; line-height: 140%;">
+Tras los huracanes Irma y María, un proyecto de $3 millones -financiado en parte por el Departamento...</p>
+<span style="font-size: 1.2em; ">
+02/21/2019</span>
+</div>
+<figure style="float: left; margin-right: 5px; margin-left: 3px;"><a href="/videos/noticias/puertorico/escasezrealdellechondelpais-252914/"><img src="https://assets.gfrvideo.com/ph/2019/02/21/252914_20190221182046_escasez-real-del-lechon-del-pais/thumb_0.jpg" width="131" height="71"><span style="
+    width: 100%;
+    height: 100%;   
+    bottom: 0px;
+    right: 0;    
+    position: absolute;
+    background: url(../images/icon-play_S.png) center no-repeat; 
+    "></span><span style="    width: 40px;
+    height: 16px;
+    display: block;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1em;
+    line-height: 148%;
+    color: rgb(0,0,0) !important;
+    margin: 0px;
+    position: absolute;
+    right: 4px;
+    bottom: 7px;
+    background: url(../images/time.png) no-repeat;
+    text-align: center;">02:20</span></a></figure>
+<div style="display: inline-block; width: 50%; margin-bottom: 18px; margin-right: 5px;">
+<h5 style="color: rgb(200, 15, 19); padding: 0px 0px; background-color: transparent;">
+Puerto Rico&nbsp;</h5>
+<h4 style="line-height: 100%;margin: 4px 0px;font-family: Georgia, Times New Roman, Times, serif;">
+<a style="color: rgb(92,92,92);" href="/videos/noticias/puertorico/escasezrealdellechondelpais-252914/">
+Escasez real del lechón del país</a></h4>
+<span style="font-size: 1.2em;">
+02/21/2019</span>
+</div>
+<figure style="float: left; margin-right: 5px; margin-left: 3px;"><a href="/videos/noticias/tecnologia/samsungpresentaelgalaxyfold-252911/"><img src="https://assets.gfrvideo.com/ph/2019/02/21/252911_20190221113637_samsung-presenta-el-galaxy-fold/thumb_0002.jpg" width="131" height="71"><span style="
+    width: 100%;
+    height: 100%;   
+    bottom: 0px;
+    right: 0;    
+    position: absolute;
+    background: url(../images/icon-play_S.png) center no-repeat; 
+    "></span><span style="    width: 40px;
+    height: 16px;
+    display: block;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1em;
+    line-height: 148%;
+    color: rgb(0,0,0) !important;
+    margin: 0px;
+    position: absolute;
+    right: 4px;
+    bottom: 7px;
+    background: url(../images/time.png) no-repeat;
+    text-align: center;">01:30</span></a></figure>
+<div style="display: inline-block; width: 50%; margin-bottom: 18px; margin-right: 5px;">
+<h5 style="color: rgb(200, 15, 19); padding: 0px 0px; background-color: transparent;">
+Tecnología&nbsp;</h5>
+<h4 style="line-height: 100%;margin: 4px 0px;font-family: Georgia, Times New Roman, Times, serif;">
+<a style="color: rgb(92,92,92);" href="/videos/noticias/tecnologia/samsungpresentaelgalaxyfold-252911/">
+Samsung presenta el Galaxy Fold</a></h4>
+<span style="font-size: 1.2em;">
+02/21/2019</span>
+</div>
+<figure style="float: left; margin-right: 5px; margin-left: 3px;"><a href="/videos/noticias/mundo/conciertochavistayopositorenlafronteracolombianaporlaayudahumanitaria-252909/"><img src="https://assets.gfrvideo.com/ph/2019/02/21/252909_20190221113139_concierto-chavista-y-opositor-en-la-frontera-colombiana-por-la-lucha-de-la-ayuda-humanitaria/thumb_0.jpg" width="131" height="71"><span style="
+    width: 100%;
+    height: 100%;   
+    bottom: 0px;
+    right: 0;    
+    position: absolute;
+    background: url(../images/icon-play_S.png) center no-repeat; 
+    "></span><span style="    width: 40px;
+    height: 16px;
+    display: block;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1em;
+    line-height: 148%;
+    color: rgb(0,0,0) !important;
+    margin: 0px;
+    position: absolute;
+    right: 4px;
+    bottom: 7px;
+    background: url(../images/time.png) no-repeat;
+    text-align: center;">01:56</span></a></figure>
+<div style="display: inline-block; width: 50%; margin-bottom: 18px; margin-right: 5px;">
+<h5 style="color: rgb(200, 15, 19); padding: 0px 0px; background-color: transparent;">
+Mundo&nbsp;</h5>
+<h4 style="line-height: 100%;margin: 4px 0px;font-family: Georgia, Times New Roman, Times, serif;">
+<a style="color: rgb(92,92,92);" href="/videos/noticias/mundo/conciertochavistayopositorenlafronteracolombianaporlaayudahumanitaria-252909/">
+Concierto chavista y opositor, en la frontera colombiana por la ayuda humanitaria</a></h4>
+<span style="font-size: 1.2em;">
+02/21/2019</span>
+</div>
+</div>
+<div class="container msection">
+<div class="container gallery-head">
+<h6>
+Fotos</h6>
+<span class="mmovies"><a href="/fotogalerias/">más fotos</a></span>
+</div>
+<div class="movies">
+<div class="stepcarousel-out">
+<div class="slideshow">
+<div class="panel"><a href="/fotogalerias/noticias/estados-unidos/adxflorencelacarceldemaximaseguridaddondepodriaacabarelchapo-1326667/"><img src="https://rec-eph.primerahora.com/images/tnph3/210/148/1/1/210/148/2019/02/13/cropw0h0200011.jpeg" alt="(Jerille Bennett / The Gazatte vía AP)" /></a>
+<h5 style="background-color:#FFF029 !important;color:gray !important;">
+Estados Unidos</h5>
+<h4>
+<a href="/fotogalerias/noticias/estados-unidos/adxflorencelacarceldemaximaseguridaddondepodriaacabarelchapo-1326667/">ADX Florence: la cárcel de máxima seguridad donde podría acabar El Chapo</a></h4>
+<p>La prisión, en donde los reos pasan 23 horas del día en sus celdas, está ubicada en Colorado.</p>
+<span>2/13/2019 </span>
+</div> <div class="panel"><a href="/fotogalerias/noticias/estados-unidos/boricuasmuestranelfriopeluquevivenenestadosunidos-1324123/"><img src="https://rec-eph.primerahora.com/images/tnph3/210/148/1/1/210/148/2019/02/02/cropw0h0frio0052.jpg" alt="" /></a>
+<h5 style="background-color:#FFF029 !important;color:gray !important;">
+Estados Unidos</h5>
+<h4>
+<a href="/fotogalerias/noticias/estados-unidos/boricuasmuestranelfriopeluquevivenenestadosunidos-1324123/">Boricuas muestran el frío pelú que viven en Estados Unidos</a></h4>
+<p>Lectores de Primerahora.com enviaron imágenes desde varios estados en los que ahora mismo experimentan temperaturas por debajo de los cero grados.</p>
+<span>1/30/2019 </span>
+</div> <div class="panel"><a href="/fotogalerias/noticias/estados-unidos/secongelanenpartesdeestadosunidos-1324050/"><img src="https://rec-eph.primerahora.com/images/tnph3/210/148/1/1/210/148/2019/01/30/cropw0h0frio0051.jpg" alt="" /></a>
+<h5 style="background-color:#FFF029 !important;color:gray !important;">
+Estados Unidos</h5>
+<h4>
+<a href="/fotogalerias/noticias/estados-unidos/secongelanenpartesdeestadosunidos-1324050/">Se congelan en partes de Estados Unidos</a></h4>
+<p>La ola de frío que llegó este miércoles y se prolongará durante las próximas horas.</p>
+<span>1/30/2019 </span>
+</div>
+</div>
+<div class="prev">
+<a href="#">prev</a></div>
+<div class="next">
+<a href="#">prev</a></div>
+</div></div>
+</div>
+<script type="text/javascript">            window.LISTAMAX_WIDGET_WITH_NEWS = false;
+        </script>
+<div id="ListaMax-widget" style="display: none;"></div>
+<div id="SALWidget300x250" style="display:none;"></div>
+ <div id='BTF300'> <script>                                                          gfrM.siteConfig.queue.push('BTF300');</script> </div>
+</aside>
+
+</div>
+</div>
+</div>
+
+ <div id="Footer" style="text-align: center;"><script> gfrM.siteConfig.queue.push('Footer');</script></div>
+<footer id="footer">
+<div class="page">
+<div class="row primary-section">
+<div class="UpperFooter">
+<nav class="fnavigation Fnoticias">
+<h6>Noticias </h6>
+<ul>
+<li><a href="/ultimas-noticias/" target="_self">Últimas Noticias</a> </li>
+<li><a href="/noticias/policia-tribunales/" target="_self">Policía y Tribunales</a> </li>
+<li><a href="/noticias/gobierno-politica/" target="_self">Gobierno y Política</a> </li>
+<li><a href="/noticias/puerto-rico/" target="_self">Puerto Rico</a> </li>
+<li><a href="/noticias/isla/" target="_self">Isla Adentro</a> </li>
+<li><a href="/noticias/estados-unidos/" target="_self">Estados Unidos</a> </li>
+<li><a href="/noticias/mundo/" target="_self">Mundo</a> </li>
+<li><a href="/noticias/ciencia-ambiente/" target="_self">Ciencia y Ambiente</a> </li>
+<li><a href="/noticias/increible/" target="_self">Lo Increíble</a> </li>
+<li><a href="/tecnologia/" target="_self">Tecnología</a> </li>
+<li><a href="/autos/">Autos</a> </li>
+<li><a href="/noticias/consumo/" target="_self">Consumo</a> </li>
+</ul>
+</nav>
+<nav class="fnavigation Fentretenimiento">
+<h6>Entretenimiento </h6>
+<ul>
+<li><a href="/entretenimiento/ultimas-noticias/" target="_self">Últimas Noticias</a> </li>
+<li><a href="/entretenimiento/farandula/" target="_self">Farándula</a> </li>
+<li><a href="/entretenimiento/musica/" target="_self">Música</a> </li>
+<li><a href="/entretenimiento/tv/" target="_self">TV</a> </li>
+<li><a href="/entretenimiento/teatro/">Teatro</a> </li>
+<li><a href="/entretenimiento/reinas/" target="_self">Reinas de Belleza</a> </li>
+<li><a href="/entretenimiento/camara-ready/" target="_self">Cámara Ready</a> </li>
+<li><a href="/entretenimiento/cine/" target="_self">Cine</a> </li>
+<li><a href="/entretenimiento/eventos/" target="_self">Eventos</a> </li>
+</ul>
+</nav>
+<nav class="fnavigation Fdeportes">
+<h6>Deportes </h6>
+<ul>
+<li><a href="/deportes/ultimas-noticias/" target="_self">Últimas Noticias</a> </li>
+<li><a href="/deportes/baloncesto/" target="_self">Baloncesto</a> </li>
+<li><a href="/deportes/boxeo/" target="_self">Boxeo</a> </li>
+<li><a href="/deportes/beisbol/" target="_self">Béisbol</a> </li>
+<li><a href="/deportes/voleibol/" target="_self">Voleibol</a> </li>
+<li><a href="/deportes/futbol/" target="_self">Fútbol</a> </li>
+<li><a href="/deportes/hipica/" target="_self">Hípica</a> </li>
+<li><a href="/deportes/otros/" target="_self">Otros Deportes</a> </li>
+<li><a href="/deportes/boxeo/hbo/" target="_self">Boxeo HBO</a> </li>
+<li><a href="/deportes/ufc/" target="_self">UFC</a> </li>
+</ul>
+</nav>
+<nav class="fnavigation Festilos-de-vida">
+<h6>Estilos de Vida </h6>
+<ul>
+<li><a href="/estilos-de-vida/ultimas-noticias/" target="_self">Últimas Noticias</a> </li>
+<li><a href="/estilos-de-vida/mujer/">Mujer</a> </li>
+<li><a href="/estilos-de-vida/salud/" target="_self">Salud y Bienestar</a> </li>
+<li><a href="/estilos-de-vida/moda/" target="_self">Moda y Estilo</a> </li>
+<li><a href="/estilos-de-vida/relaciones-sexo/">Relaciones y Sexo</a> </li>
+<li><a href="/estilos-de-vida/madres/" target="_self">Madres</a> </li>
+<li><a href="/estilos-de-vida/cultura/" target="_self">Cultura</a> </li>
+<li><a href="/estilos-de-vida/cocina/" target="_self">Cocina</a> </li>
+<li><a href="/horoscopo/" target="_self">Horóscopo</a> </li>
+</ul>
+</nav>
+</div>
+<div class="SlabelFooter">
+<nav class="fnavigation Fmultimedios">
+<h6>Videos</h6>
+<ul>
+<li><a href="/videos/" target="_self">Videos</a> </li>
+<li><a href="/especiales/" target="_self">Especiales</a> </li>
+</ul>
+</nav>
+<nav class="fnavigation Ffotos">
+<h6>Fotos</h6>
+<ul>
+<li><a href="/fotogalerias/" target="_self">Fotogalerias</a> </li>
+<li><a href="/especiales/" target="_self">Especiales</a> </li>
+</ul>
+</nav>
+<nav class="fnavigation Fregionales">
+<h6>Regionales</h6>
+<ul>
+<li><a href="/horizonte/">Horizonte</a> </li>
+<li><a href="/elnorte/" target="_self">El Norte</a> </li>
+<li><a href="/suroeste/" target="_self">Suroeste</a> </li>
+</ul>
+</nav>
+<div class="container plast">
+<nav class="sixcol fnavigation Fblog">
+<h6>Blogs y Columnas</h6>
+<ul>
+<li><a href="/blogs-columnas/">Índice de Blogs y Columnistas</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="primary-section container">
+<nav class="fnavigation Phora">
+<h6>Primera Hora</h6>
+<ul class="primary">
+<li><a href="/contacto/" target="_blank">Contáctanos</a></li>
+<li><a href="/legales/terminos-condiciones/" target="_blank">Términos y Condiciones</a></li>
+<li><a href="/legales/privacidad/" target="_blank">Políticas de privacidad</a></li>
+</ul>
+</nav>
+<nav class="fnavigation GMedia">
+<h6> Marcas GFR Media </h6>
+<ul class="primary">
+<li><a href="http://www.elnuevodia.com" target="_blank">El Nuevo Día</a></li>
+<li><a href="http://www.clasificadospr.com/" target="_blank">Clasificados PR</a></li>
+<li><a href="http://indicepr.com" target="_blank">Índice</a></li>
+<li><a href="http://shop.pr" target="_blank">Shop.pr</a></li>
+<li><a href="http://directorio.elnuevodia.com/" target="_blank">Directorio</a></li>
+</ul>
+<ul>
+<li><a href="http://sal.pr" target="_blank">Sal.pr</a></li>
+<li><a href="http://www.magacin.com/" target="_blank">Magacin.com</a></li>
+<li><a href="http://ofertadeldia.com" target="_blank">Oferta del Día</a></li>
+<li><a href="http://esquelas.pr" target="_blank">Esquelas.pr</a></li>
+</ul>
+</nav>
+<section class="terms">
+<p>¿Problemas con el servicio? Escríbenos a:<br>
+<a href="/cdn-cgi/l/email-protection#8cffe9fefae5efe5e3ffccfcfee5e1e9feede4e3feeda2efe3e1"> <span class="__cf_email__" data-cfemail="a5d6c0d7d3ccc6cccad6e5d5d7ccc8c0d7c4cdcad7c48bc6cac8">[email&#160;protected]</span> </a></p>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+              /*jQuery.browser.mobile (http://detectmobilebrowser.com/) jQuery.browser.mobile will be true if the browser is a mobile device*/
+              (function (a) {
+                  jQuery.browser.mobile = /android.+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|e\-|e\/|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(di|rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|xda(\-|2|g)|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))
+              })
+    (navigator.userAgent || navigator.vendor || window.opera);
+</script>
+<script type="text/javascript">
+    if (jQuery.browser.mobile) {
+        document.write('<a href="https://m.primerahora.com">Regresar a versión movil</a>');
+    }
+</script>
+</section>
+</div>
+<nav class="container secondry-nav">
+<ul class="sicons">
+<li><a href="http://www.facebook.com/primerahora" target="_blank"><img src="https://rec-eph.primerahora.com/images/2013/02/13/ico_face.png"></a></li>
+<li><a href="http://www.twitter.com/primerahora"><img src="https://rec-eph.primerahora.com/images/2013/02/13/ico_tw.png"></a></li>
+<li><a href="http://www.youtube.com/primerahoravideos"><img src="https://rec-eph.primerahora.com/images/2013/02/13/ico_yout.png"></a></li>
+<li><a href="https://itunes.apple.com/us/app/primera-hora/id389571743?mt=8" target="_blank"><img src="https://rec-eph.primerahora.com/images/2013/02/13/ico_apple.png"></a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.primera.android" target="_blank"><img src="https://rec-eph.primerahora.com/images/2013/02/13/ico_android.png"></a></li>
+<li><a href="https://www.tagtoday.net/aboutus/" target="_blank"><img src="https://rec-eph.primerahora.com/images/2018/10/30/tagbw35x35_1.png"></a></li>
+<li><a href="http://www.tresite.com" target="_blank"><img style="margin:-3px 0 0 0; height: 34px; width: 44px; " src="https://rec-eph.primerahora.com/images/2013/02/13/ico_tresite.png"></a></li>
+</ul>
+<span>Copyright &copy; 2019 GFR Media LLC. Todos los Derechos Reservados.</span> </nav>
+</div>
+</footer>
+</div>
+<script src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/engine.js?v=98745'></script>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/jquery-ui-1.7.custom.min.js?v=98745'></script>
+<script src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/responsiveslides.min.js?v=98745'></script>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/fader.js?v=98745'></script>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/jquery.aw-showcase.js?v=98745'></script>
+<script src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/lightbox.js?v=98745'></script>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/effects.js?v=98745'></script>
+<script type="text/javascript" type="text/javascript">
+    $("div.submenus").each(function () {
+        var rel = $(this).attr("rel");
+        var valores = rel.split(",");
+        //$(this).load("../template/menu.aspx?index=" + valores[0] + "&id=" + valores[1] + "&iden=" + valores[2] + "&termid=" + valores[3] + "&ti=" + valores[4]);
+        $(this).load("../espanol/menu-" + valores[2] + ".html");
+    });
+
+    
+</script>
+<script>
+    function showRegistroGigya() {
+        var left;
+        var top;
+        var anchoScreenSet;
+        var altoScreenSet;
+        var altoVentana
+        var anchoVentana
+
+        setTimeout(function () {
+            //medidas = document.writeln(screen.width + " x " + screen.height);
+            //            $("div#gigya-screen-dialog-page-overlay").css("display", "block");
+            //            $("div#gigya-modal-plugin-container-showScreenSet_content").css("background", "#FFF");
+            anchoScreenSet = $("div.gigya-screen-dialog-inner").width();
+            altoScreenSet = $("div.gigya-screen-dialog-inner").height();
+            anchoVentana = $(window).width();
+            altoVentana = $(window).height();
+            left = (anchoVentana / 2) - (anchoScreenSet / 2);
+            left = left + "px";
+            $("div[gigid='showScreenSet']").css("left", left);
+            top = (altoVentana / 2) - (altoScreenSet / 2);
+            top = top + "px";
+            $("div[gigid='showScreenSet']").css("top", top);
+        }, 450);
+    } 
+</script>
+<script type='text/javascript'>
+                            function topCommentResponse(response) {
+                            if (response.errorCode == 0) {
+                                var cont = "<ul>";
+                                for (var i = 0; i < response.streams.length; i++) {
+                                if (response.streams[i].streamTitle != undefined ){
+                                cont += "<li><a href=\"" + response.streams[i].streamURL + "\">" + response.streams[i].streamTitle + "</a></li>";
+                                }     
+                                }
+                                cont +='</ul>';
+                                document.getElementById('topCommentDiv').innerHTML = cont;
+                                }
+                            }
+                            var topComParams = {
+                                categoryID: 'noticias', 
+                                maxStreamAge: 7, // Máximo es 7.
+                                limit: 6, // Máximo es 100.
+                                callback: topCommentResponse
+                            };
+                            gigya.comments.getTopStreams(topComParams);
+                            </script>
+<script language="javascript" type="text/javascript">
+            $("#fragment-1").load("../template/cargaLasMas.aspx?se=noticias");
+           //$("#fragment-1").load("../espanol/mas-noticias.html");
+        </script>
+<div id="loginoverlay" class="jqmWindow"></div>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/jqModal.js?v=98745'></script>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/cx-tagtools-ph.1.0.1.js?v=98745'></script>
+<script type="text/javascript" src='https://www.primerahora.com/XStatic/primerahora/espanol/assets/js/gigya.js?v=98745'></script>
+<script>
+	(function (w, d, s) {
+	function go() {
+	var js, fjs = d.getElementsByTagName(s)[0], load = function (url, id) {
+	if (d.getElementById(id)) { return; }
+	js = d.createElement(s); js.src = url; js.id = id;
+	fjs.parentNode.insertBefore(js, fjs);
+	};
+            
+                load('//d37uu5vx6wkhnq.cloudfront.net/widgets/assets/js/ph-single.js', 'saljs');
+            
+                load('//files.listamax.com/widget/dfp_ph/js/widget.js');
+                //load('//widget.clasificadospr.com/js/widget.js');
+            
+            load('//www.primerahora.com/XStatic/primerahora/template/assets/js/load.js','loadjs');
+        }
+        if (w.addEventListener) { w.addEventListener("load", go, false); }
+        else if (w.attachEvent) { w.attachEvent("onload", go); }
+    } (window, document, 'script'));
+
+    
+
+</script>
+
+<script>
+    var datalayer = {
+        z_cltr: '%%CLICK_URL_UNESC%%',
+        z_imtr: '%%VIEW_URL_UNESC%%'
+    }
+</script>
+<div id="z8850cf0c-2a12-4829-86cf-82ff0f3b173d" style='display:none'></div>
+<script>!function (a, n, e, t, r) { tagsync = e; var c = window[a]; if (tagsync) { var d = document.createElement("script"); d.src = "https://2236.tm.zedo.com/v1/1cca5a8d-7088-4b29-ad9a-48c153f5ae26/atm.js", d.async = !0; var i = document.getElementById(n); if (null == i || "undefined" == i) return; i.parentNode.appendChild(d, i), d.onload = d.onreadystatechange = function () { var a = new zTagManager(n); a.initTagManager(n, c, this.aync, t, r) } } else document.write("<script src='https://2236.tm.zedo.com/v1/1cca5a8d-7088-4b29-ad9a-48c153f5ae26/tm.js?data=" + a + "'><" + "/script>") }("datalayer", "z8850cf0c-2a12-4829-86cf-82ff0f3b173d", true, 1, 1);</script>
+
+<div class="sticky-target">
+<div id="sticky-ad" class="ad-module">
+<div class="wrap">
+<a href="#" class="ad-close ss-icon">&#x2421;</a>
+<div id='Floating'>
+<div id="sticky_ad"></div>
+<script>              gfrM.siteConfig.queue.push('Floating');</script>
+</div>
+</div>
+<div class="modal-container"> 
+<div class="modal-target">
+<a href="#" class="ad-close ss-icon">X</a> 
+</div>
+</div>
+</div>
+</div>
+
+<div id="interMainContainer">
+<div id="interContainer" style="display:none;">
+<div id="interContent">
+<div class="h_inttial"></div>
+<div class="d2b_inttial">
+<span>Este anuncio cerrará automáticamente en <span id="time_interstitial"></span></span>
+<a href="#" class="btn-continue" id="btn-continue" onclick="javascript:hideInter(); return false">&nbsp;</a>
+</div>
+<div class="alignc">
+<div id='Interstitial'>
+<script>
+                    gfrM.siteConfig.queue.push('Interstitial');
+                </script>
+</div>
+<div id="inter_ad"></div>
+</div>
+<div class="f_inttial"><p>Publicidad</p></div>
+</div>
+</div>
+</div>
+<div id="interVeil" style="display:none;"></div>
+<script type="text/javascript" src="https://s3.amazonaws.com/gfr-assets/primerahora/_libs/dfp/prod/gfr-ph-dfp-tagtools.js"></script>
+
+<script data-cfasync='false' type='text/javascript'>
+    window.apd_options = { 'websiteId': 6910, 'runFromFrame': false };
+    (function () {
+        var w = window.apd_options.runFromFrame ? window.top : window;
+        if (window.apd_options.runFromFrame && w != window.parent) w = window.parent;
+        if (w.location.hash.indexOf('apdAdmin') != -1) { if (typeof (Storage) !== 'undefined') { w.localStorage.apdAdmin = 1; } }
+        var adminMode = ((typeof (Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+        w.apd_options = window.apd_options;
+        var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+        apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js');
+        var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+    })();</script>
+
+</body>
+</html>

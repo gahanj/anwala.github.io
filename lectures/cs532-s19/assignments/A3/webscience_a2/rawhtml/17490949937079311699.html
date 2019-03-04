@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 ie oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" version="XHTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin="anonymous">
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="preconnect" href="https://p.typekit.net">
+  <link rel="dns-prefetch" href="//p.typekit.net">
+  <noscript>
+    <link rel="stylesheet" href="https://use.typekit.net/rvt3xyd.css" crossorigin="anonymous"/>
+  </noscript><link rel='preload' href="https://use.typekit.net/hje6qdq.css" as='style' crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.cato.org/sites/cato.org/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="publication_date" content="2019/2/5"/><meta name="node_creation_date" content="2019/1/31"/><meta name="site" content="Cato Institute"/><meta name="description" content="Trump voters who attend church regularly are more likely than nonreligious Trump voters to have warmer feelings toward racial and religious minorities, to be more supportive of immigration and trade, and to be more concerned about poverty." />
+<meta name="robots" content="noodp" />
+<link rel="image_src" href="https://object.cato.org/sites/cato.org/files/logos/cato-logo.jpg" />
+<link rel="canonical" href="https://www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" />
+<link rel="shortlink" href="https://www.cato.org/node/80605" />
+<meta property="fb:admins" content="5311211" />
+<meta property="fb:app_id" content="158687980817033" />
+<meta property="fb:pages" content="26668999076" />
+<meta property="og:site_name" content="Cato Institute" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Religious Trump Voters: How Faith Moderates Attitudes about Immigration, Race, and Identity" />
+<meta property="og:url" content="https://www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" />
+<meta property="og:description" content="Trump voters who attend church regularly are more likely than nonreligious Trump voters to have warmer feelings toward racial and religious minorities, to be more supportive of immigration and trade, and to be more concerned about poverty." />
+<meta property="og:updated_time" content="2019-02-20T09:45:22-05:00" />
+<meta property="og:image" content="https://www.cato.org/sites/cato.org/files/default-social-images/catoresearch_fb.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@CatoInstitute" />
+<meta name="twitter:url" content="https://www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" />
+<meta name="twitter:title" content="Religious Trump Voters: How Faith Moderates Attitudes about" />
+<meta name="twitter:description" content="Trump voters who attend church regularly are more likely than nonreligious Trump voters to have warmer feelings toward racial and religious minorities, to be more supportive of immigration and trade," />
+<meta property="article:published_time" content="2019-02-05T03:00:00-05:00" />
+  <title>Religious Trump Voters: How Faith Moderates Attitudes about Immigration, Race, and Identity | Cato Institute</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://s3.amazonaws.com">
+  <link rel="preconnect" href="https://use.fontawesome.com">
+  <link rel="preconnect" href="https://customer.cludo.com">
+  <link rel="preconnect" href="https://api.cludo.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="dns-prefetch" href="//s3.amazonaws.com">
+  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <link rel="dns-prefetch" href="//customer.cludo.com">
+  <link rel="dns-prefetch" href="//api.cludo.com">
+  <link rel="preconnect" href="https://api.hubapi.com">
+  <link rel="dns-prefetch" href="//api.hubapi.com">
+  <link rel="preconnect" href="https://track.hubspot.com">
+  <link rel="dns-prefetch" href="//track.hubspot.com">
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="dns-prefetch" href="//connect.facebook.net">
+  <link rel="preconnect" href="//stats.g.doubleclick.net" />
+  <link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+  <link rel="preconnect" href="//www.google-analytics.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <style>@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VMGIUYDw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReece9LOoc.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImZDC7XsdBMr8R.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWufeVMGIUYD6_8.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFkWaDq8fMVxMw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfRmece9LOocoDg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpALHGZFkMFzObw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGZFkMFw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+  <link href="https://customer.cludo.com/css/templates/v1.1/essentials/cludo-search.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_rEI_5cK_B9hB4So2yZUtr5weuEV3heuAllCDE6XsIkI.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_KjM-vI880FQBOJlLzZAZR9EtGD82yidsxSOC6Lm2IK4.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_Y8UJm3yOW6MfI7_nS6rJiIsG4ELCKJ5jJZYbtMpLmhg.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_FLlu6XpjzE-zvGvoA5H_vHQ3g03UT9BrnfdWxcJMImc.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_hBaAzyLlafRGWSkbEExXXlFwm0-T8xI5TQQiExVdJ8k.css" media="all" />
+  <script defer src="https://use.fontawesome.com/8f74555eb5.js"></script>
+  <!-- Do you want IE to work? -->
+  <!--[if lt IE 9 ]>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/libs/ieshiv.js"></script>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/browser-update.js"></script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-80605 node-type-publications pub-page" >
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="header" class="header">
+  <div class="wrapper">
+
+    <a href="/" title="Home" rel="home" id="logo" class="hdr-logo">
+      <img src="/sites/cato.org/files/cato-logo_0.png" alt="Home">
+    </a>
+
+    <div id="block-system-main-menu-trigger"><i class="fa fa-bars"></i></div>
+    <div id="main-search-trigger"><i class="fa fa-search"></i></div>
+
+    <!--googleoff: index-->
+    <div class="region region-menu">
+      <div id="block-catomegamenu-catomegamenu"
+           class="block block-catomegamenu main-nav">
+        <div class="content">
+          <div class="item-list">
+            <ul class="menu">
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-research first">
+                <a href="/research">Research</a></li>
+              <li class="expanded level-1 mega-top-link catomegamenu-events"><a
+                  href="/events">Events</a></li>
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-publications">
+                <a
+                  href="/publications">Publications</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-commentary">
+                <a href="/commentary">Commentary</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-store">
+                <a href="http://www.cato.org/store/">Store</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-support last">
+                <a href="/support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav id="block-menu-menu-submenu" class="block block-menu nav-sub">
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/about">About Cato</a></li>
+            <li class="leaf level-1"><a href="/blog">Blog</a></li>
+            <li class="leaf level-1"><a href="/people/policy-scholars">Our
+                Experts</a>
+            </li>
+            <li class="leaf level-1"><a href="/projects">Our Centers</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-facebook-square"></i>Facebook</a></li>
+            <li class="last leaf level-1"><a
+                href="https://twitter.com/catoinstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-twitter"></i>Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="block-block-57" class="block block-block hdr-search">
+        <div class="content">
+          <form class="search-form" action="/search"
+                method="get"
+                id="cludo-search-form" accept-charset="UTF-8" target="_self">
+            <div>
+              <div class="container-inline">
+                <h2 class="element-invisible">Search form</h2>
+                <div
+                  class="form-item form-type-searchfield form-item-search-block-form">
+                  <label class="element-invisible"
+                         for="edit-search-block-form--2">Search
+                    this site </label>
+                  <input title="Enter the terms you wish to search for."
+                         class="custom-search-box form-text form-search"
+                         placeholder="Search" type="search"
+                         id="edit-search-block-form--2" name="q" value=""
+                         size="15"
+                         maxlength="128"></div>
+                <div class="form-actions form-wrapper" id="edit-actions"><input
+                    type="submit" id="edit-submit" name="op" value="Search"
+                    class="form-submit"></div></div>
+            </div>
+          </form>
+        </div>
+      </div>
+          </div>
+        <!--googleon: index-->
+
+  </div>
+</header> <!-- /#header -->
+
+<div class="wrapper">
+  <div id="content" role="main">
+
+    
+    <section id="page-area">
+      <a id="main-content"></a>
+                                <div class="tabs">
+          </div>
+                                <div class="region region-content" data-swiftype-index='true'>
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="pub-section-head">
+  Public Opinion Brief  No. 2</div>
+
+<h1 class="page-h1" data-swiftype-name="title" data-swiftype-type="string">Religious Trump Voters: How Faith Moderates Attitudes about Immigration, Race, and Identity</h1>
+
+<article about="/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" typeof="sioc:Item foaf:Document">
+
+  <footer class="byline">
+          <div id="pub-authors">By 
+  <a href="/people/emily-ekins" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Emily Ekins</a></div>
+        
+  <div class="field-source-info">
+    February 5, 2019<br /><br />This report was first published with the Democracy Fund Voter Study Group, <a href="https://www.voterstudygroup.org" target="_blank">www.voterstudygroup.org</a>.  </div>
+  </footer>
+
+  
+  
+  <div class="article-body body-text dropcap-detail-text" data-swiftype-name="body" data-swiftype-type="text">
+    
+  <div class="field-body">
+    <p>Increasing political polarization and rising conflict over
+identity, race relations, immigration, and LGBT rights have left
+two increasingly divided extremes with a seemingly elusive moderate
+middle.<sup><a id="endnote-001-backlink" href=
+"#endnote-001">1</a></sup> Many have come to view religious
+institutions, largely because of their opposition to same-sex
+marriage, as a major contributor to this ever-increasing divide
+&mdash; a catalyst for increased intergroup societal conflict
+rather than a possible cure. However, research from the Democracy
+Fund Voter Study Group&#8217;s VOTER Surveys (Views of the Electorate
+Research Survey) finds that religious participation may serve as a
+moderating function in our politics, particularly among
+conservatives.<sup><a id="endnote-002-backlink" href=
+"#endnote-002">2</a></sup> These national surveys find that Donald
+Trump voters who attend church regularly are more likely than
+nonreligious Trump voters to have warmer feelings toward racial and
+religious minorities, to be more supportive of immigration and
+trade, and to be more concerned about poverty. These data are
+important because they demonstrate that private institutions in
+civil society can have a positive effect on social conflict and can
+reduce polarization.</p>
+<p>Left-right culture wars over the rights of LGBT (lesbian, gay,
+bisexual, and transsexual) people &mdash; particularly government
+sanction of same-sex marriages &mdash; have likely soured many
+Democrats’ views of Christians. Indeed, a majority (56 percent) of
+Democrats report unfavorable feelings toward evangelical
+Christians.<sup><a id="endnote-003-backlink" href=
+"#endnote-003">3</a></sup> This, in large part, may be a response
+to the 64 percent of churchgoing Christians who oppose legalized
+same-sex marriage and the half who have cool feelings toward LGBT
+people, and to the finding that the more frequently people attend
+church, the more negative their attitudes are likely to be toward
+gay men, lesbians, and also feminists. Thus, antagonism toward
+religious institutions is often grounded in the idea that religion
+is a source of exclusion and oppression rather than of inclusivity
+and tolerance. Such views are succinctly articulated by a bumper
+sticker from the Richard Dawkins Foundation: “There is no war on
+religion: Only opposition of intolerance, oppression, hatred, and
+stupidity.”</p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-1.png"
+alt=""></p>
+<p>It may surprise some readers, however, to learn that religious
+participation may moderate conservatives’ attitudes on other
+important culture war issues, particularly matters of race,
+immigration, and identity. Given that the rise of Donald Trump has
+increased the salience of these issues, this brief uses the 2016,
+2017, and 2018 VOTER Surveys to examine how religious and
+nonreligious people who voted for Donald Trump think about these
+important issues.<sup><a id="endnote-004-backlink" href=
+"#endnote-004">4</a></sup></p>
+  </div>
+
+    <p><a href="/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about#full">Continue to full version <i class="fa fa-long-arrow-right"></i></a></p>  </div>
+
+      <div class="pdf-section clearfix">
+      <a href="https://object.cato.org/sites/cato.org/files/pubs/pdf/public-opinion-brief-2.pdf" target="_blank" title=" PDF (761.16 KB)">
+  <div class="field-cover-image">
+    <img typeof="foaf:Image" src="https://object.cato.org/sites/cato.org/files/styles/pdf/s3/pubs/covers/public-opinion-2-cover.png?itok=4igV1Qb1" width="410" height="533" alt="" />  </div>
+</a>      <div class="cover-text">
+        <h4 class="page-h2">Downloads</h4><ul class="byline"><li class="pdf first last"><a href="https://object.cato.org/sites/cato.org/files/pubs/pdf/public-opinion-brief-2.pdf"><i class="fa fa-download"></i> PDF (761.16 KB)</a></li>
+</ul>      </div>
+    </div>
+  
+  
+  
+  <a name="full"></a>
+  
+  <div class="field-study-html body-text">
+    <!-- HUBSPOT CTA -->
+
+<link rel="stylesheet" type="text/css" href="https://object.cato.org/sites/cato.org/files/file_attach/hubspot-cta-button-area.css" /><section role="article" about="/node/308551" class="node node-type-embed-promo"><header><h2><span>Related upcoming event</span></h2></header><div class="promo_content">
+<h1>
+
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-22495304-f8f0-4fdf-ba9a-ebf4f094082c"><span class="hs-cta-node hs-cta-22495304-f8f0-4fdf-ba9a-ebf4f094082c" id="hs-cta-22495304-f8f0-4fdf-ba9a-ebf4f094082c"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4957480/22495304-f8f0-4fdf-ba9a-ebf4f094082c"><img class="hs-cta-img" id="hs-cta-img-22495304-f8f0-4fdf-ba9a-ebf4f094082c" style="border-width:0px;" src="https://object.cato.org/sites/cato.org/files/download-remote-images/no-cache.hubspot.com/81979052289/22495304-f8f0-4fdf-ba9a-ebf4f094082c.png" alt="Religion and Attitudes about Immigration, Race, and Identities" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+ hbspt.cta.load(4957480, '22495304-f8f0-4fdf-ba9a-ebf4f094082c', {}); 
+//--><!]]>
+</script></span><!-- end HubSpot Call-to-Action Code -->
+
+</h1>     
+
+
+<h3><div>March 6, 2019 | #Cato Connects | Live Webcast</div></h3> 
+<p>Join a LIVE discussion on the moderating influences of religious faith on attitudes about immigration, race, and identity, and tweet your questions with <a href="https://twitter.com/hashtag/CatoConnects" target="_blank">#CatoConnects</a>.</p><p>    
+</p></div>
+<footer><div>
+
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-41006d9c-20bd-434b-bab2-d950ba089ec7"><span class="hs-cta-node hs-cta-41006d9c-20bd-434b-bab2-d950ba089ec7" id="hs-cta-41006d9c-20bd-434b-bab2-d950ba089ec7"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4957480/41006d9c-20bd-434b-bab2-d950ba089ec7"><img class="hs-cta-img" id="hs-cta-img-41006d9c-20bd-434b-bab2-d950ba089ec7" style="border-width:0px;" src="https://object.cato.org/sites/cato.org/files/download-remote-images/no-cache.hubspot.com/81979052289/41006d9c-20bd-434b-bab2-d950ba089ec7.png" alt="DETAILS &amp; ADD TO CALENDAR" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+ hbspt.cta.load(4957480, '41006d9c-20bd-434b-bab2-d950ba089ec7', {}); 
+//--><!]]>
+</script></span><!-- end HubSpot Call-to-Action Code -->
+
+</div>
+</footer></section><!-- END HUBSPOT CTA --><h2>Attitudes toward Racial Minorities</h2>
+<p>Conservatives’ views of black people, Hispanics, and Asians improve the more frequently conservatives attend religious services. Specifically, favorable feelings toward black people increase from 48 percent among Trump voters who never attend church to 73 percent among those who attend more than once a week — a 25-point increase. Similarly, favorable feelings toward Hispanics and Asians increase from 63 percent and 60 percent, respectively, among secular Trump voters to 72 percent and 80 percent, respectively, among churchgoing Trump voters.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-2.png" alt="" /></p>
+
+<p>Frequent conservative churchgoers also say they care more about racial equality. More than two-thirds (67 percent) of churchgoing conservatives say racial equality is an important issue to them personally. In contrast, 51 percent of nonreligious conservatives say racial equality is <em class="Text-Emphasis_Italic">not </em>an important issue.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-3.png" alt="" /></p>
+
+<p>Conservatives’ own racial identity also becomes less salient to them the more frequently they attend church. Indeed, nonreligious white Trump voters are about three times as likely as churchgoing white Trump voters to say their white racial identity is “extremely important” to them (26 percent vs. 9 percent). </p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-4.png" alt="" /></p>
+
+<p>Reduced emphasis on their own racial identity might contribute to the finding that conservative churchgoers are less concerned about future prospects of a so-called majority-minority nation. While 6 in 10 churchgoing Trump voters agree that demographic change will enrich American society, less than half (47 percent) of secular Trump voters agree.</p>
+
+<h2>Attitudes toward Religious Minorities and the Travel Ban</h2>
+<p>Trump voters’ attitudes toward religious minorities, including Jewish and Muslim Americans, also warm according to church attendance.</p>
+
+<p>For instance, very devout Trump voters are 17 percentage points more likely than nonreligious Trump voters to have favorable feelings toward Jews (85 percent vs. 68 percent).</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-5.png" alt="" /></p>
+
+<p>Although Trump voters’ views of Muslims follow a similar pattern, attitudes across the board are less favorable and have shifted downward since 2016.</p>
+
+<p>In the 2016 VOTER Survey, churchgoing Trump voters were nearly twice as likely as secular Trump voters to have favorable feelings toward Muslims (27 percent vs. 16 percent). Trump voters who attend church frequently were also less enthusiastic about implementing a temporary ban on Muslims immigrating to the United States. At the time, very frequent churchgoers were 20 percentage points less likely than secular Trump voters to “strongly” favor a temporary travel ban on Muslims entering the United States (34 percent vs. 54 percent).<sup><a id="endnote-005-backlink" href="#endnote-005">5</a></sup></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-6.png" alt="" /></p>
+
+<p>However, after President Trump issued several executive orders restricting travel to the United States, opinions changed. The 2017 VOTER Survey found that churchgoing Trump voters were about as likely as secular Trump voters to have warm feelings (14 percent vs. 16 percent) toward Muslims. Strong support for the travel ban also increased across the board, but frequent churchgoers remained less enthusiastic than secular Trump voters (58 percent vs. 67 percent reported that they “strongly favor” the travel ban). Still, the gap narrowed to nine percentage points between nonreligious and religious Trump voters. These data indicate that, at least on some issues, partisanship and a desire to follow the party’s leader may diminish the possible moderating effects of religious participation.</p>
+
+<p>Despite increased support for the travel ban, majorities of Trump voters, regardless of religious observance, oppose denying Muslims who are U.S. citizens the right to vote.<sup><a id="endnote-006-backlink" href="#endnote-006">6</a></sup> Even so, churchgoers are far more “strongly opposed” to such a restriction than nonreligious Trump voters (63 percent vs. 48 percent), the 2017 VOTER Survey found.</p>
+
+<h2>Importance Placed on Accepting Diversity</h2>
+<p>Consistent with these findings, churchgoing Trump voters are more likely to agree that acceptance of racial and religious diversity is at the core of American identity. Eighty-three percent of Trump voters who attend a religious service more than once a week say it is “very” or “fairly important” to accept people of diverse racial and religious backgrounds to be “truly American,” compared with only two-thirds (67 percent) of nonreligious Trump voters — a 16 percentage-point difference.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-7.png" alt="" /></p>
+
+<h2>Attitudes toward Immigration </h2>
+<p>Religious participation also correlates with attitudes toward immigrants and the immigration system. Churchgoing Trump voters are less concerned about immigration in a number of dimensions.</p>
+
+<p>Trump voters who never or rarely attend religious services are considerably more concerned about immigration and take a more negative view of it than religiously observant Trump voters. While more than two-thirds (67 percent) of secular Trump voters say immigration is a “very important” issue, less than half (48 percent) of very regular churchgoers agree.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-8.png" alt="" /></p>
+
+<p>Furthermore, nonreligious Trump voters are nearly 20 percentage points more likely than churchgoing Trump voters to oppose a pathway to citizenship for the undocumented, to want a border wall, to support making the legal immigration process more arduous, and to believe illegal immigration drains the economy:</p>
+
+<ul><li>Sixty-eight percent of secular Trump voters oppose a pathway to citizenship for unauthorized immigrants, compared with 51 percent of frequent churchgoers — a 17 percentage-point difference.</li>
+	<li>Sixty-five percent of secular Trump voters say building a wall along the U.S.-Mexico border is a high priority for them compared with less than half (49 percent) of Trump voters who attend church more than once a week — a 16 percentage-point difference.</li>
+	<li>Sixty-seven percent of nonreligious Trump voters think it ought to be harder to immigrate to the United States compared with less than half (48 percent) of frequent churchgoing Trump voters — a 19 percentage-point difference.</li>
+	<li>Seventy-eight percent of nonreligious Trump voters believe illegal immigration is a drain on American society compared with 61 percent of frequent churchgoers — a 17 percentage-point difference.</li>
+</ul><p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-9.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-10.png" alt="" /></p>
+
+<p>This isn’t just about policy. Secular Trump voters are also more bothered by interactions with non-English speakers than are churchgoing Trump voters. In fact, a majority (55 percent) of Trump voters who never attend church “strongly agree” that it bothers them to interact with immigrants who speak little or no English. In contrast, about a third of Trump voters who attend religious services at least once in a while report this as a salient frustration.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-11.png" alt="" /></p>
+
+<h2>Support for Trade with Other Countries</h2>
+<p>Although trade is a separate issue from immigration, attitudes about trade often correspond with feelings about an increasingly interconnected world — which includes immigration. Indeed, we find a familiar pattern in which nonreligious Trump voters are less optimistic about trade, compared with religious Trump voters. While 51 percent of secular Trump voters favor increasing trade with other countries, two-thirds (66 percent) of churchgoing Trump voters favor doing so.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-12.png" alt="" /></p>
+
+<p>But interestingly, immediately after the 2016 presidential election, religious and nonreligious Trump voters had similar attitudes about increasing trade (just 51 percent and 47 percent of each group supported it, respectively). Perhaps because Trump made trade a salient issue during his campaign, his supporters fell into line behind him. Partisanship combined with Trump’s negative rhetoric about trade may have equalized conservatives’ attitudes on the issue regardless of religious participation. As with our finding concerning attitudes on the travel ban, partisan loyalties may reduce the possible moderating effects of religion on attitudes, at least temporarily.</p>
+
+<h2>Position on the Death Penalty</h2>
+<p>Most conservatives favor the death penalty; however, opposition to capital punishment rises with church attendance. Trump voters who attend church very frequently are about two and a half times as likely as secular Trump voters to oppose the death penalty (20 percent vs. 8 percent). Similarly, Trump voters who are very frequent churchgoers are about 20 percentage points less likely than nonreligious Trump voters to think the death penalty ought to be imposed more often (50 percent vs. 67 percent).</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-13.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-14.png" alt="" /></p>
+
+<h2>Poverty Concerns and Willingness to Volunteer</h2>
+<p>Religious Trump voters are more concerned about poverty than are nonreligious Trump voters. Trump voters who attend church at least once a week are nearly twice as likely as secular Trump voters to say that poverty is a “very important” issue to them (42 percent vs. 23 percent).</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-15.png" alt="" /></p>
+
+<p>This does not mean, however, that churchgoing conservatives favor a larger welfare state more than secular conservatives do. Religiously observant and nonobservant Trump voters alike want the Republican Party to prioritize reducing the size of government (83 percent and 85 percent, respectively) and agree it is not the federal government’s responsibility to ensure that everyone has health care coverage (78 percent and 73 percent, respectively). In fact, Trump-voting churchgoers are more likely to favor repeal of the Affordable Care Act (89 percent vs. 76 percent) and to oppose government “doing more” to reduce income differences between rich and poor (71 percent vs. 58 percent) than are their secular counterparts. They hold these views despite both groups’ having fairly similar incomes (Table 1).</p>
+
+<p>Some might interpret these results to mean that religious conservatives only say they care about poverty because they believe it is socially desirable to do so but that they don’t want to take action with the intent to alleviate poverty. However, other data in the survey suggest that religious conservatives may turn to private remedies rather than to more government action to help people in need.</p>
+
+<p>Indeed, religious Trump voters are more likely than nonreligious Trump voters to do volunteer work. For instance, while 61 percent of very frequent churchgoers among Trump voters volunteered at least once in the past 12 months, only 20 percent of secular Trump voters did.<sup><a id="endnote-007-backlink" href="#endnote-007">7</a></sup> And it wasn’t simply volunteer work with their own church. Among only those Trump voters who volunteered in the past year, frequent churchgoers (62 percent) were about 30 percentage points more likely to have volunteered with two or more organizations (and thus not just with their own church) than were secular Trump voters (34 percent).</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-16.png" alt="" /></p>
+
+<h2>Favorability toward Trump</h2>
+<p>Given that many of these attitudinal patterns are inconsistent with President Trump’s own stated views, some might wonder why religious conservatives overwhelmingly voted for him in 2016. Indeed, exit polls found that 80 percent of evangelicals as well as 55 percent of frequent churchgoers voted for Trump, even after “Hollywood Access” recordings revealed Trump bragging about his own infidelity.<sup><a id="endnote-008-backlink" href="#endnote-008">8</a></sup></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-17.png" alt="" /></p>
+
+<p>However, right after the 2016 presidential election, religiously observant Trump voters were less enthusiastic about him than nonreligious Trump voters were. While 63 percent of secular Trump voters had a “very favorable” view of Trump, a little fewer than half (49 percent) of very frequent churchgoers who voted for Trump agreed. Moreover, very observant Trump voters were 15 percentage points more likely than nonreligious Trump voters to say their vote was <em class="Text-Emphasis_Italic">against</em> Hillary Clinton rather than <em class="Text-Emphasis_Italic">for </em>Donald Trump (38 percent vs. 23 percent). Those feelings are reflected in the exit polling data. Trump garnered a lower share of weekly churchgoers in 2016 than Mitt Romney did in 2012 (55 percent vs. 59 percent). Instead, Trump gained ground relative to Romney among infrequent churchgoers (46 percent vs. 42 percent).<sup><a id="endnote-009-backlink" href="#endnote-009">9</a></sup> Nevertheless, strong majorities of Trump voters with varying rates of religious participation continue to have positive views of the president.</p>
+
+<p>Examining the primary voting choices of Trump’s general election voters reveals a consistent pattern. Religious conservatives were less likely to vote for Trump in the early GOP primaries when Republicans had several candidates to choose from.<sup><a id="endnote-010-backlink" href="#endnote-010">10</a></sup> Among the most devout, a plurality (39 percent) voted for Sen. Ted Cruz (R-TX) rather than Donald Trump (34 percent).<sup><a id="endnote-011-backlink" href="#endnote-011">11</a></sup> However, Trump did best among those conservatives who never go to church, garnering fully 69 percent of their votes in the early primaries.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/18New_Primaries.png" alt="" /></p>
+
+<h2>A Profile of Trump Voters’ Religious Participation</h2>
+<p>How many Trump voters attend church regularly? VOTER Survey data indicate that if church attendance does have a moderating effect on racial and immigration attitudes, it does so only for less than half of the Trump coalition. About a quarter (24 percent) of Trump voters say they never attend religious services and another quarter (24 percent) say they seldom attend. Another 12 percent report attending a few times a year and 8 percent say they attend services a few times a month. The remaining 31 percent attend church regularly, including 22 percent who participate weekly and 9 percent who participate more than once a week.<sup><a id="endnote-012-backlink" href="#endnote-012">12</a></sup></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-19.png" alt="" /></p>
+
+<p>Trump voters who attend church most frequently are more likely to identify as Protestant Christian than those who attend less often. Among Trump voters who attend church more than once a week, nearly three-fourths (73 percent) identify as Protestant, 18 percent identify as Catholic, 4 percent identify as another form of Christianity (such as Mormonism), 4 percent identify with another religion, and 2 percent don’t identify with a specific religious faith. Among Trump voters who never attend religious services, a plurality (38 percent) don’t identify with any religious denomination or faith tradition, 17 percent identify as atheist or agnostic, 18 percent as Catholic, 22 percent as Protestant, and 5 percent as a member of another religion.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/20_Profile_Type.png" alt="" /></p>
+
+<h2>Who Are the Churchgoing Trump Voters?</h2>
+<p>Interestingly, churchgoing Trump voters don’t look much different from their secular copartisans on a range of demographic variables. They make about the same amount of money (although very frequent churchgoers make somewhat less). They are about equally likely to work full time (38 percent vs. 42 percent), although regular churchgoers are more likely to be retired. A similar proportion say they pay attention to the news and public affairs (64 percent vs. 62 percent). And they are both highly likely to be white (83 percent vs. 81 percent).</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-table-1.png" alt="" /></p>
+
+<p>However, there are a few differences. Weekly churchgoing Trump voters are more likely than secular Trump voters to be married (70 percent vs. 55 percent), to be female (47 percent vs. 39 percent), and to have graduated from college (31 percent vs. 19 percent). Weekly churchgoing Trump voters are also more likely to identify as conservative (80 percent vs. 57 percent) and Republican (65 percent vs. 51 percent) than their secular counterparts. Instead, secular Trump voters are more likely to identify as politically independent (41 percent vs. 28 percent) and moderate (35 percent vs. 17 percent) than weekly churchgoing Trump voters.</p>
+
+<p>Taking these results together leaves us with a surprising finding: conservative, Republican, churchgoing Trump voters take more <em class="Text-Emphasis_Italic">moderate</em> positions on many culture war issues than their self-identified moderate, independent, nonchurchgoing counterparts.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/figure4_NEW.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/graph5.png" alt="" /></p>
+
+<h2>Is It Really Church Attendance?</h2>
+<p>The positive relationship between religious service attendance and tolerance examined in this report is simply a correlation. We don’t know for sure if attending religious services <em class="Text-Emphasis_Italic">causes </em>people to become more tolerant and accepting of others with different backgrounds. But we can test whether some other demographic variable — like education, income, gender, or age — might be confounding these results. For instance, perhaps more-educated conservatives are more likely to participate in civic institutions (such as churches) and also are more likely to take more moderate positions on some culture war issues. If this were true, we might draw the conclusion that education drives these results more than religious participation does.</p>
+
+<p>To examine this potential, we ran a statistical test (regression analysis) using church attendance as a predictor of attitudes toward racial and religious minorities while also taking into account education, income, race, gender, and age. Even when accounting for these demographic factors, increased church attendance remains a significant predictor of more favorable attitudes toward black people, Hispanics, Asians, Jews, and Muslims (Appendix A). The statistical models predict increasingly favorable attitudes toward these populations as Trump voters attend religious services more often, while holding other demographic factors constant.</p>
+
+<h2>Are There Denominational Differences?</h2>
+<p>Nearly three-fourths (73 percent) of Trump voters identify as either Protestant or Catholic. Might participation in either of these two faith traditions have different effects? Statistical tests suggest not. A series of tests comparing the impact of religious attendance among white Protestant Trump voters and white Catholic Trump voters reveals that participation in either faith, in most instances, is a significant predictor of improved attitudes toward racial and religious minorities.<sup><a id="endnote-013-backlink" href="#endnote-013">13</a></sup> Furthermore, these tests indicate that the small differences that do exist are not statistically significant. Trump voters who attend either Protestant or Catholic religious services weekly are more likely than their secular counterparts to have warm feelings toward those population groups (Appendix B).</p>
+
+<p>What about other faith traditions? As there were few Trump voters who identified with religious traditions other than Protestant and Catholic, we expanded the analysis to encompass all respondents in order to examine the relationship between participation in other religious faiths and tolerance. Weekly participation in these religious traditions also significantly predicts more tolerant attitudes. For instance, Muslims who attend religious services regularly are significantly more likely to have favorable attitudes toward Christians, white people, black people, Hispanics, and Asians.<sup><a id="endnote-014-backlink" href="#endnote-014">14</a></sup> Churchgoing Mormons are also significantly more likely to have favorable attitudes toward black people, Hispanics, Asians, Jews, Muslims, and immigrants. These findings indicate that it is not one particular religious denomination or faith tradition but rather religious participation of some kind that may promote social tolerance.</p>
+
+<h2>How Do Religious Trump Voters Compare with Clinton Voters?</h2>
+<p>To be sure, conservatives who attend church regularly don’t take the same positions as liberals on most of these issues. For instance, churchgoing Trump voters are less likely to have warm feelings toward Muslims (27 percent) than are Hillary Clinton’s 2016 voters (66 percent). Churchgoing Trump voters are also more likely than Clinton voters to say immigration should be more difficult (48 percent vs. 21 percent), to oppose offering a pathway to citizenship (51 percent vs. 11 percent), to say illegal immigrants are a drain on society (61 percent vs. 10 percent), and to be frustrated with language barriers (29 percent vs. 7 percent).</p>
+
+<p>Although churchgoing Trump voters are relatively more opposed to the death penalty than their secular counterparts are, more than two-thirds (68 percent) support it compared with about one-third (36 percent) of Clinton voters. And, even though an overwhelming majority (81 percent) of Trump-voting churchgoers say poverty is an important issue, that figure still falls short of the 97 percent of Clinton voters who feel similarly.</p>
+
+<p>There are a few exceptions, however, in which churchgoing Trump voters coalesce with Clinton voters. In particular, both groups have similarly warm feelings toward racial minorities and Jews, and they have similar attitudes about trade.</p>
+
+<p>Even so, Trump voters, regardless of religious participation, take more conservative positions than do Clinton voters on most issues. Thus, attending church regularly does not turn conservatives into liberals. However, religious attendance may pull conservatives in a liberal direction on key cultural issues polarizing the nation. </p>
+
+<h2>Why Might Religious Participation Moderate Polarization?</h2>
+<p>What is it about attending weekly religious services that might cause conservatives to take more moderate positions on immigration, race, trade, and other issues than those of less-devout conservatives?<sup><a id="endnote-015-backlink" href="#endnote-015">15</a></sup></p>
+
+<p>First, many religious teachings specifically call for compassion and kindness. Given that 93 percent of religiously observant Trump voters identify as Christian, it is relevant to note biblical teachings, such as those in John 15:12: “This is my commandment, that you love one another as I have loved you.”</p>
+
+<p>Second, perhaps religious participation instills in churchgoers a sense of personal agency and a belief in a just world. By extension, they may feel less inclined to blame “out-groups” for the challenges they face. Indeed, the survey shows that churchgoers are less likely to believe they live in a dog-eat-dog world and are more likely to believe that the system is fair. For instance, the more frequently Trump voters attend church, the more likely they are to believe they have a say in politics, to believe the economic system is fair, and to believe that most people try to be helpful rather than look out for themselves or take advantage of others. If churchgoers are less likely to feel as though they are victims, perhaps they are also less likely to blame external sources for the challenges they face in their lives.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-22.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-23.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-24.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-25.png" alt="" /></p>
+
+<p>Third, religious institutions provide communities that people can belong to that are not based on their race or nationality. Thus, members do not need to rely on immutable traits such as race, ethnicity, or nation of birth to feel that they are part of something bigger than themselves. Research shows that conservatives place greater emphasis on being loyal to a community than do liberals.<sup><a id="endnote-016-backlink" href="#endnote-016">16</a></sup> And so, feeling disconnected from a meaningful community may lead some conservatives to seek belonging on the basis of their race or the nation. Doing so increases exclusivity and divisiveness, and it exacerbates racial and nativist tensions.</p>
+
+<p>Indeed, we find religious people seem to feel more connected in their communities. The more frequently Trump voters attend religious services, the more satisfied they report being with the place where they live, their neighborhood, and their family relationships. For instance, very devout Trump voters are about 15 percentage points more likely than nonreligious Trump voters to feel satisfied with their communities and family relationships.</p>
+
+<p>Consistent with this pattern, religious Trump voters are more likely to feel comfortable and at home in the United States, while secular Trump voters feel like strangers. Although 58 percent of secular Trump voters agree that “these days I feel like a stranger in my own country,” almost the same share (55 percent) of religious Trump voters disagree.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-26.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-27.png" alt="" /></p>
+
+<h2>Discussion</h2>
+<p>The results of this analysis indicate that religious participation may have a moderating effect on our politics, particularly on matters of race, immigration, and identity. They further suggest that private institutions in civil society — outside the domain of government and public policy — may serve an important function in reducing polarization and racial tensions and in helping people find common ground. However, several important forces may diminish these possible effects.</p>
+
+<p>First, partisanship may lessen the differences between religious and nonreligious conservatives as they unify behind President Trump. For instance, Trump’s executive order restricting travel to the United States from several Muslim-majority countries and his negative trade rhetoric may override the natural differences that emerge between religious and nonreligious conservatives. Thus, in some circumstances the president may reduce the effect of religious participation on people’s opinions about key cultural issues.</p>
+
+<p>Second, record numbers of people are leaving organized religion. Data from the Public Religion Research Institute finds that, since 1992, the number of people leaving their faith traditions has quadrupled among the general public and tripled among conservatives.<sup><a id="endnote-017-backlink" href="#endnote-017">17</a></sup> Thus, a potential moderating force among conservatives has been receding. Research has found that conservatives tend to care more than liberals do about being a part of, and loyal to, a community.<sup><a id="endnote-018-backlink" href="#endnote-018">18</a></sup> But as conservatives withdraw from religious participation, they may redraw the boundaries of their group identity along the lines of immutable traits such as ethnicity and nation of birth rather than something people can choose. For instance, this could potentially bolster support for white nationalism and the so-called alt-right movement.</p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/public-opinion-brief-figure-28.png" alt="" /></p>
+
+<p>Third, as many people view religious institutions through the lens of the LGBT culture wars, they overlook and thus dismiss these civil institutions as a possible source of tolerance and moderation on other issues. They incorrectly assume that if religious people are less accepting of sexual minorities, they must also feel less favorable toward racial and religious minorities. In addition, many critical of religious affiliation may assert that plenty of nonreligious people are tolerant of diversity, making religious participation seem unnecessary to foster tolerance — but that phenomenon is found primarily on the left. Many people have not considered whether religious observance has differing effects among conservatives and liberals. Thus, some view religious participation as being both unhelpful and pernicious to the cause of tolerance and social harmony. This view is further reflected and promoted through popular culture and entertainment that depict religious conservatives as villainous or backward. Some may hope that encouraging conservatives to disengage from religion will make them more tolerant. However, these data provide some indication they may not become more tolerant, but rather they may become intolerant of different groups.</p>
+
+<p>In sum, a force that may moderate conservatives on certain issues and reduce polarization is on the decline, and popular culture is reaffirming the trend. But if interpretation of these data is any guide, doing so may backfire. While it may be true that declining religious participation has calmed the culture wars over moral traditionalism and LGBT rights, that change may also come at the expense of fueling deeper resentment along the lines of race, ethnicity, and nativity. While government certainly should have no role in promoting religion, these data indicate that there may be unexpected negative consequences should government or popular culture be used with the intent to diminish people’s ability or desire to participate in religious traditions.</p>
+
+<h2>Appendix A</h2>
+<p><strong>Predicting favorability toward specific racial and religious groups among Trump voters</strong></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/Appendix-A-1.png" alt="" /></p>
+
+<p style="font-size: 12px; line-height: 14px;"><strong>Note:</strong> Favorability toward each group is predicted using a 0 to 100 feeling thermometer. Models estimated via ordinary least squares regression with standard errors in parenthesis.<br />* p ≤ 0.05; ** p ≤ 0.01; *** p ≤ 0.001</p>
+
+<p>This table shows statistical model estimates predicting favorability toward black people, Hispanics, Asians, Jews, and Muslims, respectively, using a “feeling thermometer,” which asks respondents to rate their feelings toward the following groups using a scale of 0 to 100, where 0 means they feel very cold and unfavorable and 100 means they feel very warm and favorable toward the group. All variables are coded so that higher values indicate more favorable feelings toward each of the respective groups. These models show that greater church attendance significantly predicts more favorable attitudes toward black people, Hispanics, Asians, Jews, and Muslims even when taking into account the effects of other variables.</p>
+
+<h2>ABOUT THE SURVEY AND ANALYSIS</h2>
+<p>This report is based on the Voter Study Group 2016, 2017, and 2018 VOTER Survey (Views of the Electorate Research Survey). In partnership with the survey firm YouGov, the 2018 VOTER Survey interviewed 6,005 Americans between April 5 and May 14, 2018. Of those respondents, 4,705 had been interviewed previously and 1,300 were part of an additional sample of 18- to 24-year-olds and Hispanics.</p>
+
+<h2>Appendix B</h2>
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/AppendixB_1.png" alt="" /></p>
+
+<p><img src="https://object.cato.org/sites/cato.org/files/pubs/images/public-opinion-brief-2/AppendixB_2.png" alt="" /></p>
+
+<h2>Notes</h2>
+<p><sup><a id="endnote-001" href="#endnote-001-backlink">1</a></sup> The share of Americans who worry about race relations has doubled since 2014 (17 percent to 37 percent), and the number very dissatisfied with the state of race relations has tripled (11 percent to 36 percent); “Race Relations,” In Depth Topics A to Z, Gallup News website, <a href="https://news.gallup.com/poll/1687/race-relations.aspx">https://news.gallup.com/poll/1687/race-relations.aspx</a>. See also Betsy Cooper et al., “Anxiety, Nostalgia, and Mistrust: Findings from the 2015 American Values Survey,” PRRI report, Public Religion Research Institute, November 2015, <a href="https://www.prri.org/research/survey-anxiety-nostalgia-and-mistrust-findings-from-the-2015-american-values-survey/">https://www.prri.org/research/survey-anxiety-nostalgia-and-mistrust-findings-from-the-2015-american-values-survey/</a>.</p>
+
+<p><sup><a id="endnote-002" href="#endnote-002-backlink">2</a></sup> Data in this brief come from the Democracy Fund Voter Study Group’s 2018, 2017, and 2016 VOTER Surveys.</p>
+
+<p><sup><a id="endnote-003" href="#endnote-003-backlink">3</a></sup> In contrast, far fewer Republicans (10 percent) and independents (38 percent) have unfavorable views of evangelical Christians.</p>
+
+<p><sup><a id="endnote-004" href="#endnote-004-backlink">4</a></sup> This study examines Trump voters of all racial backgrounds. The racial composition of Trump voters does not vary considerably by church attendance. For instance, 84 percent of Trump voters who attend church more than once a week are white as are 81 percent of those who never attend religious services. Therefore, more favorable attitudes toward racial minorities among very devout Trump voters are not due to a significantly more diverse pool of religious Trump voters.</p>
+
+<p><sup><a id="endnote-005" href="#endnote-005-backlink">5</a></sup> Majorities of Trump voters regardless of religious attendance support the travel ban either “strongly” or “somewhat,” including 67 percent among Trump voters who attend church more than weekly and 83 percent among those who never attend.</p>
+
+<p><sup><a id="endnote-006" href="#endnote-006-backlink">6</a></sup> Among all Trump voters, 80 percent oppose denying Muslims who are U.S. citizens the right to vote, compared with 92 percent of Hillary Clinton voters.</p>
+
+<p><sup><a id="endnote-007" href="#endnote-007-backlink">7</a></sup> Data on volunteering come from the panel baseline survey of the 2012 Cooperative Campaign Analysis Project (CCAP) merged with the VOTER surveys.</p>
+
+<p><sup><a id="endnote-008" href="#endnote-008-backlink">8</a></sup> “Election 2016 Exit Polls,” CNN Politics, November 2016, <a href="https://www.cnn.com/election/2016/results/exit-polls/national/president">https://www.cnn.com/election/2016/results/exit-polls/national/president</a>.</p>
+
+<p><sup><a id="endnote-009" href="#endnote-009-backlink">9</a></sup> “Election 2016 Exit Polls,” CNN Politics. See also “2012 Election Center—President: Full Results,” CNN Politics, December 2012, <a href="http://www.cnn.com/election/2012/results/race/president/">http://www.cnn.com/election/2012/results/race/president/</a>.</p>
+
+<p><sup><a id="endnote-010" href="#endnote-010-backlink">10</a></sup> Early primaries are categorized as the first 10 days that GOP primaries were held.</p>
+
+<p><sup><a id="endnote-011" href="#endnote-011-backlink">11</a></sup> Support for Ted Cruz may have been higher than this, given that the 2016 VOTER Survey was administered after Trump had already secured the nomination and thus respondents may have wanted to say they voted for the winner. </p>
+
+<p><sup><a id="endnote-012" href="#endnote-012-backlink">12</a></sup> It should be noted that research shows survey respondents often overreport their level of church attendance. See Daniel Cox, Robert P. Jones, and Juhem Navarro-Rivera, “I Know What You Did Last Sunday: Measuring Social Desirability Bias in Self-Reported Religious Behavior, Belief, and Identity,” PRRI report, Public Religion Research Institute, May 17, 2014, <a href="https://prri.org/wp-content/uploads/2014/05/AAPOR-2014-Final.pdf">https://prri.org/wp-content/uploads/2014/05/AAPOR-2014-Final.pdf</a>.</p>
+
+<p><sup><a id="endnote-013" href="#endnote-013-backlink">13</a></sup> Among white Trump voters, Catholic church attendance significantly predicted more favorable attitudes toward black people and Jews, as well as immigrants at the p ≤ .05 level and toward Hispanics and Asians at the p ≤ .10 level. It did not significantly predict more favorable attitudes toward Muslims. Protestant church attendance among white Trump voters significantly predicted more favorable attitudes toward black people, Hispanics, Asians, Jews, Muslims, and immigrants. These differences may be, in part, the consequence of there being fewer white Catholic Trump voters (n = 733) than white Protestant Trump voters (n = 1,532) surveyed; with a lower number, there is less certainty regarding the estimates of white Catholic Trump voters’ attitudes.</p>
+
+<p><sup><a id="endnote-014" href="#endnote-014-backlink">14</a></sup> Because of small sample sizes one should use caution when interpreting these results. In the survey, Muslims: n = 21; Mormons: n = 133; Buddhist and Hindu: n = 72.</p>
+
+<p><sup><a id="endnote-015" href="#endnote-015-backlink">15</a></sup> For a discussion of academic studies on the role of religious devotion in tolerance, see Kenneth D. Wald and Allison Calhoun-Brown, <em>Religion and Politics in the United States</em>, 6th ed. (Lanham, MD: Rowman &amp; Littlefield Publishers, 2010), chap. 12, pp. 345–67.</p>
+
+<p><sup><a id="endnote-016" href="#endnote-016-backlink">16</a></sup> Jesse Graham, Jonathan Haidt, and Brian A. Nosek, “Liberals and Conservatives Rely on Different Sets of Moral Foundations,” <em>Journal of Personality and Social Psychology</em> 96, no. 5 (2009): 1029–46, <a href="https://doi.org/10.1037/a0015141">https://doi.org/10.1037/a0015141</a>. See also Jonathan Haidt and Jesse Graham, “When Morality Opposes Justice: Conservatives Have Moral Intuitions That Liberals May Not Recognize,” <em>Social Justice Research</em> 20, no. 1 (2007): 98–116, <a href="http://dx.doi.org/10.1007/s11211-007-0034-z">http://dx.doi.org/10.1007/s11211-007-0034-z</a>.</p>
+
+<p><sup><a id="endnote-017" href="#endnote-017-backlink">17</a></sup> Betsy Cooper et al., “Exodus: Why Americans Are Leaving Religion—and Why They’re Unlikely to Come Back,” PRRI report, Public Religion Research Institute, September 22, 2016, <a href="https://www.prri.org/research/prri-rns-poll-nones-atheist-leaving-religion/">https://www.prri.org/research/prri-rns-poll-nones-atheist-leaving-religion/</a>. See also Peter Beinart, “Breaking Faith: The Culture War over Religious Morality Has Faded; in Its Place Is Something Much Worse,” <em>Atlantic</em>, April 2017, <a href="https://www.theatlantic.com/magazine/archive/2017/04/breaking-faith/517785/">https://www.theatlantic.com/magazine/archive/2017/04/breaking-faith/517785/</a>.</p>
+
+<p><sup><a id="endnote-018" href="#endnote-018-backlink">18</a></sup> Graham, Haidt, and Nosek, “Liberals and Conservatives Rely on Different Sets of Moral Foundations.” See also Haidt and Graham, “When Morality Opposes Justice.”</p>  </div>
+</article>
+
+<div class="pub-page-share-tools"><div class="pub-page-share-tools-rel"><ul class="pub-page-share-list"><li class="twitter first"><a href="https://twitter.com/intent/tweet?url=https%3A//www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about&amp;text=Religious%20Trump%20Voters%3A%20How%20Faith%20Moderates%20Attitudes%20about%20Immigration%2C%20Race%2C%20and%20Identity&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank" rel="nofollow"><i class="fa fa-fw fa-twitter "></i>Tweet</a></li>
+<li class="facebook"><a href="https://www.facebook.com/dialog/share?app_id=158687980817033&amp;href=https%3A//www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" target="_blank" rel="nofollow"><i class="fa fa-fw fa-facebook-square "></i>Like</a></li>
+<li class="reddit"><a href="https://reddit.com/https://www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" target="_blank" rel="nofollow"><i class="fa fa-fw fa-reddit fa-lg "></i>Submit</a></li>
+<li class="linkedin last"><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.cato.org/publications/public-opinion-brief/religious-trump-voters-how-faith-moderates-attitudes-about" target="_blank" rel="nofollow"><i class="fa fa-fw fa-linkedin fa-lg "></i>Share</a></li>
+</ul></div></div><!-- share-tools -->
+
+<div class="expert-attribution clearfix">
+      <div class="expert-attribution-link">
+  <div class="field-cropped-picture">
+    <a href="/people/emily-ekins"><picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor-15x/s3/authors/crops/emily_ekins-cropped_1.jpg?itok=nCFZMz4Z&amp;timestamp=1430335167 1.5x, https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor/s3/authors/crops/emily_ekins-cropped_1.jpg?itok=ZJUWZ0bH&amp;timestamp=1430335167 1x, https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor-2x/s3/authors/crops/emily_ekins-cropped_1.jpg?itok=RQoZAd_r&amp;timestamp=1430335167 2x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor-2x/s3/authors/crops/emily_ekins-cropped_1.jpg?itok=RQoZAd_r&amp;timestamp=1430335167" alt="" title="" />
+</picture></a>  </div>
+</div>
+      <div class="expert-attribution-text quote">
+      
+  <div class="field-auth-bio">
+    <a href="https://www.cato.org/people/emily-ekins">Emily Ekins</a> is a research fellow and director of polling at the Cato Institute.  </div>
+    </div>
+</div><!-- expert-atribution -->
+  </div>
+</div>
+<div id="block-block-30" class="block block-block creative-commons clearfix">
+
+      
+  <div class="content">
+    <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>  </div>
+</div>
+  </div>
+            <!--googleoff: index-->
+                        <!--googleon: index-->
+    </section>
+    <!-- /#content -->
+
+  </div>
+</div> <!-- /#main -->
+
+<!--googleoff: index-->
+<footer class="main-footer">
+  <div class="wrapper">
+    <aside class="region region-footer-fourth col-1">
+      <div id="block-block-27" class="block block-block ftr-signup">
+
+        <h3 class="section-h3">Sign Up</h3>
+
+        <div class="content">
+          <p class="ftr-txt">Receive periodic updates on Cato research, events,
+            and publications.</p>
+          <!-- Begin MailChimp Signup Form -->
+
+
+          <div id="mc_embed_signup">
+            <form
+              action="//cato.us1.list-manage.com/subscribe/post?u=98c97f42691d5de57bc944822&amp;id=395878584c"
+              method="post" id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="ftr-signup-form form-basic" target="_blank" novalidate>
+
+
+              <div class="mc-field-group">
+
+                <input type="email" value="" name="EMAIL" placeholder="Email"
+                       class="text-input ftr-text-input"
+                       id="mce-EMAIL">
+              </div>
+
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response"
+                     style="display:none"></div>
+                <div class="response" id="mce-success-response"
+                     style="display:none"></div>
+              </div>
+
+
+              <div class="clear"><input type="submit" value="Subscribe"
+                                        name="subscribe"
+                                        id="mc-embedded-subscribe"
+                                        class="submit-input ftr-submit-input">
+              </div>
+
+              <div class="mc-field-group input-group">
+
+                <input type="hidden" value="512" name="group[214][512]"
+                       id="mce-group[214]-214-0">
+
+                <input type="hidden" value="128" name="group[214][128]"
+                       id="mce-group[214]-214-8">
+
+
+              </div>
+
+
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response"
+                     style="display:none"></div>
+                <div class="response" id="mce-success-response"
+                     style="display:none"></div>
+              </div>
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+
+          <p class="ftr-txt"><a
+              href="/ecommunity?utm_source=mailchimp-signup&utm_medium=banner&utm_campaign=ecommunity-mailchimp-signup"
+              target="_blank">See our full list of email newsletters</a></p>
+
+
+          <!-- GOALS TRACKING WITH MAILCHIMP AND GA -->
+
+          <script type="text/javascript">
+            var $mcGoal = {
+              'settings': {
+                'uuid': '98c97f42691d5de57bc944822',
+                'dc': 'us1'
+              }
+            };
+            (function () {
+              var sp = document.createElement('script');
+              sp.type = 'text/javascript';
+              sp.async = true;
+              sp.defer = true;
+              sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(sp, s);
+            })();
+          </script>
+          <!-- END GOALS TRACKING WITH MAILCHIMP AND GA -->
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-third col-2">
+      <div id="block-menu-menu-also-from-cato"
+           class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Also from Cato</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/students" rel="me">Internships
+                and Student Programs</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.downsizinggovernment.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">DownsizingGovernment.org</a></li>
+            <li class="leaf level-1"><a href="https://www.libertarianism.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Libertarianism.org</a>
+            </li>
+            <li class="leaf level-1"><a href="http://humanprogress.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">HumanProgress.org</a>
+            </li>
+            <li class="leaf level-1"><a href="https://www.cato-unbound.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Cato
+                Unbound</a></li>
+            <li class="leaf level-1"><a href="https://www.unlawfulshield.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Unlawful Shield</a>
+            </li>
+            <li class="leaf level-1"><a
+                href="https://www.freedominthe50states.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">Freedom in the 50 States</a></li>
+            <li class="leaf level-1"><a href="https://overlawyered.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">Overlawyered</a></li>
+            <li class="leaf level-1"><a href="https://www.elcato.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">ElCato.org</a></li>
+            <li class="last leaf level-1"><a href="https://www.alt-m.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                             rel="me" target="_blank">Alt-M</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-second col-3">
+      <div id="block-menu-menu-social-media" class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Social Media</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute" rel="me"
+                class="link-facebook" target="_blank"><i
+                  class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+            <li class="leaf level-1"><a href="https://twitter.com/catoinstitute"
+                                        rel="me" class="link-twitter"
+                                        target="_blank"><i
+                  class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.youtube.com/catoinstitutevideo" rel="me"
+                class="link-youtube" target="_blank"><i
+                  class="fa fa-youtube-play fa-fw"></i> YouTube</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.linkedin.com/company/cato-institute" rel="me"
+                class="link-linkedin" target="_blank"><i
+                  class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+            <li class="leaf level-1"><a
+                href="https://instagram.com/catoinstitute" rel="me"
+                class="link-instagram" target="_blank"><i
+                  class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+            <li class="leaf level-1"><a href="https://catoinstitute.tumblr.com"
+                                        rel="me" class="link-tumblr"
+                                        target="_blank"><i
+                  class="fa fa-tumblr fa-fw"></i> Tumblr</a></li>
+            <li class="last leaf level-1"><a
+                href="https://www.cato.org/ecommunity/rss" class="link-rss"><i
+                  class="fa fa-rss fa-fw"></i> RSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-first col-4">
+      <div id="block-block-1" class="block block-block ftr-info">
+
+
+        <div class="content">
+          <a href="/" class="ftr-logo"><img
+              src="/sites/cato.org/files/cato-logo_0.png"/></a>
+          <p class="ftr-address">Cato Institute<br/>
+            1000 Massachusetts Ave, NW<br/>
+            Washington, DC 20001-5403</p>
+          <ul class="ftr-phone">
+            <li>Phone (202) 842 0200</li>
+          </ul>
+          <p class="ftr-txt"><a href="/privacy">Privacy Policy</a></p>
+          <p class="ftr-txt"><a href="/contact-us">Contact Us</a></p>
+          <p class="ftr-txt"><a href="/for-media">Media Contact</a></p></div>
+      </div>
+    </aside>
+  </div>
+</footer> <!-- /#footer -->
+<!--googleon: index-->
+<script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+<script src="https://www.cato.org/sites/all/libraries/modernizr/modernizr-latest.js?pna9r8"></script>
+<script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="//code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script>
+window.jQuery.ui || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_CwXjlLncJeTG-f3VOxbP6Klepw76j5AoYArkWB3rT7o.js"></script>
+<script>
+document.createElement( "picture" );
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_IfbrAP369vx7k2UxZQlS7WIHzbvVIbFbJOK4tI-0uw4.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_q6VmREnogkvjK__3W6iYvgr1enkjafpI3sj-R9_rlNs.js"></script>
+<script>
+catoGoogleAnalytics =  {"cookieDomain": "auto"};
+if (Modernizr.localstorage) {
+  queryString = location.search;
+  mcId = queryString.match('mc_eid=(.*)');
+  if(mcId){
+    localStorage['mcId'] = mcId[1];
+  }
+  if (localStorage['mcId']) {
+    catoGoogleAnalytics.userId = localStorage['mcId'];
+  }
+}
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-1677831-1", catoGoogleAnalytics);ga("set", "dimension1", "Emily Ekins");ga("set", "dimension2", "Politics and Parties");ga("set", "dimension5", "Government and Politics");if(typeof catoGoogleAnalytics != 'undefined' && catoGoogleAnalytics.hasOwnProperty('userId')){
+  ga('set', 'dimension3', localStorage['mcId']);
+}ga("send", "pageview");
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_-YhJtG1imDTs5gKAaDYSkymLoTPVLfPJUt9BFutSppE.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_wi0J1RXLnr8TZZLWR17ux8X8HXX1HtXE1SzUbiDEaTw.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_k4kfp9fqTKxbp2bKT_186kFR0ttB3I_nq5YJTH2LGVc.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cato","theme_token":"JthupSdrnBYC-UExRfUQlxPqyrYJUHx7NfmnS1EYUnU","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/libraries\/modernizr\/modernizr-latest.js":1,"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/code.jquery.com\/ui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/libraries\/scrollTo\/jquery.scrollTo-min.js":1,"sites\/all\/libraries\/smooth-scroll\/jquery.localscroll.min.js":1,"2":1,"sites\/all\/modules\/contrib\/spamspan\/spamspan.js":1,"sites\/all\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"3":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_google_analytics.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_hubspot.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.sticky.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.fixed-scroll.js":1,"sites\/all\/themes\/cato\/_js\/libs\/wilto-carousel.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.masonry.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.getUrlVar.js":1,"sites\/all\/themes\/cato\/_js\/catomegamenu.js":1,"sites\/all\/themes\/cato\/_js\/script.js":1,"sites\/all\/themes\/cato\/_js\/smoothScroll.js":1,"sites\/all\/themes\/cato\/_js\/dialog.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/cato_institute\/responsivevideo\/responsivevideo.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/custompage\/custompage.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.base.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/typogrify\/typogrify.css":1,"sites\/all\/modules\/contrib\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/themes\/cato\/styles\/stylesheets\/screen.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|epub|mobi","trackColorbox":1},"js":{"tokens":[]},"customAnalyticsEvents":[{"Topic":{"13":"Government and Politics"}}]});
+</script>
+  <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4957480.js"></script>
+<!-- End of HubSpot Embed Code --><!— Facebook Pixel Code —>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '454916984694808'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id= 454916984694808&ev=PageView&noscript=1"
+/></noscript>
+<!— DO NOT MODIFY —>
+<!— End Facebook Pixel Code —><!-- Hotjar Tracking Code for www.cato.org --><script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:1119688,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r)})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script><script src="https://www.cato.org/sites/cato.org/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript" src="//customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+<script>
+  var CludoSearch;
+  (function () {
+    var cludoSettings = {
+      customerId: 10000518,
+      engineId: 10000746,
+      searchUrl: '/search',
+      language: 'en',
+      searchInputs: ['cludo-search-form', 'search-form'],
+      type: 'inline',
+      disableAutocomplete: true
+    };
+    CludoSearch= new Cludo(cludoSettings);
+    CludoSearch.debug = true;
+    CludoSearch.init();
+  })();
+</script>
+<!--[if lte IE 9]>
+<script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a0fc03e915","applicationID":"7801710","transactionName":"ZF1SYUNRWkQCBkdZCV0XcVZFWVtZTAtcVANsSFFSVG9CXgYS","queueTime":0,"applicationTime":246,"atts":"SBpRFwtLSUo=","errorBeacon":"bam.nr-data.net","agent":""}</script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1318209692';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

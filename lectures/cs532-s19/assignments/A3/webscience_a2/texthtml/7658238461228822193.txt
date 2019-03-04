@@ -1,0 +1,143 @@
+1 Post By mbolsia
+Poder de reputación
+Dentro de las investigaciones que estoy haciendo he conseguido realizar un robot basado en el sistema de la Martingala, que permite soprendentemente estos resultados:
+Consigue 3000 pips en un año. El funcionamiento se basa en buscar zonas de sobrecompra y sobreventa, con cambios de tendencia. Es decir parecido al RSI.
+Cuando estos cambios se producen, el Robot abre una posición comprada o vendida, Estoy programando una dll para que vaya con metatrader, y empezaré a ver... además hace bastantes operaciones, sobre 1 al día.
+Última edición por mbolsia; 25/12/2018 a las 16:21
+Poder de reputación
+¿Cuál es el motivo de ponerle Trump?
+Me hizo gracia la siguiente foto, ese el motivo de ponerle Trump:
+Poder de reputación
+Poder de reputación
+Re: Robot Trump
+Estoy estudiando Cálculo Estocástico, y asignaturas de probabilidad orientadas a procesos aleatorios. Es curioso ver como es de aleatorio el mercado FOREX y financiero, no difiere mucho de tirar una moneda. Con ello quiero decir, que los sistemas automáticos no suelen funcionar.
+Entre los modelos que estoy programando se basan un poco en esa condición, se hacen pequeñas apuestas, siguiendo una directriz del mercado. Los sistemas dan una alta rentabilidad pueden doblar el dinero en un mes, pero siempre va a existir el riesgo de perderlo todo. La solución es ir sacando las ganancias.
+Si quieres rentabilidad alta: Tienes un riesgo muy alto de perder una cuenta
+Si quieres algo seguro: No te dediques al FOREX.
+No es lo mismo perder 50 o 100 dólares en un día, que 3000.
+Actualmente tengo 4 Robots:
+2 Estocastico, gana unos 200 dólares al mes
+3 Trump, en pruebas, la idea es obtener una rentabilidad del 100% mensual
+4 Manual,  rentabilidad entre 250 a 500 dólares al mes.
+El único riesgo de estos modelos es que puedes perder la cuenta, un movimiento muy fuerte puede hacer que lo pierdas todo, por eso el dinero que tiene que haber en un Robot se tiene que recuperar en los demás en un mes.
+Estimo que la probabilidad de perder una cuenta, es un 100% una vez al año. El riesgo es muy alto... pero si hay meses que sacas 1000 dólares... y el peor mes no ganas nada vamos bien.
+Estoy haciendo un software que permitirá replicar los robots gratuitamente, siempre que tengáis una cuenta en mi broker... es una forma de ingresos.... pocos pero recurrentes.
+Poder de reputación
+Poder de reputación
+Re: Robot Trump
+El Robot Trum Está en Marcha, en fase de Pruebas... (el nombre es Gracioso... y al final te acuerdas de el)
+Un programa se baja los últimos 1000 datos la serie de 5 minutos del EURUSD, hace unos cálculo optimizados y siempre encuentra aquellos parametros que generan retorno a 1000 pips... y obtiene un exposición en este caso está invertido en -0.02 Lotes...
+Por ahora está perdiendo -1.51 dólares... iré poniendo la evolución del Robot Trump!!!!
+Última edición por BolsiaSicav; 03/01/2019 a las 02:10
+Poder de reputación
+Re: Robot Trump
+Esta noche me han desconectado al Robot Trump del Broker, se ha vuelto loco y ha abierto unas 50 ordenes a la vez de 0,01 lotes. Como cosa buena ha obtenido una rentabilidad del 50%...
+Esta noche pongo los resultados, y voy a poner alguna mejora para intentar arreglar el problema.
+Poder de reputación
+Re: Robot Trump
+El Robot está en fase de pruebas con algún que otro disgusto, es importante que la cuenta tenga poco dinero si operáis en REAL porque con un fallo de programación (bastante habitual) podéis perder toda la cuenta..
+El Robot está programado en C# y se conecta al metatrader con una DLL hecha en C++, para los que programamos bastante con C# es una gran ventaja... además aunque hago robots con MQL4, el lenguaje es muy limitado.
+El Robot lanza una orden de 0.01 lotes según su algoritmo considere que va a seguir subiendo o bajando el mercado, el algoritmo se basa en tendencias del RSI de 5 minutos.
+Una vez gane o pierda 30 pips cierra la posición, es decir o bien gana 3 dólares o ben pierde 3 dólares... si la posición fuera perdedora la siguiente doblará la apuesta a 0.02
+Es decir es una MARTINGALA:
+Serían: 0.01, 0.02, 0.04, 0.08, 0.16, 0.32, 0.64, 1.28
+Ahora bien el puede doblar su apuesta siempre que tenga un margen del 200% en la cuenta, es decir que si estamos en una cuenta de 12.91 dólares como máximo podría tener abierto 0.06
+¿Este robot puede llevarte a la ruina?
+R: Si, tarde o temprano te vas a arruinar, es algo que todos sabemos. La idea es ir sacando los beneficios cada mes, porque en los históricos solo llega a un apalancamiento superior a 1.28 cada 2 años... es decir te sale rentable, además cada 3 meses sueles doblar la cuenta.
+Última edición por mbolsia; 07/01/2019 a las 12:46
+Poder de reputación
+Generación de un Log:
+Una de las novedades de este Robot es que genera un Log, una base de datos, de lo que sucede cada segundo. Con esa base de datos en la segunda actualización del robot, se basa en aprender de los errores. Para ello se crean un modelo de inteligencia artificial, que clasifica todas aquellas zonas perdedoras para buscar un patrón que ayude a que no sucedan en el futuro.
+Última edición por mbolsia; 07/01/2019 a las 12:53
+Poder de reputación
+1 Orden Buy de 0.01 lotes y gano 3 dólares
+1 Orden Buy de 0.01 lotes y perdió 3 dólares
+1 Orden Sell de 0.02 lotes y por ahora va ganando 1 dólar
+Si mis números el robot tiene que ganar unos 50 dólares al mes, con una cuenta de 200 dólares. Eso no quita que pueda perder la cuenta, pero sucede una vez cada 20 meses, aunque eso tampoco quita que pase en dos meses seguidos.
+Última edición por mbolsia; 08/01/2019 a las 19:27
+Poder de reputación
+Re: Robot Trump
+Después de unos fallos de programación hoy ha conseguido cerrar con un beneficio del 6% de la cuenta. Creo que la semana que viene va ser definitiva, porque estará 5 días operando sin ningún fallo. O eso espero.
+Una de las innovaciones de este Robot es que genera cada día un fichero con los datos del robot cada segundo, se generan sobre 5MB de datos diarios unos 500 mil datos diarios. La idea es con esos datos optimizar los parametros del robot, para ello necesitamos tener un histórico de al menos 1 mes. Con ello buscaremos las zonas de pérdidas e intentaremos buscar algún patrón para ayudar a mejorar mes a mes.
+En principio se podrá optimizar bastante, además la idea es generar un robot modular. El que sepa programar sabe lo que son las DLLs, la idea es separar la parte que se conecta al metatrader del algoritmo que dice si compramos o vendemos.
+Personalmente me justa mucho el MATLAB, porque llevo más de 13 años utilizándolo regularmente, pero también me gusta R y Python...  la idea es poder generar diferentes algoritmos y empaquetarlos en una DLL, con ello simplemente cambiando de DLL no habrá que tocar nada más... Con ello el desarrollo de robots sería más fácil y menos engorroso. Siempre que tengamos ya una plataforma que funciona correctamente conectada al Metatrader.
+La DLL es como una App de un móvil, y el robot es como un móvil, con ello la tarea de crear robots se simplifica bastante.
+Última edición por mbolsia; 10/01/2019 a las 21:49
+Poder de reputación
+Re: Robot Trump
+Los primeros 5 días sin fallos. Ya ha ganado un 10%. La idea es tener una rentabilidad de 10 dólares a la semana, que si lo miramos bien es llegar a una rentabilidad entorno al 10% al 40% mensual. Aunque siempre lo más importante es el Drawdown del Robot
+Poder de reputación
+Ya llevo dos semana en tiempo real, el Robot tiene muy buena pinta, el objetivo es ganar un 10% semanal. Se que puede parecer mucho, pero creo que es posible... o por lo menos en base a los históricos que tengo. Ahora bien las comisiones del broker se comen 1/3 del Beneficio
+Se está generando un archivo con muchos datos, que se van analizar cuando tenga un mes de datos. El algoritmo es complejo, y se basa más en métodos probabilistas que hay que ir optimizando.
+Última edición por Bolsia Titanes; 24/01/2019 a las 23:04
+Poder de reputación
+Terminadas las dos primeras semanas estos son los resultados:
+Rentabilidad Bruta: =39.1/77 = 50%
+Rentabilidad Neta: =28.32/77 = 37%
+Hay una diferencia de un 13% que se debe a las comisiones pagadas, como veis si no se cuenta de un sistema que genere un buen margen por transacción nunca se va a ganar dinero. Los Brokers son demasiado caros, considerando el caso que IC Markets es el broker más honrado que he visto en el sector ,  por eso mi idea es conseguir que bajen dichas comisiones un 50%.
+Entre las características que tiene el Robot son las siguientes:
+Opera siempre con 0.01 lotes (lo mínimo posible)
+Puede llegar a abrir hasta 0.16 lotes durante el día, a las 11 de la noche hora española se cierran todas las ordenes, y empieza a operar con 0.01 lotes
+Tiene una máxima perdida diaria de 10 dólares, dicha perdida equivale a perder el 10% de la cuenta... pero a medida que aumente el objetivo es que vaya disminuyendo a niveles del 2.5%
+Última edición por mbolsia; 26/01/2019 a las 13:07
+Poder de reputación
+Semana complicada por el evento del Jueves,
+La idea de este Robot es cuando a llegue a más de 100 dólares sacar unos 30 dólares y volver a intentar a llegar a 100 dólares. Esta cantidad de 30 dolares, pueden ser 300 o 3000 si se hace un robot que replique 100x este robot... un poco la idea es tener un beneficio constante, una especie de sueldo motivador.
+Esta semana el evento que he puesto anteriormente es la que no ha permitido acabar la semana con ganancias:
+Rentabilidad Bruta: =40.97/77 = 53%
+Rentabilidad Neta: =24.01/77 = 31%
+Lo más curioso de los robots forex, que con comisiones cero, sería multimillonario... porque pese a ser una semana mala, el robot hubiera ganado un 2%  más.
+Última edición por mbolsia; 11/02/2019 a las 18:12
+Poder de reputación
+Re: Robot Trump
+Parece que tiene muy buena pinta el robot, pero cada cuanto lo tienes que modificar?.
+Un gran saludo
+Poder de reputación
+El programa que lo gestiona es automático, pero lo de automático es relativo. Porque detrás hay programas que voy modificando a medida que encuentro errores.
+El "Robot" parte de la idea que los mercados son muy complejos, como si fueran aleatorios. Por ello de nada vale hacer previsiones de lo que va a pasar mañana, o dentro de 3 horas... lo mejor es adaptarse. Entonces el se va entrenando y busca patrones complejos que dan una probabilidad de acierto alta, en el último mes, eso no quiere decir que funcionen.
+El programa opera siempre con lo mínimo posible 0.01 lotes, y en condiciones extremas se puede poner en 0.02.
+El robot tiene menos de un mes en tiempo real, cada mes iré mejorandolo, porque van saliendo errores, entre la nueva implementación que quiero poner es limitar a 5 dólares la perdida máxima diaria...
+El mejor indicador del riesgo es el Drawdown y por ahora está en niveles del 10% eso es la clave para encontrar un buen sistema.
+Un Saludo.
+Poder de reputación
+El Forex es un juego donde el apalancamiento permite hacer ganar dinero en el corto plazo, pero en poco tiempo perderás la cuenta. Todos los sistemas de análisis técnico no suelen funcionar porque llegan tarde a las señales...
+Poder de reputación
+Hola,
+¿Por qué son importantes las martingalas en tu robot? Lo realmente interesante es que consigues con el robot un 72% de las ordenes ganadas. Con un 50% el sistema de martingalas no funcionaría. Con un 72% de acierto, uses martingalas o no, tu robot conseguirá beneficios, ¿no?
+Un saludo,
+Poder de reputación
+Re: Robot Trump
+Es cierto que queda mucho trabajo por realizar, pero realmente tiene muy buena pinta... Estoy trabajando en un nuevo modelo. Que va a ser mejor. Este Robot surgió de mi mente en una situación de estrés máximo, nunca en la vida hubiera pensado en algo como está diseñado. Creo que es de las cosas que demuestra que la mente humana tiene pocos limites...
+Rentabilidad Bruta: =57.61/77 = 72%
+Rentabilidad Neta: =36/77 = 47%
+Mi idea es permitir a los usuarios que quieran recibir señales siempre que se haga desde IC Markets que nos da una parte de la comisión para mantener esta web. En principio solo se necesita una cuenta de 200 dólares.  Ahora eso será a partir de marzo.
+Un Saludo.
+Poder de reputación
+Re: Robot Trump
+Una semana complicada, donde se observa el problema de las comisiones, he visto que con Interactive brokers te cobran 2 dolares por lote, con una cuenta de 10.000 dólares, las comisiones actuales son altas  unos 7 dólares por lote.
+Rentabilidad Bruta: =66.59/77 = 86%
+Rentabilidad Neta: =36.92/77 = 48%
+Esta semana se han generado 10 dólares en comisiones, la idea es bajarlas a la mitad... hay que ir optimizando las comisiones porque se come el beneficio... se están pagando 10 dólares a la semana que equivale a un 15% del beneficio... hay que bajarlo a la mitad.
+Última edición por BolsiaSicav; 16/02/2019 a las 14:19
+Poder de reputación
+Re: Robot Trump
+Lo importante es ir mejorando los algoritmos para llegar a mantener una rentabilidad entorno al 25% mensual con un drawdown del 12%. Uno de los problemas es hacer simulaciones, son muy complejas con datos históricos... por ello lo mejor es hacerlas con poco dinero en real, con ello evitamos cualquier problema de error de programación que nos den unos resultados falsos. La idea es empezar con poco dinero y a medida que los resultados se confirman ir aumentando el capital... no hay que olvidar que con una rentabilidad mensual del 25% está sería la evolución de una cuenta de 1000 dólares reinvirtiendo mensualmente las ganancias:
+Última edición por BolsiaSicav; 16/02/2019 a las 14:56
+Poder de reputación
+Re: Robot Trump
+se observa el problema de las comisiones, he visto que con Interactive brokers te cobran 2 dolares por lote, con una cuenta de 10.000 dólares, las comisiones actuales son altas unos 7 dólares por lote.
+QUisiera saber cuanto cobra el broker IG que solo cobra en el spread y para el eurusd dice que el minmo es 0.6>> supongo que por lote quiere decir esto que cobra 6 dolares por lote y 0,6 dolares si invierto 1 minilote?
+Poder de reputación
+Re: Robot Trump
+Iniciado por jilokasin
+QUisiera saber cuanto cobra el broker IG que solo cobra en el spread y para el eurusd dice que el minmo es 0.6>> supongo que por lote quiere decir esto que cobra 6 dolares por lote y 0,6 dolares si invierto 1 minilote?
+Lo mejor es que te hagas una cuenta demo, y lo pruebes tu. Yo he probado más de 10 brokers y este es el más honrado con diferencia para cuentas pequeñas de 200 dólares, ahora he visto que interactive brokers para cuentas más grandes he visto que cobran 2 dólares el lote, y eso es pasar de una rentabilidad del robot del 48% al  60% que es mucho...
+Si te abres una cuenta en ICMARKETS lo explico aquí:
+Última edición por BolsiaSicav; 17/02/2019 a las 11:16
+Usuarios viendo este tema
+Actualmente hay 1 usuarios viendo este tema. (0 miembros y 1 visitantes)
+No puedes responder temas
+ 
+Powered by vBulletin® Version 4.2.3
+Copyright © 2019 vBulletin Solutions, Inc. All rights reserved.
+Content Relevant URLs by vBSEO 3.6.1

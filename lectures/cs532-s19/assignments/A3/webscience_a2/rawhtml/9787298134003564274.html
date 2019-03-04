@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/favicon.png">
+<meta property="fb:pages" content="475549362567960" />
+<meta property="fb:pages" content="1109093812491437" />
+
+<meta name="p:domain_verify" content="5c13fb70674976028650246024d262c2" />
+<style>
+    .tcode-event-schedule .slick-arrow,
+    .tcode-event-schedule .slick-arrow:hover,
+    .tcode-event-schedule .slick-arrow:focus,
+    .tcode-event-schedule #days-carousel > button{
+        background-color: rgba(44,107,149, .1);
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day.active:before {
+        border-top-color: #2c6b95 !important;
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day {
+        -webkit-transition: color 500ms ease, background 500ms ease;
+        -moz-transition: color 500ms ease, background 500ms ease;
+        -ms-transition: color 500ms ease, background 500ms ease;
+        -o-transition: color 500ms ease, background 500ms ease;
+        transition: color 500ms ease, background 500ms ease;
+        background-color: rgba(44,107,149,0.1);
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day.active,
+    .tcode-event-schedule .scheduled-days .scheduled-day:hover {
+        background-color: #2c6b95;
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day:hover {
+        background-color: rgba(44,107,149, .5);
+    }
+
+    .tcode-event-schedule .scheduled-days .scheduled-day.active:hover {
+        -moz-transition: color 0s, background 0s;
+        -webkit-transition: color 0s, background 0s;
+        -o-transition: color 0s, background 0s;
+        transition: color 0s, background 0s;
+        background-color: #2c6b95;
+    }
+
+
+    .tcode-event-schedule .scheduled-locations .scheduled-location {
+        -webkit-box-shadow: inset 0 -1px 0 #2c6b95;
+        -moz-box-shadow: inset 0 -1px 0 #2c6b95;
+        box-shadow: inset 0 -1px 0 #2c6b95;
+        -webkit-animation: shadowFadeOut 300ms;
+        -o-animation: shadowFadeOut 300ms;
+        animation: shadowFadeOut 300ms;
+    }
+
+    .tcode-event-schedule .scheduled-locations .scheduled-location.active,
+    .tcode-event-schedule .scheduled-locations .scheduled-location:hover {
+        -webkit-box-shadow: inset 0 -6px 0 rgba(44,107,149, .5);
+        -moz-box-shadow: inset 0 -6px 0 rgba(44,107,149, .5);
+        box-shadow: inset 0 -6px 0 rgba(44,107,149, .5);
+        -webkit-animation: shadowFadeIn 100ms;
+        -o-animation: shadowFadeIn 100ms;
+        animation: shadowFadeIn 100ms;
+    }
+
+    .tcode-event-schedule .scheduled-locations .scheduled-location.active {
+        -webkit-box-shadow: inset 0 -6px 0 #2c6b95;
+        -moz-box-shadow: inset 0 -6px 0 #2c6b95;
+        box-shadow: inset 0 -6px 0 #2c6b95;
+    }
+
+    @keyframes shadowFadeIn {
+        0% { box-shadow: inset 0 -1px 0 #2c6b95; }
+        50% { box-shadow: inset 0 -3px 0 rgba(44,107,149, .8); }
+        100% { box-shadow: inset 0 -6px 0 rgba(44,107,149, .5); }
+    }
+
+    @keyframes shadowFadeOut {
+        0% { box-shadow: inset 0 -6px 0 rgba(44,107,149, .5); }
+        50% { box-shadow: inset 0 -3px 0 rgba(44,107,149, .8); }
+        100% { box-shadow: inset 0 -1px 0 #2c6b95; }
+    }
+
+    .tcode-event-schedule .scheduled-event {
+        border-bottom: 1px solid;
+        border-color: #2c6b95;
+    }
+
+        .tcode-event-schedule .scheduled-event .imgContainer {
+        height: 86px;
+        width: 86px;
+        line-height: 86px;
+    }
+
+    .tcode-event-schedule .scheduled-event .imgContainer {
+        overflow: hidden;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+            
+    .tcode-event-schedule svg path,
+    .tcode-event-schedule svg circle {
+        fill: #2c6b95 !important;
+    }
+
+    .tcode-event-schedule .scheduled-event .svgContainer:hover {
+        background-color: #2c6b95;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-transition: background 500ms ease;
+        -moz-transition: background 500ms ease;
+        -ms-transition: background 500ms ease;
+        -o-transition: background 500ms ease;
+        transition: background 500ms ease;
+    }
+
+    .tcode-event-schedule .scheduled-event .svgContainer:hover svg path,
+    .tcode-event-schedule .scheduled-event .svgContainer:hover svg circle {
+        fill: #fff !important;
+        -webkit-transition: fill 500ms ease;
+        -moz-transition: fill 500ms ease;
+        -ms-transition: fill 500ms ease;
+        -o-transition: fill 500ms ease;
+        transition: fill 500ms ease;
+    }
+
+    .tcode-event-schedule .scheduled-event .event-time {
+        color: #2c6b95;
+    }
+
+    .tcode-event-schedule .scheduled-event .event-icon {
+        color: #2c6b95;
+    }
+
+        .tcode-event-schedule .scheduled-event .event-excerpt a {
+        color: #2c6b95;
+    }
+    
+        .tcode-event-schedule .scheduled-event .artist-image {
+        overflow: hidden;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+    
+    .tcode-event-schedule .scheduled-event .icon:hover {
+        background-color: #2c6b95;
+        -webkit-transition: background 500ms ease;
+        -moz-transition: background 500ms ease;
+        -ms-transition: background 500ms ease;
+        -o-transition: background 500ms ease;
+        transition: background 500ms ease;
+    }
+
+    
+    @media (min-width: 768px) {
+        }
+
+    @media (min-width: 992px) {
+        }
+</style>
+
+
+<title>Kamala Harris Tries &quot;Gotcha&quot; Sex Assault Question on Trump Nominee. Fails.</title>
+<meta name="description" content="Kamala Harris tried a gotcha question with judician nominee Neomi Rao, saying Rao was blaming sexual assault victims. But Rao was right." />
+<link rel="canonical" href="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Kamala Harris Tries &quot;Gotcha&quot; Sex Assault Question on Trump Nominee. Fails!" />
+<meta property="og:description" content="Not this time, skank." />
+<meta property="og:url" content="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" />
+<meta property="og:site_name" content="Louder With Crowder" />
+<meta property="article:tag" content="Judicial Nominee" />
+<meta property="article:tag" content="kamala harris" />
+<meta property="article:tag" content="Neomi Rao" />
+<meta property="article:tag" content="sexual assault" />
+<meta property="article:section" content="Political" />
+<meta property="article:published_time" content="2019-02-05T18:06:46-05:00" />
+<meta property="article:modified_time" content="2019-02-06T12:41:53-05:00" />
+<meta property="og:updated_time" content="2019-02-06T12:41:53-05:00" />
+<meta property="og:image" content="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/HarrisvsRao-1200x630.jpg" />
+<meta property="og:image:secure_url" content="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/HarrisvsRao-1200x630.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Harris vs. Rao" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Maybe next time, skank." />
+<meta name="twitter:title" content="Kamala Harris Tries &quot;Gotcha&quot; Sex Assault Question on Trump Nominee. Fails." />
+<meta name="twitter:image" content="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/HarrisvsRao.jpg" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Person","url":"https:\/\/www.louderwithcrowder.com\/","sameAs":[],"@id":"#person","name":"Steven Crowder"}</script>
+
+<link rel='dns-prefetch' href='//www.louderwithcrowder.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.louderwithcrowder.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='2code-base-style-css' href='https://www.louderwithcrowder.com/wp-content/plugins/2code-event-schedule/assets/css/basestyle.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='2code-slider-style-css' href='https://www.louderwithcrowder.com/wp-content/plugins/2code-event-schedule/assets/plugins/slick/slick.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='2code-schedule-style-css' href='https://www.louderwithcrowder.com/wp-content/plugins/2code-event-schedule/assets/css/style.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='2code-schedule-icons-css' href='https://www.louderwithcrowder.com/wp-content/plugins/2code-event-schedule/assets/css/social-icons.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.louderwithcrowder.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ce_responsive-css' href='https://www.louderwithcrowder.com/wp-content/plugins/simple-embed-code/css/video-container.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='SocialSharesCountstyle-css' href='https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/custom.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-parsely-style-css' href='https://www.louderwithcrowder.com/wp-content/plugins/wp-parsely/wp-parsely.css?ver=1550767800' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-live-css' href='https://www.louderwithcrowder.com/wp-content/plugins/youtube-live-stream-auto-embed/assets/css/youtube-live-style.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme-child/style.css?ver=1.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='lwc-typesettings-css' href='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/css/typesettings.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='lwc-fontawesome-css' href='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/fonts/font-awesome/css/font-awesome.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='lwc-alegreya-css' href='//fonts.googleapis.com/css?family=Alegreya+Sans%3A400%2C400italic%2C700%2C700italic&#038;ver=4.9.7#038;subset=latin&#038;#038' type='text/css' media='all' />
+<link rel='stylesheet' id='modalcss-css' href='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/css/modal.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/style.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='shiftnav-css' href='https://www.louderwithcrowder.com/wp-content/plugins/shiftnav-responsive-mobile-menu/assets/css/shiftnav.min.css?ver=1.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='shiftnav-standard-dark-css' href='https://www.louderwithcrowder.com/wp-content/plugins/shiftnav-responsive-mobile-menu/assets/css/skins/standard-dark.css?ver=1.6.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/custom.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/jquery.sticky.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/modal.js?ver=1.0.1'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/custom.js?ver=1.0.4'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/cookie.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/submenus.js?ver=4.9.7'></script>
+<link rel='https://api.w.org/' href='https://www.louderwithcrowder.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.louderwithcrowder.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.louderwithcrowder.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.9.7" />
+<link rel='shortlink' href='https://www.louderwithcrowder.com/?p=78785' />
+<link rel="alternate" type="application/json+oembed" href="https://www.louderwithcrowder.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.louderwithcrowder.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F&#038;format=xml" />
+<meta property="fb:app_id" content="1768100320080454" /> <meta property="fb:pages" content="15139936162" />
+<meta property="ia:markup_url" content="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/?ia_markup=1" />
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+//-->
+</script>
+
+<style type="text/css" id="shiftnav-dynamic-css">
+
+	@media only screen and (min-width:1000px){ #shiftnav-toggle-main, .shiftnav-toggle-mobile{ display:none; } .shiftnav-wrap { padding-top:0 !important; } }
+
+/* Status: Loaded from Transient */
+
+	</style>
+
+<script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='92f08467be3f76668ea0c6aa85a72aa7c0fa50c0e54ce1831c960391b150dbc7';j.dataset.sumoPlatform='wordpress';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
+
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.13.0" />
+<script type="application/ld+json">
+	{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.louderwithcrowder.com\/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails\/"},"headline":"Kamala Harris Tries &#8220;Gotcha&#8221; Sex Assault Question on Trump Nominee. Fails.","url":"http:\/\/www.louderwithcrowder.com\/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails\/","thumbnailUrl":"https:\/\/www.louderwithcrowder.com\/wp-content\/uploads\/2019\/02\/HarrisvsRao-300x166.jpg","image":{"@type":"ImageObject","url":"https:\/\/www.louderwithcrowder.com\/wp-content\/uploads\/2019\/02\/HarrisvsRao-300x166.jpg"},"dateCreated":"2019-02-05T23:06:46Z","datePublished":"2019-02-05T23:06:46Z","dateModified":"2019-02-05T23:06:46Z","articleSection":"Featured","author":[{"@type":"Person","name":"Courtney Kirchoff"}],"creator":["Courtney Kirchoff"],"keywords":["judicial nominee","kamala harris","neomi rao","sexual assault"],"publisher":{"@type":"Organization","name":"Louder With Crowder","logo":{"@type":"ImageObject","url":""}}}
+	</script>
+
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '511325282617054');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=511325282617054&ev=PageView&noscript=1"/></noscript>
+ <style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.menu-primary-menu-container ul li {
+    display: inline-block;
+}
+#menu-primary-menu li a
+{font-size:16px !important;} 
+ 
+.menu-primary-menu-container ul ul {
+    display: none;
+    position: absolute;
+    width: 650px;
+    transition: max-height 0s 1s, opacity .4s 1s;
+    background-color: #802b2c !important;
+z-index:99;
+}
+
+div.category-specific p {
+margin-top:8px;
+margin-bottom: 20px;
+}
+
+div.img-container.category-page {
+margin-bottom:5px;
+}
+
+div.category-specific a {
+    font-size: 18px !important;
+}
+
+.lwc-featured h3 a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c6b95;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.load_more{ 
+display: block; 
+clear: both; 
+position: relative;
+ }
+.load_more a, .load_more .loader{ 
+display: block; 
+height: 90px; 
+font-size: 16px; 
+font-weight: bold; 
+color: #fff;
+text-align: center;
+line-height: 90px;
+background: #000;
+overflow: hidden; 
+position: relative; 
+}
+.load_more{ 
+display: block; 
+clear: both; 
+position: relative; 
+}
+.load_more a:hover{ 
+color: #999; 
+}
+
+@media screen and (min-width: 768px) {
+	#menu-primary-menu li {
+    padding-right: 7px;
+    padding-left: 7px;
+	}
+}
+
+		</style>
+<script type="text/javascript">
+        var width = window.innerWidth
+            || document.documentElement.clientWidth
+            || document.body.clientWidth;
+    </script>
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-61348367-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<link rel="stylesheet" type="text/css" href="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme-child/pan-custom.css?date=20161115" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme-child/pan-custom-media-queries.css?date=20161026" media="all" />
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "22315475" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=22315475&cv=2.0&cj=1" />
+</noscript>
+
+
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+                    + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+</script>
+
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+
+  var referrer = document.referrer.split('.').reverse()[1];
+  var pathParts = window.location.pathname.substr(1).split('/');
+
+  googletag.cmd.push(function() {
+      googletag.pubads().collapseEmptyDivs();
+      .setTargeting("referrer", referrer ? referrer : "none")
+      .setTargeting("article", pathParts[0] ? pathParts[0] : "home");
+  });
+
+</script>
+
+<meta name="google-site-verification" content="PDilYevmkMgQW-PBBlUVeYLM-k0t7ZdZ0p454Ic44yM" />
+</head>
+<body>
+<div id="lwc-container" class="lwc-site">
+<header id="lwc-header">
+<a href="https://www.louderwithcrowder.com">
+<h1><img id="logo" class="lwc-logo" data-mobile-src="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/images/logo-mobile.jpg" data-dsk-src="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/images/logo.jpg" alt="Louder With Crowder" src="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/images/logo.jpg" /></h1>
+</a>
+<div class="lwc-nav">
+<div class="nav-wrap">
+<nav>
+<span id="lwc-menu-toggle" class="shiftnav-toggle button" data-shiftnav-target="shiftnav-main"><i class="fa fa-bars"></i></span>
+<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-6123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6123"><a href="https://www.louderwithcrowder.com/">HOME</a></li>
+<li id="menu-item-49369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49369"><a href="#">VIDEOS ▼</a>
+<ul class="sub-menu">
+<li id="menu-item-49360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49360"><a href="https://www.louderwithcrowder.com/videos/videos-culture/">Culture</a></li>
+<li id="menu-item-49359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49359"><a href="https://www.louderwithcrowder.com/videos/videos-political/">Political</a></li>
+<li id="menu-item-49358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49358"><a href="https://www.louderwithcrowder.com/videos/videos-islam/">Islam</a></li>
+<li id="menu-item-49357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49357"><a href="https://www.louderwithcrowder.com/videos/videos-international/">International</a></li>
+<li id="menu-item-49356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49356"><a href="https://www.louderwithcrowder.com/videos/videos-healthcare/">Healthcare</a></li>
+<li id="menu-item-49355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49355"><a href="https://www.louderwithcrowder.com/videos/videos-feminism/">Feminism</a></li>
+<li id="menu-item-49354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49354"><a href="https://www.louderwithcrowder.com/videos/all-videos/">All Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-49368" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49368"><a href="#">COLUMNS ▼</a>
+<ul class="sub-menu">
+<li id="menu-item-49367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49367"><a href="https://www.louderwithcrowder.com/columns/columns-culture/">Culture</a></li>
+<li id="menu-item-49365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49365"><a href="https://www.louderwithcrowder.com/columns/columns-political/">Political</a></li>
+<li id="menu-item-49363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49363"><a href="https://www.louderwithcrowder.com/columns/columns-islam/">Islam</a></li>
+<li id="menu-item-49362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49362"><a href="https://www.louderwithcrowder.com/columns/columns-international/">International</a></li>
+<li id="menu-item-49366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49366"><a href="https://www.louderwithcrowder.com/columns/columns-healthcare/">Healthcare</a></li>
+<li id="menu-item-49364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49364"><a href="https://www.louderwithcrowder.com/columns/columns-feminism/">Feminism</a></li>
+<li id="menu-item-49361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49361"><a href="https://www.louderwithcrowder.com/columns/all-columns/">All Columns</a></li>
+</ul>
+</li>
+<li id="menu-item-413" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-413"><a href="https://www.louderwithcrowder.com/category/podcasts/">PODCAST</a></li>
+<li id="menu-item-29645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29645"><a href="https://www.louderwithcrowdershop.com/">SHOP</a></li>
+<li id="menu-item-43608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43608"><a href="https://www.louderwithcrowder.com/mugclub/">MUG CLUB</a></li>
+<li id="menu-item-75122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75122"><a href="https://www.louderwithcrowder.com/faq/">FAQ</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://www.louderwithcrowder.com/contact/">CONTACT</a></li>
+</ul></div> <span class="lwc-nav-right">
+<span class="lwc-social">
+<a href="https://www.facebook.com/stevencrowderofficial" target="_blank" title="Louder with Crowder on Facebook">
+<i class="fa fa-facebook-square"></i>
+</a>
+<a href="https://twitter.com/scrowder" target="_blank" title="Louder with Crowder on Twitter">
+<i class="fa fa-twitter-square"></i>
+</a>
+<a href="https://www.youtube.com/user/StevenCrowder/featured" target="_blank" title="Louder with Crowder on YouTube">
+<i class="fa fa-youtube-square"></i>
+</a>
+</span>
+<span class="lwc-search">
+<i class="fa fa-search"></i>
+</span>
+</span>
+</nav>
+</div>
+</div>
+</header>
+<div id="lwc-wrap">
+<div id="lwc-primary">
+<div class="lwc-ssc-left">
+</div>
+<div class="lwc-ssc-right">
+<div class="ssc-desktop">
+<p class="ssc-total">11429</p>
+<p class="ssc-text">SHARES</p>
+<hr>
+<a class="ssc-bubble" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=285,width=600'); return false;">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/facebook.png" alt="facebook icon" />
+<span>FACEBOOK</span>
+</a>
+<span class="count-bubble">11427</span>
+<hr>
+<a class="ssc-bubble" target="_blank" href="https://twitter.com/intent/tweet?text=Kamala+Harris+Tries+%22Gotcha%22+Sex+Assault+Question+on+Trump+Nominee.+Fails.+https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F&via=scrowder" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600'); return false;">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/twitter.png" alt="twitter icon" />
+<span>TWITTER</span>
+</a>
+<hr>
+<a target="_blank" href="/cdn-cgi/l/email-protection#68571b1d0a020d0b1c552309050904094820091a1a011b483c1a010d1b488ae8f42f071c0b00098ae8f5483b0d1048291b1b091d041c48391d0d1b1c010706480706483c1a1d05184826070501060d0d46482e0901041b464e0a070c1155001c1c181b5247471f1f1f4604071d0c0d1a1f011c000b1a071f0c0d1a460b0705470309050904094500091a1a011b451c1a010d1b450f071c0b0009451b0d1045091b1b091d041c45191d0d1b1c010706450706451c1a1d05184506070501060d0d450e0901041b47">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/email.png" alt="email icon" />
+<span>EMAIL</span>
+</a>
+<hr>
+<div class="more-bubble">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/more.png" alt="more icon" />
+<span>MORE</span>
+<div class="wrap-bubble">
+<img class="bubble-triangle" src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/triangle.png" />
+<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=285,width=600'); return false;">
+<img class="ssc-icon" src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/facebook.png" alt="facebook" />
+<span class="count-v-bubble">11427</span>
+</a>
+<a target="_blank" href="https://plus.google.com/share?url=https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;">
+<img class="ssc-icon" src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/googleplus.png" alt="google plus" />
+</a>
+<a target="_blank" href="https://twitter.com/intent/tweet?text=Kamala+Harris+Tries+%22Gotcha%22+Sex+Assault+Question+on+Trump+Nominee.+Fails.+https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F&via=scrowder" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600'); return false;">
+<img class="ssc-icon" src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/twitter.png" alt="twitter" />
+</a>
+<a target="_blank" href="https://getpocket.com/save?url=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F&title=Kamala+Harris+Tries+%E2%80%9CGotcha%E2%80%9D+Sex+Assault+Question+on+Trump+Nominee.+Fails." onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); return false;">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/pocket.png" alt="pocket" />
+</a>
+<a target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F&title=Kamala+Harris+Tries+%E2%80%9CGotcha%E2%80%9D+Sex+Assault+Question+on+Trump+Nominee.+Fails.">
+<img class="ssc-icon" src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/reddit.png" alt="reddit" />
+</a>
+<a target="_blank" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.louderwithcrowder.com%2Fkamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails%2F&description=Kamala+Harris+Tries+%E2%80%9CGotcha%E2%80%9D+Sex+Assault+Question+on+Trump+Nominee.+Fails.&media=https%3A%2F%2Fwww.louderwithcrowder.com%2Fwp-content%2Fuploads%2F2019%2F02%2FHarrisvsRao-1024x535.jpg">
+<img class="ssc-icon" src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/pinterest.png" alt="pinterest" />
+<span class="count-v-bubble">2</span>
+</a>
+<a target="_blank" href="/cdn-cgi/l/email-protection#56692523343c3335226b1d373b373a37761e3724243f257602243f332576b4d6ca113922353e37b4d6cb7605332e7617252537233a227607233325223f3938763938760224233b267618393b3f383333787610373f3a2578703439322f6b3e222226256c7979212121783a3923323324213f223e352439213233247835393b793d373b373a377b3e3724243f257b22243f33257b313922353e377b25332e7b37252537233a227b27233325223f39387b39387b2224233b267b38393b3f3833337b30373f3a2579">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/email.png" alt="email" />
+</a>
+<a data-yourls="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" class="copy-yourls">
+<img src="https://www.louderwithcrowder.com/wp-content/plugins/social-shares-count/assets/images/hover/permalink.png" alt="permalink" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="lwc-content" itemscope itemtype="https://schema.org/BlogPosting">
+<input type="hidden" class="ajax-img-src" value="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/images/ajax-loader.gif" />
+<div class="lwc-content-wrap">
+<input type="hidden" class="history-url" value="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" />
+<input type="hidden" class="load-next" value="78725" />
+<input type="hidden" class="load-next-url" value="https://www.louderwithcrowder.com/mike-rowe-shares-important-message-about-work-not-politics/" />
+<input type="hidden" class="load-next-title" value="Mike Rowe Shares Important Message About Work, NOT Politics" />
+<input type="hidden" class="current-id" value="78785" />
+<h1 class="lwc-title" itemprop="headline">Kamala Harris Tries &#8220;Gotcha&#8221; Sex Assault Question on Trump Nominee. Fails.</h1>
+<div class="post-content">
+<div class="lwc-post-info"><h2>
+<span class="lwc-author" itemprop="author">Courtney Kirchoff</span>&nbsp;
+<span class="lwc-date" itemprop="dataPublished">Tuesday February 5 2019</span></h2>
+</div>
+<div class="sumome-share" style="margin-bottom:5px;" data-url="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" data-title="Kamala Harris Tries &#8220;Gotcha&#8221; Sex Assault Question on Trump Nominee. Fails." data-description="Kamala Harris tried a gotcha question with judician nominee Neomi Rao, saying Rao was blaming sexual assault victims. But Rao was right." data-share-graphic="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/HarrisvsRao-300x157.jpg"><a data-sumome-share-id="f6cd10af-83dd-4664-8360-e664a7095f3e"></a></div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script class="dontRemove" type="text/javascript">
+	              jQuery(document).ready(function($){
+		             $(".socialHold").children(".sticky-wrapper").addClass("mine").removeClass("sticky-wrapper");
+		             $(".socialHold").children(".mine").attr("id", "");
+		             $(".mine").children(".ssc-desktop").attr("style", "display: block;");
+
+		             setInterval(function(){
+			            $(".socialHold").children(".sticky-wrapper").addClass("mine").removeClass("sticky-wrapper");
+						$(".socialHold").children(".mine").attr("id", "");
+		             	$(".mine").children(".ssc-desktop").attr("style", "display: block;");
+
+			         }, 300)
+		           });
+	            </script>
+<style>
+
+                    @media only screen and (min-width: 1000px) {
+                        .sumome-share {
+                            display: none !important;
+                        }
+                    }
+
+                    @media only screen and (max-width: 1000px) {
+                        .socialHold {
+                            display: none !important;
+                        }
+                    }
+	                .socialHold	{
+		            	position: static !important;
+
+		            	margin-top: 15px;
+		            	margin-bottom: 10px;
+	            	}
+
+	            	.socialHold > .mine > .ssc-desktop{
+		            	background: transparent;
+	            	}
+
+	            	.socialHold > .mine > .ssc-desktop > .ssc-bubble{
+		            	margin-right: 10px;
+	            	}
+
+	            	.socialHold > .mine > .ssc-desktop > .ssc-bubble span{
+		            	display: none;
+	            	}
+
+	            	.socialHold > .mine > .ssc-desktop > .more-bubble{
+		            	display: none;
+	            	}
+
+	            	.socialHold > .mine > .ssc-desktop hr, .socialHold > .mine > .ssc-desktop > .count-bubble{
+		            	display: none;
+
+	            	}
+
+					.socialHold > .mine > .ssc-desktop > .ssc-total, .socialHold > .mine > .ssc-desktop > .ssc-text{
+		            	display: none;
+	            	}
+
+
+	            </style>
+<div class="socialHold">
+</div>
+<div id="sticky-anchor"></div>
+<div id="sticky-social">
+</div>
+<article class="type-wrap" itemprop="articleBody">
+<p>Kamala Harris, aside from being a skank, is a rude moron who&#8217;s also a hypocrite. If there&#8217;s one thing I hear proud feminists screech about it&#8217;s &#8220;men interrupt women!&#8221; Except feminists like Kamala Harris have a habit of interrupting people who are answering their own stupid questions. I present judicial nominee Neomi Rao, who also made a meal of <a href="https://www.louderwithcrowder.com/cory-booker-judicial-nominee/">Jazz Hands Cory Booker</a>. Kamala sidled up to her mic to ask a <em>women are victims of men</em> question. But instead of getting a win, Kamala got a smack. A smack she&#8217;s unaware of receiving.</p>
+
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true">
+<p lang="en" dir="ltr">Here&#39;s the bottom line: survivors of sexual assault should not be blamed for the trauma they&#39;ve experienced. Neomi Rao&#39;s prior writings about sexual assault are completely unacceptable and her responses to my questions today were deeply troubling. <a href="https://t.co/jlOuhHWtQx">pic.twitter.com/jlOuhHWtQx</a></p>
+
+<div id="div-gpt-ad-lwc-body-post-78785-1">
+<script>
+                           googletag.cmd.push(function() {
+
+                             googletag.defineSlot('/21670380552/LwC_Body1', [300, 250],'div-gpt-ad-lwc-body-post-78785-1')
+                               .addService(googletag.pubads());
+                             googletag.enableServices();
+                             googletag.display('div-gpt-ad-lwc-body-post-78785-1');
+                         });
+                         </script>
+</div>
+
+<p>&mdash; Kamala Harris (@SenKamalaHarris) <a href="https://twitter.com/SenKamalaHarris/status/1092867347965186049?ref_src=twsrc%5Etfw">February 5, 2019</a></p>
+</blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Here&#8217;s the bottom line: we should all take care to prevent ourselves from becoming victims. Period. Neomi Rao&#8217;s responses are deeply troubling to sluts like Kamala Harris because to sluts like Kamala Harris &#8220;personal responsibility&#8221; is a swear word, right up there with <em>c*nt</em> and <em>not sleeping with your boss</em>. Read <a href="https://www.louderwithcrowder.com/san-fran-mayor-kamala-harris/">San Francisco Mayor Admits to Affair With Kamala Harris, Advancing Her Career</a>.</p>
+
+<div id="div-gpt-ad-lwc-body-post-78785-2">
+<script>
+                           googletag.cmd.push(function() {
+
+                             googletag.defineSlot('/21670380552/LwC_Body2', [300, 250],'div-gpt-ad-lwc-body-post-78785-2')
+                               .addService(googletag.pubads());
+                             googletag.enableServices();
+                             googletag.display('div-gpt-ad-lwc-body-post-78785-2');
+                         });
+                         </script>
+</div>
+
+<p><img src="https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://www.louderwithcrowder.com/wp-content/uploads/2016/01/stopityouslut.gif" class="aligncenter wp-image-15884" alt width="405" height="227"><noscript><img class="aligncenter wp-image-15884" src="https://www.louderwithcrowder.com/wp-content/uploads/2016/01/stopityouslut.gif" alt="" width="405" height="227" /></noscript></p>
+<p>Let&#8217;s remove rape or sexual assault from the equation here. What&#8217;s wrong with being responsible in efforts to avoid being a victim of anything? Example: I wear a seatbelt. Why? Because I don&#8217;t trust other drivers. According to Kamala&#8217;s line of questioning and the illogic it presumes, I shouldn&#8217;t have to worry about my own safety because other drivers should just pay attention. And not text their friends. A seatbelt, to Kamala Harris, is blaming the victim. Why should I keep myself safe when others should just be better drivers?</p>
+<p>Telling ladies &#8220;Don&#8217;t get drunk, be safe&#8221; or even the reverse &#8220;Be safe, don&#8217;t get drunk&#8221; isn&#8217;t blaming a victim. It&#8217;s saying &#8220;you&#8217;re responsible for you.&#8221; A drunk person makes crappy decisions, doesn&#8217;t have their wits about them and is often without basic things like balance. A drunk person is, therefore, easy pickings for a shitty person. Should there be shitty people who rape and take advantage? No. But are there? Yes. Should we tell people to just go about carelessly because crime isn&#8217;t their fault, we should just prosecute the criminal? WTF world are we living in?</p>
+
+<div id="div-gpt-ad-lwc-body-post-78785-3">
+<script>
+                           googletag.cmd.push(function() {
+
+                             googletag.defineSlot('/21670380552/LwC_Body3', [300, 250],'div-gpt-ad-lwc-body-post-78785-3')
+                               .addService(googletag.pubads());
+                             googletag.enableServices();
+                             googletag.display('div-gpt-ad-lwc-body-post-78785-3');
+                         });
+                         </script>
+</div>
+
+<p><img src="https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://www.louderwithcrowder.com/wp-content/uploads/2015/10/CrazyPills-GIF.gif" class="aligncenter wp-image-11988" alt="Zoolander Crazy Pills" width="414" height="168"><noscript><img class="aligncenter wp-image-11988" src="https://www.louderwithcrowder.com/wp-content/uploads/2015/10/CrazyPills-GIF.gif" alt="Zoolander Crazy Pills" width="414" height="168" /></noscript></p>
+<p>When did it become controversial to keep yourself safe from the reality of this world? Also, Kamala Harris is a skank. Just in case you missed that point: <a href="https://www.louderwithcrowder.com/dear-kamala-harris-you-anti-gun-opportunistic-hypocritical-skank/">Dear Kamala Harris, You Anti-Gun, Opportunistic, Hypocritical Skank</a>.</p>
+<p><div class="fluid-width-video-wrapper"><iframe width="500" height="281" src="https://www.youtube.com/embed/B9KVMKp5JcM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></p>
+<p class="p1"><span class="s1"><b>NOT SUBSCRIBED TO THE PODCAST? </b><a href="https://itunes.apple.com/us/podcast/louder-with-crowder/id929121341?mt=2"><span class="s2"><b>FIX THAT</b></span></a><b>! IT’S COMPLETELY FREE ON BOTH </b><a href="https://itunes.apple.com/us/podcast/louder-with-crowder/id929121341?mt=2"><span class="s2"><b>ITUNES HERE</b></span></a><b> AND </b><a href="https://soundcloud.com/louderwithcrowder"><span class="s2"><b>SOUNDCLOUD HERE</b></span></a><b>.</b></span></p>
+</p>
+</article>
+
+<div id="rcjsload_8t8f5s"></div>
+<script type="text/javascript">
+                  (function() {
+                    function ad_block_test(e,o){if("undefined"!=typeof document.body){var t="0.1.2-dev",o=o?o:"sponsorText",n=document.createElement("DIV");n.id=o,n.style.position="absolute",n.style.left="-999px",n.appendChild(document.createTextNode("&nbsp;")),document.body.appendChild(n),setTimeout(function(){if(n){var o=0==n.clientHeight;try{}catch(d){console&&console.log&&console.log("ad-block-test error",d)}e(o,t),document.body.removeChild(n)}},175)}}
+                      ad_block_test(function(is_blocked){
+                        var widget_id =94243;
+                        if (is_blocked === true) {
+                          widget_id =94250;
+                        }
+                        var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+                        var rcel = document.createElement("script");
+                        rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+                        rcel.type = 'text/javascript';
+                        rcel.src = "https://trends.revcontent.com/serve.js.php?w="+widget_id+"&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth) +"&referer="+referer + '&is_blocked=' + is_blocked;
+                        rcel.async = true;
+                        var rcds = document.getElementById("rcjsload_8t8f5s"); rcds.appendChild(rcel);
+                      });
+                    })();
+                </script>
+
+<div id="M318737ScriptRootC212714">
+<div id="M318737PreloadC212714"></div>
+<script>
+                    (function(){
+                      var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById';
+                      var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M318737ScriptRootC212714")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
+                        catch(e){var iw=d;var c=d[gi]("M318737ScriptRootC212714");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=212714;c[ac](dv);
+                        var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src="//jsc.idealmedia.com/l/o/louderwithcrowder.com.212714.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();
+                  </script>
+</div>
+<div id="wpdevar_comment_1" style="width:100%;text-align:left;">
+<span style="padding: 10px;font-size:22px;font-family:Times New Roman;color:#000000;">Comments</span>
+<div class="fb-comments" data-href="https://www.louderwithcrowder.com/kamala-harris-tries-gotcha-sex-assault-question-on-trump-nominee-fails/" data-order-by="social" data-numposts="5" data-width="100%" style="display:block;"></div></div> <div class="load-more-container">
+<button class="load-more">Load More</button>
+</div>
+</div>
+</div>
+<div id="lwc-secondary">
+<div class="lwc-join-mugclub lwc-subscribe-podcast" style="background-color: #802b2c;">
+<div>
+<a href="/mug-club-promo/" title="Join the Mug Club!" style="color: #ffffff; text-decoration: none;">
+<i class="fa fa-coffee"></i>
+<span>join the mug club!</span>
+ </a>
+</div>
+</div>
+<div class="lwc-subscribe-email">
+<div>
+<i class="fa fa-envelope"></i>
+<span>subscribe to the email</span>
+</div>
+<form method="post" action="https://inboxfirst.maximtech.com/v1/" accept-charset="UTF-8">
+<input type="hidden" value="F8GR4NJKY94T" name="ApiKey">
+<input type="hidden" value="175" name="FormID">
+<input type="hidden" value="http://louderwithcrowder.com/welcome/" name="PassUrl">
+<input type="hidden" value="http://louderwithcrowder.com/failed-validation/" name="FailUrl">
+<input type="text" size="30" name="pending_subscriber[email]" class="subscribe-input">
+<button type="submit" class="subscribe-button">Subscribe</button>
+</form>
+</div>
+<div class="lwc-subscribe-podcast">
+<div>
+<a href="https://soundcloud.com/louderwithcrowder" title="subscribe to podcast" target="_blank" style="color: #ffffff; text-decoration: none;">
+<i class="fa fa-microphone"></i>
+<span>subscribe to the podcast</span>
+</a>
+</div>
+</div>
+
+<div id="div-gpt-ad-lwc-sidebar1">
+<script>
+    googletag.cmd.push(function() {
+
+      var mapSidebar1 = googletag.sizeMapping()
+        .addSize([1000, 200], [[300, 600], [300, 250]])
+        .build();
+
+      googletag.defineSlot('/21670380552/LwC_Sidebar1', [300, 250],'div-gpt-ad-lwc-sidebar1')
+        .defineSizeMapping(mapSidebar1)
+        .addService(googletag.pubads());
+      googletag.enableServices();
+      googletag.display('div-gpt-ad-lwc-sidebar1');
+  });
+  </script>
+</div>
+
+<div class="lwc-twitter-timeline">
+<a class="twitter-timeline" data-height="600" href="https://twitter.com/scrowder">Tweets by scrowder</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<div id="div-gpt-ad-lwc-sidebar2">
+<script>
+    googletag.cmd.push(function() {
+
+      var mapSidebar2 = googletag.sizeMapping()
+        .addSize([1000, 200], [[300, 600], [300, 250]])
+        .build();
+
+      googletag.defineSlot('/21670380552/LwC_Sidebar2', [300, 250],'div-gpt-ad-lwc-sidebar2')
+        .defineSizeMapping(mapSidebar2)
+        .addService(googletag.pubads());
+      googletag.enableServices();
+      googletag.display('div-gpt-ad-lwc-sidebar2');
+  });
+  </script>
+</div>
+
+<div class="sidebar-latest-posts">
+<h3 class="recent-heading"><span>RECENT POSTS</span></h3>
+<div class="recent-box">
+<a href="https://www.louderwithcrowder.com/president-trump-just-nailed-liar-jussie-smollett/"><div class="img-container"><img src="https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/TrumphitsJussie-300x166.jpg" width="300" height="166" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Jussie Smollett Donald Trump"><noscript><img width="300" height="166" src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/TrumphitsJussie-300x166.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Jussie Smollett Donald Trump" /></noscript></div></a>
+<h1 class="recent-title"><a href="https://www.louderwithcrowder.com/president-trump-just-nailed-liar-jussie-smollett/">President Trump Just Nailed Liar Jussie Smollett</a></h1>
+</div>
+<div class="recent-box">
+<a href="https://www.louderwithcrowder.com/chicago-superintendent-spanks-smollett-digs-at-celebrities-who-supported-him/"><div class="img-container"><img src="https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/SuperintendentSmollett-300x166.jpg" width="300" height="166" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Eddie johnson on smollett"><noscript><img width="300" height="166" src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/SuperintendentSmollett-300x166.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Eddie johnson on smollett" /></noscript></div></a>
+<h1 class="recent-title"><a href="https://www.louderwithcrowder.com/chicago-superintendent-spanks-smollett-digs-at-celebrities-who-supported-him/">Chicago Superintendent SPANKS Smollett, Digs at Celebrities Who Supported Him</a></h1>
+</div>
+<div class="recent-box">
+<a href="https://www.louderwithcrowder.com/ghostbusters-sequel-being-given-back-to-fans-liberals-are-pissed/"><div class="img-container"><img src="https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/ghostbusters-300x166.jpg" width="300" height="166" class="attachment-thumbnail size-thumbnail wp-post-image" alt="ghostbusters"><noscript><img width="300" height="166" src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/ghostbusters-300x166.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="ghostbusters" /></noscript></div></a>
+<h1 class="recent-title"><a href="https://www.louderwithcrowder.com/ghostbusters-sequel-being-given-back-to-fans-liberals-are-pissed/">Ghostbusters Sequel Being &#8220;Given Back to Fans.&#8221; Liberals are PISSED!</a></h1>
+</div>
+<div class="recent-box">
+<a href="https://www.louderwithcrowder.com/video-mike-rowe-exposes-the-scam-of-college-and-student-loans/"><div class="img-container"><img src="https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/mikerowecollegescam-300x166.jpg" width="300" height="166" class="attachment-thumbnail size-thumbnail wp-post-image" alt="mike rowe"><noscript><img width="300" height="166" src="https://www.louderwithcrowder.com/wp-content/uploads/2019/02/mikerowecollegescam-300x166.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="mike rowe" /></noscript></div></a>
+<h1 class="recent-title"><a href="https://www.louderwithcrowder.com/video-mike-rowe-exposes-the-scam-of-college-and-student-loans/">VIDEO: Mike Rowe Exposes the Scam of College and Student Loans</a></h1>
+</div>
+</div>
+</div>
+<a class="inifinite-load"><img src="https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/images/ajax-loader.gif" alt="ajax loader" /></a>
+<div id="lwc-footer">
+</div>
+</div>
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1768100320080454&version=v2.3";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+<script src="//cdn.goroost.com/roostjs/ygoxn5s3qvh9wp0odx5f7877mj0eqv91" async></script>
+<script>
+                var _roost = _roost || [];
+                _roost.push( [ 'autoprompt', false ] );
+                                    _roost.push( [ 'minvisits', "4" ] );
+                            </script>
+
+<div class="shiftnav shiftnav-nojs shiftnav-shiftnav-main shiftnav-left-edge shiftnav-skin-standard-dark shiftnav-transition-standard" id="shiftnav-main" data-shiftnav-id="shiftnav-main">
+<div class="shiftnav-inner">
+<nav class="shiftnav-nav"><ul id="menu-primary-menu-1" class="shiftnav-menu shiftnav-targets-default shiftnav-targets-text-default shiftnav-targets-icon-default"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6123 shiftnav-depth-0"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/">HOME</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49369 shiftnav-sub-always shiftnav-depth-0"><a class="shiftnav-target" href="#">VIDEOS ▼</a>
+<ul class="sub-menu sub-menu-1">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49360 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/videos-culture/">Culture</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49359 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/videos-political/">Political</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49358 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/videos-islam/">Islam</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49357 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/videos-international/">International</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49356 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/videos-healthcare/">Healthcare</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49355 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/videos-feminism/">Feminism</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49354 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/videos/all-videos/">All Videos</a></li><li class="shiftnav-retract"><a class="shiftnav-target"><i class="fa fa-chevron-left"></i> Back</a></li></ul>
+</li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49368 shiftnav-sub-always shiftnav-depth-0"><a class="shiftnav-target" href="#">COLUMNS ▼</a>
+<ul class="sub-menu sub-menu-1">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49367 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/columns-culture/">Culture</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49365 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/columns-political/">Political</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49363 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/columns-islam/">Islam</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49362 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/columns-international/">International</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49366 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/columns-healthcare/">Healthcare</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49364 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/columns-feminism/">Feminism</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49361 shiftnav-depth-1"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/columns/all-columns/">All Columns</a></li><li class="shiftnav-retract"><a class="shiftnav-target"><i class="fa fa-chevron-left"></i> Back</a></li></ul>
+</li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-413 shiftnav-depth-0"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/category/podcasts/">PODCAST</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29645 shiftnav-depth-0"><a class="shiftnav-target" href="https://www.louderwithcrowdershop.com/">SHOP</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43608 shiftnav-depth-0"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/mugclub/">MUG CLUB</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75122 shiftnav-depth-0"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/faq/">FAQ</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15 shiftnav-depth-0"><a class="shiftnav-target" href="https://www.louderwithcrowder.com/contact/">CONTACT</a></li></ul></nav> </div>
+</div>
+<div data-theiaStickySidebar-sidebarSelector='"#lwc-secondary"' data-theiaStickySidebar-options='{"containerSelector":"#lwc-wrap","additionalMarginTop":14,"additionalMarginBottom":10,"updateSidebarHeight":false,"minWidth":0,"sidebarBehavior":"modern","disableOnResponsiveLayouts":true}'></div>
+
+<div id="parsely-root" style="display: none">
+<div id="parsely-cfg" data-parsely-site="louderwithcrowder.com"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+
+<script type="text/javascript">
+			var _qevents = _qevents || [];
+
+			(function() {
+				var elem = document.createElement('script');
+				elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+				elem.async = true;
+				elem.type = "text/javascript";
+				var scpt = document.getElementsByTagName('script')[0];
+				scpt.parentNode.insertBefore(elem, scpt);
+			})();
+
+			_qevents.push({
+				qacct:"p-_scvbbvKeufB3",
+				source:"wp"
+			});
+		</script>
+<noscript>
+		<div style="display:none;">
+			<img src="//pixel.quantserve.com/pixel/p-_scvbbvKeufB3.gif" border="0" height="1" width="1" alt="Quantcast"/>
+		</div>
+		</noscript>
+
+<link rel='stylesheet' id='dashicons-css' href='https://www.louderwithcrowder.com/wp-includes/css/dashicons.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css' href='https://www.louderwithcrowder.com/wp-includes/js/thickbox/thickbox.css?ver=4.9.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/2code-event-schedule/assets/plugins/slick/slick.min.js'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var settings = {"imageType":"circle"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/2code-event-schedule/assets/js/script.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.louderwithcrowder.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var qpprFrontData = {"linkData":{"https:\/\/www.louderwithcrowder.com\/?p=22031":[0,0,""],"https:\/\/www.louderwithcrowder.com\/going-daily-louder-crowder-mug-club\/":[0,0,""],"https:\/\/www.louderwithcrowder.com\/mugclub\/":[0,0,""],"https:\/\/www.louderwithcrowder.com\/shop\/":[0,0,""],"https:\/\/www.louderwithcrowder.com\/steven-crowder-is-coming-to-smu\/":[0,0,""]},"siteURL":"https:\/\/www.louderwithcrowder.com","siteURLq":"https:\/\/www.louderwithcrowder.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/quick-pagepost-redirect-plugin/js/qppr_frontend_script.min.js?ver=5.1.8'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/theia-sticky-sidebar/js/theia-sticky-sidebar.js?ver=1.6.3'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/theia-sticky-sidebar/js/main.js?ver=1.6.3'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/jquery.lazyload.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/jquery.viewport.mini.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/js/jquery.sonar.min.js?ver=0.6.1'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/lazy-load/js/lazy-load.js?ver=0.6.1'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/themes/lwc-theme/js/load-post.js?ver=1.0.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shiftnav_data = {"shift_body":"off","shift_body_wrapper":"","lock_body":"on","lock_body_x":"off","open_current":"off","collapse_accordions":"off","scroll_panel":"on","breakpoint":"1000","v":"1.6.2","touch_off_close":"on","scroll_offset":"100","disable_transforms":"off"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-content/plugins/shiftnav-responsive-mobile-menu/assets/js/shiftnav.min.js?ver=1.6.2'></script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/www.louderwithcrowder.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.louderwithcrowder.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+
+<script type="text/javascript">
+    _qevents.push( { qacct:"p-52ePUfP6_NxQ_"} );
+</script>
+<noscript>
+    <div style="display: none;">
+        <img src="//pixel.quantserve.com/pixel/p-52ePUfP6_NxQ_.gif" height="1" width="1" alt="Quantcast"/>
+    </div>
+</noscript>
+
+<div id="mug-modal" class="white-popup mfp-hide">
+image goes here!
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"64273a20f5","applicationID":"156334715","transactionName":"MwZRNkIHXUsFB0ZbDQpMcgFED1xWSxdbXAUIBg==","queueTime":0,"applicationTime":223,"atts":"H0FSQAodTkU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

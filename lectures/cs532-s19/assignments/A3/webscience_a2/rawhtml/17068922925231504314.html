@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<script type="text/javascript">
+// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1547671560.04
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js',
+  'UA', {
+    vapidPublicKey: 'BIzPdObmcBT5AaG0M5GNKJBsBevq2mnkPuTsVCwdvrdsuz39BU28jsE6QcChuolYMCewsaIJaB-EMBa8Bjqan_s=',
+    appKey: 'm7ft87uaR92foKXwR8UKTQ',
+    token: 'MTptN2Z0ODd1YVI5MmZvS1h3UjhVS1RROmZ6T2IyYm5xNDdWSWd6NUlDSW5jczJ1SGNtU2hxZkVkOVFGeGRkTFI0dlU'
+  });
+
+</script>
+<link rel="shortcut icon" href="https://www.10tv.com/sites/default/files/10tv-logo-16.png" type="image/png" />
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@graph": [
+        {
+            "@type": "NewsArticle",
+            "headline": "O\u0027Rourke to lead anti-wall march during Trump Texas rally",
+            "description": "Beto O\u0027Rourke will lead a march though his hometown of El Paso, Texas, to protest a border wall at the same time President Donald Trump will be holding a rally there to promote it.",
+            "author": {
+                "@type": "Person",
+                "name": "Associated Press"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.10tv.com/",
+                "name": [
+                    "WBNS-10TV Columbus",
+                    "Ohio | Columbus News",
+                    "Weather \u0026 Sports"
+                ],
+                "url": "https://www.10tv.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.10tv.com/sites/default/files/10wbns-cbslogo-blue-60px.png",
+                    "width": "302",
+                    "height": "60"
+                }
+            },
+            "datePublished": "2019-02-10T05:49:06-05:00",
+            "dateModified": "2019-02-10T05:49:06-05:00",
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "True",
+                "url": "https://www.10tv.com/sites/default/files/styles/article_image/public/images/2019/02/10/0210_betoorourkefile.jpg?itok=3T-dfmzS"
+            },
+            "mainEntityOfPage": "https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally",
+            "keywords": ""
+        }
+    ]
+}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/default/files/favicons/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/favicon-16x16.png" sizes="16x16"/>
+<link rel="manifest" href="/sites/default/files/favicons/manifest.json"/>
+<link rel="mask-icon" href="/sites/default/files/favicons/safari-pinned-tab.svg" color="#5bbad5"/>
+<meta name="theme-color" content="#ffffff"/>
+<meta name="description" content="Beto O&#039;Rourke will lead a march though his hometown of El Paso, Texas, to protest a border wall at the same time President Donald Trump will be holding a rally there to promote it." />
+<meta name="abstract" content="Beto O&#039;Rourke will lead a march though his hometown of El Paso, Texas, to protest a border wall at the same time President Donald Trump will be holding a rally there to promote it." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally" />
+<link rel="shortlink" href="https://www.10tv.com/node/2023615" />
+<meta property="og:site_name" content="WBNS-10TV Columbus, Ohio | Columbus News, Weather &amp; Sports" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally" />
+<meta property="og:title" content="O&#039;Rourke to lead anti-wall march during Trump Texas rally" />
+<meta property="og:description" content="Beto O&#039;Rourke will lead a march though his hometown of El Paso, Texas, to protest a border wall at the same time President Donald Trump will be holding a rally there to promote it." />
+<meta property="og:updated_time" content="2019-02-10T05:49:06-05:00" />
+<meta property="og:image" content="https://www.10tv.com/sites/default/files/styles/article_image/public/images/2019/02/10/0210_betoorourkefile.jpg?itok=3T-dfmzS" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@10tv" />
+<meta name="twitter:url" content="https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally" />
+<meta name="twitter:title" content="O&#039;Rourke to lead anti-wall march during Trump Texas rally" />
+<meta name="twitter:description" content="Beto O&#039;Rourke will lead a march though his hometown of El Paso, Texas, to protest a border wall at the same time President Donald Trump will be holding a rally there to promote it." />
+<meta name="twitter:image" content="https://www.10tv.com/sites/default/files/styles/article_image/public/images/2019/02/10/0210_betoorourkefile.jpg?itok=3T-dfmzS" />
+<meta property="article:published_time" content="2019-02-10T05:49:06-05:00" />
+<meta property="article:modified_time" content="2019-02-10T05:49:06-05:00" />
+  <title>O'Rourke to lead anti-wall march during Trump Texas rally | WBNS-10TV Columbus, Ohio | Columbus News, Weather & Sports</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_ytEkMl6PKjNSYcaTFRWdpPTa-6Za4hRzMitwyFUYwgQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_9tSZ0nPz-1H4xvY-ur8aWaAgaF4oAzsrLDvWf6KvPSU.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_BHrCgZgFd985YoVxh-sAc8vSA-eaV6RcAgh2JNEu4UI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_BYihyvf15RudlcckirDPAWXCwUT46nZfk69KzRalp6o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_YEylsEgao82LkTFfp5eKxdFj9ADYc-4h017BpEZt3wc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.10tv.com/sites/default/files/css/css_yH_X-ExGfYMpIvYxlkxMfcaOXiZIdIZtdD7OxD1303Y.css" media="screen" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.taboola__wrapper_off{display:none;}.dfp-tag-wrapper{text-align:center;}.alert-banner-title{font-weight:bold;color:#2f4050;padding-top:10px;}.alert-banner-background{background:#F2F2F2;}.alert-banner-background img{width:100%;height:auto;}.view-alert-banner-weather_bad{width:95%;margin-left:27px;}.main-content{max-width:970px;display:block;margin:auto;}.bx-wrapper{border:0px;}.bx-dynamic-lead-caption{width:80%;margin-left:10%;margin-right:10%;text-align:center;border-radius:10px;bottom:30px;font-size:30px;}.bx-wrapper .bx-controls-direction a{top:230px;}.bx-dynamic-lead-text{padding-top:10px;}@media only screen and (max-width:500px){.bx-dynamic-lead-caption{font-size:14px;bottom:10px;}.bx-controls-direction{display:none;}}.dfp-ad-treatment{background-color:#ffffff!important;}.media-float-left{float:left;}.media-float-right{float:right;}@media screen and (min-width:768px){.display-type.half .summary{display:none;}.display-type.third .summary{display:none;}}/
+.teaser h2 a{transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.teaser h2 a:hover{color:#0048c5;}.image-category a:hover{text-decoration:underline;}a:hover{color:#002C7D}@media screen and (max-width:767px){.teaser{padding:0;}.pane-content{margin:0 0 40px 0;}.front .teaser.widget-third .pane-content{margin:0;}.page-taxonomy-term-551 .teaser.widget-third .pane-content{margin:0;}.view-disp-article-listing .row{margin:0;padding:0;}.display-type.large .col-sm-8 h2 a,.display-type.half h2 a,.display-type.full-width h2 a,.display-type.third h2 a{font-size:21px !important;}*/
+  .view-disp-article-listing .col-sm-4{padding:0;margin:0 0 40px 0;}.teaser+hr{display:none;}}@media screen and (max-width:769px){.page-node article.display-type .body p{margin-bottom:15px;}.page-node article.display-type .body li{text-align:left;}}.display-type .caption{text-align:right;font-size:.9em;margin-top:-37px;margin-bottom:20px;color:rgb(240,240,240) !important;background-color:#232835;padding:7px;}.content-image-third .fa-play,.content-image-full-width .fa-play{opacity:.75;width:50px;height:50px;left:calc(100% - 30px);top:calc(100% - 30px);}.content-image-third .fa-play::before,.content-image-full-width .fa-play::before{font-size:35px;}.content-image-half .fa-play{opacity:.75;width:80px;height:80px;left:calc(100% - 45px);top:calc(100% - 45px);}.content-image-half .fa-play::before{font-size:60px;}.content-image-large .fa-play{opacity:.75;left:calc(100% - 65px);top:calc(100% - 65px);}.node-type-article .fa-play{opacity:.75;left:50%;top:50%;}.fa-play:hover{opacity:1;}.copyright{font-size:.75em;font-style:italic;}.videoEmbed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:18px;}.videoEmbed iframe{position:absolute;top:0;left:0;width:100%;height:100%;}.field-name-field-tags{border-top:1px solid #bdc1c4;font-size:14px;line-height:2;margin-top:10px;}.field-name-field-tags .field-label{color:#464a50;display:inline;margin-bottom:5px;font-family:'Flama Book Italic','helvetica neue',sans-serif;}.field-name-field-tags .field-items{display:inline;padding:5px 0 5px 0;margin-bottom:5px;}.field-name-field-tags .field-items a{color:rgb(70,75,80) !important;background-color:#bfe5fd;border-radius:10px;font-family:'Flama Book','helvetica neue',sans-serif;padding:0 5px 2px 5px;margin:0 5px 5px 0;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.field-name-field-tags .field-items a:hover{color:rgb(240,240,240) !important;background-color:#0048c5 !important;text-decoration:none !important;}// center dfp ads
+.gam-holder{margin:0 auto;text-align:center;}.no-padding{padding:0px;}.no-padding-left{padding-left:0px;}.no-padding-right{padding-right:0px;}.padding-5px{padding:5px;}.padding-10px{padding:10px;}.padding-right-5px{padding-right:5px;}.padding-right-10px{padding-right:10px;}.padding-top-15px{padding-top:15px;}.padding-bottom-5px{padding-bottom:5px;}.padding-bottom-10px{padding-bottom:10px;}.float-left{float:left;}.float-right{float:right;}.content-section-header{color:#337ab7;font-family:Nexa;font-weight:400;font-size:42px;}.center-text{text-align:center !important;}.front .teaser.widget-third{padding:0;}.front .widget-third .display-type.large .col-sm-8{display:none;}.front .teaser.first{padding:0 0 10px 0;}.front .first .display-type.large .col-sm-12{display:none;}.front .first .display-type.large .col-sm-8 h2{line-height:.95;}.front .first .display-type.large .col-sm-8 h2 a{font-size:28px;}.front .first .col-sm-6:last-child{padding:0 15px 0 15px;margin-top:5px;}.front .pane-home-local-news-headlines{border-left:1px solid #bdc1c4;padding-left:25px;margin-left:-15px}.front .pane-home-local-news-headlines ul{margin:0 0 0 -20px;}.front .pane-home-local-news-headlines a{color:#464a50;}.front .first .col-sm-8{width:100%!important;}.front .homepage-recent-news-list{margin:0px;}.front .is-footer .node-article .summary{display:none;}.front .view-Home-Local-News-Headlines a{color:#232825;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.front .view-Home-Local-News-Headlines a:hover{color:#0048c5;}.linkList h3{font-weight:700;}@media only screen and (max-device-width:480px){.article-title-x{font-size:14px!important;}}@media only screen and (max-device-width:480px){h2.article-title{font-size:26px!important;font-weight:bold!important;}}.pane-disp-latest-news-panel-pane-1 h2,h3.sectionHeader{background-color:#232825;color:#fff;padding:10px 0 10px 10px;font-family:'Open Sans',sans-serif;font-weight:bold;}.view-disp-latest-news .field-content a{font-weight:700;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.view-disp-latest-news .field-content a:hover{color:#0048c5;}/ SUGGESTED LINKS /
+.suggested-links{margin:0 0 10px;padding:0;border-bottom:1px solid rgb(70,75,80);}.suggested-links h2{margin:0 0 10px;padding:0 0 10px;border-bottom:1px solid rgb(70,75,80);color:rgb(70,75,80);}.suggested-links:before{content:"STORY CONTINUES BELOW";font-size:12px;color:rgb(190,193,196);display:block;text-align:center;}.suggested-wrapper{width:calc(100% - 320px);}.suggested-links .dfp-ad-treatment{padding:0px 0px 15px;border:none;}.suggested-links .category{display:none;}.suggested-links .suggested-links-thumbnail a{color:rgb(70,75,80) !important;}.suggested-links .suggested-links-thumbnail a:hover{color:rgb(0,160,210) !important;text-decoration:none;}@media screen and (max-width:1199px){.suggested-wrapper{width:100%;}.dfp-ad-treatment{background:none;padding:10px 10px 15px;border-top:1px solid rgb(190,193,196);}}.mobile-img-scale{width:auto !important;height:auto !important;}.dfp-ad-treatment{padding:0px !important;}.sectionHeader{height:40px;padding:10px;}.sectionSponsor{font-size:10px;float:right;text-align:center;width:112px;padding-right:10px;margin-top:-3px;}.eventsLinkList h3 a{color:#232825;}.sectionHeader strong a{color:white;font-family:'Flama Semi Bold','helvetica neue',sans-serif;}.view-events-short-list a{color:#232825;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.widget-first{padding:0 0;}.widget-second{padding:0 0;}.file{margin-bottom:18px;margin-right:0;}.disp-img-large .field-name-field-caption,.disp-img-medium .field-name-field-caption,.disp-img-small .field-name-field-caption{text-align:right;font-size:.9em;color:rgb(240,240,240);background-color:#232835;padding:0;}.disp-img-large .field-name-field-caption .field-item,.disp-img-medium .field-name-field-caption .field-item,.disp-img-small .field-name-field-caption .field-item{padding:4px 7px 7px;}.disp-img-large .field-name-field-caption .field-item:empty,.disp-img-medium .field-name-field-caption .field-item:empty,.disp-img-small .field-name-field-caption .field-item:empty{padding:0;}.disp-img-small .field-name-field-caption{display:none;}.media-wysiwyg-align-center{margin:auto;}.disp-img-large{width:100%;margin-top:7px;}.media-wysiwyg-align-left.disp-img-medium,.media-wysiwyg-align-center.disp-img-medium,.media-wysiwyg-align-right.disp-img-medium{width:350px;margin-top:7px;}.media-wysiwyg-align-left.disp-img-medium{margin-left:-150px;}.media-wysiwyg-align-left.disp-img-small,.media-wysiwyg-align-center.disp-img-small,.media-wysiwyg-align-right.disp-img-small{width:200px;margin-top:7px;}@media screen and (max-width:767px){.media-wysiwyg-align-left.disp-img-medium{margin-left:0;}}@media screen and (max-width:700px){.disp-img-medium{width:100% !important;}}@media screen and (max-width:400px){.media-wysiwyg-align-left.disp-img-small,.media-wysiwyg-align-center.disp-img-small,.media-wysiwyg-align-right.disp-img-small{width:100% !important;}.disp-img-small .field-name-field-caption{display:block;}}.field-name-field-folder{display:none;}.row-article-media{margin-bottom:18px;}.article-videos{width:100%;margin-bottom:0;}.vjs-poster{background-size:cover;}.vjs-ima3-not-playing-yet .vjs-dock-text,.vjs-ima3-not-playing-yet .vjs-dock-shelf{display:none;}.video-js .vjs-dock-text{background:linear-gradient(to bottom,rgba(0,0,0,.8) 0%,rgba(0,0,0,.8) 50%,rgba(0,0,0,0) 100%);opacity:1;font-family:'Flama Semi Bold','helvetica neue',sans-serif;padding:6px 10px 2em 10px;}.video-js .vjs-dock-title{font-weight:700;letter-spacing:.25px;margin-bottom:10px;line-height:1.3;}#vjs-dock-description-2{font-family:'Flama Book','helvetica neue',sans-serif;font-size:13px;}.video-js .vjs-dock-shelf{padding:0px 10px 2em 10px;}button.vjs-big-play-button{color:rgb(240,240,240) !important;background-color:rgb(0,0,0) !important;opacity:.45 !important;border:3px solid rgb(240,240,240) !important;transition:all .2s ease-in-out !important;-moz-transition:all .2s ease-in-out !important;-webkit-transition:all .2s ease-in-out !important;transform:scale(.9,.9);}button.vjs-big-play-button:hover{opacity:1 !important;-ms-transform:scale(1.05,1.05) !important;-webkit-transform:scale(1.05,1.05) !important;transform:scale(1.05,1.05) !important;transition-delay:.1s !important;}.vjs-progress-holder.vjs-slider.vjs-slider-horizontal{background-color:rgba(70,75,80,.35);}.video-js .vjs-load-progress div{background-color:rgba(190,193,196,.5);}.bc-player-default_default .vjs-play-progress,.bc-player-default_default .vjs-volume-level{background-color:rgb(240,180,50);}.vjs-control-bar{background:linear-gradient(to bottom,rgba(0,0,0,.1) 0%,rgba(0,0,0,1) 100%);}.video-js .vjs-time-control{font-size:1.3em;line-height:2.5em;font-weight:bold;}.video-js .vjs-slider{background-color:rgb(190,193,196);}.bc-player-default_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected{background-color:rgb(240,180,50);}.swiper-container{background-color:rgb(0,0,0);padding:10px 0 10px 10px;height:auto;width:100%;top:0px;}.swiper-wrapper{padding:0;}.bpl-swiper-wrapper{height:auto;}.bpl-swiper-slide{cursor:pointer;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.bpl-swiper-slide-active{background-color:rgba(190,193,196,.3);}.swiper-slide:hover{opacity:.6;}.bpl-video-thumbnail{position:relative;height:auto;}.swiper-slide-image{width:160px;height:90px;}.bpl-slide-thumbnail-title{position:relative;text-align:left;font-size:.9em;}.bpl-swiper-slide-text{opacity:1;background-color:rgba(0,0,0,1);padding:5px 8px;border:2px solid rgb(240,240,240);top:30px;left:calc(50% - 20px);border-radius:50%;}span.bpl-swiper-slide-text::before{font-family:VideoJS;content:"\f101";}.content-media .content-media-video+.caption{margin:0;transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out;-webkit-transition:all 1s ease-in-out;}.swiper-button-next,.swiper-button-prev{opacity:1;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}.swiper-button-next:hover,.swiper-button-prev:hover{opacity:.7;}.row-article-content{max-width1:970px;}.social-facebook-count{display:none;}.row-article-body{padding-top:0px;}.caption{position:relative;top:0px;}.meta-info{padding-left:10px;}.caption{position:static;}.row-article-body{padding-top:0;margin-bottom:0;}.content-media .content-media-video{overflow:hidden;}.row-article-body{margin-left:15px;margin-right:15px;}.caption{padding-left:11px !important;padding-right:20px  !important;}.addthis_button_pinterest_share{display:none !important;}.homeLocalNewsHeadlines{padding-left:0px;padding-right:0px;}.pane-bean-homepage-static-lead{margin-bottom:-35px!important;}.row-article-content{margin-right:auto;margin-left:auto;}.swiper-gallery-wrapper .swiper-slide .slideshow-caption{}#homepage-static-lead .col-lg-4{width:calc(33.33333333% - 10px);margin-left:10px;padding-right:5px;}@media screen and (max-width:1200px){#homepage-static-lead .col-lg-4{width:100%;margin:0;padding:0 5px;}}.weather-headline-link{font-weight:700;font-family:'Open Sans',sans-serif;font-size:16px;color:#0288e7;padding-left:10px;padding-right:10px;}.syndicatedItem .branding{background-color:white;}.bpl-video-thumbnail{width:100%;}.bpl-slide-thumbnail-image{width:100%;}.page-homepage1 #scrollable-content{background-image:url(https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKDbwMLwTBABGAEyCH5Z_MrWVKzT)!important;background-repeat:no-repeat!important;background-attachment:fixed!important;background-size:100% auto!important;}.page-homepage1 .container1{background-color:white;}.page-homepage1 .navbar1{background-color:#0288e7;}#scrollable-content{background-size:100% auto !important;}@media (min-width:769px) and (max-width:1570px){.container{width:930px!important;}}
+
+/*]]>*/-->
+</style>
+  <script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_ONEhDHCWko8R2zVYox-K4hWLOup7uBj9OVnwylkk_VQ.js"></script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_Iu231mfdeiEoaLXCWaLUWEw3lvVKe8tL-KJCcJMguXo.js"></script>
+<script type="text/javascript" src="https://player.isocrates.com/prebid/wrapper_hb_274617_2725.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_XX9THuruZU-mjAYkefouxektft7dMeZF7WvFYRIomN0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_1Cp2ecuFdyPAw0c5s73q4cGkLdhKqTTnaAvfbIJ7kKQ.js"></script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_THcwq4G882w3Eb1HklHrvzGAKa_-1g_0QbuBqjMhaV4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    window._taboola = window._taboola || [];
+    _taboola.push({article:'auto'});
+    !function (e, f, u, i) {
+      if (!document.getElementById(i)){
+        e.async = 1;
+        e.src = u;
+        e.id = i;
+        f.parentNode.insertBefore(e, f);
+      }
+    }(document.createElement('script'),
+    document.getElementsByTagName('script')[0],
+    '//cdn.taboola.com/libtrc/tentv-network/loader.js',
+    'tb_loader_script');
+    if(window.performance && typeof window.performance.mark == 'function')
+        {window.performance.mark('tbl_ic');}
+    
+    var taboolaWaypointOffset = '0'
+    var taboolaEnabled = 1;
+    var taboolaMode = 'thumbnails-a';
+    var taboolaPlacement = 'Below Article Thumbnails';
+    var taboolaTargetType = 'mix';
+  
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_05mGAHfrnz5BqSEFix5S32SmWPGaD-Q_IzfP9m0lI7A.js"></script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_QI2GdcYEAxY36Ma2awiu6K27azEK-UEeNdsTSzThjMo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {
+  googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().disableInitialLoad();
+});
+googletag.pubads().setCentering(true);
+googletag.enableServices();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_e5vs67DCWlnm-Odl_TS7HUuCbAo9M8MpGXsrECkLbwY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var autoPlayNextVideo = false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_QVgeFL1hOH0ZDmhEIV3Uu79uBqGN3muX25SIXiRhui4.js"></script>
+<script type="text/javascript" src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="https://players.brightcove.net/5359769197001/default_default/index.min.js"></script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_x1sFrPQMyYFt6KotvrRIva2bRhSWkqDuDQ7iLYdfM0k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","autocomplete_limit":{"limit":"3"},"ajaxPageState":{"theme":"wbns","theme_token":"ntAQUokcDoDLe7oQhJXNLkZirF6aminvPGw3oyArJzk","jquery_version":"1.10","js":{"sites\/all\/modules\/custom\/disp_ads\/js\/disp_ads.min.js":1,"https:\/\/s7.addthis.com\/js\/300\/addthis_widget.js":1,"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/modules\/contrib\/datetimepicker\/js\/datetimepicker.js":1,"sites\/all\/modules\/custom\/disp_social\/js\/disp_social.js":1,"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"https:\/\/player.isocrates.com\/prebid\/wrapper_hb_274617_2725.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery-migrate\/1.2.1\/jquery-migrate.min.js":1,"misc\/jquery.once.js":1,"1":1,"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/balupton-history.js\/scripts\/bundled\/html4+html5\/jquery.history.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"2":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.slider.min.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/disp_weather\/js\/disp_weather.js":1,"3":1,"sites\/all\/modules\/contrib\/select_with_style\/select_with_style\/select_with_style.js":1,"sites\/all\/libraries\/swiper\/js\/swiper.min.js":1,"sites\/all\/libraries\/swiper\/js\/swiper.jquery.min.js":1,"sites\/all\/modules\/contrib\/urban_airship_web_push_notifications\/assets\/js\/opt-in-prompt.js":1,"misc\/progress.js":1,"sites\/all\/modules\/custom\/disp_alert\/js\/disp_alert.min.js":1,"4":1,"sites\/all\/libraries\/timeago\/jquery.timeago.js":1,"sites\/all\/modules\/contrib\/timeago\/timeago.js":1,"sites\/all\/modules\/custom\/content\/disp_article\/js\/disp_article.min.js":1,"sites\/all\/libraries\/waypoints\/lib\/jquery.waypoints.min.js":1,"sites\/all\/libraries\/jscroll\/jquery.jscroll.min.js":1,"sites\/all\/modules\/contrib\/hide_submit\/js\/hide_submit.js":1,"https:\/\/sadmin.brightcove.com\/js\/BrightcoveExperiences.js":1,"https:\/\/players.brightcove.net\/5359769197001\/default_default\/index.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/bootstrap.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/metismenu.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/slimscroll.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/inspinia.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/pace.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/slick.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/headroom.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/jquery.headroom.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/svg-injector.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/perfect-scrollbar.jquery.min.js":1,"sites\/all\/themes\/wthr\/dist\/js\/wthr.min.js":1,"sites\/all\/themes\/wbns\/dist\/js\/wbns.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/custom\/disp_brightcove\/styles\/disp_brightcove.css":1,"sites\/all\/modules\/custom\/disp_wysiwyg\/wysiwyg.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/custom\/views_bx_dynamic_lead\/css\/views_bx_dynamic_lead.css":1,"sites\/all\/modules\/custom\/views_bx_slideshow\/css\/jquery.bxslider.min.css":1,"sites\/all\/modules\/contrib\/nodeorder\/css\/nodeorder.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/libraries\/swiper\/css\/swiper.min.css":1,"sites\/all\/modules\/contrib\/urban_airship_web_push_notifications\/assets\/css\/opt-in-prompt.css":1,"sites\/all\/modules\/contrib\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/wthr\/dist\/css\/bootstrap-theme.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/bootstrap.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/inspinia.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/slick.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/slick-theme.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/animate.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/font-awesome.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/perfect-scrollbar.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/wthr.min.css":1,"sites\/all\/themes\/wthr\/dist\/css\/wthr_only.css":1,"sites\/all\/themes\/wbns\/wthr_only.css":1,"sites\/all\/themes\/wbns\/dist\/fonts\/MyFontsWebfontsKit.css":1,"sites\/all\/themes\/wbns\/dist\/css\/wbns.min.css":1,"0":1}},"disp_brightcove":{"swiper_responsive_breakpoints":"{\u0022320\u0022: {\u0022slidesPerView\u0022: 1,\u0022spaceBetween\u0022: 5},\u0022520\u0022: {\t\u0022slidesPerView\u0022: 2,\u0022spaceBetween\u0022: 5},\u0022694\u0022: {\u0022slidesPerView\u0022: 3,\u0022spaceBetween\u0022: 5},\u0022991\u0022: {\u0022slidesPerView\u0022: 4,\u0022spaceBetween\u0022: 5},\u00221279\u0022: {\u0022slidesPerView\u0022: 5,\u0022spaceBetween\u0022: 5},\u00224000\u0022: {\u0022slidesPerView\u0022: 5,\u0022spaceBetween\u0022: 6}}","playlist_allow_skip_preroll_ad":false,"autoPlayNextVideo":false},"urban_airship_web_push_notifications":{"hide_optin_prompt":0,"prompt_notifications":"on_page_load","page_views":"1","temporarily_disable":"50"},"disp_ads_dfp":{"dfpDefaultAdunitPath":"\/8919\/10TV_ROS"},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":0},"disp_weather":{"default_city_id":"141","weather_url":"\/weather"},"urlIsAjaxTrusted":{"\/article\/orourke-lead-anti-wall-march-during-trump-texas-rally":true},"timeago":{"refreshMillis":60000,"allowFuture":true,"localeTitle":false,"cutoff":7200000,"strings":{"prefixAgo":null,"prefixFromNow":null,"suffixAgo":"ago","suffixFromNow":"from now","seconds":"less than a minute","minute":"about a minute","minutes":"%d minutes","hour":"about an hour","hours":"about %d hours","day":"a day","days":"%d days","month":"about a month","months":"%d months","year":"about a year","years":"%d years","wordSeparator":" "}},"addthis":{"async":1,"domready":0,"widget_url":"https:\/\/s7.addthis.com\/js\/300\/addthis_widget.js","addthis_config":{"pubid":"","services_compact":"more","services_exclude":"","data_track_clickback":false,"ui_508_compliant":false,"ui_click":false,"ui_cobrand":"","ui_delay":0,"ui_header_background":"","ui_header_color":"","ui_open_windows":false,"ui_use_css":true,"ui_use_addressbook":false,"ui_language":"en"},"addthis_share":{"templates":{"twitter":"{{title}} {{url}} via @10tv"}}},"timepicker":{"classes":""},"datetimepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"HH:mm","default_separator":" "}});
+//--><!]]>
+</script>
+<!-- Begin Google Analytics DataLayer  -->
+<script>
+var dataLayer = window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+        'event':'dataLayer-loaded',
+        'author':'adam.kirasic@10tv.com',
+        'articleCategory':'Politics',
+        'contentType':'article',
+        'contentPublishedDate':'2019-02-10T05:49:06-05:00',
+        'companyName':'WBNS-10TV Columbus, Ohio | Columbus News, Weather &amp; Sports',
+        'contentPublishedDayOfWeek':'Sunday',
+        'subdomain':'www.10tv.com',
+        'articleTitle':'O&#039;Rourke to lead anti-wall march during Trump Texas rally',
+        'bylineAuthor': 'Associated Press',
+        'section': 'News,National News,Politics'
+      });
+</script>
+<!-- End Google Analytics DataLayer  -->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2023615 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="dfp-ad-interstitial_ros-wrapper" class="dfp-tag-wrapper element-hidden"><div  id="dfp-ad-interstitial_ros-936445229" class="dfp-tag-wrapper dfp-tag-target" dfp-adunit="/8919/10TV_ROS" dfp-size="[0, 0]" dfp-out-of-page="1" data-ad-type="dfp-ad-interstitial_ros" dfp-targets="[]">
+  </div>
+</div><noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CT9Z2" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>  <div id="wrapper" class="">
+          <!-- Navigation Menu -->
+    <nav id="wthr-navigation" role="navigation">
+      <ul class="nav" id="side-menu"><li><a href="/"><i class="first fa fa-home menu-9251"></i><span class="nav-label">Home</span></a></li>
+<li><a href="/download-the-10tv-apps"><i class="leaf fa fa-download menu-18341"></i><span class="nav-label">Download 10TV Apps</span></a></li>
+<li><a href="/watchlive"><i class="leaf fa fa-television menu-15611"></i><span class="nav-label">Watch Live</span></a></li>
+<li><a href="/news"><i class="expanded fa fa-newspaper-o menu-15606"></i><span class="nav-label">News</span></a><ul class="nav nav-second-level"><li class="first menu-16706"><a href="/news">Latest News</a></li>
+<li class="leaf menu-9321"><a href="/local-news">Local</a></li>
+<li class="leaf menu-44141"><a href="/categories/ohio-news">Ohio</a></li>
+<li class="leaf menu-15681"><a href="/national-news">National</a></li>
+<li class="leaf menu-28261"><a href="/politics">Politics</a></li>
+<li class="leaf menu-16686"><a href="/FaceTheState">Face The State</a></li>
+<li class="leaf menu-16691"><a href="/10-investigates">10 Investigates</a></li>
+<li class="leaf menu-16696"><a href="/crimetracker-10">CrimeTracker 10</a></li>
+<li class="leaf menu-16701"><a href="/consumer-10">Consumer 10</a></li>
+<li class="leaf menu-28236"><a href="/columbus-ohio-weather-blog">Weather Blog</a></li>
+<li class="leaf menu-16681"><a href="/trending">Trending</a></li>
+<li class="leaf menu-15851"><a href="/entertainment">Entertainment</a></li>
+<li class="leaf menu-15761"><a href="/health">Health</a></li>
+<li class="last menu-46395"><a href="/tags/drone-10">Drone 10 Video</a></li>
+</ul></li>
+<li><a href="/weather-columbus-ohio"><i class="expanded fa fa-umbrella menu-9246"></i><span class="nav-label">Weather</span></a><ul class="nav nav-second-level"><li class="first menu-19071"><a href="/weather-columbus-ohio">Local Weather</a></li>
+<li class="leaf menu-15686"><a href="/doppler-10-interactive-radar">Interactive Radar</a></li>
+<li class="leaf menu-16716"><a href="/weather-live-radar-columbus-ohio">Live Radar</a></li>
+<li class="leaf menu-16721"><a href="/10-day-forecast">10 Day Forecast</a></li>
+<li class="last menu-28231"><a href="/columbus-ohio-weather-blog">Weather Blog</a></li>
+</ul></li>
+<li><a href="/"><i class="expanded fa fa-dribbble menu-15621"></i><span class="nav-label">Sports</span></a><ul class="nav nav-second-level"><li class="first menu-15741"><a href="/sports">Latest News</a></li>
+<li class="leaf menu-15641"><a href="/ohio-state-football">Ohio State Football</a></li>
+<li class="leaf menu-41846"><a href="/tags/cap-city-half-marathon">Cap City Half Marathon</a></li>
+<li class="leaf menu-27421"><a href="/high-school-football-columbus-ohio">High School Football Scores</a></li>
+<li class="last menu-28221"><a href="/athleteoftheweek">Athlete of the week</a></li>
+</ul></li>
+<li><a href="/"><i class="expanded fa fa-car menu-9241"></i><span class="nav-label">Traffic</span></a><ul class="nav nav-second-level"><li class="first menu-15716"><a href="/interactive-traffic-map">Interactive Map</a></li>
+<li class="last menu-15881"><a href="/gas-prices">Gas Prices</a></li>
+</ul></li>
+<li><a href="/"><i class="expanded fa fa-users menu-15636"></i><span class="nav-label">Community</span></a><ul class="nav nav-second-level"><li class="first menu-15821"><a href="/marias-message">Maria&#039;s Message</a></li>
+<li class="leaf menu-22576"><a href="/categories/commit-be-fit">Commit to be Fit</a></li>
+<li class="leaf menu-23716"><a href="/metroparks">Metro Parks</a></li>
+<li class="leaf menu-15816"><a href="/content/community-calendar">Community Calendar</a></li>
+<li class="leaf menu-15776"><a href="/HuntingtonHometown">Huntington Hometown</a></li>
+<li class="last menu-28226"><a href="/athleteoftheweek">Athlete of the week</a></li>
+</ul></li>
+<li><a href="/"><i class="last station-icon menu-15616"></i><span class="nav-label">Station</span></a><ul class="nav nav-second-level"><li class="first menu-15841"><a href="/contact-us">Contact Us</a></li>
+<li class="leaf menu-23456"><a href="/meet-staff">Meet the Staff</a></li>
+<li class="leaf menu-15731"><a href="/newsletters">Breaking News e-Mail</a></li>
+<li class="leaf menu-15696"><a href="/tvschedule">TV Schedule</a></li>
+<li class="leaf menu-15701"><a href="/about-wbns">About 10TV</a></li>
+<li class="leaf menu-15866"><a href="/careers" target="_blank">Careers at 10TV</a></li>
+<li class="last menu-15781"><a href="/advertise">Advertise with Us</a></li>
+</ul></li>
+</ul>      <div id="mobile-footer" class="visible-xs">
+          <div class="popover-html">
+                          <nav><ul><li><a href="https://www.10tv.com/sendusnews">Send Us News</a></li><li><a href="https://www.10tv.com/termsofservice">Terms of Service</a></li><li><a href="https://www.10tv.com/privacypolicy">Privacy Policy</a></li><li><a href="https://www.10tv.com/adchoices">Ad Choices</a></li><li><a href="https://www.10tv.com/fccreports">FCC Reports</a></li><li><a href="https://www.10tv.com/eeopublicfilereports">EEO Public File Report</a></li><li><a href="https://publicfiles.fcc.gov/tv-profile/wbns-tv" target="_blank">FCC Station Profile</a></li></ul><p>WBNS-TV’s on-line public inspection file can be found on the FCC website or at 10TV.com/fcc. Individuals with disabilities may contact Becky Richey at <a href="mailto:pubfile@10tv.com">pubfile@10tv.com</a> or 614.460.3785 for assistance with access to the WBNS-TV public inspection files.</p><p><br />©Copyright 2018, WBNS-TV, Inc. All Rights Reserved. For more information on this site, please read our Privacy Policy, About Our Ads and Terms of Service. It is the policy of The Dispatch Broadcast Group to provide equal employment opportunity to all qualified individuals without regard to their race, color, religion, national origin, age, sex, martial status, disability, military status, citizenship or any other legally-protected status in accordance with applicable local, state and federal law.</p></nav>                      </div>
+      </div>
+    </nav>
+    <!-- Navigation Menu end -->
+    <div id="wthr-page-wrapper" class="gray-bg">
+    <div class="d-page-header">
+                      <div class="alert-wrapper"></div>        <div class="weather-warning" style="display:none">
+          <div class="clearfix">
+            <div class="weather-warnings alerts">
+              <h2><a href="/weather-warnings"><i class="thunder-icon"></i> Weather Warnings (<span class="weather-count"></span>)</a></h2>
+            </div>
+            <div class="school-closures alerts">
+              <h2><a href="/school-closings"><i class="graduation-cap-icon"></i> School closures (<span class="closing-count"></span>)</a></h2>
+            </div>
+          </div>
+        </div>
+        <!-- Weather Bar -->
+        <div class="gray-bg weather-bar__wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-scrollfix">
+                <div class="weather-bar">
+                  <div class="city-select"><div class="dropdown"><button class="dropdown-toggle dropdown weather-city-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-map-marker"></i> <i class="fa fa-caret-down"></i> </button><ul class="dropdown-menu weather-city-dropdown" aria-labelledby="dropdownMenu1"><li class="first"><a href="#" class="weather-city" data-cid="141">Columbus</a></li>
+<li><a href="#" class="weather-city" data-cid="146">Dublin</a></li>
+<li><a href="#" class="weather-city" data-cid="151">Grove City</a></li>
+<li><a href="#" class="weather-city" data-cid="156">Groveport</a></li>
+<li><a href="#" class="weather-city" data-cid="161">Hilliard</a></li>
+<li><a href="#" class="weather-city" data-cid="166">Reynoldsburg</a></li>
+<li class="last"><a href="#" class="weather-city" data-cid="171">Westerville</a></li>
+</ul></div></div>                  <div class="weather-widget">
+                  </div>
+                  <div class="bar-menu-item"><a href="/news" class="">News</a></div><div class="bar-menu-item"><a href="/weather-columbus-ohio" class="">Weather</a></div><div class="bar-menu-item"><a href="/columbus-ohio-traffic" class="">Traffic</a></div><div class="bar-menu-item"><a href="/watchlive" class="">Watch Live</a></div><div class="bar-menu-item"><a href="/sendusnews" class="">Send Us News</a></div><div class="bar-menu-item"><a href="https://publicfiles.fcc.gov/tv-profile/wbns-tv" class="">FCC</a></div>                  <div class="bar-alerts">
+                    <ul class="nav">
+                  </ul></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Weather Bar end -->
+        <!-- Navigation Bar -->
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="row">
+              <nav class="navbar navbar-static-top col-sm-12 col-scrollfix" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                  <span class="menu-toggle-wrapper">
+                    <span id="navigation-menu-toggle" class="fa"></span>
+                    <div class="menu-toggle-label">
+                      Menu                    </div>
+                  </span>
+                  <h1>
+                    <a href="/"><span id="wbns-logo">O&#039;Rourke to lead anti-wall march during Trump Texas rally - WBNS-10TV Columbus, Ohio | Columbus News, Weather &amp; Sports</span></a>                  </h1>
+                  <span class="social-links-wrapper">
+                    <a target="_blank" class="navbar__social" href="https://facebook.com/WBNS10TV"><i class="fa fa-facebook-square"></i></a>
+                    <a target="_blank" class="navbar__social" href="https://twitter.com/10TV"><i class="fa fa-twitter-square"></i></a>
+                    <a target="_blank" class="navbar__social" href="https://instagram.com/wbns10tv"><i class="fa fa-instagram"></i></a>
+                  </span>
+                  <a href="#" class="header-icon pull-right hidden-xs ellipsis" data-toggle="popover" data-placement="bottom" data-content='
+                    <div class=&quot;popover-html&quot;>
+                                              <nav><ul><li><a href="https://www.10tv.com/sendusnews">Send Us News</a></li><li><a href="https://www.10tv.com/termsofservice">Terms of Service</a></li><li><a href="https://www.10tv.com/privacypolicy">Privacy Policy</a></li><li><a href="https://www.10tv.com/adchoices">Ad Choices</a></li><li><a href="https://www.10tv.com/fccreports">FCC Reports</a></li><li><a href="https://www.10tv.com/eeopublicfilereports">EEO Public File Report</a></li><li><a href="https://publicfiles.fcc.gov/tv-profile/wbns-tv" target="_blank">FCC Station Profile</a></li></ul><p>WBNS-TV’s on-line public inspection file can be found on the FCC website or at 10TV.com/fcc. Individuals with disabilities may contact Becky Richey at <a href="mailto:pubfile@10tv.com">pubfile@10tv.com</a> or 614.460.3785 for assistance with access to the WBNS-TV public inspection files.</p><p><br />©Copyright 2018, WBNS-TV, Inc. All Rights Reserved. For more information on this site, please read our Privacy Policy, About Our Ads and Terms of Service. It is the policy of The Dispatch Broadcast Group to provide equal employment opportunity to all qualified individuals without regard to their race, color, religion, national origin, age, sex, martial status, disability, military status, citizenship or any other legally-protected status in accordance with applicable local, state and federal law.</p></nav>                                          </div>
+                  ' data-html="true" data-original-title="" title="">
+                    <i class="ellipsis-icon"></i>
+                  </a>
+                  <a href="#search-area" class="header-icon pull-right search-icon" data-toggle="collapse" data-target="#search-area" aria-expanded="false" aria-controls="search-area"><span id="search-icon"></span></a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <!-- Navigation Bar end -->
+        <div id="search-area" class="panel-collapse collapse" aria-expanded="false">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <form action="/article/orourke-lead-anti-wall-march-during-trump-texas-rally" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Enter Search Term" class="search-field form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-MJeHXDH-uzT0Gg4e3-rDRFxSxG8n1PQBJ1q86bKd2JU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+    <div id="page-content">
+      <div id="scrollable-content">
+        <div class="container">
+                      <div class="row">
+              <div id="top-ad-area" class="col-sm-12">
+                                </div>
+            </div>
+                                                                        <div class="row">
+            <div class="main-tabs col-sm-12">
+                          </div>
+          </div>
+                    <div class="main-content">
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <article class="node node-article full display-type">
+      <div style="text-align: center" class="dfp-ad"><div id="dfp-ad-billboard_responsive-wrapper" class="dfp-tag-wrapper"><div  id="dfp-ad-billboard_responsive-526022247" class="dfp-tag-wrapper dfp-tag-target" dfp-adunit="/8919/10TV_ROS/10TV_News/10TV_Politics" dfp-size="[[970, 250], [728, 90], [300, 250], [320, 50]]" dfp-out-of-page="0" data-ad-type="dfp-ad-billboard_responsive" dfp-breakpoints="[{&quot;browser_size&quot;:&quot;[1024, 768]&quot;,&quot;ad_sizes&quot;:&quot;[[970, 250], [728, 90]]&quot;},{&quot;browser_size&quot;:&quot;[980, 690]&quot;,&quot;ad_sizes&quot;:&quot;[728, 90]&quot;},{&quot;browser_size&quot;:&quot;[800, 600]&quot;,&quot;ad_sizes&quot;:&quot;[728, 90]&quot;},{&quot;browser_size&quot;:&quot;[0, 0]&quot;,&quot;ad_sizes&quot;:&quot;[320, 50]&quot;}]" dfp-targets="[{&quot;target&quot;:&quot;pos&quot;,&quot;value&quot;:&quot;atf&quot;},{&quot;target&quot;:&quot;pos&quot;,&quot;value&quot;:&quot;btf&quot;}]">
+  </div>
+</div></div>    <br/>
+  
+  
+  <div class="row row-article-content">
+    <div class="row row-article-title">
+      <div class="col-sm-12">
+        <div class="node-title">
+          <h2 class="article-title">
+            O&#039;Rourke to lead anti-wall march during Trump Texas rally          </h2>
+          <div class="hidden">
+            <a href="/article/orourke-lead-anti-wall-march-during-trump-texas-rally">O&#039;Rourke to lead anti-wall march during Trump Texas rally</a>          </div>
+          <div class="node-title-page hidden">
+            <span class="title">O&#039;Rourke to lead anti-wall march during Trump Texas rally | WBNS-10TV Columbus, Ohio | Columbus News, Weather &amp; Sports</span>            </div>
+          </div>
+        </div>
+      </div>
+    <div class="row row-article-media">
+      <div class="col-xl-12 col-lg-12 col-sm-12">
+                            <div class="content-media" data-uniqueid="98230">
+                          <div class="content-image-wrapper content-image-large">
+                <img class="content-image" typeof="foaf:Image" src="https://www.10tv.com/sites/default/files/styles/article_image/public/images/2019/02/10/0210_betoorourkefile.jpg?itok=3T-dfmzS" alt="O&amp;#039;Rourke to lead anti-wall march during Trump Texas rally" title="O&amp;#039;Rourke to lead anti-wall march during Trump Texas rally" />                <span class="image-category">
+                  <a href="/politics" class="category--teaser">Politics</a>                </span>
+              </div>
+                                                  <div class="caption no-videos">
+                Former Democratic Texas congressman Beto O'Rourke laughs as with Oprah Winfrey presses him to make the announcement that he is running for president.  (AP Photo/Kathy Willens)              </div>
+                      </div>
+                            </div>
+      </div>
+      <div class="row row-article-body">
+        <div class="col-sm-3">
+          <div class="meta-info">
+            <div class="authors-info">
+                              <div class="author">
+                                      <div class="author__picture" style="background-image:url(https://www.10tv.com/sites/default/files/pictures/picture-611-1461643090.png)"></div>
+                                    <div>
+                    <div class="author__name">
+                      <a rel="nofollow" href="/users/associated-press">Associated Press</a>                    </div>
+                    <small>
+                                          </small>
+                  </div>
+                  <small>
+                                      </small>
+                </div><!-- // author -->
+                          </div>
+            <div class="addthis_toolbox addthis_default_style   social" addthis:title="O&#039;Rourke to lead anti-wall march during Trump Texas rally" addthis:url="https://www.10tv.com/article/orourke-lead-anti-wall-march-during-trump-texas-rally"><a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_facebook"><span class="social-facebook-count count" data-url="/article/orourke-lead-anti-wall-march-during-trump-texas-rally"></span><i class="fa fa-facebook-square"></i></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_twitter"><span class="social-twitter-count count"></span><i class="fa fa-twitter-square"></i></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_email"><span class="social-email-count count"></span><i class="fa fa-envelope"></i></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_reddit"><span class="social-reddit-count count"></span><i class="fa fa-reddit-square"></i></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_pinterest_share"><span class="social-pinterest_share-count count"></span><i class="fa fa-pinterest-square"></i></a>
+</div>
+            <aside class="related-desktop">
+                          </aside>
+          </div>
+          <aside>
+                      </aside>
+        </div>
+        <div class="col-sm-9">
+          <div class="body">
+            <div class="timestamps"><div class="created">Published: <time class="timeago published" datetime="2019-02-10T05:49:06-05:00">02/10/19  05:49 am EST</time></div></div>                                    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><strong>AUSTIN, Texas —</strong> Beto O'Rourke will lead a march though his hometown of El Paso, Texas, to protest a border wall at the same time President Donald Trump will be holding a rally there to promote it.</p><p>O'Rourke is teaming with dozens of civic and human rights organizations for a Monday evening event he says will counter the spreading of "lies and a false narrative about the U.S.-Mexico border."</p><p>Trump said in his State of the Union address that El Paso's border walls helped it become one of the nation's safest cities. O'Rourke and local leaders say Trump's facts are wrong and walls are irrelevant.</p><p>The ex-congressman is still deciding on a presidential run. But treating the political world to 2020's first dueling rallies may indicate O'Rourke is ready to join the race.</p></div></div></div>                          <div class="copyright">&copy;2019 by The Associated Press.  All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</div>                                    <aside class="related-mobile">
+                          </aside>
+            <div class="comment-wrapper">
+                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="node-pager"><a href="/article/warren-makes-presidential-bid-official-call-change?category_id=66" class="node-pager-link" rel="nofollow" data-nid0="2023615" data-nid1="2023597" data-nid2="2023585" data-nid2-path="/article/warren-expected-launch-2020-bid-populist-appeal">&gt; next</a></div></article>
+  </div>
+</div>
+  </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Begin Mather DataLayer  -->
+<script>
+var dataLayer = window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+        'customerId':'ma15895',
+        'market':'05055097',
+        'userId':'rtt6661@gmail.com',
+        'premium':'false',
+        'categories':['News','National News','Politics'],
+        'author':'adam.kirasic@10tv.com',
+        'pageType':'article',
+        'ArticlePublishTime':'2019-02-10T05:49:06-05:00'
+      });
+</script>
+<!-- End Mather DataLayer  -->
+  
+  <div class="uawn-opt-in-prompt bottom-left prompt-modal">
+    <div class="optin-message"><div class="row"><div class="col-lg-4 col-sm-6 col-xs-6 col-6"><img src="https://10tvprod.cdntdpc.com/sites/10tv.com/files/styles/media_thumbnail/public/10logo-UA-webnotify.jpg?itok=6ylPS9TU"></div><div class="col-lg-8 col-sm-6 col-xs-6 col-6" style="padding-left:0px;padding-right:0px;">Want to stay up to date with the latest breaking news alerts from 10TV?</div></div></div>
+    <div class="optin-buttons-wrapper">
+      <button class="uawn-opt-in-allow btn-prompt-allow">Yes</button>
+      <button class="uawn-opt-in-dismiss btn-prompt-dismiss">Not Now</button>
+    </div>
+  </div>
+
+
+<div class="uawn-opt-in-prompt-button">
+  <div class="uawn-opt-in-prompt prompt-button">
+    <div class="optin-buttons-wrapper">
+      <span class="uawn-opt-in-allow prompt-button btn-prompt-allow"><img src="/sites/all/modules/contrib/urban_airship_web_push_notifications/assets/img/bell.svg" width="30"></span>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js_uG8avQN9czbQAD8Z-TvEZ6UgSogYpkgNghBtK0lZVxM.js"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js"></script>
+<script type="text/javascript" src="https://www.10tv.com/sites/default/files/js/js__klDL70SbDkX17g-5e8UzHUOSl4xF3sSMOi-YEGq3vY.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f16fcaf854","applicationID":"156275297","transactionName":"ZgNXNhZWXEZXURVZXV9JdAEQXl1bGUIAV1duC1QMBVBXR2lcDlRXbhBcBxNoQlRRVw==","queueTime":0,"applicationTime":510,"atts":"SkRUQF5MT0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

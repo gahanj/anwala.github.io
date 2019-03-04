@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+<script src="https://intermarkets-net.videoplayerhub.com/videoloader.js"></script>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.newsbusters.org/sites/all/themes/nb7_bs3/img/nbfavicon.png" type="image/png" />
+<meta name="description" content="There are times that women complain about sexism in politics where they just sound ridiculous. Take the Friday night &quot;Week in Politics&quot; roundup on National Public Radio. Host Mary Louise Kelly was outraged by a Huffington Post story on Sen. Amy Klobuchar, expected to announce a presidential run. See if you can believe this complaint. Kelly claimed &quot;I don&#039;t remember a lot of" />
+<meta name="robots" content="index" />
+<meta name="news_keywords" content="Margaret Hoover,,Mary Louise Kelly,NPR, All Things Considered," />
+<link rel="image_src" href="https://cdn.newsbusters.org/images/trump-exec.jpg" />
+<link rel="canonical" href="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia" />
+<meta property="og:site_name" content="NewsBusters" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="INSANE: Women Crying Sexism at NPR Can&#039;t Recall Trump-as-Mean-Boss Stories in 2016??" />
+<meta property="og:url" content="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia" />
+<meta property="og:description" content="There are times that women complain about sexism in politics where they just sound ridiculous. Take the Friday night &quot;Week in Politics&quot; roundup on National Public Radio. Host Mary Louise Kelly was outraged by a Huffington Post story on Sen. Amy Klobuchar, expected to announce a presidential run. See if you can believe this complaint. Kelly claimed &quot;I don&#039;t remember a lot of Are Men Nice Enough stories&quot; in the 2016 campaign!" />
+<meta property="og:image" content="https://cdn.newsbusters.org/images/trump-exec.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@newsbusters" />
+<meta name="twitter:creator" content="@TimJGraham" />
+<meta name="twitter:title" content="INSANE: Women at NPR Can&#039;t Recall Trump-as-Mean-Boss Stories in 2016??" />
+<meta name="twitter:url" content="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia" />
+<meta name="twitter:description" content="There are times that women complain about sexism in politics where they just sound ridiculous. Take the Friday night &quot;Week in Politics&quot; roundup on National Public Radio. Host Mary Louise Kelly was" />
+<meta name="twitter:image" content="https://cdn.newsbusters.org/images/trump-exec.jpg" />
+<meta name="theme-color" content="#ee7624" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="NewsBusters" />
+  <title>INSANE: Women Crying Sexism at NPR Can't Recall Trump-as-Mean-Boss Stories in 2016??</title>
+  <link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_PD7wMLRFmk6bdIWVQoukS0TvOms6gN_9maHJ0nVkMgM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_8mmt3kmRB_I55-uUBbkHfG54y7vmFHfwgLX7aZ2fumk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_3C1WOLfpB6V6Zum0uEqaN05rgbLVfJoGVksRHuFgejY.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_DeyI2x64xgTUOWHGL8cskTw1Njiir09ZzUEHPI_OM2E.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_xJhDTSnICt5bnqa6YnA2BxNMSUKIkCby54SBqv4JBG4.js"></script>
+<script>window._taboola = window._taboola || [];
+            _taboola.push({article:'auto'});
+            !function (e, f, u) {
+              e.async = 1;
+              e.src = u;
+              f.parentNode.insertBefore(e, f);
+            }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            'https://cdn.taboola.com/libtrc/mrctv-newsbustersorg/loader.js')</script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js__c90obBCuWpMQ8ipFvHweQ1ezGJttxNZbGkZZZ0XW_o.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_0qVq0Z4COokvnn8EuZWOi_2lascWSAmD-0HsnpJlaqA.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nb7_bs3","theme_token":"0KN6n4Nnu45DVrsARSxAIz8riscPKTo_SpBFXcfhEx0","js":{"0":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5310064579a0620a":1,"https:\/\/cdn.newsbusters.org\/ads.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/custom\/nb_translate\/nbtranslateStyle.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/contrib\/disqus\/js\/disqus.js":1,"2":1,"sites\/all\/modules\/contrib\/pullquote\/pullquote.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nb7_bs3\/js\/nb7bs3.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/nb_translate\/nbtranslateStyle.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/pullquote\/css\/pullquote_style_1.css":1,"\/\/fonts.googleapis.com\/css?family=Roboto:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic":1,"\/\/fonts.googleapis.com\/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700":1,"\/\/cdn.jsdelivr.net\/fontawesome\/4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/nb7_bs3\/css\/nb7bs3.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"html5":"full"},"disqusComments":"newsbustersorg","disqus":{"domain":"newsbustersorg","url":"https:\/\/www.newsbusters.org\/blogs\/nb\/tim-graham\/2019\/02\/09\/insane-women-crying-sexism-at-npr-trumpnesia","title":"INSANE: Women Crying Sexism at NPR Can\u0026#039;t Recall Trump-as-Mean-Boss Stories in 2016??","identifier":"node\/238239"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-238239 node-type-blog">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9BP8C"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N9BP8C');</script>
+  <!-- End Google Tag Manager -->
+    
+<header id="navbar" role="banner" class="navbar navbar-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                                        <div class="navbar-left">
+                        <div class="navbar-brand logo">
+                            <a class="navbar-btn" href="/"
+                               title="Home">
+                                <img src="//cdn.newsbusters.org/images/header/nb-header-bs3.png" alt="Home" />
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="clearfix visible-xs-block"></div>
+                    <div class="navbar-right">
+                        <div class="navbar-collapse collapse">
+                            <nav role="navigation">
+                                                                      <div class="region region-navigation">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav navbar-nav"><li class="first leaf menu-mlid-3471"><a href="/blogs" title="">Blog</a></li>
+<li class="leaf menu-mlid-3481"><a href="/" title="">Home</a></li>
+<li class="leaf menu-mlid-3486"><a href="https://www.mrc.org/newsletter/preferences?utm_source=newsbusters&amp;utm_medium=menu&amp;utm_content=subscribe&amp;utm_campaign=nb" title="">Subscribe</a></li>
+<li class="last leaf menu-mlid-3491"><a href="/contact-us" title="">Contact</a></li>
+</ul></div>
+  </div>
+                                                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix hidden-xs"></div>
+            <div class="col-xs-12">
+                <div class="nb-navbar wrapper-100">
+                    <div class="navbar-collapse collapse">
+                        <nav role="navigation">
+                                                        <div class="navbar-left">
+                                  <div class="region region-secondary-navigation">
+    <div class="menu-block-wrapper menu-block-2 menu-name-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav navbar-nav secondary"><li class="first leaf menu-mlid-3496"><a href="/business" title="">MRC Business</a></li>
+<li class="leaf menu-mlid-3501"><a href="/culture" title="">MRC Culture</a></li>
+<li class="leaf menu-mlid-3506"><a href="/latino" title="">MRC Latino</a></li>
+<li class="leaf menu-mlid-7708"><a href="https://www.newsbusters.org/techwatch" title="">MRC TechWatch</a></li>
+<li class="last leaf menu-mlid-3511"><a href="https://www.newsbusters.org/donate?utm_source=nb&amp;utm_medium=menu_top&amp;utm_campaign=donate)" title="">Donate</a></li>
+</ul></div>
+  </div>
+                            </div>
+                                                        <div class="clearfix visible-xs"></div>
+                                                        <div class="navbar-right">
+                                  <div class="region region-social-navigation">
+    
+        <ul class="menu nav navbar-nav social">
+            <li><a href="https://www.facebook.com/newsbusters" target="_blank">
+                <i class="fa fa-facebook"></i>
+                </a></li>
+            <li><a href="https://www.twitter.com/newsbusters" target="_blank">
+                <i class="fa fa-twitter"></i>
+                </a></li>
+            <li><a href="https://www.youtube.com/user/MRCTVdotOrg" target="_blank">
+                <i class="fa fa-youtube"></i>
+                </a></li>
+            <li><a href="https://www.newsbusters.org/blog/feed" target="_blank">
+                <i class="fa fa-rss"></i>
+                </a></li>
+            <li><a href="/search" target="_blank">
+                <i class="fa fa-search"></i>
+                </a></li>
+        </ul>  </div>
+                            </div>
+                                                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main-container container">
+
+    <header role="banner" id="page-header">
+        
+          <div class="region region-header">
+    <div id="block-views-hot-topics-block" class="block block-views clearfix">
+        <div class="view view-hot-topics view-id-hot_topics view-display-id-block nb-hot-topics view-dom-id-304c788fed91c19ffc968251534acced">
+                        <a href="#" class="btn btn-default btn-sm disabled"><i class="fa fa-fire"></i></a>    
+    
+                            
+          <a href="https://www.newsbusters.org/non-journalists/jussie-smollett" class="btn btn-primary btn-sm">Jussie Smollett Hoax</a>            
+          <a href="https://www.newsbusters.org/non-journalists/andrew-mccabe" class="btn btn-primary btn-sm">Andrew McCabe</a>            
+          <a href="https://www.newsbusters.org/administrative/media-reality-check" class="btn btn-primary btn-sm">Trump Coverage Studies</a>            
+          <a href="https://www.newsbusters.org/issues-events-groups/covington-kids" class="btn btn-primary btn-sm">Covington Kids</a>                
+    
+                    
+</div></div>
+<div id="block-block-12" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Top_728xFlex (1131674) -->
+<div id="ad_top" class="row" data-spy="affix" data-offset-top="130" style="z-index: 1000; margin-bottom: 10px;">
+ <div class="wrapper-100 center-block text-center" style="margin-bottom: 10px;">
+<div id="imk728xFlexTop" style="height: 105px;"><span class='bt-uid-tg' data-uid='5b562603b5-172' style='display: none !important'></span>
+
+</div>
+ </div>
+</div>
+ <!-- End of JavaScript Tag 
+<div id="wb_mkto_banner"></div>
+--> 
+</div>
+  </div>
+    </header> <!-- /#page-header -->
+
+    <div class="row">
+
+        <section class="col-xs-12 col-tn-6 col-sm-6 col-md-7 col-lg-8">
+                                    <a id="main-content"></a>
+                                        <h1 class="page-header">INSANE: Women Crying Sexism at NPR Can&#039;t Recall Trump-as-Mean-Boss Stories in 2016??</h1>
+                                                                                                                <article id="node-238239" class="node node-blog clearfix" about="/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia" typeof="sioc:Item foaf:Document">
+    <header>
+            <span property="dc:title" content="INSANE: Women Crying Sexism at NPR Can&#039;t Recall Trump-as-Mean-Boss Stories in 2016??" class="rdf-meta element-hidden"></span>            <div class="nb-social">
+      <a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia&pubid=ra-5310064579a0620a"
+       target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
+       <a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia&title=INSANE%21%20Women%20on%20NPR%20complain%20about%20sexism%2C%20claim%20no%20one%20wrote%20Mean%20Boss%20stories%20about%20men%20%28Trump%29%20in%202016%21%3F%21%20Wrong%21%20&pubid=ra-5310064579a0620a&shortener=bitly"
+         target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i>&nbsp;Tweet</a>
+                   <a href="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia#disqus_thread" class="btn btn-primary" title="Comments"><i
+            class="fa fa-comment"></i> <span class="disqus-comment-count" data-disqus-identifier="node/238239" />
+</a>
+                                <a href="https://www.newsbusters.org/print/238239" class="btn btn-info hidden-xs" title="Print" target="_blank"><i
+              class="fa fa-print"></i>&nbsp;Print</a>
+                        
+            <div id="more-share" class="collapse">
+              <a href="https://api.addthis.com/oexchange/0.8/forward/reddit/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia&pubid=ra-5310064579a0620a"
+               target="_blank" class="btn btn-reddit"><i class="fa fa-reddit"></i> Reddit</a>
+               <a href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia&pubid=ra-5310064579a0620a"
+                 target="_blank" class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                 <a href="https://api.addthis.com/oexchange/0.8/forward/googleplus/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia&pubid=ra-5310064579a0620a"
+                   target="_blank" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                   <a href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia&pubid=ra-5310064579a0620a"
+                     target="_blank" class="btn btn-primary"><i class="fa fa-envelope-open"></i></a>
+                     <a href="#more-share" class="btn btn-info btn-more-share" data-toggle="collapse"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                   </div>
+
+                 </div>
+                                              <div class="submitted">
+                  <span property="dc:date dc:created" content="2019-02-09T20:45:39-05:00" datatype="xsd:dateTime" rel="sioc:has_creator">By <span class="source"><a href="/author/tim-graham" title="View user profile." class="username" xml:lang="" about="/author/tim-graham" typeof="sioc:UserAccount" property="foaf:name" datatype="">Tim Graham</a></span> | February 9, 2019 8:45 PM EST</span>                </div>
+                                        </header>
+                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+        <div class="field-items">
+          <div class="field-item" property="content:encoded"><p>There are times that women complain about sexism in politics where they just sound ridiculous. Take the Friday night <a href="https://www.npr.org/2019/02/08/692823565/week-in-politics-trumps-state-of-the-union-address-and-likeability-standards">&quot;Week in Politics&quot; roundup </a>on National Public Radio. Host Mary Louise Kelly was outraged by a Huffington Post story on Sen. Amy Klobuchar, expected to announce a presidential run. See if you can believe this complaint:&nbsp;</p>
+
+<blockquote>
+	<p>MARY LOUISE KELLY: I want to bring up a Huffington Post story that&#39;s just out. The headline is &quot;Klobuchar&#39;s Mistreatment Of Staff Scared Off Candidates To Manage Her Presidential Bid.&quot; It quotes past Klobuchar staffers complaining that she was mean to them. It does also quote staffers who say she&#39;s a great boss. So there we are. My question - and I&#39;ll put this to you, Margaret.<strong> I don&#39;t remember a lot of Are Men Nice Enough pieces during the run-up to the 2016 election.</strong> Is -- am I just forgetting them, Margaret?</p>
+</blockquote>
+
+<p><img alt="" class="image-blog_body-60" src="https://www.newsbusters.org/s3/files/styles/blog_body-60/s3/images/trump-exec.jpg?itok=4heaeNv8" style="float:right; height:277px; margin-left:6px; margin-right:6px; width:492px" /><em>Wow. Just wow. </em>She&#39;s saying NO ONE in the media suggested Donald Trump wasn&#39;t nice enough? Or that no one covered Trump as a boss? Fact check! Here&#39;s just one, NPR: <a href="https://www.politico.com/magazine/story/2016/07/2016-donald-trump-boss-employer-company-hired-fired-employees-workers-management-business-214020">&quot;The Executive Mr. Trump,&quot;</a> about Trump as a boss, <em>Politico</em> magazine, July/August 2016.</p>
+
+<p>Michael Kruse wrote &quot;Throughout his career, according to people who know him, <strong>Trump&rsquo;s ego has grown and his patience has dwindled, intensifying his tendencies toward imperiousness and impetuousness.&quot;&nbsp;</strong></p>
+
+<p>But who needs evidence? Liberal Republican Margaret Hoover of PBS &quot;dumbled down&quot; on the Trumpnesia:&nbsp;</p>
+
+<blockquote>
+	<p>MARGARET HOOVER: <strong>Not only are you not forgetting them. I had to scratch my head even going back to my days as an operative in politics and think if I&#39;d ever heard that line of reasoning against a male boss at all in politics.</strong> And I&#39;d certainly heard it about women but not about men. And it is true. I mean, we know that our politics just still is laden with sexism from the coverage of Hillary Clinton to Sarah Palin to Alexandra Ocasio-Cortez and the overemphasis on the tone and the tenor and the physical appearance of women. Women don&#39;t get a fair shake in the coverage.</p>
+</blockquote>
+
+<p><div id="imkIncontent1" style="align:center;"></div></p>
+
+<p>But there is actually a Triple Crown of Stupid in this segment. <em>New Yorker</em> writer Susan Glasser also couldn&#39;t imagine anyone ever wrote a toxic-Trump story in 2015 or 2016, and unlike the others, she singled out Trump:&nbsp;</p>
+
+<blockquote>
+	<p>SUSAN GLASSER: <strong>Obviously Donald Trump was not judged in similar terms that the Huffington Post applied to Amy Klobuchar in that story, right? </strong>You know, we&#39;re talking about someone who in the president has a toxic management style that&#39;s beyond anything alleged at this moment for any of the Democratic presidential candidates yet that they should be judged on their own right - right? - and their own merit.</p>
+</blockquote>
+
+<p>What makes all this outrage especially hilarious is that NPR is complaining about Terrible Boss stories....and as we&#39;ve just learned this year, <a href="https://www.newsbusters.org/blogs/nb/tim-graham/2018/12/11/bozell-graham-column-npr-shamelessly-exploits-cheap-labor">NPR is a toxic workplace for interns, who are overworked and underpaid for years. </a></p>
+
+<p>So maybe that&#39;s causing the hyper-sensitivity to stories questioning<em> other </em>liberal bosses.&nbsp;</p>
+
+<p><div id="imkIncontent2" style="align:center;"></div></p>
+
+<p>The audio is here:&nbsp;</p>
+
+<p><iframe frameborder="0" height="290" scrolling="no" src="https://www.npr.org/player/embed/692823565/692823568" title="NPR embedded audio player" width="100%"></iframe></p>
+
+<p>&nbsp;</p>
+</div>
+      </div>
+    </div>
+<div class="view view-nb-node view-id-nb_node view-display-id-entity_view_donate_block_nb view-dom-id-f47d54fce3691cf2309339609b44ae5c">
+      
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">      
+  <div class="views-field views-field-nothing">        <span class="field-content"><br /><div class="donateblock"><p class="text-center"><strong><em>Please support NewsBusters today! [a 501(c)(3) non-profit production of the Media Research Center]</em></strong></p>
+<a href="https://www.newsbusters.org/join-the-movement?utm_source=nb_inline&amp;utm_medium=blog&amp;utm_campaign=/author/tim-graham&amp;utm_content=/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia" class="btn btn-lg btn-primary btn-block">DONATE</a>
+<br /><p class="text-center"><em>Or, book travel through MRC’s Travel Discounts Program! 
+MRC receives a rebate for each booking when you use our special codes. </em></p>
+<a href="http://www.alumnibenefits.org/mrc?utm_source=nb_inline&amp;utm_medium=blog&amp;utm_campaign=/author/tim-graham&amp;utm_content=/blogs/nb/tim-graham/2019/02/09/insane-women-crying-sexism-at-npr-trumpnesia" class="btn btn-lg btn-info btn-block">BOOK NOW</a></div><hr /></span>  </div>  </div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <section id="tags">    <a href="/media-places/npr" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">NPR</a>
+    <a href="/media-places/all-things-considered" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">All Things Considered</a>
+    <a href="/people-organizations/mary-louise-kelly" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Mary Louise Kelly</a>
+    <a href="/journalists/margaret-hoover" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Margaret Hoover</a>
+    <a href="/non-journalists/donald-trump" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Donald Trump</a>
+    <a href="/non-journalists/amy-klobuchar" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Amy Klobuchar</a>
+</section><div class="field field-name-field-show-study-icon field-type-list-boolean field-label-hidden">
+        <div class="field-items">
+          <div class="field-item"></div>
+      </div>
+    </div>
+                      <footer>
+                                          <div class="row">
+                                  <div class="col-xs-12">
+                      <div class="block-align-left user-picture">
+    <a href="/author/tim-graham" title="View user profile."><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/author/s3/pictures/picture-13-1430234096.jpg?itok=dqs-Q1zS" width="100" height="100" alt="Tim Graham&#039;s picture" title="Tim Graham&#039;s picture" /></a>  </div>
+                                        <div class="nb-social">
+                                              <a href="https://www.twitter.com/TimJGraham"
+                         target="_blank" class="btn btn-twitter">Follow <i class="fa fa-twitter"></i></a>
+                                                                      <a href="https://www.newsbusters.org/feed/tim-graham"
+                         target="_blank" class="btn btn-primary"><i class="fa fa-rss"></i></a>
+                                            </div>
+                                                          <div class="source">
+                      <a href="/author/tim-graham" title="View user profile." class="username" xml:lang="" about="/author/tim-graham" typeof="sioc:UserAccount" property="foaf:name" datatype="">Tim Graham</a>                    </div>
+                                                        <h4 class="small">
+                      <div class="field field-name-field-byline field-type-text field-label-hidden">
+        <div class="field-items">
+          <div class="field-item">Tim Graham is Executive Editor of NewsBusters and is the Media Research Center’s Director of Media Analysis</div>
+      </div>
+    </div>
+                    </h4>
+                                    <div class="clearfix"></div>
+                  <hr />
+                </div>
+                          </div>
+          </footer>
+                      </article>
+<div id="block-block-63" class="block block-block clearfix">
+        <div id="taboola-below-article-thumbnails">&nbsp;</div></div>
+<div id="block-disqus-disqus-comments" class="block block-disqus clearfix">
+        <div id="disqus_thread"><noscript><p><a href="http://newsbustersorg.disqus.com/?url=https%3A%2F%2Fwww.newsbusters.org%2Fblogs%2Fnb%2Ftim-graham%2F2019%2F02%2F09%2Finsane-women-crying-sexism-at-npr-trumpnesia">View the discussion thread.</a></p></noscript></div></div>
+        </section>
+
+                    <aside class="col-xs-12 col-tn-6 col-sm-6 col-md-5 col-lg-4" role="complementary">
+                  <div class="region region-sidebar-first">
+    <div id="block-block-13" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Top_Right_300xFlex (1131656) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexTop" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b560412c3-172' style='display: none !important'></span>
+
+</div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+<div id="block-block-2" class="block block-block clearfix">
+        <!-- BEGIN TAG - BODY --><div id="mkto_top_ad"></div><!-- END TAG - BODY --></div>
+<div id="block-views-must-read-block" class="block block-views clearfix">
+        <div class="view view-must-read view-id-must_read view-display-id-block view-dom-id-a89613b116f8fb5dd993d11317c6a016 panel panel-default">
+    <div class="panel-heading">        <h4 class="panel-title text-uppercase">Must Read</h4>
+        </div>    
+    
+        <div class="panel-body panel-body-wrapper">              <div class="views-row views-row-1 views-row-odd views-row-first">      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar_image/s3/images/2019-02-18-study-network-coverage-of-chicago-hate-crime-1.png?itok=i7ysClcu" width="400" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one">Nets Spent 157 Minutes on Smollett Hoax, 24 for Racist Facebook Torture Video</a></h4>  </div>  </div>  <div class="views-row views-row-2 views-row-even views-row-last">      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/nb/scott-whitlock/2019/02/18/cbss-lara-logan-goes-nuclear-horsest-propagandist-press"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar_image/s3/images/loganlara.png?itok=jOwS-e3U" width="400" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="/blogs/nb/scott-whitlock/2019/02/18/cbss-lara-logan-goes-nuclear-horsest-propagandist-press">Former CBS Star Lara Logan Goes NUCLEAR on ‘Horsesh**’ ‘Propagandist’ Press </a></h4>  </div>  </div>        </div>    
+    
+                    
+</div></div>
+<div id="block-block-22" class="block block-block clearfix">
+        <div id="mkto_mid_ad"></div></div>
+<div id="block-views-blogs-block-1" class="block block-views clearfix">
+        <div class="view view-blogs view-id-blogs view-display-id-block_1 featured-blog-post view-dom-id-57508d7ba12c51d62e6d0a8c631be6d4">
+                
+    
+                          <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/20/politifact-hates-limbaugh"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/rush-eib_1.jpg?itok=fXoyBWo5" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/20/politifact-hates-limbaugh">PolitiFact Hates Limbaugh Worse Than Trump, Cries &#039;False&#039; on Climate</a></h4>
+    </div>
+</div>        <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/scott-whitlock/2019/02/20/will-liberal-norah-odonnell-replace-jeff-glor-cbs-evening-news"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/odonnellnorah.jpg?itok=CDZz0kU6" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/scott-whitlock/2019/02/20/will-liberal-norah-odonnell-replace-jeff-glor-cbs-evening-news" title="Will Liberal Norah O’Donnell Replace Jeff Glor at CBS Evening News? ">Will Liberal Norah O’Donnell Replace Jeff Glor at CBS Evening News?</a></h4>
+    </div>
+</div>        <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/kyle-drennen/2019/02/19/nbcs-guthrie-asks-mccabe-seven-times-if-trump-national-security"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/2019-02-19-nbc-tday-guthriemccabe.png?itok=p7McFifK" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/kyle-drennen/2019/02/19/nbcs-guthrie-asks-mccabe-seven-times-if-trump-national-security">NBC Asks McCabe Seven Times If Trump Is ‘National Security Threat&#039;</a></h4>
+    </div>
+</div>              
+    
+                    
+</div></div>
+<div id="block-views-blogs-block-2" class="block block-views clearfix">
+        <div class="view view-blogs view-id-blogs view-display-id-block_2 featured-blog-post view-dom-id-eaf9b406e88f3f887428ed19750e721b">
+                
+    
+                          <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/2019-02-18-study-network-coverage-of-chicago-hate-crime-1.png?itok=yoth9bwx" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one">Nets Spent 157 Minutes on Hoax Hate Crime, 24 for FB Torture Video</a></h4>
+    </div>
+</div>        <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/kristine-marsh/2019/02/18/smollett-story-unravels-abc-defends-robin-roberts-softball"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/good_morning_america_-_07_37_10_am.jpg?itok=105vN81B" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/kristine-marsh/2019/02/18/smollett-story-unravels-abc-defends-robin-roberts-softball">ABC Does Damage Control Days After Giving Smollett Friendly Platform</a></h4>
+    </div>
+</div>              
+    
+                    
+</div></div>
+<div id="block-block-14" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Middle_Right_300x250 (3351331) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexBot" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b5619af0d-172' style='display: none !important'></span>
+
+</div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+<div id="block-block-3" class="block block-block clearfix">
+        <!-- BEGIN TAG - BODY --> <div class="internal-ad" id="mkto_bottom_ad"></div> <!-- END TAG - BODY -->
+</div>
+<div id="block-block-16" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Middle_Right_160x600 (1131672) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexMid"  style="height: 615px;"><span class='bt-uid-tg' data-uid='5b8418c5a1-172' style='display: none !important'></span></div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+  </div>
+            </aside>  <!-- /#sidebar-first -->
+        
+    </div>
+</div>
+
+    <div class="nb-bg wrapper-100">
+        <footer class="footer container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+                    <div id="block-menu-menu-footer-secondary-menu" class="block block-menu clearfix">
+        <ul class="menu nav"><li class="first leaf"><a href="/about" title="">About NewsBusters</a></li>
+<li class="leaf"><a href="/send-tip" title="">Send a Tip</a></li>
+<li class="leaf"><a href="http://www.cnsnews.com" title="">CNSNews.com</a></li>
+<li class="leaf"><a href="http://www.mrctv.org" title="">MRCTV</a></li>
+<li class="leaf"><a href="http://mrc.org/action" title="">MRC Action</a></li>
+<li class="leaf"><a href="http://www.mrc.org/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="http://www.intermarkets.net/advertiser-solutions/portfolio/newsbusters" title="">Advertise</a></li>
+</ul></div>
+<div id="block-menu-menu-donation-menu" class="block block-menu clearfix">
+        <ul class="menu nav"><li class="first leaf"><a href="https://www.newsbusters.org/donate?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support NewsBusters</a></li>
+<li class="leaf"><a href="https://www.newsbusters.org/donate/mrc-business?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Business</a></li>
+<li class="leaf"><a href="https://www.newsbusters.org/donate/mrc-culture?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Culture</a></li>
+<li class="last leaf"><a href="https://www.newsbusters.org/donate/mrc-latino?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Latino</a></li>
+</ul></div>
+<div id="block-block-21" class="block block-block clearfix">
+        <div>
+	<div>
+		<div><a href="http://www.mrc.org"><img class="center-block img-responsive" src="//cdn.mrc.org/images/mrc_blocklogo.png" style="max-height:60px" /></a></div>
+	</div>
+
+	<div>
+		<p style="text-align:center">The mission of the <a href="http://www.mrc.org" target="_blank">Media Research Center</a> is to create a media culture in America where truth and liberty flourish. The MRC is a research and education organization operating under <a href="http://www.mrc.org/static/about-us" target="_blank">Section 501(c)(3)</a> of the Internal Revenue Code, and <a href="https://www.mrc.org/action/join-the-movement" target="_blank">contributions</a> to the MRC are tax-deductible.</p>
+	</div>
+</div>
+
+<div>
+	<div style="text-align:center">&nbsp;</div>
+</div>
+
+<div>
+	<div>
+		<div>
+			<p style="text-align:center"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a> | <a href="/terms-use-agreement" title="Terms of Use Agreement">Terms of Use</a></p>
+
+			<p style="text-align:center">&copy; 2005-2019, Media Research Center. All Rights Reserved.</p>
+		</div>
+	</div>
+</div>
+</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+  <script>window._taboola = window._taboola || [];
+            _taboola.push({flush: true});</script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5310064579a0620a"></script>
+<script src="https://cdn.newsbusters.org/ads.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cd4c31791b","applicationID":"103615076","transactionName":"M1NaZENXChFVWhFbCgoZeVNFXwsMG1cKVgA7RllXVGkSC1FO","queueTime":0,"applicationTime":588,"atts":"HxRZEgtNGR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

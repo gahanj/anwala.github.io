@@ -1,0 +1,1241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+  <head>
+    <meta http-equiv="content-type"       content="text/html; charset=utf-8" /> <!-- Alternative: iso-8859-1 -->
+    <meta http-equiv="content-style-type" content="text/css"                 />
+		<meta name="format-detection" content="telephone=no" />
+
+    <!-- link rel="alternate" type="application/rss+xml" title="snooker.org - RSS" href="/res/scorekeeper/rss/feed.xml" / -->
+
+
+
+    <title>Coral World Grand Prix (2019) - snooker.org</title>
+
+    <meta name="keywords"    content="snooker"         />
+    <meta name="Publisher"   content="snooker.org"     />
+    <meta name="Author"      content="Hermund Ãrdalen" />
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/img/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Standard -->
+    <link rel="stylesheet" type="text/css" media="all" href="/res/style/presentation.css?08.11.201502:02:59"       />
+    <!-- /Standard -->
+
+    <!-- jQuery etc -->
+		<script src="/res/scorekeeper/scripts/jquery/js/jquery-1.11.3.min.js"></script>
+    <!-- script language="javascript" type="text/javascript" src="/res/scorekeeper/scripts/jquery/js/jquery-1.4.2.min.js"></script -->
+    <script language="javascript" type="text/javascript" src="/res/scorekeeper/scripts/jquery/jquery.throbber-0.1.2_2/jquery.throbber.min.js"></script>
+		<script src="/res/scorekeeper/scripts/jquery/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+
+		<link rel="stylesheet" href="/res/scorekeeper/scripts/jquery/jquery-ui-1.11.4.custom/jquery-ui.css">
+
+
+
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+
+
+  	    	$(".dialog").dialog({autoOpen: false});
+
+  	    	$(".opener").click(function(event) {
+        		event.preventDefault();
+        		var $this = $(this);
+        		var $id = $this.attr("id");
+        		$id = $id.replace("opener", "dialog")
+        		$("div#" + $id).dialog("open");
+  	    	});
+
+
+			  $('.partofteam').hide();
+
+				// Automatically expand final and active matches
+		    $('.round15.partofteam').show();
+		    $('.unfinished.partofteam').show();
+
+			  $('a.togglesingles').click(function(event){
+			  	event.preventDefault();
+
+			    //get collapse content selector
+			    var collapse_content_selector = $(this).attr('href');
+
+			    //make the collapse content to be shown or hide
+			    var toggle_switch = $(this);
+
+					var newlabel;
+
+			  	if($(collapse_content_selector).css('display')=='none'){
+
+			  		//Change the button label to be 'Show'
+
+			  		$(collapse_content_selector).show();
+
+						newlabel = "<img src='/res/scorekeeper/gfx/icon-minus.png' alt='Hide singles matches' title='Hide singles matches' />";
+
+			  		toggle_switch.html(newlabel);
+
+						if (collapse_content_selector == '.partofteam') {
+							$("a.togglesingles").html(newlabel);
+
+						}
+
+			    }else{
+					  // Change the button label to be 'Hide'
+
+						newlabel = "<img src='/res/scorekeeper/gfx/icon-plus.png' alt='Display singles matches' title='Display singles matches' />";
+
+			  		toggle_switch.html(newlabel);
+
+			  		$(collapse_content_selector).hide();
+
+						if (collapse_content_selector == '.partofteam') {
+							$("a.togglesingles").html(newlabel);
+						}
+			    }
+
+			  });
+
+
+
+
+			  $('form.autosubmit select, div.matches form.autosubmit select, form .opponent').change(function() {
+		      $(this).closest('form').submit();
+	      });
+
+	      $('.javascript_off').hide();
+	      $('.javascript_on').show();
+
+
+				$("body#front form#h2h #player2").hide();
+				// $("body#head2head form#h2h #player2").hide();
+
+        // Head 2 Head: Automatically populate the second player list with possible opponents
+        $("select#player1").change(function(){
+
+				  $("form#h2h img.throbber").show();
+
+				  var this_select_id = $(this).attr("id");
+			  	var other_select_id = '';
+
+			  	if (this_select_id == 'player1') {
+			  		other_select_id = 'player2';
+			  	}	else {
+			  		other_select_id = 'player1';
+			  	}
+
+			  	// alert(this_select_id + ' - ' + other_select_id);
+
+          $.getJSON("/res/scorekeeper/tools/getOpponents.asp",{player: $(this).val(), ajax: 'true'}, function(j){
+			  	  var options = '';
+
+            for (var i = 0; i < j.length; i++) {
+              options += '<option value="' + j[i].optionValue + '">' + j[i].optionDisplay + '</option>';
+            }
+            $("select#"+other_select_id).html(options);
+            // $("select#"+other_select_id).shoq();
+          })
+
+				  $("body#front form#h2h #player2").show();
+					$("body#head2head form#h2h #player2").show();
+
+				  $("form#h2h img.throbber").hide();
+        });
+
+
+			} );
+
+		</script>
+
+    <style type="text/css" title="currentStyle">
+
+      body#front div#content {
+      	width: 728px;
+      }
+
+			#event div.info, body#activematches #content p.info, body#latestresults #content p.info, body#player #content p.info, body#country #content p.info {
+			  width: 728px !important;
+			}
+
+
+
+
+		  table#diary, table#finals, table.matches, table#matchstatsplayer {
+        color:#333333;
+        font:12.8px/1.45em "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+      }
+
+
+        table.matches, table#matchstatsplayer {
+			    clear: both;
+			    margin: 0 auto;
+			    /* width:100%; */
+        }
+
+        table#matchstatsplayer {
+			    margin-bottom: 12px !important;
+          border: 1px solid #ccc;
+        }
+
+        table.matches thead th {
+          border-bottom:1px solid black;
+          font-weight:bold;
+					font-size: 14px;
+          padding:13px 18px 5px 10px;
+			  }
+
+        table#matchstatsplayer thead th {
+          border-bottom:1px solid black;
+          font-weight:bold;
+					/* font-size: 14px; */
+			  }
+
+        table#matchstatsplayer thead th, table#matchstatsplayer tbody td {
+          padding: 2px 8px 4px 8px;
+			  }
+
+			  table.matches, table#matchstatsplayer {
+			  	 xbackground-color:#DDFFDD;
+        }
+
+			  table.matches, table#matchstatsplayer {
+			    padding: 3px 0px 3px 0px;
+			  }
+
+        table#matchstatsplayer .divider {
+			    border-left: 1px dashed #ccc !important;
+        }
+
+
+			p.info {
+			  text-align: center;
+			}
+
+			table.matches td.nationality {
+		    padding-top: 5px !important;
+		    padding-right: 0px !important;
+		    padding-left: 4px !important;
+			  width: 20px;
+			}
+			table.matches td.player {
+		    padding-right: 5px !important;
+		    padding-left: 1px !important;
+			}
+			table.matches td.score {
+			  /* text-align: center; */
+		    padding-right: 3px !important;
+		    padding-left: 0px !important;
+				text-align: center;
+			  /* width: 32px; */
+			}
+			table.matches td.score-delim {
+		    padding-left: 0px !important;
+		    padding-right: 0px !important;
+				text-align: center;
+			}
+			table.matches td.first-score {
+		    padding-left: 4px !important;
+		    padding-right: 0px !important;
+			  text-align: right !important;
+			}
+			table.matches td.last-score {
+		    padding-left: 0px !important;
+		    padding-right: 5px !important;
+			  text-align: left !important;
+			}
+			table.matches td.info {
+			  width: 80px;
+			}
+		</style>
+
+    <script type="text/javascript" src="scorekeeper/scripts/pngfix.js"></script>
+
+
+
+	</head>
+  <body class="main"  id="event"  >
+    <!--start wrapper-->
+    <div id="wrapper"  >
+
+      <!--start main-holder-->
+      <div id="main">
+
+				 <!-- p style="font-size: 20px; padding: 10px; background-color: #f00;"><strong>NB! Because of circumstances beyond our control this site will go down today (Friday). Hopefully it will be back later in the evening.</strong></p -->
+
+				 <!-- p style="font-size: 15px; padding: 10px; background-color: #0f0; color: #000; text-align: center;"><strong>Want to join our great team of updaters? Please <a href="mailto:webmaster@snooker.org">let us know</a>.</strong></p -->
+
+         <div id="toppbanner" style="text-align: center; padding-bottom: 5px;">
+
+           <div class="bilderamme"><a href="/index.asp"><img src="/Img/design/snookerorg.png" border="0" alt="snooker.org Frontpage" /></a></div>
+          </div>
+
+					<center>
+
+<table>
+  <tr valign="top">
+    <td><font size="-1"><b><a href="/">Home</a>:</b></td>
+    <td><font size="-1"><b><a href="/trn/">Tournaments</a>:</b></td>
+    <td><font size="-1"><b><a href="/res/index.asp?season=2018">2018/2019</a></b>:</td>
+    <td align="left"><font size="-1">
+      <a href="/la.shtml" title="Chronological list of updates">What's new</a>   |
+      <a href="/res/index.asp?template=21&season=2018" title="Ongoing matches">Live</a>      |
+      <a href="/res/index.asp?template=22&season=2018" title="Concluded matches">Results</a> |
+      <a href="/res/index.asp?template=24&season=2018" title="Upcoming matches">Upcoming</a> |
+      <a href="/res/index.asp?template=7&season=2018" title="Concluded events">Finals</a>                 |
+      <a href="/res/index.asp?template=2&season=2018#current" title="All the events of the season">Diary</a>          |
+      <a href="/res/index.asp?template=38&season=2018" title="Players on the Main Tour">Main Tour players</a>                            |
+      <a href="/res/index.asp?template=4&season=2018" title="Info and matches on each player">All players</a>                            |
+      <a href="/res/index.asp?template=6&season=2018" title="Head to heads">H2H</a>                                |
+      <a href="/res/index.asp?template=5&season=2018" title="Win percentages">Match stats</a>
+			<!-- | <a href="/res/index.asp?sm=youtube+youku&season=2018">Videos</a> -->
+    </td>
+		    <td>
+		  <div class="followtwitter"><a href="http://twitter.com/snookerorg" title="Follow us on Twitter"><img src="/res/scorekeeper/gfx/t_mini-a.png" alt="Twitter" /></a></div>
+		</td>
+
+  </tr>
+</table>
+
+</center>
+
+        <!--start content-->
+        <div id="content">
+<div class="event">
+<form class="select autosubmit" action="/res/index.asp" method="get">
+<select name="event" id="event" size="0"  class="event" ><option value="751">Challenge Tour 1 (2-3&nbsp;Jun&nbsp;2018)</option>
+<option value="706">Riga Masters Qual (2-5&nbsp;Jul&nbsp;2018)</option>
+<option value="710">World Open Qual (6-9&nbsp;Jul&nbsp;2018)</option>
+<option value="752">Challenge Tour 2 (10-11&nbsp;Jul&nbsp;2018)</option>
+<option value="707">Riga Masters (27-29&nbsp;Jul&nbsp;2018)</option>
+<option value="753">Challenge Tour 3 (28&nbsp;Jul&nbsp;2018)</option>
+<option value="708">World Open (6-12&nbsp;Aug&nbsp;2018)</option>
+<option value="734">Indian Open Qual (15-16&nbsp;Aug&nbsp;2018)</option>
+<option value="732">European Masters Qual (17-18&nbsp;Aug&nbsp;2018)</option>
+<option value="733">China Championship Qual (19-22&nbsp;Aug&nbsp;2018)</option>
+<option value="722">Paul Hunter Classic (22-26&nbsp;Aug&nbsp;2018)</option>
+<option value="754">Challenge Tour 4 (27-28&nbsp;Aug&nbsp;2018)</option>
+<option value="723">6 Red World Championship (3-8&nbsp;Sep&nbsp;2018)</option>
+<option value="791">6 Red, A (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="792">6 Red, B (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="793">6 Red, C (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="794">6 Red, D (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="795">6 Red, E (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="796">6 Red, F (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="797">6 Red, G (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="798">6 Red, H (3-5&nbsp;Sep&nbsp;2018)</option>
+<option value="709">Shanghai Masters (10-16&nbsp;Sep&nbsp;2018)</option>
+<option value="761">UK Women's Championship (15-16&nbsp;Sep&nbsp;2018)</option>
+<option value="802">UK Women's Championship, A (15&nbsp;Sep&nbsp;2018)</option>
+<option value="803">UK Women's Championship, B (15&nbsp;Sep&nbsp;2018)</option>
+<option value="804">UK Women's Championship, C (15&nbsp;Sep&nbsp;2018)</option>
+<option value="805">UK Women's Championship, D (15&nbsp;Sep&nbsp;2018)</option>
+<option value="806">UK Women's Championship, E (15&nbsp;Sep&nbsp;2018)</option>
+<option value="807">UK Women's Championship, F (15&nbsp;Sep&nbsp;2018)</option>
+<option value="808">UK Women's Championship, G (15&nbsp;Sep&nbsp;2018)</option>
+<option value="755">Challenge Tour 5 (18-19&nbsp;Sep&nbsp;2018)</option>
+<option value="725">China Championship (24-30&nbsp;Sep&nbsp;2018)</option>
+<option value="726">European Masters (1-7&nbsp;Oct&nbsp;2018)</option>
+<option value="756">Challenge Tour 6 (4-5&nbsp;Oct&nbsp;2018)</option>
+<option value="789">European Women's Masters (5-7&nbsp;Oct&nbsp;2018)</option>
+<option value="809">European Women's Masters Group A (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="810">European Women's Masters Group B (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="811">European Women's Masters Group C (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="812">European Women's Masters Group D (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="813">European Women's Masters Group E (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="814">European Women's Masters Group F (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="815">European Women's Masters Group G (5-6&nbsp;Oct&nbsp;2018)</option>
+<option value="731">International Championship Qual (9-12&nbsp;Oct&nbsp;2018)</option>
+<option value="757">Challenge Tour 7 (13-14&nbsp;Oct&nbsp;2018)</option>
+<option value="711">English Open (15-21&nbsp;Oct&nbsp;2018)</option>
+<option value="821">Macau Masters (24-25&nbsp;Oct&nbsp;2018)</option>
+<option value="816">Macau Masters Team Stage (24&nbsp;Oct&nbsp;2018)</option>
+<option value="777">UK Seniors Championship (24-25&nbsp;Oct&nbsp;2018)</option>
+<option value="788">Australian Women's Snooker Open (25-28&nbsp;Oct&nbsp;2018)</option>
+<option value="817">Australian Women's Snooker Open Group A (25-26&nbsp;Oct&nbsp;2018)</option>
+<option value="818">Australian Women's Snooker Open Group B (25-26&nbsp;Oct&nbsp;2018)</option>
+<option value="819">Australian Women's Snooker Open Group C (25-26&nbsp;Oct&nbsp;2018)</option>
+<option value="820">Australian Women's Snooker Open Group D (25-26&nbsp;Oct&nbsp;2018)</option>
+<option value="727">International Championship (28&nbsp;Oct&nbsp;-&nbsp;4&nbsp;Nov&nbsp;2018)</option>
+<option value="728">Champion of Champions (5-11&nbsp;Nov&nbsp;2018)</option>
+<option value="712">Northern Ireland Open (12-18&nbsp;Nov&nbsp;2018)</option>
+<option value="790">Challenge Tour 8 (24-25&nbsp;Nov&nbsp;2018)</option>
+<option value="762">Women's Masters (24-25&nbsp;Nov&nbsp;2018)</option>
+<option value="822">Women's Masters, Group A (24&nbsp;Nov&nbsp;2018)</option>
+<option value="823">Women's Masters, Group B (24&nbsp;Nov&nbsp;2018)</option>
+<option value="824">Women's Masters, Group C (24&nbsp;Nov&nbsp;2018)</option>
+<option value="825">Women's Masters, Group D (24&nbsp;Nov&nbsp;2018)</option>
+<option value="826">Women's Masters, Group E (24&nbsp;Nov&nbsp;2018)</option>
+<option value="827">Women's Masters, Group F (24&nbsp;Nov&nbsp;2018)</option>
+<option value="828">Women's Masters, Group G (24&nbsp;Nov&nbsp;2018)</option>
+<option value="729">UK Championship (27&nbsp;Nov&nbsp;-&nbsp;9&nbsp;Dec&nbsp;2018)</option>
+<option value="713">Scottish Open (10-16&nbsp;Dec&nbsp;2018)</option>
+<option value="730">German Masters Qual (18-21&nbsp;Dec&nbsp;2018)</option>
+<option value="768">Championship League - Group 1 (1-2&nbsp;Jan&nbsp;2019)</option>
+<option value="770">Championship League - Group 2 (3-4&nbsp;Jan&nbsp;2019)</option>
+<option value="778">Seniors Irish Masters (5-6&nbsp;Jan&nbsp;2019)</option>
+<option value="771">Championship League - Group 3 (7-8&nbsp;Jan&nbsp;2019)</option>
+<option value="772">Championship League - Group 4 (9-10&nbsp;Jan&nbsp;2019)</option>
+<option value="746">Masters (13-20&nbsp;Jan&nbsp;2019)</option>
+<option value="773">Championship League - Group 5 (21-22&nbsp;Jan&nbsp;2019)</option>
+<option value="774">Championship League - Group 6 (23-24&nbsp;Jan&nbsp;2019)</option>
+<option value="799">Challenge Tour 9 (26-27&nbsp;Jan&nbsp;2019)</option>
+<option value="765">German Masters (30&nbsp;Jan&nbsp;-&nbsp;3&nbsp;Feb&nbsp;2019)</option>
+<option value="829">Belgian Women's Open (1-3&nbsp;Feb&nbsp;2019)</option>
+<option value="830">Belgian Women's Open Group A (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="831">Belgian Women's Open Group B (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="832">Belgian Women's Open Group C (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="833">Belgian Women's Open Group D (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="834">Belgian Women's Open Group E (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="835">Belgian Women's Open Group F (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="836">Belgian Women's Open Group G (1-2&nbsp;Feb&nbsp;2019)</option>
+<option value="745" selected="selected">World Grand Prix (4-10&nbsp;Feb&nbsp;2019)</option>
+<option value="766">Welsh Open (11-17&nbsp;Feb&nbsp;2019)</option>
+<option value="749">China Open Qual (18-21&nbsp;Feb&nbsp;2019)</option>
+<option value="747">Shoot-Out (21-24&nbsp;Feb&nbsp;2019)</option>
+<option value="724">Indian Open (27&nbsp;Feb&nbsp;-&nbsp;3&nbsp;Mar&nbsp;2019)</option>
+<option value="779">World Seniors 6 Red Championship (2-3&nbsp;Mar&nbsp;2019)</option>
+<option value="744">Players Championship (4-10&nbsp;Mar&nbsp;2019)</option>
+<option value="758">Challenge Tour 10 (6-7&nbsp;Mar&nbsp;2019)</option>
+<option value="775">Championship League - Group 7 (11-12&nbsp;Mar&nbsp;2019)</option>
+<option value="769">Championship League - Winners' Group (13-14&nbsp;Mar&nbsp;2019)</option>
+<option value="767">Gibraltar Open (13-17&nbsp;Mar&nbsp;2019)</option>
+<option value="750">Tour Championship (19-24&nbsp;Mar&nbsp;2019)</option>
+<option value="763">Women's 10-Red (29&nbsp;Mar&nbsp;-&nbsp;2&nbsp;Apr&nbsp;2019)</option>
+<option value="764">Women's 6-Red (29&nbsp;Mar&nbsp;-&nbsp;2&nbsp;Apr&nbsp;2019)</option>
+<option value="748">China Open (1-7&nbsp;Apr&nbsp;2019)</option>
+<option value="781">Seniors Masters (10-11&nbsp;Apr&nbsp;2019)</option>
+<option value="743">World Championship Qual (10-17&nbsp;Apr&nbsp;2019)</option>
+<option value="742">World Championship (20&nbsp;Apr&nbsp;-&nbsp;6&nbsp;May&nbsp;2019)</option>
+<option value="776">European Seniors Open (31&nbsp;May&nbsp;-&nbsp;2&nbsp;Jun&nbsp;2019)</option>
+<option value="780">World Seniors Championship (31&nbsp;May&nbsp;-&nbsp;2&nbsp;Jun&nbsp;2019)</option>
+<option value="801">China v UK Challenge (1&nbsp;Jun&nbsp;2019)</option>
+</select>
+
+<input class="javascript_off" type="submit" value="Go" />
+</form>
+
+<h1>Coral World Grand Prix<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=15&par_event_id=745" target="_top" style="text-decoration: none;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a></h1>
+<div class="info">
+<strong>Date:</strong>&nbsp;4-10&nbsp;Feb&nbsp;2019;
+<!-- <strong>Date:</strong>&nbsp;04.02.2019 - 10.02.2019; -->
+<strong>Venue:</strong>&nbsp;<a href="https://maps.google.com/?q=Cheltenham Racecourse, Cheltenham , England" target="_blank" title="Look up in Google Maps">Cheltenham Racecourse</a>, Cheltenham , England;
+<!--;
+<strong>Discipline:</strong>&nbsp;snooker--><strong>Type:</strong>&nbsp;Ranking;
+<strong>Defending&nbsp;champion:</strong>&nbsp;<a href="/res/index.asp?player=5" title="Ronnie O'Sullivan">Ronnie O'Sullivan</a>; 
+<strong>Twitter:</strong>&nbsp;<a href="https://twitter.com/search?q=%23WorldGrandPrix">#WorldGrandPrix</a>;
+<!-- br class="clear" / -->
+<!-- div class="notes" --><strong>Notes:</strong>&nbsp;See also <a href="/res/index.asp?template=22&event=745">results</a>&nbsp;(31)<!-- /div -->
+<br />
+<!-- .info --></div>
+<!-- p class="info">
+<em>Click player names
+or country flags
+for match lists.</em>
+</p -->
+<table cellpadding="0" cellspacing="0" border="0" class="display matches" id="event">
+	<!-- thead id="first">
+		<tr>
+			<th>#</th>
+			<th>Country 1</th>
+			<th>Player 1</th>
+			<th>Score</th>
+			<th>Country 2</th>
+			<th>Player 2</th>
+			<th>Frame scores</th>
+			<th>Note</th>
+		</tr>
+	</thead -->
+<thead  id="first"  >
+	<tr>
+		<th colspan="11">
+			<a name="r15"></a>
+Final<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=15" target="_top" style="text-decoration: none;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a><div class="roundinfo">(Winner: <span title="Winner receives &pound;100,000">&pound;100,000</span>; Runner-up:  <span title="Runner-up receives &pound;40,000">&pound;40,000</span>)</div>		</th>
+	</tr>
+
+</thead>
+<tr class="gradeA even multiple   oneonone round15  latestmod firstinround" valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=12" title="Judd Trump">Judd Trump</a> <span class="seeding" title="Event seeding: 6">[6]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Today&nbsp;8:56am CET" >10</td><td class="score-delim"  title="Last modified: Today&nbsp;8:56am CET" >-</td><td class="last-score"  title="Last modified: Today&nbsp;8:56am CET" >6</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=158" title="Allister Carter">Allister Carter</a> <span class="seeding" title="Event seeding: 17">[17]</span></td>
+<td class="player h2h" rowspan="2">
+<a href="/res/index.asp?player1=158&player2=12&season=-1" title="Head to head (18)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="2"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655779" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/playlist?list=PLbhKMrzApYtld2ybezGj0CTMH0QF2o38t" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=15#match5081443" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr valign="top" class="even info   round15  ">
+<td class="number"></td>
+  <td colspan="7" class="info">
+<p class="framescores">Session 1,<br/><br/>68-16, 59-73, 9-70, 125-4 (113), 71-2 (63)<br/>72-1, 106-8 (54), 20-95 (88), 132-0 (132)<br/><br/>Session 2,<br/>0-133 (99), 67-37, 0-83 (83), 67-69, 72-13 (71)<br/>78-1 (78), 54-1 (54)  </p><p class="note">Referee: <a href="https://twitter.com/belgianproref1">Olivier Marteel</a><br/><br/>This was Trump's second ranking title of the season and 10th overall. He also won the Masters this season.</p>
+  </td>
+</tr>
+<thead  >
+	<tr>
+		<th colspan="11">
+			<a name="r14"></a>
+Semifinals<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=14" target="_top" style="text-decoration: none;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a><div class="roundinfo">(Losers receive <span title="Losers receive &pound;20,000">&pound;20,000</span>)</div>		</th>
+	</tr>
+
+</thead>
+<tr class="gradeA even multiple   oneonone round14   firstinround" valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=158" title="Allister Carter">Allister Carter</a> <span class="seeding" title="Event seeding: 17">[17]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Sun 10&nbsp;Feb&nbsp;10:22pm CET" >6</td><td class="score-delim"  title="Last modified: Sun 10&nbsp;Feb&nbsp;10:22pm CET" >-</td><td class="last-score"  title="Last modified: Sun 10&nbsp;Feb&nbsp;10:22pm CET" >0</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=24" title="Xiao Guodong">Xiao Guodong</a> <span class="seeding" title="Event seeding: 28">[28]</span></td>
+<td class="player h2h" rowspan="2">
+<a href="/res/index.asp?player1=158&player2=24&season=-1" title="Head to head (6)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="2"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655777" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/M6ui9LoA7sI" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="opener" id="opener5081412" href="#" title="Extended info"><img src="/res/scorekeeper/gfx/info.png" border="0" /></a><div class="dialog" id="dialog5081412" title="Extended info">Carter needed a snooker in the fifth frame but he got it and won the frame on a re-spotted black after Xiao went in-off on the last black.</div><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=14#match5081412" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr valign="top" class="even info   round14  ">
+<td class="number"></td>
+  <td colspan="7" class="info">
+<p class="framescores">78-34 (54), 99-0 (99), 79-0 (71), 126-0 (126), 66-59, 59-9</p>
+  </td>
+</tr>
+<tr class="gradeA even multiple   oneonone round14   " valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=12" title="Judd Trump">Judd Trump</a> <span class="seeding" title="Event seeding: 6">[6]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Sat 9&nbsp;Feb&nbsp;8:02pm CET" >6</td><td class="score-delim"  title="Last modified: Sat 9&nbsp;Feb&nbsp;8:02pm CET" >-</td><td class="last-score"  title="Last modified: Sat 9&nbsp;Feb&nbsp;8:02pm CET" >5</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=16" title="Barry Hawkins">Barry Hawkins</a> <span class="seeding" title="Event seeding: 15">[15]</span></td>
+<td class="player h2h" rowspan="2">
+<a href="/res/index.asp?player1=12&player2=16&season=-1" title="Head to head (19)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="2"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655778" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/egCc1U3a4mU" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=14#match5081413" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr valign="top" class="even info   round14  ">
+<td class="number"></td>
+  <td colspan="7" class="info">
+<p class="framescores">34-80, 13-92 (92), 71-25 (60), 68-52 (53)<br/>0-89, 69-0 (50), 29-74 (67), 92-0 (92)<br/>13-77 (55), 86-6 (52), 95-19 (95)</p>
+  </td>
+</tr>
+<thead  >
+	<tr>
+		<th colspan="11">
+			<a name="r13"></a>
+Quarterfinals<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=13" target="_top" style="text-decoration: none;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a><div class="roundinfo">(Losers receive <span title="Losers receive &pound;12,500">&pound;12,500</span>)</div>		</th>
+	</tr>
+
+</thead>
+<tr class="gradeA even    oneonone round13   firstinround" valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=158" title="Allister Carter">Allister Carter</a> <span class="seeding" title="Event seeding: 17">[17]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Thu 7&nbsp;Feb&nbsp;8:24pm CET" >5</td><td class="score-delim"  title="Last modified: Thu 7&nbsp;Feb&nbsp;8:24pm CET" >-</td><td class="last-score"  title="Last modified: Thu 7&nbsp;Feb&nbsp;8:24pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=118" title="David B Gilbert">David B Gilbert</a> <span class="seeding" title="Event seeding: 8">[8]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=158&player2=118&season=-1" title="Head to head (6)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655774" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=SK5GKO0Xlrc" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=13#match5081186" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round13   " valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=24" title="Xiao Guodong">Xiao Guodong</a> <span class="seeding" title="Event seeding: 28">[28]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Thu 7&nbsp;Feb&nbsp;8:24pm CET" >5</td><td class="score-delim"  title="Last modified: Thu 7&nbsp;Feb&nbsp;8:24pm CET" >-</td><td class="last-score"  title="Last modified: Thu 7&nbsp;Feb&nbsp;8:24pm CET" >4</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=1108" title="Yuan Sijun">Yuan Sijun</a> <span class="seeding" title="Event seeding: 29">[29]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=24&player2=1108&season=-1" title="Head to head (5)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655773" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/JQhMlDBGqdo" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=13#match5081187" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round13   " valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=12" title="Judd Trump">Judd Trump</a> <span class="seeding" title="Event seeding: 6">[6]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Fri 8&nbsp;Feb&nbsp;2:15pm CET" >5</td><td class="score-delim"  title="Last modified: Fri 8&nbsp;Feb&nbsp;2:15pm CET" >-</td><td class="last-score"  title="Last modified: Fri 8&nbsp;Feb&nbsp;2:15pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=17" title="Mark Selby">Mark Selby</a> <span class="seeding" title="Event seeding: 3">[3]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=17&player2=12&season=-1" title="Head to head (21)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655776" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/yPRT99AjkZE" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=13#match5081188" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round13   " valign="top" >
+<td class="number" title="Match No.  in this round"></td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=16" title="Barry Hawkins">Barry Hawkins</a> <span class="seeding" title="Event seeding: 15">[15]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Fri 8&nbsp;Feb&nbsp;2:15pm CET" >5</td><td class="score-delim"  title="Last modified: Fri 8&nbsp;Feb&nbsp;2:15pm CET" >-</td><td class="last-score"  title="Last modified: Fri 8&nbsp;Feb&nbsp;2:15pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=39" title="Kyren Wilson">Kyren Wilson</a> <span class="seeding" title="Event seeding: 7">[7]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=39&player2=16&season=-1" title="Head to head (18)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655775" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/Ns44dSmFAog" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=13#match5081189" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<thead  >
+	<tr>
+		<th colspan="11">
+			<a name="r8"></a>
+Round 2<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8" target="_top" style="text-decoration: none;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a><div class="roundinfo">(Last 16; Losers receive <span title="Losers receive &pound;7,500">&pound;7,500</span>)</div>		</th>
+	</tr>
+
+</thead>
+<tr class="gradeA even    oneonone round8   firstinround" valign="top" >
+<td class="number" title="Match No. 1 in this round">1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=158" title="Allister Carter">Allister Carter</a> <span class="seeding" title="Event seeding: 17">[17]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Sun 10&nbsp;Feb&nbsp;10:24pm CET" >4</td><td class="score-delim"  title="Last modified: Sun 10&nbsp;Feb&nbsp;10:24pm CET" >-</td><td class="last-score"  title="Last modified: Sun 10&nbsp;Feb&nbsp;10:24pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=Northern Ireland&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Northern Ireland.png" alt="Northern Ireland" title="N.Ireland" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=202" title="Mark Allen">Mark Allen</a> <span class="seeding" title="Event seeding: 1">[1]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=202&player2=158&season=-1" title="Head to head (12)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655766" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=iY_jiV0NYP8" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="opener" id="opener5081414" href="#" title="Extended info"><img src="/res/scorekeeper/gfx/info.png" border="0" /></a><div class="dialog" id="dialog5081414" title="Extended info">Allen conceded the last frame despite not needing snookers. Watch on <a href="https://www.youtube.com/watch?v=SK5GKO0Xlrc">YouTube</a>.</div><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081414" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 2 in this round">2</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=118" title="David B Gilbert">David B Gilbert</a> <span class="seeding" title="Event seeding: 8">[8]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Thu 7&nbsp;Feb&nbsp;2:02pm CET" >4</td><td class="score-delim"  title="Last modified: Thu 7&nbsp;Feb&nbsp;2:02pm CET" >-</td><td class="last-score"  title="Last modified: Thu 7&nbsp;Feb&nbsp;2:02pm CET" >0</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=224" title="Ding Junhui">Ding Junhui</a> <span class="seeding" title="Event seeding: 24">[24]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=224&player2=118&season=-1" title="Head to head (7)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655771" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=wJL8s-9aWuY" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081415" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 3 in this round">3</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=24" title="Xiao Guodong">Xiao Guodong</a> <span class="seeding" title="Event seeding: 28">[28]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;8:05pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;8:05pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;8:05pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=15" title="Mark Davis">Mark Davis</a> <span class="seeding" title="Event seeding: 21">[21]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=24&player2=15&season=-1" title="Head to head (8)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655767" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/1fr71vPJseI" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081416" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 4 in this round">4</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=1108" title="Yuan Sijun">Yuan Sijun</a> <span class="seeding" title="Event seeding: 29">[29]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;9:56pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;9:56pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;9:56pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=Scotland&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Scotland.png" alt="Scotland" title="Scotland" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=2" title="Stephen Maguire">Stephen Maguire</a> <span class="seeding" title="Event seeding: 13">[13]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=2&player2=1108&season=-1" title="Head to head (3)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655768" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/A09wQZYv3l4" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081417" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 5 in this round">5</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=17" title="Mark Selby">Mark Selby</a> <span class="seeding" title="Event seeding: 3">[3]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Thu 7&nbsp;Feb&nbsp;3:17pm CET" >4</td><td class="score-delim"  title="Last modified: Thu 7&nbsp;Feb&nbsp;3:17pm CET" >-</td><td class="last-score"  title="Last modified: Thu 7&nbsp;Feb&nbsp;3:17pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=Thailand&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Thailand.png" alt="Thailand" title="Thailand" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=208" title="Noppon Saengkham">Noppon Saengkham</a> <span class="seeding" title="Event seeding: 19">[19]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=17&player2=208&season=-1" title="Head to head (7)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655770" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=5lAFIv9Smpk" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081418" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 6 in this round">6</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=12" title="Judd Trump">Judd Trump</a> <span class="seeding" title="Event seeding: 6">[6]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;8:05pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;8:05pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;8:05pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=8" title="Tom Ford">Tom Ford</a> <span class="seeding" title="Event seeding: 22">[22]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=8&player2=12&season=-1" title="Head to head (12)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655769" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/EWI011H5NNE" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081419" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 7 in this round">7</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=39" title="Kyren Wilson">Kyren Wilson</a> <span class="seeding" title="Event seeding: 7">[7]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Thu 7&nbsp;Feb&nbsp;3:55pm CET" >4</td><td class="score-delim"  title="Last modified: Thu 7&nbsp;Feb&nbsp;3:55pm CET" >-</td><td class="last-score"  title="Last modified: Thu 7&nbsp;Feb&nbsp;3:55pm CET" >0</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=30" title="Stuart Bingham">Stuart Bingham</a> <span class="seeding" title="Event seeding: 10">[10]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=39&player2=30&season=-1" title="Head to head (9)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655772" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=EcB8jXt6wzo" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081420" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round8   " valign="top" >
+<td class="number" title="Match No. 8 in this round">8</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=16" title="Barry Hawkins">Barry Hawkins</a> <span class="seeding" title="Event seeding: 15">[15]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;9:42pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;9:42pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;9:42pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=Hong Kong&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Hong Kong.png" alt="Hong Kong" title="Hong Kong" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=4" title="Marco Fu">Marco Fu</a> <span class="seeding" title="Event seeding: 31">[31]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=16&player2=4&season=-1" title="Head to head (12)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/655765" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/i2ZcvpH-jaM" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=8#match5081421" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<thead  >
+	<tr>
+		<th colspan="11">
+			<a name="r7"></a>
+Round 1<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7" target="_top" style="text-decoration: none;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a><div class="roundinfo">(Last 32; Losers receive <span title="Losers receive &pound;5,000">&pound;5,000</span>)</div>		</th>
+	</tr>
+
+</thead>
+<tr class="gradeA even    oneonone round7   firstinround" valign="top" >
+<td class="number" title="Match No. 1 in this round">1</td>
+<td class="nationality"><a href="/res/index.asp?country=Northern Ireland&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Northern Ireland.png" alt="Northern Ireland" title="N.Ireland" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=202" title="Mark Allen">Mark Allen</a> <span class="seeding" title="Event seeding: 1">[1]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Mon 4&nbsp;Feb&nbsp;9:43pm CET" >4</td><td class="score-delim"  title="Last modified: Mon 4&nbsp;Feb&nbsp;9:43pm CET" >-</td><td class="last-score"  title="Last modified: Mon 4&nbsp;Feb&nbsp;9:43pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=546" title="Gary Wilson">Gary Wilson</a> <span class="seeding" title="Event seeding: 32">[32]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=202&player2=546&season=-1" title="Head to head (4)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618576" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=LSG2IOuiEBk" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081198" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 2 in this round">2</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=158" title="Allister Carter">Allister Carter</a> <span class="seeding" title="Event seeding: 17">[17]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;1:51pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;1:51pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;1:51pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=120" title="Martin O'Donnell">Martin O'Donnell</a> <span class="seeding" title="Event seeding: 16">[16]</span></td>
+<td class="player h2h" rowspan="1">
+&nbsp;</td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618577" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=p1VtKcOjOF4" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081199" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 3 in this round">3</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=224" title="Ding Junhui">Ding Junhui</a> <span class="seeding" title="Event seeding: 24">[24]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;10:53pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;10:53pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;10:53pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=85" title="Jack Lisowski">Jack Lisowski</a> <span class="seeding" title="Event seeding: 9">[9]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=85&player2=224&season=-1" title="Head to head (3)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618578" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/y5nv9Byt0-Y" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081200" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 4 in this round">4</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=118" title="David B Gilbert">David B Gilbert</a> <span class="seeding" title="Event seeding: 8">[8]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;4:02pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;4:02pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;4:02pm CET" >0</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=1260" title="Yan Bingtao">Yan Bingtao</a> <span class="seeding" title="Event seeding: 25">[25]</span></td>
+<td class="player h2h" rowspan="1">
+&nbsp;</td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618579" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/IdTfS756mXs" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081201" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 5 in this round">5</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=24" title="Xiao Guodong">Xiao Guodong</a> <span class="seeding" title="Event seeding: 28">[28]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;4:17pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;4:17pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;4:17pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=Australia&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Australia.png" alt="Australia" title="Australia" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=154" title="Neil Robertson">Neil Robertson</a> <span class="seeding" title="Event seeding: 5">[5]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=154&player2=24&season=-1" title="Head to head (5)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618580" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=6JPAowHU15k" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081202" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 6 in this round">6</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=15" title="Mark Davis">Mark Davis</a> <span class="seeding" title="Event seeding: 21">[21]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;4:36pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;4:36pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;4:36pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=93" title="Jimmy Robertson">Jimmy Robertson</a> <span class="seeding" title="Event seeding: 12">[12]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=93&player2=15&season=-1" title="Head to head (4)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618581" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081203" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 7 in this round">7</td>
+<td class="nationality"><a href="/res/index.asp?country=Scotland&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Scotland.png" alt="Scotland" title="Scotland" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=2" title="Stephen Maguire">Stephen Maguire</a> <span class="seeding" title="Event seeding: 13">[13]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;8:01pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;8:01pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;8:01pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=28" title="Mark King">Mark King</a> <span class="seeding" title="Event seeding: 20">[20]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=2&player2=28&season=-1" title="Head to head (11)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618582" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/oRW_EFlSPVo" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081204" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 8 in this round">8</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=1108" title="Yuan Sijun">Yuan Sijun</a> <span class="seeding" title="Event seeding: 29">[29]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;1:51pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;1:51pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;1:51pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=Wales&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Wales.png" alt="Wales" title="Wales" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=1" title="Mark J Williams">Mark J Williams</a> <span class="seeding" title="Event seeding: 4">[4]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=1&player2=1108&season=-1" title="Head to head (3)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618583" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/UDdWl-vJgp8" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081205" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 9 in this round">9</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=17" title="Mark Selby">Mark Selby</a> <span class="seeding" title="Event seeding: 3">[3]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;2:03pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;2:03pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;2:03pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=97" title="Shaun Murphy">Shaun Murphy</a> <span class="seeding" title="Event seeding: 30">[30]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=17&player2=97&season=-1" title="Head to head (28)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618584" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/gIG1W7s7BHM" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081206" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 10 in this round">10</td>
+<td class="nationality"><a href="/res/index.asp?country=Thailand&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Thailand.png" alt="Thailand" title="Thailand" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=208" title="Noppon Saengkham">Noppon Saengkham</a> <span class="seeding" title="Event seeding: 19">[19]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Wed 6&nbsp;Feb&nbsp;2:03pm CET" >4</td><td class="score-delim"  title="Last modified: Wed 6&nbsp;Feb&nbsp;2:03pm CET" >-</td><td class="last-score"  title="Last modified: Wed 6&nbsp;Feb&nbsp;2:03pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=Scotland&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Scotland.png" alt="Scotland" title="Scotland" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=237" title="John Higgins">John Higgins</a> <span class="seeding" title="Event seeding: 14">[14]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=237&player2=208&season=-1" title="Head to head (3)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618585" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/xbOYaecM5yg" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081207" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 11 in this round">11</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=8" title="Tom Ford">Tom Ford</a> <span class="seeding" title="Event seeding: 22">[22]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;9:49pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;9:49pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;9:49pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=168" title="Joe Perry">Joe Perry</a> <span class="seeding" title="Event seeding: 11">[11]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=168&player2=8&season=-1" title="Head to head (8)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618586" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081208" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 12 in this round">12</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=12" title="Judd Trump">Judd Trump</a> <span class="seeding" title="Event seeding: 6">[6]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Tue 5&nbsp;Feb&nbsp;8:01pm CET" >4</td><td class="score-delim"  title="Last modified: Tue 5&nbsp;Feb&nbsp;8:01pm CET" >-</td><td class="last-score"  title="Last modified: Tue 5&nbsp;Feb&nbsp;8:01pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=128" title="Stuart Carrington">Stuart Carrington</a> <span class="seeding" title="Event seeding: 27">[27]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=12&player2=128&season=-1" title="Head to head (7)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618587" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/X22DUCRM_1c" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081209" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 13 in this round">13</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=39" title="Kyren Wilson">Kyren Wilson</a> <span class="seeding" title="Event seeding: 7">[7]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Fri 8&nbsp;Feb&nbsp;10:26pm CET" >4</td><td class="score-delim"  title="Last modified: Fri 8&nbsp;Feb&nbsp;10:26pm CET" >-</td><td class="last-score"  title="Last modified: Fri 8&nbsp;Feb&nbsp;10:26pm CET" >3</td>
+<td class="nationality"><a href="/res/index.asp?country=Wales&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Wales.png" alt="Wales" title="Wales" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=9" title="Matthew Stevens">Matthew Stevens</a> <span class="seeding" title="Event seeding: 26">[26]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=39&player2=9&season=-1" title="Head to head (4)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618588" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://youtu.be/HZYU3bB8UZY" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="opener" id="opener5081210" href="#" title="Extended info"><img src="/res/scorekeeper/gfx/info.png" border="0" /></a><div class="dialog" id="dialog5081210" title="Extended info">Decided on the black. Wilson was 0-3 down.</div><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081210" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 14 in this round">14</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=30" title="Stuart Bingham">Stuart Bingham</a> <span class="seeding" title="Event seeding: 10">[10]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Mon 4&nbsp;Feb&nbsp;9:29pm CET" >4</td><td class="score-delim"  title="Last modified: Mon 4&nbsp;Feb&nbsp;9:29pm CET" >-</td><td class="last-score"  title="Last modified: Mon 4&nbsp;Feb&nbsp;9:29pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=China&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/China.png" alt="China" title="China" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=946" title="Zhao Xintong">Zhao Xintong</a> <span class="seeding" title="Event seeding: 23">[23]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=30&player2=946&season=-1" title="Head to head (3)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618589" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=hLOGNwIl2iY" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081211" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr class="gradeA even multiple   oneonone round7   " valign="top" >
+<td class="number" title="Match No. 15 in this round">15</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=16" title="Barry Hawkins">Barry Hawkins</a> <span class="seeding" title="Event seeding: 15">[15]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Mon 4&nbsp;Feb&nbsp;8pm CET" >4</td><td class="score-delim"  title="Last modified: Mon 4&nbsp;Feb&nbsp;8pm CET" >-</td><td class="last-score"  title="Last modified: Mon 4&nbsp;Feb&nbsp;8pm CET" >1</td>
+<td class="nationality"><a href="/res/index.asp?country=Wales&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Wales.png" alt="Wales" title="Wales" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=68" title="Ryan Day">Ryan Day</a> <span class="seeding" title="Event seeding: 18">[18]</span></td>
+<td class="player h2h" rowspan="2">
+<a href="/res/index.asp?player1=16&player2=68&season=-1" title="Head to head (26)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="2"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618590" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=HcOh16hV6uc" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081212" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+<tr valign="top" class="even info   round7  ">
+<td class="number"></td>
+  <td colspan="7" class="info">
+<p class="note">143 by Hawkins in frame 5 is the highest break of the event so far</p>
+  </td>
+</tr>
+<tr class="gradeA even    oneonone round7   " valign="top" >
+<td class="number" title="Match No. 16 in this round">16</td>
+<td class="nationality"><a href="/res/index.asp?country=Hong Kong&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/Hong Kong.png" alt="Hong Kong" title="Hong Kong" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=4" title="Marco Fu">Marco Fu</a> <span class="seeding" title="Event seeding: 31">[31]</span></td>
+<td class="score  first-score" colspan="1"  title="Last modified: Mon 4&nbsp;Feb&nbsp;8pm CET" >4</td><td class="score-delim"  title="Last modified: Mon 4&nbsp;Feb&nbsp;8pm CET" >-</td><td class="last-score"  title="Last modified: Mon 4&nbsp;Feb&nbsp;8pm CET" >2</td>
+<td class="nationality"><a href="/res/index.asp?country=England&season=2018"><img src="/res/scorekeeper/gfx/flags/icondrawer/16/England.png" alt="England" title="England" border="0" /></a></td>
+<td class="player "><a href="/res/index.asp?player=5" title="Ronnie O'Sullivan">Ronnie O'Sullivan</a> <span class="seeding" title="Event seeding: 2">[2]</span></td>
+<td class="player h2h" rowspan="1">
+<a href="/res/index.asp?player1=5&player2=4&season=-1" title="Head to head (11)"><img src="/res/scorekeeper/gfx/h2h.jpg" width="20" height="20" alt="Head to head" /></a></td>
+  <td class="scheduled" rowspan="1"><a class="scores" href="http://livescores.worldsnookerdata.com/Matches/Result/14065/618591" target="_blank" title="View frame scores and breaks (50+) at World Snooker"><img src="/res/scorekeeper/gfx/details.png" width="24" height="19" alt="Details" /></a>&nbsp;<a class="video" href="https://www.youtube.com/watch?v=FsXSjCrge3Y" title="Watch the whole match on YouTube" target="video"  id="firstvideo" ><img src="/res/scorekeeper/gfx/youtube02_trimmed_45x19.png" width="45" height="19"/></a><a class="editlink" href="http://backend.snooker.org/res/scorekeeper/admin/?action=11&par_event_id=745&par_round_id=7#match5081213" target="_top" style="text-decoration: none; padding-left: 3px;">&nbsp;<img src="/res/scorekeeper/gfx/edit-16.png" alt="Pencil" title="Edit" /></a>  </td></tr>
+ </tbody>
+ <!-- tfoot>
+		<tr>
+			<th>#</th>
+			<th>Player 1</th>
+			<th>Score</th>
+			<th>Player 2</th>
+			<th>Frame scores</th>
+			<th>Note</th>
+		</tr>
+	</tfoot -->
+</table>
+
+<br class="clear" />
+
+</div> <!-- .event -->
+
+
+        <!-- #content --></div>
+
+        <!--end content start sidebar-->
+
+	<style>
+	  div#main {
+			width: 900px;
+			margin: 0 auto;
+	  }
+	  div#content {
+			width: 728px;
+			float: left;
+			xpadding-left: 20px;
+			padding-right: 20px;
+			min-width: 600px;
+	  }
+	  div.left-box, div.right-box {
+			float: left;
+			width: 107px;
+			padding-top: 20px; /* WAS: 120px; */
+		}
+	  div.left-box {
+	  }
+	  div.right-box {
+	  }
+	    div.right-box div.inner {
+			  border: dashed gray 1px;
+				padding: 8px 5px 6px 5px;
+	    }
+	      div.element {
+		    	padding-bottom: 10px;
+		    }
+	        div.element a {
+		      	font-size: 14px;
+		      }
+		div.links {
+		}
+		  div.links h2 {
+			  font-size: 14px;
+				margin-bottom: 3px !important;
+			  padding: 0 0 0 0;
+	  	}
+  		div.links ul {
+			  display: block;
+			  margin-left: 22px;
+			  padding: 0;
+			  margin-top: 0;
+	  	}
+    		div.links ul li {
+	    	}
+      		div.links ul li a {
+	      	}
+
+			div.info {
+				max-width: 770px;
+			}
+
+	</style>
+	<script>
+    $(document).ready(function() {
+
+
+				displaymatchinfo();
+
+				hideextendednote();
+
+
+		  $('#hidematchinfo').click(function(event){
+				event.preventDefault();
+		    hidematchinfo();
+		  });
+
+		  $('#displaymatchinfo').click(function(event){
+				event.preventDefault();
+		    displaymatchinfo();
+		  });
+
+
+		  function hidematchinfo() {
+		    $('#hidematchinfo').hide();
+		    $('#displaymatchinfo').show();
+		    $('tr.info td').hide();
+		    $('tr td.scheduled img').hide();
+		    $('tr td.scheduled br.stuff').hide();
+		    // $('p.framescores').hide();
+		    // $('tr.info td').hide();
+		    // $('tr.info').hide();
+		  }
+
+		  function displaymatchinfo() {
+		    $('#displaymatchinfo').hide();
+		    $('#hidematchinfo').show();
+		    $('tr.info td').show();
+		    $('tr td.scheduled img').show();
+		    $('tr td.scheduled br.stuff').show();
+		    // $('p.framescores').show();
+		    // $('tr.info').show();
+		    // $('tr.info td').show();
+		  }
+
+
+		  $('#hideextendednote').click(function(event){
+				event.preventDefault();
+		    hideextendednote();
+		  });
+
+		  $('#displayextendednote').click(function(event){
+				event.preventDefault();
+		    displayextendednote();
+		  });
+
+
+		  function hideextendednote() {
+		    $('#hideextendednote').hide();
+		    $('#displayextendednote').show();
+		    $('tr.extendednoteonly td').hide();
+		    $('p.extendednote').hide();
+		  }
+
+		  function displayextendednote() {
+		    $('#displayextendednote').hide();
+		    $('#hideextendednote').show();
+		    $('tr.extendednoteonly td').show();
+		    $('p.extendednote').show();
+		  }
+
+
+
+	    displayplayers();
+
+		  $('#hideplayers').click(function(event){
+				event.preventDefault();
+		    hideplayers();
+		  });
+
+		  $('#displayplayers').click(function(event){
+				event.preventDefault();
+		    displayplayers();
+		  });
+
+
+		  function hideplayers() {
+		    $('#hideplayers').hide();
+		    $('#displayplayers').show();
+		    $('tr.partofteam').hide();
+		  }
+
+
+		  function displayplayers() {
+		    $('#displayplayers').hide();
+		    $('#hideplayers').show();
+		    $('tr.partofteam').show();
+		  }
+
+		});
+	</script>
+	<div class="right-box">
+	  <div class="inner">
+		  <div class="element facebook-button">
+  	  	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like send="false" layout="button_count" width="100" style="width: 100px;"></fb:like>
+			</div>
+
+		    <div class="element twitter-button">
+		      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="snookerorg">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		    </div>
+
+	  	  <div class="element facebook">
+  		  	<a href="https://www.facebook.com/snookerorg" alt="Visit our Facebook Page" title="Visit our Facebook Page"><img src="http://snooker.org/img/facebook.jpg"></a>
+				</div>
+
+				<div class="element orderofplay">
+				<a href="/res/index.asp?template=45&event=745" title="Order of play, by session">Order of play</a>
+				</div>
+
+				<div class="element bracket">
+					<a href="/res/bracket.asp?event=745" title="Display an flowchart of the draw" target="brackets">Brackets</a>
+				</div>
+
+				<div class="element bracket">
+					<a href="/res/index.asp?template=44&event=745" title="Display a list of competitors in the event">Competitors</a>
+				</div>
+
+  			<div class="element previousedition">
+  				<a href="/res/?event=631" title="Previous edition of this event<!--Euro Tour 3 (1-5&nbsp;Oct&nbsp;2014)-->">Previous edition</a>
+  			</div>
+
+				<div class="element hiders">
+				  <a id="hidematchinfo" href="#">Hide notes, framescores &amp; icons</a>
+				  <a id="displaymatchinfo" href="#">Display notes, framescores &amp; icons</a>
+				</div>
+
+					<div class="element links">
+				    <h2>External links</h2>
+					  <ul>
+
+   							<!-- TEMPLATE 2017 -->
+
+							  
+					      <li><a href="http://livescores.worldsnookerdata.com/LiveScoring/Tournament/14065" target="external">Live scores</a>
+					      <li><a href="http://livescores.worldsnookerdata.com/Matches/Index/14065" target="external">Matches</a>
+					      <li><a href="http://livescores.worldsnookerdata.com/Centuries/CenturyBreaks/14065" target="external">Centuries</a>
+					      <li><a href="http://livescores.worldsnookerdata.com/Players/Tournament/14065" target="external">Players</a>
+					      <li><a href="http://livescores.worldsnookerdata.com/Sessions/Tournament/14065" target="external">Sessions</a>
+					      <li><a href="http://livescores.worldsnookerdata.com/Draw/Tournament/14065" target="external">Draw</a>
+
+					      <li><a href="http://cuetracker.net/Tournaments/world-grand-prix/2019/2852" target="external" title="CueTracker's page for this event">CueTracker</a>
+
+					      <li><a href="http://event-prediction.com/ranking.asp?comp=2813" target="external">Contest</a>
+
+					  </ul>
+				  </div>
+
+	    <div class="banner" style="">
+			<a href="https://thehungersite.greatergood.com/" title="Help feed the world's hungry with one click"><img width="95" border="0" alt="The Hunger Site" src="http://snooker.org/img/linktous_ths_medium.jpg"></img></a>
+			<!-- a href="http://www.thehungersite.com" target="_blank"><img src="/img/hungersite.gif" alt="Click to donate free food" border="0" ></a -->
+	    </div>
+
+			<!-- a class="twitter-timeline" href="https://twitter.com/snookerorg" data-widget-id="361887790931263489" width="100" height="600">Tweets by @snookerorg</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script -->
+
+			<div class="element about">
+			  <p><a href="http://snooker.org/res/scorekeeper/admin/about.asp?version=1.0.434">About ScoreKeeper</a></p>
+			</div>
+
+  	<!-- .inner --></div>
+	<!-- .right-box --></div>
+
+						<div class="clear"></div>
+
+      <!-- #main --></div>
+
+
+          <!-- ============= BUNN - START ============= -->
+          <div id="ytre-bunn">
+            <div id="indre-bunn">
+
+
+              <!-- Solid Boks -->
+
+              <table class="solidbox"  id="bunn-meny" >
+                <tr>
+                  <td class="btop-left"></td>
+                  <td class="btop"></td>
+                  <td class="btop-right"></td>
+                </tr>
+                <tr>
+                  <td class="bleft"></td>
+                  <td class="bcontent">
+
+                    <!-- ============= BUNNMENY - START ============= -->
+                    <div id="ytre-bunn-meny">
+                      <div id="indre-bunn-meny">
+
+                        <a href="/email.shtml">Contact&nbsp;&raquo;</a>
+                        <span class="separator">|</span>
+                        <a href="/search">Search&nbsp;&raquo;</a>
+
+                        <span class="separator">|</span>
+                        <a href="/quick.shtml">A &ndash; Z&nbsp;&raquo;</a>
+                        <span class="separator">|</span>
+                        <a href="/credits.shtml">credits&nbsp;&raquo;</a>
+                        <!-- span class="separator">|</span>
+                        <a href="/info.shtml#Disclaimer">Disclaimer&nbsp;&raquo;</a -->
+                        <span class="separator">|</span>
+                        <a href="/info.shtml">About&nbsp;&raquo;</a>
+
+                        <span class="separator">|</span>
+                        <a id="rss" href="http://feed43.com/3646500336171735.xml" target="_blank"><img align="absbottom" src="/img/rss.jpg" alt="RSS" border="0" /></a>
+
+                        <span class="separator">|</span>
+												<a href="https://twitter.com/snookerorg" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @snookerorg</a>
+												<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+												<!-- a href="https://twitter.com/snookerorg" class="twitter-follow-button" data-show-count="false">Follow @snookerorg</a>
+												<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script -->
+
+                        <!-- a href="http://twitter.com/snookerorg"><img style="width: 100px; height: 23px; vertical-align: middle;" border="0" alt="Twitter" src="http://hermund.ardalen.com/bp/twitter.png"></a -->
+
+
+                        <span class="separator">|</span>
+												<a href="https://facebook.com/snookerorg" alt="Visit our Facebook Page" title="Visit our Facebook Page"><img src="/img/facebook.jpg"></a>
+
+                      </div> <!-- indre-bunn-meny -->
+                    </div> <!-- ytre-bunn-meny -->
+                    <!-- ============= BUNNMENY - SLUTT ============= -->
+
+                  </td>
+                  <td class="bright"></td>
+                </tr>
+                <tr>
+                  <td class="bbottom-left"></td>
+                  <td class="bbottom"></td>
+                  <td class="bbottom-right"></td>
+                </tr>
+              </table> <!-- solidbox -->
+
+            </div> <!-- indre-bunn -->
+          </div> <!-- ytre-bunn -->
+          <!-- ============= BUNN - SLUTT ============= -->
+
+		<!-- #wrapper --></div>
+
+<!-- Start of Woopra Code -->
+<script type="text/javascript">
+!function(){var a,b,c,d=window,e=document,f=arguments,g="script",h=["config","track","trackForm","trackClick","identify","visit","push","call"],i=function(){var a,b=this,c=function(a){b[a]=function(){return b._e.push([a].concat(Array.prototype.slice.call(arguments,0))),b}};for(b._e=[],a=0;a<h.length;a++)c(h[a])};for(d.__woo=d.__woo||{},a=0;a<f.length;a++)d.__woo[f[a]]=d[f[a]]=d[f[a]]||new i;b=e.createElement(g),b.async=1,b.src="//static.woopra.com/js/w.js",c=e.getElementsByTagName(g)[0],c.parentNode.insertBefore(b,c)}("woopra");
+
+// configure tracker
+woopra.config({
+ domain: "snooker.org",
+ download_tracking: true,
+ outgoing_tracking: true,
+ outgoing_ignore_subdomain: true
+});
+
+// track pageview
+woopra.track();
+</script>
+<!-- End of Woopra Code -->
+
+
+  <!-- Start: Tracking Facebook Like with Woopra -->
+  <script type="text/javascript">
+  if (typeof FB != 'undefined') {
+      FB.Event.subscribe('edge.create', function(url) {
+          woopraTracker.pushEvent({name: 'Facebook Like', url: url});
+      });
+  }
+  </script>
+  <!-- End: Tracking Facebook Like with Woopra -->
+
+  <script src="http://www.google-analytics.com/ga.js" type="text/javascript">
+  </script>
+
+  <!-- Google Analytics Social Button Tracking -->
+  <!-- script type="text/javascript" src="https://app.tabpress.com/js/ga_social_tracking.js"></script -->
+
+  <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-53775-1");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+  	pageTracker._trackPageLoadTime();
+
+  	FB.Event.subscribe('edge.create', function(targetUrl) {
+  	  _gaq.push(['_trackSocial', 'facebook', 'like', targetUrl]);
+    });
+  	FB.Event.subscribe('edge.remove', function(targetUrl) {
+  	  _gaq.push(['_trackSocial', 'facebook', 'unlike', targetUrl]);
+    });
+  	FB.Event.subscribe('message.send', function(targetUrl) {
+  	  _gaq.push(['_trackSocial', 'facebook', 'send', targetUrl]);
+    });
+
+    twttr.events.bind('tweet', function(event) {
+      if (event) {
+        var targetUrl;
+        if (event.target && event.target.nodeName == 'IFRAME') {
+          targetUrl = extractParamFromUri(event.target.src, 'url');
+        }
+        _gaq.push(['_trackSocial', 'twitter', 'tweet', targetUrl]);
+      }
+  	});
+
+    function extractParamFromUri(uri, paramName) {
+      if (!uri) {
+        return;
+      }
+      var uri = uri.split('#')[0];  // Remove anchor.
+      var parts = uri.split('?');  // Check for query params.
+      if (parts.length == 1) {
+        return;
+      }
+      var query = decodeURI(parts[1]);
+
+      // Find url param.
+      paramName += '=';
+      var params = query.split('&');
+      for (var i = 0, param; param = params[i]; ++i) {
+        if (param.indexOf(paramName) === 0) {
+          return unescape(param.split('=')[1]);
+        }
+      }
+    }
+
+  </script>
+
+  </body>
+</html>

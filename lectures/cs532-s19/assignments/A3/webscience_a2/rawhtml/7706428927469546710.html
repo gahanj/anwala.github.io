@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"agent":"","applicationID":"5791111","errorBeacon":"bam.nr-data.net","transactionName":"ZwRUbERQDUsHVkJdWV5OcE1YUhdRCVsZVUZAT1JZX10aSgNUUlhfQxUYTl9UFEtcVERAX1MNUw==","applicationTime":336,"licenseKey":"8c66ac5a08","beacon":"bam.nr-data.net","queueTime":1}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="The evangelical fortress around the president can look like a problem, but progressives can use that heresy to fight opponents
+The annual anachronism known as the National Prayer Breakfast attracted its usual array of clergy, military, and political leaders in Washington on 7 February. Most prominent of all, of course, was Donald Trump, who used the de facto pulpit to call for outlawing abortion, among other positions dear to the Religious Right.
+Yet the presidential comment that most typified...">
+<meta name="keywords" content="Evangelical Christianity,Donald Trump,Trump administration,US politics,opinions,news">
+<meta name="news_keywords" content="Evangelical Christianity,Donald Trump,Trump administration,US politics,opinions,news">
+<link rel="shortcut icon" href="https://www.iconj.com/ico/x/t/xtndss0p4t.ico" type="image/x-icon" />
+<meta name="og:type" content="article" />
+<meta name="og:url" content="http://dailyreadlist.com/article/in-revering-trump-the-religious-right-has-laid-ba-73" />
+<meta name="og:title" content="
+In revering Trump, the religious right has laid bare its hypocrisy
+" />
+<meta name="og:image" content="http://i.guim.co.uk/img/media/5a91455ee59e84079e4d2f8892673aa4e2dcfcef/0_12_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&s=61401c593f8d4337a79065876883606f" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@dailyreadlist" />
+<meta name="twitter:creator" content="@dailyreadlist">
+<meta name="twitter:title" content="
+In revering Trump, the religious right has laid bare its hypocrisy
+" />
+<meta name="twitter:description" content="The evangelical fortress around the president can look like a problem, but progressives can use that heresy to fight opponents
+The annual anachronism known as the National Prayer Breakfast attracted its usual array of clergy, military, and political leaders in Washington on 7 February. Most prominent of all, of course, was Donald Trump, who used the de facto pulpit to call for outlawing abortion, among other positions dear to the Religious Right.
+Yet the presidential comment that most typified..." />
+<meta name="twitter:image" content="http://i.guim.co.uk/img/media/5a91455ee59e84079e4d2f8892673aa4e2dcfcef/0_12_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&s=61401c593f8d4337a79065876883606f" />
+<meta name="twitter:url" content="http://dailyreadlist.com/article/in-revering-trump-the-religious-right-has-laid-ba-73" />
+<title>
+In revering Trump, the religious right has laid bare its hypocrisy
+</title>
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://dailyreadlist.s3.dualstack.us-east-1.amazonaws.com/static/css/65er1tyh87.css?ae3327ec">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://dailyreadlist.s3.dualstack.us-east-1.amazonaws.com/static/js/wf8uy678oc.js?ddbb8255"></script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+<i class="fa fa-bars"></i>
+</button>
+<span class="navbar-brand">
+<a href="/">Daily Read List
+<span class="category visible-xs-inline">
+Opinions
+</span>
+</a>
+</span>
+</div>
+<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+<ul class="nav navbar-nav nav-right">
+<li>
+<a href="/top">Top</a>
+</li>
+<li>
+<a href="/trending">Trending</a>
+</li>
+<li>
+<a href="/entertainment">Entertainment</a>
+</li>
+<li>
+<a href="/fashion">Fashion</a>
+</li>
+<li>
+<a href="/world">World</a>
+</li>
+<li class="active">
+<a href="/opinions">Opinions</a>
+</li>
+<li>
+<a href="/sports">Sports</a>
+</li>
+<li>
+<a href="/tech">Tech</a>
+</li>
+<li>
+<a href="/USA">USA</a>
+</li>
+<li>
+<a href="/inspiring">Inspiring</a>
+</li>
+<li>
+<a href="/politics">Politics</a>
+</li>
+</ul>
+</div>
+
+</div>
+
+</nav>
+<div class="container details">
+<div class="row">
+<div class="col-md-8 main-scope">
+<article itemscope itemtype="http://schema.org/Article" class="full">
+<header>
+<h1>
+<span itemprop="name">In revering Trump, the religious right has laid bare its hypocrisy</span>
+<br>
+<small>
+<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">The Guardian</span></span>
+- <time itemprop="datePublished" datetime="2019-02-10T11:00:35.000Z">2019-02-10T11:00:35.000Z</time>
+</small>
+</h1>
+</header>
+<div itemprop="articleBody" class="content">
+<p class="hero"><a href="/read/in-revering-trump-the-religious-right-has-laid-ba-73" rel="nofollow"><img class="img-responsive" itemprop="image" content="http://i.guim.co.uk/img/media/5a91455ee59e84079e4d2f8892673aa4e2dcfcef/0_12_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&s=61401c593f8d4337a79065876883606f" src="https://i.guim.co.uk/img/media/5a91455ee59e84079e4d2f8892673aa4e2dcfcef/0_12_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom,left&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&s=61401c593f8d4337a79065876883606f"></a></p>
+<p><span class="pw-server-widget" data-id="wid-n1itts5d"></span></p>
+<p><input type="hidden" name="IL_IN_TAG" value="1" /></p>
+
+<p>The evangelical fortress around the president can look like a problem, but progressives can use that heresy to fight opponents</p>
+<p>The annual anachronism known as the National Prayer Breakfast attracted its usual array of clergy, military, and political leaders in Washington on 7 February. Most prominent of all, of course, was Donald Trump, who used the de facto pulpit to call for outlawing abortion, among other positions dear to the Religious Right.</p>
+<p>Yet the presidential comment that most typified...</p>
+<p><small>
+Read this story at
+<a href="/read/in-revering-trump-the-religious-right-has-laid-ba-73" rel="nofollow" itemprop="url">
+The Guardian
+</a>
+</small></p>
+</div>
+</article>
+<section>
+<div id="amzn-assoc-ad-71ba8c05-548d-412a-9deb-bf40977b3047"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=71ba8c05-548d-412a-9deb-bf40977b3047"></script>
+<div class="row">
+<div class="centered">
+<input type="hidden" name="IL_IN_ARTICLE">
+</div>
+</div>
+<div id="M115361ScriptRootC116088"><div id="M115361PreloadC116088">Loading...</div><script>(function(){var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById';var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M115361ScriptRootC116088")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}catch(e){var iw=d;var c=d[gi]("M115361ScriptRootC116088");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=116088;c[ac](dv);var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src="//jsc.mgid.com/d/a/dailyreadlist.com.116088.js?t="+D.getYear()+D.getMonth()+D.getDate()+D.getHours();c[ac](s);})();</script></div>
+<div id="contentad134364"></div>
+<script type="text/javascript">if (!isMobile.phone) {(function(d) { var params = { id: "a3960d86-b513-4d0f-9035-ba7fd2977312", d: "ZGFpbHlyZWFkbGlzdC5jb20=", wid: "134364", cb: (new Date()).getTime() }; var qs=[]; for(var key in params) qs.push(key+'='+encodeURIComponent(params[key])); var s = d.createElement('script');s.type='text/javascript';s.async=true; var p = 'https:' == document.location.protocol ? 'https' : 'http'; s.src = p + "://api.content.ad/Scripts/widget2.aspx?" + qs.join('&'); d.getElementById("contentad134364").appendChild(s); })(document);}</script>
+</section>
+<section>
+
+<h3>Related Articles</h3>
+<div class="row">
+<div class="col-sm-6">
+<div id="ca_section">
+<div class="ca_adbox">
+<ul class="ca_adbox_inner list-unstyled full">
+<li class="ca_container" data-hits="315">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/trump-calls-democrats-religious-bigotry-crisis-f-36">
+Trump Calls Democrats’ Religious Bigotry ‘Crisis for Our Country’ Trump Calls Democrats’ Religious Bigotry ‘Crisis for Our Country’
+</a>
+<div class="ca_referrer">by The Daily Signal</div>
+</div>
+</li><li class="ca_container" data-hits="11">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/rep-eric-swalwell-right-to-be-safe-trumps-righ-24">
+Rep. Eric Swalwell: 'Right to be Safe' Trumps Right to Bear Arms
+</a>
+<div class="ca_referrer">by Breitbart</div>
+</div>
+</li><li class="ca_container" data-hits="6">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/former-trump-resort-workers-speak-out-on-trump-s-i-98">
+Former Trump resort workers speak out on Trump's immigration hypocrisy: 'There were many of us'
+</a>
+<div class="ca_referrer">by Daily Kos</div>
+</div>
+</li><li class="ca_container" data-hits="6">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/trump-just-destroyed-the-usa-furious-right-wing-70">
+'Trump just destroyed the USA': Furious right-wing Trump fans melt down because they think the president was duped
+</a>
+<div class="ca_referrer">by Raw Story</div>
+</div>
+</li><li class="ca_container" data-hits="523">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/a-national-emergency-trump-trumps-trump-16">
+A national emergency: Trump trumps Trump
+</a>
+<div class="ca_referrer">by TheHill</div>
+</div>
+</li><li class="ca_container" data-hits="6">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/a-vietnamese-barber-shop-right-next-to-trump-and-k-37">
+A Vietnamese barber shop right next to Trump and Kim Jong Un's next summit is offering free Trump and Kim-style haircuts
+</a>
+<div class="ca_referrer">by Business Insider</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div id="ca_section">
+<div class="ca_adbox">
+<ul class="ca_adbox_inner list-unstyled full">
+<li class="ca_container" data-hits="2">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/the-right-strategy-to-primary-trump-28">
+The right strategy to primary Trump
+</a>
+<div class="ca_referrer">by The Washington Post</div>
+</div>
+</li><li class="ca_container" data-hits="3">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/trump-is-right-to-warn-dems-against-socialism-1">
+Trump is right to warn Dems against socialism
+</a>
+<div class="ca_referrer">by New York Post</div>
+</div>
+</li><li class="ca_container" data-hits="24">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/turns-out-donald-trump-was-right-about-the-fed-32">
+Turns out Donald Trump was right about the Fed
+</a>
+<div class="ca_referrer">by World Tribune</div>
+</div>
+</li><li class="ca_container" data-hits="3">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/both-the-intel-community-and-trump-can-be-right-14">
+Both The Intel Community, and Trump, Can Be Right
+</a>
+<div class="ca_referrer">by The American Conservative</div>
+</div>
+</li><li class="ca_container" data-hits="11">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/trump-versus-the-spy-chiefs-who-s-right-76">
+Trump Versus The Spy Chiefs: Who's Right?
+</a>
+<div class="ca_referrer">by Zero Hedge</div>
+</div>
+</li><li class="ca_container" data-hits="4">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/trump-vs-the-spy-chiefs-who-s-right-94">
+Trump vs. the Spy Chiefs: Who's Right?
+</a>
+<div class="ca_referrer">by CNS News</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="col-md-4 side-scope">
+<aside>
+<div class="centered follows">
+<div class="fb-like" data-href="https://www.facebook.com/dailyreadlist/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<a href="https://twitter.com/dailyreadlist" class="twitter-follow-button" data-show-count="false">Follow @dailyreadlist</a>
+</div>
+<div id="contentad141099"></div>
+<script type="text/javascript">if (!isMobile.phone && !isMobile.tablet) {(function(d) { var params = { id: "5399ed1a-4720-4a6d-8cf2-825f3fd7a620", d:  "ZGFpbHlyZWFkbGlzdC5jb20=", wid: "141099", cb: (new Date()).getTime() }; var qs=[]; for(var key in params) qs.push(key+'='+encodeURIComponent(params[key])); var s = d.createElement('script');s.type='text/javascript';s.async=true; var p = 'https:' == document.location.protocol ? 'https' : 'http'; s.src = p + "://api.content.ad/Scripts/widget2.aspx?" + qs.join('&'); d.getElementById("contentad141099").appendChild(s); })(document);}</script>
+<div id="contentad159035"></div>
+<script type="text/javascript">if (isMobile.phone) {(function(d) { var params = { id: "c1b1e058-677d-4005-847d-b387af75d915", d: "ZGFpbHlyZWFkbGlzdC5jb20=", wid: "159035", cb: (new Date()).getTime() }; var qs=[]; for(var key in params) qs.push(key+'='+encodeURIComponent(params[key])); var s = d.createElement('script');s.type='text/javascript';s.async=true; var p = 'https:' == document.location.protocol ? 'https' : 'http'; s.src = p + "://api.content.ad/Scripts/widget2.aspx?" + qs.join('&'); d.getElementById("contentad159035").appendChild(s); })(document);}</script>
+<div id="exit-ad"></div>
+<div id="M115361ScriptRootC151043"></div>
+<h3>Latest in Opinions</h3>
+<div id="ca_section">
+<div class="ca_adbox">
+<ul class="ca_adbox_inner list-unstyled full">
+<li class="ca_container" data-hits="3">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/the-washington-post-28">
+- The Washington Post
+</a>
+<div class="ca_referrer">by The Washington Post</div>
+</div>
+</li><li class="ca_container" data-hits="9">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/cuomo-argues-in-favor-of-allowing-the-banning-of-m-10">
+Cuomo Argues in Favor of Allowing the Banning of MAGA Hat Wearers from Businesses
+</a>
+<div class="ca_referrer">by NewsBusters</div>
+</div>
+</li><li class="ca_container" data-hits="2">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/brennan-declines-ed-board-nomination-48">
+Brennan Declines Ed Board Nomination
+</a>
+<div class="ca_referrer">by New Haven Independent</div>
+</div>
+</li><li class="ca_container" data-hits="1">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/hill-sees-policing-progress-98">
+Hill Sees Policing Progress
+</a>
+<div class="ca_referrer">by New Haven Independent</div>
+</div>
+</li><li class="ca_container" data-hits="1">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/teacher-raises-for-gender-racial-diversity-in-76">
+Teacher Raises $$ For Gender, Racial Diversity In Reading
+</a>
+<div class="ca_referrer">by New Haven Independent</div>
+</div>
+</li><li class="ca_container" data-hits="4">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/cnn-s-zakaria-frets-ilhan-omar-made-it-harder-to-s-93">
+CNN's Zakaria Frets Ilhan Omar Made It Harder to Slam Israel's 'Bigotry'
+</a>
+<div class="ca_referrer">by NewsBusters</div>
+</div>
+</li><li class="ca_container" data-hits="3">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/birks-sued-over-maternity-leave-88">
+Birks Sued Over Maternity Leave
+</a>
+<div class="ca_referrer">by New Haven Independent</div>
+</div>
+</li><li class="ca_container" data-hits="3">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/ui-agrees-to-confront-public-on-english-station-cl-100">
+UI Agrees To Confront Public On English Station Cleanup
+</a>
+<div class="ca_referrer">by New Haven Independent</div>
+</div>
+</li><li class="ca_container" data-hits="">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/how-this-fight-club-entrepreneur-s-50000-investm-17">
+How This Fight Club Entrepreneur's $50,000 Investment Turned Into $1 Million
+</a>
+<div class="ca_referrer">by Entrepreneur</div>
+</div>
+</li><li class="ca_container" data-hits="3">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/best-video-keeps-it-reel-92">
+Best Video Keeps It Reel
+</a>
+<div class="ca_referrer">by New Haven Independent</div>
+</div>
+</li><li class="ca_container" data-hits="">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/virginia-judge-orders-equal-rights-activist-held-w-97">
+Virginia judge orders equal rights activist held without bail ... for indecent exposure
+</a>
+<div class="ca_referrer">by Daily Kos</div>
+</div>
+</li><li class="ca_container" data-hits="">
+<div class="ca_title_wrapper">
+<a class="ca_title" href="/article/6-myths-about-presenting-and-how-overcoming-them-c-61">
+6 Myths About Presenting and How Overcoming Them Can Increase Your Impact
+</a>
+<div class="ca_referrer">by Entrepreneur</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<div class="row">
+<div class="col-md-8 main-scope">
+<section>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = 'http://dailyreadlist.com/article/in-revering-trump-the-religious-right-has-laid-ba-73'; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'in-revering-trump-the-religious-right-has-laid-ba-73'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { var d = document, s = d.createElement('script'); s.src = '//dailyreadlist.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</section>
+</div>
+<div class="col-md-4 side-scope">
+<section>
+<h4>More</h4>
+<ul>
+<li><a href="/related/in-revering-trump-the-religious-right-has-laid-ba-73/2" rel="next">
+Related Articles
+</a></li>
+<li><a href="/opinions">
+ News in Opinions
+</a></li>
+<li><a href="/source/The%20Guardian">
+From The Guardian
+</a></li>
+</ul>
+</section>
+<section>
+<h4>Tags</h4>
+<ul>
+<li><a href="/keyword/Evangelical%20Christianity" title="More articles tagged Evangelical Christianity">Evangelical Christianity</a></li>
+<li><a href="/keyword/Donald%20Trump" title="More articles tagged Donald Trump">Donald Trump</a></li>
+<li><a href="/keyword/Trump%20administration" title="More articles tagged Trump administration">Trump administration</a></li>
+<li><a href="/keyword/US%20politics" title="More articles tagged US politics">US politics</a></li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+
+<footer class="main">
+<div class="container">
+<div class="row">
+<div class="row">
+<div class="centered">
+<input type="hidden" name="IL_IN_ARTICLE">
+</div>
+</div>
+<div class="col-sm-12">
+</div>
+<div class="col-sm-6">
+
+<p>The Daily Read List website collects news articles from various news networks, categorizes, and relates them to each other. Readers are able to see more articles about the same news subject in one place.</p>
+<p>Subscribe to our <a href="/feed/latest" rel="nofollow">RSS Feed <i class="fa fa-rss"></i></a></p>
+</div>
+<div class="col-sm-6">
+
+<p>Copyright &copy; Daily Read List. All trademarks, service marks, trade names, trade dress, product names, images and logos appearing on the site are the property of their respective owners.</p>
+<p>By using this website, you agree to our <a href="https://dailyreadlist.s3.dualstack.us-east-1.amazonaws.com/static/terms_of_use.html" rel="nofollow">Terms of Use</a> and <a href="https://dailyreadlist.s3.dualstack.us-east-1.amazonaws.com/static/privacy_policy.html" rel="nofollow">Privacy Policy</a>.</p>
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript">
+    amzn_assoc_ad_type = "link_enhancement_widget";
+    amzn_assoc_tracking_id = "d34n5q-20";
+    amzn_assoc_linkid = "f815ec8c785795ce8e84e8be2b4be7f4";
+    amzn_assoc_placement = "";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+</script>
+<script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<link rel="shortcut icon" href="http://www.iconj.com/ico/w/j/wjvcaa98f8.ico" type="image/x-icon" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"agent":"","licenseKey":"8c66ac5a08","queueTime":2,"transactionName":"ZwRUbERQDUsHVkJdWV5OcE1YUhdRCVsZVUZAT15dV1UPUQhQVF1CQ09AUVNGEAIHR0JdVVwE","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","applicationTime":226,"applicationID":"206695550"}</script>
+<title>Trump, Dems have reasons to work together, but tensions are boiling over</title>
+<meta name="description" content="Tensions between President Trump and Capitol Hill Democrats have reached a boiling point just a month into the new Congress, highlighting the gulf between the parties under divided government and dimming prospects for bipartisan action this year.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="_mg-domain-verification" content="ba2f54d70a92dc8d076a63bc745e0108" />
+<meta property="og:description" content="Tensions between President Trump and Capitol Hill Democrats have reached a boiling point just a month into the new Congress, highlighting the gulf between the parties under divided government and dimming prospects for bipartisan action this year." />
+<meta property="og:url" content="http://headlinebits.com/trump-dems-have-reasons-to-work-together-but-tensions-are-boiling-over.AgEFVAEFUwtXUQFWU1ZSAwBWVl9XXQgJ" />
+<meta property="og:title" content="Trump, Dems have reasons to work together, but tensions are boiling over" />
+<meta property="og:image" content="http://thehill.com/sites/default/files/demtensions_sotu_020519getty.jpg" />
+<meta property="og:site_name" content="Headline Bits">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Trump, Dems have reasons to work together, but tensions are boiling over" />
+<meta name="twitter:description" content="Tensions between President Trump and Capitol Hill Democrats have reached a boiling point just a month into the new Congress, highlighting the gulf between the parties under divided government and dimming prospects for bipartisan action this year." />
+<meta name="twitter:image" content="http://thehill.com/sites/default/files/demtensions_sotu_020519getty.jpg" />
+<meta name="twitter:url" content="http://headlinebits.com/trump-dems-have-reasons-to-work-together-but-tensions-are-boiling-over.AgEFVAEFUwtXUQFWU1ZSAwBWVl9XXQgJ" />
+<meta name="twitter:site" content="@headlinebits" />
+<link rel="stylesheet" href="https://headlinebits.s3.dualstack.us-east-1.amazonaws.com/static/css/09iujio9iu.css?eb5d35c8">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar">
+<div class="container-fluid">
+<div class="row main-head">
+<div id="bg-left" class="gradient"></div>
+<div id="bg-right" class="gradient"></div>
+<div id="bg-bottom"></div>
+<header>
+<a href="/" title="Home page"><img src="https://headlinebits.s3.dualstack.us-east-1.amazonaws.com/static/images/hlb-logo-name.png" alt="Headline Bits" class="logo"></a>
+</header>
+</div>
+<div class="navbar-header text-center">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="/" title="Home page">Home</a></li>
+<li><a href="/today/" title="Today's Headlines">Today</a></li>
+<li><a href="/yesterday/" title="Yesterday's Headlines">Yesterday</a></li>
+<li><a href="/last-week/" title="Last Week's Headlines">Last Week</a></li>
+<li><a href="/oldest/" title="Oldest Headlines">Oldest</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container-fluid">
+<div class="row">
+<div class="full col-md-12">
+<header>
+<h1>Trump, Dems have reasons to work together, but tensions are boiling over</h1>
+<h4>
+TheHill -
+<a href="/None/" title="More headlines on this day"><time datetime="2019-02-10T11:00:07.000Z">2019-02-10T11:00:07.000Z</time></a>
+</h4>
+</header>
+</div>
+</div>
+</div>
+<div class="container-fluid main">
+<div class="row">
+<div class="left-column col-md-8">
+<article class="read">
+<a href="https://thehill.com/homenews/administration/429210-trump-dems-have-reasons-to-work-together-but-tensions-are-boiling" rel="nofollow" title="Trump, Dems have reasons to work together, but tensions are boiling over"><div class="picture-frame">
+<div class="picture" style="background-image: url('http://thehill.com/sites/default/files/demtensions_sotu_020519getty.jpg')"></div>
+</div></a><img src="http://thehill.com/sites/default/files/demtensions_sotu_020519getty.jpg" alt="Trump, Dems have reasons to work together, but tensions are boiling over" class="hidden">
+<div class="row">
+<div class="col-md-2">
+<div class="pw-server-widget" data-id="wid-3vgs5to2"></div>
+</div>
+<div class="col-md-10">
+<p>
+<a href="https://thehill.com/homenews/administration/429210-trump-dems-have-reasons-to-work-together-but-tensions-are-boiling" rel="nofollow" title="Trump, Dems have reasons to work together, but tensions are boiling over"><strong>TheHill</strong></a>&mdash;Tensions between President Trump and Capitol Hill Democrats have reached a boiling point just a month into the new Congress, highlighting the gulf between the parties under divided government and dimming prospects for bipartisan action this year.
+</p>
+<p>
+<a href="https://thehill.com/homenews/campaign/430525-trump-working-on-labels-for-2020-dems-report" rel="nofollow" title="Trump, Dems have reasons to work together, but tensions are boiling over"><strong>Trump working on labels for 2020 Dems: report.</strong></a> President Trump is reportedly working on possible nicknames for his potential 2020 Democratic challengers as the field of potential nominees continues to grow.
+</p>
+</div>
+</div>
+</article>
+<div id="ad1"></div>
+<aside>
+<h3>Related Headlines</h3>
+<ul class="row list-unstyled">
+<li class="col-sm-6">
+<div class="article-tile">
+<a href="/2019-02-14/video-howard-schultz-working-with-dems-to-steal-votes-from-trump.AgEFUVBTXQlcAAsBUFZSAwBWB1gECwZS" title="VIDEO: Howard Schultz Working With Dems To Steal Votes From Trump">
+<div class="picture-frame">
+<div class="picture" style="background-image: url('http://images.infowarsmedia.com/images/1b5e7f19-9506-4161-b87a-ad273104a9f7.jpg?type=large')"></div>
+</div>
+<h4 class="limited">
+VIDEO: Howard Schultz Working With Dems To Steal Votes From Trump
+</h4>
+</a>
+<p class="limited">Meanwhile, MSM says he will take votes from Dems.</p>
+<small>www.infowars.com</small>
+</div>
+</li>
+<li class="col-sm-6">
+<div class="article-tile">
+<a href="/2019-02-08/dem-rep-points-to-va-blackface-scandals-as-further-reason-to-impeach-trump.AgEGAFACVlxXUAAFVwRSAwBWBV1VX1IE" title="Dem Rep Points to Va. Blackface Scandals as Further Reason to Impeach Trump">
+<div class="picture-frame">
+<div class="picture" style="background-image: url('http://freebeacon.com/wp-content/uploads/2018/05/GettyImages-693507968-1.jpg')"></div>
+</div>
+<h4 class="limited">
+Dem Rep Points to Va. Blackface Scandals as Further Reason to Impeach Trump
+</h4>
+</a>
+<p class="limited">Rep. Al Green (D., Texas) vowed Thursday to force a vote to impeach President Donald Trump, pointing to the racial controversies that have embroiled Virginia's Democratic leaders to argue Congress needs to fight bigotry "starting at the top."
+The post Dem Rep Points to Va. Blackface Scandals as Further Reason to Impeach Trump appeared first on Washington Free Beacon.</p>
+<small>Washington Free Beacon</small>
+</div>
+</li>
+</ul>
+<div id="ad1"></div>
+<ul class="row list-unstyled">
+<li class="col-sm-4">
+<div class="article-tile">
+<a href="/2019-02-06/dems-reject-trump-call-to-end-partisan-probes-come-together-on-border-wall.AgEGBgEFXQEFA1RTAFBSAwBWBABXXFQF" title="Dems reject Trump call to end ‘partisan’ probes, come together on border wall">
+<div class="picture-frame">
+<div class="picture" style="background-image: url('http://media2.foxnews.com/BrightCove/694940094001/2019/02/06/694940094001_5999044230001_5999044290001-vs.jpg')"></div>
+</div>
+<h4 class="limited">
+Dems reject Trump call to end ‘partisan’ probes, come together on border wall
+</h4>
+</a>
+<p class="limited">President Trump’s State of the Union appeals for Democrats to end “partisan” probes into his White House, as well as his call for cooperation on border security to prevent another partial government shutdown, met with a prickly response Wednesday from the other side of the aisle -- as the push for unity quickly gave way to new rounds of Washington rancor.</p>
+<small>Fox News</small>
+</div>
+</li>
+<li class="col-sm-4">
+<div class="article-tile">
+<a href="/2019-02-06/trump-told-dems-in-state-of-the-union-speech-he-wants-to-work-with-them-i-m-optimistic-it-will-hap.AgEGBQYCXQgFA1RTAFBSAwBWBABXCwAI" title="Trump told Dems in State of the Union speech he wants to work with them – I'm optimistic it will happen">
+<div class="picture-frame">
+<div class="picture" style="background-image: url('http://media2.foxnews.com/BrightCove/694940094001/2019/02/06/694940094001_5999010594001_5999013058001-vs.jpg')"></div>
+</div>
+<h4 class="limited">
+Trump told Dems in State of the Union speech he wants to work with them – I'm optimistic it will happen
+</h4>
+</a>
+<p class="limited">Rather than turning up the temperature and giving in to the broken status quo and division in Washington, President Trump is asking Democrats to choose greatness by rejecting resistance and instead compromise for the good of the American people.</p>
+<small>Fox News</small>
+</div>
+</li>
+<li class="col-sm-4">
+<div class="article-tile">
+<a href="/2019-02-07/trump-attacks-dem-probes-with-bizarre-tweet-accusing-them-of-stealing-people-who-work-at-white-hous.AgEGBwBcAAtVAgYBBgpSAwBWU1hRC1BT" title="Trump attacks Dem probes with bizarre tweet accusing them of 'stealing people who work at White House'">
+<div class="picture-frame">
+<div class="picture" style="background-image: url('http://www.rawstory.com/wp-content/uploads/2019/01/trump-1-800x430.jpeg')"></div>
+</div>
+<h4 class="limited">
+Trump attacks Dem probes with bizarre tweet accusing them of 'stealing people who work at White House'
+</h4>
+</a>
+<p class="limited">President Donald Trump on Thursday issued a strange proclamation attacking House Democrats for expanding their investigations into his personal businesses. “So now Congressman Adam Schiff announces, after having found zero Russian Collusion, that he is going to be looking at every aspect of my life, both financial and personal, even though there is no reason to be doing so,” the president wrote on Twitter. “Never happened before! Unlimited Presidential Harassment</p>
+<small>Raw Story</small>
+</div>
+</li>
+</ul>
+</aside>
+<div>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = 'http://headlinebits.com/trump-dems-have-reasons-to-work-together-but-tensions-are-boiling-over.AgEFVAEFUwtXUQFWU1ZSAwBWVl9XXQgJ';
+this.page.identifier = 'trump-dems-have-reasons-to-work-together-but-tensions-are-boiling-over';
+};
+(function() {
+var d = document, s = d.createElement('script');
+s.src = '//headlinebits.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+</div>
+</div>
+<div class="right-column col-md-4">
+<div id="ad2"></div>
+<h3>More Related</h3>
+<ul class="list-unstyled">
+<li>
+<div class="article-line">
+<a href="/2019-02-06/pelosi-sits-scowls-shakes-head-as-trump-says-let-us-work-together-to-build-a-culture-that-cheris.AgEGBgBUVQ0FA1RTAFBSAwBWBABWCQIC" title="Pelosi Sits, Scowls, Shakes Head as Trump Says: ‘Let Us Work Together to Build a Culture That Cherishes Innocent Life’">
+<h4 class="limited">
+Pelosi Sits, Scowls, Shakes Head as Trump Says: ‘Let Us Work Together to Build a Culture That Cherishes Innocent Life’
+<small>CNS News</small>
+</h4>
+</a>
+</div>
+</li>
+<li>
+<div class="article-line">
+<a href="/2019-02-14/trump-is-refusing-to-pay-contractors-for-work-during-the-shutdown-the-president-has-a-long-history.AgEFUFVdA1pcAAsBUFZSAwBWB1gGXARU" title="Trump Is Refusing To Pay Contractors For Work During The Shutdown: The president has a long history of stiffing people who work for him.">
+<h4 class="limited">
+Trump Is Refusing To Pay Contractors For Work During The Shutdown: The president has a long history of stiffing people who work for him.
+<small>The Hive</small>
+</h4>
+</a>
+</div>
+</li>
+<li>
+<div class="article-line">
+<a href="/2019-02-05/trump-to-call-for-unity-at-state-of-the-union-while-dems-push-disunity-dems-dilemma-in-northam-sca.AgEGXQdQBFpQVQoABwZSAwBWBg8KAAIG" title="Trump to call for unity at State of the Union while Dems push disunity; Dems' dilemma in Northam scandal">
+<h4 class="limited">
+Trump to call for unity at State of the Union while Dems push disunity; Dems' dilemma in Northam scandal
+<small>Fox News</small>
+</h4>
+</a>
+</div>
+</li>
+</ul>
+<h3>Other Related</h3>
+<ul class="list-unstyled">
+<li>
+<div class="article-thumb">
+<a href="/2019-02-04/trumps-plan-to-improve-healthcare-that-everyone-said-wouldnt-work-is-already-working.AgEGXFMHUQFQVQoABwZSAwBWBg8LXQUA" title="Trump’s plan to improve healthcare, that everyone said wouldn’t work, is already working">
+<div class="picture-frame pull-left">
+<div class="picture" style="background-image: url('http://mediadc.brightspotcdn.com/dims4/default/21a6cb0/2147483647/strip/true/crop/4957x2602+0+351/resize/1200x630!/quality/90/?url=https://mediadc.brightspotcdn.com/b4/c7/e8a198c3c143cf1dac909323eba6/7ac91d3bb7d039cf15684c0c66773cd6.jpg')"></div>
+</div>
+<h4 class="limited">
+Trump’s plan to improve healthcare, that everyone said wouldn’t work, is already working
+</h4>
+<small>Washington Examiner</small>
+</a>
+</div>
+</li>
+<li>
+<div class="article-thumb">
+<a href="/2019-02-01/trump-corporation-broke-the-law-by-doing-legal-work-for-president-trump-s-2020-campaign-complaint-c.AgEGV1VWXAxVUQoOVQRSAwBWBQxWCQFV" title="Trump Corporation broke the law by doing legal work for President Trump's 2020 campaign, complaint charges">
+<div class="picture-frame pull-left">
+<div class="picture" style="background-image: url('http://www.nydailynews.com/resizer/pF7guQcsXoovzXWfjW923BsGOL4=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/RD2GKB6OMZAL5PADGFW7MFOQ34.jpg')"></div>
+</div>
+<h4 class="limited">
+Trump Corporation broke the law by doing legal work for President Trump's 2020 campaign, complaint charges
+</h4>
+<small>nydailynews.com</small>
+</a>
+</div>
+</li>
+<li>
+<div class="article-thumb">
+<a href="/2019-02-18/it-takes-everyone-working-together-civic-works-volunteers-help-seven-nonprofits-across-baltimore.AgEFBlBTXQ1TUAVTDwBSAwBWAlpQDQNS" title="'It takes everyone working together': Civic Works volunteers help seven nonprofits across Baltimore">
+<div class="picture-frame pull-left">
+<div class="picture" style="background-image: url('http://www.trbimg.com/img-5c6ba44c/turbine/bs-md-mlk-service-20190218')"></div>
+</div>
+<h4 class="limited">
+'It takes everyone working together': Civic Works volunteers help seven nonprofits across Baltimore
+</h4>
+<small>www.baltimoresun.com</small>
+</a>
+</div>
+</li>
+</ul>
+<hr>
+<p><a href="/None/" title="More headlines on this day">More headlines on this day</a></p>
+<p>Related searches:</p>
+<ul>
+<li><a href="/search/Dan%20Kildee/" title="Headlines with `Dan Kildee` tags">Dan Kildee</a></li>
+<li><a href="/search/Donald%20Trump/" title="Headlines with `Donald Trump` tags">Donald Trump</a></li>
+<li><a href="/search/Nancy%20Pelosi/" title="Headlines with `Nancy Pelosi` tags">Nancy Pelosi</a></li>
+<li><a href="/search/Elijah%20Cummings/" title="Headlines with `Elijah Cummings` tags">Elijah Cummings</a></li>
+<li><a href="/search/State%20of%20the%20Union%20address/" title="Headlines with `State of the Union address` tags">State of the Union address</a></li>
+<li><a href="/search/Peter%20DeFazio/" title="Headlines with `Peter DeFazio` tags">Peter DeFazio</a></li>
+ <li><a href="/search/Mick%20Mulvaney/" title="Headlines with `Mick Mulvaney` tags">Mick Mulvaney</a></li>
+<li><a href="/search/Katherine%20Clark/" title="Headlines with `Katherine Clark` tags">Katherine Clark</a></li>
+</ul>
+<div id="ad3"></div>
+</div>
+</div>
+</div>
+<div class="container-fluid foot">
+<footer>
+<p><strong>Copyright &copy; Headline Bits</strong>. All trademarks are the property of their respective owners, authors and source websites. By using this website, you agree to our <a href="/about/terms-of-service" rel="nofollow" title="Terms of Use">terms of use</a> and <a href="/about/privacy-policy" rel="nofollow" title="Privacy Policy">privacy policy</a>.</p>
+</footer>
+</div>
+<script type="text/javascript" src="https://headlinebits.s3.dualstack.us-east-1.amazonaws.com/static/js/09iujio9iu.js?b8dab7c6"></script>
+<div id="M273418ScriptRootC154974">
+<script>
+                (function(){
+            var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById';
+            var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M273418ScriptRootC154974")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
+            catch(e){var iw=d;var c=d[gi]("M273418ScriptRootC154974");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=154974;c[ac](dv);
+            var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src="//jsc.mgid.com/h/e/headlinebits.com.154974.js?t="+D.getYear()+D.getMonth()+D.getDate()+D.getHours();c[ac](s);})();
+        </script>
+</div>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "NewsArticle",
+      "headline": "Trump, Dems have reasons to work together, but tensions are boiling over",
+      "datePublished": "2019-02-10T11:00:07.000Z",
+      "description": "Headline Bits reposts an article from TheHill",
+      "image": {
+        "@type": "ImageObject",
+        "url": "http://thehill.com/sites/default/files/demtensions_sotu_020519getty.jpg"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TheHill"
+      },
+      "articleBody": "Tensions between President Trump and Capitol Hill Democrats have reached a boiling point just a month into the new Congress, highlighting the gulf between the parties under divided government and dimming prospects for bipartisan action this year."
+    }
+    </script>
+<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "url": "https://headlinebits.com/",
+          "name": "Headline Bits",
+          "author": {
+            "@type": "Organization",
+            "name": "Headline Bits"
+          },
+          "description": "Bringing you just the headlines",
+          "publisher": "Headline Bits",
+        }
+        </script>
+</body>
+</html>

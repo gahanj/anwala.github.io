@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To Beat HIV, Trump Should Take a Cue From Historically Black Colleges</title>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Advocate">
+<meta property="fb:app_id" content="1792303797674941" />
+<meta property="fb:page_id" content="6030918854" />
+<link rel="shortcut icon" sizes="152x152" href="/sites/advocate.com/themes/advocate/apple-touch-icon-152.png">
+<link rel="apple-touch-icon-precomposed" href="/sites/advocate.com/themes/advocate/apple-touch-icon-152.png">
+<!--[if IE]><![endif]-->
+<link rel="preconnect" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin="" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preconnect" href="//s7.addthis.com" />
+<link rel="dns-prefetch" href="//s7.addthis.com" />
+<link rel="preconnect" href="//sadmin.brightcove.com" />
+<link rel="dns-prefetch" href="//sadmin.brightcove.com" />
+<link rel="preconnect" href="//native.sharethrough.com" />
+<link rel="dns-prefetch" href="//native.sharethrough.com" />
+<link rel="preconnect" href="//cdnapisec.kaltura.com" />
+<link rel="dns-prefetch" href="//cdnapisec.kaltura.com" />
+<link rel="preconnect" href="//google_tag" />
+<link rel="dns-prefetch" href="//google_tag" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="drupal_parsely_version" id="drupal_parsely_version" content="0.1" />
+<script type="application/ld+json" content="Parsely metadata">{"@context":"http:\/\/schema.org","@type":"NewsArticle","articleId":"1039751","creator":"Leslie Hall","dateCreated":"2019-02-07T10:32:49Z","headline":"To Beat HIV, Trump Should Take a Cue From Historically Black Colleges","url":"https:\/\/www.advocate.com\/commentary\/2019\/2\/07\/beat-hiv-trump-should-take-cue-historically-black-colleges","keywords":["HIV &amp; AIDS","HIV","African-Americans","LGBT youth"],"articleSection":"Commentary","thumbnailUrl":"https:\/\/www.advocate.com\/sites\/advocate.com\/files\/2019\/02\/06\/hivaidsawareness750x422.jpg"}</script>
+<link rel="canonical" href="https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges" />
+<link rel="shortlink" href="/node/1039751" />
+<link rel="shortcut icon" href="https://www.advocate.com/sites/advocate.com/themes/advocate/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="amphtml" href="https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges?amp" />
+<script type="text/javascript">dataLayer = [{"drupalLanguage":"en","drupalCountry":"US","heremediaAuthor":"Leslie Hall","heremediaContentType":"article","entityLanguage":"und","entityTnid":"0","entityVid":"1823581","entityName":"Tevy Khou","entityUid":"96366","entityCreated":"1549535569","entityStatus":"1","entityType":"node","entityBundle":"article","entityId":"1039751","entityLabel":"To Beat HIV, Trump Should Take a Cue From Historically Black Colleges","userUid":0}];</script>
+<meta property="fb:pages" content="6030918854" />
+<meta name="description" content="National Black HIV/AIDS Awareness Day is an opportunity to remember all the work we need to do, and give credit where it&#039;s deserved." />
+<script type="text/javascript">
+
+//load GPT library here
+(function () {
+  var gads = document.createElement('script');
+  gads.async = true;
+  gads.type = 'text/javascript';
+  var useSSL = 'https:' == document.location.protocol;
+  gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+  var node = document.getElementsByTagName('script')[0];
+  node.parentNode.insertBefore(gads, node);
+})();
+
+var referrer = 'none';
+if (document.referrer) {
+  url = document.referrer;
+  referrer = url.match(/:\/\/(.[^/]+)/)[1];
+}
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+var browser_width= window.innerWidth && document.documentElement.clientWidth ? Math.min(window.innerWidth, document.documentElement.clientWidth) : window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+
+
+
+googletag.cmd.push(function () {
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [320, 50])
+  .addSize([481, 1], [320, 50])
+  .addSize([768, 1], [[728, 90], [970, 90], [970, 60], [970, 66]])
+  .addSize([992, 1], [[728, 90], [970, 250], [970, 90], [970, 60], [970, 66]])
+  .build();
+googletag.slots["article_leaderboard"] = googletag.defineSlot("/6850/here.advocate/article/leaderboard", [[728, 90], [970, 250], [970, 90], [970, 60], [970, 66]], "dfp-ad-article_leaderboard")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["top"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [300, 250])
+  .addSize([481, 1], [300, 250])
+  .addSize([768, 1], [[300, 250], [300, 600]])
+  .addSize([992, 1], [[300, 250], [300, 600]])
+  .build();
+googletag.slots["article_bigbox_top"] = googletag.defineSlot("/6850/here.advocate/article/bigbox_top", [[300, 250], [300, 600]], "dfp-ad-article_bigbox_top")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["top"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [[300, 250], [300, 600]])
+  .addSize([481, 1], [[300, 250], [300, 600]])
+  .addSize([768, 1], [[300, 250], [300, 600]])
+  .addSize([992, 1], [[300, 250], [300, 600]])
+  .build();
+googletag.slots["article_bigbox_mid"] = googletag.defineSlot("/6850/here.advocate/article/bigbox_mid", [[300, 250], [300, 600]], "dfp-ad-article_bigbox_mid")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["right"])
+  .defineSizeMapping(mapping);
+
+googletag.slots["article_wallpaper"] = googletag.defineSlot("/6850/here.advocate/article/wallpaper", [1, 1], "dfp-ad-article_wallpaper")
+  .addService(googletag.pubads())
+  .setTargeting("pos", ["bottom"]);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [300, 250])
+  .addSize([481, 1], [300, 250])
+  .addSize([768, 1], [300, 250])
+  .addSize([992, 1], [300, 250])
+  .build();
+googletag.slots["article_native_1"] = googletag.defineSlot("/6850/here.advocate/article/native_1", [300, 250], "dfp-ad-article_native_1")
+  .addService(googletag.pubads())
+  .setTargeting("strnativekey", ["ShSaCAUbrX1egxGmpwyoYmDE"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [300, 250])
+  .addSize([481, 1], [300, 250])
+  .addSize([768, 1], [300, 250])
+  .addSize([992, 1], [300, 250])
+  .build();
+googletag.slots["article_native_2"] = googletag.defineSlot("/6850/here.advocate/article/native_2", [300, 250], "dfp-ad-article_native_2")
+  .addService(googletag.pubads())
+  .setTargeting("strnativekey", ["Kn7ULDjsSdcwTtkodjhQKXc2"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [[300, 250], [300, 600]])
+  .addSize([481, 1], [[300, 250], [300, 600]])
+  .addSize([768, 1], [[300, 250], [300, 600]])
+  .addSize([992, 1], [[300, 250], [300, 600]])
+  .build();
+googletag.slots["article_latest_initial_right"] = googletag.defineSlot("/6850/here.advocate/article/latest_initial_right", [[300, 250], [300, 600]], "dfp-ad-article_latest_initial_right")
+  .addService(googletag.pubads())
+  .setTargeting("strnativekey", ["76f4872e"])
+  .defineSizeMapping(mapping);
+
+var mapping = googletag.sizeMapping()
+  .addSize([1, 1], [[300, 600], [300, 250]])
+  .addSize([481, 1], [[300, 600], [300, 250]])
+  .addSize([768, 1], [[300, 600], [300, 250]])
+  .addSize([992, 1], [[300, 600], [300, 250]])
+  .build();
+googletag.slots["article_latest_initial_left"] = googletag.defineSlot("/6850/here.advocate/article/latest_initial_left", [[300, 600], [300, 250]], "dfp-ad-article_latest_initial_left")
+  .addService(googletag.pubads())
+  .defineSizeMapping(mapping);
+
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().setTargeting("referrer",referrer);
+
+  googletag.pubads().setTargeting("cat", ["commentary","hiv_aids","hiv","african_americans","lgbt_youth"]);
+  googletag.pubads().setTargeting("title", ["beat_hiv_trump_should_take_cue_historically_black_colleges"]);
+  googletag.pubads().setTargeting("aid", ["1039751"]);
+  googletag.enableServices();
+
+});
+</script><meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges" />
+<meta property="og:title" content="To Beat HIV, Trump Should Take a Cue From Historically Black Colleges" />
+<meta property="og:updated_time" content="2019-02-07T05:45:01-05:00" />
+<meta property="og:image" content="https://www.advocate.com/sites/advocate.com/files/2019/02/06/hivaidsawareness750x422.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="TheAdvocateMag" />
+<meta name="twitter:site:id" content="21692297" />
+<meta name="twitter:creator" content="TheAdvocateMag" />
+<meta name="twitter:creator:id" content="21692297" />
+<meta name="twitter:title" content="To Beat HIV, Trump Should Take a Cue From Historically Black Colleges" />
+<meta name="twitter:description" content="National Black HIV/AIDS Awareness Day is an opportunity to remember all the work we need to do, and give credit where it&#039;s deserved." />
+<meta property="article:published_time" content="2019-02-07T05:32:49-05:00" />
+<meta property="article:modified_time" content="2019-02-07T05:32:49-05:00" />
+<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": "https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges", "headline": "To Beat HIV, Trump Should Take a Cue From Historically Black Colleges", "image": {  "@type": "ImageObject",  "url": "https://www.advocate.com/sites/advocate.com/files/styles/amp_metadata_content_image_min_696px_wide/public/2019/02/06/hivaidsawareness750x422.jpg",  "width": "696",  "height": "392" }, "datePublished": "2019-02-07T05:32:49-05:00", "dateModified": "2019-02-07T05:45:01-05:00", "author": {  "@type": "Person",  "name": "Leslie Hall" }, "publisher": {  "@type": "Organization",  "name": "Advocate.com",  "logo": {  "@type": "ImageObject",  "url": "https://www.advocate.com/sites/advocate.com/files/styles/amp_metadata_logo_600x60/public/2017/07/20/advocateamplogo.gif",  "width": "219",  "height": "60"  } }, "description": "National Black HIV/AIDS Awareness Day is an opportunity to remember all the work we need to do, and give credit where it's deserved.", "articleBody": "For more than a century, our nation’s Historically Black Colleges and Universities (HBCU) have been at the center of the fight for full equality — forging leaders and movements that continue to push the moral arc of our nation toward justice. Today, HBCUs remain at the heart of our essential social justice movements. And that places them in a unique position to help tackle an urgent reality many of their students are facing — the disproportionate impact of HIV and AIDS on Black young people.I’ve spent my academic career at HBCUs where, like many, I have been shaped by a legacy of social justice and inspired by both those who came before me and the student activists who fought alongside me. Now, as an advocate with the Human Rights Campaign Foundation, I work with students and leaders at HBCUs to empower and support LGBTQ students on campus, providing them tools and resources for expanding equality at the intersections of multiple identities.Today, I and many other leaders across organizations and institutions, are also uniting in the fight to address the global epidemic of HIV and AIDS, which affects so many of the young people we work with.The extent of the crisis is illustrated by staggering numbers: Despite steadily declining HIV infection rates overall in the U.S., 80 percent of newly diagnosed people between the ages of 20 and 24 are Black. Though Black people are just 12 percent of the U.S. population, they accounted for 44 percent of new HIV diagnoses in 2016. And among youth diagnosed with HIV in 2015, 55 percent were gay or bisexual Black men. One in two Black gay and bisexual men will be diagnosed with HIV in their lifetime. And, according to current estimates, more than half of Black transgender women are living with HIV.This disproportionate impact on Black young people is compounded at HBCUs, which are largely located in the South where the grip of HIV is its most fierce. Southern states today account for an estimated 44 percent of all people living with an HIV diagnosis in the U.S., despite having only about one third of the nation’s population.While the causes of this disparity are multifaceted, at the heart lies an intersection of inequities and injustices — including stigma. Black Americans experience greater levels of HIV-related stigma than any other racial or ethnic group. And for Black trans women and young Black men who engage in sexual activity with other men, we know that institutional stigma is especially pervasive and directly related to poor health outcomes. In part because of this stigma, too many young people do not know the prevalence of HIV, much less their own status.While effective sex education is key to combating HIV infection, the number of states actually requiring students to learn about HIV has gone down over the past few years, which can in part be traced to this current administration’s push towards abstinence-only sex education. And while President Trump announced a commitment to stopping the spread of HIV, unfortunately, this administration continues to undermine the very tools we need to reach that noble goal. Instead of working to expand health care to the communities that need it, this administration continues to threaten to cut Medicaid, to undermine the Affordable Care Act, and to strip non-discrimination protections in health care.In the face of this intersection of injustices, HBCUs are uniquely positioned to address the current health crisis, and we already have inspiring examples to look to. Spelman College and Morehouse College are both providing critical programming and outreach, including supporting peer educators in working to reduce health disparities. Morehouse is also providing PrEP (pre-exposure prophylaxis) — the life-saving HIV preventative drug — to students at its Campus Health Center. Jackson State University provides comprehensive HIV education on campus to students and employees, and Prairie View A&M empowers students to help educate their peers on generating better health outcomes. Many of these crucial interventions are low-cost, easy to expand and enhance student engagement.For HBCUs — and for all institutes of higher education — addressing this crisis and the underlying conditions fueling it is a moral imperative and key to the health and welfare of their students. As students and academic leaders look to expand equality and address fundamental injustices facing our nation, we must, as part of our movement, commit to fighting the HIV and AIDS epidemic on campus and beyond.LESLIE HALL is director of the Human Rights Campaign's Historically Black Colleges and Universities Program." }</script>
+
+<script>(function(a,b,c,d,e){e=a.createElement(b);a=a.getElementsByTagName(b)[0];e.async=1;e.src=c;a.parentNode.insertBefore(e,a)})(document,'script','//receptivereaction.com/2b4b569e1aca7edff4a8e59377cee1ffee77630620cefd2526245052f131b9f05715e1fe8e88513841c9bb8a842d318712d4c8e0a74c2b1b8a9394fd324c');</script>
+
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__yp4wzhxWjCW7duExKmwTE_soNWIAKtY1LPypusgc7-Q__xQyxBKEvS2NwelE5CaPCOB6a2WZUL8As57akp8cKdYk__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__ZTvFp13tijtQkkcqxJ7-iQyOgB9tCUUf548tMNWIPQU__kgf95tgLPhL5uaOXM53W0zGFRRrY5iVXHVewl79wtRY__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__54MFi8FkyGaHGYd5ZdzyudsaptrAaR6nC8-2d5gRGIE__DZHVtZ9vnQ_nAfnDj-ZCEzijsy9gIMMi5lXK_gmq84c__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__UjpsJAPU8laR8ahZaR7mDTrTIbEUfx6ojtntXO4DDMg__XzxbfvF62JIagzPQvJTYUOB8YCyfSpjpBIo6Rw5I9Lo__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__QIsY78ejFUWd8_1WhPPUQqmlhBp10Tco4VOz-PcKrkI__B17CN2p8y9_5NI_q_duUIjYzJaZyaT1gKiLbRN3Cjsg__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__MuoIiho4tXsD6GNyCC5loToVJ2DU7Ury3W9OL-q0MYI__Zd1Th3FyAzZMsKET3nZSYW5geMB7PSo5Gx_wJsdYz48__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__Irf_gwb-Pq8mHOWu1TP1HcgM0-G_n2aM6hh2T7HrP9w__wq2cMTqH2xzpUaajNK-ntVjmRA-Umb0bp3Uq5h5tINo__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__kg7S0dNHB51gTPALGAOAOThnISlBjTi_y7Sso2n2qOg__BTWp3W9drSse25DdWVDqOTveyoc3yVq9LWdACeGI4Aw__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__lZGhIwMcLJmGzrGi_Kx7oidp5H1JefpeU6zOcuGL0-0__l3gwM278_O7JQKCg-XXwG4JndbBcixnLJAm1zCBypT0__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__vXQUIHBaPKzn0YE4Q1zri2zxOtg4y052f5YxcvkiF6k__aOGajsb_n0AkZXXPuM6YDMsvswMRVjyHQKmMblT0hew__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__gnTxjyLmYMdFCiDMEL9uoui8CsA9M4HQEiVJ32IliSI__N-sgj3gjwRIJ84mmqGmwZbPIouhmzEHRk2p6hWUWdP8__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__hB0lgZPD11z0nHUVJvgdrOPIAu8i8BLtTgWBEb5pD3U__E9yoqih3pkl5IxPGLNjrTknRnfLyerHOyx3Q8wiQlEs__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<!--[if lt IE 8]>
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__8nh7ZZMpsZIXQKyk-b7qmtKChIgGUlgt0fMfe6P8kDc__WwdPWtQ37n5PhTUzshsj-X27EbYTSfnbXn6keNZjecY__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700|Crimson+Text:400,600,700,400italic,600italic,700italic" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__j615n_D2XUmBZbaVGXc5f9snDXxYg7mcYuXM5KuOG2k__HPeUpOXeHYk5iQgi5fRH02AaV-X6seRbrZMb5kXZrpQ__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/advocate.com/files/advagg_css/css__V8AfkRZE1WDVDEkVLp5WBfbCAab5Iv-7mMcWuLsY5Bg__kyXksDqdOOJ6n2R3oWrC9wPzPUW2ZoWyiC_wntex5UA__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.css" media="all" />
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__ObFW6HxExtcIrJt-ZGldDO_rKhAsQtuHE51MEcHj8SE__gBuultEwvZIafMUODhk8tsR3Pun1nDPRHiYmxwc_gvQ__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__IDnJW3isySE-P0IMnhHXCodiE3aBGYqqZWyjRDIJD8o__ums9YOWXZfet8FLzQxzqXDurWrtErpeUjA-ZYvw5d1Y__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__JIy-3lUpq3qC8JjvfOMkqOB8loYzuE93VQgLvC7HpVM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__P3ER6aBJWRT0gwCuCwxJJBGcRpyoPxvBTwmExELajfg__6lirxbTdH7loCG7BGjvM9lYACQY3pzS-55Nwvn6e3jo__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__3vwOA0BwlnyBkt9H4CLg6FgNyKAh--OmfOxFOIu_5S4__14jAFRiS2WG9seuuVvkrazGaW7kLmmXyNFKpx92Mnko__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__dcZDfpBdRmjCW0vKa_r5K07i0bhzXpAke8IwZrpL92Y__xruSkbHzxgPSpx1WPgV8Fv4M2ONWi_CbIi779Jl3wfM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__Yt2TC25ehjkPkDpceDvjwjGS1DVmERyW-tCCyHZ5Ghc__HzE-QbtLcixyNVqwE9YVhk_AG-nXU5P7e_4rS7OlfxM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__7AdtCxnod_LOQv_mGNSoVjH5Rc2C1UGwxGbVZztRPXc__Etsk9U9CSk2Nx0FMB2lpSupX5DnvH0wTelINAYToORo__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__FwyyYi5YU4GK-uIFJv754po_NHyXgQxhrUIDQptKq10__zqbUy6oe0EBhlBW_evb6YBSL__cBLwLb9eH7aO7tGPg__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="//cdnapisec.kaltura.com/p/2197371/sp/219737100/embedIframeJs/uiconf_id/37028752/partner_id/2197371"></script>
+<script type="text/javascript" src="//cdnapisec.kaltura.com/p/2197371/sp/219737100/embedIframeJs/uiconf_id/37493671/partner_id/2197371"></script>
+<script type="text/javascript" src="//cdnapisec.kaltura.com/p/2197371/sp/219737100/embedIframeJs/uiconf_id/37658961/partner_id/2197371"></script>
+<script type="text/javascript" src="//cdnapisec.kaltura.com/p/2197371/sp/219737100/embedIframeJs/uiconf_id/41167732/partner_id/2197371"></script>
+<script type="text/javascript" src="//cdnapisec.kaltura.com/p/2197371/sp/219737100/embedIframeJs/uiconf_id/41087642/partner_id/2197371"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__tQ0kheEdx0pmH0iWtgDATpayuZ88pMGy_K9nDhp7TmU__5FUn2G9VaWiJa7Wi7Uc3YnPQH3UZM0T3yEX2Ka-ZJWA__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__liWFgt5FcZCFKSk8Ncvc4nUpgLsqOb-kiDgNBwR-pY4__bc40W1oW3qjMsCB3Hyp4_wHB7ZJO5pRbwwPwYficDTk__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__VwdETPizwyNK0wkgGTdMfB01HAlBYkI6Ek-nE-lbIok__D8QiP_LAUw_WWh9S2FdH1oCmQsOySoYxDdaRJ2OI9E4__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__I7mzR88JMssw6YRzO_eVKtE7IfE-SUsyMkNwL7GgMMQ__iVXJOOzEeZ3JZiPwtmkDVdEgw27FqQ_hs9n_8mSWWFY__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__lMCIO_gwoENlBigI2UOzOKkyG-EeUqOHrxnTec1I-HQ__C389Vc_zjTfBmrTqoRNGUK0zY_nSOyzn-bjDheR_WiY__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_share = { url: "http://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges" }
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var this_site=window.location.hostname.split(".");this_site=this_site[this_site.length-2];var sites={advocate:{pageID:13011},out:{pageID:13016},pride:{pageID:13047},outtraveler:{pageID:13022},hivplusmag:{pageID:13037},chill:{pageID:80857}},site_ttf=sites[this_site];(function(d,p){var js,s=d.getElementsByTagName('script')[0];js=d.createElement('script');js.async=true;js.defer=true;js.setAttribute("class","teads");js.src='//a.teads.tv/page/'+p+'/tag';s.parentNode.insertBefore(js,s)})(window.document,site_ttf.pageID);
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://cdnapisec.kaltura.com/p/2197371/sp/219737100/embedIframeJs/uiconf_id/37028752/partner_id/2197371"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__fkSYD4MYTipRn211TiT9We6rHYoyKxrY6BVBi_hlRFE__iifPxxEI0dGxIEgENfX5LvachkC_wGVO_H2aYYq5uL0__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"advocate","theme_token":"mhv4BVaq5LPd-CIbVVX0qP-0xLCoVte4RCiaav7SZno","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/magnific-popup\/css\/magnific-popup.css":1,"sites\/all\/modules\/custom\/heremedia_kaltura_field\/css\/inline-video-player.css":1,"sites\/all\/libraries\/owl-carousel2\/assets\/owl.carousel.css":1,"sites\/all\/modules\/custom\/heremedia_gallery\/css\/heremedia_gallery.css":1,"sites\/all\/modules\/contrib\/media_gallery\/media_gallery.css":1,"sites\/all\/modules\/contrib\/media_gallery\/media_gallery.ie7.css":1,"https:\/\/fonts.googleapis.com\/css?family=Oswald:200,300,400,700|Crimson+Text:400,600,700,400italic,600italic,700italic":1,"sites\/advocate.com\/themes\/advocate\/css\/bootstrap.min.css":1,"sites\/advocate.com\/themes\/advocate\/css\/jasny-bootstrap.min.css":1,"sites\/advocate.com\/themes\/advocate\/css\/salvattore.css":1,"sites\/advocate.com\/themes\/advocate\/css\/custom-bootstrap.css":1,"sites\/advocate.com\/themes\/advocate\/css\/charlton.css":1,"sites\/advocate.com\/themes\/advocate\/css\/override_admin_menu.css":1},"js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/custom\/heremedia_article\/js\/salvattore.js":1,"sites\/all\/modules\/custom\/heremedia_fb\/js\/shares.js":1,"sites\/all\/libraries\/history.js\/scripts\/bundled\/html4+html5\/jquery.history.js":1,"sites\/all\/modules\/custom\/heremedia_infinite_scroll\/js\/infinite_scroll.js":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-55c93dd3eed0db31":1,"sites\/advocate.com\/modules\/features\/heremedia\/heremedia_media\/js\/custom.js":1,"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom\/heremedia_article\/js\/quiztrack.js":1,"sites\/all\/modules\/custom\/heremedia_dfp\/js\/heremedia_dfp.js":1,"sites\/all\/libraries\/magnific-popup\/js\/jquery.magnific-popup.min.js":1,"sites\/all\/libraries\/sticky-ads\/jquery.sticky-kit.js":1,"sites\/all\/modules\/custom\/heremedia_dfp\/js\/moat-content.js":1,"\/\/cdnapisec.kaltura.com\/p\/2197371\/sp\/219737100\/embedIframeJs\/uiconf_id\/37028752\/partner_id\/2197371":1,"\/\/cdnapisec.kaltura.com\/p\/2197371\/sp\/219737100\/embedIframeJs\/uiconf_id\/37493671\/partner_id\/2197371":1,"\/\/cdnapisec.kaltura.com\/p\/2197371\/sp\/219737100\/embedIframeJs\/uiconf_id\/37658961\/partner_id\/2197371":1,"\/\/cdnapisec.kaltura.com\/p\/2197371\/sp\/219737100\/embedIframeJs\/uiconf_id\/41167732\/partner_id\/2197371":1,"\/\/cdnapisec.kaltura.com\/p\/2197371\/sp\/219737100\/embedIframeJs\/uiconf_id\/41087642\/partner_id\/2197371":1,"sites\/all\/modules\/custom\/heremedia_kaltura_field\/js\/inline-video-player.js":1,"https:\/\/sadmin.brightcove.com\/js\/BrightcoveExperiences.js":1,"\/\/native.sharethrough.com\/assets\/tag.js":1,"sites\/all\/libraries\/owl-carousel2\/owl.carousel.js":1,"sites\/all\/libraries\/owl-carousel2\/owl.carousel2.thumbs.min.js":1,"sites\/all\/modules\/custom\/heremedia_gallery\/js\/heremedia_gallery.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"https:\/\/cdnapisec.kaltura.com\/p\/2197371\/sp\/219737100\/embedIframeJs\/uiconf_id\/37028752\/partner_id\/2197371":1,"sites\/all\/modules\/contrib\/datalayer\/datalayer.js":1,"sites\/advocate.com\/themes\/advocate\/js\/bootstrap.min.js":1,"sites\/advocate.com\/themes\/advocate\/js\/jasny-bootstrap.min.js":1,"sites\/advocate.com\/themes\/advocate\/js\/scroll-header.js":1,"sites\/advocate.com\/themes\/advocate\/js\/advocate.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"heremedia_ads":{"enable":0,"prebid_timeout":"500"},"heremedia_fb":{"fb_id":"1792303797674941","fb_token":"04796a435ee1dedfab890817f8797606"},"arg":["node","1039751"],"kaltura_inline_player":{"enabled":true},"heremedia_gallery":{"prebid_timeout":"500","author":"Christopher Harrity","node_type":"media_gallery-default"},"field_group":{"html-element":"teaser"},"heremedia_addthis":{"url":"http:\/\/www.advocate.com\/commentary\/2019\/2\/07\/beat-hiv-trump-should-take-cue-historically-black-colleges"},"urlIsAjaxTrusted":{"\/commentary\/2019\/2\/07\/beat-hiv-trump-should-take-cue-historically-black-colleges":true},"dataLayer":{"languages":{"en":{"language":"en","name":"English","native":"English","direction":0,"enabled":1,"plurals":0,"formula":"","domain":"","prefix":"","weight":0,"javascript":""}},"defaultLang":"en"},"heremedia_dfp":{"dfp_site":"article","continuous_right":"[[300, 250], [300, 600]]","continuous_right_ad_unit":"\/6850\/here.advocate\/article\/latest_continuous_right","continuous_right_size":"size_article_latest_continuous_right","continuous_right_bids":{"bidder":"rubicon","params": window['param_article_latest_continuous_right_rubicon'] },"continuous_left":"[[300, 600], [300, 250]]","continuous_left_ad_unit":"\/6850\/here.advocate\/article\/latest_continuous_left","continuous_left_size":"size_article_latest_continuous_left","continuous_left_bids":{"bidder":"rubicon","params": window['param_article_latest_continuous_left_rubicon'] },"strnativekey":"76f4872e"}});
+//--><!]]>
+</script>
+
+<!--[if lt IE 9]>
+  <script src="/sites/advocate.com/themes/advocate/js/html5shiv.js"></script>
+  <script src="/sites/advocate.com/themes/advocate/js/respond.js"></script>
+  <![endif]-->
+<script type="text/javascript">
+    setTimeout(function () {
+      var a = document.createElement("script");
+      var b = document.getElementsByTagName("script")[0];
+      a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0050/6735.js?" + Math.floor(new Date().getTime() / 3600000);
+      a.async = true;
+      a.type = "text/javascript";
+      b.parentNode.insertBefore(a, b)
+    }, 1);
+  </script>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000000",
+            "text": "#ffffff"
+          },
+          "button": {
+            "background": "#980000",
+            "text": "#ffffff"
+          }
+        },
+        "content": {
+          "message": "By continuing to use our site, you agree to our <a href=\"https://www.pridemedia.com/privacy-policy\" target=\"_blank\" class=\"cc-link\">Private Policy</a> and",
+          "dismiss": "Accept",
+          "link": "Terms of Use.",
+          "href": "https://www.pridemedia.com/terms-of-use"
+        }
+      })});
+  </script>
+
+
+<script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1586530151593576');
+    fbq('track', "PageView");
+  </script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1586530151593576&ev=PageView&noscript=1"/></noscript>
+
+
+<script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '259124211325942');
+    fbq('track', 'PageView');
+  </script>
+<noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=259124211325942&ev=PageView&noscript=1"/></noscript>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1039751 node-type-article">
+<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LKK73J" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript><div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+<a class="navmenu-brand" href="/"><img src="/sites/advocate.com/themes/advocate/images/ADV-Logo-White.png" alt="ADVOCATE"></a> <ul class="nav navmenu-nav out"><li class="0 first"><a href="/politics">Politics</a></li>
+<li class="1"><a href="/business">Business</a></li>
+<li class="2"><a href="/arts-entertainment">A&amp;E</a></li>
+<li class="3"><a href="/transgender">Transgender</a></li>
+<li class="4"><a href="/bisexual">Bisexuality</a></li>
+<li class="5"><a href="/religion">Religion</a></li>
+<li class="6"><a href="/families">Families</a></li>
+<li class="7"><a href="/hiv-aids">HIV/AIDS</a></li>
+<li class="8 last"><a href="/commentary">Commentary</a></li>
+</ul><ul class="nav navmenu-nav sites"><li class="0 first"><a href="https://www.out.com" target="_blank">Out</a></li>
+<li class="1"><a href="https://www.pride.com" target="_blank">Pride</a></li>
+<li class="2"><a href="https://www.chill.us" target="_blank">Chill.us</a></li>
+<li class="3"><a href="https://www.outtraveler.com" target="_blank">Out Traveler</a></li>
+<li class="4 last"><a href="https://www.hivplusmag.com" target="_blank">Plus</a></li>
+</ul><ul class="nav navmenu-nav order"><li class="0 first"><a href="https://subscribe.herepublishing.com/" target="_blank">Subscribe</a></li>
+<li class="1"><a href="https://service.qfie.com/HERE/clsOUTLookup.asp?strAspReason=106&amp;strLookFormControl=1" target="_blank">Subscriber Services</a></li>
+<li class="2 last"><a href="/signup">Email Newsletter Signup</a></li>
+</ul><ul class="nav navmenu-nav terms"><li class="0 first"><a href="/contact">Contact</a></li>
+<li class="1"><a href="/staff">Staff</a></li>
+<li class="2"><a href="https://www.pridemedia.com/careers/" target="_blank">Career Opportunities</a></li>
+<li class="3"><a href="https://www.pridemedia.com/sales/" target="_blank">Advertise With Us</a></li>
+<li class="4"><a href="https://www.pridemedia.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+<li class="5"><a href="https://www.pridemedia.com/terms-of-use" target="_blank">Terms of Use</a></li>
+<li class="6 last"><a href="https://www.pridemedia.com/legal-notice" target="_blank">Legal Notice</a></li>
+</ul> <ul class="nav navmenu-nav copyright">
+<li>&copy; 2019 Here Publishing Inc.<br>
+All Rights Reserved
+</li>
+</ul>
+</div>
+<div class="desktopHeader">
+<div class="container">
+<div class="magazines">
+<div class="entity entity-bean bean-subheader-promo clearfix">
+<div class="beanMagazine">
+<img src="https://www.advocate.com/sites/advocate.com/files/2019/01/08/adv1101_feb_mar_cvr_sm.jpg" alt="The Advocate Feb/March 2019" title="The Advocate Feb/March 2019" /> <div class="textBox">
+<div class="initialBox"><span>Subscribe To<br>The Advocate</span></div>
+<div class="hoverBox">
+<div class="top"> <a href="https://service.qfie.com/HERE/clsOUTNewOrdForm.asp?PubCode=OUT&TrackCode=IPA2013&strAspReason=210" class="printLink" target="_blank"> Print </a><span>></span> <a href="https://service.qfie.com/HERE/clsOUTNewOrdForm.asp?PubCode=ADV-DIGITAL&TrackCode=IDA2013&strAspReason=210" class="digitalLink" target="_blank"> Digital </a><span>></span> </div>
+<div class="bottom"> <a href="https://service.qfie.com/HERE/clsOUTNewOrd2a.asp?strAspReason=79" class="giftLink" target="_blank"> Give a gift </a><span>&bull;</span> <a href="https://service.qfie.com/HERE/clsOUTLookup.asp?strAspReason=106&strLookFormControl=1" class="renewLink" target="_blank"> Renew </a> </div>
+</div>
+</div>
+</div>
+</div> </div>
+<div class="navbar navbar-default">
+<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+<span class="icon-bar"></span> <span class="icon-bar"></span>
+<span class="icon-bar"></span></button>
+<div class="topLogoHeader"><a href="/">
+<img src="https://www.advocate.com/sites/advocate.com/themes/advocate/logo.png" class="mainLogo" alt="ADVOCATE">
+<img src="/sites/advocate.com/themes/advocate/images/AdvocateLogoWhite.svg" class="mobileLogo" style="display:none;" alt="ADVOCATE">
+</a></div>
+</div>
+<div class="socialButtons">
+<ul class="socialList">
+<li class="searchBox">
+<a href="javascript: void(0);"><img src="/sites/advocate.com/themes/advocate/images/search.png" width="34" height="33" alt="Search" class="search">
+</a>
+<div class="searchForm"> <form action="/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+<label class="element-invisible" for="edit-search-block-form--2">Search </label>
+<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-K_lP30LgqBYyUBmyADZa1vZikkFefPIx7YjsMNEYfUw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form> </div>
+</li>
+<li class="fbButton">
+<a href="https://www.facebook.com/TheAdvocate" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/fb.png" width="34" height="33" alt="Facebook"></a>
+</li>
+<li class="twButton">
+<a href="https://twitter.com/TheAdvocateMag" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/twitter.png" width="34" height="33" alt="Twitter"></a>
+</li>
+<li class="instaButton">
+<a href="https://instagram.com/theadvocatemag" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/instgm.png" width="34" height="33" alt="Instagram"></a>
+</li>
+<li class="tumblrButton">
+<a href="http://theadvocatemag.tumblr.com" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/tumblr-Adv.png" width="34" height="33" alt="Tumblr"></a>
+</li>
+<li class="youtubeButton">
+<a href="https://www.youtube.com/channel/UCyoWeR3FrNb8p2WIAqYmAUw" target="_blank"><img src="/sites/advocate.com/themes/advocate/images/youtube.png" width="34" height="33" alt="YouTube"></a>
+</li>
+<li class="mailButton">
+<a href="/signup"><img src="/sites/advocate.com/themes/advocate/images/mail.png" width="34" height="33" alt="Mail"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="band">
+<div class="container">
+
+<div class="trendBar">
+<ul>
+<li class="trend"><span>Editor's Pick</span></li>
+<li id="" class="" style=""> <a href="/politics">Politics</a> </li>
+<li id="" class="" style=""> <a href="/cake-shop">SCOTUS</a> </li>
+<li id="" class="" style=""> <a href="/transgender">Transgender</a> </li>
+<li id="" class="" style=""> <a href="/metoo">#MeToo</a> </li>
+<li id="" class="" style=""> <a href="/hiv-stops-with-me">HIV Stops With Me</a> </li>
+<li id="" class="" style=""> <a href="/women">Women</a> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="container adWindow">
+<div class="leaderboard"> <div id="block-heremedia-ads-article-leaderboard" class="block block-heremedia-ads">
+<div class="content">
+<div id="dfp-ad-article_leaderboard-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_leaderboard" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_leaderboard");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+<div id="body-inner" class="container">
+<a href="#" class="scrollToTop"></a>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12"> <div class="tabs"></div>
+<div class="page articleDetailSection">
+<div class="row">
+<div class="col-md-8 col-sm-12 col-xs-12"> <div class="articleStatus node node-article ">
+<div class="articleCategory"><a href="/commentary">Commentary</a></div>
+<h1 class="articleTitle">To Beat HIV, Trump Should Take a Cue From Historically Black Colleges</h1>
+<div class="leadImageArticle">
+<div class="articleImg ">
+<img src="https://www.advocate.com/sites/advocate.com/files/2019/02/06/hivaidsawareness750x422.jpg" alt="National Black HIV/ AIDS Awareness Day" title="To Beat HIV, Trump Should Take a Cue From Historically Black Colleges" /> </div>
+<div class="authorBox">
+<div class="box">
+<div class="articleTeaser"><p>National Black HIV/AIDS Awareness Day is an opportunity to remember all the work we need to do, and give credit where it's deserved.</p>
+</div>
+<div class="articledivder"></div>
+<div class="articleAuthor"> By <span><a href="/authors/leslie-hall">Leslie Hall</a></span>
+</div>
+<div class="articleDate"> <span class="date">February 07 2019 5:32 AM EST</span>
+</div>
+</div>
+</div>
+</div>
+<div class="shareArticleButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=To+Beat+HIV%2C+Trump+Should+Take+a+Cue+From+Historically+Black+Colleges&url=https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges&title=To+Beat+HIV%2C+Trump+Should+Take+a+Cue+From+Historically+Black+Colleges" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+<div class="textArticle" id="article-content"> <p>For more than a century, our nation’s Historically Black Colleges and Universities (HBCU) have been at the center of the fight for full equality — forging leaders and movements that continue to push the moral arc of our nation toward justice. Today, HBCUs remain at the heart of our essential social justice movements. And that places them in a unique position to help tackle an urgent reality many of their students are facing — the disproportionate impact of HIV and AIDS on Black young people.</p>
+<p>I’ve spent my academic career at HBCUs where, like many, I have been shaped by a legacy of social justice and inspired by both those who came before me and the student activists who fought alongside me. Now, as an advocate with the Human Rights Campaign Foundation, I work with students and leaders at HBCUs to empower and support LGBTQ students on campus, providing them tools and resources for expanding equality at the intersections of multiple identities.</p>
+<p>Today, I and many other leaders across organizations and institutions, are also uniting in the fight to address the global epidemic of HIV and AIDS, which affects so many of the young people we work with.</p>
+<p>The extent of the crisis is illustrated by staggering numbers: <a href="https://www.hrc.org/blog/hrc-releases-new-comprehensive-guide-for-hiv-prevention-treatment%22%20%5Ct%20%22_blank">Despite steadily declining HIV infection rates</a> overall in the U.S., 80 percent of newly diagnosed people between the ages of 20 and 24 are Black. Though Black people are<a href="https://assets2.hrc.org/files/assets/resources/HBCU-HIV-CampusGuide.pdf?_ga=2.29777407.1742045285.1548701183-1756655053.1531341942%22%20%5Ct%20%22_blank" target="_blank"> just 12 percent of the U.S. population</a>, they accounted for 44 percent of new HIV diagnoses in 2016. And among youth diagnosed with HIV in 2015, 55 percent were gay or bisexual Black men. <em>One in two </em>Black gay and bisexual men will be diagnosed with HIV in their lifetime. And, according to current estimates, <a href="https://www.cdc.gov/hiv/group/gender/transgender/index.html%22%20%5Ct%20%22_blank" target="_blank">more than half</a> of Black transgender women are living with HIV.</p>
+<p>This disproportionate impact on Black young people is compounded at HBCUs, which are largely located in the South where the grip of HIV is its most fierce. <a href="https://www.cdc.gov/hiv/pdf/policies/cdc-hiv-in-the-south-issue-brief.pdf%22%20%5Ct%20%22_blank" target="_blank">Southern states today</a> account for an estimated 44 percent of all people living with an HIV diagnosis in the U.S., despite having only about one third of the nation’s population.</p>
+<p>While the causes of this disparity are multifaceted, at the heart lies an intersection of inequities and injustices — including stigma. Black Americans experience greater levels of HIV-related stigma than any other racial or ethnic group. And for Black trans women and young Black men who engage in sexual activity with other men, we know that <a href="https://assets2.hrc.org/files/assets/resources/HBCU-HIV-CampusGuide.pdf?_ga=2.29777407.1742045285.1548701183-1756655053.1531341942%22%20%5Ct%20%22_blank" target="_blank">institutional stigma is especially pervasive</a> and directly related to poor health outcomes. In part because of this stigma, too many young people do not know the prevalence of HIV, much less their own status.</p>
+<p>While effective sex education is key to combating HIV infection, the number of states actually requiring students to learn about HIV has <em>gone down</em> over the past few years, which can in part be traced to this current administration’s push towards <a href="https://thehill.com/policy/healthcare/377304-abstinence-only-education-making-a-comeback-under-trump%22%20%5Ct%20%22_blank">abstinence-only sex education</a>. And while President Trump announced a commitment to stopping the spread of HIV, unfortunately, this administration continues to undermine the very tools we need to reach that noble goal. Instead of working to expand health care to the communities that need it, this administration continues to threaten to cut Medicaid, to undermine the Affordable Care Act, and to strip non-discrimination protections in health care.</p>
+<p>In the face of this intersection of injustices, HBCUs are uniquely positioned to address the current health crisis, and we already have inspiring examples to look to. Spelman College and Morehouse College are both providing critical programming and outreach, including <a href="https://www.morehouse.edu/phsi/phlfp.html%22%20%5Ct%20%22_blank" target="_blank">supporting peer educators</a> in working to reduce health disparities. <a href="http://www.phillytrib.com/news/health/world-aids-day-morehouse-leads-fight-against-hiv-college-now/article_b1f8c940-3f97-58c8-9a31-4f9be74e1745.html%22%20%5Ct%20%22_blank">Morehouse</a> is also providing PrEP (pre-exposure prophylaxis) — the life-saving HIV preventative drug — to students at its Campus Health Center. <a href="https://assets2.hrc.org/files/assets/resources/HBCU-HIV-CampusGuide.pdf?_ga=2.29777407.1742045285.1548701183-1756655053.1531341942%22%20%5Ct%20%22_blank">Jackson State University</a> provides comprehensive HIV education on campus to students and employees, and Prairie View A&amp;M empowers students to help educate their peers on generating better health outcomes. Many of these crucial interventions are low-cost, easy to expand and enhance student engagement.</p>
+<p>For HBCUs — and for all institutes of higher education — addressing this crisis and the underlying conditions fueling it is a moral imperative and key to the health and welfare of their students. As students and academic leaders look to expand equality and address fundamental injustices facing our nation, we must, as part of our movement, commit to fighting the HIV and AIDS epidemic on campus and beyond.</p>
+<p><em>LESLIE HALL is director of the Human Rights Campaign's Historically Black Colleges and Universities Program.</em></p>
+</div>
+</div>
+<div class="tags"> <span>Tags:</span> <a href="/commentary" class="">Commentary</a>, <a href="/hiv-aids" class="">HIV &amp; AIDS</a>, <a href="/hiv" class="">HIV</a>, <a href="/african-americans" class="">African-Americans</a>, <a href="/lgbt-youth" class="">LGBT youth</a> </div>
+<h2 class="col-xs-12 ourSponsors">
+<span>From our Sponsors</span>
+</h2>
+<div class="row nativeCustomAds">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div id="dfp-ad-article_native_1-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_native_1" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_native_1");
+    });
+  </script>
+</div>
+</div> </div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div id="dfp-ad-article_native_2-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_native_2" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_native_2");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+<div class="pubexchange_module" id="pubexchange_below_content" data-pubexchange-module-id="2851"></div>
+<div id="comments" class="facebookComments">
+<h5>READER COMMENTS (<fb:comments-count href='https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges'></fb:comments-count>)</h5>
+<fb:comments class="fb-comments" data-href="https://www.advocate.com/commentary/2019/2/07/beat-hiv-trump-should-take-cue-historically-black-colleges" data-numposts="10" data-width="auto"></fb:comments>
+</div>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12"> <div id="block-heremedia-ads-article-bigbox-top" class="block block-heremedia-ads">
+<div class="content">
+<div id="dfp-ad-article_bigbox_top-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_bigbox_top" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_bigbox_top");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+<div id="block-bean-single-video-embed" class="block block-bean">
+<div class="content">
+<div class="entity entity-bean bean-video-embed clearfix">
+<div class="content">
+<div class="field field-name-field-kaltura-video field-type-heremedia-kaltura-field field-label-hidden"><div class="field-items"><div class="field-item even"><div class="title"></div>
+<div class="videoWrapper">
+<div id="kaltura_player_0_4s8xq9gm" style="width: 750px; height: 421px;">&nbsp;</div>
+<script>
+    kWidget.embed({
+      "targetId": "kaltura_player_0_4s8xq9gm",
+      "wid": "_2197371",
+      "uiconf_id": 37028752,
+      "flashvars": {
+                "doubleClick": {
+          "plugin": true,
+          "adTagUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=480x360|640x480&iu=/6850/here.advocate/video/rightrail_player&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url={utility.referrer_url}&correlator=[timestamp]&cust_params=cat%3Dcommentary%2Chiv_aids%2Chiv%2Cafrican_americans%2Clgbt_youth%26title%3Dbeat_hiv_trump_should_take_cue_historically_black_colleges%26aid%3D1039751&cmsid=4285&vid={mediaProxy.entry.id}",
+          "leadWithFlash": false,
+          "disableCompanionAds": true,
+          "debugMode": false
+        },
+                        "googleAnalytics": {
+          "plugin": true,
+          "position": "before",
+          "urchinCode": "UA-4789315-1",
+          "trackEventMonitor": "trackFunc",
+          "customEvent": "doPlay,relatedVideoSelect,playerReady,NoSourcesCustomError,bufferEndEvent,mediaError,embedPlayerError",
+          "trackingCategory": "Kaltura Video Events",
+          "optionalLabel": "{mediaProxy.entry.referenceId}|{mediaProxy.entry.name}|{mediaProxy.entry.id}|{configProxy.kw.id}|{configProxy.kw.uiConfId}",
+          "anonymizeIp": false,
+          "relativeTo": "video",
+          "doPlayCategory": "Custom Events",
+          "doPlayAction": "playing",
+          "doPlayValue": "1",
+          "doPlayLabel": "My custom play label: {mediaProxy.entry.id}",
+          "relatedVideoSelectCategory": "Related Fulfillment",
+          "relatedVideoSelectAction": "{related.selectedEntryId}",
+          "playerReadyCategory": "My entry tags",
+          "playerReadyAction": "{mediaProxy.entry.tags}",
+          "mediaErrorCategory": "Error events",
+          "mediaErrorAction": " MediaError event",
+          "embedPlayerErrorCategory": "Error events",
+          "embedPlayerErrorAction": "Streaming Error",
+          "NoSourcesCustomErrorCategory": "Error events",
+          "NoSourcesCustomErrorAction": "No Sources Error",
+          "bufferEndEventCategory": "Buffer events",
+          "bufferEndEventAction": "bufferEnd",
+          "bufferEndEventValue": "{video.buffer.lastBufferDurationMs}",
+          "sendRefId": true
+        },
+                        "IframeCustomPluginCss1": '/sites/advocate.com/themes/advocate/css/kaltura/kaltura-custom-advocate.css'
+              },
+      "entry_id": "0_4s8xq9gm"
+    });
+  </script>
+</div>
+</div></div></div> </div>
+</div>
+</div>
+</div>
+<div id="block-heremedia-ads-article-bigbox-mid" class="block block-heremedia-ads">
+<div class="content">
+<div id="dfp-ad-article_bigbox_mid-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_bigbox_mid" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_bigbox_mid");
+    });
+  </script>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="block-heremedia-article-3" class="block block-heremedia-article">
+<div class="content">
+<h2 class="col-xs-12 latestNewsTitle"><span>Latest News</span></h2>
+<div class="row latestNewsSection" id="columns" data-columns>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/film/2019/2/21/chloe-grace-moretz-isabelle-huppert-play-cat-and-mouse-greta"><picture title="Chloë Grace Moretz, Isabelle Huppert Play Cat and Mouse in &amp;#039;Greta&amp;#039;">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/21/chloem750x422.jpg?timestamp=1550771885 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/21/chloem750x422.jpg?timestamp=1550771885 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/21/chloem750x422.jpg?timestamp=1550771885 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/chloem750x422.jpg?timestamp=1550771885 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/chloem750x422.jpg?timestamp=1550771885" alt="Edit Article Chloë Grace Moretz and Isabelle Huppert Play Cat and Mouse in &#039;Greta&#039;" title="Chloë Grace Moretz, Isabelle Huppert Play Cat and Mouse in &amp;#039;Greta&amp;#039;" />
+</picture></a>
+<div class="imgText"><a href="/film">film</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/film/2019/2/21/chloe-grace-moretz-isabelle-huppert-play-cat-and-mouse-greta">Chloë Grace Moretz, Isabelle Huppert Play Cat and Mouse in &#039;Greta&#039;</a></div>
+<div class="timeShare"> <span class="time">29 min 16 sec ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/film/2019/2/21/chloe-grace-moretz-isabelle-huppert-play-cat-and-mouse-greta"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Chlo%C3%AB+Grace+Moretz%2C+Isabelle+Huppert+Play+Cat+and+Mouse+in+%27Greta%27&url=https://www.advocate.com/film/2019/2/21/chloe-grace-moretz-isabelle-huppert-play-cat-and-mouse-greta" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/film/2019/2/21/chloe-grace-moretz-isabelle-huppert-play-cat-and-mouse-greta&title=Chlo%C3%AB+Grace+Moretz%2C+Isabelle+Huppert+Play+Cat+and+Mouse+in+%27Greta%27" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/news/2019/2/21/trump-jussie-smollett-insulted-my-supporters"><picture title="Trump: Jussie Smollett Insulted My Supporters">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/21/trump-jussie750x422.jpg?timestamp=1550770384 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/21/trump-jussie750x422.jpg?timestamp=1550770384 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/21/trump-jussie750x422.jpg?timestamp=1550770384 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/trump-jussie750x422.jpg?timestamp=1550770384 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/trump-jussie750x422.jpg?timestamp=1550770384" alt="Trump and Smollett" title="Trump: Jussie Smollett Insulted My Supporters" />
+</picture></a>
+<div class="imgText"><a href="/news">News</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/news/2019/2/21/trump-jussie-smollett-insulted-my-supporters">Trump: Jussie Smollett Insulted My Supporters</a></div>
+<div class="timeShare"> <span class="time">56 min 49 sec ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/news/2019/2/21/trump-jussie-smollett-insulted-my-supporters"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Trump%3A+Jussie+Smollett+Insulted+My+Supporters&url=https://www.advocate.com/news/2019/2/21/trump-jussie-smollett-insulted-my-supporters" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/news/2019/2/21/trump-jussie-smollett-insulted-my-supporters&title=Trump%3A+Jussie+Smollett+Insulted+My+Supporters" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="adBox">
+<div id="dfp-ad-article_latest_initial_right" class="centerUnit">
+</div>
+</div><div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/crime/2019/2/21/chicago-pd-jussie-smollett-staged-attack-due-empire-salary-issues"><picture title="Chicago PD: Jussie Smollett Staged Attack Due to Empire Salary Issues">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/21/jussie-smollett-gileadx750.jpg?timestamp=1550769895 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/21/jussie-smollett-gileadx750.jpg?timestamp=1550769895 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/21/jussie-smollett-gileadx750.jpg?timestamp=1550769895 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/jussie-smollett-gileadx750.jpg?timestamp=1550769895 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/jussie-smollett-gileadx750.jpg?timestamp=1550769895" alt="Jussie Smollett" title="Chicago PD: Jussie Smollett Staged Attack Due to Empire Salary Issues" />
+</picture></a>
+<div class="imgText"><a href="/crime">Crime</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/crime/2019/2/21/chicago-pd-jussie-smollett-staged-attack-due-empire-salary-issues">Chicago PD: Jussie Smollett Staged Attack Due to Empire Salary Issues</a></div>
+<div class="timeShare"> <span class="time">59 min 52 sec ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/crime/2019/2/21/chicago-pd-jussie-smollett-staged-attack-due-empire-salary-issues"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Chicago+PD%3A+Jussie+Smollett+Staged+Attack+Due+to+Empire+Salary+Issues&url=https://www.advocate.com/crime/2019/2/21/chicago-pd-jussie-smollett-staged-attack-due-empire-salary-issues" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/crime/2019/2/21/chicago-pd-jussie-smollett-staged-attack-due-empire-salary-issues&title=Chicago+PD%3A+Jussie+Smollett+Staged+Attack+Due+to+Empire+Salary+Issues" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/women/2019/2/21/serbias-lesbian-prime-minster-just-had-baby"><picture title="Serbia’s Lesbian Prime Minster Just Had a Baby">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/21/ana-brnabicx750-1061131764.jpg?timestamp=1550756153 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/21/ana-brnabicx750-1061131764.jpg?timestamp=1550756153 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/21/ana-brnabicx750-1061131764.jpg?timestamp=1550756153 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/ana-brnabicx750-1061131764.jpg?timestamp=1550756153 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/ana-brnabicx750-1061131764.jpg?timestamp=1550756153" alt="Ana Brnabic" title="Serbia’s Lesbian Prime Minster Just Had a Baby" />
+</picture></a>
+<div class="imgText"><a href="/women">Women</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/women/2019/2/21/serbias-lesbian-prime-minster-just-had-baby">Serbia’s Lesbian Prime Minster Just Had a Baby</a></div>
+<div class="timeShare"> <span class="time">1 hour 8 min ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/women/2019/2/21/serbias-lesbian-prime-minster-just-had-baby"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Serbia%E2%80%99s+Lesbian+Prime+Minster+Just+Had+a+Baby&url=https://www.advocate.com/women/2019/2/21/serbias-lesbian-prime-minster-just-had-baby" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/women/2019/2/21/serbias-lesbian-prime-minster-just-had-baby&title=Serbia%E2%80%99s+Lesbian+Prime+Minster+Just+Had+a+Baby" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/crime/2019/2/21/jussie-smollett-arrested-felony-charges"><picture title="Jussie Smollett Arrested on Felony Charges">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/21/smollett-arrest-photox750x422.jpg?timestamp=1550763559 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/21/smollett-arrest-photox750x422.jpg?timestamp=1550763559 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/21/smollett-arrest-photox750x422.jpg?timestamp=1550763559 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/smollett-arrest-photox750x422.jpg?timestamp=1550763559 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/21/smollett-arrest-photox750x422.jpg?timestamp=1550763559" alt="Smollett arrested" title="Jussie Smollett Arrested on Felony Charges" />
+</picture></a>
+<div class="imgText"><a href="/crime">Crime</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/crime/2019/2/21/jussie-smollett-arrested-felony-charges">Jussie Smollett Arrested on Felony Charges</a></div>
+<div class="timeShare"> <span class="time">2 hours 58 min ago</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/crime/2019/2/21/jussie-smollett-arrested-felony-charges"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Jussie+Smollett+Arrested+on+Felony+Charges&url=https://www.advocate.com/crime/2019/2/21/jussie-smollett-arrested-felony-charges" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/crime/2019/2/21/jussie-smollett-arrested-felony-charges&title=Jussie+Smollett+Arrested+on+Felony+Charges" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="adBox">
+<div id="dfp-ad-article_latest_initial_left" class="centerUnit">
+</div>
+</div><div class="panel panel-primary node node-media-gallery node-teaser icon-media_gallery  mg-gallery mg-teaser"><div class="panel-image"><a href="/photography/2019/2/21/38-beautiful-beard-photos-pogonophiliac-david-m-dudar"><picture title="38 Beautiful Beard Photos for the Pogonophiliac by David M. Dudar
+">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/20/beards-primaryx750x422.jpg?timestamp=1550696233 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/20/beards-primaryx750x422.jpg?timestamp=1550696233 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/20/beards-primaryx750x422.jpg?timestamp=1550696233 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/20/beards-primaryx750x422.jpg?timestamp=1550696233 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/20/beards-primaryx750x422.jpg?timestamp=1550696233" alt="David M. Dudar: Beards" title="38 Beautiful Beard Photos for the Pogonophiliac by David M. Dudar
+" />
+</picture></a><div class="imgText "><a href="/photography" class="">Photography</a></div></div><div class="panel-body"><div class="title"><a href="/photography/2019/2/21/38-beautiful-beard-photos-pogonophiliac-david-m-dudar">38 Beautiful Beard Photos for the Pogonophiliac by David M. Dudar
+</a></div><div class="timeShare"><span class="time">February 21 2019 7:56 AM</span></div><div class="shareHomeButtons"><div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/photography/2019/2/21/38-beautiful-beard-photos-pogonophiliac-david-m-dudar"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=38+Beautiful+Beard+Photos+for+the+Pogonophiliac+by+David+M.+Dudar&url=https://www.advocate.com/photography/2019/2/21/38-beautiful-beard-photos-pogonophiliac-david-m-dudar" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/photography/2019/2/21/38-beautiful-beard-photos-pogonophiliac-david-m-dudar&title=38+Beautiful+Beard+Photos+for+the+Pogonophiliac+by+David+M.+Dudar" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div></div></div><div class="panel panel-primary node node-article node-teaser icon-article ">
+<div class="panel-image"> <a href="/commentary/2019/2/21/queer-and-catholic-can-co-exist-these-kids-say-will-pope-listen"><picture title="Queer and Catholic Can Co-Exist, These Kids Say. Will the Pope Listen?">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_desktop_1x/public/2019/02/20/dignityusa750x422.jpg?timestamp=1550710379 1x" media="(min-width:992px) and (max-width: 9999px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_tablet_1x/public/2019/02/20/dignityusa750x422.jpg?timestamp=1550710379 1x" media="(min-width:768px) and (max-width: 991px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mini_tablet_1x/public/2019/02/20/dignityusa750x422.jpg?timestamp=1550710379 1x" media="(min-width: 481px) and (max-width: 767px)" />
+<source srcset="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/20/dignityusa750x422.jpg?timestamp=1550710379 1x" media="(min-width: 1px) and (max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://www.advocate.com/sites/advocate.com/files/styles/teaser_custom_user_mobile_1x/public/2019/02/20/dignityusa750x422.jpg?timestamp=1550710379" alt="Pilgrims for LGBTQI Equality at the Vatican’s World Youth Day in Panam" title="Queer and Catholic Can Co-Exist, These Kids Say. Will the Pope Listen?" />
+</picture></a>
+<div class="imgText"><a href="/commentary">Commentary</a></div>
+</div>
+<div class="panel-body">
+<div class="title"><a href="/commentary/2019/2/21/queer-and-catholic-can-co-exist-these-kids-say-will-pope-listen">Queer and Catholic Can Co-Exist, These Kids Say. Will the Pope Listen?</a></div>
+<div class="timeShare"> <span class="time">7:27 AM</span>
+</div>
+<div class="shareHomeButtons"> <div class="tableDiv">
+<div class="tableRow"> <span class="tableCell share-count" data-url="https://www.advocate.com/commentary/2019/2/21/queer-and-catholic-can-co-exist-these-kids-say-will-pope-listen"></span>
+<div class="tableCell tw"><a href="https://twitter.com/share?text=Queer+and+Catholic+Can+Co-Exist%2C+These+Kids+Say.+Will+the+Pope+Listen%3F&url=https://www.advocate.com/commentary/2019/2/21/queer-and-catholic-can-co-exist-these-kids-say-will-pope-listen" target="_blank" class="twittershare"> <img src="/sites/all/modules/custom/heremedia_fb/images/twitter-share-button.jpg" class="twitter-share-button-track" alt="Share on Twitter" /> </a> </div>
+<div class="tableCell fb"><a href="https://www.facebook.com/sharer.php?u=https://www.advocate.com/commentary/2019/2/21/queer-and-catholic-can-co-exist-these-kids-say-will-pope-listen&title=Queer+and+Catholic+Can+Co-Exist%2C+These+Kids+Say.+Will+the+Pope+Listen%3F" target="_blank" class="facebookshare"> <img src="/sites/all/modules/custom/heremedia_fb/images/facebook-share-button.jpg" class="facebook-share-button-track" alt="Share on Facebook" /> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+1</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="deviceClass"></div>
+
+<script id="parsely-cfg" data-parsely-site="advocate.com" src="//cdn.parsely.com/keys/advocate.com/p.js"></script>
+<div id="dfp-ad-article_wallpaper-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-article_wallpaper" class="dfp-tag-wrapper">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-article_wallpaper");
+    });
+  </script>
+</div>
+</div><script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-99s4-uKAk3J7g"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-99s4-uKAk3J7g.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__GM3GJPR36rRIz0TRkjC5OQwrioSyN9aoYRivDhCO_AM__qAl84FcCv2jyN22yFGS5Oc85cjd9zKX6p_cFNLGhe-M__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js" async="async"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__Wc2QjC4OtPsUme7rfnYFK2ZLS2Pmg9JEmUp6tG2bulI__XUok23Tif72M0F1dUwuP7Me5IY_GidDk1xLFaZYPpKw__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__gPWf-R83hUsvs_4TpCuZIadqM9G_N1EV8KNuNjk5qOo__M3lwo0OWuZWhrPgTxqLNCLXiBGDfTG25mWrr1L0DJiw__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__KPSt-urSQiSdSfo6ZIX0JX3kMxVvknnSZtkg8F99hHc__Hl5txn8dILj58RpnF2S6jjS74WP8ODqYiji3kywo-QM__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55c93dd3eed0db31"></script>
+<script type="text/javascript" src="/sites/advocate.com/files/advagg_js/js__SIz-DEZptal6BjZWhwHOoTJrxcYYMfXMjcV1eo2JJOw__9meIjpEKYKrPz3HfNdXpiAVRGI_AVAO8OQR-uarrMfs__sBAWPuKToWrtRrrp7wCojNXjukU8QlQoiaP2klXzo1k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.fbAsyncInit=function(){FB.init({appId:'1792303797674941',xfbml:true,version:'v2.8'})};(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/sdk.js";fjs.parentNode.insertBefore(js,fjs)}(document,'script','facebook-jssdk'));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(w,d,s,id){w.PUBX=w.PUBX||{pub:"the_advocate",discover:false,lazy:true};var js,pjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.async=true;js.src="//main.pubexchange.com/loader.min.js";pjs.parentNode.insertBefore(js,pjs)}(window,document,"script","pubexchange-jssdk"));
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d13870c224","applicationID":"65778885,65778872","transactionName":"NlJUMERRCBVSAk1ZWQ8YdwdCWQkIHAVKb1MZQ0QFRW8ICVcEZkBXBlJpEl9VEQ==","queueTime":0,"applicationTime":1069,"atts":"GhVXRgxLGxs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

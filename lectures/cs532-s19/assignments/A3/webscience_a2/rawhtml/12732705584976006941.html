@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="shortcut icon" href="https://theguardiansofdemocracy.com/wp-content/uploads/2017/03/p.png" /><link rel="pingback" href="https://theguardiansofdemocracy.com/xmlrpc.php" />
+<meta property="og:image" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg" />
+<meta name="twitter:image" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="The Trump campaign owes the U.S. Department of the Treasury over $1 million in travel expenses, according to a new filing released by the Federal Election Commission (FEC). The Thursday filing revealed that the Trump campaign owed the government an estimated $1,006,954 and was still indebted to other organizations for $28,643.62 regarding event staging, video [&hellip;]" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/">
+<meta name="twitter:title" content="Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses">
+<meta name="twitter:description" content="The Trump campaign owes the U.S. Department of the Treasury over $1 million in travel expenses, according to a new filing released by the Federal Election Commission (FEC). The Thursday filing revealed that the Trump campaign owed the government an estimated $1,006,954 and was still indebted to other organizations for $28,643.62 regarding event staging, video [&hellip;]">
+<title>Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses</title>
+
+<link rel="canonical" href="https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses" />
+<meta property="og:description" content="The Trump campaign owes the U.S. Department of the Treasury over $1 million in travel expenses, according to a new filing released by the Federal Election Commission (FEC). The Thursday filing revealed that the Trump campaign owed the government an estimated $1,006,954 and was still indebted to other organizations for $28,643.62 regarding event staging, video &hellip;" />
+<meta property="og:url" content="https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/" />
+<meta property="og:site_name" content="The Guardians of Democracy" />
+<meta property="article:publisher" content="http://facebook.com/guardiansofdemocracy" />
+<meta property="article:tag" content="Donald Trump" />
+<meta property="article:tag" content="Treasury" />
+<meta property="article:tag" content="Trump Campaign" />
+<meta property="article:section" content="NEWS" />
+<meta property="article:published_time" content="2019-02-01T03:56:47+00:00" />
+<meta property="fb:app_id" content="1955985724677920" />
+<meta property="og:image" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg" />
+<meta property="og:image:secure_url" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg" />
+<meta property="og:image:width" content="934" />
+<meta property="og:image:height" content="546" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="The Trump campaign owes the U.S. Department of the Treasury over $1 million in travel expenses, according to a new filing released by the Federal Election Commission (FEC). The Thursday filing revealed that the Trump campaign owed the government an estimated $1,006,954 and was still indebted to other organizations for $28,643.62 regarding event staging, video [&hellip;]" />
+<meta name="twitter:title" content="Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses" />
+<meta name="twitter:image" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/theguardiansofdemocracy.com\/","sameAs":["http:\/\/facebook.com\/guardiansofdemocracy"],"@id":"https:\/\/theguardiansofdemocracy.com\/#organization","name":"The Guardians of Democracy","logo":"https:\/\/theguardiansofdemocracy.com\/wp-content\/uploads\/2017\/03\/guardians-final-logob.png"}</script>
+
+<link rel='dns-prefetch' href='//theguardiansofdemocracy.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Guardians of Democracy &raquo; Feed" href="https://theguardiansofdemocracy.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Guardians of Democracy &raquo; Comments Feed" href="https://theguardiansofdemocracy.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Guardians of Democracy &raquo; Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses Comments Feed" href="https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/feed/" />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/theguardiansofdemocracy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='theiaPostSlider-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/css/font-theme.css?ver=2.0.0' type='text/css' media='all' />
+<style id='theiaPostSlider-inline-css' type='text/css'>
+
+
+				.theiaPostSlider_nav.fontTheme ._title,
+				.theiaPostSlider_nav.fontTheme ._text {
+					line-height: 48px;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button,
+				.theiaPostSlider_nav.fontTheme ._button svg {
+					color: #f08100;
+					fill: #f08100;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button ._2 span {
+					font-size: 48px;
+					line-height: 48px;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button ._2 svg {
+					width: 48px;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button:hover,
+				.theiaPostSlider_nav.fontTheme ._button:focus,
+				.theiaPostSlider_nav.fontTheme ._button:hover svg,
+				.theiaPostSlider_nav.fontTheme ._button:focus svg {
+					color: #ffa338;
+					fill: #ffa338;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._disabled,				 
+                .theiaPostSlider_nav.fontTheme ._disabled svg {
+					color: #777777 !important;
+					fill: #777777 !important;
+				}
+			
+</style>
+<link rel='stylesheet' id='theiaPostSlider-font-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/fonts/style.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='widgetopts-styles-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/widget-options/assets/css/widget-options.css' type='text/css' media='all' />
+<link rel='stylesheet' id='reviewer-photoswipe-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/css/photoswipe.css?ver=3.14.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://theguardiansofdemocracy.com/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='reviewer-public-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/css/reviewer-public.css?ver=3.14.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-custom-style-css' href='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/style.css?ver=4.9.8' type='text/css' media='all' />
+<style id='mvp-custom-style-inline-css' type='text/css'>
+
+
+#mvp-wallpaper {
+	background: url() no-repeat 50% 0;
+	}
+
+a,
+a:visited,
+.post-info-name a,
+.woocommerce .woocommerce-breadcrumb a {
+	color: #9100ff;
+	}
+
+a:hover,
+nav.mvp-fly-nav-menu ul li a:hover,
+.mvp-feat1-story-text h2:hover,
+.mvp-feat2-sub-text h2:hover,
+.mvp-feat3-text h2:hover,
+.mvp-main-blog-text h2:hover,
+.mvp-trend-widget-text h2:hover,
+.mvp-related-text a:hover,
+ul.mvp-post-soc-list li.mvp-post-soc-comm:hover,
+span.mvp-author-box-soc:hover,
+.woocommerce .woocommerce-breadcrumb a:hover,
+h3.mvp-authors-list-head a:hover,
+.mvp-authors-widget-wrap span.mvp-main-blog-cat:hover,
+.mvp-wide-widget-text h2:hover,
+.mvp-side-widget a:hover,
+.mvp-blog-col-text h2:hover,
+#mvp-nav-menu ul li ul.mvp-mega-list li a:hover {
+	color: #9100ff !important;
+	}
+
+.mvp-fly-top:hover,
+span.mvp-feat1-main-cat,
+span.mvp-feat2-sub-cat,
+span.mvp-feat3-cat,
+span.mvp-blog-col-cat,
+span.mvp-feat2-main-cat,
+.mvp-trend-widget-img:after,
+.mvp-feat-vid-but,
+.mvp-feat-gal-but,
+span.mvp-post-cat,
+.mvp-prev-next-text a,
+.mvp-prev-next-text a:visited,
+.mvp-prev-next-text a:hover,
+#mvp-comments-button a,
+#mvp-comments-button span.mvp-comment-but-text,
+a.mvp-inf-more-but:hover,
+.mvp-side-widget .mvp-tag-cloud a:hover,
+span.mvp-ad-rel-but {
+	background: #9100ff;
+	}
+
+.mvp-fly-top:hover {
+	border: 1px solid #9100ff;
+	}
+
+h4.mvp-post-header {
+	border-top: 1px solid #9100ff;
+	}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce span.onsale,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+	background-color: #9100ff;
+	}
+
+nav.mvp-fly-nav-menu ul li.menu-item-has-children:after,
+span.mvp-blog-cat,
+span.mvp-main-blog-cat,
+h4.mvp-side-widget-head,
+h4.mvp-post-bot-head,
+#mvp-comments-button span.mvp-comment-but-text,
+span.mvp-post-header,
+.woocommerce .star-rating span:before,
+span.mvp-related-head {
+	color: #9100ff;
+	}
+
+#mvp-nav-wrap,
+.mvp-main-nav-cont {
+	background: #332e2e;
+	}
+
+#mvp-nav-menu ul li a,
+span.mvp-nav-search-but,
+span.mvp-nav-soc-but {
+	color: #f5f5f5;
+	}
+
+.mvp-fly-but-wrap span,
+.mvp-search-but-wrap span {
+	background: #f5f5f5;
+	}
+
+#mvp-nav-menu ul li.menu-item-has-children ul.sub-menu li a:after,
+#mvp-nav-menu ul li.menu-item-has-children ul.sub-menu li ul.sub-menu li a:after,
+#mvp-nav-menu ul li.menu-item-has-children ul.sub-menu li ul.sub-menu li ul.sub-menu li a:after,
+#mvp-nav-menu ul li.menu-item-has-children ul.mvp-mega-list li a:after,
+#mvp-nav-menu ul li.menu-item-has-children a:after {
+	border-color: #f5f5f5 transparent transparent transparent;
+	}
+
+#mvp-nav-menu ul li:hover a,
+span.mvp-nav-search-but:hover,
+span.mvp-nav-soc-but:hover {
+	color: #9100ff !important;
+	}
+
+#mvp-nav-menu ul li.menu-item-has-children:hover a:after {
+	border-color: #9100ff transparent transparent transparent !important;
+	}
+
+.mvp-feat1-story-text h2,
+.mvp-feat2-sub-text h2,
+.mvp-feat1-trend-text h2,
+.mvp-feat3-text h2,
+.mvp-blog-col-text h2,
+.mvp-main-blog-text h2,
+.mvp-trend-widget-text h2,
+.mvp-wide-widget-text h2,
+.mvp-related-text a {
+	color: #222222;
+	}
+
+#mvp-content-main,
+.rwp-summary,
+.rwp-u-review__comment {
+	font-family: 'Poppins', serif;
+	}
+
+#mvp-nav-menu ul li a,
+nav.mvp-fly-nav-menu ul li a,
+#mvp-foot-nav ul.menu li a {
+	font-family: 'Poppins', sans-serif;
+	}
+
+.mvp-feat2-main-title h2,
+h1.mvp-post-title,
+#mvp-nav-soc-title h4 {
+	font-family: 'Poppins', sans-serif;
+	}
+
+.mvp-feat1-story-text h2,
+.mvp-feat2-sub-text h2,
+.mvp-feat1-trend-text h2,
+.mvp-feat3-text h2,
+.mvp-blog-col-text h2,
+.mvp-main-blog-text h2,
+.mvp-trend-widget-text h2,
+.mvp-wide-widget-text h2,
+.mvp-related-text a,
+.mvp-prev-next-text a,
+.mvp-prev-next-text a:visited,
+.mvp-prev-next-text a:hover,
+#mvp-404 h1,
+h1.mvp-author-top-head,
+#mvp-nav-menu ul li ul.mvp-mega-list li a,
+#mvp-content-main blockquote p,
+#woo-content h1.page-title,
+.woocommerce div.product .product_title,
+.woocommerce ul.products li.product h3,
+.mvp-authors-list-posts a,
+.mvp-side-widget a {
+	font-family: 'Poppins', sans-serif;
+	}
+
+span.mvp-feat1-main-cat,
+span.mvp-feat2-sub-cat,
+span.mvp-blog-col-cat,
+span.mvp-blog-cat,
+h4.mvp-main-blog-head,
+h1.mvp-main-blog-head,
+span.mvp-main-blog-cat,
+h4.mvp-side-widget-head,
+span.mvp-post-cat,
+h4.mvp-post-bot-head,
+span.mvp-post-header,
+h1.mvp-arch-head,
+h4.mvp-arch-head,
+.woocommerce ul.product_list_widget span.product-title,
+.woocommerce ul.product_list_widget li a,
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+.woocommerce .related h2,
+.woocommerce div.product .woocommerce-tabs .panel h2,
+.woocommerce div.product .product_title,
+#mvp-content-main h1,
+#mvp-content-main h2,
+#mvp-content-main h3,
+#mvp-content-main h4,
+#mvp-content-main h5,
+#mvp-content-main h6,
+#woo-content h1.page-title,
+.woocommerce .woocommerce-breadcrumb,
+h3.mvp-authors-list-head a,
+span.mvp-authors-list-post-head {
+	font-family: 'Poppins', sans-serif;
+	}
+
+		
+
+	#mvp-ad-rel-bot {
+		padding-top: 10px;
+		}
+		
+
+.mvp-nav-left-out {
+	margin-left: -98px;
+	}
+
+.mvp-fixed .mvp-nav-left-out {
+	margin-left: -320px;
+	}
+
+.mvp-nav-left-in {
+	margin-left: 98px;
+	}
+
+.mvp-fixed .mvp-nav-left-in {
+	margin-left: 320px;
+	}
+
+#mvp-logo-nav {
+	display: none;
+	}
+
+.mvp-fixed #mvp-logo-nav {
+	display: block;
+	}
+
+#mvp-nav-menu ul ul,
+.mvp-fixed #mvp-nav-menu ul {
+	text-align: left;
+	}
+
+#mvp-nav-menu ul li a,
+#mvp-nav-menu ul li.menu-item-has-children a {
+	padding-bottom: 26px;
+	}
+
+#mvp-nav-main {
+	text-align: center;
+	}
+
+.mvp-fixed #mvp-nav-main {
+	text-align: left;
+	}
+
+#mvp-nav-menu {
+	display: inline-block;
+	}
+
+.mvp-fixed #mvp-nav-menu {
+	display: block;
+	}
+		
+
+	#mvp-post-content-mid {
+		margin-top: -150px;
+		}
+		
+
+	.mvp-nav-links {
+		display: none;
+		}
+		
+
+ 	@media (max-width: 1170px) and (min-width:769px) {
+	.content-area,
+	.inside-footer-widgets > div {
+		float: none;
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+        .sidebar {
+            display: none !important;
+        }
+}
+		
+</style>
+<link rel='stylesheet' id='mvp-reset-css' href='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/css/reset.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/font-awesome/css/font-awesome.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-fonts-css' href='//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700%7CMerriweather%3A300%2C400%2C700%2C900%7CQuicksand%3A400%7CLato%3A300%2C400%2C700%7CPassion+One%3A400%2C700%7CWork+Sans%3A200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CMontserrat%3A400%2C700%7COpen+Sans+Condensed%3A300%2C700%7COpen+Sans%3A400%2C700%2C800%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-media-queries-css' href='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/css/media-queries.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcw-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/contact-widgets/assets/css/style.min.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://theguardiansofdemocracy.com/wp-content/plugins/contact-widgets/assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/js/balupton-history.js/jquery.history.js?ver=1.7.1'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/js/async.min.js?ver=14.09.2014'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/js/tps.js?ver=2.0.0'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/js/main.js?ver=2.0.0'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-post-slider/js/tps-transition-slide.js?ver=2.0.0'></script>
+<link rel='https://api.w.org/' href='https://theguardiansofdemocracy.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://theguardiansofdemocracy.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://theguardiansofdemocracy.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://theguardiansofdemocracy.com/?p=61367' />
+<link rel="alternate" type="application/json+oembed" href="https://theguardiansofdemocracy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheguardiansofdemocracy.com%2Ftrump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://theguardiansofdemocracy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheguardiansofdemocracy.com%2Ftrump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses%2F&#038;format=xml" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93379577-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<meta property="fb:pages" content="257394601341332" />
+<meta name="google-site-verification" content="fe1uZKHPP9hvzpwBluXeSfOciJ8hSbyPjezonYBXN9E" />
+<meta name="msvalidate.01" content="A47FFDCFADB73A3D1B8232ABEAA54F88" />
+<meta name="google-site-verification" content="Px3gS7T8HYORPT2vrn4MqT3gr9TcaNqduDXiGhZGYtc" /></head>
+<body data-rsssl=1 class="post-template-default single single-post postid-61367 single-format-image theiaPostSlider_body">
+<div id="mvp-fly-wrap">
+<div id="mvp-fly-menu-top" class="left relative">
+<div class="mvp-fly-top-out left relative">
+<div class="mvp-fly-top-in">
+<div id="mvp-fly-logo" class="left relative">
+<a href="https://theguardiansofdemocracy.com/"><img src="https://theguardiansofdemocracy.com/wp-content/uploads/2017/03/Guardians3-Copy-1.png" alt="The Guardians of Democracy" data-rjs="2" /></a>
+</div>
+</div>
+<div class="mvp-fly-but-wrap mvp-fly-but-menu mvp-fly-but-click">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<div id="mvp-fly-menu-wrap">
+<nav class="mvp-fly-nav-menu left relative">
+<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-2108" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-2108"><a href="https://theguardiansofdemocracy.com/category/news/">NEWS</a>
+<ul class="sub-menu">
+<li id="menu-item-2109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2109"><a href="https://theguardiansofdemocracy.com/category/news/fake-news/">Fake News</a></li>
+<li id="menu-item-2110" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2110"><a href="https://theguardiansofdemocracy.com/category/news/trump/">Trump</a></li>
+<li id="menu-item-2111" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2111"><a href="https://theguardiansofdemocracy.com/category/news/u-s/">U.S.</a></li>
+<li id="menu-item-2112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2112"><a href="https://theguardiansofdemocracy.com/category/news/world/">World</a></li>
+</ul>
+</li>
+<li id="menu-item-2083" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2083"><a href="https://theguardiansofdemocracy.com/category/democracy/">DEMOCRACY</a>
+<ul class="sub-menu">
+<li id="menu-item-2084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2084"><a href="https://theguardiansofdemocracy.com/category/democracy/authoritarianism/">Authoritarianism</a></li>
+<li id="menu-item-2085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2085"><a href="https://theguardiansofdemocracy.com/category/democracy/campaign-finance/">Campaign Finance</a></li>
+<li id="menu-item-2086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2086"><a href="https://theguardiansofdemocracy.com/category/democracy/electoral-finance/">Electoral Finance</a></li>
+<li id="menu-item-2087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2087"><a href="https://theguardiansofdemocracy.com/category/democracy/voting-rights/">Voting Rights</a></li>
+</ul>
+</li>
+<li id="menu-item-2073" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2073"><a href="https://theguardiansofdemocracy.com/category/climate/">CLIMATE</a>
+<ul class="sub-menu">
+<li id="menu-item-2074" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2074"><a href="https://theguardiansofdemocracy.com/category/climate/clean-energy/">Clean Energy</a></li>
+<li id="menu-item-2075" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2075"><a href="https://theguardiansofdemocracy.com/category/climate/dirty-politics/">Dirty Politics</a></li>
+<li id="menu-item-2076" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2076"><a href="https://theguardiansofdemocracy.com/category/climate/environment/">Environment</a></li>
+<li id="menu-item-2077" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2077"><a href="https://theguardiansofdemocracy.com/category/climate/extreme-weather/">Extreme Weather</a></li>
+</ul>
+</li>
+<li id="menu-item-2092" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2092"><a href="https://theguardiansofdemocracy.com/category/equality/">EQUALITY</a>
+<ul class="sub-menu">
+<li id="menu-item-2093" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2093"><a href="https://theguardiansofdemocracy.com/category/equality/lgbtq/">LGBTQ+</a></li>
+<li id="menu-item-2094" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2094"><a href="https://theguardiansofdemocracy.com/category/equality/minorities/">Minorities</a></li>
+<li id="menu-item-2095" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2095"><a href="https://theguardiansofdemocracy.com/category/equality/women/">Women</a></li>
+</ul>
+</li>
+<li id="menu-item-2100" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2100"><a href="https://theguardiansofdemocracy.com/category/justice/">JUSTICE</a>
+<ul class="sub-menu">
+<li id="menu-item-2101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2101"><a href="https://theguardiansofdemocracy.com/category/justice/drug-liberalization/">Drug Liberalization</a></li>
+<li id="menu-item-2102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2102"><a href="https://theguardiansofdemocracy.com/category/justice/mass-incarceration/">Mass Incarceration</a></li>
+<li id="menu-item-2103" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2103"><a href="https://theguardiansofdemocracy.com/category/justice/racism/">Racism</a></li>
+</ul>
+</li>
+<li id="menu-item-2096" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2096"><a href="https://theguardiansofdemocracy.com/category/freedom/">FREEDOM</a>
+<ul class="sub-menu">
+<li id="menu-item-2097" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2097"><a href="https://theguardiansofdemocracy.com/category/freedom/censorship/">Censorship</a></li>
+<li id="menu-item-2098" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2098"><a href="https://theguardiansofdemocracy.com/category/freedom/mass-surveillance/">Mass Surveillance</a></li>
+<li id="menu-item-2099" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2099"><a href="https://theguardiansofdemocracy.com/category/freedom/privacy-protection/">Privacy Protection</a></li>
+</ul>
+</li>
+<li id="menu-item-2088" class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2088"><a href="https://theguardiansofdemocracy.com/category/economy/">ECONOMY</a>
+<ul class="sub-menu">
+<li id="menu-item-2089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2089"><a href="https://theguardiansofdemocracy.com/category/economy/corporate-greed/">Corporate Greed</a></li>
+<li id="menu-item-2090" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2090"><a href="https://theguardiansofdemocracy.com/category/economy/economic-democracy/">Economic Democracy</a></li>
+<li id="menu-item-2091" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2091"><a href="https://theguardiansofdemocracy.com/category/economy/welfare-reform/">Welfare Reform</a></li>
+</ul>
+</li>
+<li id="menu-item-2447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2447"><a href="https://theguardiansofdemocracy.com/about/">About</a></li>
+<li id="menu-item-50195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50195"><a href="https://theguardiansofdemocracy.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-2337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2337"><a href="https://theguardiansofdemocracy.com/contact/">Contact Us</a></li>
+</ul></div> </nav>
+</div>
+<div id="mvp-fly-soc-wrap">
+<span class="mvp-fly-soc-head">Connect with us</span>
+<ul class="mvp-fly-soc-list left relative">
+<li><a href="https://www.facebook.com/TheGuardiansOfDemocracy" target="_blank" class="fa fa-facebook-official fa-2"></a></li>
+<li><a href="https://twitter.com/Guardemocracy" target="_blank" class="fa fa-twitter fa-2"></a></li>
+<li><a href="https://www.youtube.com/channel/UCOzT3fyPN7uTGUIha0YIl_g" target="_blank" class="fa fa-youtube-play fa-2"></a></li>
+</ul>
+</div>
+</div> <div id="mvp-site" class="left relative">
+<header id="mvp-head-wrap" class="left relative">
+<div id="mvp-head-top" class="left relative">
+<div id="mvp-leader-wrap" class="left relative">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6640441192406473" data-ad-slot="9810487563" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </div>
+<div id="mvp-logo-wide" class="left relative">
+<div class="mvp-main-out relative">
+<div class="mvp-main-in">
+<a itemprop="url" href="https://theguardiansofdemocracy.com/"><img itemprop="logo" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/02/guardlogo.jpg" alt="The Guardians of Democracy" data-rjs="2" /></a>
+<h2 class="mvp-logo-title">The Guardians of Democracy</h2>
+</div>
+</div>
+</div>
+<div id="mvp-search-wrap">
+<div id="mvp-search-box">
+<form method="get" id="searchform" action="https://theguardiansofdemocracy.com/">
+<input type="text" name="s" id="s" value="Search" onfocus='if (this.value == "Search") { this.value = ""; }' onblur='if (this.value == "") { this.value = "Search"; }' />
+<input type="hidden" id="searchsubmit" value="Search" />
+</form> </div>
+<div class="mvp-search-but-wrap mvp-search-click">
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<div id="mvp-nav-wrap" class="left relative">
+<div class="mvp-main-boxed-wrap">
+<div class="mvp-main-out relative">
+<div class="mvp-main-in">
+<div class="mvp-main-nav-cont left relative">
+<div class="mvp-nav-left-out">
+<div class="mvp-fly-but-wrap mvp-fly-but-click left relative">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div id="mvp-logo-nav" class="left relative" itemscope itemtype="http://schema.org/Organization">
+<a itemprop="url" href="https://theguardiansofdemocracy.com/"><img itemprop="logo" src="https://theguardiansofdemocracy.com/wp-content/uploads/2017/03/Guardians3-Copy-1.png" alt="The Guardians of Democracy" data-rjs="2" /></a>
+<h2 class="mvp-logo-title">The Guardians of Democracy</h2>
+</div>
+<div class="mvp-nav-left-in">
+<div id="mvp-nav-right-wrap" class="left">
+<div class="mvp-nav-right-out">
+<div class="mvp-nav-right-in">
+<div id="mvp-nav-main" class="left">
+<nav id="mvp-nav-menu">
+<div class="menu-top-menu-container"><ul id="menu-top-menu-1" class="menu"><li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-2108"><a href="https://theguardiansofdemocracy.com/category/news/">NEWS</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;</a></li><li><a href="https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Delaware Trooper Who Pulled Gun On Unarmed Black Man In Traffic Stop Under Investigation: Video</a></li><li><a href="https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Police Charge &#8216;Empire&#8217; Actor Jussie Smollett With Filing False Report In Alleged Hate Crime Attack</a></li><li><a href="https://theguardiansofdemocracy.com/coast-guard-lieutenant-arrested-in-alleged-domestic-terror-plot-to-kill-dem-senators-msnbc-and-cnn-hosts/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/kill-list-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Coast Guard Lieutenant Arrested In Alleged Domestic Terror Plot To Kill Dem Senators, MSNBC And CNN Hosts</a></li><li><a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2109"><a href="https://theguardiansofdemocracy.com/category/news/fake-news/">Fake News</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2110"><a href="https://theguardiansofdemocracy.com/category/news/trump/">Trump</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2111"><a href="https://theguardiansofdemocracy.com/category/news/u-s/">U.S.</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2112"><a href="https://theguardiansofdemocracy.com/category/news/world/">World</a></li>
+</ul>
+</li>
+<li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2083"><a href="https://theguardiansofdemocracy.com/category/democracy/">DEMOCRACY</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/ny-times-publisher-compares-trumps-attacks-on-the-free-press-to-dictators-and-tyrants/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>NY Times Publisher Compares Trump&#8217;s Attacks On The Free Press To &#8216;Dictators And Tyrants’</a></li><li><a href="https://theguardiansofdemocracy.com/trump-new-york-times-is-the-enemy-of-the-people-free-press-will-disappear-in-six-years/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump: New York Times Is The &#8216;Enemy Of The People,&#8217; Free Press Will Disappear &#8216;In Six Years&#8217;</a></li><li><a href="https://theguardiansofdemocracy.com/white-house-now-claims-crowd-applauded-for-trump-in-pence-speech-video-proves-thats-a-lie/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/pence-speech-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>White House Now Claims Crowd Applauded For Trump In Pence Speech. Video Proves That&#8217;s A Lie</a></li><li><a href="https://theguardiansofdemocracy.com/alec-baldwin-trumps-tweet-calling-for-retribution-against-snl-may-be-a-threat-to-my-safety/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/snl-alec-baldwin-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/snl-alec-baldwin-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/snl-alec-baldwin-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Alec Baldwin: Trump&#8217;s Tweet Calling For &#8216;Retribution&#8217; Against SNL May Be ‘A Threat To My Safety’</a></li><li><a href="https://theguardiansofdemocracy.com/trump-erupts-when-jim-acosta-asks-if-hes-concocting-a-national-emergency-to-get-his-wall/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump Erupts When Jim Acosta Asks If He&#8217;s &#8216;Concocting&#8217; A National Emergency To Get His Wall</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2084"><a href="https://theguardiansofdemocracy.com/category/democracy/authoritarianism/">Authoritarianism</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2085"><a href="https://theguardiansofdemocracy.com/category/democracy/campaign-finance/">Campaign Finance</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2086"><a href="https://theguardiansofdemocracy.com/category/democracy/electoral-finance/">Electoral Finance</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2087"><a href="https://theguardiansofdemocracy.com/category/democracy/voting-rights/">Voting Rights</a></li>
+</ul>
+</li>
+<li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2073"><a href="https://theguardiansofdemocracy.com/category/climate/">CLIMATE</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/trump-again-shows-his-ignorance-about-weather-and-climate-change-in-tweet-attacking-dem-candidate/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/08/trump-points-head-smart-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/08/trump-points-head-smart-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/08/trump-points-head-smart-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump Again Shows His Ignorance About Weather And Climate Change In Tweet Attacking Dem Candidate</a></li><li><a href="https://theguardiansofdemocracy.com/why-stop-at-plastic-bags-and-straws-the-case-for-a-global-treaty-banning-most-single-use-plastics/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/01/plastic-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/01/plastic-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/01/plastic-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Why Stop At Plastic Bags And Straws? The Case For A Global Treaty Banning Most Single-Use Plastics</a></li><li><a href="https://theguardiansofdemocracy.com/anonymous-donor-pays-hotel-tab-to-place-70-homeless-in-chicago-amid-life-threatening-polar-vortex/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/polar-vortex-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/polar-vortex-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/polar-vortex-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Anonymous Donor Pays Hotel Tab To Place 70 Homeless In Chicago Amid Life-Threatening Polar Vortex</a></li><li><a href="https://theguardiansofdemocracy.com/federal-agency-after-trump-tweet-winter-storms-dont-prove-that-global-warming-isnt-happening/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/climate-1-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/climate-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/climate-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Federal Agency After Trump Tweet: &#8216;Winter Storms Don’t Prove That Global Warming Isn’t Happening&#8217;</a></li><li><a href="https://theguardiansofdemocracy.com/trump-jokes-about-life-threatening-sub-zero-temperatures-across-the-midwest-gets-roasted/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/trump-tweet-1-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Trump Jokes About Life-Threatening Sub-Zero Temperatures Across The Midwest. Gets Roasted By Twitter</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2074"><a href="https://theguardiansofdemocracy.com/category/climate/clean-energy/">Clean Energy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2075"><a href="https://theguardiansofdemocracy.com/category/climate/dirty-politics/">Dirty Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2076"><a href="https://theguardiansofdemocracy.com/category/climate/environment/">Environment</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2077"><a href="https://theguardiansofdemocracy.com/category/climate/extreme-weather/">Extreme Weather</a></li>
+</ul>
+</li>
+<li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2092"><a href="https://theguardiansofdemocracy.com/category/equality/">EQUALITY</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;</a></li><li><a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians</a></li><li><a href="https://theguardiansofdemocracy.com/utah-police-are-hunting-suspect-who-asked-are-you-gay-though-before-punching-victim-pulling-knife/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/attack-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/attack-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/attack-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Utah Police Are Hunting Suspect Who Asked, &#8216;Are You Gay Though?&#8217; Before Punching Victim, Pulling Knife</a></li><li><a href="https://theguardiansofdemocracy.com/lawmaker-who-called-pregnant-women-hosts-pushing-bill-requiring-men-to-approve-all-abortions/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/uncle-1-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/uncle-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/uncle-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>GOP Lawmaker Who Called Pregnant Women &#8216;Hosts’ Pushes Bill Requiring Men To Approve All Abortions</a></li><li><a href="https://theguardiansofdemocracy.com/kansas-gop-lawmakers-introduce-bill-to-define-same-sex-marriage-as-a-parody-marriage/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/lgbt-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Kansas GOP Lawmakers Introduce Bill To Define Same-Sex Marriage As A &#8216;Parody Marriage&#8217;</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2093"><a href="https://theguardiansofdemocracy.com/category/equality/lgbtq/">LGBTQ+</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2094"><a href="https://theguardiansofdemocracy.com/category/equality/minorities/">Minorities</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2095"><a href="https://theguardiansofdemocracy.com/category/equality/women/">Women</a></li>
+</ul>
+</li>
+<li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2100"><a href="https://theguardiansofdemocracy.com/category/justice/">JUSTICE</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Delaware Trooper Who Pulled Gun On Unarmed Black Man In Traffic Stop Under Investigation: Video</a></li><li><a href="https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Police Charge &#8216;Empire&#8217; Actor Jussie Smollett With Filing False Report In Alleged Hate Crime Attack</a></li><li><a href="https://theguardiansofdemocracy.com/woman-unleashes-racist-tirade-inside-mexican-restaurant-after-hearing-manager-speak-spanish/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Woman Unleashes Racist Tirade Inside Mexican Restaurant After Hearing Manager Speak Spanish</a></li><li><a href="https://theguardiansofdemocracy.com/florida-boy-arrested-for-refusing-to-stand-for-pledge-of-allegiance-teacher-said-go-back-if-he-didnt-like-us/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/talbot-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Florida Boy Arrested For Refusing To Stand For Pledge Of Allegiance, Teacher Said &#8216;Go Back&#8217; If He Didn&#8217;t Like US</a></li><li><a href="https://theguardiansofdemocracy.com/republican-official-who-called-michelle-obama-an-ape-in-heels-faces-30-years-in-prison-for-fema-fraud/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/pamela-taylor-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Republican Official Who Called Michelle Obama An ‘Ape In Heels,’ Faces 30 Years In Prison For FEMA Fraud</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2101"><a href="https://theguardiansofdemocracy.com/category/justice/drug-liberalization/">Drug Liberalization</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2102"><a href="https://theguardiansofdemocracy.com/category/justice/mass-incarceration/">Mass Incarceration</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2103"><a href="https://theguardiansofdemocracy.com/category/justice/racism/">Racism</a></li>
+</ul>
+</li>
+<li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2096"><a href="https://theguardiansofdemocracy.com/category/freedom/">FREEDOM</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/technology-giants-didnt-deserve-public-trust-in-the-first-place/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/10/russia-facebook-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/10/russia-facebook-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/10/russia-facebook-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Technology Giants Didn&#8217;t Deserve Public Trust In The First Place</a></li><li><a href="https://theguardiansofdemocracy.com/fox-news-host-shep-smith-trump-journalists-not-enemies-people/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/02/shep-smith-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Fox News Host Shep Smith To Trump: &#8216;Journalists Are Not The Enemies Of The People&#8217;</a></li><li><a href="https://theguardiansofdemocracy.com/hillary-clinton-fundamental-rights-civic-virtue-even-facts-reason-assault-like-never/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/07/trump-hillary-clinton-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/07/trump-hillary-clinton-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/07/trump-hillary-clinton-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Hillary Clinton: &#8216;Fundamental Rights, Civic Virtue, Even Facts And Reason Are Under Assault Like Never Before&#8217;</a></li><li><a href="https://theguardiansofdemocracy.com/willie-nelson-christians-everywhere-arms-trumps-family-separation-policy/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/06/willie-nelson-trump-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/06/willie-nelson-trump-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/06/willie-nelson-trump-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Willie Nelson: &#8216;Christians Everywhere Should Be Up In Arms&#8217; Over Trump&#8217;s Family-Separation Policy</a></li><li><a href="https://theguardiansofdemocracy.com/trump-lashes-female-cbs-news-reporter-asking-question-shes-obnoxious-quiet/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/06/nbc-news-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/06/nbc-news-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/06/nbc-news-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump Lashes Out At Female CBS News Reporter For Asking A Question: &#8216;She’s So Obnoxious. Quiet!&#8217;</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2097"><a href="https://theguardiansofdemocracy.com/category/freedom/censorship/">Censorship</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2098"><a href="https://theguardiansofdemocracy.com/category/freedom/mass-surveillance/">Mass Surveillance</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2099"><a href="https://theguardiansofdemocracy.com/category/freedom/privacy-protection/">Privacy Protection</a></li>
+</ul>
+</li>
+<li class="mvp-mega-dropdown menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2088"><a href="https://theguardiansofdemocracy.com/category/economy/">ECONOMY</a><div class="mvp-mega-dropdown"><ul class="mvp-mega-list"><li><a href="https://theguardiansofdemocracy.com/us-national-debt-surpasses-22-trillion-for-first-time-in-us-history-as-experts-warn-of-ripple-effects/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-sky-point-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>US National Debt Surpasses $22 Trillion For First Time In US History As Experts Warn Of Ripple Effects</a></li><li><a href="https://theguardiansofdemocracy.com/fox-news-hosts-shocked-to-learn-their-own-polls-show-majority-of-americans-want-to-tax-millionaires/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/fox-news-poll-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>Fox News Hosts Shocked To Learn Their Own Polls Show Voters Want To Increase Taxes On The Rich</a></li><li><a href="https://theguardiansofdemocracy.com/the-worlds-richest-26-billionaires-now-own-as-much-capital-as-the-poorest-3-8-billion-combined-report/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/yacht-1-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" /></div>The World&#8217;s Richest 26 Billionaires Now Own As Much Capital As The Poorest 3.8 Billion Combined: Report</a></li><li><a href="https://theguardiansofdemocracy.com/cnn-guest-catches-pro-trump-economist-red-handed-making-up-numbers-to-defend-trump/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/cnn-fight-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/cnn-fight-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/cnn-fight-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>CNN Guest Catches Pro-Trump Economist Red-Handed ‘Making Up Numbers’ To Defend Trump</a></li><li><a href="https://theguardiansofdemocracy.com/trump-shrugs-off-looming-debt-crisis-i-wont-be-here-when-it-explodes/"><div class="mvp-mega-img"><img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/11/trump-arms-open-400x240.jpg" class="attachment-mvp-mid-thumb size-mvp-mid-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/11/trump-arms-open-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2017/11/trump-arms-open-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /></div>Trump Shrugs Off Looming Debt Crisis: ‘I Won’t Be Here’ When It Explodes</a></li></ul></div>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2089"><a href="https://theguardiansofdemocracy.com/category/economy/corporate-greed/">Corporate Greed</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2090"><a href="https://theguardiansofdemocracy.com/category/economy/economic-democracy/">Economic Democracy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2091"><a href="https://theguardiansofdemocracy.com/category/economy/welfare-reform/">Welfare Reform</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2447"><a href="https://theguardiansofdemocracy.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50195"><a href="https://theguardiansofdemocracy.com/privacy-policy/">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2337"><a href="https://theguardiansofdemocracy.com/contact/">Contact Us</a></li>
+</ul></div> </nav>
+</div>
+</div>
+<div id="mvp-nav-right" class="relative">
+ <div id="mvp-nav-soc" class="left relative">
+<a href="https://www.facebook.com/TheGuardiansOfDemocracy" target="_blank"><span class="mvp-nav-soc-but fa fa-facebook fa-2"></span></a>
+<a href="https://twitter.com/Guardemocracy" target="_blank"><span class="mvp-nav-soc-but fa fa-twitter fa-2"></span></a>
+</div>
+<span class="mvp-nav-search-but fa fa-search fa-2 mvp-search-click"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="mvp-nav-soc-bar">
+<div class="mvp-main-out relative">
+<div class="mvp-main-in">
+<div id="mvp-nav-soc-cont" class="left relative">
+<div id="mvp-nav-soc-title" class="left">
+<h4>Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses</h4>
+</div>
+<div id="mvp-nav-soc-list" class="left">
+<ul class="mvp-post-soc-list left relative">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/&amp;t=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook">
+<li class="mvp-post-soc-fb">
+<i class="fa fa-facebook-square fa-2" aria-hidden="true"></i><span class="mvp-post-soc-text">Share</span>
+</li>
+</a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses -&amp;url=https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post">
+<li class="mvp-post-soc-twit">
+<i class="fa fa-twitter fa-2" aria-hidden="true"></i><span class="mvp-post-soc-text">Tweet</span>
+</li>
+</a>
+<a href="whatsapp://send?text=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/">
+<li class="mvp-post-soc-what">
+<i class="fa fa-whatsapp fa-2" aria-hidden="true"></i>
+</li>
+</a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg&amp;description=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post">
+<li class="mvp-post-soc-pin">
+<i class="fa fa-pinterest-p fa-2" aria-hidden="true"></i>
+</li>
+</a>
+<a href="/cdn-cgi/l/email-protection#615e1214030b0402155c3513140c114122000c110008060f412e16041241350904413432413513040012141318412e170413414550412c080d0d080e0f41280f4135130017040d41241911040f12041247000c115a232e25385c2841070e140f0541150908124100131508020d0441080f150413041215080f0641000f054115090e14060915410e074112090013080f06410815411608150941180e144f41220904020a410815410e14155b4109151511125b4e4e150904061400130508000f120e0705040c0e02130002184f020e0c4e1513140c114c02000c110008060f4c0e1604124c1509044c14124c15130400121413184c0e1704134c504c0c080d0d080e0f4c080f4c15130017040d4c041911040f1204124e">
+<li class="mvp-post-soc-email">
+<i class="fa fa-envelope-o fa-2" aria-hidden="true"></i>
+</li>
+</a>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="mvp-main-wrap" class="left relative">
+<div class="mvp-main-boxed-wrap">
+<div class="mvp-main-out relative">
+<div class="mvp-main-in">
+<div id="mvp-main-content-wrap" class="left relative"><div id="mvp-post-area" class="post-61367 post type-post status-publish format-image has-post-thumbnail hentry category-news category-trump category-u-s tag-donald-trump tag-treasury tag-trump-campaign post_format-post-format-image">
+<div class="mvp-content-side-out relative">
+<div class="mvp-content-side-in">
+<div id="mvp-content-left-wrap" class="left relative">
+<article id="mvp-post-content-wrap" class="left relative" itemscope itemtype="http://schema.org/NewsArticle">
+<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/" />
+<div id="mvp-post-feat-img" class="left relative" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<img width="934" height="546" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg" class="attachment- size- wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg 934w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un-300x175.jpg 300w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un-768x449.jpg 768w" sizes="(max-width: 934px) 100vw, 934px" /> <meta itemprop="url" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg">
+<meta itemprop="width" content="934">
+<meta itemprop="height" content="546">
+</div>
+<div id="mvp-post-content" class="left relative">
+<div class="mvp-post-content-out relative">
+<div id="mvp-post-info-col" class="left relative">
+<div id="mvp-related-posts" class="left relative">
+<ul class="mvp-related-posts-list left related">
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/" rel="bookmark" title="Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/">Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;</a>
+</div>
+</li>
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/" rel="bookmark" title="GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/">GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians</a>
+</div>
+</li>
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/ny-times-publisher-compares-trumps-attacks-on-the-free-press-to-dictators-and-tyrants/" rel="bookmark" title="NY Times Publisher Compares Trump&#8217;s Attacks On The Free Press To &#8216;Dictators And Tyrants’">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/ny-times-publisher-compares-trumps-attacks-on-the-free-press-to-dictators-and-tyrants/">NY Times Publisher Compares Trump&#8217;s Attacks On The Free Press To &#8216;Dictators And Tyrants’</a>
+</div>
+</li>
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/trump-new-york-times-is-the-enemy-of-the-people-free-press-will-disappear-in-six-years/" rel="bookmark" title="Trump: New York Times Is The &#8216;Enemy Of The People,&#8217; Free Press Will Disappear &#8216;In Six Years&#8217;">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/trump-new-york-times-is-the-enemy-of-the-people-free-press-will-disappear-in-six-years/">Trump: New York Times Is The &#8216;Enemy Of The People,&#8217; Free Press Will Disappear &#8216;In Six Years&#8217;</a>
+</div>
+</li>
+</ul></div> </div>
+<div class="mvp-post-content-in">
+<div id="mvp-post-content-mid" class="left relative">
+<header id="mvp-post-head" class="left relative">
+<a class="mvp-post-cat-link" href="https://theguardiansofdemocracy.com/category/news/"><h3 class="mvp-post-cat left"><span class="mvp-post-cat left">NEWS</span></h3></a>
+<h1 class="mvp-post-title entry-title" itemprop="headline">Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses</h1>
+<div id="mvp-post-info-wrap" class="left relative">
+<div id="mvp-post-info-top" class="left relative">
+<div class="mvp-post-info-out right relative">
+<div id="mvp-post-author-img" class="left relative">
+<img alt='' src='https://secure.gravatar.com/avatar/1259c78e186d8adc20e7e57726d2f3b8?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/1259c78e186d8adc20e7e57726d2f3b8?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' /> </div>
+<div class="mvp-post-info-in">
+<div id="mvp-post-author" class="left relative" itemprop="author" itemscope itemtype="https://schema.org/Person">
+<p>By<p><span class="author-name vcard fn author" itemprop="name"><a href="https://theguardiansofdemocracy.com/author/danielstolz/" title="Posts by Guardians of Democracy Staff" rel="author">Guardians of Democracy Staff</a></span> </div>
+<div id="mvp-post-date" class="left relative">
+<span class="post-info-text">Published on</span> <span class="post-date updated"><time class="post-date updated" itemprop="datePublished" datetime="2019-01-31">January 31, 2019</time></span>
+<meta itemprop="dateModified" content="2019-01-31" />
+</div>
+</div>
+</div>
+</div>
+<div id="mvp-post-info-bot" class="right relative">
+<ul class="mvp-post-soc-list left relative">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/&amp;t=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook">
+<li class="mvp-post-soc-fb">
+<i class="fa fa-facebook-square fa-2" aria-hidden="true"></i><span class="mvp-post-soc-text">Share</span>
+</li>
+</a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses -&amp;url=https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post">
+<li class="mvp-post-soc-twit">
+<i class="fa fa-twitter fa-2" aria-hidden="true"></i><span class="mvp-post-soc-text">Tweet</span>
+</li>
+</a>
+<a href="whatsapp://send?text=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/">
+<li class="mvp-post-soc-what">
+ <i class="fa fa-whatsapp fa-2" aria-hidden="true"></i>
+</li>
+</a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/09/trump-un.jpg&amp;description=Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post">
+<li class="mvp-post-soc-pin">
+<i class="fa fa-pinterest-p fa-2" aria-hidden="true"></i>
+</li>
+</a>
+<a href="/cdn-cgi/l/email-protection#56692523343c3335226b0224233b267615373b26373f3138761921332576023e3376030576022433372523242f7619203324767267761b3f3a3a3f3938761f387602243720333a76132e26333825332570373b266d1419120f6b1f76303923383276223e3f25763724223f353a33763f382233243325223f38317637383276223e3923313e2276393076253e37243f3831763f2276213f223e762f39237876153e33353d763f22763923226c763e222226256c7979223e3331233724323f373825393032333b39352437352f7835393b792224233b267b35373b26373f31387b392133257b223e337b23257b222433372523242f7b392033247b677b3b3f3a3a3f39387b3f387b22243720333a7b332e26333825332579">
+<li class="mvp-post-soc-email">
+<i class="fa fa-envelope-o fa-2" aria-hidden="true"></i>
+</li>
+</a>
+<a href="#disqus_thread">
+<li class="mvp-post-soc-comm mvp-com-click">
+<i class="fa fa-comment-o fa-2" aria-hidden="true"></i><span class="mvp-post-soc-text">Comment</span>
+</li>
+</a>
+</ul>
+</div>
+</div>
+</header>
+<section id="mvp-content-main" itemprop="articleBody" class="post-61367 post type-post status-publish format-image has-post-thumbnail hentry category-news category-trump category-u-s tag-donald-trump tag-treasury tag-trump-campaign post_format-post-format-image">
+<div id="tps_slideContainer_61367" class="theiaPostSlider_slides"><div class="theiaPostSlider_preloadedSlide">
+<p><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br />
+<br />
+<ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-6640441192406473" data-ad-slot="5532588360" data-ad-format="auto"></ins><br />
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>The Trump campaign owes the U.S. Department of the Treasury over $1 million in travel expenses, according to a <a href="http://docquery.fec.gov/cgi-bin/forms/C00580100/1312481/sd/12">new filing</a> released by the Federal Election Commission (FEC). </p>
+<p><script type="text/javascript" class="teads" id="teadsSlot1" async="true" src="//a.teads.tv/page/67575/tag" data-serve="72475"></script></p>
+<p>The Thursday filing revealed that the Trump campaign owed the government an estimated $1,006,954 and was still indebted to other organizations for $28,643.62 regarding event staging, video production services, and other miscellaneous expenses. </p>
+<p>The campaign also said it had raised about $21 million in the last three months of 2018, bringing its total fundraising so far for Trump&#8217;s reelection to $129 million.</p>
+<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br />
+<ins class="adsbygoogle" style="display: block; text-align: center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-6640441192406473" data-ad-slot="9243675963"></ins><br />
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+<p>Trump&#8217;s reelection committee said it had finished 2018 with $19.3 million cash on hand.</p>
+<p>“This is a true testament to President Trump’s fulfillment of his promises made to the forgotten men and women of America,” Michael Glassner, chief operating officer for the campaign, told <a href="https://www.washingtonpost.com/politics/trump-reelection-effort-raised-21-million-in-the-fourth-quarter-campaign-says/2019/01/31/6e2a736a-2588-11e9-ad53-824486280311_story.html?noredirect=on&#038;utm_term=.74ad45e2b593">The Washington Post</a>.</p>
+<p><script type="text/javascript" class="teads" id="teadsSlot2" async="true" src="//a.teads.tv/page/67575/tag" data-serve="103435"></script></p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">Note on <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">@realDonaldTrump</a> latest <a href="https://twitter.com/FEC?ref_src=twsrc%5Etfw">@FEC</a> filing: he reports owing the U.S. Treasury approximately $1,006,954 for travel expenses<a href="https://t.co/hUFqXCaW6s">https://t.co/hUFqXCaW6s</a> <a href="https://t.co/JtEcpTlXD8">pic.twitter.com/JtEcpTlXD8</a></p>
+<p>&mdash; Ashley Balcerzak (@abalcerzak) <a href="https://twitter.com/abalcerzak/status/1091133341045272576?ref_src=twsrc%5Etfw">February 1, 2019</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br />
+<br />
+<ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-6640441192406473" data-ad-slot="7635750369"></ins><br />
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+<div id="zergnet-widget-51230"></div>
+<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br />
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6640441192406473",
+          enable_page_level_ads: true
+     });
+</script></p>
+<div id="zergnet-widget-68503"></div>
+</div></div><div class="theiaPostSlider_footer _footer"></div><p></p>
+<div data-theiaPostSlider-sliderOptions='{&quot;slideContainer&quot;:&quot;#tps_slideContainer_61367&quot;,&quot;nav&quot;:[&quot;.theiaPostSlider_nav&quot;],&quot;navText&quot;:&quot;%{currentSlide} of %{totalSlides}&quot;,&quot;helperText&quot;:&quot;Use your &amp;leftarrow; &amp;rightarrow; (arrow) keys to browse&quot;,&quot;defaultSlide&quot;:0,&quot;transitionEffect&quot;:&quot;slide&quot;,&quot;transitionSpeed&quot;:400,&quot;keyboardShortcuts&quot;:true,&quot;scrollAfterRefresh&quot;:true,&quot;numberOfSlides&quot;:1,&quot;slides&quot;:[],&quot;useSlideSources&quot;:null,&quot;themeType&quot;:&quot;font&quot;,&quot;prevText&quot;:&quot;Prev&quot;,&quot;nextText&quot;:&quot;Next&quot;,&quot;buttonWidth&quot;:0,&quot;buttonWidth_post&quot;:0,&quot;postUrl&quot;:&quot;https:\/\/theguardiansofdemocracy.com\/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses\/&quot;,&quot;postId&quot;:61367,&quot;refreshAds&quot;:false,&quot;refreshAdsEveryNSlides&quot;:1,&quot;adRefreshingMechanism&quot;:&quot;javascript&quot;,&quot;ajaxUrl&quot;:&quot;https:\/\/theguardiansofdemocracy.com\/wp-admin\/admin-ajax.php&quot;,&quot;loopSlides&quot;:false,&quot;scrollTopOffset&quot;:0,&quot;hideNavigationOnFirstSlide&quot;:false,&quot;isRtl&quot;:false,&quot;excludedWords&quot;:[&quot;&quot;],&quot;prevFontIcon&quot;:&quot;&lt;span aria-hidden=\&quot;true\&quot; class=\&quot;tps-icon-chevron-circle-left\&quot;&gt;&lt;\/span&gt;&quot;,&quot;nextFontIcon&quot;:&quot;&lt;span aria-hidden=\&quot;true\&quot; class=\&quot;tps-icon-chevron-circle-right\&quot;&gt;&lt;\/span&gt;&quot;}' data-theiaPostSlider-onChangeSlide='&quot;&quot;'></div> </section>
+<div id="mvp-ad-rel-wrap">
+<div id="mvp-ad-rel-top" class="left relative">
+<span class="mvp-ad-rel-but mvp-ad-rel-click">Continue Reading</span>
+</div>
+<div id="mvp-ad-rel-bot" class="left relative">
+<div class="mvp-ad-rel-out right relative">
+<div id="mvp-post-bot-ad" class="left relative">
+<span class="mvp-ad-label">Advertisement</span>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6640441192406473" data-ad-slot="7635750369"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </div>
+<div class="mvp-ad-rel-in">
+<div id="mvp-post-bot-rel" class="left relative">
+<span class="mvp-related-head left relative">You may also like...</span>
+<div id="mvp-related-posts" class="left relative">
+<ul class="mvp-related-posts-list left related">
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/" rel="bookmark" title="Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/">Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;</a>
+</div>
+</li>
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/" rel="bookmark" title="GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/">GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians</a>
+</div>
+</li>
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/ny-times-publisher-compares-trumps-attacks-on-the-free-press-to-dictators-and-tyrants/" rel="bookmark" title="NY Times Publisher Compares Trump&#8217;s Attacks On The Free Press To &#8216;Dictators And Tyrants’">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-hitler-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/ny-times-publisher-compares-trumps-attacks-on-the-free-press-to-dictators-and-tyrants/">NY Times Publisher Compares Trump&#8217;s Attacks On The Free Press To &#8216;Dictators And Tyrants’</a>
+</div>
+</li>
+<li>
+<div class="mvp-related-img left relative">
+<a href="https://theguardiansofdemocracy.com/trump-new-york-times-is-the-enemy-of-the-people-free-press-will-disappear-in-six-years/" rel="bookmark" title="Trump: New York Times Is The &#8216;Enemy Of The People,&#8217; Free Press Will Disappear &#8216;In Six Years&#8217;">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/12/trump-scream-angry-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+</div>
+<div class="mvp-related-text left relative">
+<a href="https://theguardiansofdemocracy.com/trump-new-york-times-is-the-enemy-of-the-people-free-press-will-disappear-in-six-years/">Trump: New York Times Is The &#8216;Enemy Of The People,&#8217; Free Press Will Disappear &#8216;In Six Years&#8217;</a>
+</div>
+</li>
+</ul></div> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="mvp-post-tags">
+<span class="mvp-post-tags-header">Related Topics:</span><span itemprop="keywords"><a href="https://theguardiansofdemocracy.com/tag/donald-trump/" rel="tag">Donald Trump</a>, <a href="https://theguardiansofdemocracy.com/tag/treasury/" rel="tag">Treasury</a>, <a href="https://theguardiansofdemocracy.com/tag/trump-campaign/" rel="tag">Trump Campaign</a></span>
+</div>
+<div class="posts-nav-link">
+</div>
+<div class="mvp-org-wrap" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<div class="mvp-org-logo" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<img src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/02/guardlogo.jpg" />
+<meta itemprop="url" content="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2018/02/guardlogo.jpg">
+</div>
+<meta itemprop="name" content="The Guardians of Democracy">
+</div>
+<div id="mvp-comments-button" class="left relative mvp-com-click">
+<span class="mvp-comment-but-text"><span class="dsq-postid" data-dsqidentifier="61367 https://theguardiansofdemocracy.com/?p=61367">Comments</span></span>
+</div>
+<div id="disqus_thread" class="disqus-thread-61367"></div>
+<script type="text/javascript">
+        var disqus_shortname = "theguardiansofdemocracy";
+        var disqus_title = "Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses";
+        var disqus_url = "https://theguardiansofdemocracy.com/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses/";
+        var disqus_identifier = "theguardiansofdemocracy-61367";
+    </script> </div>
+</div>
+</div>
+</div>
+</article>
+<div id="mvp-post-bot-wrap" class="left relative">
+<h4 class="mvp-post-bot-head left">More in NEWS</h4>
+<section class="mvp-main-blog-wrap left relative">
+<ul class="mvp-main-blog-story left relative">
+<li>
+<div class="mvp-main-blog-out relative">
+<a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/" rel="bookmark">
+<div class="mvp-main-blog-img left relative">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-main-blog-in">
+<div class="mvp-main-blog-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">EQUALITY</span></h3>
+<a href="https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/" rel="bookmark"><h2>Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;</h2></a>
+<div class="mvp-feat1-info">
+<span class="mvp-blog-author">By <a href="https://theguardiansofdemocracy.com/author/danielstolz/" title="Posts by Guardians of Democracy Staff" rel="author">Guardians of Democracy Staff</a></span><span class="mvp-blog-date"><i class="fa fa-clock-o"></i><time class="mvp-blog-time">February 21, 2019</time></span>
+</div>
+<p>Asked about his own administration&#8217;s widely reported effort to launch a worldwide campaign to end the...</p>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/&t=Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217; -&url=https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/trump-on-his-global-push-to-decriminalize-homosexuality-i-dont-know-what-youre-talking-about/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-tan-t.jpg&amp;description=Trump On His Global Push To Decriminalize Homosexuality: &#8216;I Don’t Know What You’re Talking About&#8217;', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="mvp-main-blog-out relative">
+<a href="https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/" rel="bookmark">
+<div class="mvp-main-blog-img left relative">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-main-blog-in">
+<div class="mvp-main-blog-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">NEWS</span></h3>
+<a href="https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/" rel="bookmark"><h2>Delaware Trooper Who Pulled Gun On Unarmed Black Man In Traffic Stop Under Investigation: Video</h2></a>
+<div class="mvp-feat1-info">
+<span class="mvp-blog-author">By <a href="https://theguardiansofdemocracy.com/author/danielstolz/" title="Posts by Guardians of Democracy Staff" rel="author">Guardians of Democracy Staff</a></span><span class="mvp-blog-date"><i class="fa fa-clock-o"></i><time class="mvp-blog-time">February 20, 2019</time></span>
+</div>
+<p>Delaware State Police are reviewing a video that appears to show one of its troopers pulling...</p>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/&t=Delaware Trooper Who Pulled Gun On Unarmed Black Man In Traffic Stop Under Investigation: Video', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Delaware Trooper Who Pulled Gun On Unarmed Black Man In Traffic Stop Under Investigation: Video -&url=https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/delaware-trooper-who-pulled-gun-on-unarmed-black-man-in-traffic-stop-under-investigation-video/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/gun-cop.jpg&amp;description=Delaware Trooper Who Pulled Gun On Unarmed Black Man In Traffic Stop Under Investigation: Video', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="mvp-main-blog-out relative">
+<a href="https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/" rel="bookmark">
+<div class="mvp-main-blog-img left relative">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-main-blog-in">
+<div class="mvp-main-blog-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">Hate Crime</span></h3>
+<a href="https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/" rel="bookmark"><h2>Police Charge &#8216;Empire&#8217; Actor Jussie Smollett With Filing False Report In Alleged Hate Crime Attack</h2></a>
+<div class="mvp-feat1-info">
+<span class="mvp-blog-author">By <a href="https://theguardiansofdemocracy.com/author/danielstolz/" title="Posts by Guardians of Democracy Staff" rel="author">Guardians of Democracy Staff</a></span><span class="mvp-blog-date"><i class="fa fa-clock-o"></i><time class="mvp-blog-time">February 20, 2019</time></span>
+</div>
+<p>Empire actor Jussie Smollett has been charged with filing a false report and disorderly conduct after...</p>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/&t=Police Charge &#8216;Empire&#8217; Actor Jussie Smollett With Filing False Report In Alleged Hate Crime Attack', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Police Charge &#8216;Empire&#8217; Actor Jussie Smollett With Filing False Report In Alleged Hate Crime Attack -&url=https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/police-charge-empire-actor-jussie-smollett-with-filing-false-report-in-alleged-hate-crime-attack/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/01/jussie.jpg&amp;description=Police Charge &#8216;Empire&#8217; Actor Jussie Smollett With Filing False Report In Alleged Hate Crime Attack', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="mvp-main-blog-out relative">
+<a href="https://theguardiansofdemocracy.com/coast-guard-lieutenant-arrested-in-alleged-domestic-terror-plot-to-kill-dem-senators-msnbc-and-cnn-hosts/" rel="bookmark">
+<div class="mvp-main-blog-img left relative">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/kill-list-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/kill-list-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/kill-list-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/kill-list-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-main-blog-in">
+<div class="mvp-main-blog-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">NEWS</span></h3>
+<a href="https://theguardiansofdemocracy.com/coast-guard-lieutenant-arrested-in-alleged-domestic-terror-plot-to-kill-dem-senators-msnbc-and-cnn-hosts/" rel="bookmark"><h2>Coast Guard Lieutenant Arrested In Alleged Domestic Terror Plot To Kill Dem Senators, MSNBC And CNN Hosts</h2></a>
+<div class="mvp-feat1-info">
+<span class="mvp-blog-author">By <a href="https://theguardiansofdemocracy.com/author/danielstolz/" title="Posts by Guardians of Democracy Staff" rel="author">Guardians of Democracy Staff</a></span><span class="mvp-blog-date"><i class="fa fa-clock-o"></i><time class="mvp-blog-time">February 20, 2019</time></span>
+</div>
+<p>U.S. Coast Guard lieutenant Christopher Hasson was taken into custody on Tuesday after gun charges were...</p>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/coast-guard-lieutenant-arrested-in-alleged-domestic-terror-plot-to-kill-dem-senators-msnbc-and-cnn-hosts/&t=Coast Guard Lieutenant Arrested In Alleged Domestic Terror Plot To Kill Dem Senators, MSNBC And CNN Hosts', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Coast Guard Lieutenant Arrested In Alleged Domestic Terror Plot To Kill Dem Senators, MSNBC And CNN Hosts -&url=https://theguardiansofdemocracy.com/coast-guard-lieutenant-arrested-in-alleged-domestic-terror-plot-to-kill-dem-senators-msnbc-and-cnn-hosts/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/coast-guard-lieutenant-arrested-in-alleged-domestic-terror-plot-to-kill-dem-senators-msnbc-and-cnn-hosts/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/kill-list.jpg&amp;description=Coast Guard Lieutenant Arrested In Alleged Domestic Terror Plot To Kill Dem Senators, MSNBC And CNN Hosts', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="mvp-main-blog-out relative">
+<a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/" rel="bookmark">
+<div class="mvp-main-blog-img left relative">
+<img width="400" height="240" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg" class="mvp-reg-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-400x240.jpg 400w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-1000x600.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" /> <img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-100x100.jpg" class="mvp-mob-img wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-main-blog-in">
+<div class="mvp-main-blog-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">LGBTQ+</span></h3>
+<a href="https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/" rel="bookmark"><h2>GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians</h2></a>
+<div class="mvp-feat1-info">
+<span class="mvp-blog-author">By <a href="https://theguardiansofdemocracy.com/author/danielstolz/" title="Posts by Guardians of Democracy Staff" rel="author">Guardians of Democracy Staff</a></span><span class="mvp-blog-date"><i class="fa fa-clock-o"></i><time class="mvp-blog-time">February 20, 2019</time></span>
+</div>
+<p>A Massachusetts county commissioner has come under fire after he suggested that gay politicians were &#8220;too...</p>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/&t=GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians -&url=https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/gop-official-cites-trump-tweets-to-defend-suggesting-gay-people-too-self-absorbed-to-be-politicians/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/ron-beaty-1.jpg&amp;description=GOP Official Cites Trump Tweets To Defend Suggesting Gay People &#8216;Too Self-Absorbed&#8217; To Be Politicians', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</section>
+</div>
+<div id="mvp-prev-next-wrap">
+<div id="mvp-prev-post-wrap">
+<div id="mvp-prev-post-arrow" class="relative">
+<i class="fa fa-angle-left fa-4"></i>
+</div>
+<div class="mvp-prev-next-text">
+<a href="https://theguardiansofdemocracy.com/police-detain-armed-trump-supporter-who-burst-into-library-to-protest-drag-queen-storytime/" rel="prev">Police Detain Armed Trump Supporter Who Burst Into Library To Protest Drag Queen Storytime</a> </div>
+</div>
+<div id="mvp-next-post-wrap">
+<div id="mvp-next-post-arrow" class="relative">
+<i class="fa fa-angle-right fa-4"></i>
+</div>
+<div class="mvp-prev-next-text">
+<a href="https://theguardiansofdemocracy.com/racist-white-cop-mocks-black-woman-he-pulled-over-as-she-walks-home-in-freezing-polar-vortex-video/" rel="next">&#8216;Racist&#8217; White Cop Mocks Black Woman He Pulled Over As She Walks Home In Freezing Polar Vortex: Video</a> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="mvp-side-wrap" class="relative theiaStickySidebar">
+<section id="text-16" class="widget mvp-side-widget widget_text"> <div class="textwidget"><p><a href="https://www.patreon.com/TheGuardiansOfDemocracy" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></p>
+</div>
+</section><section id="mvp_pop_widget-10" class="widget mvp-side-widget mvp_pop_widget"><h4 class="mvp-side-widget-head left">Trending</h4>
+<div class="mvp-trend-widget-wrap left relative">
+<div class="mvp-trend-widget-story left relative">
+<div class="mvp-100img-out right relative">
+<a href="https://theguardiansofdemocracy.com/what-are-you-he-doesnt-even-look-human-woman-unleashes-shocking-racist-rant-on-mother-and-son/" rel="bookmark">
+<div class="mvp-trend-widget-img left relative">
+<img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-100x100.jpg" class="attachment-mvp-small-thumb size-mvp-small-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-100img-in">
+<div class="mvp-trend-widget-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">NEWS</span></h3>
+<a href="https://theguardiansofdemocracy.com/what-are-you-he-doesnt-even-look-human-woman-unleashes-shocking-racist-rant-on-mother-and-son/" rel="bookmark"><h2>‘What Are You? He Doesn’t Even Look Human’: Woman Unleashes Shocking Racist Rant On Mother And Son</h2></a>
+</div>
+</div>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/what-are-you-he-doesnt-even-look-human-woman-unleashes-shocking-racist-rant-on-mother-and-son/&t=‘What Are You? He Doesn’t Even Look Human’: Woman Unleashes Shocking Racist Rant On Mother And Son', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=‘What Are You? He Doesn’t Even Look Human’: Woman Unleashes Shocking Racist Rant On Mother And Son -&url=https://theguardiansofdemocracy.com/what-are-you-he-doesnt-even-look-human-woman-unleashes-shocking-racist-rant-on-mother-and-son/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/what-are-you-he-doesnt-even-look-human-woman-unleashes-shocking-racist-rant-on-mother-and-son/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist.jpg&amp;description=‘What Are You? He Doesn’t Even Look Human’: Woman Unleashes Shocking Racist Rant On Mother And Son', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="mvp-trend-widget-story left relative">
+<div class="mvp-100img-out right relative">
+<a href="https://theguardiansofdemocracy.com/woman-unleashes-racist-tirade-inside-mexican-restaurant-after-hearing-manager-speak-spanish/" rel="bookmark">
+<div class="mvp-trend-widget-img left relative">
+<img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2-100x100.jpg" class="attachment-mvp-small-thumb size-mvp-small-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-100img-in">
+<div class="mvp-trend-widget-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">NEWS</span></h3>
+<a href="https://theguardiansofdemocracy.com/woman-unleashes-racist-tirade-inside-mexican-restaurant-after-hearing-manager-speak-spanish/" rel="bookmark"><h2>Woman Unleashes Racist Tirade Inside Mexican Restaurant After Hearing Manager Speak Spanish</h2></a>
+</div>
+</div>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/woman-unleashes-racist-tirade-inside-mexican-restaurant-after-hearing-manager-speak-spanish/&t=Woman Unleashes Racist Tirade Inside Mexican Restaurant After Hearing Manager Speak Spanish', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Woman Unleashes Racist Tirade Inside Mexican Restaurant After Hearing Manager Speak Spanish -&url=https://theguardiansofdemocracy.com/woman-unleashes-racist-tirade-inside-mexican-restaurant-after-hearing-manager-speak-spanish/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/woman-unleashes-racist-tirade-inside-mexican-restaurant-after-hearing-manager-speak-spanish/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/racist-2.jpg&amp;description=Woman Unleashes Racist Tirade Inside Mexican Restaurant After Hearing Manager Speak Spanish', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="mvp-trend-widget-story left relative">
+<div class="mvp-100img-out right relative">
+<a href="https://theguardiansofdemocracy.com/trump-erupts-when-jim-acosta-asks-if-hes-concocting-a-national-emergency-to-get-his-wall/" rel="bookmark">
+<div class="mvp-trend-widget-img left relative">
+<img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta-100x100.jpg" class="attachment-mvp-small-thumb size-mvp-small-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-100img-in">
+<div class="mvp-trend-widget-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">Authoritarianism</span></h3>
+<a href="https://theguardiansofdemocracy.com/trump-erupts-when-jim-acosta-asks-if-hes-concocting-a-national-emergency-to-get-his-wall/" rel="bookmark"><h2>Trump Erupts When Jim Acosta Asks If He&#8217;s &#8216;Concocting&#8217; A National Emergency To Get His Wall</h2></a>
+</div>
+</div>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/trump-erupts-when-jim-acosta-asks-if-hes-concocting-a-national-emergency-to-get-his-wall/&t=Trump Erupts When Jim Acosta Asks If He&#8217;s &#8216;Concocting&#8217; A National Emergency To Get His Wall', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Trump Erupts When Jim Acosta Asks If He&#8217;s &#8216;Concocting&#8217; A National Emergency To Get His Wall -&url=https://theguardiansofdemocracy.com/trump-erupts-when-jim-acosta-asks-if-hes-concocting-a-national-emergency-to-get-his-wall/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/trump-erupts-when-jim-acosta-asks-if-hes-concocting-a-national-emergency-to-get-his-wall/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/trump-acosta.jpg&amp;description=Trump Erupts When Jim Acosta Asks If He&#8217;s &#8216;Concocting&#8217; A National Emergency To Get His Wall', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="mvp-trend-widget-story left relative">
+<div class="mvp-100img-out right relative">
+<a href="https://theguardiansofdemocracy.com/coulter-president-is-an-idiot/" rel="bookmark">
+<div class="mvp-trend-widget-img left relative">
+<img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/coulter-100x100.jpg" class="attachment-mvp-small-thumb size-mvp-small-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/coulter-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/coulter-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-100img-in">
+<div class="mvp-trend-widget-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">NEWS</span></h3>
+<a href="https://theguardiansofdemocracy.com/coulter-president-is-an-idiot/" rel="bookmark"><h2>Ann Coulter Torches Trump: ‘The Only National Emergency Is Our President Is An Idiot’</h2></a>
+</div>
+</div>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/coulter-president-is-an-idiot/&t=Ann Coulter Torches Trump: ‘The Only National Emergency Is Our President Is An Idiot’', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Ann Coulter Torches Trump: ‘The Only National Emergency Is Our President Is An Idiot’ -&url=https://theguardiansofdemocracy.com/coulter-president-is-an-idiot/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/coulter-president-is-an-idiot/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/coulter.jpg&amp;description=Ann Coulter Torches Trump: ‘The Only National Emergency Is Our President Is An Idiot’', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="mvp-trend-widget-story left relative">
+<div class="mvp-100img-out right relative">
+<a href="https://theguardiansofdemocracy.com/republican-official-who-called-michelle-obama-an-ape-in-heels-faces-30-years-in-prison-for-fema-fraud/" rel="bookmark">
+<div class="mvp-trend-widget-img left relative">
+<img width="100" height="100" src="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/pamela-taylor-100x100.jpg" class="attachment-mvp-small-thumb size-mvp-small-thumb wp-post-image" alt="" srcset="https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/pamela-taylor-100x100.jpg 100w, https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/pamela-taylor-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" /> </div>
+</a>
+<div class="mvp-100img-in">
+<div class="mvp-trend-widget-text left relative">
+<h3 class="mvp-main-blog-cat left"><span class="mvp-main-blog-cat left">NEWS</span></h3>
+<a href="https://theguardiansofdemocracy.com/republican-official-who-called-michelle-obama-an-ape-in-heels-faces-30-years-in-prison-for-fema-fraud/" rel="bookmark"><h2>Republican Official Who Called Michelle Obama An ‘Ape In Heels,’ Faces 30 Years In Prison For FEMA Fraud</h2></a>
+</div>
+</div>
+<div class="mvp-story-share-wrap">
+<span class="mvp-story-share-but fa fa-share fa-2"></span>
+<div class="mvp-story-share-cont">
+<a href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https://theguardiansofdemocracy.com/republican-official-who-called-michelle-obama-an-ape-in-heels-faces-30-years-in-prison-for-fema-fraud/&t=Republican Official Who Called Michelle Obama An ‘Ape In Heels,’ Faces 30 Years In Prison For FEMA Fraud', 'facebookShare', 'width=626,height=436'); return false;" title="Share on Facebook"><span class="mvp-story-share-fb fa fa-facebook fa-2"></span></a>
+<a href="#" onclick="window.open('http://twitter.com/share?text=Republican Official Who Called Michelle Obama An ‘Ape In Heels,’ Faces 30 Years In Prison For FEMA Fraud -&url=https://theguardiansofdemocracy.com/republican-official-who-called-michelle-obama-an-ape-in-heels-faces-30-years-in-prison-for-fema-fraud/', 'twitterShare', 'width=626,height=436'); return false;" title="Tweet This Post"><span class="mvp-story-share-twit fa fa-twitter fa-2"></span></a>
+<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url=https://theguardiansofdemocracy.com/republican-official-who-called-michelle-obama-an-ape-in-heels-faces-30-years-in-prison-for-fema-fraud/&amp;media=https://static-eu-central-1.theguardiansofdemocracy.com/uploads/2019/02/pamela-taylor.jpg&amp;description=Republican Official Who Called Michelle Obama An ‘Ape In Heels,’ Faces 30 Years In Prison For FEMA Fraud', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post"><span class="mvp-story-share-pin fa fa-pinterest-p fa-2"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="text-2" class="extendedwopts-show extendedwopts-desktop widget mvp-side-widget widget_text"> <div class="textwidget"><p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br />
+<br />
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-6640441192406473" data-ad-slot="3763953968"></ins><br />
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+</div>
+</section> </div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer id="mvp-foot-wrap" class="left relative">
+<div id="mvp-foot-top-wrap" class="left relative">
+<div class="mvp-main-out relative">
+<div class="mvp-main-in">
+<div class="mvp-foot-in-wrap left relative">
+<ul class="mvp-foot-soc-list left relative">
+<li><a href="https://www.facebook.com/TheGuardiansOfDemocracy" target="_blank" class="fa fa-facebook-official fa-2"></a></li>
+<li><a href="https://twitter.com/Guardemocracy" target="_blank" class="fa fa-twitter fa-2"></a></li>
+<li><a href="https://www.youtube.com/channel/UCOzT3fyPN7uTGUIha0YIl_g" target="_blank" class="fa fa-youtube-play fa-2"></a></li>
+</ul>
+<div id="mvp-foot-nav" class="left relative">
+<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-2125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2125"><a href="https://theguardiansofdemocracy.com/home/">Home</a></li>
+<li id="menu-item-2121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="https://theguardiansofdemocracy.com/about/">About The Guardians of Democracy</a></li>
+<li id="menu-item-2122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="https://theguardiansofdemocracy.com/authors-list/">Authors List</a></li>
+<li id="menu-item-2123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a href="https://theguardiansofdemocracy.com/contact/">Contact Us</a></li>
+</ul></div> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="mvp-foot-bot-wrap" class="left relative">
+<div class="mvp-main-out relative">
+<div class="mvp-main-in">
+<div class="mvp-foot-in-wrap left relative">
+<div id="mvp-foot-copy" class="left relative">
+<p>Copyright © 2017 The Guardians of Democracy</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="mvp-fly-top back-to-top">
+<i class="fa fa-angle-up fa-3"></i>
+<span class="mvp-fly-top-text">To Top</span>
+</div>
+<div class="mvp-fly-fade mvp-fly-but-click">
+</div>
+<script language="javascript" type="text/javascript">
+    (function() {
+        var zergnet = document.createElement('script');
+        zergnet.type = 'text/javascript'; zergnet.async = true;
+        zergnet.src = (document.location.protocol == "https:" ? "https:" : "http:") + '//www.zergnet.com/zerg.js?id=51230';
+        var znscr = document.getElementsByTagName('script')[0];
+        znscr.parentNode.insertBefore(zergnet, znscr);
+    })();
+</script> <div data-theiaStickySidebar-sidebarSelector='"#mvp-side-wrap, #mvp-post-info-col "' data-theiaStickySidebar-options='{"containerSelector":"","additionalMarginTop":90,"additionalMarginBottom":0,"updateSidebarHeight":false,"minWidth":767,"sidebarBehavior":"modern","disableOnResponsiveLayouts":true}'></div>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/theguardiansofdemocracy.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"theguardiansofdemocracy"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.16"},"disqusIdentifier":"61367 https:\/\/theguardiansofdemocracy.com\/?p=61367","disqusShortname":"theguardiansofdemocracy","disqusTitle":"Trump Campaign Owes The US Treasury Over $1 Million In Travel Expenses","disqusUrl":"https:\/\/theguardiansofdemocracy.com\/trump-campaign-owes-the-us-treasury-over-1-million-in-travel-expenses\/","postId":"61367"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.16'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-sticky-sidebar/js/ResizeSensor.js?ver=1.7.0'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-sticky-sidebar/js/theia-sticky-sidebar.js?ver=1.7.0'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/theia-sticky-sidebar/js/main.js?ver=1.7.0'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/js/jquery.nouislider.all.min.js?ver=3.14.2'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/js/photoswipe.js?ver=3.14.2'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/js/jquery.knob.js?ver=3.14.2'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/js/reviewer.public.min.js?ver=3.14.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rwpConstants = {"debugVue":""};
+var reviewerRatingObj = {"ajax_nonce":"6ef46f12ae","ajax_url":"https:\/\/theguardiansofdemocracy.com\/wp-admin\/admin-ajax.php","action":"rwp_ajax_action_rating"};
+var reviewerJudgeObj = {"ajax_nonce":"32c4c589c2","ajax_url":"https:\/\/theguardiansofdemocracy.com\/wp-admin\/admin-ajax.php","action":"rwp_ajax_action_like"};
+var reviewerQueryURs = {"ajax_nonce":"8a946529e8","ajax_url":"https:\/\/theguardiansofdemocracy.com\/wp-admin\/admin-ajax.php","action":"rwp_reviews_box_query_users_reviews"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/js/reviewer-reviews-boxes.js?ver=3.14.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rwpConstants = {"debugVue":""};
+var reviewerQueryAllURs = {"ajax_nonce":"1d05b5a9ec","ajax_url":"https:\/\/theguardiansofdemocracy.com\/wp-admin\/admin-ajax.php","action":"rwp_reviews_box_query_all_users_reviews"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/plugins/reviewer/public/assets/js/reviewer-widget-users-reviews.js?ver=3.14.2'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/js/scripts.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/js/retina.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/js/mvpcustom.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+	jQuery(document).ready(function($) {
+  	$(window).load(function(){
+	var aboveHeight = $("#mvp-head-top").outerHeight();
+	var previousScroll = 0;
+	    $(window).scroll(function(event){
+			var scroll = $(this).scrollTop();
+			var elementOffset = $("#mvp-post-content-mid").offset().top;
+			var distance = (elementOffset - scroll);
+	    	if ($(window).scrollTop() > aboveHeight){
+	    		$("#mvp-nav-wrap").addClass("mvp-fixed").css("top","0");
+	    		$("#mvp-main-wrap").addClass("mvp-fixed-next");
+	    		if(scroll < previousScroll) {
+					$(".mvp-fly-top").addClass("mvp-to-top");
+				} else {
+					$(".mvp-fly-top").removeClass("mvp-to-top");
+				}
+	    	} else {
+	    		$("#mvp-nav-wrap").removeClass("mvp-fixed");
+	    		$("#mvp-main-wrap").removeClass("mvp-fixed-next");
+	    		$(".mvp-fly-top").removeClass("mvp-to-top");
+	    	}
+	    	if (distance < 60){
+	    		if(scroll > previousScroll) {
+					$("#mvp-nav-soc-bar").addClass("mvp-nav-soc-down");
+				} else {
+					$("#mvp-nav-soc-bar").removeClass("mvp-nav-soc-down");
+				}
+			}
+			previousScroll = scroll;
+		});
+	});
+	});
+	
+
+	jQuery(document).ready(function($) {
+	// Main Menu Dropdown Toggle
+	$(".menu-item-has-children a").click(function(event){
+	  event.stopPropagation();
+	  location.href = this.href;
+  	});
+
+	$(".menu-item-has-children").click(function(){
+    	  $(this).addClass("toggled");
+    	  if($(".menu-item-has-children").hasClass("toggled"))
+    	  {
+    	  $(this).children("ul").toggle();
+	  $(".mvp-fly-nav-menu").getNiceScroll().resize();
+	  }
+	  $(this).toggleClass("tog-minus");
+    	  return false;
+  	});
+
+	// Main Menu Scroll
+	$(window).load(function(){
+	  $(".mvp-fly-nav-menu").niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+	});
+	});
+	
+
+	jQuery(document).ready(function($) {
+	$(".infinite-content").infinitescroll({
+	  navSelector: ".mvp-nav-links",
+	  nextSelector: ".mvp-nav-links a:first",
+	  itemSelector: ".infinite-post",
+	  errorCallback: function(){ $(".mvp-inf-more-but").css("display", "none") }
+	});
+	$(window).unbind(".infscr");
+	$(".mvp-inf-more-but").click(function(){
+   		$(".infinite-content").infinitescroll("retrieve");
+        	return false;
+	});
+	$(window).load(function(){
+		if ($(".mvp-nav-links a").length) {
+			$(".mvp-inf-more-but").css("display","inline-block");
+		} else {
+			$(".mvp-inf-more-but").css("display","none");
+		}
+	});
+	});
+	
+</script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/js/flexslider.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-content/themes/click-mag/js/jquery.infinitescroll.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://theguardiansofdemocracy.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a85d84e3e2","applicationID":"49390758","transactionName":"ZlBWbUBYCEIFWkBRVl8adVpGUAlfS0pdVl5dUA==","queueTime":0,"applicationTime":1274,"atts":"ShdVGwhCG0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<script src="https://intermarkets-net.videoplayerhub.com/videoloader.js"></script>
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.cnsnews.com/sites/all/themes/cns_bootstrap/image/CNSNewsFavicon.png" type="image/png" />
+<meta name="description" content="CNSNews.com is a news source for individuals, news organizations and broadcasters who put a higher premium on balance than spin and seek news that’s ignored or under-reported as a result of media bias by omission." />
+<meta name="robots" content="follow, index" />
+<meta name="rating" content="general" />
+<link rel="canonical" href="https://www.cnsnews.com/" />
+<link rel="shortlink" href="https://www.cnsnews.com/" />
+<meta property="og:site_name" content="CNS News" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.cnsnews.com/" />
+<meta property="og:title" content="CNS News" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@cnsnews" />
+<meta name="twitter:url" content="https://www.cnsnews.com/" />
+<meta name="twitter:title" content="CNS News" />
+  <title>CNS News | The Right News. Right Now.</title>
+  <link type="text/css" rel="stylesheet" href="https://www.cnsnews.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.cnsnews.com/sites/default/files/css/css_MPn3x7uStucEXCiFh6nfL6jUATcnUL-LDOu4JWu2q3Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.cnsnews.com/sites/default/files/css/css_nFWKeMIUWQzMXB8s2faBsocDMIEeKNuLD7kC4gZinZ4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.cnsnews.com/sites/default/files/css/css_9jY0TVG9pCWASvX_SWdzz7M6c8FQYWwES0ff_7y1zfI.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.cnsnews.com/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://www.cnsnews.com/sites/default/files/js/js_H09p1ALMTWepwIUhwcp1SP8WZBpgLu59YUKn15WCEyI.js"></script>
+<script src="https://use.typekit.net/eoq0ypl.js"></script>
+<script src="https://www.cnsnews.com/sites/default/files/js/js_5dXVH1fQeOs4qm2np_O-vxSojIePg1RQqmVB22m7Wfo.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://www.cnsnews.com/sites/default/files/js/js_Or4B21Z6E3mqT3plO5ZuLoJzfew6cwDwK84ussllLD0.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cns_bootstrap","theme_token":"GtvZG6nY0z43vmzbmKW0AQo9I0Vqvqb3Q6gNfQveoJ4","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.5\/js\/bootstrap.min.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.js":1,"https:\/\/use.typekit.net\/eoq0ypl.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"misc\/form.js":1,"1":1,"sites\/all\/themes\/cns_bootstrap\/cns_bootstrap.js":1,"sites\/all\/themes\/cns_bootstrap\/js\/jquery-simplemodal\/jquery.simplemodal.1.4.4.min.js":1,"sites\/all\/themes\/cns_bootstrap\/js\/jquery-cookie\/jquery.cookie.js":1,"sites\/all\/themes\/cns_bootstrap\/js\/countUp.min.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/cns_bootstrap\/layouts\/cns-front-page\/cns-front-page.css":1,"\/\/netdna.bootstrapcdn.com\/font-awesome\/4.0.3\/css\/font-awesome.min.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.5\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.3.5\/overrides.min.css":1,"sites\/all\/themes\/cns_bootstrap\/css\/style.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"better_exposed_filters":{"views":{"front_page":{"displays":{"panel_pane_8":{"filters":[]},"panel_pane_4":{"filters":[]},"panel_pane_7":{"filters":[]},"panel_pane_2":{"filters":[]},"panel_pane_1":{"filters":[]},"panel_pane_3":{"filters":[]},"attachment_1":{"filters":[]},"panel_pane_6":{"filters":[]},"panel_pane_5":{"filters":[]}}},"conservative_roundup":{"displays":{"default":{"filters":[]}}},"nb_feed_import":{"displays":{"panel_pane_1":{"filters":[]}}},"cartoons":{"displays":{"panel_pane_1":{"filters":[]}}}}},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html front not-logged-in no-sidebars" >
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2MVZ7"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2MVZ7');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page">
+
+  <div class="main-container">
+      <header class="mini front-nav">
+
+          <div class="navbar navbar-inverse navbar-fixed-top smallnav hidden-xs" role="navigation">
+              <div class="container">
+                  <ul class="nav navbar-nav">
+                      <li><a style="font-size: 12px;color:rgba(201,146,14,.65);" href="https://www.mrc.org" target="_blank">Media Research Center</a></li>
+                      <li><a href="/">CNSNews.com</a></li>
+                      <li><a href="https://www.newsbusters.org" target="_blank">NewsBusters</a></li>
+                      <li><a href="https://www.mrctv.org" target="_blank">MRCTV</a></li>
+                      <li><a href="https://www.newsbusters.org/latino" target="_blank">MRC Latino</a></li>
+                      <li><a href="https://www.newsbusters.org/business" target="_blank">MRC Business</a></li>
+                      <li><a href="https://www.newsbusters.org/culture" target="_blank">MRC Culture</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="header navbar-fixed-top">
+              <div class="container navcontainer">
+
+
+                  <div class="mini-social-icons">
+                      <a href="/search" target="_blank" class="nav-search">
+                          <i class="fa fa-search"></i>
+                      </a>
+                      <a href="https://www.facebook.com/cnsnewscom?ref=ts" target="_blank" class="nav-fb">
+                          <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="https://twitter.com/#!/cnsnews" target="_blank" class="nav-twitter">
+                          <i class="fa fa-twitter"></i>
+                      </a>
+                      <a href="/feeds/all" target="_blank" class="rss">
+                          <i class="fa fa-rss"></i>
+                      </a>
+                      <a href="/join-movement?utm_source=cns&utm_medium=menu&utm_campaign=donate" target="_blank" class="nav-donate">
+                          <i class="fa navdon">DONATE</i>
+                      </a>
+                  </div>
+                  <!--    <div class="search">-->
+                  <!--      <gcse:search></gcse:search>-->
+                  <!--    </div>-->
+                  <div class="header-title">
+                      <a href="/"><img class="img-responsive" src="//cdn.cnsnews.com/images/header/cnsnews_color.png" alt="Home" style="max-height: 42px;"></a>
+                  </div>
+
+                  <div class="mobile-nav-menu visible-xs">
+
+                      <div class="col-xs-1 pull-right">
+                          <button type="button" class="nav-toggle pull-right collapsed" data-toggle="collapse" data-target="#mobile-nav-collapse" aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <i class="fa fa-bars"></i>
+                          </button>
+                      </div>
+
+                      <div class="collapse navbar-collapse" id="mobile-nav-collapse">
+                          <ul class="nav navbar-nav">
+                              <li><a href="/category/washington">Washington</a></li>
+                              <li><a href="/category/national">National</a></li>
+                              <li><a href="/category/international">International</a></li>
+                              <li><a href="/opinion/blog">Blog</a></li>
+                              <li><a href="/opinion/commentary" target="_blank">Commentary</a></li>
+                              <li><a href="/video">Video</a></li>
+                              <li><a href="/join-movement">Donate</a></li>
+                              <li class="sm-icons">
+                                  <a href="/search" target="_blank" class="nav-search col-xs-2">
+                                      <i class="fa fa-search"></i>
+                                  </a>
+                                  <a href="https://www.facebook.com/cnsnewscom?ref=ts" target="_blank" class="nav-fb col-xs-2">
+                                      <i class="fa fa-facebook"></i>
+                                  </a>
+                                  <a href="https://twitter.com/#!/cnsnews" target="_blank" class="nav-twitter col-xs-2">
+                                      <i class="fa fa-twitter"></i>
+                                  </a>
+                                  <a href="/feeds/all" target="_blank" class="rss col-xs-2">
+                                      <i class="fa fa-rss"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="navbar navbar-fixed-top bottomnav hidden-xs" role="navigation">
+              <div class="container">
+                  <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="/category/washington">Washington</a></li>
+                              <li><a href="/category/national">National</a></li>
+                              <li><a href="/category/international">International</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="/opinion/blog">Blog</a></li>
+                      <li><a href="/opinion/commentary" target="_blank">Commentary</a></li>
+                      <li><a href="/video">Video</a></li>
+                  </ul>
+              </div>
+          </div>
+      </header>
+
+
+                <div id="abfix" class="container hidden-xs hidden-sm">
+                <div class="region region-top-ad">
+    <section id="block-block-11" class="block block-block clearfix">
+
+      
+  <!--JavaScript Tag  // Placement: CNSNews_ROS_Top_970xFlex (3554566) -->
+<div class="center-block text-center">
+<div id="imk728xFlexTop" style="height: 100px; padding-top: 20px; margin-bottom: 20px;" class="center-block"><span class='bt-uid-tg' data-uid='5b562603b5-172' style='display: none !important'></span>
+</div>
+</div>
+
+<!--
+<div id="wb_mkto_banner"></div>
+-->
+</section>
+  </div>
+          </div>
+          <div class="content-wrapper container">
+
+      <section>
+                        <a id="main-content"></a>
+                                                                                    <div class="region region-content">
+    <section id="block-block-38" class="block block-block speechkit clearfix">
+
+      
+  
+<iframe allowfullscreen="false" data-src="https://app.speechkit.io/api/v2/projects/1299/podcasts/iframe.html" frameborder="0" id="speechkit-io-iframe" scrolling="no" style="display: none"></iframe>
+<script src="https://cdn.jsdelivr.net/npm/@speechkit/speechkit-audio-player@latest/dist/speechkit-iframe-helper.js" type="text/javascript"></script>
+
+
+</section>
+<section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="cns-front-page clearfix  panel-display" id="front">
+        <div class="featured-wrapper row">
+              <div class="featured-top-wrapper">
+                      <div class="panel-col-featured-top col-md-6 col-sm-12 panel-panel">
+              <div class="inside"><div class="panel-pane pane-views-panes pane-front-page-panel-pane-1"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_1 view-dom-id-e1708011d38a275fbd72b1012d52b344">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">Washington</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/news/article/terence-p-jeffrey/cbo-feds-will-borrow-another-13-trillion-over-next-11-years"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_primary_featured/s3/allget3.jpg?itok=xmBT5l3r" width="580" height="332" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/terence-p-jeffrey/cbo-feds-will-borrow-another-13-trillion-over-next-11-years"><div class="CNS Article-title">CBO: Feds Will Borrow Another $13 Trillion Over Next 11 Years</div></a></span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-front-page-panel-pane-3"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_3 front-bottom view-dom-id-2b97522f23bfed709702b5064f172525">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2">
+      <div class="views-row clearfix views-row-1 views-row-first">
+      <div class="views-column col-sm-6 views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid-1 opinion-term-label">        <span class="field-content">Blog</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/blog/cnsnewscom-staff/elizabeth-warren-lawyer-and-mom-i-struggled-find-good-reliable-and-affordable"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/warget3.jpg?itok=Aazcqwf1" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/cnsnewscom-staff/elizabeth-warren-lawyer-and-mom-i-struggled-find-good-reliable-and-affordable"><div class="Opinion-title">Elizabeth Warren, Lawyer and Mom: ‘I Struggled to Find Good, Reliable, and Affordable Child Care’</div></a></span>  </div>    </div>
+      <div class="views-column col-sm-6 views-column-2 views-column-last">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">National</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/news/article/michael-w-chapman/trump-new-york-times-true-enemy-people"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/trump_pointing_0.png?itok=bFhYpN7x" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/michael-w-chapman/trump-new-york-times-true-enemy-people"><div class="CNS Article-title">Trump: New York Times Is a &#039;True Enemy of the People&#039;</div></a></span>  </div>    </div>
+    </div>
+      <div class="views-row clearfix views-row-2 views-row-last">
+      <div class="views-column col-sm-6 views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid-1 opinion-term-label">        <span class="field-content">Blog</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/blog/cnsnewscom-staff/rep-ayanna-pressley-retweets-we-had-such-great-time-feminstqueer-happy-hour"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/pressget3.jpg?itok=wF598ZAU" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/cnsnewscom-staff/rep-ayanna-pressley-retweets-we-had-such-great-time-feminstqueer-happy-hour"><div class="Opinion-title">Rep. Ayanna Pressley ReTweets: ‘We Had Such a Great Time Feminist&amp;Queer Happy Hour Tonight!’</div></a></span>  </div>    </div>
+      <div class="views-column col-sm-6 views-column-2 views-column-last">
+        
+  <div class="views-field views-field-term-node-tid-1 opinion-term-label">        <span class="field-content">Blog</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/blog/craig-bannister/planned-parenthood-head-being-pro-choice-being-pro-family-its-being-pro-life"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/plannedparenthoodprezleanawenss.jpg?itok=8VEx6Ltl" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/craig-bannister/planned-parenthood-head-being-pro-choice-being-pro-family-its-being-pro-life"><div class="Opinion-title">Planned Parenthood Head: ‘Being Pro-Choice Is Being…Pro-Family;’ ‘It’s Being Pro-Life’</div></a></span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+            </div>
+                                <div class=" panel-col-featured-right col-md-6 col-xs-12 panel-panel">
+              <div class="inside"><div class="panel-pane pane-views-panes pane-front-page-panel-pane-2"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_2 view-dom-id-b2ab9e1e6d0d424fd9b8527023531514">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2">
+      <div class="views-row row views-row-1 views-row-first">
+      <div class="views-column col-md-12 views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">National</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/susan-jones/chicago-police-superintendent-smollet-used-pain-and-anger-racism-promote"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/smollett-mug.jpg?itok=89E2Sbai" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/susan-jones/chicago-police-superintendent-smollet-used-pain-and-anger-racism-promote"><div class="CNS Article-title">Chicago Police Superintendent: Smollett Used &#039;Pain and Anger of Racism to Promote His Career&#039;</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Susan Jones | February 21, 2019</span>  </div>    </div>
+      <div class="views-column col-md-12 views-column-2 views-column-last">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">Washington</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/cnsnewscom-staff/sen-kamala-harris-it-needs-be-repeated-ripping-babies-away-parents-put"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/harrget3.jpg?itok=KLpUrB4-" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/cnsnewscom-staff/sen-kamala-harris-it-needs-be-repeated-ripping-babies-away-parents-put"><div class="CNS Article-title">Sen. Kamala Harris: ‘It Needs to be Repeated: Ripping Babies Away from Parents to Put Them in Cages is Inhumane’</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">CNSNews.com Staff | February 21, 2019</span>  </div>    </div>
+    </div>
+      <div class="views-row row views-row-2">
+      <div class="views-column col-md-12 views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">Washington</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/melanie-arter/pelosi-urges-members-sign-resolution-terminate-trumps-emergency"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/pelosi_press_conference.png?itok=MXzsr6hU" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/melanie-arter/pelosi-urges-members-sign-resolution-terminate-trumps-emergency"><div class="CNS Article-title">Pelosi Urges Members to Sign Resolution to Terminate Trump’s Emergency Declaration</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Melanie Arter | February 21, 2019</span>  </div>    </div>
+      <div class="views-column col-md-12 views-column-2 views-column-last">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">National</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/emily-ward/covington-kid-nick-sandmann-sues-washington-post-250-million"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/screen_shot_2019-02-21_at_11.53.40_am.png?itok=51Rr8fnG" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/emily-ward/covington-kid-nick-sandmann-sues-washington-post-250-million"><div class="CNS Article-title">Covington Kid Nick Sandmann Sues Washington Post for $250 Million</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Emily Ward | February 21, 2019</span>  </div>    </div>
+    </div>
+      <div class="views-row row views-row-3">
+      <div class="views-column col-md-12 views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">International</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/patrick-goodenough/putin-warns-us-calculate-range-and-speed-planned-russian-weaponry"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/putin-stateofnationkrem1_0.jpg?itok=cDGgjPAA" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/patrick-goodenough/putin-warns-us-calculate-range-and-speed-planned-russian-weaponry"><div class="CNS Article-title">Putin Warns US to ‘Calculate the Range and Speed’ of Planned Russian Weaponry Before Exiting INF Treaty</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Patrick Goodenough | February 21, 2019</span>  </div>    </div>
+      <div class="views-column col-md-12 views-column-2 views-column-last">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">Washington</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/susan-jones/sen-cardin-we-need-get-mueller-report-rep-lieu-we-do-have-subpoena-power"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/mueller-alex-wong.jpg?itok=y7n9E6VI" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/susan-jones/sen-cardin-we-need-get-mueller-report-rep-lieu-we-do-have-subpoena-power"><div class="CNS Article-title">Sen. Cardin: &#039;We Need to Get That Mueller Report&#039;; Rep. Lieu: &#039;We Do Have Subpoena Power&#039;</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Susan Jones | February 21, 2019</span>  </div>    </div>
+    </div>
+      <div class="views-row row views-row-4 views-row-last">
+      <div class="views-column col-md-12 views-column-1 views-column-first">
+        
+  <div class="views-field views-field-term-node-tid category-term-label">        <span class="field-content">Washington</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/news/article/cnsnewscom-staff/sen-kirsten-gillibrand-mom-young-kids-i-think-we-need-president-who"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/gilliget3.jpg?itok=STJ8T8-G" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/cnsnewscom-staff/sen-kirsten-gillibrand-mom-young-kids-i-think-we-need-president-who"><div class="CNS Article-title">Sen. Kirsten Gillibrand: ‘As a Mom of Young Kids, I Think We Need a President Who Fights for Families’</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">CNSNews.com Staff | February 20, 2019</span>  </div>    </div>
+      <div class="views-column col-md-12 views-column-2 views-column-last">
+        
+  <div class="views-field views-field-term-node-tid-1 opinion-term-label">        <span class="field-content">Blog</span>  </div>  
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content row col-xs-4 pull-left"><a href="/blog/emily-ward/mark-levin-scotus-changed-1st-amendment-we-dont-have-free-press-today"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/mark_levin.png?itok=SsdfCZmb" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/emily-ward/mark-levin-scotus-changed-1st-amendment-we-dont-have-free-press-today"><div class="Opinion-title">Mark Levin: SCOTUS ‘Changed the 1st Amendment,&#039; ‘We Don’t Have a Free Press Today’</div></a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Emily Ward | February 21, 2019</span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+            </div>
+                  </div>
+      
+          </div>
+  
+      <div class="commentary-wrapper row">
+              <div class="panel-col-commentary-main col-md-9 panel-panel">
+          <div class="inside"><div class="panel-pane pane-views-panes pane-front-page-panel-pane-4 col-md-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="opinion/commentary">Commentary</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_4 commentary-block view-dom-id-7c51114b23ce3c50b0765756d26023c4">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column clearfix views-column-1 views-column-first">
+        
+  <div class="views-field views-field-picture-1">        <div class="field-content"><a href="/author/ben-shapiro"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/commentary_author/s3/pictures/picture-745-1430427033.jpg?itok=edToLqTw" width="75" height="75" alt="Ben Shapiro&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/commentary/ben-shapiro/ben-shapiro-3-lessons-jussie-smollett-hoax">Ben Shapiro: 3 Lessons From the Jussie Smollett Hoax</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/ben-shapiro" title="View user profile." class="username">Ben Shapiro</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 21, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column clearfix views-column-2">
+        
+  <div class="views-field views-field-picture-1">        <div class="field-content"><a href="/author/lindsey-burke"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/commentary_author/s3/pictures/picture-1146-1436463842.jpg?itok=WG523mMg" width="75" height="75" alt="Lindsey Burke&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/commentary/lindsey-burke/sen-warrens-child-care-proposal-unlikely-boost-education-outcomes-will-cost">Sen. Elizabeth Warren’s Child Care Proposal Unlikely to Boost Education Outcomes</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/lindsey-burke" title="View user profile." class="username">Lindsey Burke</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 21, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column clearfix views-column-3">
+        
+  <div class="views-field views-field-picture-1">        <div class="field-content"><a href="/author/bill-donohue"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/commentary_author/s3/pictures/picture-1106-1450449499.jpg?itok=Bex5VeoF" width="75" height="75" alt="Bill Donohue&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/commentary/bill-donohue/assessing-gay-priests-role-scandal">Assessing Gay Priests’ Role in Scandal</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/bill-donohue" title="View user profile." class="username">Bill Donohue</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 21, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column clearfix views-column-4">
+        
+  <div class="views-field views-field-picture-1">        <div class="field-content"><a href="/author/john-horvat-ii"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/commentary_author/s3/pictures/picture-1037-1429724630.png?itok=5ljlgVZC" width="75" height="75" alt="John Horvat II&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/commentary/john-horvat-ii/danger-not-taking-alexandria-ocasio-cortez-seriously">The Danger of Not Taking Alexandria Ocasio-Cortez Seriously</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/john-horvat-ii" title="View user profile." class="username">John Horvat II</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 20, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column clearfix views-column-5">
+        
+  <div class="views-field views-field-picture-1">        <div class="field-content"><a href="/author/hans-bader"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/commentary_author/s3/pictures/picture-1082-1473777100.jpg?itok=oAsBmHx9" width="75" height="75" alt="Hans Bader&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/commentary/hans-bader/child-deaths-fall-across-world-no-thanks-marxism">Child Deaths Fall Across the World, No Thanks to Marxism</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/hans-bader" title="View user profile." class="username">Hans Bader</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 20, 2019</span></div>      </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-front-page-panel-pane-7 col-md-6 col-xs-12"  >
+  
+        <h2 class="pane-title">
+      <a href="/opinion/blog">CNSNews.com Blog</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_7 sidebar-blog view-dom-id-f2e97c80aa843730e2d4e0c7a5a46e2d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-picture">        <div class="field-content"><a href="/author/emily-ward"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/author/s3/pictures/picture-244358-1536855761.jpg?itok=GAnMQwHF" width="100" height="100" alt="Emily Ward&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/emily-ward/mark-levin-scotus-changed-1st-amendment-we-dont-have-free-press-today">Mark Levin: SCOTUS ‘Changed the 1st Amendment,&#039; ‘We Don’t Have a Free Press Today’</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/emily-ward" title="View user profile." class="username">Emily Ward</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 21, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column views-column-2">
+        
+  <div class="views-field views-field-picture">        <div class="field-content"><a href="/author/craig-bannister"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/author/s3/pictures/picture-499-1429718982.jpg?itok=u2XC_FqT" width="100" height="100" alt="Craig Bannister&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/craig-bannister/planned-parenthood-head-being-pro-choice-being-pro-family-its-being-pro-life">Planned Parenthood Head: ‘Being Pro-Choice Is Being…Pro-Family;’ ‘It’s Being Pro-Life’</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/craig-bannister" title="View user profile." class="username">Craig Bannister</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 21, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column views-column-3">
+        
+  <div class="views-field views-field-picture">        <div class="field-content"><a href="/author/craig-bannister"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/author/s3/pictures/picture-499-1429718982.jpg?itok=u2XC_FqT" width="100" height="100" alt="Craig Bannister&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/craig-bannister/geraldo-real-crime-revealed-mueller-investigation-committed-anti-trump-media">Geraldo: The ‘Real Crime’ Revealed by Mueller Investigation Committed by Anti-Trump Media</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/craig-bannister" title="View user profile." class="username">Craig Bannister</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 21, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column views-column-4">
+        
+  <div class="views-field views-field-picture">        <div class="field-content"><a href="/author/craig-bannister"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/author/s3/pictures/picture-499-1429718982.jpg?itok=u2XC_FqT" width="100" height="100" alt="Craig Bannister&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/craig-bannister/ben-stein-new-gestapo-would-be-created-enforce-aocs-green-new-deal">Ben Stein: ‘A New Gestapo Would Be Created’ to Enforce AOC’s Green New Deal</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/craig-bannister" title="View user profile." class="username">Craig Bannister</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 20, 2019</span></div>      </div>
+
+      </div>
+      <div class="views-column views-column-5">
+        
+  <div class="views-field views-field-picture">        <div class="field-content"><a href="/author/emily-ward"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/author/s3/pictures/picture-244358-1536855761.jpg?itok=GAnMQwHF" width="100" height="100" alt="Emily Ward&#039;s picture" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/emily-ward/trailer-pro-life-movie-unplanned-hits-number-one-spot-itunes">Trailer for Pro-Life Movie ‘Unplanned’ Hits Number One Spot on iTunes</a></span>  </div>  
+          <div class="field-text views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-name"><span class="field-content"><a href="/author/emily-ward" title="View user profile." class="username">Emily Ward</a></span></div>                <div class="views-field views-field-created"><span class="field-content">February 20, 2019</span></div>      </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+        </div>
+                    <div class="panel-col-commentary-ads col-md-3 panel-panel">
+          <div class="inside"><div class="panel-pane pane-block pane-block-3 pane-block ad row col-xs-12 col-sm-6 col-md-4"  >
+  
+      
+  
+  <div class="pane-content">
+    <!-- BEGIN TAG - BODY-->
+<div class="marketo_ad" id="mkto_top_ad">&nbsp;</div>
+<!--END TAG - BODY -->
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-8 pane-block ad intermarkets"  >
+  
+      
+  
+  <div class="pane-content">
+    <!--JavaScript Tag  // Placement: CNSNews_ROS_Top_300x250 (3556486) -->
+<div id="imk300xFlexTop" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b56205695-172' style='display: none !important'></span></div>  </div>
+
+  
+  </div>
+</div>
+        </div>
+          </div>
+  
+      <div class="video-wrapper row">
+      <div class="panel-col-top-videos col-md-12 panel-panel">
+        <div class="inside"><div class="panel-pane pane-block pane-block-12 pane-block ad intermarkets center-block text-center"  >
+  
+      
+  
+  <div class="pane-content">
+    <!--JavaScript Tag  // Placement: CNSNews_ROS_Bottom_970xFlex (3557875) -->
+<div class="center-block text-center">
+<div id="imk728xFlexBot" style="height: 105px;"><span class='bt-uid-tg' data-uid='5b563d6930-172' style='display: none !important'></span></div>
+</div>  </div>
+
+  
+  </div>
+</div>
+      </div>
+    </div>
+  
+      <div class="center-wrapper row">
+              <div class="panel-col-main-column col-md-9 panel-panel">
+          <div class="inside"><div class="panel-pane pane-views-panes pane-front-page-panel-pane-6"  >
+  
+        <h2 class="pane-title">
+      <a href="category/washington">Washington</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_6 view-dom-id-70657e02c25346e4d8d91686ea32bc9f row">
+        
+  
+  
+      <div class="view-content col-sm-5">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/news/article/melanie-arter/sen-kamala-harris-we-have-mental-health-deserts-our-country"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/kamala_harris.png?itok=kYG5WYOO" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/melanie-arter/sen-kamala-harris-we-have-mental-health-deserts-our-country"><div class="CNS Article-title">Sen. Kamala Harris: We Have Mental Health ‘Deserts’ in Our Country</div></a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 20, 2019</span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+      <div class="attachment col-sm-7 attachment-after">
+      <div class="view view-front-page view-id-front_page view-display-id-attachment_1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/michael-w-chapman/aoc-complains-not-enough-minorities-and-women-run-dope-shops">Rep. Ocasio-Cortez: Not Enough Minorities and Women Run Dope Shops</a></span>  </div>    </div>
+      <div class="views-column views-column-2">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/cnsnewscom-staff/sen-cory-booker-laments-my-mother-took-care-my-father-when-he-was-ill">Sen. Cory Booker Laments: &#039;My Mother Took Care of My Father When He Was Ill’</a></span>  </div>    </div>
+      <div class="views-column views-column-3">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/michael-w-chapman/judicial-watch-sues-records-we-face-dojfbi-cover-planned-coup-against">Judicial Watch Sues DOJ: We Face DOJ/FBI &#039;Cover-Up&#039; of Planned &#039;Coup Against President Trump&#039;</a></span>  </div>    </div>
+      <div class="views-column views-column-4">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/melanie-arter/sen-kamala-harris-predicts-wars-will-be-fought-over-water">Sen. Kamala Harris Predicts Wars Will Be Fought Over Water</a></span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="view-footer">
+      <p class="more-link"><a href="category/washington">More <span class="italic">Washington</span> stories</a></p>    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-front-page-panel-pane-6"  >
+  
+        <h2 class="pane-title">
+      <a href="category/national">National</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_6 view-dom-id-17af4e7a9c921c5fc482584fb21acc4c row">
+        
+  
+  
+      <div class="view-content col-sm-5">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/news/article/emily-ward/covington-kid-nick-sandmann-sues-washington-post-250-million"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/screen_shot_2019-02-21_at_11.53.40_am.png?itok=51Rr8fnG" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/emily-ward/covington-kid-nick-sandmann-sues-washington-post-250-million"><div class="CNS Article-title">Covington Kid Nick Sandmann Sues Washington Post for $250 Million</div></a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 21, 2019</span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+      <div class="attachment col-sm-7 attachment-after">
+      <div class="view view-front-page view-id-front_page view-display-id-attachment_1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/emily-ward/doctor-perform-live-4d-ultrasound-pro-life-event-nycs-times-square">Doctor to Perform Live 4D Ultrasound at Pro-Life Event in NYC’s Times Square </a></span>  </div>    </div>
+      <div class="views-column views-column-2">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/susan-jones/trump-blasts-press-six-years-they-all-go-bust">Trump Blasts &#039;The Press&#039;; &#039;In Six Years, They All go BUST!&quot;</a></span>  </div>    </div>
+      <div class="views-column views-column-3">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/susan-jones/mccabe-its-possible-trump-still-russian-asset">McCabe: &#039;It&#039;s Possible&#039; That Trump Is Still a Russian Asset</a></span>  </div>    </div>
+      <div class="views-column views-column-4">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/susan-jones/former-rep-gowdy-doubts-gang-eight-knew-full-extent-fbi-investigation">Former Rep. Gowdy Doubts Gang of Eight Knew Full Extent of FBI Investigation</a></span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="view-footer">
+      <p class="more-link"><a href="category/national">More <span class="italic">National</span> stories</a></p>    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-front-page-panel-pane-6"  >
+  
+        <h2 class="pane-title">
+      <a href="category/international">International</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_6 view-dom-id-7f43ceef770211ae793bb835cdbf7d19 row">
+        
+  
+  
+      <div class="view-content col-sm-5">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-field-images-field-image">        <div class="field-content"><a href="/news/article/james-carstensen/eu-commission-president-hits-back-hungarys-ruling-party-over-soros"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.cnsnews.com/styles/front_page_secondary_featured/s3/soros-junckerhungfb1.jpg?itok=PlavVuWY" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/james-carstensen/eu-commission-president-hits-back-hungarys-ruling-party-over-soros"><div class="CNS Article-title">EU Commission President Hits Back at Hungary’s Ruling Party Over Soros-Illegal Migration Allegations</div></a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 20, 2019</span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+      <div class="attachment col-sm-7 attachment-after">
+      <div class="view view-front-page view-id-front_page view-display-id-attachment_1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1">
+      <div class="views-row views-row-1 views-row-first">
+      <div class="views-column views-column-1 views-column-first">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/patrick-goodenough/cuba-church-leaders-report-communist-intimidation-ahead-vote-new">In Cuba, Church Leaders Report Communist Intimidation Ahead of Vote on New Constitution</a></span>  </div>    </div>
+      <div class="views-column views-column-2">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/fay-al-benhassain/stop-tweeting-and-act-french-politician-challenges-govt-after-spate">‘Stop Tweeting and Act,’ French Politician Challenges Gov’t After Spate of Anti-Semitic Incidents</a></span>  </div>    </div>
+      <div class="views-column views-column-3">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/patrick-goodenough/india-lashes-out-imran-khans-new-pakistan-after-deadly-attack">India Lashes Out at Imran Khan’s ‘New Pakistan’ After Deadly Attack</a></span>  </div>    </div>
+      <div class="views-column views-column-4">
+        
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/article/terence-p-jeffrey/chinese-cardinal-vatican-has-kept-secret-text-deal-atheist-regime">Chinese Cardinal: Vatican Has Kept Secret the Text of Deal With Atheist Regime on Naming of Bishops</a></span>  </div>    </div>
+    </div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+      <div class="view-footer">
+      <p class="more-link"><a href="category/international">More <span class="italic">International</span> stories</a></p>    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-conservative-roundup"  >
+  
+        <h2 class="pane-title">
+      <span class="cr_title">Conservative Roundup</span>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-conservative-roundup view-id-conservative_roundup view-display-id-default view-dom-id-9b084478b1cf7b7a0e2c520f561c94e7">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://thehill.com/opinion/judiciary/430717-the-family-secret-bruce-ohr-told-rod-rosenstein-about-russia-case" target="_blank">The family secret Bruce Ohr told Rod Rosenstein about Russia case</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://thehill.com/opinion/judiciary/430717-the-family-secret-bruce-ohr-told-rod-rosenstein-about-russia-case">- <a href="https://thehill.com/opinion/judiciary/430717-the-family-secret-bruce-ohr-told-rod-rosenstein-about-russia-case" target="_blank" rel="nofollow">The Hill</a></a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.dailysignal.com/2019/02/20/covington-teens-libel-suit-follows-justice-thomas-questioning-of-libel-precedent/" target="_blank">Covington Teen’s Libel Suit Follows Justice Thomas’ Questioning of Libel...</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://www.dailysignal.com/2019/02/20/covington-teens-libel-suit-follows-justice-thomas-questioning-of-libel-precedent/">- <a href="https://www.dailysignal.com/2019/02/20/covington-teens-libel-suit-follows-justice-thomas-questioning-of-libel-precedent/" target="_blank" rel="nofollow">Daily Signal</a></a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.insidesources.com/kamala-harris-in-a-relatively-short-time-portsmouth-nh-will-be-underwater/" target="_blank">Kamala Harris: “In a Relatively Short Time, Portsmouth, NH Will Be Underwater”</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://www.insidesources.com/kamala-harris-in-a-relatively-short-time-portsmouth-nh-will-be-underwater/">- <a href="https://www.insidesources.com/kamala-harris-in-a-relatively-short-time-portsmouth-nh-will-be-underwater/" target="_blank" rel="nofollow">Inside Sources</a></a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.realclearpolicy.com/articles/2019/02/21/you_cant_build_that_the_regulatory_reality_of_the_green_new_deal_111067.html" target="_blank">You Can&#039;t Build That: The Regulatory Reality of the Green New Deal</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://www.realclearpolicy.com/articles/2019/02/21/you_cant_build_that_the_regulatory_reality_of_the_green_new_deal_111067.html">- <a href="https://www.realclearpolicy.com/articles/2019/02/21/you_cant_build_that_the_regulatory_reality_of_the_green_new_deal_111067.html" target="_blank" rel="nofollow">Real Clear Politics</a></a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://dailycaller.com/2019/02/19/huges-barr-pornography/" target="_blank">OPINION: Bill Barr Has A Duty To Crack Down On Hard-Core Pornography</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://dailycaller.com/2019/02/19/huges-barr-pornography/">- <a href="https://dailycaller.com/2019/02/19/huges-barr-pornography/" target="_blank" rel="nofollow">Daily Caller</a></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-nb-feed-import-panel-pane-1 newsbusters-feed-pane"  >
+  
+        <h2 class="pane-title">
+      NB Feed Import    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-nb-feed-import view-id-nb_feed_import view-display-id-panel_pane_1 newsbusters-feed view-dom-id-f93620bdd9bb8eadc2c75348df40f11d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-url">        <span class="field-content"><a href="https://www.newsbusters.org/blogs/nb/brad-wilmouth/2019/02/20/zakaria-frets-ilhan-omar-made-it-harder-criticize-israel">CNN&#039;s Zakaria Frets Ilhan Omar Made It Harder to Slam Israel&#039;s &#039;...</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 21, 2019</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-url">        <span class="field-content"><a href="https://www.newsbusters.org/blogs/culture/alexa-moutevelis-coombs/2019/02/21/chelsea-clinton-fawns-interview-planned-parenthood">Chelsea Clinton Fawns in Interview with Planned Parenthood President Leana Wen...</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 21, 2019</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-url">        <span class="field-content"><a href="https://www.newsbusters.org/blogs/nb/kyle-drennen/2019/02/21/willie-geist-media-shouldnt-have-been-rooting-outcome-smollett">Willie Geist: Media Shouldn’t Have Been ‘Rooting for an Outcome’ With Smollett...</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 21, 2019</span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-url">        <span class="field-content"><a href="https://www.newsbusters.org/blogs/nb/kristine-marsh/2019/02/21/lemon-brags-cnn-was-always-skeptical-smollett-defends-actor">Lemon Brags CNN Was Always Skeptical of Smollett; Defends Actor as Victim of...</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 21, 2019</span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-url">        <span class="field-content"><a href="https://www.newsbusters.org/blogs/nb/mark-finkelstein/2019/02/21/scarborough-i-know-trump-undisturbed-guardsmans-planned-terror">Scarborough: &#039;I Know&#039; Trump Undisturbed By Guardsman&#039;s Planned...</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">February 21, 2019</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+        </div>
+                    <div class="panel-col-right-sidebar col-md-3 panel-panel">
+          <div class="inside"><div class="panel-pane pane-views-panes pane-front-page-panel-pane-5"  >
+  
+        <div class="pane-title">
+      <div id="videoheadfront"><a href="video">Top Videos</a></div>    </div>
+    
+  
+  <div class="pane-content">
+    <div class="view view-front-page view-id-front_page view-display-id-panel_pane_5 top-videos-view view-dom-id-9eaa2222165c9970ddbd26affee560c9">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-responsive-grid views-responsive-grid-vertical views-columns-1">
+  <div class="views-column views-column-1 views-column-first">
+      <div class="views-row views-row-1 views-row-first">
+        
+  <div class="views-field views-field-field-video">        <div class="field-content"><a href="/video/online-terry-jeffrey-cardinal-joseph-zen"><img typeof="foaf:Image" class="img-responsive" src="https://www.cnsnews.com/sites/default/files/styles/front_page_secondary_featured/public/video_embed_field_thumbnails/mrctv/536668.png?itok=-TwXbHxn" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/online-terry-jeffrey-cardinal-joseph-zen">Online With Terry Jeffrey: Cardinal Joseph Zen</a></span>  </div>    </div>
+      <div class="views-row views-row-2">
+        
+  <div class="views-field views-field-field-video">        <div class="field-content"><a href="/video/sen-cardin-we-need-get-mueller-report-rep-lieu-we-do-have-subpoena-power"><img typeof="foaf:Image" class="img-responsive" src="https://www.cnsnews.com/sites/default/files/styles/front_page_secondary_featured/public/video_embed_field_thumbnails/mrctv/537325.png?itok=brQKz8nw" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/sen-cardin-we-need-get-mueller-report-rep-lieu-we-do-have-subpoena-power">Sen. Cardin: &#039;We Need to Get That Mueller Report&#039;; Rep. Lieu: &#039;We Do Have Subpoena Power&#039;</a></span>  </div>    </div>
+      <div class="views-row views-row-3">
+        
+  <div class="views-field views-field-field-video">        <div class="field-content"><a href="/video/blog-trump-says-he-doesnt-know-about-report-administration-working-decriminalize-homosexuality"><img typeof="foaf:Image" class="img-responsive" src="https://www.cnsnews.com/sites/default/files/styles/front_page_secondary_featured/public/video_embed_field_thumbnails/mrctv/537318.png?itok=9jEwkFof" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/blog-trump-says-he-doesnt-know-about-report-administration-working-decriminalize-homosexuality">Trump Says He Doesn’t Know About Report That Administration Is Working to Decriminalize Homosexuality Overseas</a></span>  </div>    </div>
+      <div class="views-row views-row-4 views-row-last">
+        
+  <div class="views-field views-field-field-video">        <div class="field-content"><a href="/video/mark-levin-nothing-has-ever-happened-united-states-america-ever"><img typeof="foaf:Image" class="img-responsive" src="https://www.cnsnews.com/sites/default/files/styles/front_page_secondary_featured/public/video_embed_field_thumbnails/mrctv/537297.png?itok=ye-HH3zR" width="250" height="155" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/mark-levin-nothing-has-ever-happened-united-states-america-ever">Mark Levin: ‘Nothing Like This Has Ever Happened Before in the United States of America – Ever’</a></span>  </div>    </div>
+    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-7 pane-block ad intermarkets"  >
+  
+      
+  
+  <div class="pane-content">
+    <!--JavaScript Tag  // Placement: CNSNews_ROS_Bottom_300x250 (3556508) -->
+<div id="imk300xFlexMid" style="height: 265px;">
+<span class='bt-uid-tg' data-uid='5b55ebec18-172' style='display: none !important'></span>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-20 pane-block"  >
+  
+      
+  
+  <div class="pane-content">
+    <div id="mkto_mid_ad"></div>  </div>
+
+  
+  </div>
+</div>
+        </div>
+          </div>
+  </div>
+</section>
+  </div>
+      </section>
+
+      
+    </div>
+  </div>
+  <footer class="footer container-fluid">
+      <div class="region region-footer">
+    <section id="block-system-main-menu" class="block block-system block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf active"><a href="/" class="active">Home</a></li>
+<li class="leaf"><a href="/category/washington" title="">Washington</a></li>
+<li class="leaf"><a href="/category/national" title="">National</a></li>
+<li class="last leaf"><a href="/category/international" title="">International</a></li>
+</ul>
+</section>
+<section id="block-menu-menu-footer-secondary-menu" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/about-us" title="About CNS News">About Us</a></li>
+<li class="leaf"><a href="/contact-us" title="CNS Contact Page">Contact Us</a></li>
+<li class="leaf"><a href="/privacy-policy" title="CNS News privacy policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/terms-use-agreement" title="Terms of Use agreement for CNSNews.com">Terms of Use</a></li>
+<li class="leaf"><a href="http://www.cnsnews.com/join-movement" title="Donate to CNS News">Donate</a></li>
+<li class="leaf"><a href="/video" title="CNS Video page">Video</a></li>
+<li class="leaf"><a href="/opinion/blog" title="CNS News blog page">Blog</a></li>
+<li class="leaf"><a href="/opinion/commentary" title="CNS News Commentary page">Commentary</a></li>
+<li class="leaf"><a href="/opinion/editorial" title="CNS News Editorials page">Editorials</a></li>
+<li class="leaf"><a href="http://www.intermarkets.net/advertiser-solutions/portfolio/cnsnews" title="">Advertise</a></li>
+<li class="last leaf"><a href="/feeds/all" title="">RSS</a></li>
+</ul>
+</section>
+  </div>
+    <p class="copyright">Copyright 1998-2019 CNSNews.com.</p>
+    <div class="CFC container">
+      <p>CNSNews.com is a division of the Media Research Center.</p>
+      <p><a href="http://www.mrc.org"><img src="//cdn.mrc.org/images/mrc_stackedblocklogo.png" width="150" /></a></p>
+        <p>The mission of the <a target="_blank" href="http://www.mrc.org">Media Research Center</a> is to create a media culture in America where truth and liberty flourish. The MRC is a research and education organization operating under <a target="_blank" href="http://www.mrc.org/static/about-us">Section 501(c)(3)</a> of the Internal Revenue Code, and <a target="_blank" href="https://www.mrc.org/donate">contributions</a> to the MRC are tax-deductible.</p>
+        <p>Copyright © 2017, Media Research Center. All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
+  <script src="https://www.cnsnews.com/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"12d5f2033e","applicationID":"37108928","transactionName":"M1ZWMREEDRBUVhBRDQocdQYXDAwNGkUFXwc7XlULAgIGEWpFBV8HO1ZMAAAQFwY=","queueTime":0,"applicationTime":427,"atts":"HxFVR1keHh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

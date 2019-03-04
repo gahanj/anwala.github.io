@@ -1,0 +1,375 @@
+<html>
+<head>
+<script>
+function lang(){
+  var n=window.navigator,b=['language','browserLanguage','systemLanguage','userLanguage'],i,d;
+  if (Array.isArray(n.languages)) {
+      for (i = 0; i < n.languages.length; i++) {
+        d = n.languages[i];
+        if (d && d.length)
+          return d.substr(0, 2);
+      }
+  }
+  for (i = 0; i < b.length; i++) {
+    d = n[b[i]];
+    if (d && d.length)
+      return d.substr(0, 2);
+  }
+  return 'en';
+}
+
+window.r9lang = isa=lang();
+var d=document,w=window,l;
+try {l=w.top.location.href;}catch(e){l=w.location!==w.parent.location?d.referrer:d.location.href;}
+var t=encodeURIComponent(l),y=l.split('/')[2];
+
+function sel1(sz,x,c){
+  var tw=x.b+x.e+x.p+x.a+x.m+x.r,n=Math.random()*tw,z=[x.b,x.e,x.p,x.m,x.a,x.r],i=0;
+  while(i<5 && n>=z[i]){ console.log('n:'+n+', z:'+z);n-=z[i++]; }
+  console.log('-----> '+sz+' n is '+n+' selected index '+i);
+  return tw?c[i]:'';
+}
+
+function get336x280Code(x){
+  return sel1('336x280',x,
+  [
+    '<iframe src="//bvadtgs.scdn1.secure.raxcdn.com/bidvertiser/tags/active/showntvtrt.html?pid=756304&bid=1975444&subid='+y+'&bvsize=336x280&bvrefi='+t+'" width="336" height="280" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>',
+    '<div style="width:336px;280px;display:block;text-align:center;overflow:hidden"><scr'+'ipt data-cfasync="false">function(E,n,G,A,g,Y,a){E["EngageyaObject"]=g;E[g]=E[g]||function(){ (E[g].q=E[g].q||[]).push(arguments)},E[g].l=1*new Date();Y=n.createElement(G), a=n.getElementsByTagName(G)[0];Y.async=1;Y.src=A;a.parentNode.insertBefore(Y,a)})(window,document,"script","//widget.engageya.com/engageya_loader.js","__engWidget");__engWidget("createWidget",{wwei:"ENGAGEYA_WIDGET_103325",pubid:175665,webid:148581,wid:103325,pid:"LTEsMTc1NjY1LDE0ODU4MSwxMDMzMjU%3D",isidx:"0",subid:"'+y+'"});</scr'+'ipt><div id="ENGAGEYA_WIDGET_103325"></div></div>',      
+    '<div style="width:336px;280px;display:block;text-align:center;overflow:hidden"><scr'+'ipt>(function(E,n,G,A,g,Y,a){E["PostquareObject"]=g;E[g]=E[g]||function(){ (E[g].q=E[g].q||[]).push(arguments)},E[g].l=1*new Date();Y=n.createElement(G), a=n.getElementsByTagName(G)[0];Y.async=1;Y.src=A;a.parentNode.insertBefore(Y,a)})(window,document,"script","//widget.engageya.com/_pos_loader.js","__engWidget");__engWidget("createWidget",{wwei:"POSTQUARE_WIDGET_101905",pubid:171201,webid:147114,wid:101905,pid:"MzUsMTcxMjAxLDE0NzExNCwxMDE5MDU%3D",isidx:"0",subid:"'+y+'"});</scr'+'ipt><div id="POSTQUARE_WIDGET_101905"></div></div>',
+    '<div id="M320557ScriptRootC228568"><div id="M320557PreloadC228568">Loading...</div><scr'+'ipt>(function(){var D=new Date(),d=document,b="body",ce="createElement",ac="appendChild",st="style",ds="display",n="none",gi="getElementById",lp=d.location.protocol,wp=lp.indexOf("http")==0?lp:"https:";var i=d[ce]("iframe");i[st][ds]=n;d[gi]("M320557ScriptRootC228568")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}catch(e){var iw=d;var c=d[gi]("M320557ScriptRootC228568");}var dv=iw[ce]("div");dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=228568;c[ac](dv);var s=iw[ce]("scr'+'ipt");s.async="async";s.defer="defer";s.charset="utf-8";s.src=wp+"//jsc.mgid.com/r/e/reklam9.net.228568.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();</scr'+'ipt><scr'+'ipt>s1="'+y+'"</scr'+'ipt></div>',
+    '<div id="advnc300250"><scr'+'ipt type="text/javascript" data-params="jsads">m3ads_system="Advancenative";m3ads_partnernumber=983598;m3ads_zone="Native 300*250(1Slot)";m3ads_includeimages=1;m3ads_cssurl="https://eotech-yoqblou5gqrdrn.netdna-ssl.com/advnc300x250.css";m3ads_subpartner="'+y+'";</scr'+'ipt><scr'+'ipt type="text/javascr'+'ipt" src="//cdn.feed.eotech.co/resources/scripts/jsAds-1.4.min.js"></scr'+'ipt></div>',
+    '<scr'+'ipt type="text/javascript">var reklamstore_region_id = 541619;</scr'+'ipt><scr'+'ipt type="text/javascript" src="//adserver.reklamstore.com/reklamstore.js"></scr'+'ipt>'
+  ]);
+}
+
+function get728x90Code(x){
+  return sel1('728x90',x,
+  [
+   '<iframe src="//bvadtgs.scdn1.secure.raxcdn.com/bidvertiser/tags/active/showntvtrt.html?pid=756304&bid=1975444&subid='+y+'&bvsize=728x90&bvrefi='+t+'" width="728" height="90" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>',
+   '<div style="width:728px;90px;display:block;text-align:center;overflow:hidden"><scr'+'ipt data-cfasync="false">(function(E,n,G,A,g,Y,a){E["EngageyaObject"]=g;E[g]=E[g]||function(){ (E[g].q=E[g].q||[]).push(arguments)},E[g].l=1*new Date();Y=n.createElement(G), a=n.getElementsByTagName(G)[0];Y.async=1;Y.src=A;a.parentNode.insertBefore(Y,a)})(window,document,"scr'+'ipt","//widget.engageya.com/engageya_loader.js","__engWidget");__engWidget("createWidget",{wwei:"ENGAGEYA_WIDGET_120129",pubid:175665,webid:148581,wid:120129,pid:"LTEsMTc1NjY1LDE0ODU4MSwxMjAxMjk%3D",isidx:"0",subid:"'+y+'"});</scr'+'ipt><div id="ENGAGEYA_WIDGET_120129"></div></div>',
+   '',
+   '<div id="M320557ScriptRootC327386"><div id="M320557PreloadC327386">Loading...</div><scr'+'ipt>(function(){var D=new Date(),d=document,b="body",ce="createElement",ac="appendChild",st="style",ds="display",n="none",gi="getElementById",lp=d.location.protocol,wp=lp.indexOf("http")==0?lp:"https:";var i=d[ce]("iframe");i[st][ds]=n;d[gi]("M320557ScriptRootC327386")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}catch(e){var iw=d;var c=d[gi]("M320557ScriptRootC327386");}var dv=iw[ce]("div");dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=327386;c[ac](dv);var s=iw[ce]("scr'+'ipt");s.async="async";s.defer="defer";s.charset="utf-8";s.src=wp+"//jsc.mgid.com/r/e/reklam9.net.327386.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();</scr'+'ipt><scr'+'ipt>s1="haberincepte.club"</scr'+'ipt></div>',
+   '',
+   '<scr'+'ipt type="text/javascript">var reklamstore_region_id = 541618;</scr'+'ipt><scr'+'ipt type="text/javascript" src="//adserver.reklamstore.com/reklamstore.js"></scr'+'ipt>'
+  ]);
+}
+
+  function getRe2Code(x){ return 0?get336x280Code(x):get728x90Code(x); }
+</script>
+<meta name="twitter:card" content=summary>
+<script>var lp=window.location.protocol,lr=window.location.href.substring(window.location.protocol.length);if (!0&&lp=="https:")window.location.href="http:"+lr;if (0&&lp!="https:")window.location.href="https:"+lr;</script>
+<title>PKK'den Trump'a sert sözler: Aldatıcı, tutarsız, istikrarsız...</title>
+<link rel=icon type="image/x-icon" href="/contentimages/0site_imgs_data/6/3/1/3631_favico.ico">
+<link rel=stylesheet href="/v4/desktop/style.css">
+<meta charset=utf-8>
+<meta property="og:type" content=article>
+<meta property="og:site_name" content="nuce24.net">
+<meta property="og:image" content="http://nuce24.net/cdn1/3/7/7/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz-tn-play.jpg">
+<meta property="og:url" content="http://nuce24.net/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz">
+<meta property="og:title" content="PKK&#39;den Trump&#39;a sert sözler: Aldatıcı, tutarsız, istikrarsız...">
+<meta property="og:description" content="FLAŞ HABER...">
+<meta name=description content="FLAŞ HABER...">
+<meta name="ud:yorumPageId" content=2937377>
+<meta name="ud:yorumResimId" content=3371446>
+<meta name="ud:pageurl" content="http://nuce24.net/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz">
+<script src="/v4/desktop/js/jquery-1.11.3.min.js"></script>
+<meta property="ia:markup_url" content="http://nuce24.net/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz/asInstantArticleHtml">
+<meta property="fb:pages" content=1518752941513116>
+<meta name="twitter:card" content=summary_large_image>
+<meta name="twitter:title" content="PKK&#39;den Trump&#39;a sert sözler: Aldatıcı, tutarsız, istikrarsız...">
+<meta name="twitter:url" content="http://nuce24.net/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz">
+<meta name="twitter:description" content="FLAŞ HABER...">
+<meta name="twitter:image" content="http://nuce24.net/cdn1/3/7/7/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz-tn-play.jpg">
+<style>
+.navmenu, .synced, .tumunugor, ul.cats li a span, .suandabu,
+	.bakmadangecme, .numarator li.active a, .numarator li a:hover,
+	.vidyomaniscript .button {
+	background-color: #D90000 !important;
+}
+
+.ortakbaslik span {
+	font-weight: 800 !important;
+}
+
+ul.cats li a:hover, .pagenavim li a:hover, .pagenavim li.active a,
+	.izlenme, .ovideos li a:hover, .galeribaslik, .itembigz:hover .bbaslik
+	{
+	color: #D90000 !important;
+}
+
+.pagenavim li a:hover, .pagenavim li.active a {
+	border-color: #D90000 !important;
+}
+#menutop,#relatedBottom {display:block; text-align:center; clear:both; }
+</style>
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');   ga('create', 'UA-103170694-1', 'auto');  ga('send', 'pageview');  </script>
+<script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/90851098/nuce24.net_300x600', [[160, 600], [234, 60], [120, 240], 'fluid', [300, 250], [300, 600]], 'div-gpt-ad-1526893850599-0').addService(googletag.pubads());
+    googletag.defineSlot('/90851098/nuce24.net_336x280', [[336, 280], 'fluid', [300, 250], [320, 50]], 'div-gpt-ad-1526893850599-1').addService(googletag.pubads());
+    googletag.defineSlot('/90851098/nuce24.net_750x100', [[728, 90], 'fluid', [468, 60]], 'div-gpt-ad-1526893850599-2').addService(googletag.pubads());
+    googletag.defineSlot('/90851098/nuce24.net_970x400', [[970, 250], [728, 90], [980, 120], 'fluid'], 'div-gpt-ad-1526893850599-3').addService(googletag.pubads());
+    googletag.defineSlot('/90851098/nuce24.net_980x120', [[728, 90], [980, 120], 'fluid', [970, 90]], 'div-gpt-ad-1526893850599-4').addService(googletag.pubads());
+    googletag.defineSlot('/90851098/nuce24.net_980x120', [[728, 90], [980, 120], 'fluid', [970, 90]], 'div-gpt-ad-1526893850599-5').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+</head>
+<body>
+<div id=fb-root></div>
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id))
+			return;
+		js = d.createElement(s);
+		js.id = id;
+		js.async=true;js.src = "//connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<script>window.___gcfg = {lang: 'tr',parsetags: 'onload'};</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+	!function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/
+		.test(d.location) ? 'http' : 'https';
+		if (!d.getElementById(id)) {
+			js = d.createElement(s);
+			js.id = id;
+			js.src = p + '://platform.twitter.com/widgets.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}
+	}(document, 'script', 'twitter-wjs');
+</script><style>.cerezsorgula{width:100%; padding:20px 0; position:fixed;bottom:0px;z-index:999999999;background:#fff;box-shadow: 0px 0px 53px rgba(0,0,0,.3);color:#181818;text-align:center;font-weight:500;display:none;}
+#anladim{margin-left: 10px;cursor:pointer;background:#ffb818;display:inline-block;padding:0px 15px;border-radius:5px;text-decoration:none;color:#82672a;line-height:30px;font-weight:bold;}
+.cerezsorgula a{cursor:pointer;display:inline-block;color:#82672a;line-height:30px;font-weight:bold;}
+.cerezsorgula p,.cerezsorgula div{display:inline-block; margin:0;}
+@media screen and (max-width:768px){
+.cerezsorgula p, .cerezsorgula div {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+}
+
+#anladim {
+    width: calc(100% - 50px);
+}
+.cerezsorgula p {
+    margin-bottom: 10px;
+}
+}
+</style>
+<script>
+
+function checkCookie(){
+ if (localStorage.getItem('anladim')=="1"){
+document.getElementById('cerezsorgula').style.display='none';} else{document.getElementById('cerezsorgula').style.display='block';}
+}
+function anladim(sure) {
+var lstr = localStorage.setItem('anladim','1');
+document.getElementById('cerezsorgula').style.display='none';
+}
+
+var coistart = '<div class="cerezsorgula" id="cerezsorgula"><div id="cerezgonder">';
+var coiend='</div></div>';
+var coi = [];
+coi['tr_TR'] = '<p>Çerezler (cookie), Vidyomani web sitesini daha etkin bir şekilde kullanmanızı sağlamaktadır. Detaylı bilgi için.. <a target="_new" href="/cookie_policy.html">Çerez Politikamızı</a> ziyaret edebilirsiniz.</p><div id="anladim" onclick="anladim(30)">Anladım</div>';
+coi['en_US'] = '<p>We use cookies to offer you a better browsing experience, analyze site traffic, and personalize our communications with you. Read about how we use cookies and how you can control them by clicking <a href="/cookie_policy.html" target="_new">cookie_policy.html</a></p><div id="anladim" onclick="anladim(30)">Accept</div>';
+coi['ar'] = '<p>ملفات تعريف الارتباط: تتيح لك استخدام موقعنا بشكل اكثر فعالية . لمزيد من المعلومات يرجى زيارة صفحة <a href="/cookie_policy.html" target="_new">سياسة ملفات تعريف الارتباط</a></p><div id="anladim" onclick="anladim(30)">مفهوم</div>';
+coi['ru'] = '<p>Использование Куки (cookie), позволяет Vidyomani работать более эффективно. Для получения подробной информации, пожалуйста, прочитайте нашу политику использования .<a href="/cookie_policy.html" target="_new">файлов Cookie</a>.</p><div id="anladim" onclick="anladim(30)">Понятно</div>';
+coi['es'] = '<p>El uso de Cookies provee una manera más eficiente de utilizar nuestro sitio web. Para mas información puedes visitar nuestra <a href="/cookie_policy.html" target="_new">política de cookies</a>.</p><div id="anladim" onclick="anladim(30)">Accept</div>';
+coi['fr'] = coi['en_US'];
+coi['az'] = coi['tr_TR'];
+
+var body = document.getElementsByTagName('BODY')[0];
+if (body && body.readyState == 'loaded')checkCookie();
+else if (window.addEventListener)window.addEventListener('load',checkCookie,false);
+else window.attachEvent('onload',checkCookie);
+
+if(window.location.href.indexOf("mode=silent")<0)document.write(coistart+coi['tr_TR']+coiend);
+
+</script><script>window.revflex=0;window.revflexUrl ='';</script>
+<script>
+window.revflexUrl = 0?'':
+  '';
+window.revflex=window.revflexUrl.length>0?1:0;
+</script>
+<script>
+var cssm = 0;
+var r728= window.revflex? '':cssm ? '<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:320px;height:200px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>':'<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:970px;height:250px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>';
+var ryorumalti = window.revflex? '':cssm ? '<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:336px;height:280px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>':'<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:336px;height:280px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>';
+var r300sagust = window.revflex? '':cssm ? '<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:336px;height:280px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>':'<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:336px;height:280px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>';
+var r300sagalt = window.revflex? '':cssm ? '<div style="text-align:center"><scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt>\n<ins class="adsbygoogle"\nstyle="display:inline-block;width:336px;height:280px"\ndata-ad-client="ca-pub-5610649146674306"\ndata-ad-slot="4754615238">\n</ins>\n<scr'+'ipt>\n(adsbygoogle=window.adsbygoogle || []).push({});\n</scr'+'ipt></div>':'<!-- /90851098/nuce24.net_336x280 -->\n<div id=\'div-gpt-ad-1526893850599-1\'>\n<scr'+'ipt>\ngoogletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1526893850599-1\'); });\n</scr'+'ipt>\n</div>';
+var ricerikalt6402 = window.revflex? '':cssm ? '':'';
+var r970x400 = window.revflex? '':cssm ? '':'<!-- /90851098/nuce24.net_970x400 -->\n<div id=\'div-gpt-ad-1526893850599-3\'>\n<scr'+'ipt>\ngoogletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1526893850599-3\'); });\n</scr'+'ipt>\n</div>';
+var re2 = window.revflex? '':cssm ? '<scr'+'ipt>document.write(getRe2Code({b:20,e:10,p:0,m:30,a:0,r:0}));</scr'+'ipt>':'<scr'+'ipt>document.write(getRe2Code({b:20,e:10,p:0,m:30,a:0,r:0}));</scr'+'ipt>';
+var alternatif1 = window.revflex? '':cssm ? '':'';
+var alternatif2 = window.revflex? '':cssm ? '':'';
+var alternatif3 = window.revflex? '':cssm ? '':'';
+var yorumustu = window.revflex? '':cssm ? '':'';
+var rozelmast = window.revflex? '':cssm ? '':'';
+var videosolbuyuk = window.revflex? '':cssm ? '<!-- /90851098/nuce24.net_336x280 -->\n<div id=\'div-gpt-ad-1526894056867-4\'>\n<scr'+'ipt>\ngoogletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1526894056867-4\'); });\n</scr'+'ipt>\n</div>':'<!-- /90851098/nuce24.net_300x600 -->\n<div id=\'div-gpt-ad-1526893850599-0\'>\n<scr'+'ipt>\ngoogletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1526893850599-0\'); });\n</scr'+'ipt>\n</div>';
+var altalt = cssm ? '':'';
+</script>
+<div class="wrapper clearfix">
+<header class="header clearfix">
+<a href="/" id=logo><img src="/contentimages/0site_imgs_data/6/3/1/3631_logo.png" alt=""></a>
+<div class=aramaform>
+<form id=frms action="/s">
+<input class=sinput name=qqq>
+<button type=submit class=dsubmit></button>
+</form>
+</div>
+<div class=socialicons>
+<script> if ( "https://www.facebook.com".length > 25 )  	document.write('<a href="https://www.facebook.com" class="hfacebook" target="_blank">Facebook</a>'); </script><script> if ( "https://www.twitter.com".length > 25 )  	document.write('<a href="https://www.twitter.com" class="htwitter" target="_blank">Twitter</a>'); </script>
+</div>
+<div id=menutop></div>
+<nav class=navmenu>
+<ul>
+<li><a href="/" class=home></a></li>
+<li><a href="/c/ana-sayfa/yeni/1">Ana Sayfa</a></li>
+</ul>
+<a href="/c/ana-sayfa/populer/1" class=popstyle>Popüler </a>
+</nav>
+</header>
+<div class="container clearfix" style="min-height:15px; text-align:center;">
+<div class=borderads>
+<script>document.write(rozelmast);</script>
+</div>
+</div>
+<div class=clearfix></div>
+<div class="videoleft makaleleft">
+<div class=bcnative>
+
+<a href="/c/ana-sayfa/yeni">Ana Sayfa</a>
+<div class=tarihz>
+2019-02-10 10:08:24 ( <span><strong>1459</strong> izlenme</span> )
+</div>
+</div>
+<div class=clearfix></div>
+<div class="makaleicerik clearfix">
+<div class=kapakreklam>
+<img class=kresim src="http://cdn00.vidyomani.com/c/3/7/7/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz-b.jpg">
+<div class=borderads>
+<div class=reklammakale>
+<span class=adstitle>Reklamlar</span>
+<script>document.write(r300sagalt);</script>
+</div>
+</div>
+</div>
+<h1 class=makalebaslik>PKK'den Trump'a sert s&#246;zler: Aldat&#305;c&#305;, tutars&#305;z, istikrars&#305;z...</h1>
+<p>PKK’nin kurucularından Cemil Bayık, Trump’ın Suriye’den çekilme kararına ilişkin, “ABD’nin Ortadoğu’dan çekildiği söylenemez fakat ABD politikalarında değişiklik oluyor” dedi. Bayık ABD’nin IŞİD karşıtı koalisyondan çekildiğini savundu. Almanca yayın yapan Lower Class dergisine konuşan KCK Yürütme Konseyi Eşbaşkanı Cemil Bayık, IŞİD saldırılarının Suriye, Irak, Kürdistan Bölgesi ve Rojava’da artmasıyla birlikte Kürtlerin IŞİD karşıtı koalisyona önem verdilerdiğini belirterek, “Böyle bir mücadelenin en ağır yükünü (Kürtler) omuzladılar. Kürdistan’ın ötesinde, Arap sahalarının DAİŞ faşizminden kurtarılması için evlatlarını seferber ettiler” dedi.<br><br>ABD Başkanı Trump’ın Suriye’den çekilme kararına ilişkin bir soruyu yanıtlayan Bayık, Türkiye’nin Rusya ve İran’la olan ilişkilerini “şantaj” olarak kullandığını ileri sürerek, “ABD’nin geri çekilme kararı biraz da buna dayanıyor. Aslında 2015 yılından itibaren başlayan bir süreç” ifadelerini kullandı. “ABD Ortadoğu’da önemli bir güçtür, öyle çekilemez” diyen Bayık, “ABD politikalarında değişiklik oluyor, buralardan çekilmiyor, DAİŞ karşıtı, DAİŞ’i yenilgiye uğratan koalisyondan çekiliyor” şeklinde konuştu.<br><br>Avrupa devletlerinin ve özellikle de Almanya, Fransa ve İngiltere’nin Trump’ın kararına tepki gösterdiğini hatırlatan Cemil Bayık, “ABD içinde tepkiler geldi; Pentagon’dan geldi, dışişlerinden geldi, istifalar oldu, Senato’dan geldi. Bu belli bir baskı oluşturdu, bunun üzerine yeni açıklamalar geldi; koruyacağız, bilmem yavaş çekileceğiz gibi ABD’nin aldatıcı tutumları gelişiyor. Tutarsızdır, istikrarsızdır. Her gün farklılık arz ediyor” dedi. ABD’nin bu politikayla “inandırıcılığını” kaybettiğini dile getiren Bayık, bu ülkenin “Türkiye’nin Kürt soykırımını” desteklediğini savundu.<br><br>ABD’nin ambargolar yoluyla İran üzerindeki baskıyı artırdığını dile getiren KCK Yürütme Konseyi Eşbaşkanı, “ABD İran üzerindeki baskıları artıracak. Fakat Suriye’de yapıldığı gibi, Mısır’da yapıldığı gibi, diğer ülkelerde yapıldığı gibi olamaz. İran’ın koşulları farklı, İran’a dönük ABD müdahaleleri farklı yöntemlerle gelişir, gelişiyor, daha çok ekonomik ambargolar öne çıkıyor. Her halde istihbarat faaliyetleri öne çıkacak. Darbeci yaklaşımlar İran’da da gündeme gelebilir. Artık hangi yöntemler öne çıkar bilemeyiz ama şimdi ABD, İran’a karşı mücadeleyi öne çıkartmak istiyor ve herkesin kendisinin İran’a karşı aldığı tutuma katılmasını istiyor” dedi. Bayık, bu durumun “Kürtlerin çıkarına” olmadığını ileri sürerek, ABD’nin bu durumda Türkiye’yi değerlendirmek istediğini ve Türkiye’ye dayanmak istediğini söyledi.</p>
+</div>
+<div class=socialshare>
+<div class=fb-share-button data-layout=button_count></div><a href="https://twitter.com/share" class=twitter-share-button>Tweet</a><div style="overflow: hidden; display: inline-block; width: 70px;"><div class=g-plus data-action=share data-annotation=none></div></div>
+</div>
+<div class=rdiger>
+<script>document.write(re2);</script>
+<script>			
+				document.write(alternatif1);
+			</script>
+<script>			
+				document.write(alternatif2);
+			</script>
+<script>
+				document.write(alternatif3);
+			</script>
+<script>
+				document.write(altalt);
+			</script>
+</div>
+<script>document.write(yorumustu);</script>
+<div class=fcomment>
+<div class=fb-comments data-href="http://nuce24.net/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz" data-numposts=5 data-colorscheme=light></div>
+</div>
+<div class=rdiger>
+<script>/*document.write(ryorumalti);*/</script>
+</div>
+</div>
+<div class=sideright>
+<h2 class=onerilen>Önerilen Videolar</h2>
+<ul class=ovideos>
+<li><a href="/fatih-portakal-dan-brunson-iddiasi"><img src="http://cdn00.vidyomani.com/c/0/1/9/fatih-portakal-dan-brunson-iddiasi/fatih-portakal-dan-brunson-iddiasi-tn-small.jpg" alt="" width=144 height=81><span class=otitle>Fatih Portakal'dan 'Brunson' iddiası</span><span class=izlenme><span><strong>892</strong> izlenme</span></span></a></li>
+<li><a href="/trabzonda-catisma"><img src="http://cdn00.vidyomani.com/c/3/4/9/trabzonda-catisma/trabzonda-catisma-tn-small.jpg" alt="" width=144 height=81><span class=otitle>Trabzonda çatışma!</span><span class=izlenme><span><strong>7598</strong> izlenme</span></span></a></li>
+<li class=arareklam>
+<div class=borderads>
+<span class=adstitle>Reklamlar</span>
+<script>document.write(videosolbuyuk);</script>
+<div>
+</div>
+</div></li>
+<li><a href="/turistleri-tasiyan-otobuse-saldiri"><img src="http://cdn00.vidyomani.com/c/6/7/1/turistleri-tasiyan-otobuse-saldiri/turistleri-tasiyan-otobuse-saldiri-tn-small.jpg" alt="" width=144 height=81><span class=otitle>TURİSTLERİ TAŞIYAN OTOBÜSE....</span><span class=izlenme><span><strong>626</strong> izlenme</span></span></a></li>
+<li><a href="/iran-dan-kurdistan-aciklamasi-bize-gore"><img src="http://cdn00.vidyomani.com/c/6/1/2/iran-dan-kurdistan-aciklamasi-bize-gore/iran-dan-kurdistan-aciklamasi-bize-gore-tn-small.jpg" alt="" width=144 height=81><span class=otitle>İran'dan 'Kürdistan' açıklaması: Bize göre...</span><span class=izlenme><span><strong>5429</strong> izlenme</span></span></a></li>
+<li><a href="/rusya-turkiye-idlib-le-ilgili-anlasmalari-tam-olarak-uygulamiyor"><img src="http://cdn00.vidyomani.com/c/1/2/9/rusya-turkiye-idlib-le-ilgili-anlasmalari-tam-olarak-uygulamiyor/rusya-turkiye-idlib-le-ilgili-anlasmalari-tam-olarak-uygulamiyor-tn-small.jpg" alt="" width=144 height=81><span class=otitle>Rusya: Türkiye İdlib’le ilgili anlaşmaları tam olarak uygulamıyor</span><span class=izlenme><span><strong>248</strong> izlenme</span></span></a></li>
+<li><a href="/hdp-neden-selahattin-demirtas-i-gundeme-getirmiyor"><img src="http://cdn00.vidyomani.com/c/8/6/3/hdp-neden-selahattin-demirtas-i-gundeme-getirmiyor/hdp-neden-selahattin-demirtas-i-gundeme-getirmiyor-tn-small.jpg" alt="" width=144 height=81><span class=otitle>HDP neden Selahattin Demirtaş’ı gündeme getirmiyor?</span><span class=izlenme><span><strong>1073</strong> izlenme</span></span></a></li>
+<li><a href="/istanbul-da-hareketli-dakikalar-1"><img src="http://cdn00.vidyomani.com/c/5/2/8/istanbul-da-hareketli-dakikalar-1/istanbul-da-hareketli-dakikalar-1-tn-small.jpg" alt="" width=144 height=81><span class=otitle>İstanbul'da hareketli dakikalar!</span><span class=izlenme><span><strong>528</strong> izlenme</span></span></a></li>
+<li><a href="/urkuten-aciklama-kitlik-bile-yasayabiliriz"><img src="http://cdn00.vidyomani.com/c/1/0/0/urkuten-aciklama-kitlik-bile-yasayabiliriz/urkuten-aciklama-kitlik-bile-yasayabiliriz-tn-small.jpg" alt="" width=144 height=81><span class=otitle>Ürküten açıklama: 'Kıtlık bile yaşayabiliriz'</span><span class=izlenme><span><strong>2246</strong> izlenme</span></span></a></li>
+<li><a href="/devlet-bahceli-den-de-flas-selahattin-demirtas-aciklamasi-geldi"><img src="http://cdn00.vidyomani.com/c/8/0/3/devlet-bahceli-den-de-flas-selahattin-demirtas-aciklamasi-geldi/devlet-bahceli-den-de-flas-selahattin-demirtas-aciklamasi-geldi-tn-small.jpg" alt="" width=144 height=81><span class=otitle>Devlet Bahçeli'den de FLAŞ Selahattin Demirtaş açıklaması geldi!</span><span class=izlenme><span><strong>18668</strong> izlenme</span></span></a></li>
+<li><a href="/hukumete-en-yakin-gazeteci-akp-de-ilginc-bir-sey-oluyor"><img src="http://cdn00.vidyomani.com/c/8/1/3/hukumete-en-yakin-gazeteci-akp-de-ilginc-bir-sey-oluyor/hukumete-en-yakin-gazeteci-akp-de-ilginc-bir-sey-oluyor-tn-small.jpg" alt="" width=144 height=81><span class=otitle>Hükümete en yakın gazeteci: AKP'de ilginç bir şey oluyor </span><span class=izlenme><span><strong>276</strong> izlenme</span></span></a></li>
+</ul>
+<div id=relatedBottom></div>
+</div>
+<div class=clearfix></div>
+<div class=enaltreklam>
+<span class=adstitle>Reklamlar</span>
+<script>document.write(r970x400);</script>
+</div>
+<div class=clearfix></div>
+<div class="middle clearfix cataktif" style="margin-top: 20px !important;">
+<h2 class=ortakbaslik>Bunlar da İlginizi Çekebilir</h2>
+<div class=clearfix></div>
+<a href="/baris-atay-dan-yilmaz-erdogan-a-tepki-yazik-sana-utanmaz-1" class="itembigz smalls"><img src="http://cdn00.vidyomani.com/c/1/4/6/baris-atay-dan-yilmaz-erdogan-a-tepki-yazik-sana-utanmaz-1/baris-atay-dan-yilmaz-erdogan-a-tepki-yazik-sana-utanmaz-1-tn-small.jpg"><span class=bbaslik>Barış Atay'dan Yılmaz Erdoğan'a tepki: Yazık sana, utanmaz!</span></a>
+<a href="/fatih-altayli-dan-hdp-ye-cok-agir-sozler" class="itembigz smalls"><img src="http://cdn00.vidyomani.com/c/9/8/6/fatih-altayli-dan-hdp-ye-cok-agir-sozler/fatih-altayli-dan-hdp-ye-cok-agir-sozler-tn-small.jpg"><span class=bbaslik>Fatih Altaylı'dan HDP'ye çok ağır sözler!</span></a>
+<a href="/bm-den-flas-turkiye-ve-cemal-kasikci-aciklamasi" class="itembigz smalls"><img src="http://cdn00.vidyomani.com/c/7/0/1/bm-den-flas-turkiye-ve-cemal-kasikci-aciklamasi/bm-den-flas-turkiye-ve-cemal-kasikci-aciklamasi-tn-small.jpg"><span class=bbaslik>BM'den Kaşıkçı açıklaması: Dokunulmazlıkları kaldırılsın!</span></a>
+<a href="/ypg-sozcusu-nuri-mahmud-bir-cok-soru-isaretini-acikliga-kavusturdu" class="itembigz smalls"><img src="http://cdn00.vidyomani.com/c/3/3/8/ypg-sozcusu-nuri-mahmud-bir-cok-soru-isaretini-acikliga-kavusturdu/ypg-sozcusu-nuri-mahmud-bir-cok-soru-isaretini-acikliga-kavusturdu-tn-small.jpg"><span class=bbaslik>YPG Sözcüsü Nuri Mahmud: Bir çok soru işaretini açıklığa kavuşturdu</span></a>
+</div>
+</div><footer class=footer>
+<div class=sitecopy>nuce24.net</div>
+<a href="https://www.vidyomani.com/index.jsp?locale=tr_TR" class=literal target=_blank>Vidyomani </a>
+|
+<a href="/privacy_policy.html" class=literal target=_blank>Privacy Policy / Gizlilik İlkeleri</a>
+|
+<a href="/terms_of_use.html" class=literal target=_blank>Kullanım Koşulları</a>
+|
+<a href="/cookie_policy.html" class=literal target=_blank>Çerez Politikası</a>
+|
+<a href="/dmca_notice.html" class=literal target=_blank>DMCA içerik kaldırma</a>
+|
+<a href="/vcontact.html?locale=tr_TR" class=literal target=_blank>İletişim/Contact</a>
+</footer>
+<script>
+			var scripts = document.createElement('script');
+			scripts.src = 'https://www.vidyomani.com/cdnh?id=2937377&url='+encodeURIComponent((window.location != window.parent.location) ? document.referrer: document.location);
+			scripts.async = true;
+			(document.head || document.getElementsByTagName('head')[0]).appendChild(scripts);
+		</script>
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,500,300" rel=stylesheet>
+<script src="/v4/desktop/js/owl.carousel.js"></script>
+<script src="/v4/desktop/js/custom.js"></script>
+<script src="/helper/helper.nocache.js"></script>
+<div class=tarihverileri style="display:none">
+2019-02-10 10:08:24
+</div>
+<div class=urlveri style="display:none">
+http://nuce24.net/pkk-den-trump-a-sert-sozler-aldatici-tutarsiz-istikrarsiz
+</div>
+<script>
+jQuery(document).ready(function ($) {
+var fby = 1;
+if(fby == 1 ) {} else { $('.fcomment').hide(0);}
+});
+</script><script>
+  if (window.revflex){
+    document.write('<scr'+'ipt async=async src="'+window.revflexUrl+'"></scr'+'ipt>');
+    if (location.href.indexOf("mode=silent")>0)
+          OneSignal =null;
+  }
+</script>
+</body>
+</html>

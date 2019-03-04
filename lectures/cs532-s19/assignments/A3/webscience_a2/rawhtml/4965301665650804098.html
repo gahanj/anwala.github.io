@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="TopBuzz, TopBuzz news, TopBuzz video, TopBuzz app, Video, News, GIF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="referrer" content="origin">
+    <meta name="hostname" content="topbuzz.com">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//www.topbuzz.com">
+    <link rel="dns-prefetch" href="//connect.facebook.net">
+    <link rel="dns-prefetch" href="//d24n15hnbwhuhn.cloudfront.net">
+    <link rel="dns-prefetch" href="">
+    <link rel="dns-prefetch" href="//s0.ipstatp.com">
+    <link rel="icon" type="image/x-icon" href="https://s0.ipstatp.com/img/favicon.ico">
+    <link rel="alternate" href="//www.topbuzz.com/" hreflang="en">
+    <link rel="apple-touch-icon" href="https://s0.ipstatp.com/images/icons/icon-152x152.png">
+    <link rel="manifest" href="/manifest.json">
+    <title></title>
+    <meta name="pathname" content="i18n_pgc_fault"/>
+    <script type="text/javascript">
+      var TT_PERF_CONFIG = {
+        metrics: true,
+        percent: 100
+      };
+      window.__pathname__ = 'i18n_pgc_fault';
+    </script>
+    <script>
+    (function (pathname) {
+    var enhancedLogImage = (function (length) {
+        var logImages = [], i, cur = 0;
+        for (i = 0; i < length; ++i) {
+            logImages.push(new Image());
+        }
+        return function (src) {
+            logImages[cur % length].src = src;
+            cur++;
+        };
+    }(10));
+    var log = function (logtype, config) {
+        var obj = {
+                logtype: logtype,
+                pathname: pathname,
+                location: document.location.href,
+                host: document.location.host,
+            }, key, query = [];
+        if (logtype === 'error') {
+            obj.labeltype = 'runtimeerr';
+        } else if (logtype === 'loadfailed') {
+            obj.tryinx = 1;
+            obj.state = 'fail';
+        }
+        config = config || {};
+        for (key in config) {
+            if (config.hasOwnProperty(key)) {
+                obj[key] = config[key];
+            }
+        }
+        for (key in obj) {
+            if (obj.hasOwnProperty(key)) {
+                query.push(encodeURIComponent(key) + '=' + encodeURIComponent(obj[key]));
+            }
+        }
+        enhancedLogImage('//www.toutiao.com/__utm.gif?' + query.join('&'));
+    };
+    window.logLoadFailed = log.bind(null, 'loadfailed');
+}(window.__pathname__));
+(function () {
+    var link = document.createElement('a');
+    window.getUrl = function (url, config) {
+        if (!config) {
+            return url;
+        }
+        var search = [], key, queryData;
+        queryData = config.query || {};
+        link.href = url;
+        link.search.substr(1).split('&').forEach(function (val) {
+            var query = val.split('='), key, value;
+            key = decodeURIComponent(query[0]);
+            if (key && queryData[key] === void 0) {
+                value = query[1] ? decodeURIComponent(query[1]) : true;
+                queryData[key] = value;
+            }
+        });
+        for (key in queryData) {
+            if (queryData.hasOwnProperty(key)) {
+                search.push(queryData[key] === true ? encodeURIComponent(key) : encodeURIComponent(key) + '=' + encodeURIComponent(queryData[key]));
+            }
+        }
+        return link.protocol + '//' + (config.host || link.host) + link.pathname + '?' + search.join('&');
+    };
+    window.handleStaticError = function () {
+        var tagName, attrMap, attrName, curTry, newNode, hostList, url, match;
+        tagName = this.tagName.toLowerCase();
+        attrMap = {
+            link: 'href',
+            script: 'src',
+        };
+        attrName = attrMap[tagName];
+        curTry = +this.getAttribute('data-try') || 1;
+        url = this[attrName];
+        window.logLoadFailed({
+            link: url,
+            tryinx: curTry,
+        });
+        link.href = url;
+        match = link.host.match(/^s[01]\.(sg|i)pstatp\.com$/);
+        if (match && match[1] === 'i') {
+            hostList = ['s0', 's1'].map(function (name) {
+                return name + '.' + match[1] + 'pstatp.com';
+            });
+        } else {
+            hostList = [];
+        }
+        if (curTry < 3) {
+            newNode = document.createElement(tagName);
+            if (tagName === 'link') {
+                newNode.setAttribute('rel', 'stylesheet');
+                newNode.setAttribute('type', 'text/css');
+            } else if (tagName === 'script') {
+                newNode.setAttribute('type', 'text/javascript');
+                newNode.setAttribute('crossorigin', 'anonymous');
+            }
+            newNode.onerror = window.handleStaticError;
+            newNode.setAttribute('data-try', curTry + 1);
+            newNode[attrName] = window.getUrl(this[attrName], {
+                host: hostList[hostList.length && curTry % hostList.length],
+                query: {
+                    r: Math.random().toString(36).substr(2, 8),
+                },
+            });
+            document.head.appendChild(newNode);
+        }
+    };
+}());
+</script>
+
+    <link rel="stylesheet" href="//s0.ipstatp.com/css/pgc/fault.e20f65a1.css" onerror="handleStaticError.call(this)" type="text/css"/>
+  </head>
+  <body class="platform-mobile">
+    <div id="root">
+      <div class="not-found">
+        <div class="error-code">404</div>
+        <div class="error-msg">...Whoops...</div>
+        <div class="error-detail-msg">We cannot find the page you are looking for</div>
+        <a href="/" class="go-home-btn">Go Home</a>
+    </div>
+    <script>
+      console.log('RangeError: Cannot fetch article service');
+    </script>
+    <script src="//cdn.ravenjs.com/1.3.0/jquery,native/raven.min.js"></script>
+    <script>
+      window.Raven && Raven.config('//0f181cb013574352bf79ed6e3aa16cc6@i-sentry.byted.org/24').install();
+    </script>
+  </body>
+</html>

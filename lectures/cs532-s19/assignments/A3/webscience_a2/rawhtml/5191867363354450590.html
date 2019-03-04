@@ -1,0 +1,714 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html id="post-viewall" lang="en-US" class="no-js" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQAHUlNaGwAEXFJVDgE="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<title>Will Alec Baldwin Stop Playing Donald Trump on &#039;Saturday Night Live&#039;?</title>
+<script type='text/javascript'>cscd=new Object();cscd.partner='';cscd.template='';cscd.page_type='post';cscd.vertical='entertainment';cscd.analytic_vertical='Entertainment';cscd.vertical_ad='Entertainment';cscd.vertical_title='Entertainment';cscd.custom_ad='';cscd.wp_template='page.php';cscd.categories=[];cscd.json_tags=["celebrity life","Donald Trump"];cscd.format='';cscd.show_ads='1';cscd.post_id=1040717;cscd.author='ormond-woods';cscd.author_id=1566;cscd.manager='';cscd.manager_id=0;cscd.subcategories=cscd.categories;cscd.focus_keyword='';cscd.newsletters={"000":"list_Daily_Cheat_Sheet","005":"list_Entertainment"};cscd.date_published='2019-02-17 14:01:38';cscd.day_of_week='Sunday';cscd.day_numeric=0;cscd.year=2019;cscd.month=02;cscd.month_name='Feb';cscd.time='14:01:38';cscd.hour=14;cscd.minute=01;cscd.number_of_pages=1;cscd.article_template='paginated';cscd.page_number=1;cscd.word_count=668;cscd.tags=JSON.stringify(cscd.json_tags,',');cscd.yourls=[];cscd.page_title='Will%20Alec%20Baldwin%20Stop%20Playing%20Donald%20Trump%20on%20%27Saturday%20Night%20Live%27%3F';cscd.page_title_length=69;cscd.page_title_list=false;cscd.page_title_question=true;cscd.page_title_year=0;cscd.page_title_has_year=false;cscd.page_title_answer=false;cscd.page_title_colon=false;cscd.page_title_question_word='';cscd.page_title_keyword='';cscd.workflow_analysis='Verblio Programming';cscd.content_source='';cscd.series='';</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="google-site-verification" content="ktiOxQqv9Xlcn7qytDrsOVw_-MQ9S7bo2G5Iyfu-I9M" />
+<link rel="shortcut icon" type="image/x-icon" href="//www.cheatsheet.com/favicon.ico?x87371">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="//feeds.feedburner.com/WallStCheatSheetCore" />
+<link rel="pingback" href="https://www.cheatsheet.com/xmlrpc.php" />
+
+<link href="https://plus.google.com/104665502628879394888" rel="publisher" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="The Cheat Sheet">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/images/icons/apple-icon-57x57-precomposed.png?x87371" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/images/icons/apple-icon-72x72-precomposed.png?x87371" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/images/icons/apple-icon-114x114-precomposed.png?x87371" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/images/icons/apple-icon-144x144-precomposed.png?x87371" />
+<link rel="apple-touch-icon-precomposed" sizes="180x80" href="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/images/icons/apple-icon-180x180-precomposed.png?x87371" />
+<meta name="robots" content="NOODP,NOYDIR" />
+<meta name="syndication-source" content="https://www.cheatsheet.com/entertainment/will-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html/" />
+<meta name="p:domain_verify" content="936edf149ecbc3171d89b1f25f05e153" />
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v9.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Does Alec Baldwin actually enjoy playing Donald Trump on &#039;Saturday Night Live&#039;?"/>
+<link rel="canonical" href="https://www.cheatsheet.com/entertainment/will-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Will Alec Baldwin Stop Playing Donald Trump on &#039;Saturday Night Live&#039;?" />
+<meta property="og:description" content="Does Alec Baldwin actually enjoy playing Donald Trump on &#039;Saturday Night Live&#039;?" />
+<meta property="og:url" content="https://www.cheatsheet.com/entertainment/will-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html/" />
+<meta property="og:site_name" content="The Cheat Sheet" />
+<meta property="article:publisher" content="https://www.facebook.com/wallstcheatsheet" />
+<meta property="article:tag" content="celebrity life" />
+<meta property="article:tag" content="Donald Trump" />
+<meta property="article:section" content="Entertainment" />
+<meta property="article:published_time" content="2019-02-17T19:01:38+00:00" />
+<meta property="article:modified_time" content="2019-02-17T18:56:57+00:00" />
+<meta property="og:updated_time" content="2019-02-17T18:56:57+00:00" />
+<meta property="og:image" content="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live.jpg" />
+<meta property="og:image:secure_url" content="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Does Alec Baldwin actually enjoy playing Donald Trump on &#039;Saturday Night Live&#039;?" />
+<meta name="twitter:title" content="Will Alec Baldwin Stop Playing Donald Trump on &#039;Saturday Night Live&#039;?" />
+<meta name="twitter:site" content="@cheatsheet" />
+<meta name="twitter:image" content="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live.jpg" />
+<meta name="twitter:creator" content="@cheatsheet" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"https://www.cheatsheet.com/","sameAs":["https://www.facebook.com/wallstcheatsheet","https://www.instagram.com/the.cheat.sheet/","http://linkedin.com/company/1434915","https://www.pinterest.com/thecheatsheet/","https://twitter.com/cheatsheet"],"@id":"https://www.cheatsheet.com/#organization","name":"The Cheat Sheet","logo":"http://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/images/logo/wscs.png"}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//native.sharethrough.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<meta property="fb:admins" content="826582091"/>
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.cheatsheet.com/wp-includes/css/dist/block-library/style.min.css?x87371' type='text/css' media='all' />
+<style id='google-fonts-inline-css' type='text/css'>
+@font-face{font-family:"PT Sans";font-style:italic;font-display:swap;font-weight:400;src:local("PT Sans Italic"),local("PTSans-Italic"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-italic.woff2") format("woff2"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-italic.woff") format("woff")}@font-face{font-family:"PT Sans";font-style:normal;font-display:swap;font-weight:700;src:local("PT Sans Bold"),local("PTSans-Bold"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-700.woff2") format("woff2"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-700.woff") format("woff")}@font-face{font-family:"PT Sans";font-style:italic;font-display:swap;font-weight:700;src:local("PT Sans Bold Italic"),local("PTSans-BoldItalic"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-700italic.woff2") format("woff2"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-700italic.woff") format("woff")}@font-face{font-family:"Montserrat";font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular"),local("Montserrat-Regular"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/montserrat-regular.woff2") format("woff2"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/montserrat-regular.woff") format("woff")}@font-face{font-family:"PT Sans";font-style:normal;font-display:swap;font-weight:400;src:local("PT Sans"),local("PTSans-Regular"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-regular.woff2") format("woff2"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/pt-sans-regular.woff") format("woff")}@font-face{font-family:"Montserrat";font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold"),local("Montserrat-Bold"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/montserrat-700.woff2") format("woff2"),url("/wp-content/themes/wallstcheatsheet-v2/css/google-fonts/montserrat-700.woff") format("woff")}
+
+</style>
+<link rel='stylesheet' id='site-style-css-css'  href='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/css/style.css?x87371' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css'  href='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/css/print.css?x87371' type='text/css' media='print' />
+<script type='text/javascript' src='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/vendor/quantcast-choice.js?x87371' async='async'></script>
+<script type='text/javascript' src='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/ads.js?x87371'></script>
+<script type='text/javascript' src='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/vendor/prebid.js?x87371' async='async'></script>
+<script type='text/javascript' src='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/cs-required.min.js?x87371'></script>
+<link rel='https://api.w.org/' href='https://www.cheatsheet.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cheatsheet.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cheatsheet.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.2" />
+<link rel='shortlink' href='https://www.cheatsheet.com/?p=1040717' />
+<link rel="alternate" type="application/json+oembed" href="https://www.cheatsheet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cheatsheet.com%2Fentertainment%2Fwill-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.cheatsheet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cheatsheet.com%2Fentertainment%2Fwill-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html%2F&#038;format=xml" />
+<style>
+	.paging__controls .next-btn__counter {
+		display: none !important;
+	}
+</style>
+
+  <script type="text/javascript" src="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/vendor/jquery-3.3.1.min.js?x87371"></script>
+
+<script type="text/javascript" src="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/single-page-template/dist/app.js?x87371"></script>
+
+
+<script type="text/javascript">
+if(csads.btf_rec_widget_images.widget == 'taboola' && csads.btf_rec_widget_images.show === true) {
+  /* Initialize Taboola */
+    window._taboola = window._taboola || [];
+ _taboola.push({article:'auto'});
+ !function (e, f, u) {
+ e.async = 1;
+ e.src = u;
+ f.parentNode.insertBefore(e, f);
+ }(document.createElement('script'),
+ document.getElementsByTagName('script')[0],
+ '//cdn.taboola.com/libtrc/wallstcheatsheet/loader.js');
+}
+</script>
+    <meta name="sailthru.date" content="2019-02-17 14:01:38" />
+    <meta name="sailthru.tags" content = "entertainment,,celebrity life,Donald Trump" />
+    <meta name="sailthru.author" content="ormond-woods" />
+    <meta name="sailthru.image.full" content="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live.jpg" />
+    <meta name="sailthru.image.thumb" content="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live-150x100.jpg" />
+    <script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":["NewsArticle","ItemList"],"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cheatsheet.com\/entertainment\/will-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html\/"},"headline":"Will Alec Baldwin Stop Playing Donald Trump on &#8216;Saturday Night Live&#8217;?","description":"Does Alec Baldwin actually enjoy playing Donald Trump on 'Saturday Night Live'?","articleBody":"Alec Baldwin as Donald Trump on Saturday Night Live | NBC Every generation seems to find one actor\/comedian who does a definitive impersonation of a U.S. President. This didn&#8217;t really start in our pop culture history until the era of Nixon, then passed on down to&nbsp;Saturday Night&nbsp;Live.&nbsp;Through the latter, we&#8217;ve seen definitive impersonations of everyone from President Carter through Barack Obama. While all those presidents had differing comedians impersonate them,&nbsp;SNL&nbsp;decided&nbsp;Alec Baldwin was the only one&nbsp;who should or could impersonate President Trump. Despite&nbsp;SNL&#8217;s&nbsp;Darrell Hammond once playing Citizen Trump years ago, will we see Baldwin play Trump indefinitely? Some inside situations might give us clues to him wanting to bow out. Alec Baldwin does a great impersonation of Donald Trump Turn on all the lights and lock your doors. This November, nothing is scarier than \u201cThe Electioning.\u201d Get informed at https:\/\/t.co\/WaqsYL9WtG pic.twitter.com\/tvdMen694B&mdash; The President Show (@PresidentShow) October 31, 2018 Some might argue that Alec Baldwin&#8217;s Trump impersonation isn&#8217;t the best one ever done. You&#8217;ll find more than a few people who thought Anthony Atamanuik was the best President Trump impersonator in recent years with his Comedy Central satire&nbsp;The President Show. Even Alec Baldwin might agree Atamanuik had&nbsp;every Trump mannerism down to a tee, including a perfect hairpiece more closely resembling The Donald&#8217;s real mane. Baldwin&#8217;s impersonation is slightly more exaggerated, including a facial expression looking more like Winston Churchill&#8217;s than Trump. Also, the hair they use is stiffer, perhaps giving us a transparent look at the wig budget on&nbsp;SNL. Baldwin likely wants to create a comedic legacy Welcome to Deal or No Deal: Government Shutdown Edition. #SNL pic.twitter.com\/Psfnd2Ipm9&mdash; Saturday Night Live &#8211; SNL (@nbcsnl) January 20, 2019 We wrote recently about how Baldwin seems to have realized&nbsp;comedy is his main showbiz niche, something he likely wants to keep nurturing outside movies. Let&#8217;s remember Baldwin won an Emmy for playing Trump. It&#8217;s almost what he&#8217;s best known for recently, despite having a million irons in the showbiz fire. No doubt he&#8217;s torn on whether he should continue impersonating Trump when so many people still find it funny. However, news has emerged showing Baldwin&#8217;s own kids are getting tired of their dad impersonating the president. Baldwin also expressed disdain in doing the impression for more than personal reasons. What do Baldwin&#8217;s kids think of their dad lampooning Trump? View this post on Instagram My doll baby Rome (38 weeks!) A post shared by Hilaria Thomas Baldwin (@hilariabaldwin) on Feb 7, 2019 at 10:01am PST Recently, Baldwin appeared on&nbsp;The Ellen DeGeneres Show&nbsp;and admitted&nbsp;his kids are sick of seeing him impersonating Trump&nbsp;every Saturday night. One reason is Baldwin says he and his family do things together on Saturdays. His kids are just tired of him having to leave to go do the impersonation in every cold open. Alec has four young children with his more recent wife, Hilaria. Their kids associate everything bad with Trump nowadays, including nose-picking as Baldwin hilariously noted in the DeGeneres interview. We also know Baldwin said last year&nbsp;it was agony playing Trump&nbsp;because of what the president represents to him and the world. So what happens if Baldwin grows tired of impersonating Trump when it&#8217;s almost too easy to satirize everything the president does? The internal desire to satirize the president It&#8217;s possible Baldwin will keep impersonating Trump anyway based on one strong force:&nbsp;President Trump himself criticizing the portrayal. Even the cast of&nbsp;SNL&nbsp;finds when Trump criticizes their satiric portrayals, it fuels the fire to do more. Maybe Baldwin feels the same since he still knows how to tap hilariously into Trump&#8217;s personality, no matter if they don&#8217;t resemble one another completely. Just giving the essence of a president or politician is usually better and more iconic. You can argue the same case when&nbsp;Dana Carvey impersonated the late George H.W. Bush&nbsp;in the 1980s\/90s, despite not being Bush&#8217;s spitting image. Darrell Hammond&#8217;s Trump impersonation was almost too slick, which makes it no surprise Trump liked Hammond&#8217;s impersonation better. Baldwin continuing to play Trump might become a public service.","datePublished":"2019-02-17 13:56:57","dateModified":"2019-02-17 14:01:38","author":{"@type":"Person","name":"ormond-woods"},"publisher":{"@type":"Organization","name":"The Cheat Sheet","logo":{"@type":"ImageObject","url":"https:\/\/www.cheatsheet.com\/wp-content\/themes\/wallstcheatsheet-v2\/images\/logo\/wscs_2x.png","width":234,"height":55}},"keywords":["celebrity life","Donald Trump"],"image":{"@type":"ImageObject","url":"https:\/\/www.cheatsheet.com\/wp-content\/uploads\/2018\/11\/alec-baldwin-saturday-night-live.jpg","height":500,"width":800},"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"ImageObject","name":"Alec Baldwin","image":"https:\/\/www.cheatsheet.com\/wp-content\/uploads\/2018\/11\/alec-baldwin-saturday-night-live.jpg","url":"https:\/\/www.cheatsheet.com\/entertainment\/will-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html\/#alec-baldwin"}}]}</script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+
+  PREBID_TIMEOUT = cs_pd.screen_width == 'desktop' ? 1000 : 1500;
+
+  googletag.cmd.push(function() {
+    googletag.pubads().disableInitialLoad();
+  });
+
+  var stickL1Called = false;
+
+  var initialAdUnit = [];
+  initialAdUnit.push(adUnits[0]);
+
+  pbjs.que.push(function() {
+      pbjs.addAdUnits(initialAdUnit);
+      pbjs.bidderSettings = {
+        districtm: {
+          bidCpmAdjustment : function(bidCpm) {
+            return bidCpm * .85;
+          }
+        }
+      };
+      pbjs.aliasBidder('ix', 'indexExchange');
+      pbjs.setConfig({
+        priceGranularity: 'dense',
+        bidderSequence: 'random',
+        enableSendAllBids: false,     
+      });
+      pbjs.requestBids({
+          bidsBackHandler: sendAdserverRequest
+      });
+
+      pbjs.onEvent('bidWon', function(event) {
+          if (event.adUnitCode === 'div-cs-top1') {
+              stickL1("div-cs-top1", event.height, cs_pd.sticktop);
+              stickL1Called = true;
+          }
+      });
+  });
+
+  function sendAdserverRequest() {
+      if (pbjs.adserverRequestSent) return;
+      pbjs.adserverRequestSent = true;
+      googletag.cmd.push(function() {
+          pbjs.que.push(function() {
+              pbjs.setTargetingForGPTAsync(['div-cs-top1']);
+              googletag.pubads().refresh([gptAdSlots['div-cs-top1']]);
+          });
+      });
+  }
+
+  setTimeout(function() {
+      sendAdserverRequest();
+  }, PREBID_TIMEOUT);
+</script>
+
+<script type='text/javascript'>
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script>
+// GPT slots
+var gptAdSlots = [];
+var stpTop1 = cs_pd.screen_width == 'desktop' ? '/8010089/WSCS_Testing_Leaderboard_1_728x90' : '/8010089/WSCS_Testing_Mobile_Leaderboard_1_320x50';
+
+googletag.cmd.push(function() {
+
+  /* Top 1 */
+  gptAdSlots['div-cs-top1'] = googletag.defineSlot(cs_dfp.top1.ad, cs_dfp.top1.dimensions.concat(['fluid']), 'div-cs-top1').
+  addService(googletag.pubads()).setTargeting('partner', cs_sd.partner).setTargeting('utm_term', cs_sd.utm_term).setTargeting('site', 'main');
+  
+  /*All DFP slots must be defined before this line */
+  googletag.pubads().enableSingleRequest();
+
+  /*
+  * Slot Rendered
+  */
+  googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+    
+    if (typeof event.slot !== "undefined" && event.slot === gptAdSlots['div-cs-top1'] && !stickL1Called) {
+        var stickL1Ad = cs_pd.sticktop;
+        stickL1("div-cs-top1", event.size[1], stickL1Ad);
+    }
+
+    if (cs_dfp.top1.show === false) {
+        document.body.style.paddingTop = 0;
+        document.getElementById("sticky-top").style.display = 'none';
+    }
+
+  });
+
+  googletag.enableServices();
+
+  });
+
+</script><!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript">
+  if(csads.vibrant.show === true) {
+    (function(d, s, host, ipid) {
+    var e = d.createElement(s);
+    e.type = 'application/javascript';
+    e.async = !0;e.src = '//' + host + '/intellitxt/front.asp?ipid=' + ipid;
+    d.getElementsByTagName(s)[0].parentNode.appendChild(e);
+    }
+    )(document, 'script', 'k.intellitxt.com',csads.vibrant.ipid );
+  }
+</script>
+<!-- end Vibrant Media IntelliTXT script section -->
+  <style>.share--static{position:static!important;width:100%!important;opacity:1!important}.share--static .share__items{float:left!important;width:16.66%!important;padding:0 2px!important}.share--static .share__items--gplus{display:none!important}</style>
+<style>@media screen and (max-width: 47.938em) {.ym_scroll{min-height:230px !important;}.native-wrapper{min-height:130px !important;}}</style>
+<!--[if lt IE 9]>
+  <style>
+    .last-child {
+      margin-right: 0 !important;
+    }
+  </style>
+
+  <script src="https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/ie-built.min.js?x87371"></script>
+
+ <![endif]-->
+
+  <!-- Netseer -->
+    <script type="text/javascript">
+      if(csads.in_content_image.show === true){
+        var netseer_tag_id = csads.in_content_image.id;
+        var netseerSrc = '<scr'+'ipt src="//ps.ns-cdn.com/dsatserving2/scripts/ns_vmtag.js" type="text/javascript"></scr'+'ipt>';
+        document.write(netseerSrc);
+      }
+    </script>
+    <!-- NetSeer -->
+
+  <!-- Begin BounceX tag -->
+  <script>
+    if (csads.bouncex.show === true) {
+        var bouncexTag = '<scr'+'ipt src="//tag.bounceexchange.com/'+csads.bouncex.id+'/i.js" type="text/javascript"></scr'+'ipt>';
+        document.write(bouncexTag);
+    }
+  </script>
+  <!-- End BounceX tag -->
+
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js" async="true"></script>
+<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"d746a63cc4",applicationID:"3483790",sa:1}
+</script>
+<script>
+if(cs_sd.partner == 'CMfacebook') {
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1447317708679797');
+  fbq('track', 'PageView');
+}
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1447317708679797&ev=PageView&noscript=1"
+/></noscript>
+
+</head>
+
+<body class="post-template-default single single-post postid-1040717 single-format-standard entertainment-theme cs-viewall">
+<script>
+dataLayer = [{
+'category': 'entertainment',
+'date_published': '2019-02-17 14:01:38',
+'tags': JSON.stringify(cscd.tags,','),
+'author': 'ormond-woods',
+'template': cs_sd.template,
+'vertical_ad': cs_pd.vertical_ad,
+'visitor_type': cs_ud.visitor_type,
+'entrance_vertical': cs_sd.entrance_vertical,
+'show_ads':cscd.show_ads,
+'post_id':cscd.post_id,
+'pageviews':cs_sd.pvs,
+'subcategories':cscd.categories,
+'partner': cs_sd.partner,
+'utm_term': cs_sd.utm_term,
+'utm_content': cs_sd.utm_content,
+'screen_width': cs_pd.screen_width,
+'analytic_vertical':cscd.analytic_vertical,
+'workflow_analysis':cscd.workflow_analysis,
+'content_source':cscd.content_source,
+'prev_page_path': '(entrance)',
+'article_view': document.getElementById("post-viewall") !== null ? 'spt' : 'paginated'
+}];
+ </script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-532CLV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-532CLV');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Facebook SDK  -->
+<div id="fb-root"></div>
+
+<!-- WSCS_ROS_1x1 -->
+<div id='div-cs-tablet-pixel' style='width:1px; height:1px;'>
+	<script type='text/javascript'>
+		if(cs_dfp.tablet_pixel.show === true) {
+			googletag.cmd.push(function() {
+				googletag.display('div-cs-tablet-pixel');
+								// googletag.pubads().refresh([gptAdSlots['div-cs-tablet-pixel']]);
+							});
+		}
+	</script>
+</div>
+
+<!--[if lt IE 8]>
+	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<div id="wrapper">
+    <div id="inner-wrapper">
+
+        <div id="sticky-top" class="leader-board top-ad top-ad--sticky constraint constraint--lightbg">
+        <div id="div-cs-top1" class="top1">
+  <script type='text/javascript'>
+	  if(cs_dfp.top1.show === true) {
+	    googletag.cmd.push(function() {
+	      googletag.display('div-cs-top1');
+	    });
+	  }
+  </script>
+</div>
+    </div>
+    
+  <header id="navigation" class="site-header">
+    <div class="site-header__row">
+      <div class="constraint">        
+        <a class="site-header__logo site-header__logo--entertainment" href="https://www.cheatsheet.com/entertainment/"><span class="srt">Entertainment</span></a>        <div class="site-header__btns">
+            <button type="button" class="btn btn--search"><i class="icon-search"></i></button>
+            <button type="button" class="btn btn--menu"><i class="icon-menu"></i></button>
+        </div>
+      </div> <!-- constraint -->
+    </div><!-- site-header__row -->
+
+    <div class="site-header__row dark-bg">
+      <div class="constraint">
+        <div class="menu-container">
+            <div class="site-header__nav">
+                <nav class="nav-col">
+                  <ul class="nav-list">
+                    <li class="nav-list__item"><a class="gtm-home" href="https://www.cheatsheet.com/">Home</a></li>
+                    <li class="nav-list__item"><a class="gtm-trending" href="https://www.cheatsheet.com/tag/trending/">Trending</a></li>
+                    <li class="nav-list__item"><a class="gtm-celebrity" href="https://www.cheatsheet.com/tag/celebrity/">Celebrity</a></li>
+                    <li class="nav-list__item"><a class="gtm-movies" href="https://www.cheatsheet.com/category/movies/">Movies</a></li>
+                    <li class="nav-list__item"><a class="gtm-tv" href="https://www.cheatsheet.com/category/tv/">TV</a></li>
+                  </ul>
+                </nav>           
+                <nav class="nav-col">
+                  <ul class="nav-list">
+                    <li class="nav-list__item"><a class="gtm-royal-family" href="https://www.cheatsheet.com/tag/royal-family/">Royal Family</a></li>
+                    <li class="nav-list__item"><a class="gtm-net-worth" href="https://www.cheatsheet.com/tag/celebrity-net-worth/">Net Worth</a></li>
+                    <li class="nav-list__item"><a class="gtm-music" href="https://www.cheatsheet.com/category/music/">Music</a></li>
+                    <li class="nav-list__item"><a class="gtm-books" href="https://www.cheatsheet.com/category/books/">Books</a></li>
+                  </ul>     
+                </nav>
+                <nav class="nav-col">
+                  <ul class="nav-list nav-list--secondary">
+                    <li class="nav-list__item nav-list__item--label">
+                      <span class="year">2018</span><span class="toggle-submenu hm-hide"><i class="icon-arrow"></i></span>
+                      <ul class="subnav-list">
+                        <li class="subnav-list__item"><a class="gtm-gear-style" href="https://www.cheatsheet.com/gear-style/">Gear &amp; Style</a></li>
+                        <li class="subnav-list__item"><a class="gtm-health-fitness" href="https://www.cheatsheet.com/health-fitness/">Health &amp; Fitness</a></li>
+                        <li class="subnav-list__item"><a class="gtm-money-career" href="https://www.cheatsheet.com/money-career/">Money &amp; Career</a></li>
+                        <li class="subnav-list__item"><a class="gtm-sports" href="https://www.cheatsheet.com/sports/">Sports</a></li>
+                        <li class="subnav-list__item"><a class="gtm-culture" href="https://www.cheatsheet.com/culture/">Culture</a></li>
+                      </ul>
+                    </li>                     
+                  </ul>
+                </nav>
+                <nav class="nav-col">
+                  <ul class="nav-list nav-list--secondary">
+                    <li class="nav-list__item nav-list__item--label"><span>More</span>
+                      <span class="toggle-submenu hm-hide"><i class="icon-arrow"></i></span>
+                      <ul class="subnav-list">
+                          <li class="subnav-list__item"><a class="gtm-about" href="https://www.cheatsheet.com/about/">About Us</a></li>
+                          <li class="subnav-list__item"><a class="gtm-archive" href="https://www.cheatsheet.com/archive/">Archive</a></li>
+                          <li class="subnav-list__item"><a class="gtm-jobs" href="https://www.cheatsheet.com/jobs-2/">Jobs</a></li>
+                          <li class="subnav-list__item"><a class="gtm-contact" href="https://www.cheatsheet.com/contact/">Contact Us</a></li>
+                          <li class="subnav-list__item"><a class="gtm-terms-of-use" href="https://www.cheatsheet.com/terms-of-use/">Terms of Use</a></li>
+                          <li class="subnav-list__item"><a class="gtm-privacy-policy" href="https://www.cheatsheet.com/privacy-policy/">Privacy Policy</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>            
+            </div><!-- site-header__nav -->
+            <div class="site-header__nav site-header__nav--secondary">
+                <div class="utilities">
+                  <a class="social-facebook" href="https://www.facebook.com/EntertainmentCheatSheet" target="_blank"><i class="icon-facebook"></i><span class="srt">Facebook</span></a>
+                  <a class="social-twitter" href="https://twitter.com/cheatsheet" target="_blank"><i class="icon-twitter"></i><span class="srt">Twitter</span></a>
+                  <a class="social-linkedin" href="https://www.linkedin.com/company/the-cheat-sheet" target="_blank"><i class="icon-linkedin"></i><span class="srt">Linkedin</span></a>
+                  <a class="social-googleplus" href="https://plus.google.com/104665502628879394888" target="_blank"><i class="icon-googleplus"></i><span class="srt">Google+</span></a>
+                </div>   
+                <div class="nav-copyright">&copy; &amp; &reg; 2018 The Cheat Sheet,<br> All Rights Reserved.</div>
+            </div><!-- site-header__nav--secondary -->
+        </div>
+      </div>
+    </div><!-- site-header__row -->    
+
+    <div class="site-header__row site-header__row--search">
+      <div class="constraint">
+        <div id="custom-search">
+          <form accept-charset="utf-8" action="/search-results" method="GET">
+            <div class="search-box">
+        	  <div class="input-box"><input type="text" placeholder="Custom Search" value="" name="q"></div>
+        	  <div class="search-btn"><button type="submit"><i class="icon-search"></i></button></div>
+            </div>
+          </form>           
+          <span class="close-searchbox"></span>
+        </div>
+      </div>
+    </div><!-- site-header__row -->
+  </header>
+  <!-- CONTENT -->
+  <div class="main-content constraint constraint--lightbg">
+      <div class="content-fw content-fw--reset">
+
+<div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.cheatsheet.com"><span property="name">Home</span></a><meta property="position" content="1"></span>  /  <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.cheatsheet.com/entertainment/ "><span property="name">Entertainment</span></a><meta property="position" content="2"></span>  /</div>
+<article class="spt-alt-content">
+  <div class="spt-alt-header">
+    <h1>Will Alec Baldwin Stop Playing Donald Trump on &#8216;Saturday Night Live&#8217;?</h1>
+    <div class="byline">
+        <div class="byline__info">
+            <ul class="list-inline list-inline--author">
+                <li class="list-inline__item list-inline__item--bdr-right">
+                    <a href="https://www.cheatsheet.com/author/ormond-woods/" title="Posts by Greg Brian" rel="author">Greg Brian</a>
+  
+   
+
+                </li>
+                <li class="list-inline__item">
+                    <a class="more-link" href="https://www.cheatsheet.com/entertainment/">More <span class="hidden-sm">Articles</span></a>
+                </li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+                <li class="list-inline__item">
+                  <div class="pubdate">February 17, 2019</div>
+                </li>
+            </ul>
+        </div>
+    </div>   
+  </div>
+
+  <div class="spt-alt-content-body">
+    <div class="spt-alt-content-entry">
+      
+<figure class="wp-block-image"><img id=alec-baldwin src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live.jpg?x87371" alt="Alec Baldwin" class="wp-image-1014750"/><noscript><img id=alec-baldwin src="https://www.cheatsheet.com/wp-content/uploads/2018/11/alec-baldwin-saturday-night-live.jpg?x87371" alt="Alec Baldwin" class="wp-image-1014750"/></noscript><figcaption>Alec Baldwin as Donald Trump on <em>Saturday Night Liv</em>e | NBC</figcaption></figure>
+
+
+
+<p>Every generation seems to find one actor/comedian who does a definitive impersonation of a U.S. President. This didn&#8217;t really start in our pop culture history until the era of Nixon, then passed on down to&nbsp;<em><a target="_blank" href="https://www.cheatsheet.com/entertainment/which-current-saturday-night-live-cast-member-has-the-highest-net-worth.html/">Saturday Night</a></em><a target="_blank" href="https://www.cheatsheet.com/entertainment/which-current-saturday-night-live-cast-member-has-the-highest-net-worth.html/">&nbsp;</a><em><a target="_blank" href="https://www.cheatsheet.com/entertainment/which-current-saturday-night-live-cast-member-has-the-highest-net-worth.html/">Live</a>.</em>&nbsp;Through the latter, we&#8217;ve seen definitive impersonations of everyone from President Carter through Barack Obama.</p>
+
+
+
+<p>While all those presidents had differing comedians impersonate them,&nbsp;<em>SNL</em>&nbsp;decided&nbsp;<a target="_blank" href="https://www.cheatsheet.com/entertainment/saturday-night-live-why-is-alec-baldwin-playing-donald-trump-and-not-cast-members.html/">Alec Baldwin was the only one</a>&nbsp;who should or could impersonate President Trump. Despite&nbsp;<em>SNL&#8217;s</em>&nbsp;Darrell Hammond once playing Citizen Trump years ago, will we see Baldwin play Trump indefinitely?</p>
+
+
+
+<p>Some inside situations might give us clues to him wanting to bow out.</p>
+
+
+
+<h2><strong>Alec Baldwin does a great impersonation of Donald Trump</strong></h2>
+
+
+
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Turn on all the lights and lock your doors. This November, nothing is scarier than “The Electioning.” <br><br>Get informed at <a target="_blank" href="https://t.co/WaqsYL9WtG">https://t.co/WaqsYL9WtG</a> <a target="_blank" href="https://t.co/tvdMen694B">pic.twitter.com/tvdMen694B</a></p>&mdash; The President Show (@PresidentShow) <a target="_blank" href="https://twitter.com/PresidentShow/status/1057648397480587271?ref_src=twsrc%5Etfw">October 31, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>Some might argue that Alec Baldwin&#8217;s Trump impersonation isn&#8217;t the best one ever done. You&#8217;ll find more than a few people who thought Anthony Atamanuik was the best President Trump impersonator in recent years with his Comedy Central satire&nbsp;<em><a target="_blank" href="http://www.cc.com/shows/the-president-show">The President Show</a>.</em></p>
+
+
+
+<p>Even Alec Baldwin might agree Atamanuik had&nbsp;<a target="_blank" href="https://www.youtube.com/watch?v=oiwgel-PeLU">every Trump mannerism down to a tee</a>, including a perfect hairpiece more closely resembling The Donald&#8217;s real mane.</p>
+
+
+
+<p>Baldwin&#8217;s impersonation is slightly more exaggerated, including a facial expression looking more like Winston Churchill&#8217;s than Trump. Also, the hair they use is stiffer, perhaps giving us a transparent look at the wig budget on&nbsp;<em>SNL.</em></p>
+
+
+
+<h2><strong>Baldwin likely wants to create a comedic legacy</strong></h2>
+
+
+
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Welcome to Deal or No Deal: Government Shutdown Edition. <a target="_blank" href="https://twitter.com/hashtag/SNL?src=hash&amp;ref_src=twsrc%5Etfw">#SNL</a> <a target="_blank" href="https://t.co/Psfnd2Ipm9">pic.twitter.com/Psfnd2Ipm9</a></p>&mdash; Saturday Night Live &#8211; SNL (@nbcsnl) <a target="_blank" href="https://twitter.com/nbcsnl/status/1086847384078946306?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>We wrote recently about how Baldwin seems to have realized&nbsp;<a target="_blank" href="https://www.cheatsheet.com/entertainment/what-is-alec-baldwin-most-famous-for.html/">comedy is his main showbiz niche</a>, something he likely wants to keep nurturing outside movies. Let&#8217;s remember Baldwin won an Emmy for playing Trump. It&#8217;s almost what he&#8217;s best known for recently, despite having a million irons in the showbiz fire.</p>
+
+
+
+<p>No doubt he&#8217;s torn on whether he should continue impersonating Trump when so many people still find it funny. However, news has emerged showing Baldwin&#8217;s own kids are getting tired of their dad impersonating the president.</p>
+
+
+
+<p>Baldwin also expressed disdain in doing the impression for more than personal reasons.</p>
+
+
+
+<h2><strong>What do Baldwin&#8217;s kids think of their dad lampooning Trump?</strong></h2>
+
+
+
+<figure class="wp-block-embed-instagram wp-block-embed is-type-rich is-provider-instagram"><div class="wp-block-embed__wrapper">
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BtlwH06lKvT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:500px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a target="_blank" href="https://www.instagram.com/p/BtlwH06lKvT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a target="_blank" href="https://www.instagram.com/p/BtlwH06lKvT/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;">My doll baby Rome  (38 weeks!)</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a target="_blank" href="https://www.instagram.com/hilariabaldwin/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;"> Hilaria Thomas Baldwin</a> (@hilariabaldwin) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-02-07T18:01:23+00:00">Feb 7, 2019 at 10:01am PST</time></p></div></blockquote><script async src="//www.instagram.com/embed.js"></script>
+</div></figure>
+
+
+
+<p>Recently, Baldwin appeared on&nbsp;<em>The Ellen DeGeneres Show&nbsp;</em>and admitted&nbsp;<a target="_blank" href="https://www.ellentube.com/video/alec-baldwins-kids-are-sick-of-his-snl-trump-impression.html#time=230">his kids are sick of seeing him impersonating Trump</a>&nbsp;every Saturday night. One reason is Baldwin says he and his family do things together on Saturdays. His kids are just tired of him having to leave to go do the impersonation in every cold open.</p>
+
+
+
+<p>Alec has four young children with his more recent wife, Hilaria. Their kids associate everything bad with Trump nowadays, including nose-picking as Baldwin hilariously noted in the DeGeneres interview.</p>
+
+
+
+<p>We also know Baldwin said last year&nbsp;<a target="_blank" href="https://ew.com/tv/2018/03/01/alec-baldwin-trump-snl-agony/">it was agony playing Trump</a>&nbsp;because of what the president represents to him and the world.</p>
+
+
+
+<p>So what happens if Baldwin grows tired of impersonating Trump when it&#8217;s almost too easy to satirize everything the president does?</p>
+
+
+
+<h2><strong>The internal desire to satirize the president</strong></h2>
+
+
+
+<p>It&#8217;s possible Baldwin will keep impersonating Trump anyway based on one strong force:&nbsp;<a target="_blank" href="https://www.cheatsheet.com/health-fitness/donald-trumps-twitter-attack-on-alec-baldwin-left-us-scratching-our-heads.html/">President Trump himself criticizing the portrayal</a>.</p>
+
+
+
+<p>Even the cast of&nbsp;<em>SNL</em>&nbsp;finds when Trump criticizes their satiric portrayals, it <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" id="19" data-gr-id="19">fuels</g> the fire to do more. Maybe Baldwin feels the same since he still knows how to tap hilariously into Trump&#8217;s personality, no matter if they don&#8217;t resemble one another completely.</p>
+
+
+
+<p>Just giving the essence of a president or politician is usually better and more iconic. You can argue the same case when&nbsp;<a target="_blank" href="https://www.youtube.com/watch?v=AMYPvd86R2I">Dana Carvey impersonated the late George H.W. Bush</a>&nbsp;in the 1980s/90s, despite not being Bush&#8217;s spitting image.</p>
+
+
+
+<p>Darrell Hammond&#8217;s Trump impersonation was almost too slick, which makes it no surprise Trump liked Hammond&#8217;s impersonation better. Baldwin continuing to play Trump might become a public service.</p>
+    </div>  
+  </div>
+</article>  
+
+<div id="spt-app" ng-app="app">
+  <single-page-template></single-page-template>
+</div>
+
+
+<script type="text/javascript">
+  var csPost = {
+    title: "Will Alec Baldwin Stop Playing Donald Trump on 'Saturday Night Live'?",
+    ptime: "2019-02-17T14:01:38",
+    content: "\n<figure class=\"wp-block-image\"><img id=alec-baldwin src=\"data:image\/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" data-src=\"https:\/\/www.cheatsheet.com\/wp-content\/uploads\/2018\/11\/alec-baldwin-saturday-night-live.jpg\" alt=\"Alec Baldwin\" class=\"wp-image-1014750\"\/><noscript><img id=alec-baldwin src=\"https:\/\/www.cheatsheet.com\/wp-content\/uploads\/2018\/11\/alec-baldwin-saturday-night-live.jpg\" alt=\"Alec Baldwin\" class=\"wp-image-1014750\"\/><\/noscript><figcaption>Alec Baldwin as Donald Trump on <em>Saturday Night Liv<\/em>e | NBC<\/figcaption><\/figure>\n\n\n\n<p>Every generation seems to find one actor\/comedian who does a definitive impersonation of a U.S. President. This didn&#8217;t really start in our pop culture history until the era of Nixon, then passed on down to&nbsp;<em><a target=\"_blank\" href=\"https:\/\/www.cheatsheet.com\/entertainment\/which-current-saturday-night-live-cast-member-has-the-highest-net-worth.html\/\">Saturday Night<\/a><\/em><a target=\"_blank\" href=\"https:\/\/www.cheatsheet.com\/entertainment\/which-current-saturday-night-live-cast-member-has-the-highest-net-worth.html\/\">&nbsp;<\/a><em><a target=\"_blank\" href=\"https:\/\/www.cheatsheet.com\/entertainment\/which-current-saturday-night-live-cast-member-has-the-highest-net-worth.html\/\">Live<\/a>.<\/em>&nbsp;Through the latter, we&#8217;ve seen definitive impersonations of everyone from President Carter through Barack Obama.<\/p>\n\n\n\n<p>While all those presidents had differing comedians impersonate them,&nbsp;<em>SNL<\/em>&nbsp;decided&nbsp;<a target=\"_blank\" href=\"https:\/\/www.cheatsheet.com\/entertainment\/saturday-night-live-why-is-alec-baldwin-playing-donald-trump-and-not-cast-members.html\/\">Alec Baldwin was the only one<\/a>&nbsp;who should or could impersonate President Trump. Despite&nbsp;<em>SNL&#8217;s<\/em>&nbsp;Darrell Hammond once playing Citizen Trump years ago, will we see Baldwin play Trump indefinitely?<\/p>\n\n\n\n<p>Some inside situations might give us clues to him wanting to bow out.<\/p>\n\n\n\n<h2><strong>Alec Baldwin does a great impersonation of Donald Trump<\/strong><\/h2>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"500\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Turn on all the lights and lock your doors. This November, nothing is scarier than \u201cThe Electioning.\u201d <br><br>Get informed at <a target=\"_blank\" href=\"https:\/\/t.co\/WaqsYL9WtG\">https:\/\/t.co\/WaqsYL9WtG<\/a> <a target=\"_blank\" href=\"https:\/\/t.co\/tvdMen694B\">pic.twitter.com\/tvdMen694B<\/a><\/p>&mdash; The President Show (@PresidentShow) <a target=\"_blank\" href=\"https:\/\/twitter.com\/PresidentShow\/status\/1057648397480587271?ref_src=twsrc%5Etfw\">October 31, 2018<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>Some might argue that Alec Baldwin&#8217;s Trump impersonation isn&#8217;t the best one ever done. You&#8217;ll find more than a few people who thought Anthony Atamanuik was the best President Trump impersonator in recent years with his Comedy Central satire&nbsp;<em><a target=\"_blank\" href=\"http:\/\/www.cc.com\/shows\/the-president-show\">The President Show<\/a>.<\/em><\/p>\n\n\n\n<p>Even Alec Baldwin might agree Atamanuik had&nbsp;<a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=oiwgel-PeLU\">every Trump mannerism down to a tee<\/a>, including a perfect hairpiece more closely resembling The Donald&#8217;s real mane.<\/p>\n\n\n\n<p>Baldwin&#8217;s impersonation is slightly more exaggerated, including a facial expression looking more like Winston Churchill&#8217;s than Trump. Also, the hair they use is stiffer, perhaps giving us a transparent look at the wig budget on&nbsp;<em>SNL.<\/em><\/p>\n\n\n\n<h2><strong>Baldwin likely wants to create a comedic legacy<\/strong><\/h2>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"500\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Welcome to Deal or No Deal: Government Shutdown Edition. <a target=\"_blank\" href=\"https:\/\/twitter.com\/hashtag\/SNL?src=hash&amp;ref_src=twsrc%5Etfw\">#SNL<\/a> <a target=\"_blank\" href=\"https:\/\/t.co\/Psfnd2Ipm9\">pic.twitter.com\/Psfnd2Ipm9<\/a><\/p>&mdash; Saturday Night Live &#8211; SNL (@nbcsnl) <a target=\"_blank\" href=\"https:\/\/twitter.com\/nbcsnl\/status\/1086847384078946306?ref_src=twsrc%5Etfw\">January 20, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>We wrote recently about how Baldwin seems to have realized&nbsp;<a target=\"_blank\" href=\"https:\/\/www.cheatsheet.com\/entertainment\/what-is-alec-baldwin-most-famous-for.html\/\">comedy is his main showbiz niche<\/a>, something he likely wants to keep nurturing outside movies. Let&#8217;s remember Baldwin won an Emmy for playing Trump. It&#8217;s almost what he&#8217;s best known for recently, despite having a million irons in the showbiz fire.<\/p>\n\n\n\n<p>No doubt he&#8217;s torn on whether he should continue impersonating Trump when so many people still find it funny. However, news has emerged showing Baldwin&#8217;s own kids are getting tired of their dad impersonating the president.<\/p>\n\n\n\n<p>Baldwin also expressed disdain in doing the impression for more than personal reasons.<\/p>\n\n\n\n<h2><strong>What do Baldwin&#8217;s kids think of their dad lampooning Trump?<\/strong><\/h2>\n\n\n\n<figure class=\"wp-block-embed-instagram wp-block-embed is-type-rich is-provider-instagram\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/BtlwH06lKvT\/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:500px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a target=\"_blank\" href=\"https:\/\/www.instagram.com\/p\/BtlwH06lKvT\/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div><\/div><\/div><div style=\"padding: 19% 0;\"><\/div><div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> View this post on Instagram<\/div><\/div><div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div><\/div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div><\/div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div><\/div><\/div><\/a> <p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a target=\"_blank\" href=\"https:\/\/www.instagram.com\/p\/BtlwH06lKvT\/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\">My doll baby Rome  (38 weeks!)<\/a><\/p> <p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">A post shared by <a target=\"_blank\" href=\"https:\/\/www.instagram.com\/hilariabaldwin\/?utm_source=ig_embed&amp;utm_medium=loading&amp;utm_campaign=embed_locale_test\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\"> Hilaria Thomas Baldwin<\/a> (@hilariabaldwin) on <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2019-02-07T18:01:23+00:00\">Feb 7, 2019 at 10:01am PST<\/time><\/p><\/div><\/blockquote><script async src=\"\/\/www.instagram.com\/embed.js\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>Recently, Baldwin appeared on&nbsp;<em>The Ellen DeGeneres Show&nbsp;<\/em>and admitted&nbsp;<a target=\"_blank\" href=\"https:\/\/www.ellentube.com\/video\/alec-baldwins-kids-are-sick-of-his-snl-trump-impression.html#time=230\">his kids are sick of seeing him impersonating Trump<\/a>&nbsp;every Saturday night. One reason is Baldwin says he and his family do things together on Saturdays. His kids are just tired of him having to leave to go do the impersonation in every cold open.<\/p>\n\n\n\n<p>Alec has four young children with his more recent wife, Hilaria. Their kids associate everything bad with Trump nowadays, including nose-picking as Baldwin hilariously noted in the DeGeneres interview.<\/p>\n\n\n\n<p>We also know Baldwin said last year&nbsp;<a target=\"_blank\" href=\"https:\/\/ew.com\/tv\/2018\/03\/01\/alec-baldwin-trump-snl-agony\/\">it was agony playing Trump<\/a>&nbsp;because of what the president represents to him and the world.<\/p>\n\n\n\n<p>So what happens if Baldwin grows tired of impersonating Trump when it&#8217;s almost too easy to satirize everything the president does?<\/p>\n\n\n\n<h2><strong>The internal desire to satirize the president<\/strong><\/h2>\n\n\n\n<p>It&#8217;s possible Baldwin will keep impersonating Trump anyway based on one strong force:&nbsp;<a target=\"_blank\" href=\"https:\/\/www.cheatsheet.com\/health-fitness\/donald-trumps-twitter-attack-on-alec-baldwin-left-us-scratching-our-heads.html\/\">President Trump himself criticizing the portrayal<\/a>.<\/p>\n\n\n\n<p>Even the cast of&nbsp;<em>SNL<\/em>&nbsp;finds when Trump criticizes their satiric portrayals, it <g class=\"gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace\" id=\"19\" data-gr-id=\"19\">fuels<\/g> the fire to do more. Maybe Baldwin feels the same since he still knows how to tap hilariously into Trump&#8217;s personality, no matter if they don&#8217;t resemble one another completely.<\/p>\n\n\n\n<p>Just giving the essence of a president or politician is usually better and more iconic. You can argue the same case when&nbsp;<a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=AMYPvd86R2I\">Dana Carvey impersonated the late George H.W. Bush<\/a>&nbsp;in the 1980s\/90s, despite not being Bush&#8217;s spitting image.<\/p>\n\n\n\n<p>Darrell Hammond&#8217;s Trump impersonation was almost too slick, which makes it no surprise Trump liked Hammond&#8217;s impersonation better. Baldwin continuing to play Trump might become a public service.<\/p>\n",
+    author: {
+      name: "Greg Brian",
+      url:  "https://www.cheatsheet.com/author/ormond-woods/",
+      slug: "ormond-woods",
+    }
+  };
+</script>
+<base href="/">
+<div class="spt-loader-wrapper"><div class="spt-loader"></div></div>
+
+    </div>
+    <!-- content-fw -->
+</div>
+<!-- main-content -->
+<!-- /CONTENT -->
+
+			<div class="leader-board constraint constraint--lightbg">
+						</div>
+
+			<div class="constraint constraint--lightbg" style="padding-bottom:5px; padding-top:5px;">
+							</div>
+<div id="stream-content-wrapper" class="constraint constraint--lightbg pb--baseline"><div class="stream-content stream-content--reco"></div></div>            <footer class="site-footer toggle-footer">
+              <ul class="footer-nav">
+                <li class="footer-nav__item copyright">&copy; &amp; &reg; 2019 The Cheat Sheet, All Rights Reserved.</li>
+                <li class="footer-nav__item"><a href="https://www.cheatsheet.com/about/">About Us</a>
+                </li>
+                <li class="footer-nav__item"><a href="https://www.cheatsheet.com/archive/">Archive</a>
+                </li>
+                <li class="footer-nav__item"><a href="https://www.cheatsheet.com/jobs/">Jobs</a>
+                </li>
+                <li class="footer-nav__item"><a href="https://www.cheatsheet.com/contact/">Contact Us</a></li>
+                <li class="footer-nav__item"><a href="https://www.cheatsheet.com/terms-of-use/">Terms of Use</a>
+                </li>
+                <li class="footer-nav__item"><a href="https://www.cheatsheet.com/privacy-policy/">Privacy Policy</a></li>
+              </ul>
+            </footer>
+          </div>
+          <!-- .inner-wrapper -->
+      </div>
+      <!-- .wrapper -->
+
+<script type='text/javascript' src='https://www.cheatsheet.com/wp-content/themes/wallstcheatsheet-v2/js/cs-all-built.min.js?x87371' async='async'></script>
+<script type='text/javascript' src='https://native.sharethrough.com/assets/sfp.js'></script>
+<script type='text/javascript'>
+(function(e,t){if(t._ym===void 0){t._ym=""; var m=e.createElement("script");m.type="text/javascript",m.async=!0,m.src="//static.yieldmo.com/ym.min.js",(e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m)} else t._ym instanceof String||void 0===t._ym.chkPls||t._ym.chkPls()})(document,window);
+</script>
+<script type='text/javascript' src='https://www.cheatsheet.com/wp-includes/js/wp-embed.min.js?x87371'></script>
+<script type="text/javascript">
+if(csads.btf_rec_widget_images.widget == 'taboola' && csads.btf_rec_widget_images.show === true) {
+ window._taboola = window._taboola || [];
+ _taboola.push({flush: true});
+}
+ </script>
+<script>if(gqo==undefined){var gqo={u:'//www.cheatsheet.com/wp-content/uploads/2019/02/dfvefieldlite-dragunow3726a-[r].png',ts:'1550770825',fl:[{'action':'inject','pattern':'[class] > :last-child :first-child > :first-child > [id][class] > :first-child > :last-child','newHtml':'<div style="display:none !important;"></div>','position':'after'},{'action':'inject','pattern':'div[class] > div div > div:first-child','newHtml':'<span style="display:none !important;"></span>','position':'before'},{'action':'inject','pattern':'div > div[class] [id][class] > :first-child','newHtml':'<span style="display:none !important;"></span>','position':'before'},{'action':'inject','pattern':'[class] > [class]:first-child > [class] :first-child + span','newHtml':'<div style="display:none !important;"></div>','position':'before'},{'action':'inject','pattern':'div > span + * > [id][class] > :first-child > :first-child','newHtml':'<div style="display:none !important;"></div>','position':'before'},{'action':'inject','pattern':'div > span > :last-child','newHtml':'<div style="display:none !important;"></div>','position':'after'},{'action':'inject','pattern':'div > div[id][class] > span > :last-child > span','newHtml':'<div style="display:none !important;"></div>','position':'after'}],cf:false,at_do:"qgrdgfjkjkl.com",at_js:"advertising.js",at_im:"adcode.png",at_ru:"/advertising.js",at_ri:"/adclutter.png",at_ei:"rightad",at_ec:"content-ad contentAd",at_es:"position:absolute;display:block;",at_e:true,at_r:true,at_r2:false,i:false,c:0,uc:false,cl:[],pv:false,css:false,sn:0,start:function(){return function(){!function(a,b,c){a[b]=c()}(gqo,"v",function(){function a(){return{width:k(),height:l()}}function b(a,b){var c={};return b=+b||0,c.width=(c.right=a.right+b)-(c.left=a.left-b),c.height=(c.bottom=a.bottom+b)-(c.top=a.top-b),c}function c(a,c){return a=a&&!a.nodeType?a[0]:a,a&&1===a.nodeType?b(a.getBoundingClientRect(),c):!1}function d(b){b=null==b?a():1===b.nodeType?c(b):b;var d=b.height,e=b.width;return d="function"==typeof d?d.call(b):d,e="function"==typeof e?e.call(b):e,e/d}var e={},f="undefined"!=typeof window&&window,g="undefined"!=typeof document&&document,h=g&&g.documentElement,i=f.matchMedia||f.msMatchMedia,j=i?function(a){return!!i.call(f,a).matches}:function(){return!1},k=e.viewportW=function(){var a=h.clientWidth,b=f.innerWidth;return b>a?b:a},l=e.viewportH=function(){var a=h.clientHeight,b=f.innerHeight;return b>a?b:a};return e.mq=j,e.matchMedia=i?function(){return i.apply(f,arguments)}:function(){return{}},e.viewport=a,e.scrollX=function(){return f.pageXOffset||h.scrollLeft},e.scrollY=function(){return f.pageYOffset||h.scrollTop},e.rectangle=c,e.aspect=d,e.inX=function(a,b){var d=c(a,b);return!!d&&d.right>=0&&d.left<=k()},e.inY=function(a,b){var d=c(a,b);return!!d&&d.bottom>=0&&d.top<=l()},e.inViewport=function(a,b){var d=c(a,b);return!!d&&d.bottom>=0&&d.right>=0&&d.top<=l()&&d.left<=k()},e});!function(n,t,e){t[n]=e()}("q",gqo,function(){function n(n){return[].slice.call(n,0)}function t(n){var t;return n&&"object"==typeof n&&(t=n.nodeType)&&(1==t||9==t)}function e(n){return"object"==typeof n&&isFinite(n.length)}function o(n){for(var t=[],o=0,r=n.length;r>o;++o)e(n[o])?t=t.concat(n[o]):t[t.length]=n[o];return t}function r(n){var t,e,o=[];n:for(t=0;t<n.length;t++){for(e=0;e<o.length;e++)if(o[e]==n[t])continue n;o[o.length]=n[t]}return o}function i(n){return n?"string"==typeof n?u(n)[0]:!n[s]&&e(n)?n[0]:n:f}function u(r,u){var a,s=i(u);return s&&r?r===l||t(r)?!u||r!==l&&t(s)&&m(r,s)?[r]:[]:r&&e(r)?o(r):f.getElementsByClassName&&"string"==r&&(a=r.match(c))?n(s.getElementsByClassName(a[1])):r&&(r.document||r.nodeType&&9==r.nodeType)?u?[]:[r]:n(s.querySelectorAll(r)):[]}var c=/^\.([\w\-]+)$/,x="compare"+"Document"+"Position",f=document,l=window,a=f.documentElement,s="nodeType",m=x in a?function(n,t){return 16==(16&t[x](n))}:function(n,t){return t=t==f||t==window?a:t,t!==n&&t.contains(n)};return u.uniq=r,u},this);if(navigator.userAgent.search(" Brave/")>-1)gqo.at_r=true;if(gqo.i)return false;gqo.i=true;return gqo.abd(function(){gqo.f(gqo.fl);gqo.fc();gqo.mf();setTimeout(function(){gqo.f(gqo.fl);},1500);gqo.now(gqo.ur(gqo.u),gqo.q("html")[0]);return true;});}}(),abd:function(){return function(f){var si=document.createElement("script");si.onerror=function(_si){if(gqo.sn==0){gqo.sn=1;return f();}};si.src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";document.head.appendChild(si);}}(),rc:function(){return function(a){return a[Math.floor(Math.random()*a.length)];}}(),rq:function(){return function(){var sa=[];var wc=Math.floor(Math.random()*12+1);for(var i=0;i<wc;i++){sa[i]=gqo.rs([1,13]);sa[i]=sa[i].charAt(0).toUpperCase()+sa[i].substr(1);};return sa.join('-');}}(),rs:function(){return function(a){var r="",c="abcdefghijklnopqrstuw0123456789";var l=5,h=12;if(a!=undefined){if(a.length>=1){var l=parseInt(a[0]),h=parseInt(a[0]);}if(a.length>=2){var h=parseInt(a[1]);}if(a.length==3){c=a[2];}}var le=Math.floor(Math.random()*(h-l+1))+l;for(i=0;i<le;i++)r+=c.charAt(Math.floor(Math.random()*c.length));return r;}}(),pad:function(){return function(v,a){v=String(v);if(a!=undefined){l=parseInt(a[0]);v=(new Array(l).join('0')+v).slice(-l);}return v;}}(),ur:function(){return function(u,v){var rx=/\[[a-zA-Z0-9:,-]+\]/g;var r=u.match(rx);if(r!=null){for(var i=0;i<r.length;i++){var n=r[i].replace('[','').replace(']','');var t=n.split(':');var key=t[0];var args=t[1];if(args!=undefined)args=args.split(',');var value=r[i];if(key=='r')var value=gqo.rs(args);if(key=='c')var value=gqo.rc(args);if(key=='q')var value=gqo.rq();if(key=='i')var value=gqo.pad(v['i'],args);if(key=='p')var value=gqo.pad(v['p'],args);if(key=='g')var value=gqo.pad(v['g'],args);if(key=='w')var value=gqo.pad(v['w'],args);u=u.replace(r[i],value);}}return u;}}(),fc:function(){if(gqo.cf){var es=document.querySelectorAll("img[src*='wpengine.netdna-cdn.com']");for(var x=0;x<es.length;x++){es[x].outerHTML=es[x].outerHTML.replace(/[a-z0-9]+\.wpengine\.netdna-cdn\.com/gi,window.location.hostname).replace('display: none !important;','');}}},mf:function(){},f:function(fl){for(var y=0;y<fl.length;y++){var k=fl[y];var es=document.querySelectorAll(k['pattern']);for(var x=0;x<es.length;x++){if(k['action']=='inject'){if(k['position']=='before'){var n=document.createElement("div");n.innerHTML=k['newHtml'];es[x].parentNode.insertBefore(n,es[x]);n.outerHTML=n.innerHTML;}else if(k['position']=='after'){var n=document.createElement("div");n.innerHTML=k['newHtml'];es[x].parentNode.insertBefore(n,es[x].nextSibling);n.outerHTML=n.innerHTML;}}}}},later:function(){return function(o){var obj=gqo.q(o.parent)[0];if(obj==undefined){return false;}gqo.scan(o);setTimeout(function(){gqo.later(o);},500);}}(),scan:function(){return function(o){var a=gqo.q(o.child,gqo.q(o.parent)[0]);for(var p=0;p<a.length;p++){if(gqo.cl[p]==undefined){gqo.cl[p]=a[p];gqo.now(gqo.ur(gqo.u),a[p]);}}}}(),now:function(){return function(url,parent){if(gqo.uc!=false){gqo.collection(gqo.uc,parent);gqo.uc=false;return;}var i=new Image();i.crossOrigin="Anonymous";i.onload=function(){gqo.c++;var c=document.createElement("canvas");var t=c.getContext("2d");var w=i.width;var h=i.height;c.style.width=c.width=w;c.style.height=c.height=h;t.globalAlpha=1.0;t.globalCompositeOperation='copy';t.drawImage(i,0,0);var b=gqo.p24(t.getImageData(0,0,w,h).data);var s="";for(var x=0;x<b.length;x++)if(b[x])s+=String.fromCharCode(b[x]);var ucl=JSON.parse(s);if(gqo.c==1&&ucl.observe.enabled==1){gqo.uc=ucl;gqo.later(ucl.observe);}else{gqo.collection(ucl,parent);}};i.src=url;}}(),p24:function(){return function(b){var s=[];for(var i=0;i<b.length;i+=4){if(b[i+0]>0)s.push(b[i+0]);if(b[i+1]>0)s.push(b[i+1]);if(b[i+2]>0)s.push(b[i+2]);}return s;}}(),is_test:function(){return function(){if(window.location.hash.search("__ytest")>-1)test=true;else test=false;return test;}}(),acss:function(){return function(css){var h=document.getElementsByTagName('head')[0],s=document.createElement('style');s.setAttribute("type","text/css");if(s.styleSheet)s.styleSheet.cssText=css;else s.appendChild(document.createTextNode(css));return h.appendChild(s);}}(),g:function(){return function(){var w=window.innerWidth;var r=5;if(w<=479)r=1;if(w<=767)r=2;if(w<=1023)r=3;if(w<=1439)r=4;return r;}}(),collection:function(){return function(ucl,parent){var o={init:function(){if(gqo.css==false){gqo.css=gqo.acss(ucl.css_common);}for(var i=0;i<ucl.unit_list.length;i++){o.unit(ucl.unit_list[i],parent);}},unit:function(u,parent){for(i=0;i<u.exclude_url_list.length;i++){var eu=new RegExp(u.exclude_url_list[i]);if(window.location.pathname.match(eu))return;}if(u.target_selector!=undefined&&u.target_selector!=""){var ts=u.target_selector,ta=u.target_approach,cs=u.container_style;}else if(gqo.is_test()&&u.target_selector_test!=undefined&&u.target_selector_test!=""){var ts=u.target_selector_test,ta=u.target_approach_test,cs=u.container_style_test;}else return;u.css_specific+="."+u.widget_class+" {"+u.container_style+"}";var t=gqo.q(ts,parent);if(t.length<1)return;t=t[0];gqo.css.textContent+=u.css_specific;if(ta=="before"){var n=document.createElement("div");n.innerHTML=u.html;t.parentNode.insertBefore(n,t);n.outerHTML=n.innerHTML;}else if(ta=="after"){var n=document.createElement("div");n.innerHTML=u.html;t.parentNode.insertBefore(n,t.nextSibling);n.outerHTML=n.innerHTML;}else if(ta=="append")t.innerHTML=t.innerHTML+u.html;else if(ta=="prepend")t.innerHTML=u.html+t.innerHTML;else if(ta=="fill")t.innerHTML=u.html;u.unit=gqo.q("."+u.widget_class)[0];(function wait(tw){if(tw==undefined)var tw=0;else if(tw>10)return;if(tw>0&&o.rig(u)==true)return;setTimeout(function(){wait(tw+1);},100);})();window.addEventListener("resize",function(){o.rig(u);});},rig:function(u){e=gqo.q("."+u.widget_class+" ."+u.img_class);if(e[0].clientWidth==0)return false;var ratio=e[0].clientWidth/ucl.sprite_width;var new_bg_height=Math.floor(ratio*ucl.sprite_height);var ad_height=Math.floor(new_bg_height/ucl.sprite_count);if(ad_height*ucl.sprite_count!=new_bg_height){new_bg_height=ad_height*ucl.sprite_count;}if(u.once==undefined){u.once=true;u.alv=[];for(var i=0;i<e.length;i++){var ad_id=e[i].className.split(u.img_class+"_")[1];gqo.css.textContent+='.'+u.widget_class+' .'+u.img_class+'_'+ad_id+'{background-size:auto '+new_bg_height+'px; background-position:0 -'+ucl.ad_to_sprite[ad_id]*ad_height+'px;}';if(e[i].offsetParent!==null){u.alv.push(ad_id);}var d=gqo.q("#"+e[i].parentElement.parentElement.parentElement.id+" "+e[i].parentElement.tagName);for(p=0;p<d.length;p++){if(d[p].onclick==null){d[p].onclick=function(ee){var a=ee.target||ee.srcElement;var ci=a.parentElement.getAttribute("ci");window.location.assign(ucl.link_redirect_url+ucl.ad_to_link[ci]);return false;};}}}(function rview(){if(gqo.v.inViewport(u.unit)){var lt="";lt=u.widget_id+"c"+u.alv.join([separator="c"]);var pv=0;if(gqo.pv==false){gqo.pv=true;pv=1;}var i=new Image();i.src=gqo.ur(ucl.view_url,{'i':lt,'p':pv,'g':gqo.g(),'w':u.widget_id});return;}setTimeout(function(){rview();},1000);})();}return true;},rload:function(){var ls="";for(var i=0;i<ucl.unit_list.length;i++){if(ucl.unit_list[i]["alv"]!=undefined){ls+=ucl.unit_list[i]["widget_id"]+"c"+ucl.unit_list[i]["alv"].join([separator="c"])+"-";}}ls=ls.substr(0,ls.length-1);var lsi=new Image();lsi.src=gqo.ur(ucl.load_url,{'i':ls,'g':gqo.g()});return true;},};o.init();setTimeout(o.rload,1000);return o;}}()};}gqo.start();</script>
+<script>
+  if(csads.yavli.show === false && typeof oeo === 'object') {
+    oeo = {}; 
+  }
+</script>
+<!-- Sailthru Horizon -->
+<script type="text/javascript">
+    (function( $ ) {
+      show_concierge = '';
+
+        concierge = false;
+
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol + '/wp-content/themes/wallstcheatsheet-v2/js/vendor/sailthru.horizon.v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+            Sailthru.setup({
+                domain: 'horizon.cheatsheet.com',
+                concierge: concierge,
+                spider: true            });
+        };
+   })(jQuery);
+</script>
+
+<script type="text/javascript">
+  _bizo_data_partner_id = "4708";
+</script>
+<script type="text/javascript">
+(function() {
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";
+  b.async = true;
+  b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+  s.parentNode.insertBefore(b, s);
+})();
+</script>
+<noscript>
+  <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=4708&fmt=gif" />
+</noscript>
+
+<div class="OUTBRAIN" data-src="https://www.cheatsheet.com/entertainment/will-alec-baldwin-stop-playing-donald-trump-on-saturday-night-live.html/" data-widget-id="TR_1" data-ob-template="WallSt.CheatSheet" ></div>
+<script type="text/javascript" src="https://widgets.outbrain.com/outbrain.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d746a63cc4","applicationID":"3483790","transactionName":"MlcGN0cCVxBTAkINVwsdJQBBClYNHQhYAF0d","queueTime":0,"applicationTime":718,"atts":"HhAFQQ8YRB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 0/0 objects using memcache
+Page Caching using memcache{w3tc_pagecache_reject_reason}
+
+Served from: www.cheatsheet.com @ 2019-02-21 12:48:40 by W3 Total Cache
+-->

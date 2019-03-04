@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+    <form method="post" accept-charset="utf-8" style="display: none;" id="quick-link" action="/st?api=d3ff761eb9174d56386f59e20092f65f27464430&amp;url=http%3A%2F%2Fvideo.foxnews.com%2Fv%2F6000412626001"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="_csrfToken" autocomplete="off" value="2dc0cf4a118c292d58fd1186485ccbd1c903f34f1e25846b5ff4d7ff6c9235375093dc290c873957b59f3f9cef1f52eeaa82899209c6095ec42eff973a511902"/></div>    <div class="form-group text  required"><input type="text" name="api" required="required" id="api"/></div>    <div class="form-group text  required"><input type="text" name="url" required="required" id="url"/></div>    <button type="submit">Submit</button>    <div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="225d9ab9071774c19769c4f26415f43d863316f9%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="adcopy_challenge%7Cadcopy_response%7Ccoinhive-captcha-token%7Cg-recaptcha-response"/></div></form>    <script>
+      var current_url = window.location.href
+      var api = current_url.split('?api=').slice(1).join('?api=').split('&url=')[0]
+      var url = current_url.split('&url=').slice(1).join('&url=')
+      if (api && url) {
+        document.getElementById('api').value = api
+        document.getElementById('url').value = url
+        document.getElementById('quick-link').submit()
+      }
+    </script>
+
+</body>
+</html>

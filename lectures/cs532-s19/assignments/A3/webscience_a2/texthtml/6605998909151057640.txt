@@ -1,0 +1,11 @@
+Real-World Threats That Trump Spectre & Meltdown
+New side-channel attacks are getting lots of attention, but other more serious threats should top your list of threats.
+If you judged the severity of a security vulnerability by its number of mentions in the press and social media — a silly thing to do, by the way — side-channel exploits would seem to be the end of the computing world. But does the reality of the situation really match the hype?
+Many side-channel attacks actually require both technical sophistication and patience. Speculative execution side-channel attacks like Spectre and Meltdown require quite a lot of each of those qualities. Other types of side-channel attacks, such as the recent page cache vulnerability , require less sophistication on the part of the attacker but are more easily thwarted via software updates.
+The bottom line is that there are many other cyber threats that your organization most likely will face today than a side-channel attack, security experts say. The more severe threat candidates encompass common attacks and vulnerabilities, as well as user behavior - most of which have been responsible for real-world business losses. The new generation of side-channel vulnerabilities are mostly still - as far as we know - the stuff of research, not crime.
+That doesn't mean you should ignore side-channel threats. Mounir Hahad, head of Juniper Threat Labs, noted that the "latest side-channel attack is severe, in my opinion."
+With that caution, here is a rundown of threats that are more imminent than those splashy side-channel attacks. 
+(Where do you place Spectre, Meltdown, and their malicious kin in your hierarchy of threats? Which threat keeps you up at night? We'd love to know your thoughts — the comment section is open).
+(Image: Andrew Stefanovskiy — Adobe Stock)
+ 
+Curtis Franklin Jr. is Senior Editor at Dark Reading. In this role he focuses on product and technology coverage for the publication. In addition he works on audio and video programming for Dark Reading and contributes to activities at Interop ITX, Black Hat, INsecurity, and ... View Full Bio

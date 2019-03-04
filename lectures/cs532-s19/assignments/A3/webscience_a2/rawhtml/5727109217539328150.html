@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<head>
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="El Sol de Margarita">
+		<meta itemprop="description" content="El Sol de Margarita - El Periódico de la Verdad">
+		<meta itemprop="image" content="http://www.elsoldemargarita.com.ve/img/logo_sol.jpg">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@elsoldmargarita">
+		<meta name="twitter:creator" content="@elsoldmargarita">
+		<meta name="twitter:title" content="El Sol de Margarita">
+		<meta name="twitter:description" content="El Periódico de la Verdad.">
+		<meta name="twitter:image" content="http://www.elsoldemargarita.com.ve/img/logo_sol.jpg">
+
+	<title>.: El Sol de Margarita :.</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="http://www.elsoldemargarita.com.ve/posts/post/type:icon" type="application/rss+xml" rel="alternate" title="/favicon.ico" />			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-27553016-1']);
+		_gaq.push(['_setDomainName', 'elsoldemargarita.com.ve']);
+		_gaq.push(['_setAllowLinker', true]);
+		_gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+
+<script type="text/javascript">
+var NS4 = true; //(document.layers)?true:false;
+var IE4 = false; //(document.all)?true:false;
+var ppromt = '';
+var bydefault = '';
+	function jumpBusqueda(){
+		var string = $("#busqueda").val();
+		location.href = ('/posts/busqueda/' + string);
+		event.preventDefault();
+	}
+
+	function jumpSection() {
+		var url=("/clasificados/index");
+		var section = $("#fsection").val();
+		var search = $("#fsearch").val();
+		var subsection_ = $("#fsubsection").val();
+		var res = subsection_.split(';;');
+		var subsection = res[0];
+
+		if (search != '')
+			fsearch = '/fsearch:' + search;
+		else
+			fsearch = '';
+
+		if (section != 0)
+			fsection = '/fsection:' + section;
+		else
+			fsection = '';
+
+		if (subsection != 0)
+			fsubsection = '/fsubsection:' + subsection;
+		else
+			fsubsection = '';
+		
+		newLocation = fsection + fsubsection + fsearch;
+		location.href = (url+newLocation);
+		event.preventDefault();
+		};
+	
+function _struct(child,childcaption,parent){
+this.child = child;
+this.childcaption = childcaption;
+this.parent	= parent;
+}
+function limitText(limitField, limitNum) {
+    if (limitField.value.length > limitNum) {
+        limitField.value = limitField.value.substring(0, limitNum);
+    } 
+}
+function _addobject(child,childcaption,parent){
+var obj = new _struct();
+obj.child = child;
+obj.childcaption = childcaption;
+obj.parent = parent;
+return(obj);
+}
+function isEntry(child,parent){
+	if(child.length > 0 ){		
+		for(var i=0;i<this.length;i++)
+			if(this.items[i].child == child)
+				return true;			
+	}
+	return false;
+}
+function insertEntry(child,childcaption,parent){
+	if(child.length > 0 ){		
+		for(var i=0;i<this.length;i++)
+			if(this.items[i].child == child)
+				return;			
+		this.items[this.length++] = _addobject(child,childcaption,parent);		
+	}
+}
+function add_option(oSelect,pprompt,bydefault){
+	var new_option = ' ';
+	new_option = prompt (ppromt,bydefault);
+	if ( new_option == null ) {
+		//donothing
+	} else {
+		if ( new_option.length > 2) {
+			new_option = new_option.toUpperCase();
+			elOption = new Option();
+			//now IE and NS have a different way to handle object creation.
+			if(IE4){						
+				elOption.value = new_option + ' selected';
+				elOption.text = new_option;
+				eval(document.formparent.elements[oSelect]).options[0] = elOption
+				eval(document.formparent.elements[oSelect]).selectedIndex = 0;
+			}else if(NS4){				
+				elOption.value = new_option  + ' selected';
+				elOption.text = new_option;
+				document.all.item(oSelect).options.add(elOption,0)					
+				document.all.item(oSelect).selectedIndex  = 0;
+			}						
+			delete(elOption);
+		}
+	}
+}
+
+function OptionCollection(){
+this.length=0;
+this.items = new Object();
+this.Add=insertEntry
+}
+
+function clearSelect(oSelect){
+	var iCount=0;
+	if(!oSelect) return;
+	iCount = oSelect.options.length;
+	for(var i=0;i<iCount;i++){
+		if(IE4)
+			oSelect.options.remove(0);
+		else if(NS4)
+			oSelect.options[0]=null;
+	}
+}
+function addOptions(oSelect,olist,parent){
+	var elOption;
+	var idxSelect=0;
+	var found=false;
+	if((!olist) || (!oSelect)) return;
+	clearSelect(oSelect);	
+	  	elBlankOption = new Option();
+	  	elBlankOption.text = "Todos";
+	  	elBlankOption.value = "";
+	  if (NS4) oSelect.options[idxSelect] = elBlankOption
+	  else if(IE4) oSelect.options.add(elBlankOption,idxSelect)
+	  idxSelect++;
+	for(var i=0;i<olist.length;i++){		
+		if(olist.items[i].parent == parent){									
+			found = true;
+			elOption = new Option();
+			//now IE and NS have a different way to handle object creation.
+			if(NS4){
+				elOption.value = olist.items[i].child
+				elOption.text = olist.items[i].childcaption
+				oSelect.options[idxSelect] = elOption				
+			}else if(IE4){				
+				elOption.value = olist.items[i].child
+				elOption.text = olist.items[i].childcaption
+				oSelect.options.add(elOption,idxSelect)					
+			}						
+			idxSelect++;
+			delete(elOption);
+		}			
+	}	
+	if (!found)
+	{
+	  	elBlankOption = new Option();
+	  	elBlankOption.text = "Todas";
+	  	elBlankOption.value = "";
+	  	idxSelect++;
+	  if(NS4) oSelect.options[0] = elBlankOption
+	  else if(IE4) oSelect.options.add(elBlankOption,0)
+	}
+}
+
+function clearOptions(szSelect,szForm){
+if(szSelect.length <= 0 || szForm.length <=0)
+	alert("error:clearOption must pass arguments");	
+if(IE4)
+clearSelect(document.all.item(szSelect));
+else if(NS4)
+clearSelect(eval('document.' + szForm + '.elements["' + szSelect + '"]'));
+}
+
+function listAllOptions(szSelect,szForm,olist){
+	var elOption;
+	var idxSelect=0;
+	var oSelect = new Object();
+	if(!olist)return;			
+	if(IE4)
+		 oSelect = document.all.item(szSelect);
+	else if(NS4)
+		oSelect = eval('document.' + szForm + '.' + szSelect);
+	if(!oSelect)return;			
+	clearSelect(oSelect);
+	for(var i=0;i<olist.length;i++){							
+		elOption = new Option();
+		if(NS4){						
+			elOption.value = olist.items[i].child
+			elOption.text = olist.items[i].childcaption
+			oSelect.options[idxSelect] = elOption				
+		}else if(IE4){				
+			elOption.value = olist.items[i].child
+			elOption.text = olist.items[i].childcaption
+			oSelect.options.add(elOption,idxSelect)					
+		}						
+		idxSelect++;
+		delete(elOption);					
+	}	
+}
+
+function UpdateSelect(szSelect,szForm,szParent,olist){
+if(IE4)
+addOptions(document.all.item(szSelect),olist,szParent);
+else if(NS4)
+addOptions(eval('document.' + szForm + '.elements["' + szSelect + '"]'),olist,szParent);
+}
+
+var oSubSection = new OptionCollection();
+var oSection = new OptionCollection();
+	</script>
+<link rel="stylesheet" type="text/css" href="/css/unique2.css" /><link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" /><meta name="og:image" content="http://elsoldemargarita.com.ve/uploads/images/2018/06/12/trump-kim-saludo-singapur-e1528768231871.jpg" /><meta property="og:title" content="Hanói acogerá la segunda cumbre Trump-Kim" /><meta property="og:description" content="La de Hanói será la segunda cumbre entre Trump y Kim Jong-un. En la primera, el pasado junio, ambos acordaron trabajar para la desnuclearización de Corea del Norte a cambio de que Washington garantice la continuidad del Gobierno al frente del país asiático." /><script type="text/javascript" src="/js/unique.js"></script>	
+		<style type="text/css">
+			#dhtmltooltip{
+				position: absolute;
+				width: 320px;
+				border:solid 2px #cbcbcb;
+				padding: 20px;
+				background: #ffffff;
+				filter: alpha(opacity=98);
+			    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=98);
+			    opacity:0.98;
+			   -moz-opacity: 0.98;
+				visibility: hidden;
+				z-index: 100;
+				font-family: Helvetica, Verdana, arial;
+				font-size:13px;
+			}
+		</style>
+	</head>
+		<body>
+		<div id="container">
+											<div id="dhtmltooltip"></div>
+            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f19dac54dfeed4a"></script>
+			<script type="text/javascript">
+				var offsetxpoint=-60 //Customize x offset of tooltip
+				var offsetypoint=20 //Customize y offset of tooltip
+				var ie=document.all
+				var ns6=document.getElementById && !document.all
+				var enabletip=false
+				if (ie||ns6)
+					var tipobj=document.all? document.all["dhtmltooltip"] : document.getElementById? document.getElementById("dhtmltooltip") : ""
+				function ietruebody() {
+					return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+				}
+				function ddrivetip(thetext, thecolor, thewidth){
+					if (ns6||ie){
+						if (typeof thewidth!="undefined") tipobj.style.width=thewidth+"px"
+						if (typeof thecolor!="undefined" && thecolor!="") tipobj.style.backgroundColor=thecolor
+						tipobj.innerHTML=thetext
+						enabletip=true
+						return false
+					}
+				}
+				function positiontip(e){
+					if (enabletip){
+						var curY=(ns6)?e.pageY : event.y+ietruebody().scrollTop;
+						var curX=390;
+						var rightedge=ie&&!window.opera? ietruebody().clientWidth-event.clientX-offsetxpoint : window.innerWidth-e.clientX-offsetxpoint-20
+						var bottomedge=ie&&!window.opera? ietruebody().clientHeight-event.clientY-offsetypoint : window.innerHeight-e.clientY-offsetypoint-20
+						var leftedge=(offsetxpoint<0)? offsetxpoint*(-1) : -1000
+						if (rightedge<tipobj.offsetWidth)
+						tipobj.style.left=ie? ietruebody().scrollLeft+event.clientX-tipobj.offsetWidth+"px" : window.pageXOffset+e.clientX-tipobj.offsetWidth+"px"
+						else if (curX<leftedge)
+						tipobj.style.left="5px"
+						else
+						tipobj.style.left=curX+offsetxpoint+"px"
+						if (bottomedge<tipobj.offsetHeight)
+						tipobj.style.top=ie? ietruebody().scrollTop+event.clientY-tipobj.offsetHeight-offsetypoint+"px" : window.pageYOffset+e.clientY-tipobj.offsetHeight-offsetypoint+"px"
+						else
+						tipobj.style.top=curY+offsetypoint+"px"
+						tipobj.style.left='210px';
+						tipobj.style.visibility="visible"
+					}
+				}
+				function hideddrivetip(){
+					if (ns6||ie){
+						enabletip=false
+						tipobj.style.visibility="hidden"
+						tipobj.style.left="-1000px"
+						tipobj.style.backgroundColor=''
+					tipobj.style.width=''
+					}
+				}
+				document.onclick=positiontip
+			</script>
+			<div id="header2" class="header2">
+				<div id="flexslider" class="flexslider">
+				  	<div>
+				  		<ul class="slides">
+				  							  		</ul>
+					</div>
+			  	</div>
+			</div>
+			<br>
+			<br>
+			<hr>
+			
+<!--   SubMenu de la parte Superior -
+
+	<div style="margin-left:auto;margin-right:auto;width:auto;">
+				<ul class="main-menu" style="border-bottom-color:#D1671B; border-bottom-style:solid; border-bottom-width:2px;background-color:#FFF;padding-left:8px;padding-right:2px;"> 
+			<li><a style=";background-color:#FFF;color:#D1671B;border-color:#D1671B" href="http://elsoldemargarita.com.ve/posts/seccion/54/Ahora%20es%20cuando">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora es Cuando&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	   <li ><a style="background-color:#FFF;color:#D1671B;border-color:#D1671B" href="http://www.elsoldemargarita.com.ve/posts/seccion/41/Rayitos%20de%20Sol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rayitos de Sol&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	         <li><a style="background-color:#FFF;color:#D1671B;border-color:#D1671B" href="http://www.elsoldemargarita.com.ve/posts/seccion/61/Entre%20Coche%20y%20Cubagua">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entre Coche y Cubagua&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+<li><a style="background-color:#FFF;color:#D1671B;border-color:#D1671B" href="http://www.elsoldemargarita.com.ve/posts/seccion/57/Tierra%20Asoleada">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Tierra Asoleada  &nbsp&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	 <li><a style="background-color:#FFF;color:#D1671B;border-color:#D1671B" href="http://elsoldemargarita.com.ve/posts/seccion/52/Lo%20%2B%20le%C3%ADdo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lo Más Leído&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li></ul>
+</div>
+
+-->	
+
+			<div class="topHeader">
+				<div class="topHeaderFirstDiv">
+					<a href="/posts/seccion/21"><img src=/img/bannerClasificados2.gif></a>				</div>
+				<div class="topHeaderSocNetDiv">
+	                <a href="http://twitter.com/@elsoldmargarita" target="_blank"><img src="/img/btnTT.png"></a>
+	                <a href="https://www.facebook.com/soldemargarita" target="_blank"><img src="/img/btnFF.png"></a>
+	                <a href="http://www.youtube.com/user/ElSoldeMargarita" target="_blank"><img src="/img/btnYT.png"></a>
+					<a href="http://instagram.com/soldemargarita?ref=badge" target="_blank"><img src="/img/btnIG.png"></a>					
+				</div>
+				<div class="topHeaderLogoDiv">
+					<div>
+						<a href="/"><img src=/img/logo_sol.jpg style="width:256px;height:152px;"></a>
+					</div>
+				</div>
+				<div class="topHeaderNewsPaperFrontPageDiv" >
+					<div>
+						<p>Porlamar<br>21 de febrero de 2019</p>					</div>
+					<div>
+					<a href="#" id="linkPortada"><img src="/uploads/fp/portada_rotada.jpg" style="height:110px;vertical-align:bottom;"/></a>					</div>
+				</div>
+				<div class="topHeaderLastDiv">
+					<a href="/posts/seccion/21"><img src=/img/bannerClasificados2.gif></a>				</div> 
+			</div>
+			<hr><hr><hr>
+			<div style="margin-left:auto;margin-right:auto;width:auto;">
+				<ul class="main-menu">
+					<li><a href="http://www.elsoldemargarita.com.ve">Inicio</a></li><li ><a href="/posts/seccion/4/Locales">Locales</a></li><li ><a href="/posts/seccion/5/Sucesos">Sucesos</a></li><li ><a href="/posts/seccion/3/Afici%C3%B3n%20Deportiva">Afición Deportiva</a></li><li ><a href="/posts/seccion/1/Nacionales">Nacionales</a></li><li ><a href="/posts/seccion/9/Internacionales">Internacionales</a></li><li ><a href="/posts/seccion/30/Gente%20Feliz">Gente Feliz</a></li><li ><a href="/posts/seccion/38/Vida%20de%20Hoy">Vida de Hoy</a></li><li ><a href="/posts/seccion/72/Semanario">Semanario</a></li><li ><a href="/posts/seccion/7/Opini%C3%B3n">Opinión</a></li>				</ul>
+			</div>
+			<hr>
+			<div id="highlights-navigation">
+				<ul>
+					<li><a href="/" style="color:#FFF;">Destacados</a></li>
+					<li><a href="/posts/post/id:216943/Decretan-días-de-asueto-28-de-febrero-y-1-de-marzo-para-adelanto-de-Carnaval-2019">Carnaval 2019</a></li><li><a href="/posts/post/id:216930/Gobernación-asume-problemas-ambientales-de-carácter-municipal--">Gobernación asume problemas</a></li><li><a href="/posts/post/id:216929/Astrología-a-tu-medida">Astrología a tu medida</a></li><li><a href="/posts/post/id:216934/Proyecto-Prospera-persigue-consensos-políticos-desde-la-realidad-local">Proyecto Prospera</a></li>				</ul>
+			</div>
+				<div style="display:inline;height:30px;">
+					<table>
+						<tr>
+							<td><img src="http://l.yimg.com/a/i/us/we/52/23.gif" style="display:inline;width:26px;height:26px;border:0;"></td>
+							<td><p style="display:inline;vertical-align:top;"><strong>EL TIEMPO</strong> EN MARGARITA <strong>25°C</strong></p></td>
+						</tr>
+					</table>
+				</div>
+
+		<hr><br><hr>
+
+<table style="display:inline;width:1024px;"><tr><td style="vertical-align:top;"><div class="postColumn"><div id="aux_pict" style="display:none;background:#666;border:solid 1px #000;padding:10px"><img src="http://elsoldemargarita.com.ve/uploads/images/2018/06/12/trump-kim-saludo-singapur-e1528768231871.jpg" width="500" height="auto" border="0" class="" id="" style="" ></div><hr><br><div class="view_post"><div class="breadcrumb">vietnam </div><div class="titlewrap">Hanói acogerá la segunda cumbre Trump-Kim</div><div class="extractwrap">La de Hanói será la segunda cumbre entre Trump y Kim Jong-un. En la primera, el pasado junio, ambos acordaron trabajar para la desnuclearización de Corea del Norte a cambio de que Washington garantice la continuidad del Gobierno al frente del país asiático.</div><div class="creditwrap">Redacción | @elsoldmargarita</div>
+                    <hr><div class="PostShare">
+                    	<div class="addthis_toolbox addthis_default_style W300" style="float:right">
+                            <a class="addthis_button_tweet" tw:via="elsoldmargarita"></a>
+                            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                            <a class="addthis_button_google_plusone" style="width:65px;" g:plusone:size="medium"></a>
+                        </div> 
+                        
+                    </div><!-- PostShare --><div class="bodywrap"><div class="image_div_container" style="width:100%;float:left;margin-right:2%;position:relative;"><img alt="Foto: CORTESÍA CNN" src="/uploads/images/2018/06/12/trump-kim-saludo-singapur-e1528768231871.jpg" style="margin: 0px; float: left; width: 100%;" title="Donald Trump y Kim Jong-un se reunieron en Singapur para cumbre histórica." />
+<p class="image_legend">Donald Trump y Kim Jong-un se reunieron en Singapur para cumbre histórica. / Foto: CORTESÍA CNN</p>
+</div>
+
+<p><span style="color: rgb(111, 111, 109); font-family: Verdana, Helvetica, arial; font-size: 15px; text-align: start; font-weight:bold;">9 Feb, 2019 |</span> Hanói, la capital vietnamita, acogerá la segunda cumbre entre Donald Trump y Kim Jong-un.</p>
+
+<p>Las reuniones para su preparación están siendo "productivas", aunque queda un "duro trabajo" por delante, ha dicho el enviado especial de Estados Unidos para Corea del Norte, desde Seúl, su siguiente parada tras Piongyang.</p>
+
+<p>"No sabemos donde nos llevará todo esto. Pero, estamos en medio de conversaciones con el Norte. Y nuestras discusiones han sido productivas. Puede que lo sepan o no, porque acaba de anunciarse en el coche aquí, que el presidente ha anunciado que Hanói acogerá la segunda cumbre, los días 27 y 28 de febrero", ha declarado Stephen Biegun.</p>
+
+<p>Trump anunciaba el lugar vía Twitter, tras haber dicho ya las fechas durante su discurso del Estado de la Unión, publicó en una nota Euronews.</p>
+
+<p>"¡Espero verme con Kim Jong-un y avanzar en la causa de la paz!", dice Trump al final de su mensaje.</p>
+
+<p>En otro tweet, Trump afirma que Corea del Norte va a convertirse en una gran potencia económica.</p>
+
+<p></p>
+</div><div class="addthis_toolbox addthis_default_style " style="float:left;margin-top:3px"
+						addthis:title="Hanói acogerá la segunda cumbre Trump-Kim"
+						>
+                        <a class="addthis_button_facebook"></a>
+                        <a class="addthis_button_twitter"></a>
+						<a class="addthis_button_whatsapp"></a>
+                        <a class="addthis_button_google"></a>
+                        <a class="addthis_button_delicious"></a>
+                        <a class="addthis_button_gmail"></a>
+                        <a class="addthis_button_email"></a>
+                        <a class="addthis_button_print"></a>
+                        <a class="addthis_button_compact"></a>
+                        <a class="addthis_counter addthis_bubble_style"></a>
+                        </div>
+                        <script type="text/javascript">
+   						var addthis_config = {
+                         	data_track_addressbar:false,
+                        	data_track_clickback:false
+                     	};
+   						var addthis_share = {
+							url_transforms : {
+								shorten: {
+									twitter: "bitly"
+								} 
+							}
+						}
+						</script></div><hr><br><br><table style="float:left;"><tr><td>Contenido relacionado</td></tr><tr><td><div class="breadcrumb"><a href="/posts/post/id:176071/Trump-amenaza-con-llevar-a-los-tribunales-a-_The-New-York-Times_">Trump amenaza con llevar a los tribunales a "The New York Times"</a></div></td></tr><tr><td><div class="breadcrumb"><a href="/posts/post/id:176195/La-campaña-de-Trump-implanta-un-sistema-de-llamadas-en-línea-para-voluntarios-">La campaña de Trump implanta un sistema de llamadas en línea para voluntarios </a></div></td></tr></table><br></div></td><td style="vertical-align:top"><div class="thirdColumn"><hr><hr><hr><hr><div class="areaTwitter"> <a class="twitter-timeline" href="https://twitter.com/elsoldmargarita" data-widget-id="360940061673549824" width="100%" height="600" lang="ES">Tweets por @elsoldmargarita</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div></div></td></tr><tr></tr></table>		<div id="portadaBIGGER" style="display:none;background:#666;border:solid 1px #000;padding:10px"><img src="/uploads/fp/portada.jpg" width="405" height="500" border="0" class="" id="" style="" ></div><br>
+<br>
+<br>
+<div style="display:inline;">
+	<div style="width:692px;float:left;">
+		<img src="/img/sdm.jpg">
+	</div>
+	<div>
+			<label for="busqueda"></label><input name="busqueda" style="font-size:100%; width:180px;" type="text" id="busqueda">
+			<input style="font-size:100%" onclick="javascript:event.preventDefault();javascript:jumpBusqueda();" type="submit" value="Buscar">
+	</div>
+</div>
+<hr style="width:100%;border-bottom:8px solid #4998B7;margin-bottom:4px;">
+<br>
+<div style="display:inline;">
+	<div style="width:792px;float:left;">
+		<img src="/img/sdm2.jpg">
+	</div>
+	<div class="bottomFooterSocNetDiv">
+	                <a href="http://twitter.com/@elsoldmargarita" target="_blank"><img src="/img/btnTT.png"></a>
+	                <a href="http://www.facebook.com/soldemargarita" target="_blank"><img src="/img/btnFF.png"></a>
+	                <a href="http://www.youtube.com/user/ElSoldeMargarita" target="_blank"><img src="/img/btnYT.png"></a>
+					<a href="http://instagram.com/soldemargarita?ref=badge" target="_blank"><img src="/img/btnIG.png"></a>					
+	</div>
+</div>
+<hr>
+<br>
+<div style="display:block;text-align:center;"
+	<div class="bottomNav">
+		<a href=/posts/seccion/4>Locales</a> | <a href=/posts/seccion/5>Sucesos</a> | <a href=/posts/seccion/3>Afición Deportiva</a> | <a href=/posts/seccion/1>Nacionales</a> | <a href=/posts/seccion/9>Internacionales</a> | <a href=/posts/seccion/30>Gente Feliz</a> | <a href=/posts/seccion/38>Vida de Hoy</a> | <a href=/posts/seccion/72>Semanario</a> | <a href=/posts/seccion/7>Opinión</a>	</div>
+</div>
+<br>
+<br>
+<div style="display:block;text-align:center;"
+	<div class="bottomNav">
+		<a href=http://www.elsoldemargarita.com.ve/posts/inst/id:127802/Nosotros>Nosotros</a> | <a href=http://www.elsoldemargarita.com.ve/posts/inst/id:127800/HISTORIA>HISTORIA</a> | <a href=http://www.elsoldemargarita.com.ve/posts/inst/id:127801/mision-vision-valores>MISIÓN, VISIÓN Y VALORES</a></div>
+</div>
+<br>
+
+<br>
+<br>
+
+			<div id="footer">
+			</div>
+		</div>
+			</body>
+</html>

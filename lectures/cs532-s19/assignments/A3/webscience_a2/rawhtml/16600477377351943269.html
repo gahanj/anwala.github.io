@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="State GOP is in a bind over Trump " />
+        <meta property="pg:description" content="State GOP is in a bind over Trump " />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="State GOP is in a bind over Trump " />
+    <meta name="twitter:description" content="State GOP is in a bind over Trump " />
+        <meta name="twitter:image" content="http://html5.pagesuite.com/desktop/stage/image_resize.aspx?w=500&url=" />
+
+        <!-- Custom CSS -->
+    
+
+        <style>
+            @font-face {
+	            font-family:headFont;
+	            src:url("assets/fonts/Georgia Bold.ttf");
+            }
+            @font-face {
+	            font-family:headDeckFont;
+	            src:url("assets/fonts/Georgia.ttf");
+            }
+            @font-face {
+	            font-family:bodyFont;
+	            src:url("assets/fonts/Georgia.ttf");
+            }
+
+            p {
+                margin:0px;
+            }
+
+            .verticalscrollfixedwidth .x-scroll-scroller-vertical {
+                max-width:100% !important;
+            }
+
+            .loading {
+                background-image: url(../images/articleloading.gif);
+                background-position:center;
+                background-repeat:no-repeat;
+            }
+      
+            .container {
+                height:100%;
+            }
+
+            .content {
+	            margin:auto;
+	            /*height:calc(100% - 90px);*/
+                height:100%;
+	            width:calc(100% - 10px);
+            }
+        
+            .controls {
+	            height:36px;
+                position:relative;
+                text-align:right;
+                display:block !important;
+            }
+        
+            .articleContentHtml5 {
+	            height:calc(100% - 41px);
+	            overflow-y:auto;
+	            -webkit-overflow-scrolling: touch;
+            }
+        
+            .textSizeHtml5, .sharingHtml5 {
+                display:inline-block;
+                vertical-align:top;
+            }
+            .clearFloat {
+	            height:0px;
+	            clear:both;
+            }
+            .navBar {
+                height:40px;
+                line-height:40px;
+                padding:0 15px 0 15px;
+                text-align:center;
+                position:relative;
+                background-color:#d0d0d0;
+                font-family:Arial;
+            }
+            .imageControls {
+                height:40px;
+                line-height:40px;
+                padding:0 15px 0 15px;
+                text-align:center;
+                position:relative;
+                background-color:#222222;
+                font-family:Arial;
+            }
+            .imageControls a {
+                text-decoration:none;
+                font-family:Arial;
+                color:#4591B8;
+            }
+            .previousImage {
+                position:absolute;
+                left:5px;
+                padding-left:28px;
+                font-size:13px;
+            }
+            .imgPreviousImage {
+                height:24px;
+                width:24px;
+                position:absolute;
+                top:8px;
+                left:0px;
+            }
+            .imageCount {
+                width:140px;
+                text-align:center;
+                position:absolute;
+                left:calc(50% - 70px);
+                font-size:15px;
+	            color:#ffffff;
+            }
+            .nextImage {
+                position:absolute;
+                right:5px;
+                padding-right:28px;
+                font-size:13px;
+            }
+            .imgNextImage {
+                height:24px;
+                width:24px;
+                position:absolute;
+                top:8px;
+                right:0px;
+            }
+
+            .contentHead {
+	            font-weight:bold;
+	            font-family:headFont;
+                margin: 0 0 25px 0;
+            }
+            .contentHead p {
+                display:inline-block;
+                margin-right:8px;
+            }
+
+            .clHeadline {
+	            font-weight:bold;
+	            font-family:headFont;
+                margin: 0 0 25px 0;
+            }
+            .clHeadline p {
+                display:inline-block;
+                margin-right:8px;
+            }
+
+            .contentDeck {
+	            font-family:headDeckFont;
+                margin:25px 0 25px 0;
+            }
+            .contentDeck p {
+                display:inline;
+            }
+
+            .clSubHeadline {
+	            font-family:headDeckFont;
+                margin:25px 0 25px 0;
+            }
+            .clSubHeadline p {
+                display:inline;
+            }
+
+            .contentImages {
+	            background-color:#333333;
+            }
+            .contentImage {
+                text-align:center;
+            }
+            .contentImage img {
+                max-width:100%;
+            }
+            .contentCaption {
+	            text-align:left;
+                color:#ffffff;
+	            padding: 5px 8px 5px 8px;
+            }
+            .contentCaption p {
+                display:inline;
+            }
+
+             .clImageCaption {
+	            text-align:left;
+                color:#ffffff;
+	            padding: 5px 8px 5px 8px;
+            }
+            .clImageCaption p {
+                display:inline;
+            }
+
+            .contentByline {
+	            font-family:headFont;
+                margin:10px 0 10px 0;
+            }
+            .contentByline p {
+                display:inline-block;
+                padding-right:8px;
+            }
+            .contentByline p:last-child {
+                font-family:bodyFont;
+            }
+
+            .clByline {
+	            font-family:headFont;
+                margin:10px 0 10px 0;
+            }
+            .clByline p {
+                display:inline-block;
+                padding-right:8px;
+            }
+            .clByline p:last-child {
+                font-family:bodyFont;
+            }
+
+            .contentBody {
+	            font-family:bodyFont;
+                word-wrap: break-word;
+            }
+
+            .contentBody p {
+                margin-top:15px;
+                margin-bottom:15px;
+            }
+
+            .clBody {
+	            font-family:bodyFont;
+                word-wrap: break-word;
+            }
+
+            .clBody p {
+                margin-top:15px;
+                margin-bottom:15px;
+            }
+
+            .font35 {
+                font-size:39px;
+            }
+            .font25 {
+                font-size:29px;
+            }
+            .font15 {
+                font-size:19px;
+            }
+            .font13 {
+                font-size:17px;
+            }
+
+            .ad {
+                display:none;
+            }
+
+            .stLarge {
+	            background-repeat:no-repeat !important;
+	            background-position:center !important;
+            }
+            .st_facebook_large .stLarge {
+	            background:url("facebook-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_twitter_large .stLarge {
+	            background:url("twitter-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_linkedin_large .stLarge {
+	            background:url("linkedin-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_pinterest_large .stLarge {
+	            background:url("pinterest-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_googleplus_large .stLarge {
+	            background:url("google-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_email_large .stLarge {
+	            background:url("email-ic.png") !important;
+	            background-size:contain !important;
+            }   
+
+            .contentBody a {
+              text-decoration: none;
+              font-family: Arial;
+              color: #4591B8;
+            }
+
+            table.contentBody {
+                display:none;
+            }
+
+            .printImage {
+              display: none;
+              height: 100%;
+              width: auto;
+            }
+
+             @media print {
+                 .topBar {
+                     max-height:0px;
+                 }
+
+                 .controls{
+                     display:none !important;
+                 }
+
+                 .bottomNav {
+                     max-height:0px;
+                 }
+
+                 .bottomBar {
+                     max-height:0px;
+                 }
+
+                .x-scroll-scroller-vertical.x-scroll-scroller {
+              height: 100% !important;
+              -webkit-transform: translate3d(0px, -0px, 0px) !important;
+            }
+
+
+
+               .printImage {
+                display:block;
+                height:100%;
+                margin:auto;
+               }
+
+
+
+               .outerDiv {
+                display:none;
+               }
+            }
+        </style>
+        <script type="text/javascript" src="https://edition.pagesuite.com/tribune/jquery-1.11.3.min.js"></script>
+        <script id="resizeScript" type="text/javascript">
+            function increaseText() { resizeText(4); }
+            function decreaseText() { resizeText(-4); }
+            function resizeText(multiplier) {
+                var font35Size = 39;
+                var font25Size = 29;
+                var font15Size = 19;
+                var font13Size = 17;
+
+                var font35UpperLimit = 79;
+                var font25UpperLimit = 69;
+                var font15UpperLimit = 57;
+                var font13UpperLimit = 51;
+
+                var font35LowerLimit = 31;
+                var font25LowerLimit = 21;
+                var font15LowerLimit = 11;
+                var font13LowerLimit = 9;
+
+                var cols = document.getElementsByClassName("font35");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font35Size = parseFloat(font35Size) + 4 + (multiplier * 0.2);
+                    } else {
+                        font35Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font35Size > font35UpperLimit) {
+                        font35Size = font35UpperLimit;
+                    }
+                    else if (font35Size < font35LowerLimit) {
+                        font35Size = font35LowerLimit;
+                    }
+                    cols[i].style.fontSize = font35Size + "px";
+                    //localStorage.setItem("font35" + publicationguid, font35Size);
+                }
+
+                cols = document.getElementsByClassName("font25");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font25Size = 29 + (multiplier * 0.2);
+                    } else {
+                        font25Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font25Size > font25UpperLimit) {
+                        font25Size = font25UpperLimit;
+                    }
+                    else if (font25Size < font25LowerLimit) {
+                        font25Size = font25LowerLimit;
+                    }
+                    cols[i].style.fontSize = font25Size + "px";
+                    //localStorage.setItem("font25" + publicationguid, font25Size);
+                }
+
+                cols = document.getElementsByClassName("font15");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font15Size = 19 + (multiplier * 0.2);
+                    } else {
+                        font15Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font15Size > font15UpperLimit) {
+                        font15Size = font15UpperLimit;
+                    }
+                    else if (font15Size < font15LowerLimit) {
+                        font15Size = font15LowerLimit;
+                    }
+                    cols[i].style.fontSize = font15Size + "px";
+                    //localStorage.setItem("font15" + publicationguid, font15Size);
+                }
+
+                cols = document.getElementsByClassName("font13");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font13Size = 17 + (multiplier * 0.2);
+                    } else {
+                        font13Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font13Size > font13UpperLimit) {
+                        font13Size = font13UpperLimit;
+                    }
+                    else if (font13Size < font13LowerLimit) {
+                        font13Size = font13LowerLimit;
+                    }
+                    cols[i].style.fontSize = font13Size + "px";
+                    //localStorage.setItem("font13" + publicationguid, font13Size);
+                }
+
+                /*var cols = document.getElementsByClassName("font35");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (39 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }
+                cols = document.getElementsByClassName("font25");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (29 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }
+                cols = document.getElementsByClassName("font15");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (19 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }
+                cols = document.getElementsByClassName("font13");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (17 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }*/
+
+                if (document.getElementsByClassName("font35")[0] != null) {
+                    var currentStep = parseFloat(document.getElementsByClassName("font35")[0].style.fontSize) - 39;
+                    document.cookie = "articlefontstep=" + currentStep + "; expires=Wed, 1 Jan 2020 12:00:00 UTC";
+                }
+            }
+            function runArticleFontSetup() {
+                var myCookie = getCookie("articlefontstep");
+
+                if (myCookie != null) {
+                    resizeText(parseFloat(myCookie));
+                }
+            }
+            function getCookie(name) {
+                var dc = document.cookie;
+                var prefix = name + "=";
+                var begin = dc.indexOf("; " + prefix);
+                if (begin == -1) {
+                    begin = dc.indexOf(prefix);
+                    if (begin != 0) {
+                        return null;
+                    } else {
+                        var end = document.cookie.indexOf(";", begin);
+                        if (end == -1) {
+                            end = dc.length;
+                        }
+                    }
+                }
+                else {
+                    begin += 2;
+                    var end = document.cookie.indexOf(";", begin);
+                    if (end == -1) {
+                        end = dc.length;
+                    }
+                }
+                return unescape(dc.substring(begin + prefix.length, end));
+            }
+    </script>
+        <script type="text/javascript">
+            var currentImageCount = 1;
+            var totalImages = 1;
+            $(document).ready(function () {
+                runArticleFontSetup();
+
+                runGallerySetup();
+            });
+            function runGallerySetup() {
+                if ($(".contentImage").size() > 1) {
+                    totalImages = $(".contentImage").size();
+                    if (totalImages > 1) {
+                        $(".contentImage:gt(0)").hide();
+                        $(".previousImage").hide();
+                        updateCount();
+                    } else if (totalImages == 1) {
+                        $(".imageControls").hide();
+                    }
+
+                    $(".nextImage").click(function () {
+                        var currentItem = $(".contentImage:visible");
+                        var nextItem = $(".contentImage:visible").next();
+                        currentItem.hide();
+                        currentImageCount++;
+                        updateCount();
+                        nextItem.fadeIn();
+
+                        $(".previousImage").show();
+                        if (nextItem.is(".contentImage:last")) {
+                            $(".nextImage").hide();
+                        }
+                    });
+
+                    $(".previousImage").click(function () {
+                        var currentItem = $(".contentImage:visible");
+                        var prevItem = $(".contentImage:visible").prev();
+                        currentItem.hide();
+                        currentImageCount--;
+                        updateCount();
+                        prevItem.fadeIn();
+
+                        $(".nextImage").show();
+                        if (prevItem.is(".contentImage:first")) {
+                            $(".previousImage").hide();
+                        }
+                    });
+                } else {
+                    $(".imageControls").hide();
+                }
+            }
+            function updateCount() {
+                var count = "Image " + currentImageCount.toString() + " of " + totalImages.toString();
+                $(".imageCount").text(count);
+            }
+	</script>
+    </head>
+    <body>
+        
+
+<div class="container">
+	<div class="content">
+		<div class="controls">
+			<div class="sharingFlash">
+				<span class='st_email_large' displayText='Email'></span>
+				<span class='st_facebook_large' displayText='Facebook'></span>
+				<span class='st_twitter_large' displayText='Tweet'></span>
+			</div>
+            <div class="textSizeFlash">
+                <img style="cursor:hand;cursor:pointer;width:32px;height:32px;" src="http://digitaledition.courant.com/tribune/print-icon.png" alt="Print" onClick="window.print()" />
+				&nbsp;&nbsp;
+				<img style="cursor:hand;cursor:pointer;width:32px;height:32px;" src="assets/article view/Text_Increase_Icon.png" onClick="increaseText()"/>
+				&nbsp;&nbsp;
+				<img style="cursor:hand;cursor:pointer;width:32px;height:32px;" src="assets/article view/Text_Decrease_Icon.png" onClick="decreaseText()"/>
+			</div>
+			<div class="clearFloat"><!-- --></div>
+		</div>
+		<div class="articleContent">
+			
+			<div class="contentHead font35">
+				<p xmlns:cci="urn:schemas-ccieurope.com">State GOP is</p><p xmlns:cci="urn:schemas-ccieurope.com">in a bind over Trump </p>
+			</div>
+			<div class="contentDeck font25"><p xmlns:cci="urn:schemas-ccieurope.com">In vote for next party chair, Republicans are split. Do they double down or chart a new direction forward?</p></div>
+            
+			<div class="contentByline font15"><p xmlns:cci="urn:schemas-ccieurope.com"><byline_name name="byline_name" class="character" displayname="byline_name">By Christine Mai-Duc</byline_name></p></div>
+			<div class="contentBody font15">
+				<p xmlns:cci="urn:schemas-ccieurope.com">Still smarting from <a name="web" class="character" href="http://www.latimes.com/politics/la-me-pol-california-disappearing-republicans-20181116-story.html" displayname="web" target="_blank">historic losses in the November “blue wave,”</a> Orange County Republicans gathered last month to consider a new leader and direction for the state party.</p><p xmlns:cci="urn:schemas-ccieurope.com">Though President Trump wasn’t the topic of discussion in the Costa Mesa hotel ballroom where they met, he was probably not far from anyone’s mind.</p><p xmlns:cci="urn:schemas-ccieurope.com">“All they want to tell us in the Republican establishment is you need to look and sound more like a California Democrat — to be a ‘Republican Light’ — to get elected in California. Is that true?” shouted former Assemblyman Travis Allen, an ardent Trump supporter running for California Republican Party chairman, before a chorus of “No!” filled the room.</p><p xmlns:cci="urn:schemas-ccieurope.com">As Republicans prepare to elect a new chair this month to remake their battered California brand, Allen and the restive group of activists backing him present a challenge: How does the party harness grass-roots fervor that has reinvigorated its base but could prove volatile in charting a path forward?</p><p xmlns:cci="urn:schemas-ccieurope.com">In his failed bid for governor last year, Allen came to embody the impassioned pro-Trump segment of the state GOP, giving voice to frustrated members who believe that doubling down on conservative stances, including support for Trump’s plan to build a U.S.-Mexico border wall and expanding coastal oil drilling, will fuel a resurgence.</p><p xmlns:cci="urn:schemas-ccieurope.com">But a <a name="web" class="character" href="https://www.latimes.com/politics/essential/la-pol-ca-essential-politics-updates-former-gop-leader-of-the-california-1515558067-htmlstory.html" displayname="web" target="_blank">growing number of Republican strategists</a> in the state believe the only way their party can stay afloat is to attract moderate, suburban Republicans and younger, more diverse voters who have become increasingly hostile toward the Trump agenda.</p><p xmlns:cci="urn:schemas-ccieurope.com">“Republicans only appeal to white people over the age of 35, which mathematically means we’re at a tremendous disadvantage,” said Mike Murphy, a longtime GOP consultant who is now co-director of USC’s Center for the Political Future. </p><p xmlns:cci="urn:schemas-ccieurope.com">“Our donors have given up faith because they don’t know how the math works to elect any of the usual Republicans.”</p><p xmlns:cci="urn:schemas-ccieurope.com">Republicans haven’t sent a single candidate to statewide elected office since 2006 and hold just seven of California’s 53 congressional districts, while Democrats have regained supermajorities in both houses of the Legislature.</p><p xmlns:cci="urn:schemas-ccieurope.com">As the face of the California GOP, the chairperson bears the responsibility of raising money to fund operations and for essential tasks including supporting candidates, training volunteers and paying staff who could shepherd the party’s hoped-for comeback.</p><p xmlns:cci="urn:schemas-ccieurope.com">Jessica Patterson, a longtime ally of House Minority Leader Kevin McCarthy, has touted broad support from elected officials and top- dollar donors in her bid for party chair.</p><p xmlns:cci="urn:schemas-ccieurope.com">But her rivals, Allen and activist Steve Frank, have railed against “special-interest billionaires” and “overpaid consultants” who they claim run the party, counting Patterson among those ranks.</p><p xmlns:cci="urn:schemas-ccieurope.com">Allen’s populist message has resonated with so many rank-and-file Republicans that the race to lead the state party is widely expected to be the closest in more than a decade. He has riled longtime loyalists of the beleaguered state GOP with a combative, <a name="web" class="character" href="https://www.latimes.com/politics/la-pol-ca-travis-allen-california-governor-run-20180525-story.html" displayname="web" target="_blank">lone-wolf approach to party politics</a> and drawn a modest but devoted following. He and Patterson are considered the front-runners in the race.</p><p xmlns:cci="urn:schemas-ccieurope.com">Frank, a past president of the socially conservative California Republican Assembly, runs a blog that frequently criticizes illegal immigration and recently called presidential candidate Kamala Harris a “proud socialist.”</p><p xmlns:cci="urn:schemas-ccieurope.com">Mike Madrid, a veteran GOP consultant who is among the Republicans calling for a total revamp of the party, says its only hope is to reject Trump’s rhetoric and appeal to Latinos and young voters to prevent it from becoming “the party of the desert, mountains and forest.”</p><p xmlns:cci="urn:schemas-ccieurope.com">“If it doubles down in [Trump’s] direction,” Madrid said, “it’s over.”</p><p xmlns:cci="urn:schemas-ccieurope.com">David Hadley, a former assemblyman from L.A. County who launched a short-lived bid for governor in 2017, tried a “big tent” approach when he announced a run for party chairman. He lasted a month before dropping out because of lack of support from delegates, many of whom cited his refusal to vote for Trump in 2016, he said.</p><p xmlns:cci="urn:schemas-ccieurope.com">“I’m always trying to remember that politics is a game of addition, not subtraction,” Hadley said. “It doesn’t feel like that’s what a lot of delegates want right now. They want somebody to channel their frustration.”</p><p xmlns:cci="urn:schemas-ccieurope.com">That frustration was evident in Costa Mesa when Frank, considered by most to be a long-shot candidate for chair, drew loud applause after he alleged widespread voter fraud in the state — a claim that <a name="web" class="character" href="https://www.latimes.com/politics/la-pol-ca-trump-tweet-california-voter-fraud-20161127-story.html" displayname="web" target="_blank">has been debunked</a> — and gave out his cellphone number to the room.</p><p xmlns:cci="urn:schemas-ccieurope.com">“You shouldn’t have to be a big donor to the party, a legislator or some important person to be able to talk to the chairman of the California Republican Party,” he said.</p><p xmlns:cci="urn:schemas-ccieurope.com">Orange County Republican Party Chairman Fred Whitaker was blunt about the party’s challenges. Upward of 15% of GOP voters there abandoned the party to vote for Democrats in the midterms, he said.</p><p xmlns:cci="urn:schemas-ccieurope.com">“Will we be a party that’s more insular, retreating to grouse amongst ourselves and criticize other Republicans?” Whitaker asked the crowd. “Or will we be a party that aggressively works to win back the votes of our fellow Republicans?”</p><p xmlns:cci="urn:schemas-ccieurope.com">Someone rose to call for his resignation, an effort quickly quashed.</p><p xmlns:cci="urn:schemas-ccieurope.com">Patterson called on the party to be “more embracing.” Attendees sat quietly as she rattled off a long list of legislators supporting her bid: six of the seven House Republican members, including McCarthy; seven of the 10 state senators; and, in the Assembly, 14 of the 20 caucus members — until one of them announced days later that he was joining the Democratic Party and it became 19.</p><p xmlns:cci="urn:schemas-ccieurope.com">She is the only candidate, she said, to have deep support among major Republican donors.</p><p xmlns:cci="urn:schemas-ccieurope.com">But “sitting in the same room and chatting with the same people isn’t going to grow our party,” she added.</p><p xmlns:cci="urn:schemas-ccieurope.com">Like Republicans, the California Democratic Party is experiencing tension within its own activist base.</p><p xmlns:cci="urn:schemas-ccieurope.com">Progressive activists, some of them new to the party, haven’t been shy about flexing their muscle over the last couple of years.</p><p xmlns:cci="urn:schemas-ccieurope.com">They helped <a name="web" class="character" href="https://www.latimes.com/politics/la-pol-ca-dianne-feinstein-california-democratic-party-endorsement-20180226-story.html" displayname="web" target="_blank">block the endorsement of U.S. Sen. Dianne Feinstein</a> in her reelection bid and opted instead to <a name="web" class="character" href="https://www.latimes.com/politics/la-pol-ca-senate-feinstein-de-leon-endorsement-20180714-story.html" displayname="web" target="_blank">back her opponent,</a> former state Senate leader Kevin de León of Los Angeles. And after Assembly Speaker Anthony Rendon (D-Paramount) halted a bill for a statewide single-payer healthcare system, some launched a recall effort against him, though it later fizzled out.</p><p xmlns:cci="urn:schemas-ccieurope.com">“A lot of the activists are really good at going to rallies. They’re really bad at winning elections,” said Steve Maviglio, a Democratic consultant.</p><p xmlns:cci="urn:schemas-ccieurope.com">“Everyone’s riding that sugar high from last November, but it’s time to look at the future.”</p><p xmlns:cci="urn:schemas-ccieurope.com">Electing a chair who has experience fundraising and managing factions in a large, often unwieldy organization is key, Maviglio said. An effective leader has the ability to channel activists’ energy to knock on doors and unite legislators on issues, all while making a case to donors that the party has a message and an infrastructure worth investing in.</p><p xmlns:cci="urn:schemas-ccieurope.com">That formula for success, political observers say, is a bipartisan one.</p><p xmlns:cci="urn:schemas-ccieurope.com">“If anybody believes that a party can exist with only the grass roots or that a party can exist with only donors, they are someone that doesn’t understand the nature of parties,” said Jim Brulte, the outgoing state GOP chairman. </p><p xmlns:cci="urn:schemas-ccieurope.com">Brulte, who was elected in 2013, is credited with aggressive fundraising that helped dig the party out of significant debt.</p><p xmlns:cci="urn:schemas-ccieurope.com">Allen has laid out a plan to collect $10 a month from 100,000 Republican donors throughout the state to fund the party’s efforts, a proposal insiders call unrealistic.</p><p xmlns:cci="urn:schemas-ccieurope.com">More likely, they say, is that Allen’s insistence on courting the most die-hard Trump fans seemingly to the exclusion of other wings of the party could spell doom for the state GOP’s finances.</p><p xmlns:cci="urn:schemas-ccieurope.com">“We’re asking ourselves for complete disaster if we’re looking at just the small segment of Republicans that are lockstep, 100% with Trump,” said Erik Weigand, treasurer for the Orange County Republican Party.</p><p xmlns:cci="urn:schemas-ccieurope.com">He says the county party has already begun preparing to beef up its own donor networks in case a newly elected chair proves incapable of raising funds needed for local races.</p><p xmlns:cci="urn:schemas-ccieurope.com">The Democrats, he said, have plenty of people who are “willing to walk through broken glass to oppose Donald Trump.”</p><p xmlns:cci="urn:schemas-ccieurope.com">“Does the Republican Party have enough people willing to walk through broken glass to help Donald Trump?” Weigand asked. ”I don’t see it.”</p>
+			</div>
+		</div>
+        
+	</div>
+	<div class="ad">
+		<a href="http://www.latimes.com/">
+			<img src="blue-sky-banner-ad2.jpg" style="width:728px;" />
+		</a>
+	</div>
+</div>
+
+
+    </body>
+</html>

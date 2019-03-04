@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"transactionName":"ZgNTN0UDDRdWBUcNCV9JdxZZARcNWAgcAAxQCFYMGQ8KAFMKVhMHQwMfAEQQBV50FUECMFgDRi5eBgcIUhFSFgMfFkMMVAcQF2gQWgER","queueTime":0,"applicationTime":34,"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3fbe3afc42","agent":"","applicationID":"34191393"}</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+お題 トミオさんの推しって工藤遥ちゃんで...
+</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/general.48b125ef4477.css">
+    <meta name="application-name" content="お題箱">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-90719809-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src='//static.quant.jp/lait.js' data-lait='on' data-sid='6bb1ac09663506a35835de509e2639f8' data-tag-version='1.0.0' defer async></script>
+    
+
+    
+<link rel="stylesheet" type="text/css" href="/static/core/css/request_detail.b34b37b3ff1e.css">
+
+    
+<meta name="robots" content="noindex">
+
+    </head>
+  <body>
+    
+
+<link rel="stylesheet" type="text/css" href="/static/css/header.7e0d1e11638c.css">
+<script></script>
+<header class="header">
+<ul id="menu_bar">
+  <li><a class="alink"  href="/">お題箱</a></li>
+  <li></li>
+  <li></li>
+  <li><a class="alink" href="/accounts/login">ログイン</a></li>
+</ul>
+</header>
+
+<div id="GlobalMenuWindowMask"></div>
+<div id="GlobalMenuWindow">
+  <ul class="menu_list">
+    <li class="menu_item">
+      <a class="link" href="/accounts/twitter/login/?process=login&auth_params=force_login%3Dtrue">
+        別アカでログイン
+      </a>
+    </li>
+    <li class="menu_item">
+      <a class="link" href="/multi_account">
+        アカウント切り替え
+      </a>
+    </li>
+    <li class="menu_item">
+      <a class="link" href="/accounts/logout">
+        ログアウト
+      </a>
+    </li>
+    <li class="menu_item">
+      <div class="link close_menu" id="MenuWindowSwitch2">
+        ×
+      </div>
+    </li>
+  </ul>
+</div>
+
+<script>
+"use strict";
+(function(){
+  var menu_window_switch = document.querySelector('#MenuWindowSwitch');
+  var menu_window_switch2 = document.querySelector('#MenuWindowSwitch2');
+  var menu_window = document.querySelector('#GlobalMenuWindow');
+  var menu_window_mask = document.querySelector('#GlobalMenuWindowMask');
+
+  if(menu_window_switch){
+    var is_visible = false;
+    menu_window_switch.addEventListener('click', function(){
+      if(!is_visible){
+        open_menu_window();
+      } else {
+        close_menu_window();
+      }
+    });
+
+    menu_window_switch2.addEventListener('click', function(){
+      if(!is_visible){
+        open_menu_window();
+      } else {
+        close_menu_window();
+      }
+    });
+
+    menu_window_mask.addEventListener('click', function(){
+      // マスクをクリックされてもメニューを閉じる
+      if(is_visible){
+        close_menu_window();
+      }
+    });
+
+    function open_menu_window(){
+      menu_window.classList.add('open');
+      menu_window_mask.classList.add('open');
+      is_visible = true;
+    }
+
+    function close_menu_window(){
+      menu_window.classList.remove('open');
+      menu_window_mask.classList.remove('open');
+      is_visible = false;
+    }
+  }
+})();
+</script>
+
+<div class="caption">
+  
+  <a href="/u/pinemeshi">トミオのお題箱</a>に投稿されたお題です。
+  
+</div>
+<div id="main_container">
+  <div class="request_container_wrapper">
+    <div class="request_container">
+      <div class="text">
+        トミオさんの推しって工藤遥ちゃんですか…？先日ステーシーズとリリウムを見たのですが、めちゃめちゃ可愛かったです。ぜひ彼女のダイマお願いします！！
+      </div>
+      <ul class="right_bottom_things">
+        <li class="tool_tips">
+        </li>
+        To <a href="/u/pinemeshi">トミオ</a>
+        <span class="created_date">
+          2017年11月23日19:11
+        </span>
+      </ul>
+    </div>
+  </div>
+</div>
+<div style="text-align: center; margin: 20px 0">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text=">トミオさんの推しって工藤遥ちゃんですか…？先日ステーシーズとリリウムを見たのですが、めちゃめちゃ可愛かったです。ぜ..." data-hashtags="odaibako_pinemeshi">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+
+  <!-- not ex -->
+  <div class="google_adsense">
+  
+  
+    <div class="adsense_double_rectangle">
+      <div class="adsense_rect">
+        <!-- BEGIN CRITEO CDB -->
+        <script async='async' type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+        <script>
+            var CriteoAdUnits1120114 = {
+                "placements": [
+                    /* Criteo Placements List */
+                    {
+                        "slotid": "criteo_1120114",
+                        "zoneid": 1120114
+                    }
+                ]
+            };
+            window.Criteo = window.Criteo || {};
+            window.Criteo.events = window.Criteo.events || [];
+            var CriteoBids1120114 = CriteoBids1120114 || {},
+                CriteoBidsReceived1120114 = function() {
+                    for (var t in CriteoAdUnits1120114.placements) {
+                        var e = CriteoAdUnits1120114.placements[t],
+                            i = Criteo.GetBidsForAdUnit(e.slotid);
+                        CriteoBids1120114[e.slotid] = i.length > 0 ? i[0] : null
+                    }
+                },
+                CriteoDisplayAd1120114 = function(t, e, i) {
+                    if (void 0 === i && (i = 0), null !== CriteoBids1120114[t])
+                        if (void 0 === CriteoBids1120114[t] && null !== CriteoBids1120114[t]) 100 > i && setTimeout(function() {
+                            CriteoDisplayAd1120114(t, e, i + 1)
+                        }, 200);
+                        else {
+                            var r = document.getElementById(t);
+                            if (r) {
+                                var s = document.createElement("iframe");
+                                s.setAttribute("id", t + "_iframe"), s.setAttribute("frameborder", "0"), s.setAttribute("allowtransparency", "true"), s.setAttribute("hspace", "0"), s.setAttribute("marginwidth", "0"), s.setAttribute("marginheight", "0"), s.setAttribute("scrolling", "no"), s.setAttribute("vspace", "0"), s.setAttribute("width", CriteoBids1120114[t].width), s.setAttribute("height", CriteoBids1120114[t].height), r.appendChild(s);
+                                var o = '<script src="' + CriteoBids1120114[t].displayUrl + '"></scr' + 'ipt>',
+                                    d = s.contentWindow.document;
+                                d.open(), d.write(o), d.close()
+                            }
+                        }
+                    else "function" == typeof e && e()
+                };
+            Criteo.events.push(function() {
+                Criteo.RequestBids(CriteoAdUnits1120114, CriteoBidsReceived1120114, 2000);
+            });
+        </script>
+        <!-- END CRITEO CDB -->
+        <!-- START CRITEO CDB DISPLAY -->
+        <div id="criteo_1120114">
+            <script>
+                CriteoDisplayAd1120114("criteo_1120114", function() {
+                    var slotid = "criteo_1120114"; var div = document.getElementById(slotid);
+        if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", slotid+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", "336"), ifr.setAttribute("height", "280");
+        div.appendChild(ifr);
+        var htmlcode = "<html><head></head><body><script type=\"text/javascript\" src=\"https://js.gsspcln.jp/t/199/940/a1199940.js\"></scr"+"ipt>\n"+
+        "\n"+
+        "</body></html>";
+        var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+                });
+            </script>
+        </div>
+        <!-- END CRITEO CDB DISPLAY -->
+      </div>
+      <div class="adsense_rect">
+        <!-- BEGIN CRITEO CDB -->
+        <script async='async' type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+        <script>
+            var CriteoAdUnits1120115 = {
+                "placements": [
+                    /* Criteo Placements List */
+                    {
+                        "slotid": "criteo_1120115",
+                        "zoneid": 1120115
+                    }
+                ]
+            };
+            window.Criteo = window.Criteo || {};
+            window.Criteo.events = window.Criteo.events || [];
+            var CriteoBids1120115 = CriteoBids1120115 || {},
+                CriteoBidsReceived1120115 = function() {
+                    for (var t in CriteoAdUnits1120115.placements) {
+                        var e = CriteoAdUnits1120115.placements[t],
+                            i = Criteo.GetBidsForAdUnit(e.slotid);
+                        CriteoBids1120115[e.slotid] = i.length > 0 ? i[0] : null
+                    }
+                },
+                CriteoDisplayAd1120115 = function(t, e, i) {
+                    if (void 0 === i && (i = 0), null !== CriteoBids1120115[t])
+                        if (void 0 === CriteoBids1120115[t] && null !== CriteoBids1120115[t]) 100 > i && setTimeout(function() {
+                            CriteoDisplayAd1120115(t, e, i + 1)
+                        }, 200);
+                        else {
+                            var r = document.getElementById(t);
+                            if (r) {
+                                var s = document.createElement("iframe");
+                                s.setAttribute("id", t + "_iframe"), s.setAttribute("frameborder", "0"), s.setAttribute("allowtransparency", "true"), s.setAttribute("hspace", "0"), s.setAttribute("marginwidth", "0"), s.setAttribute("marginheight", "0"), s.setAttribute("scrolling", "no"), s.setAttribute("vspace", "0"), s.setAttribute("width", CriteoBids1120115[t].width), s.setAttribute("height", CriteoBids1120115[t].height), r.appendChild(s);
+                                var o = '<script src="' + CriteoBids1120115[t].displayUrl + '"></scr' + 'ipt>',
+                                    d = s.contentWindow.document;
+                                d.open(), d.write(o), d.close()
+                            }
+                        }
+                    else "function" == typeof e && e()
+                };
+            Criteo.events.push(function() {
+                Criteo.RequestBids(CriteoAdUnits1120115, CriteoBidsReceived1120115, 2000);
+            });
+        </script>
+        <!-- END CRITEO CDB -->
+        <!-- START CRITEO CDB DISPLAY -->
+        <div id="criteo_1120115">
+            <script>
+                CriteoDisplayAd1120115("criteo_1120115", function() {
+                    var slotid = "criteo_1120115"; var div = document.getElementById(slotid);
+        if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", slotid+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", "336"), ifr.setAttribute("height", "280");
+        div.appendChild(ifr);
+        var htmlcode = "<html><head></head><body><script type=\"text/javascript\" src=\"https://js.gsspcln.jp/t/198/345/a1198345.js\"></scr"+"ipt></body></html>";
+        var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+                });
+            </script>
+        </div>
+        <!-- END CRITEO CDB DISPLAY -->
+      </div>
+    </div>
+  
+</div>
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/footer.9e8716ba26b3.css">
+<footer class="footer">
+<div class="footer_column">
+  <div>
+    <a href="/about/">
+      お題箱について
+    </a>
+  </div>
+  <div>
+    <a href="/faq/">
+      よくある質問
+    </a>
+  </div>
+  <div>
+    <a href="/how2defence">
+      迷惑行為を受けたら
+    </a>
+  </div>
+  <div>
+    <a href="/privacy_policy">
+      プライバシーポリシー
+    </a>
+  </div>
+  <div>
+    <a href="https://twitter.com/odaibako">
+      Twitter
+    </a>
+  </div>
+  <div>
+    <a href="http://blog.odaibako.net/">
+      開発blog
+    </a>
+  </div>
+</div>
+<div class="footer_column">
+  <div>
+    お題箱に対する要望・感想などなどは<a href="/u/nerikeshi_k">こちら</a>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+
+  </body>
+</html>

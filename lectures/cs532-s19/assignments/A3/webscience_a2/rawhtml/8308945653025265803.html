@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5LDM2TR');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-55386553-1", {"cookieDomain":"auto","siteSpeedSampleRate":10});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<meta name="title" content="NRA and Trump Campaign Worked Together to Influence Voters  | Campaign Legal Center" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:site_name" content="Campaign Legal Center" />
+<link rel="canonical" href="https://campaignlegal.org/update/nra-and-trump-campaign-worked-together-influence-voters" />
+<meta name="twitter:description" content="CLC and Giffords Law Center filed a complaint with Federal Election Commission alleging illegal coordination between the Trump campaign and the NRA." />
+<meta property="og:type" content="article" />
+<meta name="description" content="CLC and Giffords Law Center filed a complaint with Federal Election Commission alleging illegal coordination between the Trump campaign and the NRA." />
+<meta name="twitter:title" content="NRA and Trump Campaign Worked Together to Influence Voters" />
+<meta property="og:url" content="https://campaignlegal.org/update/nra-and-trump-campaign-worked-together-influence-voters" />
+<link rel="image_src" href="https://campaignlegal.org/sites/default/files/2018-12/Donald_Trump_NRA%203.jpg" />
+<meta name="twitter:creator" content="@CampaignLegal" />
+<meta property="og:title" content="NRA and Trump Campaign Worked Together to Influence Voters" />
+<meta property="og:description" content="CLC and Giffords Law Center filed a complaint with Federal Election Commission alleging illegal coordination between the Trump campaign and the NRA." />
+<meta name="twitter:url" content="https://campaignlegal.org/update/nra-and-trump-campaign-worked-together-influence-voters" />
+<meta name="twitter:image" content="https://campaignlegal.org/sites/default/files/styles/twitter_summary_card_with_large_image/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;amp;itok=BLXcsTow https://campaignlegal.org/sites/default/files/styles/twitter_summary_card_with_large_image/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;amp;itok=BLXcsTow https://campaignlegal.org/sites/default/files/2018-09/clc-tagline-blue-2048x1024.jpg" />
+<meta property="og:image" content="https://campaignlegal.org/sites/default/files/styles/fb_lg/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;amp;itok=f8szP805" />
+<meta property="og:image" content="https://campaignlegal.org/sites/default/files/styles/fb_lg/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;amp;itok=f8szP805" />
+<meta property="og:image" content="https://campaignlegal.org/sites/default/files/2018-09/clc-tagline-blue-1200x630.jpg" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/ts_calc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="/update/nra-and-trump-campaign-worked-together-influence-voters" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>NRA and Trump Campaign Worked Together to Influence Voters  | Campaign Legal Center</title>
+    <link rel="stylesheet" href="/sites/default/files/css/css_Q_L1jvZPR7X-H7R3PhmZGX-FG0pYOf5LVKaCzEuAFrA.css?pnaaea" media="all" />
+<link rel="stylesheet" href="/sites/default/files/css/css_detKhntIOl-Bo8n93bujYc0xhPhvW4AMHH75as0DnDA.css?pnaaea" media="all" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+    <link rel="preload" href="https://cloud.typography.com/6817636/6407992/css/fonts.css" as="style" onload="this.rel='stylesheet'">
+  </head>
+  <body class="update-nra-and-trump-campaign-worked-together-influence-voters path-node page-node-type-article">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LDM2TR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="page-max-width">
+			<header class="section-header section">
+			<div class="section-inner">
+			  			    	<div class="region region-branding">
+	  <div id="block-ts-calc-branding" class="block block-system block-system-branding-block">
+  
+    
+              <a href="/index.php/" title="Home" rel="home" class="site-logo">
+            <img src="/themes/custom/ts_calc/logo.svg" alt="Home" />
+        </a>
+                <div class="site-name">
+            <a href="/index.php/" title="Home" rel="home">Campaign Legal Center</a>
+        </div>
+        
+    <a class="menu-toggle">
+        <div class="menu-toggle-wrapper">
+            <span aria-hidden="false">Main Menu</span>
+        </div>
+    </a>
+</div>
+
+	</div>
+
+			  			  					<nav id="site-navigation" class="site-navigation">
+					  					    	<div class="region region-primary-nav">
+	  <nav role="navigation" aria-labelledby="block-header-2-menu" id="block-header-2" class="block block-menu navigation menu--header">
+            
+  <h2 class="visually-hidden" id="block-header-2-menu">Header</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/latest" title="The Latest" data-drupal-link-system-path="node/6830">The Latest</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/impact" title="Impact" data-drupal-link-system-path="node/6827">Impact</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="issues" title="Issues" data-drupal-link-system-path="&lt;front&gt;">Issues</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/issues/campaign-finance" data-drupal-link-system-path="node/1">Campaign Finance</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/issues/ethics" title="Ethics" data-drupal-link-system-path="node/2">Ethics</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/issues/redistricting" title="Redistricting" data-drupal-link-system-path="node/3">Redistricting</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/issues/voting-rights" title="Voting Rights" data-drupal-link-system-path="node/4">Voting Rights</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cases-actions" title="Cases &amp; Actions" data-drupal-link-system-path="node/6824">Cases &amp; Actions</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/about" class="about" title="About" data-drupal-link-system-path="node/6825">About</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/about/staff" title="Staff" data-drupal-link-system-path="node/6823">Staff</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/about/board" title="Trustees &amp; Advisors" data-drupal-link-system-path="node/6834">Trustees &amp; Advisors</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/about/careers" title="Careers" data-drupal-link-system-path="node/6831">Careers</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/about/support" title="Support Our Work" data-drupal-link-system-path="node/6832">Support Our Work</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+	</div>
+
+					  					  					    	<div class="region region-secondary-nav">
+	  <nav role="navigation" aria-labelledby="block-headersecondary-menu" id="block-headersecondary" class="block block-menu navigation menu--header-secondary">
+            
+  <h2 class="visually-hidden" id="block-headersecondary-menu">Header Secondary</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/media-center" title="Media Center" data-drupal-link-system-path="node/6822">Media Center</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/get-updates" title="Get Updates" data-drupal-link-system-path="node/6833">Get Updates</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/search" data-drupal-link-system-path="search">Search</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E232752&amp;id=1" class="donate" target="_blank" title="Donate">Donate</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+	</div>
+
+					  					</nav>
+			  			</div>
+		</header>
+	</div>
+
+<div id="main-content" class="page-max-width section-main-content section">
+		  	<div class="region region-banner">
+	  
+
+	</div>
+
+		<div class="section-content">
+				  	<div class="region region-content">
+	  <div id="block-ts-calc-content" class="block block-system block-system-main-block">
+  
+    
+      
+  
+  
+  
+<div class='svg-bar'></div>
+<div data-history-node-id="7708" class="node node--type-article node--view-mode-full ds-1col clearfix no-author has-image has-sidebar page-max-width" typeof="schema:Article">
+
+	
+
+  
+            <div class="field field--name-node-title field--type-ds field--label-hidden field__item"><h1 class="page-title">
+  NRA and Trump Campaign Worked Together to Influence Voters
+</h1>
+</div>
+      
+<div  class="meta-info">
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field__item">December 10, 2018</div>
+      
+  </div>
+<div  class="content-main">
+      
+<div  class="content-aside">
+      <span class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://campaignlegal.org/update/nra-and-trump-campaign-worked-together-influence-voters" data-a2a-title="NRA and Trump Campaign Worked Together to Influence Voters "><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_email"></a></span>
+  <div class="field field--name-field-case-action-issue field--type-entity-reference field--label-above">
+    <div class="field__label">Issues</div>
+          <div class="field__items">
+              <div class="field__item"><a href="/issues/campaign-finance" hreflang="en">Campaign Finance</a></div>
+              </div>
+      </div>
+
+  </div>
+            <div class="field field--name-field-article-image field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-article-image">
+  
+      
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/2000x765/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;itok=U1Ayzwvi 1x" media="(min-width: 1442px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/1440x550/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;itok=a9NEhYaC 1x" media="(min-width: 769px) and (max-width: 1441px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/768x350/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;itok=0Elhz4DF 1x" media="(min-width: 401px) and (max-width: 768px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/400x475/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;itok=BEhiUYFw 1x" media="(min-width: 0px) and (max-width: 400px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/sites/default/files/styles/400x475/public/2018-12/Donald_Trump_NRA%203.jpg?h=7e3a3cd2&amp;itok=BEhiUYFw" alt="Trump and NRA" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+          </div>
+
+            <div class="field field--name-field-caption field--type-string-long field--label-hidden field__item">Gage Skidmore from Peoria, AZ, United States of America, via Wikimedia Commons</div>
+      
+  </article>
+</div>
+      
+<div  class="content-main--inner">
+      
+            <div class="clearfix text-formatted field field--name-field-article-body field--type-text-long field--label-hidden field__item"><p>During the 2016 election cycle, the National Rife Assocation’s (NRA) political and lobbying arms spent over $25 million supporting Trump, mostly for television advertising, and distributed and placed those advertisements using the same network of consulting firms that placed the Trump campaign’s own advertisements.</p>
+
+<p>In fact, in the final stretch of the 2016 election, <em>the same four</em> strategists at the media consulting firm National Media repeatedly placed ads on behalf of both the NRA and Trump campaign, in some cases on the same stations or programs, to advance a unified strategy.</p>
+
+<p>On December 7, 2018 Campaign Legal Center (CLC) and Giffords Law Center filed a <a href="https://campaignlegal.org/document/clc-and-giffords-law-center-complaint-fec-trumpnra-campaign-coordination">complaint </a>with Federal Election Commission alleging illegal coordination between the Trump campaign and the NRA.</p>
+
+<p>The FEC regulates the use of common vendors for media placement because the targeting of political ads is a critical element of a campaign effort. If the NRA knew about the Trump campaign’s strategy, it could time and target its pro-Trump ads to complement and reinforce the campaign’s own efforts.</p>
+
+<p>If the NRA’s ads are coordinated, then the law treats the spending on those ads as an in-kind contribution to the candidate. The $25 million spent supporting Trump far exceeds the $2,700 contribution limits.</p>
+
+<p>In October CLC first unearthed the NRA’s use of shell companies to coordinate media buys, and we filed a <a href="https://campaignlegal.org/press-releases/clc-flags-nra-coordination-missouri-senate-campaign">complaint</a> against the NRA and then-U.S. Senate candidate Josh Hawley.</p>
+
+<p><em><a href="https://www.thetrace.org/2018/12/trump-nra-campaign-coordination/">The Trace / Mother Jones</a></em> identified that those same shell companies helped the NRA back Trump in 2016. The complaint cites dozens of Federal Communications Commission (FCC) records documenting the coordinated effort.</p>
+
+<p>The NRA can legally make unlimited expenditures to support the Trump campaign only if the organizations are completely independent. But if the same people buying ads for the Trump campaign also placed the NRA’s pro-Trump ads, then the NRA’s spending was not at all independent.</p>
+
+<p>CLC requests that the FEC seek appropriate sanctions for all violations to deter future violations. The FEC should also seek out additional remedies as appropriate to ensure compliance with campaign finance laws moving forward.</p></div>
+      
+  </div>
+  </div>
+      <div class="field field--name-field-article-content field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--cta-premade paragraph--view-mode--default page-max-width paragraph--newsletter-signup">
+    <div class="paragraph--inner">
+              
+            <div class="field field--name-field-p-cta-premade-block field--type-entity-reference field--label-hidden field__item"><div class="block-content block-content--type-newsletter-signup block-content--view-mode-default ds-1col clearfix js-add-placeholders">
+
+  
+
+  <div class="image" style="background-image: url(/sites/default/files/2018-06/Paul%20at%20Supreme%20Court.JPG)">
+		
+            <div class="field field--name-field-newsletter-image field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-newsletter-sign-up-image-area">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/595x400/public/2018-06/Paul%20at%20Supreme%20Court.JPG?h=4598b561&amp;itok=EXbgJE9y 1x" media="(min-width: 1442px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/511x349/public/2018-06/Paul%20at%20Supreme%20Court.JPG?h=4598b561&amp;itok=UYDLrzGF 1x" media="(min-width: 769px) and (max-width: 1441px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/511x349/public/2018-06/Paul%20at%20Supreme%20Court.JPG?h=4598b561&amp;itok=UYDLrzGF 1x" media="(min-width: 401px) and (max-width: 768px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/511x349/public/2018-06/Paul%20at%20Supreme%20Court.JPG?h=4598b561&amp;itok=UYDLrzGF 1x" media="(min-width: 0px) and (max-width: 400px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/sites/default/files/styles/511x349/public/2018-06/Paul%20at%20Supreme%20Court.JPG?h=4598b561&amp;itok=UYDLrzGF" alt="Speakers outside Supreme Court partisan gerrymandering rally" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+  </article>
+</div>
+      
+  </div>
+  <div class="text">
+  	<div class="text-custom">
+		  
+            <div class="field field--name-block-description field--type-ds field--label-hidden field__item"><h2 class="block-title">Stay Up to Date</h2></div>
+      
+            <div class="field field--name-field-newsletter-subtitle field--type-string field--label-hidden field__item">Get the latest from CLC in your inbox.</div>
+      
+  	</div>
+  	<div class="newsletter-form">
+  		<div id="mailchimp-signup-subscribe-block-clc-subscribers-form"><form class="mailchimp-signup-subscribe-form" data-drupal-selector="mailchimp-signup-subscribe-block-clc-subscribers-form" action="/update/nra-and-trump-campaign-worked-together-influence-voters" method="post" id="mailchimp-signup-subscribe-block-clc-subscribers-form" accept-charset="UTF-8">
+  <div id="mailchimp-response-mailchimp_signup_subscribe_block_clc_subscribers_form-wrapper"></div><div id="mailchimp-newsletter-2453cd4163-mergefields" class="mailchimp-newsletter-mergefields"><div class="js-form-item form-item js-form-type-email form-type-email js-form-item-mergevars-email form-item-mergevars-email">
+      <label for="edit-mergevars-email" class="js-form-required form-required">Email Address</label>
+        <input data-drupal-selector="edit-mergevars-email" type="email" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="254" class="form-email required" required="required" aria-required="true" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mergevars-fname form-item-mergevars-fname">
+      <label for="edit-mergevars-fname">First Name</label>
+        <input data-drupal-selector="edit-mergevars-fname" type="text" id="edit-mergevars-fname" name="mergevars[FNAME]" value="" size="25" maxlength="128" class="form-text" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mergevars-lname form-item-mergevars-lname">
+      <label for="edit-mergevars-lname">Last Name</label>
+        <input data-drupal-selector="edit-mergevars-lname" type="text" id="edit-mergevars-lname" name="mergevars[LNAME]" value="" size="25" maxlength="128" class="form-text" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mergevars-mmerge3 form-item-mergevars-mmerge3">
+      <label for="edit-mergevars-mmerge3">Zip Code</label>
+        <input data-drupal-selector="edit-mergevars-mmerge3" type="text" id="edit-mergevars-mmerge3" name="mergevars[MMERGE3]" value="" size="25" maxlength="128" class="form-text" />
+
+        </div>
+</div><input autocomplete="off" data-drupal-selector="form-kay6pm-lu65n9z5e32rgralyevgxpahsw61ulzmli4m" type="hidden" name="form_build_id" value="form-kAy6pM-lu65n9z5E32rgralYeVgXpaHSw61UlZmLI4M" />
+<input data-drupal-selector="edit-mailchimp-signup-subscribe-block-clc-subscribers-form" type="hidden" name="form_id" value="mailchimp_signup_subscribe_block_clc_subscribers_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="mailchimp-signup-subscribe-block-clc-subscribers-form-edit-submit" type="submit" id="mailchimp-signup-subscribe-block-clc-subscribers-form-edit-submit" name="op" value="Subscribe" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+</div>
+  	</div>
+  </div>
+
+</div>
+
+</div>
+      
+          </div>
+  </div>
+</div>
+          </div>
+  
+
+</div>
+
+
+  </div>
+<div class="views-element-container block block-views block-views-blockarticles-related-stories-block-1" id="block-views-block-articles-related-stories-block-1">
+  
+      <h2>You might also like...</h2>
+    
+      <div><div class="view view-articles-related-stories view-id-articles_related_stories view-display-id-block_1 js-view-dom-id-a18afb6b4218f917dd1688902cb59e6a221d36864ac3dc790974ea8551dff526">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div data-history-node-id="7928" class="node node--type-article node--view-mode-list-type-1 ds-1col clearfix" typeof="schema:Article">
+
+  
+
+  
+            <div class="field field--name-node-title field--type-ds field--label-hidden field__item"><h4 class="title">
+  <a href="/index.php/update/state-and-local-public-financing-programs-are-leading-way-now-its-time-congress-follow-hr-1" hreflang="en">State and Local Public Financing Programs Are Leading the Way – Now It’s Time for Congress to Follow With HR 1</a>
+</h4>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field__item">February 14, 2019</div>
+      
+
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="7904" class="node node--type-article node--view-mode-list-type-1 ds-1col clearfix" typeof="schema:Article">
+
+  
+
+  
+            <div class="field field--name-node-title field--type-ds field--label-hidden field__item"><h4 class="title">
+  <a href="/update/clc-complaint-and-story-trace-alleged-nra-broke-election-laws-now-congress-wants-answers" hreflang="en">CLC Complaint and Story in <em>The Trace</em> Alleged the NRA Broke Election Laws – Now Congress Wants Answers</a>
+</h4>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field__item">February 8, 2019</div>
+      
+
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="7896" class="node node--type-article node--view-mode-list-type-1 ds-1col clearfix" typeof="schema:Article">
+
+  
+
+  
+            <div class="field field--name-node-title field--type-ds field--label-hidden field__item"><h4 class="title">
+  <a href="/index.php/update/new-reports-show-why-fec-needs-clarify-disclosure-requirements-dark-money-groups-and-why" hreflang="en">New Reports Show Why the FEC Needs to Clarify Disclosure Requirements for Dark Money Groups—and Why Congress Should Go Even Further</a>
+</h4>
+</div>
+      
+  <div class="field field--name-field-article-author field--type-entity-reference field--label-inline">
+    <div class="field__label">By</div>
+          <div class="field__items">
+              <div class="field__item"><a href="/index.php/staff/brendan-fischer" hreflang="en">Brendan Fischer</a></div>
+          <div class="field__item"><a href="/index.php/staff/maggie-christ" hreflang="en">Maggie Christ</a></div>
+              </div>
+      </div>
+
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field__item">February 6, 2019</div>
+      
+
+</div>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+	</div>
+
+					</div>
+	</div>
+
+	<footer id="page-footer" class="page-max-width section-footer section">
+		<div class="section-inner">
+			<div class="footer-section-top">
+				<div class="footer-left">
+						<div class="region region-footer">
+	  <nav role="navigation" aria-labelledby="block-ts-calc-footer-menu" id="block-ts-calc-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-ts-calc-footer-menu">Footer menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/about" title="About CLC" data-drupal-link-system-path="node/6825">About CLC</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/about/staff" title="Staff" data-drupal-link-system-path="node/6823">Staff</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/about/board" title="Board &amp; Advisors" data-drupal-link-system-path="node/6834">Board &amp; Advisors</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/about/careers" title="Careers" data-drupal-link-system-path="node/6831">Careers</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/about/support" title="Support CLC" data-drupal-link-system-path="node/6832">Support Our Work</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/about/support/institutions" title="Institution Donations" data-drupal-link-system-path="node/6875">Institutional Donors</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/support-our-work/financials" title="CLC&#039;s Financial Documents" data-drupal-link-system-path="node/6909">Financials</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/toolkits" title="Toolkits and Resources" data-drupal-link-system-path="node/6839">Toolkits and Resources</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/advocacy/campaign-finance" title="Campaign Finance">Campaign Finance</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/advocacy/ethics" title="Ethics">Ethics</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/advocacy/redistricting" title="Redistricting">Redistricting</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/toolkits/voting-rights" title="Voting Rights" data-drupal-link-system-path="node/6840">Voting Rights</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+	</div>
+
+				</div>
+				<div class="footer-right">
+					<div class="footer-right-inner">
+						<nav role="navigation" aria-labelledby="block-footersocial-menu" id="block-footersocial" class="block block-menu navigation menu--footer-social">
+            
+  <h2 class="visually-hidden" id="block-footersocial-menu">Footer Social</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.facebook.com/CampaignLegalCenter" class="icon-facebook" target="_blank" title="Facebook">Facebook</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://twitter.com/campaignlegal" class="icon-twitter" target="_blank" title="Twitter">Twitter</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.youtube.com/CampaignLegalCenter" class="icon-youtube" target="_blank" title="YouTube">YouTube</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+						<nav role="navigation" aria-labelledby="block-footersecondary-menu" id="block-footersecondary" class="block block-menu navigation menu--footer-secondary">
+            
+  <h2 class="visually-hidden" id="block-footersecondary-menu">Footer Secondary</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/contact-us" title="Contact CLC" data-drupal-link-system-path="node/6826">Contact CLC</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/latest" title="The Latest" data-drupal-link-system-path="node/6830">The Latest</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/media-center" title="Media Center" data-drupal-link-system-path="node/6822">Media Center</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-section-bottom">
+				<div id="block-copyright-block" class="block block-calc-blocks block-copyright-block">
+  
+    
+      &copy; Campaign Legal Center 2019
+  </div>
+
+				
+			</div>
+		</div>
+	</footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/7708","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"addtoany\/addtoany,classy\/base,classy\/messages,core\/html5shiv,core\/jquery.form,core\/normalize,core\/picturefill,google_analytics\/google_analytics,paragraphs\/drupal.paragraphs.unpublished,system\/base,ts_calc\/ts_calc,views\/views.module","theme":"ts_calc","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/update\/nra-and-trump-campaign-worked-together-influence-voters?ajax_form=1":true},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajax":{"mailchimp-signup-subscribe-block-clc-subscribers-form-edit-submit":{"callback":"::ajaxSubmit","response_wrapper":"mailchimp-response-mailchimp_signup_subscribe_block_clc_subscribers_form-wrapper","event":"mousedown","keypress":true,"prevent":"click","url":"\/update\/nra-and-trump-campaign-worked-together-influence-voters?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Subscribe"}}},"field_group":{"html_element":{"mode":"full","context":"view","settings":{"id":"","classes":"meta-info","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"8c542366092ef7c8dbd5488aeebfb20ab19887f6ddf17aed9ea9db8d15ecded3"}}</script>
+<script src="/sites/default/files/js/js_mFO9UPf_gPKRy154pONSco-UnNyZIFydc_PjDxs20Ng.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_B82wF34oepcDofOTVvO_tuHLJ-FX4WGkKyrXSy3gCMk.js"></script>
+
+    <!-- <script id="__bs_script__">
+    //<![CDATA[
+      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.23.5.js'><\/script>".replace("HOST", location.hostname));
+    //]]>
+    </script> -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"12b4858b41","applicationID":"58388396","transactionName":"NFVbbEIEDxZSBxIMDA0feFtEDA4LHCAUEBMCXGV7XxcEOXULFAg\/JV9LVXIQCAlXARRIXRFVV1xVFzEJUgcDDQwPVFxKdgoTCHIHEgwMDQ==","queueTime":0,"applicationTime":444,"atts":"GBJYGgoeHBg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

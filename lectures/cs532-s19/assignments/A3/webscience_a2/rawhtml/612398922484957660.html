@@ -1,0 +1,1429 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js wf-jubilat-i5-active wf-jubilat-i7-active wf-jubilat-n5-active wf-jubilat-n7-active wf-lftetica-i4-active wf-lftetica-i7-active wf-lftetica-n4-active wf-lftetica-n7-active wf-active isHtml" lang="en" ><!--<![endif]-->
+  <head>
+  
+    <!-- Optimizely -->
+    <script src="https://cdn-pci.optimizely.com/js/8416096648.js"></script>
+    <!-- Optimizely -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=S6X20P611DwokBd-fUNdPw&gtm_preview=env-2&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KQQBPQZ');</script>
+    <!-- End Google Tag Manager -->
+	
+
+    <!-- Global Meta Data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwMBUl5bGwAHVlBRAwk="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"adc6a720a2","agent":"","transactionName":"b1dTMUVRV0IDWkIMWVYddxBZU01YDVcZDVlVVx8TXlVOQlheUxFpW11fEVJeTQ==","applicationID":"3721348","errorBeacon":"bam.nr-data.net","applicationTime":116}</script>
+
+    <title>The State Of The Union: Trump Has And Continues To #MAGA | GOP</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://prod-cdn-static.gop.com/static/home/images/favicon.ico" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Publisher Markup -->
+    <link rel="publisher" href="https://plus.google.com/+GOP/"/>
+
+    <!-- GOP.com Feeds -->
+    <link href="/rss/" rel="alternate" type="application/rss+xml" title="Get the latest content from GOP.com" />
+    <link href="/atom/" rel="alternate" type="application/atom+xml" title="Get the latest content from GOP.com" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@GOP">
+    <meta name="twitter:creator" content="@">
+
+    <!-- Open Graph data -->
+    <meta property="og:type" content="og:article" />
+    <meta property="og:site_name" content="GOP" />
+    <meta property="og:url" content="https://gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr" />
+    <meta property="fb:admins" content="123192635089" />
+
+    <link rel="stylesheet" href="https://prod-cdn-static.gop.com/static/home/css/jquery-ui-dialog.min.css">
+
+    <style media="screen">
+    .stop-scrolling {
+      height: 100%;
+      overflow: hidden;
+      overflow-x: hidden;
+    }
+    </style>
+
+    <!-- css -->
+    <link href="https://prod-cdn-static.gop.com/static/css/gop.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Page-specific Meta Data -->
+    
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="The State Of The Union: Trump Has And Continues To #MAGA">
+<meta itemprop="description" content="On State of the Union night, a look at President Trump’s incredible record of accomplishment for America.">
+<meta itemprop="image" content="https://prod-cdn-static.gop.com/media/images/dinner-with-trump_1471027296_Content_Consumption_Large.jpg">
+
+<!-- Twitter Card data -->
+<meta name="twitter:title" content="The State Of The Union: Trump Has And Continues To #MAGA">
+<meta name="twitter:description" content="On State of the Union night, a look at President Trump’s incredible record of accomplishment for America.">
+<!-- Twitter summary card with large image must be at least 280x150px -->
+<meta name="twitter:image:src" content="https://prod-cdn-static.gop.com/media/images/dinner-with-trump_1471027296_Content_Consumption_Large.jpg">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="The State Of The Union: Trump Has And Continues To #MAGA" />
+<meta property="og:image" content="https://prod-cdn-static.gop.com/media/images/dinner-with-trump_1471027296_Content_Consumption_Large.jpg" />
+<meta property="og:description" content="On State of the Union night, a look at President Trump’s incredible record of accomplishment for America." />
+<meta property="article:published_time" content="Feb. 5, 2019, 1:17 p.m." />
+<meta property="article:section" content="White House" />
+<meta property="article:tag" content="Agenda" />
+
+
+
+
+
+    <!-- Adobe dayaLayer for DTM -->
+    <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
+    <!--[if lte IE 9]><script src="https://prod-cdn-static.gop.com/static/home/js/ie8eventlistener.js" ></script><![endif]-->
+    <script>
+      function sendCustomEvent(evt){
+        if(document.createEvent && window.document.dispatchEvent){
+          var event = document.createEvent('Event');
+          event.initEvent(evt, true, true);
+          window.document.dispatchEvent(event);
+        } else if(window.CustomEvent && window.document.dispatchEvent) {
+          var event = new CustomEvent(evt, {bubbles: true, cancelable: true});
+          window.document.dispatchEvent(event);
+        }
+      }
+    </script>
+
+    <!-- Production fonts (typekit resources) -->
+    <!-- Source: http://blog.typekit.com/2011/05/25/loading-typekit-fonts-asynchronously/ -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'wey6ayg',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+    <!-- Sitewide Scripts -->
+    
+    
+
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://prod-cdn-static.gop.com/static/news/css/bloginternal-signupbox.css">
+
+  </head>
+  <body 
+id="news" class="content-page"
+>
+    
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQQBPQZ&gtm_auth=S6X20P611DwokBd-fUNdPw&gtm_preview=env-2&gtm_cookies_win=x"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    
+
+    <!-- head -->
+      <div id="hd-mobile" class="clearfix">
+        <div class="left">
+          <ul id="mobile-nav">
+            <li class="active open-menu">
+              <div class="btn-group">
+                <a href="" class="dropdown-toggle main-menu-toggle clickHeader openMenu">
+                  <em id="icon-menu"></em>
+                </a>
+              </div>
+            </li>
+            <li class="active close-menu" style="display:none;">
+              <div class="btn-group">
+                <a href="" class="dropdown-toggle main-menu-toggle clickHeader closeMenu">
+                  <em id="icon-menu"></em>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+        
+          <a href="/" id="logo"><img src="https://prod-cdn-static.gop.com/static/home/images/logo-GOP-mobile.png"  alt="GOP" /></a>
+        
+        </div>
+
+        <div class="right">
+          <a href="https://secure.gop.com/donate?utm_source=organic&utm_medium=web&utm_campaign=20171027__homepage-contribute_gop_rnc&utm_content=gop_home" target="_blank" class="btn btn-contribute nav-contribute nav-mobile clickHeader">Contribute</a>
+        </div>
+      </div>
+
+      <div id="social-hd">
+        <div class="container clearfix">
+          <span class="social-wrap">
+            <div id="social-hd__social-icons">
+              <a target="_blank" class="social-hd__social-icons__twitter" href="https://twitter.com/GOP"></a>
+              <a target="_blank" class="social-hd__social-icons__facebook" href="https://www.facebook.com/GOP"></a>
+              <a target="_blank" class="social-hd__social-icons__instagram" href="https://www.instagram.com/gop/"></a>
+              <a target="_blank" class="social-hd__social-icons__youtube" href="https://www.youtube.com/channel/UC3o7kbpTUQ5-0WTMIp8sVwA"></a>
+            </div>
+          </span>
+          <span id="social-text" style="float:right;line-height:40px;margin-right:10px;letter-spacing:1.7px;">CONNECT:</span>
+        </div>
+      </div>
+      <div id="hd">
+        <div class="container clearfix">
+          <div class="hd-left">
+            <a href="https://secure.gop.com/donate?utm_source=organic&utm_medium=web&utm_campaign=20171027__homepage-contribute_gop_rnc&utm_content=gop_home" target="_blank" class="btn btn-contribute nav-contribute nav-desktop clickHeader">Contribute</a>
+            <ul>
+              <li><a href="/get-involved/"><em id="icon-action"></em>Action Center</a></li>
+              <li><a href="/blog/"><em id="icon-blog"></em>Blog</a></li>
+            </ul>
+          </div>
+
+          
+          <a href="/" id="logo"><img src="https://prod-cdn-static.gop.com/static/home/images/logo-GOP.png"  alt="GOP" /></a>
+          
+
+          <div class="hd-right">
+            <ul id="top-links">
+              <li>
+                <div class="vote-button">
+                  <a href="https://vote.gop/?utm_source=organic&utm_medium=web&utm_campaign=20180223__votegop_gop_rnc&utm_content=gop_home"><em id="icon-vote"></em>Vote</a>
+                </div>
+                <div class="btn-group">
+                  <a href="" id="search-dropdown-toggle" class="clickHeader dropdown-toggle search-dropdown-toggle" data-toggle="dropdown">
+                    <em id="icon-search"></em>Search
+                  </a>
+                  <ul class="dropdown-menu search-dropdown clickHeader" style="right:-20px;width:200px;">
+                    <li class="searchform" style="float:none;">
+                      <form method="get" action="/search/" class="clearfix">
+                        <input class="header-search-input clickHeader" type="text" name="q" id="id_q" placeholder="Search GOP.com" style="width:84%;"/>
+                        <input type="submit" class="btn-search" value="Search"/>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              
+            </ul>
+            <ul id="nav">
+              <li class="active open-menu">
+                <div class="btn-group">
+                  <a href="" class="dropdown-toggle main-menu-toggle clickHeader openMenu">
+                    <em id="icon-menu"></em>Menu
+                  </a>
+                </div>
+              </li>
+              <li class="active close-menu" style="display:none;">
+                <div class="btn-group">
+                  <a href="" class="dropdown-toggle main-menu-toggle clickHeader closeMenu">
+                    <em id="icon-menu"></em>Close
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /head -->
+
+    <!-- body -->
+    <div id="bd">
+      <div class="fullscreen-menu">
+        <div class="menu-background"></div>
+        <div class="menu-background-mobile"></div>
+        <nav>
+          <ul>
+            <li><a href="https://secure.gop.com/donate" target="_blank">Contribute</a></li>
+            <li><a href="https://vote.gop/?utm_source=organic&utm_medium=web&utm_campaign=20180223__votegop_gop_rnc&utm_content=gop_home">Vote</a></li>
+            <li><a href="/get-involved/volunteer/">Volunteer</a></li>
+            <li><a href="https://shop.donaldjtrump.com/">Store</a></li>
+            <li><a href="/platform/">Platform</a></li>
+          </ul>
+          <div class="social-wrap">
+            <div id="social-hd__social-icons">
+              <a target="_blank" class="social-hd__social-icons__facebook menu-social-icons" href="https://www.facebook.com/GOP"></a>
+              <a target="_blank" class="social-hd__social-icons__twitter menu-social-icons" href="https://twitter.com/GOP"></a>
+              <a target="_blank" class="social-hd__social-icons__youtube menu-social-icons" href="https://www.youtube.com/channel/UC3o7kbpTUQ5-0WTMIp8sVwA"></a>
+              <a target="_blank" class="social-hd__social-icons__instagram menu-social-icons" href="https://www.instagram.com/gop/"></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      
+  
+    <div id="title-header-wrap" class="container">
+      <h2 class="page-title">
+        <a href="/research/">
+          research
+        </a>
+      </h2>
+      <h1 class="subheader">
+        
+          The State Of The Union: Trump Has And Continues To #MAGA
+        
+      </h1>
+      <p id="entry-details">
+        
+        
+        <a class="content-tag" href="/topic/white-house-agenda/">
+          <strong>Agenda</strong>
+        </a>
+        
+          - February 5, 2019
+      </p>
+    </div>
+  
+
+  
+    <div id="news-top-feature" class="container clearfix">
+      
+        
+          <div id="ccp-feature" style="cursor:auto;" class="feature-lg">
+            <img src="https://prod-cdn-static.gop.com/media/images/dinner-with-trump_1471027296_Content_Consumption_Large.jpg" alt="" class="featured-large-image"/>
+          </div>
+        
+      
+    </div><!-- /news-top-feature -->
+  
+
+  <div class="container clearfix hide-mobile">
+    
+    
+  </div>
+
+  <div ng-app="news" id="news-content" class="container clearfix">
+    <div class="news-entry-sidebar visible-mobile">
+      <a class="social-button facebook-bg" href="https://www.facebook.com/sharer.php?u=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr" ></a>
+      <a class="social-button twitter-bg" href="https://twitter.com/share?url=https://gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&text=The State Of The Union: Trump Has And Continues To #MAGA" ></a>
+      <a class="social-button more-bg">More</a>
+      <div class="social-wrapper hidden">
+        <a class="social-button google-bg extra" href="https://plus.google.com/share?url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr"></a>
+        <a class="social-button linkedin-bg extra" href="http://www.linkedin.com/shareArticle?mini=true&url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&title=The State Of The Union: Trump Has And Continues To #MAGA&summary=&lt;h2&gt;On State Of The Union Night, A Look At Preside&source=GOP"></a>
+        <a class="social-button pinterest-bg extra" href="http://pinterest.com/pin/create/button/?url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&media=https://prod-cdn-static.gop.com/media/images/dinner-with-trump_1471027296_Home_Page_Large.jpg&description=&lt;h2&gt;On State Of The Union Night, A Look At Preside"></a>
+        <a class="social-button reddit-bg extra" href="http://www.reddit.com/submit?url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&title=The State Of The Union: Trump Has And Continues To #MAGA"></a>
+        <a class="social-button email-bg extra" href="mailto:?Subject=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr" target="_top" ></a>
+      </div>
+    </div>
+    <div id="main-content">
+      
+        <div class="news-entry news-main clearfix">
+          <div class="news-entry-sidebar hide-mobile">
+            <a class="social-button facebook-bg" href="https://www.facebook.com/sharer.php?u=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr" ></a>
+            <a class="social-button twitter-bg" href="https://twitter.com/share?url=https://gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&text=The State Of The Union: Trump Has And Continues To #MAGA" ></a>
+            <a class="social-button more-bg">More</a>
+            <div class="social-wrapper hidden">
+              <a class="social-button google-bg extra" href="https://plus.google.com/share?url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr"></a>
+              <a class="social-button linkedin-bg extra" href="http://www.linkedin.com/shareArticle?mini=true&url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&title=The State Of The Union: Trump Has And Continues To #MAGA&summary=&lt;h2&gt;On State Of The Union Night, A Look At Preside&source=GOP"></a>
+              <a class="social-button pinterest-bg extra" href="http://pinterest.com/pin/create/button/?url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&media=https://prod-cdn-static.gop.com/media/images/dinner-with-trump_1471027296_Home_Page_Large.jpg&description=&lt;h2&gt;On State Of The Union Night, A Look At Preside"></a>
+              <a class="social-button reddit-bg extra" href="http://www.reddit.com/submit?url=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr&title=The State Of The Union: Trump Has And Continues To #MAGA"></a>
+              <a class="social-button email-bg extra" href="mailto:?Subject=gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr" target="_top" ></a>
+            </div>
+          </div>
+          <div class="news-entry-content">
+            <h2>On State Of The Union Night, A Look At President Trump&#39;s Incredible Record Of Accomplishment For America</h2>
+
+<hr />
+<p align="center"><strong>TOP TAKEAWAYS</strong></p>
+
+<ul>
+	<li>Under President Trump&#39;s leadership, the Senate has confirmed a record 85 judges, including two Supreme Court Justices.</li>
+	<li>President Trump is fulfilling his promise to build a border wall, with sizable portions of the wall already finished or under construction.</li>
+	<li>Under President Trump, the U.S. Border Patrol has arrested hundreds of members of dangerous gangs.</li>
+	<li>GDP has soared, more than 2.5 million jobs were created in 2018, and average unemployment was the lowest since 1969.</li>
+	<li>Manufacturing experienced a &quot;major rebound&quot; in 2018, experiencing the largest jobs gains since the recession.</li>
+	<li>President Trump successfully renegotiated The North American Free Trade Agreement.</li>
+	<li>President Trump used tariffs to rattle China&#39;s economy and leaders for their illegal trade cheating.</li>
+	<li>President Trump withdrew the United States from the flawed Trans-Pacific Partnership.</li>
+	<li>President Trump signed executive orders aimed at lowering the cost of healthcare and signed one of Congress&#39; most &quot;significant legislative achievements&quot; to address the opioid epidemic.</li>
+	<li>Under President Trump&#39;s leadership, Congress has passed two historic NDAA&#39;s to rebuild and grow our military, secured billions in funding for the VA, and signed multiple pieces of legislation to help get our veterans the care they deserve.</li>
+	<li>President Trump has made great strides towards the denuclearization of the Korean Peninsula.</li>
+	<li>Under President Trump&#39;s leadership, the United States has brought ISIS to the brink of defeat.</li>
+	<li>President Trump fulfilled his campaign promise to name Jerusalem Israel&#39;s capital.</li>
+	<li>President Trump has withdrawn the United States from the flawed Iranian Nuclear Deal, forced our allies to recommit to NATO, and has vigorously and quickly enforced red lines against regimes and individuals that use chemical weapons.</li>
+</ul>
+
+<hr />
+<h3>PRESIDENT TRUMP HAS NOMINATED A RECORD NUMBER OF JUDGES WHO WILL ADHERE TO THE ORIGINAL MEANING OF THE CONSTITUTION</h3>
+
+<h4>Under President Trump&#39;s Leadership, The Senate Has Confirmed A Record 85 Judges, Including Two Supreme Court Justices</h4>
+
+<p><strong>Since Taking Office, President Trump Has Had 85 Judges Confirmed To The Bench. </strong> (&quot;Judicial Selection,&quot; <a href="https://www.afj.org/our-work/issues/judicial-selection"> Alliance For Justice </a> , Accessed 1/16/19)</p>
+
+<ul>
+	<li><strong>Fifty-Three District Court Judges Have Been Confirmed. </strong> &quot;They had added to the bench an additional 53 district court judges.&quot; (Nicholas Fandos, &quot;Senators Add A Batch Of Judges, And Head Home To Campaign,&quot; <em> <a href="https://www.nytimes.com/2018/10/11/us/politics/senate-judicial-appointments-adjournment.html"> The New York Times </a> </em> , 10/11/18)</li>
+	<li><strong>Thirty Circuit Court Judges Have Been Confirmed. </strong> (&quot;Judicial Selection,&quot; <a href="https://www.afj.org/our-work/issues/judicial-selection"> Alliance For Justice </a> , Accessed 1/16/19)
+	<ul>
+		<li><strong>The Trump Administration &quot;More Than Doubled The Number Of Judges It Confirmed To Federal Appeals Courts In 2019, Exceeding The Pace Of The Last Five Presidents.&quot; </strong> &quot;The Trump administration more than doubled the number of judges it confirmed to federal appeals courts in 2018, exceeding the pace of the last five presidents and stocking the courts with lifetime appointees who could have profound consequences for civil rights, the environment and government regulations.&quot; (Carrie Johnson, &quot;Trump&#39;s Judicial Appointments Were Confirmed At Historic Pace In 2018,&quot; <a href="https://www.npr.org/2019/01/02/681208228/trumps-judicial-appointments-were-confirmed-at-historic-pace-in-2018"> NPR </a> , 1/2/19)</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>On April 7, 2017, Neil Gorsuch Was Confirmed To Be An Associate Justice Of The Supreme Court Of The United States. </strong> (PN55, <a href="https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&amp;session=1&amp;vote=00111"> Roll Call Vote #111 </a> : Nomination Confirmed 54-45: R 51-0; D 3-43; I 0-2, 4/7/17)</p>
+
+<p><strong>On October 6, 2018, Brett Kavanaugh Was Confirmed To Be An Associate Justice Of The Supreme Court Of The United States. </strong> (PN2259, <a href="https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&amp;session=2&amp;vote=00223"> Roll Call Vote # 233 </a> ; Nomination of Brett Kavanaugh, Confirmed 50-48: R 49-1; D 1-47. 10/6/18)</p>
+
+<h3>PRESIDENT TRUMP HAS FOUGHT FOR SECURE BORDERS AND CRACKED DOWN ON ILLEGAL IMMIGRATION</h3>
+
+<h4>President Trump Is Fulfilling His Promise To Build A Border Wall, With Sizable Portions Already Finished Or Under Construction</h4>
+
+<p><strong>In January 2017, President Trump Issued An Executive Order To Launch &quot;A Rapid Start On Building A Wall On The Border With Mexico.&quot; </strong> &quot;President Donald Trump ordered stepped-up deportations and a rapid start on building a wall on the border with Mexico, as he worked to make good on the promised immigration crackdown that powered his presidential campaign. Taken together, the executive orders announced Wednesday-along with another set expected Thursday-sharply recast U.S. immigration policy.&quot; (Laura Meckler, &quot;Trump Orders Wall At Mexican Border,&quot; <em> <a href="http://www.wsj.com/articles/white-house-president-trump-will-sign-two-executive-orders-on-immigration-1485368122"> The Wall Street Journal </a> </em> , 1/25/17)</p>
+
+<p><strong>Once Funding Was Provided, DHS &quot;Began Construction Of A Border Wall Quickly, In Some Locations In As Little As Nine Months From Funding To Building.&quot; </strong> &quot;Once funding was provided, DHS began construction of a border wall quickly, in some locations in as little as nine months from funding to building - a process that commonly takes two years or more in other parts of Government.&quot; (Press Release, &quot;Walls Work,&quot; <a href="https://www.dhs.gov/news/2018/12/12/walls-work"> Department Of Homeland Security </a> , 12/12/18)</p>
+
+<ul>
+	<li><strong>In FY 2017 Congress Provided DHS $292 Million To Build 40 Miles Of A Steel Bollard Wall In The San Diego, El Centro And El Paso Sectors.</strong> &quot;In FY 2017 Congress provided DHS $292 million to build 40 miles of a steel bollard wall in the San Diego, El Centro and El Paso Sectors - Border Patrol&#39;s highest priority locations - in place of an outdated and operationally ineffective barrier.&quot; (Press Release, &quot;Walls Work,&quot; <a href="https://www.dhs.gov/news/2018/12/12/walls-work"> Department Of Homeland Security </a> , 12/12/18)
+
+	<ul>
+		<li><strong>DHS Received Its FY 2017 Funding In May 2017, Awarded The First Contract Against That Funding In November 2017, And Began Construction Three Months Later In February 2017.</strong> &quot;DHS received its FY17 funding for border wall construction in May 2017. DHS awarded the first contract against that funding in November 2017 and began construction three months later in February 2018.&quot; (Press Release, &quot;Walls Work,&quot; <a href="https://www.dhs.gov/news/2018/12/12/walls-work"> Department Of Homeland Security </a> , 12/12/18)</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>On March 23, 2018, President Trump Signed The Consolidated Appropriations Act Of 2018. </strong> (Consolidated Appropriations Act Of 2018, <a href="https://www.congress.gov/bill/115th-congress/house-bill/1625?q=%7B%22search%22%3A%5B%22HR+1625%22%5D%7D&amp;r=1"> Pub. L. No. 115-141 </a> , Signed Into Law 3/23/18)</p>
+
+<ul>
+	<li><strong>The FY 2018 Omnibus Bill &quot;Includes $1.6 Billion For More Than 90 Miles Of Physical Barriers Along The Border With Mexico, As Well As Related Technology.&quot; </strong> &quot;Among other things, the bill includes $1.6 billion for more than 90 miles of physical barriers along the border with Mexico, as well as related technology.&quot; (Thomas Kaplan, &quot;Congress Approves $1.3 Trillion Spending Bill, Averting Shutdown,&quot; <em> <a href="https://www.nytimes.com/2018/03/22/us/politics/house-passes-spending-bill.html"> The New York Times </a> </em> , 3/22/18)</li>
+	<li><strong>As Of November 21, 2018, CBP Has Constructed More Than 31 Of The 40 Miles With The Remaining Nine Miles Scheduled For Completion By Early 2019.</strong> &quot;As of November 21, 2018, CBP has constructed more than 31 of the 40 miles with the remaining 9 miles scheduled for completion by early 2019.&quot; (Press Release, &quot;Walls Work,&quot; <a href="https://www.dhs.gov/news/2018/12/12/walls-work"> Department Of Homeland Security </a> , 12/12/18)</li>
+</ul>
+
+<p><strong>By The End Of FY 2019, DHS Expects To Have Construction Completed Or Underway For More Than 120 Miles. </strong> &quot;By the end of FY 2019, DHS expects to have construction completed or underway for more than 120 miles in the areas it&#39;s most needed by the U.S. Border Patrol.&quot; (Press Release, &quot;Walls Work,&quot; <a href="https://www.dhs.gov/news/2018/12/12/walls-work"> Department Of Homeland Security </a> , 12/12/18)</p>
+
+<h4>Under President Trump, The U.S. Border Patrol Has Arrested Hundreds Of Members Of Dangerous Gangs</h4>
+
+<p><strong>On June 18, 2018, President Trump Signed The Project Safe Neighborhoods Grant Program Authorization Act Of 2018. </strong> (Project Safe Neighborhoods Grant Program Authorization Act Of 2018, <a href="https://www.congress.gov/bill/115th-congress/house-bill/3249?q=%7B%22search%22%3A%5B%22Project+Safe+Neighborhoods+Grant+Program+Authorization+Act%27%22%5D%7D&amp;r=1"> Pub. L. No. 115-185 </a> , Signed Into Law 6/18/18)</p>
+
+<ul>
+	<li><strong>This Bill Improves &quot;Existing Partnerships To Create Safer Neighborhoods Through Sustained Reductions In Crimes Committed By Criminal Street Gangs And Transnational Organized Crime Groups,&quot; Such As MS-13. </strong> &quot;This bill establishes the Project Safe Neighborhoods Block Grant Program within the Department of Justice&#39;s Office of Justice Programs to foster and improve existing partnerships to create safer neighborhoods through sustained reductions in crimes committed by criminal street gangs and transnational organized crime groups.&quot; (&quot;Summary: H.R.3249 - 115th Congress (2017-2018),&quot; <a href="https://www.congress.gov/bill/115th-congress/house-bill/3249?q=%7B%22search%22%3A%5B%22Project+Safe+Neighborhoods+Grant+Program+Authorization+Act%27%22%5D%7D&amp;r=1"> Congress.gov </a> , Accessed 10/16/18)</li>
+</ul>
+
+<p><strong>In FY 2018, Under President Trump, CBP And Border Agents Arrested 17,000 Adults At The Southern Border With Existing Criminal Records. </strong> (&quot;A Border Security and Humanitarian Crisis,&quot; <a href="https://www.whitehouse.gov/wp-content/uploads/2019/01/Border-Briefing.pdf"> The White House </a> , Accessed 1/4/19)</p>
+
+<ul>
+	<li><strong>On A Typical Day In FY 2017, CBP Arrested 21 Wanted Criminals At U.S. Ports Of Entry. </strong> (&quot;On A Typical Day,&quot; <a href="https://www.cbp.gov/newsroom/stats/typical-day-fy2017"> U.S. Customs And Border Patrol </a> , Accessed 1/3/19)</li>
+</ul>
+
+<p><strong>In FY 2017, Under President Trump, CBP And Border Agents Prevented 3,755 Known Or Suspected Terrorists From Traveling To Or Entering The U.S. </strong> (&quot;A Border Security and Humanitarian Crisis,&quot; <a href="https://www.whitehouse.gov/wp-content/uploads/2019/01/Border-Briefing.pdf"> The White House </a> , Accessed 1/4/19)</p>
+
+<p><strong>Under The Trump Administration, CBP And Border Agents Have Apprehended 6,000 Gang Members, Including MS-13, At The Southern Border. </strong> (&quot;A Border Security and Humanitarian Crisis,&quot; <a href="https://www.whitehouse.gov/wp-content/uploads/2019/01/Border-Briefing.pdf"> The White House </a> , Accessed 1/4/19)</p>
+
+<p align="center"><img alt="" src="https://prod-cdn-static.gop.com/media/images/SOTU_1_1549390813.png" style="width: 313px; height: 148px;" /></p>
+
+<h3>THE ECONOMY HAS SOARED UNDER PRESIDENT TRUMP, REACHING HEIGHTS NOT SEEN IN DECADES</h3>
+
+<h4>GDP Has Seen Strong Growth In 2018 After The Passing Of The Tax Cuts And Jobs Act</h4>
+
+<p><strong>On December 22, 2017, President Trump Signed The Tax Cuts And Jobs Act. </strong> (Tax Cuts and Jobs Act, <a href="https://www.congress.gov/bill/115th-congress/house-bill/1"> Pub. L. No. 115-409 </a> , Signed Into Law 12/22/17)</p>
+
+<p><strong>The U.S. Economy Has Grown At A Nearly 3% Annual Rate Since President Trump Took Office, Far Outpacing The 2.2% Annual Growth Rate Under President Obama. </strong> &quot;The U.S. economy has expanded at a 2.9% annual rate since April of 2017, according to the Commerce Department&#39;s tabulations of the nation&#39;s gross domestic product, or output. That growth rate is faster than the 2.2% annual growth rate between mid-2009-when the expansion started-and April 2017.&quot; (Kate Davidson, &quot;A Big Reason U.S. Economy Is Accelerating: Government Spending,&quot; <em> <a href="https://www.wsj.com/articles/government-and-military-spending-fuel-u-s-growth-1540459800"> The Wall Street Journal </a> </em> , 10/28/18)</p>
+
+<p><strong>Real Gross Domestic Product (GDP) Increased At An Annual Rate Of 3.4% In The Third Quarter Of 2018. </strong> &quot;Real gross domestic product (GDP) increased 3.4 percent in the third quarter of 2018, according to the &quot;third&quot; estimate released by the Bureau of Economic Analysis.&quot; (Gross Domestic Product, <a href="https://www.bea.gov/data/gdp/gross-domestic-product"> Bureau Of Economic Analysis </a> , 12/21/18)</p>
+
+<ul>
+	<li><strong>The Economy Was Strong In The Third Quarter Of 2018, Driven By Consumer Spending That&#39;s Been &quot;Juiced By Republican Tax Cuts.&quot; </strong> &quot;Economic growth surged to 4.2 percent in the second quarter, the fastest since 2014, and is projected to come in above 3 percent for the July-September period, driven by consumer spending and business investment that&#39;s been juiced by Republican tax cuts. The labor market is tight, with steady hiring and the unemployment rate at 3.7 percent, the lowest since December 1969.&quot; (Erik Wasson and Sho Chandra, &quot;&#39;Trump Effect&#39; Overpowers Booming Economy Ahead Of Midterms,&quot; <a href="https://www.bloomberg.com/news/articles/2018-10-19/-trump-effect-overpowers-booming-economy-as-driver-in-midterms"> Bloomberg </a> , 10/19/18)</li>
+</ul>
+
+<h4>Under President Trump, More Than 2.5 Million Jobs Were Created In 2018 And Average Unemployment Has Reached Lows Not Seen In Nearly Fifty Years</h4>
+
+<p><strong>At The End Of 2018 Total U.S. Employment Topped 150 Million Jobs For The First Time. </strong> &quot;The December jobs gain pushed total U.S. employment above 150 million jobs for the first time.&quot; (Josh Boak, &quot;US Employers Added A Stellar 312,000 Jobs In December,&quot; <em> <a href="https://apnews.com/f3925762c6f845dfab936b45c28b4176?utm_medium=AP&amp;utm_campaign=SocialFlow&amp;utm_source=Twitter"> The Associated Press </a> </em> , 1/4/19)</p>
+
+<p><strong>In 2018, More Than 2.5 Million Jobs Were Created. </strong> (&quot;Employment, Hours, And Earnings From The Current Employment Statistics Survey (National),&quot; <u> <a href="https://data.bls.gov/timeseries/CES0000000001?output_view=net_1mth"> Bureau Of Labor Statistics </a> </u> , Accessed 1/4/19)</p>
+
+<p><strong>Unemployment Averaged 3.9% In 2018, The Lowest Yearly Average Since 1969. </strong> ( <a href="https://data.bls.gov/timeseries/lns14000000"> Bureau Of Labor Statistics </a> , Accessed 1/17/19)</p>
+
+<p><strong>Unemployment Under President Trump Has Averaged 4.1%, More Than 3% Lower Than President Obama. </strong> ( <a href="https://data.bls.gov/timeseries/lns14000000"> Bureau Of Labor Statistics </a> , Accessed 1/17/19)</p>
+
+<h4>MANUFACTURING HAS COME BACK TO LIFE UNDER PRESIDENT TRUMP</h4>
+
+<h4>Manufacturing Experienced A &quot;Major Rebound&quot; In 2018, With The Industry Seeing The Largest Jobs Gain Since The Recession</h4>
+
+<p><strong>Manufacturing Has Added 454,000 Jobs Since President Trump Took Office, A Stark Contrast To The 193,000 Jobs The Industry Lost Under President Obama. </strong> ( <a href="https://data.bls.gov/timeseries/CES3000000001?amp%253bdata_tool=XGtable&amp;output_view=data&amp;include_graphs=true"> Bureau Of Labor Statistics </a> , Accessed 1/16/19)</p>
+
+<p><strong>The Manufacturing Sector Added 264,000 Jobs In 2018, Far Outpacing Even President Obama&#39;s Best Year Of Growth In 2014. </strong> ( <a href="https://data.bls.gov/timeseries/CES3000000001?amp%253bdata_tool=XGtable&amp;output_view=data&amp;include_graphs=true"> Bureau Of Labor Statistics </a> , Accessed 1/16/19)</p>
+
+<p><strong>Manufacturing Experienced A &quot;Major Rebound&quot; In 2018, Experiencing The &quot;Biggest Annual Upswing Since The Great Recession.&quot; </strong> &quot;Manufacturing experienced a major rebound, producing 249,000 jobs from in 2018 through November. That&#39;s the biggest annual upswing since the Great Recession and well above the 2017 figure (207,000).&quot; (Danielle Paquette and Andrew Van Dam, &quot;U.S. Economy Added 312,000 Jobs In December And The Unemployment Rate Was 3.9%, Marking A Strong Finish To 2018,&quot; <em> <a href="https://www.washingtonpost.com/business/2019/01/04/saw-strong-job-growth-looks-riskier/?utm_term=.89466c5e2649"> The Washington Post </a> </em> , 1/4/19)</p>
+
+<p><strong>On Average This Year, 92.4 Percent Of Manufacturers Surveyed Reported A Positive Outlook For Their Companies, The Highest Level On Record In The 20-Year History Of The Survey. </strong> &quot;While that represents the second straight easing in confidence from the all-time high reading in the second quarter (95.1 percent), the four-quarter annual average, which reaches back to when congressional passage of tax reform appeared increasingly likely, shows that manufacturers&#39; optimism for 2018 reached the highest level on record in the 20-year history of the survey. On average this year, 92.4 percent of manufacturers surveyed reported a positive outlook for their companies (surpassing the 2017 average of 91.8 percent).&quot; (&quot;NAM Manufacturers&#39; Outlook Survey,&quot; <a href="https://www.nam.org/uploadedFiles/NAM/Site_Content/Data-and-Reports/Manufacturers_Outlook_Survey/nam%20manufacturers%20outlook%20survey%20writeup%20-%2012.2018%20.pdf"> National Association Of Manufacturers </a> , 12/20/18)</p>
+
+<h3>PRESIDENT TRUMP HAS NEGOTIATED BETTER AND FAIRER DEALS FOR THE AMERICAN PEOPLE</h3>
+
+<h4>In A &quot;Big Victory,&quot; For The Administration, President Trump Successfully Renegotiated The North American Free Trade Agreement</h4>
+
+<p><strong>On September 30, 2018, The United States Reached A Significantly Revised North American Trade Deal With Canada And Mexico. </strong> &quot;On Sunday night, President Trump got his wish for a significantly revised North American trade deal. After more than a year of intense negotiations, the United States, Canada and Mexico reached an agreement to update the North American Free Trade Agreement, the 1994 pact that governs more than $1.2 trillion worth of trade among the three nations.&quot; (Heather Long, &quot;U.S., Canada And Mexico Just Reached A Sweeping New NAFTA Deal. Here&#39;s What&#39;s In I,&quot; <em> <a href="https://www.washingtonpost.com/business/2018/10/01/us-canada-mexico-just-reached-sweeping-new-nafta-deal-heres-whats-it/?utm_term=.76dcca626d3e"> The Washington Post </a> </em> , 10/1/18)</p>
+
+<p><strong><em>Reuters</em></strong> <strong> Called The Deal &quot;A Big Victory&quot; For The Trump Administration&#39;s Agenda. </strong> &quot;In a big victory for his agenda to shake-up an era of global free trade that many associate with the signing of NAFTA in 1994, President Donald Trump coerced Canada and Mexico to accept more restrictive commerce with their main export partner.&quot; (David Ljunnggren and Roberta Rampton, &quot;In Trump Win, Canada, U.S. Deal Saves NAFTA As Trilateral Pact,&quot; <em> <a href="https://www.reuters.com/article/us-trade-nafta/in-trump-win-canada-u-s-deal-saves-nafta-as-trilateral-pact-idUSKCN1MA0UJ?utm_medium=Social&amp;utm_source=twitter"> Reuters </a> </em> , 9/30/18)</p>
+
+<h4>President Trump Used Tariffs To Rattle China&#39;s Economy And Leaders For Their Trade Cheating</h4>
+
+<p><strong>On June 15, 2018, The United States Trade Representative (USTR) Issued 25% Tariffs On $50 Billion Worth Of Chinese Imports Containing &quot;Industrially Significant Technologies.&quot; </strong> &quot;The Office of the United States Trade Representative (USTR) today<strong> </strong><strong>released a</strong><strong> </strong> <strong>list of products</strong> imported from China that will be subject to additional tariffs as part of the U.S. response to China&#39;s unfair trade practices related to the forced transfer of American technology and intellectual property. On May 29, 2018, <strong>President Trump stated</strong> that USTR shall announce by June 15 the imposition of an additional duty of 25 percent on approximately $50 billion worth of Chinese imports containing industrially significant technologies, including those related to China&#39;s &#39;Made in China 2025&#39; industrial policy.&quot; (Press Release, &quot;USTR Issues Tariffs On Chinese Products In Response To Unfair Trade Practices,&quot; <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/june/ustr-issues-tariffs-chinese-products"> The United States Trade Representative </a> , 6/15/18)</p>
+
+<ul>
+	<li><strong>The First Set Of Tariffs Covering Approximately $34 Billion Worth Of Imports Went Into Effect On July 6, 2018. </strong> &quot;These lines cover approximately $34 billion worth of imports from China. USTR has determined to impose an additional duty of 25 percent on these 818 product lines after having sought and received views from the public and advice from the appropriate trade advisory committees. Customs and Border Protection will begin to collect the additional duties on July 6, 2018.&quot; (Press Release, &quot;USTR Issues Tariffs On Chinese Products In Response To Unfair Trade Practices,&quot; <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/june/ustr-issues-tariffs-chinese-products"> The United States Trade Representative </a> , 6/15/18)</li>
+	<li><strong>The Second Set Of Tariffs Covering Approximately $16 Billion Worth Of Imports Went Into Effect On August 23, 2018. </strong> &quot;The list<strong> </strong>contains 279 of the original 284 tariff lines that were on a proposed list announced on June 15. Changes to the proposed list were made after USTR and the interagency Section 301 Committee sought and received written comments and testimony during a two-day public hearing last month. Customs and Border Protection will begin to collect the additional duties on the Chinese imports on August 23.&quot; (Press Release, &quot;USTR Finalizes Second Tranche Of Tariffs On Chinese Products In Response To China&#39;s Unfair Trade Practices,&quot; <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/july/public-hearings-proposed-section-301"> The United States Trade Representative </a> , 8/7/18)</li>
+</ul>
+
+<p><strong>In September 2018, Tariffs Were Placed On $200 Billion Of Chinese Imports To The U.S. In Response To China&#39;s Unfair Trading Practices, Including The Continued Theft Of American Intellectual Property And Forced Transfer Of American Technology. </strong> &quot;As part of the United States&#39; continuing response to China&#39;s theft of American intellectual property and forced transfer of American technology, the Office of the United States Trade Representative (USTR) today released a list of approximately $200 billion worth of Chinese imports that will be subject to additional tariffs.&quot; (Press Release, &quot;USTR Finalizes Tariffs On $200 Billion Of Chinese Imports In Response To China&#39;s Unfair Trade Practices,&quot; <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/september/ustr-finalizes-tariffs-200"> The United States Trade Representative </a> , 9/17/18)</p>
+
+<p><strong>On January 1, 2019, The Level Of The Additional Tariffs Increased To 25%. </strong> &quot;Starting January 1, 2019, the level of the additional tariffs will increase to 25 percent.&quot; (Press Release, &quot;USTR Finalizes Tariffs On $200 Billion Of Chinese Imports In Response To China&#39;s Unfair Trade Practices,&quot; <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/september/ustr-finalizes-tariffs-200"> The United States Trade Representative </a> , 9/17/18)</p>
+
+<p><strong>China&#39;s Slumping Economy Underscored A Political Imperative For China To Cut A Deal Ahead Of The President&#39;s March 1 Deadline For Additional Tariffs. </strong> &quot;At the same time, China&#39;s overall trade surplus with the U.S. hit a record in 2018, underscoring the political imperative to cut a deal ahead of a March 1 deadline after which U.S. President Donald Trump has threatened to impose additional tariffs on Chinese goods.&quot; (&quot;China&#39;s Slumping Trade Adds Pressure For Settlement With Trump,&quot; <a href="https://www.bloomberg.com/news/articles/2019-01-14/china-s-slumping-trade-adds-pressure-for-settlement-with-trump"> Bloomberg, </a> 01/14/19)</p>
+
+<h4>In A Win For Workers, President Trump Withdrew The United States From The Flawed And Harmful Trans-Pacific Partnership</h4>
+
+<p><strong>On January 23, 2017, President Trump Withdrew The U.S. From The Trans-Pacific Partnership (TPP). </strong> &quot;President Trump upended America&#39;s traditional, bipartisan trade policy on Monday as he formally abandoned the ambitious, 12-nation Trans-Pacific Partnership brokered by his predecessor and declared an end to the era of multinational trade agreements that defined global economics for decades.&quot; (Peter Baker, &quot;Trump Abandons Trans-Pacific Partnership, Obama&#39;s Signature Deal,&quot; <em> <a href="https://www.nytimes.com/2017/01/23/us/politics/tpp-trump-trade-nafta.html"> The New York Times </a> </em> , 01/23/17)</p>
+
+<p><strong>President Trump Criticized TPP For Pushing Manufacturing Jobs Overseas, Increasing The U.S. Trade Deficit, And Failing To Address Currency Manipulation. </strong> &quot;Trump long criticized the deal, claiming that it would push more manufacturing jobs overseas, increase the U.S. trade deficit, and fail to address currency manipulation by U.S. trade partners.&quot; (James McBridge, &quot;What Is The Trans-Pacific Partnership,&quot; <a href="https://www.cfr.org/backgrounder/what-trans-pacific-partnership-tpp"> Council On Foreign Relations </a> , 05/15/18)</p>
+
+<h3>PRESIDENT TRUMP HAS REDUCED THE COST OF HEALTHCARE AND HAS SIGNED SIGNIFICANT LEGISLATION TO FIGHT THE OPIOID EPIDEMIC</h3>
+
+<h4>President Trump Signed Executive Orders That Will Make Healthcare Cheaper And More Accessible For Americans</h4>
+
+<p><strong>On October 12, 2017, President Trump Signed An Executive Order Aimed At Lowering Health Care Costs By Allowing Consumers To Buy Insurance Across State Lines Through Association Health Care Plans. </strong> &quot;President Trump signed an executive order Thursday that he says will lower health insurance premiums by allowing more consumers to buy health insurance through association health plans across state lines.&quot; (Gregory Korte, &quot;Trump&#39;s Health Insurance Order Pushes Association Plans To Drive Down Costs - For Some,&quot; <em> <u> <a href="https://www.usatoday.com/story/news/politics/2017/10/12/trumps-health-insurance-order-pushes-association-plans-drive-down-costs-some/752816001/"> USA Today </a> </u> </em> , 10/12/17)</p>
+
+<p><strong>In October 2017, President Trump Issued An Executive Order That His Administration Consider Short-Term, Limited-Duration Health Insurance. </strong> &quot;In October, President Trump issued an Executive Order instructing the Departments of Health and Human Services, Labor, and the Treasury to consider proposing regulations or revising guidance to promote healthcare choice and competition by expanding the availability of short-term, limited-duration insurance.&quot; (Press Release, &quot;Fact Sheet: Short-Term, Limited-Duration Insurance Proposed Rule,&quot; <u> <a href="https://www.cms.gov/Newsroom/MediaReleaseDatabase/Fact-sheets/2018-Fact-sheets-items/2018-02-20.html"> Centers For Medicare And Medicaid Services </a> </u> , 2/20/18)</p>
+
+<p><strong>In August 2018, The Departments Of Health And Human Services, Labor, And Treasury Finalized A Rule That Would Establish Short-Term Limited Duration Plans To Cover Up To 12 Months Of Insurance And Last Up To 36 Months In Total. </strong> &quot;On Wednesday, the departments of Health and Human Services, Labor and the Treasury issued a final rule to help Americans struggling to afford health coverage find new, more affordable options. The rule allows for the sale and renewal of short-term, limited-duration plans that cover longer periods than the previous maximum period of less than three months. Such coverage can now cover an initial period of less than 12 months, and, taking into account any extensions, a maximum duration of no longer than 36 months in total. This action will help increase choices for Americans faced with escalating premiums and dwindling options in the individual insurance market.&quot; (Press Release, &quot;Trump Administration Delivers On Promise Of More Affordable Health Insurance Options,&quot; <a href="https://www.hhs.gov/about/news/2018/08/01/trump-administration-delivers-on-promise-of-more-affordable-health-insurance-options.html"> The U.S. Department Of Health And Human Services </a> , 8/1/18)</p>
+
+<h4>President Trump Signed One Of Congress&#39; Most &quot;Significant Legislative Achievements&quot; To Address The Opioid Epidemic</h4>
+
+<p><strong>On October 24, 2018, President Trump Signed The SUPPORT For Patients And Communities Act. </strong> (SUPPORT for Patients and Communities Act, <a href="https://www.congress.gov/bill/115th-congress/house-bill/6"> Pub. L. No. 115-271 </a> , Signed Into Law 10/24/18)</p>
+
+<p><strong>The Bill &quot;Creates, Expands And Reauthorizes&quot; Programs And Policies Across Various Federal Agencies That Address Different Aspects Of The Opioid Epidemic Including Prevention, Treatment And Recovery. </strong> &quot;It creates, expands and reauthorizes programs and policies across almost every federal agency, aiming to address different aspects of the opioid epidemic, including prevention, treatment and recovery.&quot; (Colby Itkowitz, &quot;Senate Easily Passes Sweeping Opioids Legislation, Sending To President Trump,&quot; <em> <u> <a href="https://www.washingtonpost.com/politics/2018/10/03/senate-is-poised-send-sweeping-opioids-legislation-president-trump/?noredirect=on&amp;utm_term=.335cbba5dc37"> The Washington Post </a> </u> </em> , 10/3/18)</p>
+
+<p><strong>The Bill &quot;Reauthorizes Funding From The Cures Act, Which Put $500 Million A Year Toward The Opioid Crisis.&quot; </strong> &quot;Reauthorizes funding from the Cures Act, which put $500 million a year toward the opioid crisis, and makes tweaks to hopefully give states more flexibility in using the funding.&quot; (German Lopez, &quot;Trump Just Signed A Bipartisan Bill To Confront The Opioid Epidemic,&quot; <a href="https://www.vox.com/policy-and-politics/2018/9/28/17913938/trump-opioid-epidemic-congress-support-act-bill-law"> Vox </a> , 10/24/18)</p>
+
+<p><strong>The Bill Was Considered One Of The 115<sup>th</sup> Congress&#39; &quot;Most Significant Legislative Achievements.&quot; </strong> &quot;It is one of Congress&#39;s most significant legislative achievements this year, a rare bipartisan response to a growing public health crisis that resulted in 72,000 drug-overdose deaths last year.&quot; (Coby Itokotwitz, &quot;Senate Easily Passes Sweeping Opioids Legislation, Sending To President Trump,&quot; <em> <u> <a href="https://www.washingtonpost.com/politics/2018/10/03/senate-is-poised-send-sweeping-opioids-legislation-president-trump/?noredirect=on&amp;utm_term=.335cbba5dc37"> The Washington Post </a> </u> </em> , 10/3/18)</p>
+
+<h3>PRESIDENT TRUMP HAS RESTORED AMERICAN MILITARY STRENGTH</h3>
+
+<h4>Under President Trump&#39;s Leadership, Congress Has Passed Two Historic NDAA&#39;s Which Allocate Almost $1.5 Trillion Combined To Rebuild And Grow Our Military</h4>
+
+<p><strong>On August 13, 2018, President Trump Signed The National Defense Authorization Act For FY2019.</strong> (John S. McCain National Defense Authorization Act For Fiscal Year 2019, <a href="https://www.congress.gov/bill/115th-congress/house-bill/5515"> Pub. L. No. 115-232 </a> , Signed Into Law 8/13/18)</p>
+
+<ul>
+	<li><strong>H.R. 5515 Authorizes $716 Billion For National Defense For Fiscal Year 2019 </strong> . &quot;President Trump is signing the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year 2019, authorizing $716 billion for national defense.&quot; (Press Release, &quot;President Donald J. Trump Is Rebuilding And Readying Our Military To Defend Against All Threats,&quot; <a href="https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-rebuilding-readying-military-defend-threats/"> The White House </a> , 8/13/18)</li>
+	<li><strong>The NDAA Authorizes An Increase Of 15,600 Troops.</strong> &quot;The NDAA helps develop a more lethal and resilient force, and grows the size of our forces by authorizing an increase of 15,600 troops across the Army, Navy, Air Force, and Marine Corps.&quot; (Press Release, &quot;President Donald J. Trump Is Rebuilding And Readying Our Military To Defend Against All Threats,&quot; <a href="https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-rebuilding-readying-military-defend-threats/"> The White House </a> , 8/13/18)</li>
+	<li><strong>The NDAA Authorizes A 2.6% Pay Raise For Service Members, The Largest Pay Raise In Nine Years. </strong> &quot;President Trump and Congress are honoring our Nation&#39;s duty to our service members by authorizing a 2.6 percent military pay raise, the largest pay raise in nine years. The NDAA also extends special pay and bonuses for those in high demand fields. The NDAA will address the employment challenges facing military spouses by enhancing the My Career Advancement Program.&quot; (Press Release, &quot;President Donald J. Trump Is Rebuilding And Readying Our Military To Defend Against All Threats,&quot; <a href="https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-rebuilding-readying-military-defend-threats/"> The White House </a> , 8/13/18)</li>
+</ul>
+
+<p><strong>On December 12, 2017, President Trump Signed The National Defense Authorization Act For FY2018.</strong> (National Defense Authorization Act for Fiscal Year 2018, <a href="https://www.congress.gov/bill/115th-congress/house-bill/2810?q=%7B%22search%22%3A%5B%22hr+2810%22%5D%7D&amp;r=1"> Pub. L. No. 115-91 </a> , Signed Into Law 12/12/17)</p>
+
+<ul>
+	<li><strong>FY2018 NDAA Increased &quot;The Size Of The American Armed Forces For The First Time In Seven Years,&quot; And Provided Our Military Service Members &quot;With Their Largest Pay Increase In Eight Years.&quot; </strong> TRUMP:<strong> </strong>&quot;The NDAA increases the size of the American Armed Forces for the first time in seven years, and it provides our military service members with their largest pay increase in eight years.&quot; (Donald Trump, <a href="https://www.whitehouse.gov/the-press-office/2017/12/12/remarks-president-trump-signing-hr-2810-national-defense-authorization"> Remarks At The Signing Of The National Defense Authorization Act </a> , Washington, D.C., 12/12/17)</li>
+</ul>
+
+<h3>PRESIDENT TRUMP HAS TAKEN STEPS TO GET VETERANS THE QUALITY CARE THEY DESERVE</h3>
+
+<h4>President Trump Has Secured Billions In Funding For The VA And Signed Multiple Pieces Of Legislation To Help Veterans Get The Quality Care They Deserve</h4>
+
+<p><strong>On September 21, 2018, President Trump Signed An $86.5 Billion Dollar Bill To Provide Funding For The Department Of Veterans Affairs. </strong> &quot;On Friday, President Trump signed an $86.5 billion bill that will provide funding for the Department of Veterans Affairs. &#39;We are ensuring that our veterans are respected and cherished like never before,&#39; said Trump.&quot; (Michael Ikahihifo, &quot;Local Veterans React To President Trump Signing $86.5 Billion Bill,&quot; <a href="https://kfoxtv.com/news/local/local-veterans-react-to-president-trump-signing-865-billion-bill"> KFOX14 </a> , 09/21/18)</p>
+
+<p><strong>On June 6, S. 2372, The VA Mission Act Of 2018, Was Signed Into Law. </strong> (VA Mission Act Of 2018, <a href="https://www.congress.gov/bill/115th-congress/senate-bill/2372"> Pub. Law. No. 115-182 </a> , Signed Into Law 6/6/18)</p>
+
+<ul>
+	<li><strong>The VA Mission Act Streamlines Veterans Access To Non-VA Community Care, Creates A New VA Benefit Of Commercial Walk-In Clinics, And Opens The VA Comprehensive Caregiver Program To Older Generations Of Veterans Injured While In Service. &quot; </strong> Congress has passed a massive bill, nicknamed the VA Mission Act, to streamline veterans&#39; access to non-VA community care when clinically appropriate, create a new VA benefit of commercial walk-in clinics, and end an indefensible inequity by opening the VA comprehensive caregiver program, on a phased schedule, to older generations of veterans severely injured while in service.&quot; (&quot;Congress Expands VA Caregiver Plan, Streamlines Non-VA Care,&quot; <a href="https://www.military.com/militaryadvantage/2018/05/24/congress-expands-va-caregiver-plan-streamlines-non-va-care.html"> Military.com </a> , 5/24/18)</li>
+</ul>
+
+<p><strong>On August 23, 2017, H.R. 2288, The Veterans Appeals Improvement And Modernization Act, Was Signed Into Law. </strong> (Veterans Appeals Improvement And Modernization Act Of 2017, <a href="https://www.congress.gov/bill/115th-congress/house-bill/2288"> Pub. L. No. 115-55 </a> , Signed Into Law 8/23/17)</p>
+
+<ul>
+	<li><strong>The Veterans Appeals Improvement And Modernization Act Speeds Up The Appeals Process On Disability Ratings At The Department Of Veterans Affairs. </strong> &quot;&#39;This is a big one,&#39; President Donald Trump said Wednesday as he signed into law a bill to reform and speed up the appeals process on disability ratings at the Department of Veterans Affairs. At the American Legion&#39;s annual convention in Reno, Nevada, Trump praised the Veterans Appeals Improvement and Modernization Act of 2017 that he said would enable veterans &#39;to get decisions in a fraction of the time.&#39;&quot; (Richard Sisk, &quot;Trump Signs Bill To Speed Up VA Disability Appeals Process,&quot; <a href="https://www.military.com/daily-news/2017/08/23/trump-signs-bill-to-speed-up-va-disability-appeals-process.html"> Military.com </a> , 8/23/17)</li>
+</ul>
+
+<p><strong>On August 12, 2017, S. 114, The VA Choice And Quality Employment Act, Was Signed Into Law. </strong> (VA Choice And Quality Employment Act Of 2017, <a href="https://www.congress.gov/bill/115th-congress/senate-bill/114"> Pub. L. No. 115.-46 </a> , Signed Into Law 8/12/17)</p>
+
+<ul>
+	<li><strong>The VA Choice And Quality Employ Act Shored Up Funding For The Veterans Choice Program And Allowed The VA To Open 28 New Clinics And Implement New Hiring Programs. </strong> &quot;President Donald Trump on Saturday signed a $3.9 billion funding deal for the Department of Veterans Affairs that will shore up the nearly bankrupt Veterans Choice Program and allow the VA to open 28 new clinics and implement new hiring programs.&quot; (Nikki Wentling, &quot;Trump Signs $3.9 Billion VA Funding Bill To Avert Crisis For Choice Program&quot; <a href="https://www.stripes.com/news/us/trump-signs-3-9-billion-va-funding-bill-to-avert-crisis-for-choice-program-1.482697"> Stars And Stripes </a> , 8/12/17)</li>
+</ul>
+
+<p><strong>On June 23, 2017, S, 1094, The Veterans Accountability And Whistleblower Protection Act Was Signed Into Law. </strong> &quot;President Donald Trump signed a bill into law Friday as part of the U.S. government&#39;s push to improve the Department of Veterans Affairs and holds its employees accountable.&quot; (Department Of Veterans Affairs Accountability And Whistleblower Protection Act Of 2017, <a href="https://www.congress.gov/bill/115th-congress/senate-bill/1094"> Pub. L. No. 115-41 </a> , Signed Into Law 6/23/17)</p>
+
+<ul>
+	<li><strong>The Accountability And Whistleblower Protection Act Pushes To Protect VA Employees Who Expose Problems And Make It Easier To Fire Workers For Wrongdoing. </strong> &quot;The Department of Veterans Affairs Accountability and Whistleblower Protection Act pushes to protect VA employees who expose problems and make it easier to fire workers for wrongdoing. The measure passed the House and Senate with broad bipartisan support.&quot; (&quot;Trump Signs Bill Aiming To Hold VA Employees Accountable,&quot; <a href="https://www.cnbc.com/2017/06/23/watch-trump-sign-va-bill.html"> CNBC </a> , 6/23/17)</li>
+</ul>
+
+<p><strong>On April 19, 2017, S.544, The Veterans Choice And Extension Act, Was Signed Into Law. </strong> (A Bill To Amend The Veterans Access, Choice, And Accountability Act Of 2014 To Modify The Termination Date For The Veterans Choice Program, And For Other Purposes, <a href="https://www.congress.gov/bill/115th-congress/senate-bill/544"> Pub. L. No. 115-26 </a> , Signed Into Law 4/19/17)</p>
+
+<ul>
+	<li><strong>The Choice Program Allows Vets Facing Lengthy Wait Times At VA Facilities To Seek Care In The Private Sector. </strong> &quot;The Choice Card program allowed vets facing lengthy wait times at Veterans Administration facilities or living more than 40 miles from the nearest VA to seek care in the private sector. Those already in the program will not need to re-apply under the bill signed by Trump, VA officials said.&quot; (Richard Sisk, &quot;Trump Signs Bill To Extend Veterans Choice Program,&quot; <a href="https://www.military.com/daily-news/2017/04/19/trump-signs-bill-extend-veterans-choice-program.html"> Military.com </a> , 4/19/17)</li>
+</ul>
+
+<h3>PRESIDENT TRUMP IS RESTORING AMERICAN LEADERSHIP AND STRENGTH ABROAD</h3>
+
+<h4>President Trump Has Made Great Strides Towards Nuclear-Free Korean Peninsula</h4>
+
+<p><strong>In April 2017, The Trump Administration Approved A Policy Of &quot;Maximum Pressure&quot; Aimed At Halting North Korea&#39;s Illicit Missile And Nuclear Activity Through The Application Of Sanctions And Other Diplomatic Means. </strong> &quot;But behind the scenes, the Trump administration has completed a two-month comprehensive review of the North Korea policy that was approved by all of the top National Security Council officials this month, a senior White House official who has read the policy confirmed to me. The policy calls for &#39;maximum pressure&#39; against the North Korean regime to try to halt its illicit missile and nuclear activity, through sanctions and other diplomatic means. The policy does not call for &#39;regime change&#39; but in facts calls for engagement with the North Korea regime, if and when it changes its behavior.&quot; (Josh Rogin, &quot;Trump&#39;s North Korea Policy Is &#39;Maximum Pressure&#39; But Not &#39;Regime Change,&#39;&quot; <em> <a href="https://www.washingtonpost.com/news/josh-rogin/wp/2017/04/14/trumps-north-korea-policy-is-massive-pressure-but-not-regime-change/?utm_term=.0068d86122d7"> The Washington Post </a> </em> , 04/14/17)</p>
+
+<p><strong>On June 12, 2018, President Trump And Chairman Kim Jong Un Of The Democratic People&#39;s Republic Of Korea Held A Historic Summit In Singapore. </strong> &quot;President Donald J. Trump of the United States of America and Chairman Kim Jong Un of the State Affairs Commission of the Democratic People&#39;s Republic of Korea (DPRK) held a first, historic summit in Singapore on June 12, 2018.&quot; (Press Release, &quot;Joint Statement Of President Donald J. Trump of the United States of America and Chairman Kim Jong Un of the Democratic People&#39;s Republic of Korea at the Singapore Summit,&quot; <a href="https://www.google.com/search?q=Joint+Statement+of+President+Donald+J.+Trump+of+the+United+States+of+America+and+Chairman+Kim+Jong+Un+of+the+Democratic+People%E2%80%99s+Republic+of+Korea+at+the+Singapore+Summit&amp;oq=Joint+Statement+of+President+Donald+J.+Trump+of+the+United+States+of+America+and+Chairman+Kim+Jong+Un+of+the+Democratic+People%E2%80%99s+Republic+of+Korea+at+the+Singapore+Summit&amp;aqs=chrome..69i57.718j0j7&amp;sourceid=chrome&amp;ie=UTF-8"> The White House </a> , 6/12/18)</p>
+
+<p><strong>On July 23, North Korea Began Dismantling Facilities At Formerly The Main Site For North Korean Satellite Launches In Sohae. </strong> &quot;North Korea has begun dismantling the facilities at the satellite launch station in Sohae, according to an analysis of commercial satellite imagery released on the 38 North website. The Sohae location has been the main site for North Korean satellite launches since 2012.&quot; (Adam Taylor, &quot;North Korea Begins Dismantling Key Test Site, Satellite Imagery Suggests<em>,&quot; </em> <em> <a href="https://www.washingtonpost.com/news/worldviews/wp/2018/07/23/north-korea-begins-dismantling-key-test-site-satellite-imagery-suggests/?utm_term=.229ef1113237"> The Washington Post </a> </em> , 7/23/18)</p>
+
+<p><strong><em>The New York Times</em></strong> <strong> Reported On July 27, 2018 That Remains Believed To Be Those Of 55 American Servicemen Were Flown Out Of North Korea. </strong> &quot;Remains believed to be those of 55 American servicemen were flown out of North Korea on Friday, the first visible result of President Trump&#39;s efforts to bring the American war dead home 65 years after the end of combat in the Korean War.&quot; (Choe Sang-Hun, &quot;Remains Of 55 U.S. War Dead In North Korea Start Journey Home After 65 Years,&quot; <em> <a href="https://www.nytimes.com/2018/07/26/world/asia/us-korea-war-remains.html"> The New York Times </a> </em> , 7/30/18)</p>
+
+<p><strong>On May 10, 2018, Three Americans Freed From North Korea Arrived In Virginia Following Diplomatic Efforts From The Trump Administration. </strong> &quot;Three American prisoners freed from North Korea arrived here early Thursday to a personal welcome from President Trump, who traveled to an air base in the middle of the night to meet them. Waving their hands and flashing peace signs, the freed prisoners - Kim Dong-chul, Tony Kim and Kim Hak-song - descended the stairs of their plane, flanked by the president and senior administration officials, including Secretary of State Mike Pompeo, who had flown to Pyongyang, the North&#39;s capital, to secure their release.&quot; (Katie Rogers, &quot;Trump Greets 3 American Detainees Freed From North Korea,&quot; <em> <a href="https://www.nytimes.com/2018/05/10/us/politics/trump-korea-detainees-pompeo.html"> The New York Times </a> </em> , 5/10/18)</p>
+
+<h4>Under President Trump&#39;s Leadership The United States Has Put ISIS On The Brink Of Defeat</h4>
+
+<p><strong>On October 31, 2018, U.S. And Syrian Democratic Forces Coalition Spokesman Col. Sean Ryan Said ISIS Militants Knew This Was Their &quot;Last Stand.&quot; </strong> &quot;Coalition spokesman Col. Sean Ryan said Monday the Syrian Democratic Forces are sending new fighters to the front, while the coalition is helping &#39;expedite&#39; their resupply capabilities. He says the militants know this is their last stand.&#39; Iraq&#39;s state-sanctioned paramilitary groups meanwhile say they are on high alert and ready to confront any militants who try to cross the border. Taking advantage of bad weather, ISIS militants attacked the Kurdish-led SDF over the weekend, expelling them from areas they had captured in a month of intense fighting in the area.&quot; (&quot;US Helps Syrian Partners Regroup For ISIS &#39;Last Stand,&#39;&quot; <em> <a href="https://www.militarytimes.com/flashpoints/2018/10/29/us-helps-syrian-partners-regroup-for-isis-last-stand/"> The Associated Press </a> </em> , 10/29/18)</p>
+
+<ul type="disc">
+	<li><strong>General Of Counter-ISIS Operations, Lt. Gen. Stephen Townsend Told <em>Time </em>That President Trump&#39;s ISIS Strategy Had Allowed Armed Forces To Be More &quot;Aggressive&quot; In The Fight Against ISIS. </strong> &quot;President Donald Trump&#39;s decision to grant his military &#39;total authorization&#39; to make combat decisions has allowed the armed forces to be &#39;more aggressive&#39; in the fight against the Islamic State, according to the outgoing commander of U.S.-led coalition forces in Iraq and Syria. &#39;It has freed us up a bit to prosecute the war in a more aggressive manner, I think,&#39; said Lt. Gen. Stephen Townsend, head of Operation Inherent Resolve, in an interview with TIME coinciding with his departure from the role he has held since August 2016.&quot; (Jared Malsin, &quot;Military Under Trump &#39;More Aggressive&#39; in Fight Against ISIS, U.S. Commander Says,&quot; <em> <u> <a href="http://time.com/4926525/stephen-townsend-isis-operation-inherent-resolve-mosul/"> Time </a> </u> </em> , 09/05/17)</li>
+</ul>
+
+<h4>President Trump Fulfilled His Promise To Name Jerusalem Israel&#39;s Capital</h4>
+
+<p><strong>In December 2017, President Trump Formally Recognized Jerusalem As The Capital Of Israel. </strong> &quot;President Trump on Wednesday formally recognized Jerusalem as the capital of Israel, reversing nearly seven decades of American foreign policy and setting in motion a plan to move the United States Embassy from Tel Aviv to the fiercely contested Holy City. &#39;It is time to officially recognize Jerusalem as the capital of Israel,&#39; said Mr. Trump, speaking from the Diplomatic Reception Room of the White House, saying that past approaches to the conflict, like delaying that recognition, had not moved the peace process forward.&quot; (Mark Landler, &quot;Trump Recognizes Jerusalem As Israel&#39;s Capital,&quot; <em> <a href="https://www.nytimes.com/2017/12/06/world/middleeast/trump-jerusalem-israel-capital.html?hp&amp;action=click&amp;pgtype=Homepage&amp;clickSource=story-heading&amp;module=a-lede-package-region&amp;region=top-news&amp;WT.nav=top-news"> The New York Times </a> </em> , 12/06/17)</p>
+
+<p><strong>Israeli Ambassador To The United Nations Danny Danon Praised President Trump&#39;s Decision To Move The U.S. Embassy To Jerusalem And Called It A &quot;Testament To The Unbreakable Alliance And True Friendship Between The U.S. And Israel.&quot; </strong> &quot;Ambassador to the United Nations Danny Danon praised the Trump administration on Friday shortly after they announced that the US embassy currently located in Tel Aviv will be moved to Jerusalem in May. &#39;President Trump&#39;s bold decision to move the American embassy to Jerusalem this May, in honor of our 70th Independence Day, is a testament to the unbreakable alliance and true friendship between the US and Israel,&#39; said Ambassador Danon.&quot; (Daniel Roth, &quot;Israel&#39;s UN Envoy Praises Trump&#39;s Embassy Move Announcment,&quot; <em> <a href="http://www.jpost.com/Israel-News/Israels-UN-envoy-praises-Trumps-embassy-move-announcement-543477"> Jerusalem Post </a> </em> , 02/24/18)</p>
+
+<h4>President Trump Has Withdrawn The United States From The Flawed And Dangerous Iranian Nuclear Deal, A Move That Has Hurt Their Economy</h4>
+
+<p><strong>On May 8, 2018, President Trump Announced The United States Was Withdrawing From The Iran Nuclear Deal. </strong> TRUMP: &quot;Therefore, I am announcing today that the United States will withdraw from the Iran nuclear deal. In a few moments, I will sign a presidential memorandum to begin reinstating U.S. nuclear sanctions on the Iranian regime. We will be instituting the highest level of economic sanction. Any nation that helps Iran in its quest for nuclear weapons could also be strongly sanctioned by the United States.&quot; (President Donald Trump, <a href="https://www.whitehouse.gov/briefings-statements/remarks-president-trump-joint-comprehensive-plan-action/"> Remarks By President Trump On The Joint Comprehensive Plan Of Action </a> , The White House, 5/8/18)</p>
+
+<p><strong>The Iran Rial Has Plummeted 70% Against The Dollar Due To Sanctions. </strong> &quot;US sanctions are already causing economic malaise that has stoked public dissent in Iran, with the currency, the rial, plummeting by around 70 per cent against the dollar this year.&quot; (Najmeh Bozorgmehr and Katrina Manson, &quot;Iran Accuses US Of &#39;Starting A War&#39; In Fight Over Sanctions,&quot; <em> <a href="https://www.ft.com/content/6a5bc8a8-bdc1-11e8-94b2-17176fbf93f5"> Financial Times </a> </em> <em>,</em> 9/23/18)</p>
+
+<h4>President Trump Has Forced Our Allies To Recommit To NATO , And Pay Their Fair Share</h4>
+
+<p><strong>During President Trump&#39;s May Trip To Brussels, He Had &quot;Blunt Words&quot; For U.S. Allies Concerning Their Lack Of Contributions To NATO. &quot; </strong> What he has been vocal about is pressing NATO allies to pay what he considers their fair share of the alliance&#39;s running costs. Secretary of State Rex W. Tillerson, traveling with Mr. Trump to Brussels, said the president would have blunt words for the leaders of other NATO members on that issue. And he did, criticizing the other leaders assembled behind him for not contributing 2 percent of their gross domestic product to their defense, as the allied nations had agreed.&quot; (Steven Erlanger, &quot;Highlights: In Brussels, Trump Scolds Allies On Cost-Sharing, and Stays Vague On Article 5,&quot; <em> <a href="https://www.nytimes.com/2017/05/25/world/europe/trump-brussels-nato.html"> The New York Times </a> </em> , 5/25/17)</p>
+
+<p><strong>After &quot;Intense Pressure&quot; From President Trump, NATO Allies Plan To Boost Their Defense Spending By 4.3%. </strong> &quot;NATO allies of the United States plan to boost their defense spending by 4.3 percent this year, Secretary General Jens Stoltenberg said Wednesday, a response in part to intense pressure from President Trump that the nations invest more in their militaries.&quot; (Michael Birnbaum and Thomas Gibbons-Neff, &quot;NATO Allies Boost Defense Spending In The Wake Of Trump Criticism,&quot; <em> <a href="https://www.washingtonpost.com/world/nato-allies-boost-defense-spending-in-the-wake-of-trump-criticism/2017/06/28/153584de-5a8c-11e7-aa69-3964a7d55207_story.html?utm_term=.18e3ca210226"> The Washington Post </a> </em> , 6/28/17)</p>
+
+<h4>President Trump Has Vigorously Enforced Red Lines Against Regimes And Individuals That Use Chemical Weapons</h4>
+
+<p><strong>In March 2017, The Trump Administration Announced Sanctions On North Korea </strong> <strong> Following A Determination That North Korea Had Used Chemical Agents In The Assassination Of Kim Jong Un&#39;s Brother. </strong> &quot;In announcing the new sanctions on Tuesday, the State Department said it had determined in late February that North Korea used the chemical agent to assassinate Kim. North Korea had already been subject to sanctions by both the U.S. and the United Nations. The new sanctions place additional restrictions on things like U.S. foreign aid and financial assistance.&quot; (Leila Miller, &quot;Trump Administration Says North Korea Used VX To Kill Kim Jon-Un&#39;s Half Brother,&quot; <a href="https://www.pbs.org/wgbh/frontline/article/trump-administration-says-north-korea-used-vx-to-kill-kim-jong-uns-half-brother/"> PBS </a> , 3/7/18)</p>
+
+<p><strong>On April 6, 2017, President Trump Ordered A Cruise Missile Strike On A Syrian Military Airbase In Response To A Sarin Attack That Killed More Than 70 People. </strong> &quot;On April 6, Trump ordered a cruise missile strike on a Syrian military airbase in response to a sarin attack that killed more than 70 people, including civilians, in Syria&#39;s Idlib province. The strike ended six years in which the U.S. avoided direct conflict with Assad, even while it supported elements of the armed insurrection against him in the aftermath of the popular uprisings that consumed Arab states in 2011.&quot; (Jared Malsin, &quot;Trump&#39;s Chemical Weapons Warning Raises The Stakes For War In Syria,&quot; <em> <a href="http://time.com/4834872/donald-trump-syria-assad-chemical-weapons-war-isis/"> Time </a> </em> , 06/27/17)</p>
+
+<p><strong>On August 27, 2018, The Trump Administration Issued Sanctions Against Russia For Its Use Of the Nerve Agent &quot;Novichok&quot; In The Attempted Assassination Of UK Citizen Sergei Skripal And Daughter Yulia Skripal </strong> . &quot;The latest round of U.S. sanctions against Russia go into effect Monday for its alleged role in the use of a chemical weapon to poison a former Russian spy. The State Department formally listed the sanctions on the federal register early Monday morning. The sanctions come in response to the Novichok nerve agent attack on former Russian intelligence officer Sergei Skripal and his daughter Yulia in England earlier this year. Among the sanctions imposed include denying the Russian state any foreign assistance, arms sales, financial assistance and exports of technology and sensitive goods.&quot; (Emily Tillett, &quot;Russia Sanctions Take Effect Monday For Nerve Agent Attack On Former Spy,&quot; <a href="https://www.cbsnews.com/news/russia-sanctions-go-into-effect-monday-for-nerve-agent-attack-on-former-spy/"> CBS News </a> , 8/27/18)</p>
+          
+          
+            <hr />
+          
+            <a class="content-tag" href="/issue/white-house/"><span style="color: #0091cb" >White House</span></a>
+          
+          
+            <a class="content-tag" href="/topic/white-house-agenda/"><span style="color: #0091cb" >Agenda</span></a>
+          
+          
+          </div>
+        </div>
+      
+      
+        <a class="news-nav nav-prev-next nav-prev" href="/wonderful-incredible-stirring-inspiring-genuinely-moving-rsr?"><h3>Previous post</h3><div class="hide-mobile">“Wonderful,” &quot;Incredible,&quot; “Stirring,” &quot;Inspiring,&quot; “Genuinely Moving”</div></a>
+      
+      
+        <a class="news-nav nav-prev-next nav-next" href="/sour-grapes-stacey-cant-take-a-hint-rsr?" ><h3>Next post</h3><div class="hide-mobile">Sour Grapes Stacey Can&#39;t Take A Hint</div></a>
+      
+      
+        <ul class="news-nav nav-list">
+          <h3><span style="color: #464646;">More</span> Agenda</h3>
+          <hr />
+          
+            <li><a href="/reject-socialism/">Stand with President Trump: NEVER SOCIALISM</a><hr /></li>
+          
+            <li><a href="/reject-socialism-now/">Stand with President Trump: NEVER SOCIALISM</a><hr /></li>
+          
+            <li><a href="/icymi-ohioans-hold-watch-parties-to-celebrate-president-trumps-sotu/">ICYMI: Ohioans Hold Watch Parties to Celebrate President Trump&#39;s SOTU</a><hr /></li>
+          
+            <li><a href="/wonderful-incredible-stirring-inspiring-genuinely-moving-rsr/">“Wonderful,” &quot;Incredible,&quot; “Stirring,” &quot;Inspiring,&quot; “Genuinely Moving”</a><hr /></li>
+          
+            <li><a href="/two-years-of-monumental-accomplishments-maga-rsr/">Two Years Of Monumental Accomplishments #MAGA</a><hr /></li>
+          
+        </ul>
+        <ul class="news-nav nav-list">
+          <h3><span style="color: #464646;">Recommended</span> For You</h3>
+          <hr/>
+          
+            <li><a href="/reject-socialism/">Stand with President Trump: NEVER SOCIALISM</a><hr /></li>
+          
+            <li><a href="/reject-socialism-now/">Stand with President Trump: NEVER SOCIALISM</a><hr /></li>
+          
+            <li><a href="/state-department-special-envoy/">President Trump Appoints State Department Special Envoy to Combat Anti-Semitism</a><hr /></li>
+          
+            <li><a href="/rnc-research-america-loved-president-trumps-state-of-the-union/">RNC Research: America Loved President Trump’s State Of The Union</a><hr /></li>
+          
+            <li><a href="/spirit-of-76-america-loved-president-trumps-state-of-the-union-rsr/">Spirit Of 76%: America Loved President Trump’s State Of The Union</a><hr /></li>
+          
+        </ul>
+      
+    </div><!-- /main-content -->
+
+    <div id="side-content">
+      <div id="join-the-team" class="container clearfix">
+        <div class="inner-container">
+          <div id="jtt-title">
+            <div class="title" style="float: none;">
+              JOIN THE TEAM
+            </div>
+            <div class="sub-title" style="float: none;">
+              Sign up today
+            </div>
+          </div>
+          <form id="join-the-team-form" action="/email_signup/" method="POST">
+            <label class="required xl" id="email_label" style="padding: 0; margin: 0;">
+              <input id="id_email" maxlength="254" name="email" placeholder="Email*" type="text" />
+            </label>
+            
+            <label class="required xl" id="phone_label">
+            
+              <input id="id_phone" maxlength="100" name="phone" placeholder="Mobile Number*" type="text" />
+            </label>
+            <button id="main-submit" type="submit" class="btn btn-submit">
+              <span>CONTINUE</span><i class="fa fa-arrow-circle-right fa-fw" style="width: 20px; display: inline-block;"></i>
+            </button>
+            <input id="id_phone" type="hidden" name="any_field" val="">
+            <input id="id_any_type" type="hidden" name="any_type" value="phone">
+            <input id="id_utm_source" type="hidden" name="utm_source" value="">
+            <input id="id_utm_medium" type="hidden" name="utm_medium" value="">
+            <input id="id_utm_campaign" type="hidden" name="utm_campaign" value="">
+            <input id="id_utm_content" type="hidden" name="utm_content" value="">
+            <input id="id_referrer" type="hidden" name="referrer" value="">
+          </form>
+        </div>
+      </div>
+      <h3>Most Popular</h3>
+      <ul id="news-popular">
+        
+          <li class="pop_1"><a href="/andrew-mccabe-liar-leaker-loser/">Andrew McCabe: Liar. Leaker. Loser.</a></li>
+        
+          <li class="pop_2"><a href="/dem-dl-bernie-sanders/">Dem DL | Bernie Sanders</a></li>
+        
+          <li class="pop_3"><a href="/rnc-chairwoman-dems-should-join-the-president-in-putting-americans-safety/">RNC Chairwoman: Dems Should Join The President in Putting Americans’ Safety</a></li>
+        
+          <li class="pop_4"><a href="/chairwoman-mcdaniel-dems-are-lurching-left-trying-to-out-bernie-bernie-sanders/">Chairwoman McDaniel: Dems Are Lurching Left, Trying to Out-Bernie Bernie Sanders</a></li>
+        
+          <li class="pop_5"><a href="/the-sanders-socialist-sequel-rsr/">The Sanders’ Socialist Sequel</a></li>
+        
+          <li class="pop_6"><a href="/trump-leads-the-world-to-say-no-more-to-maduro-rsr/">Trump Leads The World To Say No More To Maduro</a></li>
+        
+      </ul>
+      
+        <h3>Trending Topics</h3>
+        <ul id="news-trending">
+          
+            <li><a href="/topic/elections-election-2020/">Election 2020</a></li>
+          
+            <li><a href="/topic/foreign-relations-foreign-affairs/">Foreign Affairs</a></li>
+          
+            <li><a href="/topic/elections-democrats/">Democrats</a></li>
+          
+            <li><a href="/topic/elections-elizabeth-warren/">Elizabeth Warren</a></li>
+          
+            <li><a href="/topic/immigration-wall/">Wall</a></li>
+          
+            <li><a href="/topic/gop-rnc-announcements/">RNC Announcements</a></li>
+          
+            <li><a href="/topic/government-accountability-government-oversight/">Government Oversight</a></li>
+          
+        </ul>
+      
+    </div>
+  </div>
+
+    </div><!-- /body -->
+
+    <!-- footer -->
+    <div id="ft">
+      <div class="container clearfix">
+        <div class="col first">
+          <div itemscope itemtype="http://schema.org/Organization">
+            <span itemprop="logo"><img src="https://prod-cdn-static.gop.com/static/home/images/logo-republicans.gif" alt="Republican National Committee" /></span>
+
+            <h4>Connect With Us</h4>
+
+            <span itemprop="name"><h6>Republican National Committee</h6></span>
+
+            <div class="ft__social-icons">
+              <a target="_blank" class="ft__social-icons__twitter" href="https://twitter.com/GOP"></a>
+              <a target="_blank" class="ft__social-icons__facebook" href="https://www.facebook.com/GOP"></a>
+              <a target="_blank" class="ft__social-icons__instagram" href="https://www.instagram.com/gop/"></a>
+              <a target="_blank" class="ft__social-icons__youtube" href="https://www.youtube.com/channel/UC3o7kbpTUQ5-0WTMIp8sVwA"></a>
+            </div>
+
+            <h6><a href="/leaders/chairwoman-ronna-mcdaniel/">Chairwoman Ronna McDaniel</a></h6>
+
+            <div class="ft__social-icons__chairwoman">
+              <a target="_blank" class="ft__social-icons__chairwoman__twitter" href="https://twitter.com/GOPChairwoman"></a>
+              <a target="_blank" class="ft__social-icons__chairwoman__facebook" href="https://www.facebook.com/GOPChairwoman/"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <h5>Our GOP</h5>
+          <ul>
+            <li><a href="/platform/">Republican Platform</a></li>
+            <li><a href="/leaders/national/">National GOP Leadership</a></li>
+            <li><a href="/leaders/states/">State GOP Leadership</a></li>
+            <li><a href="/history/">History of the GOP</a></li>
+            <li><a href="/rules-and-resolutions/">RNC Rules &amp; Resolutions</a></li>
+            <li><a href="/rnc-counsels-office/">RNC Counsel's Office</a></li>
+          </ul>
+          <h5><a href="/groups/">GOP Groups</a></h5>
+          <ul>
+            <li><a href="/groups/black-republican-activists/">Black Republican Activists</a></li>
+            <li><a href="/groups/gop-hispanics/">GOP Hispanics</a></li>
+            <li><a href="/groups/rnc-women/">RNC Women</a></li>
+            <li><a href="/groups/gop-faith/">GOP Faith</a></li>
+            <li><a href="/groups/asian-pacific-americans/">Asian Pacific Americans</a></li>
+            <li><a href="/groups/gop-young-leaders/">Young Leaders</a></li>
+            <li><a href="/groups/veterans-and-military-families/">Veterans &amp; Military Families</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5><a href="/get-involved/">Action Center</a></h5>
+          <ul>
+            <li><a href="/get-involved/political-education/">Political Education Signup</a></li>
+            <li><a href="/get-involved/jobs/">Jobs &amp; Internships</a></li>
+            <li><a href="/get-involved/volunteer/">Volunteer</a></li>
+          </ul>
+
+          <h5>Issues</h5>
+          <ul id="issue-list">
+      			<li><a href="/issue/budget-and-spending/">Budget and Spending</a></li>
+      			<li><a href="/issue/economy/">Economy</a></li>
+      			<li><a href="/issue/education-reform/">Education Reform</a></li>
+      			<li><a href="/issue/elections/">Elections</a></li>
+      			<li><a href="/issue/energy-and-environment/">Energy and Environment</a></li>
+      			<li><a href="/issue/family-values/">Family Values</a></li>
+      			<li><a href="/issue/foreign-relations/">Foreign Relations</a></li>
+      			<li><a href="/issue/gop/">GOP</a></li>
+      			<li><a href="/issue/government-accountability/">Government Accountability</a></li>
+      			<li><a href="/issue/health-care/">Health Care</a></li>
+      			<li><a href="/issue/homeland-security/">Homeland Security</a></li>
+      			<li><a href="/issue/immigration/">Immigration</a></li>
+      			<li><a href="/issue/liberty/">Liberty</a></li>
+      			<li><a href="/issue/national-defense/">National Defense</a></li>
+      			<li><a href="/issue/special-occasions/">Special Occasions</a></li>
+      			<li><a href="/issue/veterans/">Veterans</a></li>
+      			<li><a href="/issue/white-house/">White House</a></li>
+				  </ul>
+        </div>
+
+        <div class="col">
+          <h5><a href="/news/">News &amp; Videos</a></h5>
+          <ul>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/press-releases/">Press Releases</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/videos/">Videos</a></li>
+          </ul>
+          <ul class="footer-donate-link">
+            <li>
+              <a href="https://secure.gop.com/donate" target="_blank">
+              <strong>Contribute</strong>
+              </a>
+            </li>
+          </ul>
+          <form method="get" action="/search/" class="footer-search-box">
+            <input type="text" name="q" id="id_q" placeholder="Search GOP.com"/>
+            <input type="submit" class="btn-search" value="Search"/>
+          </form>
+          <ul id="ft-contact">
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <li id="address"><span itemprop="streetAddress">310 First Street SE</span>, <span itemprop="addressLocality">Washington, DC</span> <span itemprop="postalCode">20003</span></li>
+            </div>
+              <li id="phone"><span itemprop="telephone">202-863-8500</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container clearfix">
+        <div id="copyright">
+          <p>&copy; Copyright 2019 All Rights Reserved - <a href="/privacy/">Privacy Policy</a></p>
+        </div>
+
+        <div id="phone-disclaimer">
+          <p>By providing your phone number, you are consenting to receive calls and SMS/MMS msgs, including autodialed and automated calls and texts, to that number from the Republican National Committee. Msg&data rates may apply. Terms & conditions/privacy policy apply <a href="http://80810-info.com/" target="_blank">80810-info.com</a>.</p>
+        </div>
+
+        <div id="pay-disclaimer">
+          <p>Paid for by the Republican National Committee. Not Authorized By Any Candidate Or Candidate's Committee. <a href="">www.gop.com</a></p>
+        </div>
+        <a href="https://1atgmqsru8.execute-api.us-east-1.amazonaws.com/v1/ResearchArticles" rel="nofollow" style="display: none;" aria-hidden="true">ResearchArticles</a>
+      </div>
+    </div>
+    <!-- /footer -->
+
+    <div id="ft-mobile">
+      <div class="container">
+        <ul>
+          <li><a href="/get-involved/">Action Center</a></li>
+          <li><a href="https://secure.gop.com/donate" target="_blank">Contribute</a></li>
+          <li><a href="/blog/">Read Blog</a></li>
+        </ul>
+        <div class="clear"></div>
+
+        <div class="ft-mobile__social-icons">
+          <a target="_blank" class="ft-mobile__social-icons__twitter" href="https://twitter.com/GOP"></a>
+          <a target="_blank" class="ft-mobile__social-icons__facebook" href="https://www.facebook.com/GOP"></a>
+          <a target="_blank" class="ft-mobile__social-icons__instagram" href="https://www.instagram.com/gop/"></a>
+          <a target="_blank" class="ft-mobile__social-icons__youtube" href="https://www.youtube.com/channel/UC3o7kbpTUQ5-0WTMIp8sVwA"></a>
+        </div>
+
+        <div id="phone-disclaimer">
+          <p>By providing your phone number, you are consenting to receive calls and SMS/MMS msgs, including autodialed and automated calls and texts, to that number from the Republican National Committee. Msg&data rates may apply. Terms & conditions/privacy policy apply <a href="http://80810-info.com/" target="_blank">80810-info.com</a>.</p>
+        </div>
+
+        <div id="pay-disclaimer">
+          <p>Paid for by the Republican National Committee. <br />Not Authorized By Any Candidate Or Candidate's Committee. <a href="">www.gop.com</a></p>
+        </div>
+        <a href="https://1atgmqsru8.execute-api.us-east-1.amazonaws.com/v1/ResearchArticles" rel="nofollow" style="display: none;" aria-hidden="true">ResearchArticles</a>
+      </div>
+    </div>
+
+    <div id="cookie-message">
+      <div class="cancel-button" style="background-color: transparent; color: black;">X</div>
+      <p>This site is not guaranteed to work correctly with cookies disabled.  Please turn them back on to achieve the expected browsing experience.</p>
+    </div>
+
+
+    <!-- Twitter JS to load buttons -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <!-- js -->
+      
+
+        <!-- Please call pinit.js only once per page -->
+      <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
+      <script type="text/javascript" src="https://prod-cdn-static.gop.com/static/js/gop.min.js" charset="utf-8"></script>
+      
+
+
+
+
+
+
+
+
+      <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+      <script type="text/javascript" src="https://prod-cdn-static.gop.com/static/home/js/jquery.ui.dialog.js"></script>
+      <!-- Place this tag in your head or just before your close body tag. -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+      <script type="text/javascript">
+        function getParameterByName(name, url) {
+          if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, "\\$&");
+          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'ad_flight', 'autofill_amount', 'ilist', 'DCPe'].forEach(function(queryKey) {
+          $('input[id=id_' + queryKey + ']').val(getParameterByName(queryKey));
+        });
+      </script>
+
+      <script type="text/javascript">
+  			function getCookie(name){
+  				var pattern = RegExp(name + "=.[^;]*")
+  			  matched = document.cookie.match(pattern)
+  			  if(matched){
+  			    var cookie = matched[0].split('=')
+  			    return cookie[1]
+  			  }
+  			  return false
+  			}
+  			['optimizelyEndUserId'].forEach(function(optimizelyCookie) {
+  				$('input[id=id_' + optimizelyCookie + ']').val(getCookie(optimizelyCookie));
+  			});
+  		</script>
+
+      <script>
+        $( '.searchbyitem' ).on('click', function(event) {
+          event.preventDefault();
+          var target = "#" + $(this).data('target');
+          $('html, body').animate({
+              scrollTop: $(target).offset().top - 130
+          }, 2000);
+        });
+      </script>
+
+      <script>
+        $('.openMenu').on('click', function() {
+          $(".fullscreen-menu").fadeIn("slow");
+          $(".open-menu").css("display", "none");
+          $(".close-menu").css("display", "block");
+          $("body").addClass('stop-scrolling');
+        });
+        $('.closeMenu').on('click', function() {
+          $(".fullscreen-menu").fadeOut("slow");
+          $(".close-menu").css("display", "none");
+          $(".open-menu").css("display", "block");
+          $("body").removeClass('stop-scrolling');
+        });
+      </script>
+
+      <script type="text/javascript">
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          $('.openMenu').on('click', function() {
+            $(".fullscreen-menu").fadeIn("slow");
+            $(".open-menu").css("display", "none");
+            $(".close-menu").css("display", "block");
+            $("body").css('position', 'fixed');
+          });
+          $('.closeMenu').on('click', function() {
+            $(".fullscreen-menu").fadeOut("slow");
+            $(".close-menu").css("display", "none");
+            $(".open-menu").css("display", "block");
+            $("body").css('position', 'unset');
+          });
+        }
+      </script>
+
+    
+
+<script>
+    
+        fill_box_with_likes_from_source(".facebook-bg", "https://gop.com/the-state-of-the-union-trump-has-and-continues-to-maga-rsr", "facebook");
+    
+    $(document).ready(function() {
+        $(".news-entry-content").children().removeAttr("style");
+        $(".news-entry-content").find("a").attr("target", "_blank");
+        var $social_header = $("#social-hd");
+        var $sidebar = $(".news-entry-sidebar.hide-mobile");
+        var content_bottom = $(".news-entry-content").offset().top + $(".news-entry-content").height();
+        var sidebar_default_position = $sidebar.offset().top;
+        $(window).scroll(function() {
+            var social_header_position = $social_header.offset().top + $social_header.height();
+            if (social_header_position >= sidebar_default_position && content_bottom > social_header_position + $sidebar.height()) {
+                $sidebar.css("margin-top", (social_header_position - sidebar_default_position).toString() + "px" );
+            }else if(social_header_position < sidebar_default_position){
+                $sidebar.css("margin-top", '0px' );
+            }
+        });
+
+        $("input[type='radio']").click(function() {
+            $("input[name='" + $(this).attr("name") + "']").parent().removeClass("selected");
+            $(this).parent().addClass("selected");
+        });
+
+        $("input[type='checkbox']").click(function() {
+            $(this).parent().toggleClass("selected");
+        });
+
+        $("input[type='checkbox'], input[type='radio']").each(function() {
+            if ($(this).prop("checked")) {
+                $(this).parent().addClass("selected");
+            }
+        });
+        
+    });
+
+    function validateEmail(email) {
+        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+        return re.test(email);
+    }
+    function validateZipCode(zip) {
+        var re = /^\d{5}(?:[-\s]\d{4})?$/;
+        return re.test(zip);
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script type="text/javascript">
+	/** Validation Messages **/
+	jQuery.extend(jQuery.validator.messages, {
+			required: "This field is required.",
+			email: "Please enter a valid email address.",
+			number: "Please enter a valid number.",
+			digits: "Please enter only digits.",
+			maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+			minlength: jQuery.validator.format("Please enter at least {0} characters."),
+			rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
+			range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+			max: jQuery.validator.format("Please enter a value less than or equal to {0}."),
+			min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
+	});
+	jQuery.validator.addMethod("isphone", function(phone_number, element) {
+    phone_number = phone_number.replace(/\s+/g, "");
+    return this.optional(element) || phone_number.length > 9 &&
+    phone_number.match(/^\(?(\d{3})\)?[-\. ]?(\d{3})[-\. ]?(\d{4})$/);
+}, "Please specify a valid phone number");
+	/** Validation rules **/
+	var field_rules = {
+			"phone":{
+				"required": true,
+      	"phoneUS": true
+			},
+			"email": {
+				"required": true,
+				"email": true,
+				"maxlength": 60
+			},
+			"zipcode": {
+				"required": true,
+				"maxlength": 5,
+				"minlength": 5,
+				"digits": true
+			}
+	}
+	function validate_info_home(validated_wrapper, skip_init) {
+			if (!skip_init) {
+					$(validated_wrapper).validate({
+						onkeyup: function(element) {
+	            this.element(element);
+						},
+            onclick: function(element) {
+	            this.element(element);
+						},
+            onfocusout: function(element) {
+	            this.element(element);
+						}
+					});
+			}
+
+			for (var field in field_rules) {
+					var $input_field = $(validated_wrapper + " input[name='" + field + "']");
+					if (field_rules.hasOwnProperty(field) && $input_field.length > 0) {
+							$input_field.rules("add", field_rules[field]);
+					}
+			}
+	}
+
+$(document).ready(function() {
+		$("input[name='full_name']").blur(function() {
+				var full_name = $(this).val();
+				var parsed_name = NameParse.parse(full_name);
+				$("#id_first_name").attr("value", parsed_name.firstName);
+				$("#id_last_name").attr("value", parsed_name.lastName);
+		});
+
+		// Check if error labels should be shown or not
+		$error_labels = $("label.error");
+		result = {};
+		for (var i = 0; i < $error_labels.length; ++i) {
+				$this_label = $($error_labels[i]);
+				if ($this_label.text()) {
+						$this_label.show();
+						$this_label.parent().find("input").addClass("error");
+						result[$this_label.text()] = $this_label.attr('for').substr(3);
+				}
+		}
+		if (result != {}) {
+				errors = JSON.parse(JSON.stringify(result));
+				var ddFormError = {
+						eventInfo: {
+								eventName: 'form_error',
+								type: 'error',
+						},
+						error: {formErrorMessage: errors}
+				};
+				/**
+				var digitalData = digitalData || {};
+				digitalData.events = digitalData.events || [];
+				digitalData.events.push(ddFormError);
+				**/
+				sendCustomEvent('form_error');
+		}
+
+});
+
+
+
+	//Return the first value with the matching parameter name from a GET request
+	//If it does not exist returns null
+	function getRequestParam (paramName) {
+		if(paramName=(new RegExp('[?&]'+encodeURIComponent(paramName)+'=([^&]*)')).exec(location.search)){
+			return decodeURIComponent(paramName[1]);
+		}
+		return null
+	};
+
+	function getFieldValue (parameters){
+		var completeValue = ''
+		if (parameters.constructor === Array){
+			for (var i = 0; i < parameters.length; ++i){
+
+				var value = getRequestParam(parameters[i]);
+				if (value === null){
+					return null
+				}
+				completeValue += completeValue.length > 0 ? (' ' + value) : value;
+			}
+		}
+		else{
+		 	completeValue = getRequestParam( parameters );
+		}
+
+		return completeValue;
+	}
+
+	var any_type = "phone";
+
+	var fieldParamMapping = {
+		'id_email': 'email',
+		'id_any_type': 'any_type',
+		'id_utm_source': 'utm_source',
+		'id_utm_medium': 'utm_medium',
+		'id_utm_campaign': 'utm_campaign',
+		'id_utm_content': 'utm_content',
+		'id_referrer': 'referrer',
+	}
+
+	function fillForm (mapping){
+		for (var fieldId in mapping) {
+			var value = getFieldValue (mapping[fieldId]);
+			var field = document.querySelectorAll('input#' + fieldId)[0];
+			if (value != null && field != null){
+				field.value = value;
+			}
+		}
+	}
+
+</script>
+
+
+<script type="text/javascript">
+	fillForm(fieldParamMapping);
+</script>
+<script type="text/javascript">
+  function urlpath() {
+      //Specify which query string keys we're searching for
+      var params = ["email","Email","firstname","FirstName","lastname","LastName","zip","Zip","zipcode", "ZipCode", "phone", "Phone"];
+      var newUrl = document.createElement("a");
+      newUrl.href = window.location.href;
+      var searchString = newUrl.search;
+      if (searchString == "") return;
+      var pushStateFlag = false;
+      for (i = 0; i < params.length; i++) {
+          currentQ = new RegExp(params[i] + "=[^&]*&?", "g");
+          if (currentQ.test(searchString)) {
+              searchString = searchString.replace(currentQ, "");
+              pushStateFlag = true;
+          }
+      }
+      if (pushStateFlag) {
+          searchString = searchString.replace(/[?&]$/, "");
+             //Overwrite browser history with non-PII URL
+             history.replaceState({state:1, rand: Math.random()}, '', newUrl.pathname + searchString);
+      }
+  
+      return newUrl.pathname + searchString
+  }
+  
+  urlpath();
+</script>
+
+<script type="text/javascript">
+  var logs = [];
+  console.testArr = logs;
+
+  $(window).ready(function() {
+
+    var isMobile = getMobileOperatingSystem();
+    var windowWidth = $(window).width();
+    var windowHeight = $(window).height();
+    logs.push('onReady')
+    // Initial load check
+    if(isMobile == "iPad") {
+       logs.push('if block');
+      var research = $("#left-col").detach();
+      $("#top-features")
+        .children()
+        .last()
+        .css("order","0");
+
+      $("#top-features")
+        .removeClass("clearfix")
+        .append(research);
+
+      $("#group-features")
+        .removeClass("clearfix")
+        .find(".clear")
+        .remove();
+
+      $(window).bind('orientationchange', function() {
+          logs.push('orientationchange');
+          windowWidth = $(window).width();
+          windowHeight && (windowHeight = $(window).height());
+          joinTheTeam();
+      })
+      //$("join-the-team-form #main-submit").attr("style", "width:120px;");
+      //var groupFeatures = $(".group-feature");
+      //if(groupFeatures.length % 2 !== 0 ) {
+       //   groupFeatures.last().css('margin-left', 'auto').css('margin-right', 'auto');
+      //}
+    } else {
+      $(window).resize(function() {
+        logs.push('resize');
+        windowWidth = $(window).width();
+        windowHeight = $(window).height();
+        if (windowWidth < 641 || isMobile == "iOS") {
+          $("#jtt-title").removeAttr("style");
+          $("#join-the-team-form").removeAttr("style");
+          $("#join-the-team-form .xl").removeAttr("style");
+          $("#join-the-team-form input").removeAttr("style");
+          $("#main-submit").removeAttr("style");
+        } else {
+          joinTheTeam();
+        }
+      });
+    }
+    if (isMobile == "unknown" && windowWidth > 641 || isMobile == "iPad") {
+      logs.push('jointheTeam pre');
+      joinTheTeam();
+    } else if (windowWidth < 641 || isMobile == "iOS") {
+      $("#jtt-title").removeAttr("style");
+      $("#join-the-team-form").removeAttr("style");
+      $("#join-the-team-form .xl").removeAttr("style");
+      $("#join-the-team-form input").removeAttr("style");
+      $("#main-submit").removeAttr("style");
+    }
+
+    function joinTheTeam () {
+      logs.push('joinTheTeam');
+      var isFirefox = typeof InstallTrigger !== 'undefined';
+      var titleEl = document.getElementById("jtt-title");
+      var titleElW = titleEl.offsetWidth;
+      var jttContainer = document.getElementById("join-the-team");
+      var jttContainerW = jttContainer.offsetWidth;
+      var jttFormEl = document.getElementById("join-the-team-form");
+      var jttFormElW = jttFormEl.offsetWidth;
+      var jttInitialTotal = jttFormElW + titleElW;
+      var jttButtonElW = $("#main-submit").outerWidth(true);
+
+      var element1 = document.querySelector('#join-the-team-form');
+      logs.push('pre if blocks: intial total = ' + jttInitialTotal + ' container width = ' + jttContainerW );
+      if (jttInitialTotal > jttContainerW) {
+        //Set right form width
+        logs.push('join the team first if block')
+        var newJttFormW = jttContainerW-titleElW
+        $("#join-the-team-form").width(newJttFormW);
+        $("#jtt-title").width(titleElW);
+
+        //Set inner form element widths
+        setFormWidths(newJttFormW);
+      } else if (jttInitialTotal < jttContainerW) {
+        logs.push('join the team second if block')
+        var newJttFormW = jttContainerW-titleElW
+        $("#join-the-team-form").width(newJttFormW);
+        $("#jtt-title").width(titleElW);
+
+        setFormWidths(newJttFormW);
+      } else if (jttInitialTotal === 0 && jttContainerW === 0) {
+        setTimeout(joinTheTeam);
+      }
+
+      function setFormWidths(getFormWidth) {
+        logs.push('setFormWidth window width: ' + windowWidth + ' window height: ' + windowHeight + ' getFormWidth: ' + getFormWidth + ' jttButonElW: ' + jttButtonElW);
+        if(isMobile === "iPad"){
+          logs.push('setFormWidth if block');
+
+            $("#join-the-team-form #main-submit").width(75);
+
+          jttButtonElW = $("#main-submit").outerWidth(true);
+        }
+
+        var diffFormW = getFormWidth - jttButtonElW;
+        var inputFormW = diffFormW / 2;
+
+        if (isMobile === "iPad" && windowHeight>windowWidth) {
+            $("#join-the-team-form label.xl").width(inputFormW-70);
+            $("#join-the-team-form label.xl input").width(inputFormW-70);
+        } else {
+            $("#join-the-team-form label.xl").width(inputFormW-100);
+            $("#join-the-team-form label.xl input").width(inputFormW-100);
+        }
+
+        if (isFirefox) {
+          $("#join-the-team-form #main-submit").width(jttButtonElW-50);
+        } else {
+          $("#join-the-team-form #main-submit").width(jttButtonElW-20);
+        }
+        $('#join-the-team-form').css("visibility","visible");
+      }
+    }
+
+    $("#join-the-team-form").submit(function(e) {
+      var postData = "";
+      var formURL = $(this).attr("action");
+
+      any_field_val = $(this).find('input[name="phone"]').val();
+      $(this).find('input[name="any_field"]').val(any_field_val);
+      postData = $(this).serializeArray()
+                        .map(function(entry) {
+                  	      if(entry.name === 'referrer') {
+                  		      return {
+                  			      name: entry.name,
+                  			      value: window.location.href.split('?')[0]
+                  		      }
+                  	      } else {
+                  		      return entry;
+                  	        }
+                        });
+
+      
+        field_rules.phone.required = true
+      
+
+      validate_info_home("#join-the-team-form");
+      e.preventDefault();
+
+      if ($("#join-the-team-form").valid()) {
+        $.ajax(
+        {
+            url : formURL,
+            type: "POST",
+            data : postData,
+            success:function(data, textStatus, jqXHR)
+            {
+                window.location = "https://secure.gop.com/donate?utm_source=organic&amp;utm_medium=web&amp;utm_campaign=20171206__homepage-email-capture_gop_rnc&amp;utm_content=gop_home";
+            }
+        });
+
+      }
+    });
+
+    function getMobileOperatingSystem() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Windows Phone must come first because its UA also contains "Android"
+        if (/windows phone/i.test(userAgent)) {
+            return "Windows Phone";
+        }
+
+        if (/android/i.test(userAgent)) {
+            return "Android";
+        }
+
+        if (/iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return "iOS";
+        }
+
+        if (/iPad/.test(userAgent) && !window.MSStream) {
+            return "iPad";
+        }
+
+
+        return "unknown";
+    }
+
+  });
+</script>
+
+
+    <!-- Tracking pixels -->
+    
+    
+
+    <!-- Sitewide pixels -->
+
+    <!-- ip-10-202-11-241 -->
+
+  </body>
+</html>

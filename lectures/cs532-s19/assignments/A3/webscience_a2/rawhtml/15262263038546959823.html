@@ -1,0 +1,826 @@
+<!doctype html><html class="no-js" lang="en"><head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcOV1NACwcHVlFbAw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,N=y.hash,this[u]=g.now()}function o(){M--,y.hash!==N&&i(0,!0);var t=g.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=g.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,g=t("loader");if(w[v]&&g.xhrWrappable){var b=t(10),x=t(11),E=t(8),O=t(6),P=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),S=j.get("tracer");t(15),g.features.spa=!0;var N,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(l,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),P.buffer(["setTimeout"+c,"clearTimeout"+s,u]),T.buffer([u,"new-xhr","send-xhr"+s]),R.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),b.buffer([u]),x.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+s),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+s),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(8);var b=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,e){var n=t[0];n instanceof b&&i("bst",[n,e,this.bstStart,g.now()])}),a.on(m,function(t,e,n){this.bstStart=g.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+l,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(24)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(21);e.exports=o;var a=window,s="fetch-",c=s+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,l="prototype";u&&d&&p&&(i(f,function(t,e){r(u[l],e,c),r(d[l],e,c)}),r(a,"fetch",s),o.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(s+"done",[null,e],n)}else o.emit(s+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(24)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t(24)(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-"),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(24)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(24),a=t("ee").get("promise"),s=i(a),c=t(21),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(24)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(24)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(24)(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,b),b.prototype=l.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(e.cat=c.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),l=t(19),h=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,l&&(l>34||l<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<d;s++)e.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],21:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],22:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],23:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],24:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[n]];return d&&d.push([b,n,r,a]),a}}function l(t,e){y[t]=m(t).concat(e)}function h(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},b={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(g,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(17),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}]},{},["loader",2,15,5,3,4]);</script><script>
+   try {var _sf_startpt=(new Date()).getTime();} catch(e){}
+</script>
+<meta itemscope itemtype="https://schema.org/SpeakableSpecification" itemref="speakable" /><title>Could Maryland Gov. Larry Hogan Challenge Trump In 2020 Election? : NPR</title><meta id="speakable" itemprop="cssSelector" content="[data-is-speakable]" /><meta id="google-site-verification" name="google-site-verification" content="1VqzbDm4ukeFVHOoq5LjIKA2fVKZD-EYv8cXZhKXSfU" /><meta charset="utf-8" /><meta name="robots" content="noarchive,index,follow" /><meta name="Rating" content="General" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="npr-pjax" /><meta name="date" content="2019-02-09" /><link rel="canonical" href="https://www.npr.org/2019/02/09/692808713/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020" /><meta name="description" content="The well-liked Republican leading a deep-blue state is an outspoken critic of President Trump and has denounced the &quot;debilitating politics of Washington.&quot; " /><link rel="alternate" type="application/rss+xml" title="Politics" href="/rss/rss.php?id=1014" /><link rel="alternate" type="application/json" title="Politics" href="https://www.npr.org/feeds/1014/feed.json" /><link rel="apple-touch-icon" sizes="180x180" href="https://media.npr.org/templates/favicon/favicon-180x180.png" /><link rel="icon" sizes="96x96" href="https://media.npr.org/templates/favicon/favicon-96x96.png" /><link rel="icon" sizes="32x32" href="https://media.npr.org/templates/favicon/favicon-32x32.png" /><link rel="icon" sizes="16x16" href="https://media.npr.org/templates/favicon/favicon-16x16.png" /><meta property="og:title" content="'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?" /><meta property="og:url" content="https://www.npr.org/2019/02/09/692808713/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020" /><meta property="og:type" content="article" /><meta property="og:description" content="The well-liked Republican leading a deep-blue state is an outspoken critic of President Trump and has denounced the &quot;debilitating politics of Washington.&quot; " /><meta property="og:image" content="https://media.npr.org/assets/img/2019/02/08/ap_19016694708521_wide-160cf03c005b92f356253bc008d60b8379afb6d9.jpg?s=1400" /><meta property="og:site_name" content="NPR.org" /><meta property="fb:app_id" content="138837436154588" /><meta property="fb:pages" content="10643211755" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@NPR" /><meta name="twitter:domain" content="npr.org" /><meta name="twitter:image:src" content="https://media.npr.org/assets/img/2019/02/08/ap_19016694708521_wide-160cf03c005b92f356253bc008d60b8379afb6d9.jpg?s=1400" /><script id="npr-vars">
+   window.NPR = window.NPR || {};
+NPR.ServerConstants = {"cbHost":"npr.org","webHost":"https:\/\/www.npr.org","embedHost":"https:\/\/www.npr.org","webHostSecure":"https:\/\/secure.npr.org","apiHost":"https:\/\/api.npr.org","staticAssetHost":"https:\/\/s.npr.org","serverMediaCache":"https:\/\/media.npr.org","googleAnalyticsAccount":"UA-5828686-4","nielsenSFCode":"dcr","nielsenAPN":"NPR-dcr","shouldShowHPLocalContent":false};
+NPR.serverVars = {"storyId":"692808713","facebookAppId":"138837436154588","webpackPublicPath":"https:\/\/s.npr.org\/templates\/javascript\/dist\/bundles\/","persistenceVersion":"118ccc72b1a4ca2688b2a9282313f25d","isBuildOut":true,"topicIds":["P1014","1001","1002","1003","139482413"],"primaryTopic":"Politics","topics":["Politics","News","Home Page Top Stories","National","Elections"],"theme":"1014","programId":"Morning Edition","program":"3","aggIds":["3","1001","1002","1003","1014","139482413","191676894","262472261","434975886","693799047"],"byline":["Patrick Madden"],"contentPartnerOrg":"WAMU 88.5","pubDate":"2019020907","pageTypeId":"1","title":"\u0027Watch What We\u0027re Doing\u0027: Could Maryland Gov. Larry Hogan Challenge Trump In 2020?","publisherOrgId":"305","rocketfuelCode":20501671};
+</script>
+<script type="text/javascript" src="https://cdn.optimizely.com/js/11107397707.js">
+   </script>
+<script type="text/javascript" src="https://s.npr.org/templates/javascript/lib/modernizr/modernizr.custom.js">
+   </script>
+<script>
+   !function(e){function a(c){if(f[c])return f[c].exports;var d=f[c]={exports:{},id:c,loaded:!1};return e[c].call(d.exports,d,d.exports,a),d.loaded=!0,d.exports}var c=window.webpackJsonp;window.webpackJsonp=function(b,t){for(var n,r,o=0,i=[];o<b.length;o++)r=b[o],d[r]&&i.push.apply(i,d[r]),d[r]=0;for(n in t){var s=t[n];switch(typeof s){case"object":e[n]=function(a){var c=a.slice(1),f=a[0];return function(a,d,b){e[f].apply(this,[a,d,b].concat(c))}}(s);break;case"function":e[n]=s;break;default:e[n]=e[s]}}for(c&&c(b,t);i.length;)i.shift().call(null,a);if(t[0])return f[0]=0,a(0)};var f={},d={27:0};a.e=function(e,c){if(0===d[e])return c.call(null,a);if(void 0!==d[e])d[e].push(c);else{d[e]=[c];var f=document.getElementsByTagName("head")[0],b=document.createElement("script");b.type="text/javascript",b.charset="utf-8",b.async=!0,b.src=a.p+""+e+"."+{0:"1c093b305baf3a53f0d6",1:"2904f9571ee90d927a63",2:"ba330e4de360db245367",3:"2cfc5016c1031fd47380",4:"6a50c96629bab155b212",5:"4825304f288dbe206322",6:"4e1dd0943d6e36e2ec61",7:"9a607af4096934771c6f",8:"690f4f79a81aee17dd16",9:"39d16da75985f62a28b3",10:"551b51be47ecee204955",11:"cdaa073aee99968c886f",12:"af2177a1269a75a9d1cf",13:"44501acbecc7077b0aa0",14:"bd23023217642578460d",15:"c0cdb6583d7c739d7770",16:"0ef271e48b9c4ba9312e",17:"a99ae0d405a0617f05e8",18:"09d1f525a935ee450bf5",19:"adcd0d658b70bcefcb9f",20:"bda033837f811a401d8a",21:"86cda9ca79f1f0247627",22:"afa421080796ca91196d",23:"2a5d83e7be98d9734405",24:"e2a6462255d395b9bbe8",25:"b3ec395603f3bdaf847f",26:"bfaad678d3c1e547bd87",28:"f1f540714ed6ea6dea11",29:"ca3f1c0a7df21b9f7c9f",30:"59d898bd7e1189fb1814",31:"9ccbcb6c2de46dfb775b",32:"8c8896d9f251094804b0",33:"5331ceab41f84e20d9ce",34:"5cc9fb3328e01bdffccb",35:"caa7563617ef9430d341",36:"803b5fb7ff9fdc59cf39",37:"cd49019baecae89e016f",38:"474238410293247845e4",39:"48d3feccb9ab4f363ba9",40:"4ddad816aa46ee1a11e1",41:"a591420fd84151c98c25",42:"fcb4dae6c7f06d543834",43:"754f37e16a4b04ffae57",44:"193d5089de8a226d9c8d",45:"c96d0d4d3c834473d1c6",46:"6c7c4a5fd60cfe52e6b5",47:"d11a734f0d6173317f9a",48:"f493d48eb2499e74b1fb",49:"8f1b5ffcb0b545e7a49c",50:"927e1dd6042c31afa116",51:"e5c4816c59ce99e5dc4f",52:"15d4598507a928d9a0cc",53:"2e364c884bf120322c24",54:"f1ba02fbbba662b667a3",55:"829dcd628638aad45219",56:"7735d7ccd36c15fee5e7",57:"c004f1cf4a828533eb72",58:"45827ee72eb1e26fea69",59:"55ab58a927a16276650b",60:"f8b84ce2750625ea6def",61:"b860585b84bfdade5f65",62:"cf02cff5114ad280fe6a",63:"5808d02909595184f87d",64:"bc3f3afe22b3d426f007",65:"2179b091de5efeb80b0d",66:"f7295dbea6517477f1f2",67:"38779e75b7d6383111bf",68:"88805c016a929c50230a",69:"3e6a21eb396ae3a50d4e",70:"80598f7882434fb17492",71:"5368efdac7c4932f36d4",72:"ea8b0c07f344e12b8f59",73:"d94b0233fa91cb0c7465",74:"5661d991adca862ec347",75:"fb4f7b35824cb4ecf78f",76:"78b9ce93f8da8f68c839",77:"6de65b2387c5c1a79622",78:"bef679ec244eb244d926",79:"dda040e447804bad75fb",80:"8e9f101e8a113eae242b",81:"0549cc477c19748d3d9e",82:"668256051940b52d473f",83:"d325b95c76c8b6d31998",84:"4282b9265512a1c31f1b",85:"d557ef18dadabcb26763",86:"11751f3ed359b71e3386",87:"ad98bae9f684a95fa2ec",88:"2d3b596f540807eced8f",89:"47b50b0e13aae33f834b"}[e]+".chunk.js",f.appendChild(b)}},a.m=e,a.c=f,a.p="/templates/javascript/dist/bundles/"}(function(e){for(var a in e)if(Object.prototype.hasOwnProperty.call(e,a))switch(typeof e[a]){case"function":break;case"object":e[a]=function(a){var c=a.slice(1),f=e[a[0]];return function(e,a,d){f.apply(this,[e,a,d].concat(c))}}(e[a]);break;default:e[a]=e[e[a]]}return e}([]));
+</script>
+<script type="text/javascript" src="https://s.npr.org/templates/javascript/dist/bundles/globalNavigationDropdowns-ca3f1c0a7df21b9f7c9f.js">
+   </script>
+<link rel="stylesheet" data-persist="true" media="screen, print" href="https://s.npr.org/templates/javascript/dist/bundles/persistent-css-d5e300b3bf2a37c44f4a.css" /><link rel="stylesheet" media="screen, print" href="https://s.npr.org/templates/javascript/dist/bundles/newsStory-css-d5e300b3bf2a37c44f4a.css" /><link rel="stylesheet" media="screen" href="https://s.npr.org/branding/sections/politics/branding.css" /><link rel="stylesheet" media="screen" href="https://s.npr.org/include/overridecss/theme1014.css" /><script type="text/javascript">
+   document.domain="npr.org";
+</script>
+</head><body id="news" class="news tmplNewsStory  story-layout is-buildout no-transcript has-no-branding id692808713 " data-pjax-modules="util/env images/lazy-load chartbeat comscore metrics nielsen nielsenDCR rocketfuel copyright auto-refresh navigation/global-navigation fitvids dfp globalfooter persistent-audio player/more-options what-input metrics/doubleclickFloodlight metrics/facebookTracking story/replace-centerstage ecommerce recommendations/end-of-story-recommendations-callout jw social/share slideshow images/enlargement swfbuilder contentfooter story/sticky-header story/date-tooltip callout/end-of-story-callout social/sharepop podcast-cards"><div class="skip-links">
+      <span>Accessibility links</span>   <ul>
+            <li><a href="#mainContent" class="skiplink">Skip to main content</a></li>
+      <li><a href="https://help.npr.org/customer/en/portal/articles/2535181-what-are-the-keyboard-shortcuts-for-using-the-npr-org-audio-player-" class="skiplink">Keyboard shortcuts for audio player</a></li>
+   </ul>
+</div>
+<header class="npr-header" id="globalheader" aria-label="NPR header"><nav class="navigation" aria-label="main navigation">
+    <div class="navigation__top-level-wrap" data-metrics-all data-metrics-category="global navigation">
+        <ul class="navigation__top-level">
+            <li class="navigation__home">
+                <a href="/" data-metrics-action="click npr logo">
+                    <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo"/>
+                </a>
+            </li>
+
+            <li id="navigation__station-mount"></li>
+
+            <li id="user-account-dropdown-mount" class="navigation__account"></li>
+
+            <li class="navigation__shop">
+                <a href="https://shop.npr.org" data-metrics-action="click npr shop">Shop</a>
+            </li>
+
+            <li id="navigation__station-donate-mount"></li>
+
+            <li class="navigation__toggle-wrap">
+                <button id="navigation__toggle--open" class="navigation__toggle navigation__toggle--open" aria-haspopup="true" aria-expanded="false" data-metrics-action="open navigation menu">
+                    Open Navigation Menu
+                </button>
+            </li>
+        </ul>
+    </div>
+    <section id="main-menu" class="menu menu--main" data-metrics-all data-metrics-category="global navigation">
+        <div class="menu__inner">
+            <header class="menu__header">
+                <button id="navigation__toggle--close" class="navigation__toggle navigation__toggle--close" aria-haspopup="true" aria-expanded="true" data-metrics-action="close navigation menu">
+                    Close <span>Navigation Menu</span>
+                </button>
+            </header>
+            <ul class="menu__list">
+                <li class="menu__item menu__item--home">
+                    <div class="menu__item-inner"><a href="/" data-metrics-action="click npr logo">Home</a></div>
+                </li>
+                <li class="menu__item menu__item--news menu__item--has-submenu" data-metrics-hover="toggle news drawer">
+                    <div class="menu__item-inner">
+                        <a href="/sections/news/" data-metrics-action="click news">News</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle news drawer">Expand/collapse submenu for News</button>
+                    </div>
+
+                    <ul class="submenu submenu--news">
+                        <li class="submenu__item"><a href="/sections/national/" data-metrics-action="click national">National</a></li>
+                        <li class="submenu__item"><a href="/sections/world/" data-metrics-action="click world">World</a></li>
+                        <li class="submenu__item"><a href="/sections/politics/" data-metrics-action="click politics">Politics</a></li>
+                        <li class="submenu__item"><a href="/sections/business/" data-metrics-action="click business">Business</a></li>
+                        <li class="submenu__item"><a href="/sections/health/" data-metrics-action="click health">Health</a></li>
+                        <li class="submenu__item"><a href="/sections/science/" data-metrics-action="click science">Science</a></li>
+                        <li class="submenu__item"><a href="/sections/technology/" data-metrics-action="click technology">Technology</a></li>
+                        <li class="submenu__item"><a href="/sections/codeswitch/" data-metrics-action="click race & culture">Race &amp; Culture</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item menu__item--arts-life menu__item--has-submenu" data-metrics-hover="toggle arts drawer">
+                    <div class="menu__item-inner">
+                        <a href="/sections/arts/" data-metrics-action="click arts & life">Arts &amp; Life</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle arts drawer">Expand/collapse submenu for Arts &amp; Life</button>
+                    </div>
+
+                    <ul class="submenu submenu--arts-life">
+                        <li class="submenu__item"><a href="/books/" data-metrics-action="click books">Books</a></li>
+                        <li class="submenu__item"><a href="/sections/movies/" data-metrics-action="click movies">Movies</a></li>
+                        <li class="submenu__item"><a href="/sections/television/" data-metrics-action="click television">Television</a></li>
+                        <li class="submenu__item"><a href="/sections/pop-culture/" data-metrics-action="click pop culture">Pop Culture</a></li>
+                        <li class="submenu__item"><a href="/sections/food/" data-metrics-action="click food">Food</a></li>
+                        <li class="submenu__item"><a href="/sections/art-design/" data-metrics-action="click art & design">Art &amp; Design</a> </li>
+                        <li class="submenu__item"><a href="/sections/performing-arts/" data-metrics-action="click performing arts">Performing Arts</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item menu__item--music menu__item--has-submenu" data-metrics-hover="toggle music drawer">
+                    <div class="menu__item-inner">
+                        <a href="/music/" data-metrics-action="click music">Music</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle music drawer">Expand/collapse submenu for Music</button>
+                    </div>
+
+                    <ul class="submenu submenu--music"><li class="submenu__item">
+    <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk">
+        Tiny Desk
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered">
+        All Songs Considered
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/sections/music-news/" data-metrics-action="click music news">
+        Music News
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features">
+        Music Features
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/sections/new-music/" data-metrics-action="click new music">
+        New Music
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/series/534681404/best-music-of-2018" data-metrics-action="click best music of 2018">
+        Best Music Of 2018
+    </a>
+</li></ul>
+
+                </li>
+                <li class="menu__item menu__item--shows-podcasts menu__item--has-submenu" data-metrics-hover="toggle programs &amp; podcasts drawer">
+                    <div class="menu__item-inner">
+                        <a href="/programs/" data-metrics-action="click shows & podcasts">Shows &amp; Podcasts</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle programs &amp; podcasts drawer">Expand/collapse submenu for Shows &amp; Podcasts</button>
+                    </div>
+
+                    <div class="submenu submenu--shows-podcasts">
+                        <span class="submenu__category submenu__category--daily">Daily</span>
+                        <ul class="submenu__list submenu__list--daily">
+                            <li class="submenu__item submenu__item--timed submenu__item--weekday hidden">
+                                <a href="/programs/morning-edition/" data-metrics-action="click morning edition">
+                                    <img src="https://media.npr.org/chrome/programs/logos/morning-edition.jpg" alt="" />
+                                    Morning Edition
+                                </a>
+                            </li>
+                            <li class="submenu__item submenu__item--timed submenu__item--saturday hidden" >
+                                <a href="/programs/weekend-edition-saturday/" data-metrics-action="click weekend edition saturday">
+                                    <img src="https://media.npr.org/assets/img/2018/08/06/npr_we_podcasttile1_sq-cf32a980b540f1d1b2d51173ca3cfdd7ecc55058-s100-c85.jpg" alt="" />
+                                    Weekend Edition Saturday
+                                </a>
+                            </li>
+                            <li class="submenu__item submenu__item--timed submenu__item--sunday hidden">
+                                <a href="/programs/weekend-edition-sunday/" data-metrics-action="click weekend edition sunday">
+                                    <img src="https://media.npr.org/assets/img/2018/08/06/npr_we_podcasttile1_sq-cf32a980b540f1d1b2d51173ca3cfdd7ecc55058-s100-c85.jpg" alt="" />
+                                    Weekend Edition Sunday
+                                </a>
+                            </li>  
+                            <li class="submenu__item">
+                                <a href="/programs/all-things-considered/" data-metrics-action="click all things considered">
+                                    <img src="https://media.npr.org/chrome/programs/logos/all-things-considered.png" alt="" />
+                                    All Things Considered
+                                </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="/programs/fresh-air/" data-metrics-action="click fresh air">
+                                    <img src="https://media.npr.org/chrome/programs/logos/fresh-air.png" alt="" />
+                                    Fresh Air
+                                </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="/podcasts/510318/up-first" data-metrics-action="click up first">
+                                    <img src="https://media.npr.org/chrome/programs/logos/up-first.jpg" alt="" />
+                                    Up First
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="submenu__category submenu__category--featured">Featured</span>
+
+                        <ul class="submenu__list submenu__list--featured"><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510313/how-i-built-this" data-metrics-action="click how i built this with guy raz">
+        <img src="https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f.jpg?s=100" alt="" />
+        How I Built This with Guy Raz
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/344098539/wait-wait-don-t-tell-me" data-metrics-action="click wait wait...don't tell me!">
+        <img src="https://media.npr.org/assets/img/2018/08/06/npr_wwdtm_podcasttile_sq-1e9edf5dfb49a3fff3703764e39442173ba8558a.jpg?s=100" alt="" />
+        Wait Wait...Don't Tell Me!
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510289/planet-money" data-metrics-action="click planet money">
+        <img src="https://media.npr.org/assets/img/2018/08/02/npr_planetmoney_podcasttile_sq-7b7fab0b52fd72826936c3dbe51cff94889797a0.jpg?s=100" alt="" />
+        Planet Money
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510308/hidden-brain" data-metrics-action="click hidden brain">
+        <img src="https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324.jpg?s=100" alt="" />
+        Hidden Brain
+    </a>
+</li></ul>
+
+                        <ul class="submenu__list submenu__list--directories">
+                            <li class="submenu__item"><a href="/programs/" data-metrics-action="click all programs">More Shows &amp; Podcasts</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu__item menu__item--search">
+                    <div class="menu__item-inner">
+                        <a href="/search" data-metrics-action="click search">Search</a>
+                    </div>
+                </li>
+                <li id="user-account-dropdown-mount-two" class="menu__item menu__item--account"></li>
+                <li class="menu__item menu__item--shop">
+                    <div class="menu__item-inner">
+                        <a href="https://shop.npr.org" data-metrics-action="click npr shop">Shop</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="menu menu--music" data-metrics-all data-metrics-category="music ecosystem navigation">
+        <div class="menu__list-wrap">
+            <ul class="menu__list menu__list--ecosystem menu__list--music">
+                <li class="menu__item menu__item--music-home">
+                    <a href="/music/" data-metrics-action="click npr music logo">
+                        <img src="https://media.npr.org/chrome_svg/music-logo-dark.svg" class="music-logo"  alt="NPR Music" />
+                        <img src="https://media.npr.org/chrome_svg/music-logo-light.svg" class="music-logo-alt" alt="NPR Music" />
+                    </a>
+                </li>
+                <li class="menu__item"><a href="/series/tiny-desk-concerts/" data-metrics-action="click tiny desk">Tiny Desk</a></li>
+                <li class="menu__item"><a href="/sections/allsongs/" data-metrics-action="click all songs">All Songs Considered</a></li>
+                <li class="menu__item"><a href="/sections/music-news/" data-metrics-action="click music news">Music News</a></li>
+                <li class="menu__item"><a href="/sections/music-features/" data-metrics-action="click features">Features</a></li>
+                <li class="menu__item"><a href="/sections/new-music/" data-metrics-action="click new music">New Music</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="menu menu--about" data-metrics-all data-metrics-category="about ecosystem navigation">
+        <div class="menu__list-wrap">
+            <ul class="menu__list menu__list--ecosystem menu__list--about">
+                <li class="menu__item menu__item--about-home"><a href="/about/aboutnpr/" data-metrics-action="click about npr">About NPR</a></li>
+                <li class="menu__item menu__item--about-overview"><a href="/about-npr/689087449/this-is-npr" data-metrics-action="click overview">Overview</a></li>
+                <li class="menu__item menu__item--about-support"><a href="/about-npr/685114062/your-support-makes-a-difference" data-metrics-action="click support">Support</a></li>
+                <li class="menu__item menu__item--about-careers"><a href="/about-npr/179008081/careers" data-metrics-action="click careers">Careers</a></li>
+                <li class="menu__item menu__item--about-connect"><a href="/about-npr/685180639/stay-connected" data-metrics-action="click connect">Connect</a></li>
+                <li class="menu__item menu__item--about-press"><a href="/about-npr/690265854/all-the-latest-news-about-npr" data-metrics-action="click press">Press</a></li>
+                <li class="menu__item menu__item--about-ethics"><a href="/about-npr/688875732/these-are-the-standards-of-our-journalism" data-metrics-action="click ethics">Ethics</a></li>
+            </ul>
+        </div>
+    </section>
+</nav></header><main aria-label="main content"><div class="speakable">
+      <b data-is-speakable>Could Maryland Gov. Larry Hogan Challenge Trump In 2020 Election?</b>   <b data-is-speakable>The well-liked Republican leading a deep-blue state is an outspoken critic of President Trump and has denounced the "debilitating politics of Washington." </b>
+</div>
+<div id="wrapper">
+      <header class="contentheader contentheader--one" data-metrics='{"category":"Politics"}' ></header>   <div class="story-sticky-header">
+    <div class="story-sticky-header-inner">
+        <a href="/" class="nprhome nprhome-news"  data-metrics='{&quot;category&quot;:&quot;global navigation&quot;,&quot;action&quot;:&quot;click npr logo&quot;,&quot;label&quot;:&quot;\/&quot;}' >
+            <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo"/>
+        </a>
+
+        <article id="res693799171" class="bucketwrap resaudio" aria-label="audio-module"><div class="audio-module">
+      <h4 class="audio-module-title">'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?</h4>
+   <div class="audio-module-controls-wrap" data-audio='{"uid":"692808713:693799171","available":true,"duration":232,"title":"\u0027Watch What We\u0027re Doing\u0027: Could Maryland Gov. Larry Hogan Challenge Trump In 2020?","audioUrl":"https:\/\/ondemand.npr.org\/anon.npr-mp3\/npr\/me\/2019\/02\/20190212_me_watch_what_were_doing_could_maryland_gov_larry_hogan_challenge_trump_in_2020.mp3?orgId=305&topicId=1014&d=232&p=3&story=692808713&siteplayer=true","storyUrl":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020","slug":"Politics","program":"morning edition","affiliation":"WAMU 88.5","song":"","artist":"","album":"","track":0,"type":"segment","subtype":"other"}' data-audio-metrics='{"playedFrom":"from sticky header"}'>
+        <div class="audio-module-controls">
+            <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/02/20190212_me_watch_what_were_doing_could_maryland_gov_larry_hogan_challenge_trump_in_2020.mp3?orgId=305&amp;topicId=1014&amp;d=232&amp;p=3&amp;story=692808713&amp;siteplayer=true&amp;dl=1">
+                <b class="audio-module-listen-inner">
+                    <b class="audio-module-listen-icon icn-play"></b>
+                    <b class="audio-module-listen-text">
+                        <b class="audio-module-cta">Listen</b>
+                        <b class="audio-module-listen-duration">
+                            <span>&middot; </span>
+                            <span>3:52</span>
+                        </b>
+                    </b>
+                </b>
+            </a>
+
+                <time class="audio-module-duration" datetime="P3M,52S">3:52</time>
+        </div>
+
+
+</div>
+
+   
+    <div class="audio-module-tools">
+        <button class="audio-module-tools-toggle"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}' >
+            <b class="icn-toggle"></b>
+            <b class="label">Toggle more options</b>
+        </button>
+        <ul class="audio-module-more-tools">
+                <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/02/20190212_me_watch_what_were_doing_could_maryland_gov_larry_hogan_challenge_trump_in_2020.mp3?orgId=305&amp;topicId=1014&amp;d=232&amp;p=3&amp;story=692808713&amp;siteplayer=true&amp;dl=1"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;692808713&quot;,&quot;noninteraction&quot;:true}'  ><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+                </li>
+
+                <li class="audio-tool audio-tool-embed" >
+                    <button data-embed-url="https://www.npr.org/player/embed/692808713/693799171"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;692808713&quot;,&quot;noninteraction&quot;:true}' ><b class="button-inner"><b class="icn-embed"></b><b
+                            class="audio-tool-label">Embed</b></b></button>
+
+                    <div class="audio-embed-overlay">
+                        <button class="btn-close"></button>
+                        <label class="embed-label">
+                            <b class="audio-embed-overlay__icon"></b>
+                            <b class="label">Embed</b>
+                            <input class="embed-url embed-url-no-touch" readonly
+                                   value="<iframe src=&quot;https://www.npr.org/player/embed/692808713/693799171&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                        </label>
+
+                        <b class="embed-url embed-url-touch">
+                            <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/692808713/693799171" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                        </b>
+
+                    </div>
+                </li>
+
+                <li class="audio-tool audio-tool-transcript">
+                  <a href="https://www.npr.org/templates/transcript/transcript.php?storyId=692808713"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;click transcript&quot;,&quot;label&quot;:&quot;692808713&quot;,&quot;noninteraction&quot;:true}' >
+                    <b class="icn-transcript"></b>
+                    <b class="audio-tool-label">Transcript</b>
+                  </a>
+                </li>
+        </ul>
+    </div>
+</div>
+</article>
+
+        <a href="#" class="title">
+          <b>'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?</b>
+          <time datetime="P3M,52S">3:52</time>
+        </a>
+    </div>
+</div>   <section id="main-section"><article class="story"><a id="mainContent"></a><ul class="podcast-tools podcast-tools--510310">
+    <div class="imagewrap" data-crop-type="">
+    <img src="https://media.npr.org/assets/img/2018/08/03/nprpolitics_tile_sq-ca364a35503019925f7cf384dfd923bf9bacf81c-s800-c15.jpg" data-original="https://media.npr.org/assets/img/2018/08/03/nprpolitics_tile_sq-ca364a35503019925f7cf384dfd923bf9bacf81c-s800.jpg" class="img lazyOnLoad"  alt="NPR Politics Podcast" />
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        NPR
+        
+    </span>
+</div>
+
+    <li class="subscribe" data-sharepop data-selector=".sharepop.subscribe">
+      <button  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;toggle subscribe menu&quot;}' >subscribe
+        <span class="subscribe-more-info"> to 
+          <span class="channel-title">NPR Politics Podcast</span>
+          <span class="generic-title">podcast</span>
+        </span>
+      </button>
+    </li>
+
+    <li class="podcast-tools__subscribe-links">
+      <div class="sharepop-four">
+          <div class="sharepop">
+              <ul>
+                  <li>
+                  <svg width="17" class="subscribe__tooltip">
+                      <g id="Canvas" fill="none">
+                        <g id="tooltip-point">
+                          <path d="M 10.7679 3C 11.5377 1.66667 13.4623 1.66667 14.2321 3L 21.5933 15.75C 22.3631 17.0833 21.4008 18.75 19.8612 18.75L 5.13878 18.75C 3.59918 18.75 2.63693 17.0833 3.40673 15.75L 10.7679 3Z" transform="matrix(0 -1 1 0 -2 22)" fill="#1D3261"/>
+                        </g>
+                      </g>
+                    </svg>
+                    <a href="https://rpb3r.app.goo.gl/XDGl"  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;click npr one universal&quot;}' >NPR One</a></li>
+                  <li>
+                    <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?s=143441&amp;mt=2&amp;id=1057255460&amp;at=11l79Y&amp;ct=nprdirectory"  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;click itunes&quot;}' >Apple Podcasts</a></li>
+                  <li>
+                    <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly93d3cubnByLm9yZy9yc3MvcG9kY2FzdC5waHA_aWQ9NTEwMzEw"  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;click google podcasts&quot;}' >Google Podcasts</a></li>
+                  <li>
+                      <a href="https://pca.st/npr-politics"  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;click Pocket Casts&quot;}' >Pocket Casts</a></li>
+                  <li>
+                      <a href="https://open.spotify.com/show/2PnWnDNwU3wKesCHCpy252"  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;click Spotify&quot;}' >Spotify</a></li>
+                  
+                  
+                  <li>
+                    <a target="_blank" href="https://www.npr.org/rss/podcast.php?id=510310"  data-metrics='{&quot;category&quot;:&quot;podcast directory&quot;,&quot;action&quot;:&quot;click rss&quot;}' >RSS link</a></li>
+              </ul>
+          </div>
+      </div>
+    </li>
+</ul><div class="slug-wrap">
+
+    <h3 class="slug">
+        <a href="https://www.npr.org/sections/politics/">Politics</a>
+    </h3>
+</div>
+<div class="storytitle">
+      <h1>'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?</h1>
+   <input type="hidden" id="title692808713" value="'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?" />
+   <input type="hidden" id="shortTitle692808713" value="'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?" />
+   <input type="hidden" id="modelShortUrl692808713" value="https://n.pr/2RPx50n" />
+   <input type="hidden" id="modelFullUrl692808713" value="https://www.npr.org/2019/02/09/692808713/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020" />
+</div>
+
+<!-- END CLASS="STORYTITLE" -->
+<div class="story-tools">
+      <div id="primaryaudio" class="storylocation linkLocation">
+            <article id="res693799171" class="bucketwrap resaudio primaryaudio" aria-label="audio-module"><div class="audio-module">
+      <h4 class="audio-module-title">'Watch What We're Doing': Could Maryland Gov. Larry Hogan Challenge Trump In 2020?</h4>
+   <div class="audio-module-controls-wrap" data-audio='{"uid":"692808713:693799171","available":true,"duration":232,"title":"\u0027Watch What We\u0027re Doing\u0027: Could Maryland Gov. Larry Hogan Challenge Trump In 2020?","audioUrl":"https:\/\/ondemand.npr.org\/anon.npr-mp3\/npr\/me\/2019\/02\/20190212_me_watch_what_were_doing_could_maryland_gov_larry_hogan_challenge_trump_in_2020.mp3?orgId=305&topicId=1014&d=232&p=3&story=692808713&siteplayer=true","storyUrl":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020","slug":"Politics","program":"morning edition","affiliation":"WAMU 88.5","song":"","artist":"","album":"","track":0,"type":"segment","subtype":"other"}' data-audio-metrics='[]'>
+        <div class="audio-module-controls">
+            <a class="audio-module-listen" href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/02/20190212_me_watch_what_were_doing_could_maryland_gov_larry_hogan_challenge_trump_in_2020.mp3?orgId=305&amp;topicId=1014&amp;d=232&amp;p=3&amp;story=692808713&amp;siteplayer=true&amp;dl=1">
+                <b class="audio-module-listen-inner">
+                    <b class="audio-module-listen-icon icn-play"></b>
+                    <b class="audio-module-listen-text">
+                        <b class="audio-module-cta">Listen</b>
+                        <b class="audio-module-listen-duration">
+                            <span>&middot; </span>
+                            <span>3:52</span>
+                        </b>
+                    </b>
+                </b>
+            </a>
+
+                <time class="audio-module-duration" datetime="P3M,52S">3:52</time>
+        </div>
+
+
+</div>
+
+   
+    <div class="audio-module-tools">
+        <button class="audio-module-tools-toggle"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;open more options&quot;,&quot;label&quot;:null,&quot;noninteraction&quot;:true}' >
+            <b class="icn-toggle"></b>
+            <b class="label">Toggle more options</b>
+        </button>
+        <ul class="audio-module-more-tools">
+                <li class="audio-tool audio-tool-download"><a href="https://ondemand.npr.org/anon.npr-mp3/npr/me/2019/02/20190212_me_watch_what_were_doing_could_maryland_gov_larry_hogan_challenge_trump_in_2020.mp3?orgId=305&amp;topicId=1014&amp;d=232&amp;p=3&amp;story=692808713&amp;siteplayer=true&amp;dl=1"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;download audio&quot;,&quot;label&quot;:&quot;692808713&quot;,&quot;noninteraction&quot;:true}'  ><b class="icn-download"></b><b class="audio-tool-label">Download</b></a>
+                </li>
+
+                <li class="audio-tool audio-tool-embed" >
+                    <button data-embed-url="https://www.npr.org/player/embed/692808713/693799171"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;embed audio&quot;,&quot;label&quot;:&quot;692808713&quot;,&quot;noninteraction&quot;:true}' ><b class="button-inner"><b class="icn-embed"></b><b
+                            class="audio-tool-label">Embed</b></b></button>
+
+                    <div class="audio-embed-overlay">
+                        <button class="btn-close"></button>
+                        <label class="embed-label">
+                            <b class="audio-embed-overlay__icon"></b>
+                            <b class="label">Embed</b>
+                            <input class="embed-url embed-url-no-touch" readonly
+                                   value="<iframe src=&quot;https://www.npr.org/player/embed/692808713/693799171&quot; width=&quot;100%&quot; height=&quot;290&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;NPR embedded audio player&quot;></iframe>">
+                        </label>
+
+                        <b class="embed-url embed-url-touch">
+                            <code><b class="punctuation">&lt;</b>iframe src="https://www.npr.org/player/embed/692808713/693799171" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"&gt;</code>
+                        </b>
+
+                    </div>
+                </li>
+
+                <li class="audio-tool audio-tool-transcript">
+                  <a href="https://www.npr.org/templates/transcript/transcript.php?storyId=692808713"  data-metrics='{&quot;category&quot;:&quot;audio actions&quot;,&quot;action&quot;:&quot;click transcript&quot;,&quot;label&quot;:&quot;692808713&quot;,&quot;noninteraction&quot;:true}' >
+                    <b class="icn-transcript"></b>
+                    <b class="audio-tool-label">Transcript</b>
+                  </a>
+                </li>
+        </ul>
+    </div>
+</div>
+</article>
+   </div>
+   <div class="share-tools share-tools--primary" aria-label="Share tools">
+            <ul>
+                  <li class="share-tools__service share-tools__service--facebook"><button class="fbStory692808713" data-share-facebook='{"storyId": 692808713 }'  data-metrics='{"action":"Click Facebook","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Facebook</b></button></li>
+         <li class="share-tools__service share-tools__service--twitter"><button class="story692808713" data-share-twitter='{"storyId": 692808713 }'  data-metrics='{"action":"Click Twitter","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Twitter</b></button></li>
+         <li class="share-tools__service share-tools__service--flipboard"><button class="story692808713" data-share-flipboard='{"storyId": 692808713 }'  data-metrics='{"action":"Click Flipboard","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Flipboard</b></button></li>
+         <li class="share-tools__service share-tools__service--email"><button class='share-tools__email-link' data-story-id='692808713'  data-metrics='{"action":"Click Email a Friend","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Email</b></button></li>
+      </ul>
+   </div>
+   
+<!-- END CLASS="SHARE-TOOLS SHARE-TOOLS--PRIMARY" ARIA-LABEL="SHARE TOOLS" -->
+</div>
+
+<!-- END CLASS="STORY-TOOLS" -->
+<div id="story-meta" class="story-meta has-byline has-org">
+      <div class="story-meta__one">
+            <div class="dateblock">
+    <time datetime="2019-02-09T07:00:00-05:00">
+            <span class="date">February 9, 2019</span><span class="time">7:00 AM ET</span>
+    </time>
+</div>      <div class="program-block">
+                  Heard on          <a href="https://www.npr.org/programs/morning-edition/2019/02/12/693799047">Morning Edition</a>
+      </div>
+      
+<!-- END CLASS="PROGRAM-BLOCK" -->
+   </div>
+   
+<!-- END CLASS="STORY-META__ONE" -->
+   <div class="story-meta__two">
+            <div id="storybyline" class="storybyline-wrap linkLocation">
+                  <div class="bucketwrap byline" id="res692808867" previewTitle="bylines">
+                        <div class="byline-container--block">
+                              <div class="byline byline--block" aria-label="Byline">
+
+  <p class="byline__name byline__name--block">
+    
+      Patrick Madden
+    
+  </p>
+
+</div>
+            </div>
+         </div>
+         
+<!-- END CLASS="BUCKETWRAP BYLINE" ID="RES692808867" PREVIEWTITLE="BYLINES" -->
+      </div>
+      <div class="station">
+                  <p> <b>From</b><a class="station" href="http://wamu.org?utm_source=npr.org&utm_medium=referral&utm_campaign=click%2Bstation&utm_term=local-story"  data-metrics='{"action":"Click Org Association","category":"Story Metadata"}' ><img src='https://media.npr.org/images/stations/logos/wamu_fm.gif' alt='WAMU 88.5' /></a></p>
+      </div>
+      
+<!-- END CLASS="STATION" -->
+   </div>
+   
+<!-- END CLASS="STORY-META__TWO" -->
+</div>
+
+<!-- END ID="STORY-META" CLASS="STORY-META HAS-BYLINE HAS-ORG" -->
+<div id="storytext" class="storytext storylocation linkLocation">
+      <div id="res692848521" class="bucketwrap image large">
+            <div class="imagewrap" data-crop-type="">
+    <img src="https://media.npr.org/assets/img/2019/02/08/ap_19016694708521_wide-160cf03c005b92f356253bc008d60b8379afb6d9-s1100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/02/08/ap_19016694708521_wide-160cf03c005b92f356253bc008d60b8379afb6d9-s1100.jpg" class="img lazyOnLoad"  alt="" />
+        <div class="enlarge-options">
+            <a class="enlargelink" href="https://media.npr.org/assets/img/2019/02/08/ap_19016694708521_custom-d0055372c44f7e6871270902c26bd6109d2477a1-s1200.jpg">Enlarge this image</a>
+        </div>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+            <p>
+                Maryland Gov. Larry Hogan is a well-liked Republican governor in a heavily Democratic state. Observers are looking for clues as to whether he'd challenge President Trump in 2020.
+                
+                <b class="credit" aria-label="Image credit">
+                    
+                    Patrick Semansky/AP
+                    
+                </b>
+                <b class="hide-caption"><b>hide caption</b></b>
+            </p>
+        </div>
+
+
+            <b class="toggle-caption"><b>toggle caption</b></b>
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Patrick Semansky/AP
+        
+    </span>
+</div>
+<div class="enlarge_measure">
+    <div class="img_wrap">
+        <img data-original="https://media.npr.org/assets/img/2019/02/08/ap_19016694708521_custom-d0055372c44f7e6871270902c26bd6109d2477a1-s1200.jpg" alt="" />
+    </div>
+</div>
+<div class="enlarge_html">
+    <div class="image_data">
+        <p class="caption">Maryland Gov. Larry Hogan is a well-liked Republican governor in a heavily Democratic state. Observers are looking for clues as to whether he'd challenge President Trump in 2020.</p>
+        <span class="credit" aria-label="Image credit">
+            
+            Patrick Semansky/AP
+            
+        </span>
+    </div>
+</div>
+   </div>
+   <p>When you are a Republican governor with sky-high approval ratings in a deep-blue state like Maryland, you get noticed.</p>   <p>For Larry Hogan, that means some in the Republican Party are starting to ask a straightforward question with a complicated answer: Should Maryland's popular executive challenge President Trump in the 2020 primary?</p>   <p><strong>Who is Larry Hogan? </strong></p>   <p>Last November, Hogan became the first Republican governor to win re-election in Maryland in more than 50 years. Before entering politics, the 62-year-old spent two decades in the private sector as a businessman. </p>   <p>Hogan's known for his no-nonsense demeanor. He's also battled cancer — twice — while in office. </p>   <div id="res692848888" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage692370775" href="https://www.npr.org/2019/02/08/692370775/ahead-of-2020-election-voting-rights-becomes-a-key-issue-for-democrats"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/08\/692370775\/ahead-of-2020-election-voting-rights-becomes-a-key-issue-for-democrats"}' ><img src="https://media.npr.org/assets/img/2019/02/07/abrams-2_sq-bc6e94c2c4fdfc475990c00974fe6bd8dccd52cc-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/02/07/abrams-2_sq-bc6e94c2c4fdfc475990c00974fe6bd8dccd52cc-s100.jpg" class="img lazyOnLoad"  alt="Ahead Of 2020 Election, Voting Rights Becomes A Key Issue For Democrats " /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/politics/">Politics </a></h3>
+            <h3><a href="https://www.npr.org/2019/02/08/692370775/ahead-of-2020-election-voting-rights-becomes-a-key-issue-for-democrats"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/08\/692370775\/ahead-of-2020-election-voting-rights-becomes-a-key-issue-for-democrats"}' >Ahead Of 2020 Election, Voting Rights Becomes A Key Issue For Democrats </a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692848888" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>Unlike most elected Republicans, Hogan has spoken out against Trump. That's especially true during the recent partial government shutdown, which had a significant impact on Maryland due to its large federal workforce. </p>   <p>When Hogan toured Baltimore-Washington International Airport in January to highlight the plight of TSA workers, he pointedly went after Trump, who many blamed for the shutdown. </p>   <p>"It's crazy. It's like, 'If I don't get my wall, I'm going to shut down the government.' 'If we don't open the government, you can't speak in our chamber.' It's a bunch of 2-year-olds, you know?" Hogan said, making fun of Trump and House Speaker Nancy Pelosi, D-Calif.</p>   <aside id="ad-backstage-wrap" aria-label="advertisement">
+    
+
+    <div id="ad-backstage-News_Politics" class="ad-backstage" data-ad-config='{"network":"\/6735\/n6735","site":{"default":"NPR","mobile":"NPRMOBILE"},"zone":"News_Politics","targets":{"testserver":"false","storyId":"692808713","program":"Morning_Edition","agg":["191676894","434975886","262472261"]},"location":"backstage","deferred":false,"isBetweenContent":true,"isAggSponsorship":false,"borderClass":""}'></div>
+
+</aside>   <div id="res692849881" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage689980506" href="https://www.npr.org/2019/01/31/689980506/which-democrats-are-running-in-2020-and-which-still-might"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/01\/31\/689980506\/which-democrats-are-running-in-2020-and-which-still-might"}' ><img src="https://media.npr.org/assets/img/2019/01/30/seamus-prez-candidates-3_sq-0ceb5c2dacd80e28851adfbfdab633753090f106-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/01/30/seamus-prez-candidates-3_sq-0ceb5c2dacd80e28851adfbfdab633753090f106-s100.jpg" class="img lazyOnLoad"  alt="Which Democrats Are Running In 2020 — And Which Still Might" /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/politics/">Politics </a></h3>
+            <h3><a href="https://www.npr.org/2019/01/31/689980506/which-democrats-are-running-in-2020-and-which-still-might"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/01\/31\/689980506\/which-democrats-are-running-in-2020-and-which-still-might"}' >Which Democrats Are Running In 2020 — And Which Still Might</a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692849881" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>Speaking to reporters at the airport, Hogan offered a solution to D.C.'s dysfunction: Look to Maryland, where Republicans and Democrats are still able to work together.</p>   <p>"People just want them to do their jobs. And that's what we try to do," said Hogan. "We're like 30 miles down the road, Annapolis to Washington. Read the Metro section [of the newspaper]. Watch what we're doing."</p>   <p><strong>"A different vision of the Republican Party"</strong></p>   <p>Hogan didn't embrace the national spotlight during his first term.</p>   <p>That's changed since winning re-election. Hogan has said he wants to be part of the national conversation about how to move the GOP forward.</p>   <p>And it's appearances like the one at the airport — and his comments against Trump — that have some Republican insiders in Washington publicly urging Hogan to run for president.</p>   <div id="res692849087" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage692120495" href="https://www.npr.org/2019/02/08/692120495/democratic-governors-pitch-pragmatism-on-sidelines-of-2020-presidential-campaign"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/08\/692120495\/democratic-governors-pitch-pragmatism-on-sidelines-of-2020-presidential-campaign"}' ><img src="https://media.npr.org/assets/img/2019/02/07/ap_517209255679_sq-f0400c7a11f7424ca756df13abbc7e5e4f027e38-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/02/07/ap_517209255679_sq-f0400c7a11f7424ca756df13abbc7e5e4f027e38-s100.jpg" class="img lazyOnLoad"  alt="Democratic Governors Pitch Pragmatism On Sidelines Of 2020 Presidential Campaign" /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/politics/">Politics </a></h3>
+            <h3><a href="https://www.npr.org/2019/02/08/692120495/democratic-governors-pitch-pragmatism-on-sidelines-of-2020-presidential-campaign"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/08\/692120495\/democratic-governors-pitch-pragmatism-on-sidelines-of-2020-presidential-campaign"}' >Democratic Governors Pitch Pragmatism On Sidelines Of 2020 Presidential Campaign</a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692849087" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>Jerry Taylor, head of the libertarian-leaning think tank Niskanen Center, might be the biggest cheerleader for a Hogan primary challenge. Taylor's spoken with Hogan several times, urging him to think about running for "higher office."</p>   <p>Taylor even gave the Maryland governor a book about the history of New Hampshire, a not-so-subtle nod to one of the first primary battles in the path to the Republican nomination.</p>   <div id="res692850223" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage691937342" href="https://www.npr.org/2019/02/06/691937342/n-m-governor-pulls-national-guard-from-border-citing-a-charade-at-federal-level"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/06\/691937342\/n-m-governor-pulls-national-guard-from-border-citing-a-charade-at-federal-level"}' ><img src="https://media.npr.org/assets/img/2019/02/06/ap_19036100142166_sq-9d93e4ecf68bad65d38f31792b085bb69424a165-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/02/06/ap_19036100142166_sq-9d93e4ecf68bad65d38f31792b085bb69424a165-s100.jpg" class="img lazyOnLoad"  alt="N.M. Governor Pulls National Guard From Border, Citing A 'Charade' At Federal Level" /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/national/">National </a></h3>
+            <h3><a href="https://www.npr.org/2019/02/06/691937342/n-m-governor-pulls-national-guard-from-border-citing-a-charade-at-federal-level"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/06\/691937342\/n-m-governor-pulls-national-guard-from-border-citing-a-charade-at-federal-level"}' >N.M. Governor Pulls National Guard From Border, Citing A 'Charade' At Federal Level</a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692850223" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>Hogan represents a "different vision of the Republican Party," according to Taylor. And he thinks Hogan would be very popular among voters in both parties.</p>   <p>"Most people are not ideologically extreme," says Taylor. "They want competence. They want a government that cares about them. They don't want corruption. And Gov. Hogan has been able to deliver on all these matters as governor."</p>   <p><strong>"A fool's errand" to challenge Trump</strong></p>   <p>But knocking off an incumbent president in the primaries — even an unpopular president — is exceedingly difficult. The last time a sitting president <a href="https://www.npr.org/sections/politicaljunkie/2009/07/a_president_denied_renominatio.html">lost his party's re-nomination</a> battle was 1856. </p>   <p>"I don't think it's very realistic to expect that Larry Hogan is going to challenge President Trump in the GOP primaries in 2020," said Melissa Deckman, a political science professor at Washington College in Maryland. "Trump remains enormously popular with the base of his party. And I think that it would in some respects be a fool's errand for just about anyone to challenge Donald Trump at this point."</p>   <div id="res692849456" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage691997301" href="https://www.npr.org/2019/02/07/691997301/rep-alexandria-ocasio-cortez-releases-green-new-deal-outline"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/07\/691997301\/rep-alexandria-ocasio-cortez-releases-green-new-deal-outline"}' ><img src="https://media.npr.org/assets/img/2019/02/07/aoc_dsc0436-edit_sq-736bdb76f5c7185ed8110b43045b655b9ceb1de5-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/02/07/aoc_dsc0436-edit_sq-736bdb76f5c7185ed8110b43045b655b9ceb1de5-s100.jpg" class="img lazyOnLoad"  alt="Rep. Alexandria Ocasio-Cortez Releases Green New Deal Outline" /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/politics/">Politics </a></h3>
+            <h3><a href="https://www.npr.org/2019/02/07/691997301/rep-alexandria-ocasio-cortez-releases-green-new-deal-outline"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/07\/691997301\/rep-alexandria-ocasio-cortez-releases-green-new-deal-outline"}' >Rep. Alexandria Ocasio-Cortez Releases Green New Deal Outline</a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692849456" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>Hogan's problem, as Deckman explains, is that what makes him so popular as governor — his moderate, centrist approach to governing — won't do him any favors in the early primary states like Iowa or South Carolina.</p>   <p>"You have very conservative, religiously minded voters who are quite happy with Donald Trump's record on religious liberty issues for example," Deckman said. "And that's not something that Larry Hogan has really embraced <em>per se</em>. In fact, Hogan's done the opposite in Maryland. He has said social issues, for example, are off the table while I'm governor." </p>   <p><strong>At Hogan's inauguration, hints of a presidential bid?</strong></p>   <p>Hogan — for his part — hasn't closed the door on a potential 2020 run. But in a recent interview on CNN, he played down the idea. "I would only run if I thought that I could actually win," Hogan said. </p>   <p>Hogan says he's "flattered" by the attention, but right now his focus is on Maryland, where he was just sworn in for a second term.</p>   <p>And yet, at his second inauguration earlier this month, there were signs that — just maybe — Hogan has more than Maryland on his mind.</p>   <div id="res692849625" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage691396495" href="https://www.npr.org/2019/02/04/691396495/ralph-northam-is-just-a-small-piece-of-the-shift-in-race-politics-in-the-trump-e"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/04\/691396495\/ralph-northam-is-just-a-small-piece-of-the-shift-in-race-politics-in-the-trump-e"}' ><img src="https://media.npr.org/assets/img/2019/02/04/gettyimages-1093132580_sq-b88c907ca434c8a11f99d4a6e7eb1a54fea35808-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2019/02/04/gettyimages-1093132580_sq-b88c907ca434c8a11f99d4a6e7eb1a54fea35808-s100.jpg" class="img lazyOnLoad"  alt="Ralph Northam Is Just A Small Piece Of The Shift In Race Politics In The Trump Era" /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/analysis/">Analysis </a></h3>
+            <h3><a href="https://www.npr.org/2019/02/04/691396495/ralph-northam-is-just-a-small-piece-of-the-shift-in-race-politics-in-the-trump-e"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/2019\/02\/04\/691396495\/ralph-northam-is-just-a-small-piece-of-the-shift-in-race-politics-in-the-trump-e"}' >Ralph Northam Is Just A Small Piece Of The Shift In Race Politics In The Trump Era</a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692849625" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>Hogan invited Jeb Bush — the former GOP governor of Florida and well-known Trump critic — to introduce him. He also hired Mark Salter, a former speechwriter for the late Sen. John McCain, R-Ariz., and a vocal detractor of Trump, to help craft his address.</p>   <p>While Hogan's address didn't mention Trump by name, the governor railed against the "debilitating politics of Washington."</p>   <p>Maybe, most notably, Hogan included this tidbit about his father, former Maryland Rep. Lawrence Hogan Sr., who famously became the first Republican in Congress to call for Richard Nixon's impeachment.</p>   <div id="res692850618" class="bucketwrap internallink insettwocolumn inset2col ">
+            <div class="bucket img">
+                  <a id="featuredStackSquareImage544407092" href="https://www.npr.org/sections/thetwo-way/2017/08/18/544407092/maryland-state-house-removes-statue-of-judge-who-wrote-dred-scott-decision"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/sections\/thetwo-way\/2017\/08\/18\/544407092\/maryland-state-house-removes-statue-of-judge-who-wrote-dred-scott-decision"}' ><img src="https://media.npr.org/assets/img/2017/08/18/ap_17230296987914_sq-11f15b67e7bad7af0cc7e2b0a81798272088c060-s100-c15.jpg" data-original="https://media.npr.org/assets/img/2017/08/18/ap_17230296987914_sq-11f15b67e7bad7af0cc7e2b0a81798272088c060-s100.jpg" class="img lazyOnLoad"  alt="Maryland State House Removes Statue Of Judge Who Wrote Dred Scott Decision" /></a>         <div class="bucketblock">
+                        <h3 class="slug"><a href="https://www.npr.org/sections/thetwo-way/">The Two-Way </a></h3>
+            <h3><a href="https://www.npr.org/sections/thetwo-way/2017/08/18/544407092/maryland-state-house-removes-statue-of-judge-who-wrote-dred-scott-decision"  data-metrics='{"category":"Story to Story","action":"Click Internal Link","label":"https:\/\/www.npr.org\/sections\/thetwo-way\/2017\/08\/18\/544407092\/maryland-state-house-removes-statue-of-judge-who-wrote-dred-scott-decision"}' >Maryland State House Removes Statue Of Judge Who Wrote Dred Scott Decision</a></h3>
+         </div>
+         
+<!-- END CLASS="BUCKETBLOCK" -->
+      </div>
+      
+<!-- END CLASS="BUCKET IMG" -->
+   </div>
+   
+<!-- END ID="RES692850618" CLASS="BUCKETWRAP INTERNALLINK INSETTWOCOLUMN INSET2COL " -->
+   <p>"He put aside partisanship and answer the demands of his conscious to do what he thought was the right thing for the nation that he loved," Hogan said, before adding, "No man, not even the president of the United States, is above the law."</p>   <p>Hogan's expected to visit the early caucus state of Iowa in March. </p>   <p>Four years ago, no one would've expected Maryland's little-known governor to one day be talked about as presidential candidate. </p>   <p>But Trump's challenges — an apparent ceiling in his job approval numbers in polling, looming concerns about the outcome of special counsel Robert Mueller's investigation, continuing questions about his business empire and possible conflicts of interests — may have created space for a Republican challenger. </p>
+</div>
+<div class="share-tools share-tools--secondary" aria-label="Share tools">
+      <ul>
+            <li class="share-tools__service share-tools__service--facebook"><button class="fbStory692808713" data-share-facebook='{"storyId": 692808713 }'  data-metrics='{"action":"Click Facebook","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Facebook</b></button></li>
+      <li class="share-tools__service share-tools__service--twitter"><button class="story692808713" data-share-twitter='{"storyId": 692808713 }'  data-metrics='{"action":"Click Twitter","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Twitter</b></button></li>
+      <li class="share-tools__service share-tools__service--flipboard"><button class="story692808713" data-share-flipboard='{"storyId": 692808713 }'  data-metrics='{"action":"Click Flipboard","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Flipboard</b></button></li>
+      <li class="share-tools__service share-tools__service--email"><button class='share-tools__email-link' data-story-id='692808713'  data-metrics='{"action":"Click Email a Friend","category":"Share Tools","label":"https:\/\/www.npr.org\/2019\/02\/09\/692808713\/watch-what-we-re-doing-could-maryland-gov-larry-hogan-challenge-trump-in-2020"}' ><b class="share-tools__service-name">Email</b></button></li>
+   </ul>
+</div>
+
+<!-- END CLASS="SHARE-TOOLS SHARE-TOOLS--SECONDARY" ARIA-LABEL="SHARE TOOLS" -->
+<div id="newsletter-acquisition-callout-data" data-newsletter="{&quot;newsletterId&quot;:&quot;politics&quot;,&quot;title&quot;:&quot;Politics&quot;,&quot;marketingHeader&quot;:&quot;Sign Up For The NPR Politics Newsletter&quot;,&quot;frequency&quot;:&quot;every week&quot;,&quot;shortDescription&quot;:&quot;From the White House to your home \u2014 political news and analysis that matter, sent weekly.&quot;,&quot;contentImage&quot;:&quot;https:\/\/media.npr.org\/assets\/img\/2018\/08\/03\/newsletters\/politics.png&quot;,&quot;staticMarkupDir&quot;:&quot; &quot;,&quot;brandingDir&quot;:&quot;\/branding\/sections\/politics\/&quot;,&quot;brandingLink&quot;:&quot;https:\/\/www.npr.org\/sections\/politics\/&quot;}">
+   </div>
+
+<!-- END ID="NEWSLETTER-ACQUISITION-CALLOUT-DATA" DATA-NEWSLETTER="{&QUOT;NEWSLETTERID&QUOT;:&QUOT;POLITICS&QUOT;,&QUOT;TITLE&QUOT;:&QUOT;POLITICS&QUOT;,&QUOT;MARKETINGHEADER&QUOT;:&QUOT;SIGN UP FOR THE NPR POLITICS NEWSLETTER&QUOT;,&QUOT;FREQUENCY&QUOT;:&QUOT;EVERY WEEK&QUOT;,&QUOT;SHORTDESCRIPTION&QUOT;:&QUOT;FROM THE WHITE HOUSE TO YOUR HOME \U2014 POLITICAL NEWS AND ANALYSIS THAT MATTER, SENT WEEKLY.&QUOT;,&QUOT;CONTENTIMAGE&QUOT;:&QUOT;HTTPS:\/\/MEDIA.NPR.ORG\/ASSETS\/IMG\/2018\/08\/03\/NEWSLETTERS\/POLITICS.PNG&QUOT;,&QUOT;STATICMARKUPDIR&QUOT;:&QUOT; &QUOT;,&QUOT;BRANDINGDIR&QUOT;:&QUOT;\/BRANDING\/SECTIONS\/POLITICS\/&QUOT;,&QUOT;BRANDINGLINK&QUOT;:&QUOT;HTTPS:\/\/WWW.NPR.ORG\/SECTIONS\/POLITICS\/&QUOT;}" -->
+<div id="station-data" data-station="{&quot;id&quot;:&quot;305&quot;,&quot;name&quot;:&quot;WAMU 88.5&quot;,&quot;abbr&quot;:&quot;WAMU-FM&quot;,&quot;donationUrl&quot;:&quot;http:\/\/wamu.org\/support\/donate\/?utm_source=npr.org&amp;utm_medium=referral&amp;utm_content=donate&amp;utm_campaign=stationstory&quot;,&quot;homepageUrl&quot;:&quot;http:\/\/wamu.org?utm_source=npr.org&amp;utm_medium=referral&amp;utm_content=website&amp;utm_campaign=stationstory&quot;}">
+   </div>
+
+<!-- END ID="STATION-DATA" DATA-STATION="{&QUOT;ID&QUOT;:&QUOT;305&QUOT;,&QUOT;NAME&QUOT;:&QUOT;WAMU 88.5&QUOT;,&QUOT;ABBR&QUOT;:&QUOT;WAMU-FM&QUOT;,&QUOT;DONATIONURL&QUOT;:&QUOT;HTTP:\/\/WAMU.ORG\/SUPPORT\/DONATE\/?UTM_SOURCE=NPR.ORG&AMP;UTM_MEDIUM=REFERRAL&AMP;UTM_CONTENT=DONATE&AMP;UTM_CAMPAIGN=STATIONSTORY&QUOT;,&QUOT;HOMEPAGEURL&QUOT;:&QUOT;HTTP:\/\/WAMU.ORG?UTM_SOURCE=NPR.ORG&AMP;UTM_MEDIUM=REFERRAL&AMP;UTM_CONTENT=WEBSITE&AMP;UTM_CAMPAIGN=STATIONSTORY&QUOT;}" -->
+<div id="podcast-callout-data" data-podcast="{&quot;name&quot;:&quot;NPR Politics Podcast&quot;,&quot;itunesUrl&quot;:&quot;https:\/\/itunes.apple.com\/WebObjects\/MZStore.woa\/wa\/viewPodcast?s=143441&amp;mt=2&amp;id=1057255460&amp;at=11l79Y&amp;ct=nprdirectory&quot;,&quot;googlePodcastsUrl&quot;:&quot;https:\/\/www.google.com\/podcasts?feed=aHR0cHM6Ly93d3cubnByLm9yZy9yc3MvcG9kY2FzdC5waHA_aWQ9NTEwMzEw&quot;,&quot;rssUrl&quot;:&quot;https:\/\/www.npr.org\/rss\/podcast.php?id=510310&quot;,&quot;jsonFeedUrl&quot;:&quot;https:\/\/www.npr.org\/feeds\/692808713\/feed.json&quot;,&quot;nprOneUniversalUrl&quot;:&quot;https:\/\/rpb3r.app.goo.gl\/XDGl&quot;,&quot;amazonAlexaUrl&quot;:null,&quot;pocketCastsUrl&quot;:&quot;https:\/\/pca.st\/npr-politics&quot;,&quot;spotifyUrl&quot;:&quot;https:\/\/open.spotify.com\/show\/2PnWnDNwU3wKesCHCpy252&quot;}">
+   </div>
+
+<!-- END ID="PODCAST-CALLOUT-DATA" DATA-PODCAST="{&QUOT;NAME&QUOT;:&QUOT;NPR POLITICS PODCAST&QUOT;,&QUOT;ITUNESURL&QUOT;:&QUOT;HTTPS:\/\/ITUNES.APPLE.COM\/WEBOBJECTS\/MZSTORE.WOA\/WA\/VIEWPODCAST?S=143441&AMP;MT=2&AMP;ID=1057255460&AMP;AT=11L79Y&AMP;CT=NPRDIRECTORY&QUOT;,&QUOT;GOOGLEPODCASTSURL&QUOT;:&QUOT;HTTPS:\/\/WWW.GOOGLE.COM\/PODCASTS?FEED=AHR0CHM6LY93D3CUBNBYLM9YZY9YC3MVCG9KY2FZDC5WAHA_AWQ9NTEWMZEW&QUOT;,&QUOT;RSSURL&QUOT;:&QUOT;HTTPS:\/\/WWW.NPR.ORG\/RSS\/PODCAST.PHP?ID=510310&QUOT;,&QUOT;JSONFEEDURL&QUOT;:&QUOT;HTTPS:\/\/WWW.NPR.ORG\/FEEDS\/692808713\/FEED.JSON&QUOT;,&QUOT;NPRONEUNIVERSALURL&QUOT;:&QUOT;HTTPS:\/\/RPB3R.APP.GOO.GL\/XDGL&QUOT;,&QUOT;AMAZONALEXAURL&QUOT;:NULL,&QUOT;POCKETCASTSURL&QUOT;:&QUOT;HTTPS:\/\/PCA.ST\/NPR-POLITICS&QUOT;,&QUOT;SPOTIFYURL&QUOT;:&QUOT;HTTPS:\/\/OPEN.SPOTIFY.COM\/SHOW\/2PNWNDNWU3WKESCHCPY252&QUOT;}" -->
+<div id="callout-end-of-story-mount">
+   </div>
+
+<!-- END ID="CALLOUT-END-OF-STORY-MOUNT" -->
+<aside id="end-of-story-recommendations-mount" class="recommended-stories" aria-label="recommended stories"></aside>
+<!-- END ID="END-OF-STORY-RECOMMENDATIONS-MOUNT" CLASS="RECOMMENDED-STORIES" ARIA-LABEL="RECOMMENDED STORIES" -->
+</article><header class="contentheader contentheader--two" data-metrics='{"category":"Politics"}' ></header><footer id="npr-footer" class="npr-footer" role="contentinfo" aria-label="NPR footer"><div class="npr-footer__content" data-metrics-category="Global Footer" data-metrics-label="Footer">
+    <div class="npr-footer__module-group">
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">Read &amp; Listen</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/" data-metrics-action="Click Homepage">Home</a></li>
+                <li class="npr-footer__item"><a href="/sections/news/" data-metrics-action="Click News">News</a></li>
+                <li class="npr-footer__item"><a href="/sections/arts/" data-metrics-action="Click Arts &amp; Life">Arts &amp; Life</a></li>
+                <li class="npr-footer__item"><a href="/music/" data-metrics-action="Click Music">Music</a></li>
+                <li class="npr-footer__item"><a href="/podcasts/" data-metrics-action="Click Podcasts">Podcasts</a></li>
+                <li class="npr-footer__item"><a href="/programs/" data-metrics-action="Click Programs">Programs</a></li>
+            </ul>
+        </div>
+
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">Connect</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/newsletters" data-metrics-action="Click Newsletters">Newsletters</a></li>
+                <li class="npr-footer__item"><a href="https://www.facebook.com/NPR/" data-metrics-action="Click Facebook">Facebook</a></li>
+                <li class="npr-footer__item"><a href="https://twitter.com/NPR" data-metrics-action="Click Twitter">Twitter</a></li>
+                <li class="npr-footer__item"><a href="https://www.instagram.com/npr/" data-metrics-action="Click Instagram">Instagram</a></li>
+                <li class="npr-footer__item"><a href="https://www.npr.org/contact" data-metrics-action="Click Contact">Contact</a></li>
+                <li class="npr-footer__item"><a href="https://help.npr.org" data-metrics-action="Click Help">Help</a></li>
+            </ul>
+        </div>
+
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">About NPR</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/about/" data-metrics-action="Click Overview">Overview</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/178660742/public-radio-finances" data-metrics-action="Click Finances">Finances</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/179803822/people-at-npr" data-metrics-action="Click People">People</a></li>
+                <li class="npr-footer__item"><a href="/series/750003/press-room/" data-metrics-action="Click Press">Press</a></li>
+                <li class="npr-footer__item"><a href="/sections/publiceditor/" data-metrics-action="Click Public Editor">Public Editor</a></li>
+                <li class="npr-footer__item"><a href="/corrections/" data-metrics-action="Click Corrections">Corrections</a></li>
+            </ul>
+        </div>
+
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">Get Involved</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/series/750002/support-public-radio" data-metrics-action="Click Support Public Radio">Support Public Radio</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/186948703/corporate-sponsorship" data-metrics-action="Click Sponsor NPR">Sponsor NPR</a></li>
+                <li class="npr-footer__item"><a href="/careers/" data-metrics-action="Click NPR Careers">NPR Careers</a></li>
+                <li class="npr-footer__item"><a href="https://shop.npr.org/" data-metrics-action="Click NPR Shop">NPR Shop</a></li>
+                <li class="npr-footer__item"><a href="https://www.nprpresents.org" data-metrics-action="Click NPR Events">NPR Events</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/177066727/visit-npr" data-metrics-action="Click Visit NPR">Visit NPR</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="npr-footer__module npr-footer__module--secondary">
+        <ul>
+            <li class="npr-footer__item"><a href="/about-npr/179876898/terms-of-use" data-metrics-action="Click Terms of Use">Terms of Use</a></li>
+            <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy" data-metrics-action="Click Privacy">Privacy</a></li>
+            <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy#yourchoices" data-metrics-action="Click Your Privacy Choices">Your Privacy Choices</a></li>
+            <li class="npr-footer__item"><a href="https://text.npr.org/" data-metrics-action="Click Text Only">Text Only</a></li>
+            <li class="npr-footer__item"><span class="copy-year"></span></li>
+        </ul>
+    </div>
+</div></footer></section>   <div id="main-sidebar">
+            <aside id="ad-standard-wrap" aria-label="advertisement">
+    
+
+    <div id="ad-standard-News_Politics" class="ad-standard" data-ad-config='{"network":"\/6735\/n6735","site":{"default":"NPR","mobile":"NPRMOBILE"},"zone":"News_Politics","targets":{"testserver":"false","storyId":"692808713","program":"Morning_Edition","agg":["191676894","434975886","262472261"]},"location":"standard","deferred":false,"isBetweenContent":false,"isAggSponsorship":false,"borderClass":""}'></div>
+    <p class="left">NPR thanks our sponsors</p><p class="right"><a href="/about-npr/186948703/corporate-sponsorship">Become an NPR sponsor</a></p>
+
+</aside>
+   </div>
+   
+<!-- END ID="MAIN-SIDEBAR" -->
+</div>
+
+<!-- END ID="WRAPPER" -->
+<script type="text/javascript">
+   (function () {
+    var loadPageJs = function () { webpackJsonp([86,27],{0:function(n,t,c){n.exports=c(1767)},1767:function(n,t,c){"use strict";c.p=NPR.serverVars.webpackPublicPath,function(){var n=2,t=function(){--n<1&&function(n){c(36),c(1512),c(267),c(360),c(241),c(569),c(353),c(1515),c(352),c(1514),c(1513),c(1365),c(404),c(2191)}(c)}.bind(this);c.e(0,t),c.e(3,t)}.call(this)}}); };
+    if (document.readyState === 'complete') {
+        loadPageJs();
+    } else {
+        window.addEventListener('load', function load() {
+            window.removeEventListener('load', load, false);
+            loadPageJs();
+        });
+    }
+})();
+</script>
+</main><noscript><iframe style="display:none;padding:0;margin:0;" width="0" height="0" src="//20655831p.rfihub.com/ca.html?rb=3035&ca=20501671&ra=gtmcb"></iframe></noscript><noscript><iframe><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1621557368158968&ev=PageView&noscript=1" /></iframe></noscript><script type='text/javascript'>
+    var _sf_async_config = _sf_async_config || {};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = '18888';
+    _sf_async_config.domain = NPR.ServerConstants.cbHost;
+    _sf_async_config.useCanonical = true;
+
+    /** CONFIGURATION END **/
+    (function() {
+        function loadChartbeat() {
+            // Wait until the metric for chartbeat have been setup
+            // in templates/javascript/metrics/chartbeat.js
+            if( !!NPR.ChartbeatLoaded) {
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src', 'https://static.chartbeat.com/js/chartbeat.js');
+                document.body.appendChild(e);
+            } else {
+                setTimeout(loadChartbeat, 1000);
+            }
+        }
+
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+            oldonload();
+            window._sf_endpt = (new Date()).getTime();
+            loadChartbeat();
+        };
+    })();
+</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ece810d90e","applicationID":"3472094","transactionName":"Y1NRZkQDV0JRAkAPWloZZkBfTU1UXRFYB0FRRRxRWQxNQ18NWANHRxlERUFMSVlA","queueTime":0,"applicationTime":106,"atts":"TxRGEAwZRB0SABZcTklL","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

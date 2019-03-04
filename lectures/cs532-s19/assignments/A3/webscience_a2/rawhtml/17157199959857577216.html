@@ -1,0 +1,395 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Farsnews
+</title>
+    <link href="shares/css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="shares/js/jquery.js"></script>
+    <script type="text/javascript" src="shares/js/jcommon.js"></script>
+    <link href="shares/js/calendar/css/default.css" rel="stylesheet" />
+    <script src="shares/js/calendar/javascript/zebra_datepicker.js"></script>
+    <script src="shares/js/calendar/javascript/core.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131012460-1"></script>
+    <script type="text/javascript">
+        var isCtgDefined = 0;
+        $(document).ready(function () {
+            $('#dp').Zebra_DatePicker({
+                always_visible: $('#sitearchive'),
+                format: 'Y/m/d',
+                direction: [false, '2019/02/21'],
+
+                onSelect: function (view, elements) {
+                    window.location = 'Archive.aspx?archdate=' + $('#dp').val();
+                }
+            });
+            $('body').click(function (e) {
+                var $box = $('.sitearchive');
+                if (e.target.className !== 'sitearchive' && !$.contains($box[0], e.target)) {
+                    if ($('.sitearchive').css('display').toLowerCase() != 'none') $('.sitearchive').css('display', 'none');
+                }
+            });
+        });
+    </script>
+    
+
+    <script type="text/javascript" language="javascript">
+        $(function () {
+            $(document).ready(function () {
+                $(".vplayer").each(function () {
+                    $(this).html('<object class="mp4downloader_tagChecked" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="fvp" style="float: left; margin: 30px 7px 10px 7px; width: 362px; height: 300px; border: solid 1px #fb8;"><param name="movie" value="shares/swf/fvp.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="vidurl=' + $(this).attr("href") + '" /><embed class="mp4downloader_tagChecked " type="application/x-shockwave-flash" id="player2" name="player2" src="shares/swf/fvp.swf" allowscriptaccess="always" allowfullscreen="true" flashvars="vidurl=' + $(this).attr("href") + '" width="362px" height="300px" /></object>');
+                });
+
+                $(".aplayer").each(function () {
+                    $(this).html('<object id="object43153" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="player" id="player" style="float: left; margin: 30px 7px 10px 7px; width: 362px; height: 31px; border: solid 1px #fb8;"><param name="movie" value="shares/swf/fap.swf" /><param name="flashvars" value="audurl=' + $(this).attr("href") + '" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" id="Embed43153" name="player2" src="shares/swf/fap.swf" width="362px" height="31px" allowscriptaccess="always" allowfullscreen="true" flashvars="audurl=' + $(this).attr("href") + '" /></object>');
+                });
+            });
+        });
+    </script>
+
+    <!--<link rel="StyleSheet" href="http://24meteo.com/widgets/w_6/style.css" type="text/css" media="screen" />-->
+</head>
+<body>
+    <div class="framework">
+        <div class="pageHeader">
+            <div class="topBar">
+                <div class="datetimePane">
+                    Thursday 21 Feb 2019 / Tehran - 22:04 / GMT - 18:34
+                </div>
+                <div class="quicksearchPane">
+                    <div id="qsform">
+                        <img src="shares/img/search-icon.jpg" style="cursor: pointer;" onclick="searchURL()" />
+                        <input type="text" name="quicksearch" id="quicksearch" />
+                    </div>
+                    <div class="sitearchive">
+                        <div style="margin: 14px 0 0 0; text-align: center;">
+                            <a href="http://english2.farsnews.com">Old FNA</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="search.aspx">Advanced Search</a>
+                        </div>
+                        <div style="margin: 14px 0 0 0;">
+                            <form action="javascript:void(0)" method="post" style="margin: 0; padding: 0;">
+                                <div style="margin: 0; padding: 0;">
+                                    <input id="dp" name="dp" type="hidden" />
+                                    <div id="sitearchive" style="margin: 0 0 0 10px; height: 255px;">
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="dp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logoBar">
+                <img src="shares/img/enlogo.png" />
+                <!--
+                <div id="ww_6">
+                    <ul id="weather06_body_1947712">
+                        <li id="weather06_t_1947712" class="weather06_t"></li>
+                        <li id="weather06_city_1947712" class="weather06_city">
+                            <a href="http://24meteo.com/iran/tehran-weather-forecast-1947712/" title="Tehran Weather">Tehran Weather</a>
+                        </li>
+                        <li id="weather06_date_1947712" class="weather06_date"></li>
+                    </ul>
+                 </div>
+                 <script type="text/javascript" src="http://24meteo.com/widgets/w_6/w_6.php?city=1947712&lang=en&gr=0"></script>-->
+            </div>
+            <div class="menuBar">
+                <div class="langsLinks">
+                    <a href="http://arabic.farsnews.com/">Ar</a>&nbsp;&nbsp;| <span>En</span>&nbsp;&nbsp;|
+                    <a href="http://farsnews.com/">Fa</a>&nbsp;&nbsp;| <a href="http://turkish.farsnews.com/">Tr</a>
+                    &nbsp;&nbsp;|<a href="http://af.farsnews.com/">Af</a>
+                </div>
+                <ul class="headMenu">
+                    <li class="mnuitem" id="mnu0"><a href="Default.aspx">Home</a></li>
+                    <li class="mnuitem" id="mnu17"><a href="newsv.aspx?srv=17">Politico-Defense</a><ul class="submenu" id="submenu17"><li class="smnuitem"><a href="newsh.aspx?srv=442">Politics</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=22">Foreign Policy</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=27">Defense</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=23">Nuclear</a>&nbsp;&nbsp;</li></ul></li><li class="mnuitem" id="mnu18"><a href="newsv.aspx?srv=18">Economy</a></li><li class="mnuitem" id="mnu414"><a href="newsv.aspx?srv=414">Society & Culture</a><ul class="submenu" id="submenu414"><li class="smnuitem"><a href="newsh.aspx?srv=415">Society</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=24">Sport</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=21">Culture</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=26">Art</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=416">Life Style</a>&nbsp;&nbsp;</li></ul></li><li class="mnuitem" id="mnu417"><a href="newsv.aspx?srv=417">Sci-Tech</a><ul class="submenu" id="submenu417"><li class="smnuitem"><a href="newsh.aspx?srv=418">Space</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=419">Nano</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=420">Medicine</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=421">Technology</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=422">Earth</a>&nbsp;&nbsp;</li></ul></li><li class="mnuitem" id="mnu20"><a href="newsv.aspx?srv=20">World</a></li><li class="mnuitem" id="mnu426"><a href="newsv.aspx?srv=426">Interviews & Commentaries</a><ul class="submenu" id="submenu426"><li class="smnuitem"><a href="newsh.aspx?srv=427">Interviews</a>&nbsp;&nbsp;-</li><li class="smnuitem"><a href="newsh.aspx?srv=428">Commentaries</a>&nbsp;&nbsp;</li></ul></li>
+                    <li class="mnuitem" id="mnu001"><a href="multimedia.aspx">Multimedia</a>
+                        <ul class="submenu" id="submenu001">
+                            <li><a href="Photo.aspx">Photo</a>&nbsp;&nbsp;-</li>
+                            <li><a href="media.aspx">Video</a>&nbsp;&nbsp;</li>
+                        </ul>
+                    </li>
+                    <li class="mnuitem" id="mnu002"><a href="allstories.aspx">All Stories</a> </li>
+                </ul>
+                <input type="hidden" id="currentpageid" value="0" />
+                <div class="clearboth">
+                </div>
+            </div>
+            <div class="submenuBar">
+            </div>
+        </div>
+        <div class="pageBody">
+            
+
+    
+
+<div style="position: relative;">
+    <div class="ntMainLeftPane">
+        <div class="ntCategoryTitle">Foreign Policy</div><div class="ntCategorySubTitle"></div>
+        <div class="ntDateTime">
+            <div class="social-links">
+                <a class="google-plus-share" target="_blank" href="https://plus.google.com/share?url=http://en.farsnews.com/newstext.aspx?nn=13971121000175"></a>
+                <a class="twitter-share" target="_blank" href="http://twitter.com/intent/tweet?text=http://en.farsnews.com/newstext.aspx?nn=13971121000175"></a>
+                <a class="facebook-share" target="_blank" href="http://www.facebook.com/sharer.php?u=http://en.farsnews.com/newstext.aspx?nn=13971121000175"></a>
+            </div>
+            <div class="sharelinks">
+                <a class="print-link" href="print.aspx?nn=13971121000175" target="_blank"></a>
+                <div class="surl-link">
+                    <div></div>
+                    <span>http://fna.ir/brfpa7</span>
+                </div>
+            </div>
+            <span class="date-news">
+                Sun Feb 10, 2019 12:58
+            </span>
+        </div>
+        <div class="ntSubTitle"></div><div class="ntTitle">Diplomatic Sources: Trump Requesting Visit to Tehran through Mediators</div><div class="ntImage"><img alt="Diplomatic Sources: Trump Requesting Visit to Tehran through Mediators" title="Diplomatic Sources: Trump Requesting Visit to Tehran through Mediators" src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/11/07/13971107000150_PhotoI.jpg" />
+        <div class="ntSocialLinks">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                </li>
+                <li>
+                    <div class="g-plusone" data-size="medium"></div>
+                </li>
+                <li>
+                    <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="true" data-font="tahoma"></div>
+                </li>
+            </ul>
+            <div class="clearboth"></div>
+        </div>
+        </div><div class="clearboth"></div><div class="ntDesc">TEHRAN (FNA)- Senior diplomatic sources in Tehran revealed that US President Donald Trump is seriously attempting to open a channel to hold direct talks with his Iranian counterpart and travel to the country.</div><div class="ntText"><p class="rtejustify">&quot;The US is not so much serious in the current sanctions given the waivers granted to certain countries&hellip; and it is trying to make a communication bridge to Iran,&quot; Amir Moussavi, a former Iranian diplomat, told the Arabic-language al-Mayadeen news channel on Friday.</p>
+
+<p class="rtejustify">&quot;Based on information I have, a message was sent from Washington (via mediators) for direct talks with Mr. Rouhani. Even Mr. Trump has voiced readiness to visit Tehran,&quot; he added.</p>
+
+<p class="rtejustify">Moussavi said that Iran has rejected Trump&#39;s demand for a visit to Tehran, adding that one of the mediators is Oman.</p>
+
+<p class="rtejustify">&quot;Two European states, two Arab countries and one Southeast Asian state are the mediators,&quot; he said, adding that the messages have been sent from Trump and his son-in-law Jared Kushner.</p>
+
+<p class="rtejustify">Moussavi said that Iran has an important condition for talks as it does not want talks for talks and talks for just taking pictures.</p>
+
+<p class="rtejustify">&quot;Iran&#39;s most important condition is that Trump should return to the (2015) nuclear deal from which it has withdrawn. Iran has sent this message to Washington via mediators,&quot; he said.</p>
+
+<p class="rtejustify">Also, prominent&nbsp;Lebanese analyst&nbsp;and journalist Tawfik Shoman&nbsp;was another guest of al-Mayadeen news channel on Friday who revealed that Iraq is another Arab country playing a mediatory role between Tehran and Washington.</p>
+
+<p class="rtejustify">The revelations by the former Iranian diplomat likely refer to Trump&#39;s remarks a few months ago when he said that he would be willing to meet President Rouhani without preconditions to discuss how to improve relations.</p>
+
+<p class="rtejustify">Iran&rsquo;s foreign minister said at the time that Washington should blame itself for ending talks with Tehran when it withdrew from the nuclear deal.</p>
+
+<p class="rtejustify">&ldquo;The US can only blame itself for pulling out and leaving the table...Threats, sanctions and PR stunts won&rsquo;t work,&rdquo; Mohammad Javad Zarif said in a tweet.</p>
+
+<p class="rtejustify">Also, the foreign ministry spokesman said Trump&rsquo;s offer to negotiate with Tehran contradicted his actions as Washington has imposed sanctions on Iran and put pressure on other countries to avoid business with the Islamic Republic.</p>
+
+<p class="rtejustify">&ldquo;Sanctions and pressures are the exact opposite of dialogue,&rdquo; Bahram Qassemi said.</p>
+
+<p class="rtejustify">A senior Iranian analyst had also disclosed in October 2-17 that President Rouhani had rejected a request by Trump for face-to-face talks on the sidelines of the UN General Assembly conference in New York.</p>
+
+<p class="rtejustify">&quot;US President Trump has invited President Rouhani to a face-to-face meeting during Mr. Rouhani&#39;s visit to New York to participate in the UN annual conference in September (2017) but our president has turned down the offer,&quot; Mahdi Faza&#39;eli wrote.</p>
+
+<p class="rtejustify">Noting that the demand was raised one day after Trump&#39;s insulting speech against Iran at the UN, he said French President Emanuel Macron had also been trying to persuade President Rouhani to accept the meeting, but failed.</p>
+
+<p class="rtejustify">Faza&#39;eli underlined that the US statesmen&#39;s efforts to hold talks with Iran were nothing new, and said, &quot;The Americans are sure that such negotiations will benefit them but they will have no achievements for Iran but harm.&quot;</p>
+
+<p class="rtejustify">Hours after Faza&#39;eli&#39;s remarks, Qassemi confirmed his revelation, saying that &quot;this willingness (to meet President Rouhani) was expressed by the American side, but was rejected by the Islamic Republic of Iran&#39;s president&quot;.</p>
+
+<p class="rtejustify">Yet, he denied Macron&#39;s mediation efforts, saying that the part of the report that referred to the French president was incorrect.</p>
+
+<p class="rtejustify">&nbsp;</p>
+
+<p class="rtejustify">&nbsp;</p>
+
+<p class="rtejustify">&nbsp;</p>
+
+<p class="rtejustify">&nbsp;</p><a href="https://twitter.com/EnglishFars"><img src="/shares/img/twitter.jpg" /></a><a href="https://www.facebook.com/FNA.english"><img src="/shares/img/followonfacebook.png"></a></div>
+        <div class="ntRelatedNewsPane">
+            
+        </div>
+    </div>
+    <div class="ntRightPane">
+        
+
+
+<div class="mpLatestNews">
+
+        <div class="mpLatestNewsHeader"><a href="allstories.aspx">LATEST STORIES (44)</a></div>
+                <img src="shares/img/toper.jpg" alt="Bottom" onclick="clearTimeout(move.to);move('container',3);" />
+                <div class="mpLatestNewsBody">
+                    <div id="container" style="position:absolute;right:0;">
+                       <ul id="mpLatestNewsBody"> 
+                        <li class="dtl0i4069208"><a href="newstext.aspx?nn=13971202000751" target='_blank' title="">Gen. Soleimani Cautions Pakistan to Stop Terrorists along Borders with Iran</a></li><li class="dtl1i4069170"><a href="newstext.aspx?nn=13971202000721" target='_blank' title="">Iran Arrests 8 Terrorists Behind Last Wednesday&#39;s Deadly Attack</a></li><li class="dtl2i4069138"><a href="newstext.aspx?nn=13971202000692" target='_blank' title="">Source: Syrian Military Nearly Ready to Use S-300 System</a></li><li class="dtl3i4069123"><a href="newstext.aspx?nn=13971202000681" target='_blank' title="">Russia Says European Security Is Hostage to US Policies</a></li><li class="dtl4i4069081"><a href="newstext.aspx?nn=13971202000650" target='_blank' title="">EXCLUSIVE: Iran Penetrates into US Command Center, Picks Up Drones Control</a></li><li class="dtl5i4069035"><a href="newstext.aspx?nn=13971202000608" target='_blank' title="">Turkey Blasts EU Draft Report That Calls to Suspend Accession</a></li><li class="dtl6i4069028"><a href="newstext.aspx?nn=13971202000607" target='_blank' title="">Aleppo: Several Turkish Army Soldiers, Ankara-Backed Militants Killed in SDF&#39;s Military Operations in Afrin Region</a></li><li class="dtl7i4068995"><a href="newstext.aspx?nn=13971202000579" target='_blank' title="">UK Resettles 100 Syria White Helmets Members, Families</a></li><li class="dtl8i4068922"><a href="newstext.aspx?nn=13971202000510" target='_blank' title="">Iraqi Security Expert: US Training ISIL in Western Iraq</a></li><li class="dtl9i4068840"><a href="newstext.aspx?nn=13971202000440" target='_blank' title="">2,000 ISIL Terrorists, Families Transferred from Eastern Syria on US-Led Coalition Trucks</a></li><li class="dtl10i4068962"><a href="newstext.aspx?nn=13971202000549" target='_blank' title="">German Police: No Sign of Terrorism in Munich Shooting That Left Two Dead</a></li><li class="dtl11i4068659"><a href="newstext.aspx?nn=13971202000299" target='_blank' title="">Homs: US, Allied Militants Prevent Civilians&#39; Exit from Al-Tanf Region</a></li><li class="dtl12i4068965"><a href="newstext.aspx?nn=13971202000552" target='_blank' title="">Bolivia&#39;s Morales: Trump to Be Responsible for Death, Destruction If US Invades Venezuela</a></li><li class="dtl13i4068928"><a href="newstext.aspx?nn=13971202000514" target='_blank' title="">Bangladesh: Fire Kills 70 in Capital Dhaka</a></li><li class="dtl14i4068584"><a href="newstext.aspx?nn=13971202000234" target='_blank' title="">Hezbollah Battalions Spokesman: US Has 31 Military Bases, 34,000 Soldiers in Iraq</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                <img src="shares/img/bottomer.jpg" alt="top" onclick="clearTimeout(move.to);move('container',-3);" />
+                <div id="dtl0i4069208" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000560_Test_PhotoE.jpg" /></div><div class="modinfo"><a href="">Gen. Soleimani Cautions Pakistan to Stop Terrorists along Borders with Iran</a><br /><br />TEHRAN (FNA)- Commander of the Quds Force of the Islamic Revolution Guards Corps (IRGC) Major General Qassem Soleimani warned the Islamabad government to stop cross-border attacks by the terrorists based in neighboring Pakistan.</div></div><div id="dtl1i4069170" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/11/25/13971125000839_Test_PhotoE.jpg" /></div><div class="modinfo"><a href="">Iran Arrests 8 Terrorists Behind Last Wednesday&#39;s Deadly Attack</a><br /><br />TEHRAN (FNA)- Eight terrorists have been arrested so far in connection to the deadly attack on the personnel of the Islamic Revolution Guards Corps (IRGC) in Southeastern Iran, Head of the Provincial Justice Department of Sistan Balouchestan Ibrahim Hamidi announced.</div></div><div id="dtl2i4069138" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/11/21/13971121000516_Test_PhotoE.jpg" /></div><div class="modinfo"><a href="">Source: Syrian Military Nearly Ready to Use S-300 System</a><br /><br />TEHRAN (FNA)- The Syrian Army is nearly ready to use the Russian-manufactured S-300 air defense system, a military source in Damascus told Al-Masdar News on Thursday.</div></div><div id="dtl3i4069123" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000556_PhotoE.jpg" /></div><div class="modinfo"><a href="">Russia Says European Security Is Hostage to US Policies</a><br /><br />TEHRAN (FNA)- The European people’s safety has become hostage to the destructive policies pursued by the US and Russia-haters in the EU, Russian Foreign Minister Sergey Lavrov said, addressing members of the Association of European Businesses on Thursday.</div></div><div id="dtl4i4069081" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000540_PhotoE.jpg" /></div><div class="modinfo"><a href="">EXCLUSIVE: Iran Penetrates into US Command Center, Picks Up Drones Control</a><br /><br />TEHRAN (FNA)- Commander of the Islamic Revolution Guards Corps Aerospace Force Brigadier General Amir Ali Hajizadeh disclosed on Thursday that several US aircraft that were constantly flying over Syria and Iraq were under IRGC&#39;s control and their first-hand intelligence was being monitored and retrieved by his forces after penetrating into the US command center. [+VIDEO]</div></div><div id="dtl5i4069035" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/03/23/13970323000669_Test_PhotoE.jpg" /></div><div class="modinfo"><a href="">Turkey Blasts EU Draft Report That Calls to Suspend Accession</a><br /><br />TEHRAN (FNA)- Turkey criticized on Thursday as &quot;unacceptable&quot; a vote by the European Parliament Foreign Affairs Committee to accept a draft advisory report on Turkey, which called for the suspension of EU accession negotiations with the country.</div></div><div id="dtl6i4069028" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000577_PhotoE.jpg" /></div><div class="modinfo"><a href="">Aleppo: Several Turkish Army Soldiers, Ankara-Backed Militants Killed in SDF&#39;s Military Operations in Afrin Region</a><br /><br />TEHRAN (FNA)- The Syrian Democratic Forces (SDF) conducted a military operation against Turkish Army and its allied militants in the surrounding areas of Manbij city in Northeastern Aleppo, killing a number of the Ankara-backed militants and that country&#39;s soldiers in Afrin region, Kurdish-language media reports said.</div></div><div id="dtl7i4068995" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/05/02/13970502000282_PhotoE.jpg" /></div><div class="modinfo"><a href="">UK Resettles 100 Syria White Helmets Members, Families</a><br /><br />TEHRAN (FNA)- Britain resettled some 100 members of the White Helmets aid group, which is accused of staging fake gas attacks in Syria’s terrorist controlled areas as part of a sophisticated smear campaign against the government of Syrian President Bashar al-Assad.</div></div><div id="dtl8i4068922" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000572_PhotoE.jpg" /></div><div class="modinfo"><a href="">Iraqi Security Expert: US Training ISIL in Western Iraq</a><br /><br />TEHRAN (FNA)- Iraq&#39;s security experts disclosed that the US Army is training ISIL terrorists in Al-Anbar province after relocating them from Syria to Iraq to prepare them for creating insecurity in the country.</div></div><div id="dtl9i4068840" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000574_PhotoE.jpg" /></div><div class="modinfo"><a href="">2,000 ISIL Terrorists, Families Transferred from Eastern Syria on US-Led Coalition Trucks</a><br /><br />TEHRAN (FNA)- Hundreds of ISIL terrorists and their family members moved out of the Eastern Euphrates region on tens of trucks of the US-led coalition after a secret agreement between the two sides.</div></div><div id="dtl10i4068962" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1396/04/03/13960403001677_Test_PhotoE.jpg" /></div><div class="modinfo"><a href="">German Police: No Sign of Terrorism in Munich Shooting That Left Two Dead</a><br /><br />TEHRAN (FNA)- Two men were shot dead in the Southern German city of Munich on Thursday but there were no indications that it was a terrorist attack, a police spokesman said.</div></div><div id="dtl11i4068659" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000563_PhotoE.jpg" /></div><div class="modinfo"><a href="">Homs: US, Allied Militants Prevent Civilians&#39; Exit from Al-Tanf Region</a><br /><br />TEHRAN (FNA)- The US Army troops and their allied militants once again blocked the exit of the besieged civilians from a camp in al-Tanf region near Syria&#39;s borders with Iraq, media sources said.</div></div><div id="dtl12i4068965" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/05/16/13970516000814_PhotoE.jpg" /></div><div class="modinfo"><a href="">Bolivia&#39;s Morales: Trump to Be Responsible for Death, Destruction If US Invades Venezuela</a><br /><br />TEHRAN (FNA)- The United States is preparing a military intervention Venezuela following an economic war against the South American country, the Bolivian president said on Wednesday.</div></div><div id="dtl13i4068928" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000426_PhotoE.jpg" /></div><div class="modinfo"><a href="">Bangladesh: Fire Kills 70 in Capital Dhaka</a><br /><br />TEHRAN (FNA)- At least 70 people have been killed since Wednesday night when a massive fire spread through several apartment blocks and roads in a congested old part of Bangladesh’s capital Dhaka, a fire service official said on Thursday.</div></div><div id="dtl14i4068584" class="mouseoverdtls"><div class="modimage"><img src="http://media.farsnews.com/media/Uploaded/Files/Images/1397/12/02/13971202000569_PhotoE.jpg" /></div><div class="modinfo"><a href="">Hezbollah Battalions Spokesman: US Has 31 Military Bases, 34,000 Soldiers in Iraq</a><br /><br />TEHRAN (FNA)- Spokesman of Iraq&#39;s Kata&#39;ib Hezbollah (Hezbollah Battalions) popular forces Jafar al-Hosseini disclosed that the US is planning to increase its military presence in Iraq by rising the number of soldiers and bases in the country.</div></div>
+    </div>
+
+
+    
+<script type="text/javascript">
+    var count = 0;
+    move('container', 1);
+    clearTimeout(move.to);
+    function move(id, spd) {
+        var obj = document.getElementById(id), max = -obj.offsetHeight + obj.parentNode.offsetHeight, top = parseInt(obj.style.top);
+        if ((spd > 0 && top <= 0) || (spd < 0 && top >= max)) {
+            obj.style.top = top + spd + "px";
+            move.to = setTimeout(function () { move(id, spd); }, 20);
+        }
+        else {
+            obj.style.top = (spd > 0 ? 0 : max) + "px";
+        }
+        mouseDeffPosition = parseInt(obj.style.top);
+        count++;
+        if (count > 20) {
+            clearTimeout(move.to);
+            count = 0;
+        }
+    }
+</script>
+
+        ﻿
+<p align="center">
+<object id="obj0" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="235" height="265">
+	<param name="movie" value="banner/MainPage/enadvertise.swf">
+	<param name="quality" value="High">
+	<embed src="banner/MainPage/enadvertise.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj0" width="235" height="265"></object>
+</p>
+
+    </div>
+    <div class="clearboth"></div>
+    ﻿
+</div>
+<input id="newsId" type="hidden" value="4052207"/>
+
+<script>
+isCtgDefined = 1;if ($('#mnu17')){ $('.headMenu .selected').attr('class', 'mnuitem');$('#mnu17').attr('class', 'selected');$('.headMenu li .selectedSubmenu').attr('class', 'submenu');$('#mnu17').find('ul').attr('class', 'selectedSubmenu');}
+</script>
+<script type="text/javascript">
+    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+
+    (function () {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    $.ajax({
+        url: "/VisitLog.asmx/SubmitVisits?id=" + $("#newsId").val(),
+        type: "get",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json"
+    });
+
+
+    $(".surl-link div").click(function () {
+        $(this).parent().toggleClass("show-link")
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="pageFooter">
+        <div class="pageinFooter">
+            <span>Sections </span>
+            <div class="footerSections">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="newsv.aspx?srv=20">World</a></li>
+                    <li><a href="newsv.aspx?srv=17">Politico-Defense</a></li>
+                    <li><a href="newsv.aspx?srv=426">Interviews<!-- & Commentaries--></a></li>
+                    <li><a href="newsv.aspx?srv=18">Economy</a></li>
+                    <li><a href="multimedia.aspx">Multimedia</a></li>
+                    <li><a href="newsv.aspx?srv=414">Society & Culture</a></li>
+                </ul>
+                <ul>
+                    <li><a href="allstories.aspx">All Stories</a></li>
+                    <li><a href="newsv.aspx?srv=417">Sci-Tech</a></li>
+                </ul>
+                <ul>
+                    <li><a href="allstories.aspx">About us</a></li>
+                    <li><a href="newsv.aspx?srv=417">Contact us</a></li>
+                </ul>
+                <div>
+                    <a href="/rsslinks.aspx"></a><a href="#"></a><a href="https://twitter.com/EnglishFars"></a><a href="https://www.facebook.com/FNA.english"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footerLogo">
+            <div class="footerinLogo">
+                <div class="footer-logo">
+                    <img alt="FarsNews" src="shares/img/footer-logo.png" width="64" height="45">
+                    <div>
+                        <span>Fars News Agency</span>
+                    </div>
+                </div>
+                <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>
+                    <br>
+                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"></span>
+                    <a xmlns:cc="http://creativecommons.org/ns#" href="http://en.farsnews.com" property="cc:attributionName" rel="cc:attributionURL">Fars News Agency</a> <span>&nbsp;is licensed under a&nbsp;</span> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
+                    <br>
+                    <a xmlns:dct="http://purl.org/dc/terms/" href="http://en.farsnews.com" rel="dct:source"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+if (isCtgDefined == 0 && $('#mnu0')){ $('#mnu0').attr('class', 'selected');$('#mnu0').find('ul').attr('class', 'selectedSubmenu');}
+</script>
+    <script>
+        function searchURL() {
+            window.location = 'http://englishsearch.farsnews.com/?q=' + document.getElementById("quicksearch").value
+        }
+        document.getElementById('quicksearch').onkeydown = function (e) {
+            if (e.keyCode == 13) {
+                searchURL()
+            }
+        };
+    </script>
+    <script type="text/javascript">
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.src = "http://feedback.farsnews.com/stcs.js.aspx?h=aHR0cDovL2VuLmZhcnNuZXdzLmNvbV8mX18mX2VuLmZhcnNuZXdzLmNvbV8mX0ZOLUxILVdFQi1GUjJfJl80Ni4yMDkuMTM2LjM%3d" + "|" + screen.width + "X" + screen.height;
+        document.getElementsByTagName("head")[0].appendChild(s);
+
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = 1;
+        script.src = "https://s1.mediaad.org/serve/farsnews.com/loader.js";
+        head.appendChild(script);
+
+        _atrk_opts = { atrk_acct: "Hli5s1Fx9f207i", domain: "farsnews.com", dynamic: true };
+        (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131012460-1');
+
+    </script>
+
+    <noscript>
+        <img src="https://certify.alexametrics.com/atrk.gif?account=Hli5s1Fx9f207i" style="display: none" height="1" width="1" alt="" />
+    </noscript>
+
+</body>
+</html>

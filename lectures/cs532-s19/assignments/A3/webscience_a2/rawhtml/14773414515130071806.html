@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+<script src="https://intermarkets-net.videoplayerhub.com/videoloader.js"></script>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.newsbusters.org/sites/all/themes/nb7_bs3/img/nbfavicon.png" type="image/png" />
+<meta name="description" content="At the midpoint of Donald Trump’s first term, the establishment media’s obvious hostility shows no signs of relenting: 90% negative, vs. just 10% positive, matching the historically bad press we documented in 2017. But polls show this negative coverage has had no discernible impact on the public’s attitudes toward the President. Instead, the media&#039;s partisan approach has" />
+<meta name="robots" content="index" />
+<meta name="news_keywords" content=",,,ABC, World News Tonight, CBS, CBS Evening News, NBC, NBC Nightly News,Trump-Russia probe" />
+<link rel="image_src" href="https://cdn.newsbusters.org/images/nbc_presidential_press_conference_-_01_02_05_pm.jpg" />
+<link rel="canonical" href="https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter" />
+<meta property="og:site_name" content="NewsBusters" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Networks Trashed Trump With 90% Negative Spin in 2018, But Did It Matter?" />
+<meta property="og:url" content="https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter" />
+<meta property="og:description" content="At the midpoint of Donald Trump’s first term, the establishment media’s obvious hostility shows no signs of relenting: 90% negative, vs. just 10% positive, matching the historically bad press we documented in 2017. But polls show this negative coverage has had no discernible impact on the public’s attitudes toward the President. Instead, the media&#039;s partisan approach has earned them high marks from Democrats, while alienating most Republicans." />
+<meta property="og:image" content="https://cdn.newsbusters.org/images/nbc_presidential_press_conference_-_01_02_05_pm.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@newsbusters" />
+<meta name="twitter:creator" content="@RichNoyes" />
+<meta name="twitter:title" content="TV Trashed Trump With 90% Negative Spin in 2018, But Did It Matter?" />
+<meta name="twitter:url" content="https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter" />
+<meta name="twitter:description" content="At the midpoint of Donald Trump’s first term, the establishment media’s obvious hostility shows no signs of relenting: 90% negative, vs. just 10% positive, matching the historically bad press we" />
+<meta name="twitter:image" content="https://cdn.newsbusters.org/images/nbc_presidential_press_conference_-_01_02_05_pm.jpg" />
+<meta name="theme-color" content="#ee7624" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="NewsBusters" />
+  <title>Networks Trashed Trump With 90% Negative Spin in 2018, But Did It Matter?</title>
+  <link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_PD7wMLRFmk6bdIWVQoukS0TvOms6gN_9maHJ0nVkMgM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_8mmt3kmRB_I55-uUBbkHfG54y7vmFHfwgLX7aZ2fumk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.newsbusters.org/sites/default/files/css/css_3C1WOLfpB6V6Zum0uEqaN05rgbLVfJoGVksRHuFgejY.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_DeyI2x64xgTUOWHGL8cskTw1Njiir09ZzUEHPI_OM2E.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_xJhDTSnICt5bnqa6YnA2BxNMSUKIkCby54SBqv4JBG4.js"></script>
+<script>window._taboola = window._taboola || [];
+            _taboola.push({article:'auto'});
+            !function (e, f, u) {
+              e.async = 1;
+              e.src = u;
+              f.parentNode.insertBefore(e, f);
+            }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            'https://cdn.taboola.com/libtrc/mrctv-newsbustersorg/loader.js')</script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js__c90obBCuWpMQ8ipFvHweQ1ezGJttxNZbGkZZZ0XW_o.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_0qVq0Z4COokvnn8EuZWOi_2lascWSAmD-0HsnpJlaqA.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nb7_bs3","theme_token":"SSt25sSrLHPcmJHdLIPixNl-z6hBFHHYH-mnjtCfpbo","js":{"0":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5310064579a0620a":1,"https:\/\/cdn.newsbusters.org\/ads.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/custom\/nb_translate\/nbtranslateStyle.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/contrib\/disqus\/js\/disqus.js":1,"2":1,"sites\/all\/modules\/contrib\/pullquote\/pullquote.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nb7_bs3\/js\/nb7bs3.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/nb_translate\/nbtranslateStyle.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/pullquote\/css\/pullquote_style_1.css":1,"\/\/fonts.googleapis.com\/css?family=Roboto:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic":1,"\/\/fonts.googleapis.com\/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700":1,"\/\/cdn.jsdelivr.net\/fontawesome\/4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/nb7_bs3\/css\/nb7bs3.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"html5":"full"},"disqusComments":"newsbustersorg","disqus":{"domain":"newsbustersorg","url":"https:\/\/www.newsbusters.org\/blogs\/nb\/rich-noyes\/2019\/01\/15\/networks-trashed-trump-90-negative-spin-2018-did-it-matter","title":"Networks Trashed Trump With 90% Negative Spin in 2018, But Did It Matter?","identifier":"node\/237095"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-237095 node-type-blog">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9BP8C"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N9BP8C');</script>
+  <!-- End Google Tag Manager -->
+    
+<header id="navbar" role="banner" class="navbar navbar-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                                        <div class="navbar-left">
+                        <div class="navbar-brand logo">
+                            <a class="navbar-btn" href="/"
+                               title="Home">
+                                <img src="//cdn.newsbusters.org/images/header/nb-header-bs3.png" alt="Home" />
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="clearfix visible-xs-block"></div>
+                    <div class="navbar-right">
+                        <div class="navbar-collapse collapse">
+                            <nav role="navigation">
+                                                                      <div class="region region-navigation">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav navbar-nav"><li class="first leaf menu-mlid-3471"><a href="/blogs" title="">Blog</a></li>
+<li class="leaf menu-mlid-3481"><a href="/" title="">Home</a></li>
+<li class="leaf menu-mlid-3486"><a href="https://www.mrc.org/newsletter/preferences?utm_source=newsbusters&amp;utm_medium=menu&amp;utm_content=subscribe&amp;utm_campaign=nb" title="">Subscribe</a></li>
+<li class="last leaf menu-mlid-3491"><a href="/contact-us" title="">Contact</a></li>
+</ul></div>
+  </div>
+                                                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix hidden-xs"></div>
+            <div class="col-xs-12">
+                <div class="nb-navbar wrapper-100">
+                    <div class="navbar-collapse collapse">
+                        <nav role="navigation">
+                                                        <div class="navbar-left">
+                                  <div class="region region-secondary-navigation">
+    <div class="menu-block-wrapper menu-block-2 menu-name-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav navbar-nav secondary"><li class="first leaf menu-mlid-3496"><a href="/business" title="">MRC Business</a></li>
+<li class="leaf menu-mlid-3501"><a href="/culture" title="">MRC Culture</a></li>
+<li class="leaf menu-mlid-3506"><a href="/latino" title="">MRC Latino</a></li>
+<li class="leaf menu-mlid-7708"><a href="https://www.newsbusters.org/techwatch" title="">MRC TechWatch</a></li>
+<li class="last leaf menu-mlid-3511"><a href="https://www.newsbusters.org/donate?utm_source=nb&amp;utm_medium=menu_top&amp;utm_campaign=donate)" title="">Donate</a></li>
+</ul></div>
+  </div>
+                            </div>
+                                                        <div class="clearfix visible-xs"></div>
+                                                        <div class="navbar-right">
+                                  <div class="region region-social-navigation">
+    
+        <ul class="menu nav navbar-nav social">
+            <li><a href="https://www.facebook.com/newsbusters" target="_blank">
+                <i class="fa fa-facebook"></i>
+                </a></li>
+            <li><a href="https://www.twitter.com/newsbusters" target="_blank">
+                <i class="fa fa-twitter"></i>
+                </a></li>
+            <li><a href="https://www.youtube.com/user/MRCTVdotOrg" target="_blank">
+                <i class="fa fa-youtube"></i>
+                </a></li>
+            <li><a href="https://www.newsbusters.org/blog/feed" target="_blank">
+                <i class="fa fa-rss"></i>
+                </a></li>
+            <li><a href="/search" target="_blank">
+                <i class="fa fa-search"></i>
+                </a></li>
+        </ul>  </div>
+                            </div>
+                                                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main-container container">
+
+    <header role="banner" id="page-header">
+        
+          <div class="region region-header">
+    <div id="block-views-hot-topics-block" class="block block-views clearfix">
+        <div class="view view-hot-topics view-id-hot_topics view-display-id-block nb-hot-topics view-dom-id-ecd3dda22db9f49b7c896e77c498589c">
+                        <a href="#" class="btn btn-default btn-sm disabled"><i class="fa fa-fire"></i></a>    
+    
+                            
+          <a href="https://www.newsbusters.org/non-journalists/jussie-smollett" class="btn btn-primary btn-sm">Jussie Smollett Hoax</a>            
+          <a href="https://www.newsbusters.org/non-journalists/andrew-mccabe" class="btn btn-primary btn-sm">Andrew McCabe</a>            
+          <a href="https://www.newsbusters.org/administrative/media-reality-check" class="btn btn-primary btn-sm">Trump Coverage Studies</a>            
+          <a href="https://www.newsbusters.org/issues-events-groups/covington-kids" class="btn btn-primary btn-sm">Covington Kids</a>                
+    
+                    
+</div></div>
+<div id="block-block-12" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Top_728xFlex (1131674) -->
+<div id="ad_top" class="row" data-spy="affix" data-offset-top="130" style="z-index: 1000; margin-bottom: 10px;">
+ <div class="wrapper-100 center-block text-center" style="margin-bottom: 10px;">
+<div id="imk728xFlexTop" style="height: 105px;"><span class='bt-uid-tg' data-uid='5b562603b5-172' style='display: none !important'></span>
+
+</div>
+ </div>
+</div>
+ <!-- End of JavaScript Tag 
+<div id="wb_mkto_banner"></div>
+--> 
+</div>
+  </div>
+    </header> <!-- /#page-header -->
+
+    <div class="row">
+
+        <section class="col-xs-12 col-tn-6 col-sm-6 col-md-7 col-lg-8">
+                                    <a id="main-content"></a>
+                                        <h1 class="page-header">Networks Trashed Trump With 90% Negative Spin in 2018, But Did It Matter?</h1>
+                                                                                                                <article id="node-237095" class="node node-blog clearfix" about="/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter" typeof="sioc:Item foaf:Document">
+    <header>
+            <span property="dc:title" content="Networks Trashed Trump With 90% Negative Spin in 2018, But Did It Matter?" class="rdf-meta element-hidden"></span>            <div class="nb-social">
+      <a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter&pubid=ra-5310064579a0620a"
+       target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
+       <a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter&title=The%20media%27s%20war%20against%20Donald%20Trump%20continued%20unabated%20in%202018%2C%20but%20the%20bad%20press%20didn%27t%20affect%20public%20opinion.&pubid=ra-5310064579a0620a&shortener=bitly"
+         target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i>&nbsp;Tweet</a>
+                   <a href="https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter#disqus_thread" class="btn btn-primary" title="Comments"><i
+            class="fa fa-comment"></i> <span class="disqus-comment-count" data-disqus-identifier="node/237095" />
+</a>
+                                <a href="https://www.newsbusters.org/print/237095" class="btn btn-info hidden-xs" title="Print" target="_blank"><i
+              class="fa fa-print"></i>&nbsp;Print</a>
+                        
+            <div id="more-share" class="collapse">
+              <a href="https://api.addthis.com/oexchange/0.8/forward/reddit/offer?url=https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter&pubid=ra-5310064579a0620a"
+               target="_blank" class="btn btn-reddit"><i class="fa fa-reddit"></i> Reddit</a>
+               <a href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter&pubid=ra-5310064579a0620a"
+                 target="_blank" class="btn btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                 <a href="https://api.addthis.com/oexchange/0.8/forward/googleplus/offer?url=https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter&pubid=ra-5310064579a0620a"
+                   target="_blank" class="btn btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                   <a href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://www.newsbusters.org/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter&pubid=ra-5310064579a0620a"
+                     target="_blank" class="btn btn-primary"><i class="fa fa-envelope-open"></i></a>
+                     <a href="#more-share" class="btn btn-info btn-more-share" data-toggle="collapse"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                   </div>
+
+                 </div>
+                                              <div class="submitted">
+                  <span property="dc:date dc:created" content="2019-01-15T06:50:00-05:00" datatype="xsd:dateTime" rel="sioc:has_creator">By <span class="source"><a href="/author/rich-noyes" title="View user profile." class="username" xml:lang="" about="/author/rich-noyes" typeof="sioc:UserAccount" property="foaf:name" datatype="">Rich Noyes</a></span> | January 15, 2019 6:50 AM EST</span>                </div>
+                                        </header>
+                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+        <div class="field-items">
+          <div class="field-item" property="content:encoded"><p><img alt="" class="image-blog_body-50" src="https://www.newsbusters.org/s3/files/styles/blog_body-50/s3/images/nbc_presidential_press_conference_-_01_02_05_pm.jpg?itok=0Vo9sEww" style="float:right; height:231px; margin-left:5px; margin-right:5px; width:410px" />At the midpoint of Donald Trump&rsquo;s first term, the establishment media&rsquo;s obvious hostility shows no signs of relenting, but polls show this negative coverage has had no discernible impact on the public&rsquo;s attitudes toward the President.</p>
+
+<p>Since January 20, 2017, the Media Research Center has analyzed every moment of coverage of President Trump on the ABC, CBS and NBC evening newscasts, <a href="https://www.adweek.com/tvnewser/evening-news-ratings-2017-2018-season-q3-2018-week-of-sept-17-2018/377690" target="_blank"><strong>seen by approximately 23 million people each night</strong></a>. Highlights:</p>
+
+<p><div id="imkIncontent1" style="align:center;"></div></p>
+
+<blockquote>
+	<p>■ As it was last year, the Trump presidency was the biggest story of 2018, accounting for almost 87 hours of coverage, or 28% of all evening news airtime. But that&rsquo;s down from <a href="https://www.newsbusters.org/blogs/nb/rich-noyes/2018/01/16/2017-year-news-media-went-war-against-president" target="_blank"><strong>99 hours of coverage in 2017</strong></a>, perhaps a sign the networks are wearying of treating every Trump tweet as deserving of crisis-level coverage.<br />
+		&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<br />
+		■ The tone of coverage remains incessantly hostile: 90% negative, vs. just 10% positive (excluding neutral statements), <a href="https://www.newsbusters.org/blogs/nb/rich-noyes/2018/01/16/2017-year-news-media-went-war-against-president" target="_blank"><strong>matching the historically bad press we documented in 2017</strong></a>. Yet despite the media&rsquo;s obvious disapproval, public opinion of the President actually improved slightly during 2018, from an average 40% approval on January 1 to 42.7% approval on December 31, <a href="https://www.realclearpolitics.com/epolls/other/president_trump_job_approval-6179.html" target="_blank"><strong>according to RealClearPolitics</strong></a>.</p>
+
+	<p>■ For the second year in a row, the Russia investigation was the single most-covered topic amid the networks&rsquo; Trump coverage, garnering 858 minutes of airtime. Since January 20, 2017, the Russia probe has received 2,092 minutes of coverage on just the three evening newscasts.</p>
+</blockquote>
+
+<p>Details:</p>
+
+<p><strong>Negative spin:</strong> To determine the spin of news coverage, our analysts tallied all explicitly evaluative statements about the President or his administration from either reporters, anchors or non-partisan sources such as experts or voters. Evaluations from partisan sources, as well as neutral statements, were not included.</p>
+
+<p>As has been the case since the President took office, the tone of network coverage has been exceptionally hostile, ranging from 82% negative in April 2017 (after Trump was praised for a missile strike punishing Syria for a chemical weapons attack) to 96% negative in February 2018 (when the news agenda focused on the Russia investigation, demands for gun control, and a White House aide accused of domestic abuse).</p>
+
+<p style="text-align:center"><img alt="" class="image-blog_body-100" src="https://www.newsbusters.org/s3/files/styles/blog_body-100/s3/images/spinchart2.jpg?itok=vD6lHeaE" style="height:441px; width:740px" /></p>
+
+<p><strong>Remarkably consistent:</strong> The 90% negative spin we calculated roughly matches what the Pew Research Center, not a conservative group, found in their study of coverage of <a href="https://www.washingtonexaminer.com/pew-trump-media-three-times-more-negative-than-for-obama-just-5-percent-positive" target="_blank"><strong>Trump&rsquo;s first 60 days in office</strong></a>. They found 62% of network stories were negative, vs. 5% positive and 33% neutral. If you remove the neutral stories and look at just the stories with a clear spin, Pew&rsquo;s bottom line looks like ours: 93% negative spin, vs. just 7% positive.</p>
+
+<p>Harvard media scholar Thomas Patterson looked at coverage of <a href="https://shorensteincenter.org/news-coverage-donald-trumps-first-100-days/" target="_blank"><strong>Trump&rsquo;s first 100 days</strong></a> in office. He found NBC&rsquo;s coverage was 93% negative, CBS&rsquo;s 91% negative; ABC was not included. His study also found highly negative coverage from leading newspapers and CNN, while only Fox News offered balanced coverage (52% negative vs. 48% positive).</p>
+
+<p><strong>The highly-partisan media earn partisan reviews:</strong> The media&rsquo;s confrontational stance seems to have earned them greater respect among Democratic voters, of whom 76% say they trust the media (up from 51% in 2016), according to <a href="https://news.gallup.com/poll/243665/media-trust-continues-recover-2016-low.aspx" target="_blank"><strong>the most recent Gallup survey</strong></a>. But a meager 21% of Republicans say they trust the press, a near-record gap of 55 percentage points in how the press is viewed by voters of each party. (The record was a 58-point gap in 2017; prior to the age of Trump, this partisan gap never exceeded 40 points.)</p>
+
+<p style="text-align:center"><img alt="" class="image-blog_body-100" src="https://www.newsbusters.org/s3/files/styles/blog_body-100/s3/images/galluptrust.jpg?itok=UTXBOBm7" style="height:315px; width:640px" /></p>
+
+<p><strong>TV&rsquo;s Trump agenda:</strong> More than half of the Trump coverage on the broadcast evening newscasts in 2018 focused on just five topics: the Russia investigation (858 minutes); immigration policy (643 minutes); the Kavanaugh nomination (435 minutes); dealing with North Korean nukes (410 minutes); and the Michael Cohen/hush money investigation (341 minutes).</p>
+
+<p>As the chart shows, the network spin on all of these topics was fiercely negative, ranging from 80% bad press on North Korea, to 99% negative on the Cohen/hush money story.</p>
+
+<p style="text-align:center"><img alt="" class="image-blog_body-100" src="https://www.newsbusters.org/s3/files/styles/blog_body-100/s3/images/topfive2018.jpg?itok=rVVfG6Xd" style="height:253px; width:740px" /></p>
+
+<p><strong>What about the shutdown? </strong>The partial government shutdown was the top Trump topic in December, garnering 67 minutes of airtime that month, or about one-fifth of the total Trump coverage. (Note that this figure also includes negotiations prior to the start of the shutdown on December 21). And at least in December, nearly 97% of the evaluations of Trump&rsquo;s handling of the impasse were negative.</p>
+
+<p>In ordinary circumstances, this onslaught of negative publicity would cause the politician on the receiving end of it to reverse course. But the establishment media have been so reliably negative towards this President, for so long, that the effect of their criticism now seems to be virtually nil. As noted above, Trump&rsquo;s job approval ratings actually rose slightly last year, despite all of the negative coverage.</p>
+
+<p>The media elite have clearly waded into the political fray to wage war against this President. But have they accomplished anything beyond cementing their reputation as political partisans, not objective journalists?</p>
+
+<p style="text-align:center"><em>Thanks to MRC&rsquo;s Bill D&rsquo;Agostino for his valuable research assistance for this report.</em></p>
+
+<p style="text-align:center"><div id="imkIncontent2" style="align:center;"></div></p>
+</div>
+      </div>
+    </div>
+<div class="view view-nb-node view-id-nb_node view-display-id-entity_view_donate_block_nb view-dom-id-76c94a2a7f04633f033c5e078730e4df">
+      
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">      
+  <div class="views-field views-field-nothing">        <span class="field-content"><br /><div class="donateblock"><p class="text-center"><strong><em>Please support NewsBusters today! [a 501(c)(3) non-profit production of the Media Research Center]</em></strong></p>
+<a href="https://www.newsbusters.org/join-the-movement?utm_source=nb_inline&amp;utm_medium=blog&amp;utm_campaign=/author/rich-noyes&amp;utm_content=/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter" class="btn btn-lg btn-primary btn-block">DONATE</a>
+<br /><p class="text-center"><em>Or, book travel through MRC’s Travel Discounts Program! 
+MRC receives a rebate for each booking when you use our special codes. </em></p>
+<a href="http://www.alumnibenefits.org/mrc?utm_source=nb_inline&amp;utm_medium=blog&amp;utm_campaign=/author/rich-noyes&amp;utm_content=/blogs/nb/rich-noyes/2019/01/15/networks-trashed-trump-90-negative-spin-2018-did-it-matter" class="btn btn-lg btn-info btn-block">BOOK NOW</a></div><hr /></span>  </div>  </div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <section id="tags">    <a href="/administrative/research" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Research</a>
+    <a href="/administrative/nbdaily" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">NBDaily</a>
+    <a href="/administrative/bias-minute" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Bias by the Minute</a>
+    <a href="/administrative/media-reality-check" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Media Reality Check</a>
+    <a href="/issues-events-groups/trump-russia-probe" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Trump-Russia probe</a>
+    <a href="/media-places/abc" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">ABC</a>
+    <a href="/media-places/world-news-tonight" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">World News Tonight</a>
+    <a href="/media-places/cbs" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">CBS</a>
+    <a href="/media-places/cbs-evening-news" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">CBS Evening News</a>
+    <a href="/media-places/nbc" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">NBC</a>
+    <a href="/media-places/nbc-nightly-news" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">NBC Nightly News</a>
+    <a href="/non-journalists/donald-trump" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-default">Donald Trump</a>
+</section><div class="field field-name-field-show-study-icon field-type-list-boolean field-label-hidden">
+        <div class="field-items">
+          <div class="field-item"></div>
+      </div>
+    </div>
+                      <footer>
+                                          <div class="row">
+                                  <div class="col-xs-12">
+                      <div class="block-align-left user-picture">
+    <a href="/author/rich-noyes" title="View user profile."><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/author/s3/pictures/picture-12-1410909313.png?itok=npJvg37L" width="100" height="100" alt="Rich Noyes&#039;s picture" title="Rich Noyes&#039;s picture" /></a>  </div>
+                                        <div class="nb-social">
+                                              <a href="https://www.twitter.com/RichNoyes"
+                         target="_blank" class="btn btn-twitter">Follow <i class="fa fa-twitter"></i></a>
+                                                                      <a href="https://www.newsbusters.org/feed/rich-noyes"
+                         target="_blank" class="btn btn-primary"><i class="fa fa-rss"></i></a>
+                                            </div>
+                                                          <div class="source">
+                      <a href="/author/rich-noyes" title="View user profile." class="username" xml:lang="" about="/author/rich-noyes" typeof="sioc:UserAccount" property="foaf:name" datatype="">Rich Noyes</a>                    </div>
+                                                        <h4 class="small">
+                      <div class="field field-name-field-byline field-type-text field-label-hidden">
+        <div class="field-items">
+          <div class="field-item">Rich Noyes is the Senior Editor for Newsbusters</div>
+      </div>
+    </div>
+                    </h4>
+                                    <div class="clearfix"></div>
+                  <hr />
+                </div>
+                          </div>
+          </footer>
+                      </article>
+<div id="block-block-63" class="block block-block clearfix">
+        <div id="taboola-below-article-thumbnails">&nbsp;</div></div>
+<div id="block-disqus-disqus-comments" class="block block-disqus clearfix">
+        <div id="disqus_thread"><noscript><p><a href="http://newsbustersorg.disqus.com/?url=https%3A%2F%2Fwww.newsbusters.org%2Fblogs%2Fnb%2Frich-noyes%2F2019%2F01%2F15%2Fnetworks-trashed-trump-90-negative-spin-2018-did-it-matter">View the discussion thread.</a></p></noscript></div></div>
+        </section>
+
+                    <aside class="col-xs-12 col-tn-6 col-sm-6 col-md-5 col-lg-4" role="complementary">
+                  <div class="region region-sidebar-first">
+    <div id="block-block-13" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Top_Right_300xFlex (1131656) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexTop" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b560412c3-172' style='display: none !important'></span>
+
+</div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+<div id="block-block-2" class="block block-block clearfix">
+        <!-- BEGIN TAG - BODY --><div id="mkto_top_ad"></div><!-- END TAG - BODY --></div>
+<div id="block-views-must-read-block" class="block block-views clearfix">
+        <div class="view view-must-read view-id-must_read view-display-id-block view-dom-id-0a4f314ffd57bf0f55c6e6f622f14af9 panel panel-default">
+    <div class="panel-heading">        <h4 class="panel-title text-uppercase">Must Read</h4>
+        </div>    
+    
+        <div class="panel-body panel-body-wrapper">              <div class="views-row views-row-1 views-row-odd views-row-first">      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar_image/s3/images/2019-02-18-study-network-coverage-of-chicago-hate-crime-1.png?itok=i7ysClcu" width="400" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one">Nets Spent 157 Minutes on Smollett Hoax, 24 for Racist Facebook Torture Video</a></h4>  </div>  </div>  <div class="views-row views-row-2 views-row-even views-row-last">      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/nb/scott-whitlock/2019/02/18/cbss-lara-logan-goes-nuclear-horsest-propagandist-press"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar_image/s3/images/loganlara.png?itok=jOwS-e3U" width="400" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <h4 class="field-content"><a href="/blogs/nb/scott-whitlock/2019/02/18/cbss-lara-logan-goes-nuclear-horsest-propagandist-press">Former CBS Star Lara Logan Goes NUCLEAR on ‘Horsesh**’ ‘Propagandist’ Press </a></h4>  </div>  </div>        </div>    
+    
+                    
+</div></div>
+<div id="block-block-22" class="block block-block clearfix">
+        <div id="mkto_mid_ad"></div></div>
+<div id="block-views-blogs-block-1" class="block block-views clearfix">
+        <div class="view view-blogs view-id-blogs view-display-id-block_1 featured-blog-post view-dom-id-317ee3828c2882f4b19764d3ee86c700">
+                
+    
+                          <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/20/politifact-hates-limbaugh"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/rush-eib_1.jpg?itok=fXoyBWo5" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/tim-graham/2019/02/20/politifact-hates-limbaugh">PolitiFact Hates Limbaugh Worse Than Trump, Cries &#039;False&#039; on Climate</a></h4>
+    </div>
+</div>        <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/scott-whitlock/2019/02/20/will-liberal-norah-odonnell-replace-jeff-glor-cbs-evening-news"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/odonnellnorah.jpg?itok=CDZz0kU6" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/scott-whitlock/2019/02/20/will-liberal-norah-odonnell-replace-jeff-glor-cbs-evening-news" title="Will Liberal Norah O’Donnell Replace Jeff Glor at CBS Evening News? ">Will Liberal Norah O’Donnell Replace Jeff Glor at CBS Evening News?</a></h4>
+    </div>
+</div>        <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/kyle-drennen/2019/02/19/nbcs-guthrie-asks-mccabe-seven-times-if-trump-national-security"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/2019-02-19-nbc-tday-guthriemccabe.png?itok=p7McFifK" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/kyle-drennen/2019/02/19/nbcs-guthrie-asks-mccabe-seven-times-if-trump-national-security">NBC Asks McCabe Seven Times If Trump Is ‘National Security Threat&#039;</a></h4>
+    </div>
+</div>              
+    
+                    
+</div></div>
+<div id="block-views-blogs-block-2" class="block block-views clearfix">
+        <div class="view view-blogs view-id-blogs view-display-id-block_2 featured-blog-post view-dom-id-fea1fc5f5b39f965c9e1e2561af72ec9">
+                
+    
+                          <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/2019-02-18-study-network-coverage-of-chicago-hate-crime-1.png?itok=yoth9bwx" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/nicholas-fondacaro/2019/02/18/nets-spend-157-minutes-hoax-hate-crime-24-real-one">Nets Spent 157 Minutes on Hoax Hate Crime, 24 for FB Torture Video</a></h4>
+    </div>
+</div>        <div class="row">
+    <div class="col-xs-12">
+        <a href="https://www.newsbusters.org/blogs/nb/kristine-marsh/2019/02/18/smollett-story-unravels-abc-defends-robin-roberts-softball"><img typeof="foaf:Image" class="img-responsive" src="https://cdn.newsbusters.org/styles/sidebar/s3/images/good_morning_america_-_07_37_10_am.jpg?itok=105vN81B" width="400" height="200" alt="" /></a>        <h4 class="headline"><a href="https://www.newsbusters.org/blogs/nb/kristine-marsh/2019/02/18/smollett-story-unravels-abc-defends-robin-roberts-softball">ABC Does Damage Control Days After Giving Smollett Friendly Platform</a></h4>
+    </div>
+</div>              
+    
+                    
+</div></div>
+<div id="block-block-14" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Middle_Right_300x250 (3351331) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexBot" style="height: 265px;"><span class='bt-uid-tg' data-uid='5b5619af0d-172' style='display: none !important'></span>
+
+</div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+<div id="block-block-3" class="block block-block clearfix">
+        <!-- BEGIN TAG - BODY --> <div class="internal-ad" id="mkto_bottom_ad"></div> <!-- END TAG - BODY -->
+</div>
+<div id="block-block-16" class="block block-block clearfix">
+        <!--JavaScript Tag  // Placement: Newsbusters_ROS_Middle_Right_160x600 (1131672) -->
+ <div class="wrapper-100 nb-not-content center-block text-center">
+ <div id="imk300xFlexMid"  style="height: 615px;"><span class='bt-uid-tg' data-uid='5b8418c5a1-172' style='display: none !important'></span></div>
+ </div>
+ <!-- End of JavaScript Tag --></div>
+  </div>
+            </aside>  <!-- /#sidebar-first -->
+        
+    </div>
+</div>
+
+    <div class="nb-bg wrapper-100">
+        <footer class="footer container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+                    <div id="block-menu-menu-footer-secondary-menu" class="block block-menu clearfix">
+        <ul class="menu nav"><li class="first leaf"><a href="/about" title="">About NewsBusters</a></li>
+<li class="leaf"><a href="/send-tip" title="">Send a Tip</a></li>
+<li class="leaf"><a href="http://www.cnsnews.com" title="">CNSNews.com</a></li>
+<li class="leaf"><a href="http://www.mrctv.org" title="">MRCTV</a></li>
+<li class="leaf"><a href="http://mrc.org/action" title="">MRC Action</a></li>
+<li class="leaf"><a href="http://www.mrc.org/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="http://www.intermarkets.net/advertiser-solutions/portfolio/newsbusters" title="">Advertise</a></li>
+</ul></div>
+<div id="block-menu-menu-donation-menu" class="block block-menu clearfix">
+        <ul class="menu nav"><li class="first leaf"><a href="https://www.newsbusters.org/donate?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support NewsBusters</a></li>
+<li class="leaf"><a href="https://www.newsbusters.org/donate/mrc-business?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Business</a></li>
+<li class="leaf"><a href="https://www.newsbusters.org/donate/mrc-culture?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Culture</a></li>
+<li class="last leaf"><a href="https://www.newsbusters.org/donate/mrc-latino?utm_source=nb&amp;utm_medium=menu_sptnb&amp;utm_campaign=donate" title="">Support MRC Latino</a></li>
+</ul></div>
+<div id="block-block-21" class="block block-block clearfix">
+        <div>
+	<div>
+		<div><a href="http://www.mrc.org"><img class="center-block img-responsive" src="//cdn.mrc.org/images/mrc_blocklogo.png" style="max-height:60px" /></a></div>
+	</div>
+
+	<div>
+		<p style="text-align:center">The mission of the <a href="http://www.mrc.org" target="_blank">Media Research Center</a> is to create a media culture in America where truth and liberty flourish. The MRC is a research and education organization operating under <a href="http://www.mrc.org/static/about-us" target="_blank">Section 501(c)(3)</a> of the Internal Revenue Code, and <a href="https://www.mrc.org/action/join-the-movement" target="_blank">contributions</a> to the MRC are tax-deductible.</p>
+	</div>
+</div>
+
+<div>
+	<div style="text-align:center">&nbsp;</div>
+</div>
+
+<div>
+	<div>
+		<div>
+			<p style="text-align:center"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a> | <a href="/terms-use-agreement" title="Terms of Use Agreement">Terms of Use</a></p>
+
+			<p style="text-align:center">&copy; 2005-2019, Media Research Center. All Rights Reserved.</p>
+		</div>
+	</div>
+</div>
+</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+  <script>window._taboola = window._taboola || [];
+            _taboola.push({flush: true});</script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5310064579a0620a"></script>
+<script src="https://cdn.newsbusters.org/ads.js"></script>
+<script src="https://www.newsbusters.org/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cd4c31791b","applicationID":"103615076","transactionName":"M1NaZENXChFVWhFbCgoZeVNFXwsMG1cKVgA7RllXVGkSC1FO","queueTime":0,"applicationTime":365,"atts":"HxRZEgtNGR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

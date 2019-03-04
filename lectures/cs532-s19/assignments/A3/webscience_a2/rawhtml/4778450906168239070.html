@@ -1,0 +1,2263 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="gb.ico" type="image/x-icon" />
+<head>
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+<title>Geoff Banks</title>
+
+<meta charset="utf-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta name="author" content="Geoff Banks">
+<meta name="robots" content="noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Geoff Banks interactive betting website, giving the latest betting information, shows and results">
+<meta name="keywords" content="Geoff Banks,bookmaker,bet,betting,gambling,wager,multiples,doubles,trebles,accumulator,odds,prices,">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+<link href="/css/2015-09-18.css?v=1.8" rel="stylesheet" type="text/css">
+<style type="text/css">
+	    div.easy-payment-gateway-button {
+	        margin-bottom: 25px;
+	    }
+	    div.easy-payment-gateway-button a {
+	        background-color: #5cb85c;
+	        color: white !important;
+	        font-size: larger;
+	        text-decoration: none !important;
+	        padding: 8px;
+	        margin: 5px;
+	        border-radius: 5px;
+	    }
+	</style>
+<link href="https://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+<script type="text/javascript">
+        function date_time(id) {
+            date = new Date;
+            year = date.getFullYear();
+            month = date.getMonth();
+            months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+            d = date.getDate();
+            day = date.getDay();
+            days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+            h = date.getHours();
+            if (h < 10) {
+                h = "0" + h;
+            }
+            m = date.getMinutes();
+            if (m < 10) {
+                m = "0" + m;
+            }
+            s = date.getSeconds();
+            if (s < 10) {
+                s = "0" + s;
+            }
+            result = '' + days[day] + ' ' + d + ' ' + months[month] + ' ' + year + ' ' + h + ':' + m + ':' + s;
+            document.getElementById(id).innerHTML = result;
+            setTimeout('date_time("' + id + '");', '1000');
+            return true;
+        }
+	</script>
+<script src="/scripts/bootbox.min.js"></script>
+<script src="/js/jquery-validation/jquery.validate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+		
+		<!--
+			var newwindow;
+		function popup(url)
+		{
+			newwindow=window.open(url,'name','height=537,width=491,left=100,top=100,resizable=no,status=no,location=no,toolbar=no,menubar=no,directories=no');
+			if (window.focus) {newwindow.focus()}
+		}
+		-->
+	</script>
+</head>
+<body>
+<div class="body-wrapper">
+<div id="mydiv" style="position:fixed;width:14%;height:30%;margin-left:88%;margin-top:22.5%;">
+<div id="thebuttonjoin" style="width:190px;height:40px;">
+<a href="https://www.geoff-banks.com/register.asp">
+<img src="../img/join.png" alt="Join" style="width:190px;height:40px;">
+</a>
+</div>
+</div>
+<script>
+	/*function toggleSubMenu(subClssName){
+		var subClassArr = document.getElementsByClassName(subClssName);
+		for(var i=0; i<subClassArr.length; i++){
+			if(subClassArr[i].style.display == ""){
+				subClassArr[i].style.display = "block";
+				//ths.innerHTML = "? Golf";
+			}
+			else{
+				//ths.innerHTML = "> Golf";
+				subClassArr[i].style.display = "";
+			}
+		}
+	}*/
+	
+
+	$(function() {
+		$('#user-btn').click(function(e){
+			$(this).toggleClass('active');
+		  if($(this).hasClass('active')) {
+			$('#account-slide').addClass('active').slideToggle();
+		  } else {
+			$('#account-slide').removeClass('active').slideUp();
+		  }
+		  
+		  return false;
+		});
+	
+		$(document).on('click','[data-toggle-btn]',function(){
+		  var liEl = $(this).closest("li");
+		  $(this).find('i').toggleClass('icon-arrow-right').toggleClass('icon-arrow-down');
+		  liEl.find('ul').slideToggle();
+		  liEl.toggleClass('active');
+		  return false;
+		});
+		
+		var $menu = $("#header");
+		//var heightMenu=139;
+		$(window).scroll(function(){
+			if ( $(this).scrollTop()>0 ){
+				$menu.addClass("default");
+			} else {
+				$menu.removeClass("default");				
+			}
+		});//scroll
+	});	
+	
+	if(detectmob()){			
+		$('body').append('<link rel="stylesheet" href="/css/device4.css" type="text/css" />');		
+	}
+	
+	$(document).ready(function(e){	
+		setBrandLinkWidth();	
+		changeBannerImg();
+		mobSliderInit(8);
+	});
+  
+	$(window).resize(function(e){		
+		setBrandLinkWidth();
+		changeBannerImg();
+		setMobSliderWidth(8);
+		$('.mob-left-menu').height($(window).height());	
+		//$('#slipFrame').height($(window).height()*0.85);
+	})  
+
+	function mobSliderInit(padding){
+		setMobSliderWidth(padding);	
+		
+		var swiper = new Swiper('.mob-top-nav-main', {        
+			slidesPerView: 'auto',             
+			spaceBetween: padding,
+			freeMode: true	
+		});		
+	}
+	function setMobSliderWidth(padding){
+		$('.mob-top-nav-main').width($(window).width()-(padding*2));
+	}
+	
+	function setBrandLinkWidth(){
+		var windowWidth = $(window).width();	
+		var contentWidth = $('.Outertable').width();	
+		if (windowWidth>contentWidth)
+		{
+			var brandWidth = (windowWidth-contentWidth)/2;
+		
+			$('.brlink').width(brandWidth);
+		}
+	}
+	
+	function changeBannerImg(){
+		var windowWidth = $(window).width();
+		var windowHeight = $(window).height();
+		var formatScreen = windowWidth/windowHeight;
+		
+		if (windowWidth > 768 && formatScreen > 1.25){
+			$("#splashLogin .splash-img").attr("src","/images/splash/10bakcsplash.png");
+			$("#splashLogin").removeClass("mobile");
+		}
+		else{
+			$("#splashLogin .splash-img").attr("src","/images/splash/Picture1j.png");
+			$("#splashLogin").addClass("mobile");
+		}
+	}
+	
+	function detectmob() {	
+		 if( navigator.userAgent.match(/Android/i)
+		 || navigator.userAgent.match(/webOS/i)
+		 || navigator.userAgent.match(/iPhone/i)
+		 || navigator.userAgent.match(/iPad/i)
+		 || navigator.userAgent.match(/iPod/i)
+		 || navigator.userAgent.match(/BlackBerry/i)
+		 || navigator.userAgent.match(/Windows Phone/i)
+		 ){
+			return true;
+		  }
+		 else {
+			return false;
+		  }
+	}
+	
+</script>
+
+
+<div class="betSlipBtnCls">
+
+<a class="showSlip hide" href="/events/bettingslip.asp" target="_blank" style="
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    position: relative;
+    display: block;
+    padding: 0px 7px;    
+    padding-bottom: 7px !important;
+	background-image: url(../img/Betslipicon1.png);
+	background-size: 50%;
+    width: 60px;
+    height: 118px;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicI;">
+</a>
+</div>
+<a name="_top"></a>
+<table align="center" class="Outertable" cellpadding="0" cellspacing="0">
+<tr>
+<td id="MainHeader">
+<div class="psevdo-header"></div>
+<header id="header" class="fixed">
+<div class="wr-header">
+<a href="/" class="imgLink" id="aimgLogo"><img src="/images/logo.png" class="imgLink" id="imgLogo" alt="Geoff Banks"></a>
+<a href="#" id="user-btn">
+<i></i>
+<span>Account</span></a>
+</div>
+<div id="account-slide" class="clearfix">
+<div class="wr-user-btns">
+<a a class="btn btn-success" href="https://geoff-banks.com/Payments">
+Online Deposit
+</a>
+<a a class="btn btn-success" href="https://geoff-banks.com/qdeposit.asp">Manual Deposit</a>
+<a a class="btn btn-success" href="https://geoff-banks.com/reversal.asp">Reverse A Payment</a>
+</div>
+<div class="wr-user-btns">
+<i></i>
+<a class="btn btn-success" href="/register.asp">Register an Account</a>
+<a class="btn btn-success" href="/reactivate.asp">Reactivate an Account</a>
+</div>
+<div class="wr-form-auth">
+<form action="/home.asp?Login=true" method="post" name="frmLogin" id="frmLogin">
+<table cellpadding="0" cellspacing="0" style="width:330px;margin-right:20px;">
+<tr>
+<td class="headerLoginl center">
+&nbsp
+</td>
+<td class="headerLoginl right">U: <input name="cust_ref" type="text" id="cust_ref" maxlength="35" class="headerLogin" /></td>
+<td class="headerLoginr right">P: <input name="password" type="password" id="password" maxlength="35" class="headerLogin" /></td>
+</tr>
+<tr>
+<td class="headerLoginS" style="height:5px;"></td>
+</tr>
+<tr>
+<td class="headerLoginl center">
+
+<script>
+									/*
+									if(localStorage.getItem('pin') != null ){
+										quickLogin = document.getElementsByName("quickLogin");
+										for(var i=0; i < quickLogin.length; i++){
+											quickLogin[i].style.display = "block";
+										}
+									}
+									
+									function autoLoginWeb(message){
+										if(!message){
+											message = "Please enter pin number for quick login.";
+										}
+										
+										bootbox.prompt({
+											title: message,
+											buttons: {
+												cancel: {
+													label: 'No'
+												},
+												confirm: {
+													label: 'Yes'
+												}
+											},
+											callback: function (pin) {
+												if (pin == null){
+													return;
+												}
+
+												if(localStorage.getItem('pin') == pin){
+													var userName = document.getElementsByName('cust_ref')[0];
+													userName.value = localStorage.getItem('usernameds');
+													var password = document.getElementsByName('password')[0];
+													password.value =localStorage.getItem('userpasswordds');
+													$("#frmLogin").submit();
+												}
+												else{
+													autoLoginWeb("Your pin login has not been identified, please re-enter.");
+												}
+											}
+										});
+										
+									}
+									*/
+								</script>
+</td>
+<td class="headerLoginl right">
+
+
+</td>
+</td>
+<td class="headerLoginr right">
+<input type="submit" class="btn btn-success" style="width:135px;" value="Log in" />
+</td>
+</tr>
+<tr>
+<td class="headerLoginl center">
+&nbsp
+</td>
+<td class="headerLoginl center">
+&nbsp
+</td>
+<td class="headerLoginr right">
+<a href="/fpassword.asp" class="headerLogin">Lost Details?</a>
+</td>
+</tr>
+</table>
+</form>
+<script language="JavaScript">
+
+						/*
+						console.log("----------------------------------");
+						var autologinds = getQueryVariable("autologinds");
+
+						if(autologinds == "true"){
+							var userName = document.getElementsByName('cust_ref')[0];
+							userName.value = localStorage.getItem('usernameds');
+							var password = document.getElementsByName('password')[0];
+							password.value =localStorage.getItem('userpasswordds');
+							$("#frmLogin").submit();
+						}
+
+						function getQueryVariable(variable) {
+						  var query = window.location.href;
+						  var vars = query.split("&");
+						  for (var i=0;i<vars.length;i++) {
+							var pair = vars[i].split("=");
+							if (pair[0] == variable) {
+							  return pair[1];
+							}
+						  }
+						  return false;
+						}
+
+						document.querySelector("#frmLogin").addEventListener("submit", function(e){
+							console.log("------------------on submit----------------");
+							//return true;
+							var pin = prompt("Please enter pin number for quick login.");
+
+							if (pin != null && pin != "") {
+								var userName = document.getElementsByName('cust_ref')[0];
+								localStorage.setItem('usernameds', userName.value);
+								var password = document.getElementsByName('password')[0];
+								localStorage.setItem('userpasswordds', password.value);
+								localStorage.setItem('pin', pin);
+								return true;
+							}
+						});
+
+						*/
+
+						</script>
+</div>
+<div class="wr-show-slip">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td class="digitalClock" style="text-align:center;">21/02/2019<br /><span id="serverClock" class="digitalClock"></span></td></tr>
+<tr class="menurow" id="trShowSlip">
+<td class="menuitem center">
+<div style="margin-top:5px;"><a class="menu showSlip btn btn-success" href="/events/bettingslip.asp" target="_blank">
+Show Slip
+</a></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="date_time" style="position:absolute;z-index:5;margin-left:8px;margin-top:10px;font-size:85%;color:white;">
+</div>
+<script type="text/javascript">window.onload = date_time('date_time');</script>
+<div class="wr-nav-top">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/events/inplaytest.asp">Featured</a></li>
+<li><a href="/events/90mins.asp">Football By Time</a></li>
+<li><a href="/events/sports-details.asp?sportcode=f">Football By League</a></li>
+<li><a href="/events/sports.asp?sportcode=H,h">Racing</a></li>
+</ul>
+</div>
+<script>
+				function theCalc() {
+				window.open("/includes/betCalculator.asp");
+}
+			</script>
+</header>
+</td>
+</tr>
+<style>
+
+	.downloadAppTitle{
+		color: white;
+		font-size: 1em;
+		margin-top: 0.5em;
+		text-align: center;
+	}
+
+	.appDownloadBtn{
+		border: 1px solid #00ADD9;
+		display: inline-block;
+		text-align: center;
+		font-size: 1.5em;
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 1em;
+	}
+</style>
+<tr>
+<td id="MainBody" valign="top">
+<div id="splashScreenId" width="100%" Height="100vh" style="height: 100vh; width: 100%;
+    z-index: 99999; position: absolute; top: 0; bottom: 0; display:none;background-image:url('../img/splash.png'); background-size: contain;
+    background-repeat: no-repeat; background-position: center;" onclick="this.style.display = 'none';"></div>
+<script>
+		if(window.innerWidth <= 760 ){
+			if(sessionStorage.getItem("isSplashShown") != "true"){
+				sessionStorage.setItem("isSplashShown", "true");
+				document.getElementById("splashScreenId").style.display = "block";
+				setTimeout(function(){
+					document.getElementById("splashScreenId").style.display = "none";
+				},10000);
+			}
+		}
+	</script>
+<table align="center" cellpadding="0" cellspacing="0" style="width:100%;border:0;">
+<tr>
+<td align="left" valign="top" class="menuOutline categories">
+<table cellpadding="0" cellspacing="0" id="tabLeftMenu ">
+<tr>
+<td valign="middle" align="center" class="menuHeader">Sports</td>
+</tr>
+<tr>
+<td class="tdMenuLeft">
+<table width="250px" border="0" cellspacing="0" cellpadding="0" id="menuLockedVisible">
+<tr class="menurow" id="">
+<td class="menuitem center" style="text-indent:0;">
+<div style="margin-top:5px;">
+<a class="menu btn btn-success" href="http://www.geoff-banks.com/events/inplaytest.asp">Featured Events</a>
+</div>
+</td>
+</tr>
+</table>
+<ul id="main-sidebar">
+<li><a class="mob-line-height2" href="/events/sports.asp?sportcode=H,h">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Horse_racing.png">
+Horse Racing&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li><a class="mob-line-height2" href="/events/sports-details.asp?sportcode=f">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Football.png">
+Football Matches
+</a>
+</li>
+<li><a class="mob-line-height2" href="/events/sports.asp?sportcode=s">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Antepost_football.png">
+Football Outrights
+</a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports.asp?sportcode=g,q">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Greyhound.png">
+Greyhound Racing
+</a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=m" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Golf_matches.png">
+Golf&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=F" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/NFL_matches.png">
+American Football&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a id="" class="mob-line-height2" href="/events/sports-details.asp?sportcode=e">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Baseball_matches.png">
+Baseball&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=E" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Basketball_matches.png">
+Basketball&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" id="" href="/events/boxc.asp">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Boxing.png">
+Boxing
+</a>
+</li>
+<li>
+<a class="mob-line-height2" class=menu href="/events/ufcc.asp">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/ufc.png">
+UFC/MMA
+</a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=C" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Cricket_matches.png">
+Cricket&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=I" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Darts_matches.png">
+Darts&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=J" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Gaa_matches.png">
+GAA&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=y" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Ice_Hockey.png">
+Ice Hockey&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=l" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Rugby_league.png">
+Rugby League&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=v" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Rugby_unio_matches.png">
+Rugby Union&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=j" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Snooker_matches.png">
+Snooker&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports-details.asp?sportcode=N" id="">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Tennis_matches.png">
+Tennis&nbsp;<i class="icon-arrow-right"></i></a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports.asp?sportcode=c">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Cycling.png">
+Cycling
+</a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports.asp?sportcode=M">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Motorsport.png">
+Motor Racing
+</a>
+</li>
+<li>
+<a class="mob-line-height2" href="/events/sports.asp?sportcode=z">
+<img class="mob-block mob-sidemenu-img" src="/images/sport/Special.png">
+Specials/Politics
+</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr><td class="tdMenuLeft">&nbsp;</td></tr>
+<form name="OddsSelection" method="get" action="" onchange="this.submit();">
+<tr><td align="center" valign="top" class="tdMenuLeft"><strong>Odds Format</strong><br />
+<input type="hidden" name="eventfile" value="" />
+<select name="odds" class="form-control" style="width:90%;" onchange="this.form.submit();">
+<option value="decimal">Decimal</option><option value="fractional" selected="selected">Fractional</option>
+</select>
+</form>
+</td></tr>
+</form>
+<tr>
+<td class="tdMenuLeft lastTdMenu" style="vertical-align:bottom;height:auto;">
+<ul id="main-sidebar">
+<li><a href="/about.asp">About Us</a></li>
+<li><a href="/contact.asp">Contact Details</a></li>
+<li><a href="https://www.indeed.co.uk/viewjob?t=trading+assistant&jk=917cbd12c2234b2f&_ga=2.154254520.1857144260.1541691432-1777259780.1541691432">Jobs at Geoff Banks</a></li>
+<li><a href="/tc.asp">Terms & Conditions</a></li>
+<li><a href="/rules.asp">Betting Rules</a></li>
+<li><a href="/BOG.asp">Best Odds Guaranteed</a></li>
+<li><a href="/privacy.asp">Privacy Policy</a></li>
+<li><a href="/cookies.asp">Cookie Policy</a></li>
+<li><a href="https://www.geoff-banks.com/closure.asp">Responsible Gambling</a></li>
+<li><a href="/help/default.asp">Help</a></li>
+<li><a href="https://geoffbanksracing.com">Geoff Banks Blog</a></li>
+</ul>
+<br />
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<div>
+<a class="twitter-timeline" data-width="250" data-height="300" data-theme="dark" href="https://twitter.com/BetGeoffBanks">Tweets by BetGeoffBanks</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</tr>
+</table>
+</td>
+<td class="tdMidSpacer"></td>
+<td align="left" valign="top" class="ContentTable">
+<div class="mob-block mob-header-back-layer"></div>
+<div class="mob-header">
+<div class="col-xs-2 hamb-block">
+<button class="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+<div class="col-xs-2 link-block" style="margin-top:-0.5%;">
+<a href="#" onclick="OpenMobLogin();"><img src="/images/account7.png" class="imgAccount" id="imgAccount" alt="Account" style="width:55px;height:55px;margin-top:5px;"></a>
+</div>
+<div class="col-xs-5 logo-block">
+<a href="/" class="imgLink">
+<img src="/images/logo.png" class="imgLink" id="imgLogo" alt="Geoff Banks">
+</a>
+</div>
+<div class="col-xs-3 link-block slip-block"><a href="/events/bettingslip.asp" class="showSlip mob-showSlip">BetSlip</a></div>
+<div class="clear"></div>
+</div>
+<div class="mob-left-menu">
+<div class="menu-header">
+<img src="/img/logo-menu.png" />
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#panel-sports">Sports</a></li>
+<li><a data-toggle="tab" href="#panel-featured">Featured</a></li>
+<li><a data-toggle="tab" href="#panel-deposit">Deposit</a></li>
+<li><a data-toggle="tab" href="#panel-offers">Offers</a></li>
+<li><a data-toggle="tab" href="#panel-downloads">Downloads</a></li>
+</ul>
+</div>
+<div class="tab-content">
+<div id="panel-sports" class="tab-pane fade in active">
+</div>
+<div id="panel-featured" class="tab-pane fade">
+</div>
+<div id="panel-deposit" class="tab-pane fade">
+<a href="/Payments">
+Online Deposit
+</a>
+<a href="/qdeposit.asp">Manual Deposit</a>
+<a href="/reversal.asp">Reverse A Payment</a>
+</div>
+<div id="panel-offers" class="tab-pane fade">
+
+<div class="app-block">
+<div class="left-column">
+<a href="tel:+441344873334"><img src="/img/phone.png">
+</div>
+<div class="right-column">
+<div class="header-app"><a href="tel:+441344873334">PHONE THE OFFICE</div>
+<div class="content-app"><a href="tel:+441344873334">CAN&apos;T FIND THE BET YOU&apos;RE AFTER</div>
+<div class="footer-app">
+<a href="tel:+441344873334">CALL NOW</a>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="panel-downloads" class="tab-pane fade">
+<div class="app-block">
+<div class="content-app downloadAppTitle">DOWNLOAD THE APP</div>
+<div class="footer-app download">
+<a href="https://itunes.apple.com/gb/app/geoff-banks-betting/id881898186?mt=8" class="appDownloadBtn">iOS</a>
+<a href="https://play.google.com/store/apps/details?id=com.geoff_banks.geoffbanks" class="appDownloadBtn">ANDROID</a>
+
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<a href="#" class="menu-close-block"></a>
+<div class="mob-top-nav-main mob-block" style="background-color: #1e7594;">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=f">
+<img src="/images/sport/Football.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=s">
+<img src="/images/sport/Antepost_football.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=H,h">
+<img src="/images/sport/Horse_racing.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=o">
+<img src="/images/sport/inthr1.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=a">
+<img src="/images/sport/Antepost_horse_racing.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=N">
+<img src="/images/sport/Tennis_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=g,q">
+<img src="/images/sport/Greyhound.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=C">
+<img src="/images/sport/Cricket_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=m">
+<img src="/images/sport/Golf_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=G">
+<img src="/images/sport/GOLF_ANTEPOST.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=F">
+<img src="/images/sport/NFL_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=A">
+<img src="/images/sport/Antepost_NFL.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=e">
+<img src="/images/sport/Baseball_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=E">
+<img src="/images/sport/Basketball_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/boxc.asp">
+<img src="/images/sport/Boxing.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/ufcc.asp">
+<img src="/images/sport/ufc.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=I">
+<img src="/images/sport/Darts_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=J">
+<img src="/images/sport/Gaa_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=y">
+<img src="/images/sport/Ice_hockey.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=l">
+<img src="/images/sport/Rugby_league.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=v">
+<img src="/images/sport/Rugby_union.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports-details.asp?sportcode=j">
+<img src="/images/sport/Snooker_matches.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=c">
+<img src="/images/sport/Cycling.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=M">
+<img src="/images/sport/Motorsport.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=S">
+<img src="/images/sport/Snooker.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=D">
+<img src="/images/sport/Darts.png">
+</a>
+</div>
+<div class="swiper-slide">
+<a href="/events/sports.asp?sportcode=z">
+<img src="/images/sport/Special.png">
+</a>
+</div>
+</div>
+</div>
+<body>
+<script language="javascript" type="text/javascript">
+/*/$('html').click(function() {
+  var myPlayer = document.getElementById("youtube-player-id"); 
+  myPlayer.setAttribute("src", " ");
+});
+*/
+</script>
+<style>
+		.modalDialog {
+			position: fixed;
+			font-family: Arial, Helvetica, sans-serif;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: rgba(0,0,0,0.8);
+			z-index: 99999;
+			opacity:0;
+			-webkit-transition: opacity 30ms ease-in;
+			-moz-transition: opacity 30ms ease-in;
+			transition: opacity 30ms ease-in;
+			pointer-events: none;
+		}
+		
+
+		.modalDialog:target {
+			opacity:1;
+			pointer-events: auto;
+		}
+		
+		@media screen and (max-width: 600px) {
+		  .modalDialog {
+			visibility: hidden;
+			clear: both;
+			float: left;
+			margin: 10px auto 5px 20px;
+			width: 28%;
+			display: none;
+		  }
+		}
+
+		.modalDialog > div {
+			width: 1000px;
+			height: 560px;
+			margin-top: 10%;
+			margin-left: auto;
+			margin-right: auto;
+			align: center;
+			position: relative;
+			background-image: url(../img/reg53a.png);
+			background-color: #cccccc;
+		}
+		
+
+		.close {
+			background: #606061;
+			color: #FFFFFF;
+			line-height: 25px;
+			position: absolute;
+			right: -12px;
+			text-align: center;
+			top: -10px;
+			width: 24px;
+			text-decoration: none;
+			font-weight: bold;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px;
+			-moz-box-shadow: 1px 1px 3px #000;
+			-webkit-box-shadow: 1px 1px 3px #000;
+			box-shadow: 1px 1px 3px #000;
+		}
+		
+		#openModal {
+			-moz-animation: cssAnimation 0s ease-in 20s forwards;
+			/* Firefox */
+			-webkit-animation: cssAnimation 0s ease-in 20s forwards;
+			/* Safari and Chrome */
+			-o-animation: cssAnimation 0s ease-in 20s forwards;
+			/* Opera */
+			animation: cssAnimation 0s ease-in 20s forwards;
+			-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+		}
+		
+		#openModal2 {
+			-moz-animation: cssAnimation 0s ease-in 20s forwards;
+			/* Firefox */
+			-webkit-animation: cssAnimation 0s ease-in 20s forwards;
+			/* Safari and Chrome */
+			-o-animation: cssAnimation 0s ease-in 20s forwards;
+			/* Opera */
+			animation: cssAnimation 0s ease-in 20s forwards;
+			-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+		}
+		
+		@keyframes cssAnimation {
+			to {
+				width:0;
+				height:0;
+				overflow:hidden;
+			}
+		}
+		@-webkit-keyframes cssAnimation {
+			to {
+				width:0;
+				height:0;
+				visibility:hidden;
+			}
+
+		.close:hover { background: #00d9ff; }
+</style>
+<link href="/css/jcarousel.index-slides.css?ver=10.8" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+jQuery(window).scroll(function(){
+  var sticky = jQuery('.sticky'),
+      scroll = jQuery(window).scrollTop();
+
+  if (scroll >= 150) sticky.addClass('lheaderFixed');
+  else sticky.removeClass('lheaderFixed');
+});
+
+</script>
+<div class="container-slider">
+<div class="jcarousel-index-slides" data-jcarousel="true" data-jcarouselautoscroll="true">
+<ul>
+<li>
+<a href="https://www.geoff-banks.com/events/sports.asp?sportcode=H,h" class="a1"></a>
+</li>
+<li>
+<a href="https://www.geoff-banks.com/bog.asp" class="a2"></a>
+</li>
+<li>
+<a href="https://www.geoff-banks.com/reg53.asp" class="a3"></a>
+</li>
+<li>
+<a href="https://play.google.com/store/apps/details?id=com.geoff_banks.geoffbanks&hl=en" class="a4"></a>
+</li>
+<li>
+<a href="https://www.geoff-banks.com/events/sports.asp?sportcode=g,q" class="a5"></a>
+</li>
+<li>
+<a href="https://www.geoff-banks.com/events/sports-details.asp?sportcode=f" class="a6"></a>
+</li>
+</ul>
+</div>
+</div>
+<div id="upRegNextMiddleEvent">
+</div>
+<table id="homeTable1" class="mob-hide" width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+<tr>
+<td width="100%" class="PageTitles" colspan="3">
+Geoff Banks
+</td>
+</tr>
+</table>
+<table id="homeTable2" class="mob-hide" width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+<tr>
+<td>
+<div style="border:0;padding:0;margin:0;padding-bottom:10px;width:100%;" id="upRegNextHomeEv">
+<div style="width:100%;text-align:center;color:#005b9a;font:13px sans-serif;font-weight:bold;"><img src="/images/loadd.gif" alt="" style="margin:auto;width:150px;height:100px;" /></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="">
+<div style="font-style:italic;text-align:center;padding:10px;width:600px;margin:auto;">
+<img src="" alt="Form Guide" style="display:none;margin-left:auto;margin-right:auto;max-width:600px;" id="homepageFormGuide" />
+</div>
+</td>
+</tr>
+</table>
+<table id="homeTable6" class="mob-hide" width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+<tr>
+<td width="100%" class="PageTitles" colspan="3">
+Later Racing
+</td>
+</tr>
+</table>
+<table id="homeTable7" class="mob-hide" width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+<tr>
+<td align="center" valign="top" style="padding-bottom:20px;">
+<div id="upRegNextLaterRecing">
+<div style="width:100%;text-align:center;color:#005b9a;font:13px sans-serif;font-weight:bold;"><img src="/images/loadd.gif" alt="" style="margin:auto;width:150px;height:100px;" /></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<script type="text/javascript">
+			var sc_project=6775753; 
+			var sc_invisible=1; 
+			var sc_security="f68c4a4f"; 
+			</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><div
+			class="statcounter"><a title="tumblr tracker"
+			href="https://statcounter.com/tumblr/" target="_blank"><img
+			class="statcounter"
+			src="https://c.statcounter.com/6775753/0/f68c4a4f/1/"
+			alt="tumblr tracker" ></a></div></noscript>
+
+</td>
+</tr>
+</table>
+
+<table class="mob-table" width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+<tr>
+<td width="100%" class="PageTitles mob-main-title">
+Horse Racing
+</td>
+</tr>
+</table>
+<table class="mob-table" id="homeTable2" width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+<TR>
+<TD class="tableHeader mob-center mob-cell">Next Race</TD>
+</TR>
+<tr>
+<td>
+<div style="border:0;padding:0;margin:0;padding-bottom:10px;width:100%;" id="upRegNextMobHorse">
+<div style="width:100%;text-align:center;color:#005b9a;font:13px sans-serif;font-weight:bold;"><img src="/images/loadd.gif" alt="" style="margin:auto;width:150px;height:100px;" /></div>
+</div>
+</td>
+</tr>
+</table>
+<div id="feedxml" style="display:none;">
+<table>
+<tr>
+<td>
+<table>
+<tr>
+<td></td>
+</tr>
+</table>
+</tr>
+</table>
+</div>
+<script src="js/xml_feed.js"></script>
+</td>
+<td class="tdMidSpacer"></td>
+<td valign="top" class="menuOutline" style="width:370px;border:0;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<iframe src="/events/bettingslip.asp" id="iFrameBettingSlip-fixed" style="width:100%;border:0;overflow-x:hidden;height:auto;"></iframe>
+</td>
+</tr>
+<tr>
+<script>
+
+	function betSlipIframeLoaded() {
+		var iFrameBettingSlip = $('#iFrameBettingSlip-fixed');
+		 
+		setTimeout(function(){
+			if(iFrameBettingSlip) {
+				iFrameBettingSlip.attr('src', "/events/bettingslip.asp");
+			} 
+		},1000); 
+	}
+
+	function setBetSlipIframeHeight(height){
+		var iFrameBettingSlip = $('#iFrameBettingSlip-fixed');
+		
+		if(height == 0){
+			iFrameBettingSlip.hide();
+		} else{
+			iFrameBettingSlip.show();
+		}
+		
+		setTimeout(function(){
+			if(iFrameBettingSlip) {
+				if(!height){
+					var iFrameID = document.getElementById('iFrameBettingSlip-fixed');
+					iFrameBettingSlip.height(iFrameID.contentWindow.document.body.scrollHeight + "px");
+				} else{
+					iFrameBettingSlip.height(height + "px");
+				}
+			} 
+		},100); 
+	}
+
+  (function() {
+    var cx = '004092289747294425408:yopfcstrvdm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<style>
+	.bet-placed-content {
+		position: absolute;
+		padding: 15px;
+		top: 25%;
+		width: 98%;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #FFFFFF;
+	}
+	.bet-placed-content-message {
+		position: relative;
+		top: 10%;
+		width: 90%;
+		color: #FFFFFF;
+		background-color: #39ABD6;
+		height: 4em;
+		margin: 0 auto;
+	}
+	.bet-placed-content-message span {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	.bet-placed-content .clearfix {
+		border-bottom: 1px solid #DDD;
+	}
+</style>
+<gcse:search sort_by="date-sdate:d:s"></gcse:search>
+<td valign="middle" align="center" class="menuHeader">Popular Bets</td>
+</tr>
+<tr>
+<td valign="top" align="center" class="menuInner">
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<tr>
+<td class="menuRight" align="center" valign="top">
+<div class="popular-bet-wrapper">
+<div class="content">
+<div class="row">
+<div class="block-name">
+<div class='name'>Bayer Leverkusen HT/FT</div><div class='match'>Bayer Leverkusen v Krasnodar</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rEurop&amp;EventGroup=9'>11-10</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Chelsea -2</div><div class='match'>Chelsea v Malmo</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rEurop&amp;EventGroup=11'>7-4</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Both Teams To Score</div><div class='match'>Inter Milan v Rapid Vienna</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rEurop&amp;EventGroup=14'>21-20</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Genk</div><div class='match'>Genk v Slavia Prague</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rEurop&amp;EventGroup=13'>Evens</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Real Betis</div><div class='match'>Real Betis v Rennes</div>
+ </div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rEurop&amp;EventGroup=15'>4-7</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Dynamo Kiev</div><div class='match'>Dynamo Kiev v Olympiakos</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rEurop&amp;EventGroup=12'>11-10</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Michael Smith</div><div class='match'>Michael Smith v Daryl Gurney</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rPdar&amp;EventGroup=3'>Evens</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="row">
+<div class="block-name">
+<div class='name'>Mensur Suljovic</div><div class='match'>M Suljovic v R Van Barneveld</div>
+</div>
+<div class="block-bet">
+<a href='/events/default.asp?eventfile=l2rPdar&amp;EventGroup=4'>8-11</a>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="menuRight" align="center" valign="top" style="width:100%;overflow:hidden;">
+<div id="upRegNextRace">
+<div style="width:100%;text-align:center;color:#005b9a;font:13px sans-serif;font-weight:bold;"><img src="/images/loadd2.gif" alt="" style="margin:auto;width:50px;height:50px;" /></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="menuRight firstTdMenu" align="center" valign="top">
+<div style="border:0;padding:0;margin:0;padding-bottom:10px;width:100%;" id="upRegNextDogRace">
+<div style="width:100%;text-align:center;color:#005b9a;font:13px sans-serif;font-weight:bold;"><img src="/images/loading_inv.gif" alt="" style="margin:auto;width:30px;height:13px;" /></div>
+</div>
+<br><br>
+</td>
+</tr>
+<tr>
+<td class="menuRight" align="center" valign="top">
+</td>
+</tr>
+<tr>
+<td class="menuRight" align="center" valign="top" style="width:100%;overflow:hidden;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" style="text-align:center;font-size:12px !Important;overflow:hidden;">
+<br /><br />
+</td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" style="text-align:center;font-size:12px !Important;overflow:hidden;">
+<a href="http://www.geoff-banks.com/REG53.asp"><img src="https://i.imgur.com/x9m7zWw.png" alt="Geoff Banks" border="0" style="margin:auto;border-radius:8px;width:208px;"><br /></a>
+<br /><br />
+</td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" style="text-align:center;font-size:12px !Important;overflow:hidden;">
+<a href="http://www.geoff-banks.com/laytolose.asp"><img src="https://i.imgur.com/9CzJ1R6.png" alt="Geoff Banks" border="0" style="margin:auto;border-radius:8px;width:208px;"><br /></a>
+<br /><br />
+</td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" style="text-align:center;font-size:12px !Important;overflow:hidden;">
+<iframe width="167" height="94" src="https://www.youtube.com/embed/ATQweSvJhEE" frameborder="0" allowfullscreen></iframe>
+<br /><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="menuRight" align="center" valign="top" style="width:100%;overflow:hidden;">
+</td>
+</tr>
+<tr>
+<td class="menuRight lastTdMenu" align="center" valign="top">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="download-wrapper">
+<div class="bet-go">
+<div class="icon"></div>
+<div class="bet-text"></div>
+</div>
+<div style="clear:both"></div>
+<a href="https://itunes.apple.com/gb/app/geoff-banks-betting/id881898186?mt=8" class="download-btn iphone"></a>
+<a href="https://play.google.com/store/apps/details?id=com.geoff_banks.geoffbanks&hl=en&fbclid=IwAR0JszrW-uOKRbaXTVXZlOTTaRQSRXIoOQBn2J3SAPaZlGNnUM7IrsBjeSs" class="download-btn android"></a>
+</div>
+</td>
+</tr>
+</table>
+<table class="footer-tbl" cellpadding="0" cellspacing="0" style="width:100%;border:0;margin-bottom:5px;padding-bottom:5px;">
+<tr>
+<td class="footerInner">
+<table style="width:100%;padding-top:5px;padding-bottom:5px;" cellpadding="0" cellspacing="0" border="0">
+<tr class="mob-show">
+<td class="center">
+<a class="mob-to-top mob-white-hover" href="#">Back to Top</a>
+</td>
+</tr>
+<tr class="mob-show mob-footer-menu">
+<td class="center">
+<a class="mob-white mob-white-hover" href="/about.asp">About Us</a>
+<a class="mob-white mob-white-hover" href="/contact.asp">Contact Details</a>
+<a class="mob-white mob-white-hover" href="/tc.asp">Terms &amp; Conditions</a>
+<a class="mob-white mob-white-hover" href="/rules.asp">Betting Rules</a>
+<a class="mob-white mob-white-hover" href="/BOG.asp">Best Odds Guaranteed</a>
+<a class="mob-white mob-white-hover" href="/privacy.asp">Privacy Policy</a>
+<a class="mob-white mob-white-hover" href="/cookies.asp">Cookie Policy</a>
+<a class="mob-white mob-white-hover" href="http://www.gamcare.org.uk/get-support/yourself#.VS-5ldLBzRY">Responsible Gambling</a>
+<a class="mob-white mob-white-hover" href="/help/default.asp">Help</a>
+<a class="mob-white mob-white-hover" href="/jobs.asp">Jobs at Geoff Banks</a>
+</td>
+</tr>
+<tr>
+<td style="width:26%;" class="center mob-hide">
+<a href="http://www.ibas-uk.com/" target="_blank"><img src="https://i.imgur.com/fbgeMo5.png"></a>
+</td>
+<td class="mob-hide">
+<a href="http://www.gamcare.org.uk/" target="_blank"><img src="/img/18.png"></a>
+</td>
+<td class="mob-cell mob-wd100p" style="width:48%;" class="center">
+<div class='mob-gray' style="margin-left:0px;">
+&copy; Copyright 2019, <a class='mob-gray' href="http://www.geoff-banks.com">Geoff Banks</a>
+<br />All Rights Reserved <p>
+This site is Licenced and Regulated by the UK Gambling Commission
+</div>
+</td>
+<td class="mob-hide" style="width:48%;" class="center">
+<div style="margin-left:0px;">
+&copy; Copyright 2019, <a href="http://www.geoff-banks.com">Geoff Banks</a>
+<br />All Rights Reserved <p>
+This site is Licenced and Regulated by the UK Gambling Commission
+</div>
+</td>
+<td class="mob-hide">
+<a href="https://www.facebook.com/geoff.racecourse/"><img src="../img/Facebookbutton.png" alt="FacebookButton" style="width:90px;height:40px;"></a>
+</td>
+<td class="mob-hide">
+<div style="width:5px;height:40px;">
+</div>
+</td>
+<td class="mob-hide">
+<a href="https://twitter.com/BetGeoffBanks"><img src="../img/twitterB.png" alt="TwitterButton" style="width:90px;height:40px;"></a>
+</td>
+<td class="mob-hide" style="width:26%;">
+<a href=https://secure.gamblingcommission.gov.uk/gccustomweb/PublicRegister/PRSearch.aspx?ExternalAccountId=1839><img src=https://i.imgur.com/byftTYX.png?1></a>
+</td>
+</tr>
+<tr class="mob-show mob-footer-sites">
+<td class="mob-wd100p center">
+<a href="http://www.ibas-uk.com/" target="_blank"><img src="/img/ibas.png"></a>
+<a href=https://secure.gamblingcommission.gov.uk/gccustomweb/PublicRegister/PRSearch.aspx?ExternalAccountId=1839><img src=https://i.imgur.com/byftTYX.png?1></a>
+<a href="http://www.gamcare.org.uk/" target="_blank"><img src="/img/Gamcare-logo.png"></a>
+<a href="http://www.gamcare.org.uk/" target="_blank"><img src="/img/18plus1.png"></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<script type="text/javascript">
+	if ( navigator.userAgent.match(/Android/i)
+		 || navigator.userAgent.match(/webOS/i)
+		 || navigator.userAgent.match(/iPhone/i)
+		 || navigator.userAgent.match(/iPad/i)
+		 || navigator.userAgent.match(/iPod/i)
+		 || navigator.userAgent.match(/BlackBerry/i)
+		 || navigator.userAgent.match(/Windows Phone/i)
+		 ) {			
+	}
+	else{
+		var scriptAddChat = document.createElement( 'script' );
+		scriptAddChat.type = 'text/javascript';
+		scriptAddChat.async = true;
+		scriptAddChat.src = 'https://mylivechat.com/chatwidget.aspx?hccid=12071624';
+		document.body.appendChild(scriptAddChat);	
+	}
+</script>
+</td>
+</tr>
+</table>
+<script language="JavaScript" type="text/javascript">
+	$(document).ready(function(){
+		$('.resultMessage').removeClass('hidden');
+		
+		if (navigator.userAgent.match(/webOS/i)
+		 || navigator.userAgent.match(/iPhone/i)
+		 || navigator.userAgent.match(/iPad/i)
+		 || navigator.userAgent.match(/iPod/i)
+		 ) {		
+			$('body').append('<link rel="stylesheet" href="/css/ios-click-fix.css" type="text/css" />');
+		}
+	});
+</script>
+<div id="slipFrame" style="position:fixed;right:0px;height:100%;border:1px #ffffff solid;overflow:hidden; margin-right:-100%">
+<iframe src="/events/bettingslip.asp" id="slipInner" style="width:100%;border:0;overflow-x:hidden;overflow-y:scroll;height:100%;"></iframe>
+</div>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/scripts/bets-count.js"></script>
+<script type="text/javascript" src="/scripts/global.js?v=2.4"></script>
+<script type="text/javascript" src="/scripts/jquery/1.7.2/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="/scripts/idle.js"></script>
+<script src="/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            $('.jcarousel-index-slides').jcarousel({
+                wrap: 'circular'
+            }).jcarouselAutoscroll({
+                interval: 2000,
+                target: '+=1',
+                autostart: true
+            });
+        });
+    })(jQuery);
+</script>
+<script type="text/javascript">
+
+	var ur_IdleMultiply = false;
+	var ur_AwayStop = false;
+	var ur_IdleMultiplier = 3;
+	var ur_AwayMultiplier = 10;
+
+	setIdleTimeout(5*60*1000);
+	setAwayTimeout(15*60*1000);
+	document.onIdle = function() {ur_IdleMultiply=true;} //$('#divIdleWarning').show();
+	document.onAway = function() {ur_AwayStop=true;} //$('#divIdleWarning').show();
+	document.onBack = function(isIdle, isAway) {
+		if (isIdle) { ur_IdleMultiply=false; } //$('#divIdleWarning').hide();
+		if (isAway) { ur_AwayStop=false; } //$('#divIdleWarning').hide();
+	}
+	
+	var focused = true;
+	var updateableRegions = new Array(["upRegNextRace","/Ajax/Next/Races/?limit=5&sportcode=H,h","",300000,0],["upRegNextGreyhoundRace","/Ajax/Next/Races/?limit=3&sportcode=g,q","",300000,0],["panel-featured","/Ajax/Next/Featured/","",300000,0],["upRegNextMiddleEvent","/Ajax/Next/HomeMiddleEvent/","",300000,0],["upRegNextHomeEv","/Ajax/Next/HomeEvent/?urid=upRegNextHomeEv","",5000,0],["upRegNextLaterRecing","/Ajax/Next/HomeLastRaces/?limit=3&sportcode=h","",300000,0],["upRegNextMobHorse","/Ajax/Next/HomeEvent/?urid=upRegNextMobHorse&parentPage=homepage","",5000,0],["upRegNextDogRace","/Ajax/Next/Dogs/?urid=upRegNextDogRace","",10000,0]);
+	
+	var regionId				= 0;
+	var regionUrl				= 1;
+	var regionUpdated			= 2;
+	var regionPeriod			= 3;
+	var regionSkippedUpdates	= 4;
+	
+	var ajaxTimeout		= 10000;
+
+	window.onfocus = window.onblur = function(e) {
+		focused = (e || event).type === "focus";
+	}
+	
+	$(function() {
+		//$(".menuExpandable").slideUp(1);
+		//$("#slipFrame").hide();
+		//$("#slipFrame").animate({"margin-right":'-=100%'});
+	});
+	
+	$(document).on('click', 'body', function(e){
+		if ((!$(e.target).is("#slipFrame")) && (!$(e.target).is("#slipInner")) && (!$(e.target).is(".showSlip")) && !$(e.target).is(".notify-badge")&& !$(e.target).is(".mob-notify-bet") && !$(e.target).is(".betWithoutSlip")) {
+			//$("#slipFrame").slideUp(250);
+			var slipFrameMagrinRight = $('#slipFrame').css('margin-right');
+			if(!(slipFrameMagrinRight.substring(0,1) == '-')){
+				$("#slipFrame").animate({"margin-right":'-=100%'});
+			}				
+		}
+		if ($(e.target).is(".showSlip")||$(e.target).is(".notify-badge")||$(e.target).is(".mob-notify-bet") || $(e.target).is(".betWithoutSlip")) {
+
+			var href = $(e.target).attr("href");
+			if($(e.target).is(".notify-badge") || $(e.target).is(".mob-notify-bet")){
+				href = $(e.target).parents('.showSlip').attr('href');
+			}
+			if (href !="" && href != undefined) {
+				$("#slipInner").attr("src", href);
+				if($(e.target).is(".betWithoutSlip")){
+					getBetResult(href);
+				}
+			}
+			if(!$(e.target).is(".betWithoutSlip")){
+				//$("#slipFrame").slideDown(2000);
+				var slipFrameMagrinRight = $('#slipFrame').css('margin-right');
+				$("#slipFrame").animate({"margin-right":'+=100%'});
+				$(".focused").focus();
+			}			
+			e.preventDefault();
+		}
+		
+		
+	});
+	
+	
+	
+
+	
+	var refreshMarket = function(iReg){
+	
+		var regSettings = updateableRegions[iReg];
+		
+		if (ur_AwayStop)
+		{
+			if (regSettings[regionSkippedUpdates] < (ur_AwayMultiplier-1))
+			{
+				regSettings[regionSkippedUpdates]++;
+				updateableRegions[iReg] = regSettings;
+				MarketUpdateComplete(iReg)();
+				return;
+			}
+		}
+		else if (ur_IdleMultiply)
+		{
+			if (regSettings[regionSkippedUpdates] < (ur_IdleMultiplier-1))
+			{
+				regSettings[regionSkippedUpdates]++;
+				updateableRegions[iReg] = regSettings;
+				MarketUpdateComplete(iReg)();
+				return;
+			}
+		}
+		
+		regSettings[regionSkippedUpdates]=0;
+		updateableRegions[iReg] = regSettings;
+		
+		$.ajax({
+			url:regSettings[regionUrl],
+			success:
+				MarketUpdateSuccess(iReg),
+			complete:
+				MarketUpdateComplete(iReg),
+			error:
+				MarketUpdateError(iReg)
+			});
+			
+		}
+	
+	var MarketUpdateSuccess = function(iReg) {
+		return function(result,status,xhr) {
+			var regSettings = updateableRegions[iReg];
+			if (xhr.status == 200)
+				{
+				notifySuccess(iReg);
+
+				if (xhr.status != 204)
+					{
+					$("#"+regSettings[regionId]).html(result);
+					}
+				}
+			}
+		}
+	
+	var MarketUpdateComplete = function(iReg) {
+		return function(){
+			var regSettings = updateableRegions[iReg];
+			setTimeout('refreshMarket(' + iReg + ');', regSettings[regionPeriod]);
+			if($('[data-toggle="tooltip"]').length>0){
+				$('[data-toggle="tooltip"]').tooltip();
+			}	
+			if($('.tableEventHeader.first',$('[data-odds="true"]').parents('.table-inner')).length>0){
+				$('.tableEventHeader.first',$('[data-odds="true"]').parents('.table-inner')).each(function(){
+					if(!$(this).hasClass('odds-best')){
+					$(this).addClass('odds-best');
+					$(this).html($(this).text()+'<span class="odds-text"> (BEST ODDS GUARANTEED)</span>');					
+					}
+				})
+			}
+
+			if($('.mob-pl10.bestOddGuaranteed',$('[data-odds="true"]').parents('.table-inner')).length>0){
+				$('.mob-pl10.bestOddGuaranteed',$('[data-odds="true"]').parents('.table-inner')).each(function(){
+					if(!$(this).hasClass('odds-best')){
+					$(this).addClass('odds-best');
+					$(this).html($(this).text()+'<span class="odds-text" style="font-weight:bold;" > (BEST ODDS GUARANTEED)</span>');					
+					}
+				})
+			}
+			
+			if($('.mob-white.mob-center.bestOddGuaranteed',$('[data-odds="true"]').parents('.table-inner')).length>0){
+				$('.mob-white.mob-center.bestOddGuaranteed',$('[data-odds="true"]').parents('.table-inner')).each(function(){
+					if(!$(this).hasClass('odds-best')){
+					$(this).addClass('odds-best');
+					$(this).html($(this).text()+'<span class="odds-text" style="font-weight:bold;" > (BEST ODDS GUARANTEED)</span>');					
+					}
+				})
+			}
+			
+			
+		}
+	}
+	
+	var MarketUpdateError = function(iReg) {
+		return function(xhr,status) {
+		
+			var regSettings = updateableRegions[iReg];
+		
+			}
+		}
+	
+	function notifySuccess(iReg) {
+		var regSettings = updateableRegions[iReg];
+		d = new Date();
+		regSettings[regionUpdated] = d.getTime()/1000;
+		updateableRegions[iReg] = regSettings;
+		}
+		
+	function startUpdateRegions() {
+		for (var i=0;i<updateableRegions.length;i++)
+			{
+				refreshMarket(i);
+			}
+		}
+		
+	function changeRegionPeriod(forId, newPeriod) {
+			
+			for (var i=0;i<updateableRegions.length;i++) {
+					if (updateableRegions[i][regionId] == forId) {
+						updateableRegions[i][regionPeriod] = newPeriod;
+						//return;
+					}
+				}
+			
+		}
+		
+	function changeRegionSourceAndUpdate(forId, newSource) {
+		
+			for (var i=0;i<updateableRegions.length;i++) {
+			
+					var regSettings = updateableRegions[i];
+					
+					if (regSettings[regionId] == forId) {
+						$("#"+regSettings[regionId]).html('<img src="/images/loading.gif" alt="" style="margin:auto;width:30px;height:13px;" />');
+						updateableRegions[i][regionUrl] = newSource;
+						refreshMarket(i);
+						//return;
+					}
+				}
+			
+			
+			
+		}
+
+	var timeDifference;
+	var calcServerTime;
+	var clockTimer=null;	
+
+	function sClock()
+	{
+
+		var initialServerTime = new Date(2019, 1, 21, 18, 36, 48);
+		
+		setTimeDifference(initialServerTime.getTime());
+		
+		if(clockTimer){clearInterval(clockTimer);clockTimer=null;}
+		clockTimer=setInterval("clockWork();",1000);
+	  
+	}
+
+	function setTimeDifference(theServerTime)
+	{
+		var d = new Date();
+		timeDifference = (d.getTime() - theServerTime);
+	}
+	
+	function formatTimeDifference(earlierDate, laterDate) 
+	{
+		var oDiff = new Object();
+
+		var nTotalDiff = laterDate.getTime() - earlierDate.getTime();		
+		
+		if (nTotalDiff<0) {nTotalDiff=0;}
+		
+		oDiff.totalseconds = Math.floor(nTotalDiff / 1000);
+
+		oDiff.days = Math.floor(nTotalDiff / 1000 / 60 / 60 / 24);
+		nTotalDiff -= oDiff.days * 1000 * 60 * 60 * 24;
+
+		oDiff.hours = Math.floor(nTotalDiff / 1000 / 60 / 60);
+		nTotalDiff -= oDiff.hours * 1000 * 60 * 60;
+
+		oDiff.minutes = Math.floor(nTotalDiff / 1000 / 60);
+		nTotalDiff -= oDiff.minutes * 1000 * 60;
+
+		oDiff.seconds = Math.floor(nTotalDiff / 1000);
+				
+		var hourtext = ''; // = '00:';
+		if (oDiff.days > 0) {hourtext = '00:'}
+		if (oDiff.hours > 0){ hourtext = twoDigit(oDiff.hours) + ':';}
+		//if (hourtext.length == 1){hourtext = '0' + hourtext};
+
+		var mintext = '00';
+		if (oDiff.minutes > 0){ mintext = twoDigit(oDiff.minutes);}
+		//if (mintext.length == 1) { mintext = '0' + mintext };
+
+		var sectext = '00';
+		if (oDiff.seconds > 0) { sectext = twoDigit(oDiff.seconds); }
+		//if (sectext.length == 1) { sectext = '0' + sectext };
+
+		var sDuration;
+		
+		if (oDiff.days>0)
+		{
+			if (oDiff.days>1)
+			{
+				sDuration = oDiff.days + ' days left.';
+			}
+			else
+			{
+				sDuration = "1 day " + hourtext + mintext + ':' + sectext;
+			}
+		}
+		else
+		{
+			sDuration = hourtext + mintext + ':' + sectext;
+		}
+		
+		oDiff.duration = sDuration;
+
+		return oDiff;
+	}
+
+	function twoDigit(_v)
+	{
+	  if(_v<10)_v="0"+_v;
+	  return _v;
+	}
+
+	function clockWork()
+	{
+
+		if (!document.layers && !document.all && !document.getElementById) return;
+
+		var runTime = (new Date()).getTime();
+		calcServerTime = new Date(runTime - timeDifference);
+
+		var dn = " AM"
+
+		var hours = calcServerTime.getHours();
+		if (hours>12) { hours -= 12; dn=" PM"; }
+		var minutes = twoDigit(calcServerTime.getMinutes());
+		var seconds = twoDigit(calcServerTime.getSeconds());
+
+		$("#serverClock").html(hours + ":" + minutes + ":" + seconds + dn);
+
+		$(".ur_Countdown").each(function() {
+			
+			var evOffDt = $(this).data("time"); //$.parseJSON();
+			var cdDate = new Date( evOffDt.year, evOffDt.month, evOffDt.day, evOffDt.hour, evOffDt.minute, evOffDt.second );
+			var dtDiff = formatTimeDifference(calcServerTime, cdDate);			
+			if (dtDiff.totalseconds<=0)
+				{
+					$(this).addClass('red');
+					$(this).html('Last chance to bet');
+				}
+			else 
+				{
+				$(this).html(dtDiff.duration);
+				if (dtDiff.totalseconds<=180)
+					{
+						$(this).addClass('red');
+					}
+				else
+					{
+						$(this).removeClass('red');
+					}
+				}
+				
+		});
+
+	}	
+	
+	//redirect to https
+	//TODO:: Uncomment in live site
+	if (location.protocol != 'https:'){
+		location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+	}
+			
+	function getCookie(name) {
+        var prefix = name + "=";
+        var cookieStartIndex = document.cookie.indexOf(prefix);
+        if (cookieStartIndex == -1) return null;
+        var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length);
+        if (cookieEndIndex == -1) cookieEndIndex = document.cookie.length;
+        return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex));
+    }
+	
+	
+	
+
+	
+	$(document).ready(function(){
+			//$('script[src="/cdn-cgi/apps/head/Q3QZWvTCJxpiw4r3JOmm7wfvUdQ.js"]').remove();
+			sClock();
+			
+			$.ajaxSetup({
+				timeout:ajaxTimeout,
+				dataType:"html"
+				});
+				
+			setTimeout('startUpdateRegions();', 100);
+			
+			
+			// get message from iframe
+			function receiveMessage(event){				
+				if($(window).width() > 768 && event.data == "Check" && $("#slipInner").is(":visible")==true){
+					var iFrame=document.getElementById("slipInner");
+					if(typeof iFrame != 'undefined')
+					{						
+						iFrame.contentWindow.SetFocus();
+					}
+				}							
+			}
+			window.addEventListener("message", receiveMessage, false);
+			
+			var maxHeight = Math.max.apply(null, $(".race-nav .link").map(function ()
+			{
+				return $(this).height();
+			}).get());
+			$('.race-nav .title-block').height(maxHeight);
+		
+			$(document).on('mouseover', '.race-nav .title-content', function (e){
+				e.preventDefault();
+				$('.race-nav .link').removeClass('active');
+				$(this).parents('.link').addClass('active');
+				var datatitle= $(this).parents('.link').data('racetitle');
+				$('.race-events .race-block').addClass('inactive');
+				$("[data-racecontent='" + datatitle +"']").removeClass('inactive');
+			});
+			$(document).on('mouseleave', '.race-events', function (e){
+				e.preventDefault();			
+				$('.race-nav .link').removeClass('active');						
+				$('.race-events .race-block').addClass('inactive');				
+			});	
+				
+			$('.mob-left-menu').height($(window).height());	
+			$('.menu-close-block').height($(window).height());			
+			//$('#slipFrame').height($(window).height()*0.76);
+			
+		}());
+
+	
+	// Google Analytics
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-5825853-4']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-44817972-1']);
+	_gaq.push(['_setDomainName', 'geoff-banks.com']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+
+</script>
+
+<span id="wts568211"></span><script type="text/javascript">
+var wtsh = {};
+wtsh['invisible']='#';
+wtsh['page_name']='#';
+wtsh['page_group']='#';
+wtsh['conversion_number']='#';
+wtsh['custom']='#';
+var wts=document.createElement('script');wts.type='text/javascript';
+wts.async=true;wts.src='//server3.web-stat.com/2/568211/log6.js';
+document.getElementById('wts568211').appendChild(wts);
+</script><noscript><a href="http://www.web-stat.net">
+<img src="//server3.web-stat.com/6/2/568211.gif" 
+style="border:0px;" alt=""></a></noscript>
+
+
+<span class='mob-hide'>Please enter pin no.</span>
+
+
+<div class="modal fade" id="pinModal" tabindex="-1" role="dialog" aria-labelledby="pinodalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel">Login with Pin No</h4>
+</div>
+<form name="pingeneration" id="pingeneration" method="post">
+<div class="modal-body">
+<div class="alert" role="alert" id="divLoginPinMessage" style="display:none;"></div>
+<div id="divForm">
+<div class="form-group">
+<label for="usr">Pin No.:</label>
+<input type="password" class="form-control required" id="userpasswordPin" name="userpasswordPin" maxlength="20" />
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" id="btn_LoginPin" name="btn_LoginPin" value="LoginPin" class="btn btn-primary">Login</button>
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+         $(document).ready(function () {							
+            $("#btn_SavePin").click(function () {
+                var userPinNo = $("#userPin").val().trim();
+                var confirmUserPin = $("#confirmUserPin").val().trim();
+
+                $("#divMessage").html('');
+                $("#divMessage").hide();
+				$("#divMessage").removeClass("alert-danger");
+				$("#divMessage").removeClass("alert-success")
+				
+                var message = '';
+                if (userPinNo == "") {
+                    message = "Please enter Pin No.";
+                    $("#divMessage").show();
+                }
+                else if (confirmUserPin == "") {
+                     message = "Please enter Confirm Pin No.";                 
+                }
+                else if (userPinNo != confirmUserPin) {
+                    message = "Pin No. and confirm Pin No. not match.";
+                }
+
+                if (message != '') {
+                    $("#divMessage").html(message);
+					$("#divMessage").addClass("alert-danger")
+                    $("#divMessage").show();
+                    return false;
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "includes/userpin.asp",
+                    data: { PinNo: userPinNo,confirmUserPin:confirmUserPin },
+                    dataType: "html",
+                    async: false,
+                    success: function (data) {
+						if(data=="-2"){
+						  $("#divMessage").html("Pin No. and confirm Pin No. not match.");
+						  $("#divMessage").addClass("alert-danger")
+                          $("#divMessage").show();
+						}
+						if(data=="-1"){
+						  $("#divMessage").html("Pin No. must contain at least 2 Letters, 4 numbers one special charachter.");
+						  $("#divMessage").addClass("alert-danger")
+                          $("#divMessage").show();
+						}
+                        if(data=="0"){
+						  $("#divMessage").html("Pin No. already exists");
+						  $("#divMessage").addClass("alert-danger")
+                          $("#divMessage").show();
+						}
+						else if(data=="1"){
+						  $("#divMessage").html("Pin No. has been changed successfully.");
+							$("#divMessage").addClass("alert-success");
+							$("#divMessage").show();
+							$("#btn_SavePin").hide();
+							$("#divForm").hide();
+						}
+                    },
+                    error: function (data) { }
+                });
+            });
+			
+			$("#btn_LoginPin").click(function () {
+			  $("#divLoginPinMessage").html("");
+                if ($("#userpasswordPin").val() == "") {
+                    $("#divLoginPinMessage").html("Please enter Pin No.");
+					$("#divLoginPinMessage").addClass("alert-danger");
+					$("#divLoginPinMessage").show();
+                    return false;
+                }
+				// debugger;
+                $.ajax({
+                    type: "POST",
+                    url: "includes/loginWithPin.asp",
+                    data: { PinNo: $("#userpasswordPin").val() },
+                    dataType: "html",
+                    async: false,
+                    success: function (data) {
+					// debugger;
+                        if (data == "0") {
+                            $("#divLoginPinMessage").html("Invalid Pin No.");
+                            $("#divLoginPinMessage").addClass("alert-danger")
+                            $("#divLoginPinMessage").show();
+							return false;
+                        }
+                        else if (data == "1") {
+						window.location = "https://geoff-banks.com/home.asp?Login=true";
+						  
+                           return true;
+                        }
+                    },
+                    error: function (data) {
+					return false;
+					}
+                });
+			});
+        });
+    </script>
+
+<div id="login-modal" class="modal fade" tabindex="-1" style="overflow-y: inherit; padding-right: 0;">
+<div class="login-content">
+<img class="login-img" src="/img/login.png">
+<form action="/home.asp?Login=true" method="post" name="frmLogin" id="frmLogin">
+<div class="login-block">
+<h3>Login</h3>
+<input name="cust_ref" type="text" maxlength="35" class="log-inp" />
+<input name="password" type="password" maxlength="35" class="log-inp" />
+<a href="/fpassword.asp" class="headerLogin">Lost Details?</a>
+<div class="clear"></div>
+<input type="submit" class="btn btn-success" style="width:135px;" value="Log in" />
+<button type="button" class="btn btn-success" onclick="location.href='https://geoff-banks.com/register.asp';" style="width:135px;">Register</button>
+</div>
+</form>
+</div>
+</div>
+<div id="placed-modal" class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" style="overflow-y: inherit; padding-right: 0;">
+<div class="bet-placed-content">
+<div class="bet-placed-content-message"><span>BET PLACED !</span></div>
+<div style="margin:10px 0" id="divBetDetail"></div>
+<div>
+<p style="font-size: 13px;color:gray;">Popup message will be closed in <span id="countdowntimer"></span> Seconds</p>
+<button type="button" class="btn btn-warning" onclick="hideBetMessage();" style="width:135px;">Close Message</button>
+</div>
+</div>
+</div>
+<script>	
+		$(document).on('click', '.hamburger', function(){		
+
+		if($('#panel-sports #main-sidebar').length == 0 && $('#panel-sports .deep-sidebar').length == 0){
+			if($('.deep-sidebar').length != 0){
+				$('.deep-sidebar').clone().prependTo('#panel-sports');
+			}
+			else {
+				$('#main-sidebar').clone().prependTo('#panel-sports');			
+			}	
+		}	
+		$(this).toggleClass('active');
+		$('.Outertable').toggleClass('menu-open');
+		$('.body-wrapper').toggleClass('over-hid');
+		$('.mob-left-menu').toggleClass('active');
+		$('.over-hid').height($(window).height());
+		return false;
+	});
+	$(document).on('click', '.menu-close-block', function(){		
+		$('.hamburger').toggleClass('active');
+		$('.Outertable').toggleClass('menu-open');
+		$('.body-wrapper').toggleClass('over-hid');
+		$('.mob-left-menu').toggleClass('active');
+	});
+	$(document).on('click', '[data-toggle-event]', function(){
+		var closeTr = $(this).closest("tr");
+		var nextTd = closeTr.next("tr").first();
+		closeTr.find('i').toggleClass('glyphicon-triangle-left').toggleClass('glyphicon-triangle-bottom');	
+		nextTd.toggleClass('active-event-menu');
+		return false;
+	});
+
+    
+	function OpenMobLogin(){			
+		//$('#slipFrame').hide();
+		$("#slipFrame").animate({"margin-right":'-=100%'});
+		$('#login-modal').modal('show');
+	}
+
+	function setBetSlipHeight(height){
+		$('#slipFrame').height(height);
+	}
+	
+	function BetPlaced(custBalance, betTypeSum, wagerListCSV, betTypeDetailsCSV){
+		var wagerNames = wagerListCSV.split(":::");
+		var betTypeDetail = betTypeDetailsCSV.split(":::");
+		var betDetailHTML = "<div class='clearfix' style='margin-bottom:10px;'>";
+		betDetailHTML = betDetailHTML + "<span style='font-weight:bold;'>You just placed bet for below matches:</span>";
+		for(i=1; i < wagerNames.length; i++){
+			 betDetailHTML = betDetailHTML + "<div class='clearfix'><span style='float:left;font-size:13px;'>"+ i + ". " + wagerNames[i] +"</span></div>";
+		}
+		betDetailHTML = betDetailHTML + "</div>";
+		
+		betDetailHTML = betDetailHTML + "<span style='font-weight:bold;'>Bet Amount Details: </span>";
+		
+		for(i=1; i < betTypeDetail.length; i++){
+			var bet = betTypeDetail[i].split("=");
+			 betDetailHTML = betDetailHTML + "<div class='clearfix'><div class='clearfix'><span style='float:left;'>" + bet[0] + "</span><span style='float:right;'>" + bet[1].replace("Â£", "&pound;") + "</span></div>";
+		}
+		betDetailHTML = betDetailHTML + "<div class='clearfix'><div class='clearfix'><span style='float:left;'></span><span style='float:right;'></span></div>";
+		betDetailHTML = betDetailHTML + "<div class='clearfix'><div class='clearfix'><span style='float:left;font-weight:bold;'>Total Payment</span><span style='float:right;font-weight:bold;'>" + betTypeSum + "</span></div>";
+		betDetailHTML = betDetailHTML + "<div class='clearfix'><div class='clearfix'><span style='float:left;font-weight:bold;'>Current Balance</span><span style='float:right;font-weight:bold;'>" + custBalance + "</span></div>";
+		betDetailHTML = betDetailHTML + "</div>";
+		
+		$('#divBetDetail').html(betDetailHTML);
+		
+		$('#placed-modal').modal('show');		
+		$('#slipFrame').css('z-index', 1);
+		
+		var timeleft = 10;
+		var downloadTimer = setInterval(function(){
+		
+		timeleft--;
+		$('#countdowntimer').html(timeleft);
+		if(timeleft <= 0)
+			clearInterval(downloadTimer);
+			if(timeleft == 0) hideBetMessage();
+		},1000);
+	}
+	
+	function hideBetMessage(){
+		$('#placed-modal').modal('hide');
+		//$("#slipFrame").slideUp(200);
+		$("#slipFrame").animate({"margin-right":'-100%'});
+		$('#slipFrame').css('z-index', 9999);
+	}
+
+</script>
+</div>
+</body>
+</html>
+<style>
+	.vertical-alignment-helper {
+		display:table;
+		height: 50%;
+		width: 100%;
+		pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+	}
+	.vertical-align-center {
+		/* To center vertically */
+		display: table-cell;
+		vertical-align: middle;
+		pointer-events:none;
+	}
+	.modal-content {
+		/* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+		width:inherit;
+		max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+		height:inherit;
+		/* To center horizontally */
+		margin: 4% 4%;
+		pointer-events: all;
+	}
+	.modal-footer { background-color:#eff2f5; border-top: 1px solid #58738d !important;}
+
+	.modal {
+	text-align: center;
+	padding: 0!important;
+	}
+
+	.modal:before {
+	content: '';
+	display: inline-block;
+	height: 30%;
+	vertical-align: middle;
+	margin-right: -4px;
+	}
+
+	.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	}
+
+</style>
+
+<div class="modal fade" id="bogModalHome" data-backdrop="static" role="dialog" data-keyboard="false" tabindex="-1">
+<div class="vertical-alignment-helper">
+<div class="modal-dialog vertical-align-center">
+
+<div class="modal-content">
+<div class="modal-body" style="color: #000;background-color: #39ABD6;font-weight:bold;font-size:18px;">
+Best Odds Guaranteed for Single Wagers on your Selection.
+</div>
+<div class="modal-footer" style="width:100%;text-align:center;">
+<div style="display:inline-block;">
+<p style="font-size: 13px;color:gray;">Popup message will be closed in <span id="countdowntimer-home"></span> Seconds</p>
+<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script language="javascript">
+	function showBOGMessage(){
+		$('#bogModalHome').modal('show');
+		var timeleft = 3;
+		var downloadTimer = setInterval(function(){
+		
+		timeleft--;
+		$('#countdowntimer-home').html(timeleft);
+		if(timeleft <= 0)
+			clearInterval(downloadTimer);
+			if(timeleft == 0) hideBOGMessage();
+		},1000);
+	};
+	
+	function hideBOGMessage(){
+		$('#bogModalHome').modal('hide');
+	}
+		
+
+</script>
