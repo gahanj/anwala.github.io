@@ -1,0 +1,401 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.27)  24 MAR 2019 23:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**a5_report.tex
+(./a5_report.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count88
+\lst@gtempboxa=\box28
+\lst@token=\toks17
+\lst@length=\count89
+\lst@currlwidth=\dimen105
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen108
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(./a5_report.aux)
+\openout1 = `a5_report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen109
+\scratchbox=\box30
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen110
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count102
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 48.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+
+ []
+
+[3]
+<resources/myplot17.png, id=20, 642.4pt x 481.8pt>
+File: resources/myplot17.png Graphic file (type png)
+<use resources/myplot17.png>
+Package pdftex.def Info: resources/myplot17.png  used on input line 136.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot16.png, id=21, 642.4pt x 481.8pt>
+File: resources/myplot16.png Graphic file (type png)
+<use resources/myplot16.png>
+Package pdftex.def Info: resources/myplot16.png  used on input line 140.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot15.png, id=22, 642.4pt x 481.8pt>
+File: resources/myplot15.png Graphic file (type png)
+<use resources/myplot15.png>
+Package pdftex.def Info: resources/myplot15.png  used on input line 144.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot14.png, id=23, 642.4pt x 481.8pt>
+File: resources/myplot14.png Graphic file (type png)
+<use resources/myplot14.png>
+Package pdftex.def Info: resources/myplot14.png  used on input line 148.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot13.png, id=24, 642.4pt x 481.8pt>
+File: resources/myplot13.png Graphic file (type png)
+<use resources/myplot13.png>
+Package pdftex.def Info: resources/myplot13.png  used on input line 152.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot12.png, id=25, 642.4pt x 481.8pt>
+File: resources/myplot12.png Graphic file (type png)
+<use resources/myplot12.png>
+Package pdftex.def Info: resources/myplot12.png  used on input line 156.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot11.png, id=26, 642.4pt x 481.8pt>
+File: resources/myplot11.png Graphic file (type png)
+<use resources/myplot11.png>
+Package pdftex.def Info: resources/myplot11.png  used on input line 160.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot10.png, id=27, 642.4pt x 481.8pt>
+File: resources/myplot10.png Graphic file (type png)
+<use resources/myplot10.png>
+Package pdftex.def Info: resources/myplot10.png  used on input line 164.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot9.png, id=28, 642.4pt x 481.8pt>
+File: resources/myplot9.png Graphic file (type png)
+<use resources/myplot9.png>
+Package pdftex.def Info: resources/myplot9.png  used on input line 168.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot8.png, id=29, 642.4pt x 481.8pt>
+File: resources/myplot8.png Graphic file (type png)
+<use resources/myplot8.png>
+Package pdftex.def Info: resources/myplot8.png  used on input line 172.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot7.png, id=30, 642.4pt x 481.8pt>
+File: resources/myplot7.png Graphic file (type png)
+<use resources/myplot7.png>
+Package pdftex.def Info: resources/myplot7.png  used on input line 176.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot6.png, id=31, 642.4pt x 481.8pt>
+File: resources/myplot6.png Graphic file (type png)
+<use resources/myplot6.png>
+Package pdftex.def Info: resources/myplot6.png  used on input line 180.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot5.png, id=32, 642.4pt x 481.8pt>
+File: resources/myplot5.png Graphic file (type png)
+<use resources/myplot5.png>
+Package pdftex.def Info: resources/myplot5.png  used on input line 184.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot4.png, id=33, 642.4pt x 481.8pt>
+File: resources/myplot4.png Graphic file (type png)
+<use resources/myplot4.png>
+Package pdftex.def Info: resources/myplot4.png  used on input line 188.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot3.png, id=34, 642.4pt x 481.8pt>
+File: resources/myplot3.png Graphic file (type png)
+<use resources/myplot3.png>
+Package pdftex.def Info: resources/myplot3.png  used on input line 192.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot2.png, id=35, 642.4pt x 481.8pt>
+File: resources/myplot2.png Graphic file (type png)
+<use resources/myplot2.png>
+Package pdftex.def Info: resources/myplot2.png  used on input line 196.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot1.png, id=36, 642.4pt x 481.8pt>
+File: resources/myplot1.png Graphic file (type png)
+<use resources/myplot1.png>
+Package pdftex.def Info: resources/myplot1.png  used on input line 200.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot18.png, id=37, 642.4pt x 481.8pt>
+File: resources/myplot18.png Graphic file (type png)
+<use resources/myplot18.png>
+Package pdftex.def Info: resources/myplot18.png  used on input line 204.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot19.png, id=38, 642.4pt x 481.8pt>
+File: resources/myplot19.png Graphic file (type png)
+<use resources/myplot19.png>
+Package pdftex.def Info: resources/myplot19.png  used on input line 208.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot20.png, id=39, 642.4pt x 481.8pt>
+File: resources/myplot20.png Graphic file (type png)
+<use resources/myplot20.png>
+Package pdftex.def Info: resources/myplot20.png  used on input line 212.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot21.png, id=40, 642.4pt x 481.8pt>
+File: resources/myplot21.png Graphic file (type png)
+<use resources/myplot21.png>
+Package pdftex.def Info: resources/myplot21.png  used on input line 216.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<resources/myplot22.png, id=41, 642.4pt x 481.8pt>
+File: resources/myplot22.png Graphic file (type png)
+<use resources/myplot22.png>
+Package pdftex.def Info: resources/myplot22.png  used on input line 220.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./resources/myplot17.png (PNG copy)>] [5 <./resources/myplot16.png (PNG cop
+y)> <./resources/myplot15.png (PNG copy)>] [6 <./resources/myplot14.png (PNG co
+py)> <./resources/myplot13.png (PNG copy)>] [7 <./resources/myplot12.png (PNG c
+opy)> <./resources/myplot11.png (PNG copy)>] [8 <./resources/myplot10.png (PNG 
+copy)> <./resources/myplot9.png (PNG copy)>] [9 <./resources/myplot8.png (PNG c
+opy)> <./resources/myplot7.png (PNG copy)>] [10 <./resources/myplot6.png (PNG c
+opy)> <./resources/myplot5.png (PNG copy)>] [11 <./resources/myplot4.png (PNG c
+opy)> <./resources/myplot3.png (PNG copy)>] [12 <./resources/myplot2.png (PNG c
+opy)> <./resources/myplot1.png (PNG copy)>] [13 <./resources/myplot18.png (PNG 
+copy)> <./resources/myplot19.png (PNG copy)>] [14 <./resources/myplot20.png (PN
+G copy)> <./resources/myplot21.png (PNG copy)>] [15 <./resources/myplot22.png (
+PNG copy)>] (./a5_report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3068 strings out of 494923
+ 44788 string characters out of 6180742
+ 142649 words of memory out of 5000000
+ 6345 multiletter control sequences out of 15000+600000
+ 8655 words of font info for 31 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 41i,8n,40p,663b,1637s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+
+Output written on a5_report.pdf (16 pages, 1006106 bytes).
+PDF statistics:
+ 98 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+
